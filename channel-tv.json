@@ -1,0 +1,310 @@
+{
+  "schema": 1,
+  "base": "https://raw.githubusercontent.com/ZZCoreDev/ZZAnime/c73b1a2eabee4e41054d40f66d4888b0e149cf25/",
+  "images": {
+    "featured-art/dragon-ball-z-hero.jpg": {
+      "sha256": "ddfa1db12bd4b6122afed7dc494e7885a83fc7d87b0b36c504bac40ce704d741",
+      "bytes": 468296,
+      "width": 1280,
+      "height": 1835,
+      "file": "images/ddfa1db12bd4b6122afed7dc494e7885a83fc7d87b0b36c504bac40ce704d741.jpg",
+      "preview": "artwork-preview/ddfa1db12bd4b6122afed7dc494e7885a83fc7d87b0b36c504bac40ce704d741.webp"
+    },
+    "featured-art/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-hero.jpg": {
+      "sha256": "6ce6941d8faf554216ce6ff5add23703776d87ebe1328613625533e85ce485c1",
+      "bytes": 291487,
+      "width": 831,
+      "height": 1252,
+      "file": "images/6ce6941d8faf554216ce6ff5add23703776d87ebe1328613625533e85ce485c1.jpg",
+      "preview": "artwork-preview/6ce6941d8faf554216ce6ff5add23703776d87ebe1328613625533e85ce485c1.webp"
+    },
+    "featured-art/kimetsu-no-yaiba-hashira-geiko-hen-hero.jpg": {
+      "sha256": "ac8e53b5abe7a5feaef0a5c5a679fa653aad432e912c325e206513afb71f01a2",
+      "bytes": 647669,
+      "width": 1400,
+      "height": 1980,
+      "file": "images/ac8e53b5abe7a5feaef0a5c5a679fa653aad432e912c325e206513afb71f01a2.jpg",
+      "preview": "artwork-preview/ac8e53b5abe7a5feaef0a5c5a679fa653aad432e912c325e206513afb71f01a2.webp"
+    },
+    "featured-art/kimetsu-no-yaiba-hero.jpg": {
+      "sha256": "da0c05fced27745f49ad6d2f5f13dc9d779fc722bff8f44d39618bdd4678d0e3",
+      "bytes": 529534,
+      "width": 1280,
+      "height": 1619,
+      "file": "images/da0c05fced27745f49ad6d2f5f13dc9d779fc722bff8f44d39618bdd4678d0e3.jpg",
+      "preview": "artwork-preview/da0c05fced27745f49ad6d2f5f13dc9d779fc722bff8f44d39618bdd4678d0e3.webp"
+    },
+    "featured-art/kono-subarashii-sekai-ni-shukufuku-wo-hero.jpg": {
+      "sha256": "300ec1cab9ffab2a750bfea583ddcfd70d3d4dae1772cdf969c9e8cd48d43045",
+      "bytes": 572949,
+      "width": 1500,
+      "height": 1331,
+      "file": "images/300ec1cab9ffab2a750bfea583ddcfd70d3d4dae1772cdf969c9e8cd48d43045.jpg",
+      "preview": "artwork-preview/300ec1cab9ffab2a750bfea583ddcfd70d3d4dae1772cdf969c9e8cd48d43045.webp"
+    },
+    "featured-art/one-piece-hero.jpg": {
+      "sha256": "63d8e76b18c259baa6c089b6195bf068fba73379a03f49cf476e273e44de62cf",
+      "bytes": 942733,
+      "width": 2048,
+      "height": 2897,
+      "file": "images/63d8e76b18c259baa6c089b6195bf068fba73379a03f49cf476e273e44de62cf.jpg",
+      "preview": "artwork-preview/63d8e76b18c259baa6c089b6195bf068fba73379a03f49cf476e273e44de62cf.webp"
+    },
+    "tv-featured-art/dragon-ball-z-wide.jpg": {
+      "sha256": "09eeca8ee424a2433178847834a3e9bd862e29a0ec43405806d02edd5529db5a",
+      "bytes": 247032,
+      "width": 1900,
+      "height": 400,
+      "file": "images/09eeca8ee424a2433178847834a3e9bd862e29a0ec43405806d02edd5529db5a.jpg",
+      "preview": "artwork-preview/09eeca8ee424a2433178847834a3e9bd862e29a0ec43405806d02edd5529db5a.webp"
+    },
+    "tv-featured-art/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-wide.jpg": {
+      "sha256": "397177ad800a494bdb472bdccf14c06aaf58e4cf0dd5c678f0997071a15cec9b",
+      "bytes": 391219,
+      "width": 1900,
+      "height": 680,
+      "file": "images/397177ad800a494bdb472bdccf14c06aaf58e4cf0dd5c678f0997071a15cec9b.jpg",
+      "preview": "artwork-preview/397177ad800a494bdb472bdccf14c06aaf58e4cf0dd5c678f0997071a15cec9b.webp"
+    },
+    "tv-featured-art/kimetsu-no-yaiba-hashira-geiko-hen-wide.jpg": {
+      "sha256": "9abe402fdc42df3af306862ca4604609422d773c5e4124a5756b6ec08619a5a3",
+      "bytes": 276068,
+      "width": 1900,
+      "height": 400,
+      "file": "images/9abe402fdc42df3af306862ca4604609422d773c5e4124a5756b6ec08619a5a3.jpg",
+      "preview": "artwork-preview/9abe402fdc42df3af306862ca4604609422d773c5e4124a5756b6ec08619a5a3.webp"
+    },
+    "tv-featured-art/kimetsu-no-yaiba-wide.jpg": {
+      "sha256": "2c586686a2be90803e913ef687be51556541785a4fe50d8e48ef8113f9e58ee7",
+      "bytes": 363246,
+      "width": 1800,
+      "height": 550,
+      "file": "images/2c586686a2be90803e913ef687be51556541785a4fe50d8e48ef8113f9e58ee7.jpg",
+      "preview": "artwork-preview/2c586686a2be90803e913ef687be51556541785a4fe50d8e48ef8113f9e58ee7.webp"
+    },
+    "tv-featured-art/kono-subarashii-sekai-ni-shukufuku-wo-wide.jpg": {
+      "sha256": "8f6d18f7cb16775d2cb61ba6e85005952371229baa7570a3d170a4b8954e1cc0",
+      "bytes": 283711,
+      "width": 1720,
+      "height": 500,
+      "file": "images/8f6d18f7cb16775d2cb61ba6e85005952371229baa7570a3d170a4b8954e1cc0.jpg",
+      "preview": "artwork-preview/8f6d18f7cb16775d2cb61ba6e85005952371229baa7570a3d170a4b8954e1cc0.webp"
+    },
+    "tv-featured-art/one-piece-wide.jpg": {
+      "sha256": "3e55f5f6fb2d93ff47e53d7ead927b8fdd7216199afd49942695ed26a26e9038",
+      "bytes": 333436,
+      "width": 1900,
+      "height": 400,
+      "file": "images/3e55f5f6fb2d93ff47e53d7ead927b8fdd7216199afd49942695ed26a26e9038.jpg",
+      "preview": "artwork-preview/3e55f5f6fb2d93ff47e53d7ead927b8fdd7216199afd49942695ed26a26e9038.webp"
+    },
+    "featured-discovery/beastars-portrait.jpg": {
+      "sha256": "023963880a4c5b2879099314432152d747c08e77bbd40cff1822bb0bf7977fa9",
+      "bytes": 750569,
+      "width": 2160,
+      "height": 3840,
+      "file": "images/023963880a4c5b2879099314432152d747c08e77bbd40cff1822bb0bf7977fa9.jpg",
+      "preview": "artwork-preview/023963880a4c5b2879099314432152d747c08e77bbd40cff1822bb0bf7977fa9.webp"
+    },
+    "featured-discovery/beastars.jpg": {
+      "sha256": "abbf616b29604f5f2dda077f8abca0df04d504864b7b523d7faa7d757fdcc4af",
+      "bytes": 847349,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/abbf616b29604f5f2dda077f8abca0df04d504864b7b523d7faa7d757fdcc4af.jpg",
+      "preview": "artwork-preview/abbf616b29604f5f2dda077f8abca0df04d504864b7b523d7faa7d757fdcc4af.webp"
+    },
+    "featured-discovery/blue-period-portrait.jpg": {
+      "sha256": "24975d38bb63558b8fa623fe0295fa4b8f91a92073638d1d9c8820f86f86d549",
+      "bytes": 535437,
+      "width": 1446,
+      "height": 2048,
+      "file": "images/24975d38bb63558b8fa623fe0295fa4b8f91a92073638d1d9c8820f86f86d549.jpg",
+      "preview": "artwork-preview/24975d38bb63558b8fa623fe0295fa4b8f91a92073638d1d9c8820f86f86d549.webp"
+    },
+    "featured-discovery/blue-period.jpg": {
+      "sha256": "b233dea3c4cfc2eba0043671dac9472b8b1ab06b54c38a0953706c604e4c0dd1",
+      "bytes": 867754,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/b233dea3c4cfc2eba0043671dac9472b8b1ab06b54c38a0953706c604e4c0dd1.jpg",
+      "preview": "artwork-preview/b233dea3c4cfc2eba0043671dac9472b8b1ab06b54c38a0953706c604e4c0dd1.webp"
+    },
+    "featured-discovery/erased-portrait.jpg": {
+      "sha256": "f340570ba5d51e5c6cb6cc1728aec4ae857bcff1c03723cf376c7d10d3f8d26a",
+      "bytes": 654020,
+      "width": 2000,
+      "height": 2818,
+      "file": "images/f340570ba5d51e5c6cb6cc1728aec4ae857bcff1c03723cf376c7d10d3f8d26a.jpg",
+      "preview": "artwork-preview/f340570ba5d51e5c6cb6cc1728aec4ae857bcff1c03723cf376c7d10d3f8d26a.webp"
+    },
+    "featured-discovery/erased.jpg": {
+      "sha256": "5af67ab7c86bb7efa2849996bc062384d49e5fdf95644792b48c5c93a506b73a",
+      "bytes": 1654917,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/5af67ab7c86bb7efa2849996bc062384d49e5fdf95644792b48c5c93a506b73a.jpg",
+      "preview": "artwork-preview/5af67ab7c86bb7efa2849996bc062384d49e5fdf95644792b48c5c93a506b73a.webp"
+    },
+    "featured-discovery/gatchaman-crowds-portrait.jpg": {
+      "sha256": "fbca878154f1796746349f02dd18bdbeec01f19bc7d8a21de9cae61e463ec2de",
+      "bytes": 484114,
+      "width": 1342,
+      "height": 2265,
+      "file": "images/fbca878154f1796746349f02dd18bdbeec01f19bc7d8a21de9cae61e463ec2de.jpg",
+      "preview": "artwork-preview/fbca878154f1796746349f02dd18bdbeec01f19bc7d8a21de9cae61e463ec2de.webp"
+    },
+    "featured-discovery/gatchaman-crowds.jpg": {
+      "sha256": "658b9006757866fe6da226c6fe13f6a33316d628809e1b7a8f326a188fd0e1df",
+      "bytes": 643785,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/658b9006757866fe6da226c6fe13f6a33316d628809e1b7a8f326a188fd0e1df.jpg",
+      "preview": "artwork-preview/658b9006757866fe6da226c6fe13f6a33316d628809e1b7a8f326a188fd0e1df.webp"
+    },
+    "featured-discovery/kiznaiver-portrait.jpg": {
+      "sha256": "f32241ce053b686539671aa684c5d1a2f24d2fbfb0566db762d7cd4793bb9321",
+      "bytes": 1125864,
+      "width": 1440,
+      "height": 2560,
+      "file": "images/f32241ce053b686539671aa684c5d1a2f24d2fbfb0566db762d7cd4793bb9321.jpg",
+      "preview": "artwork-preview/f32241ce053b686539671aa684c5d1a2f24d2fbfb0566db762d7cd4793bb9321.webp"
+    },
+    "featured-discovery/kiznaiver.jpg": {
+      "sha256": "324d179a5990939779ba207b4d5f8a2d79368a1eae4654c52b55cf93dde54394",
+      "bytes": 1826188,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/324d179a5990939779ba207b4d5f8a2d79368a1eae4654c52b55cf93dde54394.jpg",
+      "preview": "artwork-preview/324d179a5990939779ba207b4d5f8a2d79368a1eae4654c52b55cf93dde54394.webp"
+    },
+    "featured-discovery/little-witch-academia-portrait.jpg": {
+      "sha256": "77bccdde59182290c195182c2fc33f1de8e20fa68fa8951ae060b9b73dd4f907",
+      "bytes": 583917,
+      "width": 1242,
+      "height": 1920,
+      "file": "images/77bccdde59182290c195182c2fc33f1de8e20fa68fa8951ae060b9b73dd4f907.jpg",
+      "preview": "artwork-preview/77bccdde59182290c195182c2fc33f1de8e20fa68fa8951ae060b9b73dd4f907.webp"
+    },
+    "featured-discovery/little-witch-academia.jpg": {
+      "sha256": "ae7fab7536324b0cc461b9fd2c792ac6c6bf24ea33fb965dd99274dae7b05f3b",
+      "bytes": 1440154,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/ae7fab7536324b0cc461b9fd2c792ac6c6bf24ea33fb965dd99274dae7b05f3b.jpg",
+      "preview": "artwork-preview/ae7fab7536324b0cc461b9fd2c792ac6c6bf24ea33fb965dd99274dae7b05f3b.webp"
+    },
+    "featured-discovery/made-in-abyss-portrait.jpg": {
+      "sha256": "530787bb727efcdbf8b1f47318dc19e4f879c082f27a635446ad6e1fd287c3f0",
+      "bytes": 551594,
+      "width": 1284,
+      "height": 2778,
+      "file": "images/530787bb727efcdbf8b1f47318dc19e4f879c082f27a635446ad6e1fd287c3f0.jpg",
+      "preview": "artwork-preview/530787bb727efcdbf8b1f47318dc19e4f879c082f27a635446ad6e1fd287c3f0.webp"
+    },
+    "featured-discovery/made-in-abyss.jpg": {
+      "sha256": "83bfbf26af63b51d7d4635facb904cc08ac37fc618e2f713f202acef9cb31f3f",
+      "bytes": 320295,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/83bfbf26af63b51d7d4635facb904cc08ac37fc618e2f713f202acef9cb31f3f.jpg",
+      "preview": "artwork-preview/83bfbf26af63b51d7d4635facb904cc08ac37fc618e2f713f202acef9cb31f3f.webp"
+    },
+    "featured-discovery/megalo-box-portrait.jpg": {
+      "sha256": "6b2c89663b96bf9d2fb75ae682b7fbefcc07758ce4275663beb6789fe2db92d7",
+      "bytes": 799679,
+      "width": 1920,
+      "height": 2560,
+      "file": "images/6b2c89663b96bf9d2fb75ae682b7fbefcc07758ce4275663beb6789fe2db92d7.jpg",
+      "preview": "artwork-preview/6b2c89663b96bf9d2fb75ae682b7fbefcc07758ce4275663beb6789fe2db92d7.webp"
+    },
+    "featured-discovery/megalo-box.jpg": {
+      "sha256": "7307d2a02566163ff00314a88dfb23402323d0d4ee4939a6c3e32abf6c397d2a",
+      "bytes": 1059444,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/7307d2a02566163ff00314a88dfb23402323d0d4ee4939a6c3e32abf6c397d2a.jpg",
+      "preview": "artwork-preview/7307d2a02566163ff00314a88dfb23402323d0d4ee4939a6c3e32abf6c397d2a.webp"
+    },
+    "featured-discovery/odd-taxi-portrait.jpg": {
+      "sha256": "8d10f76c660eebafd5604bff94c7fb456f29b40740c6acb6d0dd925379460bd5",
+      "bytes": 3144730,
+      "width": 1803,
+      "height": 2560,
+      "file": "images/8d10f76c660eebafd5604bff94c7fb456f29b40740c6acb6d0dd925379460bd5.jpg",
+      "preview": "artwork-preview/8d10f76c660eebafd5604bff94c7fb456f29b40740c6acb6d0dd925379460bd5.webp"
+    },
+    "featured-discovery/odd-taxi.jpg": {
+      "sha256": "5fe7a3ef71184d6db165cefc84507c81ad294b12be0014a221cff12e0bf089a6",
+      "bytes": 5306220,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/5fe7a3ef71184d6db165cefc84507c81ad294b12be0014a221cff12e0bf089a6.jpg",
+      "preview": "artwork-preview/5fe7a3ef71184d6db165cefc84507c81ad294b12be0014a221cff12e0bf089a6.webp"
+    },
+    "featured-discovery/vivy-portrait.jpg": {
+      "sha256": "a657d103ec856232e53907dc1d227ad2ea9412665bee527ea048762ca2e25089",
+      "bytes": 1197553,
+      "width": 1600,
+      "height": 2974,
+      "file": "images/a657d103ec856232e53907dc1d227ad2ea9412665bee527ea048762ca2e25089.jpg",
+      "preview": "artwork-preview/a657d103ec856232e53907dc1d227ad2ea9412665bee527ea048762ca2e25089.webp"
+    },
+    "featured-discovery/vivy.jpg": {
+      "sha256": "ed0c98bd5925c3a19cb9ea1f340979636f03c3be0b59ded9fe649e1dd61e0cdb",
+      "bytes": 728158,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/ed0c98bd5925c3a19cb9ea1f340979636f03c3be0b59ded9fe649e1dd61e0cdb.jpg",
+      "preview": "artwork-preview/ed0c98bd5925c3a19cb9ea1f340979636f03c3be0b59ded9fe649e1dd61e0cdb.webp"
+    },
+    "tv-featured-art/dragon-ball-z-fullscreen.jpg": {
+      "sha256": "cfdd8c623852215a42ca0ec6bfa231e711990cce7eee1bb54415bebc379e32ad",
+      "bytes": 1242312,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/cfdd8c623852215a42ca0ec6bfa231e711990cce7eee1bb54415bebc379e32ad.jpg",
+      "preview": "artwork-preview/cfdd8c623852215a42ca0ec6bfa231e711990cce7eee1bb54415bebc379e32ad.webp"
+    },
+    "tv-featured-art/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-fullscreen.jpg": {
+      "sha256": "18bef96ea6919f772c195cb5e5e4789bbc8362ae0361af69c9f93c822923d5d6",
+      "bytes": 921125,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/18bef96ea6919f772c195cb5e5e4789bbc8362ae0361af69c9f93c822923d5d6.jpg",
+      "preview": "artwork-preview/18bef96ea6919f772c195cb5e5e4789bbc8362ae0361af69c9f93c822923d5d6.webp"
+    },
+    "tv-featured-art/kimetsu-no-yaiba-fullscreen.jpg": {
+      "sha256": "21adc877bb4838270f9d176d5c73a989587943983f18b50d2d03ff0833b0cc2e",
+      "bytes": 942573,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/21adc877bb4838270f9d176d5c73a989587943983f18b50d2d03ff0833b0cc2e.jpg",
+      "preview": "artwork-preview/21adc877bb4838270f9d176d5c73a989587943983f18b50d2d03ff0833b0cc2e.webp"
+    },
+    "tv-featured-art/kono-subarashii-sekai-ni-shukufuku-wo-fullscreen.jpg": {
+      "sha256": "e01e6e576400946f0e9883cf1dd79b34f22089ad6f2efdba74a826d8b2e2a748",
+      "bytes": 1000659,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/e01e6e576400946f0e9883cf1dd79b34f22089ad6f2efdba74a826d8b2e2a748.jpg",
+      "preview": "artwork-preview/e01e6e576400946f0e9883cf1dd79b34f22089ad6f2efdba74a826d8b2e2a748.webp"
+    },
+    "tv-featured-art/naruto-fullscreen.jpg": {
+      "sha256": "af90395de0a879fefaf54f985bc927fe37fcada177741254225431df1f7427f4",
+      "bytes": 815840,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/af90395de0a879fefaf54f985bc927fe37fcada177741254225431df1f7427f4.jpg",
+      "preview": "artwork-preview/af90395de0a879fefaf54f985bc927fe37fcada177741254225431df1f7427f4.webp"
+    },
+    "tv-featured-art/one-piece-fullscreen.jpg": {
+      "sha256": "bb594d8b172aa97f0498c8db65387dade80e8efb12c211e9fff9fdd54e145ece",
+      "bytes": 1561847,
+      "width": 3840,
+      "height": 2160,
+      "file": "images/bb594d8b172aa97f0498c8db65387dade80e8efb12c211e9fff9fdd54e145ece.jpg",
+      "preview": "artwork-preview/bb594d8b172aa97f0498c8db65387dade80e8efb12c211e9fff9fdd54e145ece.webp"
+    }
+  }
+}
