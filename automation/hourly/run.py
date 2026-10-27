@@ -46,8 +46,8 @@ def main():
    state=json.loads((D/'observations.json').read_bytes()) if (D/'observations.json').exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
    instant=datetime.datetime.now(datetime.timezone.utc)
    for attempt in range(1 if proof else 6):
-    skip=[url for url,ep in state['episodes'].items() if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400][-2500:]
-    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip,'proof':proof}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
+    skip=[url for url,ep in state['episodes'].items() if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][-2500:]
+    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     incoming=result['state'];state['episodes'].update(incoming['episodes']);state['listings'].update(incoming['listings']);put(D/'observations.json',raw(state))
