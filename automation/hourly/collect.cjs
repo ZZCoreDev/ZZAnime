@@ -18,7 +18,7 @@ async function run(){
   const {chromium}=require('playwright');browser=await chromium.launch({headless:true});context=await browser.newContext();const page=await context.newPage();
   await page.route('**/*',route=>{const q=route.request();let allowed=false;try{const u=new URL(q.url());allowed=u.protocol==='https:'&&['jkanime.net','www.jkanime.net'].includes(u.hostname)&&['document','script','xhr','fetch','stylesheet'].includes(q.resourceType());}catch{}return allowed?route.continue():route.abort();});
   try{const response=await page.goto('https://jkanime.net/',{waitUntil:'domcontentloaded',timeout:30000});if(response.status()!==200)throw Error('Normal browser refused HTTP '+response.status());home=await page.content();}
-  catch(e){await browser.close();save(path.join(DATA,'collection-status.json'),{sourceAvailable:false,normalBrowser:true,detail:String(e.message).slice(0,100),newEpisodes:0});throw e;}
+  catch(e){await browser.close();const report={sourceAvailable:false,normalBrowser:true,detail:String(e.message).replace(/https?:\/\/\S+/g,'[source]').slice(0,160),newEpisodes:0};save(path.join(DATA,'collection-status.json'),report);save(path.join(DATA,'observations.json'),state);console.log(JSON.stringify(report));throw e;}
   transport.fetch=async(url,opts)=>{
    if(home!==undefined&&url==='https://jkanime.net/'){const text=home;home=undefined;return {status:200,headers:new Headers({'content-type':'text/html'}),body:[Buffer.from(text)]};}
    const headers={...opts.headers};delete headers['User-Agent'];delete headers.Cookie;
