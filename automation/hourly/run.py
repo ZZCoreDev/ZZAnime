@@ -1,6 +1,6 @@
 """Hourly cloud job; real app validation before and after static-only publication."""
 from pathlib import Path
-import os,sys,json,gzip,hashlib,datetime,subprocess,tempfile,shutil
+import os,sys,json,gzip,hashlib,datetime,subprocess,tempfile,shutil,re,time
 from cryptography.hazmat.primitives import serialization,hashes
 from cryptography.hazmat.primitives.asymmetric import padding,rsa
 W=Path(__file__).resolve().parent
@@ -29,7 +29,8 @@ def build(state,approved,now):
     k=sha((provider['name']+'\0'+link).encode())
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
-  if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
+  downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url',''))][:8]
+  if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'downloads':downloads} if downloads else {}),**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
  index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'series':{}};files={}
  for parent,eps in sorted(rows.items()):
   listing=state['listings'][parent]
@@ -102,8 +103,14 @@ def main():
    config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','assets':{'directory':'./assets','not_found_handling':'none'},'send_metrics':False,'observability':{'enabled':False}}
    put(site/'wrangler.json',raw(config));cli=W/'node_modules/wrangler/bin/wrangler.js'
    command(['node',str(cli),'deploy','--config',str(site/'wrangler.json')],env=dict(os.environ,WRANGLER_SEND_METRICS='false'))
-   remote=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'remote-cache'),BASE]))
-   if remote!=proof_result:raise ValueError('Remote app result differs')
+   for verification_attempt in range(13):
+    try:
+     remote=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/('remote-cache-'+str(verification_attempt))),BASE]))
+     if remote!=proof_result:raise ValueError('Remote app result differs')
+     break
+    except (subprocess.CalledProcessError,ValueError):
+     if verification_attempt==12:raise
+     time.sleep(25)
    # Retain only current generation in state. The next deployment adds it as its prior generation.
    if old.exists():shutil.rmtree(old)
    for n,b in files.items():put(old/n,b)
