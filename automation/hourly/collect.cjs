@@ -12,7 +12,21 @@ async function run(){
  const java=fs.readFileSync(path.join(HOME,'java/AnimeFlvSource.java'),'utf8'),groups=[...java.match(/SCOPED_FAMILIES=\{(.+?)\};/)[1].matchAll(/\{([^}]+)\}/g)].map(x=>[...x[1].matchAll(/"([^"]+)"/g)].map(y=>y[1]));
  const roots={mega:'mega.nz',streamwish:'streamwish.com',vidhide:'vidhide.com',mixdrop:'mxdrop.click',mp4upload:'mp4upload.com',streamtape:'streamtape.com'},policy=Object.fromEntries(Object.entries(roots).map(([n,h])=>[n,groups.find(g=>g.includes(h))||[]]));
  if(Object.values(policy).some(x=>!x.length))throw Error('Incomplete provider policy');
- const http=new Http(500,{cooldownFile:path.join(DATA,'cooldown.json')});let budget=0;
+ let browser,context,home;
+ const transport={};
+ if(process.env.ZZ_BROWSER==='true'){
+  const {chromium}=require('playwright');browser=await chromium.launch({headless:true});context=await browser.newContext();const page=await context.newPage();
+  await page.route('**/*',route=>{const q=route.request();let allowed=false;try{const u=new URL(q.url());allowed=u.protocol==='https:'&&['jkanime.net','www.jkanime.net'].includes(u.hostname)&&['document','script','xhr','fetch','stylesheet'].includes(q.resourceType());}catch{}return allowed?route.continue():route.abort();});
+  try{const response=await page.goto('https://jkanime.net/',{waitUntil:'domcontentloaded',timeout:30000});if(response.status()!==200)throw Error('Normal browser refused HTTP '+response.status());home=await page.content();}
+  catch(e){await browser.close();save(path.join(DATA,'collection-status.json'),{sourceAvailable:false,normalBrowser:true,detail:String(e.message).slice(0,100),newEpisodes:0});throw e;}
+  transport.fetch=async(url,opts)=>{
+   if(home!==undefined&&url==='https://jkanime.net/'){const text=home;home=undefined;return {status:200,headers:new Headers({'content-type':'text/html'}),body:[Buffer.from(text)]};}
+   const headers={...opts.headers};delete headers['User-Agent'];delete headers.Cookie;
+   const response=await context.request.fetch(url,{method:opts.method||'GET',headers,data:opts.body,maxRedirects:0,timeout:20000});const body=await response.body();if(body.length>4*1024*1024)throw Error('Document limit exceeded');
+   return {status:response.status(),headers:new Headers(response.headers()),body:[body]};
+  };
+ }
+ const http=new Http(500,{cooldownFile:path.join(DATA,'cooldown.json'),...transport});let budget=0;
  const get=http.get.bind(http);http.get=async(...args)=>{if(++budget>240)throw Object.assign(Error('Hourly request budget reached'),{stop:true});return get(...args);};
  const pending=new Set(state.pending),stats={schema:1,checkedAt:new Date(now).toISOString(),source:'jkanime.net',newEpisodes:0,reused:0,issues:0,unknownSeries:0,aiCalls:0,mediaDownloaded:false};
  try{
@@ -44,7 +58,7 @@ async function run(){
   stats.sourceAvailable=true;
  }catch(e){stats.sourceAvailable=false;stats.failure=e.stop?'source_limit_or_budget':'source_unavailable';stats.detail=String(e.message).replace(/https?:\/\/\S+/g,'[source]').slice(0,140);}
  state.pending=[...pending];stats.pending=state.pending.length;stats.requests=http.requests;save(path.join(DATA,'observations.json'),state);save(path.join(DATA,'collection-status.json'),stats);console.log(JSON.stringify(stats));
- if(!stats.sourceAvailable)process.exitCode=2;
+ if(browser)await browser.close();if(!stats.sourceAvailable)process.exitCode=2;
 }
 if(require.main===module)run().catch(()=>{console.error('Collection rejected; prior public data retained');process.exitCode=1;});
 module.exports={run};
