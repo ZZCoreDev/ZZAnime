@@ -1,0 +1,6 @@
+/channel.json
+  Cache-Control: public, max-age=300, must-revalidate
+/indexes/*
+  Cache-Control: public, max-age=31536000, immutable
+/series/*
+  Cache-Control: public, max-age=31536000, immutable
