@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_HOURLY_ENABLED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
@@ -32,13 +32,13 @@ jobs:
           npm ci --ignore-scripts --no-audit --no-fund
           python3 -m pip install cryptography==46.0.3
           python3 test_cloud.py
-          npx playwright install --with-deps chromium
       - name: Prueba aislada con lector real de la app
         if: inputs.proof == true
         working-directory: code/automation/hourly
         env:
           ZZ_PROOF: 'true'
-          ZZ_BROWSER: 'true'
+          ZZ_COLLECTOR_URL: 'https://zzanime-new-episodes.zzcoredev.workers.dev/'
+          ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
           ZZ_DATA: ${{ github.workspace }}/proof-state
         run: python3 run.py --collect
       - name: Recoger, comprobar, firmar y publicar sin APK
@@ -46,7 +46,8 @@ jobs:
         working-directory: code/automation/hourly
         env:
           ZZ_DATA: ${{ github.workspace }}/data/state
-          ZZ_BROWSER: 'true'
+          ZZ_COLLECTOR_URL: 'https://zzanime-new-episodes.zzcoredev.workers.dev/'
+          ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
           ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
         run: python3 run.py --collect --publish

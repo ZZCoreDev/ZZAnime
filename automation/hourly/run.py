@@ -27,11 +27,11 @@ def build(state,approved,now):
     k=sha((provider['name']+'\0'+link).encode())
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
-  if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options})
+  if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
  index={'schema':1,'createdAt':now.isoformat(),'playbackVerified':False,'series':{}};files={}
  for parent,eps in sorted(rows.items()):
   listing=state['listings'][parent]
-  row={'schema':1,'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':sorted(eps,key=lambda e:e['url']),'playbackVerified':False}
+  row={'schema':1,'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':sorted(eps,key=lambda e:e['url']),'playbackVerified':False,**{k:listing[k] for k in ['sourceSeries','identityEvidence'] if k in listing}}
   body=raw(row);packed=gzip.compress(body,mtime=0);h=sha(packed);name='series/'+h+'.bin'
   if max(len(body),len(packed))>2097152:raise ValueError('App shard limit')
   files[name]=packed;index['series'][sha(parent.encode())]={'path':name,'sha256':h,'bytes':len(packed),'expandedBytes':len(body),'episodes':len(eps)}
@@ -41,7 +41,18 @@ def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
  if '--collect' in sys.argv:
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.
-  subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
+  if os.environ.get('ZZ_COLLECTOR_URL'):
+   import urllib.request
+   state=json.loads((D/'observations.json').read_bytes()) if (D/'observations.json').exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
+   instant=datetime.datetime.now(datetime.timezone.utc)
+   for attempt in range(1 if proof else 6):
+    skip=[url for url,ep in state['episodes'].items() if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400][-2500:]
+    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip,'proof':proof}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
+    with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
+    if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
+    incoming=result['state'];state['episodes'].update(incoming['episodes']);state['listings'].update(incoming['listings']);put(D/'observations.json',raw(state))
+    if not incoming['episodes']:break
+  else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
  state=json.loads((D/'observations.json').read_bytes());now=datetime.datetime.now(datetime.timezone.utc)
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
@@ -51,7 +62,9 @@ def main():
   output=command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
   approved={r['key']:r['approved'] for r in map(json.loads,output.splitlines())}
   if set(approved)!=set(queries):raise ValueError('Incomplete real app option validation')
-  index,files=build(state,approved,now);public=(W/'public-key.der').read_bytes()
+  index,files=build(state,approved,now)
+  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
+  public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')
   key=serialization.load_pem_private_key(private.encode(),None) if private else None
   if key and key.public_key().public_bytes(serialization.Encoding.DER,serialization.PublicFormat.SubjectPublicKeyInfo)!=public:raise ValueError('Installed app key differs')
@@ -71,7 +84,7 @@ def main():
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
   report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False}
   if '--publish' in sys.argv and changed:
-   if not os.environ.get('CLOUDFLARE_API_TOKEN'):raise ValueError('Cloudflare publication secret missing')
+   if not os.environ.get('CLOUDFLARE_API_TOKEN') and not (proof and '--local-proof-publication' in sys.argv):raise ValueError('Cloudflare publication secret missing')
    # Keep exactly one prior immutable generation; never publish arbitrary state/private files.
    old=D/'published-assets'
    if old.exists():
