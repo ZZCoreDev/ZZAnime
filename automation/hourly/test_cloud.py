@@ -5,7 +5,9 @@ class CloudTests(unittest.TestCase):
   self.assertEqual(COLLECTION_BATCHES,2)
   self.assertEqual(RETRY_SECONDS,900)
   from pathlib import Path
-  workflow=(Path(__file__).parent/"hourly.yml").read_text(encoding="utf-8")
+  local=Path(__file__).parent/"hourly.yml"
+  target=local if local.exists() else Path(__file__).resolve().parents[2]/".github/workflows/provider-hourly.yml"
+  workflow=target.read_text(encoding="utf-8")
   self.assertIn("2-59/5 * * * *",workflow)
   self.assertIn("cancel-in-progress: false",workflow)
  def fixture(self):
