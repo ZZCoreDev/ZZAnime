@@ -8,6 +8,10 @@ on:
         description: 'Prueba aislada con dos series, sin publicar'
         type: boolean
         default: true
+      publish_proof:
+        description: 'Publicar solo las dos muestras con firma real, sin activar el lote'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -40,7 +44,15 @@ jobs:
           ZZ_COLLECTOR_URL: 'https://zzanime-new-episodes.zzcoredev.workers.dev/'
           ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
           ZZ_DATA: ${{ github.workspace }}/proof-state
-        run: python3 run.py --collect
+          ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
+          ZZ_PUBLISH_PROOF: ${{ inputs.publish_proof }}
+        run: |
+          if [ "$ZZ_PUBLISH_PROOF" = "true" ]; then
+            python3 run.py --collect --publish
+          else
+            python3 run.py --collect
+          fi
       - name: Recoger, comprobar, firmar y publicar sin APK
         if: inputs.proof != true && vars.ZZ_HOURLY_ENABLED == 'true'
         working-directory: code/automation/hourly

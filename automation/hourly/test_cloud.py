@@ -21,4 +21,6 @@ class CloudTests(unittest.TestCase):
   with self.assertRaises(ValueError):build(s,a,now)
  def test_same_content_reusable(self):
   now,_,_,s,a=self.fixture();one=build(s,a,now);two=build(s,a,now);self.assertEqual(one,two)
+ def test_android_legacy_utc_format(self):
+  now,_,_,s,a=self.fixture();index,_=build(s,a,now);self.assertTrue(index['createdAt'].endswith('Z'));self.assertNotIn('+00:00',index['createdAt'])
 if __name__=='__main__':unittest.main()

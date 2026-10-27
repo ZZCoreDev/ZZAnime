@@ -28,7 +28,7 @@ def build(state,approved,now):
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
   if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
- index={'schema':1,'createdAt':now.isoformat(),'playbackVerified':False,'series':{}};files={}
+ index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'series':{}};files={}
  for parent,eps in sorted(rows.items()):
   listing=state['listings'][parent]
   row={'schema':1,'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':sorted(eps,key=lambda e:e['url']),'playbackVerified':False,**{k:listing[k] for k in ['sourceSeries','identityEvidence'] if k in listing}}
@@ -73,7 +73,7 @@ def main():
    key=rsa.generate_private_key(public_exponent=65537,key_size=2048);public=key.public_key().public_bytes(serialization.Encoding.DER,serialization.PublicFormat.SubjectPublicKeyInfo)
   site=tmp/'site';assets=site/'assets'
   digest=sha(raw(index));name='indexes/'+digest+'.bin';files[name]=raw(index)
-  payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat(),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new'})
+  payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new'})
   files['channel.json']=raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
   files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
