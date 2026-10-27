@@ -42,7 +42,7 @@ async function run(){
    }catch(e){stats.issues++;if(e.stop)throw e;}
   }
   stats.sourceAvailable=true;
- }catch(e){stats.sourceAvailable=false;stats.failure=e.stop?'source_limit_or_budget':'source_unavailable';}
+ }catch(e){stats.sourceAvailable=false;stats.failure=e.stop?'source_limit_or_budget':'source_unavailable';stats.detail=String(e.message).replace(/https?:\/\/\S+/g,'[source]').slice(0,140);}
  state.pending=[...pending];stats.pending=state.pending.length;stats.requests=http.requests;save(path.join(DATA,'observations.json'),state);save(path.join(DATA,'collection-status.json'),stats);console.log(JSON.stringify(stats));
  if(!stats.sourceAvailable)process.exitCode=2;
 }
