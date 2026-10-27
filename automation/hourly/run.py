@@ -23,6 +23,8 @@ def build(state,approved,now):
   if not listing or url not in listing['episodes'] or not ep.get('complete') or not 0<=age<=7*86400:continue
   options=[];seen=set()
   for provider in ep['providers']:
+   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide']:continue
+   if ep.get('sourceSeries','').startswith('https://tioanime.com/') and provider.get('family')=='mega':continue
    for link in provider.get('links',[]):
     k=sha((provider['name']+'\0'+link).encode())
     if not approved.get(k) or k in seen:continue
@@ -45,13 +47,17 @@ def main():
    import urllib.request
    state=json.loads((D/'observations.json').read_bytes()) if (D/'observations.json').exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
    instant=datetime.datetime.now(datetime.timezone.utc)
+   put(D/'collection-status.json',raw({'state':'checking','lastAttempt':instant.isoformat().replace('+00:00','Z'),'retryMinutes':60}))
    for attempt in range(1 if proof else 6):
     skip=[url for url,ep in state['episodes'].items() if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][-2500:]
-    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
+    deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<3600 and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
+    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
-    incoming=result['state'];state['episodes'].update(incoming['episodes']);state['listings'].update(incoming['listings']);put(D/'observations.json',raw(state))
-    if not incoming['episodes']:break
+    incoming=result['state'];newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    for url in newly_deferred:deferred[url]=instant.timestamp()
+    state['episodes'].update(incoming['episodes']);state['listings'].update(incoming['listings']);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));put(D/'observations.json',raw(state));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':60}))
+    if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
  state=json.loads((D/'observations.json').read_bytes());now=datetime.datetime.now(datetime.timezone.utc)
  with tempfile.TemporaryDirectory() as tmp:
