@@ -1,6 +1,13 @@
 import unittest,datetime,hashlib
-from run import build
+from run import build,COLLECTION_BATCHES,RETRY_SECONDS
 class CloudTests(unittest.TestCase):
+ def test_frequent_collection_is_bounded(self):
+  self.assertEqual(COLLECTION_BATCHES,2)
+  self.assertEqual(RETRY_SECONDS,900)
+  from pathlib import Path
+  workflow=(Path(__file__).parent/"hourly.yml").read_text(encoding="utf-8")
+  self.assertIn("2-59/5 * * * *",workflow)
+  self.assertIn("cancel-in-progress: false",workflow)
  def fixture(self):
   now=datetime.datetime.now(datetime.timezone.utc);parent='https://jkanime.net/test/';url=parent+'1/';link='https://mega.nz/embed/example#key';name='Mega'
   state={'listings':{parent:{'complete':True,'observedAt':now.isoformat(),'episodes':[url]}},'episodes':{url:{'complete':True,'observedAt':now.isoformat(),'providers':[{'name':name,'family':'mega','links':[link]}]}}}

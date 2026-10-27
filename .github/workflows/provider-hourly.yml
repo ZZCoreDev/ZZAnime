@@ -1,7 +1,7 @@
-name: Capítulos nuevos cada hora
+name: Capítulos nuevos cada 5 minutos
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '2-59/5 * * * *'
   workflow_dispatch:
     inputs:
       proof:
