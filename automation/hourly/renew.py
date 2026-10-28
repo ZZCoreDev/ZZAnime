@@ -55,7 +55,7 @@ def main():
             pair=targets[at:at+2];before=time.time()
             try:
                 body=json.dumps({'mode':'renew','retry':pair,'skip':[]}).encode()
-                req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json'},method='POST')
+                req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
                 with urllib.request.urlopen(req,timeout=90) as response:
                     raw=response.read(2097153)
                     if len(raw)>2097152:raise ValueError('Response limit')
@@ -84,7 +84,7 @@ def main():
             except Exception as error:
                 for url in pair:
                     count=failures.get(url,{}).get('attempts',0)+1
-                    failures[url]={'attempts':count,'lastAttempt':time.time(),'retryAt':time.time()+min(6*3600,900*2**min(count,4)),'reason':type(error).__name__}
+                    failures[url]={'attempts':count,'lastAttempt':time.time(),'retryAt':time.time()+min(6*3600,900*2**min(count,4)),'reason':('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__)}
             finally:
                 save(folder,state,{url.rsplit('/',2)[0]+'/' for url in pair});failure_path.write_text(json.dumps(failures,sort_keys=True),encoding='utf-8')
                 status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
