@@ -22,7 +22,7 @@
     ]
   },
   "renewal-error": {
-    "series": 777,
+    "series": 832,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -44,7 +44,7 @@
     ]
   },
   "retained-redirect": {
-    "series": 800,
+    "series": 799,
     "twoSeriesProofRequired": true,
     "samples": [
       {
