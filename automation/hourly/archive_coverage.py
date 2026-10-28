@@ -16,8 +16,9 @@ def missing_targets(state,failures,now):
     return sorted(url for urls in observed.values() for url in urls if url not in state['episodes'] and failures.get(url,{}).get('retryAt',0)<=now)
 
 def audit(catalogue,baseline,state,failures,now):
-    by_parent=defaultdict(dict)
+    by_parent=defaultdict(dict);failed_by_parent=defaultdict(list)
     for url,ep in state.get('episodes',{}).items():by_parent[url.rsplit('/',2)[0]+'/'][url]=ep
+    for url in failures:failed_by_parent[url.rsplit('/',2)[0]+'/'].append(url)
     groups=defaultdict(list);rows=[];totals=Counter()
     for item in catalogue:
         parent=item['url'];old=baseline.get('series',{}).get(parent,{});current=state.get('listings',{}).get(parent,{})
@@ -27,7 +28,7 @@ def audit(catalogue,baseline,state,failures,now):
             providers=[p for p in ep.get('providers',[]) if p.get('links')]
             if not providers:empty.append(url)
             for p in providers:families[p.get('family','unknown')]+=1
-        failed=[url for url in saved if url in failures];redirects=[url for url in missing if 'redirect' in baseline.get('retained',{}).get(url,'').lower()]
+        failed=sorted(failed_by_parent[parent]);redirects=[url for url in missing if 'redirect' in baseline.get('retained',{}).get(url,'').lower()]
         causes=[]
         if not observed:causes.append('no-observed-listing')
         if missing:causes.append('observed-chapters-without-options')

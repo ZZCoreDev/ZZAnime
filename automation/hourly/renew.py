@@ -142,7 +142,7 @@ def continue_if_due(folder):
     status=json.loads((folder/'renewal-status.json').read_bytes())
     if status.get('state') not in ('complete','complete-with-failures'):return
     state=load(folder);failed_path=folder/'renewal-failures.json';failures=json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
-    if not select(state,failures,time.time(),1):return
+    if not select(state,failures,time.time(),1,include_missing=True):return
     if os.environ.get('GITHUB_REPOSITORY')!='ZZCoreDev/ZZAnime':raise ValueError('Continuation repository not allowed')
     # GitHub keeps only one pending job per concurrency group. Never replace waiting news.
     pending=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/runs?per_page=20',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'})

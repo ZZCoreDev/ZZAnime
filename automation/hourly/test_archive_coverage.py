@@ -25,4 +25,7 @@ class CoverageTests(unittest.TestCase):
   from unittest.mock import patch
   now,a,b,c=self.fixture()
   with patch('archive_coverage.baseline',return_value={'series':{}}):self.assertEqual(missing_targets({'episodes':{},'listings':{}},{},now.timestamp()),[])
+ def test_failed_missing_chapter_is_reported_not_hidden_until_saved(self):
+  now,a,b,c=self.fixture();report=audit(c,{'series':{a:{'episodes':[a+'1/']}}},{'episodes':{},'listings':{}},{a+'1/':{'reason':'Source HTTP 404'}},now.timestamp())
+  self.assertEqual(report['series'][0]['renewalFailed'],1);self.assertEqual(report['groups']['renewal-error'][0]['samples'],[a+'1/']);self.assertEqual(report['missingChapters'],1)
 if __name__=='__main__':unittest.main()
