@@ -8,6 +8,11 @@ on:
     - cron: '11,26,41,56 * * * *'
   workflow_dispatch:
     inputs:
+      sample_group:
+        description: 'Muestra fija de identidad; nunca acepta URLs arbitrarias'
+        type: choice
+        options: [baseline, verified-year]
+        default: baseline
       proof:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
         type: boolean
@@ -47,9 +52,10 @@ jobs:
           ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
           ZZ_RENEW_PROOF: ${{ inputs.proof }}
+          ZZ_RENEW_SAMPLE_GROUP: ${{ inputs.sample_group }}
         run: |
           if [ "$ZZ_RENEW_PROOF" = "true" ]; then
-            python3 renew.py --proof --publish
+            python3 renew.py --proof --sample-group "${ZZ_RENEW_SAMPLE_GROUP:-baseline}" --publish
           else
             python3 renew.py --publish
           fi

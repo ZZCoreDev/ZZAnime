@@ -67,7 +67,7 @@ class RenewalTests(unittest.TestCase):
             def __exit__(self,*args):pass
             def read(self):return json.dumps({'workflow_runs':[{'status':'pending'}]}).encode()
         _,_,_,state=self.fixture()
-        with tempfile.TemporaryDirectory() as temp:
+        with self.temporary() as temp:
             folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
             with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',return_value=Response()) as call:
                 continue_if_due(folder)

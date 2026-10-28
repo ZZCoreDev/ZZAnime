@@ -1,12 +1,29 @@
 """Separate cloud renewal: re-observe before expiry, retain genuine records on failure."""
 from pathlib import Path
-import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile
+import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile,hashlib
 from archive_state import load,save,merge,stamp
 
 DAY=86400
 LEAD_AGE=DAY
 MAX_EPISODES=400
 PROOF=['https://jkanime.net/psyren/4/','https://jkanime.net/dark-summoner-to-dekiteiru/4/']
+INCIDENT_PROOF=['https://jkanime.net/mao/1/','https://jkanime.net/psyren/4/']
+
+def repair_verified_identities(state,failures,now):
+    path=Path(__file__).with_name('source-identities.json');catalog=Path(__file__).with_name('catalogue.json')
+    if not path.exists() or not catalog.exists():return 0
+    rows={r['url']:r for r in json.loads(catalog.read_bytes())};repaired=0
+    for parent,entry in json.loads(path.read_bytes()).items():
+        row=rows.get(parent,{})
+        if not entry.get('approved') or row.get('year')!=entry['year'] or row.get('title','').casefold()!=entry['title'].casefold():continue
+        revision=hashlib.sha256(json.dumps(entry,sort_keys=True).encode()).hexdigest();done=state.setdefault('identityRepairs',{})
+        if done.get(parent)==revision:continue
+        for url,failure in failures.items():
+            ep=state['episodes'].get(url)
+            if url.rsplit('/',2)[0]+'/'==parent and ep and now-stamp(ep['observedAt'])>=LEAD_AGE:
+                failure['previousRetryAt']=failure.get('retryAt',0);failure['retryAt']=now;repaired+=1
+        done[parent]=revision
+    return repaired
 
 def select(state,failures,now,limit):
     rows=[]
@@ -116,7 +133,7 @@ def continue_if_due(folder):
     print('Pending observed chapters: next independent renewal batch dispatched.')
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True);report=folder/'renewal-status.json'
     if args.continue_if_due:continue_if_due(folder);return
     if args.write_status:
@@ -126,18 +143,20 @@ def main():
         return
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
     repaired=repair_retry_deadlines(state,failures,instant)
-    targets=PROOF if args.proof else select(state,failures,instant,MAX_EPISODES)
+    identities_repaired=repair_verified_identities(state,failures,instant)
+    targets=(INCIDENT_PROOF if args.sample_group=='verified-year' else PROOF) if args.proof else select(state,failures,instant,MAX_EPISODES)
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
     status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
     status['retryDeadlinesRepaired']=repaired
     status['proof']=args.proof
+    status['identityRetriesReleased']=identities_repaired
     publish=False;runtime=None
     try:
         for at in range(0,len(targets),2):
             if not args.proof and time.time()-instant>11*60:break
             pair=targets[at:at+2];before=time.time()
             try:
-                body=json.dumps({'mode':'renew','retry':pair,'skip':[]}).encode()
+                body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof}).encode()
                 req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
                 with urllib.request.urlopen(req,timeout=90) as response:
                     raw=response.read(2097153)
@@ -151,7 +170,7 @@ def main():
                 # Use the real app validator before replacing any previous options.
                 import run as pipeline
                 if runtime is None:
-                    runtime=tempfile.TemporaryDirectory();cp=pipeline.compile_java(Path(runtime.name)/'classes')
+                    runtime=tempfile.TemporaryDirectory(dir=folder.parent);cp=pipeline.compile_java(Path(runtime.name)/'classes')
                 queries={}
                 for ep in incoming['episodes'].values():
                     for provider in ep['providers']:
