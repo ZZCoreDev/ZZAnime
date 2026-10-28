@@ -24,7 +24,7 @@ class RenewalTests(unittest.TestCase):
         now,_,_,state=self.fixture();instant=now.timestamp()
         with self.temporary() as temp:
             folder=Path(temp);status={'runId':'proof','checkedAt':now.isoformat(),'proof':True,'published':True,'renewed':2}
-            h=health_report(folder,state,{},status,instant);self.assertEqual(h['successfulCyclesMeasured'],0);self.assertEqual(h['capacityStatus'],'insufficient-history')
+            h=health_report(folder,state,{},status,instant);self.assertEqual(h['successfulCyclesMeasured'],0);self.assertEqual(h['capacityStatus'],'insufficient-history');self.assertIsNone(h['estimatedSweepDays'])
             for i in range(3):
                 started=datetime.datetime.fromtimestamp(instant-7200+i*1200,datetime.timezone.utc).isoformat()
                 h=health_report(folder,state,{},dict(status,runId=str(i),checkedAt=started,proof=False,renewed=100),instant)

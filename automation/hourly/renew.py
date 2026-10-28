@@ -45,9 +45,10 @@ def health_report(folder,state,failures,status,now):
     history=[r for r in history if r['start']>=now-14*DAY and not (row['runId'] and r.get('runId')==row['runId'])]+[row]
     path.write_text(json.dumps(history[-5000:]),encoding='utf-8')
     usable=[r for r in history if not r.get('proof') and r.get('published') and r['start']>=now-DAY]
-    span=max(3600,now-min((r['start'] for r in usable),default=now));rate=sum(r['renewed'] for r in usable)*3600/span
-    eta=len(ages)/rate/24 if rate else None
-    report={'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'episodes':len(ages),'oldestHours':round(max(ages.values(),default=0)/3600,2),'pending':len(select(state,failures,now,len(ages))),'expired':sum(age>7*DAY for age in ages.values()),'expiresWithin24Hours':sum(age>=6*DAY for age in ages.values()),'retryAfterExpiry':sum(r.get('retryAt',0)>now+7*DAY-ages[url] for url,r in failures.items() if url in ages),'successfulCyclesMeasured':len(usable),'measuredWallClockPerHour':round(rate,2),'estimatedSweepDays':round(eta,2) if eta is not None else None,'capacityStatus':'insufficient-history' if len(usable)<3 else 'within-budget' if eta is not None and eta<=5 else 'behind','datesInvented':False}
+    measured_span=now-min((r['start'] for r in usable),default=now);span=max(3600,measured_span);rate=sum(r['renewed'] for r in usable)*3600/span
+    qualified=len(usable)>=3 and measured_span>=3600
+    eta=len(ages)/rate/24 if rate and qualified else None
+    report={'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'episodes':len(ages),'oldestHours':round(max(ages.values(),default=0)/3600,2),'pending':len(select(state,failures,now,len(ages))),'expired':sum(age>7*DAY for age in ages.values()),'expiresWithin24Hours':sum(age>=6*DAY for age in ages.values()),'retryAfterExpiry':sum(r.get('retryAt',0)>now+7*DAY-ages[url] for url,r in failures.items() if url in ages),'successfulCyclesMeasured':len(usable),'sampleMinutes':round(measured_span/60,2),'measuredWallClockPerHour':round(rate,2),'estimatedSweepDays':round(eta,2) if eta is not None else None,'capacityStatus':'insufficient-history' if not qualified else 'within-budget' if eta is not None and eta<=5 else 'behind','datesInvented':False}
     (folder/'renewal-health.json').write_text(json.dumps(report,indent=2),encoding='utf-8');return report
 
 def validate(incoming,targets,before,after):
