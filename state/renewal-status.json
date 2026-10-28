@@ -1,14 +1,14 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-10-28T13:35:35.883633+00:00",
+  "checkedAt": "2026-10-28T13:48:52.407437+00:00",
   "requested": 400,
-  "renewed": 51,
-  "failed": 3082,
+  "renewed": 56,
+  "failed": 3286,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "40697784621",
+  "runId": "40699854342",
   "retryDeadlinesRepaired": 0,
   "proof": false,
   "identityRetriesReleased": 0,
@@ -16,7 +16,7 @@
   "published": true,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
-  "capacityStatus": "within-budget",
+  "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
