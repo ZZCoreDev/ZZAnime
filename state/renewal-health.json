@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-10-28T09:05:45.150553+00:00",
+  "checkedAt": "2026-10-28T09:19:18.829087+00:00",
   "episodes": 70557,
-  "oldestHours": 44.79,
-  "pending": 37420,
+  "oldestHours": 45.01,
+  "pending": 38481,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
-  "successfulCyclesMeasured": 1,
-  "measuredWallClockPerHour": 89.0,
-  "estimatedSweepDays": 33.03,
+  "successfulCyclesMeasured": 2,
+  "measuredWallClockPerHour": 281.0,
+  "estimatedSweepDays": 10.46,
   "capacityStatus": "insufficient-history",
   "datesInvented": false
 }
