@@ -9,6 +9,13 @@ final class ProviderPlaybackPolicy {
     static int startupDelay(String name,boolean alternative){return megaName(name)?25000:family(name).equals("streamtape")?30000:alternative?15000:10000;}
     static boolean appGestures(boolean started,boolean nativeVideo,boolean casting){return started||nativeVideo||casting;}
     private static boolean under(String host,String[] domains){for(String d:domains)if(host.equals(d)||host.endsWith("."+d))return true;return false;}
+    static boolean documentPermitted(String host,String path,String[] selected,boolean knownProvider){
+        if(host==null)return false;host=host.toLowerCase(Locale.ROOT);
+        if(under(host,new String[]{"jkanime.net","jkdesa.com","jkplayers.com"}))return true;
+        if(host.equals("www.google.com")&&path.startsWith("/recaptcha/"))return true;
+        return selected.length>0?under(host,selected):knownProvider;
+    }
+    static int archivedPriority(String name){switch(family(name)){case "mp4upload":return 0;case "streamwish":return 1;case "vidhide":return 2;case "mixdrop":return 3;case "streamtape":return 4;case "mega":return 8;default:return 5;}}
     static boolean scriptPermitted(String host,String path,String destination,String[] base,String[] selected){
         boolean executable="script".equalsIgnoreCase(destination)||"worker".equalsIgnoreCase(destination)||path.endsWith(".js")||path.endsWith(".mjs");
         return !executable||under(host,base)||under(host,selected);

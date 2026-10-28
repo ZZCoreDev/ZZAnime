@@ -26,7 +26,7 @@ def repair_verified_identities(state,failures,now):
         done[parent]=revision
     return repaired
 
-def select(state,failures,now,limit):
+def select(state,failures,now,limit,include_missing=False):
     rows=[]
     for url,ep in state['episodes'].items():
         observed=stamp(ep.get('observedAt'));listing=state['listings'].get(url.rsplit('/',2)[0]+'/')
@@ -34,15 +34,22 @@ def select(state,failures,now,limit):
         if failures.get(url,{}).get('retryAt',0)>now:continue
         rows.append((observed,url))
     healthy=sorted(row for row in rows if row[1] not in failures);retry=fair_retries(sorted(row for row in rows if row[1] in failures),failures)
-    retry_count=min(len(retry),max(1,limit//4)) if healthy else min(len(retry),limit)
-    chosen=healthy[:limit-retry_count]+retry[:retry_count]
-    if len(chosen)<limit:chosen+=retry[retry_count:retry_count+limit-len(chosen)]
+    from archive_coverage import missing_targets
+    missing=fair_retries([(0,url) for url in missing_targets(state,failures,now)],failures) if include_missing else []
+    repair_limit=max(1,limit//4) if healthy else limit
+    missing_count=min(len(missing),max(1,repair_limit//2)) if missing else 0
+    retry_count=min(len(retry),repair_limit-missing_count)
+    chosen=healthy[:limit-retry_count-missing_count]+retry[:retry_count]+missing[:missing_count]
+    seen={url for _,url in chosen}
+    if len(chosen)<limit:chosen+=(row for row in retry[retry_count:]+missing[missing_count:] if row[1] not in seen)
+    chosen=chosen[:limit]
     return [url for _,url in chosen]
 
 def record_failure(failures,url,reason,now,observed,diagnostic=None):
     count=failures.get(url,{}).get('attempts',0)+1
-    delay=min(6*3600,900*2**min(count,8));remaining=stamp(observed)+7*DAY-now
-    delay=min(delay,remaining/3) if remaining>0 else 900
+    delay=min(6*3600,900*2**min(count,8));observed_stamp=stamp(observed)
+    if observed_stamp>=0:
+        remaining=observed_stamp+7*DAY-now;delay=min(delay,remaining/3) if remaining>0 else 900
     previous=failures.get(url,{}).get('diagnostic')
     failures[url]={'attempts':count,'lastAttempt':now,'retryAt':now+delay,'reason':str(reason)[:160]}
     if diagnostic or previous:failures[url]['diagnostic']=diagnostic or previous
@@ -79,6 +86,8 @@ def health_report(folder,state,failures,status,now):
             recovery[parent]={'title':entry['title'],'total':len(urls),'fresh':fresh,'pendingFailures':pending,'state':'complete' if fresh==len(urls) and pending==0 else 'pending'}
     report['verifiedIdentityRecovery']=recovery
     report['incidentDiagnosis']=diagnostic_report(folder,failures,now)
+    from archive_coverage import cloud_report
+    report['coverage']=cloud_report(folder,state,failures,now)
     (folder/'renewal-health.json').write_text(json.dumps(report,indent=2),encoding='utf-8');return report
 
 def validate(incoming,targets,before,after):
@@ -100,6 +109,8 @@ def status_text(current,status):
     for group in status.get('verifiedIdentityRecovery',{}).values():text+=f'Equivalencia comprobada: {group["title"]}, {group["fresh"]}/{group["total"]} capítulos recientes; incidencias pendientes: {group["pendingFailures"]}.\n'
     diagnosis=status.get('incidentDiagnosis',{})
     if diagnosis:text+=f'Diagnóstico por serie: {diagnosis["diagnosedSeries"]}/{diagnosis["series"]}; pendientes: {diagnosis["pendingSeries"]}. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.\n'
+    coverage=status.get('archiveCoverage',{})
+    if 'catalogueSeries' in coverage:text+=f'Cobertura de catálogo: {coverage["catalogueSeries"]} títulos, {coverage["storedChapters"]} capítulos con registros, {coverage["missingChapters"]} capítulos observados sin opciones y {coverage["expiredChapters"]} vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.\n'
     text+=end
     if start in current and end in current:
         a=current.index(start);b=current.index(end,a)+len(end);updated=current[:a]+text+current[b:]
@@ -164,7 +175,7 @@ def main():
     repaired=repair_retry_deadlines(state,failures,instant)
     identities_repaired=repair_verified_identities(state,failures,instant)
     proof_targets=json.loads(Path(__file__).with_name('observed-token-policy.json').read_bytes())['proof'] if args.sample_group=='observed-token' else INCIDENT_PROOF if args.sample_group=='verified-year' else PROOF
-    targets=proof_targets if args.proof else select(state,failures,instant,MAX_EPISODES)
+    targets=proof_targets if args.proof else select(state,failures,instant,MAX_EPISODES,include_missing=True)
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
     status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
     status['retryDeadlinesRepaired']=repaired
@@ -185,7 +196,7 @@ def main():
                 if result.get('passed') is not True:raise ValueError('Sources unavailable')
                 incoming=validate(result.get('state'),pair,before,time.time())
                 missing=[url for url in pair if url not in incoming.get('episodes',{})]
-                for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'][url]['observedAt'],result.get('diagnostics',{}).get(url))
+                for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'].get(url,{}).get('observedAt',''),result.get('diagnostics',{}).get(url))
                 if not incoming.get('episodes'):continue
                 # Use the real app validator before replacing any previous options.
                 import run as pipeline
@@ -206,7 +217,7 @@ def main():
                 for url in incoming['episodes']:failures.pop(url,None)
             except Exception as error:
                 if isinstance(error,urllib.error.HTTPError) and error.code in (401,403,429):raise
-                for url in pair:record_failure(failures,url,('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__+': '+str(error)),time.time(),state['episodes'][url]['observedAt'])
+                for url in pair:record_failure(failures,url,('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__+': '+str(error)),time.time(),state['episodes'].get(url,{}).get('observedAt',''))
             finally:
                 save(folder,state,{url.rsplit('/',2)[0]+'/' for url in pair});failure_path.write_text(json.dumps(failures,sort_keys=True),encoding='utf-8')
                 status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
@@ -221,7 +232,7 @@ def main():
     finally:
         if runtime is not None:runtime.cleanup()
         status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
-        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'],verifiedIdentityRecovery=health['verifiedIdentityRecovery'],incidentDiagnosis=health['incidentDiagnosis'])
+        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'],verifiedIdentityRecovery=health['verifiedIdentityRecovery'],incidentDiagnosis=health['incidentDiagnosis'],archiveCoverage=health['coverage'])
         report.write_text(json.dumps(status,indent=2),encoding='utf-8')
         print(json.dumps(status))
 

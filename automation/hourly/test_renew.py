@@ -6,6 +6,14 @@ from renew import select,validate,status_document,github_status,continue_if_due,
 from incident_diagnostics import fair_retries,report as diagnostic_report
 
 class RenewalTests(unittest.TestCase):
+    def test_missing_recovery_keeps_healthy_budget_and_reuses_no_saved_chapter(self):
+        now,parent,url,state=self.fixture();state['episodes']={parent+str(i)+'/':dict(next(iter(state['episodes'].values()))) for i in range(1,501)};state['listings'][parent]['episodes']=list(state['episodes'])
+        missing=['https://jkanime.net/missing-'+str(i)+'/1/' for i in range(100)]
+        with patch('archive_coverage.missing_targets',return_value=missing):chosen=select(state,{},now.timestamp(),400,include_missing=True)
+        self.assertEqual(len(chosen),400);self.assertEqual(len(set(chosen)),400);self.assertGreaterEqual(sum(u in state['episodes'] for u in chosen),300);self.assertTrue(any(u in missing for u in chosen))
+    def test_missing_failure_has_backoff_without_fabricating_date(self):
+        failures={};record_failure(failures,'https://jkanime.net/missing/1/','HTTP 404',1000,'')
+        self.assertEqual(failures['https://jkanime.net/missing/1/']['retryAt'],2800);self.assertNotIn('observedAt',failures['https://jkanime.net/missing/1/'])
     def test_retry_inspects_two_series_before_repeating_a_series(self):
         rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/a/2/'),(3,'https://jkanime.net/b/1/')]
         self.assertEqual([url for _,url in fair_retries(rows,{})][:2],[rows[0][1],rows[2][1]])
