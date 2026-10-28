@@ -2,9 +2,21 @@ import base64,copy,datetime,gzip,json,os,tempfile,unittest,urllib.error
 from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
-from renew import select,validate,status_document,github_status,DAY
+from renew import select,validate,status_document,github_status,continue_if_due,DAY
 
 class RenewalTests(unittest.TestCase):
+    def test_pending_news_is_never_replaced_by_renewal_continuation(self):
+        class Response:
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+            def read(self):return json.dumps({'workflow_runs':[{'status':'pending'}]}).encode()
+        _,_,_,state=self.fixture()
+        with tempfile.TemporaryDirectory() as temp:
+            folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
+            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',return_value=Response()) as call:
+                continue_if_due(folder)
+            self.assertEqual(call.call_count,1)
+            self.assertIn('provider-hourly.yml/runs',call.call_args.args[0].full_url)
     def fixture(self,age=2):
         now=datetime.datetime.now(datetime.timezone.utc);parent='https://jkanime.net/psyren/';url=parent+'4/';observed=(now-datetime.timedelta(days=age)).isoformat()
         return now,parent,url,{'schema':1,'episodes':{url:{'complete':True,'observedAt':observed,'providers':[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-test.html']}]}},'listings':{parent:{'complete':True,'observedAt':observed,'episodes':[parent+str(n)+'/' for n in range(1,5)]}},'pending':[]}

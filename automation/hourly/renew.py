@@ -66,6 +66,11 @@ def continue_if_due(folder):
     state=load(folder);failed_path=folder/'renewal-failures.json';failures=json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
     if not select(state,failures,time.time(),1):return
     if os.environ.get('GITHUB_REPOSITORY')!='ZZCoreDev/ZZAnime':raise ValueError('Continuation repository not allowed')
+    # GitHub keeps only one pending job per concurrency group. Never replace waiting news.
+    pending=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/runs?per_page=20',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'})
+    with urllib.request.urlopen(pending,timeout=20) as response:runs=json.loads(response.read())['workflow_runs']
+    if any(row.get('status') in ('queued','pending','waiting','in_progress','requested') for row in runs):
+        print('Recent episode delivery has priority; renewal resumes after it completes.');return
     data=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
     req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/dispatches',data=data,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
     with urllib.request.urlopen(req,timeout=20) as response:
