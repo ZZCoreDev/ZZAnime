@@ -14,11 +14,11 @@ on:
         default: false
 permissions:
   contents: write
-concurrency:
-  group: zzanime-hourly-provider-data
-  cancel-in-progress: false
 jobs:
   collect:
+    concurrency:
+      group: zzanime-hourly-provider-data
+      cancel-in-progress: false
     if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_HOURLY_ENABLED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 12

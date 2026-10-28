@@ -15,11 +15,11 @@ on:
 permissions:
   contents: write
   actions: write
-concurrency:
-  group: zzanime-hourly-provider-data
-  cancel-in-progress: false
 jobs:
   renew:
+    concurrency:
+      group: zzanime-hourly-provider-data
+      cancel-in-progress: false
     if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_RENEW_ENABLED == 'true') && (github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository))
     runs-on: ubuntu-24.04
     timeout-minutes: 25
