@@ -64,14 +64,8 @@ jobs:
         working-directory: code
         env:
           ZZ_DATA: ${{ github.workspace }}/data/state
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ -f "$ZZ_DATA/renewal-status.json" ]; then
-            python3 automation/hourly/renew.py --write-status ESTADO.md
-            git config user.name 'ZZAnime automation'
-            git config user.email 'automation@users.noreply.github.com'
-            git add ESTADO.md
-            if ! git diff --cached --quiet; then
-              git commit -m 'Registrar estado y deuda de renovación automática'
-              git push origin HEAD:main
-            fi
+            python3 automation/hourly/renew.py --write-status github
           fi

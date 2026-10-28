@@ -1,6 +1,6 @@
 """Separate cloud renewal: re-observe before expiry, retain genuine records on failure."""
 from pathlib import Path
-import argparse,datetime,json,os,subprocess,sys,time,urllib.request,tempfile
+import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile
 from archive_state import load,save,merge,stamp
 
 DAY=86400
@@ -28,9 +28,8 @@ def validate(incoming,targets,before,after):
             if not before-60<=stamp(date)<=after+60:raise ValueError('No fresh source observation')
     return incoming
 
-def status_document(path,status):
+def status_text(current,status):
     start='<!-- ZZ-RENEW-STATUS -->';end='<!-- /ZZ-RENEW-STATUS -->'
-    current=path.read_text(encoding='utf-8') if path.exists() else '# ZZAnime\n'
     failures=status.get('failed',0);overdue=status.get('expired',0)
     text=f'{start}\n## Refresco automático del respaldo\nEstado: {status.get("state","unknown")}. Fallos pendientes: {failures}; capítulos vencidos pendientes: {overdue}.\n'
     if failures or overdue or status.get('state')=='failed':text+='Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.\n'
@@ -38,12 +37,37 @@ def status_document(path,status):
     if start in current and end in current:
         a=current.index(start);b=current.index(end,a)+len(end);updated=current[:a]+text+current[b:]
     else:updated=current.rstrip()+'\n\n'+text+'\n'
+    return updated
+
+def status_document(path,status):
+    current=path.read_text(encoding='utf-8') if path.exists() else '# ZZAnime\n';updated=status_text(current,status)
     if updated!=current:path.write_text(updated,encoding='utf-8')
+
+def github_status(status):
+    repo=os.environ.get('GITHUB_REPOSITORY','')
+    if repo!='ZZCoreDev/ZZAnime':raise ValueError('Status repository not allowed')
+    endpoint='https://api.github.com/repos/'+repo+'/contents/ESTADO.md'
+    headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1','Content-Type':'application/json'}
+    for attempt in range(4):
+        with urllib.request.urlopen(urllib.request.Request(endpoint+'?ref=main',headers=headers),timeout=20) as response:old=json.load(response)
+        current=base64.b64decode(old['content']).decode('utf-8');updated=status_text(current,status)
+        if updated==current:return
+        data=json.dumps({'message':'Registrar estado de renovacion sin sobrescribir cambios concurrentes','branch':'main','sha':old['sha'],'content':base64.b64encode(updated.encode()).decode()}).encode()
+        try:
+            with urllib.request.urlopen(urllib.request.Request(endpoint,data=data,headers=headers,method='PUT'),timeout=20) as response:json.load(response)
+            return
+        except urllib.error.HTTPError as error:
+            if error.code not in (409,422) or attempt==3:raise
+            time.sleep(attempt+1)
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');args=parser.parse_args()
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True);report=folder/'renewal-status.json'
-    if args.write_status:status_document(Path(args.write_status),json.loads(report.read_bytes()));return
+    if args.write_status:
+        status=json.loads(report.read_bytes())
+        if args.write_status=='github':github_status(status)
+        else:status_document(Path(args.write_status),status)
+        return
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
     targets=PROOF if args.proof else select(state,failures,instant,MAX_EPISODES)
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')

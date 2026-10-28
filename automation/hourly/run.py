@@ -98,7 +98,7 @@ def main():
   for n,b in files.items():put(assets/n,b)
   put(tmp/'key.der',public)
   proof_result=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'cache')]))
-  content=sha(raw(index['series']));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
+  content=sha(raw({'series':index['series'],'feed':index['feed']}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
   report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False}
   if '--publish' in sys.argv and changed:
