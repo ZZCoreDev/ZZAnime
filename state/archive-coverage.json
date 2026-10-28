@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T20:15:06.438946+00:00",
+  "checkedAt": "2026-10-28T20:28:29.971784+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73368,
   "storedChapters": 71403,
@@ -6859,8 +6859,8 @@
         "series": "https://jkanime.net/mao/",
         "title": "Mao",
         "samples": [
-          "https://jkanime.net/mao/23/",
-          "https://jkanime.net/mao/24/"
+          "https://jkanime.net/mao/24/",
+          "https://jkanime.net/mao/25/"
         ]
       },
       {
@@ -12950,7 +12950,31 @@
         "title": "Fuufu Ijou, Koibito Miman.",
         "samples": [
           "https://jkanime.net/fuufu-ijou-koibito-miman/1/",
-          "https://jkanime.net/fuufu-ijou-koibito-miman/2/"
+          "https://jkanime.net/fuufu-ijou-koibito-miman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bocchi-the-rock/",
+        "title": "Bocchi the Rock!",
+        "samples": [
+          "https://jkanime.net/bocchi-the-rock/1/",
+          "https://jkanime.net/bocchi-the-rock/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mairimashita-iruma-kun-3rd-season/",
+        "title": "Mairimashita! Iruma-kun 3rd Season",
+        "samples": [
+          "https://jkanime.net/mairimashita-iruma-kun-3rd-season/1/",
+          "https://jkanime.net/mairimashita-iruma-kun-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seiken-densetsu-legend-of-mana-the-teardrop-crystal/",
+        "title": "Seiken Densetsu: Legend of Mana - The Teardrop Crystal",
+        "samples": [
+          "https://jkanime.net/seiken-densetsu-legend-of-mana-the-teardrop-crystal/1/",
+          "https://jkanime.net/seiken-densetsu-legend-of-mana-the-teardrop-crystal/10/"
         ]
       },
       {
@@ -12965,6 +12989,166 @@
         "title": "Kimi wo Aishita Hitori no Boku e",
         "samples": [
           "https://jkanime.net/kimi-wo-aishita-hitori-no-boku-e/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akiba-maid-sensou/",
+        "title": "Akiba Maid Sensou",
+        "samples": [
+          "https://jkanime.net/akiba-maid-sensou/1/",
+          "https://jkanime.net/akiba-maid-sensou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megaton-kyuu-musashi-2nd-season/",
+        "title": "Megaton-kyuu Musashi 2nd Season",
+        "samples": [
+          "https://jkanime.net/megaton-kyuu-musashi-2nd-season/1/",
+          "https://jkanime.net/megaton-kyuu-musashi-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mob-psycho-100-iii/",
+        "title": "Mob Psycho 100 III",
+        "samples": [
+          "https://jkanime.net/mob-psycho-100-iii/1/",
+          "https://jkanime.net/mob-psycho-100-iii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/muv-luv-alternative-2nd-season/",
+        "title": "Muv-Luv Alternative 2nd Season",
+        "samples": [
+          "https://jkanime.net/muv-luv-alternative-2nd-season/1/",
+          "https://jkanime.net/muv-luv-alternative-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/do-it-yourself/",
+        "title": "Do It Yourself!!",
+        "samples": [
+          "https://jkanime.net/do-it-yourself/1/",
+          "https://jkanime.net/do-it-yourself/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushikaburi-hime/",
+        "title": "Mushikaburi-hime",
+        "samples": [
+          "https://jkanime.net/mushikaburi-hime/1/",
+          "https://jkanime.net/mushikaburi-hime/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yama-no-susume-next-summit/",
+        "title": "Yama no Susume: Next Summit",
+        "samples": [
+          "https://jkanime.net/yama-no-susume-next-summit/1/",
+          "https://jkanime.net/yama-no-susume-next-summit/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kage-no-jitsuryokusha-ni-naritakute/",
+        "title": "Kage no Jitsuryokusha ni Naritakute!",
+        "samples": [
+          "https://jkanime.net/kage-no-jitsuryokusha-ni-naritakute/1/",
+          "https://jkanime.net/kage-no-jitsuryokusha-ni-naritakute/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tensei-shitara-ken-deshita/",
+        "title": "Tensei shitara Ken Deshita",
+        "samples": [
+          "https://jkanime.net/tensei-shitara-ken-deshita/1/",
+          "https://jkanime.net/tensei-shitara-ken-deshita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futoku-no-guild/",
+        "title": "Futoku no Guild",
+        "samples": [
+          "https://jkanime.net/futoku-no-guild/1/",
+          "https://jkanime.net/futoku-no-guild/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/human-bug-daigaku/",
+        "title": "Human Bug Daigaku",
+        "samples": [
+          "https://jkanime.net/human-bug-daigaku/1/",
+          "https://jkanime.net/human-bug-daigaku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinobi-no-ittoki/",
+        "title": "Shinobi no Ittoki",
+        "samples": [
+          "https://jkanime.net/shinobi-no-ittoki/1/",
+          "https://jkanime.net/shinobi-no-ittoki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vazzrock-the-animation/",
+        "title": "Vazzrock The Animation",
+        "samples": [
+          "https://jkanime.net/vazzrock-the-animation/1/",
+          "https://jkanime.net/vazzrock-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meitantei-conan-hannin-no-hanzawa-san/",
+        "title": "Meitantei Conan: Hannin no Hanzawa-san",
+        "samples": [
+          "https://jkanime.net/meitantei-conan-hannin-no-hanzawa-san/1/",
+          "https://jkanime.net/meitantei-conan-hannin-no-hanzawa-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/golden-kamuy-4th-season/",
+        "title": "Golden Kamuy 4th Season",
+        "samples": [
+          "https://jkanime.net/golden-kamuy-4th-season/1/",
+          "https://jkanime.net/golden-kamuy-4th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinmai-renkinjutsushi-no-tenpo-keiei/",
+        "title": "Shinmai Renkinjutsushi no Tenpo Keiei",
+        "samples": [
+          "https://jkanime.net/shinmai-renkinjutsushi-no-tenpo-keiei/1/",
+          "https://jkanime.net/shinmai-renkinjutsushi-no-tenpo-keiei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/poputepipikku-2nd-season/",
+        "title": "Poputepipikku 2nd Season",
+        "samples": [
+          "https://jkanime.net/poputepipikku-2nd-season/1/",
+          "https://jkanime.net/poputepipikku-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idolish7-third-beat-part-2/",
+        "title": "IDOLiSH7: Third Beat! Part 2",
+        "samples": [
+          "https://jkanime.net/idolish7-third-beat-part-2/1/",
+          "https://jkanime.net/idolish7-third-beat-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koukyuu-no-karasu/",
+        "title": "Koukyuu no Karasu",
+        "samples": [
+          "https://jkanime.net/koukyuu-no-karasu/1/",
+          "https://jkanime.net/koukyuu-no-karasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau/",
+        "title": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+        "samples": [
+          "https://jkanime.net/yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau/1/",
+          "https://jkanime.net/yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau/2/"
         ]
       },
       {
@@ -23714,14 +23898,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
-        "vidhide": 9,
-        "mega": 4,
-        "mixdrop": 4,
-        "streamtape": 4
+        "vidhide": 8,
+        "mega": 3,
+        "mixdrop": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -45514,7 +45698,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45527,13 +45711,15 @@
     {
       "series": "https://jkanime.net/bocchi-the-rock/",
       "title": "Bocchi the Rock!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -45546,13 +45732,15 @@
     {
       "series": "https://jkanime.net/mairimashita-iruma-kun-3rd-season/",
       "title": "Mairimashita! Iruma-kun 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 21,
       "families": {
         "mega": 21,
         "streamwish": 21,
@@ -45565,19 +45753,21 @@
     {
       "series": "https://jkanime.net/seiken-densetsu-legend-of-mana-the-teardrop-crystal/",
       "title": "Seiken Densetsu: Legend of Mana - The Teardrop Crystal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -45622,13 +45812,15 @@
     {
       "series": "https://jkanime.net/akiba-maid-sensou/",
       "title": "Akiba Maid Sensou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45641,13 +45833,15 @@
     {
       "series": "https://jkanime.net/megaton-kyuu-musashi-2nd-season/",
       "title": "Megaton-kyuu Musashi 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -45660,13 +45854,15 @@
     {
       "series": "https://jkanime.net/mob-psycho-100-iii/",
       "title": "Mob Psycho 100 III",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45679,13 +45875,15 @@
     {
       "series": "https://jkanime.net/muv-luv-alternative-2nd-season/",
       "title": "Muv-Luv Alternative 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45698,13 +45896,15 @@
     {
       "series": "https://jkanime.net/do-it-yourself/",
       "title": "Do It Yourself!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45717,13 +45917,15 @@
     {
       "series": "https://jkanime.net/mushikaburi-hime/",
       "title": "Mushikaburi-hime",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45736,32 +45938,36 @@
     {
       "series": "https://jkanime.net/yama-no-susume-next-summit/",
       "title": "Yama no Susume: Next Summit",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 10,
+        "streamwish": 11,
+        "vidhide": 10,
+        "mp4upload": 11,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kage-no-jitsuryokusha-ni-naritakute/",
       "title": "Kage no Jitsuryokusha ni Naritakute!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -45774,13 +45980,15 @@
     {
       "series": "https://jkanime.net/tensei-shitara-ken-deshita/",
       "title": "Tensei shitara Ken Deshita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45793,13 +46001,15 @@
     {
       "series": "https://jkanime.net/futoku-no-guild/",
       "title": "Futoku no Guild",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45812,13 +46022,15 @@
     {
       "series": "https://jkanime.net/human-bug-daigaku/",
       "title": "Human Bug Daigaku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45831,13 +46043,15 @@
     {
       "series": "https://jkanime.net/shinobi-no-ittoki/",
       "title": "Shinobi no Ittoki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45850,13 +46064,15 @@
     {
       "series": "https://jkanime.net/vazzrock-the-animation/",
       "title": "Vazzrock The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -45869,13 +46085,15 @@
     {
       "series": "https://jkanime.net/meitantei-conan-hannin-no-hanzawa-san/",
       "title": "Meitantei Conan: Hannin no Hanzawa-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45888,13 +46106,15 @@
     {
       "series": "https://jkanime.net/golden-kamuy-4th-season/",
       "title": "Golden Kamuy 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -45907,13 +46127,15 @@
     {
       "series": "https://jkanime.net/shinmai-renkinjutsushi-no-tenpo-keiei/",
       "title": "Shinmai Renkinjutsushi no Tenpo Keiei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45926,13 +46148,15 @@
     {
       "series": "https://jkanime.net/poputepipikku-2nd-season/",
       "title": "Poputepipikku 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -45945,13 +46169,15 @@
     {
       "series": "https://jkanime.net/idolish7-third-beat-part-2/",
       "title": "IDOLiSH7: Third Beat! Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 17,
       "stored": 17,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 17,
       "families": {
         "mega": 17,
         "streamwish": 17,
@@ -45964,13 +46190,15 @@
     {
       "series": "https://jkanime.net/koukyuu-no-karasu/",
       "title": "Koukyuu no Karasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -45983,13 +46211,15 @@
     {
       "series": "https://jkanime.net/yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau/",
       "title": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 13,
         "streamwish": 13,
