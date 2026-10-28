@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T21:26:13.610191+00:00",
+  "checkedAt": "2026-10-28T21:40:49.088538+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73396,
   "storedChapters": 71442,
@@ -13795,7 +13795,135 @@
         "title": "Onipan!",
         "samples": [
           "https://jkanime.net/onipan/1/",
-          "https://jkanime.net/onipan/3/"
+          "https://jkanime.net/onipan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kunoichi-tsubaki-no-mune-no-uchi/",
+        "title": "Kunoichi Tsubaki no Mune no Uchi",
+        "samples": [
+          "https://jkanime.net/kunoichi-tsubaki-no-mune-no-uchi/1/",
+          "https://jkanime.net/kunoichi-tsubaki-no-mune-no-uchi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kawaii-dake-ja-nai-shikimori-san/",
+        "title": "Kawaii dake ja Nai Shikimori-san",
+        "samples": [
+          "https://jkanime.net/kawaii-dake-ja-nai-shikimori-san/1/",
+          "https://jkanime.net/kawaii-dake-ja-nai-shikimori-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kingdom-4th-season/",
+        "title": "Kingdom 4th Season",
+        "samples": [
+          "https://jkanime.net/kingdom-4th-season/1/",
+          "https://jkanime.net/kingdom-4th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-healer-mendokusai/",
+        "title": "Kono Healer, Mendokusai",
+        "samples": [
+          "https://jkanime.net/kono-healer-mendokusai/1/",
+          "https://jkanime.net/kono-healer-mendokusai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dance-dance-danseur/",
+        "title": "Dance Dance Danseur",
+        "samples": [
+          "https://jkanime.net/dance-dance-danseur/1/",
+          "https://jkanime.net/dance-dance-danseur/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yatogame-chan-kansatsu-nikki-4th-season/",
+        "title": "Yatogame-chan Kansatsu Nikki 4th Season",
+        "samples": [
+          "https://jkanime.net/yatogame-chan-kansatsu-nikki-4th-season/1/",
+          "https://jkanime.net/yatogame-chan-kansatsu-nikki-4th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spy-x-family/",
+        "title": "Spy x Family",
+        "samples": [
+          "https://jkanime.net/spy-x-family/1/",
+          "https://jkanime.net/spy-x-family/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahoutsukai-reimeiki/",
+        "title": "Mahoutsukai Reimeiki",
+        "samples": [
+          "https://jkanime.net/mahoutsukai-reimeiki/1/",
+          "https://jkanime.net/mahoutsukai-reimeiki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/machikado-mazoku-2-choume/",
+        "title": "Machikado Mazoku: 2-choume",
+        "samples": [
+          "https://jkanime.net/machikado-mazoku-2-choume/1/",
+          "https://jkanime.net/machikado-mazoku-2-choume/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/date-a-live-iv/",
+        "title": "Date A Live IV",
+        "samples": [
+          "https://jkanime.net/date-a-live-iv/1/",
+          "https://jkanime.net/date-a-live-iv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koi-wa-sekai-seifuku-no-ato-de/",
+        "title": "Koi wa Sekai Seifuku no Ato de",
+        "samples": [
+          "https://jkanime.net/koi-wa-sekai-seifuku-no-ato-de/1/",
+          "https://jkanime.net/koi-wa-sekai-seifuku-no-ato-de/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shachiku-san-wa-youjo-yuurei-ni-iyasaretai/",
+        "title": "Shachiku-san wa Youjo Yuurei ni Iyasaretai.",
+        "samples": [
+          "https://jkanime.net/shachiku-san-wa-youjo-yuurei-ni-iyasaretai/1/",
+          "https://jkanime.net/shachiku-san-wa-youjo-yuurei-ni-iyasaretai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu/",
+        "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+        "samples": [
+          "https://jkanime.net/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu/1/",
+          "https://jkanime.net/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto/",
+        "title": "Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto",
+        "samples": [
+          "https://jkanime.net/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto/1/",
+          "https://jkanime.net/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tomodachi-game/",
+        "title": "Tomodachi Game",
+        "samples": [
+          "https://jkanime.net/tomodachi-game/1/",
+          "https://jkanime.net/tomodachi-game/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru/",
+        "title": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
+        "samples": [
+          "https://jkanime.net/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru/1/",
+          "https://jkanime.net/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru/10/"
         ]
       },
       {
@@ -49006,7 +49134,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -49019,13 +49147,15 @@
     {
       "series": "https://jkanime.net/kunoichi-tsubaki-no-mune-no-uchi/",
       "title": "Kunoichi Tsubaki no Mune no Uchi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -49038,13 +49168,15 @@
     {
       "series": "https://jkanime.net/kawaii-dake-ja-nai-shikimori-san/",
       "title": "Kawaii dake ja Nai Shikimori-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49057,13 +49189,15 @@
     {
       "series": "https://jkanime.net/kingdom-4th-season/",
       "title": "Kingdom 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -49076,13 +49210,15 @@
     {
       "series": "https://jkanime.net/kono-healer-mendokusai/",
       "title": "Kono Healer, Mendokusai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49095,13 +49231,15 @@
     {
       "series": "https://jkanime.net/dance-dance-danseur/",
       "title": "Dance Dance Danseur",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -49114,13 +49252,15 @@
     {
       "series": "https://jkanime.net/yatogame-chan-kansatsu-nikki-4th-season/",
       "title": "Yatogame-chan Kansatsu Nikki 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -49133,13 +49273,15 @@
     {
       "series": "https://jkanime.net/spy-x-family/",
       "title": "Spy x Family",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49160,24 +49302,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mahoutsukai-reimeiki/",
       "title": "Mahoutsukai Reimeiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49190,13 +49332,15 @@
     {
       "series": "https://jkanime.net/machikado-mazoku-2-choume/",
       "title": "Machikado Mazoku: 2-choume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49209,13 +49353,15 @@
     {
       "series": "https://jkanime.net/date-a-live-iv/",
       "title": "Date A Live IV",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49228,13 +49374,15 @@
     {
       "series": "https://jkanime.net/koi-wa-sekai-seifuku-no-ato-de/",
       "title": "Koi wa Sekai Seifuku no Ato de",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49247,13 +49395,15 @@
     {
       "series": "https://jkanime.net/shachiku-san-wa-youjo-yuurei-ni-iyasaretai/",
       "title": "Shachiku-san wa Youjo Yuurei ni Iyasaretai.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49266,13 +49416,15 @@
     {
       "series": "https://jkanime.net/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu/",
       "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49286,13 +49438,15 @@
     {
       "series": "https://jkanime.net/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto/",
       "title": "Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49305,13 +49459,15 @@
     {
       "series": "https://jkanime.net/tomodachi-game/",
       "title": "Tomodachi Game",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49324,13 +49480,15 @@
     {
       "series": "https://jkanime.net/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru/",
       "title": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 12,
         "streamwish": 12,
