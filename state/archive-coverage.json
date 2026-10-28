@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T17:55:56.709875+00:00",
+  "checkedAt": "2026-10-28T18:09:24.033592+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73291,
-  "storedChapters": 71286,
-  "missingChapters": 2005,
+  "storedChapters": 71295,
+  "missingChapters": 1996,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -105,13 +105,6 @@
         "samples": [
           "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/13/",
           "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
-        "title": "Diamond no Ace: Act II Second Season",
-        "samples": [
-          "https://jkanime.net/diamond-no-ace-act-ii-second-season/15/"
         ]
       },
       {
@@ -476,16 +469,16 @@
         "series": "https://jkanime.net/douse-koishite-shimaunda/",
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
-          "https://jkanime.net/douse-koishite-shimaunda/13/",
-          "https://jkanime.net/douse-koishite-shimaunda/14/"
+          "https://jkanime.net/douse-koishite-shimaunda/14/",
+          "https://jkanime.net/douse-koishite-shimaunda/15/"
         ]
       },
       {
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/13/",
-          "https://jkanime.net/dr-stone-science-future/14/"
+          "https://jkanime.net/dr-stone-science-future/14/",
+          "https://jkanime.net/dr-stone-science-future/15/"
         ]
       },
       {
@@ -2260,8 +2253,8 @@
         "series": "https://jkanime.net/classicaloid-2nd-season/",
         "title": "ClassicaLoid 2nd Season",
         "samples": [
-          "https://jkanime.net/classicaloid-2nd-season/11/",
-          "https://jkanime.net/classicaloid-2nd-season/12/"
+          "https://jkanime.net/classicaloid-2nd-season/12/",
+          "https://jkanime.net/classicaloid-2nd-season/13/"
         ]
       },
       {
@@ -2276,8 +2269,8 @@
         "series": "https://jkanime.net/ame-iro-cocoa-series-ame-con/",
         "title": "Ame-iro Cocoa Series: Ame-con!!",
         "samples": [
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/4/",
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/5/"
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/5/",
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/6/"
         ]
       },
       {
@@ -2292,8 +2285,8 @@
         "series": "https://jkanime.net/cinderella-girls-gekijou-2nd-season/",
         "title": "Cinderella Girls Gekijou 2nd Season",
         "samples": [
-          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/11/",
-          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/12/"
+          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/12/",
+          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/13/"
         ]
       },
       {
@@ -2531,8 +2524,8 @@
         "series": "https://jkanime.net/chiruran-nibun-no-ichi/",
         "title": "Chiruran: Nibun no Ichi",
         "samples": [
-          "https://jkanime.net/chiruran-nibun-no-ichi/11/",
-          "https://jkanime.net/chiruran-nibun-no-ichi/12/"
+          "https://jkanime.net/chiruran-nibun-no-ichi/12/",
+          "https://jkanime.net/chiruran-nibun-no-ichi/2/"
         ]
       },
       {
@@ -2609,8 +2602,8 @@
         "series": "https://jkanime.net/classicaloid/",
         "title": "ClassicaLoid",
         "samples": [
-          "https://jkanime.net/classicaloid/11/",
-          "https://jkanime.net/classicaloid/12/"
+          "https://jkanime.net/classicaloid/12/",
+          "https://jkanime.net/classicaloid/13/"
         ]
       },
       {
@@ -2911,13 +2904,6 @@
         "title": "Prison School OVA",
         "samples": [
           "https://jkanime.net/prison-school-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/doukyuusei/",
-        "title": "Doukyuusei",
-        "samples": [
-          "https://jkanime.net/doukyuusei/1/"
         ]
       },
       {
@@ -7014,7 +7000,7 @@
         "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
         "title": "Diamond no Ace: Act II Second Season",
         "samples": [
-          "https://jkanime.net/diamond-no-ace-act-ii-second-season/15/"
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season/3/"
         ]
       },
       {
@@ -7044,8 +7030,8 @@
         "series": "https://jkanime.net/mao/",
         "title": "Mao",
         "samples": [
-          "https://jkanime.net/mao/12/",
-          "https://jkanime.net/mao/13/"
+          "https://jkanime.net/mao/13/",
+          "https://jkanime.net/mao/14/"
         ]
       },
       {
@@ -8278,8 +8264,8 @@
         "series": "https://jkanime.net/douse-koishite-shimaunda/",
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
-          "https://jkanime.net/douse-koishite-shimaunda/13/",
-          "https://jkanime.net/douse-koishite-shimaunda/14/"
+          "https://jkanime.net/douse-koishite-shimaunda/14/",
+          "https://jkanime.net/douse-koishite-shimaunda/15/"
         ]
       },
       {
@@ -8294,8 +8280,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/13/",
-          "https://jkanime.net/dr-stone-science-future/14/"
+          "https://jkanime.net/dr-stone-science-future/14/",
+          "https://jkanime.net/dr-stone-science-future/15/"
         ]
       },
       {
@@ -11180,7 +11166,135 @@
         "title": "B-Project: Netsuretsu*Love Call",
         "samples": [
           "https://jkanime.net/b-project-netsuretsulove-call/1/",
-          "https://jkanime.net/b-project-netsuretsulove-call/2/"
+          "https://jkanime.net/b-project-netsuretsulove-call/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamonohashi-ron-no-kindan-suiri/",
+        "title": "Kamonohashi Ron no Kindan Suiri",
+        "samples": [
+          "https://jkanime.net/kamonohashi-ron-no-kindan-suiri/1/",
+          "https://jkanime.net/kamonohashi-ron-no-kindan-suiri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/migi-to-dali/",
+        "title": "Migi to Dali",
+        "samples": [
+          "https://jkanime.net/migi-to-dali/1/",
+          "https://jkanime.net/migi-to-dali/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-coleus-no-yume/",
+        "title": "Tensei shitara Slime Datta Ken: Coleus no Yume",
+        "samples": [
+          "https://jkanime.net/tensei-shitara-slime-datta-ken-coleus-no-yume/1/",
+          "https://jkanime.net/tensei-shitara-slime-datta-ken-coleus-no-yume/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ragna-crimson/",
+        "title": "Ragna Crimson",
+        "samples": [
+          "https://jkanime.net/ragna-crimson/1/",
+          "https://jkanime.net/ragna-crimson/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/",
+        "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
+        "samples": [
+          "https://jkanime.net/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/1/",
+          "https://jkanime.net/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mf-ghost/",
+        "title": "MF Ghost",
+        "samples": [
+          "https://jkanime.net/mf-ghost/1/",
+          "https://jkanime.net/mf-ghost/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/overtake/",
+        "title": "Overtake!",
+        "samples": [
+          "https://jkanime.net/overtake/1/",
+          "https://jkanime.net/overtake/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boushoku-no-berserk/",
+        "title": "Boushoku no Berserk",
+        "samples": [
+          "https://jkanime.net/boushoku-no-berserk/1/",
+          "https://jkanime.net/boushoku-no-berserk/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dekoboko-majo-no-oyako-jijou/",
+        "title": "Dekoboko Majo no Oyako Jijou",
+        "samples": [
+          "https://jkanime.net/dekoboko-majo-no-oyako-jijou/1/",
+          "https://jkanime.net/dekoboko-majo-no-oyako-jijou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/captain-tsubasa-season-2-junior-youth-hen/",
+        "title": "Captain Tsubasa Season 2: Junior Youth-hen",
+        "samples": [
+          "https://jkanime.net/captain-tsubasa-season-2-junior-youth-hen/1/",
+          "https://jkanime.net/captain-tsubasa-season-2-junior-youth-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aoshi-jiuchong-tian/",
+        "title": "Aoshi Jiuchong Tian",
+        "samples": [
+          "https://jkanime.net/aoshi-jiuchong-tian/1/",
+          "https://jkanime.net/aoshi-jiuchong-tian/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megumi-no-daigo-kyuukoku-no-orange/",
+        "title": "Megumi no Daigo: Kyuukoku no Orange",
+        "samples": [
+          "https://jkanime.net/megumi-no-daigo-kyuukoku-no-orange/1/",
+          "https://jkanime.net/megumi-no-daigo-kyuukoku-no-orange/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sousou-no-frieren/",
+        "title": "Sousou no Frieren",
+        "samples": [
+          "https://jkanime.net/sousou-no-frieren/1/",
+          "https://jkanime.net/sousou-no-frieren/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ojou-to-banken-kun/",
+        "title": "Ojou to Banken-kun",
+        "samples": [
+          "https://jkanime.net/ojou-to-banken-kun/1/",
+          "https://jkanime.net/ojou-to-banken-kun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/xiao-lu-he-xiao-lan-3rd-season/",
+        "title": "Xiao Lu He Xiao Lan 3rd Season",
+        "samples": [
+          "https://jkanime.net/xiao-lu-he-xiao-lan-3rd-season/1/",
+          "https://jkanime.net/xiao-lu-he-xiao-lan-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kengan-ashura-season-2/",
+        "title": "Kengan Ashura Season 2",
+        "samples": [
+          "https://jkanime.net/kengan-ashura-season-2/1/",
+          "https://jkanime.net/kengan-ashura-season-2/10/"
         ]
       },
       {
@@ -11188,6 +11302,38 @@
         "title": "Alice to Therese no Maboroshi Koujou",
         "samples": [
           "https://jkanime.net/alice-to-therese-no-maboroshi-koujou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gamera-rebirth/",
+        "title": "Gamera: Rebirth",
+        "samples": [
+          "https://jkanime.net/gamera-rebirth/1/",
+          "https://jkanime.net/gamera-rebirth/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-paldean-winds/",
+        "title": "Pokemon Paldean Winds",
+        "samples": [
+          "https://jkanime.net/pokemon-paldean-winds/1/",
+          "https://jkanime.net/pokemon-paldean-winds/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yi-kong-zhan-ge/",
+        "title": "Yi Kong Zhan Ge",
+        "samples": [
+          "https://jkanime.net/yi-kong-zhan-ge/1/",
+          "https://jkanime.net/yi-kong-zhan-ge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/anhe-zhuan/",
+        "title": "Anhe Zhuan",
+        "samples": [
+          "https://jkanime.net/anhe-zhuan/1/",
+          "https://jkanime.net/anhe-zhuan/2/"
         ]
       },
       {
@@ -11220,10 +11366,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dr-stone-ryuusui/",
+        "title": "Dr. Stone: Ryuusui",
+        "samples": [
+          "https://jkanime.net/dr-stone-ryuusui/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bakuten-movie/",
         "title": "Bakuten!! Movie",
         "samples": [
           "https://jkanime.net/bakuten-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-super-super-hero/",
+        "title": "Dragon Ball Super: Super Hero",
+        "samples": [
+          "https://jkanime.net/dragon-ball-super-super-hero/1/"
         ]
       },
       {
@@ -11290,6 +11450,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii-ova/",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III OVA",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bang-dream-movie-episode-of-roselia-i-yakusoku/",
         "title": "BanG Dream! Movie: Episode of Roselia - I: Yakusoku",
         "samples": [
@@ -11322,6 +11489,13 @@
         "title": "Date A Bullet: Nightmare or Queen",
         "samples": [
           "https://jkanime.net/date-a-bullet-nightmare-or-queen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dounika-naru-hibi/",
+        "title": "Dounika Naru Hibi",
+        "samples": [
+          "https://jkanime.net/dounika-naru-hibi/1/"
         ]
       },
       {
@@ -11365,6 +11539,13 @@
         "title": "Chuubyou Gekihatsu Boy Special",
         "samples": [
           "https://jkanime.net/chuubyou-gekihatsu-boy-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii-ova/",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii-ova/1/"
         ]
       },
       {
@@ -11418,6 +11599,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-super-broly/",
+        "title": "Dragon Ball Super: Broly",
+        "samples": [
+          "https://jkanime.net/dragon-ball-super-broly/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/aragne-no-mushikago/",
         "title": "Aragne no Mushikago",
         "samples": [
@@ -11450,6 +11645,13 @@
         "title": "Bungou Stray Dogs: Dead Apple",
         "samples": [
           "https://jkanime.net/bungou-stray-dogs-dead-apple/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/doraemon-movie-38-nobita-no-takarajima/",
+        "title": "Doraemon Movie 38: Nobita no Takarajima",
+        "samples": [
+          "https://jkanime.net/doraemon-movie-38-nobita-no-takarajima/1/"
         ]
       },
       {
@@ -11494,6 +11696,13 @@
         "title": "Digimon Adventure tri. 4: Soushitsu",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri-4-soushitsu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ova/",
+        "title": "Danmachi OVA",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ova/1/"
         ]
       },
       {
@@ -11631,6 +11840,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dragon-ball-z-movie-15-fukkatsu-no-f/",
+        "title": "Dragon Ball Z Movie 15: Fukkatsu no F",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-15-fukkatsu-no-f/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ai-mai-mii-mousou-catastrophe-special/",
         "title": "Ai Mai Mii: Mousou Catastrophe Special",
         "samples": [
@@ -11663,6 +11879,13 @@
         "title": "Daitoshokan no Hitsujikai Specials",
         "samples": [
           "https://jkanime.net/daitoshokan-no-hitsujikai-specials/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dramatical-murder-ova-data-xx-transitory/",
+        "title": "DRAMAtical Murder OVA: Data_xx_Transitory",
+        "samples": [
+          "https://jkanime.net/dramatical-murder-ova-data-xx-transitory/1/"
         ]
       },
       {
@@ -11742,6 +11965,14 @@
         "samples": [
           "https://jkanime.net/ansatsu-kyoushitsu/10/",
           "https://jkanime.net/ansatsu-kyoushitsu/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/double-circle/",
+        "title": "Double Circle",
+        "samples": [
+          "https://jkanime.net/double-circle/1/",
+          "https://jkanime.net/double-circle/2/"
         ]
       },
       {
@@ -11847,6 +12078,13 @@
         "title": "Aura: Maryuuinkouga Saigo no Tatakai",
         "samples": [
           "https://jkanime.net/aura-maryuuinkouga-saigo-no-tatakai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-14-kami-to-kami/",
+        "title": "Dragon Ball Z: Kami to Kami",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-14-kami-to-kami/1/"
         ]
       },
       {
@@ -12012,6 +12250,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dragon-ball-episode-of-bardock/",
+        "title": "Dragon Ball: Episode of Bardock",
+        "samples": [
+          "https://jkanime.net/dragon-ball-episode-of-bardock/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
         "title": "Ao no Exorcist: Kuro no Iede",
         "samples": [
@@ -12030,6 +12275,13 @@
         "title": "Astarotte no Omocha! EX",
         "samples": [
           "https://jkanime.net/astarotte-no-omocha-ex/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-kai-special/",
+        "title": "Dragon Ball Kai Special",
+        "samples": [
+          "https://jkanime.net/dragon-ball-kai-special/1/"
         ]
       },
       {
@@ -12058,6 +12310,13 @@
         "title": "Angel Beats!: Another Epilogue",
         "samples": [
           "https://jkanime.net/angel-beats-another-epilogue/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/",
+        "title": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
+        "samples": [
+          "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/1/"
         ]
       },
       {
@@ -12210,10 +12469,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dragon-ball-z-movie-13-wrath-of-the-dragon/",
+        "title": "Dragon Ball Z Movie 13: Wrath of the Dragon",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-13-wrath-of-the-dragon/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-12-fusion-reborn/",
+        "title": "Dragon Ball Z Movie 12: Fusion Reborn",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-12-fusion-reborn/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/darkside-blues/",
         "title": "Darkside Blues",
         "samples": [
           "https://jkanime.net/darkside-blues/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-11-bio-broly/",
+        "title": "Dragon Ball Z Movie 11: Bio-Broly",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-11-bio-broly/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-10-broly-second-coming/",
+        "title": "Dragon Ball Z Movie 10: Broly - Second Coming",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-10-broly-second-coming/1/"
         ]
       },
       {
@@ -12224,6 +12511,62 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dragon-ball-z-saiya-jin-zetsumetsu-keikaku/",
+        "title": "Dragon Ball Z: Saiya-jin Zetsumetsu Keikaku",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-saiya-jin-zetsumetsu-keikaku/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-09-bojack-unbound/",
+        "title": "Dragon Ball Z Movie 09: Bojack Unbound",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-09-bojack-unbound/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-08-broly-the-legendary-super-saiyan/",
+        "title": "Dragon Ball Z Movie 08: Broly - The Legendary Super Saiyan",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-08-broly-the-legendary-super-saiyan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-special-2-zetsubou-e-no-hankou-nokosareta-chousenshi-gohan-to-trunks/",
+        "title": "Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-special-2-zetsubou-e-no-hankou-nokosareta-chousenshi-gohan-to-trunks/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-07-super-android-13/",
+        "title": "Dragon Ball Z Movie 07: Super Android 13",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-07-super-android-13/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-06-return-of-cooler/",
+        "title": "Dragon Ball Z Movie 06: Return of Cooler",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-06-return-of-cooler/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-atsumare-gokuu-world/",
+        "title": "Dragon Ball Z: Atsumare! Gokuu World",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-atsumare-gokuu-world/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/",
+        "title": "Dragon Ball Z Movie 05: Cooler's Revenge",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/burn-up/",
         "title": "Burn Up!",
         "samples": [
@@ -12231,10 +12574,59 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dragon-ball-z-movie-04-lord-slug/",
+        "title": "Dragon Ball Z Movie 04: Lord Slug",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-04-lord-slug/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-special-1-tatta-hitori-no-saishuu-kessen/",
+        "title": "Dragon Ball Z Special 1: Tatta Hitori no Saishuu Kessen",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-special-1-tatta-hitori-no-saishuu-kessen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-03-the-tree-of-might/",
+        "title": "Dragon Ball Z Movie 03: The Tree of Might",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-03-the-tree-of-might/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-02-the-worlds-strongest/",
+        "title": "Dragon Ball Z Movie 02: The World's Strongest",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-02-the-worlds-strongest/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z-movie-01-the-deadzone/",
+        "title": "Dragon Ball Z Movie 01: The Deadzone",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z-movie-01-the-deadzone/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/akira/",
         "title": "Akira",
         "samples": [
           "https://jkanime.net/akira/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/doraemon-movie-02-nobita-no-uchuu-kaitakushi/",
+        "title": "Doraemon Movie 02: Nobita no Uchuu Kaitakushi",
+        "samples": [
+          "https://jkanime.net/doraemon-movie-02-nobita-no-uchuu-kaitakushi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/doraemon-movie-01-nobita-no-kyouryuu/",
+        "title": "Doraemon Movie 01: Nobita no Kyouryuu",
+        "samples": [
+          "https://jkanime.net/doraemon-movie-01-nobita-no-kyouryuu/1/"
         ]
       },
       {
@@ -14513,13 +14905,6 @@
         "title": "Prison School OVA",
         "samples": [
           "https://jkanime.net/prison-school-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/doukyuusei/",
-        "title": "Doukyuusei",
-        "samples": [
-          "https://jkanime.net/doukyuusei/1/"
         ]
       },
       {
@@ -18284,7 +18669,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -20471,20 +20856,17 @@
       "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
       "title": "Diamond no Ace: Act II Second Season",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 16,
-      "stored": 15,
-      "missing": [
-        "https://jkanime.net/diamond-no-ace-act-ii-second-season/15/"
-      ],
+      "stored": 16,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 14,
-        "mp4upload": 6,
+        "streamwish": 15,
+        "mp4upload": 7,
         "mega": 1,
         "vidhide": 1,
         "mixdrop": 1,
@@ -20650,14 +21032,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
         "vidhide": 17,
-        "mega": 15,
-        "mixdrop": 15,
-        "streamtape": 15
+        "mega": 14,
+        "mixdrop": 14,
+        "streamtape": 14
       },
       "playbackVerified": false
     },
@@ -27761,9 +28143,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/douse-koishite-shimaunda/13/",
         "https://jkanime.net/douse-koishite-shimaunda/14/",
         "https://jkanime.net/douse-koishite-shimaunda/15/",
         "https://jkanime.net/douse-koishite-shimaunda/16/",
@@ -27781,9 +28162,9 @@
       "renewalFailed": 1,
       "families": {
         "vidhide": 2,
-        "mp4upload": 10,
+        "mp4upload": 11,
         "mega": 1,
-        "streamwish": 2,
+        "streamwish": 3,
         "mixdrop": 1,
         "streamtape": 1
       },
@@ -27819,9 +28200,8 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/13/",
         "https://jkanime.net/dr-stone-science-future/14/",
         "https://jkanime.net/dr-stone-science-future/15/",
         "https://jkanime.net/dr-stone-science-future/16/",
@@ -27851,9 +28231,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 8,
-        "vidhide": 9,
-        "mp4upload": 9,
+        "streamwish": 9,
+        "vidhide": 10,
+        "mp4upload": 10,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -36911,7 +37291,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -36924,13 +37304,15 @@
     {
       "series": "https://jkanime.net/kamonohashi-ron-no-kindan-suiri/",
       "title": "Kamonohashi Ron no Kindan Suiri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -36943,13 +37325,15 @@
     {
       "series": "https://jkanime.net/migi-to-dali/",
       "title": "Migi to Dali",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -36962,13 +37346,15 @@
     {
       "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-coleus-no-yume/",
       "title": "Tensei shitara Slime Datta Ken: Coleus no Yume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -36981,13 +37367,15 @@
     {
       "series": "https://jkanime.net/ragna-crimson/",
       "title": "Ragna Crimson",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -37000,13 +37388,15 @@
     {
       "series": "https://jkanime.net/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/",
       "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -37020,13 +37410,15 @@
     {
       "series": "https://jkanime.net/mf-ghost/",
       "title": "MF Ghost",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37039,13 +37431,15 @@
     {
       "series": "https://jkanime.net/overtake/",
       "title": "Overtake!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37058,13 +37452,15 @@
     {
       "series": "https://jkanime.net/boushoku-no-berserk/",
       "title": "Boushoku no Berserk",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37077,13 +37473,15 @@
     {
       "series": "https://jkanime.net/dekoboko-majo-no-oyako-jijou/",
       "title": "Dekoboko Majo no Oyako Jijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37096,13 +37494,15 @@
     {
       "series": "https://jkanime.net/captain-tsubasa-season-2-junior-youth-hen/",
       "title": "Captain Tsubasa Season 2: Junior Youth-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -37116,13 +37516,15 @@
     {
       "series": "https://jkanime.net/aoshi-jiuchong-tian/",
       "title": "Aoshi Jiuchong Tian",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37135,13 +37537,15 @@
     {
       "series": "https://jkanime.net/megumi-no-daigo-kyuukoku-no-orange/",
       "title": "Megumi no Daigo: Kyuukoku no Orange",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 22,
         "streamwish": 23,
@@ -37154,13 +37558,15 @@
     {
       "series": "https://jkanime.net/sousou-no-frieren/",
       "title": "Sousou no Frieren",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 28,
       "stored": 28,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 28,
       "families": {
         "mega": 28,
         "streamwish": 28,
@@ -37173,13 +37579,15 @@
     {
       "series": "https://jkanime.net/ojou-to-banken-kun/",
       "title": "Ojou to Banken-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -37192,13 +37600,15 @@
     {
       "series": "https://jkanime.net/xiao-lu-he-xiao-lan-3rd-season/",
       "title": "Xiao Lu He Xiao Lan 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37211,13 +37621,15 @@
     {
       "series": "https://jkanime.net/kengan-ashura-season-2/",
       "title": "Kengan Ashura Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -37267,32 +37679,36 @@
     {
       "series": "https://jkanime.net/gamera-rebirth/",
       "title": "Gamera: Rebirth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 6,
+        "mega": 4,
         "streamwish": 6,
-        "vidhide": 6,
-        "mp4upload": 5,
-        "streamtape": 6
+        "vidhide": 4,
+        "mp4upload": 3,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/pokemon-paldean-winds/",
       "title": "Pokemon Paldean Winds",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -37306,13 +37722,15 @@
     {
       "series": "https://jkanime.net/yi-kong-zhan-ge/",
       "title": "Yi Kong Zhan Ge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -37343,13 +37761,15 @@
     {
       "series": "https://jkanime.net/anhe-zhuan/",
       "title": "Anhe Zhuan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -41870,7 +42290,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -43222,7 +43642,8 @@
       "title": "Dr. Stone: Ryuusui",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -43231,7 +43652,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -43968,7 +44389,8 @@
       "title": "Dragon Ball Super: Super Hero",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -43977,7 +44399,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -48749,7 +49171,8 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -48758,7 +49181,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -51355,7 +51778,8 @@
       "title": "Dounika Naru Hibi",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -51364,7 +51788,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -53583,7 +54007,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -53928,7 +54352,8 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -53937,7 +54362,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -55897,7 +56322,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -58240,7 +58665,8 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -58249,7 +58675,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -59202,7 +59628,8 @@
       "title": "Dragon Ball Super: Broly",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -59211,7 +59638,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -62514,7 +62941,8 @@
       "title": "Doraemon Movie 38: Nobita no Takarajima",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -62523,7 +62951,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -63829,9 +64257,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 25,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/classicaloid-2nd-season/11/",
         "https://jkanime.net/classicaloid-2nd-season/12/",
         "https://jkanime.net/classicaloid-2nd-season/13/",
         "https://jkanime.net/classicaloid-2nd-season/14/",
@@ -63859,9 +64286,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 2,
-        "streamwish": 2,
-        "vidhide": 2
+        "mp4upload": 3,
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -64271,9 +64698,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/ame-iro-cocoa-series-ame-con/4/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/5/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/6/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/7/",
@@ -64284,9 +64710,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 6,
-        "streamwish": 6,
-        "vidhide": 6
+        "mp4upload": 7,
+        "streamwish": 7,
+        "vidhide": 7
       },
       "playbackVerified": false
     },
@@ -64384,9 +64810,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/cinderella-girls-gekijou-2nd-season/11/",
         "https://jkanime.net/cinderella-girls-gekijou-2nd-season/12/",
         "https://jkanime.net/cinderella-girls-gekijou-2nd-season/13/",
         "https://jkanime.net/cinderella-girls-gekijou-2nd-season/2/",
@@ -64403,7 +64828,7 @@
       "renewalFailed": 0,
       "families": {
         "mp4upload": 1,
-        "streamwish": 2,
+        "streamwish": 3,
         "vidhide": 1
       },
       "playbackVerified": false
@@ -66583,7 +67008,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -67416,9 +67841,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/chiruran-nibun-no-ichi/11/",
         "https://jkanime.net/chiruran-nibun-no-ichi/12/",
         "https://jkanime.net/chiruran-nibun-no-ichi/2/",
         "https://jkanime.net/chiruran-nibun-no-ichi/3/",
@@ -67433,9 +67857,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 2,
-        "streamwish": 2,
-        "vidhide": 2
+        "mp4upload": 3,
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -68009,7 +68433,8 @@
       "title": "Danmachi OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -68018,7 +68443,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -68328,9 +68753,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 25,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/classicaloid/11/",
         "https://jkanime.net/classicaloid/12/",
         "https://jkanime.net/classicaloid/13/",
         "https://jkanime.net/classicaloid/14/",
@@ -68358,9 +68782,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 3,
-        "vidhide": 3
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -68759,7 +69183,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -72164,19 +72588,16 @@
     {
       "series": "https://jkanime.net/doukyuusei/",
       "title": "Doukyuusei",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/doukyuusei/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -76387,7 +76808,8 @@
       "title": "Dragon Ball Z Movie 15: Fukkatsu no F",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -76396,7 +76818,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -78533,7 +78955,8 @@
       "title": "DRAMAtical Murder OVA: Data_xx_Transitory",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -78542,7 +78965,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -84496,7 +84919,8 @@
       "series": "https://jkanime.net/double-circle/",
       "title": "Double Circle",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 6,
       "stored": 0,
@@ -84510,7 +84934,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -88004,7 +88428,8 @@
       "title": "Dragon Ball Z: Kami to Kami",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -88013,7 +88438,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -92724,7 +93149,8 @@
       "title": "Dragon Ball: Episode of Bardock",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -92733,7 +93159,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -93563,7 +93989,8 @@
       "title": "Dragon Ball Kai Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -93572,7 +93999,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -95226,7 +95653,8 @@
       "title": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -95235,7 +95663,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -111505,7 +111933,8 @@
       "title": "Dragon Ball Z Movie 13: Wrath of the Dragon",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -111514,7 +111943,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -111655,7 +112084,8 @@
       "title": "Dragon Ball Z Movie 12: Fusion Reborn",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -111664,7 +112094,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -111883,7 +112313,8 @@
       "title": "Dragon Ball Z Movie 11: Bio-Broly",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -111892,7 +112323,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -111958,7 +112389,8 @@
       "title": "Dragon Ball Z Movie 10: Broly - Second Coming",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -111967,7 +112399,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112052,7 +112484,8 @@
       "title": "Dragon Ball Z: Saiya-jin Zetsumetsu Keikaku",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112061,7 +112494,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112070,7 +112503,8 @@
       "title": "Dragon Ball Z Movie 09: Bojack Unbound",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112079,7 +112513,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112144,7 +112578,8 @@
       "title": "Dragon Ball Z Movie 08: Broly - The Legendary Super Saiyan",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112153,7 +112588,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112162,7 +112597,8 @@
       "title": "Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112171,7 +112607,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112293,7 +112729,8 @@
       "title": "Dragon Ball Z Movie 07: Super Android 13",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112302,7 +112739,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112311,7 +112748,8 @@
       "title": "Dragon Ball Z Movie 06: Return of Cooler",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112320,7 +112758,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112367,7 +112805,8 @@
       "title": "Dragon Ball Z: Atsumare! Gokuu World",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112376,7 +112815,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112441,7 +112880,8 @@
       "series": "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/",
       "title": "Dragon Ball Z Movie 05: Cooler's Revenge",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112450,7 +112890,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112517,7 +112957,8 @@
       "title": "Dragon Ball Z Movie 04: Lord Slug",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112526,7 +112967,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112535,7 +112976,8 @@
       "title": "Dragon Ball Z Special 1: Tatta Hitori no Saishuu Kessen",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112544,7 +112986,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112553,7 +112995,8 @@
       "title": "Dragon Ball Z Movie 03: The Tree of Might",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112562,7 +113005,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112628,7 +113071,8 @@
       "series": "https://jkanime.net/dragon-ball-z-movie-02-the-worlds-strongest/",
       "title": "Dragon Ball Z Movie 02: The World's Strongest",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112637,7 +113081,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -112719,7 +113163,8 @@
       "title": "Dragon Ball Z Movie 01: The Deadzone",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -112728,7 +113173,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -113306,7 +113751,8 @@
       "title": "Doraemon Movie 02: Nobita no Uchuu Kaitakushi",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -113315,7 +113761,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -113399,7 +113845,8 @@
       "title": "Doraemon Movie 01: Nobita no Kyouryuu",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -113408,7 +113855,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
