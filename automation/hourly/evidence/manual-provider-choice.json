@@ -1,0 +1,29 @@
+{
+  "published": true,
+  "mobile": 59,
+  "tv": 91,
+  "cycle": "work\\cloud-integration\\runs\\20261028T164949Z",
+  "allPipelineStagesPassed": true,
+  "providerChoiceChecks": 62,
+  "realSavedSourcePages": 2,
+  "optionsPerPage": [
+    7,
+    7
+  ],
+  "physicalAndroidVerified": false,
+  "originalIndependentPlaybackProofsReused": true,
+  "cloudRecoveryRun": 40728881634,
+  "cloudRenewed": 53,
+  "archiveChapters": 71252,
+  "missingObservedChapters": 2022,
+  "unknownSeriesListings": 52,
+  "expired": 0,
+  "allSeriesRepaired": false,
+  "nextBatchAutomatic": true,
+  "aiCallsPerRecord": 0,
+  "sourceHashes": {
+    "MainActivity.java": "32432331bb2c2f86c3d8aa771ff20c2d748642df5bbfce146a2d126328b61f6d",
+    "PlaybackSourceOrder.java": "aee4837cc799a2db3669004755ba9245795600f2e1ba9756175f2fe853b57abb",
+    "OnlineProviderOptions.java": "1d50cb7d476c955724e41e3afeb5a0b7b16464d89d278b110347c02fa6d12ee2"
+  }
+}
