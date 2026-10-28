@@ -99,6 +99,6 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 824; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: insufficient-history.
+Estado: complete-with-failures. Fallos pendientes: 887; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: within-budget.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 <!-- /ZZ-RENEW-STATUS -->
