@@ -96,3 +96,9 @@ Base real `origin/main`: `f9e6c734a7bd4477eb70aa94a5f54e620b6ff514`.
 No se ha creado un commit artificial ni incorporado archivos locales para ocultar
 cambios. Los archivos sin seguimiento también deben pasar el alcance del lote;
 no ignorar código de app ni ampliar la lista indiscriminadamente para obtener verde.
+
+<!-- ZZ-RENEW-STATUS -->
+## Refresco automático del respaldo
+Estado: failed. Fallos pendientes: 2; capítulos vencidos pendientes: 0.
+Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
+<!-- /ZZ-RENEW-STATUS -->
