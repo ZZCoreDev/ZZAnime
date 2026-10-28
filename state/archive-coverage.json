@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T16:52:19.857359+00:00",
+  "checkedAt": "2026-10-28T17:05:41.735092+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73274,
-  "storedChapters": 71252,
-  "missingChapters": 2022,
+  "storedChapters": 71254,
+  "missingChapters": 2020,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -2341,8 +2341,8 @@
         "series": "https://jkanime.net/ame-iro-cocoa-series-ame-con/",
         "title": "Ame-iro Cocoa Series: Ame-con!!",
         "samples": [
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/10/",
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/11/"
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/11/",
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/12/"
         ]
       },
       {
@@ -2904,13 +2904,6 @@
         "title": "Kekkai Sensen: Ousama no Restaurant no Ousama",
         "samples": [
           "https://jkanime.net/kekkai-sensen-ousama-no-restaurant-no-ousama/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/arslan-senki-tv-ova/",
-        "title": "Arslan Senki (TV) OVA",
-        "samples": [
-          "https://jkanime.net/arslan-senki-tv-ova/2/"
         ]
       },
       {
@@ -7826,13 +7819,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/yofukashi-no-uta-season-2/",
-        "title": "Yofukashi no Uta Season 2",
-        "samples": [
-          "https://jkanime.net/yofukashi-no-uta-season-2/3/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mizu-zokusei-no-mahoutsukai/",
         "title": "Mizu Zokusei no Mahoutsukai",
         "samples": [
@@ -10345,6 +10331,181 @@
         "samples": [
           "https://jkanime.net/sheng-zu/1/",
           "https://jkanime.net/sheng-zu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-yuzhou-shidai/",
+        "title": "Da Yuzhou Shidai",
+        "samples": [
+          "https://jkanime.net/da-yuzhou-shidai/1/",
+          "https://jkanime.net/da-yuzhou-shidai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meiji-gekken-1874/",
+        "title": "Meiji Gekken: 1874",
+        "samples": [
+          "https://jkanime.net/meiji-gekken-1874/1/",
+          "https://jkanime.net/meiji-gekken-1874/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hikari-no-ou-2nd-season/",
+        "title": "Hikari no Ou 2nd Season",
+        "samples": [
+          "https://jkanime.net/hikari-no-ou-2nd-season/1/",
+          "https://jkanime.net/hikari-no-ou-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kingdom-5th-season/",
+        "title": "Kingdom 5th Season",
+        "samples": [
+          "https://jkanime.net/kingdom-5th-season/1/",
+          "https://jkanime.net/kingdom-5th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bucchigiri/",
+        "title": "Bucchigiri?!",
+        "samples": [
+          "https://jkanime.net/bucchigiri/1/",
+          "https://jkanime.net/bucchigiri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard-divinez/",
+        "title": "Cardfight!! Vanguard: Divinez",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard-divinez/1/",
+          "https://jkanime.net/cardfight-vanguard-divinez/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wangzhe-rongyao-rongyao-zhi-zhang/",
+        "title": "Wangzhe Rongyao: Rongyao Zhi Zhang",
+        "samples": [
+          "https://jkanime.net/wangzhe-rongyao-rongyao-zhi-zhang/1/",
+          "https://jkanime.net/wangzhe-rongyao-rongyao-zhi-zhang/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majo-to-yajuu/",
+        "title": "Majo to Yajuu",
+        "samples": [
+          "https://jkanime.net/majo-to-yajuu/1/",
+          "https://jkanime.net/majo-to-yajuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita/",
+        "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
+        "samples": [
+          "https://jkanime.net/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita/1/",
+          "https://jkanime.net/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita/",
+        "title": "Meitou \"Isekai no Yu\" Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
+        "samples": [
+          "https://jkanime.net/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita/10/",
+          "https://jkanime.net/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/snack-basue/",
+        "title": "Snack Basue",
+        "samples": [
+          "https://jkanime.net/snack-basue/1/",
+          "https://jkanime.net/snack-basue/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gekkan-mousou-kagaku/",
+        "title": "Gekkan Mousou Kagaku",
+        "samples": [
+          "https://jkanime.net/gekkan-mousou-kagaku/1/",
+          "https://jkanime.net/gekkan-mousou-kagaku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuuki-bakuhatsu-bang-bravern/",
+        "title": "Yuuki Bakuhatsu Bang Bravern",
+        "samples": [
+          "https://jkanime.net/yuuki-bakuhatsu-bang-bravern/1/",
+          "https://jkanime.net/yuuki-bakuhatsu-bang-bravern/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/metallic-rouge/",
+        "title": "Metallic Rouge",
+        "samples": [
+          "https://jkanime.net/metallic-rouge/1/",
+          "https://jkanime.net/metallic-rouge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gekai-elise/",
+        "title": "Gekai Elise",
+        "samples": [
+          "https://jkanime.net/gekai-elise/1/",
+          "https://jkanime.net/gekai-elise/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sengoku-youko/",
+        "title": "Sengoku Youko",
+        "samples": [
+          "https://jkanime.net/sengoku-youko/1/",
+          "https://jkanime.net/sengoku-youko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii/",
+        "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii",
+        "samples": [
+          "https://jkanime.net/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii/1/",
+          "https://jkanime.net/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen/",
+        "title": "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
+        "samples": [
+          "https://jkanime.net/akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen/1/",
+          "https://jkanime.net/akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shaman-king-flowers/",
+        "title": "Shaman King: Flowers",
+        "samples": [
+          "https://jkanime.net/shaman-king-flowers/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/synduality-noir-part-2/",
+        "title": "Synduality: Noir Part 2",
+        "samples": [
+          "https://jkanime.net/synduality-noir-part-2/1/",
+          "https://jkanime.net/synduality-noir-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu-2nd-season/",
+        "title": "Tsuki ga Michibiku Isekai Douchuu 2nd Season",
+        "samples": [
+          "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu-2nd-season/1/",
+          "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dosanko-gal-wa-namara-menkoi/",
+        "title": "Dosanko Gal wa Namara Menkoi",
+        "samples": [
+          "https://jkanime.net/dosanko-gal-wa-namara-menkoi/1/",
+          "https://jkanime.net/dosanko-gal-wa-namara-menkoi/2/"
         ]
       },
       {
@@ -18835,14 +18996,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
         "vidhide": 21,
-        "mega": 20,
-        "mixdrop": 20,
-        "streamtape": 20
+        "mega": 19,
+        "mixdrop": 19,
+        "streamtape": 19
       },
       "playbackVerified": false
     },
@@ -23506,22 +23667,17 @@
     {
       "series": "https://jkanime.net/yofukashi-no-uta-season-2/",
       "title": "Yofukashi no Uta Season 2",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 11,
         "vidhide": 8,
-        "streamwish": 8,
-        "mega": 1,
-        "mixdrop": 1,
-        "streamtape": 1
+        "streamwish": 8
       },
       "playbackVerified": false
     },
@@ -32308,7 +32464,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -32336,13 +32492,15 @@
     {
       "series": "https://jkanime.net/da-yuzhou-shidai/",
       "title": "Da Yuzhou Shidai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32355,13 +32513,15 @@
     {
       "series": "https://jkanime.net/meiji-gekken-1874/",
       "title": "Meiji Gekken: 1874",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -32374,13 +32534,15 @@
     {
       "series": "https://jkanime.net/hikari-no-ou-2nd-season/",
       "title": "Hikari no Ou 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -32401,24 +32563,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "mp4upload": 13,
-        "vidhide": 8,
-        "streamtape": 8
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kingdom-5th-season/",
       "title": "Kingdom 5th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -32431,13 +32591,15 @@
     {
       "series": "https://jkanime.net/bucchigiri/",
       "title": "Bucchigiri?!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -32451,32 +32613,36 @@
     {
       "series": "https://jkanime.net/cardfight-vanguard-divinez/",
       "title": "Cardfight!! Vanguard: Divinez",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "mp4upload": 13,
-        "vidhide": 8,
-        "streamtape": 9
+        "mega": 3,
+        "streamwish": 4,
+        "mp4upload": 12,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/wangzhe-rongyao-rongyao-zhi-zhang/",
       "title": "Wangzhe Rongyao: Rongyao Zhi Zhang",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -32489,13 +32655,15 @@
     {
       "series": "https://jkanime.net/majo-to-yajuu/",
       "title": "Majo to Yajuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32516,24 +32684,23 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 23,
-        "streamwish": 23,
-        "mp4upload": 22,
-        "streamtape": 18,
-        "vidhide": 17
+        "streamwish": 9,
+        "mp4upload": 20
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita/",
       "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32546,32 +32713,36 @@
     {
       "series": "https://jkanime.net/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita/",
       "title": "Meitou \"Isekai no Yu\" Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "mp4upload": 12,
-        "streamtape": 9,
-        "vidhide": 7
+        "vidhide": 7,
+        "mega": 8,
+        "streamwish": 11,
+        "mp4upload": 8,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/snack-basue/",
       "title": "Snack Basue",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -32602,13 +32773,15 @@
     {
       "series": "https://jkanime.net/gekkan-mousou-kagaku/",
       "title": "Gekkan Mousou Kagaku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32621,13 +32794,15 @@
     {
       "series": "https://jkanime.net/yuuki-bakuhatsu-bang-bravern/",
       "title": "Yuuki Bakuhatsu Bang Bravern",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32640,13 +32815,15 @@
     {
       "series": "https://jkanime.net/metallic-rouge/",
       "title": "Metallic Rouge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -32659,13 +32836,15 @@
     {
       "series": "https://jkanime.net/gekai-elise/",
       "title": "Gekai Elise",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32678,13 +32857,15 @@
     {
       "series": "https://jkanime.net/sengoku-youko/",
       "title": "Sengoku Youko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 13,
         "mp4upload": 13,
@@ -32697,13 +32878,15 @@
     {
       "series": "https://jkanime.net/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii/",
       "title": "30-sai made Doutei dato Mahoutsukai ni Nareru Rashii",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32716,13 +32899,15 @@
     {
       "series": "https://jkanime.net/akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen/",
       "title": "Akuyaku Reijou Level 99: Watashi wa Ura-Boss desu ga Maou dewa Arimasen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32736,32 +32921,35 @@
     {
       "series": "https://jkanime.net/shaman-king-flowers/",
       "title": "Shaman King: Flowers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "streamwish": 13,
-        "mp4upload": 13,
-        "streamtape": 11,
-        "mega": 12,
-        "vidhide": 7
+        "mp4upload": 6,
+        "streamwish": 9,
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/synduality-noir-part-2/",
       "title": "Synduality: Noir Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -32774,13 +32962,15 @@
     {
       "series": "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu-2nd-season/",
       "title": "Tsuki ga Michibiku Isekai Douchuu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -32794,13 +32984,15 @@
     {
       "series": "https://jkanime.net/dosanko-gal-wa-namara-menkoi/",
       "title": "Dosanko Gal wa Namara Menkoi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62215,9 +62407,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/ame-iro-cocoa-series-ame-con/10/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/11/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/12/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/2/",
@@ -62233,9 +62424,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 1,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 2,
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -68838,21 +69029,17 @@
     {
       "series": "https://jkanime.net/arslan-senki-tv-ova/",
       "title": "Arslan Senki (TV) OVA",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 2,
-      "stored": 1,
-      "missing": [
-        "https://jkanime.net/arslan-senki-tv-ova/2/"
-      ],
+      "stored": 2,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 1,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 2,
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
