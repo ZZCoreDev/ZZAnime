@@ -1,1 +1,1 @@
-{"state":"failed","checkedAt":1793185299,"proof":false,"fetched":50,"changed":50,"aiCalls":0,"retainedPrevious":true,"reason":"TimeoutError","retryAt":1793271699}
+{"state":"complete","checkedAt":1793185713,"proof":false,"fetched":783,"changed":783,"held":0,"cached":50,"requested":783,"stored":833,"aiCalls":0,"apkPublished":false,"retryAt":1793272113,"policyVersion":2}
