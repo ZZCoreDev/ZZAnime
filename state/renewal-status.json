@@ -1,14 +1,14 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-10-28T08:21:32.444230+00:00",
+  "checkedAt": "2026-10-28T08:33:22.378540+00:00",
   "requested": 200,
-  "renewed": 174,
-  "failed": 308,
+  "renewed": 126,
+  "failed": 382,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "40656167204",
+  "runId": "40657594173",
   "expired": 0,
   "published": true
 }
