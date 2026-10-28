@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T17:19:19.694412+00:00",
+  "checkedAt": "2026-10-28T17:30:28.193672+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73274,
-  "storedChapters": 71255,
-  "missingChapters": 2019,
+  "storedChapters": 71266,
+  "missingChapters": 2008,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -249,13 +249,6 @@
         "samples": [
           "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/14/",
           "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/15/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-no-hero-academia-final-season/",
-        "title": "Boku no Hero Academia: Final Season",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-final-season/12/"
         ]
       },
       {
@@ -612,13 +605,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-4-youre-next/",
-        "title": "Boku no Hero Academia the Movie 4: You're Next",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-the-movie-4-youre-next/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mononoke-movie-karakasa/",
         "title": "Mononoke Movie: Karakasa",
         "samples": [
@@ -743,13 +729,6 @@
         "title": "Kizumonogatari: Koyomi Vamp",
         "samples": [
           "https://jkanime.net/kizumonogatari-koyomi-vamp/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bloody-escape-jigoku-no-tousou-geki/",
-        "title": "Bloody Escape: Jigoku no Tousou Geki",
-        "samples": [
-          "https://jkanime.net/bloody-escape-jigoku-no-tousou-geki/1/"
         ]
       },
       {
@@ -2193,13 +2172,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-futari-no-hero/",
-        "title": "Boku no Hero Academia the Movie: Futari no Hero",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-the-movie-futari-no-hero/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/masamune-kun-no-revenge-ova/",
         "title": "Masamune-kun no Revenge OVA",
         "samples": [
@@ -2341,8 +2313,8 @@
         "series": "https://jkanime.net/ame-iro-cocoa-series-ame-con/",
         "title": "Ame-iro Cocoa Series: Ame-con!!",
         "samples": [
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/12/",
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/2/"
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/2/",
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/3/"
         ]
       },
       {
@@ -2459,13 +2431,6 @@
         "title": "Suki ni Naru Sono Shunkan wo.: Kokuhaku Jikkou Iinkai",
         "samples": [
           "https://jkanime.net/suki-ni-naru-sono-shunkan-wo-kokuhaku-jikkou-iinkai/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/blame-movie/",
-        "title": "Blame! Movie",
-        "samples": [
-          "https://jkanime.net/blame-movie/1/"
         ]
       },
       {
@@ -3127,13 +3092,6 @@
         "title": "Kuroko no Basket: Saikou no Present Desu",
         "samples": [
           "https://jkanime.net/kuroko-no-basket-saikou-no-present-desu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bikini-warriors-special/",
-        "title": "Bikini Warriors Special",
-        "samples": [
-          "https://jkanime.net/bikini-warriors-special/1/"
         ]
       },
       {
@@ -5522,13 +5480,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bleach-movie-4-jigoku-hen/",
-        "title": "Bleach Movie 4: Jigoku-hen",
-        "samples": [
-          "https://jkanime.net/bleach-movie-4-jigoku-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/",
         "title": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
         "samples": [
@@ -5806,13 +5757,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bleach-movie-3-fade-to-black-kimi-no-na-wo-yobu/",
-        "title": "Bleach Movie 3: Fade to Black - Kimi no Na wo Yobu",
-        "samples": [
-          "https://jkanime.net/bleach-movie-3-fade-to-black-kimi-no-na-wo-yobu/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-romance-dawn/",
         "title": "One Piece: Romance Dawn",
         "samples": [
@@ -5960,13 +5904,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bleach-memories-of-nobody/",
-        "title": "Bleach: Memories of Nobody",
-        "samples": [
-          "https://jkanime.net/bleach-memories-of-nobody/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-movie-tick-tack-kiki-ippatsu/",
         "title": "Futari wa Precure: Splash☆Star Movie - Tick Tack Kiki Ippatsu!",
         "samples": [
@@ -6069,13 +6006,6 @@
         "title": "Fullmetal Alchemist: The Conqueror of Shamballa",
         "samples": [
           "https://jkanime.net/fullmetal-alchemist-the-conqueror-of-shamballa/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bleach-memories-in-the-rain/",
-        "title": "Bleach: Memories in the Rain",
-        "samples": [
-          "https://jkanime.net/bleach-memories-in-the-rain/1/"
         ]
       },
       {
@@ -7079,6 +7009,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/boku-no-hero-academia-more/",
+        "title": "Boku no Hero Academia: More",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-more/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-returns/",
         "title": "Iya na Kao sare nagara Opantsu Misete Moraitai Returns",
         "samples": [
@@ -7255,6 +7192,13 @@
         "samples": [
           "https://jkanime.net/tensui-no-sakuna-hime-kokorowa-inasaku-nisshi/1/",
           "https://jkanime.net/tensui-no-sakuna-hime-kokorowa-inasaku-nisshi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-kokoro-no-yabai-yatsu-movie/",
+        "title": "Boku no Kokoro no Yabai Yatsu Movie",
+        "samples": [
+          "https://jkanime.net/boku-no-kokoro-no-yabai-yatsu-movie/1/"
         ]
       },
       {
@@ -7950,6 +7894,13 @@
         "samples": [
           "https://jkanime.net/umayuru-pretty-gray/1/",
           "https://jkanime.net/umayuru-pretty-gray/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-to-roboko-movie/",
+        "title": "Boku to Roboko Movie",
+        "samples": [
+          "https://jkanime.net/boku-to-roboko-movie/1/"
         ]
       },
       {
@@ -9805,6 +9756,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/blue-lock-episode-nagi/",
+        "title": "Blue Lock: Episode Nagi",
+        "samples": [
+          "https://jkanime.net/blue-lock-episode-nagi/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/grimm-kumikyoku/",
         "title": "Grimm Kumikyoku",
         "samples": [
@@ -10709,7 +10667,174 @@
         "title": "Jaku-Chara Tomozaki-kun 2nd Stage",
         "samples": [
           "https://jkanime.net/jaku-chara-tomozaki-kun-2nd-stage/1/",
-          "https://jkanime.net/jaku-chara-tomozaki-kun-2nd-stage/2/"
+          "https://jkanime.net/jaku-chara-tomozaki-kun-2nd-stage/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ishura/",
+        "title": "Ishura",
+        "samples": [
+          "https://jkanime.net/ishura/1/",
+          "https://jkanime.net/ishura/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-ni-akogarete/",
+        "title": "Mahou Shoujo ni Akogarete",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-ni-akogarete/1/",
+          "https://jkanime.net/mahou-shoujo-ni-akogarete/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wu-nao-monu-2nd-season/",
+        "title": "Wu Nao Monu 2nd Season",
+        "samples": [
+          "https://jkanime.net/wu-nao-monu-2nd-season/1/",
+          "https://jkanime.net/wu-nao-monu-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu/",
+        "title": "Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.",
+        "samples": [
+          "https://jkanime.net/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu/1/",
+          "https://jkanime.net/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wangu-kuang-di/",
+        "title": "Wangu Kuang Di",
+        "samples": [
+          "https://jkanime.net/wangu-kuang-di/1/",
+          "https://jkanime.net/wangu-kuang-di/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-wang-rao-ming-2/",
+        "title": "Da Wang Rao Ming 2",
+        "samples": [
+          "https://jkanime.net/da-wang-rao-ming-2/1/",
+          "https://jkanime.net/da-wang-rao-ming-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/xiao-lu-he-xiao-lan-4th-season/",
+        "title": "Xiao Lu He Xiao Lan 4th Season",
+        "samples": [
+          "https://jkanime.net/xiao-lu-he-xiao-lan-4th-season/1/",
+          "https://jkanime.net/xiao-lu-he-xiao-lan-4th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/huoxing-xi-lu-7-hao/",
+        "title": "Huoxing Xi Lu 7 Hao",
+        "samples": [
+          "https://jkanime.net/huoxing-xi-lu-7-hao/1/",
+          "https://jkanime.net/huoxing-xi-lu-7-hao/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-daily-life-of-the-inmortal-king-4nd-season/",
+        "title": "The Daily Life of the Immortal King 4",
+        "samples": [
+          "https://jkanime.net/the-daily-life-of-the-inmortal-king-4nd-season/1/",
+          "https://jkanime.net/the-daily-life-of-the-inmortal-king-4nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ran-xia/",
+        "title": "Ran Xia",
+        "samples": [
+          "https://jkanime.net/ran-xia/1/",
+          "https://jkanime.net/ran-xia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/xiaoke-de-huatu-xie-hua/",
+        "title": "Xiaoke de Huatu Xie Hua",
+        "samples": [
+          "https://jkanime.net/xiaoke-de-huatu-xie-hua/1/",
+          "https://jkanime.net/xiaoke-de-huatu-xie-hua/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bu-shi-bu-mie/",
+        "title": "Bu Shi Bu Mie",
+        "samples": [
+          "https://jkanime.net/bu-shi-bu-mie/1/",
+          "https://jkanime.net/bu-shi-bu-mie/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shi-fang-wu-sheng/",
+        "title": "Shi Fang Wu Sheng",
+        "samples": [
+          "https://jkanime.net/shi-fang-wu-sheng/1/",
+          "https://jkanime.net/shi-fang-wu-sheng/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shen-cang/",
+        "title": "Shen Cang",
+        "samples": [
+          "https://jkanime.net/shen-cang/1/",
+          "https://jkanime.net/shen-cang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ni-de-rensheng-shi-wo-lai-chi-le/",
+        "title": "Ni De Rensheng Shi Wo Lai Chi Le",
+        "samples": [
+          "https://jkanime.net/ni-de-rensheng-shi-wo-lai-chi-le/1/",
+          "https://jkanime.net/ni-de-rensheng-shi-wo-lai-chi-le/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/qi-hou-bilu/",
+        "title": "Qi Hou Bilu",
+        "samples": [
+          "https://jkanime.net/qi-hou-bilu/1/",
+          "https://jkanime.net/qi-hou-bilu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pluto/",
+        "title": "Pluto",
+        "samples": [
+          "https://jkanime.net/pluto/2/",
+          "https://jkanime.net/pluto/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/temple-specials/",
+        "title": "Temple Specials",
+        "samples": [
+          "https://jkanime.net/temple-specials/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shaonian-ge-xing-haiwai-xianshan-pian/",
+        "title": "Shaonian Ge Xing: Haiwai Xianshan Pian",
+        "samples": [
+          "https://jkanime.net/shaonian-ge-xing-haiwai-xianshan-pian/1/",
+          "https://jkanime.net/shaonian-ge-xing-haiwai-xianshan-pian/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
+        "title": "Kusuriya no Hitorigoto",
+        "samples": [
+          "https://jkanime.net/kusuriya-no-hitorigoto/1/",
+          "https://jkanime.net/kusuriya-no-hitorigoto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zhengjing-shao-zhu-de-xingfu-shenghuo/",
+        "title": "Zhengjing Shao Zhu de Xingfu Shenghuo",
+        "samples": [
+          "https://jkanime.net/zhengjing-shao-zhu-de-xingfu-shenghuo/1/",
+          "https://jkanime.net/zhengjing-shao-zhu-de-xingfu-shenghuo/10/"
         ]
       },
       {
@@ -10717,6 +10842,28 @@
         "title": "Alice to Therese no Maboroshi Koujou",
         "samples": [
           "https://jkanime.net/alice-to-therese-no-maboroshi-koujou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
+        "title": "Black Clover: Mahou Tei no Ken",
+        "samples": [
+          "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bleach-sennen-kessen-hen/",
+        "title": "Bleach: Sennen Kessen-hen",
+        "samples": [
+          "https://jkanime.net/bleach-sennen-kessen-hen/14/",
+          "https://jkanime.net/bleach-sennen-kessen-hen/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/",
+        "title": "Boku ga Aishita Subete no Kimi e",
+        "samples": [
+          "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/1/"
         ]
       },
       {
@@ -10741,10 +10888,31 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bang-dream-movie-poppin-dream/",
+        "title": "BanG Dream! Movie: Poppin' Dream!",
+        "samples": [
+          "https://jkanime.net/bang-dream-movie-poppin-dream/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bright-samurai-soul/",
+        "title": "Bright: Samurai Soul",
+        "samples": [
+          "https://jkanime.net/bright-samurai-soul/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bang-dream-film-live-2nd-stage/",
         "title": "BanG Dream! Film Live 2nd Stage",
         "samples": [
           "https://jkanime.net/bang-dream-film-live-2nd-stage/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/",
+        "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/"
         ]
       },
       {
@@ -10769,6 +10937,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-2/",
+        "title": "Bishoujo Senshi Sailor Moon Eternal Movie 2",
+        "samples": [
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-2/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-1/",
+        "title": "Bishoujo Senshi Sailor Moon Eternal Movie 1",
+        "samples": [
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-1/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/a3-season-autumn-winter/",
         "title": "A3! Season Autumn & Winter",
         "samples": [
@@ -10776,10 +10958,45 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bem-movie-become-human/",
+        "title": "Bem Movie: Become Human",
+        "samples": [
+          "https://jkanime.net/bem-movie-become-human/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/asateer-mirai-no-mukashi-banashi/",
         "title": "Asateer: Mirai no Mukashi Banashi",
         "samples": [
           "https://jkanime.net/asateer-mirai-no-mukashi-banashi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-2-heroesrising/",
+        "title": "Boku no Hero Academia the Movie 2: Heroes:Rising",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-the-movie-2-heroesrising/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokura-no-nanokakan-sensou/",
+        "title": "Bokura no Nanokakan Sensou",
+        "samples": [
+          "https://jkanime.net/bokura-no-nanokakan-sensou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-ova/",
+        "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
+        "samples": [
+          "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/birthday-wonderland/",
+        "title": "Birthday Wonderland",
+        "samples": [
+          "https://jkanime.net/birthday-wonderland/1/"
         ]
       },
       {
@@ -10798,10 +11015,31 @@
         ]
       },
       {
+        "series": "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/",
+        "title": "Boku no Hero Academia: Training of the Dead",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boruto-jump-festa-2016-special/",
+        "title": "Boruto: Jump Festa 2016 Special",
+        "samples": [
+          "https://jkanime.net/boruto-jump-festa-2016-special/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ansatsu-kyoushitsu-365-nichi-no-jikan/",
         "title": "Ansatsu Kyoushitsu: 365-nichi no Jikan",
         "samples": [
           "https://jkanime.net/ansatsu-kyoushitsu-365-nichi-no-jikan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boruto-naruto-the-movie-naruto-ga-hokage-ni-natta-hi/",
+        "title": "Naruto ga Hokage ni Natta Hi",
+        "samples": [
+          "https://jkanime.net/boruto-naruto-the-movie-naruto-ga-hokage-ni-natta-hi/1/"
         ]
       },
       {
@@ -10812,10 +11050,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/big-order/",
+        "title": "Big Order",
+        "samples": [
+          "https://jkanime.net/big-order/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/aoharu-x-kikanjuu-special/",
         "title": "Aoharu x Kikanjuu Special",
         "samples": [
           "https://jkanime.net/aoharu-x-kikanjuu-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boruto-naruto-the-movie/",
+        "title": "Boruto: Naruto the Movie",
+        "samples": [
+          "https://jkanime.net/boruto-naruto-the-movie/1/"
         ]
       },
       {
@@ -10861,10 +11113,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bokura-wa-minna-kawaisou-hajimete-no/",
+        "title": "Bokura wa Minna Kawaisou: Hajimete no",
+        "samples": [
+          "https://jkanime.net/bokura-wa-minna-kawaisou-hajimete-no/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/aikatsu-movie/",
         "title": "Aikatsu! Movie",
         "samples": [
           "https://jkanime.net/aikatsu-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/",
+        "title": "Boku wa Imouto ni Koi wo Suru",
+        "samples": [
+          "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/1/"
         ]
       },
       {
@@ -10882,11 +11148,33 @@
         ]
       },
       {
+        "series": "https://jkanime.net/blade-soul-specials/",
+        "title": "Blade & Soul Specials",
+        "samples": [
+          "https://jkanime.net/blade-soul-specials/1/",
+          "https://jkanime.net/blade-soul-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ansatsu-kyoushitsu/",
         "title": "Ansatsu Kyoushitsu",
         "samples": [
           "https://jkanime.net/ansatsu-kyoushitsu/10/",
           "https://jkanime.net/ansatsu-kyoushitsu/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blood-lad-ova/",
+        "title": "Blood Lad OVA",
+        "samples": [
+          "https://jkanime.net/blood-lad-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bayonetta-bloody-fate/",
+        "title": "Bayonetta: Bloody Fate",
+        "samples": [
+          "https://jkanime.net/bayonetta-bloody-fate/1/"
         ]
       },
       {
@@ -10960,10 +11248,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-add-on-disc/",
+        "title": "Boku wa Tomodachi ga Sukunai: Add-on Disc",
+        "samples": [
+          "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-add-on-disc/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/asa-made-jugyou-chu/",
         "title": "Asa Made Jugyou Chu!",
         "samples": [
           "https://jkanime.net/asa-made-jugyou-chu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blood-c-the-last-dark/",
+        "title": "Blood-C: The Last Dark",
+        "samples": [
+          "https://jkanime.net/blood-c-the-last-dark/1/"
         ]
       },
       {
@@ -10981,10 +11283,25 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ben-to-specials/",
+        "title": "Ben-To Specials",
+        "samples": [
+          "https://jkanime.net/ben-to-specials/1/",
+          "https://jkanime.net/ben-to-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
         "title": "Ao no Exorcist: Kuro no Iede",
         "samples": [
           "https://jkanime.net/ao-no-exorcist-kuro-no-iede/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-episode-0/",
+        "title": "Boku wa Tomodachi ga Sukunai Episode 0",
+        "samples": [
+          "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-episode-0/1/"
         ]
       },
       {
@@ -11016,6 +11333,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/blackrock-shooter-ova/",
+        "title": "Black★Rock Shooter (OVA)",
+        "samples": [
+          "https://jkanime.net/blackrock-shooter-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/11eyes-ova/",
         "title": "11eyes OVA",
         "samples": [
@@ -11039,6 +11363,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bleach-the-diamonddust-rebellion/",
+        "title": "Bleach: The DiamondDust Rebellion",
+        "samples": [
+          "https://jkanime.net/bleach-the-diamonddust-rebellion/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brave-story/",
+        "title": "Brave Story",
+        "samples": [
+          "https://jkanime.net/brave-story/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/arashi-no-yoru-ni/",
         "title": "Arashi no Yoru ni",
         "samples": [
@@ -11050,6 +11388,20 @@
         "title": "Armitage III: Dual-Matrix",
         "samples": [
           "https://jkanime.net/armitage-iii-dual-matrix/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blood-the-last-vampire/",
+        "title": "Blood: The Last Vampire",
+        "samples": [
+          "https://jkanime.net/blood-the-last-vampire/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-r-the-movie/",
+        "title": "Bishoujo Senshi Sailor Moon R: The Movie",
+        "samples": [
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-r-the-movie/1/"
         ]
       },
       {
@@ -11620,13 +11972,6 @@
         "title": "Kizumonogatari: Koyomi Vamp",
         "samples": [
           "https://jkanime.net/kizumonogatari-koyomi-vamp/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bloody-escape-jigoku-no-tousou-geki/",
-        "title": "Bloody Escape: Jigoku no Tousou Geki",
-        "samples": [
-          "https://jkanime.net/bloody-escape-jigoku-no-tousou-geki/1/"
         ]
       },
       {
@@ -12848,13 +13193,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-futari-no-hero/",
-        "title": "Boku no Hero Academia the Movie: Futari no Hero",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-the-movie-futari-no-hero/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/masamune-kun-no-revenge-ova/",
         "title": "Masamune-kun no Revenge OVA",
         "samples": [
@@ -13027,13 +13365,6 @@
         "title": "Suki ni Naru Sono Shunkan wo.: Kokuhaku Jikkou Iinkai",
         "samples": [
           "https://jkanime.net/suki-ni-naru-sono-shunkan-wo-kokuhaku-jikkou-iinkai/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/blame-movie/",
-        "title": "Blame! Movie",
-        "samples": [
-          "https://jkanime.net/blame-movie/1/"
         ]
       },
       {
@@ -13475,13 +13806,6 @@
         "title": "Kuroko no Basket: Saikou no Present Desu",
         "samples": [
           "https://jkanime.net/kuroko-no-basket-saikou-no-present-desu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bikini-warriors-special/",
-        "title": "Bikini Warriors Special",
-        "samples": [
-          "https://jkanime.net/bikini-warriors-special/1/"
         ]
       },
       {
@@ -15585,13 +15909,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bleach-movie-4-jigoku-hen/",
-        "title": "Bleach Movie 4: Jigoku-hen",
-        "samples": [
-          "https://jkanime.net/bleach-movie-4-jigoku-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/",
         "title": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
         "samples": [
@@ -15837,13 +16154,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bleach-movie-3-fade-to-black-kimi-no-na-wo-yobu/",
-        "title": "Bleach Movie 3: Fade to Black - Kimi no Na wo Yobu",
-        "samples": [
-          "https://jkanime.net/bleach-movie-3-fade-to-black-kimi-no-na-wo-yobu/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-romance-dawn/",
         "title": "One Piece: Romance Dawn",
         "samples": [
@@ -15991,13 +16301,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bleach-memories-of-nobody/",
-        "title": "Bleach: Memories of Nobody",
-        "samples": [
-          "https://jkanime.net/bleach-memories-of-nobody/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-movie-tick-tack-kiki-ippatsu/",
         "title": "Futari wa Precure: Splash☆Star Movie - Tick Tack Kiki Ippatsu!",
         "samples": [
@@ -16100,13 +16403,6 @@
         "title": "Fullmetal Alchemist: The Conqueror of Shamballa",
         "samples": [
           "https://jkanime.net/fullmetal-alchemist-the-conqueror-of-shamballa/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bleach-memories-in-the-rain/",
-        "title": "Bleach: Memories in the Rain",
-        "samples": [
-          "https://jkanime.net/bleach-memories-in-the-rain/1/"
         ]
       },
       {
@@ -17132,7 +17428,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -18693,7 +18989,8 @@
       "title": "Boku no Hero Academia: More",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -18702,7 +18999,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -19556,14 +19853,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
-        "vidhide": 20,
-        "mega": 18,
-        "mixdrop": 18,
-        "streamtape": 18
+        "vidhide": 19,
+        "mega": 17,
+        "mixdrop": 17,
+        "streamtape": 17
       },
       "playbackVerified": false
     },
@@ -20210,7 +20507,8 @@
       "title": "Boku no Kokoro no Yabai Yatsu Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -20219,7 +20517,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -22379,20 +22677,16 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-final-season/",
       "title": "Boku no Hero Academia: Final Season",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/boku-no-hero-academia-final-season/12/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "vidhide": 9,
-        "streamwish": 10
+        "streamwish": 11
       },
       "playbackVerified": false
     },
@@ -24864,7 +25158,8 @@
       "title": "Boku to Roboko Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -24873,7 +25168,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -29750,18 +30045,17 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-the-movie-4-youre-next/",
       "title": "Boku no Hero Academia the Movie 4: You're Next",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/boku-no-hero-academia-the-movie-4-youre-next/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -31326,7 +31620,8 @@
       "title": "Blue Lock: Episode Nagi",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -31335,7 +31630,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -34023,19 +34318,17 @@
     {
       "series": "https://jkanime.net/bloody-escape-jigoku-no-tousou-geki/",
       "title": "Bloody Escape: Jigoku no Tousou Geki",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bloody-escape-jigoku-no-tousou-geki/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -34070,7 +34363,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -34083,13 +34376,15 @@
     {
       "series": "https://jkanime.net/ishura/",
       "title": "Ishura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -34102,13 +34397,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-ni-akogarete/",
       "title": "Mahou Shoujo ni Akogarete",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -34121,13 +34418,15 @@
     {
       "series": "https://jkanime.net/wu-nao-monu-2nd-season/",
       "title": "Wu Nao Monu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -34140,13 +34439,15 @@
     {
       "series": "https://jkanime.net/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu/",
       "title": "Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34159,13 +34460,15 @@
     {
       "series": "https://jkanime.net/wangu-kuang-di/",
       "title": "Wangu Kuang Di",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -34178,13 +34481,15 @@
     {
       "series": "https://jkanime.net/da-wang-rao-ming-2/",
       "title": "Da Wang Rao Ming 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34206,12 +34511,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 1,
-        "streamwish": 1,
-        "vidhide": 1,
-        "mixdrop": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -34254,13 +34554,15 @@
     {
       "series": "https://jkanime.net/xiao-lu-he-xiao-lan-4th-season/",
       "title": "Xiao Lu He Xiao Lan 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34273,13 +34575,15 @@
     {
       "series": "https://jkanime.net/huoxing-xi-lu-7-hao/",
       "title": "Huoxing Xi Lu 7 Hao",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "streamwish": 12,
         "mp4upload": 12,
@@ -34292,13 +34596,15 @@
     {
       "series": "https://jkanime.net/the-daily-life-of-the-inmortal-king-4nd-season/",
       "title": "The Daily Life of the Immortal King 4",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34363,13 +34669,15 @@
     {
       "series": "https://jkanime.net/ran-xia/",
       "title": "Ran Xia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -34401,13 +34709,15 @@
     {
       "series": "https://jkanime.net/xiaoke-de-huatu-xie-hua/",
       "title": "Xiaoke de Huatu Xie Hua",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34438,13 +34748,15 @@
     {
       "series": "https://jkanime.net/bu-shi-bu-mie/",
       "title": "Bu Shi Bu Mie",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -34475,13 +34787,15 @@
     {
       "series": "https://jkanime.net/shi-fang-wu-sheng/",
       "title": "Shi Fang Wu Sheng",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -34494,13 +34808,15 @@
     {
       "series": "https://jkanime.net/shen-cang/",
       "title": "Shen Cang",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34514,13 +34830,15 @@
     {
       "series": "https://jkanime.net/ni-de-rensheng-shi-wo-lai-chi-le/",
       "title": "Ni De Rensheng Shi Wo Lai Chi Le",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -34533,13 +34851,15 @@
     {
       "series": "https://jkanime.net/qi-hou-bilu/",
       "title": "Qi Hou Bilu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -34552,18 +34872,21 @@
     {
       "series": "https://jkanime.net/pluto/",
       "title": "Pluto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 8,
-        "streamwish": 8,
-        "vidhide": 8,
-        "streamtape": 8
+        "mp4upload": 5,
+        "streamwish": 7,
+        "mega": 3,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -34588,13 +34911,15 @@
     {
       "series": "https://jkanime.net/temple-specials/",
       "title": "Temple Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -34607,13 +34932,15 @@
     {
       "series": "https://jkanime.net/shaonian-ge-xing-haiwai-xianshan-pian/",
       "title": "Shaonian Ge Xing: Haiwai Xianshan Pian",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -34627,13 +34954,15 @@
     {
       "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
       "title": "Kusuriya no Hitorigoto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 23,
         "streamwish": 24,
@@ -34661,13 +34990,15 @@
     {
       "series": "https://jkanime.net/zhengjing-shao-zhu-de-xingfu-shenghuo/",
       "title": "Zhengjing Shao Zhu de Xingfu Shenghuo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -37426,7 +37757,8 @@
       "title": "Black Clover: Mahou Tei no Ken",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -37435,7 +37767,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -40609,7 +40941,8 @@
       "series": "https://jkanime.net/bleach-sennen-kessen-hen/",
       "title": "Bleach: Sennen Kessen-hen",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 50,
       "stored": 14,
@@ -40653,7 +40986,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -40842,7 +41175,8 @@
       "title": "Boku ga Aishita Subete no Kimi e",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -40851,7 +41185,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -44809,7 +45143,8 @@
       "series": "https://jkanime.net/bang-dream-movie-poppin-dream/",
       "title": "BanG Dream! Movie: Poppin' Dream!",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -44818,7 +45153,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -45287,7 +45622,8 @@
       "series": "https://jkanime.net/bright-samurai-soul/",
       "title": "Bright: Samurai Soul",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -45296,7 +45632,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -46419,7 +46755,8 @@
       "series": "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/",
       "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -46428,7 +46765,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -48736,7 +49073,8 @@
       "title": "Bishoujo Senshi Sailor Moon Eternal Movie 2",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -48745,7 +49083,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -49400,7 +49738,8 @@
       "title": "Bishoujo Senshi Sailor Moon Eternal Movie 1",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -49409,7 +49748,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -50961,7 +51300,8 @@
       "title": "Bem Movie: Become Human",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -50970,7 +51310,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -53756,7 +54096,8 @@
       "title": "Boku no Hero Academia the Movie 2: Heroes:Rising",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -53765,7 +54106,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -53774,7 +54115,8 @@
       "title": "Bokura no Nanokakan Sensou",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -53783,7 +54125,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -53867,7 +54209,8 @@
       "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 2,
       "stored": 1,
@@ -53876,7 +54219,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -56190,7 +56533,8 @@
       "title": "Birthday Wonderland",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -56199,7 +56543,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -59300,19 +59644,16 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-the-movie-futari-no-hero/",
       "title": "Boku no Hero Academia the Movie: Futari no Hero",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/boku-no-hero-academia-the-movie-futari-no-hero/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -63017,9 +63358,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/ame-iro-cocoa-series-ame-con/12/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/2/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/3/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/4/",
@@ -63033,9 +63373,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 3,
-        "vidhide": 3
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -64398,7 +64738,8 @@
       "title": "Boku no Hero Academia: Training of the Dead",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -64407,7 +64748,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -64503,19 +64844,16 @@
     {
       "series": "https://jkanime.net/blame-movie/",
       "title": "Blame! Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/blame-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -66770,7 +67108,8 @@
       "title": "Boruto: Jump Festa 2016 Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -66779,7 +67118,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -69038,7 +69377,8 @@
       "title": "Naruto ga Hokage ni Natta Hi",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -69047,7 +69387,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -71867,7 +72207,8 @@
       "title": "Big Order",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -71876,7 +72217,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -71958,7 +72299,8 @@
       "title": "Boruto: Naruto the Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -71967,7 +72309,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -72082,23 +72424,18 @@
     {
       "series": "https://jkanime.net/bikini-warriors-special/",
       "title": "Bikini Warriors Special",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 3,
-      "stored": 2,
-      "missing": [
-        "https://jkanime.net/bikini-warriors-special/1/"
-      ],
+      "stored": 3,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
+        "streamwish": 4,
+        "vidhide": 4,
+        "mp4upload": 4,
         "streamtape": 2
       },
       "playbackVerified": false
@@ -76443,7 +76780,8 @@
       "title": "Bokura wa Minna Kawaisou: Hajimete no",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -76452,7 +76790,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -77434,7 +77772,8 @@
       "title": "Boku wa Imouto ni Koi wo Suru",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -77443,7 +77782,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -80469,7 +80808,8 @@
       "series": "https://jkanime.net/blade-soul-specials/",
       "title": "Blade & Soul Specials",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 2,
       "stored": 0,
@@ -80479,7 +80819,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -83042,7 +83382,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 1
       },
@@ -83336,7 +83676,8 @@
       "title": "Blood Lad OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -83345,7 +83686,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -83408,7 +83749,8 @@
       "title": "Bayonetta: Bloody Fate",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -83417,7 +83759,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -89088,7 +89430,8 @@
       "title": "Boku wa Tomodachi ga Sukunai: Add-on Disc",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -89097,7 +89440,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -90041,7 +90384,8 @@
       "title": "Blood-C: The Last Dark",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -90050,7 +90394,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -91331,7 +91675,8 @@
       "series": "https://jkanime.net/ben-to-specials/",
       "title": "Ben-To Specials",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 2,
       "stored": 0,
@@ -91341,7 +91686,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -92100,7 +92445,8 @@
       "title": "Boku wa Tomodachi ga Sukunai Episode 0",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -92109,7 +92455,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -93872,19 +94218,16 @@
     {
       "series": "https://jkanime.net/bleach-movie-4-jigoku-hen/",
       "title": "Bleach Movie 4: Jigoku-hen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bleach-movie-4-jigoku-hen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -94615,7 +94958,8 @@
       "title": "Black★Rock Shooter (OVA)",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -94624,7 +94968,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -97424,7 +97768,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -97924,19 +98268,16 @@
     {
       "series": "https://jkanime.net/bleach-movie-3-fade-to-black-kimi-no-na-wo-yobu/",
       "title": "Bleach Movie 3: Fade to Black - Kimi no Na wo Yobu",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bleach-movie-3-fade-to-black-kimi-no-na-wo-yobu/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -99533,7 +99874,8 @@
       "title": "Bleach: The DiamondDust Rebellion",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -99542,7 +99884,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -101178,19 +101520,17 @@
     {
       "series": "https://jkanime.net/bleach-memories-of-nobody/",
       "title": "Bleach: Memories of Nobody",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bleach-memories-of-nobody/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -101657,7 +101997,8 @@
       "title": "Brave Story",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -101666,7 +102007,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -103124,19 +103465,16 @@
     {
       "series": "https://jkanime.net/bleach-memories-in-the-rain/",
       "title": "Bleach: Memories in the Rain",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bleach-memories-in-the-rain/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -108463,7 +108801,8 @@
       "title": "Blood: The Last Vampire",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -108472,7 +108811,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -110672,7 +111011,8 @@
       "title": "Bishoujo Senshi Sailor Moon R: The Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -110681,7 +111021,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },

@@ -1,37 +1,37 @@
 {
-  "checkedAt": "2026-10-28T17:19:19.694412+00:00",
-  "episodes": 71255,
-  "oldestHours": 53.01,
-  "pending": 65144,
+  "checkedAt": "2026-10-28T17:30:28.193672+00:00",
+  "episodes": 71266,
+  "oldestHours": 53.2,
+  "pending": 64986,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
-  "successfulCyclesMeasured": 32,
-  "sampleMinutes": 505.13,
-  "measuredWallClockPerHour": 400.41,
-  "estimatedSweepDays": 7.41,
+  "successfulCyclesMeasured": 33,
+  "sampleMinutes": 516.27,
+  "measuredWallClockPerHour": 393.86,
+  "estimatedSweepDays": 7.54,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 8,
-      "pendingFailures": 18,
+      "fresh": 9,
+      "pendingFailures": 17,
       "state": "pending"
     }
   },
   "incidentDiagnosis": {
-    "series": 546,
-    "diagnosedSeries": 358,
-    "pendingSeries": 188
+    "series": 603,
+    "diagnosedSeries": 421,
+    "pendingSeries": 182
   },
   "coverage": {
-    "checkedAt": "2026-10-28T17:19:19.694412+00:00",
+    "checkedAt": "2026-10-28T17:30:28.193672+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73274,
-    "storedChapters": 71255,
-    "missingChapters": 2019,
+    "storedChapters": 71266,
+    "missingChapters": 2008,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 52,
