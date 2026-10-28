@@ -45,6 +45,7 @@ jobs:
           python3 test_renew.py
           node test_identities.cjs
           node test_flv_tokens.cjs
+          node test_source_diagnostics.cjs
       - name: Renovar y publicar por el canal firmado existente
         working-directory: code/automation/hourly
         env:

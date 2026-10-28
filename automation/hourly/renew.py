@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile,hashlib
 from archive_state import load,save,merge,stamp
+from incident_diagnostics import fair_retries,report as diagnostic_report
 
 DAY=86400
 LEAD_AGE=DAY
@@ -32,17 +33,19 @@ def select(state,failures,now,limit):
         if observed<0 or now-observed<LEAD_AGE or not listing or url not in listing.get('episodes',[]):continue
         if failures.get(url,{}).get('retryAt',0)>now:continue
         rows.append((observed,url))
-    healthy=sorted(row for row in rows if row[1] not in failures);retry=sorted(row for row in rows if row[1] in failures)
+    healthy=sorted(row for row in rows if row[1] not in failures);retry=fair_retries(sorted(row for row in rows if row[1] in failures),failures)
     retry_count=min(len(retry),max(1,limit//4)) if healthy else min(len(retry),limit)
     chosen=healthy[:limit-retry_count]+retry[:retry_count]
     if len(chosen)<limit:chosen+=retry[retry_count:retry_count+limit-len(chosen)]
     return [url for _,url in chosen]
 
-def record_failure(failures,url,reason,now,observed):
+def record_failure(failures,url,reason,now,observed,diagnostic=None):
     count=failures.get(url,{}).get('attempts',0)+1
     delay=min(6*3600,900*2**min(count,8));remaining=stamp(observed)+7*DAY-now
     delay=min(delay,remaining/3) if remaining>0 else 900
+    previous=failures.get(url,{}).get('diagnostic')
     failures[url]={'attempts':count,'lastAttempt':now,'retryAt':now+delay,'reason':str(reason)[:160]}
+    if diagnostic or previous:failures[url]['diagnostic']=diagnostic or previous
 
 def repair_retry_deadlines(state,failures,now):
     repaired=0
@@ -75,6 +78,7 @@ def health_report(folder,state,failures,status,now):
             fresh=sum(0<=ages[url]<DAY for url in urls);pending=sum(url in failures for url in urls)
             recovery[parent]={'title':entry['title'],'total':len(urls),'fresh':fresh,'pendingFailures':pending,'state':'complete' if fresh==len(urls) and pending==0 else 'pending'}
     report['verifiedIdentityRecovery']=recovery
+    report['incidentDiagnosis']=diagnostic_report(folder,failures,now)
     (folder/'renewal-health.json').write_text(json.dumps(report,indent=2),encoding='utf-8');return report
 
 def validate(incoming,targets,before,after):
@@ -94,6 +98,8 @@ def status_text(current,status):
     text=f'{start}\n## Refresco automático del respaldo\nEstado: {status.get("state","unknown")}. Fallos pendientes: {failures}; capítulos vencidos pendientes: {overdue}. Próximos a vencer: {status.get("expiresWithin24Hours","pendiente")}; capacidad: {status.get("capacityStatus","sin medir")}.\n'
     if failures or overdue or status.get('state')=='failed':text+='Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.\n'
     for group in status.get('verifiedIdentityRecovery',{}).values():text+=f'Equivalencia comprobada: {group["title"]}, {group["fresh"]}/{group["total"]} capítulos recientes; incidencias pendientes: {group["pendingFailures"]}.\n'
+    diagnosis=status.get('incidentDiagnosis',{})
+    if diagnosis:text+=f'Diagnóstico por serie: {diagnosis["diagnosedSeries"]}/{diagnosis["series"]}; pendientes: {diagnosis["pendingSeries"]}. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.\n'
     text+=end
     if start in current and end in current:
         a=current.index(start);b=current.index(end,a)+len(end);updated=current[:a]+text+current[b:]
@@ -176,7 +182,7 @@ def main():
                 if result.get('passed') is not True:raise ValueError('Sources unavailable')
                 incoming=validate(result.get('state'),pair,before,time.time())
                 missing=[url for url in pair if url not in incoming.get('episodes',{})]
-                for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'][url]['observedAt'])
+                for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'][url]['observedAt'],result.get('diagnostics',{}).get(url))
                 if not incoming.get('episodes'):continue
                 # Use the real app validator before replacing any previous options.
                 import run as pipeline
@@ -212,7 +218,7 @@ def main():
     finally:
         if runtime is not None:runtime.cleanup()
         status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
-        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'],verifiedIdentityRecovery=health['verifiedIdentityRecovery'])
+        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'],verifiedIdentityRecovery=health['verifiedIdentityRecovery'],incidentDiagnosis=health['incidentDiagnosis'])
         report.write_text(json.dumps(status,indent=2),encoding='utf-8')
         print(json.dumps(status))
 

@@ -3,8 +3,28 @@ from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
 from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_retry_deadlines,repair_verified_identities,health_report,DAY
+from incident_diagnostics import fair_retries,report as diagnostic_report
 
 class RenewalTests(unittest.TestCase):
+    def test_retry_inspects_two_series_before_repeating_a_series(self):
+        rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/a/2/'),(3,'https://jkanime.net/b/1/')]
+        self.assertEqual([url for _,url in fair_retries(rows,{})][:2],[rows[0][1],rows[2][1]])
+    def test_retry_prioritizes_unexplained_series(self):
+        rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/b/1/')]
+        self.assertEqual(fair_retries(rows,{rows[0][1]:{'diagnostic':{'flv':{'cause':'address-not-found'}}}})[0],rows[1])
+    def test_diagnostics_do_not_modify_archive_or_approve_records(self):
+        failures={'https://jkanime.net/a/1/':{'lastAttempt':5,'retryAt':100,'diagnostic':{'flv':{'stage':'detail','cause':'address-not-found'}}},'https://jkanime.net/a/2/':{'retryAt':100},'https://jkanime.net/b/1/':{'retryAt':100}}
+        before=copy.deepcopy(failures)
+        with self.temporary() as temp:
+            summary=diagnostic_report(temp,failures,10);data=json.loads((Path(temp)/'renewal-diagnostics.json').read_bytes())
+            self.assertEqual(summary,{'series':2,'diagnosedSeries':1,'pendingSeries':1});self.assertFalse(data['automaticApproval']);self.assertEqual(data['sourceRequests'],0);self.assertEqual(data['failedChapters'],3)
+        self.assertEqual(failures,before)
+    def test_network_retry_preserves_previous_diagnosis(self):
+        now,_,url,state=self.fixture();failed={url:{'diagnostic':{'flv':{'stage':'detail','cause':'address-not-found'}}}}
+        record_failure(failed,url,'Network timeout',now.timestamp(),state['episodes'][url]['observedAt']);self.assertEqual(failed[url]['diagnostic']['flv']['cause'],'address-not-found')
+    def test_diagnostic_selection_still_skips_fresh_and_paused_records(self):
+        now,parent,url,state=self.fixture(0);failed={url:{'retryAt':0}};self.assertEqual(select(state,failed,now.timestamp(),100),[])
+        _,_,_,state=self.fixture(2);failed[url]['retryAt']=now.timestamp()+3600;self.assertEqual(select(state,failed,now.timestamp(),100),[])
     def test_identity_fix_retries_only_affected_old_records_once(self):
         now,_,_,original=self.fixture();old=copy.deepcopy(next(iter(original['episodes'].values())));fresh=copy.deepcopy(old);fresh['observedAt']=now.isoformat();mao='https://jkanime.net/mao/';state={'episodes':{mao+'1/':old,mao+'2/':fresh,'https://jkanime.net/other/1/':old},'listings':{}};failed={url:{'retryAt':now.timestamp()+3600} for url in state['episodes']};dates=copy.deepcopy(state['episodes'])
         identity={mao:{'title':'Mao','year':2026,'approved':True,'sources':{}}};catalog=[{'url':mao,'title':'Mao','year':2026}]
