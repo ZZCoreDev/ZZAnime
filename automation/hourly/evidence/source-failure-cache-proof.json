@@ -1,0 +1,26 @@
+{
+  "state": "active",
+  "codeCommit": "31b998bd4ca2d2688ec91e7d34a3a2a9158eda73",
+  "testsPassed": 87,
+  "checkedAt": "2026-10-28T14:39:25.090987+00:00",
+  "networkRequests": 10,
+  "cachedFailuresUsed": 1,
+  "samples": [
+    {
+      "title": "Mao",
+      "episode": 2,
+      "played": true
+    },
+    {
+      "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+      "episode": 2,
+      "played": true
+    }
+  ],
+  "physicalAndroidVerified": false,
+  "archiveModifiedByProof": false,
+  "apkRequired": false,
+  "positiveDocumentsCached": false,
+  "sourceDatesChanged": false,
+  "memoryOnlyBestEffort": true
+}

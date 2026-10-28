@@ -121,3 +121,10 @@ Renovación existente reparte reintentos por series distintas y prioriza las aú
 72 controles correctos y dos diagnósticos reales antes de instalar. Pendientes se detallan en reintentos permitidos; no se promete auditoría profunda instantánea de todas las series. No hay aprobación automática de equivalencias/reproductores: cada corrección seguirá requiriendo dos reproducciones válidas. Borrador acentos/SW retirado del paquete desplegable y conservado en work/incident-audit/accent-draft; las muestras sin reproducción siguen retenidas.
 Código 5a0ba74811aa41d27b7e1dd41273f32624e58c33; evidencia automation/hourly/evidence/incident-diagnostics-proof.json y work/incident-audit/diagnostic-rollout/.
 <!-- /INCIDENT-DIAGNOSTICS -->
+
+<!-- SOURCE-FAILURE-CACHE -->
+## Pausa breve de fallos de fuentes
+Activada en nube tras probar Mao2 y Touhai2: opciones validadas por Java real y reproducción de ambas en navegador con scripts/políticas de la app. No prueba física Android ni nueva recepción firmada de estas muestras: la prueba no modifica el archivo.87 controles correctos.
+Memoria temporal acotada: JK403 pausa60s por origen; fichas alternativas404 se reutilizan300s por URL exacta. Respeta Retry-After superior. No guarda documentos positivos, vídeos ni cambia fechas; no rota IP. Es ahorro oportunista entre peticiones atendidas por el mismo Worker, no almacenamiento persistente garantizado. Prueba real:10 consultas y1 fallo reutilizado; simulación dos series/dos vueltas12→5. No garantiza ese ahorro en producción.
+Código 31b998bd4ca2d2688ec91e7d34a3a2a9158eda73; evidencia work/incident-audit/source-cache-rollout/ y automation/hourly/evidence/source-failure-cache-proof.json. No APK nueva. Seguir midiendo ritmo real/capacidad en renewal-health; no dar por resueltas todas las incidencias. Próximo: pruebas físicas de avisos y Seguir viendo; catálogo continúa autónomo, Inicio/Horario confirmados intactos.
+<!-- /SOURCE-FAILURE-CACHE -->
