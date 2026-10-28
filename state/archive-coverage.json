@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T23:06:59.279971+00:00",
+  "checkedAt": "2026-10-28T23:22:22.163064+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73446,
+  "observedChapters": 73461,
   "storedChapters": 71442,
-  "missingChapters": 2004,
+  "missingChapters": 2019,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1201,6 +1201,14 @@
         "samples": [
           "https://jkanime.net/kyoukai-senki/14/",
           "https://jkanime.net/kyoukai-senki/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megaton-kyuu-musashi/",
+        "title": "Megaton-kyuu Musashi",
+        "samples": [
+          "https://jkanime.net/megaton-kyuu-musashi/14/",
+          "https://jkanime.net/megaton-kyuu-musashi/15/"
         ]
       },
       {
@@ -14767,6 +14775,94 @@
         "samples": [
           "https://jkanime.net/digimon-ghost-game/1/",
           "https://jkanime.net/digimon-ghost-game/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sankaku-mado-no-sotogawa-wa-yoru/",
+        "title": "Sankaku Mado no Sotogawa wa Yoru",
+        "samples": [
+          "https://jkanime.net/sankaku-mado-no-sotogawa-wa-yoru/1/",
+          "https://jkanime.net/sankaku-mado-no-sotogawa-wa-yoru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mieruko-chan/",
+        "title": "Mieruko-chan",
+        "samples": [
+          "https://jkanime.net/mieruko-chan/1/",
+          "https://jkanime.net/mieruko-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tesla-note/",
+        "title": "Tesla Note",
+        "samples": [
+          "https://jkanime.net/tesla-note/1/",
+          "https://jkanime.net/tesla-note/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou/",
+        "title": "Yuuki Yuuna wa Yuusha de Aru: Dai Mankai no Shou",
+        "samples": [
+          "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou/1/",
+          "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/deji-meets-girl/",
+        "title": "Deji Meets Girl",
+        "samples": [
+          "https://jkanime.net/deji-meets-girl/1/",
+          "https://jkanime.net/deji-meets-girl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/",
+        "title": "Hanyou no Yashahime: Sengoku Otogizoushi - Ni no Shou",
+        "samples": [
+          "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/1/",
+          "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yakunara-mug-cup-mo-niban-gama/",
+        "title": "Yakunara Mug Cup mo: Niban Gama",
+        "samples": [
+          "https://jkanime.net/yakunara-mug-cup-mo-niban-gama/1/",
+          "https://jkanime.net/yakunara-mug-cup-mo-niban-gama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-shokudou-2/",
+        "title": "Isekai Shokudou 2",
+        "samples": [
+          "https://jkanime.net/isekai-shokudou-2/1/",
+          "https://jkanime.net/isekai-shokudou-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/selection-project/",
+        "title": "Selection Project",
+        "samples": [
+          "https://jkanime.net/selection-project/1/",
+          "https://jkanime.net/selection-project/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megaton-kyuu-musashi/",
+        "title": "Megaton-kyuu Musashi",
+        "samples": [
+          "https://jkanime.net/megaton-kyuu-musashi/14/",
+          "https://jkanime.net/megaton-kyuu-musashi/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanma-baki-son-of-ogre/",
+        "title": "Hanma Baki: Son of Ogre",
+        "samples": [
+          "https://jkanime.net/hanma-baki-son-of-ogre/1/",
+          "https://jkanime.net/hanma-baki-son-of-ogre/10/"
         ]
       },
       {
@@ -52905,7 +53001,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 67,
       "families": {
         "mega": 67,
         "streamwish": 67,
@@ -52918,32 +53014,36 @@
     {
       "series": "https://jkanime.net/sankaku-mado-no-sotogawa-wa-yoru/",
       "title": "Sankaku Mado no Sotogawa wa Yoru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mieruko-chan/",
       "title": "Mieruko-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52956,32 +53056,36 @@
     {
       "series": "https://jkanime.net/tesla-note/",
       "title": "Tesla Note",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
+        "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou/",
       "title": "Yuuki Yuuna wa Yuusha de Aru: Dai Mankai no Shou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52994,13 +53098,15 @@
     {
       "series": "https://jkanime.net/deji-meets-girl/",
       "title": "Deji Meets Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53013,32 +53119,36 @@
     {
       "series": "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/",
       "title": "Hanyou no Yashahime: Sengoku Otogizoushi - Ni no Shou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 21,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "mega": 21,
+        "streamwish": 25,
+        "vidhide": 25,
+        "mp4upload": 25,
+        "streamtape": 21
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yakunara-mug-cup-mo-niban-gama/",
       "title": "Yakunara Mug Cup mo: Niban Gama",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53051,13 +53161,15 @@
     {
       "series": "https://jkanime.net/isekai-shokudou-2/",
       "title": "Isekai Shokudou 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53070,13 +53182,15 @@
     {
       "series": "https://jkanime.net/selection-project/",
       "title": "Selection Project",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -53089,32 +53203,53 @@
     {
       "series": "https://jkanime.net/megaton-kyuu-musashi/",
       "title": "Megaton-kyuu Musashi",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 28,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/megaton-kyuu-musashi/14/",
+        "https://jkanime.net/megaton-kyuu-musashi/15/",
+        "https://jkanime.net/megaton-kyuu-musashi/16/",
+        "https://jkanime.net/megaton-kyuu-musashi/17/",
+        "https://jkanime.net/megaton-kyuu-musashi/18/",
+        "https://jkanime.net/megaton-kyuu-musashi/19/",
+        "https://jkanime.net/megaton-kyuu-musashi/20/",
+        "https://jkanime.net/megaton-kyuu-musashi/21/",
+        "https://jkanime.net/megaton-kyuu-musashi/22/",
+        "https://jkanime.net/megaton-kyuu-musashi/23/",
+        "https://jkanime.net/megaton-kyuu-musashi/24/",
+        "https://jkanime.net/megaton-kyuu-musashi/25/",
+        "https://jkanime.net/megaton-kyuu-musashi/26/",
+        "https://jkanime.net/megaton-kyuu-musashi/27/",
+        "https://jkanime.net/megaton-kyuu-musashi/28/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 12,
-        "streamtape": 13
+        "mp4upload": 13,
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hanma-baki-son-of-ogre/",
       "title": "Hanma Baki: Son of Ogre",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 12,
         "streamwish": 12,
