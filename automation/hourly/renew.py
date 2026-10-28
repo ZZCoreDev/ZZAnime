@@ -60,9 +60,22 @@ def github_status(status):
             if error.code not in (409,422) or attempt==3:raise
             time.sleep(attempt+1)
 
+def continue_if_due(folder):
+    status=json.loads((folder/'renewal-status.json').read_bytes())
+    if status.get('state') not in ('complete','complete-with-failures'):return
+    state=load(folder);failed_path=folder/'renewal-failures.json';failures=json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
+    if not select(state,failures,time.time(),1):return
+    if os.environ.get('GITHUB_REPOSITORY')!='ZZCoreDev/ZZAnime':raise ValueError('Continuation repository not allowed')
+    data=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
+    req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/dispatches',data=data,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
+    with urllib.request.urlopen(req,timeout=20) as response:
+        if response.status!=204:raise ValueError('Continuation was not accepted')
+    print('Pending observed chapters: next independent renewal batch dispatched.')
+
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True);report=folder/'renewal-status.json'
+    if args.continue_if_due:continue_if_due(folder);return
     if args.write_status:
         status=json.loads(report.read_bytes())
         if args.write_status=='github':github_status(status)
@@ -71,7 +84,7 @@ def main():
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
     targets=PROOF if args.proof else select(state,failures,instant,MAX_EPISODES)
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
-    status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0}
+    status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
     publish=False;runtime=None
     try:
         for at in range(0,len(targets),2):
@@ -106,9 +119,11 @@ def main():
                 merge(state,incoming);status['renewed']+=len(incoming['episodes']);publish=True
                 for url in pair:failures.pop(url,None)
             except Exception as error:
+                if isinstance(error,urllib.error.HTTPError) and error.code in (401,403,429):raise
                 for url in pair:
                     count=failures.get(url,{}).get('attempts',0)+1
-                    failures[url]={'attempts':count,'lastAttempt':time.time(),'retryAt':time.time()+min(6*3600,900*2**min(count,4)),'reason':('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__)}
+                    delay=7*DAY if count>=3 else min(6*3600,900*2**count)
+                    failures[url]={'attempts':count,'lastAttempt':time.time(),'retryAt':time.time()+delay,'reason':('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__)}
             finally:
                 save(folder,state,{url.rsplit('/',2)[0]+'/' for url in pair});failure_path.write_text(json.dumps(failures,sort_keys=True),encoding='utf-8')
                 status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))

@@ -1,5 +1,9 @@
 name: Renovar respaldo antiguo antes de siete días
 on:
+  workflow_run:
+    workflows: ['Capítulos nuevos cada 5 minutos']
+    types: [completed]
+    branches: [main]
   schedule:
     - cron: '11,26,41,56 * * * *'
   workflow_dispatch:
@@ -10,12 +14,13 @@ on:
         default: true
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: zzanime-hourly-provider-data
   cancel-in-progress: false
 jobs:
   renew:
-    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_RENEW_ENABLED == 'true')
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_RENEW_ENABLED == 'true') && (github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository))
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
@@ -69,3 +74,10 @@ jobs:
           if [ -f "$ZZ_DATA/renewal-status.json" ]; then
             python3 automation/hourly/renew.py --write-status github
           fi
+      - name: Continuar el histórico pendiente sin esperar a otro arranque ni al PC
+        if: success() && inputs.proof != true && vars.ZZ_RENEW_ENABLED == 'true'
+        working-directory: code
+        env:
+          ZZ_DATA: ${{ github.workspace }}/data/state
+          GH_TOKEN: ${{ github.token }}
+        run: python3 automation/hourly/renew.py --continue-if-due
