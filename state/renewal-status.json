@@ -1,9 +1,9 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-10-28T00:27:29.139704+00:00",
+  "checkedAt": "2026-10-28T00:40:19.920147+00:00",
   "requested": 150,
-  "renewed": 120,
-  "failed": 30,
+  "renewed": 112,
+  "failed": 68,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
