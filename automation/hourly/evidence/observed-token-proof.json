@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-28T14:08:13.150585+00:00",
+  "state": "active",
+  "proofRun": 40701050398,
+  "signedReception": {
+    "signatureVerified": true,
+    "hashesVerified": true,
+    "twoSeries": true,
+    "twoChapters": true,
+    "sequence": 1793196117335,
+    "physicalAndroidPlayback": false
+  },
+  "samples": [
+    {
+      "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+      "episode": 1,
+      "played": true,
+      "provider": "mp4upload"
+    },
+    {
+      "title": "Blue Lock vs. U-20 Japan",
+      "episode": 2,
+      "played": true,
+      "provider": "mp4upload"
+    }
+  ],
+  "tests": {
+    "renewal": 20,
+    "channel": 12,
+    "identity": 10,
+    "observedToken": 13
+  },
+  "deployment": "4d9841b87f331b0aa9033ae8cc501a856c2caa6f",
+  "playbackRetry": {
+    "recordedAt": "2026-10-28T14:08:03.031629+00:00",
+    "episode": "https://jkanime.net/blue-lock-vs-u-20-japan/2/",
+    "firstSignedPlayback": "not-verified",
+    "boundedRetries": 1,
+    "sameProviderURLs": true,
+    "recollected": false,
+    "retryPlayed": "mp4upload",
+    "rootCauseConfirmed": false
+  },
+  "bulkCompleted": false,
+  "physicalAndroidVerified": false,
+  "apkRequired": false,
+  "existingRecordsPreserved": true,
+  "skipFresh": true,
+  "sourceRateUnchanged": true,
+  "aiCalls": 0
+}

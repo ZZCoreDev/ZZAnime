@@ -103,3 +103,12 @@ Estado: complete-with-failures. Fallos pendientes: 3284; capítulos vencidos pen
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 1/26 capítulos recientes; incidencias pendientes: 25.
 <!-- /ZZ-RENEW-STATUS -->
+
+<!-- OBSERVED-TOKEN-RECOVERY -->
+## Recuperación automática por número observado
+Touhai1 y Blue Lock vs. U-20 Japan2: recogida remota, recepción RSA/SHA256 y reproducción Mp4upload comprobadas con JK bloqueado; run40701050398. No es prueba física Android.
+Causa corregida: la fuente publica01/02 y el recolector pedía1/2. Se utiliza únicamente el token presente en la lista con título/slug/temporada y número equivalentes; se rechazan duplicados, capítulos ausentes y otras temporadas.
+Activado en las tareas existentes de nube, sin otro recopilador ni APK. Reutiliza renovación incremental: omite observaciones frescas, respeta pausas/reintentos y conserva originales/fechas/opciones. Fallos en provider-data/state/renewal-failures.json y ESTADO.md remoto. No declara recuperadas todas las incidencias; los casos sin equivalencia siguen retenidos.
+Blue Lock no reprodujo en el primer intento del canal firmado; un único reintento con las mismas URLs pasó por Mp4upload, sin otra recogida. Causa externa no confirmada; conservar esta limitación.
+55 controles:20 renovación,12 canal,10 identidad,13 tokens. Evidencia:work/backup-delivery/token-proof/ y automation/hourly/evidence/observed-token-proof.json.
+<!-- /OBSERVED-TOKEN-RECOVERY -->
