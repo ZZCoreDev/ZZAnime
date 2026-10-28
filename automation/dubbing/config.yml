@@ -1,0 +1,40 @@
+enabled: false
+profile: production_gpu
+max_episodes_per_run: 1
+max_gpu_usd_per_day: 0
+max_gpu_seconds: 1200
+gpu_startup_seconds: 600
+gpu_rate_usd_per_second: 0.000222
+gpu_rate_checked: '2026-10-28'
+ingest:
+  allowed_hosts: [download.blender.org]
+  max_download_mb: 1024
+  max_episode_seconds: 1800
+  allow_local_inputs: false
+separate: {model: htdemucs, device: cuda, timeout: 600, cpu_threads: 2}
+transcribe: {backend: whisperx, model: large-v3, device: cuda, compute_type: float16, batch_size: 4, diarize: false, timeout: 600}
+translate: {backend: local_llm, model: Qwen/Qwen2.5-3B-Instruct, revision: main, device: cuda, block_segments: 8, timeout: 600}
+tts:
+  model_cache: /tmp/dub-models
+  length_scale: 1.0
+  timeout: 600
+  voices:
+    es:
+      name: es_ES-sharvard-medium
+      base_url: https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_ES/sharvard/medium
+      attribution: 'Spanish Harvard corpus, CC BY 3.0; https://datashare.ed.ac.uk/handle/10283/574'
+    en:
+      name: en_US-amy-low
+      base_url: https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/low
+      attribution: 'Piper Amy / LJSpeech; consult bundled model card'
+fit: {max_duration_change: 0.25, timeout: 600}
+mix: {timeout: 600}
+qa:
+  timeout: 600
+  max_out_of_time_fraction: 0.05
+  max_wer: 0.15
+  max_duration_deviation: 0.03
+  max_clipping_fraction: 0.0001
+  max_speech_silence_seconds: 1.5
+qa_asr: {backend: faster_whisper, model: small, device: cuda, compute_type: float16, cpu_threads: 2}
+publish: {enabled: false, window_minutes: 360, first_publish_delay_minutes: 60}

@@ -1,0 +1,1 @@
+{"Rules":[{"ID":"ZZDubTemporary7Days","Status":"Enabled","Filter":{"Prefix":"zzdub/temporary/"},"Expiration":{"Days":7},"AbortIncompleteMultipartUpload":{"DaysAfterInitiation":1}}]}

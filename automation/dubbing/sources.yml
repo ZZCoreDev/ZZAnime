@@ -1,0 +1,22 @@
+sources:
+  - kind: direct
+    enabled: false
+    series: big-buck-bunny
+    provenance:
+      authorized: true
+      creator: '(c) 2008 Blender Foundation / www.bigbuckbunny.org'
+      license: CC-BY-3.0
+      license_url: https://creativecommons.org/licenses/by/3.0/
+      source_url: https://peach.blender.org/about/
+      made_for_kids: false
+    episodes:
+      - id: bbb-original-cc
+        title: Big Buck Bunny
+        url: https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4.zip
+        archive_member: BigBuckBunny_320x180.mp4
+        language: en
+# Add only operator-authorized direct files or an owned feed expanded to this schema.
+# No ABEMA/TVer scraping, geo/DRM/captcha bypass, proxies or hidden provenance.
+# For an owned changing feed: kind=json_manifest, manifest_url=https://YOUR-HOST/episodes.json,
+# series and provenance here; feed body {"episodes":[{"id":"...","title":"...","url":"https://YOUR-HOST/ep.mp4","language":"ja"}]}.
+# Add YOUR-HOST to config.ingest.allowed_hosts before enabling it.

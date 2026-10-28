@@ -1,0 +1,72 @@
+name: Doblaje autorizado · cada 6 h
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Solo pruebas y configuración, sin GPU ni publicación
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: zzdub-paid-pipeline
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.dry_run == true || vars.ZZ_DUBBING_ENABLED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: code
+      - name: Dependencias del director CPU
+        working-directory: code/automation/dubbing
+        run: python3 -m pip install -r requirements.txt
+      - name: Pruebas de cada módulo y controles de coste
+        working-directory: code/automation/dubbing
+        run: python3 -m unittest discover -s tests -v
+      - name: Configuración sin revelar secretos
+        working-directory: code/automation/dubbing
+        run: python3 -m dubpipe.cli doctor
+      - name: Preparar rama de checkpoints
+        if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        working-directory: code
+        run: |
+          if ! gh api repos/ZZCoreDev/ZZAnime/git/ref/heads/dubbing-state >/dev/null 2>&1; then
+            gh api --method POST repos/ZZCoreDev/ZZAnime/git/refs -f ref=refs/heads/dubbing-state -f sha="$(git rev-parse HEAD)"
+          fi
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
+        with:
+          ref: dubbing-state
+          path: data
+      - name: Checkpoint inicial versionado
+        if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
+        run: |
+          mkdir -p data/state
+          if [ ! -f data/state/processed.json ]; then cp code/automation/dubbing/state/processed.json data/state/processed.json; fi
+          git -C data config user.name 'ZZDub automation'
+          git -C data config user.email 'automation@users.noreply.github.com'
+      - name: Procesar y publicar con presupuesto reservado antes de GPU
+        if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
+        working-directory: code/automation/dubbing
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+          S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+          S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+          S3_REGION: ${{ secrets.S3_REGION }}
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 -m dubpipe.cli doctor --require-live
+          python3 -m modal deploy modal_app.py
+          python3 -m dubpipe.cli run --state "$GITHUB_WORKSPACE/data/state/processed.json" --state-git-dir "$GITHUB_WORKSPACE/data"

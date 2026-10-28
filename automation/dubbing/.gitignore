@@ -1,0 +1,9 @@
+runtime/
+review/
+__pycache__/
+.env*
+*.pem
+*.key
+*.onnx
+*.mp4
+*.wav
