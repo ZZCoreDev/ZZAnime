@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T22:22:34.737375+00:00",
+  "checkedAt": "2026-10-28T22:36:58.656651+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73396,
+  "observedChapters": 73434,
   "storedChapters": 71442,
-  "missingChapters": 1954,
+  "missingChapters": 1992,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1089,6 +1089,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/orient/",
+        "title": "Orient",
+        "samples": [
+          "https://jkanime.net/orient/13/",
+          "https://jkanime.net/orient/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/irodorimidori/",
         "title": "Irodorimidori",
         "samples": [
@@ -1142,6 +1150,14 @@
         "title": "Hula Fulla Dance",
         "samples": [
           "https://jkanime.net/hula-fulla-dance/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/",
+        "title": "JoJo no Kimyou na Bouken Part 6: Stone Ocean",
+        "samples": [
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/13/",
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/"
         ]
       },
       {
@@ -6811,13 +6827,6 @@
         "title": "Yomi no Tsugai",
         "samples": [
           "https://jkanime.net/yomi-no-tsugai/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mao/",
-        "title": "Mao",
-        "samples": [
-          "https://jkanime.net/mao/26/"
         ]
       },
       {
@@ -14301,7 +14310,56 @@
         "series": "https://jkanime.net/cue/",
         "title": "Cue!",
         "samples": [
-          "https://jkanime.net/cue/1/"
+          "https://jkanime.net/cue/1/",
+          "https://jkanime.net/cue/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/slow-loop/",
+        "title": "Slow Loop",
+        "samples": [
+          "https://jkanime.net/slow-loop/1/",
+          "https://jkanime.net/slow-loop/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/orient/",
+        "title": "Orient",
+        "samples": [
+          "https://jkanime.net/orient/13/",
+          "https://jkanime.net/orient/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saiyuuki-reload-zeroin/",
+        "title": "Saiyuuki Reload: Zeroin",
+        "samples": [
+          "https://jkanime.net/saiyuuki-reload-zeroin/1/",
+          "https://jkanime.net/saiyuuki-reload-zeroin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-24-ku/",
+        "title": "Tokyo 24-ku",
+        "samples": [
+          "https://jkanime.net/tokyo-24-ku/1/",
+          "https://jkanime.net/tokyo-24-ku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/leadale-no-daichi-nite/",
+        "title": "Leadale no Daichi nite",
+        "samples": [
+          "https://jkanime.net/leadale-no-daichi-nite/1/",
+          "https://jkanime.net/leadale-no-daichi-nite/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hakozume-kouban-joshi-no-gyakushuu/",
+        "title": "Hakozume: Kouban Joshi no Gyakushuu",
+        "samples": [
+          "https://jkanime.net/hakozume-kouban-joshi-no-gyakushuu/1/",
+          "https://jkanime.net/hakozume-kouban-joshi-no-gyakushuu/10/"
         ]
       },
       {
@@ -14319,6 +14377,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zhen-wu-dianfeng/",
+        "title": "Zhen Wu Dianfeng",
+        "samples": [
+          "https://jkanime.net/zhen-wu-dianfeng/1/",
+          "https://jkanime.net/zhen-wu-dianfeng/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/jujutsu-kaisen-0-movie/",
         "title": "Jujutsu Kaisen 0 Movie",
         "samples": [
@@ -14333,6 +14399,29 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kanashiki-debu-neko-chan/",
+        "title": "Kanashiki Debu Neko-chan",
+        "samples": [
+          "https://jkanime.net/kanashiki-debu-neko-chan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimetsu-no-yaiba-yuukaku-hen/",
+        "title": "Kimetsu no Yaiba: Yuukaku-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba-yuukaku-hen/1/",
+          "https://jkanime.net/kimetsu-no-yaiba-yuukaku-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-wang-rao-ming/",
+        "title": "Da Wang Rao Ming",
+        "samples": [
+          "https://jkanime.net/da-wang-rao-ming/1/",
+          "https://jkanime.net/da-wang-rao-ming/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hula-fulla-dance/",
         "title": "Hula Fulla Dance",
         "samples": [
@@ -14340,10 +14429,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/",
+        "title": "JoJo no Kimyou na Bouken Part 6: Stone Ocean",
+        "samples": [
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/13/",
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/given-uragawa-no-sonzai/",
         "title": "Given: Uragawa no Sonzai",
         "samples": [
           "https://jkanime.net/given-uragawa-no-sonzai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jian-yu-feng-yun/",
+        "title": "Jian Yu Feng Yun",
+        "samples": [
+          "https://jkanime.net/jian-yu-feng-yun/1/",
+          "https://jkanime.net/jian-yu-feng-yun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wangu-jian-shen/",
+        "title": "Wangu Jian Shen",
+        "samples": [
+          "https://jkanime.net/wangu-jian-shen/1/",
+          "https://jkanime.net/wangu-jian-shen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-daily-life-of-the-inmortal-king-2nd-season/",
+        "title": "The Daily Life of the Immortal King 2nd Season",
+        "samples": [
+          "https://jkanime.net/the-daily-life-of-the-inmortal-king-2nd-season/1/",
+          "https://jkanime.net/the-daily-life-of-the-inmortal-king-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gundam-breaker-battlogue/",
+        "title": "Gundam Breaker: Battlogue",
+        "samples": [
+          "https://jkanime.net/gundam-breaker-battlogue/2/",
+          "https://jkanime.net/gundam-breaker-battlogue/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ousama-ranking/",
+        "title": "Ousama Ranking",
+        "samples": [
+          "https://jkanime.net/ousama-ranking/1/",
+          "https://jkanime.net/ousama-ranking/10/"
         ]
       },
       {
@@ -25094,22 +25231,17 @@
     {
       "series": "https://jkanime.net/mao/",
       "title": "Mao",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 26,
         "streamwish": 24,
-        "vidhide": 6,
-        "mega": 1,
-        "mixdrop": 1,
-        "streamtape": 1
+        "vidhide": 5
       },
       "playbackVerified": false
     },
@@ -51090,26 +51222,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 10,
       "families": {
-        "mega": 22,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 22
+        "mega": 10,
+        "streamwish": 23,
+        "vidhide": 23,
+        "mp4upload": 19,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/slow-loop/",
       "title": "Slow Loop",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51122,32 +51256,50 @@
     {
       "series": "https://jkanime.net/orient/",
       "title": "Orient",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 24,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/orient/13/",
+        "https://jkanime.net/orient/14/",
+        "https://jkanime.net/orient/15/",
+        "https://jkanime.net/orient/16/",
+        "https://jkanime.net/orient/17/",
+        "https://jkanime.net/orient/18/",
+        "https://jkanime.net/orient/19/",
+        "https://jkanime.net/orient/20/",
+        "https://jkanime.net/orient/21/",
+        "https://jkanime.net/orient/22/",
+        "https://jkanime.net/orient/23/",
+        "https://jkanime.net/orient/24/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/saiyuuki-reload-zeroin/",
       "title": "Saiyuuki Reload: Zeroin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -51160,13 +51312,15 @@
     {
       "series": "https://jkanime.net/tokyo-24-ku/",
       "title": "Tokyo 24-ku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51179,13 +51333,15 @@
     {
       "series": "https://jkanime.net/leadale-no-daichi-nite/",
       "title": "Leadale no Daichi nite",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51198,13 +51354,15 @@
     {
       "series": "https://jkanime.net/hakozume-kouban-joshi-no-gyakushuu/",
       "title": "Hakozume: Kouban Joshi no Gyakushuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -51229,7 +51387,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 8,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -51304,11 +51462,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
@@ -51333,13 +51487,15 @@
     {
       "series": "https://jkanime.net/zhen-wu-dianfeng/",
       "title": "Zhen Wu Dianfeng",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 40,
       "stored": 40,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 40,
       "families": {
         "mega": 40,
         "streamwish": 40,
@@ -51390,13 +51546,15 @@
     {
       "series": "https://jkanime.net/kanashiki-debu-neko-chan/",
       "title": "Kanashiki Debu Neko-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -51409,13 +51567,15 @@
     {
       "series": "https://jkanime.net/kimetsu-no-yaiba-yuukaku-hen/",
       "title": "Kimetsu no Yaiba: Yuukaku-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -51428,13 +51588,15 @@
     {
       "series": "https://jkanime.net/da-wang-rao-ming/",
       "title": "Da Wang Rao Ming",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51467,19 +51629,49 @@
     {
       "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/",
       "title": "JoJo no Kimyou na Bouken Part 6: Stone Ocean",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 38,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/13/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/15/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/17/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/18/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/19/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/20/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/21/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/22/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/23/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/24/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/25/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/26/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/27/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/28/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/29/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/30/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/31/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/32/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/33/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/34/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/35/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/36/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/37/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/38/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 9,
+        "vidhide": 9,
+        "mp4upload": 11,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
@@ -51505,13 +51697,15 @@
     {
       "series": "https://jkanime.net/jian-yu-feng-yun/",
       "title": "Jian Yu Feng Yun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 40,
       "stored": 40,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 40,
       "families": {
         "mega": 40,
         "streamwish": 40,
@@ -51543,13 +51737,15 @@
     {
       "series": "https://jkanime.net/wangu-jian-shen/",
       "title": "Wangu Jian Shen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 38,
       "stored": 38,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 38,
       "families": {
         "mega": 38,
         "streamwish": 38,
@@ -51596,13 +51792,15 @@
     {
       "series": "https://jkanime.net/the-daily-life-of-the-inmortal-king-2nd-season/",
       "title": "The Daily Life of the Immortal King 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51615,19 +51813,21 @@
     {
       "series": "https://jkanime.net/gundam-breaker-battlogue/",
       "title": "Gundam Breaker: Battlogue",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 6,
-        "streamwish": 6,
-        "vidhide": 6,
         "mp4upload": 6,
-        "streamtape": 6
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -51649,13 +51849,15 @@
     {
       "series": "https://jkanime.net/ousama-ranking/",
       "title": "Ousama Ranking",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 23,
         "streamwish": 23,
