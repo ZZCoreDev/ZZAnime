@@ -1,0 +1,77 @@
+name: Renovar respaldo antiguo antes de siete días
+on:
+  schedule:
+    - cron: '11,26,41,56 * * * *'
+  workflow_dispatch:
+    inputs:
+      proof:
+        description: 'Renovar únicamente las dos muestras antes de ampliar'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: zzanime-hourly-provider-data
+  cancel-in-progress: false
+jobs:
+  renew:
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_RENEW_ENABLED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: code
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: provider-data
+          path: data
+      - name: Dependencias fijadas y pruebas sin IA
+        working-directory: code/automation/hourly
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          python3 -m pip install cryptography==46.0.3
+          python3 test_cloud.py
+          python3 test_renew.py
+      - name: Renovar y publicar por el canal firmado existente
+        working-directory: code/automation/hourly
+        env:
+          ZZ_DATA: ${{ github.workspace }}/data/state
+          ZZ_COLLECTOR_URL: 'https://zzanime-new-episodes.zzcoredev.workers.dev/'
+          ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
+          ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
+          ZZ_RENEW_PROOF: ${{ inputs.proof }}
+        run: |
+          if [ "$ZZ_RENEW_PROOF" = "true" ]; then
+            python3 renew.py --proof --publish
+          else
+            python3 renew.py --publish
+          fi
+      - name: Conservar avances y fallos incluso si una fuente no responde
+        if: always()
+        working-directory: data
+        run: |
+          git config user.name 'ZZAnime automation'
+          git config user.email 'automation@users.noreply.github.com'
+          git add state
+          if ! git diff --cached --quiet; then
+            git commit -m 'Renovar observaciones del respaldo y conservar fallos'
+            git push origin HEAD:provider-data
+          fi
+      - name: Registrar deuda de renovación en ESTADO.md
+        if: always()
+        working-directory: code
+        env:
+          ZZ_DATA: ${{ github.workspace }}/data/state
+        run: |
+          if [ -f "$ZZ_DATA/renewal-status.json" ]; then
+            python3 automation/hourly/renew.py --write-status ESTADO.md
+            git config user.name 'ZZAnime automation'
+            git config user.email 'automation@users.noreply.github.com'
+            git add ESTADO.md
+            if ! git diff --cached --quiet; then
+              git commit -m 'Registrar estado y deuda de renovación automática'
+              git push origin HEAD:main
+            fi
+          fi

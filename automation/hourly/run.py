@@ -3,6 +3,7 @@ from pathlib import Path
 import os,sys,json,gzip,hashlib,datetime,subprocess,tempfile,shutil,re,time
 from cryptography.hazmat.primitives import serialization,hashes
 from cryptography.hazmat.primitives.asymmetric import padding,rsa
+from archive_state import load as load_observations,save as save_observations,merge as merge_observations
 W=Path(__file__).resolve().parent
 D=Path(os.environ.get('ZZ_DATA',W/'state')).resolve()
 BASE='https://zzanime-respaldo.zzcoredev.workers.dev'
@@ -48,21 +49,22 @@ def main():
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.
   if os.environ.get('ZZ_COLLECTOR_URL'):
    import urllib.request
-   state=json.loads((D/'observations.json').read_bytes()) if (D/'observations.json').exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
+   state=load_observations(D)
    instant=datetime.datetime.now(datetime.timezone.utc)
    put(D/'collection-status.json',raw({'state':'checking','lastAttempt':instant.isoformat().replace('+00:00','Z'),'retryMinutes':RETRY_SECONDS//60}))
    for attempt in range(1 if proof else COLLECTION_BATCHES):
-    skip=[url for url,ep in state['episodes'].items() if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][-2500:]
+    recent=sorted(state['episodes'].items(),key=lambda row:row[1]['observedAt'],reverse=True)
+    skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     incoming=result['state'];newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     for url in newly_deferred:deferred[url]=instant.timestamp()
-    state['episodes'].update(incoming['episodes']);state['listings'].update(incoming['listings']);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));put(D/'observations.json',raw(state));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
+    merge_observations(state,incoming);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
- state=json.loads((D/'observations.json').read_bytes());now=datetime.datetime.now(datetime.timezone.utc)
+ state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
   for ep in state['episodes'].values():
@@ -107,7 +109,7 @@ def main():
    command(['node',str(cli),'deploy','--config',str(site/'wrangler.json')],env=dict(os.environ,WRANGLER_SEND_METRICS='false'))
    for verification_attempt in range(13):
     try:
-     remote=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/('remote-cache-'+str(verification_attempt))),BASE]))
+     remote=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/('remote-cache-'+str(verification_attempt))),BASE,str(old)]))
      if remote!=proof_result:raise ValueError('Remote app result differs')
      break
     except (subprocess.CalledProcessError,ValueError):
