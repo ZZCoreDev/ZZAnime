@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T19:35:43.506359+00:00",
+  "checkedAt": "2026-10-28T19:48:53.766049+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73308,
+  "observedChapters": 73321,
   "storedChapters": 71367,
-  "missingChapters": 1941,
+  "missingChapters": 1954,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -863,6 +863,14 @@
         "samples": [
           "https://jkanime.net/hikari-no-ou/11/",
           "https://jkanime.net/hikari-no-ou/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-card/",
+        "title": "High Card",
+        "samples": [
+          "https://jkanime.net/high-card/13/",
+          "https://jkanime.net/high-card/14/"
         ]
       },
       {
@@ -6905,8 +6913,8 @@
         "series": "https://jkanime.net/mao/",
         "title": "Mao",
         "samples": [
-          "https://jkanime.net/mao/20/",
-          "https://jkanime.net/mao/21/"
+          "https://jkanime.net/mao/21/",
+          "https://jkanime.net/mao/22/"
         ]
       },
       {
@@ -12429,7 +12437,192 @@
         "series": "https://jkanime.net/eiyuuou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi/",
         "title": "Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
         "samples": [
-          "https://jkanime.net/eiyuuou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi/1/"
+          "https://jkanime.net/eiyuuou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi/1/",
+          "https://jkanime.net/eiyuuou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ayakashi-triangle/",
+        "title": "Ayakashi Triangle",
+        "samples": [
+          "https://jkanime.net/ayakashi-triangle/1/",
+          "https://jkanime.net/ayakashi-triangle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyuuketsuki-sugu-shinu-2/",
+        "title": "Kyuuketsuki Sugu Shinu 2",
+        "samples": [
+          "https://jkanime.net/kyuuketsuki-sugu-shinu-2/1/",
+          "https://jkanime.net/kyuuketsuki-sugu-shinu-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-card/",
+        "title": "High Card",
+        "samples": [
+          "https://jkanime.net/high-card/13/",
+          "https://jkanime.net/high-card/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyokou-suiri-season-2/",
+        "title": "Kyokou Suiri Season 2",
+        "samples": [
+          "https://jkanime.net/kyokou-suiri-season-2/1/",
+          "https://jkanime.net/kyokou-suiri-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-tachi-ni-hirowareta-otoko-2nd-season/",
+        "title": "Kami-tachi ni Hirowareta Otoko 2nd Season",
+        "samples": [
+          "https://jkanime.net/kami-tachi-ni-hirowareta-otoko-2nd-season/1/",
+          "https://jkanime.net/kami-tachi-ni-hirowareta-otoko-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/benriya-saitou-san-isekai-ni-iku/",
+        "title": "Benriya Saitou-san, Isekai ni Iku",
+        "samples": [
+          "https://jkanime.net/benriya-saitou-san-isekai-ni-iku/1/",
+          "https://jkanime.net/benriya-saitou-san-isekai-ni-iku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mou-ippon/",
+        "title": "Mou Ippon!",
+        "samples": [
+          "https://jkanime.net/mou-ippon/1/",
+          "https://jkanime.net/mou-ippon/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/d4dj-all-mix/",
+        "title": "D4DJ All Mix",
+        "samples": [
+          "https://jkanime.net/d4dj-all-mix/1/",
+          "https://jkanime.net/d4dj-all-mix/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii/",
+        "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
+        "samples": [
+          "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii/3/",
+          "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ijiranaide-nagatoro-san-2nd-attack/",
+        "title": "Ijiranaide, Nagatoro-san 2nd Attack",
+        "samples": [
+          "https://jkanime.net/ijiranaide-nagatoro-san-2nd-attack/1/",
+          "https://jkanime.net/ijiranaide-nagatoro-san-2nd-attack/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-revengers-seiya-kessen-hen/",
+        "title": "Tokyo Revengers: Seiya Kessen-hen",
+        "samples": [
+          "https://jkanime.net/tokyo-revengers-seiya-kessen-hen/1/",
+          "https://jkanime.net/tokyo-revengers-seiya-kessen-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nierautomata-ver11a/",
+        "title": "NieR:Automata Ver1.1a",
+        "samples": [
+          "https://jkanime.net/nierautomata-ver11a/1/",
+          "https://jkanime.net/nierautomata-ver11a/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken/",
+        "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+        "samples": [
+          "https://jkanime.net/otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken/1/",
+          "https://jkanime.net/otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saikyou-onmyouji-no-isekai-tenseiki/",
+        "title": "Saikyou Onmyouji no Isekai Tenseiki",
+        "samples": [
+          "https://jkanime.net/saikyou-onmyouji-no-isekai-tenseiki/1/",
+          "https://jkanime.net/saikyou-onmyouji-no-isekai-tenseiki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life/",
+        "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
+        "samples": [
+          "https://jkanime.net/kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life/1/",
+          "https://jkanime.net/kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu/",
+        "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+        "samples": [
+          "https://jkanime.net/rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu/11/",
+          "https://jkanime.net/rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nokemono-tachi-no-yoru/",
+        "title": "Nokemono-tachi no Yoru",
+        "samples": [
+          "https://jkanime.net/nokemono-tachi-no-yoru/1/",
+          "https://jkanime.net/nokemono-tachi-no-yoru/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uniteup/",
+        "title": "UniteUp!",
+        "samples": [
+          "https://jkanime.net/uniteup/1/",
+          "https://jkanime.net/uniteup/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trigun-stampede/",
+        "title": "Trigun Stampede",
+        "samples": [
+          "https://jkanime.net/trigun-stampede/1/",
+          "https://jkanime.net/trigun-stampede/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inu-ni-nattara-suki-na-hito-ni-hirowareta/",
+        "title": "Inu ni Nattara Suki na Hito ni Hirowareta.",
+        "samples": [
+          "https://jkanime.net/inu-ni-nattara-suki-na-hito-ni-hirowareta/1/",
+          "https://jkanime.net/inu-ni-nattara-suki-na-hito-ni-hirowareta/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san/",
+        "title": "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san",
+        "samples": [
+          "https://jkanime.net/tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san/1/",
+          "https://jkanime.net/tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-nonbiri-nouka/",
+        "title": "Isekai Nonbiri Nouka",
+        "samples": [
+          "https://jkanime.net/isekai-nonbiri-nouka/1/",
+          "https://jkanime.net/isekai-nonbiri-nouka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buddy-daddies/",
+        "title": "Buddy Daddies",
+        "samples": [
+          "https://jkanime.net/buddy-daddies/1/",
+          "https://jkanime.net/buddy-daddies/2/"
         ]
       },
       {
@@ -22929,14 +23122,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
-        "vidhide": 12,
-        "mega": 7,
-        "mixdrop": 7,
-        "streamtape": 7
+        "vidhide": 11,
+        "mega": 6,
+        "mixdrop": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -43091,7 +43284,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43104,13 +43297,15 @@
     {
       "series": "https://jkanime.net/ayakashi-triangle/",
       "title": "Ayakashi Triangle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43123,13 +43318,15 @@
     {
       "series": "https://jkanime.net/kyuuketsuki-sugu-shinu-2/",
       "title": "Kyuuketsuki Sugu Shinu 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43142,19 +43339,36 @@
     {
       "series": "https://jkanime.net/high-card/",
       "title": "High Card",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 25,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/high-card/13/",
+        "https://jkanime.net/high-card/14/",
+        "https://jkanime.net/high-card/15/",
+        "https://jkanime.net/high-card/16/",
+        "https://jkanime.net/high-card/17/",
+        "https://jkanime.net/high-card/18/",
+        "https://jkanime.net/high-card/19/",
+        "https://jkanime.net/high-card/20/",
+        "https://jkanime.net/high-card/21/",
+        "https://jkanime.net/high-card/22/",
+        "https://jkanime.net/high-card/23/",
+        "https://jkanime.net/high-card/24/",
+        "https://jkanime.net/high-card/25/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 8,
+        "streamwish": 8,
+        "vidhide": 8,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -43169,24 +43383,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kyokou-suiri-season-2/",
       "title": "Kyokou Suiri Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43199,13 +43413,15 @@
     {
       "series": "https://jkanime.net/kami-tachi-ni-hirowareta-otoko-2nd-season/",
       "title": "Kami-tachi ni Hirowareta Otoko 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43218,13 +43434,15 @@
     {
       "series": "https://jkanime.net/benriya-saitou-san-isekai-ni-iku/",
       "title": "Benriya Saitou-san, Isekai ni Iku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43237,32 +43455,36 @@
     {
       "series": "https://jkanime.net/mou-ippon/",
       "title": "Mou Ippon!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
+        "mega": 9,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/d4dj-all-mix/",
       "title": "D4DJ All Mix",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43275,32 +43497,36 @@
     {
       "series": "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii/",
       "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 5,
+        "streamwish": 5,
+        "vidhide": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ijiranaide-nagatoro-san-2nd-attack/",
       "title": "Ijiranaide, Nagatoro-san 2nd Attack",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43313,13 +43539,15 @@
     {
       "series": "https://jkanime.net/tokyo-revengers-seiya-kessen-hen/",
       "title": "Tokyo Revengers: Seiya Kessen-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -43332,13 +43560,15 @@
     {
       "series": "https://jkanime.net/nierautomata-ver11a/",
       "title": "NieR:Automata Ver1.1a",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43351,13 +43581,15 @@
     {
       "series": "https://jkanime.net/otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken/",
       "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43370,13 +43602,15 @@
     {
       "series": "https://jkanime.net/saikyou-onmyouji-no-isekai-tenseiki/",
       "title": "Saikyou Onmyouji no Isekai Tenseiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -43389,13 +43623,15 @@
     {
       "series": "https://jkanime.net/kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life/",
       "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43409,51 +43645,57 @@
     {
       "series": "https://jkanime.net/rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu/",
       "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 13,
+        "streamwish": 11,
+        "mega": 3,
+        "vidhide": 7,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nokemono-tachi-no-yoru/",
       "title": "Nokemono-tachi no Yoru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uniteup/",
       "title": "UniteUp!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43466,13 +43708,15 @@
     {
       "series": "https://jkanime.net/trigun-stampede/",
       "title": "Trigun Stampede",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43485,13 +43729,15 @@
     {
       "series": "https://jkanime.net/inu-ni-nattara-suki-na-hito-ni-hirowareta/",
       "title": "Inu ni Nattara Suki na Hito ni Hirowareta.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43504,32 +43750,36 @@
     {
       "series": "https://jkanime.net/tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san/",
       "title": "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
+        "mp4upload": 13,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/isekai-nonbiri-nouka/",
       "title": "Isekai Nonbiri Nouka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43543,13 +43793,15 @@
     {
       "series": "https://jkanime.net/buddy-daddies/",
       "title": "Buddy Daddies",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 12,
         "streamwish": 12,
