@@ -66,6 +66,15 @@ def health_report(folder,state,failures,status,now):
     qualified=len(usable)>=3 and measured_span>=3600
     eta=len(ages)/rate/24 if rate and qualified else None
     report={'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'episodes':len(ages),'oldestHours':round(max(ages.values(),default=0)/3600,2),'pending':len(select(state,failures,now,len(ages))),'expired':sum(age>7*DAY for age in ages.values()),'expiresWithin24Hours':sum(age>=6*DAY for age in ages.values()),'retryAfterExpiry':sum(r.get('retryAt',0)>now+7*DAY-ages[url] for url,r in failures.items() if url in ages),'successfulCyclesMeasured':len(usable),'sampleMinutes':round(measured_span/60,2),'measuredWallClockPerHour':round(rate,2),'estimatedSweepDays':round(eta,2) if eta is not None else None,'capacityStatus':'insufficient-history' if not qualified else 'within-budget' if eta is not None and eta<=5 else 'behind','datesInvented':False}
+    identity_path=Path(__file__).with_name('source-identities.json');recovery={}
+    if identity_path.exists():
+        for parent,entry in json.loads(identity_path.read_bytes()).items():
+            if not entry.get('approved'):continue
+            urls=[url for url in ages if url.rsplit('/',2)[0]+'/'==parent]
+            if not urls:continue
+            fresh=sum(0<=ages[url]<DAY for url in urls);pending=sum(url in failures for url in urls)
+            recovery[parent]={'title':entry['title'],'total':len(urls),'fresh':fresh,'pendingFailures':pending,'state':'complete' if fresh==len(urls) and pending==0 else 'pending'}
+    report['verifiedIdentityRecovery']=recovery
     (folder/'renewal-health.json').write_text(json.dumps(report,indent=2),encoding='utf-8');return report
 
 def validate(incoming,targets,before,after):
@@ -84,6 +93,7 @@ def status_text(current,status):
     failures=status.get('failed',0);overdue=status.get('expired',0)
     text=f'{start}\n## Refresco automático del respaldo\nEstado: {status.get("state","unknown")}. Fallos pendientes: {failures}; capítulos vencidos pendientes: {overdue}. Próximos a vencer: {status.get("expiresWithin24Hours","pendiente")}; capacidad: {status.get("capacityStatus","sin medir")}.\n'
     if failures or overdue or status.get('state')=='failed':text+='Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.\n'
+    for group in status.get('verifiedIdentityRecovery',{}).values():text+=f'Equivalencia comprobada: {group["title"]}, {group["fresh"]}/{group["total"]} capítulos recientes; incidencias pendientes: {group["pendingFailures"]}.\n'
     text+=end
     if start in current and end in current:
         a=current.index(start);b=current.index(end,a)+len(end);updated=current[:a]+text+current[b:]
@@ -201,7 +211,7 @@ def main():
     finally:
         if runtime is not None:runtime.cleanup()
         status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
-        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'])
+        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'],verifiedIdentityRecovery=health['verifiedIdentityRecovery'])
         report.write_text(json.dumps(status,indent=2),encoding='utf-8')
         print(json.dumps(status))
 
