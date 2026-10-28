@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T21:11:03.285202+00:00",
+  "checkedAt": "2026-10-28T21:26:13.610191+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73385,
+  "observedChapters": 73396,
   "storedChapters": 71442,
-  "missingChapters": 1943,
+  "missingChapters": 1954,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -987,6 +987,14 @@
         "title": "Teppen!!!!!!!!!!!!!!!",
         "samples": [
           "https://jkanime.net/teppen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
+        "title": "Bastard!! Ankoku no Hakaishin (ONA)",
+        "samples": [
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/14/",
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/15/"
         ]
       },
       {
@@ -13590,6 +13598,68 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kami-kuzuidol/",
+        "title": "Kami Kuzu☆Idol",
+        "samples": [
+          "https://jkanime.net/kami-kuzuidol/1/",
+          "https://jkanime.net/kami-kuzuidol/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lycoris-recoil/",
+        "title": "Lycoris Recoil",
+        "samples": [
+          "https://jkanime.net/lycoris-recoil/1/",
+          "https://jkanime.net/lycoris-recoil/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shoot-goal-to-the-future/",
+        "title": "Shoot! Goal to the Future",
+        "samples": [
+          "https://jkanime.net/shoot-goal-to-the-future/1/",
+          "https://jkanime.net/shoot-goal-to-the-future/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teppen/",
+        "title": "Teppen!!!!!!!!!!!!!!!",
+        "samples": [
+          "https://jkanime.net/teppen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
+        "title": "Bastard!! Ankoku no Hakaishin (ONA)",
+        "samples": [
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/14/",
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
+        "title": "Yuusha, Yamemasu: Kenshuu Ryokou wa Mokuteki wo Miushinau na",
+        "samples": [
+          "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rwby-hyousetsu-teikoku/",
+        "title": "RWBY: Hyousetsu Teikoku",
+        "samples": [
+          "https://jkanime.net/rwby-hyousetsu-teikoku/1/",
+          "https://jkanime.net/rwby-hyousetsu-teikoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-ona/",
+        "title": "Boku no Hero Academia (ONA)",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-ona/1/",
+          "https://jkanime.net/boku-no-hero-academia-ona/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-super-super-hero/",
         "title": "Dragon Ball Super: Super Hero",
         "samples": [
@@ -13618,10 +13688,114 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zanting-rang-wo-cha-gonglue/",
+        "title": "Zanting! Rang Wo Cha Gonglue",
+        "samples": [
+          "https://jkanime.net/zanting-rang-wo-cha-gonglue/1/",
+          "https://jkanime.net/zanting-rang-wo-cha-gonglue/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shin-ikkitousen/",
+        "title": "Shin Ikkitousen",
+        "samples": [
+          "https://jkanime.net/shin-ikkitousen/1/",
+          "https://jkanime.net/shin-ikkitousen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vampire-in-the-garden/",
+        "title": "Vampire in the Garden",
+        "samples": [
+          "https://jkanime.net/vampire-in-the-garden/1/",
+          "https://jkanime.net/vampire-in-the-garden/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shen-yin-wangzuo/",
+        "title": "Shen Yin Wangzuo",
+        "samples": [
+          "https://jkanime.net/shen-yin-wangzuo/1/",
+          "https://jkanime.net/shen-yin-wangzuo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/huang-yan/",
+        "title": "Huang Yan",
+        "samples": [
+          "https://jkanime.net/huang-yan/1/",
+          "https://jkanime.net/huang-yan/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bubble/",
         "title": "Bubble",
         "samples": [
           "https://jkanime.net/bubble/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zuihou-de-zhaohuan-shi/",
+        "title": "Zuihou de Zhaohuan Shi",
+        "samples": [
+          "https://jkanime.net/zuihou-de-zhaohuan-shi/1/",
+          "https://jkanime.net/zuihou-de-zhaohuan-shi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kakkou-no-iinazuke/",
+        "title": "Kakkou no Iinazuke",
+        "samples": [
+          "https://jkanime.net/kakkou-no-iinazuke/1/",
+          "https://jkanime.net/kakkou-no-iinazuke/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ni-zhenshi-ge-tiancai/",
+        "title": "Ni Zhenshi Ge Tiancai",
+        "samples": [
+          "https://jkanime.net/ni-zhenshi-ge-tiancai/1/",
+          "https://jkanime.net/ni-zhenshi-ge-tiancai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jun-you-yun/",
+        "title": "Jun You Yun",
+        "samples": [
+          "https://jkanime.net/jun-you-yun/1/",
+          "https://jkanime.net/jun-you-yun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaginado-season-2/",
+        "title": "Kaginado Season 2",
+        "samples": [
+          "https://jkanime.net/kaginado-season-2/1/",
+          "https://jkanime.net/kaginado-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-3rd-season/",
+        "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season",
+        "samples": [
+          "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-3rd-season/1/",
+          "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-senki-part-2/",
+        "title": "Kyoukai Senki Part 2",
+        "samples": [
+          "https://jkanime.net/kyoukai-senki-part-2/1/",
+          "https://jkanime.net/kyoukai-senki-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onipan/",
+        "title": "Onipan!",
+        "samples": [
+          "https://jkanime.net/onipan/1/",
+          "https://jkanime.net/onipan/3/"
         ]
       },
       {
@@ -48161,7 +48335,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -48193,32 +48367,36 @@
     {
       "series": "https://jkanime.net/kami-kuzuidol/",
       "title": "Kami Kuzu☆Idol",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 10,
-        "streamwish": 10,
-        "vidhide": 10,
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
         "mp4upload": 10,
-        "streamtape": 10
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/lycoris-recoil/",
       "title": "Lycoris Recoil",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -48231,13 +48409,15 @@
     {
       "series": "https://jkanime.net/shoot-goal-to-the-future/",
       "title": "Shoot! Goal to the Future",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -48251,7 +48431,8 @@
       "series": "https://jkanime.net/teppen/",
       "title": "Teppen!!!!!!!!!!!!!!!",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 11,
@@ -48260,7 +48441,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -48273,20 +48454,35 @@
     {
       "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
       "title": "Bastard!! Ankoku no Hakaishin (ONA)",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 24,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/14/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/15/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/16/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/19/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/20/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/21/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/22/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/23/",
+        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/24/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
-        "mp4upload": 12,
-        "streamtape": 13
+        "mp4upload": 13,
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -48311,32 +48507,36 @@
     {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
       "title": "Yuusha, Yamemasu: Kenshuu Ryokou wa Mokuteki wo Miushinau na",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
         "mp4upload": 2,
-        "streamtape": 2
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/rwby-hyousetsu-teikoku/",
       "title": "RWBY: Hyousetsu Teikoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -48349,13 +48549,15 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-ona/",
       "title": "Boku no Hero Academia (ONA)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -48459,19 +48661,21 @@
     {
       "series": "https://jkanime.net/zanting-rang-wo-cha-gonglue/",
       "title": "Zanting! Rang Wo Cha Gonglue",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 11,
-        "streamwish": 12,
-        "vidhide": 11,
+        "mega": 8,
+        "streamwish": 8,
+        "vidhide": 8,
         "mp4upload": 12,
-        "streamtape": 11
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -48486,11 +48690,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -48512,13 +48713,15 @@
     {
       "series": "https://jkanime.net/shin-ikkitousen/",
       "title": "Shin Ikkitousen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -48531,19 +48734,21 @@
     {
       "series": "https://jkanime.net/vampire-in-the-garden/",
       "title": "Vampire in the Garden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 5,
-        "streamwish": 5,
-        "vidhide": 5,
-        "mixdrop": 5,
-        "streamtape": 5,
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "streamtape": 3,
         "mp4upload": 4
       },
       "playbackVerified": false
@@ -48551,13 +48756,15 @@
     {
       "series": "https://jkanime.net/shen-yin-wangzuo/",
       "title": "Shen Yin Wangzuo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -48571,13 +48778,15 @@
     {
       "series": "https://jkanime.net/huang-yan/",
       "title": "Huang Yan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -48618,24 +48827,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/zuihou-de-zhaohuan-shi/",
       "title": "Zuihou de Zhaohuan Shi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -48648,13 +48855,15 @@
     {
       "series": "https://jkanime.net/kakkou-no-iinazuke/",
       "title": "Kakkou no Iinazuke",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -48667,13 +48876,15 @@
     {
       "series": "https://jkanime.net/ni-zhenshi-ge-tiancai/",
       "title": "Ni Zhenshi Ge Tiancai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -48687,13 +48898,15 @@
     {
       "series": "https://jkanime.net/jun-you-yun/",
       "title": "Jun You Yun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -48715,24 +48928,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "mp4upload": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kaginado-season-2/",
       "title": "Kaginado Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -48745,32 +48956,36 @@
     {
       "series": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-3rd-season/",
       "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 10,
-        "streamwish": 10,
+        "mega": 9,
+        "streamwish": 9,
         "vidhide": 10,
         "mp4upload": 10,
-        "streamtape": 10
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kyoukai-senki-part-2/",
       "title": "Kyoukai Senki Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -48783,19 +48998,21 @@
     {
       "series": "https://jkanime.net/onipan/",
       "title": "Onipan!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -119454,12 +119671,12 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
+        "mega": 3,
         "streamwish": 4,
         "vidhide": 4,
-        "mixdrop": 4,
+        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 4
+        "streamtape": 3
       },
       "playbackVerified": false
     },
