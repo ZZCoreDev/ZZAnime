@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T23:36:17.145905+00:00",
+  "checkedAt": "2026-10-28T23:49:32.609959+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73462,
+  "observedChapters": 73463,
   "storedChapters": 71442,
-  "missingChapters": 2020,
+  "missingChapters": 2021,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1300,6 +1300,13 @@
         "title": "100-nichikan Ikita Wani",
         "samples": [
           "https://jkanime.net/100-nichikan-ikita-wani/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/",
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
+        "samples": [
+          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/13/"
         ]
       },
       {
@@ -15109,7 +15116,15 @@
         "title": "Meikyuu Black Company",
         "samples": [
           "https://jkanime.net/meikyuu-black-company/1/",
-          "https://jkanime.net/meikyuu-black-company/2/"
+          "https://jkanime.net/meikyuu-black-company/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kobayashi-san-chi-no-maid-dragon-s/",
+        "title": "Kobayashi-san Chi no Maid Dragon S",
+        "samples": [
+          "https://jkanime.net/kobayashi-san-chi-no-maid-dragon-s/1/",
+          "https://jkanime.net/kobayashi-san-chi-no-maid-dragon-s/10/"
         ]
       },
       {
@@ -15117,6 +15132,141 @@
         "title": "100-nichikan Ikita Wani",
         "samples": [
           "https://jkanime.net/100-nichikan-ikita-wani/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore/",
+        "title": "Cheat Kusushi no Slow Life: Isekai ni Tsukurou Drugstore",
+        "samples": [
+          "https://jkanime.net/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore/1/",
+          "https://jkanime.net/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsukipro-the-animation-2/",
+        "title": "Tsukipro The Animation 2",
+        "samples": [
+          "https://jkanime.net/tsukipro-the-animation-2/1/",
+          "https://jkanime.net/tsukipro-the-animation-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu/",
+        "title": "Tsuki ga Michibiku Isekai Douchuu",
+        "samples": [
+          "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu/1/",
+          "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uramichi-oniisan/",
+        "title": "Uramichi Oniisan",
+        "samples": [
+          "https://jkanime.net/uramichi-oniisan/1/",
+          "https://jkanime.net/uramichi-oniisan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seirei-gensouki/",
+        "title": "Seirei Gensouki",
+        "samples": [
+          "https://jkanime.net/seirei-gensouki/1/",
+          "https://jkanime.net/seirei-gensouki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idolish7-third-beat/",
+        "title": "IDOLiSH7: Third Beat!",
+        "samples": [
+          "https://jkanime.net/idolish7-third-beat/1/",
+          "https://jkanime.net/idolish7-third-beat/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kageki-shoujo/",
+        "title": "Kageki Shoujo!!",
+        "samples": [
+          "https://jkanime.net/kageki-shoujo/1/",
+          "https://jkanime.net/kageki-shoujo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki/",
+        "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+        "samples": [
+          "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki/1/",
+          "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/re-main/",
+        "title": "Re-Main",
+        "samples": [
+          "https://jkanime.net/re-main/1/",
+          "https://jkanime.net/re-main/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinigami-bocchan-to-kuro-maid/",
+        "title": "Shinigami Bocchan to Kuro Maid",
+        "samples": [
+          "https://jkanime.net/shinigami-bocchan-to-kuro-maid/1/",
+          "https://jkanime.net/shinigami-bocchan-to-kuro-maid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-wa-mou-shindeiru/",
+        "title": "Tantei wa Mou, Shindeiru.",
+        "samples": [
+          "https://jkanime.net/tantei-wa-mou-shindeiru/1/",
+          "https://jkanime.net/tantei-wa-mou-shindeiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/getter-robo-arc/",
+        "title": "Getter Robo Arc",
+        "samples": [
+          "https://jkanime.net/getter-robo-arc/1/",
+          "https://jkanime.net/getter-robo-arc/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/",
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
+        "samples": [
+          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-mo-kanojo/",
+        "title": "Kanojo mo Kanojo",
+        "samples": [
+          "https://jkanime.net/kanojo-mo-kanojo/1/",
+          "https://jkanime.net/kanojo-mo-kanojo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vanitas-no-karte/",
+        "title": "Vanitas no Karte",
+        "samples": [
+          "https://jkanime.net/vanitas-no-karte/1/",
+          "https://jkanime.net/vanitas-no-karte/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokutachi-no-remake/",
+        "title": "Bokutachi no Remake",
+        "samples": [
+          "https://jkanime.net/bokutachi-no-remake/1/",
+          "https://jkanime.net/bokutachi-no-remake/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahouka-koukou-no-yuutousei/",
+        "title": "Mahouka Koukou no Yuutousei",
+        "samples": [
+          "https://jkanime.net/mahouka-koukou-no-yuutousei/1/",
+          "https://jkanime.net/mahouka-koukou-no-yuutousei/2/"
         ]
       },
       {
@@ -54189,7 +54339,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54202,13 +54352,15 @@
     {
       "series": "https://jkanime.net/kobayashi-san-chi-no-maid-dragon-s/",
       "title": "Kobayashi-san Chi no Maid Dragon S",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54240,13 +54392,15 @@
     {
       "series": "https://jkanime.net/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore/",
       "title": "Cheat Kusushi no Slow Life: Isekai ni Tsukurou Drugstore",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54259,13 +54413,15 @@
     {
       "series": "https://jkanime.net/tsukipro-the-animation-2/",
       "title": "Tsukipro The Animation 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -54278,13 +54434,15 @@
     {
       "series": "https://jkanime.net/tsuki-ga-michibiku-isekai-douchuu/",
       "title": "Tsuki ga Michibiku Isekai Douchuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54297,13 +54455,15 @@
     {
       "series": "https://jkanime.net/uramichi-oniisan/",
       "title": "Uramichi Oniisan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -54316,13 +54476,15 @@
     {
       "series": "https://jkanime.net/seirei-gensouki/",
       "title": "Seirei Gensouki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54343,24 +54505,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/idolish7-third-beat/",
       "title": "IDOLiSH7: Third Beat!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -54373,13 +54535,15 @@
     {
       "series": "https://jkanime.net/kageki-shoujo/",
       "title": "Kageki Shoujo!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -54392,13 +54556,15 @@
     {
       "series": "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki/",
       "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -54412,13 +54578,15 @@
     {
       "series": "https://jkanime.net/re-main/",
       "title": "Re-Main",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54431,13 +54599,15 @@
     {
       "series": "https://jkanime.net/shinigami-bocchan-to-kuro-maid/",
       "title": "Shinigami Bocchan to Kuro Maid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54451,13 +54621,15 @@
     {
       "series": "https://jkanime.net/tantei-wa-mou-shindeiru/",
       "title": "Tantei wa Mou, Shindeiru.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54470,13 +54642,15 @@
     {
       "series": "https://jkanime.net/getter-robo-arc/",
       "title": "Getter Robo Arc",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -54489,32 +54663,39 @@
     {
       "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/",
       "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kanojo-mo-kanojo/",
       "title": "Kanojo mo Kanojo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54527,13 +54708,15 @@
     {
       "series": "https://jkanime.net/vanitas-no-karte/",
       "title": "Vanitas no Karte",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54546,13 +54729,15 @@
     {
       "series": "https://jkanime.net/bokutachi-no-remake/",
       "title": "Bokutachi no Remake",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54565,13 +54750,15 @@
     {
       "series": "https://jkanime.net/mahouka-koukou-no-yuutousei/",
       "title": "Mahouka Koukou no Yuutousei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 13,
         "streamwish": 13,
