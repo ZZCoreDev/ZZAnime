@@ -1,0 +1,82 @@
+{
+  "observed-chapters-without-options": {
+    "series": 966,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/ao-ashi/",
+        "title": "Ao Ashi",
+        "samples": [
+          "https://jkanime.net/ao-ashi/1/",
+          "https://jkanime.net/ao-ashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megalo-box/",
+        "title": "Megalo Box",
+        "samples": [
+          "https://jkanime.net/megalo-box/1/",
+          "https://jkanime.net/megalo-box/10/"
+        ]
+      }
+    ]
+  },
+  "renewal-error": {
+    "series": 449,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
+        "title": "Danmachi",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/10/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/3/"
+        ]
+      }
+    ]
+  },
+  "retained-redirect": {
+    "series": 814,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/",
+        "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
+        "samples": [
+          "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-online-unansweredbutterfly/",
+        "title": "Sword Art Online: Unanswered//butterfly",
+        "samples": [
+          "https://jkanime.net/sword-art-online-unansweredbutterfly/1/"
+        ]
+      }
+    ]
+  },
+  "no-observed-listing": {
+    "series": 52,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/tsue-to-tsurugi-no-wistoria-season-2/",
+        "title": "Tsue to Tsurugi no Wistoria Season 2",
+        "samples": []
+      },
+      {
+        "series": "https://jkanime.net/one-punch-man-3/",
+        "title": "One Punch Man 3",
+        "samples": []
+      }
+    ]
+  }
+}
