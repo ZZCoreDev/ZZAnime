@@ -112,3 +112,12 @@ Activado en las tareas existentes de nube, sin otro recopilador ni APK. Reutiliz
 Blue Lock no reprodujo en el primer intento del canal firmado; un único reintento con las mismas URLs pasó por Mp4upload, sin otra recogida. Causa externa no confirmada; conservar esta limitación.
 55 controles:20 renovación,12 canal,10 identidad,13 tokens. Evidencia:work/backup-delivery/token-proof/ y automation/hourly/evidence/observed-token-proof.json.
 <!-- /OBSERVED-TOKEN-RECOVERY -->
+
+<!-- INCIDENT-DIAGNOSTICS -->
+## Auditoría automática de incidencias por serie
+Corte local: 3284 capítulos con fallo, agrupados en 332 series; dos muestras reales diagnosticadas. No equivale a reparación ni reproducción.
+Publicados diagnósticos separados por fuente/paso: ficha, listado, episodio, opciones y análisis; diferencia404/302/403/429, identidad, capítulo ausente, proveedor no aprobado y límites. Prueba Übel Blatt1/Magi-Lumière1: JK403 al listar, alternativas404 en ficha; seis consultas. No se eluden bloqueos.
+Renovación existente reparte reintentos por series distintas y prioriza las aún sin diagnóstico, conservando cuota25%, pausas y omisión de registros frescos. Tio no solicita episodio si su ficha ya falla. Informes state/renewal-diagnostics.json y .md en provider-data; cobertura/fallos en ESTADO remoto. Sin nuevo recopilador, PC, IA por registro ni APK.
+72 controles correctos y dos diagnósticos reales antes de instalar. Pendientes se detallan en reintentos permitidos; no se promete auditoría profunda instantánea de todas las series. No hay aprobación automática de equivalencias/reproductores: cada corrección seguirá requiriendo dos reproducciones válidas. Borrador acentos/SW retirado del paquete desplegable y conservado en work/incident-audit/accent-draft; las muestras sin reproducción siguen retenidas.
+Código 5a0ba74811aa41d27b7e1dd41273f32624e58c33; evidencia automation/hourly/evidence/incident-diagnostics-proof.json y work/incident-audit/diagnostic-rollout/.
+<!-- /INCIDENT-DIAGNOSTICS -->

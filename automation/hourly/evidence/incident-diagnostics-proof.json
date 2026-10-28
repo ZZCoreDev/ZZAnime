@@ -1,0 +1,108 @@
+{
+  "state": "active",
+  "startedAt": "2026-10-28T14:29:05.531138+00:00",
+  "archiveModified": false,
+  "apkRequired": false,
+  "steps": [
+    {
+      "name": "test_renew.py",
+      "passed": true
+    },
+    {
+      "name": "test_cloud.py",
+      "passed": true
+    },
+    {
+      "name": "test_identities.cjs",
+      "passed": true
+    },
+    {
+      "name": "test_flv_tokens.cjs",
+      "passed": true
+    },
+    {
+      "name": "test_source_diagnostics.cjs",
+      "passed": true
+    },
+    {
+      "name": "export",
+      "passed": true
+    },
+    {
+      "name": "collector-dry-run",
+      "passed": true
+    },
+    {
+      "name": "collector-diagnostics",
+      "passed": true
+    },
+    {
+      "name": "install",
+      "passed": true
+    }
+  ],
+  "twoSeriesPassed": true,
+  "commit": "5a0ba74811aa41d27b7e1dd41273f32624e58c33",
+  "sourceRateUnchanged": true,
+  "extraCollector": false,
+  "testsPassed": 72,
+  "snapshot": {
+    "series": 332,
+    "diagnosedSeries": 2,
+    "pendingSeries": 330
+  },
+  "failedChapters": 3284,
+  "twoSeries": {
+    "checkedAt": "2026-10-28T14:29:22.200575+00:00",
+    "twoRealSeries": true,
+    "requests": 6,
+    "diagnostics": {
+      "https://jkanime.net/bel-blatt/1/": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403"
+        },
+        "tio": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        }
+      },
+      "https://jkanime.net/kabushikigaisha-magi-lumire/1/": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403"
+        },
+        "tio": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        }
+      }
+    },
+    "archiveModified": false,
+    "sourceOptionsApproved": false,
+    "playbackClaimed": false
+  },
+  "allFailuresRepaired": false,
+  "pcRequired": false,
+  "aiCalls": 0
+}
