@@ -5,7 +5,7 @@ from archive_state import load,save,merge,stamp
 
 DAY=86400
 LEAD_AGE=DAY
-MAX_EPISODES=200
+MAX_EPISODES=400
 PROOF=['https://jkanime.net/psyren/4/','https://jkanime.net/dark-summoner-to-dekiteiru/4/']
 
 def select(state,failures,now,limit):

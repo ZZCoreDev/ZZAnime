@@ -5,6 +5,17 @@ from archive_state import load,save,merge,stamp
 from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_retry_deadlines,health_report,DAY
 
 class RenewalTests(unittest.TestCase):
+    def test_queued_sample_is_not_replaced_by_a_continuation(self):
+        class Response:
+            def __init__(self,rows):self.rows=rows
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+            def read(self):return json.dumps({'workflow_runs':self.rows}).encode()
+        _,_,_,state=self.fixture()
+        with self.temporary() as temp:
+            folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
+            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',side_effect=[Response([]),Response([{'status':'pending'}])]) as call:continue_if_due(folder)
+            self.assertEqual(call.call_count,2);self.assertTrue(all(r.args[0].get_method()=='GET' for r in call.call_args_list))
     def test_expired_retry_is_not_postponed_forever(self):
         now,_,url,state=self.fixture(8);failed={url:{'retryAt':now.timestamp()+900}}
         self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),0)
