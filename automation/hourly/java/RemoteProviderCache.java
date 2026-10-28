@@ -16,6 +16,7 @@ final class RemoteProviderCache implements ProviderBackupStore.Assets {
     static byte[] read(File file,int limit)throws Exception{return ProviderBackupStore.read(new FileInputStream(file),limit);}
     static void atomic(File file,byte[] bytes)throws Exception{File temporary=new File(file.getParentFile(),file.getName()+".tmp");try(FileOutputStream out=new FileOutputStream(temporary)){out.write(bytes);out.getFD().sync();}try{Files.move(temporary.toPath(),file.toPath(),StandardCopyOption.REPLACE_EXISTING,StandardCopyOption.ATOMIC_MOVE);}catch(AtomicMoveNotSupportedException e){Files.move(temporary.toPath(),file.toPath(),StandardCopyOption.REPLACE_EXISTING);}}
     synchronized String revision(){return revision;}
+    synchronized JSONObject feed(){try{if(revision.isEmpty())return new JSONObject();JSONObject root=new JSONObject(new String(read(new File(folder,revision+".index"),2*1024*1024),StandardCharsets.UTF_8));JSONObject feed=root.optJSONObject("feed");return feed!=null&&feed.optInt("schema")==1?new JSONObject(feed.toString()):new JSONObject();}catch(Exception ignored){return new JSONObject();}}
     synchronized int seriesCount(){return index==null?0:index.length();}
     synchronized int episodeCount(){int total=0;if(index!=null)for(Iterator<String> i=index.keys();i.hasNext();)total+=index.optJSONObject(i.next()).optInt("episodes");return total;}
     synchronized boolean refresh()throws Exception{

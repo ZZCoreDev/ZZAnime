@@ -34,7 +34,13 @@ def build(state,approved,now):
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
   downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url',''))][:8]
   if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'downloads':downloads} if downloads else {}),**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
- index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'series':{}};files={}
+ available={ep['url'] for eps in rows.values() for ep in eps};news=[]
+ for url,observed in sorted(state.get('newsSeen',{}).items(),key=lambda item:item[1],reverse=True):
+  try:age=(now-datetime.datetime.fromisoformat(observed.replace('Z','+00:00'))).total_seconds()
+  except (ValueError,TypeError):continue
+  if url in available and 0<=age<=7*86400:news.append({'url':url,'number':int(url.rstrip('/').rsplit('/',1)[1]),'firstSeenAt':observed})
+  if len(news)>=100:break
+ index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'series':{},'feed':{'schema':1,'episodes':news}};files={}
  for parent,eps in sorted(rows.items()):
   listing=state['listings'][parent]
   row={'schema':1,'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':sorted(eps,key=lambda e:e['url']),'playbackVerified':False,**{k:listing[k] for k in ['sourceSeries','identityEvidence'] if k in listing}}
@@ -53,7 +59,7 @@ def main():
    instant=datetime.datetime.now(datetime.timezone.utc)
    put(D/'collection-status.json',raw({'state':'checking','lastAttempt':instant.isoformat().replace('+00:00','Z'),'retryMinutes':RETRY_SECONDS//60}))
    for attempt in range(1 if proof else COLLECTION_BATCHES):
-    recent=sorted(state['episodes'].items(),key=lambda row:row[1]['observedAt'],reverse=True)
+    recent=sorted(state['episodes'].items(),key=lambda row:state.get('newsSeen',{}).get(row[0],''),reverse=True)
     skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
@@ -61,6 +67,7 @@ def main():
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     incoming=result['state'];newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     for url in newly_deferred:deferred[url]=instant.timestamp()
+    for url,ep in incoming['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
     merge_observations(state,incoming);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)

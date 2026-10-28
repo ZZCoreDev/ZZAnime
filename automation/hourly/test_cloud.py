@@ -32,4 +32,11 @@ class CloudTests(unittest.TestCase):
   now,_,_,s,a=self.fixture();one=build(s,a,now);two=build(s,a,now);self.assertEqual(one,two)
  def test_android_legacy_utc_format(self):
   now,_,_,s,a=self.fixture();index,_=build(s,a,now);self.assertTrue(index['createdAt'].endswith('Z'));self.assertNotIn('+00:00',index['createdAt'])
+ def test_renewing_old_episode_does_not_create_a_new_release(self):
+  now,_,url,s,a=self.fixture();index,_=build(s,a,now);self.assertEqual(index['feed']['episodes'],[])
+  seen=(now-datetime.timedelta(days=2)).isoformat();s['newsSeen']={url:seen};index,_=build(s,a,now)
+  self.assertEqual(index['feed']['episodes'][0]['firstSeenAt'],seen)
+  self.assertEqual(index['feed']['episodes'][0]['number'],1)
+ def test_old_news_not_presented_as_current(self):
+  now,_,url,s,a=self.fixture();s['newsSeen']={url:(now-datetime.timedelta(days=8)).isoformat()};index,_=build(s,a,now);self.assertEqual(index['feed']['episodes'],[])
 if __name__=='__main__':unittest.main()
