@@ -79,6 +79,14 @@ def main():
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
  state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)
+ # Migrate the genuinely observed homepage baseline; do not re-label historical providers as fresh.
+ seed_path=W/'recent-seed.json'
+ if seed_path.exists():
+  seed_body=seed_path.read_bytes();seed_hash=sha(seed_body)
+  if state.get('recentSeedHash')!=seed_hash:
+   seed=json.loads(seed_body);observed=datetime.datetime.fromisoformat(seed['observedAt'].replace('Z','+00:00'))
+   if seed.get('source')=='https://jkanime.net/' and 0<=(now-observed).total_seconds()<=7*86400:
+    record_recent(state,seed['recent'],observed);state['recentSeedHash']=seed_hash;save_observations(D,state,set())
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
   for ep in state['episodes'].values():
