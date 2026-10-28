@@ -45,10 +45,12 @@ def run(state,seed,proof=False,request=fetch,clock=time.time,pause=time.sleep):
   retry=previous.get('retryAt',0)
   if previous.get('reason')=='TimeoutError' and not previous.get('policyVersion'):retry=min(retry,previous['checkedAt']+60)
   if previous.get('state')=='failed' and retry>now:return dict(previous,state='paused')
- due=[i for i in ids if (proof or now-data['items'].get(str(i),{}).get('checkedAt',0)>=86400) and held.get(str(i),{}).get('retryAt',0)<=now];changed=0;fetched=0
+ due=[i for i in ids if (proof or now-data['items'].get(str(i),{}).get('checkedAt',0)>=86400) and held.get(str(i),{}).get('retryAt',0)<=now];changed=0;fetched=0;attempted=0;deadline=time.monotonic()+420
  try:
   for offset in range(0,len(due),25):
+   if time.monotonic()>=deadline:break
    batch=due[offset:offset+25];items=request(batch);returned=set()
+   attempted+=len(batch)
    for media in items:
     if type(media.get('id'))!=int or media['id'] not in batch or media['id'] in returned:raise ValueError('Unexpected or duplicate batch identity')
     returned.add(media['id']);key=str(media['id'])
@@ -60,7 +62,7 @@ def run(state,seed,proof=False,request=fetch,clock=time.time,pause=time.sleep):
    if offset+25<len(due):pause(3)
   if proof and fetched!=2:raise ValueError('Two real identities required for proof')
   raw=json.dumps(data,ensure_ascii=False,separators=(',',':')).encode();temp=state/'metadata.json.gz.tmp';temp.write_bytes(gzip.compress(raw,mtime=0));temp.replace(state/'metadata.json.gz')
-  report={'state':'complete','checkedAt':now,'proof':proof,'fetched':fetched,'changed':changed,'held':len(held),'cached':len(ids)-len(due),'requested':len(due),'stored':len(data['items']),'aiCalls':0,'apkPublished':False,'retryAt':now+86400,'policyVersion':2}
+  report={'state':'complete' if attempted==len(due) else 'partial','checkedAt':now,'proof':proof,'fetched':fetched,'changed':changed,'held':len(held),'cached':len(ids)-len(due),'requested':attempted,'unattempted':len(due)-attempted,'stored':len(data['items']),'aiCalls':0,'apkPublished':False,'retryAt':now+(86400 if attempted==len(due) else 3600),'policyVersion':2}
  except Exception as error:
   delay=3600 if isinstance(error,(TimeoutError,urllib.error.URLError,http.client.IncompleteRead)) and not isinstance(error,urllib.error.HTTPError) else 86400
   if isinstance(error,urllib.error.HTTPError) and error.code==429:
