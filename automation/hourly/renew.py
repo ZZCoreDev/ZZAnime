@@ -149,7 +149,10 @@ def continue_if_due(folder):
     print('Pending observed chapters: next independent renewal batch dispatched.')
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    if args.sample_group=='recovered-import':
+        from import_recovered import main as import_batch
+        import_batch(args.publish);return
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True);report=folder/'renewal-status.json'
     if args.continue_if_due:continue_if_due(folder);return
     if args.write_status:

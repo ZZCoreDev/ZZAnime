@@ -1,4 +1,5 @@
 name: Renovar respaldo antiguo antes de siete días
+run-name: "Respaldo ${{ inputs.sample_group || 'scheduled' }}"
 on:
   workflow_run:
     workflows: ['Capítulos nuevos cada 5 minutos']
@@ -11,7 +12,7 @@ on:
       sample_group:
         description: 'Muestra fija de identidad; nunca acepta URLs arbitrarias'
         type: choice
-        options: [baseline, verified-year, observed-token]
+        options: [baseline, verified-year, observed-token, recovered-import]
         default: baseline
       proof:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
@@ -43,10 +44,12 @@ jobs:
           python3 -m pip install cryptography==46.0.3
           python3 test_cloud.py
           python3 test_renew.py
+          python3 test_import_recovered.py
           node test_identities.cjs
           node test_flv_tokens.cjs
           node test_source_diagnostics.cjs
           node test_source_failure_cache.cjs
+          node test_title_entities.cjs
       - name: Renovar y publicar por el canal firmado existente
         working-directory: code/automation/hourly
         env:
