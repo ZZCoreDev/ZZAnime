@@ -1,0 +1,15 @@
+'use strict';
+const a=require('assert'),f=require('./flv-rules.cjs');
+const row={url:'https://jkanime.net/blue-lock-vs-u-20-japan/',title:'Blue Lock vs. U-20 Japan'};
+const detail=(eps,title=row.title,slug='blue-lock-vs-u-20-japan')=>'<h1>Ver '+title+' Sub español latino Online</h1><div data-sl="'+slug+'"></div><script>var eps = '+JSON.stringify(eps)+';</script>';
+a.equal(f.episodeToken(detail([['02','0','']]),row,2),'02');
+a.equal(f.episodeToken(detail([['2','0','']]),row,2),'2');
+for(const eps of [[['02','0',''],['2','0','']],[['03','0','']],[['02','0','latino']],[['2/x','0','']],[['0000002','0','']]])a.throws(()=>f.episodeToken(detail(eps),row,2));
+a.throws(()=>f.episodeToken(detail([['02','0','']],'Blue Lock Season 1'),row,2));
+a.throws(()=>f.episodeToken(detail([['02','0','']],row.title,'another-series'),row,2));
+a.throws(()=>f.episodeToken(detail([['02','0','']]),row,2.5));
+const options='<li encrypt="'+Buffer.from('https://www.mp4upload.com/embed-abcdefgh1234.html').toString('hex')+'"><span>Mp4upload</span></li>';
+const record=f.record(detail([['02','0','']]),'<h1>'+row.title+' Episodio 02</h1>',options,row,2,{mp4upload:['mp4upload.com']});
+a.equal(record.episode.episode,row.url+'2/');a.ok(record.episode.sourceEpisode.endsWith('-02'));
+a.throws(()=>f.record(detail([['02','0','']]),'<h1>'+row.title+' Episodio 03</h1>',options,row,2,{mp4upload:['mp4upload.com']}));
+console.log('13 observed token / identity / collision controls PASS');

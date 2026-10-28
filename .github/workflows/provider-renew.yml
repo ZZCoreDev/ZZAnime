@@ -11,7 +11,7 @@ on:
       sample_group:
         description: 'Muestra fija de identidad; nunca acepta URLs arbitrarias'
         type: choice
-        options: [baseline, verified-year]
+        options: [baseline, verified-year, observed-token]
         default: baseline
       proof:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
@@ -44,6 +44,7 @@ jobs:
           python3 test_cloud.py
           python3 test_renew.py
           node test_identities.cjs
+          node test_flv_tokens.cjs
       - name: Renovar y publicar por el canal firmado existente
         working-directory: code/automation/hourly
         env:
