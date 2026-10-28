@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T17:30:28.193672+00:00",
+  "checkedAt": "2026-10-28T17:42:44.964823+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73274,
-  "storedChapters": 71266,
-  "missingChapters": 2008,
+  "observedChapters": 73291,
+  "storedChapters": 71275,
+  "missingChapters": 2016,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -247,7 +247,6 @@
         "series": "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/",
         "title": "Chitose-kun wa Ramune Bin no Naka",
         "samples": [
-          "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/14/",
           "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/15/"
         ]
       },
@@ -270,13 +269,6 @@
         "title": "Given: 10th Mix",
         "samples": [
           "https://jkanime.net/given-10th-mix/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/chainsaw-man-movie-reze-hen/",
-        "title": "Chainsaw Man Movie: Reze-hen",
-        "samples": [
-          "https://jkanime.net/chainsaw-man-movie-reze-hen/1/"
         ]
       },
       {
@@ -1889,13 +1881,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/business-fish/",
-        "title": "Business Fish",
-        "samples": [
-          "https://jkanime.net/business-fish/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tenki-no-ko/",
         "title": "Tenki no Ko",
         "samples": [
@@ -2297,8 +2282,8 @@
         "series": "https://jkanime.net/classicaloid-2nd-season/",
         "title": "ClassicaLoid 2nd Season",
         "samples": [
-          "https://jkanime.net/classicaloid-2nd-season/1/",
-          "https://jkanime.net/classicaloid-2nd-season/2/"
+          "https://jkanime.net/classicaloid-2nd-season/10/",
+          "https://jkanime.net/classicaloid-2nd-season/11/"
         ]
       },
       {
@@ -2313,8 +2298,8 @@
         "series": "https://jkanime.net/ame-iro-cocoa-series-ame-con/",
         "title": "Ame-iro Cocoa Series: Ame-con!!",
         "samples": [
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/2/",
-          "https://jkanime.net/ame-iro-cocoa-series-ame-con/3/"
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/3/",
+          "https://jkanime.net/ame-iro-cocoa-series-ame-con/4/"
         ]
       },
       {
@@ -2329,8 +2314,8 @@
         "series": "https://jkanime.net/cinderella-girls-gekijou-2nd-season/",
         "title": "Cinderella Girls Gekijou 2nd Season",
         "samples": [
-          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/1/",
-          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/10/"
+          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/10/",
+          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/11/"
         ]
       },
       {
@@ -2568,8 +2553,8 @@
         "series": "https://jkanime.net/chiruran-nibun-no-ichi/",
         "title": "Chiruran: Nibun no Ichi",
         "samples": [
-          "https://jkanime.net/chiruran-nibun-no-ichi/1/",
-          "https://jkanime.net/chiruran-nibun-no-ichi/10/"
+          "https://jkanime.net/chiruran-nibun-no-ichi/10/",
+          "https://jkanime.net/chiruran-nibun-no-ichi/11/"
         ]
       },
       {
@@ -2646,8 +2631,8 @@
         "series": "https://jkanime.net/classicaloid/",
         "title": "ClassicaLoid",
         "samples": [
-          "https://jkanime.net/classicaloid/1/",
-          "https://jkanime.net/classicaloid/10/"
+          "https://jkanime.net/classicaloid/10/",
+          "https://jkanime.net/classicaloid/11/"
         ]
       },
       {
@@ -5282,13 +5267,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/carnival-phantasm-ex-season/",
-        "title": "Carnival Phantasm EX Season",
-        "samples": [
-          "https://jkanime.net/carnival-phantasm-ex-season/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ikkitousen-shuugaku-toushi-keppuuroku/",
         "title": "Ikkitousen: Shuugaku Toushi Keppuuroku",
         "samples": [
@@ -7096,8 +7074,8 @@
         "series": "https://jkanime.net/mao/",
         "title": "Mao",
         "samples": [
-          "https://jkanime.net/mao/10/",
-          "https://jkanime.net/mao/11/"
+          "https://jkanime.net/mao/11/",
+          "https://jkanime.net/mao/12/"
         ]
       },
       {
@@ -7207,6 +7185,13 @@
         "samples": [
           "https://jkanime.net/terror-man/1/",
           "https://jkanime.net/terror-man/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chou-kaguya-hime/",
+        "title": "Chou Kaguya-hime!",
+        "samples": [
+          "https://jkanime.net/chou-kaguya-hime/1/"
         ]
       },
       {
@@ -7607,6 +7592,13 @@
         "title": "Baan Otona no Kyoukai",
         "samples": [
           "https://jkanime.net/baan-otona-no-kyoukai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chao/",
+        "title": "ChaO",
+        "samples": [
+          "https://jkanime.net/chao/1/"
         ]
       },
       {
@@ -10838,6 +10830,198 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tian-guan-cifu-er/",
+        "title": "Tian Guan Cifu Er",
+        "samples": [
+          "https://jkanime.net/tian-guan-cifu-er/1/",
+          "https://jkanime.net/tian-guan-cifu-er/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/houkago-shounen-hanako-kun/",
+        "title": "Houkago Shounen Hanako-kun",
+        "samples": [
+          "https://jkanime.net/houkago-shounen-hanako-kun/1/",
+          "https://jkanime.net/houkago-shounen-hanako-kun/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dr-stone-new-world-part-2/",
+        "title": "Dr. Stone: New World Part 2",
+        "samples": [
+          "https://jkanime.net/dr-stone-new-world-part-2/6/",
+          "https://jkanime.net/dr-stone-new-world-part-2/8/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/good-night-world/",
+        "title": "Good Night World",
+        "samples": [
+          "https://jkanime.net/good-night-world/10/",
+          "https://jkanime.net/good-night-world/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dead-mount-death-play-part-2/",
+        "title": "Dead Mount Death Play Part 2",
+        "samples": [
+          "https://jkanime.net/dead-mount-death-play-part-2/11/",
+          "https://jkanime.net/dead-mount-death-play-part-2/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sanshiliu-qi/",
+        "title": "Sanshiliu Qi",
+        "samples": [
+          "https://jkanime.net/sanshiliu-qi/1/",
+          "https://jkanime.net/sanshiliu-qi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hoshikuzu-telepath/",
+        "title": "Hoshikuzu Telepath",
+        "samples": [
+          "https://jkanime.net/hoshikuzu-telepath/1/",
+          "https://jkanime.net/hoshikuzu-telepath/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kawagoe-boys-sing/",
+        "title": "Kawagoe Boys Sing",
+        "samples": [
+          "https://jkanime.net/kawagoe-boys-sing/1/",
+          "https://jkanime.net/kawagoe-boys-sing/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo/",
+        "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "samples": [
+          "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo/1/",
+          "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi/",
+        "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
+        "samples": [
+          "https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi/14/",
+          "https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story/",
+        "title": "Tearmoon Teikoku Monogatari: Dantoudai kara Hajimaru, Hime no Tensei Gyakuten Story",
+        "samples": [
+          "https://jkanime.net/tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story/1/",
+          "https://jkanime.net/tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu/",
+        "title": "Kikansha no Mahou wa Tokubetsu desu",
+        "samples": [
+          "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu/1/",
+          "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buta-no-liver-wa-kanetsu-shiro/",
+        "title": "Buta no Liver wa Kanetsu Shiro",
+        "samples": [
+          "https://jkanime.net/buta-no-liver-wa-kanetsu-shiro/1/",
+          "https://jkanime.net/buta-no-liver-wa-kanetsu-shiro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokura-no-ameiro-protocol/",
+        "title": "Bokura no Ameiro Protocol",
+        "samples": [
+          "https://jkanime.net/bokura-no-ameiro-protocol/1/",
+          "https://jkanime.net/bokura-no-ameiro-protocol/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/potion-danomi-de-ikinobimasu/",
+        "title": "Potion-danomi de Ikinobimasu!",
+        "samples": [
+          "https://jkanime.net/potion-danomi-de-ikinobimasu/1/",
+          "https://jkanime.net/potion-danomi-de-ikinobimasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-idolmster-million-live/",
+        "title": "The iDOLM@STER Million Live!",
+        "samples": [
+          "https://jkanime.net/the-idolmster-million-live/1/",
+          "https://jkanime.net/the-idolmster-million-live/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/goblin-slayer-ii/",
+        "title": "Goblin Slayer II",
+        "samples": [
+          "https://jkanime.net/goblin-slayer-ii/1/",
+          "https://jkanime.net/goblin-slayer-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spy-x-family-season-2/",
+        "title": "Spy x Family Season 2",
+        "samples": [
+          "https://jkanime.net/spy-x-family-season-2/1/",
+          "https://jkanime.net/spy-x-family-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saihate-no-paladin-tetsusabi-no-yama-no-ou/",
+        "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
+        "samples": [
+          "https://jkanime.net/saihate-no-paladin-tetsusabi-no-yama-no-ou/1/",
+          "https://jkanime.net/saihate-no-paladin-tetsusabi-no-yama-no-ou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/undead-unluck/",
+        "title": "Undead Unluck",
+        "samples": [
+          "https://jkanime.net/undead-unluck/1/",
+          "https://jkanime.net/undead-unluck/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
+        "title": "Kanojo mo Kanojo 2nd Season",
+        "samples": [
+          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
+          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hametsu-no-oukoku/",
+        "title": "Hametsu no Oukoku",
+        "samples": [
+          "https://jkanime.net/hametsu-no-oukoku/1/",
+          "https://jkanime.net/hametsu-no-oukoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hikikomari-kyuuketsuki-no-monmon/",
+        "title": "Hikikomari Kyuuketsuki no Monmon",
+        "samples": [
+          "https://jkanime.net/hikikomari-kyuuketsuki-no-monmon/1/",
+          "https://jkanime.net/hikikomari-kyuuketsuki-no-monmon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima-2/",
+        "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima +",
+        "samples": [
+          "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima-2/1/",
+          "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima-2/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/alice-to-therese-no-maboroshi-koujou/",
         "title": "Alice to Therese no Maboroshi Koujou",
         "samples": [
@@ -10881,6 +11065,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bubble/",
+        "title": "Bubble",
+        "samples": [
+          "https://jkanime.net/bubble/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-2nd-season-special/",
         "title": "Arifureta Shokugyou de Sekai Saikyou 2nd Season Special",
         "samples": [
@@ -10913,6 +11104,13 @@
         "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
         "samples": [
           "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cider-no-you-ni-kotoba-ga-wakiagaru/",
+        "title": "Cider no You ni Kotoba ga Wakiagaru",
+        "samples": [
+          "https://jkanime.net/cider-no-you-ni-kotoba-ga-wakiagaru/1/"
         ]
       },
       {
@@ -10965,10 +11163,25 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
+        "title": "Bungou to Alchemist: Shinpan no Haguruma",
+        "samples": [
+          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/1/",
+          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/asateer-mirai-no-mukashi-banashi/",
         "title": "Asateer: Mirai no Mukashi Banashi",
         "samples": [
           "https://jkanime.net/asateer-mirai-no-mukashi-banashi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuubyou-gekihatsu-boy-special/",
+        "title": "Chuubyou Gekihatsu Boy Special",
+        "samples": [
+          "https://jkanime.net/chuubyou-gekihatsu-boy-special/1/"
         ]
       },
       {
@@ -10993,6 +11206,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
+        "title": "Chuubyou Gekihatsu Boy",
+        "samples": [
+          "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
+          "https://jkanime.net/chuubyou-gekihatsu-boy/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cencoroll-connect/",
+        "title": "Cencoroll Connect",
+        "samples": [
+          "https://jkanime.net/cencoroll-connect/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/birthday-wonderland/",
         "title": "Birthday Wonderland",
         "samples": [
@@ -11000,10 +11228,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/code-geass-fukkatsu-no-lelouch/",
+        "title": "Code Geass: Fukkatsu no Lelouch",
+        "samples": [
+          "https://jkanime.net/code-geass-fukkatsu-no-lelouch/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/aragne-no-mushikago/",
         "title": "Aragne no Mushikago",
         "samples": [
           "https://jkanime.net/aragne-no-mushikago/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-movie-take-on-me/",
+        "title": "Chuunibyou demo Koi ga Shitai! Movie: Take On Me",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-movie-take-on-me/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bungou-stray-dogs-dead-apple/",
+        "title": "Bungou Stray Dogs: Dead Apple",
+        "samples": [
+          "https://jkanime.net/bungou-stray-dogs-dead-apple/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardcaptor-sakura-clear-card-hen-prologue-sakura-to-futatsu-no-kuma/",
+        "title": "Sakura Card Captor: Clear Card-hen - Prologue Sakura to Futatsu no Kuma",
+        "samples": [
+          "https://jkanime.net/cardcaptor-sakura-clear-card-hen-prologue-sakura-to-futatsu-no-kuma/1/"
         ]
       },
       {
@@ -11022,6 +11278,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cinderella-girls-gekijou/",
+        "title": "Cinderella Girls Gekijou",
+        "samples": [
+          "https://jkanime.net/cinderella-girls-gekijou/1/",
+          "https://jkanime.net/cinderella-girls-gekijou/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/boruto-jump-festa-2016-special/",
         "title": "Boruto: Jump Festa 2016 Special",
         "samples": [
@@ -11036,10 +11300,25 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cheating-craft/",
+        "title": "Cheating Craft",
+        "samples": [
+          "https://jkanime.net/cheating-craft/1/",
+          "https://jkanime.net/cheating-craft/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/boruto-naruto-the-movie-naruto-ga-hokage-ni-natta-hi/",
         "title": "Naruto ga Hokage ni Natta Hi",
         "samples": [
           "https://jkanime.net/boruto-naruto-the-movie-naruto-ga-hokage-ni-natta-hi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/charlotte-ova/",
+        "title": "Charlotte OVA",
+        "samples": [
+          "https://jkanime.net/charlotte-ova/1/"
         ]
       },
       {
@@ -11148,11 +11427,32 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-the-rikka-wars/",
+        "title": "Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-the-rikka-wars/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/blade-soul-specials/",
         "title": "Blade & Soul Specials",
         "samples": [
           "https://jkanime.net/blade-soul-specials/1/",
           "https://jkanime.net/blade-soul-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/choujigen-game-neptune-the-animation-ova/",
+        "title": "Choujigen Game Neptune: The Animation OVA",
+        "samples": [
+          "https://jkanime.net/choujigen-game-neptune-the-animation-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brothers-conflict-special/",
+        "title": "Brothers Conflict Special",
+        "samples": [
+          "https://jkanime.net/brothers-conflict-special/1/"
         ]
       },
       {
@@ -11185,6 +11485,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chihayafuru-2-waga-mi-yo-ni-furu-nagame-seshi-ma-ni/",
+        "title": "Chihayafuru 2: Waga Mi Yo ni Furu Nagame Seshi Ma ni",
+        "samples": [
+          "https://jkanime.net/chihayafuru-2-waga-mi-yo-ni-furu-nagame-seshi-ma-ni/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/captain-harlock/",
+        "title": "Captain Harlock",
+        "samples": [
+          "https://jkanime.net/captain-harlock/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-movie/",
         "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai. Movie",
         "samples": [
@@ -11192,10 +11506,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/buki-yo-saraba/",
+        "title": "Buki yo Saraba",
+        "samples": [
+          "https://jkanime.net/buki-yo-saraba/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ark-ix/",
         "title": "Ark IX",
         "samples": [
           "https://jkanime.net/ark-ix/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/choujigen-game-neptune-the-animation/",
+        "title": "Choujigen Game Neptune: The Animation",
+        "samples": [
+          "https://jkanime.net/choujigen-game-neptune-the-animation/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/busou-shinki-ova/",
+        "title": "Busou Shinki OVA",
+        "samples": [
+          "https://jkanime.net/busou-shinki-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-kirameki-no-slapstick-noel/",
+        "title": "Chuunibyou demo Koi ga Shitai!: Kirameki no... Slapstick Noel",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-kirameki-no-slapstick-noel/1/"
         ]
       },
       {
@@ -11210,6 +11552,13 @@
         "title": "Arcana Famiglia: Capriccio - stile Arcana Famiglia",
         "samples": [
           "https://jkanime.net/arcana-famiglia-capriccio-stile-arcana-famiglia/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/carnival-phantasm-hibichika/",
+        "title": "Carnival Phantasm: HibiChika Special",
+        "samples": [
+          "https://jkanime.net/carnival-phantasm-hibichika/1/"
         ]
       },
       {
@@ -11248,10 +11597,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/code-geass-boukoku-no-akito/",
+        "title": "Code Geass: Boukoku no Akito",
+        "samples": [
+          "https://jkanime.net/code-geass-boukoku-no-akito/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-add-on-disc/",
         "title": "Boku wa Tomodachi ga Sukunai: Add-on Disc",
         "samples": [
           "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-add-on-disc/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/code-geass-nunnally-in-wonderland/",
+        "title": "Code Geass: Nunnally in Wonderland",
+        "samples": [
+          "https://jkanime.net/code-geass-nunnally-in-wonderland/1/"
         ]
       },
       {
@@ -11280,6 +11643,13 @@
         "title": "Ai Mai! Moe Can Change!",
         "samples": [
           "https://jkanime.net/ai-mai-moe-can-change/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/c3-special/",
+        "title": "C³ Special",
+        "samples": [
+          "https://jkanime.net/c3-special/1/"
         ]
       },
       {
@@ -11347,6 +11717,27 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bungaku-shoujo-movie/",
+        "title": "\"Bungaku Shoujo\" Movie",
+        "samples": [
+          "https://jkanime.net/bungaku-shoujo-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cencoroll/",
+        "title": "Cencoroll",
+        "samples": [
+          "https://jkanime.net/cencoroll/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/clannad-another-world-kyou-chapter/",
+        "title": "Clannad: Another World, Kyou Chapter",
+        "samples": [
+          "https://jkanime.net/clannad-another-world-kyou-chapter/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
@@ -11360,6 +11751,13 @@
         "samples": [
           "https://jkanime.net/asura-cryin/1/",
           "https://jkanime.net/asura-cryin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/clannad-another-world-tomoyo-chapter/",
+        "title": "Clannad: Another World, Tomoyo Chapter",
+        "samples": [
+          "https://jkanime.net/clannad-another-world-tomoyo-chapter/1/"
         ]
       },
       {
@@ -11384,6 +11782,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cardcaptor-sakura-leave-it-to-kero-chan/",
+        "title": "Cardcaptor Sakura: Leave It to Kero-chan",
+        "samples": [
+          "https://jkanime.net/cardcaptor-sakura-leave-it-to-kero-chan/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/armitage-iii-dual-matrix/",
         "title": "Armitage III: Dual-Matrix",
         "samples": [
@@ -11398,10 +11803,31 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cardcaptor-sakura-movie-2-the-sealed-card/",
+        "title": "Cardcaptor Sakura Movie 2: The Sealed Card",
+        "samples": [
+          "https://jkanime.net/cardcaptor-sakura-movie-2-the-sealed-card/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardcaptor-sakura-the-movie-1/",
+        "title": "Cardcaptor Sakura: The Movie",
+        "samples": [
+          "https://jkanime.net/cardcaptor-sakura-the-movie-1/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-r-the-movie/",
         "title": "Bishoujo Senshi Sailor Moon R: The Movie",
         "samples": [
           "https://jkanime.net/bishoujo-senshi-sailor-moon-r-the-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/burn-up/",
+        "title": "Burn Up!",
+        "samples": [
+          "https://jkanime.net/burn-up/1/"
         ]
       },
       {
@@ -11643,13 +12069,6 @@
         "title": "Given: 10th Mix",
         "samples": [
           "https://jkanime.net/given-10th-mix/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/chainsaw-man-movie-reze-hen/",
-        "title": "Chainsaw Man Movie: Reze-hen",
-        "samples": [
-          "https://jkanime.net/chainsaw-man-movie-reze-hen/1/"
         ]
       },
       {
@@ -15724,13 +16143,6 @@
         "title": "K-On! (Movie)",
         "samples": [
           "https://jkanime.net/k-on-movie/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/carnival-phantasm-ex-season/",
-        "title": "Carnival Phantasm EX Season",
-        "samples": [
-          "https://jkanime.net/carnival-phantasm-ex-season/1/"
         ]
       },
       {
@@ -19853,14 +20265,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
-        "vidhide": 19,
-        "mega": 17,
-        "mixdrop": 17,
-        "streamtape": 17
+        "vidhide": 18,
+        "mega": 16,
+        "mixdrop": 16,
+        "streamtape": 16
       },
       "playbackVerified": false
     },
@@ -20650,7 +21062,8 @@
       "title": "Chou Kaguya-hime!",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -20659,7 +21072,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -22303,9 +22716,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 16,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/14/",
         "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka/15/"
       ],
       "expired": [],
@@ -22313,7 +22725,7 @@
       "renewalFailed": 0,
       "families": {
         "streamwish": 13,
-        "mp4upload": 13,
+        "mp4upload": 14,
         "vidhide": 3
       },
       "playbackVerified": false
@@ -23271,19 +23683,17 @@
     {
       "series": "https://jkanime.net/chainsaw-man-movie-reze-hen/",
       "title": "Chainsaw Man Movie: Reze-hen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/chainsaw-man-movie-reze-hen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -23435,7 +23845,8 @@
       "title": "ChaO",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -23444,7 +23855,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -27667,7 +28078,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 10,
         "streamwish": 5,
@@ -34998,7 +35409,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35047,19 +35458,21 @@
     {
       "series": "https://jkanime.net/tian-guan-cifu-er/",
       "title": "Tian Guan Cifu Er",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mega": 9,
         "streamwish": 12,
-        "vidhide": 8,
-        "mp4upload": 12,
-        "streamtape": 8
+        "vidhide": 6,
+        "mp4upload": 9,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -35084,13 +35497,15 @@
     {
       "series": "https://jkanime.net/houkago-shounen-hanako-kun/",
       "title": "Houkago Shounen Hanako-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -35103,70 +35518,78 @@
     {
       "series": "https://jkanime.net/dr-stone-new-world-part-2/",
       "title": "Dr. Stone: New World Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "mp4upload": 9,
+        "streamwish": 8,
+        "mega": 3,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/good-night-world/",
       "title": "Good Night World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 8,
+        "streamwish": 8,
+        "vidhide": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dead-mount-death-play-part-2/",
       "title": "Dead Mount Death Play Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 11,
-        "streamtape": 12
+        "mega": 2,
+        "streamwish": 7,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sanshiliu-qi/",
       "title": "Sanshiliu Qi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -35180,13 +35603,15 @@
     {
       "series": "https://jkanime.net/hoshikuzu-telepath/",
       "title": "Hoshikuzu Telepath",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -35199,13 +35624,15 @@
     {
       "series": "https://jkanime.net/kawagoe-boys-sing/",
       "title": "Kawagoe Boys Sing",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35218,13 +35645,15 @@
     {
       "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo/",
       "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35237,33 +35666,36 @@
     {
       "series": "https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi/",
       "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 18,
-        "mp4upload": 22,
-        "streamtape": 24,
-        "mixdrop": 1
+        "mp4upload": 21,
+        "streamwish": 10,
+        "mega": 5,
+        "streamtape": 5,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story/",
       "title": "Tearmoon Teikoku Monogatari: Dantoudai kara Hajimaru, Hime no Tensei Gyakuten Story",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35276,13 +35708,15 @@
     {
       "series": "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu/",
       "title": "Kikansha no Mahou wa Tokubetsu desu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35296,13 +35730,15 @@
     {
       "series": "https://jkanime.net/buta-no-liver-wa-kanetsu-shiro/",
       "title": "Buta no Liver wa Kanetsu Shiro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35315,13 +35751,15 @@
     {
       "series": "https://jkanime.net/bokura-no-ameiro-protocol/",
       "title": "Bokura no Ameiro Protocol",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35334,13 +35772,15 @@
     {
       "series": "https://jkanime.net/potion-danomi-de-ikinobimasu/",
       "title": "Potion-danomi de Ikinobimasu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35354,13 +35794,15 @@
     {
       "series": "https://jkanime.net/the-idolmster-million-live/",
       "title": "The iDOLM@STER Million Live!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -35373,13 +35815,15 @@
     {
       "series": "https://jkanime.net/goblin-slayer-ii/",
       "title": "Goblin Slayer II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35392,13 +35836,15 @@
     {
       "series": "https://jkanime.net/spy-x-family-season-2/",
       "title": "Spy x Family Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35411,13 +35857,15 @@
     {
       "series": "https://jkanime.net/saihate-no-paladin-tetsusabi-no-yama-no-ou/",
       "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35431,13 +35879,15 @@
     {
       "series": "https://jkanime.net/undead-unluck/",
       "title": "Undead Unluck",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -35451,13 +35901,15 @@
     {
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "title": "Kanojo mo Kanojo 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35470,13 +35922,15 @@
     {
       "series": "https://jkanime.net/hametsu-no-oukoku/",
       "title": "Hametsu no Oukoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35489,13 +35943,15 @@
     {
       "series": "https://jkanime.net/hikikomari-kyuuketsuki-no-monmon/",
       "title": "Hikikomari Kyuuketsuki no Monmon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -35508,13 +35964,15 @@
     {
       "series": "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima-2/",
       "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima +",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -40986,7 +41444,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -43306,7 +43764,8 @@
       "title": "Bubble",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -43315,7 +43774,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -46868,7 +47327,8 @@
       "title": "Cider no You ni Kotoba ga Wakiagaru",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -46877,7 +47337,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -52683,7 +53143,8 @@
       "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
       "title": "Bungou to Alchemist: Shinpan no Haguruma",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 6,
@@ -52698,7 +53159,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -52891,7 +53352,8 @@
       "title": "Chuubyou Gekihatsu Boy Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -52900,7 +53362,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -54992,7 +55454,8 @@
       "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
       "title": "Chuubyou Gekihatsu Boy",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 11,
       "stored": 0,
@@ -55011,7 +55474,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -55440,18 +55903,16 @@
     {
       "series": "https://jkanime.net/business-fish/",
       "title": "Business Fish",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/business-fish/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -56254,7 +56715,8 @@
       "title": "Cencoroll Connect",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -56263,7 +56725,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -57332,7 +57794,8 @@
       "title": "Code Geass: Fukkatsu no Lelouch",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -57341,7 +57804,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -60435,7 +60898,8 @@
       "title": "Chuunibyou demo Koi ga Shitai! Movie: Take On Me",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -60444,7 +60908,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -61582,7 +62046,8 @@
       "title": "Bungou Stray Dogs: Dead Apple",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -61591,7 +62056,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -62934,22 +63399,42 @@
       "causes": [
         "observed-chapters-without-options"
       ],
-      "observed": 8,
-      "stored": 0,
+      "observed": 25,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/classicaloid-2nd-season/1/",
+        "https://jkanime.net/classicaloid-2nd-season/10/",
+        "https://jkanime.net/classicaloid-2nd-season/11/",
+        "https://jkanime.net/classicaloid-2nd-season/12/",
+        "https://jkanime.net/classicaloid-2nd-season/13/",
+        "https://jkanime.net/classicaloid-2nd-season/14/",
+        "https://jkanime.net/classicaloid-2nd-season/15/",
+        "https://jkanime.net/classicaloid-2nd-season/16/",
+        "https://jkanime.net/classicaloid-2nd-season/17/",
+        "https://jkanime.net/classicaloid-2nd-season/18/",
+        "https://jkanime.net/classicaloid-2nd-season/19/",
         "https://jkanime.net/classicaloid-2nd-season/2/",
+        "https://jkanime.net/classicaloid-2nd-season/20/",
+        "https://jkanime.net/classicaloid-2nd-season/21/",
+        "https://jkanime.net/classicaloid-2nd-season/22/",
+        "https://jkanime.net/classicaloid-2nd-season/23/",
+        "https://jkanime.net/classicaloid-2nd-season/24/",
+        "https://jkanime.net/classicaloid-2nd-season/25/",
         "https://jkanime.net/classicaloid-2nd-season/3/",
         "https://jkanime.net/classicaloid-2nd-season/4/",
         "https://jkanime.net/classicaloid-2nd-season/5/",
         "https://jkanime.net/classicaloid-2nd-season/6/",
         "https://jkanime.net/classicaloid-2nd-season/7/",
-        "https://jkanime.net/classicaloid-2nd-season/8/"
+        "https://jkanime.net/classicaloid-2nd-season/8/",
+        "https://jkanime.net/classicaloid-2nd-season/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -63358,9 +63843,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/ame-iro-cocoa-series-ame-con/2/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/3/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/4/",
         "https://jkanime.net/ame-iro-cocoa-series-ame-con/5/",
@@ -63373,9 +63857,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 4,
-        "vidhide": 4
+        "mp4upload": 5,
+        "streamwish": 5,
+        "vidhide": 5
       },
       "playbackVerified": false
     },
@@ -63473,9 +63957,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/cinderella-girls-gekijou-2nd-season/1/",
         "https://jkanime.net/cinderella-girls-gekijou-2nd-season/10/",
         "https://jkanime.net/cinderella-girls-gekijou-2nd-season/11/",
         "https://jkanime.net/cinderella-girls-gekijou-2nd-season/12/",
@@ -63492,7 +63975,11 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -63733,7 +64220,8 @@
       "title": "Sakura Card Captor: Clear Card-hen - Prologue Sakura to Futatsu no Kuma",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -63742,7 +64230,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -65646,7 +66134,8 @@
       "series": "https://jkanime.net/cinderella-girls-gekijou/",
       "title": "Cinderella Girls Gekijou",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 0,
@@ -65667,7 +66156,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -66499,9 +66988,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/chiruran-nibun-no-ichi/1/",
         "https://jkanime.net/chiruran-nibun-no-ichi/10/",
         "https://jkanime.net/chiruran-nibun-no-ichi/11/",
         "https://jkanime.net/chiruran-nibun-no-ichi/12/",
@@ -66517,7 +67005,11 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -67409,9 +67901,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 25,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/classicaloid/1/",
         "https://jkanime.net/classicaloid/10/",
         "https://jkanime.net/classicaloid/11/",
         "https://jkanime.net/classicaloid/12/",
@@ -67440,7 +67931,11 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 2,
+        "streamwish": 2,
+        "vidhide": 2
+      },
       "playbackVerified": false
     },
     {
@@ -67817,7 +68312,8 @@
       "series": "https://jkanime.net/cheating-craft/",
       "title": "Cheating Craft",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 0,
@@ -67837,7 +68333,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -71029,7 +71525,8 @@
       "title": "Charlotte OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -71038,7 +71535,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -72432,10 +72929,10 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
+        "mp4upload": 4,
         "streamwish": 4,
         "vidhide": 4,
-        "mp4upload": 4,
+        "mega": 2,
         "streamtape": 2
       },
       "playbackVerified": false
@@ -79563,7 +80060,8 @@
       "title": "Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -79572,7 +80070,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -80819,7 +81317,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -82091,7 +82589,8 @@
       "title": "Choujigen Game Neptune: The Animation OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -82100,7 +82599,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -82395,7 +82894,8 @@
       "title": "Brothers Conflict Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -82404,7 +82904,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -83382,7 +83882,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 1
       },
@@ -84921,7 +85421,8 @@
       "title": "Chihayafuru 2: Waga Mi Yo ni Furu Nagame Seshi Ma ni",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -84930,7 +85431,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -84958,7 +85459,8 @@
       "title": "Captain Harlock",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -84967,7 +85469,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -85252,7 +85754,8 @@
       "title": "Buki yo Saraba",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -85261,7 +85764,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -85420,7 +85923,8 @@
       "series": "https://jkanime.net/choujigen-game-neptune-the-animation/",
       "title": "Choujigen Game Neptune: The Animation",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 11,
@@ -85429,7 +85933,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -86106,7 +86610,8 @@
       "title": "Busou Shinki OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -86115,7 +86620,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -86216,7 +86721,8 @@
       "title": "Chuunibyou demo Koi ga Shitai!: Kirameki no... Slapstick Noel",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -86225,7 +86731,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -87170,7 +87676,8 @@
       "title": "Carnival Phantasm: HibiChika Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -87179,7 +87686,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -89367,7 +89874,8 @@
       "title": "Code Geass: Boukoku no Akito",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 5,
       "stored": 4,
@@ -89376,7 +89884,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -89783,7 +90291,8 @@
       "title": "Code Geass: Nunnally in Wonderland",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -89792,7 +90301,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -90495,7 +91004,8 @@
       "title": "C³ Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -90504,7 +91014,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -91686,7 +92196,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -91856,19 +92366,16 @@
     {
       "series": "https://jkanime.net/carnival-phantasm-ex-season/",
       "title": "Carnival Phantasm EX Season",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/carnival-phantasm-ex-season/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -95357,7 +95864,8 @@
       "title": "\"Bungaku Shoujo\" Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -95366,7 +95874,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -96923,7 +97431,8 @@
       "title": "Cencoroll",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -96932,7 +97441,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -97189,7 +97698,8 @@
       "title": "Clannad: Another World, Kyou Chapter",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -97198,7 +97708,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -98928,7 +99438,8 @@
       "title": "Clannad: Another World, Tomoyo Chapter",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -98937,7 +99448,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -106828,7 +107339,8 @@
       "title": "Cardcaptor Sakura: Leave It to Kero-chan",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -106837,7 +107349,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -109052,7 +109564,8 @@
       "title": "Cardcaptor Sakura Movie 2: The Sealed Card",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -109061,7 +109574,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -109455,7 +109968,8 @@
       "title": "Cardcaptor Sakura: The Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -109464,7 +109978,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -111533,7 +112047,8 @@
       "title": "Burn Up!",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -111542,7 +112057,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
