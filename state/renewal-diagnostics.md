@@ -1,10 +1,10 @@
 # Diagnóstico automático por serie
 
-914/1007 series con diagnóstico detallado; 8467 capítulos con fallo. Sin consultas adicionales ni IA.
+952/1034 series con diagnóstico detallado; 8754 capítulos con fallo. Sin consultas adicionales ni IA.
 La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igual ni aprueba enlaces.
 
 - https://jkanime.net/zongmen-li-chule-wo-dou-shi-wodi/: 152 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/tousouchuu-great-mission/: 94 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: identity-mismatch / listing
+- https://jkanime.net/tousouchuu-great-mission/: 94 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/gaishi-dizun/: 52 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ganzo-bandori-chan/: 52 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/zhen-wu-dianfeng-2nd-season/: 52 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -19,7 +19,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/wangu-zui-qiang-zong/: 36 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/wei-miao-rensheng/: 36 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/: 35 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/kimi-to-idol-precure/: 35 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/kimi-to-idol-precure/: 35 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/jun-you-yun-ii/: 32 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shinkalion-change-the-world/: 31 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/sousou-no-frieren/: 28 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -33,7 +33,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/zhen-hun-jie-4th-season/: 26 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/bai-ri-cheng-wang/: 25 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dark-gathering/: 25 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/edens-zero-2nd-season/: 25 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/edens-zero-2nd-season/: 25 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/ookami-to-koushinryou-merchant-meets-the-wise-wolf/: 25 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/shadowverse-flame-seven-shadows-hen/: 25 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/: 25 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -59,7 +59,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/tu-bian-yingxiong-x/: 24 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/undead-unluck/: 24 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/wuliao-jiu-wanjie/: 24 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/wulin-buer-zhoukan/: 24 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/wulin-buer-zhoukan/: 24 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/fairy-tail-100-nen-quest/: 23 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/jujutsu-kaisen-2nd-season/: 23 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/megumi-no-daigo-kyuukoku-no-orange/: 23 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -86,13 +86,13 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/quanzhi-gaoshou-3/: 17 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/youkai-gakkou-no-sensei-hajimemashita/: 17 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/bu-shi-bu-mie/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/chang-ge-xing/: 16 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/chang-ge-xing/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/cong-gu-huo-niao-kaishi-long-cheng-fengyun/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dadao-chaotian/: 16 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/di-yi-xulie/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/fanpai-chushihua/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/gu-wei-nan-ting/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/huo-feng-liao-yuan-2nd-season/: 16 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/huo-feng-liao-yuan-2nd-season/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/huo-feng-liao-yuan/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kengan-ashura-season-2-part-2/: 16 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/kui-cheng-shoufu-cong-youxi-kaishi/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -111,10 +111,11 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/yishi-zhi-zun/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/zhen-hun-jie-3rd-season/: 16 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/xiling-jiyuan/: 16 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen/: 15 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/biao-ren-blades-of-the-guardians/: 15 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/: 15 capítulos. pendiente del próximo reintento permitido
-- https://jkanime.net/kusuriya-no-hitorigoto-2nd-season/: 15 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/kusuriya-no-hitorigoto-2nd-season/: 15 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/nanatsu-no-maken-ga-shihai-suru/: 15 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/shuumatsu-no-walkure-iii/: 15 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/wu-nao-monu-2nd-season/: 15 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -129,7 +130,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/atri-my-dear-moments/: 13 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/baki-dou/: 13 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/cardfight-vanguard-divinez-deluxe-hen/: 13 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/cardfight-vanguard-divinez-deluxe-hen/: 13 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/chi-chikyuu-no-undou-ni-tsuite/: 13 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/chiyu-mahou-no-machigatta-tsukaikata/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/classic-stars/: 13 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -147,6 +148,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/jigoku-sensei-nube-2025-part-2/: 13 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kami-wa-game-ni-ueteiru/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kamonohashi-ron-no-kindan-suiri/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/kimi-wa-houkago-insomnia/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kingdom-5th-season/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/: 13 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/mahou-shoujo-ni-akogarete/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -171,7 +173,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/yami-shibai-14/: 13 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/yami-shibai-16/: 13 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season/: 13 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/kimi-wa-houkago-insomnia/: 13 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/yamada-kun-to-lv999-no-koi-wo-suru/: 13 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/0-saiji-start-dash-monogatari-season-2/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/2200-nen-neko-no-kuni-nippon/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/30-sai-made-doutei-dato-mahoutsukai-ni-nareru-rashii/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -181,7 +183,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/akuyaku-reijou-tensei-ojisan/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: identity-mismatch / listing
 - https://jkanime.net/anhe-zhuan/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ao-no-exorcist-shimane-illuminati-hen/: 12 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/ao-no-exorcist-yuki-no-hate-hen/: 12 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/ao-no-exorcist-yuki-no-hate-hen/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/aoshi-jiuchong-tian/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/astro-note/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/atarashii-joushi-wa-do-tennen/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -192,7 +194,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/baki-dou-part-2/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/bartender-kami-no-glass/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/beastars-final-season-part-2/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/bel-blatt/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/bel-blatt/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/binan-koukou-chikyuu-bouei-bu-haikara/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/blue-archive-the-animation/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/boku-no-tsuma-wa-kanjou-ga-nai/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -213,8 +215,10 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/daikenja-riddle-no-jikan-gyakkou/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dandadan/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/date-a-live-v/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/dead-mount-death-play/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dekoboko-majo-no-oyako-jijou/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/dianqi-shaonu/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dosanko-gal-wa-namara-menkoi/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/douse-koishite-shimaunda-2nd-season/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dr-stone-science-future-part-2/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -270,6 +274,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/kamierabi/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kamonohashi-ron-no-kindan-suiri-2nd-season/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/kanchigai-no-atelier-meister-eiyuu-party-no-moto-zatsuyougakari-ga-jitsu-wa-sentou-igai-ga-sss-rank-datta-to-iu-yoku-aru-hanashi/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/kanojo-ga-koushaku-tei-ni-itta-riyuu/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kanojo-mo-kanojo-2nd-season/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kanojo-okarishimasu-3rd-season/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita/: 12 capítulos. pendiente del próximo reintento permitido
@@ -279,6 +284,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/kekkon-yubiwa-monogatari/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kengan-ashura-season-2/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kenka-dokugaku/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/kidou-senshi-gundam-suisei-no-majo-season-2/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -303,6 +309,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/maou-sama-retry-r/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/maougun-saikyou-no-majutsushi-wa-ningen-datta/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/masamune-kun-no-revenge-r/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/mashle/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/mato-seihei-no-slave/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/mayonaka-punch/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/megami-no-caf-terrace-2nd-season/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -330,6 +337,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/ore-dake-level-up-na-ken/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/oroka-na-tenshi-wa-akuma-to-odoru/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/otonari-ni-ginga/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/overtake/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/paradox-live-the-animation/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/perfect-addiction/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -388,12 +396,14 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/the-idolmster-million-live/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/the-idolmster-shiny-colors-2nd-season/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/the-idolmster-shiny-colors/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/the-marginal-service/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/the-new-gate/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/toaru-ossan-no-vrmmo-katsudouki/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/tokidoki-bosotto-russia-go-de-dereru-tonari-no-alya-san/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/tonikaku-kawaii-2nd-season/: 12 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/tsue-to-tsurugi-no-wistoria/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/tsuihousha-shokudou-e-youkoso/: 12 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/tsuma-shougakusei-ni-naru/: 12 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/tsuma-shougakusei-ni-naru/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/uchi-no-kaisha-no-chiisai-senpai-no-hanashi/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/under-ninja/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/unnamed-memory-act2/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
@@ -403,6 +413,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/watashi-no-oshi-wa-akuyaku-reijou/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/watashi-no-shiawase-na-kekkon/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/world-dai-star/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/xi-jing-sushe/: 12 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/xian-wang-de-richang-shenghuo-5/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/xiao-lu-he-xiao-lan-2nd-season/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -428,22 +439,31 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/zhengjing-shao-zhu-de-xingfu-shenghuo/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/zhui-xu/: 12 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto/: 12 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/the-marginal-service/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/dianqi-shaonu/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/kanojo-ga-koushaku-tei-ni-itta-riyuu/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/dead-mount-death-play/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/kidou-senshi-gundam-suisei-no-majo-season-2/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/world-dai-star/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/otonari-ni-ginga/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/tonikaku-kawaii-2nd-season/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: identity-mismatch / listing
+- https://jkanime.net/isekai-one-turn-kill-neesan-ane-douhan-no-isekai-seikatsu-hajimemashita/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/megami-no-caf-terrace/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/mahou-shoujo-magical-destroyers/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/kawaisugi-crisis/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/edomae-elf/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/opuscolors/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/rokudou-no-onna-tachi/: 12 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/kono-subarashii-sekai-ni-bakuen-wo/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/mahoutsukai-no-yome-season-2/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/watashi-no-yuri-wa-oshigoto-desu/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/the-idolmster-cinderella-girls-u149/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/kizuna-no-allele/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/isekai-wa-smartphone-to-tomo-ni-2/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/kuma-kuma-kuma-bear-punch/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/boku-no-kokoro-no-yabai-yatsu/: 12 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/0-saiji-start-dash-monogatari/: 11 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/bullbuster/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/bungou-stray-dogs-5th-season/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/egumi-legacy/: 11 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/isekai-shoukan-wa-nidome-desu/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/ji-yao-lu-qicheng-pian/: 11 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/jiaonang-jihua-yingxiong/: 11 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/jiisan-baasan-wakagaeru/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kaii-to-otome-to-kamikakushi/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/kimetsu-no-yaiba-katanakaji-no-sato-hen/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kinnikuman-kanpeki-chujin-shiso-hen/: 11 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/kizuna-no-allele-season-2/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-3/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -453,8 +473,8 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/nijiyon-animation-2/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/oshi-no-ko-3rd-season/: 11 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/oshi-no-ko/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki/: 11 capítulos. pendiente del próximo reintento permitido
-- https://jkanime.net/puniru-wa-kawaii-slime/: 11 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/puniru-wa-kawaii-slime/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/quan-zhi-ming/: 11 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/raise-wa-tanin-ga-ii/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/saikyou-no-shienshoku-wajutsushi-de-aru-ore-wa-sekai-saikyou-clan-wo-shitagaeru/: 11 capítulos. pendiente del próximo reintento permitido
@@ -466,21 +486,21 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/wu-liuqi-jiyi-suipian/: 11 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/yami-shibai-15/: 11 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/kimetsu-no-yaiba-katanakaji-no-sato-hen/: 11 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/isekai-shoukan-wa-nidome-desu/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/dr-stone-new-world/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/skip-to-loafer/: 11 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/aiyou-de-mishi/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ao-no-miburo/: 10 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/bai-jia-jue-zhi-jianghu-gui-shi-lu/: 10 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/bye-bye-earth/: 10 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/chang-jian-feng-yun-2nd-season/: 10 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/da-xia-qing-shang-gong/: 10 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu/: 10 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/hikari-no-ou-2nd-season/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/hyakushou-kizoku-2nd-season/: 10 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/hyakushou-kizoku-2nd-season/: 10 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/isekai-suicide-squad/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kaoru-hana-wa-rin-to-saku/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/kimi-wa-meido-sama/: 10 capítulos. pendiente del próximo reintento permitido
-- https://jkanime.net/kinnikuman-kanpeki-chujin-shiso-hen-season-2/: 10 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/kimi-wa-meido-sama/: 10 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/kinnikuman-kanpeki-chujin-shiso-hen-season-2/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/masuda-kousuke-gekijou-gag-manga-biyori-go/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/mecha-ude-tv/: 10 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/meiji-gekken-1874/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -489,7 +509,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/ninja-kamui/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ousama-ranking-yuuki-no-takarabako/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/quanzhi-fashi-vii/: 10 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/ranma-2024/: 10 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/ranma-2024/: 10 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/sasayaku-you-ni-koi-wo-utau/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/shoushimin-series-2nd-season/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shoushimin-series/: 10 capítulos. pendiente del próximo reintento permitido
@@ -498,12 +518,15 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/utagoe-wa-mille-feuille/: 10 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/wind-breaker-season-2/: 10 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/yonghansonyeo/: 10 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/yuusha-ga-shinda/: 10 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/kaminaki-sekai-no-kamisama-katsudou/: 10 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/tokyo-mew-mew-new-2nd-season/: 10 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/: 9 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/mao/: 9 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/maou-2099/: 9 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/sono-bisque-doll-wa-koi-wo-suru-season-2/: 9 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/tian-guan-cifu-er/: 9 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/zuoshou-shanglan-2nd-season/: 9 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/my-home-hero/: 9 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/arknights-fuyukomori-kaerimichi/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/biao-ren-er/: 8 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/bye-bye-earth-2nd-season/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -517,7 +540,8 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/ishura-2nd-season/: 8 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/jian-gu/: 8 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kimetsu-no-yaiba-hashira-geiko-hen/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/mahoutsukai-precure-mirai-days/: 8 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/mahoutsukai-precure-mirai-days/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/mao/: 8 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/: 8 capítulos. pendiente del próximo reintento permitido
@@ -526,10 +550,10 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/terminator-0/: 8 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/terror-man/: 8 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/touken-ranbu-kai-kyoden-moyuru-honnouji/: 8 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/haigakura/: 7 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/haigakura/: 7 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/jinwu-wei-feng-qi-jinling/: 7 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/jiyi-guanli-ju-2026/: 7 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-2nd-season/: 7 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-2nd-season/: 7 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru/: 7 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ooi-tonbo-2nd-season/: 7 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu/: 7 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
@@ -540,12 +564,12 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/quanzhi-fashi-tebie-pian-shenmi-weituo/: 6 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/rail-romanesque-2/: 6 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shin-samurai-den-yaiba/: 6 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/uniteup-unibirth/: 6 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/uniteup-unibirth/: 6 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/gnosia/: 5 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kamierabi-2nd-season/: 5 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/kimi-ni-todoke-3rd-season/: 5 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/miru-watashi-no-mirai/: 5 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season/: 5 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season/: 5 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: identity-mismatch / listing
 - https://jkanime.net/nanatsu-no-taizai-mokushiroku-no-yonkishi/: 5 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shuumatsu-no-walkre-ii-part-2/: 5 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/: 5 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -553,7 +577,6 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/ansatsu-kyoushitsu/: 4 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ao-ashi/: 4 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/bleach-sennen-kessen-hen-ketsubetsu-tan/: 4 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/bleach-sennen-kessen-hen-soukoku-tan/: 4 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/bleach-sennen-kessen-hen/: 4 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/boku-no-hero-academia-memories/: 4 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/: 4 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
@@ -579,18 +602,21 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/akage-no-anne/: 3 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/asura-cryin/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/babanbabanban-vampire/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/blue-lock-vs-u-20-japan/: 3 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/bleach-sennen-kessen-hen-soukoku-tan/: 3 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/blue-lock-vs-u-20-japan/: 3 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: identity-mismatch / listing
 - https://jkanime.net/cardfight-vanguard-divinez/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/chuubyou-gekihatsu-boy/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/double-circle/: 3 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/dr-stone-new-world-part-2/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/grimm-kumikyoku/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/guimi-zhi-zhu-tebie-pian-liewu/: 3 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/gunparade-march-arata-naru-kougunka/: 3 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/hakyuu-houshin-engi/: 3 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/lycoris-recoil-friends-are-thieves-of-time/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/magic-maker-isekai-mahou-no-tsukurikata/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/mizu-zokusei-no-mahoutsukai/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/murai-no-koi/: 3 capítulos. pendiente del próximo reintento permitido
+- https://jkanime.net/murai-no-koi/: 3 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/pluto/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/sentai-daishikkaku-2nd-season/: 3 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -606,26 +632,28 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/5-toubun-no-hanayomee/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ameku-takao-no-suiri-karte/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/ao-no-exorcist-yosuga-hen/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/ao-no-orchestra/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/ben-to-specials/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/blade-soul-specials/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/boku-no-kokoro-no-yabai-yatsu-season-2/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/chainsaw-man-recap/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/dead-mount-death-play-part-2/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
-- https://jkanime.net/elf-san-wa-yaserarenai-specials/: 2 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/elf-san-wa-yaserarenai-specials/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/etotama-specials/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/farmagia/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/feng-ling-yu-xiu-2nd-season-tebie-pian/: 2 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/girls-band-cry-movie/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/grisaia-phantom-trigger/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/gunparade-march-arata-naru-kougunka/: 2 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hakyuu-houshin-engi/: 2 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/hetalia-world-series-extra-episodes/: 2 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
 - https://jkanime.net/honey-lemon-soda/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/hoozuki-no-reitetsu-ova/: 2 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
+- https://jkanime.net/hunter-x-hunter-2011-latino/: 2 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/id-0/: 2 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
 - https://jkanime.net/idolish7-movie-live-4bit-beyond-the-period/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/izure-saikyou-no-renkinjutsushi/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/leviathan/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/medalist/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/mf-ghost-2nd-season/: 2 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/nihon-e-youkoso-elf-san/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shiguang-dailiren-yingdu-pian/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -633,8 +661,6 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/tensui-no-sakuna-hime-kokorowa-inasaku-nisshi/: 2 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/uzumaki/: 2 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/vigilante-boku-no-hero-academia-illegals/: 2 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/ao-no-orchestra/: 2 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/mashle/: 2 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
 - https://jkanime.net/100-nichikan-ikita-wani/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/11eyes-ova/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -938,7 +964,33 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/hello-world/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/hetalia-the-beautiful-world-extra-disc/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hibike-euphonium-ensemble-contest-hen/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hidan-no-aria-special/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/high-card-season-2/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/high-school-dxd-new-oppai-tsutsumimasu/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/high-school-fleet-movie/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/highschool-of-the-dead-drifters-of-the-dead/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/higurashi-no-naku-koro-ni-gaiden-nekogoroshi-hen/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/hirune-hime-shiranai-watashi-no-monogatari/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hitozuma-no-kuchibiru-wa-kan-chuuhai-no-aji-ga-shite-kooriyama-yui-sonogo/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/honoo-no-mirage-muyou-no-michi/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hoshi-wo-ou-kodomo/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hoshizora-e-kakaru-hashi-kakaru-ka-gakuensai-ni-koi-no-hashi/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hotarubi-no-mori-e/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/howl-no-ugoku-shiro/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
+- https://jkanime.net/hug-tto-precurefutari-wa-precure-movie-all-stars-memories/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hula-fulla-dance/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/human-lost-ningen-shikkaku/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hyakuemu/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/hyouka-motsubeki-mono-wa/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/ibara-no-ou/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/ichigo-100-koi-ga-hajimaru-satsuei-gasshuku-yureru-kokoro-ga-higashi-e-nishi-e/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/ichigo-100-special-2/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/ijime/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/inari-konkon-koi-iroha-ova/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/initial-d-third-stage/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/inu-ou/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/inu-x-boku-ss-special/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/jibaku-shounen-hanako-kun-2/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/kami-no-shizuku/: 1 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/kanojo-no-tomodachi/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -951,6 +1003,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/koukaku-kidoutai-tv/: 1 capítulos. flv: identity-mismatch / listing; jk: access-denied / listing; tio: address-not-found / episode
 - https://jkanime.net/magical-explorer/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: identity-mismatch / parse
+- https://jkanime.net/mf-ghost-2nd-season/: 1 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/momentary-lily-tsuzuiteiku-kappou-kappou/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/mushoku-no-eiyuu-betsu-ni-skill-nanka-iranakatta-n-da-ga/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/omae-wa-mada-gunma-wo-shiranai-reiwa-ban/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
@@ -980,33 +1033,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/your-forma/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/yuusha-no-kuzu/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/hetalia-world-series-extra-episodes/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hibike-euphonium-ensemble-contest-hen/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/hidan-no-aria-special/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/high-school-dxd-new-oppai-tsutsumimasu/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/high-school-fleet-movie/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/highschool-of-the-dead-drifters-of-the-dead/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/higurashi-no-naku-koro-ni-gaiden-nekogoroshi-hen/: 1 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/hirune-hime-shiranai-watashi-no-monogatari/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/hitozuma-no-kuchibiru-wa-kan-chuuhai-no-aji-ga-shite-kooriyama-yui-sonogo/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/honoo-no-mirage-muyou-no-michi/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hoozuki-no-reitetsu-ova/: 1 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/hoshi-wo-ou-kodomo/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hoshizora-e-kakaru-hashi-kakaru-ka-gakuensai-ni-koi-no-hashi/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hotarubi-no-mori-e/: 1 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/howl-no-ugoku-shiro/: 1 capítulos. jk: access-denied / listing; tio: no-approved-provider / parse; flv: no-approved-provider / parse
-- https://jkanime.net/hug-tto-precurefutari-wa-precure-movie-all-stars-memories/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hula-fulla-dance/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/human-lost-ningen-shikkaku/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/hunter-x-hunter-2011-latino/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/hyakuemu/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/hyouka-motsubeki-mono-wa/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/ibara-no-ou/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/ichigo-100-koi-ga-hajimaru-satsuei-gasshuku-yureru-kokoro-ga-higashi-e-nishi-e/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/ichigo-100-special-2/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/id-0/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/ijime/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/inari-konkon-koi-iroha-ova/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
-- https://jkanime.net/initial-d-third-stage/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/inu-ou/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
-- https://jkanime.net/inu-x-boku-ss-special/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/isekai-de-cheat-skill-wo-te-ni-shita-ore-wa-genjitsu-sekai-wo-mo-musou-suru-level-up-wa-jinsei-wo-kaeta/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: no-approved-provider / parse
+- https://jkanime.net/inugami-san-to-nekoyama-san-special/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/inuyasha-movie-1-toki-wo-koeru-omoi/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
+- https://jkanime.net/inuyasha-movie-2-kagami-no-naka-no-mugenjou/: 1 capítulos. jk: access-denied / listing; tio: address-not-found / detail; flv: address-not-found / detail
