@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T22:51:16.178561+00:00",
+  "checkedAt": "2026-10-28T23:06:59.279971+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73434,
+  "observedChapters": 73446,
   "storedChapters": 71442,
-  "missingChapters": 1992,
+  "missingChapters": 2004,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1193,6 +1193,14 @@
         "title": "Kamiarizuki no Kodomo",
         "samples": [
           "https://jkanime.net/kamiarizuki-no-kodomo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-senki/",
+        "title": "Kyoukai Senki",
+        "samples": [
+          "https://jkanime.net/kyoukai-senki/14/",
+          "https://jkanime.net/kyoukai-senki/15/"
         ]
       },
       {
@@ -14654,7 +14662,111 @@
         "title": "Sakugan",
         "samples": [
           "https://jkanime.net/sakugan/1/",
-          "https://jkanime.net/sakugan/2/"
+          "https://jkanime.net/sakugan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/takt-op-destiny/",
+        "title": "Takt Op. Destiny",
+        "samples": [
+          "https://jkanime.net/takt-op-destiny/1/",
+          "https://jkanime.net/takt-op-destiny/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru/",
+        "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+        "samples": [
+          "https://jkanime.net/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru/1/",
+          "https://jkanime.net/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/puraore-pride-of-orange/",
+        "title": "Puraore! Pride of Orange",
+        "samples": [
+          "https://jkanime.net/puraore-pride-of-orange/1/",
+          "https://jkanime.net/puraore-pride-of-orange/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard-overdress-season-2/",
+        "title": "Cardfight!! Vanguard: overDress Season 2",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard-overdress-season-2/1/",
+          "https://jkanime.net/cardfight-vanguard-overdress-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei/",
+        "title": "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+        "samples": [
+          "https://jkanime.net/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei/1/",
+          "https://jkanime.net/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-senki/",
+        "title": "Kyoukai Senki",
+        "samples": [
+          "https://jkanime.net/kyoukai-senki/14/",
+          "https://jkanime.net/kyoukai-senki/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuki-to-laika-to-nosferatu/",
+        "title": "Tsuki to Laika to Nosferatu",
+        "samples": [
+          "https://jkanime.net/tsuki-to-laika-to-nosferatu/1/",
+          "https://jkanime.net/tsuki-to-laika-to-nosferatu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-2nd-season/",
+        "title": "Mushoku Tensei: Isekai Ittara Honki Dasu 2nd Season",
+        "samples": [
+          "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-2nd-season/1/",
+          "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyuuketsuki-sugu-shinu/",
+        "title": "Kyuuketsuki Sugu Shinu",
+        "samples": [
+          "https://jkanime.net/kyuuketsuki-sugu-shinu/1/",
+          "https://jkanime.net/kyuuketsuki-sugu-shinu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/muteking-the-dancing-hero/",
+        "title": "Muteking the Dancing Hero",
+        "samples": [
+          "https://jkanime.net/muteking-the-dancing-hero/1/",
+          "https://jkanime.net/muteking-the-dancing-hero/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/86-2nd-season/",
+        "title": "86 2nd Season",
+        "samples": [
+          "https://jkanime.net/86-2nd-season/1/",
+          "https://jkanime.net/86-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/waccha-primagi/",
+        "title": "Waccha PriMagi!",
+        "samples": [
+          "https://jkanime.net/waccha-primagi/1/",
+          "https://jkanime.net/waccha-primagi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/digimon-ghost-game/",
+        "title": "Digimon Ghost Game",
+        "samples": [
+          "https://jkanime.net/digimon-ghost-game/1/",
+          "https://jkanime.net/digimon-ghost-game/10/"
         ]
       },
       {
@@ -52491,13 +52603,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -52512,24 +52624,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/takt-op-destiny/",
       "title": "Takt Op. Destiny",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52542,13 +52652,15 @@
     {
       "series": "https://jkanime.net/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru/",
       "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52561,32 +52673,36 @@
     {
       "series": "https://jkanime.net/puraore-pride-of-orange/",
       "title": "Puraore! Pride of Orange",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/cardfight-vanguard-overdress-season-2/",
       "title": "Cardfight!! Vanguard: overDress Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52599,13 +52715,15 @@
     {
       "series": "https://jkanime.net/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei/",
       "title": "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52618,32 +52736,50 @@
     {
       "series": "https://jkanime.net/kyoukai-senki/",
       "title": "Kyoukai Senki",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 25,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/kyoukai-senki/14/",
+        "https://jkanime.net/kyoukai-senki/15/",
+        "https://jkanime.net/kyoukai-senki/16/",
+        "https://jkanime.net/kyoukai-senki/17/",
+        "https://jkanime.net/kyoukai-senki/18/",
+        "https://jkanime.net/kyoukai-senki/19/",
+        "https://jkanime.net/kyoukai-senki/20/",
+        "https://jkanime.net/kyoukai-senki/21/",
+        "https://jkanime.net/kyoukai-senki/22/",
+        "https://jkanime.net/kyoukai-senki/23/",
+        "https://jkanime.net/kyoukai-senki/24/",
+        "https://jkanime.net/kyoukai-senki/25/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
+        "mega": 11,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tsuki-to-laika-to-nosferatu/",
       "title": "Tsuki to Laika to Nosferatu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52656,13 +52792,15 @@
     {
       "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-2nd-season/",
       "title": "Mushoku Tensei: Isekai Ittara Honki Dasu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52675,13 +52813,15 @@
     {
       "series": "https://jkanime.net/kyuuketsuki-sugu-shinu/",
       "title": "Kyuuketsuki Sugu Shinu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52694,13 +52834,15 @@
     {
       "series": "https://jkanime.net/muteking-the-dancing-hero/",
       "title": "Muteking the Dancing Hero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52713,13 +52855,15 @@
     {
       "series": "https://jkanime.net/86-2nd-season/",
       "title": "86 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52732,32 +52876,36 @@
     {
       "series": "https://jkanime.net/waccha-primagi/",
       "title": "Waccha PriMagi!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
-        "mega": 51,
-        "streamwish": 51,
-        "vidhide": 51,
+        "mega": 47,
+        "streamwish": 47,
+        "vidhide": 47,
         "mp4upload": 49,
-        "streamtape": 51
+        "streamtape": 47
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/digimon-ghost-game/",
       "title": "Digimon Ghost Game",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 67,
       "stored": 67,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 67,
         "streamwish": 67,
