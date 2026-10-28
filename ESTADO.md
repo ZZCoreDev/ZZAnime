@@ -99,5 +99,6 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete. Fallos pendientes: 0; capítulos vencidos pendientes: 0.
+Estado: complete-with-failures. Fallos pendientes: 68; capítulos vencidos pendientes: 0.
+Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 <!-- /ZZ-RENEW-STATUS -->
