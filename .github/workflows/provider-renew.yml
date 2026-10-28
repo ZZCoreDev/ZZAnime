@@ -43,6 +43,7 @@ jobs:
           python3 -m pip install cryptography==46.0.3
           python3 test_cloud.py
           python3 test_renew.py
+          node test_identities.cjs
       - name: Renovar y publicar por el canal firmado existente
         working-directory: code/automation/hourly
         env:

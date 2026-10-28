@@ -2,9 +2,16 @@ import base64,copy,datetime,gzip,json,os,tempfile,unittest,urllib.error
 from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
-from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_retry_deadlines,health_report,DAY
+from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_retry_deadlines,repair_verified_identities,health_report,DAY
 
 class RenewalTests(unittest.TestCase):
+    def test_identity_fix_retries_only_affected_old_records_once(self):
+        now,_,_,original=self.fixture();old=copy.deepcopy(next(iter(original['episodes'].values())));fresh=copy.deepcopy(old);fresh['observedAt']=now.isoformat();mao='https://jkanime.net/mao/';state={'episodes':{mao+'1/':old,mao+'2/':fresh,'https://jkanime.net/other/1/':old},'listings':{}};failed={url:{'retryAt':now.timestamp()+3600} for url in state['episodes']};dates=copy.deepcopy(state['episodes'])
+        identity={mao:{'title':'Mao','year':2026,'approved':True,'sources':{}}};catalog=[{'url':mao,'title':'Mao','year':2026}]
+        def read(path):return json.dumps(identity if path.name=='source-identities.json' else catalog).encode()
+        with patch.object(Path,'read_bytes',read):
+            self.assertEqual(repair_verified_identities(state,failed,now.timestamp()),1);self.assertEqual(failed[mao+'1/']['retryAt'],now.timestamp());self.assertGreater(failed[mao+'2/']['retryAt'],now.timestamp());self.assertGreater(failed['https://jkanime.net/other/1/']['retryAt'],now.timestamp());self.assertEqual(repair_verified_identities(state,failed,now.timestamp()+60),0)
+        self.assertEqual(state['episodes'],dates)
     def test_queued_sample_is_not_replaced_by_a_continuation(self):
         class Response:
             def __init__(self,rows):self.rows=rows

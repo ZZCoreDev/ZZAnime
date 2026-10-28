@@ -1,1 +1,17 @@
-{"https://jkanime.net/mao/":{"title":"Mao","year":2026,"approved":false,"sources":{"tio":{"slug":"mao","title":"Mao (2026)"},"flv":{"slug":"mao-2026","title":"Mao (2026)"}}}}
+{
+  "https://jkanime.net/mao/": {
+    "title": "Mao",
+    "year": 2026,
+    "approved": true,
+    "sources": {
+      "tio": {
+        "slug": "mao",
+        "title": "Mao (2026)"
+      },
+      "flv": {
+        "slug": "mao-2026",
+        "title": "Mao (2026)"
+      }
+    }
+  }
+}

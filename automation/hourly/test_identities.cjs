@@ -1,0 +1,11 @@
+'use strict';
+const assert=require('assert'),identity=require('./source-identities.cjs'),entries=require('./source-identities.json');
+const row={url:'https://jkanime.net/mao/',title:'Mao',year:2026};
+assert.equal(identity.resolve(row,'flv',true).slug,'mao-2026');assert.equal(identity.resolve(row,'tio',true).title,'Mao (2026)');
+assert.throws(()=>identity.resolve({...row,year:2025},'flv',true));assert.throws(()=>identity.resolve({...row,title:'Mao Season 2'},'flv',true));
+assert.equal(identity.resolve(row,'flv').alias,entries[row.url].approved);
+assert.equal(identity.resolve({url:'https://jkanime.net/psyren/',title:'Psyren'},'flv',true).slug,'psyren');
+assert.equal(identity.resolve({url:'https://jkanime.net/dr-stone-science-future-part-3/',title:'Dr. Stone: Science Future Part 3'},'flv',true).title,'Dr. Stone: Science Future Part 3');
+const known=new Map([[row.url,row]]);assert.equal(identity.canonicalSlug('mao-2026',known,true),'mao');assert.equal(identity.canonicalSlug('unknown',known,true),'unknown');
+known.set('https://jkanime.net/mao-2026/',{...row,title:'Another series'});assert.equal(identity.canonicalSlug('mao-2026',known,true),'mao-2026');
+console.log('10 exact identity/year/collision controls PASS; season and episode rules preserved.');
