@@ -22,23 +22,23 @@
     ]
   },
   "renewal-error": {
-    "series": 470,
+    "series": 546,
     "twoSeriesProofRequired": true,
     "samples": [
+      {
+        "series": "https://jkanime.net/ao-ashi/",
+        "title": "Ao Ashi",
+        "samples": [
+          "https://jkanime.net/ao-ashi/1/",
+          "https://jkanime.net/ao-ashi/10/"
+        ]
+      },
       {
         "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
         "title": "Danmachi",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/10/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/3/"
         ]
       }
     ]
