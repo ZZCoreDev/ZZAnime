@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-28T20:54:55.212947+00:00",
+  "checkedAt": "2026-10-28T21:11:03.285202+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73379,
-  "storedChapters": 71436,
+  "observedChapters": 73385,
+  "storedChapters": 71442,
   "missingChapters": 1943,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -13476,6 +13476,110 @@
         "samples": [
           "https://jkanime.net/tuanzimen-de-shiming/1/",
           "https://jkanime.net/tuanzimen-de-shiming/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/overlord-iv/",
+        "title": "Overlord IV",
+        "samples": [
+          "https://jkanime.net/overlord-iv/1/",
+          "https://jkanime.net/overlord-iv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard-willdress/",
+        "title": "Cardfight!! Vanguard: will+Dress",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard-willdress/1/",
+          "https://jkanime.net/cardfight-vanguard-willdress/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meng-qi-shi-shen-huanxi-zhui-hun/",
+        "title": "Meng Qi Shi Shen: Huanxi Zhui Hun",
+        "samples": [
+          "https://jkanime.net/meng-qi-shi-shen-huanxi-zhui-hun/1/",
+          "https://jkanime.net/meng-qi-shi-shen-huanxi-zhui-hun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season/",
+        "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV) 2nd Season",
+        "samples": [
+          "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season/1/",
+          "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tensei-kenja-no-isekai-life-dai-2-no-shokugyou-wo-ete-sekai-saikyou-ni-narimashita/",
+        "title": "Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita",
+        "samples": [
+          "https://jkanime.net/tensei-kenja-no-isekai-life-dai-2-no-shokugyou-wo-ete-sekai-saikyou-ni-narimashita/1/",
+          "https://jkanime.net/tensei-kenja-no-isekai-life-dai-2-no-shokugyou-wo-ete-sekai-saikyou-ni-narimashita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/utawarerumono-futari-no-hakuoro/",
+        "title": "Utawarerumono: Futari no Hakuoro",
+        "samples": [
+          "https://jkanime.net/utawarerumono-futari-no-hakuoro/1/",
+          "https://jkanime.net/utawarerumono-futari-no-hakuoro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jidao-long-shen/",
+        "title": "Jidao Long Shen",
+        "samples": [
+          "https://jkanime.net/jidao-long-shen/1/",
+          "https://jkanime.net/jidao-long-shen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches/",
+        "title": "Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches",
+        "samples": [
+          "https://jkanime.net/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches/1/",
+          "https://jkanime.net/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prima-doll/",
+        "title": "Prima Doll",
+        "samples": [
+          "https://jkanime.net/prima-doll/1/",
+          "https://jkanime.net/prima-doll/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yurei-deco/",
+        "title": "Yurei Deco",
+        "samples": [
+          "https://jkanime.net/yurei-deco/1/",
+          "https://jkanime.net/yurei-deco/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/engage-kiss/",
+        "title": "Engage Kiss",
+        "samples": [
+          "https://jkanime.net/engage-kiss/1/",
+          "https://jkanime.net/engage-kiss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-okarishimasu-2nd-season/",
+        "title": "Kanojo, Okarishimasu 2nd Season",
+        "samples": [
+          "https://jkanime.net/kanojo-okarishimasu-2nd-season/1/",
+          "https://jkanime.net/kanojo-okarishimasu-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/musashino/",
+        "title": "Musashino!",
+        "samples": [
+          "https://jkanime.net/musashino/1/",
+          "https://jkanime.net/musashino/10/"
         ]
       },
       {
@@ -47783,7 +47887,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -47796,13 +47900,15 @@
     {
       "series": "https://jkanime.net/overlord-iv/",
       "title": "Overlord IV",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -47815,32 +47921,36 @@
     {
       "series": "https://jkanime.net/cardfight-vanguard-willdress/",
       "title": "Cardfight!! Vanguard: will+Dress",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
+        "mega": 12,
+        "streamwish": 12,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/meng-qi-shi-shen-huanxi-zhui-hun/",
       "title": "Meng Qi Shi Shen: Huanxi Zhui Hun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -47853,13 +47963,15 @@
     {
       "series": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season/",
       "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV) 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -47872,13 +47984,15 @@
     {
       "series": "https://jkanime.net/tensei-kenja-no-isekai-life-dai-2-no-shokugyou-wo-ete-sekai-saikyou-ni-narimashita/",
       "title": "Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -47891,13 +48005,15 @@
     {
       "series": "https://jkanime.net/utawarerumono-futari-no-hakuoro/",
       "title": "Utawarerumono: Futari no Hakuoro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 28,
       "stored": 28,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 28,
       "families": {
         "mega": 28,
         "streamwish": 28,
@@ -47910,13 +48026,15 @@
     {
       "series": "https://jkanime.net/jidao-long-shen/",
       "title": "Jidao Long Shen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 40,
       "stored": 40,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 40,
       "families": {
         "mega": 40,
         "streamwish": 40,
@@ -47930,13 +48048,15 @@
     {
       "series": "https://jkanime.net/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches/",
       "title": "Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -47949,13 +48069,15 @@
     {
       "series": "https://jkanime.net/prima-doll/",
       "title": "Prima Doll",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -47968,13 +48090,15 @@
     {
       "series": "https://jkanime.net/yurei-deco/",
       "title": "Yurei Deco",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -47987,13 +48111,15 @@
     {
       "series": "https://jkanime.net/engage-kiss/",
       "title": "Engage Kiss",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -48006,13 +48132,15 @@
     {
       "series": "https://jkanime.net/kanojo-okarishimasu-2nd-season/",
       "title": "Kanojo, Okarishimasu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -48025,19 +48153,21 @@
     {
       "series": "https://jkanime.net/musashino/",
       "title": "Musashino!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 9,
+        "streamwish": 9,
+        "vidhide": 9,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 9
       },
       "playbackVerified": false
     },
@@ -118411,19 +118541,19 @@
       "series": "https://jkanime.net/tensei-shitara-ken-deshita-ii/",
       "title": "Tensei shitara Ken deshita II",
       "causes": [],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
+        "streamwish": 5,
+        "vidhide": 5,
         "mixdrop": 4,
         "streamtape": 3,
-        "mp4upload": 2
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
@@ -118431,18 +118561,18 @@
       "series": "https://jkanime.net/juuou-mujin-dandivine/",
       "title": "Juuou Mujin Dandivine",
       "causes": [],
-      "observed": 3,
-      "stored": 3,
+      "observed": 4,
+      "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 2
       },
       "playbackVerified": false
@@ -118451,18 +118581,18 @@
       "series": "https://jkanime.net/tantei-wa-mou-shindeiru-season-2/",
       "title": "Tantei wa Mou, Shindeiru. Season 2",
       "causes": [],
-      "observed": 3,
-      "stored": 3,
+      "observed": 4,
+      "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 2
       },
       "playbackVerified": false
@@ -118491,18 +118621,18 @@
       "series": "https://jkanime.net/magic-knight-rayearth-2026/",
       "title": "Magic Knight Rayearth (2026)",
       "causes": [],
-      "observed": 3,
-      "stored": 3,
+      "observed": 4,
+      "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 2
       },
       "playbackVerified": false
@@ -118598,12 +118728,12 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
+        "mega": 3,
         "streamwish": 4,
         "vidhide": 4,
-        "mixdrop": 4,
+        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 4
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -119237,18 +119367,18 @@
       "series": "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu-2nd-season/",
       "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
       "causes": [],
-      "observed": 3,
-      "stored": 3,
+      "observed": 4,
+      "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 1
       },
       "playbackVerified": false
@@ -119397,19 +119527,19 @@
       "series": "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/",
       "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
       "causes": [],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
+        "streamwish": 5,
+        "vidhide": 5,
         "mixdrop": 4,
         "streamtape": 3,
-        "mp4upload": 2
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
