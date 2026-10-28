@@ -44,6 +44,7 @@ jobs:
           python3 -m pip install cryptography==46.0.3
           python3 test_cloud.py
           python3 test_renew.py
+          python3 test_news_watchdog.py
           python3 test_import_recovered.py
           python3 test_archive_coverage.py
           node test_identities.cjs
@@ -61,6 +62,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
           ZZ_RENEW_PROOF: ${{ inputs.proof }}
           ZZ_RENEW_SAMPLE_GROUP: ${{ inputs.sample_group }}
+          ZZ_NEWS_WATCHDOG_ENABLED: 'true'
         run: |
           if [ "$ZZ_RENEW_PROOF" = "true" ]; then
             python3 renew.py --proof --sample-group "${ZZ_RENEW_SAMPLE_GROUP:-baseline}" --publish

@@ -3,6 +3,7 @@ from pathlib import Path
 import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile,hashlib
 from archive_state import load,save,merge,stamp
 from incident_diagnostics import fair_retries,report as diagnostic_report
+from news_watchdog import check as check_news
 
 DAY=86400
 LEAD_AGE=DAY
@@ -171,6 +172,7 @@ def main():
         if args.write_status=='github':github_status(status)
         else:status_document(Path(args.write_status),status)
         return
+    if not args.proof and args.publish:check_news(folder)
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
     repaired=repair_retry_deadlines(state,failures,instant)
     identities_repaired=repair_verified_identities(state,failures,instant)
@@ -185,7 +187,10 @@ def main():
     try:
         for at in range(0,len(targets),2):
             if not args.proof and time.time()-instant>11*60:break
+            if not args.proof and args.publish and check_news(folder):state=load(folder)
             pair=targets[at:at+2];before=time.time()
+            if not args.proof:pair=[url for url in pair if url not in state['episodes'] or before-stamp(state['episodes'][url].get('observedAt'))>=LEAD_AGE]
+            if not pair:continue
             try:
                 body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof}).encode()
                 req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
