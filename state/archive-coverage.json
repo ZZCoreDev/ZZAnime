@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T18:19:20.912243+00:00",
+  "checkedAt": "2026-10-28T18:32:42.375504+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73292,
   "storedChapters": 71304,
@@ -7030,8 +7030,8 @@
         "series": "https://jkanime.net/mao/",
         "title": "Mao",
         "samples": [
-          "https://jkanime.net/mao/14/",
-          "https://jkanime.net/mao/15/"
+          "https://jkanime.net/mao/15/",
+          "https://jkanime.net/mao/16/"
         ]
       },
       {
@@ -11492,7 +11492,167 @@
         "series": "https://jkanime.net/shinigami-bocchan-to-kuro-maid-2nd-season/",
         "title": "Shinigami Bocchan to Kuro Maid 2nd Season",
         "samples": [
-          "https://jkanime.net/shinigami-bocchan-to-kuro-maid-2nd-season/1/"
+          "https://jkanime.net/shinigami-bocchan-to-kuro-maid-2nd-season/1/",
+          "https://jkanime.net/shinigami-bocchan-to-kuro-maid-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eiyuu-kyoushitsu/",
+        "title": "Eiyuu Kyoushitsu",
+        "samples": [
+          "https://jkanime.net/eiyuu-kyoushitsu/1/",
+          "https://jkanime.net/eiyuu-kyoushitsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/temple/",
+        "title": "Temple",
+        "samples": [
+          "https://jkanime.net/temple/1/",
+          "https://jkanime.net/temple/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bleach-sennen-kessen-hen-ketsubetsu-tan/",
+        "title": "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
+        "samples": [
+          "https://jkanime.net/bleach-sennen-kessen-hen-ketsubetsu-tan/13/",
+          "https://jkanime.net/bleach-sennen-kessen-hen-ketsubetsu-tan/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-okarishimasu-3rd-season/",
+        "title": "Kanojo, Okarishimasu 3rd Season",
+        "samples": [
+          "https://jkanime.net/kanojo-okarishimasu-3rd-season/1/",
+          "https://jkanime.net/kanojo-okarishimasu-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/liar-liar/",
+        "title": "Liar Liar",
+        "samples": [
+          "https://jkanime.net/liar-liar/1/",
+          "https://jkanime.net/liar-liar/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanatsu-no-maken-ga-shihai-suru/",
+        "title": "Nanatsu no Maken ga Shihai suru",
+        "samples": [
+          "https://jkanime.net/nanatsu-no-maken-ga-shihai-suru/1/",
+          "https://jkanime.net/nanatsu-no-maken-ga-shihai-suru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/level-1-dakedo-unique-skill-de-saikyou-desu/",
+        "title": "Level 1 dakedo Unique Skill de Saikyou desu",
+        "samples": [
+          "https://jkanime.net/level-1-dakedo-unique-skill-de-saikyou-desu/1/",
+          "https://jkanime.net/level-1-dakedo-unique-skill-de-saikyou-desu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dekiru-neko-wa-kyou-mo-yuuutsu/",
+        "title": "Dekiru Neko wa Kyou mo Yuuutsu",
+        "samples": [
+          "https://jkanime.net/dekiru-neko-wa-kyou-mo-yuuutsu/1/",
+          "https://jkanime.net/dekiru-neko-wa-kyou-mo-yuuutsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ai-no-idenshi/",
+        "title": "AI no Idenshi",
+        "samples": [
+          "https://jkanime.net/ai-no-idenshi/1/",
+          "https://jkanime.net/ai-no-idenshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard-willdress-season-3/",
+        "title": "Cardfight!! Vanguard: will+Dress Season 3",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard-willdress-season-3/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shadowverse-flame-seven-shadows-hen/",
+        "title": "Shadowverse Flame: Seven Shadows-hen",
+        "samples": [
+          "https://jkanime.net/shadowverse-flame-seven-shadows-hen/1/",
+          "https://jkanime.net/shadowverse-flame-seven-shadows-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sugar-apple-fairy-tale-part-2/",
+        "title": "Sugar Apple Fairy Tale Part 2",
+        "samples": [
+          "https://jkanime.net/sugar-apple-fairy-tale-part-2/1/",
+          "https://jkanime.net/sugar-apple-fairy-tale-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakushou-kizoku/",
+        "title": "Hyakushou Kizoku",
+        "samples": [
+          "https://jkanime.net/hyakushou-kizoku/1/",
+          "https://jkanime.net/hyakushou-kizoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jujutsu-kaisen-2nd-season/",
+        "title": "Jujutsu Kaisen 2nd Season",
+        "samples": [
+          "https://jkanime.net/jujutsu-kaisen-2nd-season/1/",
+          "https://jkanime.net/jujutsu-kaisen-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rurouni-kenshin-meiji-kenkaku-romantan-2023/",
+        "title": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+        "samples": [
+          "https://jkanime.net/rurouni-kenshin-meiji-kenkaku-romantan-2023/1/",
+          "https://jkanime.net/rurouni-kenshin-meiji-kenkaku-romantan-2023/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu/",
+        "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.",
+        "samples": [
+          "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu/10/",
+          "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi/",
+        "title": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
+        "samples": [
+          "https://jkanime.net/seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi/1/",
+          "https://jkanime.net/seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-no-shiawase-na-kekkon/",
+        "title": "Watashi no Shiawase na Kekkon",
+        "samples": [
+          "https://jkanime.net/watashi-no-shiawase-na-kekkon/13/",
+          "https://jkanime.net/watashi-no-shiawase-na-kekkon/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou/",
+        "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
+        "samples": [
+          "https://jkanime.net/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou/1/",
+          "https://jkanime.net/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/undead-girl-murder-farce/",
+        "title": "Undead Girl Murder Farce",
+        "samples": [
+          "https://jkanime.net/undead-girl-murder-farce/1/",
+          "https://jkanime.net/undead-girl-murder-farce/2/"
         ]
       },
       {
@@ -21431,14 +21591,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 26,
         "streamwish": 25,
         "vidhide": 17,
-        "mega": 13,
-        "mixdrop": 13,
-        "streamtape": 13
+        "mega": 12,
+        "mixdrop": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -38638,7 +38798,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38651,13 +38811,15 @@
     {
       "series": "https://jkanime.net/eiyuu-kyoushitsu/",
       "title": "Eiyuu Kyoushitsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38670,13 +38832,15 @@
     {
       "series": "https://jkanime.net/temple/",
       "title": "Temple",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38697,11 +38861,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
@@ -38723,32 +38883,36 @@
     {
       "series": "https://jkanime.net/bleach-sennen-kessen-hen-ketsubetsu-tan/",
       "title": "Bleach: Sennen Kessen-hen - Ketsubetsu-tan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kanojo-okarishimasu-3rd-season/",
       "title": "Kanojo, Okarishimasu 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38761,13 +38925,15 @@
     {
       "series": "https://jkanime.net/liar-liar/",
       "title": "Liar Liar",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38780,13 +38946,15 @@
     {
       "series": "https://jkanime.net/nanatsu-no-maken-ga-shihai-suru/",
       "title": "Nanatsu no Maken ga Shihai suru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -38799,13 +38967,15 @@
     {
       "series": "https://jkanime.net/level-1-dakedo-unique-skill-de-saikyou-desu/",
       "title": "Level 1 dakedo Unique Skill de Saikyou desu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38818,13 +38988,15 @@
     {
       "series": "https://jkanime.net/dekiru-neko-wa-kyou-mo-yuuutsu/",
       "title": "Dekiru Neko wa Kyou mo Yuuutsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -38837,13 +39009,15 @@
     {
       "series": "https://jkanime.net/ai-no-idenshi/",
       "title": "AI no Idenshi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38856,32 +39030,36 @@
     {
       "series": "https://jkanime.net/cardfight-vanguard-willdress-season-3/",
       "title": "Cardfight!! Vanguard: will+Dress Season 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shadowverse-flame-seven-shadows-hen/",
       "title": "Shadowverse Flame: Seven Shadows-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 24,
         "streamwish": 25,
@@ -38894,13 +39072,15 @@
     {
       "series": "https://jkanime.net/sugar-apple-fairy-tale-part-2/",
       "title": "Sugar Apple Fairy Tale Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38913,13 +39093,15 @@
     {
       "series": "https://jkanime.net/hyakushou-kizoku/",
       "title": "Hyakushou Kizoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -38932,13 +39114,15 @@
     {
       "series": "https://jkanime.net/jujutsu-kaisen-2nd-season/",
       "title": "Jujutsu Kaisen 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 22,
         "streamwish": 23,
@@ -38951,13 +39135,15 @@
     {
       "series": "https://jkanime.net/rurouni-kenshin-meiji-kenkaku-romantan-2023/",
       "title": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -38970,32 +39156,36 @@
     {
       "series": "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu/",
       "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "streamwish": 4,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi/",
       "title": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -39009,7 +39199,8 @@
       "series": "https://jkanime.net/watashi-no-shiawase-na-kekkon/",
       "title": "Watashi no Shiawase na Kekkon",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 28,
       "stored": 14,
@@ -39031,7 +39222,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -39044,13 +39235,15 @@
     {
       "series": "https://jkanime.net/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou/",
       "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -39063,13 +39256,15 @@
     {
       "series": "https://jkanime.net/undead-girl-murder-farce/",
       "title": "Undead Girl Murder Farce",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
