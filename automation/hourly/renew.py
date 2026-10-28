@@ -5,7 +5,7 @@ from archive_state import load,save,merge,stamp
 
 DAY=86400
 LEAD_AGE=DAY
-MAX_EPISODES=150
+MAX_EPISODES=200
 PROOF=['https://jkanime.net/psyren/4/','https://jkanime.net/dark-summoner-to-dekiteiru/4/']
 
 def select(state,failures,now,limit):
@@ -75,7 +75,7 @@ def main():
     publish=False;runtime=None
     try:
         for at in range(0,len(targets),2):
-            if not args.proof and time.time()-instant>8*60:break
+            if not args.proof and time.time()-instant>11*60:break
             pair=targets[at:at+2];before=time.time()
             try:
                 body=json.dumps({'mode':'renew','retry':pair,'skip':[]}).encode()

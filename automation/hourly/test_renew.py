@@ -1,7 +1,8 @@
-import copy,datetime,gzip,json,os,tempfile,unittest
+import base64,copy,datetime,gzip,json,os,tempfile,unittest,urllib.error
+from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
-from renew import select,validate,status_document,DAY
+from renew import select,validate,status_document,github_status,DAY
 
 class RenewalTests(unittest.TestCase):
     def fixture(self,age=2):
@@ -43,5 +44,22 @@ class RenewalTests(unittest.TestCase):
         with self.temporary() as temp:
             save(temp,state);p=next((Path(temp)/'series-state').glob('*.gz'));row=json.loads(gzip.decompress(p.read_bytes()));row['series']='https://jkanime.net/other/';p.write_bytes(gzip.compress(json.dumps(row).encode()))
             with self.assertRaises(ValueError):load(temp)
+    def test_status_retry_preserves_concurrent_manual_change(self):
+        class Response:
+            def __init__(self,value):self.body=json.dumps(value).encode()
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+            def read(self,*args):return self.body
+        a={'sha':'old','content':base64.b64encode(b'Notas originales\n').decode()};b={'sha':'new','content':base64.b64encode(b'Notas originales\nCambio concurrente\n').decode()}
+        calls=[]
+        def request(req,**kwargs):
+            calls.append(req)
+            if len(calls)==1:return Response(a)
+            if len(calls)==2:raise urllib.error.HTTPError(req.full_url,409,'conflict',None,None)
+            if len(calls)==3:return Response(b)
+            payload=json.loads(req.data);self.assertEqual(payload['sha'],'new');self.assertIn('Cambio concurrente',base64.b64decode(payload['content']).decode());return Response({})
+        with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',side_effect=request),patch('renew.time.sleep'):
+            github_status({'state':'failed','failed':1,'expired':0})
+        self.assertEqual(len(calls),4)
 
 if __name__=='__main__':unittest.main()
