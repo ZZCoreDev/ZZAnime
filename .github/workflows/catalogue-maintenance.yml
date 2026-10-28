@@ -1,0 +1,51 @@
+name: Mantenimiento autónomo de evidencias del catálogo
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      proof:
+        description: Dos identidades antes de activar el resto
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: zzanime-catalogue-evidence
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_CATALOGUE_ENABLED == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: code
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: catalogue-data
+          path: data
+      - name: Pruebas deterministas
+        working-directory: code/automation/catalogue
+        run: python3 test_collect.py
+      - name: Recogida acotada sin IA
+        working-directory: code/automation/catalogue
+        env:
+          ZZ_CATALOGUE_STATE: ${{ github.workspace }}/data/${{ inputs.proof == true && 'proof' || 'state' }}
+          ZZ_PROOF: ${{ inputs.proof }}
+        run: |
+          if [ "$ZZ_PROOF" = "true" ]; then python3 collect.py --proof; else python3 collect.py; fi
+      - name: Conservar datos, fallos y siguiente reintento
+        if: always()
+        working-directory: data
+        run: |
+          git config user.name 'ZZAnime automation'
+          git config user.email 'automation@users.noreply.github.com'
+          for folder in state proof; do
+            if [ -d "$folder" ]; then git add "$folder"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m 'Guardar evidencias y reintentos del catálogo sin IA'
+            git push origin HEAD:catalogue-data
+          fi

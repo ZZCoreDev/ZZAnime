@@ -1,0 +1,59 @@
+"""Public AniList evidence refresh. No model calls, APK keys, paid services or app mutations."""
+import argparse,datetime,gzip,json,os,re,time,urllib.request,urllib.error
+from pathlib import Path
+QUERY='query($ids:[Int]){Page(page:1,perPage:50){media(id_in:$ids,type:ANIME){id title{romaji english native} synonyms format seasonYear coverImage{extraLarge large medium} studios(isMain:true){nodes{name}}}}}'
+FORMATS={'TV','TV_SHORT','MOVIE','OVA','ONA','SPECIAL','MUSIC'}
+def save(path,value):
+ path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')),encoding='utf-8');tmp.replace(path)
+def validate(media,allowed):
+ identity=media.get('id');url=media.get('coverImage',{}).get('extraLarge','')
+ if type(identity)!=int or identity not in allowed:raise ValueError('Unexpected AniList identity')
+ if media.get('format') not in FORMATS or media.get('seasonYear') is not None and (type(media['seasonYear'])!=int or not 1900<=media['seasonYear']<=2100):raise ValueError('Invalid metadata schema')
+ if not isinstance(media.get('title'),dict) or not any(media['title'].values()) or any(v is not None and (not isinstance(v,str) or len(v)>2000) for v in media['title'].values()):raise ValueError('Invalid title')
+ if len(media.get('synonyms',[]))>200 or any(not isinstance(x,str) or len(x)>2000 for x in media.get('synonyms',[])):raise ValueError('Invalid aliases')
+ if not re.fullmatch(r'https://s[1-4][.]anilist[.]co/file/anilistcdn/media/anime/cover/(?:large|medium|small)/[a-z]*'+str(identity)+r'[-.][A-Za-z0-9_.-]+',url):raise ValueError('Cover does not belong to identity')
+ studios=media.get('studios',{}).get('nodes')
+ if not isinstance(studios,list) or len(studios)>100 or any(not isinstance(x.get('name'),str) or len(x['name'])>500 for x in studios):raise ValueError('Invalid studio metadata')
+ return media
+def fetch(ids):
+ request=urllib.request.Request('https://graphql.anilist.co',data=json.dumps({'query':QUERY,'variables':{'ids':ids}}).encode(),headers={'Content-Type':'application/json','User-Agent':'ZZAnime-CatalogueEvidence/1.0'})
+ with urllib.request.urlopen(request,timeout=35) as response:
+  if response.geturl()!='https://graphql.anilist.co':raise ValueError('Unexpected API redirect')
+  raw=response.read(4*1024*1024+1)
+ if len(raw)>4*1024*1024:raise ValueError('Response limit')
+ doc=json.loads(raw)
+ if doc.get('errors'):raise ValueError('AniList returned errors; retain existing data')
+ items=doc['data']['Page']['media'];seen=set()
+ for media in items:
+  validate(media,set(ids))
+  if media['id'] in seen:raise ValueError('Duplicate identity')
+  seen.add(media['id'])
+ return items
+def run(state,seed,proof=False,request=fetch,clock=time.time,pause=time.sleep):
+ state.mkdir(parents=True,exist_ok=True);allowed=set(seed['ids']);ids=seed['proofIds'] if proof else sorted(allowed);path=state/'metadata.json'
+ data=json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'schema':1,'items':{}}
+ if data.get('schema')!=1:raise ValueError('State schema')
+ now=int(clock());last=state/'last-run.json'
+ if last.exists():
+  previous=json.loads(last.read_text(encoding='utf-8'))
+  if previous.get('state')=='failed' and previous.get('retryAt',0)>now:return dict(previous,state='paused')
+ due=[i for i in ids if proof or now-data['items'].get(str(i),{}).get('checkedAt',0)>=7*86400];changed=0;fetched=0
+ try:
+  for offset in range(0,len(due),50):
+   batch=due[offset:offset+50];items=request(batch)
+   for media in items:
+    validate(media,allowed);key=str(media['id']);changed+=data['items'].get(key,{}).get('media')!=media;data['items'][key]={'checkedAt':now,'media':media};fetched+=1
+   save(path,data)
+   if offset+50<len(due):pause(3)
+  if proof and fetched!=2:raise ValueError('Two real identities required for proof')
+  raw=json.dumps(data,ensure_ascii=False,separators=(',',':')).encode();temp=state/'metadata.json.gz.tmp';temp.write_bytes(gzip.compress(raw,mtime=0));temp.replace(state/'metadata.json.gz')
+  report={'state':'complete','checkedAt':now,'proof':proof,'fetched':fetched,'changed':changed,'cached':len(ids)-len(due),'requested':len(due),'stored':len(data['items']),'aiCalls':0,'apkPublished':False,'retryAt':now+86400}
+ except Exception as error:
+  delay=86400
+  if isinstance(error,urllib.error.HTTPError) and error.code==429:
+   try:delay=max(delay,int(error.headers.get('Retry-After','86400')))
+   except ValueError:pass
+  report={'state':'failed','checkedAt':now,'proof':proof,'fetched':fetched,'changed':changed,'aiCalls':0,'retainedPrevious':True,'reason':type(error).__name__,'retryAt':now+delay};save(state/'last-run.json',report);(state/'ESTADO.md').write_text('Recogida de evidencias pendiente: '+report['reason']+'. Se conserva el estado anterior; reintento diario, sin IA.\n',encoding='utf-8');raise
+ save(state/'last-run.json',report);(state/'ESTADO.md').write_text('Recogida de evidencias completada. Cambios: '+str(changed)+'. Validación y publicación Android quedan a cargo del supervisor local, sin IA.\n',encoding='utf-8');return report
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--proof',action='store_true');args=p.parse_args();print(json.dumps(run(Path(os.environ['ZZ_CATALOGUE_STATE']),json.loads(Path(__file__).with_name('seed.json').read_text()),args.proof)))
