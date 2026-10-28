@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T15:30:40.252219+00:00",
+  "checkedAt": "2026-10-28T15:31:29.169107+00:00",
   "cause": "numeric-apostrophe-entity-rejected-title",
   "initialCollectionOmittedSeries": true,
   "renewalDidNotDeleteThem": true,
@@ -63,11 +63,15 @@
     "physicalAndroidVerified": false
   },
   "groupState": {
-    "state": "deliver-title-group",
+    "state": "complete",
     "startedAt": "2026-10-28T15:19:47.625944+00:00",
     "aiCalls": 0,
     "repeatExistingEpisodes": false,
-    "apkRequired": false
+    "apkRequired": false,
+    "imported": 650,
+    "reused": 39,
+    "held": 0,
+    "signatureVerified": true
   },
   "sourceHeld": {
     "https://jkanime.net/the-horrors-horror-home/1/": "Chapter recovery failed; original incident retained",
