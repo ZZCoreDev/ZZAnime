@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-28T09:47:33.948792+00:00",
+  "checkedAt": "2026-10-28T10:00:57.358731+00:00",
   "episodes": 70557,
-  "oldestHours": 45.48,
-  "pending": 40797,
+  "oldestHours": 45.71,
+  "pending": 42161,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
-  "successfulCyclesMeasured": 4,
-  "sampleMinutes": 53.37,
-  "measuredWallClockPerHour": 587.0,
-  "estimatedSweepDays": null,
-  "capacityStatus": "insufficient-history",
+  "successfulCyclesMeasured": 5,
+  "sampleMinutes": 66.76,
+  "measuredWallClockPerHour": 711.85,
+  "estimatedSweepDays": 4.13,
+  "capacityStatus": "within-budget",
   "datesInvented": false
 }
