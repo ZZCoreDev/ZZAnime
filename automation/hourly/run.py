@@ -12,6 +12,13 @@ RETRY_SECONDS=15*60
 def sha(b):return hashlib.sha256(b).hexdigest()
 def raw(x):return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 def put(p,b):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
+def record_recent(state,recent,instant):
+ # Homepage presence is a real observation; refreshing old providers is not a release.
+ seen=state.setdefault('newsSeen',{})
+ for url in recent[:100]:
+  if not isinstance(url,str) or not re.fullmatch(r'https://jkanime\.net/[a-zA-Z0-9_-]+/[1-9][0-9]*/',url):continue
+  parent=url.rsplit('/',2)[0]+'/'
+  if url in state['episodes'] and url in state['listings'].get(parent,{}).get('episodes',[]):seen.setdefault(url,instant.isoformat().replace('+00:00','Z'))
 def command(args,**kw):return subprocess.run(args,check=True,capture_output=True,text=True,encoding='utf-8',**kw).stdout
 def compile_java(runtime):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
@@ -68,7 +75,7 @@ def main():
     incoming=result['state'];newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     for url in newly_deferred:deferred[url]=instant.timestamp()
     for url,ep in incoming['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
-    merge_observations(state,incoming);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
+    merge_observations(state,incoming);record_recent(state,result.get('recent',[]),instant);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
  state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)

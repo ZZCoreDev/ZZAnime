@@ -1,5 +1,5 @@
 import unittest,datetime,hashlib
-from run import build,COLLECTION_BATCHES,RETRY_SECONDS
+from run import build,record_recent,COLLECTION_BATCHES,RETRY_SECONDS
 class CloudTests(unittest.TestCase):
  def test_frequent_collection_is_bounded(self):
   self.assertEqual(COLLECTION_BATCHES,2)
@@ -16,6 +16,13 @@ class CloudTests(unittest.TestCase):
   return now,parent,url,state,{hashlib.sha256((name+'\0'+link).encode()).hexdigest():True}
  def test_valid_observed_episode(self):
   now,parent,url,s,a=self.fixture();index,files=build(s,a,now);self.assertEqual(len(index['series']),1);self.assertEqual(len(files),1)
+ def test_existing_homepage_chapter_is_not_lost_by_skip(self):
+  now,parent,url,s,a=self.fixture();record_recent(s,[url],now);index,_=build(s,a,now)
+  self.assertEqual(len(index['feed']['episodes']),1)
+  before=s['newsSeen'][url];record_recent(s,[url],now+datetime.timedelta(hours=1));self.assertEqual(s['newsSeen'][url],before)
+ def test_recent_requires_archived_identity_and_listing(self):
+  now,parent,url,s,a=self.fixture();record_recent(s,['https://example.com/test/1/',parent+'999/'],now);self.assertEqual(s['newsSeen'],{})
+  s['listings'][parent]['episodes']=[];record_recent(s,[url],now);self.assertEqual(s['newsSeen'],{})
  def test_unapproved_excluded(self):
   now,_,_,s,_=self.fixture()
   with self.assertRaises(ValueError):build(s,{},now)
