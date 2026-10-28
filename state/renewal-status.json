@@ -1,0 +1,12 @@
+{
+  "state": "failed",
+  "checkedAt": "2026-10-28T00:06:28.412017+00:00",
+  "requested": 2,
+  "renewed": 0,
+  "failed": 2,
+  "datesInvented": false,
+  "pcRequired": false,
+  "aiCalls": 0,
+  "expired": 0,
+  "error": "ValueError"
+}
