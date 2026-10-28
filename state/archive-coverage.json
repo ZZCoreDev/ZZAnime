@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-28T23:22:22.163064+00:00",
+  "checkedAt": "2026-10-28T23:36:17.145905+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73461,
+  "observedChapters": 73462,
   "storedChapters": 71442,
-  "missingChapters": 2019,
+  "missingChapters": 2020,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1286,6 +1286,13 @@
         "title": "Ryuu to Sobakasu no Hime",
         "samples": [
           "https://jkanime.net/ryuu-to-sobakasu-no-hime/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-shibai-9/",
+        "title": "Yami Shibai 9",
+        "samples": [
+          "https://jkanime.net/yami-shibai-9/14/"
         ]
       },
       {
@@ -14866,10 +14873,57 @@
         ]
       },
       {
+        "series": "https://jkanime.net/blue-period/",
+        "title": "Blue Period",
+        "samples": [
+          "https://jkanime.net/blue-period/4/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hachigatsu-no-cinderella-nine-episode-13/",
         "title": "Hachigatsu no Cinderella Nine Episode 13",
         "samples": [
           "https://jkanime.net/hachigatsu-no-cinderella-nine-episode-13/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yi-ren-zhi-xia-4/",
+        "title": "Yi Ren Zhi Xia 4",
+        "samples": [
+          "https://jkanime.net/yi-ren-zhi-xia-4/1/",
+          "https://jkanime.net/yi-ren-zhi-xia-4/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/getsuyoubi-no-tawawa-2/",
+        "title": "Getsuyoubi no Tawawa 2",
+        "samples": [
+          "https://jkanime.net/getsuyoubi-no-tawawa-2/1/",
+          "https://jkanime.net/getsuyoubi-no-tawawa-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ganbare-douki-chan/",
+        "title": "Ganbare Douki-chan",
+        "samples": [
+          "https://jkanime.net/ganbare-douki-chan/1/",
+          "https://jkanime.net/ganbare-douki-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heike-monogatari/",
+        "title": "Heike Monogatari",
+        "samples": [
+          "https://jkanime.net/heike-monogatari/1/",
+          "https://jkanime.net/heike-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahoutsukai-no-yome-nishi-no-shounen-to-seiran-no-kishi/",
+        "title": "Mahoutsukai no Yome: Nishi no Shounen to Seiran no Kishi",
+        "samples": [
+          "https://jkanime.net/mahoutsukai-no-yome-nishi-no-shounen-to-seiran-no-kishi/1/",
+          "https://jkanime.net/mahoutsukai-no-yome-nishi-no-shounen-to-seiran-no-kishi/2/"
         ]
       },
       {
@@ -14887,10 +14941,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kaizoku-oujo/",
+        "title": "Kaizoku Oujo",
+        "samples": [
+          "https://jkanime.net/kaizoku-oujo/10/",
+          "https://jkanime.net/kaizoku-oujo/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mo-dao-zu-shi-wanjie-pian/",
+        "title": "Mo Dao Zu Shi: Wanjie Pian",
+        "samples": [
+          "https://jkanime.net/mo-dao-zu-shi-wanjie-pian/1/",
+          "https://jkanime.net/mo-dao-zu-shi-wanjie-pian/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/",
         "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
         "samples": [
           "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv-2nd-season/",
+        "title": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya",
+        "samples": [
+          "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv-2nd-season/1/",
+          "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv-2nd-season/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jahy-sama-wa-kujikenai/",
+        "title": "Jahy-sama wa Kujikenai!",
+        "samples": [
+          "https://jkanime.net/jahy-sama-wa-kujikenai/1/",
+          "https://jkanime.net/jahy-sama-wa-kujikenai/10/"
         ]
       },
       {
@@ -14901,10 +14987,129 @@
         ]
       },
       {
+        "series": "https://jkanime.net/quanzhi-fashi-v/",
+        "title": "Quanzhi Fashi V",
+        "samples": [
+          "https://jkanime.net/quanzhi-fashi-v/1/",
+          "https://jkanime.net/quanzhi-fashi-v/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heion-sedai-no-idaten-tachi/",
+        "title": "Heion Sedai no Idaten-tachi",
+        "samples": [
+          "https://jkanime.net/heion-sedai-no-idaten-tachi/1/",
+          "https://jkanime.net/heion-sedai-no-idaten-tachi/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cider-no-you-ni-kotoba-ga-wakiagaru/",
         "title": "Cider no You ni Kotoba ga Wakiagaru",
         "samples": [
           "https://jkanime.net/cider-no-you-ni-kotoba-ga-wakiagaru/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bai-yao-pu-2nd-season/",
+        "title": "Bai Yao Pu 2nd Season",
+        "samples": [
+          "https://jkanime.net/bai-yao-pu-2nd-season/1/",
+          "https://jkanime.net/bai-yao-pu-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dinghai-fusheng-lu/",
+        "title": "Dinghai Fusheng Lu",
+        "samples": [
+          "https://jkanime.net/dinghai-fusheng-lu/1/",
+          "https://jkanime.net/dinghai-fusheng-lu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/night-head-2041/",
+        "title": "Night Head 2041",
+        "samples": [
+          "https://jkanime.net/night-head-2041/1/",
+          "https://jkanime.net/night-head-2041/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/obey-me/",
+        "title": "Obey Me!",
+        "samples": [
+          "https://jkanime.net/obey-me/1/",
+          "https://jkanime.net/obey-me/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megami-ryou-no-ryoubo-kun/",
+        "title": "Megami-ryou no Ryoubo-kun.",
+        "samples": [
+          "https://jkanime.net/megami-ryou-no-ryoubo-kun/1/",
+          "https://jkanime.net/megami-ryou-no-ryoubo-kun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hong-huang/",
+        "title": "Hong Huang",
+        "samples": [
+          "https://jkanime.net/hong-huang/1/",
+          "https://jkanime.net/hong-huang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/deatte-5-byou-de-battle/",
+        "title": "Deatte 5-byou de Battle",
+        "samples": [
+          "https://jkanime.net/deatte-5-byou-de-battle/1/",
+          "https://jkanime.net/deatte-5-byou-de-battle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-shibai-9/",
+        "title": "Yami Shibai 9",
+        "samples": [
+          "https://jkanime.net/yami-shibai-9/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-live-superstar/",
+        "title": "Love Live! Superstar!!",
+        "samples": [
+          "https://jkanime.net/love-live-superstar/1/",
+          "https://jkanime.net/love-live-superstar/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-2nd-season/",
+        "title": "100-man no Inochi no Ue ni Ore wa Tatteiru 2nd Season",
+        "samples": [
+          "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-2nd-season/1/",
+          "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/d_cide-traumerei-the-animation/",
+        "title": "D_Cide Traumerei the Animation",
+        "samples": [
+          "https://jkanime.net/d_cide-traumerei-the-animation/1/",
+          "https://jkanime.net/d_cide-traumerei-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shiroi-suna-no-aquatope/",
+        "title": "Shiroi Suna no Aquatope",
+        "samples": [
+          "https://jkanime.net/shiroi-suna-no-aquatope/1/",
+          "https://jkanime.net/shiroi-suna-no-aquatope/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meikyuu-black-company/",
+        "title": "Meikyuu Black Company",
+        "samples": [
+          "https://jkanime.net/meikyuu-black-company/1/",
+          "https://jkanime.net/meikyuu-black-company/2/"
         ]
       },
       {
@@ -53249,7 +53454,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53298,19 +53503,21 @@
     {
       "series": "https://jkanime.net/blue-period/",
       "title": "Blue Period",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -53336,13 +53543,15 @@
     {
       "series": "https://jkanime.net/yi-ren-zhi-xia-4/",
       "title": "Yi Ren Zhi Xia 4",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53374,32 +53583,36 @@
     {
       "series": "https://jkanime.net/getsuyoubi-no-tawawa-2/",
       "title": "Getsuyoubi no Tawawa 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ganbare-douki-chan/",
       "title": "Ganbare Douki-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53412,13 +53625,15 @@
     {
       "series": "https://jkanime.net/heike-monogatari/",
       "title": "Heike Monogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -53431,13 +53646,15 @@
     {
       "series": "https://jkanime.net/mahoutsukai-no-yome-nishi-no-shounen-to-seiran-no-kishi/",
       "title": "Mahoutsukai no Yome: Nishi no Shounen to Seiran no Kishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -53506,32 +53723,36 @@
     {
       "series": "https://jkanime.net/kaizoku-oujo/",
       "title": "Kaizoku Oujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 6,
+        "streamwish": 7,
+        "vidhide": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mo-dao-zu-shi-wanjie-pian/",
       "title": "Mo Dao Zu Shi: Wanjie Pian",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53562,13 +53783,15 @@
     {
       "series": "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv-2nd-season/",
       "title": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd Season - Kakusei Zenya",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -53581,13 +53804,15 @@
     {
       "series": "https://jkanime.net/jahy-sama-wa-kujikenai/",
       "title": "Jahy-sama wa Kujikenai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -53619,13 +53844,15 @@
     {
       "series": "https://jkanime.net/quanzhi-fashi-v/",
       "title": "Quanzhi Fashi V",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53638,13 +53865,15 @@
     {
       "series": "https://jkanime.net/heion-sedai-no-idaten-tachi/",
       "title": "Heion Sedai no Idaten-tachi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -53676,13 +53905,15 @@
     {
       "series": "https://jkanime.net/bai-yao-pu-2nd-season/",
       "title": "Bai Yao Pu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53714,13 +53945,15 @@
     {
       "series": "https://jkanime.net/dinghai-fusheng-lu/",
       "title": "Dinghai Fusheng Lu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53734,32 +53967,36 @@
     {
       "series": "https://jkanime.net/night-head-2041/",
       "title": "Night Head 2041",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 11,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/obey-me/",
       "title": "Obey Me!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53772,13 +54009,15 @@
     {
       "series": "https://jkanime.net/megami-ryou-no-ryoubo-kun/",
       "title": "Megami-ryou no Ryoubo-kun.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -53791,13 +54030,15 @@
     {
       "series": "https://jkanime.net/hong-huang/",
       "title": "Hong Huang",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -53811,13 +54052,15 @@
     {
       "series": "https://jkanime.net/deatte-5-byou-de-battle/",
       "title": "Deatte 5-byou de Battle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53830,32 +54073,39 @@
     {
       "series": "https://jkanime.net/yami-shibai-9/",
       "title": "Yami Shibai 9",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 14,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/yami-shibai-9/14/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 9,
+        "streamwish": 9,
+        "vidhide": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/love-live-superstar/",
       "title": "Love Live! Superstar!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53868,13 +54118,15 @@
     {
       "series": "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-2nd-season/",
       "title": "100-man no Inochi no Ue ni Ore wa Tatteiru 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53887,13 +54139,15 @@
     {
       "series": "https://jkanime.net/d_cide-traumerei-the-animation/",
       "title": "D_Cide Traumerei the Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -53906,32 +54160,36 @@
     {
       "series": "https://jkanime.net/shiroi-suna-no-aquatope/",
       "title": "Shiroi Suna no Aquatope",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 24,
+        "mega": 23,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/meikyuu-black-company/",
       "title": "Meikyuu Black Company",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
