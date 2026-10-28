@@ -2,9 +2,54 @@ import base64,copy,datetime,gzip,json,os,tempfile,unittest,urllib.error
 from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
-from renew import select,validate,status_document,github_status,continue_if_due,DAY
+from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_retry_deadlines,health_report,DAY
 
 class RenewalTests(unittest.TestCase):
+    def test_expired_retry_is_not_postponed_forever(self):
+        now,_,url,state=self.fixture(8);failed={url:{'retryAt':now.timestamp()+900}}
+        self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),0)
+        self.assertEqual(select(state,failed,now.timestamp()+901,2),[url])
+    def test_health_measures_wall_time_and_excludes_proof(self):
+        now,_,_,state=self.fixture();instant=now.timestamp()
+        with self.temporary() as temp:
+            folder=Path(temp);status={'runId':'proof','checkedAt':now.isoformat(),'proof':True,'published':True,'renewed':2}
+            h=health_report(folder,state,{},status,instant);self.assertEqual(h['successfulCyclesMeasured'],0);self.assertEqual(h['capacityStatus'],'insufficient-history')
+            for i in range(3):
+                started=datetime.datetime.fromtimestamp(instant-7200+i*1200,datetime.timezone.utc).isoformat()
+                h=health_report(folder,state,{},dict(status,runId=str(i),checkedAt=started,proof=False,renewed=100),instant)
+            self.assertEqual(h['successfulCyclesMeasured'],3);self.assertEqual(h['measuredWallClockPerHour'],150)
+            self.assertTrue((folder/'renewal-health.json').exists())
+    def test_retries_never_jump_beyond_expiry(self):
+        now,_,url,state=self.fixture(6.9);failed={url:{'attempts':30}}
+        record_failure(failed,url,'Source unavailable',now.timestamp(),state['episodes'][url]['observedAt'])
+        self.assertLess(failed[url]['retryAt'],stamp(state['episodes'][url]['observedAt'])+7*DAY)
+        self.assertGreater(failed[url]['retryAt'],now.timestamp())
+    def test_legacy_retry_repaired_without_changing_source_dates(self):
+        now,_,url,state=self.fixture(2);original=copy.deepcopy(state);old=now.timestamp()+7*DAY;failed={url:{'retryAt':old}}
+        self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),1);self.assertEqual(state,original)
+        self.assertEqual(failed[url]['previousRetryAt'],old);self.assertLessEqual(failed[url]['retryAt'],now.timestamp()+3600)
+        self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),0)
+    def test_repeated_failures_do_not_starve_unchecked_chapters(self):
+        now,parent,url,state=self.fixture();failed={}
+        for n in range(1,17):
+            address=parent+str(n)+'/';state['episodes'][address]=copy.deepcopy(state['episodes'][url]);state['listings'][parent]['episodes'].append(address)
+            if n<9:failed[address]={'retryAt':0}
+        chosen=select(state,failed,now.timestamp(),8)
+        self.assertEqual(len(chosen),8);self.assertEqual(sum(u in failed for u in chosen),2)
+    def test_partial_pair_saves_success_and_marks_only_missing(self):
+        import renew,run
+        now,parent,url,state=self.fixture();second='https://jkanime.net/dark-summoner-to-dekiteiru/4/';state['episodes'][second]=copy.deepcopy(state['episodes'][url]);state['listings'][second.rsplit('/',2)[0]+'/']={'complete':True,'observedAt':state['episodes'][url]['observedAt'],'episodes':[second]}
+        incoming=copy.deepcopy(self.fixture(0)[3]);link=incoming['episodes'][url]['providers'][0]['links'][0];key=run.sha(('Mp4upload\0'+link).encode())
+        class Response:
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+            def read(self,*args):return json.dumps({'passed':True,'state':incoming,'errors':{second:'Episode not found'}}).encode()
+        with self.temporary() as temp:
+            save(temp,state)
+            with patch.dict(os.environ,{'ZZ_DATA':str(temp),'ZZ_COLLECTOR_URL':'https://collector.invalid/','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['renew.py','--proof']),patch('renew.urllib.request.urlopen',return_value=Response()),patch('run.compile_java',return_value='test'),patch('run.command',return_value=json.dumps({'key':key,'approved':True})):
+                with self.assertRaisesRegex(ValueError,'Two-series renewal proof failed'):renew.main()
+            saved=load(temp);self.assertEqual(saved['episodes'][url]['observedAt'],incoming['episodes'][url]['observedAt']);self.assertEqual(saved['episodes'][second]['observedAt'],state['episodes'][second]['observedAt'])
+            failures=json.loads((Path(temp)/'renewal-failures.json').read_bytes());self.assertEqual(set(failures),{second});self.assertEqual(failures[second]['reason'],'Episode not found')
     def test_pending_news_is_never_replaced_by_renewal_continuation(self):
         class Response:
             def __enter__(self):return self

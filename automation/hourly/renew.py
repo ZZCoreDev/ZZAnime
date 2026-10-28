@@ -15,7 +15,40 @@ def select(state,failures,now,limit):
         if observed<0 or now-observed<LEAD_AGE or not listing or url not in listing.get('episodes',[]):continue
         if failures.get(url,{}).get('retryAt',0)>now:continue
         rows.append((observed,url))
-    return [url for _,url in sorted(rows)[:limit]]
+    healthy=sorted(row for row in rows if row[1] not in failures);retry=sorted(row for row in rows if row[1] in failures)
+    retry_count=min(len(retry),max(1,limit//4)) if healthy else min(len(retry),limit)
+    chosen=healthy[:limit-retry_count]+retry[:retry_count]
+    if len(chosen)<limit:chosen+=retry[retry_count:retry_count+limit-len(chosen)]
+    return [url for _,url in chosen]
+
+def record_failure(failures,url,reason,now,observed):
+    count=failures.get(url,{}).get('attempts',0)+1
+    delay=min(6*3600,900*2**min(count,8));remaining=stamp(observed)+7*DAY-now
+    delay=min(delay,remaining/3) if remaining>0 else 900
+    failures[url]={'attempts':count,'lastAttempt':now,'retryAt':now+delay,'reason':str(reason)[:160]}
+
+def repair_retry_deadlines(state,failures,now):
+    repaired=0
+    for url,row in failures.items():
+        ep=state['episodes'].get(url)
+        if not ep:continue
+        deadline=stamp(ep.get('observedAt'))+7*DAY
+        if row.get('retryAt',0)>deadline and row.get('retryAt',0)>now and (deadline>now or row['retryAt']>now+3600):
+            row.setdefault('previousRetryAt',row['retryAt']);remaining=deadline-now
+            row['retryAt']=now+(min(3600,remaining/3) if remaining>0 else 900);repaired+=1
+    return repaired
+
+def health_report(folder,state,failures,status,now):
+    ages={url:now-stamp(ep.get('observedAt')) for url,ep in state['episodes'].items()}
+    path=folder/'renewal-history.json';history=json.loads(path.read_bytes()) if path.exists() else []
+    start=stamp(status['checkedAt']);row={'runId':status.get('runId',''),'start':start,'finish':now,'renewed':status.get('renewed',0),'proof':status.get('proof',False),'published':status.get('published',False)}
+    history=[r for r in history if r['start']>=now-14*DAY and not (row['runId'] and r.get('runId')==row['runId'])]+[row]
+    path.write_text(json.dumps(history[-5000:]),encoding='utf-8')
+    usable=[r for r in history if not r.get('proof') and r.get('published') and r['start']>=now-DAY]
+    span=max(3600,now-min((r['start'] for r in usable),default=now));rate=sum(r['renewed'] for r in usable)*3600/span
+    eta=len(ages)/rate/24 if rate else None
+    report={'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'episodes':len(ages),'oldestHours':round(max(ages.values(),default=0)/3600,2),'pending':len(select(state,failures,now,len(ages))),'expired':sum(age>7*DAY for age in ages.values()),'expiresWithin24Hours':sum(age>=6*DAY for age in ages.values()),'retryAfterExpiry':sum(r.get('retryAt',0)>now+7*DAY-ages[url] for url,r in failures.items() if url in ages),'successfulCyclesMeasured':len(usable),'measuredWallClockPerHour':round(rate,2),'estimatedSweepDays':round(eta,2) if eta is not None else None,'capacityStatus':'insufficient-history' if len(usable)<3 else 'within-budget' if eta is not None and eta<=5 else 'behind','datesInvented':False}
+    (folder/'renewal-health.json').write_text(json.dumps(report,indent=2),encoding='utf-8');return report
 
 def validate(incoming,targets,before,after):
     if not isinstance(incoming,dict):raise ValueError('Missing observations')
@@ -31,7 +64,7 @@ def validate(incoming,targets,before,after):
 def status_text(current,status):
     start='<!-- ZZ-RENEW-STATUS -->';end='<!-- /ZZ-RENEW-STATUS -->'
     failures=status.get('failed',0);overdue=status.get('expired',0)
-    text=f'{start}\n## Refresco automático del respaldo\nEstado: {status.get("state","unknown")}. Fallos pendientes: {failures}; capítulos vencidos pendientes: {overdue}.\n'
+    text=f'{start}\n## Refresco automático del respaldo\nEstado: {status.get("state","unknown")}. Fallos pendientes: {failures}; capítulos vencidos pendientes: {overdue}. Próximos a vencer: {status.get("expiresWithin24Hours","pendiente")}; capacidad: {status.get("capacityStatus","sin medir")}.\n'
     if failures or overdue or status.get('state')=='failed':text+='Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.\n'
     text+=end
     if start in current and end in current:
@@ -87,9 +120,12 @@ def main():
         else:status_document(Path(args.write_status),status)
         return
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
+    repaired=repair_retry_deadlines(state,failures,instant)
     targets=PROOF if args.proof else select(state,failures,instant,MAX_EPISODES)
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
     status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
+    status['retryDeadlinesRepaired']=repaired
+    status['proof']=args.proof
     publish=False;runtime=None
     try:
         for at in range(0,len(targets),2):
@@ -104,8 +140,9 @@ def main():
                     result=json.loads(raw)
                 if result.get('passed') is not True:raise ValueError('Sources unavailable')
                 incoming=validate(result.get('state'),pair,before,time.time())
-                for url in pair:
-                    if url not in incoming.get('episodes',{}):raise ValueError('Requested renewal unavailable')
+                missing=[url for url in pair if url not in incoming.get('episodes',{})]
+                for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'][url]['observedAt'])
+                if not incoming.get('episodes'):continue
                 # Use the real app validator before replacing any previous options.
                 import run as pipeline
                 if runtime is None:
@@ -122,13 +159,10 @@ def main():
                 for url,ep in incoming['episodes'].items():
                     if not any(approved.get(pipeline.sha((p['name']+'\0'+u).encode())) for p in ep['providers'] for u in p.get('links',[])):raise ValueError('Real app rejected renewed options')
                 merge(state,incoming);status['renewed']+=len(incoming['episodes']);publish=True
-                for url in pair:failures.pop(url,None)
+                for url in incoming['episodes']:failures.pop(url,None)
             except Exception as error:
                 if isinstance(error,urllib.error.HTTPError) and error.code in (401,403,429):raise
-                for url in pair:
-                    count=failures.get(url,{}).get('attempts',0)+1
-                    delay=7*DAY if count>=3 else min(6*3600,900*2**count)
-                    failures[url]={'attempts':count,'lastAttempt':time.time(),'retryAt':time.time()+delay,'reason':('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__)}
+                for url in pair:record_failure(failures,url,('HTTP_'+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__+': '+str(error)),time.time(),state['episodes'][url]['observedAt'])
             finally:
                 save(folder,state,{url.rsplit('/',2)[0]+'/' for url in pair});failure_path.write_text(json.dumps(failures,sort_keys=True),encoding='utf-8')
                 status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
@@ -143,6 +177,7 @@ def main():
     finally:
         if runtime is not None:runtime.cleanup()
         status.update(failed=len(failures),expired=sum(time.time()-stamp(ep.get('observedAt'))>7*DAY for ep in state['episodes'].values()))
+        health=health_report(folder,state,failures,status,time.time());status.update(expiresWithin24Hours=health['expiresWithin24Hours'],retryAfterExpiry=health['retryAfterExpiry'],capacityStatus=health['capacityStatus'])
         report.write_text(json.dumps(status,indent=2),encoding='utf-8')
         print(json.dumps(status))
 
