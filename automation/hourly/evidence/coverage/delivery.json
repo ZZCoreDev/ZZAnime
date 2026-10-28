@@ -1,0 +1,14 @@
+{
+  "installed": true,
+  "enabled": true,
+  "commit": "664ed11bb9d0312581333ef3412bfb697b0f962f",
+  "verifiedFiles": {
+    "archive_coverage.py": "88f2da0236ff12f5e12915ea33d61a24a0303a8ebcbb1faf15d7f2a7c9fa0155",
+    "renew.py": "505e7263d27914cf018fdc5e52a4141ea821d940fe8f14b79c235466a18f7bd9",
+    "coverage-baseline.json.gz": "85a99b9bfc5bc8a204003073998915ca66250ec55f3414691e4d7e834ead29ba",
+    "test_archive_coverage.py": "2243976bbd939d8bb2c728737bfadf941099547443cf56bc98c8883ac7ed8263",
+    "test_renew.py": "c30fec6addcbf2311189031e35de87e4ab92371532fb5692ac03a6ee76b1495c"
+  },
+  "sourceRequestsDuringAudit": 0,
+  "physicalAndroidVerified": false
+}

@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-28T16:14:33.889Z",
+  "policySha256": "1de18b54304b18562006c0dceaa24a63eaf935b2a520bf2d401b55e6e411ab02",
+  "results": [
+    {
+      "title": "Mao",
+      "episode": 2,
+      "archiveKey": "c333b10a50a95b6b716fe454f3677b301e6771f33de9331c3148b811d1ba2c81",
+      "archivedAt": "2026-10-28T16:11:20.473Z",
+      "played": true,
+      "attempts": [
+        {
+          "family": "mp4upload",
+          "host": "mp4upload.com",
+          "played": true,
+          "video": {
+            "ready": 4,
+            "time": 2.383882,
+            "duration": 1528.874,
+            "error": 0
+          },
+          "bootstrapServedLocally": 1,
+          "jkRequestsBlocked": 0,
+          "jkNetworkAllowed": false
+        }
+      ]
+    },
+    {
+      "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+      "episode": 2,
+      "archiveKey": "8ee1fbac29401b4d3271ce20822463b773b5e0c30b7e867138fc754ce7880707",
+      "archivedAt": "2026-10-28T16:11:22.464Z",
+      "played": true,
+      "attempts": [
+        {
+          "family": "mp4upload",
+          "host": "mp4upload.com",
+          "played": true,
+          "video": {
+            "ready": 4,
+            "time": 2.398119,
+            "duration": 1421.984,
+            "error": 0
+          },
+          "bootstrapServedLocally": 1,
+          "jkRequestsBlocked": 0,
+          "jkNetworkAllowed": false
+        }
+      ],
+      "reusedEvidence": true
+    }
+  ],
+  "allTwoPlayed": true,
+  "appScriptsAndProviderScopes": true,
+  "jkNetworkAllowed": false,
+  "physicalAndroidVerified": false,
+  "appIntegrated": false,
+  "videosSaved": false,
+  "aiCalls": 0
+}
