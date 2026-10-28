@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-28T15:30:40.252219+00:00",
+  "cause": "numeric-apostrophe-entity-rejected-title",
+  "initialCollectionOmittedSeries": true,
+  "renewalDidNotDeleteThem": true,
+  "firstDelivery": {
+    "state": "complete",
+    "startedAt": "2026-10-28T15:18:06.235739+00:00",
+    "apkRequired": false,
+    "steps": [
+      {
+        "name": "batch",
+        "passed": true
+      },
+      {
+        "name": "test_import_recovered.py",
+        "passed": true
+      },
+      {
+        "name": "test_renew.py",
+        "passed": true
+      },
+      {
+        "name": "test_cloud.py",
+        "passed": true
+      },
+      {
+        "name": "export",
+        "passed": true
+      },
+      {
+        "name": "entity-tests",
+        "passed": true
+      },
+      {
+        "name": "parser-tests",
+        "passed": true
+      },
+      {
+        "name": "collector-parser",
+        "passed": true
+      },
+      {
+        "name": "install",
+        "passed": true
+      }
+    ],
+    "run": 40714623776,
+    "workflow": {
+      "conclusion": "success",
+      "status": "completed",
+      "url": "https://github.com/ZZCoreDev/ZZAnime/actions/runs/40714623776"
+    },
+    "imported": 39,
+    "held": 0,
+    "reused": 0,
+    "signatureVerified": true,
+    "hashesVerified": true,
+    "received": {
+      "https://jkanime.net/vivy-fluorite-eyes-song/": 13,
+      "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/": 26
+    },
+    "physicalAndroidVerified": false
+  },
+  "groupState": {
+    "state": "deliver-title-group",
+    "startedAt": "2026-10-28T15:19:47.625944+00:00",
+    "aiCalls": 0,
+    "repeatExistingEpisodes": false,
+    "apkRequired": false
+  },
+  "sourceHeld": {
+    "https://jkanime.net/the-horrors-horror-home/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/boku-no-hero-academia-the-movie-4-youre-next/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/lupin-iii-vs-cats-eye/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/bang-dream-movie-poppin-dream/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/fatestay-night-movie-heavens-feel-iii-spring-song/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/goblin-slayer-goblins-crown/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/fatestay-night-movie-heavens-feel-ii-lost-butterfly/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/fatestay-night-movie-heavens-feel-i-presage-flower/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/luck-logic/": "No complete observed listing",
+    "https://jkanime.net/kyoukai-no-kanata-movie-ill-be-here-mirai-hen/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/persona-3-the-movie-2-midsummer-knights-dream/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-2nd-as/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/queens-blade-rebellion-vs-hagure-yuusha-no-estetica/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/dragon-ball-z-movie-02-the-worlds-strongest/1/": "Chapter recovery failed; original incident retained",
+    "https://jkanime.net/kikis-delivery-service/1/": "Chapter recovery failed; original incident retained"
+  },
+  "physicalAndroidVerified": false,
+  "apkRequired": false
+}
