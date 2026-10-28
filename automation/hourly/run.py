@@ -75,18 +75,19 @@ def main():
     incoming=result['state'];newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     for url in newly_deferred:deferred[url]=instant.timestamp()
     for url,ep in incoming['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
-    merge_observations(state,incoming);record_recent(state,result.get('recent',[]),instant);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
+    merge_observations(state,incoming);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
  state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)
- # Migrate the genuinely observed homepage baseline; do not re-label historical providers as fresh.
+ # Undo the obsolete homepage baseline only; preserve collected options and true news observations.
  seed_path=W/'recent-seed.json'
  if seed_path.exists():
   seed_body=seed_path.read_bytes();seed_hash=sha(seed_body)
-  if state.get('recentSeedHash')!=seed_hash:
-   seed=json.loads(seed_body);observed=datetime.datetime.fromisoformat(seed['observedAt'].replace('Z','+00:00'))
-   if seed.get('source')=='https://jkanime.net/' and 0<=(now-observed).total_seconds()<=7*86400:
-    record_recent(state,seed['recent'],observed);state['recentSeedHash']=seed_hash;save_observations(D,state,set())
+  if state.get('recentSeedHash')==seed_hash:
+   seed=json.loads(seed_body);observed=datetime.datetime.fromisoformat(seed['observedAt'].replace('Z','+00:00')).isoformat().replace('+00:00','Z')
+   for url in seed['recent']:
+    if state.get('newsSeen',{}).get(url)==observed:state['newsSeen'].pop(url)
+   state['recentSeedHash']='removed';save_observations(D,state,set())
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
   for ep in state['episodes'].values():
