@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T22:07:19.002452+00:00",
+  "checkedAt": "2026-10-28T22:22:34.737375+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73396,
   "storedChapters": 71442,
@@ -14190,7 +14190,118 @@
         "title": "Sabikui Bisco",
         "samples": [
           "https://jkanime.net/sabikui-bisco/1/",
-          "https://jkanime.net/sabikui-bisco/2/"
+          "https://jkanime.net/sabikui-bisco/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gensou-sangokushi-tengen-reishinki/",
+        "title": "Gensou Sangokushi: Tengen Reishinki",
+        "samples": [
+          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/1/",
+          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-kyojin-the-final-season-part-2/",
+        "title": "Shingeki no Kyojin: The Final Season Part 2",
+        "samples": [
+          "https://jkanime.net/shingeki-no-kyojin-the-final-season-part-2/1/",
+          "https://jkanime.net/shingeki-no-kyojin-the-final-season-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sasaki-to-miyano/",
+        "title": "Sasaki to Miyano",
+        "samples": [
+          "https://jkanime.net/sasaki-to-miyano/1/",
+          "https://jkanime.net/sasaki-to-miyano/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tribe-nine/",
+        "title": "Tribe Nine",
+        "samples": [
+          "https://jkanime.net/tribe-nine/1/",
+          "https://jkanime.net/tribe-nine/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sono-bisque-doll-wa-koi-wo-suru/",
+        "title": "Sono Bisque Doll wa Koi wo Suru",
+        "samples": [
+          "https://jkanime.net/sono-bisque-doll-wa-koi-wo-suru/1/",
+          "https://jkanime.net/sono-bisque-doll-wa-koi-wo-suru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baraou-no-souretsu/",
+        "title": "Baraou no Souretsu",
+        "samples": [
+          "https://jkanime.net/baraou-no-souretsu/1/",
+          "https://jkanime.net/baraou-no-souretsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akebi-chan-no-sailor-fuku/",
+        "title": "Akebi-chan no Sailor-fuku",
+        "samples": [
+          "https://jkanime.net/akebi-chan-no-sailor-fuku/1/",
+          "https://jkanime.net/akebi-chan-no-sailor-fuku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futsal-boys/",
+        "title": "Futsal Boys!!!!!",
+        "samples": [
+          "https://jkanime.net/futsal-boys/1/",
+          "https://jkanime.net/futsal-boys/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/",
+        "title": "Kaijin Kaihatsu-bu no Kuroitsu-san",
+        "samples": [
+          "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/1/",
+          "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sabiiro-no-armor-reimei/",
+        "title": "Sabiiro no Armor: Reimei",
+        "samples": [
+          "https://jkanime.net/sabiiro-no-armor-reimei/1/",
+          "https://jkanime.net/sabiiro-no-armor-reimei/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shuumatsu-no-harem/",
+        "title": "Shuumatsu no Harem",
+        "samples": [
+          "https://jkanime.net/shuumatsu-no-harem/1/",
+          "https://jkanime.net/shuumatsu-no-harem/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/karakai-jouzu-no-takagi-san-3/",
+        "title": "Karakai Jouzu no Takagi-san 3",
+        "samples": [
+          "https://jkanime.net/karakai-jouzu-no-takagi-san-3/1/",
+          "https://jkanime.net/karakai-jouzu-no-takagi-san-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shikkakumon-no-saikyou-kenja/",
+        "title": "Shikkakumon no Saikyou Kenja",
+        "samples": [
+          "https://jkanime.net/shikkakumon-no-saikyou-kenja/1/",
+          "https://jkanime.net/shikkakumon-no-saikyou-kenja/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cue/",
+        "title": "Cue!",
+        "samples": [
+          "https://jkanime.net/cue/1/"
         ]
       },
       {
@@ -50650,7 +50761,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50663,32 +50774,36 @@
     {
       "series": "https://jkanime.net/gensou-sangokushi-tengen-reishinki/",
       "title": "Gensou Sangokushi: Tengen Reishinki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 11,
+        "mega": 8,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 10,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shingeki-no-kyojin-the-final-season-part-2/",
       "title": "Shingeki no Kyojin: The Final Season Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50701,13 +50816,15 @@
     {
       "series": "https://jkanime.net/sasaki-to-miyano/",
       "title": "Sasaki to Miyano",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50720,13 +50837,15 @@
     {
       "series": "https://jkanime.net/tribe-nine/",
       "title": "Tribe Nine",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50747,24 +50866,23 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sono-bisque-doll-wa-koi-wo-suru/",
       "title": "Sono Bisque Doll wa Koi wo Suru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50777,13 +50895,15 @@
     {
       "series": "https://jkanime.net/baraou-no-souretsu/",
       "title": "Baraou no Souretsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -50796,13 +50916,15 @@
     {
       "series": "https://jkanime.net/akebi-chan-no-sailor-fuku/",
       "title": "Akebi-chan no Sailor-fuku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -50815,70 +50937,78 @@
     {
       "series": "https://jkanime.net/futsal-boys/",
       "title": "Futsal Boys!!!!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/",
       "title": "Kaijin Kaihatsu-bu no Kuroitsu-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12,
-        "mega": 11
+        "streamtape": 11,
+        "mega": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sabiiro-no-armor-reimei/",
       "title": "Sabiiro no Armor: Reimei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 8,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shuumatsu-no-harem/",
       "title": "Shuumatsu no Harem",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -50891,13 +51021,15 @@
     {
       "series": "https://jkanime.net/karakai-jouzu-no-takagi-san-3/",
       "title": "Karakai Jouzu no Takagi-san 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50910,13 +51042,15 @@
     {
       "series": "https://jkanime.net/shikkakumon-no-saikyou-kenja/",
       "title": "Shikkakumon no Saikyou Kenja",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50948,19 +51082,21 @@
     {
       "series": "https://jkanime.net/cue/",
       "title": "Cue!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 24,
+        "mega": 22,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 22
       },
       "playbackVerified": false
     },
