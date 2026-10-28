@@ -1,14 +1,14 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-10-28T19:36:20.569268+00:00",
+  "checkedAt": "2026-10-28T19:49:29.961940+00:00",
   "requested": 400,
-  "renewed": 41,
-  "failed": 9260,
+  "renewed": 62,
+  "failed": 9548,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "40755723718",
+  "runId": "40757682990",
   "retryDeadlinesRepaired": 0,
   "proof": false,
   "identityRetriesReleased": 0,
@@ -21,22 +21,22 @@
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 20,
-      "pendingFailures": 6,
+      "fresh": 21,
+      "pendingFailures": 5,
       "state": "pending"
     }
   },
   "incidentDiagnosis": {
-    "series": 1086,
-    "diagnosedSeries": 1008,
-    "pendingSeries": 78
+    "series": 1140,
+    "diagnosedSeries": 1080,
+    "pendingSeries": 60
   },
   "archiveCoverage": {
-    "checkedAt": "2026-10-28T19:48:53.766049+00:00",
+    "checkedAt": "2026-10-28T20:02:04.179343+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73321,
-    "storedChapters": 71367,
-    "missingChapters": 1954,
+    "observedChapters": 73345,
+    "storedChapters": 71385,
+    "missingChapters": 1960,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 52,
