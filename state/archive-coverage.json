@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T22:36:58.656651+00:00",
+  "checkedAt": "2026-10-28T22:51:16.178561+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73434,
   "storedChapters": 71442,
@@ -14484,6 +14484,30 @@
         ]
       },
       {
+        "series": "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/",
+        "title": "180 Byou de Kimi no Mimi wo Shiawase ni Dekiru ka?",
+        "samples": [
+          "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/5/",
+          "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/8/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/deep-insanity-the-lost-child/",
+        "title": "Deep Insanity: The Lost Child",
+        "samples": [
+          "https://jkanime.net/deep-insanity-the-lost-child/1/",
+          "https://jkanime.net/deep-insanity-the-lost-child/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaginado/",
+        "title": "Kaginado",
+        "samples": [
+          "https://jkanime.net/kaginado/1/",
+          "https://jkanime.net/kaginado/12/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bright-samurai-soul/",
         "title": "Bright: Samurai Soul",
         "samples": [
@@ -14491,10 +14515,146 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gyakuten-sekai-no-denchi-shoujo/",
+        "title": "Gyakuten Sekai no Denchi Shoujo",
+        "samples": [
+          "https://jkanime.net/gyakuten-sekai-no-denchi-shoujo/1/",
+          "https://jkanime.net/gyakuten-sekai-no-denchi-shoujo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dou-shen-ji/",
+        "title": "Dou Shen Ji",
+        "samples": [
+          "https://jkanime.net/dou-shen-ji/1/",
+          "https://jkanime.net/dou-shen-ji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meng-qi-shi-shen-zaijie-liangyuan/",
+        "title": "Meng Qi Shi Shen: Zaijie Liangyuan",
+        "samples": [
+          "https://jkanime.net/meng-qi-shi-shen-zaijie-liangyuan/1/",
+          "https://jkanime.net/meng-qi-shi-shen-zaijie-liangyuan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/build-divide-code-black/",
+        "title": "Build Divide: Code Black",
+        "samples": [
+          "https://jkanime.net/build-divide-code-black/1/",
+          "https://jkanime.net/build-divide-code-black/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senpai-ga-uzai-kouhai-no-hanashi/",
+        "title": "Senpai ga Uzai Kouhai no Hanashi",
+        "samples": [
+          "https://jkanime.net/senpai-ga-uzai-kouhai-no-hanashi/1/",
+          "https://jkanime.net/senpai-ga-uzai-kouhai-no-hanashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/world-trigger-3rd-season/",
+        "title": "World Trigger 3rd Season",
+        "samples": [
+          "https://jkanime.net/world-trigger-3rd-season/1/",
+          "https://jkanime.net/world-trigger-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shikizakura/",
+        "title": "Shikizakura",
+        "samples": [
+          "https://jkanime.net/shikizakura/1/",
+          "https://jkanime.net/shikizakura/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
           "https://jkanime.net/kamiarizuki-no-kodomo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saihate-no-paladin/",
+        "title": "Saihate no Paladin",
+        "samples": [
+          "https://jkanime.net/saihate-no-paladin/1/",
+          "https://jkanime.net/saihate-no-paladin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/visual-prison/",
+        "title": "Visual Prison",
+        "samples": [
+          "https://jkanime.net/visual-prison/1/",
+          "https://jkanime.net/visual-prison/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taishou-otome-otogibanashi/",
+        "title": "Taishou Otome Otogibanashi",
+        "samples": [
+          "https://jkanime.net/taishou-otome-otogibanashi/1/",
+          "https://jkanime.net/taishou-otome-otogibanashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
+        "title": "Komi-san wa, Comyushou desu.",
+        "samples": [
+          "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
+          "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/platinum-end/",
+        "title": "Platinum End",
+        "samples": [
+          "https://jkanime.net/platinum-end/1/",
+          "https://jkanime.net/platinum-end/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gokushufudou-part-2/",
+        "title": "Gokushufudou Part 2",
+        "samples": [
+          "https://jkanime.net/gokushufudou-part-2/1/",
+          "https://jkanime.net/gokushufudou-part-2/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/muv-luv-alternative/",
+        "title": "Muv-Luv Alternative",
+        "samples": [
+          "https://jkanime.net/muv-luv-alternative/1/",
+          "https://jkanime.net/muv-luv-alternative/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lie-huo-jiao-chou/",
+        "title": "Lie Huo Jiao Chou",
+        "samples": [
+          "https://jkanime.net/lie-huo-jiao-chou/1/",
+          "https://jkanime.net/lie-huo-jiao-chou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakugan/",
+        "title": "Sakugan",
+        "samples": [
+          "https://jkanime.net/sakugan/1/",
+          "https://jkanime.net/sakugan/2/"
         ]
       },
       {
@@ -51857,7 +52017,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -51870,32 +52030,36 @@
     {
       "series": "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/",
       "title": "180 Byou de Kimi no Mimi wo Shiawase ni Dekiru ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/deep-insanity-the-lost-child/",
       "title": "Deep Insanity: The Lost Child",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51908,19 +52072,21 @@
     {
       "series": "https://jkanime.net/kaginado/",
       "title": "Kaginado",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 11,
+        "mega": 9,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -51945,13 +52111,15 @@
     {
       "series": "https://jkanime.net/gyakuten-sekai-no-denchi-shoujo/",
       "title": "Gyakuten Sekai no Denchi Shoujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51965,13 +52133,15 @@
     {
       "series": "https://jkanime.net/dou-shen-ji/",
       "title": "Dou Shen Ji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51984,13 +52154,15 @@
     {
       "series": "https://jkanime.net/meng-qi-shi-shen-zaijie-liangyuan/",
       "title": "Meng Qi Shi Shen: Zaijie Liangyuan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52003,13 +52175,15 @@
     {
       "series": "https://jkanime.net/build-divide-code-black/",
       "title": "Build Divide: Code Black",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52022,13 +52196,15 @@
     {
       "series": "https://jkanime.net/senpai-ga-uzai-kouhai-no-hanashi/",
       "title": "Senpai ga Uzai Kouhai no Hanashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52041,13 +52217,15 @@
     {
       "series": "https://jkanime.net/world-trigger-3rd-season/",
       "title": "World Trigger 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -52060,13 +52238,15 @@
     {
       "series": "https://jkanime.net/shikizakura/",
       "title": "Shikizakura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52079,13 +52259,15 @@
     {
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -52133,13 +52315,15 @@
     {
       "series": "https://jkanime.net/saihate-no-paladin/",
       "title": "Saihate no Paladin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52152,13 +52336,15 @@
     {
       "series": "https://jkanime.net/visual-prison/",
       "title": "Visual Prison",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52171,13 +52357,15 @@
     {
       "series": "https://jkanime.net/taishou-otome-otogibanashi/",
       "title": "Taishou Otome Otogibanashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52190,13 +52378,15 @@
     {
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
       "title": "Komi-san wa, Comyushou desu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52209,32 +52399,36 @@
     {
       "series": "https://jkanime.net/platinum-end/",
       "title": "Platinum End",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 24,
+        "mega": 23,
         "streamwish": 24,
         "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "mp4upload": 23,
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gokushufudou-part-2/",
       "title": "Gokushufudou Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -52247,13 +52441,15 @@
     {
       "series": "https://jkanime.net/muv-luv-alternative/",
       "title": "Muv-Luv Alternative",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52266,13 +52462,15 @@
     {
       "series": "https://jkanime.net/lie-huo-jiao-chou/",
       "title": "Lie Huo Jiao Chou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52285,13 +52483,15 @@
     {
       "series": "https://jkanime.net/sakugan/",
       "title": "Sakugan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
