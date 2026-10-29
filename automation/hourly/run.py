@@ -58,11 +58,13 @@ def build(state,approved,now):
  return index,files
 def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
+ collected=0;recent_added=0
  if '--collect' in sys.argv:
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.
   if os.environ.get('ZZ_COLLECTOR_URL'):
    import urllib.request
    state=load_observations(D)
+   incidents_path=D/'news-incidents.json';incidents=json.loads(incidents_path.read_bytes()) if incidents_path.exists() else {};primary='not-checked'
    instant=datetime.datetime.now(datetime.timezone.utc)
    put(D/'collection-status.json',raw({'state':'checking','lastAttempt':instant.isoformat().replace('+00:00','Z'),'retryMinutes':RETRY_SECONDS//60}))
    for attempt in range(1 if proof else COLLECTION_BATCHES):
@@ -72,12 +74,19 @@ def main():
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
-    incoming=result['state'];newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    incoming=result['state'];collected+=len(incoming['episodes']);newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
+    for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
+    for url in incoming['episodes']:incidents.pop(url,None)
+    put(incidents_path,raw(incidents))
     for url in newly_deferred:deferred[url]=instant.timestamp()
     for url,ep in incoming['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
-    merge_observations(state,incoming);state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':result.get('primary'),'held':result.get('held',0),'pending':len(state['pending']),'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
+    merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
+  # Historical changes remain for renewal's final publish; an empty news check must not redeploy them.
+  if '--news-only' in sys.argv and os.environ.get('ZZ_COLLECTOR_URL') and not proof and collected==0 and recent_added==0:
+   print(json.dumps({'newsUnchanged':True,'historicalPublicationDeferred':True,'aiCalls':0}));return
  state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)
  # Undo the obsolete homepage baseline only; preserve collected options and true news observations.
  seed_path=W/'recent-seed.json'

@@ -23,7 +23,7 @@ def check(folder):
     if os.environ.get('ZZ_NEWS_WATCHDOG_ENABLED')!='true' or not due(folder,now):return False
     report={'attemptedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'state':'running','aiCalls':0,'pcRequired':False}
     try:
-        subprocess.run([sys.executable,str(Path(__file__).with_name('run.py')),'--collect','--publish'],check=True)
+        subprocess.run([sys.executable,str(Path(__file__).with_name('run.py')),'--news-only','--collect','--publish'],check=True)
         report.update(state='complete',retryAt=0)
     except Exception as error:
         # Existing workflow logs retain the failure; never store credentials/output in public state.

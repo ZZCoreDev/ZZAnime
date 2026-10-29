@@ -36,6 +36,7 @@ jobs:
           npm ci --ignore-scripts --no-audit --no-fund
           python3 -m pip install cryptography==46.0.3
           python3 test_cloud.py
+          python3 test_news_empty.py
           node test_identities.cjs
           node test_flv_tokens.cjs
           node test_source_diagnostics.cjs
@@ -79,3 +80,4 @@ jobs:
             git commit -m 'Actualizar observaciones y comprobaciones de capítulos'
             git push origin HEAD:provider-data
           fi
+
