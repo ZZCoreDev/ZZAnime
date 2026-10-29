@@ -1,9 +1,26 @@
 {
   "state": "complete",
-  "captured": 2,
+  "captured": 0,
   "twoSeries": true,
+  "reusedSourceObservations": true,
+  "legacyRepair": {
+    "restored": 0,
+    "held": [
+      "https://jkanime.net/watashi-no-shiawase-na-kekkon/29/"
+    ],
+    "originalDatesPreserved": true,
+    "voeObservationRetained": true
+  },
+  "mergedClient": {
+    "twoSeriesMerged": true,
+    "offlineCacheRetained": true,
+    "physicalAndroidPlayback": false,
+    "duplicateOptions": 0,
+    "badSignatureIsolated": true,
+    "legacyOptionsRetained": true
+  },
   "legacyUnchanged": true,
   "published": true,
   "physicalAndroidPlayback": false,
-  "checkedAt": "2026-10-29T06:26:53.099729+00:00"
+  "checkedAt": "2026-10-29T06:49:05.732896+00:00"
 }
