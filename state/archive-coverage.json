@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T02:25:16.562401+00:00",
+  "checkedAt": "2026-10-29T02:40:04.622957+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73481,
   "storedChapters": 71450,
@@ -16913,7 +16913,103 @@
         "title": "Olympia Kyklos",
         "samples": [
           "https://jkanime.net/olympia-kyklos/1/",
-          "https://jkanime.net/olympia-kyklos/2/"
+          "https://jkanime.net/olympia-kyklos/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kitsutsuki-tanteidokoro/",
+        "title": "Kitsutsuki Tanteidokoro",
+        "samples": [
+          "https://jkanime.net/kitsutsuki-tanteidokoro/1/",
+          "https://jkanime.net/kitsutsuki-tanteidokoro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shokugeki-no-souma-gou-no-sara/",
+        "title": "Shokugeki no Souma: Gou no Sara",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma-gou-no-sara/1/",
+          "https://jkanime.net/shokugeki-no-souma-gou-no-sara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-2/",
+        "title": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen season 2",
+        "samples": [
+          "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-2/1/",
+          "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fugou-keiji-balanceunlimited/",
+        "title": "Fugou Keiji: Balance:Unlimited",
+        "samples": [
+          "https://jkanime.net/fugou-keiji-balanceunlimited/1/",
+          "https://jkanime.net/fugou-keiji-balanceunlimited/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zashiki-warashi-no-tatami-chan/",
+        "title": "Zashiki Warashi no Tatami-chan",
+        "samples": [
+          "https://jkanime.net/zashiki-warashi-no-tatami-chan/1/",
+          "https://jkanime.net/zashiki-warashi-no-tatami-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strike-the-blood-iv/",
+        "title": "Strike the Blood IV",
+        "samples": [
+          "https://jkanime.net/strike-the-blood-iv/1/",
+          "https://jkanime.net/strike-the-blood-iv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/princess-connect-redive/",
+        "title": "Princess Connect! Re:Dive",
+        "samples": [
+          "https://jkanime.net/princess-connect-redive/1/",
+          "https://jkanime.net/princess-connect-redive/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fruits-basket-2nd-season/",
+        "title": "Fruits Basket 2nd Season",
+        "samples": [
+          "https://jkanime.net/fruits-basket-2nd-season/1/",
+          "https://jkanime.net/fruits-basket-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shadowverse-tv/",
+        "title": "Shadowverse (TV)",
+        "samples": [
+          "https://jkanime.net/shadowverse-tv/1/",
+          "https://jkanime.net/shadowverse-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/houkago-teibou-nisshi/",
+        "title": "Houkago Teibou Nisshi",
+        "samples": [
+          "https://jkanime.net/houkago-teibou-nisshi/1/",
+          "https://jkanime.net/houkago-teibou-nisshi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-no-yubi-de-midarero-heitengo-futarikiri-no-salon/",
+        "title": "Ore no Yubi de Midarero.: Heitengo Futarikiri no Salon de...",
+        "samples": [
+          "https://jkanime.net/ore-no-yubi-de-midarero-heitengo-futarikiri-no-salon/1/",
+          "https://jkanime.net/ore-no-yubi-de-midarero-heitengo-futarikiri-no-salon/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shironeko-project-zero-chronicle/",
+        "title": "Shironeko Project: Zero Chronicle",
+        "samples": [
+          "https://jkanime.net/shironeko-project-zero-chronicle/1/",
+          "https://jkanime.net/shironeko-project-zero-chronicle/10/"
         ]
       },
       {
@@ -16922,6 +17018,46 @@
         "samples": [
           "https://jkanime.net/jashin-chan-dropkick-s2/1/",
           "https://jkanime.net/jashin-chan-dropkick-s2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gleipnir/",
+        "title": "Gleipnir",
+        "samples": [
+          "https://jkanime.net/gleipnir/1/",
+          "https://jkanime.net/gleipnir/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kingdom-3rd-season/",
+        "title": "Kingdom 3rd Season",
+        "samples": [
+          "https://jkanime.net/kingdom-3rd-season/1/",
+          "https://jkanime.net/kingdom-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsugu-tsugumomo/",
+        "title": "Tsugu Tsugumomo",
+        "samples": [
+          "https://jkanime.net/tsugu-tsugumomo/1/",
+          "https://jkanime.net/tsugu-tsugumomo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shachou-battle-no-jikan-desu/",
+        "title": "Shachou, Battle no Jikan Desu!",
+        "samples": [
+          "https://jkanime.net/shachou-battle-no-jikan-desu/1/",
+          "https://jkanime.net/shachou-battle-no-jikan-desu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/digimon-adventure-2020/",
+        "title": "Digimon Adventure 2020",
+        "samples": [
+          "https://jkanime.net/digimon-adventure-2020/1/",
+          "https://jkanime.net/digimon-adventure-2020/2/"
         ]
       },
       {
@@ -61184,7 +61320,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -61198,13 +61334,15 @@
     {
       "series": "https://jkanime.net/kitsutsuki-tanteidokoro/",
       "title": "Kitsutsuki Tanteidokoro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61217,13 +61355,15 @@
     {
       "series": "https://jkanime.net/shokugeki-no-souma-gou-no-sara/",
       "title": "Shokugeki no Souma: Gou no Sara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -61236,13 +61376,15 @@
     {
       "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-2/",
       "title": "Kaguya-sama wa Kokurasetai?: Tensai-tachi no Renai Zunousen season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61255,13 +61397,15 @@
     {
       "series": "https://jkanime.net/fugou-keiji-balanceunlimited/",
       "title": "Fugou Keiji: Balance:Unlimited",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -61274,13 +61418,15 @@
     {
       "series": "https://jkanime.net/zashiki-warashi-no-tatami-chan/",
       "title": "Zashiki Warashi no Tatami-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61293,13 +61439,15 @@
     {
       "series": "https://jkanime.net/strike-the-blood-iv/",
       "title": "Strike the Blood IV",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61312,13 +61460,15 @@
     {
       "series": "https://jkanime.net/princess-connect-redive/",
       "title": "Princess Connect! Re:Dive",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -61331,13 +61481,15 @@
     {
       "series": "https://jkanime.net/fruits-basket-2nd-season/",
       "title": "Fruits Basket 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -61351,7 +61503,8 @@
       "series": "https://jkanime.net/shadowverse-tv/",
       "title": "Shadowverse (TV)",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 48,
       "stored": 37,
@@ -61370,7 +61523,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 37,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -61383,32 +61536,36 @@
     {
       "series": "https://jkanime.net/houkago-teibou-nisshi/",
       "title": "Houkago Teibou Nisshi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
+        "mega": 8,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ore-no-yubi-de-midarero-heitengo-futarikiri-no-salon/",
       "title": "Ore no Yubi de Midarero.: Heitengo Futarikiri no Salon de...",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -61421,13 +61578,15 @@
     {
       "series": "https://jkanime.net/shironeko-project-zero-chronicle/",
       "title": "Shironeko Project: Zero Chronicle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61468,13 +61627,15 @@
     {
       "series": "https://jkanime.net/gleipnir/",
       "title": "Gleipnir",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -61487,13 +61648,15 @@
     {
       "series": "https://jkanime.net/kingdom-3rd-season/",
       "title": "Kingdom 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -61506,13 +61669,15 @@
     {
       "series": "https://jkanime.net/tsugu-tsugumomo/",
       "title": "Tsugu Tsugumomo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61525,32 +61690,36 @@
     {
       "series": "https://jkanime.net/shachou-battle-no-jikan-desu/",
       "title": "Shachou, Battle no Jikan Desu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
+        "mega": 6,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/digimon-adventure-2020/",
       "title": "Digimon Adventure 2020",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 67,
       "stored": 67,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 67,
         "streamwish": 67,
