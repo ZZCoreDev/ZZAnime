@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T00:03:58.821368+00:00",
+  "checkedAt": "2026-10-29T00:18:59.871933+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73464,
+  "observedChapters": 73467,
   "storedChapters": 71450,
-  "missingChapters": 2014,
+  "missingChapters": 2017,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1363,6 +1363,14 @@
         "title": "86 EIGHTY SIX",
         "samples": [
           "https://jkanime.net/86-eighty-six/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mini-dragon/",
+        "title": "Mini Dragon",
+        "samples": [
+          "https://jkanime.net/mini-dragon/14/",
+          "https://jkanime.net/mini-dragon/15/"
         ]
       },
       {
@@ -15468,6 +15476,141 @@
         "samples": [
           "https://jkanime.net/mewkledreamy-mix/1/",
           "https://jkanime.net/mewkledreamy-mix/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chibi-revenger/",
+        "title": "Chibi Revenger",
+        "samples": [
+          "https://jkanime.net/chibi-revenger/1/",
+          "https://jkanime.net/chibi-revenger/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blue-reflection-ray/",
+        "title": "Blue Reflection Ray",
+        "samples": [
+          "https://jkanime.net/blue-reflection-ray/10/",
+          "https://jkanime.net/blue-reflection-ray/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/subarashiki-kono-sekai-the-animation/",
+        "title": "Subarashiki Kono Sekai The Animation",
+        "samples": [
+          "https://jkanime.net/subarashiki-kono-sekai-the-animation/1/",
+          "https://jkanime.net/subarashiki-kono-sekai-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita/",
+        "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
+        "samples": [
+          "https://jkanime.net/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita/1/",
+          "https://jkanime.net/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuten/",
+        "title": "Bakuten!!",
+        "samples": [
+          "https://jkanime.net/bakuten/1/",
+          "https://jkanime.net/bakuten/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-2/",
+        "title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu Ω",
+        "samples": [
+          "https://jkanime.net/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-2/1/",
+          "https://jkanime.net/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sd-gundam-world-heroes/",
+        "title": "SD Gundam World Heroes",
+        "samples": [
+          "https://jkanime.net/sd-gundam-world-heroes/10/",
+          "https://jkanime.net/sd-gundam-world-heroes/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/",
+        "title": "Fairy Ranmaru: Anata no Kokoro Otasuke Shimasu",
+        "samples": [
+          "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/1/",
+          "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zombieland-saga-revenge/",
+        "title": "Zombieland Saga: Revenge",
+        "samples": [
+          "https://jkanime.net/zombieland-saga-revenge/1/",
+          "https://jkanime.net/zombieland-saga-revenge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyuukyoku-shinka-shita-full-dive-rpg-ga-genjitsu-yori-mo-kusoge-dattara/",
+        "title": "Kyuukyoku Shinka shita Full Dive RPG ga Genjitsu yori mo Kusoge Dattara",
+        "samples": [
+          "https://jkanime.net/kyuukyoku-shinka-shita-full-dive-rpg-ga-genjitsu-yori-mo-kusoge-dattara/1/",
+          "https://jkanime.net/kyuukyoku-shinka-shita-full-dive-rpg-ga-genjitsu-yori-mo-kusoge-dattara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/super-cub/",
+        "title": "Super Cub",
+        "samples": [
+          "https://jkanime.net/super-cub/10/",
+          "https://jkanime.net/super-cub/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mini-dragon/",
+        "title": "Mini Dragon",
+        "samples": [
+          "https://jkanime.net/mini-dragon/14/",
+          "https://jkanime.net/mini-dragon/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gokushufudou/",
+        "title": "Gokushufudou",
+        "samples": [
+          "https://jkanime.net/gokushufudou/1/",
+          "https://jkanime.net/gokushufudou/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fruits-basket-the-final/",
+        "title": "Fruits Basket: The Final",
+        "samples": [
+          "https://jkanime.net/fruits-basket-the-final/1/",
+          "https://jkanime.net/fruits-basket-the-final/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tensura-nikki-tensei-shitara-slime-datta-ken/",
+        "title": "Tensura Nikki: Tensei shitara Slime Datta Ken",
+        "samples": [
+          "https://jkanime.net/tensura-nikki-tensei-shitara-slime-datta-ken/1/",
+          "https://jkanime.net/tensura-nikki-tensei-shitara-slime-datta-ken/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seijo-no-maryoku-wa-bannou-desu/",
+        "title": "Seijo no Maryoku wa Bannou Desu",
+        "samples": [
+          "https://jkanime.net/seijo-no-maryoku-wa-bannou-desu/1/",
+          "https://jkanime.net/seijo-no-maryoku-wa-bannou-desu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/",
+        "title": "Seven Knights Revolution: Eiyuu no Keishousha",
+        "samples": [
+          "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/1/"
         ]
       },
       {
@@ -55571,7 +55714,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 37,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -55584,13 +55727,15 @@
     {
       "series": "https://jkanime.net/chibi-revenger/",
       "title": "Chibi Revenger",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -55603,32 +55748,36 @@
     {
       "series": "https://jkanime.net/blue-reflection-ray/",
       "title": "Blue Reflection Ray",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 24,
+        "mp4upload": 24,
         "streamwish": 24,
         "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "mega": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/subarashiki-kono-sekai-the-animation/",
       "title": "Subarashiki Kono Sekai The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55641,13 +55790,15 @@
     {
       "series": "https://jkanime.net/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita/",
       "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55660,13 +55811,15 @@
     {
       "series": "https://jkanime.net/bakuten/",
       "title": "Bakuten!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55679,13 +55832,15 @@
     {
       "series": "https://jkanime.net/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-2/",
       "title": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu Ω",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -55698,51 +55853,57 @@
     {
       "series": "https://jkanime.net/sd-gundam-world-heroes/",
       "title": "SD Gundam World Heroes",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "mp4upload": 23,
+        "mega": 13,
+        "streamwish": 14,
+        "vidhide": 13,
+        "streamtape": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/",
       "title": "Fairy Ranmaru: Anata no Kokoro Otasuke Shimasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/zombieland-saga-revenge/",
       "title": "Zombieland Saga: Revenge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55755,13 +55916,15 @@
     {
       "series": "https://jkanime.net/kyuukyoku-shinka-shita-full-dive-rpg-ga-genjitsu-yori-mo-kusoge-dattara/",
       "title": "Kyuukyoku Shinka shita Full Dive RPG ga Genjitsu yori mo Kusoge Dattara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55774,51 +55937,62 @@
     {
       "series": "https://jkanime.net/super-cub/",
       "title": "Super Cub",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 14,
+        "streamwish": 14,
+        "vidhide": 14,
+        "mega": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mini-dragon/",
       "title": "Mini Dragon",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 16,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/mini-dragon/14/",
+        "https://jkanime.net/mini-dragon/15/",
+        "https://jkanime.net/mini-dragon/16/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 7,
+        "mega": 6,
+        "vidhide": 6,
+        "mp4upload": 12,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gokushufudou/",
       "title": "Gokushufudou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -55831,13 +56005,15 @@
     {
       "series": "https://jkanime.net/fruits-basket-the-final/",
       "title": "Fruits Basket: The Final",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -55858,24 +56034,23 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tensura-nikki-tensei-shitara-slime-datta-ken/",
       "title": "Tensura Nikki: Tensei shitara Slime Datta Ken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -55888,13 +56063,15 @@
     {
       "series": "https://jkanime.net/seijo-no-maryoku-wa-bannou-desu/",
       "title": "Seijo no Maryoku wa Bannou Desu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55908,19 +56085,21 @@
     {
       "series": "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/",
       "title": "Seven Knights Revolution: Eiyuu no Keishousha",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 11,
+        "mega": 9,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
