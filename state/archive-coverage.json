@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T03:21:16.383967+00:00",
+  "checkedAt": "2026-10-29T03:36:41.358972+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73481,
+  "observedChapters": 73482,
   "storedChapters": 71450,
-  "missingChapters": 2031,
+  "missingChapters": 2032,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1749,6 +1749,13 @@
         "title": "Fragtime",
         "samples": [
           "https://jkanime.net/fragtime/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-2019/",
+        "title": "Pokemon (2019)",
+        "samples": [
+          "https://jkanime.net/pokemon-2019/137/"
         ]
       },
       {
@@ -17488,7 +17495,126 @@
         "series": "https://jkanime.net/overflow/",
         "title": "Overflow",
         "samples": [
-          "https://jkanime.net/overflow/1/"
+          "https://jkanime.net/overflow/1/",
+          "https://jkanime.net/overflow/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu/",
+        "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+        "samples": [
+          "https://jkanime.net/itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu/1/",
+          "https://jkanime.net/itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majutsushi-orphen-hagure-tabi/",
+        "title": "Majutsushi Orphen Hagure Tabi",
+        "samples": [
+          "https://jkanime.net/majutsushi-orphen-hagure-tabi/1/",
+          "https://jkanime.net/majutsushi-orphen-hagure-tabi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyokou-suiri/",
+        "title": "Kyokou Suiri",
+        "samples": [
+          "https://jkanime.net/kyokou-suiri/1/",
+          "https://jkanime.net/kyokou-suiri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heya-camp/",
+        "title": "Heya Camp",
+        "samples": [
+          "https://jkanime.net/heya-camp/1/",
+          "https://jkanime.net/heya-camp/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pet/",
+        "title": "Pet",
+        "samples": [
+          "https://jkanime.net/pet/1/",
+          "https://jkanime.net/pet/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idolish7-second-beat/",
+        "title": "IDOLiSH7: Second Beat!",
+        "samples": [
+          "https://jkanime.net/idolish7-second-beat/1/",
+          "https://jkanime.net/idolish7-second-beat/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/murenase-seton-gakuen/",
+        "title": "Murenase! Seton Gakuen",
+        "samples": [
+          "https://jkanime.net/murenase-seton-gakuen/1/",
+          "https://jkanime.net/murenase-seton-gakuen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idinvaded/",
+        "title": "ID:Invaded",
+        "samples": [
+          "https://jkanime.net/idinvaded/1/",
+          "https://jkanime.net/idinvaded/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rebirth/",
+        "title": "Rebirth",
+        "samples": [
+          "https://jkanime.net/rebirth/1/",
+          "https://jkanime.net/rebirth/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eizouken-ni-wa-te-wo-dasu-na/",
+        "title": "Eizouken ni wa Te wo Dasu na!",
+        "samples": [
+          "https://jkanime.net/eizouken-ni-wa-te-wo-dasu-na/1/",
+          "https://jkanime.net/eizouken-ni-wa-te-wo-dasu-na/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv/",
+        "title": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV)",
+        "samples": [
+          "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv/1/",
+          "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yatogame-chan-kansatsu-nikki-nisatsume/",
+        "title": "Yatogame-chan Kansatsu Nikki Nisatsume",
+        "samples": [
+          "https://jkanime.net/yatogame-chan-kansatsu-nikki-nisatsume/7/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koisuru-asteroid/",
+        "title": "Koisuru Asteroid",
+        "samples": [
+          "https://jkanime.net/koisuru-asteroid/1/",
+          "https://jkanime.net/koisuru-asteroid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/somali-to-mori-no-kamisama/",
+        "title": "Somali to Mori no Kamisama",
+        "samples": [
+          "https://jkanime.net/somali-to-mori-no-kamisama/1/",
+          "https://jkanime.net/somali-to-mori-no-kamisama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/",
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
+        "samples": [
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/1/"
         ]
       },
       {
@@ -17496,6 +17622,30 @@
         "title": "Fate/Grand Order: Moonlight/Lostroom",
         "samples": [
           "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saiki-kusuo-no-nan-shidou-hen/",
+        "title": "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen",
+        "samples": [
+          "https://jkanime.net/saiki-kusuo-no-nan-shidou-hen/1/",
+          "https://jkanime.net/saiki-kusuo-no-nan-shidou-hen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zhen-hun-jie-bei-luo-shi-men-pian-part-1/",
+        "title": "Zhen Hun Jie: Bei Luo Shi Men Pian Part 1",
+        "samples": [
+          "https://jkanime.net/zhen-hun-jie-bei-luo-shi-men-pian-part-1/1/",
+          "https://jkanime.net/zhen-hun-jie-bei-luo-shi-men-pian-part-1/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-specials/",
+        "title": "Arifureta Shokugyou de Sekai Saikyou Specials",
+        "samples": [
+          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-specials/1/",
+          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-specials/2/"
         ]
       },
       {
@@ -17517,6 +17667,21 @@
         "title": "Fragtime",
         "samples": [
           "https://jkanime.net/fragtime/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-2/",
+        "title": "Iya na Kao sare nagara Opantsu Misete Moraitai 2",
+        "samples": [
+          "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-2/1/",
+          "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-2/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-2019/",
+        "title": "Pokemon (2019)",
+        "samples": [
+          "https://jkanime.net/pokemon-2019/137/"
         ]
       },
       {
@@ -63421,7 +63586,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -63434,13 +63599,15 @@
     {
       "series": "https://jkanime.net/itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu/",
       "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63454,13 +63621,15 @@
     {
       "series": "https://jkanime.net/majutsushi-orphen-hagure-tabi/",
       "title": "Majutsushi Orphen Hagure Tabi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -63473,13 +63642,15 @@
     {
       "series": "https://jkanime.net/kyokou-suiri/",
       "title": "Kyokou Suiri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63492,13 +63663,15 @@
     {
       "series": "https://jkanime.net/heya-camp/",
       "title": "Heya Camp",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63511,32 +63684,36 @@
     {
       "series": "https://jkanime.net/pet/",
       "title": "Pet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 6,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/idolish7-second-beat/",
       "title": "IDOLiSH7: Second Beat!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -63549,13 +63726,15 @@
     {
       "series": "https://jkanime.net/murenase-seton-gakuen/",
       "title": "Murenase! Seton Gakuen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63568,13 +63747,15 @@
     {
       "series": "https://jkanime.net/idinvaded/",
       "title": "ID:Invaded",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -63587,13 +63768,15 @@
     {
       "series": "https://jkanime.net/rebirth/",
       "title": "Rebirth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 17,
       "stored": 17,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 17,
       "families": {
         "mega": 17,
         "streamwish": 17,
@@ -63606,13 +63789,15 @@
     {
       "series": "https://jkanime.net/eizouken-ni-wa-te-wo-dasu-na/",
       "title": "Eizouken ni wa Te wo Dasu na!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63625,13 +63810,15 @@
     {
       "series": "https://jkanime.net/magia-record-mahou-shoujo-madokamagica-gaiden-tv/",
       "title": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -63644,32 +63831,36 @@
     {
       "series": "https://jkanime.net/yatogame-chan-kansatsu-nikki-nisatsume/",
       "title": "Yatogame-chan Kansatsu Nikki Nisatsume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/koisuru-asteroid/",
       "title": "Koisuru Asteroid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63702,13 +63893,15 @@
     {
       "series": "https://jkanime.net/somali-to-mori-no-kamisama/",
       "title": "Somali to Mori no Kamisama",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63723,7 +63916,8 @@
       "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 12,
@@ -63732,7 +63926,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -63764,13 +63958,15 @@
     {
       "series": "https://jkanime.net/saiki-kusuo-no-nan-shidou-hen/",
       "title": "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -63783,13 +63979,15 @@
     {
       "series": "https://jkanime.net/zhen-hun-jie-bei-luo-shi-men-pian-part-1/",
       "title": "Zhen Hun Jie: Bei Luo Shi Men Pian Part 1",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -63832,13 +64030,15 @@
     {
       "series": "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-specials/",
       "title": "Arifureta Shokugyou de Sekai Saikyou Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -63908,13 +64108,15 @@
     {
       "series": "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-2/",
       "title": "Iya na Kao sare nagara Opantsu Misete Moraitai 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -63928,19 +64130,24 @@
     {
       "series": "https://jkanime.net/pokemon-2019/",
       "title": "Pokemon (2019)",
-      "causes": [],
-      "observed": 136,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 137,
       "stored": 136,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/pokemon-2019/137/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 136,
+        "mega": 135,
         "streamwish": 136,
         "vidhide": 136,
         "mp4upload": 136,
-        "streamtape": 136
+        "streamtape": 135
       },
       "playbackVerified": false
     },
