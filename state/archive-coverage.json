@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T17:32:07.799389+00:00",
+  "checkedAt": "2026-10-29T17:46:35.863096+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73525,
-  "storedChapters": 71664,
-  "missingChapters": 1861,
+  "storedChapters": 71667,
+  "missingChapters": 1858,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/23/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/23/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/24/"
         ]
       },
       {
@@ -2311,7 +2311,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/2/"
+          "https://jkanime.net/classicaloid/20/"
         ]
       },
       {
@@ -22099,8 +22099,7 @@
         "series": "https://jkanime.net/love-kome-we-love-rice/",
         "title": "Love Kome: We Love Rice",
         "samples": [
-          "https://jkanime.net/love-kome-we-love-rice/1/",
-          "https://jkanime.net/love-kome-we-love-rice/2/"
+          "https://jkanime.net/love-kome-we-love-rice/1/"
         ]
       },
       {
@@ -22517,7 +22516,72 @@
         "series": "https://jkanime.net/fuuka/",
         "title": "Fuuka",
         "samples": [
-          "https://jkanime.net/fuuka/1/"
+          "https://jkanime.net/fuuka/1/",
+          "https://jkanime.net/fuuka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/youjo-senki/",
+        "title": "Youjo Senki",
+        "samples": [
+          "https://jkanime.net/youjo-senki/1/",
+          "https://jkanime.net/youjo-senki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/minami-kamakura-koukou-joshi-jitensha-bu/",
+        "title": "Minami Kamakura Koukou Joshi Jitensha-bu",
+        "samples": [
+          "https://jkanime.net/minami-kamakura-koukou-joshi-jitensha-bu/1/",
+          "https://jkanime.net/minami-kamakura-koukou-joshi-jitensha-bu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/schoolgirl-strikers-animation-channel/",
+        "title": "Schoolgirl Strikers: Animation Channel",
+        "samples": [
+          "https://jkanime.net/schoolgirl-strikers-animation-channel/10/",
+          "https://jkanime.net/schoolgirl-strikers-animation-channel/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ao-no-exorcist-kyoto-fujouou-hen/",
+        "title": "Ao no Exorcist: Kyoto Fujouou-hen",
+        "samples": [
+          "https://jkanime.net/ao-no-exorcist-kyoto-fujouou-hen/1/",
+          "https://jkanime.net/ao-no-exorcist-kyoto-fujouou-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shouwa-genroku-rakugo-shinjuu-sukeroku-futatabi-hen/",
+        "title": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+        "samples": [
+          "https://jkanime.net/shouwa-genroku-rakugo-shinjuu-sukeroku-futatabi-hen/1/",
+          "https://jkanime.net/shouwa-genroku-rakugo-shinjuu-sukeroku-futatabi-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/masamune-kun-no-revenge/",
+        "title": "Masamune-kun no Revenge",
+        "samples": [
+          "https://jkanime.net/masamune-kun-no-revenge/1/",
+          "https://jkanime.net/masamune-kun-no-revenge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/urara-meirochou/",
+        "title": "Urara Meirochou",
+        "samples": [
+          "https://jkanime.net/urara-meirochou/1/",
+          "https://jkanime.net/urara-meirochou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seiren/",
+        "title": "Seiren",
+        "samples": [
+          "https://jkanime.net/seiren/1/",
+          "https://jkanime.net/seiren/10/"
         ]
       },
       {
@@ -22525,6 +22589,30 @@
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
           "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanbaka-2017/",
+        "title": "Nanbaka (2017)",
+        "samples": [
+          "https://jkanime.net/nanbaka-2017/1/",
+          "https://jkanime.net/nanbaka-2017/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ai-mai-mii-surgical-friends/",
+        "title": "Ai Mai Mii: Surgical Friends",
+        "samples": [
+          "https://jkanime.net/ai-mai-mii-surgical-friends/1/",
+          "https://jkanime.net/ai-mai-mii-surgical-friends/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/super-lovers-ova/",
+        "title": "Super Lovers OVA",
+        "samples": [
+          "https://jkanime.net/super-lovers-ova/1/",
+          "https://jkanime.net/super-lovers-ova/2/"
         ]
       },
       {
@@ -22546,6 +22634,14 @@
         "title": "Koro-sensei Quest!",
         "samples": [
           "https://jkanime.net/koro-sensei-quest/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chain-chronicle-haecceitas-no-hikari/",
+        "title": "Chain Chronicle: Haecceitas no Hikari",
+        "samples": [
+          "https://jkanime.net/chain-chronicle-haecceitas-no-hikari/1/",
+          "https://jkanime.net/chain-chronicle-haecceitas-no-hikari/10/"
         ]
       },
       {
@@ -22581,7 +22677,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/2/"
+          "https://jkanime.net/classicaloid/20/"
         ]
       },
       {
@@ -64492,11 +64588,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/cardfight-vanguard-overdress/13/",
         "https://jkanime.net/cardfight-vanguard-overdress/15/",
-        "https://jkanime.net/cardfight-vanguard-overdress/18/",
         "https://jkanime.net/cardfight-vanguard-overdress/19/",
         "https://jkanime.net/cardfight-vanguard-overdress/20/",
         "https://jkanime.net/cardfight-vanguard-overdress/21/",
@@ -64509,7 +64604,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 15,
+        "mp4upload": 16,
         "vidhide": 3,
         "mega": 2,
         "streamwish": 4,
@@ -79822,9 +79917,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/23/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/24/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/3/",
@@ -79839,9 +79933,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 14,
-        "streamwish": 14,
-        "vidhide": 14
+        "mp4upload": 15,
+        "streamwish": 15,
+        "vidhide": 15
       },
       "playbackVerified": false
     },
@@ -82499,13 +82593,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
+        "mega": 1,
         "streamwish": 12,
         "vidhide": 11,
         "mp4upload": 11,
-        "streamtape": 2
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -83711,7 +83805,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83724,13 +83818,15 @@
     {
       "series": "https://jkanime.net/youjo-senki/",
       "title": "Youjo Senki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83743,13 +83839,15 @@
     {
       "series": "https://jkanime.net/minami-kamakura-koukou-joshi-jitensha-bu/",
       "title": "Minami Kamakura Koukou Joshi Jitensha-bu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83762,32 +83860,36 @@
     {
       "series": "https://jkanime.net/schoolgirl-strikers-animation-channel/",
       "title": "Schoolgirl Strikers: Animation Channel",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
+        "mp4upload": 12,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 12,
+        "mega": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ao-no-exorcist-kyoto-fujouou-hen/",
       "title": "Ao no Exorcist: Kyoto Fujouou-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83800,13 +83902,15 @@
     {
       "series": "https://jkanime.net/shouwa-genroku-rakugo-shinjuu-sukeroku-futatabi-hen/",
       "title": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83819,13 +83923,15 @@
     {
       "series": "https://jkanime.net/masamune-kun-no-revenge/",
       "title": "Masamune-kun no Revenge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83839,33 +83945,37 @@
     {
       "series": "https://jkanime.net/urara-meirochou/",
       "title": "Urara Meirochou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
+        "mixdrop": 10,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/seiren/",
       "title": "Seiren",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83916,13 +84026,15 @@
     {
       "series": "https://jkanime.net/nanbaka-2017/",
       "title": "Nanbaka (2017)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83935,13 +84047,15 @@
     {
       "series": "https://jkanime.net/ai-mai-mii-surgical-friends/",
       "title": "Ai Mai Mii: Surgical Friends",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83954,13 +84068,15 @@
     {
       "series": "https://jkanime.net/super-lovers-ova/",
       "title": "Super Lovers OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -84061,13 +84177,15 @@
     {
       "series": "https://jkanime.net/chain-chronicle-haecceitas-no-hikari/",
       "title": "Chain Chronicle: Haecceitas no Hikari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84403,10 +84521,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/2/",
         "https://jkanime.net/classicaloid/20/",
         "https://jkanime.net/classicaloid/21/",
         "https://jkanime.net/classicaloid/22/",
@@ -84425,9 +84542,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 12,
-        "streamwish": 12,
-        "vidhide": 12
+        "mp4upload": 13,
+        "streamwish": 13,
+        "vidhide": 13
       },
       "playbackVerified": false
     },
