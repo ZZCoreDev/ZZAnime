@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T04:48:36.764233+00:00",
+  "checkedAt": "2026-10-29T05:03:03.036940+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73482,
+  "observedChapters": 73495,
   "storedChapters": 71450,
-  "missingChapters": 2032,
+  "missingChapters": 2045,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1893,6 +1893,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/7-seeds/",
+        "title": "7 Seeds",
+        "samples": [
+          "https://jkanime.net/7-seeds/13/",
+          "https://jkanime.net/7-seeds/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cencoroll-connect/",
         "title": "Cencoroll Connect",
         "samples": [
@@ -1939,6 +1947,13 @@
         "title": "Promare",
         "samples": [
           "https://jkanime.net/promare/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/miru-tights/",
+        "title": "Miru Tights",
+        "samples": [
+          "https://jkanime.net/miru-tights/13/"
         ]
       },
       {
@@ -18331,6 +18346,101 @@
         ]
       },
       {
+        "series": "https://jkanime.net/joshikousei-no-mudazukai/",
+        "title": "Joshikousei no Mudazukai",
+        "samples": [
+          "https://jkanime.net/joshikousei-no-mudazukai/1/",
+          "https://jkanime.net/joshikousei-no-mudazukai/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/granbelm/",
+        "title": "Granbelm",
+        "samples": [
+          "https://jkanime.net/granbelm/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/enen-no-shouboutai/",
+        "title": "Enen no Shouboutai",
+        "samples": [
+          "https://jkanime.net/enen-no-shouboutai/1/",
+          "https://jkanime.net/enen-no-shouboutai/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/",
+        "title": "Uchi no Ko no Tame naraba, Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.",
+        "samples": [
+          "https://jkanime.net/uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/1/",
+          "https://jkanime.net/uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanata-no-astra/",
+        "title": "Kanata no Astra",
+        "samples": [
+          "https://jkanime.net/kanata-no-astra/1/",
+          "https://jkanime.net/kanata-no-astra/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maou-sama-retry/",
+        "title": "Maou-sama, Retry!",
+        "samples": [
+          "https://jkanime.net/maou-sama-retry/1/",
+          "https://jkanime.net/maou-sama-retry/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dumbbell-nan-kilo-moteru/",
+        "title": "Dumbbell Nan Kilo Moteru?",
+        "samples": [
+          "https://jkanime.net/dumbbell-nan-kilo-moteru/1/",
+          "https://jkanime.net/dumbbell-nan-kilo-moteru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tejina-senpai/",
+        "title": "Tejina-senpai",
+        "samples": [
+          "https://jkanime.net/tejina-senpai/1/",
+          "https://jkanime.net/tejina-senpai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/katsute-kami-datta-kemono-tachi-e/",
+        "title": "Katsute Kami Datta Kemono-tachi e",
+        "samples": [
+          "https://jkanime.net/katsute-kami-datta-kemono-tachi-e/1/",
+          "https://jkanime.net/katsute-kami-datta-kemono-tachi-e/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/starmyu-3rd-season/",
+        "title": "Starmyu 3rd Season",
+        "samples": [
+          "https://jkanime.net/starmyu-3rd-season/1/",
+          "https://jkanime.net/starmyu-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sounan-desu-ka/",
+        "title": "Sounan Desu ka?",
+        "samples": [
+          "https://jkanime.net/sounan-desu-ka/1/",
+          "https://jkanime.net/sounan-desu-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/7-seeds/",
+        "title": "7 Seeds",
+        "samples": [
+          "https://jkanime.net/7-seeds/13/",
+          "https://jkanime.net/7-seeds/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cencoroll-connect/",
         "title": "Cencoroll Connect",
         "samples": [
@@ -18352,6 +18462,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shingeki-no-kyojin-season-3-part-2/",
+        "title": "Shingeki no Kyojin Season 3 Part 2",
+        "samples": [
+          "https://jkanime.net/shingeki-no-kyojin-season-3-part-2/1/",
+          "https://jkanime.net/shingeki-no-kyojin-season-3-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/miru-tights/",
+        "title": "Miru Tights",
+        "samples": [
+          "https://jkanime.net/miru-tights/13/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/koutetsujou-no-kabaneri-movie-3-unato-kessen/",
         "title": "Koutetsujou no Kabaneri Movie 3: Unato Kessen",
         "samples": [
@@ -18359,10 +18484,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/wotaku-ni-koi-wa-muzukashii-youth/",
+        "title": "Wotaku ni Koi wa Muzukashii: Youth",
+        "samples": [
+          "https://jkanime.net/wotaku-ni-koi-wa-muzukashii-youth/1/",
+          "https://jkanime.net/wotaku-ni-koi-wa-muzukashii-youth/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-the-origin-advent-of-the-red-comet/",
+        "title": "MOBILE SUIT GUNDAM THE ORIGIN Advent of the Red Comet",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-the-origin-advent-of-the-red-comet/1/",
+          "https://jkanime.net/mobile-suit-gundam-the-origin-advent-of-the-red-comet/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/birthday-wonderland/",
         "title": "Birthday Wonderland",
         "samples": [
           "https://jkanime.net/birthday-wonderland/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/king-of-prism-shiny-seven-stars/",
+        "title": "King of Prism: Shiny Seven Stars",
+        "samples": [
+          "https://jkanime.net/king-of-prism-shiny-seven-stars/1/",
+          "https://jkanime.net/king-of-prism-shiny-seven-stars/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sarazanmai/",
+        "title": "Sarazanmai",
+        "samples": [
+          "https://jkanime.net/sarazanmai/1/",
+          "https://jkanime.net/sarazanmai/2/"
         ]
       },
       {
@@ -66717,7 +66874,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -66730,57 +66887,63 @@
     {
       "series": "https://jkanime.net/joshikousei-no-mudazukai/",
       "title": "Joshikousei no Mudazukai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
+        "mega": 8,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/granbelm/",
       "title": "Granbelm",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 13,
+        "mega": 1,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/enen-no-shouboutai/",
       "title": "Enen no Shouboutai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
-        "mega": 24,
+        "mega": 19,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24,
+        "streamtape": 19,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -66788,13 +66951,15 @@
     {
       "series": "https://jkanime.net/uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/",
       "title": "Uchi no Ko no Tame naraba, Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66807,13 +66972,15 @@
     {
       "series": "https://jkanime.net/kanata-no-astra/",
       "title": "Kanata no Astra",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66826,13 +66993,15 @@
     {
       "series": "https://jkanime.net/maou-sama-retry/",
       "title": "Maou-sama, Retry!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66845,13 +67014,15 @@
     {
       "series": "https://jkanime.net/dumbbell-nan-kilo-moteru/",
       "title": "Dumbbell Nan Kilo Moteru?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66864,13 +67035,15 @@
     {
       "series": "https://jkanime.net/tejina-senpai/",
       "title": "Tejina-senpai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66883,13 +67056,15 @@
     {
       "series": "https://jkanime.net/katsute-kami-datta-kemono-tachi-e/",
       "title": "Katsute Kami Datta Kemono-tachi e",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66902,13 +67077,15 @@
     {
       "series": "https://jkanime.net/starmyu-3rd-season/",
       "title": "Starmyu 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66921,13 +67098,15 @@
     {
       "series": "https://jkanime.net/sounan-desu-ka/",
       "title": "Sounan Desu ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66940,19 +67119,35 @@
     {
       "series": "https://jkanime.net/7-seeds/",
       "title": "7 Seeds",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 24,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/7-seeds/13/",
+        "https://jkanime.net/7-seeds/14/",
+        "https://jkanime.net/7-seeds/15/",
+        "https://jkanime.net/7-seeds/16/",
+        "https://jkanime.net/7-seeds/17/",
+        "https://jkanime.net/7-seeds/18/",
+        "https://jkanime.net/7-seeds/19/",
+        "https://jkanime.net/7-seeds/20/",
+        "https://jkanime.net/7-seeds/21/",
+        "https://jkanime.net/7-seeds/22/",
+        "https://jkanime.net/7-seeds/23/",
+        "https://jkanime.net/7-seeds/24/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -67100,13 +67295,15 @@
     {
       "series": "https://jkanime.net/shingeki-no-kyojin-season-3-part-2/",
       "title": "Shingeki no Kyojin Season 3 Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -67137,19 +67334,24 @@
     {
       "series": "https://jkanime.net/miru-tights/",
       "title": "Miru Tights",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/miru-tights/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -67168,7 +67370,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -67199,13 +67401,15 @@
     {
       "series": "https://jkanime.net/wotaku-ni-koi-wa-muzukashii-youth/",
       "title": "Wotaku ni Koi wa Muzukashii: Youth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -67218,19 +67422,21 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-the-origin-advent-of-the-red-comet/",
       "title": "MOBILE SUIT GUNDAM THE ORIGIN Advent of the Red Comet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -67256,33 +67462,37 @@
     {
       "series": "https://jkanime.net/king-of-prism-shiny-seven-stars/",
       "title": "King of Prism: Shiny Seven Stars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mega": 4,
         "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 4,
+        "mixdrop": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sarazanmai/",
       "title": "Sarazanmai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 11,
         "streamwish": 11,
