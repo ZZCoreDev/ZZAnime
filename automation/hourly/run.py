@@ -20,11 +20,11 @@ def record_recent(state,recent,instant):
   parent=url.rsplit('/',2)[0]+'/'
   if url in state['episodes'] and url in state['listings'].get(parent,{}).get('episodes',[]):seen.setdefault(url,instant.isoformat().replace('+00:00','Z'))
 def command(args,**kw):return subprocess.run(args,check=True,capture_output=True,text=True,encoding='utf-8',**kw).stdout
-def compile_java(runtime):
+def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
- command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/'java').glob('*.java')],str(W/'CloudVerify.java')])
+ command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java')])
  return str(runtime)+os.pathsep+cp
-def build(state,approved,now):
+def build(state,approved,now,allow_voe=False):
  rows={}
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/'
@@ -33,7 +33,8 @@ def build(state,approved,now):
   if not listing or url not in listing['episodes'] or not ep.get('complete') or not 0<=age<=7*86400:continue
   options=[];seen=set()
   for provider in ep['providers']:
-   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide']:continue
+   if provider.get('family')=='voe' and not allow_voe:continue
+   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide',*(['voe'] if allow_voe else [])]:continue
    if ep.get('sourceSeries','').startswith('https://tioanime.com/') and provider.get('family')=='mega':continue
    for link in provider.get('links',[]):
     k=sha((provider['name']+'\0'+link).encode())
@@ -70,18 +71,20 @@ def main():
    for attempt in range(1 if proof else COLLECTION_BATCHES):
     recent=sorted(state['episodes'].items(),key=lambda row:state.get('newsSeen',{}).get(row[0],''),reverse=True)
     skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
+    from voe_channel import fresh_urls,split
+    skip=skip[:2000]+fresh_urls(D,instant.timestamp())
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
-    incoming=result['state'];collected+=len(incoming['episodes']);newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    received=set(result['state']['episodes']);incoming,voe_captured=split(D,result['state']);collected+=len(received);newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
     for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
-    for url in incoming['episodes']:incidents.pop(url,None)
+    for url in received:incidents.pop(url,None)
     put(incidents_path,raw(incidents))
     for url in newly_deferred:deferred[url]=instant.timestamp()
-    for url,ep in incoming['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
-    merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-set(incoming['episodes']));save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
+    for url,ep in result['state']['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
+    merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
   # Historical changes remain for renewal's final publish; an empty news check must not redeploy them.
@@ -118,14 +121,18 @@ def main():
   digest=sha(raw(index));name='indexes/'+digest+'.bin';files[name]=raw(index)
   payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new'})
   files['channel.json']=raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
-  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+  from voe_channel import render
+  extra_files,voe_cp,voe_digest=render(D,now,key,tmp)
+  files.update(extra_files)
+  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
   for n,b in files.items():put(assets/n,b)
   put(tmp/'key.der',public)
   proof_result=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'cache')]))
-  content=sha(raw({'series':index['series'],'feed':index['feed']}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
+  voe_proof=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/'voe-cache')])) if voe_cp else None
+  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
-  report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False}
+  report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False,'voe':voe_proof}
   if '--publish' in sys.argv and changed:
    if not os.environ.get('CLOUDFLARE_API_TOKEN') and not (proof and '--local-proof-publication' in sys.argv):raise ValueError('Cloudflare publication secret missing')
    # Keep exactly one prior immutable generation; never publish arbitrary state/private files.
@@ -134,7 +141,7 @@ def main():
     import re
     for p in old.rglob('*.bin'):
      n=p.relative_to(old).as_posix()
-     if re.fullmatch(r'(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
+     if re.fullmatch(r'(?:voe/)?(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
    if len(list(assets.rglob('*')))>18000 or any(p.stat().st_size>2097152 for p in assets.rglob('*') if p.is_file()):raise ValueError('Static/app limits; paid upgrade forbidden')
    config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','assets':{'directory':'./assets','not_found_handling':'none'},'send_metrics':False,'observability':{'enabled':False}}
    put(site/'wrangler.json',raw(config));cli=W/'node_modules/wrangler/bin/wrangler.js'
@@ -143,6 +150,9 @@ def main():
     try:
      remote=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/('remote-cache-'+str(verification_attempt))),BASE,str(old)]))
      if remote!=proof_result:raise ValueError('Remote app result differs')
+     if voe_cp:
+      remote_voe=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/('voe-remote-'+str(verification_attempt))),BASE+'/voe',str(old/'voe')]))
+      if remote_voe!=voe_proof:raise ValueError('Remote VOE reader differs')
      break
     except (subprocess.CalledProcessError,ValueError):
      if verification_attempt==12:raise

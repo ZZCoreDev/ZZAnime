@@ -161,7 +161,10 @@ def continue_if_due(folder):
     print('Pending observed chapters: next independent renewal batch dispatched.')
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import','voe-proof'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    if args.sample_group=='voe-proof':
+        from voe_channel import proof
+        proof(args.publish);return
     if args.sample_group=='recovered-import':
         from import_recovered import main as import_batch
         import_batch(args.publish);return
@@ -178,6 +181,9 @@ def main():
     identities_repaired=repair_verified_identities(state,failures,instant)
     proof_targets=json.loads(Path(__file__).with_name('observed-token-policy.json').read_bytes())['proof'] if args.sample_group=='observed-token' else INCIDENT_PROOF if args.sample_group=='verified-year' else PROOF
     targets=proof_targets if args.proof else select(state,failures,instant,MAX_EPISODES,include_missing=True)
+    if not args.proof:
+        from voe_channel import due_targets
+        extras=due_targets(folder,failures,instant,MAX_EPISODES//4);targets=list(dict.fromkeys(extras+targets))[:MAX_EPISODES]
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
     status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
     status['retryDeadlinesRepaired']=repaired
@@ -200,6 +206,9 @@ def main():
                     result=json.loads(raw)
                 if result.get('passed') is not True:raise ValueError('Sources unavailable')
                 incoming=validate(result.get('state'),pair,before,time.time())
+                from voe_channel import split
+                incoming,voe_count=split(folder,incoming)
+                if voe_count:status['voeRenewed']=status.get('voeRenewed',0)+voe_count;publish=True
                 missing=[url for url in pair if url not in incoming.get('episodes',{})]
                 for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'].get(url,{}).get('observedAt',''),result.get('diagnostics',{}).get(url))
                 if not incoming.get('episodes'):continue

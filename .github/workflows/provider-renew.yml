@@ -12,7 +12,7 @@ on:
       sample_group:
         description: 'Muestra fija de identidad; nunca acepta URLs arbitrarias'
         type: choice
-        options: [baseline, verified-year, observed-token, recovered-import]
+        options: [baseline, verified-year, observed-token, recovered-import, voe-proof]
         default: baseline
       proof:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
@@ -44,6 +44,7 @@ jobs:
           python3 -m pip install cryptography==46.0.3
           python3 test_cloud.py
           python3 test_news_empty.py
+          python3 test_voe_channel.py
           python3 test_renew.py
           python3 test_news_watchdog.py
           python3 test_import_recovered.py
