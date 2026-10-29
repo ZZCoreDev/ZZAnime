@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T01:14:20.368016+00:00",
+  "checkedAt": "2026-10-29T01:27:57.975497+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73481,
   "storedChapters": 71450,
@@ -16176,7 +16176,88 @@
         "series": "https://jkanime.net/hataraku-saibou/",
         "title": "Hataraku Saibou!!",
         "samples": [
-          "https://jkanime.net/hataraku-saibou/1/"
+          "https://jkanime.net/hataraku-saibou/1/",
+          "https://jkanime.net/hataraku-saibou/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2/",
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+        "samples": [
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2/1/",
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ichu-halfway-through-the-idol/",
+        "title": "I★Chu: Halfway Through the Idol",
+        "samples": [
+          "https://jkanime.net/ichu-halfway-through-the-idol/1/",
+          "https://jkanime.net/ichu-halfway-through-the-idol/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uma-musume-pretty-derby-season-2/",
+        "title": "Uma Musume: Pretty Derby Season 2",
+        "samples": [
+          "https://jkanime.net/uma-musume-pretty-derby-season-2/1/",
+          "https://jkanime.net/uma-musume-pretty-derby-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gekidol/",
+        "title": "Gekidol",
+        "samples": [
+          "https://jkanime.net/gekidol/1/",
+          "https://jkanime.net/gekidol/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/urasekai-picnic/",
+        "title": "Urasekai Picnic",
+        "samples": [
+          "https://jkanime.net/urasekai-picnic/1/",
+          "https://jkanime.net/urasekai-picnic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari/",
+        "title": "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari",
+        "samples": [
+          "https://jkanime.net/tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari/1/",
+          "https://jkanime.net/tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/",
+        "title": "Jimihen!!: Jimiko wo Kaechau Jun Isei Kouyuu!!",
+        "samples": [
+          "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/1/",
+          "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+        "title": "Otona no Bouguya-san II",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vlad-love/",
+        "title": "Vlad Love",
+        "samples": [
+          "https://jkanime.net/vlad-love/1/",
+          "https://jkanime.net/vlad-love/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/skate-leadingstars/",
+        "title": "Skate-Leading☆Stars",
+        "samples": [
+          "https://jkanime.net/skate-leadingstars/1/",
+          "https://jkanime.net/skate-leadingstars/10/"
         ]
       },
       {
@@ -16184,6 +16265,14 @@
         "title": "Josee to Tora to Sakana-tachi",
         "samples": [
           "https://jkanime.net/josee-to-tora-to-sakana-tachi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-kyojin-the-final-season/",
+        "title": "Shingeki no Kyojin: The Final Season",
+        "samples": [
+          "https://jkanime.net/shingeki-no-kyojin-the-final-season/1/",
+          "https://jkanime.net/shingeki-no-kyojin-the-final-season/10/"
         ]
       },
       {
@@ -16201,10 +16290,40 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hanhua-riji-2nd-season/",
+        "title": "Hanhua Riji 2nd Season",
+        "samples": [
+          "https://jkanime.net/hanhua-riji-2nd-season/1/",
+          "https://jkanime.net/hanhua-riji-2nd-season/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/date-a-bullet-nightmare-or-queen/",
         "title": "Date A Bullet: Nightmare or Queen",
         "samples": [
           "https://jkanime.net/date-a-bullet-nightmare-or-queen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dokyuu-hentai-hxeros-ova/",
+        "title": "Dokyuu Hentai HxEros OVA",
+        "samples": [
+          "https://jkanime.net/dokyuu-hentai-hxeros-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tian-guan-cifu/",
+        "title": "Tian Guan Cifu",
+        "samples": [
+          "https://jkanime.net/tian-guan-cifu/1/",
+          "https://jkanime.net/tian-guan-cifu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toji-no-miko-kizamishi-issen-no-tomoshibi-ova/",
+        "title": "Toji no Miko: Kizamishi Issen no Tomoshibi OVA",
+        "samples": [
+          "https://jkanime.net/toji-no-miko-kizamishi-issen-no-tomoshibi-ova/1/"
         ]
       },
       {
@@ -16215,6 +16334,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/d4dj-first-mix/",
+        "title": "D4DJ First Mix",
+        "samples": [
+          "https://jkanime.net/d4dj-first-mix/1/",
+          "https://jkanime.net/d4dj-first-mix/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kimetsu-no-yaiba-movie-mugen-ressha-hen/",
         "title": "Kimetsu no Yaiba Movie: Mugen Ressha-hen",
         "samples": [
@@ -16222,10 +16349,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dogeza-de-tanondemita/",
+        "title": "Dogeza de Tanondemita",
+        "samples": [
+          "https://jkanime.net/dogeza-de-tanondemita/1/",
+          "https://jkanime.net/dogeza-de-tanondemita/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/a3-season-autumn-winter/",
         "title": "A3! Season Autumn & Winter",
         "samples": [
           "https://jkanime.net/a3-season-autumn-winter/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/osomatsu-san-3rd-season/",
+        "title": "Osomatsu-san 3rd Season",
+        "samples": [
+          "https://jkanime.net/osomatsu-san-3rd-season/1/",
+          "https://jkanime.net/osomatsu-san-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magatsu-wahrheit-zuerst/",
+        "title": "Magatsu Wahrheit: Zuerst",
+        "samples": [
+          "https://jkanime.net/magatsu-wahrheit-zuerst/1/",
+          "https://jkanime.net/magatsu-wahrheit-zuerst/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuukoku-no-moriarty/",
+        "title": "Yuukoku no Moriarty",
+        "samples": [
+          "https://jkanime.net/yuukoku-no-moriarty/1/",
+          "https://jkanime.net/yuukoku-no-moriarty/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taisou-zamurai/",
+        "title": "Taisou Zamurai",
+        "samples": [
+          "https://jkanime.net/taisou-zamurai/1/",
+          "https://jkanime.net/taisou-zamurai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-ni-natta-hi/",
+        "title": "Kamisama ni Natta Hi",
+        "samples": [
+          "https://jkanime.net/kamisama-ni-natta-hi/1/",
+          "https://jkanime.net/kamisama-ni-natta-hi/2/"
         ]
       },
       {
@@ -58301,7 +58476,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -58314,13 +58489,15 @@
     {
       "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2/",
       "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58333,32 +58510,36 @@
     {
       "series": "https://jkanime.net/ichu-halfway-through-the-idol/",
       "title": "I★Chu: Halfway Through the Idol",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uma-musume-pretty-derby-season-2/",
       "title": "Uma Musume: Pretty Derby Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -58371,32 +58552,36 @@
     {
       "series": "https://jkanime.net/gekidol/",
       "title": "Gekidol",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
+        "mega": 7,
+        "streamwish": 11,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/urasekai-picnic/",
       "title": "Urasekai Picnic",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58409,13 +58594,15 @@
     {
       "series": "https://jkanime.net/tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari/",
       "title": "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58428,13 +58615,15 @@
     {
       "series": "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/",
       "title": "Jimihen!!: Jimiko wo Kaechau Jun Isei Kouyuu!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -58447,13 +58636,15 @@
     {
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58485,19 +58676,21 @@
     {
       "series": "https://jkanime.net/vlad-love/",
       "title": "Vlad Love",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -58512,24 +58705,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/skate-leadingstars/",
       "title": "Skate-Leading☆Stars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58597,13 +58788,15 @@
     {
       "series": "https://jkanime.net/shingeki-no-kyojin-the-final-season/",
       "title": "Shingeki no Kyojin: The Final Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -58669,13 +58862,15 @@
     {
       "series": "https://jkanime.net/hanhua-riji-2nd-season/",
       "title": "Hanhua Riji 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58707,32 +58902,36 @@
     {
       "series": "https://jkanime.net/dokyuu-hentai-hxeros-ova/",
       "title": "Dokyuu Hentai HxEros OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
         "mp4upload": 2,
-        "streamtape": 2
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tian-guan-cifu/",
       "title": "Tian Guan Cifu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -58745,13 +58944,15 @@
     {
       "series": "https://jkanime.net/toji-no-miko-kizamishi-issen-no-tomoshibi-ova/",
       "title": "Toji no Miko: Kizamishi Issen no Tomoshibi OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -58783,13 +58984,15 @@
     {
       "series": "https://jkanime.net/d4dj-first-mix/",
       "title": "D4DJ First Mix",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -58821,13 +59024,15 @@
     {
       "series": "https://jkanime.net/dogeza-de-tanondemita/",
       "title": "Dogeza de Tanondemita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58852,26 +59057,28 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 6,
       "families": {
-        "mega": 11,
+        "mega": 5,
         "streamwish": 11,
         "vidhide": 11,
         "mp4upload": 11,
-        "streamtape": 11
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/osomatsu-san-3rd-season/",
       "title": "Osomatsu-san 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -58885,32 +59092,36 @@
     {
       "series": "https://jkanime.net/magatsu-wahrheit-zuerst/",
       "title": "Magatsu Wahrheit: Zuerst",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
+        "mega": 5,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yuukoku-no-moriarty/",
       "title": "Yuukoku no Moriarty",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -58923,13 +59134,15 @@
     {
       "series": "https://jkanime.net/taisou-zamurai/",
       "title": "Taisou Zamurai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -58942,13 +59155,15 @@
     {
       "series": "https://jkanime.net/kamisama-ni-natta-hi/",
       "title": "Kamisama ni Natta Hi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 12,
         "streamwish": 12,
