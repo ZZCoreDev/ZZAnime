@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T14:57:09.549211+00:00",
+  "checkedAt": "2026-10-29T15:11:12.942159+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73523,
-  "storedChapters": 71632,
-  "missingChapters": 1891,
+  "storedChapters": 71642,
+  "missingChapters": 1881,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2037,8 +2037,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/13/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/13/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/14/"
         ]
       },
       {
@@ -2046,7 +2046,7 @@
         "title": "Urahara",
         "samples": [
           "https://jkanime.net/urahara/10/",
-          "https://jkanime.net/urahara/11/"
+          "https://jkanime.net/urahara/12/"
         ]
       },
       {
@@ -2255,8 +2255,8 @@
         "series": "https://jkanime.net/piace-watashi-no-italian/",
         "title": "Piace: Watashi no Italian",
         "samples": [
-          "https://jkanime.net/piace-watashi-no-italian/7/",
-          "https://jkanime.net/piace-watashi-no-italian/8/"
+          "https://jkanime.net/piace-watashi-no-italian/8/",
+          "https://jkanime.net/piace-watashi-no-italian/9/"
         ]
       },
       {
@@ -2313,13 +2313,6 @@
         "title": "Kono Sekai no Katasumi ni",
         "samples": [
           "https://jkanime.net/kono-sekai-no-katasumi-ni/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku-ova/",
-        "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA",
-        "samples": [
-          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku-ova/1/"
         ]
       },
       {
@@ -2563,7 +2556,7 @@
         "title": "Wagamama High Spec",
         "samples": [
           "https://jkanime.net/wagamama-high-spec/1/",
-          "https://jkanime.net/wagamama-high-spec/11/"
+          "https://jkanime.net/wagamama-high-spec/12/"
         ]
       },
       {
@@ -2646,13 +2639,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nurse-witch-komugi-chan-r/",
-        "title": "Nurse Witch Komugi-chan R",
-        "samples": [
-          "https://jkanime.net/nurse-witch-komugi-chan-r/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
         "title": "Glass no Hana to Kowasu Sekai",
         "samples": [
@@ -2715,13 +2701,6 @@
         "title": "Kindaichi Shounen no Jikenbo Returns: Akechi Keibu no Jikenbo",
         "samples": [
           "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-akechi-keibu-no-jikenbo/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/working-lord-of-the-takanashi/",
-        "title": "Working!!! Lord of the Takanashi",
-        "samples": [
-          "https://jkanime.net/working-lord-of-the-takanashi/1/"
         ]
       },
       {
@@ -8859,6 +8838,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/wonderful-precure-movie-dokidoki-game-no-sekai-de-daibouken/",
+        "title": "Wonderful Precure! Movie: Dokidoki Game no Sekai de Daibouken!",
+        "samples": [
+          "https://jkanime.net/wonderful-precure-movie-dokidoki-game-no-sekai-de-daibouken/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kimi-no-iro/",
         "title": "Kimi no Iro",
         "samples": [
@@ -11743,6 +11729,13 @@
         "samples": [
           "https://jkanime.net/huo-feng-liao-yuan/1/",
           "https://jkanime.net/huo-feng-liao-yuan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-kan-dakara-shishunki-wa-owarazu-ni-seishun-wa-tsuzuiteiku/",
+        "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan: Dakara, Shishunki wa Owarazu ni, Seishun wa Tsuzuiteiku.",
+        "samples": [
+          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-kan-dakara-shishunki-wa-owarazu-ni-seishun-wa-tsuzuiteiku/1/"
         ]
       },
       {
@@ -15344,6 +15337,13 @@
         "title": "Nanatsu no Taizai Movie 2: Hikari ni Norowareshi Mono-tachi",
         "samples": [
           "https://jkanime.net/nanatsu-no-taizai-movie-2-hikari-ni-norowareshi-mono-tachi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wonder-egg-priority-special/",
+        "title": "Wonder Egg Priority Special",
+        "samples": [
+          "https://jkanime.net/wonder-egg-priority-special/1/"
         ]
       },
       {
@@ -21266,7 +21266,7 @@
         "title": "Urahara",
         "samples": [
           "https://jkanime.net/urahara/10/",
-          "https://jkanime.net/urahara/11/"
+          "https://jkanime.net/urahara/12/"
         ]
       },
       {
@@ -21438,11 +21438,106 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jigoku-shoujo-yoi-no-togi/",
+        "title": "Jigoku Shoujo: Yoi no Togi",
+        "samples": [
+          "https://jkanime.net/jigoku-shoujo-yoi-no-togi/1/",
+          "https://jkanime.net/jigoku-shoujo-yoi-no-togi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gamers/",
+        "title": "Gamers!",
+        "samples": [
+          "https://jkanime.net/gamers/1/",
+          "https://jkanime.net/gamers/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lan-mo-de-hua/",
+        "title": "Lan Mo de Hua",
+        "samples": [
+          "https://jkanime.net/lan-mo-de-hua/1/",
+          "https://jkanime.net/lan-mo-de-hua/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hajimete-no-gal/",
+        "title": "Hajimete no Gal",
+        "samples": [
+          "https://jkanime.net/hajimete-no-gal/1/",
+          "https://jkanime.net/hajimete-no-gal/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv/",
+        "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV)",
+        "samples": [
+          "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nora-to-oujo-to-noraneko-heart/",
+        "title": "Nora to Oujo to Noraneko Heart",
+        "samples": [
+          "https://jkanime.net/nora-to-oujo-to-noraneko-heart/1/",
+          "https://jkanime.net/nora-to-oujo-to-noraneko-heart/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu-9/",
+        "title": "Teekyuu 9",
+        "samples": [
+          "https://jkanime.net/teekyuu-9/1/",
+          "https://jkanime.net/teekyuu-9/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-wa-smartphone-to-tomo-ni/",
+        "title": "Isekai wa Smartphone to Tomo ni.",
+        "samples": [
+          "https://jkanime.net/isekai-wa-smartphone-to-tomo-ni/1/",
+          "https://jkanime.net/isekai-wa-smartphone-to-tomo-ni/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/new-game-2/",
+        "title": "New Game!!",
+        "samples": [
+          "https://jkanime.net/new-game-2/1/",
+          "https://jkanime.net/new-game-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenshi-no-3p/",
+        "title": "Tenshi no 3P!",
+        "samples": [
+          "https://jkanime.net/tenshi-no-3p/1/",
+          "https://jkanime.net/tenshi-no-3p/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shinya-tensai-bakabon/",
         "title": "Shinya! Tensai Bakabon",
         "samples": [
           "https://jkanime.net/shinya-tensai-bakabon/1/",
           "https://jkanime.net/shinya-tensai-bakabon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/centaur-no-nayami/",
+        "title": "Centaur no Nayami",
+        "samples": [
+          "https://jkanime.net/centaur-no-nayami/1/",
+          "https://jkanime.net/centaur-no-nayami/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/princess-principal/",
+        "title": "Princess Principal",
+        "samples": [
+          "https://jkanime.net/princess-principal/1/",
+          "https://jkanime.net/princess-principal/2/"
         ]
       },
       {
@@ -21873,7 +21968,7 @@
         "title": "Wagamama High Spec",
         "samples": [
           "https://jkanime.net/wagamama-high-spec/1/",
-          "https://jkanime.net/wagamama-high-spec/11/"
+          "https://jkanime.net/wagamama-high-spec/12/"
         ]
       },
       {
@@ -22454,6 +22549,13 @@
         "title": "Pokemon XY: Pikachu, Kore Nan no Kagi?",
         "samples": [
           "https://jkanime.net/pokemon-pikachu-kore-nan-no-kagi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/witch-craft-works-ova/",
+        "title": "Witch Craft Works OVA",
+        "samples": [
+          "https://jkanime.net/witch-craft-works-ova/1/"
         ]
       },
       {
@@ -23170,6 +23272,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-ova/",
+        "title": "Oregairu OVA",
+        "samples": [
+          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/takanashi-rikka-kai-chuunibyou-demo-koi-ga-shitai-movie/",
         "title": "Takanashi Rikka Kai: Chuunibyou demo Koi ga Shitai! Movie",
         "samples": [
@@ -23356,6 +23465,13 @@
         "title": "Kotonoha no Niwa",
         "samples": [
           "https://jkanime.net/kotonoha-no-niwa/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yama-no-susume-kabette-kowakunai-no/",
+        "title": "Yama no Susume: Kabette Kowakunai no?",
+        "samples": [
+          "https://jkanime.net/yama-no-susume-kabette-kowakunai-no/1/"
         ]
       },
       {
@@ -25333,6 +25449,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yamato-yo-towa-ni/",
+        "title": "Yamato yo Towa ni",
+        "samples": [
+          "https://jkanime.net/yamato-yo-towa-ni/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/wakakusa-monogatari/",
         "title": "Wakakusa Monogatari",
         "samples": [
@@ -27171,13 +27294,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku-ova/",
-        "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA",
-        "samples": [
-          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku-ova/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/musaigen-no-phantom-world-special/",
         "title": "Musaigen no Phantom World Special",
         "samples": [
@@ -27427,13 +27543,6 @@
         "title": "Kindaichi Shounen no Jikenbo Returns: Akechi Keibu no Jikenbo",
         "samples": [
           "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-akechi-keibu-no-jikenbo/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/working-lord-of-the-takanashi/",
-        "title": "Working!!! Lord of the Takanashi",
-        "samples": [
-          "https://jkanime.net/working-lord-of-the-takanashi/1/"
         ]
       },
       {
@@ -37424,7 +37533,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 12,
         "vidhide": 4,
@@ -39135,7 +39244,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 13,
         "streamwish": 7,
@@ -43059,7 +43168,8 @@
       "title": "Wonderful Precure! Movie: Dokidoki Game no Sekai de Daibouken!",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -43068,7 +43178,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -50791,7 +50901,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51521,7 +51631,8 @@
       "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan: Dakara, Shishunki wa Owarazu ni, Seishun wa Tsuzuiteiku.",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -51530,7 +51641,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -54541,7 +54652,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 39,
+      "renewalFailed": 40,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -54745,7 +54856,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {
         "mega": 19,
         "streamwish": 19,
@@ -62070,7 +62181,8 @@
       "title": "Wonder Egg Priority Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -62079,7 +62191,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -68499,7 +68611,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -78799,9 +78911,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 3,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/13/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/14/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/15/",
@@ -78827,9 +78938,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 3,
-        "vidhide": 3
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -79177,10 +79288,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/urahara/10/",
-        "https://jkanime.net/urahara/11/",
         "https://jkanime.net/urahara/12/",
         "https://jkanime.net/urahara/2/",
         "https://jkanime.net/urahara/3/",
@@ -79195,9 +79305,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 1,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 2,
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -79670,10 +79780,7 @@
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
-        "vidhide": 12,
-        "mega": 4,
-        "mixdrop": 4,
-        "streamtape": 4
+        "vidhide": 12
       },
       "playbackVerified": false
     },
@@ -79714,13 +79821,15 @@
     {
       "series": "https://jkanime.net/jigoku-shoujo-yoi-no-togi/",
       "title": "Jigoku Shoujo: Yoi no Togi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79733,13 +79842,15 @@
     {
       "series": "https://jkanime.net/gamers/",
       "title": "Gamers!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79760,24 +79871,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
+        "mp4upload": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/lan-mo-de-hua/",
       "title": "Lan Mo de Hua",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -79790,13 +79901,15 @@
     {
       "series": "https://jkanime.net/hajimete-no-gal/",
       "title": "Hajimete no Gal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -79809,32 +79922,36 @@
     {
       "series": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv/",
       "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 3,
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nora-to-oujo-to-noraneko-heart/",
       "title": "Nora to Oujo to Noraneko Heart",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79847,13 +79964,15 @@
     {
       "series": "https://jkanime.net/teekyuu-9/",
       "title": "Teekyuu 9",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79866,13 +79985,15 @@
     {
       "series": "https://jkanime.net/isekai-wa-smartphone-to-tomo-ni/",
       "title": "Isekai wa Smartphone to Tomo ni.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79885,13 +80006,15 @@
     {
       "series": "https://jkanime.net/new-game-2/",
       "title": "New Game!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79904,13 +80027,15 @@
     {
       "series": "https://jkanime.net/tenshi-no-3p/",
       "title": "Tenshi no 3P!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79952,32 +80077,36 @@
     {
       "series": "https://jkanime.net/centaur-no-nayami/",
       "title": "Centaur no Nayami",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
+        "mega": 7,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/princess-principal/",
       "title": "Princess Principal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82129,9 +82258,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/piace-watashi-no-italian/7/",
         "https://jkanime.net/piace-watashi-no-italian/8/",
         "https://jkanime.net/piace-watashi-no-italian/9/"
       ],
@@ -82139,9 +82267,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 8,
-        "streamwish": 9,
-        "vidhide": 8
+        "mp4upload": 9,
+        "streamwish": 10,
+        "vidhide": 9
       },
       "playbackVerified": false
     },
@@ -83056,19 +83184,18 @@
     {
       "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku-ova/",
       "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku-ova/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -84286,11 +84413,10 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
         "https://jkanime.net/time-bokan-24/10/",
-        "https://jkanime.net/time-bokan-24/11/",
         "https://jkanime.net/time-bokan-24/12/",
         "https://jkanime.net/time-bokan-24/13/",
         "https://jkanime.net/time-bokan-24/14/",
@@ -84316,7 +84442,11 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 2,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -85970,10 +86100,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/wagamama-high-spec/1/",
-        "https://jkanime.net/wagamama-high-spec/11/",
         "https://jkanime.net/wagamama-high-spec/12/",
         "https://jkanime.net/wagamama-high-spec/2/",
         "https://jkanime.net/wagamama-high-spec/3/",
@@ -85988,7 +86117,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 1
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -87520,21 +87649,17 @@
     {
       "series": "https://jkanime.net/nurse-witch-komugi-chan-r/",
       "title": "Nurse Witch Komugi-chan R",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/nurse-witch-komugi-chan-r/9/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 11,
-        "streamwish": 11,
-        "vidhide": 11
+        "mp4upload": 12,
+        "streamwish": 12,
+        "vidhide": 12
       },
       "playbackVerified": false
     },
@@ -88154,19 +88279,16 @@
     {
       "series": "https://jkanime.net/working-lord-of-the-takanashi/",
       "title": "Working!!! Lord of the Takanashi",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/working-lord-of-the-takanashi/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -90199,11 +90321,10 @@
         "renewal-error"
       ],
       "observed": 6,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/venus-project-climax/1/",
         "https://jkanime.net/venus-project-climax/2/",
-        "https://jkanime.net/venus-project-climax/3/",
         "https://jkanime.net/venus-project-climax/4/",
         "https://jkanime.net/venus-project-climax/5/",
         "https://jkanime.net/venus-project-climax/6/"
@@ -90211,7 +90332,9 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 2,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -93133,7 +93256,8 @@
       "title": "Witch Craft Works OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -93142,7 +93266,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -95181,11 +95305,10 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/tribe-cool-crew/10/",
         "https://jkanime.net/tribe-cool-crew/11/",
-        "https://jkanime.net/tribe-cool-crew/12/",
         "https://jkanime.net/tribe-cool-crew/13/",
         "https://jkanime.net/tribe-cool-crew/14/",
         "https://jkanime.net/tribe-cool-crew/15/",
@@ -95237,7 +95360,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "streamwish": 1
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -100763,7 +100886,8 @@
       "title": "Oregairu OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -100772,7 +100896,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -102265,7 +102389,8 @@
       "title": "Yama no Susume: Kabette Kowakunai no?",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -102274,7 +102399,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -104437,7 +104562,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 4,
         "vidhide": 4,
@@ -128539,7 +128664,8 @@
       "title": "Yamato yo Towa ni",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -128548,7 +128674,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
