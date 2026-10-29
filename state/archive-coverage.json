@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T18:12:49.217903+00:00",
+  "checkedAt": "2026-10-29T18:26:21.141912+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73527,
-  "storedChapters": 71671,
-  "missingChapters": 1856,
+  "storedChapters": 71673,
+  "missingChapters": 1854,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/3/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/5/"
         ]
       },
       {
@@ -22831,6 +22831,94 @@
         ]
       },
       {
+        "series": "https://jkanime.net/lostorage-incited-wixoss/",
+        "title": "Lostorage Incited WIXOSS",
+        "samples": [
+          "https://jkanime.net/lostorage-incited-wixoss/1/",
+          "https://jkanime.net/lostorage-incited-wixoss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girlish-number/",
+        "title": "Girlish Number",
+        "samples": [
+          "https://jkanime.net/girlish-number/1/",
+          "https://jkanime.net/girlish-number/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/flip-flappers/",
+        "title": "Flip Flappers",
+        "samples": [
+          "https://jkanime.net/flip-flappers/1/",
+          "https://jkanime.net/flip-flappers/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/keijo/",
+        "title": "Keijo!!!!!!!!",
+        "samples": [
+          "https://jkanime.net/keijo/1/",
+          "https://jkanime.net/keijo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/all-out/",
+        "title": "All Out!!",
+        "samples": [
+          "https://jkanime.net/all-out/1/",
+          "https://jkanime.net/all-out/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bernard-jou-iwaku/",
+        "title": "Bernard-jou Iwaku.",
+        "samples": [
+          "https://jkanime.net/bernard-jou-iwaku/1/",
+          "https://jkanime.net/bernard-jou-iwaku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brave-witches/",
+        "title": "Brave Witches",
+        "samples": [
+          "https://jkanime.net/brave-witches/1/",
+          "https://jkanime.net/brave-witches/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bungou-stray-dogs-2nd-season/",
+        "title": "Bungou Stray Dogs 2nd Season",
+        "samples": [
+          "https://jkanime.net/bungou-stray-dogs-2nd-season/1/",
+          "https://jkanime.net/bungou-stray-dogs-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/anitore-xx/",
+        "title": "Anitore! XX",
+        "samples": [
+          "https://jkanime.net/anitore-xx/1/",
+          "https://jkanime.net/anitore-xx/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuri-on-ice/",
+        "title": "Yuri!!! on Ice",
+        "samples": [
+          "https://jkanime.net/yuri-on-ice/1/",
+          "https://jkanime.net/yuri-on-ice/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hibike-euphonium-2/",
+        "title": "Hibike! Euphonium 2",
+        "samples": [
+          "https://jkanime.net/hibike-euphonium-2/1/",
+          "https://jkanime.net/hibike-euphonium-2/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
@@ -22847,10 +22935,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/to-be-hero/",
+        "title": "To Be Hero",
+        "samples": [
+          "https://jkanime.net/to-be-hero/1/",
+          "https://jkanime.net/to-be-hero/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/musaigen-no-phantom-world-special/",
         "title": "Musaigen no Phantom World Special",
         "samples": [
           "https://jkanime.net/musaigen-no-phantom-world-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/",
+        "title": "Bishoujo Yuugi Unit Crane Game Girls Galaxy",
+        "samples": [
+          "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/5/",
+          "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/7/"
         ]
       },
       {
@@ -22862,6 +22966,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/teekyuu-8/",
+        "title": "Teekyuu 8",
+        "samples": [
+          "https://jkanime.net/teekyuu-8/1/",
+          "https://jkanime.net/teekyuu-8/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kiitarou-shounen-no-youkai-enikki/",
         "title": "Kiitarou Shounen no Youkai Enikki",
         "samples": [
@@ -22870,11 +22982,35 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nanbaka/",
+        "title": "Nanbaka",
+        "samples": [
+          "https://jkanime.net/nanbaka/1/",
+          "https://jkanime.net/nanbaka/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/soul-buster/",
         "title": "Soul Buster",
         "samples": [
           "https://jkanime.net/soul-buster/1/",
           "https://jkanime.net/soul-buster/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soushin-shoujo-matoi/",
+        "title": "Soushin Shoujo Matoi",
+        "samples": [
+          "https://jkanime.net/soushin-shoujo-matoi/1/",
+          "https://jkanime.net/soushin-shoujo-matoi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsume-yuujinchou-go/",
+        "title": "Natsume Yuujinchou Go",
+        "samples": [
+          "https://jkanime.net/natsume-yuujinchou-go/1/",
+          "https://jkanime.net/natsume-yuujinchou-go/2/"
         ]
       },
       {
@@ -26656,6 +26792,13 @@
         "title": "Diamond no Ace: Act II Second Season Part 2",
         "samples": [
           "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
+        "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
+        "samples": [
+          "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
         ]
       },
       {
@@ -72698,14 +72841,13 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
         "https://jkanime.net/7-seeds/16/",
         "https://jkanime.net/7-seeds/18/",
         "https://jkanime.net/7-seeds/19/",
-        "https://jkanime.net/7-seeds/20/",
         "https://jkanime.net/7-seeds/21/",
         "https://jkanime.net/7-seeds/22/",
         "https://jkanime.net/7-seeds/23/",
@@ -72715,7 +72857,7 @@
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -80067,9 +80209,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/3/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/5/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/6/",
@@ -80081,9 +80222,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 17,
-        "streamwish": 17,
-        "vidhide": 17
+        "mp4upload": 18,
+        "streamwish": 18,
+        "vidhide": 18
       },
       "playbackVerified": false
     },
@@ -81430,7 +81571,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -84854,7 +84995,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84867,13 +85008,15 @@
     {
       "series": "https://jkanime.net/lostorage-incited-wixoss/",
       "title": "Lostorage Incited WIXOSS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84886,32 +85029,36 @@
     {
       "series": "https://jkanime.net/girlish-number/",
       "title": "Girlish Number",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 9,
+        "streamwish": 9,
+        "vidhide": 9,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/flip-flappers/",
       "title": "Flip Flappers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -84924,13 +85071,15 @@
     {
       "series": "https://jkanime.net/keijo/",
       "title": "Keijo!!!!!!!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84943,13 +85092,15 @@
     {
       "series": "https://jkanime.net/all-out/",
       "title": "All Out!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -84962,13 +85113,15 @@
     {
       "series": "https://jkanime.net/bernard-jou-iwaku/",
       "title": "Bernard-jou Iwaku.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84981,13 +85134,15 @@
     {
       "series": "https://jkanime.net/brave-witches/",
       "title": "Brave Witches",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85000,13 +85155,15 @@
     {
       "series": "https://jkanime.net/bungou-stray-dogs-2nd-season/",
       "title": "Bungou Stray Dogs 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85019,32 +85176,36 @@
     {
       "series": "https://jkanime.net/anitore-xx/",
       "title": "Anitore! XX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yuri-on-ice/",
       "title": "Yuri!!! on Ice",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85057,13 +85218,15 @@
     {
       "series": "https://jkanime.net/hibike-euphonium-2/",
       "title": "Hibike! Euphonium 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -85132,13 +85295,15 @@
     {
       "series": "https://jkanime.net/to-be-hero/",
       "title": "To Be Hero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85171,19 +85336,21 @@
     {
       "series": "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/",
       "title": "Bishoujo Yuugi Unit Crane Game Girls Galaxy",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -85218,13 +85385,15 @@
     {
       "series": "https://jkanime.net/teekyuu-8/",
       "title": "Teekyuu 8",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85266,13 +85435,15 @@
     {
       "series": "https://jkanime.net/nanbaka/",
       "title": "Nanbaka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -85314,13 +85485,15 @@
     {
       "series": "https://jkanime.net/soushin-shoujo-matoi/",
       "title": "Soushin Shoujo Matoi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85334,13 +85507,15 @@
     {
       "series": "https://jkanime.net/natsume-yuujinchou-go/",
       "title": "Natsume Yuujinchou Go",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -114960,7 +115135,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -130197,7 +130372,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mega": 32,
         "streamwish": 32,
@@ -130649,7 +130824,8 @@
       "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
       "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 4,
       "stored": 3,
@@ -130658,7 +130834,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 3,
         "streamwish": 3,
