@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T16:37:16.876026+00:00",
+  "checkedAt": "2026-10-29T16:51:14.876370+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73524,
-  "storedChapters": 71655,
-  "missingChapters": 1869,
+  "storedChapters": 71657,
+  "missingChapters": 1867,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2029,8 +2029,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/"
         ]
       },
       {
@@ -22066,11 +22066,75 @@
         ]
       },
       {
+        "series": "https://jkanime.net/renai-boukun/",
+        "title": "Renai Boukun",
+        "samples": [
+          "https://jkanime.net/renai-boukun/1/",
+          "https://jkanime.net/renai-boukun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/busou-shoujo-machiavellianism/",
+        "title": "Busou Shoujo Machiavellianism",
+        "samples": [
+          "https://jkanime.net/busou-shoujo-machiavellianism/1/",
+          "https://jkanime.net/busou-shoujo-machiavellianism/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-kome-we-love-rice/",
+        "title": "Love Kome: We Love Rice",
+        "samples": [
+          "https://jkanime.net/love-kome-we-love-rice/1/",
+          "https://jkanime.net/love-kome-we-love-rice/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakurada-reset/",
+        "title": "Sakurada Reset",
+        "samples": [
+          "https://jkanime.net/sakurada-reset/1/",
+          "https://jkanime.net/sakurada-reset/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakura-quest/",
+        "title": "Sakura Quest",
+        "samples": [
+          "https://jkanime.net/sakura-quest/1/",
+          "https://jkanime.net/sakura-quest/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/",
+        "title": "Rokudenashi Majutsu Koushi to Akashic Records",
+        "samples": [
+          "https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/1/",
+          "https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cinderella-girls-gekijou/",
         "title": "Cinderella Girls Gekijou",
         "samples": [
           "https://jkanime.net/cinderella-girls-gekijou/1/",
           "https://jkanime.net/cinderella-girls-gekijou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/oushitsu-kyoushi-haine/",
+        "title": "Oushitsu Kyoushi Haine",
+        "samples": [
+          "https://jkanime.net/oushitsu-kyoushi-haine/1/",
+          "https://jkanime.net/oushitsu-kyoushi-haine/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boruto-naruto-next-generations/",
+        "title": "Boruto: Naruto Next Generations",
+        "samples": [
+          "https://jkanime.net/boruto-naruto-next-generations/1/",
+          "https://jkanime.net/boruto-naruto-next-generations/10/"
         ]
       },
       {
@@ -72053,12 +72117,11 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
         "https://jkanime.net/7-seeds/16/",
-        "https://jkanime.net/7-seeds/17/",
         "https://jkanime.net/7-seeds/18/",
         "https://jkanime.net/7-seeds/19/",
         "https://jkanime.net/7-seeds/20/",
@@ -72071,7 +72134,7 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "mp4upload": 13,
+        "mp4upload": 14,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -79423,9 +79486,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/",
@@ -79444,9 +79506,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 10,
-        "streamwish": 10,
-        "vidhide": 10
+        "mp4upload": 11,
+        "streamwish": 11,
+        "vidhide": 11
       },
       "playbackVerified": false
     },
@@ -80793,7 +80855,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -82053,13 +82115,15 @@
     {
       "series": "https://jkanime.net/renai-boukun/",
       "title": "Renai Boukun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82072,13 +82136,15 @@
     {
       "series": "https://jkanime.net/busou-shoujo-machiavellianism/",
       "title": "Busou Shoujo Machiavellianism",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82092,32 +82158,36 @@
     {
       "series": "https://jkanime.net/love-kome-we-love-rice/",
       "title": "Love Kome: We Love Rice",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sakurada-reset/",
       "title": "Sakurada Reset",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -82130,13 +82200,15 @@
     {
       "series": "https://jkanime.net/sakura-quest/",
       "title": "Sakura Quest",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -82149,13 +82221,15 @@
     {
       "series": "https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/",
       "title": "Rokudenashi Majutsu Koushi to Akashic Records",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82198,38 +82272,42 @@
     {
       "series": "https://jkanime.net/oushitsu-kyoushi-haine/",
       "title": "Oushitsu Kyoushi Haine",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/boruto-naruto-next-generations/",
       "title": "Boruto: Naruto Next Generations",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 293,
       "stored": 293,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 135,
       "families": {
-        "mega": 293,
+        "mega": 292,
         "streamwish": 293,
         "vidhide": 293,
         "mp4upload": 293,
-        "streamtape": 293
+        "streamtape": 292
       },
       "playbackVerified": false
     },
@@ -114178,7 +114256,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -129415,7 +129493,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 32,
         "streamwish": 32,
