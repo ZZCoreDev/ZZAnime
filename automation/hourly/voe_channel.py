@@ -1,14 +1,33 @@
 """Capability-isolated signed additions. Legacy observations are never replaced by VOE."""
 from pathlib import Path
-import copy,datetime,json,os,re,subprocess,time,urllib.request
+import copy,datetime,gzip,hashlib,json,os,re,subprocess,time,urllib.request
 from archive_state import load,save,merge,stamp
 
 PROOF=['https://jkanime.net/sasaki-to-pii-chan-season-2/4/','https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/4/']
 
+def load_parents(folder,parents):
+    folder=Path(folder);meta=folder/'observations.json'
+    state=json.loads(meta.read_bytes()) if meta.exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
+    if state.get('episodes'):return load(folder)
+    for parent in parents:
+        path=folder/'series-state'/(hashlib.sha256(parent.encode()).hexdigest()+'.json.gz')
+        if not path.exists():continue
+        row=json.loads(gzip.decompress(path.read_bytes()))
+        if row['series']!=parent:raise ValueError('VOE state identity mismatch')
+        merge(state,{'episodes':row['episodes'],'listings':{parent:row['listing']}})
+    return state
+
 def split(folder,incoming):
     legacy=copy.deepcopy(incoming);extra={'episodes':{},'listings':{}};now=time.time()
     for url,ep in incoming.get('episodes',{}).items():
-        providers=[p for p in ep.get('providers',[]) if p.get('family')=='voe']
+        observed=[p for p in ep.get('providers',[]) if p.get('family')=='voe']
+        if not observed:continue
+        providers=[p for p in observed if p.get('links')]
+        held=[p for p in observed if not p.get('links')]
+        remaining=[p for p in ep['providers'] if p.get('family')!='voe']
+        if held:legacy['episodes'][url].setdefault('reviewProviders',[]).extend(copy.deepcopy(held))
+        legacy['episodes'][url]['providers']=remaining
+        if not any(p.get('links') for p in remaining):legacy['episodes'].pop(url)
         if not providers:continue
         parent=url.rsplit('/',2)[0]+'/'
         listing=incoming.get('listings',{}).get(parent)
@@ -17,19 +36,24 @@ def split(folder,incoming):
         for p in providers:
             if p.get('name','').strip().lower()!='voe' or not p.get('links') or any(not re.fullmatch(r'https://voe\.sx/e/[a-zA-Z0-9_-]+',u) for u in p['links']):raise ValueError('VOE provider scope')
         extra['episodes'][url]={**ep,'providers':providers};extra['listings'][parent]=listing
-        legacy['episodes'][url]['providers']=[p for p in ep['providers'] if p.get('family')!='voe']
-        if not any(p.get('links') for p in legacy['episodes'][url]['providers']):legacy['episodes'].pop(url)
     count=0
     if extra['episodes']:
-        side=load(Path(folder)/'voe-state')
+        side=load_parents(Path(folder)/'voe-state',extra['listings'])
         for url,ep in list(extra['episodes'].items()):
             old=side['episodes'].get(url)
             if old and now-stamp(old.get('observedAt'))<6*86400 and old.get('providers')==ep['providers']:extra['episodes'].pop(url)
         count=len(extra['episodes'])
-        if count:merge(side,extra);save(Path(folder)/'voe-state',side,set(extra['listings']))
+        if count:
+            merge(side,extra);recent=side.setdefault('recent',{})
+            for url,ep in extra['episodes'].items():recent[url]=ep['observedAt']
+            side['recent']=dict(sorted(recent.items(),key=lambda r:stamp(r[1]),reverse=True)[:500])
+            save(Path(folder)/'voe-state',side,set(extra['listings']))
     return legacy,count
 
 def fresh_urls(folder,now):
+    meta=Path(folder)/'voe-state'/'observations.json'
+    recent=json.loads(meta.read_bytes()).get('recent') if meta.exists() else None
+    if recent is not None:return [u for u,date in recent.items() if 0<=now-stamp(date)<6*86400]
     state=load(Path(folder)/'voe-state')
     return [u for u,e in sorted(state['episodes'].items(),key=lambda r:stamp(r[1].get('observedAt')),reverse=True) if 0<=now-stamp(e.get('observedAt'))<6*86400][:500]
 
@@ -57,7 +81,8 @@ def repair_legacy(folder,original):
     if changed:save(folder,state,changed)
     report={'restored':len(restored),'held':held,'originalDatesPreserved':True,'voeObservationRetained':True}
     (folder/'voe-legacy-repair.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-    if held:raise ValueError('Legacy VOE migration needs an authentic baseline; originals retained')
+    # An already unsupported VOE-only record had no legacy option to expose. Do not
+    # invent a baseline or delete it; retain the original and report it separately.
     return report
 
 def render(folder,now,key,runtime):
@@ -65,6 +90,8 @@ def render(folder,now,key,runtime):
     from cryptography.hazmat.primitives import hashes
     from cryptography.hazmat.primitives.asymmetric import padding
     state=load(Path(folder)/'voe-state')
+    policy=json.loads((p.W/'voe-policy.json').read_bytes())
+    if not policy.get('enabled'):state['episodes']={u:e for u,e in state['episodes'].items() if u in PROOF}
     state['episodes']={u:e for u,e in state['episodes'].items() if 0<=now.timestamp()-stamp(e.get('observedAt'))<=7*86400}
     if not state['episodes']:return {},None,None
     cp=p.compile_java(Path(runtime)/'voe-classes',modern=True)

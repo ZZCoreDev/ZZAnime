@@ -20,6 +20,10 @@ class VoeChannelTests(unittest.TestCase):
   source=self.fixture(PROOF[0]);source['episodes'][PROOF[0]]['providers'].insert(0,{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-test.html']})
   with tempfile.TemporaryDirectory() as d:
    legacy,count=split(d,source);self.assertEqual(count,1);self.assertEqual([p['family'] for p in legacy['episodes'][PROOF[0]]['providers']],['mp4upload'])
+ def test_unapproved_voe_is_retained_for_review_without_blocking_valid_legacy(self):
+  source=self.fixture(PROOF[0]);ep=source['episodes'][PROOF[0]];ep['providers'][0]['links']=[];ep['providers'][0]['quarantine']=['https://unapproved.invalid/e/id'];ep['providers'].append({'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-test.html']})
+  with tempfile.TemporaryDirectory() as d:
+   legacy,count=split(d,source);self.assertEqual(count,0);self.assertEqual(len(legacy['episodes'][PROOF[0]]['providers']),1);self.assertEqual(legacy['episodes'][PROOF[0]]['reviewProviders'][0]['quarantine'],['https://unapproved.invalid/e/id']);self.assertEqual(load(Path(d)/'voe-state')['episodes'],{})
  def test_untrusted_and_stale_do_not_write(self):
   for changed in ['host','date','identity']:
    with self.subTest(changed=changed),tempfile.TemporaryDirectory() as d:
@@ -44,5 +48,18 @@ class VoeChannelTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    source=self.fixture(PROOF[0]);baseline=copy.deepcopy(source);ep=baseline['episodes'][PROOF[0]];ep['observedAt']=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(hours=2)).isoformat();ep['providers']=[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-original.html']}];save(Path(d),source)
    self.assertEqual(repair_legacy(d,baseline)['restored'],1);self.assertEqual(load(d)['episodes'][PROOF[0]],ep);self.assertEqual(load(Path(d)/'voe-state')['episodes'][PROOF[0]]['providers'][0]['family'],'voe');self.assertEqual(len(list(Path(d,'quarantine/voe-legacy').glob('*.json'))),1);self.assertEqual(repair_legacy(d,baseline)['restored'],0)
+ def test_no_legacy_baseline_is_not_invented_or_deleted(self):
+  from voe_channel import repair_legacy
+  from archive_state import save
+  with tempfile.TemporaryDirectory() as d:
+   original=self.fixture(PROOF[0]);save(Path(d),original);result=repair_legacy(d,{})
+   self.assertEqual(result['held'],[PROOF[0]]);self.assertEqual(load(d)['episodes'],original['episodes']);self.assertEqual(load(Path(d)/'voe-state')['episodes'],original['episodes'])
+ def test_incremental_capture_does_not_scan_the_whole_archive(self):
+  from unittest.mock import patch
+  with tempfile.TemporaryDirectory() as d:
+   split(d,self.fixture(PROOF[0]))
+   with patch('voe_channel.load',side_effect=AssertionError('Full archive scan')):
+    self.assertEqual(split(d,self.fixture(PROOF[1]))[1],1)
+   self.assertEqual(len(load(Path(d)/'voe-state')['episodes']),2)
 
 if __name__=='__main__':unittest.main()
