@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T17:05:43.005308+00:00",
+  "checkedAt": "2026-10-29T17:18:14.622108+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73525,
-  "storedChapters": 71658,
-  "missingChapters": 1867,
+  "storedChapters": 71661,
+  "missingChapters": 1864,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/"
         ]
       },
       {
@@ -2311,7 +2311,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/18/"
+          "https://jkanime.net/classicaloid/19/"
         ]
       },
       {
@@ -22216,10 +22216,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gin-no-guardian/",
+        "title": "Gin no Guardian",
+        "samples": [
+          "https://jkanime.net/gin-no-guardian/1/",
+          "https://jkanime.net/gin-no-guardian/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-2nd-season/",
+        "title": "Boku no Hero Academia 2nd Season",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-2nd-season/1/",
+          "https://jkanime.net/boku-no-hero-academia-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/feng-ling-yu-xiu/",
+        "title": "Feng Ling Yu Xiu",
+        "samples": [
+          "https://jkanime.net/feng-ling-yu-xiu/1/",
+          "https://jkanime.net/feng-ling-yu-xiu/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hirune-hime-shiranai-watashi-no-monogatari/",
         "title": "Hirune Hime: Shiranai Watashi no Monogatari",
         "samples": [
           "https://jkanime.net/hirune-hime-shiranai-watashi-no-monogatari/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahoutsukai-no-yome-hoshi-matsu-hito/",
+        "title": "Mahoutsukai no Yome: Hoshi Matsu Hito",
+        "samples": [
+          "https://jkanime.net/mahoutsukai-no-yome-hoshi-matsu-hito/1/",
+          "https://jkanime.net/mahoutsukai-no-yome-hoshi-matsu-hito/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-senkan-yamato-2202-ai-no-senshi-tachi/",
+        "title": "Uchuu Senkan Yamato 2202: Ai no Senshi-tachi",
+        "samples": [
+          "https://jkanime.net/uchuu-senkan-yamato-2202-ai-no-senshi-tachi/1/",
+          "https://jkanime.net/uchuu-senkan-yamato-2202-ai-no-senshi-tachi/10/"
         ]
       },
       {
@@ -22244,6 +22284,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kirakiraprecure-a-la-mode/",
+        "title": "Kirakira☆Precure A La Mode",
+        "samples": [
+          "https://jkanime.net/kirakiraprecure-a-la-mode/1/",
+          "https://jkanime.net/kirakiraprecure-a-la-mode/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/vivid-strike-specials/",
         "title": "ViVid Strike! Specials",
         "samples": [
@@ -22258,11 +22306,115 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bang-dream/",
+        "title": "BanG Dream!",
+        "samples": [
+          "https://jkanime.net/bang-dream/1/",
+          "https://jkanime.net/bang-dream/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+        "title": "Granblue Fantasy The Animation",
+        "samples": [
+          "https://jkanime.net/granblue-fantasy-the-animation/1/",
+          "https://jkanime.net/granblue-fantasy-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-shibai-4th-season/",
+        "title": "Yami Shibai 4th Season",
+        "samples": [
+          "https://jkanime.net/yami-shibai-4th-season/1/",
+          "https://jkanime.net/yami-shibai-4th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rewrite-moon-and-terra/",
+        "title": "Rewrite: Moon and Terra",
+        "samples": [
+          "https://jkanime.net/rewrite-moon-and-terra/1/",
+          "https://jkanime.net/rewrite-moon-and-terra/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chou-yuu-sekai-being-the-reality/",
+        "title": "Chou Yuu Sekai: Being the Reality",
+        "samples": [
+          "https://jkanime.net/chou-yuu-sekai-being-the-reality/1/",
+          "https://jkanime.net/chou-yuu-sekai-being-the-reality/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/",
         "title": "Marginal#4: Kiss kara Tsukuru Big Bang",
         "samples": [
           "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/1/",
           "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/super-lovers-2/",
+        "title": "Super Lovers 2",
+        "samples": [
+          "https://jkanime.net/super-lovers-2/1/",
+          "https://jkanime.net/super-lovers-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuzu-no-honkai/",
+        "title": "Kuzu no Honkai",
+        "samples": [
+          "https://jkanime.net/kuzu-no-honkai/1/",
+          "https://jkanime.net/kuzu-no-honkai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-2/",
+        "title": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+        "samples": [
+          "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-2/1/",
+          "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/choschild/",
+        "title": "Chaos;Child",
+        "samples": [
+          "https://jkanime.net/choschild/1/",
+          "https://jkanime.net/choschild/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kobayashi-san-chi-no-maid-dragon/",
+        "title": "Kobayashi-san Chi no Maid Dragon",
+        "samples": [
+          "https://jkanime.net/kobayashi-san-chi-no-maid-dragon/1/",
+          "https://jkanime.net/kobayashi-san-chi-no-maid-dragon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/one-room/",
+        "title": "One Room",
+        "samples": [
+          "https://jkanime.net/one-room/1/",
+          "https://jkanime.net/one-room/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/acca-13-ku-kansatsu-ka/",
+        "title": "ACCA: 13-ku Kansatsu-ka",
+        "samples": [
+          "https://jkanime.net/acca-13-ku-kansatsu-ka/1/",
+          "https://jkanime.net/acca-13-ku-kansatsu-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hand-shakers/",
+        "title": "Hand Shakers",
+        "samples": [
+          "https://jkanime.net/hand-shakers/1/",
+          "https://jkanime.net/hand-shakers/10/"
         ]
       },
       {
@@ -22326,7 +22478,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/18/"
+          "https://jkanime.net/classicaloid/19/"
         ]
       },
       {
@@ -31580,7 +31732,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -64237,11 +64389,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/cardfight-vanguard-overdress/13/",
         "https://jkanime.net/cardfight-vanguard-overdress/15/",
-        "https://jkanime.net/cardfight-vanguard-overdress/16/",
         "https://jkanime.net/cardfight-vanguard-overdress/17/",
         "https://jkanime.net/cardfight-vanguard-overdress/18/",
         "https://jkanime.net/cardfight-vanguard-overdress/19/",
@@ -64256,10 +64407,10 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 13,
+        "mp4upload": 14,
         "vidhide": 3,
         "mega": 2,
-        "streamwish": 3,
+        "streamwish": 4,
         "streamtape": 2
       },
       "playbackVerified": false
@@ -79569,9 +79720,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/23/",
@@ -79588,9 +79738,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 12,
-        "streamwish": 12,
-        "vidhide": 12
+        "mp4upload": 13,
+        "streamwish": 13,
+        "vidhide": 13
       },
       "playbackVerified": false
     },
@@ -82575,22 +82725,22 @@
       "families": {
         "streamwish": 12,
         "vidhide": 12,
-        "mega": 5,
-        "mp4upload": 6,
-        "streamtape": 5
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gin-no-guardian/",
       "title": "Gin no Guardian",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82603,13 +82753,15 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-2nd-season/",
       "title": "Boku no Hero Academia 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -82630,25 +82782,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/feng-ling-yu-xiu/",
       "title": "Feng Ling Yu Xiu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82680,13 +82829,15 @@
     {
       "series": "https://jkanime.net/mahoutsukai-no-yome-hoshi-matsu-hito/",
       "title": "Mahoutsukai no Yome: Hoshi Matsu Hito",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -82699,13 +82850,15 @@
     {
       "series": "https://jkanime.net/uchuu-senkan-yamato-2202-ai-no-senshi-tachi/",
       "title": "Uchuu Senkan Yamato 2202: Ai no Senshi-tachi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -82731,7 +82884,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -82782,13 +82935,15 @@
     {
       "series": "https://jkanime.net/kirakiraprecure-a-la-mode/",
       "title": "Kirakira☆Precure A La Mode",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 49,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -82854,13 +83009,15 @@
     {
       "series": "https://jkanime.net/bang-dream/",
       "title": "BanG Dream!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -82874,13 +83031,15 @@
     {
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -82893,13 +83052,15 @@
     {
       "series": "https://jkanime.net/yami-shibai-4th-season/",
       "title": "Yami Shibai 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -82912,13 +83073,15 @@
     {
       "series": "https://jkanime.net/rewrite-moon-and-terra/",
       "title": "Rewrite: Moon and Terra",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -82931,13 +83094,15 @@
     {
       "series": "https://jkanime.net/chou-yuu-sekai-being-the-reality/",
       "title": "Chou Yuu Sekai: Being the Reality",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -82980,13 +83145,15 @@
     {
       "series": "https://jkanime.net/super-lovers-2/",
       "title": "Super Lovers 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -83000,13 +83167,15 @@
     {
       "series": "https://jkanime.net/kuzu-no-honkai/",
       "title": "Kuzu no Honkai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83036,13 +83205,15 @@
     {
       "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-2/",
       "title": "Kono Subarashii Sekai ni Shukufuku wo! 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -83055,13 +83226,15 @@
     {
       "series": "https://jkanime.net/choschild/",
       "title": "Chaos;Child",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83074,13 +83247,15 @@
     {
       "series": "https://jkanime.net/kobayashi-san-chi-no-maid-dragon/",
       "title": "Kobayashi-san Chi no Maid Dragon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -83093,13 +83268,15 @@
     {
       "series": "https://jkanime.net/one-room/",
       "title": "One Room",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83112,13 +83289,15 @@
     {
       "series": "https://jkanime.net/acca-13-ku-kansatsu-ka/",
       "title": "ACCA: 13-ku Kansatsu-ka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83131,13 +83310,15 @@
     {
       "series": "https://jkanime.net/hand-shakers/",
       "title": "Hand Shakers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84095,10 +84276,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/18/",
         "https://jkanime.net/classicaloid/19/",
         "https://jkanime.net/classicaloid/2/",
         "https://jkanime.net/classicaloid/20/",
@@ -84119,9 +84299,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 10,
-        "streamwish": 10,
-        "vidhide": 10
+        "mp4upload": 11,
+        "streamwish": 11,
+        "vidhide": 11
       },
       "playbackVerified": false
     },
@@ -100178,7 +100358,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 1
       },
@@ -114691,7 +114871,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
