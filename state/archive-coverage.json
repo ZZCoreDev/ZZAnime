@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T19:48:28.291592+00:00",
+  "checkedAt": "2026-10-29T20:02:16.933286+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73528,
-  "storedChapters": 71694,
-  "missingChapters": 1834,
+  "storedChapters": 71697,
+  "missingChapters": 1831,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -827,7 +827,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/"
         ]
       },
       {
@@ -2303,7 +2303,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/3/"
+          "https://jkanime.net/classicaloid/4/"
         ]
       },
       {
@@ -13339,7 +13339,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/"
         ]
       },
       {
@@ -22770,7 +22770,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/3/"
+          "https://jkanime.net/classicaloid/4/"
         ]
       },
       {
@@ -24104,6 +24104,62 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mayoiga/",
+        "title": "Mayoiga",
+        "samples": [
+          "https://jkanime.net/mayoiga/1/",
+          "https://jkanime.net/mayoiga/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/terra-formars-revenge/",
+        "title": "Terra Formars Revenge",
+        "samples": [
+          "https://jkanime.net/terra-formars-revenge/1/",
+          "https://jkanime.net/terra-formars-revenge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-patrol-luluco/",
+        "title": "Uchuu Patrol Luluco",
+        "samples": [
+          "https://jkanime.net/uchuu-patrol-luluco/1/",
+          "https://jkanime.net/uchuu-patrol-luluco/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ushio-to-tora-tv-2nd-season/",
+        "title": "Ushio to Tora (TV) 2nd Season",
+        "samples": [
+          "https://jkanime.net/ushio-to-tora-tv-2nd-season/1/",
+          "https://jkanime.net/ushio-to-tora-tv-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-diamond-wa-kudakenai/",
+        "title": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+        "samples": [
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-diamond-wa-kudakenai/1/",
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-diamond-wa-kudakenai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kagewani-shou/",
+        "title": "Kagewani: Shou",
+        "samples": [
+          "https://jkanime.net/kagewani-shou/1/",
+          "https://jkanime.net/kagewani-shou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brotherhood-final-fantasy-xv/",
+        "title": "Brotherhood: Final Fantasy XV",
+        "samples": [
+          "https://jkanime.net/brotherhood-final-fantasy-xv/1/",
+          "https://jkanime.net/brotherhood-final-fantasy-xv/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/charlotte-ova/",
         "title": "Charlotte OVA",
         "samples": [
@@ -24115,6 +24171,37 @@
         "title": "Hai to Gensou no Grimgar Special",
         "samples": [
           "https://jkanime.net/hai-to-gensou-no-grimgar-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuon-ova/",
+        "title": "Bakuon!! OVA",
+        "samples": [
+          "https://jkanime.net/bakuon-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soul-worker-your-destiny-awaits/",
+        "title": "Soul Worker: Your Destiny Awaits",
+        "samples": [
+          "https://jkanime.net/soul-worker-your-destiny-awaits/2/",
+          "https://jkanime.net/soul-worker-your-destiny-awaits/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mirai-no-watashi/",
+        "title": "Mirai no Watashi",
+        "samples": [
+          "https://jkanime.net/mirai-no-watashi/1/",
+          "https://jkanime.net/mirai-no-watashi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ansatsu-kyoushitsu-kagaijugyou-hen/",
+        "title": "Ansatsu Kyoushitsu: Kagaijugyou-hen",
+        "samples": [
+          "https://jkanime.net/ansatsu-kyoushitsu-kagaijugyou-hen/1/",
+          "https://jkanime.net/ansatsu-kyoushitsu-kagaijugyou-hen/2/"
         ]
       },
       {
@@ -24132,10 +24219,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kanojo-to-kanojo-no-neko-everything-flows/",
+        "title": "Kanojo to Kanojo no Neko: Everything Flows",
+        "samples": [
+          "https://jkanime.net/kanojo-to-kanojo-no-neko-everything-flows/1/",
+          "https://jkanime.net/kanojo-to-kanojo-no-neko-everything-flows/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/prison-school-ova/",
         "title": "Prison School OVA",
         "samples": [
           "https://jkanime.net/prison-school-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/masamune-datenicle/",
+        "title": "Masamune Datenicle",
+        "samples": [
+          "https://jkanime.net/masamune-datenicle/1/",
+          "https://jkanime.net/masamune-datenicle/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahoutsukai-precure/",
+        "title": "Mahoutsukai Precure!",
+        "samples": [
+          "https://jkanime.net/mahoutsukai-precure/1/",
+          "https://jkanime.net/mahoutsukai-precure/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-danshi-mahou-ga-oshigoto-desu/",
+        "title": "Kono Danshi, Mahou ga Oshigoto Desu.",
+        "samples": [
+          "https://jkanime.net/kono-danshi-mahou-ga-oshigoto-desu/1/",
+          "https://jkanime.net/kono-danshi-mahou-ga-oshigoto-desu/2/"
         ]
       },
       {
@@ -24167,11 +24286,67 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ajin/",
+        "title": "Ajin",
+        "samples": [
+          "https://jkanime.net/ajin/1/",
+          "https://jkanime.net/ajin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo/",
+        "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "samples": [
+          "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo/1/",
+          "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ao-no-kanata-no-four-rhythm/",
+        "title": "Ao no Kanata no Four Rhythm",
+        "samples": [
+          "https://jkanime.net/ao-no-kanata-no-four-rhythm/1/",
+          "https://jkanime.net/ao-no-kanata-no-four-rhythm/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saijaku-muhai-no-bahamut/",
+        "title": "Saijaku Muhai no Bahamut",
+        "samples": [
+          "https://jkanime.net/saijaku-muhai-no-bahamut/1/",
+          "https://jkanime.net/saijaku-muhai-no-bahamut/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akagami-no-shirayuki-hime-2nd-season/",
+        "title": "Akagami no Shirayuki-hime 2nd Season",
+        "samples": [
+          "https://jkanime.net/akagami-no-shirayuki-hime-2nd-season/1/",
+          "https://jkanime.net/akagami-no-shirayuki-hime-2nd-season/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu-7/",
+        "title": "Teekyuu 7",
+        "samples": [
+          "https://jkanime.net/teekyuu-7/1/",
+          "https://jkanime.net/teekyuu-7/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/schwarzesmarken/",
+        "title": "Schwarzesmarken",
+        "samples": [
+          "https://jkanime.net/schwarzesmarken/1/",
+          "https://jkanime.net/schwarzesmarken/10/"
         ]
       },
       {
@@ -42726,7 +42901,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 19,
         "vidhide": 16,
@@ -58427,10 +58602,9 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
       ],
@@ -58438,7 +58612,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 13,
+        "mp4upload": 14,
         "streamwish": 13,
         "vidhide": 5
       },
@@ -65822,7 +65996,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 21,
         "vidhide": 3,
@@ -73768,14 +73942,13 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
         "https://jkanime.net/7-seeds/16/",
         "https://jkanime.net/7-seeds/18/",
         "https://jkanime.net/7-seeds/19/",
-        "https://jkanime.net/7-seeds/22/",
         "https://jkanime.net/7-seeds/23/",
         "https://jkanime.net/7-seeds/24/"
       ],
@@ -73783,7 +73956,7 @@
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "mp4upload": 16,
+        "mp4upload": 17,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -83898,7 +84071,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -85749,10 +85922,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/3/",
         "https://jkanime.net/classicaloid/4/",
         "https://jkanime.net/classicaloid/5/",
         "https://jkanime.net/classicaloid/6/",
@@ -85764,9 +85936,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 17,
-        "streamwish": 19,
-        "vidhide": 17
+        "mp4upload": 18,
+        "streamwish": 20,
+        "vidhide": 18
       },
       "playbackVerified": false
     },
@@ -89481,7 +89653,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -89494,13 +89666,15 @@
     {
       "series": "https://jkanime.net/mayoiga/",
       "title": "Mayoiga",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89513,13 +89687,15 @@
     {
       "series": "https://jkanime.net/terra-formars-revenge/",
       "title": "Terra Formars Revenge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89532,13 +89708,15 @@
     {
       "series": "https://jkanime.net/uchuu-patrol-luluco/",
       "title": "Uchuu Patrol Luluco",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89551,13 +89729,15 @@
     {
       "series": "https://jkanime.net/ushio-to-tora-tv-2nd-season/",
       "title": "Ushio to Tora (TV) 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89570,13 +89750,15 @@
     {
       "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-diamond-wa-kudakenai/",
       "title": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -89589,32 +89771,36 @@
     {
       "series": "https://jkanime.net/kagewani-shou/",
       "title": "Kagewani: Shou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 13,
+        "mega": 10,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/brotherhood-final-fantasy-xv/",
       "title": "Brotherhood: Final Fantasy XV",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -89680,13 +89866,15 @@
     {
       "series": "https://jkanime.net/bakuon-ova/",
       "title": "Bakuon!! OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -89699,32 +89887,36 @@
     {
       "series": "https://jkanime.net/soul-worker-your-destiny-awaits/",
       "title": "Soul Worker: Your Destiny Awaits",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 5,
-        "streamwish": 5,
-        "vidhide": 5,
         "mp4upload": 5,
-        "streamtape": 5
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mirai-no-watashi/",
       "title": "Mirai no Watashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -89737,13 +89929,15 @@
     {
       "series": "https://jkanime.net/ansatsu-kyoushitsu-kagaijugyou-hen/",
       "title": "Ansatsu Kyoushitsu: Kagaijugyou-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -89769,7 +89963,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -89801,13 +89995,15 @@
     {
       "series": "https://jkanime.net/kanojo-to-kanojo-no-neko-everything-flows/",
       "title": "Kanojo to Kanojo no Neko: Everything Flows",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 4,
@@ -89839,13 +90035,15 @@
     {
       "series": "https://jkanime.net/masamune-datenicle/",
       "title": "Masamune Datenicle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -89873,13 +90071,15 @@
     {
       "series": "https://jkanime.net/mahoutsukai-precure/",
       "title": "Mahoutsukai Precure!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -89893,13 +90093,15 @@
     {
       "series": "https://jkanime.net/kono-danshi-mahou-ga-oshigoto-desu/",
       "title": "Kono Danshi, Mahou ga Oshigoto Desu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -90007,13 +90209,15 @@
     {
       "series": "https://jkanime.net/ajin/",
       "title": "Ajin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -90026,13 +90230,15 @@
     {
       "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo/",
       "title": "Kono Subarashii Sekai ni Shukufuku wo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -90045,13 +90251,15 @@
     {
       "series": "https://jkanime.net/ao-no-kanata-no-four-rhythm/",
       "title": "Ao no Kanata no Four Rhythm",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90064,13 +90272,15 @@
     {
       "series": "https://jkanime.net/saijaku-muhai-no-bahamut/",
       "title": "Saijaku Muhai no Bahamut",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90083,13 +90293,15 @@
     {
       "series": "https://jkanime.net/akagami-no-shirayuki-hime-2nd-season/",
       "title": "Akagami no Shirayuki-hime 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90131,13 +90343,15 @@
     {
       "series": "https://jkanime.net/teekyuu-7/",
       "title": "Teekyuu 7",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90150,13 +90364,15 @@
     {
       "series": "https://jkanime.net/schwarzesmarken/",
       "title": "Schwarzesmarken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94037,7 +94253,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
