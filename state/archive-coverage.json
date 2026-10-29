@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T19:06:47.014985+00:00",
+  "checkedAt": "2026-10-29T19:20:47.542379+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73527,
-  "storedChapters": 71681,
-  "missingChapters": 1846,
+  "observedChapters": 73528,
+  "storedChapters": 71686,
+  "missingChapters": 1842,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -827,7 +827,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/17/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/"
         ]
       },
       {
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/7/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/8/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/8/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/9/"
         ]
       },
       {
@@ -2311,7 +2311,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/23/"
+          "https://jkanime.net/classicaloid/24/"
         ]
       },
       {
@@ -6133,6 +6133,13 @@
         "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
         "samples": [
           "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
+        "title": "Tetsuryou! Meet with Tetsudou Musume",
+        "samples": [
+          "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
         ]
       },
       {
@@ -13340,7 +13347,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/17/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/"
         ]
       },
       {
@@ -22771,7 +22778,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/23/"
+          "https://jkanime.net/classicaloid/24/"
         ]
       },
       {
@@ -23640,6 +23647,70 @@
         ]
       },
       {
+        "series": "https://jkanime.net/rewrite/",
+        "title": "Rewrite",
+        "samples": [
+          "https://jkanime.net/rewrite/1/",
+          "https://jkanime.net/rewrite/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shokugeki-no-souma-ni-no-sara/",
+        "title": "Food Wars - Shokugeki no Souma: Ni no Sara",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma-ni-no-sara/1/",
+          "https://jkanime.net/shokugeki-no-souma-ni-no-sara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/days-tv/",
+        "title": "Days (TV)",
+        "samples": [
+          "https://jkanime.net/days-tv/1/",
+          "https://jkanime.net/days-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/orange/",
+        "title": "Orange",
+        "samples": [
+          "https://jkanime.net/orange/1/",
+          "https://jkanime.net/orange/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/berserk-2016/",
+        "title": "Berserk (2016)",
+        "samples": [
+          "https://jkanime.net/berserk-2016/1/",
+          "https://jkanime.net/berserk-2016/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/relife/",
+        "title": "ReLIFE",
+        "samples": [
+          "https://jkanime.net/relife/1/",
+          "https://jkanime.net/relife/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/momokuri/",
+        "title": "Momokuri",
+        "samples": [
+          "https://jkanime.net/momokuri/1/",
+          "https://jkanime.net/momokuri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sansha-sanyou-specials/",
+        "title": "Sansha Sanyou Specials",
+        "samples": [
+          "https://jkanime.net/sansha-sanyou-specials/1/",
+          "https://jkanime.net/sansha-sanyou-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/rs-keikaku-rebirth-storage/",
         "title": "RS Keikaku: Rebirth Storage",
         "samples": [
@@ -23654,10 +23725,48 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kuma-miko-specials/",
+        "title": "Kuma Miko Specials",
+        "samples": [
+          "https://jkanime.net/kuma-miko-specials/1/",
+          "https://jkanime.net/kuma-miko-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spiritpact/",
+        "title": "Ling Qi",
+        "samples": [
+          "https://jkanime.net/spiritpact/1/",
+          "https://jkanime.net/spiritpact/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-und-panzer-der-film-arisu-war/",
+        "title": "Girls und Panzer der Film: Arisu War!",
+        "samples": [
+          "https://jkanime.net/girls-und-panzer-der-film-arisu-war/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kekkai-sensen-ousama-no-restaurant-no-ousama/",
         "title": "Kekkai Sensen: Ousama no Restaurant no Ousama",
         "samples": [
           "https://jkanime.net/kekkai-sensen-ousama-no-restaurant-no-ousama/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ajin-ova/",
+        "title": "Ajin OVA",
+        "samples": [
+          "https://jkanime.net/ajin-ova/1/",
+          "https://jkanime.net/ajin-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haikyuu-vs-akaten/",
+        "title": "Haikyuu!!: vs. Akaten",
+        "samples": [
+          "https://jkanime.net/haikyuu-vs-akaten/1/"
         ]
       },
       {
@@ -23668,10 +23777,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shokugeki-no-souma-ova/",
+        "title": "Shokugeki no Souma OVA",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma-ova/1/",
+          "https://jkanime.net/shokugeki-no-souma-ova/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/owari-no-seraph-kyuuketsuki-shahar/",
         "title": "Owari no Seraph: Kyuuketsuki Shahar",
         "samples": [
           "https://jkanime.net/owari-no-seraph-kyuuketsuki-shahar/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zhen-hun-jie/",
+        "title": "Zhen Hun Jie",
+        "samples": [
+          "https://jkanime.net/zhen-hun-jie/1/",
+          "https://jkanime.net/zhen-hun-jie/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/big-order-tv/",
+        "title": "Big Order (TV)",
+        "samples": [
+          "https://jkanime.net/big-order-tv/1/",
+          "https://jkanime.net/big-order-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magi-sinbad-no-bouken-tv/",
+        "title": "Magi: Sinbad no Bouken (TV)",
+        "samples": [
+          "https://jkanime.net/magi-sinbad-no-bouken-tv/1/",
+          "https://jkanime.net/magi-sinbad-no-bouken-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/usakame/",
+        "title": "Usakame",
+        "samples": [
+          "https://jkanime.net/usakame/2/",
+          "https://jkanime.net/usakame/6/"
         ]
       },
       {
@@ -23683,11 +23832,27 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sansha-sanyou/",
+        "title": "Sansha Sanyou",
+        "samples": [
+          "https://jkanime.net/sansha-sanyou/1/",
+          "https://jkanime.net/sansha-sanyou/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tonkatsu-dj-agetarou/",
         "title": "Tonkatsu DJ Agetarou",
         "samples": [
           "https://jkanime.net/tonkatsu-dj-agetarou/1/",
           "https://jkanime.net/tonkatsu-dj-agetarou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-no-rinne-tv-2nd-season/",
+        "title": "Kyoukai no Rinne (TV) 2nd Season",
+        "samples": [
+          "https://jkanime.net/kyoukai-no-rinne-tv-2nd-season/1/",
+          "https://jkanime.net/kyoukai-no-rinne-tv-2nd-season/10/"
         ]
       },
       {
@@ -24640,8 +24805,8 @@
         "series": "https://jkanime.net/wangpai-yushi/",
         "title": "Wangpai Yushi",
         "samples": [
-          "https://jkanime.net/wangpai-yushi/11/",
-          "https://jkanime.net/wangpai-yushi/13/"
+          "https://jkanime.net/wangpai-yushi/10/",
+          "https://jkanime.net/wangpai-yushi/11/"
         ]
       },
       {
@@ -27322,6 +27487,13 @@
         "title": "Umayuru: Full Gate!",
         "samples": [
           "https://jkanime.net/umayuru-full-gate/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shiguang-dailiren-iii/",
+        "title": "Shiguang Dailiren III",
+        "samples": [
+          "https://jkanime.net/shiguang-dailiren-iii/12/"
         ]
       },
       {
@@ -56738,7 +56910,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -56746,7 +56918,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/17/",
         "https://jkanime.net/bleach-sennen-kessen-hen/18/",
         "https://jkanime.net/bleach-sennen-kessen-hen/19/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/20/",
         "https://jkanime.net/bleach-sennen-kessen-hen/21/",
         "https://jkanime.net/bleach-sennen-kessen-hen/22/",
         "https://jkanime.net/bleach-sennen-kessen-hen/23/",
@@ -56783,9 +56954,9 @@
       "families": {
         "mega": 13,
         "streamwish": 14,
-        "vidhide": 14,
+        "vidhide": 15,
         "streamtape": 13,
-        "mp4upload": 7,
+        "mp4upload": 8,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -58001,10 +58172,9 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/17/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/",
@@ -58016,8 +58186,8 @@
       "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
-        "streamwish": 12,
-        "vidhide": 4
+        "streamwish": 13,
+        "vidhide": 5
       },
       "playbackVerified": false
     },
@@ -65390,11 +65560,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/cardfight-vanguard-overdress/13/",
         "https://jkanime.net/cardfight-vanguard-overdress/15/",
-        "https://jkanime.net/cardfight-vanguard-overdress/21/",
         "https://jkanime.net/cardfight-vanguard-overdress/22/",
         "https://jkanime.net/cardfight-vanguard-overdress/23/",
         "https://jkanime.net/cardfight-vanguard-overdress/24/",
@@ -65404,7 +65573,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 18,
+        "mp4upload": 19,
         "vidhide": 3,
         "mega": 2,
         "streamwish": 4,
@@ -69512,7 +69681,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -72015,7 +72184,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -80715,9 +80884,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/7/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/8/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/9/"
       ],
@@ -80725,9 +80893,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 21,
-        "streamwish": 21,
-        "vidhide": 21
+        "mp4upload": 22,
+        "streamwish": 22,
+        "vidhide": 22
       },
       "playbackVerified": false
     },
@@ -85335,10 +85503,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/23/",
         "https://jkanime.net/classicaloid/24/",
         "https://jkanime.net/classicaloid/25/",
         "https://jkanime.net/classicaloid/3/",
@@ -85353,9 +85520,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 15,
-        "streamwish": 16,
-        "vidhide": 15
+        "mp4upload": 16,
+        "streamwish": 17,
+        "vidhide": 16
       },
       "playbackVerified": false
     },
@@ -85789,7 +85956,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -87789,7 +87956,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -87802,13 +87969,15 @@
     {
       "series": "https://jkanime.net/rewrite/",
       "title": "Rewrite",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -87821,13 +87990,15 @@
     {
       "series": "https://jkanime.net/shokugeki-no-souma-ni-no-sara/",
       "title": "Food Wars - Shokugeki no Souma: Ni no Sara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -87840,13 +88011,15 @@
     {
       "series": "https://jkanime.net/days-tv/",
       "title": "Days (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -87859,13 +88032,15 @@
     {
       "series": "https://jkanime.net/orange/",
       "title": "Orange",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -87878,13 +88053,15 @@
     {
       "series": "https://jkanime.net/berserk-2016/",
       "title": "Berserk (2016)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -87897,13 +88074,15 @@
     {
       "series": "https://jkanime.net/relife/",
       "title": "ReLIFE",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -87916,13 +88095,15 @@
     {
       "series": "https://jkanime.net/momokuri/",
       "title": "Momokuri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -87935,13 +88116,15 @@
     {
       "series": "https://jkanime.net/sansha-sanyou-specials/",
       "title": "Sansha Sanyou Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -87992,13 +88175,15 @@
     {
       "series": "https://jkanime.net/kuma-miko-specials/",
       "title": "Kuma Miko Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -88011,13 +88196,15 @@
     {
       "series": "https://jkanime.net/spiritpact/",
       "title": "Ling Qi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -88030,13 +88217,15 @@
     {
       "series": "https://jkanime.net/girls-und-panzer-der-film-arisu-war/",
       "title": "Girls und Panzer der Film: Arisu War!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -88068,13 +88257,15 @@
     {
       "series": "https://jkanime.net/ajin-ova/",
       "title": "Ajin OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -88104,13 +88295,15 @@
     {
       "series": "https://jkanime.net/haikyuu-vs-akaten/",
       "title": "Haikyuu!!: vs. Akaten",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -88142,13 +88335,15 @@
     {
       "series": "https://jkanime.net/shokugeki-no-souma-ova/",
       "title": "Shokugeki no Souma OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -88180,13 +88375,15 @@
     {
       "series": "https://jkanime.net/zhen-hun-jie/",
       "title": "Zhen Hun Jie",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -88200,13 +88397,15 @@
     {
       "series": "https://jkanime.net/big-order-tv/",
       "title": "Big Order (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -88219,13 +88418,15 @@
     {
       "series": "https://jkanime.net/magi-sinbad-no-bouken-tv/",
       "title": "Magi: Sinbad no Bouken (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -88238,19 +88439,21 @@
     {
       "series": "https://jkanime.net/usakame/",
       "title": "Usakame",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -88286,13 +88489,15 @@
     {
       "series": "https://jkanime.net/sansha-sanyou/",
       "title": "Sansha Sanyou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88334,13 +88539,15 @@
     {
       "series": "https://jkanime.net/kyoukai-no-rinne-tv-2nd-season/",
       "title": "Kyoukai no Rinne (TV) 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -98931,7 +99138,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 12,
       "families": {
         "mega": 19,
         "streamwish": 20,
@@ -101582,7 +101789,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mp4upload": 1
       },
@@ -116095,7 +116302,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -131491,10 +131698,14 @@
     {
       "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
       "title": "Tetsuryou! Meet with Tetsudou Musume",
-      "causes": [],
-      "observed": 3,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 4,
       "stored": 3,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -132601,13 +132812,15 @@
     {
       "series": "https://jkanime.net/shiguang-dailiren-iii/",
       "title": "Shiguang Dailiren III",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
