@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T20:02:16.933286+00:00",
+  "checkedAt": "2026-10-29T20:16:30.736846+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73528,
-  "storedChapters": 71697,
-  "missingChapters": 1831,
+  "storedChapters": 71701,
+  "missingChapters": 1827,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -827,7 +827,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
         ]
       },
       {
@@ -1779,7 +1779,7 @@
         "title": "Fight League: Gear Gadget Generators",
         "samples": [
           "https://jkanime.net/fight-league-gear-gadget-generators/1/",
-          "https://jkanime.net/fight-league-gear-gadget-generators/11/"
+          "https://jkanime.net/fight-league-gear-gadget-generators/12/"
         ]
       },
       {
@@ -2303,7 +2303,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/4/"
+          "https://jkanime.net/classicaloid/5/"
         ]
       },
       {
@@ -13339,7 +13339,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
         ]
       },
       {
@@ -19122,7 +19122,7 @@
         "title": "Fight League: Gear Gadget Generators",
         "samples": [
           "https://jkanime.net/fight-league-gear-gadget-generators/1/",
-          "https://jkanime.net/fight-league-gear-gadget-generators/11/"
+          "https://jkanime.net/fight-league-gear-gadget-generators/12/"
         ]
       },
       {
@@ -22770,7 +22770,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/4/"
+          "https://jkanime.net/classicaloid/5/"
         ]
       },
       {
@@ -24350,6 +24350,77 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ooyasan-wa-shishunki/",
+        "title": "Ooyasan wa Shishunki!",
+        "samples": [
+          "https://jkanime.net/ooyasan-wa-shishunki/1/",
+          "https://jkanime.net/ooyasan-wa-shishunki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tabi-machi-late-show/",
+        "title": "Tabi Machi Late Show",
+        "samples": [
+          "https://jkanime.net/tabi-machi-late-show/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-shibai-3rd-season/",
+        "title": "Yami Shibai 3rd Season",
+        "samples": [
+          "https://jkanime.net/yami-shibai-3rd-season/1/",
+          "https://jkanime.net/yami-shibai-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nijiiro-days/",
+        "title": "Nijiiro Days",
+        "samples": [
+          "https://jkanime.net/nijiiro-days/1/",
+          "https://jkanime.net/nijiiro-days/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hai-to-gensou-no-grimgar/",
+        "title": "Hai to Gensou no Grimgar",
+        "samples": [
+          "https://jkanime.net/hai-to-gensou-no-grimgar/1/",
+          "https://jkanime.net/hai-to-gensou-no-grimgar/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dimension-w/",
+        "title": "Dimension W",
+        "samples": [
+          "https://jkanime.net/dimension-w/1/",
+          "https://jkanime.net/dimension-w/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koyomimonogatari/",
+        "title": "Koyomimonogatari",
+        "samples": [
+          "https://jkanime.net/koyomimonogatari/1/",
+          "https://jkanime.net/koyomimonogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/durararax2-ketsu/",
+        "title": "Durarara!!x2 Ketsu",
+        "samples": [
+          "https://jkanime.net/durararax2-ketsu/1/",
+          "https://jkanime.net/durararax2-ketsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/phantasy-star-online-2-the-animation/",
+        "title": "Phantasy Star Online 2 The Animation",
+        "samples": [
+          "https://jkanime.net/phantasy-star-online-2-the-animation/1/",
+          "https://jkanime.net/phantasy-star-online-2-the-animation/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
         "title": "Glass no Hana to Kowasu Sekai",
         "samples": [
@@ -24364,6 +24435,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/divine-gate/",
+        "title": "Divine Gate",
+        "samples": [
+          "https://jkanime.net/divine-gate/1/",
+          "https://jkanime.net/divine-gate/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/koukaku-no-pandora/",
         "title": "Koukaku no Pandora",
         "samples": [
@@ -24372,11 +24451,83 @@
         ]
       },
       {
+        "series": "https://jkanime.net/oshiete-galko-chan/",
+        "title": "Oshiete! Galko-chan",
+        "samples": [
+          "https://jkanime.net/oshiete-galko-chan/1/",
+          "https://jkanime.net/oshiete-galko-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekkou-boys/",
+        "title": "Sekkou Boys",
+        "samples": [
+          "https://jkanime.net/sekkou-boys/1/",
+          "https://jkanime.net/sekkou-boys/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/reikenzan-hoshikuzu-tachi-no-utage/",
+        "title": "Reikenzan: Hoshikuzu-tachi no Utage",
+        "samples": [
+          "https://jkanime.net/reikenzan-hoshikuzu-tachi-no-utage/11/",
+          "https://jkanime.net/reikenzan-hoshikuzu-tachi-no-utage/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gate-jieitai-kanochi-nite-kaku-tatakaeri-enryuu-hen/",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen",
+        "samples": [
+          "https://jkanime.net/gate-jieitai-kanochi-nite-kaku-tatakaeri-enryuu-hen/1/",
+          "https://jkanime.net/gate-jieitai-kanochi-nite-kaku-tatakaeri-enryuu-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shouwa-genroku-rakugo-shinjuu/",
+        "title": "Shouwa Genroku Rakugo Shinjuu",
+        "samples": [
+          "https://jkanime.net/shouwa-genroku-rakugo-shinjuu/1/",
+          "https://jkanime.net/shouwa-genroku-rakugo-shinjuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/active-raid-kidou-kyoushuushitsu-dai-hakkei/",
+        "title": "Active Raid: Kidou Kyoushuushitsu Dai Hakkei",
+        "samples": [
+          "https://jkanime.net/active-raid-kidou-kyoushuushitsu-dai-hakkei/3/",
+          "https://jkanime.net/active-raid-kidou-kyoushuushitsu-dai-hakkei/8/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/norn9-nornnonet/",
         "title": "Norn9: Norn+Nonet",
         "samples": [
           "https://jkanime.net/norn9-nornnonet/1/",
           "https://jkanime.net/norn9-nornnonet/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shoujo-tachi-wa-kouya-wo-mezasu/",
+        "title": "Shoujo-tachi wa Kouya wo Mezasu",
+        "samples": [
+          "https://jkanime.net/shoujo-tachi-wa-kouya-wo-mezasu/1/",
+          "https://jkanime.net/shoujo-tachi-wa-kouya-wo-mezasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-dake-ga-inai-machi/",
+        "title": "Boku dake ga Inai Machi",
+        "samples": [
+          "https://jkanime.net/boku-dake-ga-inai-machi/1/",
+          "https://jkanime.net/boku-dake-ga-inai-machi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ansatsu-kyoushitsu-tv-2nd-season/",
+        "title": "Ansatsu Kyoushitsu (TV) 2nd Season",
+        "samples": [
+          "https://jkanime.net/ansatsu-kyoushitsu-tv-2nd-season/1/",
+          "https://jkanime.net/ansatsu-kyoushitsu-tv-2nd-season/10/"
         ]
       },
       {
@@ -33394,7 +33545,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -58602,18 +58753,17 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 14,
-        "streamwish": 13,
+        "mp4upload": 15,
+        "streamwish": 14,
         "vidhide": 5
       },
       "playbackVerified": false
@@ -65996,7 +66146,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 21,
         "vidhide": 3,
@@ -73942,21 +74092,20 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
         "https://jkanime.net/7-seeds/16/",
         "https://jkanime.net/7-seeds/18/",
         "https://jkanime.net/7-seeds/19/",
-        "https://jkanime.net/7-seeds/23/",
         "https://jkanime.net/7-seeds/24/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "mp4upload": 17,
+        "mp4upload": 18,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -75194,10 +75343,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/11/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
         "https://jkanime.net/fight-league-gear-gadget-generators/13/",
         "https://jkanime.net/fight-league-gear-gadget-generators/14/",
@@ -75226,7 +75374,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 1
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
@@ -85922,10 +86070,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/4/",
         "https://jkanime.net/classicaloid/5/",
         "https://jkanime.net/classicaloid/6/",
         "https://jkanime.net/classicaloid/7/",
@@ -85936,9 +86083,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 18,
-        "streamwish": 20,
-        "vidhide": 18
+        "mp4upload": 19,
+        "streamwish": 21,
+        "vidhide": 19
       },
       "playbackVerified": false
     },
@@ -90372,7 +90519,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90385,13 +90532,15 @@
     {
       "series": "https://jkanime.net/ooyasan-wa-shishunki/",
       "title": "Ooyasan wa Shishunki!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90405,32 +90554,36 @@
     {
       "series": "https://jkanime.net/tabi-machi-late-show/",
       "title": "Tabi Machi Late Show",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 4,
+        "mega": 1,
         "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
-        "streamtape": 4
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yami-shibai-3rd-season/",
       "title": "Yami Shibai 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -90443,13 +90596,15 @@
     {
       "series": "https://jkanime.net/nijiiro-days/",
       "title": "Nijiiro Days",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -90462,13 +90617,15 @@
     {
       "series": "https://jkanime.net/hai-to-gensou-no-grimgar/",
       "title": "Hai to Gensou no Grimgar",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90481,13 +90638,15 @@
     {
       "series": "https://jkanime.net/dimension-w/",
       "title": "Dimension W",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90500,13 +90659,15 @@
     {
       "series": "https://jkanime.net/koyomimonogatari/",
       "title": "Koyomimonogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90519,13 +90680,15 @@
     {
       "series": "https://jkanime.net/durararax2-ketsu/",
       "title": "Durarara!!x2 Ketsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90555,20 +90718,22 @@
     {
       "series": "https://jkanime.net/phantasy-star-online-2-the-animation/",
       "title": "Phantasy Star Online 2 The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
+        "mixdrop": 3,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -90613,13 +90778,15 @@
     {
       "series": "https://jkanime.net/divine-gate/",
       "title": "Divine Gate",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90661,13 +90828,15 @@
     {
       "series": "https://jkanime.net/oshiete-galko-chan/",
       "title": "Oshiete! Galko-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90681,51 +90850,57 @@
     {
       "series": "https://jkanime.net/sekkou-boys/",
       "title": "Sekkou Boys",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/reikenzan-hoshikuzu-tachi-no-utage/",
       "title": "Reikenzan: Hoshikuzu-tachi no Utage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 11,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gate-jieitai-kanochi-nite-kaku-tatakaeri-enryuu-hen/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90738,13 +90913,15 @@
     {
       "series": "https://jkanime.net/shouwa-genroku-rakugo-shinjuu/",
       "title": "Shouwa Genroku Rakugo Shinjuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -90757,19 +90934,21 @@
     {
       "series": "https://jkanime.net/active-raid-kidou-kyoushuushitsu-dai-hakkei/",
       "title": "Active Raid: Kidou Kyoushuushitsu Dai Hakkei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -90807,13 +90986,15 @@
     {
       "series": "https://jkanime.net/shoujo-tachi-wa-kouya-wo-mezasu/",
       "title": "Shoujo-tachi wa Kouya wo Mezasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90826,13 +91007,15 @@
     {
       "series": "https://jkanime.net/boku-dake-ga-inai-machi/",
       "title": "Boku dake ga Inai Machi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -90845,13 +91028,15 @@
     {
       "series": "https://jkanime.net/ansatsu-kyoushitsu-tv-2nd-season/",
       "title": "Ansatsu Kyoushitsu (TV) 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -94253,7 +94438,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
