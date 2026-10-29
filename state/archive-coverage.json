@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T23:39:01.557600+00:00",
+  "checkedAt": "2026-10-29T23:52:33.805536+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -27689,6 +27689,94 @@
         "samples": [
           "https://jkanime.net/puri-para/141/",
           "https://jkanime.net/puri-para/142/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/barakamon/",
+        "title": "Barakamon",
+        "samples": [
+          "https://jkanime.net/barakamon/1/",
+          "https://jkanime.net/barakamon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akame-ga-kill/",
+        "title": "Akame ga Kill!",
+        "samples": [
+          "https://jkanime.net/akame-ga-kill/1/",
+          "https://jkanime.net/akame-ga-kill/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gekkan-shoujo-nozaki-kun/",
+        "title": "Gekkan Shoujo Nozaki-kun",
+        "samples": [
+          "https://jkanime.net/gekkan-shoujo-nozaki-kun/1/",
+          "https://jkanime.net/gekkan-shoujo-nozaki-kun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spacedandy-2nd-season/",
+        "title": "Space☆Dandy 2nd Season",
+        "samples": [
+          "https://jkanime.net/spacedandy-2nd-season/1/",
+          "https://jkanime.net/spacedandy-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-shibai-2nd-season/",
+        "title": "Yami Shibai 2nd Season",
+        "samples": [
+          "https://jkanime.net/yami-shibai-2nd-season/1/",
+          "https://jkanime.net/yami-shibai-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-san/",
+        "title": "Mobile Suit Gundam-san",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-san/1/",
+          "https://jkanime.net/mobile-suit-gundam-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal/",
+        "title": "Sailor Moon: Crystal",
+        "samples": [
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal/1/",
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-online-ii/",
+        "title": "Sword Art Online II",
+        "samples": [
+          "https://jkanime.net/sword-art-online-ii/1/",
+          "https://jkanime.net/sword-art-online-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shounen-hollywood-holly-stage-for-49/",
+        "title": "Shounen Hollywood: Holly Stage for 49",
+        "samples": [
+          "https://jkanime.net/shounen-hollywood-holly-stage-for-49/1/",
+          "https://jkanime.net/shounen-hollywood-holly-stage-for-49/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aldnoahzero/",
+        "title": "Aldnoah.Zero",
+        "samples": [
+          "https://jkanime.net/aldnoahzero/1/",
+          "https://jkanime.net/aldnoahzero/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/glasslip/",
+        "title": "Glasslip",
+        "samples": [
+          "https://jkanime.net/glasslip/1/",
+          "https://jkanime.net/glasslip/2/"
         ]
       },
       {
@@ -102354,27 +102442,29 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 55,
       "families": {
-        "mega": 131,
+        "mega": 51,
         "streamwish": 140,
-        "vidhide": 131,
-        "mixdrop": 131,
-        "mp4upload": 126,
-        "streamtape": 131
+        "vidhide": 51,
+        "mixdrop": 51,
+        "mp4upload": 51,
+        "streamtape": 51
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/barakamon/",
       "title": "Barakamon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102387,13 +102477,15 @@
     {
       "series": "https://jkanime.net/akame-ga-kill/",
       "title": "Akame ga Kill!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -102406,13 +102498,15 @@
     {
       "series": "https://jkanime.net/gekkan-shoujo-nozaki-kun/",
       "title": "Gekkan Shoujo Nozaki-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102425,13 +102519,15 @@
     {
       "series": "https://jkanime.net/spacedandy-2nd-season/",
       "title": "Space☆Dandy 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -102444,13 +102540,15 @@
     {
       "series": "https://jkanime.net/yami-shibai-2nd-season/",
       "title": "Yami Shibai 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -102463,13 +102561,15 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-san/",
       "title": "Mobile Suit Gundam-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -102482,13 +102582,15 @@
     {
       "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal/",
       "title": "Sailor Moon: Crystal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -102501,13 +102603,15 @@
     {
       "series": "https://jkanime.net/sword-art-online-ii/",
       "title": "Sword Art Online II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -102520,32 +102624,36 @@
     {
       "series": "https://jkanime.net/shounen-hollywood-holly-stage-for-49/",
       "title": "Shounen Hollywood: Holly Stage for 49",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 13,
+        "mega": 9,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/aldnoahzero/",
       "title": "Aldnoah.Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102558,13 +102666,15 @@
     {
       "series": "https://jkanime.net/glasslip/",
       "title": "Glasslip",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119916,7 +120026,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
