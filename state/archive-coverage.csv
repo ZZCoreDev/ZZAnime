@@ -1,5 +1,5 @@
 ﻿title,series,causes,observed,stored,missing,expired,renewalFailed
-Ao Ashi,https://jkanime.net/ao-ashi/,observed-chapters-without-options | renewal-error,24,0,24,0,11
+Ao Ashi,https://jkanime.net/ao-ashi/,observed-chapters-without-options | renewal-error,24,0,24,0,12
 Megalo Box,https://jkanime.net/megalo-box/,observed-chapters-without-options | renewal-error,13,0,13,0,1
 Danmachi,https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/,observed-chapters-without-options | renewal-error,13,1,12,0,8
 Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,renewal-error,10,10,0,0,8
@@ -3184,57 +3184,57 @@ Fate/stay night: Unlimited Blade Works (TV),https://jkanime.net/fatestay-night-u
 Madan no Ou to Vanadis,https://jkanime.net/madan-no-ou-to-vanadis/,renewal-error,13,13,0,0,13
 Garo: Honoo no Kokuin,https://jkanime.net/garo-honoo-no-kokuin/,renewal-error,24,24,0,0,23
 World Trigger,https://jkanime.net/world-trigger/,renewal-error,73,73,0,0,73
-Ushinawareta Mirai wo Motomete,https://jkanime.net/ushinawareta-mirai-wo-motomete/,renewal-error,12,12,0,0,4
-Donten ni Warau,https://jkanime.net/donten-ni-warau/,,12,12,0,0,0
-Nisekoi OVA,https://jkanime.net/nisekoi-ova/,,4,4,0,0,0
-Selector Spread WIXOSS,https://jkanime.net/selector-spread-wixoss/,,12,12,0,0,0
-Gundam: G no Reconguista,https://jkanime.net/gundam-g-no-reconguista/,,26,26,0,0,0
-Magic Kaito 1412,https://jkanime.net/magic-kaito-1412/,,24,24,0,0,0
-Danna ga Nani wo Itteiru ka Wakaranai Ken,https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken/,,13,13,0,0,0
-Denki-gai no Honya-san,https://jkanime.net/denki-gai-no-honya-san/,,12,12,0,0,0
-"[Locodol] Yatte Mita.: Nagarekawa, Annai Shite Mita.",https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita-nagarekawa-annai-shite-mita/,observed-chapters-without-options | retained-redirect | renewal-error,2,1,1,0,1
+Ushinawareta Mirai wo Motomete,https://jkanime.net/ushinawareta-mirai-wo-motomete/,renewal-error,12,12,0,0,12
+Donten ni Warau,https://jkanime.net/donten-ni-warau/,renewal-error,12,12,0,0,12
+Nisekoi OVA,https://jkanime.net/nisekoi-ova/,renewal-error,4,4,0,0,2
+Selector Spread WIXOSS,https://jkanime.net/selector-spread-wixoss/,renewal-error,12,12,0,0,12
+Gundam: G no Reconguista,https://jkanime.net/gundam-g-no-reconguista/,renewal-error,26,26,0,0,23
+Magic Kaito 1412,https://jkanime.net/magic-kaito-1412/,renewal-error,24,24,0,0,24
+Danna ga Nani wo Itteiru ka Wakaranai Ken,https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken/,renewal-error,13,13,0,0,13
+Denki-gai no Honya-san,https://jkanime.net/denki-gai-no-honya-san/,renewal-error,12,12,0,0,12
+"[Locodol] Yatte Mita.: Nagarekawa, Annai Shite Mita.",https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita-nagarekawa-annai-shite-mita/,observed-chapters-without-options | retained-redirect | renewal-error,2,1,1,0,2
 Toukiden Kiwami,https://jkanime.net/toukiden-kiwami/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Ane Log,https://jkanime.net/ane-log/,,3,3,0,0,0
-Buddy Complex: Kanketsu-hen - Ano Sora ni Kaeru Mirai de,https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/,,2,2,0,0,0
+Ane Log,https://jkanime.net/ane-log/,renewal-error,3,3,0,0,2
+Buddy Complex: Kanketsu-hen - Ano Sora ni Kaeru Mirai de,https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/,renewal-error,2,2,0,0,2
 Kara no Kyoukai 4: Garan no Dou,https://jkanime.net/kara-no-kyoukai-4-garan-no-dou/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Kara no Kyoukai 5: Mujun Rasen,https://jkanime.net/kara-no-kyoukai-5-mujun-rasen/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Kara no Kyoukai 6: Boukyaku Rokuon,https://jkanime.net/kara-no-kyoukai-6-boukyaku-rokuon/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Kara no Kyoukai 7: Satsujin Kousatsu (Part 2),https://jkanime.net/kara-no-kyoukai-7-satsujin-kousatsu-part-2/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Tribe Cool Crew,https://jkanime.net/tribe-cool-crew/,observed-chapters-without-options | renewal-error,50,2,48,0,2
-"Suisei no Gargantia: Meguru Kouro, Haruka",https://jkanime.net/suisei-no-gargantia-meguru-kouro-haruka/,,2,2,0,0,0
-Karen Senki,https://jkanime.net/karen-senki/,,11,11,0,0,0
-Terra Formars,https://jkanime.net/terra-formars/,,13,13,0,0,0
-Fate/kaleid liner Prisma☆Illya 2wei! Specials,https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-specials/,,5,5,0,0,0
-Gekkan Shoujo Nozaki-kun Specials,https://jkanime.net/gekkan-shoujo-nozaki-kun-specials/,,6,6,0,0,0
+"Suisei no Gargantia: Meguru Kouro, Haruka",https://jkanime.net/suisei-no-gargantia-meguru-kouro-haruka/,renewal-error,2,2,0,0,2
+Karen Senki,https://jkanime.net/karen-senki/,renewal-error,11,11,0,0,3
+Terra Formars,https://jkanime.net/terra-formars/,renewal-error,13,13,0,0,13
+Fate/kaleid liner Prisma☆Illya 2wei! Specials,https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-specials/,renewal-error,5,5,0,0,5
+Gekkan Shoujo Nozaki-kun Specials,https://jkanime.net/gekkan-shoujo-nozaki-kun-specials/,renewal-error,6,6,0,0,6
 D-Frag! OVA,https://jkanime.net/d-frag-ova/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Kara no Kyoukai 3: Tsuukaku Zanryuu,https://jkanime.net/kara-no-kyoukai-3-tsuukaku-zanryuu/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Gokukoku no Brynhildr 11.5,https://jkanime.net/gokukoku-no-brynhildr-11-5/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Kill la Kill Special,https://jkanime.net/kill-la-kill-specials/,,1,1,0,0,0
-Fantasista Stella,https://jkanime.net/fantasista-stella/,,2,2,0,0,0
+Kill la Kill Special,https://jkanime.net/kill-la-kill-specials/,renewal-error,1,1,0,0,1
+Fantasista Stella,https://jkanime.net/fantasista-stella/,renewal-error,2,2,0,0,2
 Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars,https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-the-rikka-wars/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Ghost in the Shell: Arise - Border:4 Ghost Stands Alone,https://jkanime.net/ghost-in-the-shell-arise-border4-ghost-stands-alone/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Kill la Kill Ova,https://jkanime.net/kill-la-kill-special/,,1,1,0,0,0
+Kill la Kill Ova,https://jkanime.net/kill-la-kill-special/,renewal-error,1,1,0,0,1
 One Piece 3D2Y,https://jkanime.net/one-piece-3d2y-ace-no-shi-wo-koete-luffy-nakama-tono-chikai/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Sora no Otoshimono Final: Eternal My Master,https://jkanime.net/sora-no-otoshimono-final-eternal-my-master/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Mujaki no Rakuen,https://jkanime.net/mujaki-no-rakuen/,,3,3,0,0,0
-Ao Haru Ride OVA,https://jkanime.net/ao-haru-ride-unwritten/,,2,2,0,0,0
+Mujaki no Rakuen,https://jkanime.net/mujaki-no-rakuen/,renewal-error,3,3,0,0,3
+Ao Haru Ride OVA,https://jkanime.net/ao-haru-ride-unwritten/,renewal-error,2,2,0,0,2
 Mushishi Zoku Shou: Odoro no Michi,https://jkanime.net/mushishi-zoku-shou-odoro-no-michi/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Terra Formars OVA,https://jkanime.net/terra-formars-ova/,,2,2,0,0,0
-Nozo x Kimi,https://jkanime.net/nozo-x-kimi/,,3,3,0,0,0
-Hanamonogatari,https://jkanime.net/hanamonogatari/,,5,5,0,0,0
+Terra Formars OVA,https://jkanime.net/terra-formars-ova/,renewal-error,2,2,0,0,2
+Nozo x Kimi,https://jkanime.net/nozo-x-kimi/,renewal-error,3,3,0,0,3
+Hanamonogatari,https://jkanime.net/hanamonogatari/,renewal-error,5,5,0,0,5
 Hunter x Hunter: The Last Mission,https://jkanime.net/hunter-x-hunter-the-last-mission/,,1,1,0,0,0
-Kenzen Robo Daimidaler Specials,https://jkanime.net/kenzen-robo-daimidaler-specials/,,6,6,0,0,0
+Kenzen Robo Daimidaler Specials,https://jkanime.net/kenzen-robo-daimidaler-specials/,renewal-error,6,6,0,0,6
 Space☆Dandy Picture Drama,https://jkanime.net/space-dandy-picture-drama/,observed-chapters-without-options | renewal-error,3,0,3,0,3
 Non Non Biyori OVA,https://jkanime.net/non-non-biyori-ova/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Pokemon XY: Hakai no Mayu to Diancie,https://jkanime.net/pokemon-xy-hakai-no-mayu-to-diancie/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Inugami-san to Nekoyama-san: Nekoyama-san to Onsen Ryokou,https://jkanime.net/inugami-san-to-nekoyama-san-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Girls und Panzer: Kore ga Hontou no Anzio-sen Desu!,https://jkanime.net/girls-und-panzer-kore-ga-hontou-no-anzio-sen-desu/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Sengoku Basara: Judge End,https://jkanime.net/sengoku-basara-judge-end/,,12,12,0,0,0
-Seirei Tsukai no Blade Dance,https://jkanime.net/seirei-tsukai-no-blade-dance/,,12,12,0,0,0
+Sengoku Basara: Judge End,https://jkanime.net/sengoku-basara-judge-end/,renewal-error,12,12,0,0,7
+Seirei Tsukai no Blade Dance,https://jkanime.net/seirei-tsukai-no-blade-dance/,renewal-error,12,12,0,0,12
 Ghost in the Shell: Arise - Border:3 Ghost Tears,https://jkanime.net/ghost-in-the-shell-arise-border3-ghost-tears/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Nobunaga Concerto,https://jkanime.net/nobunaga-concerto/,,10,10,0,0,0
-Tokyo ESP,https://jkanime.net/tokyo-esp/,,12,12,0,0,0
-Rokujouma no Shinryakusha!?,https://jkanime.net/rokujouma-no-shinryakusha/,,12,12,0,0,0
+Nobunaga Concerto,https://jkanime.net/nobunaga-concerto/,renewal-error,10,10,0,0,10
+Tokyo ESP,https://jkanime.net/tokyo-esp/,renewal-error,12,12,0,0,12
+Rokujouma no Shinryakusha!?,https://jkanime.net/rokujouma-no-shinryakusha/,renewal-error,12,12,0,0,12
 Zankyou no Terror,https://jkanime.net/zankyou-no-terror/,,11,11,0,0,0
 Persona 4 The Golden Animation,https://jkanime.net/persona-4-the-golden-animation/,,12,12,0,0,0
 Kuroshitsuji: Book of Circus,https://jkanime.net/kuroshitsuji-book-of-circus/,,10,10,0,0,0
@@ -3411,7 +3411,7 @@ Witch Craft Works,https://jkanime.net/witch-craft-works/,,12,12,0,0,0
 Neppuu Kairiku Bushi Road,https://jkanime.net/neppuu-kairiku-bushi-road/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Pokemon XY: New Year Special,https://jkanime.net/pokemon-xy-new-year-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Sword Art Online: Extra Edition,https://jkanime.net/sword-art-online-extra-edition/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
-Ansatsu Kyoushitsu,https://jkanime.net/ansatsu-kyoushitsu/,observed-chapters-without-options | renewal-error,22,1,21,0,11
+Ansatsu Kyoushitsu,https://jkanime.net/ansatsu-kyoushitsu/,observed-chapters-without-options | renewal-error,22,1,21,0,12
 Zetsumetsu Kigu Shoujo: Amazing Twins,https://jkanime.net/zetsumetsu-kigu-shoujo-amazing-twins/,,2,2,0,0,0
 Buddy Complex,https://jkanime.net/buddy-complex/,,13,13,0,0,0
 Majokko Shimai no Yoyo to Nene,https://jkanime.net/majokko-shimai-no-yoyo-to-nene/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
@@ -4172,7 +4172,7 @@ Arad Senki: Slap Up Party,https://jkanime.net/slap-up-party-arad-senki/,,26,26,0
 Hayate no Gotoku!! S2,https://jkanime.net/hayate-no-gotoku-2/,,25,25,0,0,0
 To LOVE-Ru OVA,https://jkanime.net/to-love-ru-ovas/,,6,6,0,0,0
 Basquash!,https://jkanime.net/basquash/,,26,26,0,0,0
-Asura Cryin',https://jkanime.net/asura-cryin/,observed-chapters-without-options | renewal-error,13,0,13,0,10
+Asura Cryin',https://jkanime.net/asura-cryin/,observed-chapters-without-options | renewal-error,13,0,13,0,11
 Pandora Hearts,https://jkanime.net/pandora-hearts/,,25,25,0,0,0
 Queen's Blade: Rurou no Senshi,https://jkanime.net/queens-blade-rurou-no-senshi/,,12,12,0,0,0
 Phantom: Requiem for the Phantom,https://jkanime.net/requiem-for-the-phantom/,,26,26,0,0,0

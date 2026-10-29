@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T23:12:57.991789+00:00",
+  "checkedAt": "2026-10-29T23:26:04.873964+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -27166,7 +27166,63 @@
         "title": "Ushinawareta Mirai wo Motomete",
         "samples": [
           "https://jkanime.net/ushinawareta-mirai-wo-motomete/1/",
-          "https://jkanime.net/ushinawareta-mirai-wo-motomete/2/"
+          "https://jkanime.net/ushinawareta-mirai-wo-motomete/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/donten-ni-warau/",
+        "title": "Donten ni Warau",
+        "samples": [
+          "https://jkanime.net/donten-ni-warau/1/",
+          "https://jkanime.net/donten-ni-warau/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nisekoi-ova/",
+        "title": "Nisekoi OVA",
+        "samples": [
+          "https://jkanime.net/nisekoi-ova/3/",
+          "https://jkanime.net/nisekoi-ova/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/selector-spread-wixoss/",
+        "title": "Selector Spread WIXOSS",
+        "samples": [
+          "https://jkanime.net/selector-spread-wixoss/1/",
+          "https://jkanime.net/selector-spread-wixoss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gundam-g-no-reconguista/",
+        "title": "Gundam: G no Reconguista",
+        "samples": [
+          "https://jkanime.net/gundam-g-no-reconguista/1/",
+          "https://jkanime.net/gundam-g-no-reconguista/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magic-kaito-1412/",
+        "title": "Magic Kaito 1412",
+        "samples": [
+          "https://jkanime.net/magic-kaito-1412/1/",
+          "https://jkanime.net/magic-kaito-1412/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken/",
+        "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken",
+        "samples": [
+          "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken/1/",
+          "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/denki-gai-no-honya-san/",
+        "title": "Denki-gai no Honya-san",
+        "samples": [
+          "https://jkanime.net/denki-gai-no-honya-san/1/",
+          "https://jkanime.net/denki-gai-no-honya-san/10/"
         ]
       },
       {
@@ -27181,6 +27237,22 @@
         "title": "Toukiden Kiwami",
         "samples": [
           "https://jkanime.net/toukiden-kiwami/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ane-log/",
+        "title": "Ane Log",
+        "samples": [
+          "https://jkanime.net/ane-log/1/",
+          "https://jkanime.net/ane-log/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/",
+        "title": "Buddy Complex: Kanketsu-hen - Ano Sora ni Kaeru Mirai de",
+        "samples": [
+          "https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/1/",
+          "https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/2/"
         ]
       },
       {
@@ -27220,6 +27292,46 @@
         ]
       },
       {
+        "series": "https://jkanime.net/suisei-no-gargantia-meguru-kouro-haruka/",
+        "title": "Suisei no Gargantia: Meguru Kouro, Haruka",
+        "samples": [
+          "https://jkanime.net/suisei-no-gargantia-meguru-kouro-haruka/1/",
+          "https://jkanime.net/suisei-no-gargantia-meguru-kouro-haruka/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/karen-senki/",
+        "title": "Karen Senki",
+        "samples": [
+          "https://jkanime.net/karen-senki/1/",
+          "https://jkanime.net/karen-senki/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/terra-formars/",
+        "title": "Terra Formars",
+        "samples": [
+          "https://jkanime.net/terra-formars/1/",
+          "https://jkanime.net/terra-formars/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-specials/",
+        "title": "Fate/kaleid liner Prisma☆Illya 2wei! Specials",
+        "samples": [
+          "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-specials/1/",
+          "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gekkan-shoujo-nozaki-kun-specials/",
+        "title": "Gekkan Shoujo Nozaki-kun Specials",
+        "samples": [
+          "https://jkanime.net/gekkan-shoujo-nozaki-kun-specials/1/",
+          "https://jkanime.net/gekkan-shoujo-nozaki-kun-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/d-frag-ova/",
         "title": "D-Frag! OVA",
         "samples": [
@@ -27241,6 +27353,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kill-la-kill-specials/",
+        "title": "Kill la Kill Special",
+        "samples": [
+          "https://jkanime.net/kill-la-kill-specials/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fantasista-stella/",
+        "title": "Fantasista Stella",
+        "samples": [
+          "https://jkanime.net/fantasista-stella/1/",
+          "https://jkanime.net/fantasista-stella/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-the-rikka-wars/",
         "title": "Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars",
         "samples": [
@@ -27252,6 +27379,13 @@
         "title": "Ghost in the Shell: Arise - Border:4 Ghost Stands Alone",
         "samples": [
           "https://jkanime.net/ghost-in-the-shell-arise-border4-ghost-stands-alone/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kill-la-kill-special/",
+        "title": "Kill la Kill Ova",
+        "samples": [
+          "https://jkanime.net/kill-la-kill-special/1/"
         ]
       },
       {
@@ -27269,10 +27403,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mujaki-no-rakuen/",
+        "title": "Mujaki no Rakuen",
+        "samples": [
+          "https://jkanime.net/mujaki-no-rakuen/1/",
+          "https://jkanime.net/mujaki-no-rakuen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ao-haru-ride-unwritten/",
+        "title": "Ao Haru Ride OVA",
+        "samples": [
+          "https://jkanime.net/ao-haru-ride-unwritten/1/",
+          "https://jkanime.net/ao-haru-ride-unwritten/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mushishi-zoku-shou-odoro-no-michi/",
         "title": "Mushishi Zoku Shou: Odoro no Michi",
         "samples": [
           "https://jkanime.net/mushishi-zoku-shou-odoro-no-michi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/terra-formars-ova/",
+        "title": "Terra Formars OVA",
+        "samples": [
+          "https://jkanime.net/terra-formars-ova/1/",
+          "https://jkanime.net/terra-formars-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nozo-x-kimi/",
+        "title": "Nozo x Kimi",
+        "samples": [
+          "https://jkanime.net/nozo-x-kimi/1/",
+          "https://jkanime.net/nozo-x-kimi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanamonogatari/",
+        "title": "Hanamonogatari",
+        "samples": [
+          "https://jkanime.net/hanamonogatari/1/",
+          "https://jkanime.net/hanamonogatari/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kenzen-robo-daimidaler-specials/",
+        "title": "Kenzen Robo Daimidaler Specials",
+        "samples": [
+          "https://jkanime.net/kenzen-robo-daimidaler-specials/1/",
+          "https://jkanime.net/kenzen-robo-daimidaler-specials/2/"
         ]
       },
       {
@@ -27312,10 +27494,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sengoku-basara-judge-end/",
+        "title": "Sengoku Basara: Judge End",
+        "samples": [
+          "https://jkanime.net/sengoku-basara-judge-end/1/",
+          "https://jkanime.net/sengoku-basara-judge-end/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seirei-tsukai-no-blade-dance/",
+        "title": "Seirei Tsukai no Blade Dance",
+        "samples": [
+          "https://jkanime.net/seirei-tsukai-no-blade-dance/1/",
+          "https://jkanime.net/seirei-tsukai-no-blade-dance/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ghost-in-the-shell-arise-border3-ghost-tears/",
         "title": "Ghost in the Shell: Arise - Border:3 Ghost Tears",
         "samples": [
           "https://jkanime.net/ghost-in-the-shell-arise-border3-ghost-tears/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nobunaga-concerto/",
+        "title": "Nobunaga Concerto",
+        "samples": [
+          "https://jkanime.net/nobunaga-concerto/1/",
+          "https://jkanime.net/nobunaga-concerto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-esp/",
+        "title": "Tokyo ESP",
+        "samples": [
+          "https://jkanime.net/tokyo-esp/1/",
+          "https://jkanime.net/tokyo-esp/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rokujouma-no-shinryakusha/",
+        "title": "Rokujouma no Shinryakusha!?",
+        "samples": [
+          "https://jkanime.net/rokujouma-no-shinryakusha/1/",
+          "https://jkanime.net/rokujouma-no-shinryakusha/10/"
         ]
       },
       {
@@ -35471,7 +35693,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -100525,7 +100747,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100538,13 +100760,15 @@
     {
       "series": "https://jkanime.net/donten-ni-warau/",
       "title": "Donten ni Warau",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100557,32 +100781,36 @@
     {
       "series": "https://jkanime.net/nisekoi-ova/",
       "title": "Nisekoi OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
         "mp4upload": 4,
-        "streamtape": 4
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/selector-spread-wixoss/",
       "title": "Selector Spread WIXOSS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -100595,32 +100823,36 @@
     {
       "series": "https://jkanime.net/gundam-g-no-reconguista/",
       "title": "Gundam: G no Reconguista",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 25,
+        "mega": 22,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 23,
+        "mp4upload": 23,
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/magic-kaito-1412/",
       "title": "Magic Kaito 1412",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 23,
         "streamwish": 24,
@@ -100633,13 +100865,15 @@
     {
       "series": "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken/",
       "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -100652,13 +100886,15 @@
     {
       "series": "https://jkanime.net/denki-gai-no-honya-san/",
       "title": "Denki-gai no Honya-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100683,7 +100919,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -100715,32 +100951,36 @@
     {
       "series": "https://jkanime.net/ane-log/",
       "title": "Ane Log",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 3,
+        "mega": 2,
         "streamwish": 3,
-        "vidhide": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/",
       "title": "Buddy Complex: Kanketsu-hen - Ano Sora ni Kaeru Mirai de",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -100896,13 +101136,15 @@
     {
       "series": "https://jkanime.net/suisei-no-gargantia-meguru-kouro-haruka/",
       "title": "Suisei no Gargantia: Meguru Kouro, Haruka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 2,
         "vidhide": 2,
@@ -100915,32 +101157,36 @@
     {
       "series": "https://jkanime.net/karen-senki/",
       "title": "Karen Senki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 11,
+        "mega": 3,
         "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/terra-formars/",
       "title": "Terra Formars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -100953,13 +101199,15 @@
     {
       "series": "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-specials/",
       "title": "Fate/kaleid liner Prisma☆Illya 2wei! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -100972,13 +101220,15 @@
     {
       "series": "https://jkanime.net/gekkan-shoujo-nozaki-kun-specials/",
       "title": "Gekkan Shoujo Nozaki-kun Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -101048,13 +101298,15 @@
     {
       "series": "https://jkanime.net/kill-la-kill-specials/",
       "title": "Kill la Kill Special",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -101067,13 +101319,15 @@
     {
       "series": "https://jkanime.net/fantasista-stella/",
       "title": "Fantasista Stella",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -101124,13 +101378,15 @@
     {
       "series": "https://jkanime.net/kill-la-kill-special/",
       "title": "Kill la Kill Ova",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -101181,13 +101437,15 @@
     {
       "series": "https://jkanime.net/mujaki-no-rakuen/",
       "title": "Mujaki no Rakuen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -101201,13 +101459,15 @@
     {
       "series": "https://jkanime.net/ao-haru-ride-unwritten/",
       "title": "Ao Haru Ride OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -101239,13 +101499,15 @@
     {
       "series": "https://jkanime.net/terra-formars-ova/",
       "title": "Terra Formars OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -101258,13 +101520,15 @@
     {
       "series": "https://jkanime.net/nozo-x-kimi/",
       "title": "Nozo x Kimi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -101277,13 +101541,15 @@
     {
       "series": "https://jkanime.net/hanamonogatari/",
       "title": "Hanamonogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -101312,13 +101578,15 @@
     {
       "series": "https://jkanime.net/kenzen-robo-daimidaler-specials/",
       "title": "Kenzen Robo Daimidaler Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -101427,32 +101695,36 @@
     {
       "series": "https://jkanime.net/sengoku-basara-judge-end/",
       "title": "Sengoku Basara: Judge End",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
+        "mega": 7,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/seirei-tsukai-no-blade-dance/",
       "title": "Seirei Tsukai no Blade Dance",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -101484,13 +101756,15 @@
     {
       "series": "https://jkanime.net/nobunaga-concerto/",
       "title": "Nobunaga Concerto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -101503,13 +101777,15 @@
     {
       "series": "https://jkanime.net/tokyo-esp/",
       "title": "Tokyo ESP",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -101522,13 +101798,15 @@
     {
       "series": "https://jkanime.net/rokujouma-no-shinryakusha/",
       "title": "Rokujouma no Shinryakusha!?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104946,7 +105224,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 1
       },
@@ -119459,7 +119737,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
