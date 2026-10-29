@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T02:53:42.249203+00:00",
+  "checkedAt": "2026-10-29T03:06:08.507312+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73481,
   "storedChapters": 71450,
@@ -17131,6 +17131,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shin-sakura-taisen-the-animation/",
+        "title": "Shin Sakura Taisen the Animation",
+        "samples": [
+          "https://jkanime.net/shin-sakura-taisen-the-animation/1/",
+          "https://jkanime.net/shin-sakura-taisen-the-animation/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/listeners/",
+        "title": "Listeners",
+        "samples": [
+          "https://jkanime.net/listeners/1/",
+          "https://jkanime.net/listeners/4/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
         "title": "Bungou to Alchemist: Shinpan no Haguruma",
         "samples": [
@@ -17146,10 +17162,97 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hachi-nan-tte-sore-wa-nai-deshou/",
+        "title": "Hachi-nan tte, Sore wa Nai deshou!",
+        "samples": [
+          "https://jkanime.net/hachi-nan-tte-sore-wa-nai-deshou/1/",
+          "https://jkanime.net/hachi-nan-tte-sore-wa-nai-deshou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kakushigoto-tv/",
+        "title": "Kakushigoto (TV)",
+        "samples": [
+          "https://jkanime.net/kakushigoto-tv/1/",
+          "https://jkanime.net/kakushigoto-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-tou/",
+        "title": "Kami no Tou",
+        "samples": [
+          "https://jkanime.net/kami-no-tou/1/",
+          "https://jkanime.net/kami-no-tou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shi-huang-zhi-shen/",
+        "title": "Shi Huang Zhi Shen",
+        "samples": [
+          "https://jkanime.net/shi-huang-zhi-shen/1/",
+          "https://jkanime.net/shi-huang-zhi-shen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/appare-ranman/",
+        "title": "Appare-Ranman!",
+        "samples": [
+          "https://jkanime.net/appare-ranman/13/",
+          "https://jkanime.net/appare-ranman/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/granblue-fantasy-the-animation-season-2-djeeta-hen/",
+        "title": "Granblue Fantasy The Animation Season 2: Djeeta-hen",
+        "samples": [
+          "https://jkanime.net/granblue-fantasy-the-animation-season-2-djeeta-hen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/psycho-pass-3-first-inspector/",
+        "title": "Psycho-Pass 3: First Inspector",
+        "samples": [
+          "https://jkanime.net/psycho-pass-3-first-inspector/1/",
+          "https://jkanime.net/psycho-pass-3-first-inspector/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy-special/",
         "title": "Chuubyou Gekihatsu Boy Special",
         "samples": [
           "https://jkanime.net/chuubyou-gekihatsu-boy-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/7-seeds-2nd-season/",
+        "title": "7 Seeds 2nd Season",
+        "samples": [
+          "https://jkanime.net/7-seeds-2nd-season/1/",
+          "https://jkanime.net/7-seeds-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bna/",
+        "title": "BNA",
+        "samples": [
+          "https://jkanime.net/bna/1/",
+          "https://jkanime.net/bna/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tamayomi/",
+        "title": "Tamayomi",
+        "samples": [
+          "https://jkanime.net/tamayomi/1/",
+          "https://jkanime.net/tamayomi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nami-yo-kiitekure/",
+        "title": "Nami yo Kiitekure",
+        "samples": [
+          "https://jkanime.net/nami-yo-kiitekure/10/",
+          "https://jkanime.net/nami-yo-kiitekure/11/"
         ]
       },
       {
@@ -17171,6 +17274,70 @@
         "title": "High School Fleet Movie",
         "samples": [
           "https://jkanime.net/high-school-fleet-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-daily-life-of-the-inmortal-king/",
+        "title": "The Daily Life of the Immortal King",
+        "samples": [
+          "https://jkanime.net/the-daily-life-of-the-inmortal-king/1/",
+          "https://jkanime.net/the-daily-life-of-the-inmortal-king/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/marulk-chan-no-nichijou/",
+        "title": "Marulk-chan no Nichijou",
+        "samples": [
+          "https://jkanime.net/marulk-chan-no-nichijou/1/",
+          "https://jkanime.net/marulk-chan-no-nichijou/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-quartet-2nd-season/",
+        "title": "Isekai Quartet 2nd Season",
+        "samples": [
+          "https://jkanime.net/isekai-quartet-2nd-season/1/",
+          "https://jkanime.net/isekai-quartet-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/a3-season-spring-summer/",
+        "title": "A3! Season Spring & Summer",
+        "samples": [
+          "https://jkanime.net/a3-season-spring-summer/1/",
+          "https://jkanime.net/a3-season-spring-summer/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arp-backstage-pass/",
+        "title": "ARP Backstage Pass",
+        "samples": [
+          "https://jkanime.net/arp-backstage-pass/1/",
+          "https://jkanime.net/arp-backstage-pass/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dorohedoro/",
+        "title": "Dorohedoro",
+        "samples": [
+          "https://jkanime.net/dorohedoro/1/",
+          "https://jkanime.net/dorohedoro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-tonari-ni-ankoku-hakaishin-ga-imasu/",
+        "title": "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
+        "samples": [
+          "https://jkanime.net/boku-no-tonari-ni-ankoku-hakaishin-ga-imasu/1/",
+          "https://jkanime.net/boku-no-tonari-ni-ankoku-hakaishin-ga-imasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ishuzoku-reviewers/",
+        "title": "Ishuzoku Reviewers",
+        "samples": [
+          "https://jkanime.net/ishuzoku-reviewers/1/",
+          "https://jkanime.net/ishuzoku-reviewers/10/"
         ]
       },
       {
@@ -61991,7 +62158,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -62005,38 +62172,42 @@
     {
       "series": "https://jkanime.net/shin-sakura-taisen-the-animation/",
       "title": "Shin Sakura Taisen the Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
+        "mega": 6,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/listeners/",
       "title": "Listeners",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -62060,7 +62231,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 10,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -62085,7 +62256,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62098,13 +62269,15 @@
     {
       "series": "https://jkanime.net/hachi-nan-tte-sore-wa-nai-deshou/",
       "title": "Hachi-nan tte, Sore wa Nai deshou!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62117,13 +62290,15 @@
     {
       "series": "https://jkanime.net/kakushigoto-tv/",
       "title": "Kakushigoto (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62136,13 +62311,15 @@
     {
       "series": "https://jkanime.net/kami-no-tou/",
       "title": "Kami no Tou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -62155,13 +62332,15 @@
     {
       "series": "https://jkanime.net/shi-huang-zhi-shen/",
       "title": "Shi Huang Zhi Shen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -62175,33 +62354,37 @@
     {
       "series": "https://jkanime.net/appare-ranman/",
       "title": "Appare-Ranman!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 13,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 2,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 5,
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5,
+        "mixdrop": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/granblue-fantasy-the-animation-season-2-djeeta-hen/",
       "title": "Granblue Fantasy The Animation Season 2: Djeeta-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -62214,13 +62397,15 @@
     {
       "series": "https://jkanime.net/psycho-pass-3-first-inspector/",
       "title": "Psycho-Pass 3: First Inspector",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -62270,13 +62455,15 @@
     {
       "series": "https://jkanime.net/7-seeds-2nd-season/",
       "title": "7 Seeds 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62289,13 +62476,15 @@
     {
       "series": "https://jkanime.net/bna/",
       "title": "BNA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62308,38 +62497,42 @@
     {
       "series": "https://jkanime.net/tamayomi/",
       "title": "Tamayomi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
+        "mega": 3,
+        "streamwish": 11,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nami-yo-kiitekure/",
       "title": "Nami yo Kiitekure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -62354,12 +62547,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 10
+        "mp4upload": 12
       },
       "playbackVerified": false
     },
@@ -62460,13 +62648,15 @@
     {
       "series": "https://jkanime.net/the-daily-life-of-the-inmortal-king/",
       "title": "The Daily Life of the Immortal King",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -62479,13 +62669,15 @@
     {
       "series": "https://jkanime.net/marulk-chan-no-nichijou/",
       "title": "Marulk-chan no Nichijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -62517,13 +62709,15 @@
     {
       "series": "https://jkanime.net/isekai-quartet-2nd-season/",
       "title": "Isekai Quartet 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62536,13 +62730,15 @@
     {
       "series": "https://jkanime.net/a3-season-spring-summer/",
       "title": "A3! Season Spring & Summer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62555,13 +62751,15 @@
     {
       "series": "https://jkanime.net/arp-backstage-pass/",
       "title": "ARP Backstage Pass",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -62574,13 +62772,15 @@
     {
       "series": "https://jkanime.net/dorohedoro/",
       "title": "Dorohedoro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62593,13 +62793,15 @@
     {
       "series": "https://jkanime.net/boku-no-tonari-ni-ankoku-hakaishin-ga-imasu/",
       "title": "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -62612,13 +62814,15 @@
     {
       "series": "https://jkanime.net/ishuzoku-reviewers/",
       "title": "Ishuzoku Reviewers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
