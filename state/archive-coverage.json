@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T20:44:27.042885+00:00",
+  "checkedAt": "2026-10-29T20:58:21.326229+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73531,
-  "storedChapters": 71704,
-  "missingChapters": 1827,
+  "storedChapters": 71706,
+  "missingChapters": 1825,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2303,7 +2303,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/6/"
+          "https://jkanime.net/classicaloid/7/"
         ]
       },
       {
@@ -2739,8 +2739,7 @@
         "series": "https://jkanime.net/pokemon-xyz/",
         "title": "Pokemon XY&Z",
         "samples": [
-          "https://jkanime.net/pokemon-xyz/48/",
-          "https://jkanime.net/pokemon-xyz/49/"
+          "https://jkanime.net/pokemon-xyz/48/"
         ]
       },
       {
@@ -22778,7 +22777,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/6/"
+          "https://jkanime.net/classicaloid/7/"
         ]
       },
       {
@@ -24752,8 +24751,7 @@
         "series": "https://jkanime.net/pokemon-xyz/",
         "title": "Pokemon XY&Z",
         "samples": [
-          "https://jkanime.net/pokemon-xyz/48/",
-          "https://jkanime.net/pokemon-xyz/49/"
+          "https://jkanime.net/pokemon-xyz/48/"
         ]
       },
       {
@@ -24947,10 +24945,128 @@
         ]
       },
       {
+        "series": "https://jkanime.net/comet-lucifer/",
+        "title": "Comet Lucifer",
+        "samples": [
+          "https://jkanime.net/comet-lucifer/1/",
+          "https://jkanime.net/comet-lucifer/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/concrete-revolutio-choujin-gensou/",
+        "title": "Concrete Revolutio: Choujin Gensou",
+        "samples": [
+          "https://jkanime.net/concrete-revolutio-choujin-gensou/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/komori-san-wa-kotowarenai/",
+        "title": "Komori-san wa Kotowarenai!",
+        "samples": [
+          "https://jkanime.net/komori-san-wa-kotowarenai/1/",
+          "https://jkanime.net/komori-san-wa-kotowarenai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onsen-yousei-hakone-chan/",
+        "title": "Onsen Yousei Hakone-chan",
+        "samples": [
+          "https://jkanime.net/onsen-yousei-hakone-chan/12/",
+          "https://jkanime.net/onsen-yousei-hakone-chan/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ame-iro-cocoa-rainy-color-e-youkoso/",
+        "title": "Ame-iro Cocoa: Rainy Color e Youkoso!",
+        "samples": [
+          "https://jkanime.net/ame-iro-cocoa-rainy-color-e-youkoso/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/owarimonogatari/",
+        "title": "Owarimonogatari",
+        "samples": [
+          "https://jkanime.net/owarimonogatari/1/",
+          "https://jkanime.net/owarimonogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-2nd-season/",
+        "title": "Kindaichi Shounen no Jikenbo Returns 2nd Season",
+        "samples": [
+          "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-2nd-season/1/",
+          "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gakusen-toshi-asterisk/",
+        "title": "Gakusen Toshi Asterisk",
+        "samples": [
+          "https://jkanime.net/gakusen-toshi-asterisk/1/",
+          "https://jkanime.net/gakusen-toshi-asterisk/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rakudai-kishi-no-cavalry/",
+        "title": "Rakudai Kishi no Cavalry",
+        "samples": [
+          "https://jkanime.net/rakudai-kishi-no-cavalry/1/",
+          "https://jkanime.net/rakudai-kishi-no-cavalry/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/utawarerumono-itsuwari-no-kamen/",
+        "title": "Utawarerumono: Itsuwari no Kamen",
+        "samples": [
+          "https://jkanime.net/utawarerumono-itsuwari-no-kamen/1/",
+          "https://jkanime.net/utawarerumono-itsuwari-no-kamen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-kyojin-chuugakkou/",
+        "title": "Shingeki! Kyojin Chuugakkou",
+        "samples": [
+          "https://jkanime.net/shingeki-kyojin-chuugakkou/1/",
+          "https://jkanime.net/shingeki-kyojin-chuugakkou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haikyuu-second-season/",
+        "title": "Haikyuu!! Second Season",
+        "samples": [
+          "https://jkanime.net/haikyuu-second-season/1/",
+          "https://jkanime.net/haikyuu-second-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/itoshi-no-muco/",
+        "title": "Itoshi no Muco",
+        "samples": [
+          "https://jkanime.net/itoshi-no-muco/1/",
+          "https://jkanime.net/itoshi-no-muco/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/owari-no-seraph-the-beginning-of-the-end/",
         "title": "Owari no Seraph: The Beginning of the End",
         "samples": [
           "https://jkanime.net/owari-no-seraph-the-beginning-of-the-end/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/noragami-aragoto/",
+        "title": "Noragami Aragoto",
+        "samples": [
+          "https://jkanime.net/noragami-aragoto/1/",
+          "https://jkanime.net/noragami-aragoto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heavy-object/",
+        "title": "Heavy Object",
+        "samples": [
+          "https://jkanime.net/heavy-object/1/",
+          "https://jkanime.net/heavy-object/2/"
         ]
       },
       {
@@ -75682,7 +75798,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 2
       },
@@ -83119,7 +83235,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -86380,10 +86496,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/6/",
         "https://jkanime.net/classicaloid/7/",
         "https://jkanime.net/classicaloid/8/",
         "https://jkanime.net/classicaloid/9/"
@@ -86392,9 +86507,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 20,
-        "streamwish": 22,
-        "vidhide": 20
+        "mp4upload": 21,
+        "streamwish": 23,
+        "vidhide": 21
       },
       "playbackVerified": false
     },
@@ -92030,19 +92145,18 @@
         "renewal-error"
       ],
       "observed": 49,
-      "stored": 47,
+      "stored": 48,
       "missing": [
-        "https://jkanime.net/pokemon-xyz/48/",
-        "https://jkanime.net/pokemon-xyz/49/"
+        "https://jkanime.net/pokemon-xyz/48/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 33,
       "families": {
         "mega": 32,
-        "streamwish": 47,
-        "vidhide": 47,
-        "mp4upload": 47,
+        "streamwish": 48,
+        "vidhide": 48,
+        "mp4upload": 48,
         "streamtape": 32
       },
       "playbackVerified": false
@@ -92664,7 +92778,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -92685,24 +92799,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "mp4upload": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/comet-lucifer/",
       "title": "Comet Lucifer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92715,90 +92827,99 @@
     {
       "series": "https://jkanime.net/concrete-revolutio-choujin-gensou/",
       "title": "Concrete Revolutio: Choujin Gensou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 13,
+        "mp4upload": 13,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/komori-san-wa-kotowarenai/",
       "title": "Komori-san wa Kotowarenai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
+        "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13,
-        "mixdrop": 1
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/onsen-yousei-hakone-chan/",
       "title": "Onsen Yousei Hakone-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 13,
+        "mp4upload": 13,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ame-iro-cocoa-rainy-color-e-youkoso/",
       "title": "Ame-iro Cocoa: Rainy Color e Youkoso!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mega": 1,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/owarimonogatari/",
       "title": "Owarimonogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92811,13 +92932,15 @@
     {
       "series": "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-2nd-season/",
       "title": "Kindaichi Shounen no Jikenbo Returns 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -92831,13 +92954,15 @@
     {
       "series": "https://jkanime.net/gakusen-toshi-asterisk/",
       "title": "Gakusen Toshi Asterisk",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92850,13 +92975,15 @@
     {
       "series": "https://jkanime.net/rakudai-kishi-no-cavalry/",
       "title": "Rakudai Kishi no Cavalry",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
@@ -92869,13 +92996,15 @@
     {
       "series": "https://jkanime.net/utawarerumono-itsuwari-no-kamen/",
       "title": "Utawarerumono: Itsuwari no Kamen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -92888,13 +93017,15 @@
     {
       "series": "https://jkanime.net/shingeki-kyojin-chuugakkou/",
       "title": "Shingeki! Kyojin Chuugakkou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92907,13 +93038,15 @@
     {
       "series": "https://jkanime.net/haikyuu-second-season/",
       "title": "Haikyuu!! Second Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -92926,13 +93059,15 @@
     {
       "series": "https://jkanime.net/itoshi-no-muco/",
       "title": "Itoshi no Muco",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -92964,13 +93099,15 @@
     {
       "series": "https://jkanime.net/noragami-aragoto/",
       "title": "Noragami Aragoto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -92983,13 +93120,15 @@
     {
       "series": "https://jkanime.net/heavy-object/",
       "title": "Heavy Object",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -117050,7 +117189,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -132287,7 +132426,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 32,
         "streamwish": 32,
