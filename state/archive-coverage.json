@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T14:43:44.215426+00:00",
+  "checkedAt": "2026-10-29T14:57:09.549211+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73523,
-  "storedChapters": 71628,
-  "missingChapters": 1895,
+  "storedChapters": 71632,
+  "missingChapters": 1891,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2037,8 +2037,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/11/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/13/"
         ]
       },
       {
@@ -2255,8 +2255,8 @@
         "series": "https://jkanime.net/piace-watashi-no-italian/",
         "title": "Piace: Watashi no Italian",
         "samples": [
-          "https://jkanime.net/piace-watashi-no-italian/6/",
-          "https://jkanime.net/piace-watashi-no-italian/7/"
+          "https://jkanime.net/piace-watashi-no-italian/7/",
+          "https://jkanime.net/piace-watashi-no-italian/8/"
         ]
       },
       {
@@ -2563,7 +2563,7 @@
         "title": "Wagamama High Spec",
         "samples": [
           "https://jkanime.net/wagamama-high-spec/1/",
-          "https://jkanime.net/wagamama-high-spec/10/"
+          "https://jkanime.net/wagamama-high-spec/11/"
         ]
       },
       {
@@ -2649,7 +2649,6 @@
         "series": "https://jkanime.net/nurse-witch-komugi-chan-r/",
         "title": "Nurse Witch Komugi-chan R",
         "samples": [
-          "https://jkanime.net/nurse-witch-komugi-chan-r/8/",
           "https://jkanime.net/nurse-witch-komugi-chan-r/9/"
         ]
       },
@@ -9938,6 +9937,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/watashi-no-shiawase-na-kekkon-watashi-no-shiawase-na-katachi/",
+        "title": "Watashi no Shiawase na Kekkon: Watashi no Shiawase na Katachi",
+        "samples": [
+          "https://jkanime.net/watashi-no-shiawase-na-kekkon-watashi-no-shiawase-na-katachi/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/xiao-lu-he-xiao-lan-5th-season/",
         "title": "Xiao Lu He Xiao Lan 5th Season",
         "samples": [
@@ -12828,6 +12834,13 @@
         "samples": [
           "https://jkanime.net/4-nin-wa-sorezore-uso-wo-tsuku/1/",
           "https://jkanime.net/4-nin-wa-sorezore-uso-wo-tsuku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-ni-tenshi-ga-maiorita-precious-friends/",
+        "title": "Watashi ni Tenshi ga Maiorita! Precious Friends",
+        "samples": [
+          "https://jkanime.net/watashi-ni-tenshi-ga-maiorita-precious-friends/1/"
         ]
       },
       {
@@ -21249,6 +21262,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/urahara/",
+        "title": "Urahara",
+        "samples": [
+          "https://jkanime.net/urahara/10/",
+          "https://jkanime.net/urahara/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tsukipro-the-animation/",
         "title": "Tsukipro The Animation",
         "samples": [
@@ -21321,6 +21342,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gintama-porori-hen/",
+        "title": "Gintama. Porori-hen",
+        "samples": [
+          "https://jkanime.net/gintama-porori-hen/1/",
+          "https://jkanime.net/gintama-porori-hen/12/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/digimon-adventure-tri-5-kyousei/",
         "title": "Digimon Adventure tri. 5: Kyousei",
         "samples": [
@@ -21335,10 +21364,41 @@
         ]
       },
       {
+        "series": "https://jkanime.net/wo-de-tian-jie-nu-you/",
+        "title": "Wo de Tian Jie Nu You",
+        "samples": [
+          "https://jkanime.net/wo-de-tian-jie-nu-you/1/",
+          "https://jkanime.net/wo-de-tian-jie-nu-you/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/quanzhi-fashi-ii/",
+        "title": "Quanzhi Fashi II",
+        "samples": [
+          "https://jkanime.net/quanzhi-fashi-ii/1/",
+          "https://jkanime.net/quanzhi-fashi-ii/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cardcaptor-sakura-clear-card-hen-prologue-sakura-to-futatsu-no-kuma/",
         "title": "Sakura Card Captor: Clear Card-hen - Prologue Sakura to Futatsu no Kuma",
         "samples": [
           "https://jkanime.net/cardcaptor-sakura-clear-card-hen-prologue-sakura-to-futatsu-no-kuma/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fastening-days-3/",
+        "title": "Fastening Days 3",
+        "samples": [
+          "https://jkanime.net/fastening-days-3/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ku-pao-ying-xiong/",
+        "title": "Ku Pao Ying Xiong",
+        "samples": [
+          "https://jkanime.net/ku-pao-ying-xiong/1/",
+          "https://jkanime.net/ku-pao-ying-xiong/10/"
         ]
       },
       {
@@ -21360,6 +21420,14 @@
         "title": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?",
         "samples": [
           "https://jkanime.net/uchiage-hanabi-shita-kara-miru-ka-yoko-kara-miru-ka/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/owarimonogatari-2nd-season/",
+        "title": "Owarimonogatari 2nd Season",
+        "samples": [
+          "https://jkanime.net/owarimonogatari-2nd-season/1/",
+          "https://jkanime.net/owarimonogatari-2nd-season/2/"
         ]
       },
       {
@@ -21805,7 +21873,7 @@
         "title": "Wagamama High Spec",
         "samples": [
           "https://jkanime.net/wagamama-high-spec/1/",
-          "https://jkanime.net/wagamama-high-spec/10/"
+          "https://jkanime.net/wagamama-high-spec/11/"
         ]
       },
       {
@@ -23528,6 +23596,14 @@
         "title": "Evangelion: 3.33 You Can (Not) Redo",
         "samples": [
           "https://jkanime.net/evangelion-3-33-you-can-not-redo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-offline/",
+        "title": "Sword Art Offline",
+        "samples": [
+          "https://jkanime.net/sword-art-offline/5/",
+          "https://jkanime.net/sword-art-offline/6/"
         ]
       },
       {
@@ -37348,7 +37424,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 12,
         "vidhide": 4,
@@ -39059,7 +39135,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 13,
         "streamwish": 7,
@@ -46189,7 +46265,8 @@
       "title": "Watashi no Shiawase na Kekkon: Watashi no Shiawase na Katachi",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -46198,7 +46275,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -54618,7 +54695,8 @@
       "title": "Watashi ni Tenshi ga Maiorita! Precious Friends",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -54627,7 +54705,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -54667,7 +54745,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
         "mega": 19,
         "streamwish": 19,
@@ -68421,7 +68499,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -78721,9 +78799,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/11/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/13/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/14/",
@@ -78750,9 +78827,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 2,
-        "streamwish": 2,
-        "vidhide": 2
+        "mp4upload": 3,
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -79096,7 +79173,8 @@
       "series": "https://jkanime.net/urahara/",
       "title": "Urahara",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 1,
@@ -79115,7 +79193,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -79335,19 +79413,21 @@
     {
       "series": "https://jkanime.net/gintama-porori-hen/",
       "title": "Gintama. Porori-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 17,
       "families": {
-        "mega": 25,
+        "mega": 17,
         "streamwish": 25,
         "vidhide": 25,
         "mp4upload": 25,
-        "streamtape": 25
+        "streamtape": 17
       },
       "playbackVerified": false
     },
@@ -79366,7 +79446,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -79398,13 +79478,15 @@
     {
       "series": "https://jkanime.net/wo-de-tian-jie-nu-you/",
       "title": "Wo de Tian Jie Nu You",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -79417,13 +79499,15 @@
     {
       "series": "https://jkanime.net/quanzhi-fashi-ii/",
       "title": "Quanzhi Fashi II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79455,13 +79539,15 @@
     {
       "series": "https://jkanime.net/fastening-days-3/",
       "title": "Fastening Days 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -79474,13 +79560,15 @@
     {
       "series": "https://jkanime.net/ku-pao-ying-xiong/",
       "title": "Ku Pao Ying Xiong",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -79550,13 +79638,15 @@
     {
       "series": "https://jkanime.net/owarimonogatari-2nd-season/",
       "title": "Owarimonogatari 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -79578,12 +79668,12 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 4,
+        "mixdrop": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -82039,9 +82129,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/piace-watashi-no-italian/6/",
         "https://jkanime.net/piace-watashi-no-italian/7/",
         "https://jkanime.net/piace-watashi-no-italian/8/",
         "https://jkanime.net/piace-watashi-no-italian/9/"
@@ -82050,9 +82139,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 7,
-        "streamwish": 8,
-        "vidhide": 7
+        "mp4upload": 8,
+        "streamwish": 9,
+        "vidhide": 8
       },
       "playbackVerified": false
     },
@@ -84226,7 +84315,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -85881,10 +85970,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/wagamama-high-spec/1/",
-        "https://jkanime.net/wagamama-high-spec/10/",
         "https://jkanime.net/wagamama-high-spec/11/",
         "https://jkanime.net/wagamama-high-spec/12/",
         "https://jkanime.net/wagamama-high-spec/2/",
@@ -85899,7 +85987,9 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -87434,18 +87524,17 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/nurse-witch-komugi-chan-r/8/",
         "https://jkanime.net/nurse-witch-komugi-chan-r/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 10,
-        "streamwish": 10,
-        "vidhide": 10
+        "mp4upload": 11,
+        "streamwish": 11,
+        "vidhide": 11
       },
       "playbackVerified": false
     },
@@ -90121,7 +90210,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -95146,7 +95235,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 1
       },
@@ -104337,7 +104426,8 @@
       "series": "https://jkanime.net/sword-art-offline/",
       "title": "Sword Art Offline",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 6,
       "stored": 4,
@@ -104347,7 +104437,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 4,
         "vidhide": 4,
