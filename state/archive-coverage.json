@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T18:26:21.141912+00:00",
+  "checkedAt": "2026-10-29T18:39:49.151857+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73527,
-  "storedChapters": 71673,
-  "missingChapters": 1854,
+  "storedChapters": 71675,
+  "missingChapters": 1852,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/5/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/5/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/6/"
         ]
       },
       {
@@ -23010,7 +23010,7 @@
         "title": "Natsume Yuujinchou Go",
         "samples": [
           "https://jkanime.net/natsume-yuujinchou-go/1/",
-          "https://jkanime.net/natsume-yuujinchou-go/2/"
+          "https://jkanime.net/natsume-yuujinchou-go/10/"
         ]
       },
       {
@@ -23021,11 +23021,155 @@
         ]
       },
       {
+        "series": "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki-2nd-season/",
+        "title": "12-sai.: Chicchana Mune no Tokimeki 2nd Season",
+        "samples": [
+          "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki-2nd-season/1/",
+          "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaitou-joker-4th-season/",
+        "title": "Kaitou Joker 4th Season",
+        "samples": [
+          "https://jkanime.net/kaitou-joker-4th-season/1/",
+          "https://jkanime.net/kaitou-joker-4th-season/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shakunetsu-no-takkyuu-musume/",
+        "title": "Shakunetsu no Takkyuu Musume",
+        "samples": [
+          "https://jkanime.net/shakunetsu-no-takkyuu-musume/1/",
+          "https://jkanime.net/shakunetsu-no-takkyuu-musume/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trickster-edogawa-ranpo-shounen-tanteidan-yori/",
+        "title": "Trickster: Edogawa Ranpo \"Shounen Tanteidan\" yori",
+        "samples": [
+          "https://jkanime.net/trickster-edogawa-ranpo-shounen-tanteidan-yori/1/",
+          "https://jkanime.net/trickster-edogawa-ranpo-shounen-tanteidan-yori/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gakuen-handsome/",
+        "title": "Gakuen Handsome",
+        "samples": [
+          "https://jkanime.net/gakuen-handsome/1/",
+          "https://jkanime.net/gakuen-handsome/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magic-kyun-renaissance/",
+        "title": "Magic Kyun! Renaissance",
+        "samples": [
+          "https://jkanime.net/magic-kyun-renaissance/1/",
+          "https://jkanime.net/magic-kyun-renaissance/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-iron-blooded-orphans-2nd-season/",
+        "title": "Mobile Suit Gundam: Iron-Blooded Orphans 2nd Season",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-iron-blooded-orphans-2nd-season/1/",
+          "https://jkanime.net/mobile-suit-gundam-iron-blooded-orphans-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/okusama-ga-seitokaichou-2nd-season/",
+        "title": "Oku-sama ga Seito Kaichou! 2nd Season",
+        "samples": [
+          "https://jkanime.net/okusama-ga-seitokaichou-2nd-season/1/",
+          "https://jkanime.net/okusama-ga-seitokaichou-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/show-by-rock-2nd-season/",
+        "title": "Show By Rock!! #",
+        "samples": [
+          "https://jkanime.net/show-by-rock-2nd-season/1/",
+          "https://jkanime.net/show-by-rock-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/",
+        "title": "Uta no☆Prince-sama♪ Maji Love Legend Star",
+        "samples": [
+          "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/1/",
+          "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aooni-the-blue-monster/",
+        "title": "Ao Oni The Animation",
+        "samples": [
+          "https://jkanime.net/aooni-the-blue-monster/1/",
+          "https://jkanime.net/aooni-the-blue-monster/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idol-memories/",
+        "title": "Idol Memories",
+        "samples": [
+          "https://jkanime.net/idol-memories/1/",
+          "https://jkanime.net/idol-memories/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
           "https://jkanime.net/stella-no-mahou/1/",
           "https://jkanime.net/stella-no-mahou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/touken-ranbu-hanamaru/",
+        "title": "Touken Ranbu: Hanamaru",
+        "samples": [
+          "https://jkanime.net/touken-ranbu-hanamaru/1/",
+          "https://jkanime.net/touken-ranbu-hanamaru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-ikusei-keikaku/",
+        "title": "Mahou Shoujo Ikusei Keikaku",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-ikusei-keikaku/1/",
+          "https://jkanime.net/mahou-shoujo-ikusei-keikaku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bloodivores/",
+        "title": "Bloodivores",
+        "samples": [
+          "https://jkanime.net/bloodivores/1/",
+          "https://jkanime.net/bloodivores/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wwwworking/",
+        "title": "WWW.Working!!",
+        "samples": [
+          "https://jkanime.net/wwwworking/1/",
+          "https://jkanime.net/wwwworking/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tiger-mask-w/",
+        "title": "Tiger Mask W",
+        "samples": [
+          "https://jkanime.net/tiger-mask-w/1/",
+          "https://jkanime.net/tiger-mask-w/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vivid-strike/",
+        "title": "ViVid Strike!",
+        "samples": [
+          "https://jkanime.net/vivid-strike/1/",
+          "https://jkanime.net/vivid-strike/10/"
         ]
       },
       {
@@ -32224,7 +32368,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -72841,14 +72985,13 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
         "https://jkanime.net/7-seeds/16/",
         "https://jkanime.net/7-seeds/18/",
         "https://jkanime.net/7-seeds/19/",
-        "https://jkanime.net/7-seeds/21/",
         "https://jkanime.net/7-seeds/22/",
         "https://jkanime.net/7-seeds/23/",
         "https://jkanime.net/7-seeds/24/"
@@ -72857,7 +73000,7 @@
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "mp4upload": 15,
+        "mp4upload": 16,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -80209,9 +80352,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/5/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/6/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/7/",
@@ -80222,9 +80364,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 18,
-        "streamwish": 18,
-        "vidhide": 18
+        "mp4upload": 19,
+        "streamwish": 19,
+        "vidhide": 19
       },
       "playbackVerified": false
     },
@@ -81571,7 +81713,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -85515,7 +85657,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -85547,13 +85689,15 @@
     {
       "series": "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki-2nd-season/",
       "title": "12-sai.: Chicchana Mune no Tokimeki 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85566,32 +85710,36 @@
     {
       "series": "https://jkanime.net/kaitou-joker-4th-season/",
       "title": "Kaitou Joker 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 6,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shakunetsu-no-takkyuu-musume/",
       "title": "Shakunetsu no Takkyuu Musume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85604,13 +85752,15 @@
     {
       "series": "https://jkanime.net/trickster-edogawa-ranpo-shounen-tanteidan-yori/",
       "title": "Trickster: Edogawa Ranpo \"Shounen Tanteidan\" yori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -85623,13 +85773,15 @@
     {
       "series": "https://jkanime.net/gakuen-handsome/",
       "title": "Gakuen Handsome",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85658,13 +85810,15 @@
     {
       "series": "https://jkanime.net/magic-kyun-renaissance/",
       "title": "Magic Kyun! Renaissance",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -85677,13 +85831,15 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-iron-blooded-orphans-2nd-season/",
       "title": "Mobile Suit Gundam: Iron-Blooded Orphans 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -85696,13 +85852,15 @@
     {
       "series": "https://jkanime.net/okusama-ga-seitokaichou-2nd-season/",
       "title": "Oku-sama ga Seito Kaichou! 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85715,13 +85873,15 @@
     {
       "series": "https://jkanime.net/show-by-rock-2nd-season/",
       "title": "Show By Rock!! #",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85750,13 +85910,15 @@
     {
       "series": "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/",
       "title": "Uta no☆Prince-sama♪ Maji Love Legend Star",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -85769,13 +85931,15 @@
     {
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -85788,19 +85952,21 @@
     {
       "series": "https://jkanime.net/idol-memories/",
       "title": "Idol Memories",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -85836,13 +86002,15 @@
     {
       "series": "https://jkanime.net/touken-ranbu-hanamaru/",
       "title": "Touken Ranbu: Hanamaru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85855,13 +86023,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-ikusei-keikaku/",
       "title": "Mahou Shoujo Ikusei Keikaku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85874,13 +86044,15 @@
     {
       "series": "https://jkanime.net/bloodivores/",
       "title": "Bloodivores",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -85893,13 +86065,15 @@
     {
       "series": "https://jkanime.net/wwwworking/",
       "title": "WWW.Working!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -85912,32 +86086,36 @@
     {
       "series": "https://jkanime.net/tiger-mask-w/",
       "title": "Tiger Mask W",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 38,
       "stored": 38,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 29,
       "families": {
-        "mega": 38,
+        "mega": 29,
         "streamwish": 38,
-        "vidhide": 38,
-        "mp4upload": 38,
-        "streamtape": 38
+        "vidhide": 39,
+        "mp4upload": 39,
+        "streamtape": 29
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/vivid-strike/",
       "title": "ViVid Strike!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115135,7 +115313,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -130372,7 +130550,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mega": 32,
         "streamwish": 32,
