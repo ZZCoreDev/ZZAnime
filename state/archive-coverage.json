@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T21:11:34.410450+00:00",
+  "checkedAt": "2026-10-29T21:25:10.525527+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73533,
-  "storedChapters": 71707,
-  "missingChapters": 1826,
+  "observedChapters": 73534,
+  "storedChapters": 71709,
+  "missingChapters": 1825,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -826,8 +826,7 @@
         "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/",
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/"
         ]
       },
       {
@@ -2303,7 +2302,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/8/"
+          "https://jkanime.net/classicaloid/9/"
         ]
       },
       {
@@ -2912,6 +2911,13 @@
         "title": "Bakemono no Ko",
         "samples": [
           "https://jkanime.net/bakemono-no-ko/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/durarara-x2-ten/",
+        "title": "Durarara!!x2 Ten",
+        "samples": [
+          "https://jkanime.net/durarara-x2-ten/13/"
         ]
       },
       {
@@ -13353,8 +13359,7 @@
         "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/",
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/"
         ]
       },
       {
@@ -22785,7 +22790,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/8/"
+          "https://jkanime.net/classicaloid/9/"
         ]
       },
       {
@@ -25400,7 +25405,159 @@
         "title": "Danchigai",
         "samples": [
           "https://jkanime.net/danchigai/1/",
-          "https://jkanime.net/danchigai/2/"
+          "https://jkanime.net/danchigai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heibai-wushang/",
+        "title": "Heibai Wushang",
+        "samples": [
+          "https://jkanime.net/heibai-wushang/1/",
+          "https://jkanime.net/heibai-wushang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/junjou-romantica-3/",
+        "title": "Junjou Romantica 3",
+        "samples": [
+          "https://jkanime.net/junjou-romantica-3/1/",
+          "https://jkanime.net/junjou-romantica-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuusen-madoushi-kouhosei-no-kyoukan/",
+        "title": "Kuusen Madoushi Kouhosei no Kyoukan",
+        "samples": [
+          "https://jkanime.net/kuusen-madoushi-kouhosei-no-kyoukan/1/",
+          "https://jkanime.net/kuusen-madoushi-kouhosei-no-kyoukan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/himouto-umaru-chan/",
+        "title": "Himouto! Umaru-chan",
+        "samples": [
+          "https://jkanime.net/himouto-umaru-chan/1/",
+          "https://jkanime.net/himouto-umaru-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bikini-warriors/",
+        "title": "Bikini Warriors",
+        "samples": [
+          "https://jkanime.net/bikini-warriors/1/",
+          "https://jkanime.net/bikini-warriors/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster-musume-no-iru-nichijou/",
+        "title": "Monster Musume no Iru Nichijou",
+        "samples": [
+          "https://jkanime.net/monster-musume-no-iru-nichijou/1/",
+          "https://jkanime.net/monster-musume-no-iru-nichijou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/overlord/",
+        "title": "Overlord",
+        "samples": [
+          "https://jkanime.net/overlord/1/",
+          "https://jkanime.net/overlord/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sore-ga-seiyuu/",
+        "title": "Sore ga Seiyuu!",
+        "samples": [
+          "https://jkanime.net/sore-ga-seiyuu/1/",
+          "https://jkanime.net/sore-ga-seiyuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jitsu-wa-watashi-wa/",
+        "title": "Jitsu wa Watashi wa",
+        "samples": [
+          "https://jkanime.net/jitsu-wa-watashi-wa/1/",
+          "https://jkanime.net/jitsu-wa-watashi-wa/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/non-non-biyori-repeat/",
+        "title": "Non Non Biyori Repeat",
+        "samples": [
+          "https://jkanime.net/non-non-biyori-repeat/1/",
+          "https://jkanime.net/non-non-biyori-repeat/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu-5/",
+        "title": "Teekyuu 5",
+        "samples": [
+          "https://jkanime.net/teekyuu-5/1/",
+          "https://jkanime.net/teekyuu-5/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akagami-no-shirayuki-hime/",
+        "title": "Akagami no Shirayuki-hime",
+        "samples": [
+          "https://jkanime.net/akagami-no-shirayuki-hime/1/",
+          "https://jkanime.net/akagami-no-shirayuki-hime/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/million-doll/",
+        "title": "Million Doll",
+        "samples": [
+          "https://jkanime.net/million-doll/1/",
+          "https://jkanime.net/million-doll/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wakako-zake/",
+        "title": "Wakako-zake",
+        "samples": [
+          "https://jkanime.net/wakako-zake/1/",
+          "https://jkanime.net/wakako-zake/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/charlotte-/",
+        "title": "Charlotte",
+        "samples": [
+          "https://jkanime.net/charlotte-/1/",
+          "https://jkanime.net/charlotte-/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/working-3/",
+        "title": "Working!! Season 3",
+        "samples": [
+          "https://jkanime.net/working-3/1/",
+          "https://jkanime.net/working-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rokka-no-yuusha/",
+        "title": "Rokka no Yuusha",
+        "samples": [
+          "https://jkanime.net/rokka-no-yuusha/1/",
+          "https://jkanime.net/rokka-no-yuusha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gatchamancrowds-insight/",
+        "title": "Gatchaman Crowds Insight",
+        "samples": [
+          "https://jkanime.net/gatchamancrowds-insight/1/",
+          "https://jkanime.net/gatchamancrowds-insight/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-super/",
+        "title": "Dragon Ball Super",
+        "samples": [
+          "https://jkanime.net/dragon-ball-super/1/",
+          "https://jkanime.net/dragon-ball-super/10/"
         ]
       },
       {
@@ -34112,7 +34269,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -59379,16 +59536,15 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 15,
+        "mp4upload": 16,
         "streamwish": 14,
         "vidhide": 5
       },
@@ -86695,19 +86851,18 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 22,
+      "stored": 23,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/8/",
         "https://jkanime.net/classicaloid/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 22,
-        "streamwish": 24,
-        "vidhide": 22
+        "mp4upload": 23,
+        "streamwish": 25,
+        "vidhide": 23
       },
       "playbackVerified": false
     },
@@ -93645,7 +93800,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -94248,7 +94403,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94261,13 +94416,15 @@
     {
       "series": "https://jkanime.net/heibai-wushang/",
       "title": "Heibai Wushang",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94280,13 +94437,15 @@
     {
       "series": "https://jkanime.net/junjou-romantica-3/",
       "title": "Junjou Romantica 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94299,13 +94458,15 @@
     {
       "series": "https://jkanime.net/kuusen-madoushi-kouhosei-no-kyoukan/",
       "title": "Kuusen Madoushi Kouhosei no Kyoukan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94318,13 +94479,15 @@
     {
       "series": "https://jkanime.net/himouto-umaru-chan/",
       "title": "Himouto! Umaru-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94337,13 +94500,15 @@
     {
       "series": "https://jkanime.net/bikini-warriors/",
       "title": "Bikini Warriors",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94356,13 +94521,15 @@
     {
       "series": "https://jkanime.net/monster-musume-no-iru-nichijou/",
       "title": "Monster Musume no Iru Nichijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94375,13 +94542,15 @@
     {
       "series": "https://jkanime.net/overlord/",
       "title": "Overlord",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94394,13 +94563,15 @@
     {
       "series": "https://jkanime.net/sore-ga-seiyuu/",
       "title": "Sore ga Seiyuu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94413,13 +94584,15 @@
     {
       "series": "https://jkanime.net/jitsu-wa-watashi-wa/",
       "title": "Jitsu wa Watashi wa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94432,13 +94605,15 @@
     {
       "series": "https://jkanime.net/non-non-biyori-repeat/",
       "title": "Non Non Biyori Repeat",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94451,13 +94626,15 @@
     {
       "series": "https://jkanime.net/teekyuu-5/",
       "title": "Teekyuu 5",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94470,13 +94647,15 @@
     {
       "series": "https://jkanime.net/akagami-no-shirayuki-hime/",
       "title": "Akagami no Shirayuki-hime",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94489,13 +94668,15 @@
     {
       "series": "https://jkanime.net/million-doll/",
       "title": "Million Doll",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -94508,51 +94689,55 @@
     {
       "series": "https://jkanime.net/wakako-zake/",
       "title": "Wakako-zake",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
+        "mega": 5,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/durarara-x2-ten/",
       "title": "Durarara!!x2 Ten",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/durarara-x2-ten/13/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/charlotte-/",
       "title": "Charlotte",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94565,13 +94750,15 @@
     {
       "series": "https://jkanime.net/working-3/",
       "title": "Working!! Season 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94584,13 +94771,15 @@
     {
       "series": "https://jkanime.net/rokka-no-yuusha/",
       "title": "Rokka no Yuusha",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94603,13 +94792,15 @@
     {
       "series": "https://jkanime.net/gatchamancrowds-insight/",
       "title": "Gatchaman Crowds Insight",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94622,13 +94813,15 @@
     {
       "series": "https://jkanime.net/dragon-ball-super/",
       "title": "Dragon Ball Super",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 131,
       "stored": 131,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 131,
         "streamwish": 131,
@@ -103459,7 +103652,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -117776,7 +117969,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
