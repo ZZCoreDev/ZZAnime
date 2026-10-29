@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T01:54:50.799043+00:00",
+  "checkedAt": "2026-10-29T02:09:23.445975+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73481,
   "storedChapters": 71450,
@@ -16619,6 +16619,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/assault-lily-bouquet/",
+        "title": "Assault Lily: Bouquet",
+        "samples": [
+          "https://jkanime.net/assault-lily-bouquet/1/",
+          "https://jkanime.net/assault-lily-bouquet/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/burn-the-witch/",
+        "title": "Burn the Witch",
+        "samples": [
+          "https://jkanime.net/burn-the-witch/1/",
+          "https://jkanime.net/burn-the-witch/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majo-no-tabitabi/",
+        "title": "Majo no Tabitabi",
+        "samples": [
+          "https://jkanime.net/majo-no-tabitabi/1/",
+          "https://jkanime.net/majo-no-tabitabi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru/",
+        "title": "100-man no Inochi no Ue ni Ore wa Tatteiru",
+        "samples": [
+          "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru/1/",
+          "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bem-movie-become-human/",
         "title": "Bem Movie: Become Human",
         "samples": [
@@ -16626,10 +16658,57 @@
         ]
       },
       {
+        "series": "https://jkanime.net/higurashi-no-naku-koro-ni-2020/",
+        "title": "Higurashi no Naku Koro ni (2020)",
+        "samples": [
+          "https://jkanime.net/higurashi-no-naku-koro-ni-2020/1/",
+          "https://jkanime.net/higurashi-no-naku-koro-ni-2020/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/quanzhi-gaoshou-2/",
+        "title": "Quanzhi Gaoshou 2",
+        "samples": [
+          "https://jkanime.net/quanzhi-gaoshou-2/1/",
+          "https://jkanime.net/quanzhi-gaoshou-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ochikobore-fruit-tart/",
+        "title": "Ochikobore Fruit Tart",
+        "samples": [
+          "https://jkanime.net/ochikobore-fruit-tart/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuma-kuma-kuma-bear/",
+        "title": "Kuma Kuma Kuma Bear",
+        "samples": [
+          "https://jkanime.net/kuma-kuma-kuma-bear/1/",
+          "https://jkanime.net/kuma-kuma-kuma-bear/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuan-shu-zijiu-zhinan/",
+        "title": "Chuan Shu Zijiu Zhinan",
+        "samples": [
+          "https://jkanime.net/chuan-shu-zijiu-zhinan/1/",
+          "https://jkanime.net/chuan-shu-zijiu-zhinan/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/given-movie/",
         "title": "Given Movie",
         "samples": [
           "https://jkanime.net/given-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-ikinokore-kesshi-no-survival-kunren/",
+        "title": "Boku no Hero Academia: Ikinokore! Kesshi no Survival Kunren",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-ikinokore-kesshi-no-survival-kunren/1/",
+          "https://jkanime.net/boku-no-hero-academia-ikinokore-kesshi-no-survival-kunren/2/"
         ]
       },
       {
@@ -16644,6 +16723,54 @@
         "title": "Date A Bullet: Dead or Bullet",
         "samples": [
           "https://jkanime.net/date-a-bullet-dead-or-bullet/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koi-to-producer-evollove/",
+        "title": "Koi to Producer: EVOL×LOVE",
+        "samples": [
+          "https://jkanime.net/koi-to-producer-evollove/1/",
+          "https://jkanime.net/koi-to-producer-evollove/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gibiate/",
+        "title": "Gibiate",
+        "samples": [
+          "https://jkanime.net/gibiate/1/",
+          "https://jkanime.net/gibiate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster-musume-no-oishasan/",
+        "title": "Monster Musume no Oishasan",
+        "samples": [
+          "https://jkanime.net/monster-musume-no-oishasan/1/",
+          "https://jkanime.net/monster-musume-no-oishasan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-online-alicization-war-of-underworld-2nd-season/",
+        "title": "Sword Art Online: Alicization - War of Underworld 2nd Season",
+        "samples": [
+          "https://jkanime.net/sword-art-online-alicization-war-of-underworld-2nd-season/1/",
+          "https://jkanime.net/sword-art-online-alicization-war-of-underworld-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ninja-collection/",
+        "title": "Ninja Collection",
+        "samples": [
+          "https://jkanime.net/ninja-collection/1/",
+          "https://jkanime.net/ninja-collection/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-okarishimasu/",
+        "title": "Kanojo, Okarishimasu",
+        "samples": [
+          "https://jkanime.net/kanojo-okarishimasu/1/",
+          "https://jkanime.net/kanojo-okarishimasu/2/"
         ]
       },
       {
@@ -59988,7 +60115,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 53,
+      "renewalFailed": 100,
       "families": {
         "mega": 100,
         "streamwish": 100,
@@ -60001,13 +60128,15 @@
     {
       "series": "https://jkanime.net/assault-lily-bouquet/",
       "title": "Assault Lily: Bouquet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -60020,13 +60149,15 @@
     {
       "series": "https://jkanime.net/burn-the-witch/",
       "title": "Burn the Witch",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -60039,13 +60170,15 @@
     {
       "series": "https://jkanime.net/majo-no-tabitabi/",
       "title": "Majo no Tabitabi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -60058,19 +60191,21 @@
     {
       "series": "https://jkanime.net/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru/",
       "title": "100-man no Inochi no Ue ni Ore wa Tatteiru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 11,
-        "streamwish": 12,
+        "mega": 10,
+        "streamwish": 11,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -60096,13 +60231,15 @@
     {
       "series": "https://jkanime.net/higurashi-no-naku-koro-ni-2020/",
       "title": "Higurashi no Naku Koro ni (2020)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 23,
         "streamwish": 24,
@@ -60115,13 +60252,15 @@
     {
       "series": "https://jkanime.net/quanzhi-gaoshou-2/",
       "title": "Quanzhi Gaoshou 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -60135,7 +60274,8 @@
       "series": "https://jkanime.net/ochikobore-fruit-tart/",
       "title": "Ochikobore Fruit Tart",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 11,
@@ -60144,7 +60284,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -60157,13 +60297,15 @@
     {
       "series": "https://jkanime.net/kuma-kuma-kuma-bear/",
       "title": "Kuma Kuma Kuma Bear",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -60230,13 +60372,15 @@
     {
       "series": "https://jkanime.net/chuan-shu-zijiu-zhinan/",
       "title": "Chuan Shu Zijiu Zhinan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -60286,13 +60430,15 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-ikinokore-kesshi-no-survival-kunren/",
       "title": "Boku no Hero Academia: Ikinokore! Kesshi no Survival Kunren",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -60342,51 +60488,57 @@
     {
       "series": "https://jkanime.net/koi-to-producer-evollove/",
       "title": "Koi to Producer: EVOL×LOVE",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mega": 9,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gibiate/",
       "title": "Gibiate",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/monster-musume-no-oishasan/",
       "title": "Monster Musume no Oishasan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -60399,13 +60551,15 @@
     {
       "series": "https://jkanime.net/sword-art-online-alicization-war-of-underworld-2nd-season/",
       "title": "Sword Art Online: Alicization - War of Underworld 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -60418,32 +60572,36 @@
     {
       "series": "https://jkanime.net/ninja-collection/",
       "title": "Ninja Collection",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
+        "mega": 5,
+        "streamwish": 5,
+        "vidhide": 5,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kanojo-okarishimasu/",
       "title": "Kanojo, Okarishimasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
