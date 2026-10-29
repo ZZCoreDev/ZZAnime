@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T21:51:14.055603+00:00",
+  "checkedAt": "2026-10-29T22:05:00.912261+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73534,
+  "observedChapters": 73535,
   "storedChapters": 71711,
-  "missingChapters": 1823,
+  "missingChapters": 1824,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -3024,6 +3024,13 @@
         "title": "Ai Mai Mii: Mousou Catastrophe Special",
         "samples": [
           "https://jkanime.net/ai-mai-mii-mousou-catastrophe-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arslan-senki/",
+        "title": "Arslan Senki",
+        "samples": [
+          "https://jkanime.net/arslan-senki/26/"
         ]
       },
       {
@@ -25925,7 +25932,134 @@
         "title": "Kaitou Joker 2",
         "samples": [
           "https://jkanime.net/kaitou-joker-2nd-season/1/",
-          "https://jkanime.net/kaitou-joker-2nd-season/2/"
+          "https://jkanime.net/kaitou-joker-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu-4/",
+        "title": "Teekyuu 4",
+        "samples": [
+          "https://jkanime.net/teekyuu-4/1/",
+          "https://jkanime.net/teekyuu-4/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ame-iro-cocoa/",
+        "title": "Ame-iro Cocoa",
+        "samples": [
+          "https://jkanime.net/ame-iro-cocoa/1/",
+          "https://jkanime.net/ame-iro-cocoa/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/takamiya-nasuno-desu-teekyuu-spin-off/",
+        "title": "Takamiya Nasuno Desu!: Teekyuu Spin-off",
+        "samples": [
+          "https://jkanime.net/takamiya-nasuno-desu-teekyuu-spin-off/1/",
+          "https://jkanime.net/takamiya-nasuno-desu-teekyuu-spin-off/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baby-steps-2/",
+        "title": "Baby Steps 2",
+        "samples": [
+          "https://jkanime.net/baby-steps-2/1/",
+          "https://jkanime.net/baby-steps-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/show-by-rock/",
+        "title": "Show By Rock!!",
+        "samples": [
+          "https://jkanime.net/show-by-rock/1/",
+          "https://jkanime.net/show-by-rock/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arslan-senki/",
+        "title": "Arslan Senki",
+        "samples": [
+          "https://jkanime.net/arslan-senki/26/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hello-kiniro-mosaic/",
+        "title": "Hello!! Kiniro Mosaic",
+        "samples": [
+          "https://jkanime.net/hello-kiniro-mosaic/1/",
+          "https://jkanime.net/hello-kiniro-mosaic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ghost-in-the-shell-arise-alternative-architecture/",
+        "title": "Ghost in the Shell: Arise - Alternative Architecture",
+        "samples": [
+          "https://jkanime.net/ghost-in-the-shell-arise-alternative-architecture/1/",
+          "https://jkanime.net/ghost-in-the-shell-arise-alternative-architecture/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/owari-no-seraph/",
+        "title": "Owari no Seraph",
+        "samples": [
+          "https://jkanime.net/owari-no-seraph/1/",
+          "https://jkanime.net/owari-no-seraph/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gunslinger-stratos-the-animation/",
+        "title": "Gunslinger Stratos: The Animation",
+        "samples": [
+          "https://jkanime.net/gunslinger-stratos-the-animation/1/",
+          "https://jkanime.net/gunslinger-stratos-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/denpa-kyoushi-tv/",
+        "title": "Denpa Kyoushi",
+        "samples": [
+          "https://jkanime.net/denpa-kyoushi-tv/1/",
+          "https://jkanime.net/denpa-kyoushi-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/plastic-memories/",
+        "title": "Plastic Memories",
+        "samples": [
+          "https://jkanime.net/plastic-memories/1/",
+          "https://jkanime.net/plastic-memories/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
+        "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
+        "samples": [
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/1/",
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-school-dxd-born/",
+        "title": "High School DxD BorN",
+        "samples": [
+          "https://jkanime.net/high-school-dxd-born/1/",
+          "https://jkanime.net/high-school-dxd-born/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-no-rinne-tv/",
+        "title": "Kyoukai no Rinne",
+        "samples": [
+          "https://jkanime.net/kyoukai-no-rinne-tv/1/",
+          "https://jkanime.net/kyoukai-no-rinne-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/",
+        "title": "Uta no☆Prince-sama♪ Maji Love Revolutions",
+        "samples": [
+          "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/1/",
+          "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/10/"
         ]
       },
       {
@@ -25942,6 +26076,22 @@
         "samples": [
           "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/3/",
           "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/",
+        "title": "Mahou Shoujo Lyrical Nanoha ViVid",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/1/",
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shokugeki-no-souma/",
+        "title": "Food Wars: Shokugeki no Soma",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma/1/",
+          "https://jkanime.net/shokugeki-no-souma/10/"
         ]
       },
       {
@@ -29075,7 +29225,8 @@
         "series": "https://jkanime.net/kanojo-no-tomodachi/",
         "title": "Kanojo no Tomodachi",
         "samples": [
-          "https://jkanime.net/kanojo-no-tomodachi/4/"
+          "https://jkanime.net/kanojo-no-tomodachi/2/",
+          "https://jkanime.net/kanojo-no-tomodachi/3/"
         ]
       },
       {
@@ -29103,7 +29254,8 @@
         "series": "https://jkanime.net/umayuru-full-gate/",
         "title": "Umayuru: Full Gate!",
         "samples": [
-          "https://jkanime.net/umayuru-full-gate/5/"
+          "https://jkanime.net/umayuru-full-gate/3/",
+          "https://jkanime.net/umayuru-full-gate/4/"
         ]
       },
       {
@@ -29123,6 +29275,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/",
+        "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
+        "samples": [
+          "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
         "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
         "samples": [
@@ -29134,6 +29293,14 @@
         "title": "Onegai AiPri",
         "samples": [
           "https://jkanime.net/onegai-aipri/29/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
+        "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+        "samples": [
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/5/",
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/6/"
         ]
       },
       {
@@ -34584,7 +34751,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -44091,7 +44258,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 19,
         "vidhide": 16,
@@ -58570,7 +58737,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -73797,7 +73964,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -85256,7 +85423,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -87551,7 +87718,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -96131,7 +96298,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96144,13 +96311,15 @@
     {
       "series": "https://jkanime.net/teekyuu-4/",
       "title": "Teekyuu 4",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96163,32 +96332,36 @@
     {
       "series": "https://jkanime.net/ame-iro-cocoa/",
       "title": "Ame-iro Cocoa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 10,
+        "mega": 6,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/takamiya-nasuno-desu-teekyuu-spin-off/",
       "title": "Takamiya Nasuno Desu!: Teekyuu Spin-off",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96201,13 +96374,15 @@
     {
       "series": "https://jkanime.net/baby-steps-2/",
       "title": "Baby Steps 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -96220,13 +96395,15 @@
     {
       "series": "https://jkanime.net/show-by-rock/",
       "title": "Show By Rock!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96239,32 +96416,39 @@
     {
       "series": "https://jkanime.net/arslan-senki/",
       "title": "Arslan Senki",
-      "causes": [],
-      "observed": 25,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 26,
       "stored": 25,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/arslan-senki/26/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
+        "mega": 22,
+        "streamwish": 24,
+        "vidhide": 23,
         "mp4upload": 25,
-        "streamtape": 25
+        "streamtape": 22
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hello-kiniro-mosaic/",
       "title": "Hello!! Kiniro Mosaic",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96277,13 +96461,15 @@
     {
       "series": "https://jkanime.net/ghost-in-the-shell-arise-alternative-architecture/",
       "title": "Ghost in the Shell: Arise - Alternative Architecture",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -96311,13 +96497,15 @@
     {
       "series": "https://jkanime.net/owari-no-seraph/",
       "title": "Owari no Seraph",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96330,13 +96518,15 @@
     {
       "series": "https://jkanime.net/gunslinger-stratos-the-animation/",
       "title": "Gunslinger Stratos: The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96349,13 +96539,15 @@
     {
       "series": "https://jkanime.net/denpa-kyoushi-tv/",
       "title": "Denpa Kyoushi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -96368,13 +96560,15 @@
     {
       "series": "https://jkanime.net/plastic-memories/",
       "title": "Plastic Memories",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96387,13 +96581,15 @@
     {
       "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96406,13 +96602,15 @@
     {
       "series": "https://jkanime.net/high-school-dxd-born/",
       "title": "High School DxD BorN",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96426,13 +96624,15 @@
     {
       "series": "https://jkanime.net/kyoukai-no-rinne-tv/",
       "title": "Kyoukai no Rinne",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -96445,13 +96645,15 @@
     {
       "series": "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/",
       "title": "Uta no☆Prince-sama♪ Maji Love Revolutions",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96515,13 +96717,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/",
       "title": "Mahou Shoujo Lyrical Nanoha ViVid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96534,13 +96738,15 @@
     {
       "series": "https://jkanime.net/shokugeki-no-souma/",
       "title": "Food Wars: Shokugeki no Soma",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -134031,7 +134237,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -134759,7 +134965,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -134857,13 +135063,15 @@
     {
       "series": "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/",
       "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -135017,13 +135225,15 @@
     {
       "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
       "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 6,
         "streamwish": 6,
