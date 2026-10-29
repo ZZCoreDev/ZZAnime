@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T04:06:45.659633+00:00",
+  "checkedAt": "2026-10-29T04:20:55.961860+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73482,
   "storedChapters": 71450,
@@ -17897,11 +17897,122 @@
         ]
       },
       {
+        "series": "https://jkanime.net/keishichou-tokumubu-tokushu-kyouakuhan-taisakushitsu-dainanaka-tokunana/",
+        "title": "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka: Tokunana",
+        "samples": [
+          "https://jkanime.net/keishichou-tokumubu-tokushu-kyouakuhan-taisakushitsu-dainanaka-tokunana/1/",
+          "https://jkanime.net/keishichou-tokumubu-tokushu-kyouakuhan-taisakushitsu-dainanaka-tokunana/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fairy-gone-2nd-season/",
+        "title": "Fairy Gone 2nd Season",
+        "samples": [
+          "https://jkanime.net/fairy-gone-2nd-season/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/actors-songs-connection/",
+        "title": "Actors: Songs Connection",
+        "samples": [
+          "https://jkanime.net/actors-songs-connection/1/",
+          "https://jkanime.net/actors-songs-connection/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/africa-no-salaryman-tv/",
+        "title": "Africa no Salaryman (TV)",
+        "samples": [
+          "https://jkanime.net/africa-no-salaryman-tv/1/",
+          "https://jkanime.net/africa-no-salaryman-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/babylon/",
+        "title": "Babylon",
+        "samples": [
+          "https://jkanime.net/babylon/1/",
+          "https://jkanime.net/babylon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mairimashita-iruma-kun/",
+        "title": "Mairimashita! Iruma-kun",
+        "samples": [
+          "https://jkanime.net/mairimashita-iruma-kun/1/",
+          "https://jkanime.net/mairimashita-iruma-kun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/val-x-love/",
+        "title": "Val x Love",
+        "samples": [
+          "https://jkanime.net/val-x-love/1/",
+          "https://jkanime.net/val-x-love/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-2/",
+        "title": "Bokutachi wa Benkyou ga Dekinai 2",
+        "samples": [
+          "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-2/1/",
+          "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-oto-tomare-2nd-season/",
+        "title": "Kono Oto Tomare! 2nd Season",
+        "samples": [
+          "https://jkanime.net/kono-oto-tomare-2nd-season/1/",
+          "https://jkanime.net/kono-oto-tomare-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/null-peta/",
+        "title": "Null Peta",
+        "samples": [
+          "https://jkanime.net/null-peta/1/",
+          "https://jkanime.net/null-peta/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
         "title": "Chuubyou Gekihatsu Boy",
         "samples": [
           "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
           "https://jkanime.net/chuubyou-gekihatsu-boy/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/granblue-fantasy-the-animation-season-2/",
+        "title": "Granblue Fantasy The Animation Season 2",
+        "samples": [
+          "https://jkanime.net/granblue-fantasy-the-animation-season-2/1/",
+          "https://jkanime.net/granblue-fantasy-the-animation-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/azur-lane/",
+        "title": "Azur Lane",
+        "samples": [
+          "https://jkanime.net/azur-lane/1/",
+          "https://jkanime.net/azur-lane/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ahiru-no-sora/",
+        "title": "Ahiru no Sora",
+        "samples": [
+          "https://jkanime.net/ahiru-no-sora/1/",
+          "https://jkanime.net/ahiru-no-sora/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/radiant-2nd-season/",
+        "title": "Radiant 2nd Season",
+        "samples": [
+          "https://jkanime.net/radiant-2nd-season/1/",
+          "https://jkanime.net/radiant-2nd-season/2/"
         ]
       },
       {
@@ -64985,24 +65096,26 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 14,
+        "mega": 10,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 14
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/keishichou-tokumubu-tokushu-kyouakuhan-taisakushitsu-dainanaka-tokunana/",
       "title": "Keishichou Tokumubu Tokushu Kyouakuhan Taisakushitsu Dainanaka: Tokunana",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65033,51 +65146,57 @@
     {
       "series": "https://jkanime.net/fairy-gone-2nd-season/",
       "title": "Fairy Gone 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mega": 1,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/actors-songs-connection/",
       "title": "Actors: Songs Connection",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mega": 4,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/africa-no-salaryman-tv/",
       "title": "Africa no Salaryman (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65090,32 +65209,36 @@
     {
       "series": "https://jkanime.net/babylon/",
       "title": "Babylon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mega": 9,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mairimashita-iruma-kun/",
       "title": "Mairimashita! Iruma-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -65128,13 +65251,15 @@
     {
       "series": "https://jkanime.net/val-x-love/",
       "title": "Val x Love",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65147,13 +65272,15 @@
     {
       "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-2/",
       "title": "Bokutachi wa Benkyou ga Dekinai 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -65166,13 +65293,15 @@
     {
       "series": "https://jkanime.net/kono-oto-tomare-2nd-season/",
       "title": "Kono Oto Tomare! 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -65185,19 +65314,21 @@
     {
       "series": "https://jkanime.net/null-peta/",
       "title": "Null Peta",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
+        "mega": 2,
+        "streamwish": 11,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -65235,13 +65366,15 @@
     {
       "series": "https://jkanime.net/granblue-fantasy-the-animation-season-2/",
       "title": "Granblue Fantasy The Animation Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65254,13 +65387,15 @@
     {
       "series": "https://jkanime.net/azur-lane/",
       "title": "Azur Lane",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65274,13 +65409,15 @@
     {
       "series": "https://jkanime.net/ahiru-no-sora/",
       "title": "Ahiru no Sora",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -65293,13 +65430,15 @@
     {
       "series": "https://jkanime.net/radiant-2nd-season/",
       "title": "Radiant 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 21,
         "streamwish": 21,
