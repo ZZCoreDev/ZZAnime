@@ -66,5 +66,9 @@ class VoeChannelTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    old=self.fixture(PROOF[0]);old['episodes'][PROOF[0]]['observedAt']=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=5.5)).isoformat();save(Path(d)/'voe-state',old)
    fresh=self.fixture(PROOF[0]);self.assertEqual(split(d,fresh)[1],1);self.assertEqual(load(Path(d)/'voe-state')['episodes'][PROOF[0]]['observedAt'],fresh['episodes'][PROOF[0]]['observedAt']);self.assertEqual(split(d,old)[1],0);self.assertEqual(due_targets(d,{},time.time(),2),[])
+ def test_label_case_is_not_a_new_link_or_a_new_date(self):
+  with tempfile.TemporaryDirectory() as d:
+   first=self.fixture(PROOF[0]);split(d,first);second=self.fixture(PROOF[0]);second['episodes'][PROOF[0]]['providers'][0]['name']='VOE'
+   self.assertEqual(split(d,second)[1],0);self.assertEqual(load(Path(d)/'voe-state')['episodes'][PROOF[0]]['observedAt'],first['episodes'][PROOF[0]]['observedAt'])
 
 if __name__=='__main__':unittest.main()

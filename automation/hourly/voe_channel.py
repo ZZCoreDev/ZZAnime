@@ -42,7 +42,8 @@ def split(folder,incoming):
         side=load_parents(Path(folder)/'voe-state',extra['listings'])
         for url,ep in list(extra['episodes'].items()):
             old=side['episodes'].get(url)
-            if old and (stamp(old.get('observedAt'))>=stamp(ep.get('observedAt')) or now-stamp(old.get('observedAt'))<LEAD_AGE and old.get('providers')==ep['providers']):extra['episodes'].pop(url)
+            links=lambda item:{(p.get('family'),u) for p in item.get('providers',[]) for u in p.get('links',[])}
+            if old and (stamp(old.get('observedAt'))>=stamp(ep.get('observedAt')) or now-stamp(old.get('observedAt'))<LEAD_AGE and links(old)==links(ep)):extra['episodes'].pop(url)
         count=len(extra['episodes'])
         if count:
             merge(side,extra);recent=side.setdefault('recent',{})
