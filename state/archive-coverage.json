@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T00:18:59.871933+00:00",
+  "checkedAt": "2026-10-29T00:31:49.068839+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73467,
   "storedChapters": 71450,
@@ -15610,7 +15610,128 @@
         "series": "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/",
         "title": "Seven Knights Revolution: Eiyuu no Keishousha",
         "samples": [
-          "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/1/"
+          "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/1/",
+          "https://jkanime.net/seven-knights-revolution-eiyuu-no-keishousha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hige-wo-soru-soshite-joshikousei-wo-hirou/",
+        "title": "Hige wo Soru. Soshite Joshikousei wo Hirou.",
+        "samples": [
+          "https://jkanime.net/hige-wo-soru-soshite-joshikousei-wo-hirou/1/",
+          "https://jkanime.net/hige-wo-soru-soshite-joshikousei-wo-hirou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nomad-megalo-box-2/",
+        "title": "Nomad: Megalo Box 2",
+        "samples": [
+          "https://jkanime.net/nomad-megalo-box-2/1/",
+          "https://jkanime.net/nomad-megalo-box-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ie-wo-kau/",
+        "title": "Dragon, Ie wo Kau.",
+        "samples": [
+          "https://jkanime.net/dragon-ie-wo-kau/1/",
+          "https://jkanime.net/dragon-ie-wo-kau/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-watashi-no-cramer/",
+        "title": "Sayonara Watashi no Cramer",
+        "samples": [
+          "https://jkanime.net/sayonara-watashi-no-cramer/1/",
+          "https://jkanime.net/sayonara-watashi-no-cramer/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sentouin-hakenshimasu/",
+        "title": "Sentouin, Hakenshimasu!",
+        "samples": [
+          "https://jkanime.net/sentouin-hakenshimasu/1/",
+          "https://jkanime.net/sentouin-hakenshimasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuukoku-no-moriarty-part-2/",
+        "title": "Yuukoku no Moriarty Part 2",
+        "samples": [
+          "https://jkanime.net/yuukoku-no-moriarty-part-2/1/",
+          "https://jkanime.net/yuukoku-no-moriarty-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shakunetsu-kabaddi/",
+        "title": "Shakunetsu Kabaddi",
+        "samples": [
+          "https://jkanime.net/shakunetsu-kabaddi/11/",
+          "https://jkanime.net/shakunetsu-kabaddi/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mashiro-no-oto/",
+        "title": "Mashiro no Oto",
+        "samples": [
+          "https://jkanime.net/mashiro-no-oto/1/",
+          "https://jkanime.net/mashiro-no-oto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yakunara-mug-cup-mo/",
+        "title": "Yakunara Mug Cup mo",
+        "samples": [
+          "https://jkanime.net/yakunara-mug-cup-mo/1/",
+          "https://jkanime.net/yakunara-mug-cup-mo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ssssdynazenon/",
+        "title": "SSSS.Dynazenon",
+        "samples": [
+          "https://jkanime.net/ssssdynazenon/1/",
+          "https://jkanime.net/ssssdynazenon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-worldstars/",
+        "title": "Hetalia World★Stars",
+        "samples": [
+          "https://jkanime.net/hetalia-worldstars/1/",
+          "https://jkanime.net/hetalia-worldstars/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shaman-king-2021/",
+        "title": "Shaman King (2021)",
+        "samples": [
+          "https://jkanime.net/shaman-king-2021/1/",
+          "https://jkanime.net/shaman-king-2021/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jouran-the-princess-of-snow-and-blood/",
+        "title": "Jouran: The Princess of Snow and Blood",
+        "samples": [
+          "https://jkanime.net/jouran-the-princess-of-snow-and-blood/12/",
+          "https://jkanime.net/jouran-the-princess-of-snow-and-blood/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koi-to-yobu-ni-wa-kimochi-warui/",
+        "title": "Koi to Yobu ni wa Kimochi Warui",
+        "samples": [
+          "https://jkanime.net/koi-to-yobu-ni-wa-kimochi-warui/1/",
+          "https://jkanime.net/koi-to-yobu-ni-wa-kimochi-warui/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mars-red/",
+        "title": "Mars Red",
+        "samples": [
+          "https://jkanime.net/mars-red/1/",
+          "https://jkanime.net/mars-red/10/"
         ]
       },
       {
@@ -56093,26 +56214,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 6,
       "families": {
-        "mega": 9,
+        "mega": 5,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 10
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hige-wo-soru-soshite-joshikousei-wo-hirou/",
       "title": "Hige wo Soru. Soshite Joshikousei wo Hirou.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -56125,32 +56248,36 @@
     {
       "series": "https://jkanime.net/nomad-megalo-box-2/",
       "title": "Nomad: Megalo Box 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 13,
+        "mega": 9,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 14,
+        "mp4upload": 14,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dragon-ie-wo-kau/",
       "title": "Dragon, Ie wo Kau.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56163,13 +56290,15 @@
     {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer/",
       "title": "Sayonara Watashi no Cramer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -56182,13 +56311,15 @@
     {
       "series": "https://jkanime.net/sentouin-hakenshimasu/",
       "title": "Sentouin, Hakenshimasu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56201,13 +56332,15 @@
     {
       "series": "https://jkanime.net/yuukoku-no-moriarty-part-2/",
       "title": "Yuukoku no Moriarty Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -56221,32 +56354,36 @@
     {
       "series": "https://jkanime.net/shakunetsu-kabaddi/",
       "title": "Shakunetsu Kabaddi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mashiro-no-oto/",
       "title": "Mashiro no Oto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56279,13 +56416,15 @@
     {
       "series": "https://jkanime.net/yakunara-mug-cup-mo/",
       "title": "Yakunara Mug Cup mo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56298,13 +56437,15 @@
     {
       "series": "https://jkanime.net/ssssdynazenon/",
       "title": "SSSS.Dynazenon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56335,13 +56476,15 @@
     {
       "series": "https://jkanime.net/hetalia-worldstars/",
       "title": "Hetalia World★Stars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56354,13 +56497,15 @@
     {
       "series": "https://jkanime.net/shaman-king-2021/",
       "title": "Shaman King (2021)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -56373,32 +56518,36 @@
     {
       "series": "https://jkanime.net/jouran-the-princess-of-snow-and-blood/",
       "title": "Jouran: The Princess of Snow and Blood",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/koi-to-yobu-ni-wa-kimochi-warui/",
       "title": "Koi to Yobu ni wa Kimochi Warui",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56411,19 +56560,21 @@
     {
       "series": "https://jkanime.net/mars-red/",
       "title": "Mars Red",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
+        "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 12
       },
       "playbackVerified": false
     },
