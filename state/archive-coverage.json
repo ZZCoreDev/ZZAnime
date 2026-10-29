@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T05:16:15.427869+00:00",
+  "checkedAt": "2026-10-29T05:31:38.414854+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73495,
   "storedChapters": 71450,
@@ -18656,6 +18656,126 @@
         "samples": [
           "https://jkanime.net/robihachi/1/",
           "https://jkanime.net/robihachi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai/",
+        "title": "Bokutachi wa Benkyou ga Dekinai",
+        "samples": [
+          "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai/1/",
+          "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/joshikausei/",
+        "title": "Joshikausei",
+        "samples": [
+          "https://jkanime.net/joshikausei/1/",
+          "https://jkanime.net/joshikausei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nobunaga-sensei-no-osanazuma/",
+        "title": "Nobunaga-sensei no Osanazuma",
+        "samples": [
+          "https://jkanime.net/nobunaga-sensei-no-osanazuma/1/",
+          "https://jkanime.net/nobunaga-sensei-no-osanazuma/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimetsu-no-yaiba/",
+        "title": "Kimetsu no Yaiba",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba/1/",
+          "https://jkanime.net/kimetsu-no-yaiba/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chou-kadou-girl-amazing-stranger/",
+        "title": "Chou Kadou Girl ⅙: Amazing Stranger",
+        "samples": [
+          "https://jkanime.net/chou-kadou-girl-amazing-stranger/6/",
+          "https://jkanime.net/chou-kadou-girl-amazing-stranger/8/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mix-meisei-story/",
+        "title": "Mix: Meisei Story",
+        "samples": [
+          "https://jkanime.net/mix-meisei-story/1/",
+          "https://jkanime.net/mix-meisei-story/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-oto-tomare/",
+        "title": "Kono Oto Tomare!",
+        "samples": [
+          "https://jkanime.net/kono-oto-tomare/1/",
+          "https://jkanime.net/kono-oto-tomare/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beyblade-burst-gachi/",
+        "title": "Beyblade Burst Gachi",
+        "samples": [
+          "https://jkanime.net/beyblade-burst-gachi/1/",
+          "https://jkanime.net/beyblade-burst-gachi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakumatsu-crisis/",
+        "title": "Bakumatsu: Crisis",
+        "samples": [
+          "https://jkanime.net/bakumatsu-crisis/1/",
+          "https://jkanime.net/bakumatsu-crisis/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fruits-basket-2019/",
+        "title": "Fruits Basket (2019)",
+        "samples": [
+          "https://jkanime.net/fruits-basket-2019/1/",
+          "https://jkanime.net/fruits-basket-2019/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/midara-na-ao-chan-wa-benkyou-ga-dekinai/",
+        "title": "Midara na Ao-chan wa Benkyou ga Dekinai",
+        "samples": [
+          "https://jkanime.net/midara-na-ao-chan-wa-benkyou-ga-dekinai/1/",
+          "https://jkanime.net/midara-na-ao-chan-wa-benkyou-ga-dekinai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hitoribocchi-no-seikatsu/",
+        "title": "Hitoribocchi no Marumaru Seikatsu",
+        "samples": [
+          "https://jkanime.net/hitoribocchi-no-seikatsu/1/",
+          "https://jkanime.net/hitoribocchi-no-seikatsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senryuu-shoujo/",
+        "title": "Senryuu Shoujo",
+        "samples": [
+          "https://jkanime.net/senryuu-shoujo/1/",
+          "https://jkanime.net/senryuu-shoujo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hangyakusei-million-arthur-2nd-season/",
+        "title": "Hangyakusei Million Arthur 2nd Season",
+        "samples": [
+          "https://jkanime.net/hangyakusei-million-arthur-2nd-season/2/",
+          "https://jkanime.net/hangyakusei-million-arthur-2nd-season/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/diamond-no-ace-act-ii/",
+        "title": "Diamond no Ace: Act II",
+        "samples": [
+          "https://jkanime.net/diamond-no-ace-act-ii/1/",
+          "https://jkanime.net/diamond-no-ace-act-ii/11/"
         ]
       },
       {
@@ -68000,13 +68120,15 @@
     {
       "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai/",
       "title": "Bokutachi wa Benkyou ga Dekinai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -68019,13 +68141,15 @@
     {
       "series": "https://jkanime.net/joshikausei/",
       "title": "Joshikausei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68038,13 +68162,15 @@
     {
       "series": "https://jkanime.net/nobunaga-sensei-no-osanazuma/",
       "title": "Nobunaga-sensei no Osanazuma",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68057,13 +68183,15 @@
     {
       "series": "https://jkanime.net/kimetsu-no-yaiba/",
       "title": "Kimetsu no Yaiba",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -68076,32 +68204,36 @@
     {
       "series": "https://jkanime.net/chou-kadou-girl-amazing-stranger/",
       "title": "Chou Kadou Girl ⅙: Amazing Stranger",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mix-meisei-story/",
       "title": "Mix: Meisei Story",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -68114,13 +68246,15 @@
     {
       "series": "https://jkanime.net/kono-oto-tomare/",
       "title": "Kono Oto Tomare!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -68133,13 +68267,15 @@
     {
       "series": "https://jkanime.net/beyblade-burst-gachi/",
       "title": "Beyblade Burst Gachi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -68153,13 +68289,15 @@
     {
       "series": "https://jkanime.net/bakumatsu-crisis/",
       "title": "Bakumatsu: Crisis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68172,13 +68310,15 @@
     {
       "series": "https://jkanime.net/fruits-basket-2019/",
       "title": "Fruits Basket (2019)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -68192,13 +68332,15 @@
     {
       "series": "https://jkanime.net/midara-na-ao-chan-wa-benkyou-ga-dekinai/",
       "title": "Midara na Ao-chan wa Benkyou ga Dekinai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68211,13 +68353,15 @@
     {
       "series": "https://jkanime.net/hitoribocchi-no-seikatsu/",
       "title": "Hitoribocchi no Marumaru Seikatsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68230,13 +68374,15 @@
     {
       "series": "https://jkanime.net/senryuu-shoujo/",
       "title": "Senryuu Shoujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68249,38 +68395,42 @@
     {
       "series": "https://jkanime.net/hangyakusei-million-arthur-2nd-season/",
       "title": "Hangyakusei Million Arthur 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 8,
+        "mega": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-act-ii/",
       "title": "Diamond no Ace: Act II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
-        "mega": 52,
+        "mega": 50,
         "streamwish": 52,
         "vidhide": 52,
         "mp4upload": 52,
-        "streamtape": 52
+        "streamtape": 50
       },
       "playbackVerified": false
     },
