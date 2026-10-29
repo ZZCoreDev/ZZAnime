@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T01:01:25.415610+00:00",
+  "checkedAt": "2026-10-29T01:14:20.368016+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73480,
+  "observedChapters": 73481,
   "storedChapters": 71450,
-  "missingChapters": 2030,
+  "missingChapters": 2031,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1435,6 +1435,13 @@
         "title": "Bishoujo Senshi Sailor Moon Eternal Movie 1",
         "samples": [
           "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-1/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenchi-souzou-design-bu/",
+        "title": "Tenchi Souzou Design-bu",
+        "samples": [
+          "https://jkanime.net/tenchi-souzou-design-bu/13/"
         ]
       },
       {
@@ -16005,7 +16012,55 @@
         "title": "Kemono Jihen",
         "samples": [
           "https://jkanime.net/kemono-jihen/1/",
-          "https://jkanime.net/kemono-jihen/2/"
+          "https://jkanime.net/kemono-jihen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idoly-pride/",
+        "title": "Idoly Pride",
+        "samples": [
+          "https://jkanime.net/idoly-pride/1/",
+          "https://jkanime.net/idoly-pride/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yatogame-chan-kansatsu-nikki-sansatsume/",
+        "title": "Yatogame-chan Kansatsu Nikki Sansatsume",
+        "samples": [
+          "https://jkanime.net/yatogame-chan-kansatsu-nikki-sansatsume/1/",
+          "https://jkanime.net/yatogame-chan-kansatsu-nikki-sansatsume/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/back-arrow/",
+        "title": "Back Arrow",
+        "samples": [
+          "https://jkanime.net/back-arrow/1/",
+          "https://jkanime.net/back-arrow/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wixoss-divaalive/",
+        "title": "WIXOSS Diva(A)Live",
+        "samples": [
+          "https://jkanime.net/wixoss-divaalive/1/",
+          "https://jkanime.net/wixoss-divaalive/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-dake-haireru-kakushi-dungeon/",
+        "title": "Ore dake Haireru Kakushi Dungeon",
+        "samples": [
+          "https://jkanime.net/ore-dake-haireru-kakushi-dungeon/1/",
+          "https://jkanime.net/ore-dake-haireru-kakushi-dungeon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/project-scard-praeter-no-kizu/",
+        "title": "Project Scard: Praeter no Kizu",
+        "samples": [
+          "https://jkanime.net/project-scard-praeter-no-kizu/1/",
+          "https://jkanime.net/project-scard-praeter-no-kizu/10/"
         ]
       },
       {
@@ -16013,6 +16068,115 @@
         "title": "Bishoujo Senshi Sailor Moon Eternal Movie 1",
         "samples": [
           "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-1/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yakusoku-no-neverland-2nd-season/",
+        "title": "Yakusoku no Neverland 2nd Season",
+        "samples": [
+          "https://jkanime.net/yakusoku-no-neverland-2nd-season/1/",
+          "https://jkanime.net/yakusoku-no-neverland-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/243-seiin-koukou-danshi-volley-bu/",
+        "title": "2.43: Seiin Koukou Danshi Volley-bu",
+        "samples": [
+          "https://jkanime.net/243-seiin-koukou-danshi-volley-bu/1/",
+          "https://jkanime.net/243-seiin-koukou-danshi-volley-bu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/5-toubun-no-hanayome-2/",
+        "title": "5-toubun no Hanayome ∬",
+        "samples": [
+          "https://jkanime.net/5-toubun-no-hanayome-2/1/",
+          "https://jkanime.net/5-toubun-no-hanayome-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kumo-desu-ga-nani-ka/",
+        "title": "Kumo Desu ga, Nani ka?",
+        "samples": [
+          "https://jkanime.net/kumo-desu-ga-nani-ka/1/",
+          "https://jkanime.net/kumo-desu-ga-nani-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idolls/",
+        "title": "Idolls!",
+        "samples": [
+          "https://jkanime.net/idolls/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jaku-chara-tomozaki-kun/",
+        "title": "Jaku-Chara Tomozaki-kun",
+        "samples": [
+          "https://jkanime.net/jaku-chara-tomozaki-kun/1/",
+          "https://jkanime.net/jaku-chara-tomozaki-kun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hortensia-saga-tv/",
+        "title": "Hortensia Saga (TV)",
+        "samples": [
+          "https://jkanime.net/hortensia-saga-tv/1/",
+          "https://jkanime.net/hortensia-saga-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soukou-musume-senki/",
+        "title": "Soukou Musume Senki",
+        "samples": [
+          "https://jkanime.net/soukou-musume-senki/1/",
+          "https://jkanime.net/soukou-musume-senki/7/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/abciee-shuugyou-nikki/",
+        "title": "Abciee Shuugyou Nikki",
+        "samples": [
+          "https://jkanime.net/abciee-shuugyou-nikki/1/",
+          "https://jkanime.net/abciee-shuugyou-nikki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beastars-2nd-season/",
+        "title": "Beastars 2nd Season",
+        "samples": [
+          "https://jkanime.net/beastars-2nd-season/1/",
+          "https://jkanime.net/beastars-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuru-camp-season-2/",
+        "title": "Yuru Camp△ Season 2",
+        "samples": [
+          "https://jkanime.net/yuru-camp-season-2/1/",
+          "https://jkanime.net/yuru-camp-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenchi-souzou-design-bu/",
+        "title": "Tenchi Souzou Design-bu",
+        "samples": [
+          "https://jkanime.net/tenchi-souzou-design-bu/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/show-by-rock-stars/",
+        "title": "Show by Rock!! Stars!!",
+        "samples": [
+          "https://jkanime.net/show-by-rock-stars/1/",
+          "https://jkanime.net/show-by-rock-stars/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hataraku-saibou/",
+        "title": "Hataraku Saibou!!",
+        "samples": [
+          "https://jkanime.net/hataraku-saibou/1/"
         ]
       },
       {
@@ -57695,7 +57859,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57708,32 +57872,36 @@
     {
       "series": "https://jkanime.net/idoly-pride/",
       "title": "Idoly Pride",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yatogame-chan-kansatsu-nikki-sansatsume/",
       "title": "Yatogame-chan Kansatsu Nikki Sansatsume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57746,13 +57914,15 @@
     {
       "series": "https://jkanime.net/back-arrow/",
       "title": "Back Arrow",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -57765,13 +57935,15 @@
     {
       "series": "https://jkanime.net/wixoss-divaalive/",
       "title": "WIXOSS Diva(A)Live",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57784,13 +57956,15 @@
     {
       "series": "https://jkanime.net/ore-dake-haireru-kakushi-dungeon/",
       "title": "Ore dake Haireru Kakushi Dungeon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57803,19 +57977,21 @@
     {
       "series": "https://jkanime.net/project-scard-praeter-no-kizu/",
       "title": "Project Scard: Praeter no Kizu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 5,
+        "streamwish": 14,
+        "vidhide": 14,
+        "mp4upload": 14,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -57841,13 +58017,15 @@
     {
       "series": "https://jkanime.net/yakusoku-no-neverland-2nd-season/",
       "title": "Yakusoku no Neverland 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -57860,13 +58038,15 @@
     {
       "series": "https://jkanime.net/243-seiin-koukou-danshi-volley-bu/",
       "title": "2.43: Seiin Koukou Danshi Volley-bu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57879,13 +58059,15 @@
     {
       "series": "https://jkanime.net/5-toubun-no-hanayome-2/",
       "title": "5-toubun no Hanayome ∬",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57898,13 +58080,15 @@
     {
       "series": "https://jkanime.net/kumo-desu-ga-nani-ka/",
       "title": "Kumo Desu ga, Nani ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -57917,32 +58101,36 @@
     {
       "series": "https://jkanime.net/idolls/",
       "title": "Idolls!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 10,
+        "mega": 1,
         "streamwish": 10,
-        "vidhide": 10,
-        "mp4upload": 10,
-        "streamtape": 10
+        "vidhide": 9,
+        "mp4upload": 9,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/jaku-chara-tomozaki-kun/",
       "title": "Jaku-Chara Tomozaki-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57955,13 +58143,15 @@
     {
       "series": "https://jkanime.net/hortensia-saga-tv/",
       "title": "Hortensia Saga (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57974,32 +58164,36 @@
     {
       "series": "https://jkanime.net/soukou-musume-senki/",
       "title": "Soukou Musume Senki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamwish": 13,
+        "vidhide": 13,
+        "mp4upload": 13,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/abciee-shuugyou-nikki/",
       "title": "Abciee Shuugyou Nikki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58012,13 +58206,15 @@
     {
       "series": "https://jkanime.net/beastars-2nd-season/",
       "title": "Beastars 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58031,13 +58227,15 @@
     {
       "series": "https://jkanime.net/yuru-camp-season-2/",
       "title": "Yuru Camp△ Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -58050,32 +58248,39 @@
     {
       "series": "https://jkanime.net/tenchi-souzou-design-bu/",
       "title": "Tenchi Souzou Design-bu",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tenchi-souzou-design-bu/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/show-by-rock-stars/",
       "title": "Show by Rock!! Stars!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -58088,13 +58293,15 @@
     {
       "series": "https://jkanime.net/hataraku-saibou/",
       "title": "Hataraku Saibou!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 8,
         "streamwish": 8,
