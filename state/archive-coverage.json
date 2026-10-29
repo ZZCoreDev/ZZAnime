@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T19:34:53.266316+00:00",
+  "checkedAt": "2026-10-29T19:48:28.291592+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73528,
-  "storedChapters": 71690,
-  "missingChapters": 1838,
+  "storedChapters": 71694,
+  "missingChapters": 1834,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -827,7 +827,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/"
         ]
       },
       {
@@ -2033,13 +2033,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
-        "title": "Time Bokan: Gyakushuu no San Akunin",
-        "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/urahara/",
         "title": "Urahara",
         "samples": [
@@ -2310,7 +2303,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/25/"
+          "https://jkanime.net/classicaloid/3/"
         ]
       },
       {
@@ -13346,7 +13339,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/"
         ]
       },
       {
@@ -22777,7 +22770,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/25/"
+          "https://jkanime.net/classicaloid/3/"
         ]
       },
       {
@@ -23972,6 +23965,142 @@
         "samples": [
           "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls/4/",
           "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls/8/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onigiri/",
+        "title": "Onigiri",
+        "samples": [
+          "https://jkanime.net/onigiri/1/",
+          "https://jkanime.net/onigiri/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/joker-game/",
+        "title": "Joker Game",
+        "samples": [
+          "https://jkanime.net/joker-game/1/",
+          "https://jkanime.net/joker-game/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/musaigen-no-phantom-world-limitless-phantom-world/",
+        "title": "Musaigen no Phantom World: Limitless Phantom World",
+        "samples": [
+          "https://jkanime.net/musaigen-no-phantom-world-limitless-phantom-world/1/",
+          "https://jkanime.net/musaigen-no-phantom-world-limitless-phantom-world/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki/",
+        "title": "12-sai.: Chicchana Mune no Tokimeki",
+        "samples": [
+          "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki/1/",
+          "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaitou-joker-3rd-season/",
+        "title": "Kaitou Joker 3rd Season",
+        "samples": [
+          "https://jkanime.net/kaitou-joker-3rd-season/1/",
+          "https://jkanime.net/kaitou-joker-3rd-season/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
+        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
+        "samples": [
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/1/",
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
+        "title": "Sailor Moon Crystal: Death Busters-hen",
+        "samples": [
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/1/",
+          "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuon/",
+        "title": "Bakuon!!",
+        "samples": [
+          "https://jkanime.net/bakuon/1/",
+          "https://jkanime.net/bakuon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hundred/",
+        "title": "Hundred",
+        "samples": [
+          "https://jkanime.net/hundred/1/",
+          "https://jkanime.net/hundred/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beyblade-burst/",
+        "title": "Beyblade Burst",
+        "samples": [
+          "https://jkanime.net/beyblade-burst/1/",
+          "https://jkanime.net/beyblade-burst/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pan-de-peace/",
+        "title": "Pan de Peace!",
+        "samples": [
+          "https://jkanime.net/pan-de-peace/1/",
+          "https://jkanime.net/pan-de-peace/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu/",
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "samples": [
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu/1/",
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia/",
+        "title": "Boku no Hero Academia",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia/1/",
+          "https://jkanime.net/boku-no-hero-academia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuma-miko/",
+        "title": "Kuma Miko",
+        "samples": [
+          "https://jkanime.net/kuma-miko/1/",
+          "https://jkanime.net/kuma-miko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gakusen-toshi-asterisk-2nd-season/",
+        "title": "Gakusen Toshi Asterisk 2nd Season",
+        "samples": [
+          "https://jkanime.net/gakusen-toshi-asterisk-2nd-season/1/",
+          "https://jkanime.net/gakusen-toshi-asterisk-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari/",
+        "title": "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari!",
+        "samples": [
+          "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari/15/",
+          "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari/18/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/endride/",
+        "title": "Endride",
+        "samples": [
+          "https://jkanime.net/endride/1/",
+          "https://jkanime.net/endride/10/"
         ]
       },
       {
@@ -58298,10 +58427,9 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/22/"
@@ -58310,7 +58438,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamwish": 13,
         "vidhide": 5
       },
@@ -65685,11 +65813,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/cardfight-vanguard-overdress/13/",
         "https://jkanime.net/cardfight-vanguard-overdress/15/",
-        "https://jkanime.net/cardfight-vanguard-overdress/23/",
         "https://jkanime.net/cardfight-vanguard-overdress/24/",
         "https://jkanime.net/cardfight-vanguard-overdress/25/"
       ],
@@ -65697,7 +65824,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 20,
+        "mp4upload": 21,
         "vidhide": 3,
         "mega": 2,
         "streamwish": 4,
@@ -69805,7 +69932,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -81004,21 +81131,17 @@
     {
       "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
       "title": "Time Bokan: Gyakushuu no San Akunin",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 24,
-      "stored": 23,
-      "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/9/"
-      ],
+      "stored": 24,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 23,
-        "streamwish": 23,
-        "vidhide": 23
+        "mp4upload": 24,
+        "streamwish": 24,
+        "vidhide": 24
       },
       "playbackVerified": false
     },
@@ -83775,7 +83898,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -85626,10 +85749,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/25/",
         "https://jkanime.net/classicaloid/3/",
         "https://jkanime.net/classicaloid/4/",
         "https://jkanime.net/classicaloid/5/",
@@ -85642,9 +85764,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 16,
-        "streamwish": 18,
-        "vidhide": 16
+        "mp4upload": 17,
+        "streamwish": 19,
+        "vidhide": 17
       },
       "playbackVerified": false
     },
@@ -86078,7 +86200,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -88987,43 +89109,47 @@
       "renewalFailed": 2,
       "families": {
         "streamwish": 13,
-        "mega": 5,
-        "vidhide": 5,
-        "mp4upload": 5,
-        "streamtape": 5
+        "mega": 2,
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/onigiri/",
       "title": "Onigiri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 13,
+        "mega": 9,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 9,
+        "mixdrop": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/joker-game/",
       "title": "Joker Game",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89036,32 +89162,36 @@
     {
       "series": "https://jkanime.net/musaigen-no-phantom-world-limitless-phantom-world/",
       "title": "Musaigen no Phantom World: Limitless Phantom World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 6,
-        "streamwish": 6,
-        "vidhide": 6,
+        "mega": 5,
+        "streamwish": 5,
+        "vidhide": 5,
         "mp4upload": 6,
-        "streamtape": 6
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki/",
       "title": "12-sai.: Chicchana Mune no Tokimeki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89074,32 +89204,36 @@
     {
       "series": "https://jkanime.net/kaitou-joker-3rd-season/",
       "title": "Kaitou Joker 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 13,
+        "mega": 8,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89112,13 +89246,15 @@
     {
       "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
       "title": "Sailor Moon Crystal: Death Busters-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89131,13 +89267,15 @@
     {
       "series": "https://jkanime.net/bakuon/",
       "title": "Bakuon!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89150,13 +89288,15 @@
     {
       "series": "https://jkanime.net/hundred/",
       "title": "Hundred",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89169,13 +89309,15 @@
     {
       "series": "https://jkanime.net/beyblade-burst/",
       "title": "Beyblade Burst",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -89189,13 +89331,15 @@
     {
       "series": "https://jkanime.net/pan-de-peace/",
       "title": "Pan de Peace!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89208,13 +89352,15 @@
     {
       "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu/",
       "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -89227,13 +89373,15 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia/",
       "title": "Boku no Hero Academia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -89246,13 +89394,15 @@
     {
       "series": "https://jkanime.net/kuma-miko/",
       "title": "Kuma Miko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89273,24 +89423,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 21,
-        "streamwish": 21,
-        "vidhide": 21,
-        "mp4upload": 22,
-        "streamtape": 21
+        "mp4upload": 22
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gakusen-toshi-asterisk-2nd-season/",
       "title": "Gakusen Toshi Asterisk 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89303,33 +89451,37 @@
     {
       "series": "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari/",
       "title": "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mixdrop": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "mega": 4,
+        "streamwish": 8,
+        "vidhide": 4,
+        "mixdrop": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/endride/",
       "title": "Endride",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 17,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -102137,7 +102289,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
