@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T01:40:23.135343+00:00",
+  "checkedAt": "2026-10-29T01:54:50.799043+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73481,
   "storedChapters": 71450,
@@ -16521,6 +16521,101 @@
         "samples": [
           "https://jkanime.net/kami-tachi-ni-hirowareta-otoko/1/",
           "https://jkanime.net/kami-tachi-ni-hirowareta-otoko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/munou-na-nana/",
+        "title": "Munou na Nana",
+        "samples": [
+          "https://jkanime.net/munou-na-nana/1/",
+          "https://jkanime.net/munou-na-nana/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/iwa-kakeru-sport-climbing-girls/",
+        "title": "Iwa Kakeru!: Sport Climbing Girls",
+        "samples": [
+          "https://jkanime.net/iwa-kakeru-sport-climbing-girls/1/",
+          "https://jkanime.net/iwa-kakeru-sport-climbing-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jujutsu-kaisen-tv/",
+        "title": "Jujutsu Kaisen (TV)",
+        "samples": [
+          "https://jkanime.net/jujutsu-kaisen-tv/1/",
+          "https://jkanime.net/jujutsu-kaisen-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tonikaku-kawaii/",
+        "title": "Tonikaku Kawaii",
+        "samples": [
+          "https://jkanime.net/tonikaku-kawaii/1/",
+          "https://jkanime.net/tonikaku-kawaii/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii/",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rail-romanesque/",
+        "title": "Rail Romanesque",
+        "samples": [
+          "https://jkanime.net/rail-romanesque/2/",
+          "https://jkanime.net/rail-romanesque/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inu-to-neko-docchi-mo-katteru-to-mainichi-tanoshii/",
+        "title": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii",
+        "samples": [
+          "https://jkanime.net/inu-to-neko-docchi-mo-katteru-to-mainichi-tanoshii/1/",
+          "https://jkanime.net/inu-to-neko-docchi-mo-katteru-to-mainichi-tanoshii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima/",
+        "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima",
+        "samples": [
+          "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima/1/",
+          "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi/",
+        "title": "Hanyou no Yashahime: Sengoku Otogizoushi",
+        "samples": [
+          "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi/1/",
+          "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-live-nijigasaki-gakuen-school-idol-doukoukai/",
+        "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai",
+        "samples": [
+          "https://jkanime.net/love-live-nijigasaki-gakuen-school-idol-doukoukai/1/",
+          "https://jkanime.net/love-live-nijigasaki-gakuen-school-idol-doukoukai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senyoku-no-sigrdrifa/",
+        "title": "Senyoku no Sigrdrifa",
+        "samples": [
+          "https://jkanime.net/senyoku-no-sigrdrifa/1/",
+          "https://jkanime.net/senyoku-no-sigrdrifa/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-quest-dai-no-daibouken-2020/",
+        "title": "Dragon Quest: Dai no Daibouken (2020)",
+        "samples": [
+          "https://jkanime.net/dragon-quest-dai-no-daibouken-2020/1/",
+          "https://jkanime.net/dragon-quest-dai-no-daibouken-2020/10/"
         ]
       },
       {
@@ -59628,13 +59723,15 @@
     {
       "series": "https://jkanime.net/munou-na-nana/",
       "title": "Munou na Nana",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -59647,13 +59744,15 @@
     {
       "series": "https://jkanime.net/iwa-kakeru-sport-climbing-girls/",
       "title": "Iwa Kakeru!: Sport Climbing Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -59666,13 +59765,15 @@
     {
       "series": "https://jkanime.net/jujutsu-kaisen-tv/",
       "title": "Jujutsu Kaisen (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -59706,38 +59807,42 @@
     {
       "series": "https://jkanime.net/tonikaku-kawaii/",
       "title": "Tonikaku Kawaii",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 5,
+        "streamwish": 5,
+        "vidhide": 5,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii/",
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -59745,7 +59850,8 @@
       "series": "https://jkanime.net/rail-romanesque/",
       "title": "Rail Romanesque",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 10,
@@ -59755,7 +59861,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -59768,13 +59874,15 @@
     {
       "series": "https://jkanime.net/inu-to-neko-docchi-mo-katteru-to-mainichi-tanoshii/",
       "title": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -59787,13 +59895,15 @@
     {
       "series": "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima/",
       "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -59807,13 +59917,15 @@
     {
       "series": "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi/",
       "title": "Hanyou no Yashahime: Sengoku Otogizoushi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -59826,13 +59938,15 @@
     {
       "series": "https://jkanime.net/love-live-nijigasaki-gakuen-school-idol-doukoukai/",
       "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -59845,13 +59959,15 @@
     {
       "series": "https://jkanime.net/senyoku-no-sigrdrifa/",
       "title": "Senyoku no Sigrdrifa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -59864,13 +59980,15 @@
     {
       "series": "https://jkanime.net/dragon-quest-dai-no-daibouken-2020/",
       "title": "Dragon Quest: Dai no Daibouken (2020)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 100,
       "stored": 100,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 53,
       "families": {
         "mega": 100,
         "streamwish": 100,
