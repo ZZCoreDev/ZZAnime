@@ -22,7 +22,7 @@ def record_recent(state,recent,instant):
 def command(args,**kw):return subprocess.run(args,check=True,capture_output=True,text=True,encoding='utf-8',**kw).stdout
 def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
- command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java')])
+ command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java'),*([str(W/'VoeOverlayAudit.java')] if modern else [])])
  return str(runtime)+os.pathsep+cp
 def build(state,approved,now,allow_voe=False):
  rows={}

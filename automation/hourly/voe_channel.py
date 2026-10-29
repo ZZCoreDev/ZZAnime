@@ -65,5 +65,11 @@ def proof(publish=False):
     side=load(folder/'voe-state')
     if any(not side['episodes'].get(u) for u in PROOF):raise ValueError('VOE proof incomplete')
     if publish:subprocess.run([os.sys.executable,str(Path(__file__).with_name('run.py')),'--publish'],check=True)
-    report={'state':'complete','captured':count,'twoSeries':True,'legacyUnchanged':True,'published':publish,'physicalAndroidPlayback':False,'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+    merged=None
+    if publish:
+        import tempfile
+        with tempfile.TemporaryDirectory() as temp:
+            cp=p.compile_java(Path(temp)/'classes',modern=True)
+            merged=json.loads(p.command(['java','-cp',cp,'tv.jkanime.web.VoeOverlayAudit',str(p.W/'public-key.der'),str(Path(temp)/'cache'),p.BASE]))
+    report={'state':'complete','captured':count,'twoSeries':True,'mergedClient':merged,'legacyUnchanged':True,'published':publish,'physicalAndroidPlayback':False,'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
     (folder/'voe-proof-status.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report))

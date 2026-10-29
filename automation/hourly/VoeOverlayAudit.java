@@ -1,0 +1,15 @@
+package tv.jkanime.web;
+import java.io.*;import java.nio.file.*;import java.util.*;import org.json.*;
+final class VoeOverlayAudit {
+ public static void main(String[] args)throws Exception{
+  byte[] key=Files.readAllBytes(Paths.get(args[0]));File folder=new File(args[1]);String base=args[2];
+  RemoteProviderCache legacy=new RemoteProviderCache(new File(folder,"legacy"),key,RemoteProviderCache.https(base));
+  RemoteProviderCache extra=new RemoteProviderCache(new File(folder,"extra"),key,RemoteProviderCache.https(base+"/voe"));legacy.refresh();extra.refresh();
+  ProviderBackupStore old=new ProviderBackupStore(legacy);ProviderBackupCatalog combined=new ProviderBackupCatalog(legacy,legacy,extra);
+  String[] urls={"https://jkanime.net/sasaki-to-pii-chan-season-2/4/","https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/4/"};
+  for(String url:urls){String parent=url.replaceAll("/[0-9]+/$","/");if(!old.prepare(parent)||!combined.prepare(parent))throw new AssertionError("Missing proof series");JSONArray before=old.options(url,ProviderBackupSample::approved),after=combined.options(url,ProviderBackupSample::approved);if(before.length()<1)throw new AssertionError("Legacy proof not present");HashSet<String> seen=new HashSet<>();boolean voe=false;for(int i=0;i<after.length();i++){JSONObject x=after.getJSONObject(i);if(!seen.add(x.getString("url")))throw new AssertionError("Duplicate option");voe|=x.getString("family").equals("voe");}if(!voe)throw new AssertionError("VOE absent");for(int i=0;i<before.length();i++)if(!seen.contains(before.getJSONObject(i).getString("url")))throw new AssertionError("Legacy lost");}
+  RemoteProviderCache bad=new RemoteProviderCache(new File(folder,"bad"),key,(p,l)->{byte[] b=RemoteProviderCache.https(base+"/voe").get(p,l);if(p.equals("channel.json"))b[b.length-4]^=1;return b;});boolean rejected=false;try{bad.refresh();}catch(Exception expected){rejected=true;}if(!rejected)throw new AssertionError("Invalid signature accepted");ProviderBackupCatalog resilient=new ProviderBackupCatalog(legacy,legacy,bad);String parent=urls[0].replaceAll("/[0-9]+/$","/");if(!resilient.prepare(parent)||resilient.options(urls[0],ProviderBackupSample::approved).length()<1)throw new AssertionError("Extra failure broke legacy");
+  RemoteProviderCache offline=new RemoteProviderCache(new File(folder,"extra"),key,(p,l)->{throw new IOException("Offline proof");});ProviderBackupCatalog warm=new ProviderBackupCatalog(legacy,legacy,offline);if(!warm.prepare(parent))throw new AssertionError("Cached extra lost");boolean cached=false;JSONArray options=warm.options(urls[0],ProviderBackupSample::approved);for(int i=0;i<options.length();i++)cached|=options.getJSONObject(i).getString("family").equals("voe");if(!cached)throw new AssertionError("Offline VOE lost");
+  System.out.println(new JSONObject().put("twoSeriesMerged",true).put("legacyOptionsRetained",true).put("duplicateOptions",0).put("badSignatureIsolated",true).put("offlineCacheRetained",true).put("physicalAndroidPlayback",false));
+ }
+}
