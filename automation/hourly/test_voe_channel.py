@@ -61,5 +61,10 @@ class VoeChannelTests(unittest.TestCase):
    with patch('voe_channel.load',side_effect=AssertionError('Full archive scan')):
     self.assertEqual(split(d,self.fixture(PROOF[1]))[1],1)
    self.assertEqual(len(load(Path(d)/'voe-state')['episodes']),2)
+ def test_real_renewal_updates_due_record_and_leaves_fresh_record_alone(self):
+  from archive_state import save
+  with tempfile.TemporaryDirectory() as d:
+   old=self.fixture(PROOF[0]);old['episodes'][PROOF[0]]['observedAt']=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=5.5)).isoformat();save(Path(d)/'voe-state',old)
+   fresh=self.fixture(PROOF[0]);self.assertEqual(split(d,fresh)[1],1);self.assertEqual(load(Path(d)/'voe-state')['episodes'][PROOF[0]]['observedAt'],fresh['episodes'][PROOF[0]]['observedAt']);self.assertEqual(split(d,old)[1],0);self.assertEqual(due_targets(d,{},time.time(),2),[])
 
 if __name__=='__main__':unittest.main()

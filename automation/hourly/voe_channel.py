@@ -4,6 +4,7 @@ import copy,datetime,gzip,hashlib,json,os,re,subprocess,time,urllib.request
 from archive_state import load,save,merge,stamp
 
 PROOF=['https://jkanime.net/sasaki-to-pii-chan-season-2/4/','https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/4/']
+LEAD_AGE=5*86400
 
 def load_parents(folder,parents):
     folder=Path(folder);meta=folder/'observations.json'
@@ -41,7 +42,7 @@ def split(folder,incoming):
         side=load_parents(Path(folder)/'voe-state',extra['listings'])
         for url,ep in list(extra['episodes'].items()):
             old=side['episodes'].get(url)
-            if old and now-stamp(old.get('observedAt'))<6*86400 and old.get('providers')==ep['providers']:extra['episodes'].pop(url)
+            if old and (stamp(old.get('observedAt'))>=stamp(ep.get('observedAt')) or now-stamp(old.get('observedAt'))<LEAD_AGE and old.get('providers')==ep['providers']):extra['episodes'].pop(url)
         count=len(extra['episodes'])
         if count:
             merge(side,extra);recent=side.setdefault('recent',{})
@@ -53,13 +54,13 @@ def split(folder,incoming):
 def fresh_urls(folder,now):
     meta=Path(folder)/'voe-state'/'observations.json'
     recent=json.loads(meta.read_bytes()).get('recent') if meta.exists() else None
-    if recent is not None:return [u for u,date in recent.items() if 0<=now-stamp(date)<6*86400]
+    if recent is not None:return [u for u,date in recent.items() if 0<=now-stamp(date)<LEAD_AGE]
     state=load(Path(folder)/'voe-state')
-    return [u for u,e in sorted(state['episodes'].items(),key=lambda r:stamp(r[1].get('observedAt')),reverse=True) if 0<=now-stamp(e.get('observedAt'))<6*86400][:500]
+    return [u for u,e in sorted(state['episodes'].items(),key=lambda r:stamp(r[1].get('observedAt')),reverse=True) if 0<=now-stamp(e.get('observedAt'))<LEAD_AGE][:500]
 
 def due_targets(folder,failures,now,limit):
     state=load(Path(folder)/'voe-state')
-    return [u for u,e in sorted(state['episodes'].items(),key=lambda r:stamp(r[1].get('observedAt'))) if now-stamp(e.get('observedAt'))>=5*86400 and failures.get(u,{}).get('retryAt',0)<=now][:limit]
+    return [u for u,e in sorted(state['episodes'].items(),key=lambda r:stamp(r[1].get('observedAt'))) if now-stamp(e.get('observedAt'))>=LEAD_AGE and failures.get(u,{}).get('retryAt',0)<=now][:limit]
 
 def repair_legacy(folder,original):
     """Undo unsupported-family writes by pre-upgrade jobs; keep both genuine observations."""
