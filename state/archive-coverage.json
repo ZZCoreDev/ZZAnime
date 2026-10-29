@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T15:43:34.696743+00:00",
+  "checkedAt": "2026-10-29T15:57:22.323338+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73523,
-  "storedChapters": 71648,
-  "missingChapters": 1875,
+  "storedChapters": 71650,
+  "missingChapters": 1873,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -103,8 +103,8 @@
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/13/",
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/14/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/14/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/15/"
         ]
       },
       {
@@ -2037,8 +2037,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/15/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/16/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/16/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/17/"
         ]
       },
       {
@@ -13674,6 +13674,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yuru-camp-movie/",
+        "title": "Yuru Camp△ Movie",
+        "samples": [
+          "https://jkanime.net/yuru-camp-movie/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
         "title": "Yuusha, Yamemasu: Kenshuu Ryokou wa Mokuteki wo Miushinau na",
         "samples": [
@@ -19474,6 +19481,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/youkoso-japari-park/",
+        "title": "Youkoso Japari Park",
+        "samples": [
+          "https://jkanime.net/youkoso-japari-park/1/",
+          "https://jkanime.net/youkoso-japari-park/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kitsune-no-koe/",
         "title": "Kitsune no Koe",
         "samples": [
@@ -21647,6 +21662,54 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dive/",
+        "title": "Dive!!",
+        "samples": [
+          "https://jkanime.net/dive/1/",
+          "https://jkanime.net/dive/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saiyuuki-reload-blast/",
+        "title": "Saiyuuki Reload Blast",
+        "samples": [
+          "https://jkanime.net/saiyuuki-reload-blast/1/",
+          "https://jkanime.net/saiyuuki-reload-blast/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/netsuzou-trap/",
+        "title": "Netsuzou TRap",
+        "samples": [
+          "https://jkanime.net/netsuzou-trap/1/",
+          "https://jkanime.net/netsuzou-trap/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nana-maru-san-batsu/",
+        "title": "Nana Maru San Batsu",
+        "samples": [
+          "https://jkanime.net/nana-maru-san-batsu/1/",
+          "https://jkanime.net/nana-maru-san-batsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aho-girl/",
+        "title": "Aho Girl",
+        "samples": [
+          "https://jkanime.net/aho-girl/1/",
+          "https://jkanime.net/aho-girl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsurezure-children/",
+        "title": "Tsurezure Children",
+        "samples": [
+          "https://jkanime.net/tsurezure-children/1/",
+          "https://jkanime.net/tsurezure-children/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/",
         "title": "Boku no Hero Academia: Training of the Dead",
         "samples": [
@@ -22328,6 +22391,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yowamushi-pedal-movie/",
+        "title": "Yowamushi Pedal Movie",
+        "samples": [
+          "https://jkanime.net/yowamushi-pedal-movie/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/",
         "title": "Tamayura: Sotsugyou Shashin Part 1 - Kizashi",
         "samples": [
@@ -22640,6 +22710,13 @@
         "samples": [
           "https://jkanime.net/hoozuki-no-reitetsu-ova/1/",
           "https://jkanime.net/hoozuki-no-reitetsu-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuru-yuri-nachuyachumi/",
+        "title": "Yuru Yuri Nachuyachumi!",
+        "samples": [
+          "https://jkanime.net/yuru-yuri-nachuyachumi/1/"
         ]
       },
       {
@@ -23130,6 +23207,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yuusha-ni-ova/",
+        "title": "Yuushibu OVA",
+        "samples": [
+          "https://jkanime.net/yuusha-ni-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fate-kaleid-liner-prisma-illya-2014/",
         "title": "Fate/kaleid liner Prisma☆Illya (2014)",
         "samples": [
@@ -23197,6 +23281,14 @@
         "title": "Wake Up, Girls! Shichinin no Idol",
         "samples": [
           "https://jkanime.net/wake-up-girls-shichinin-no-idol/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/youkai-watch/",
+        "title": "Youkai Watch",
+        "samples": [
+          "https://jkanime.net/youkai-watch/1/",
+          "https://jkanime.net/youkai-watch/10/"
         ]
       },
       {
@@ -23430,6 +23522,13 @@
         "title": "Fairy Tail x Rave",
         "samples": [
           "https://jkanime.net/fairy-tail-x-rave/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yowamushi-pedal-special-ride/",
+        "title": "Yowamushi Pedal: Special Ride",
+        "samples": [
+          "https://jkanime.net/yowamushi-pedal-special-ride/1/"
         ]
       },
       {
@@ -32726,9 +32825,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 15,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/13/",
         "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/14/",
         "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/15/"
       ],
@@ -32736,8 +32834,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 12,
-        "streamwish": 12,
+        "mp4upload": 13,
+        "streamwish": 13,
         "vidhide": 1
       },
       "playbackVerified": false
@@ -35085,7 +35183,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 12,
         "streamwish": 12
@@ -54664,7 +54762,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -57296,7 +57394,8 @@
       "title": "Yuru Camp△ Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -57305,7 +57404,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -74074,7 +74173,8 @@
       "series": "https://jkanime.net/youkoso-japari-park/",
       "title": "Youkoso Japari Park",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 7,
       "stored": 0,
@@ -74089,7 +74189,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -79029,9 +79129,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/15/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/16/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/17/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/18/",
@@ -79054,9 +79153,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 6,
-        "streamwish": 6,
-        "vidhide": 6
+        "mp4upload": 7,
+        "streamwish": 7,
+        "vidhide": 7
       },
       "playbackVerified": false
     },
@@ -80420,24 +80519,26 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mega": 8,
+        "mega": 2,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 8
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dive/",
       "title": "Dive!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -80450,13 +80551,15 @@
     {
       "series": "https://jkanime.net/saiyuuki-reload-blast/",
       "title": "Saiyuuki Reload Blast",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -80469,13 +80572,15 @@
     {
       "series": "https://jkanime.net/netsuzou-trap/",
       "title": "Netsuzou TRap",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -80488,13 +80593,15 @@
     {
       "series": "https://jkanime.net/nana-maru-san-batsu/",
       "title": "Nana Maru San Batsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -80507,13 +80614,15 @@
     {
       "series": "https://jkanime.net/aho-girl/",
       "title": "Aho Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -80526,13 +80635,15 @@
     {
       "series": "https://jkanime.net/tsurezure-children/",
       "title": "Tsurezure Children",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -89971,7 +90082,8 @@
       "title": "Yowamushi Pedal Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -89980,7 +90092,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -92816,7 +92928,8 @@
       "title": "Yuru Yuri Nachuyachumi!",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -92825,7 +92938,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -98429,7 +98542,8 @@
       "title": "Yuushibu OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -98438,7 +98552,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -99074,7 +99188,8 @@
       "series": "https://jkanime.net/youkai-watch/",
       "title": "Youkai Watch",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 37,
       "stored": 0,
@@ -99119,7 +99234,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -101277,7 +101392,8 @@
       "title": "Yowamushi Pedal: Special Ride",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -101286,7 +101402,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },

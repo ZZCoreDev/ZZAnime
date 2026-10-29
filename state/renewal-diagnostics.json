@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-10-29T15:43:34.696743+00:00",
-  "failedChapters": 22913,
-  "series": 2550,
-  "diagnosedSeries": 2550,
+  "checkedAt": "2026-10-29T15:57:22.323338+00:00",
+  "failedChapters": 22984,
+  "series": 2563,
+  "diagnosedSeries": 2563,
   "pendingSeries": 0,
   "causes": {
-    "flv:address-not-found": 810,
-    "jk:access-denied": 2550,
-    "tio:address-not-found": 1317,
-    "tio:observed-options": 69,
-    "flv:no-approved-provider": 1576,
-    "tio:no-approved-provider": 1134,
+    "flv:address-not-found": 814,
+    "jk:access-denied": 2563,
+    "tio:address-not-found": 1321,
+    "tio:observed-options": 70,
+    "flv:no-approved-provider": 1584,
+    "tio:no-approved-provider": 1142,
     "flv:identity-mismatch": 84,
     "tio:unlisted-episode": 8,
     "tio:identity-mismatch": 22,
@@ -18,20 +18,20 @@
     "flv:source-http": 8
   },
   "knownFinalReasons": {
-    "Source HTTP 404": 6393,
-    "Source did not return a verified observation": 326,
+    "Source HTTP 404": 6398,
+    "Source did not return a verified observation": 328,
     "ValueError: VOE provider scope": 11,
-    "No existing approved provider": 15154,
+    "No existing approved provider": 15215,
     "Ambiguous AnimeFLV listing identity": 713,
     "ValueError: No approved observations; previous channel retained": 34,
     "ValueError: VOE observation date": 6,
     "Source HTTP 302": 135,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
     "ValueError": 52,
-    "TimeoutError: The read operation timed out": 13,
+    "TimeoutError: The read operation timed out": 15,
     "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>": 2,
     "Source HTTP 522": 15,
-    "Source HTTP 520": 8,
+    "Source HTTP 520": 9,
     "Ambiguous AnimeFLV chapter identity": 24,
     "Missing observed eps": 25
   },
@@ -2640,15 +2640,13 @@
         "https://jkanime.net/bai-ri-cheng-wang/1/",
         "https://jkanime.net/bai-ri-cheng-wang/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/bai-ri-cheng-wang/5/",
+      "diagnosedSample": "https://jkanime.net/bai-ri-cheng-wang/6/",
       "sources": {
         "jk": {
           "stage": "listing",
           "status": 403,
           "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793288376429
+          "message": "Source HTTP 403"
         },
         "tio": {
           "stage": "detail",
@@ -5042,6 +5040,38 @@
       "nextRetryAt": 1793264325.3598118
     },
     {
+      "series": "https://jkanime.net/shoukoku-no-altair/",
+      "failedChapters": 24,
+      "samples": [
+        "https://jkanime.net/shoukoku-no-altair/1/",
+        "https://jkanime.net/shoukoku-no-altair/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/shoukoku-no-altair/24/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793289619.2545516
+    },
+    {
       "series": "https://jkanime.net/sword-art-online-alicization/",
       "failedChapters": 24,
       "samples": [
@@ -5398,38 +5428,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793215886.1152377
-    },
-    {
-      "series": "https://jkanime.net/shoukoku-no-altair/",
-      "failedChapters": 24,
-      "samples": [
-        "https://jkanime.net/shoukoku-no-altair/1/",
-        "https://jkanime.net/shoukoku-no-altair/2/"
-      ],
-      "diagnosedSample": "https://jkanime.net/shoukoku-no-altair/24/",
-      "sources": {
-        "jk": {
-          "stage": "listing",
-          "status": 403,
-          "cause": "access-denied",
-          "message": "Source HTTP 403"
-        },
-        "tio": {
-          "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider"
-        },
-        "flv": {
-          "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider"
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793289619.2545516
     },
     {
       "series": "https://jkanime.net/ballroom-e-youkoso/",
@@ -8628,6 +8626,40 @@
       "nextRetryAt": 1793179278.8364198
     },
     {
+      "series": "https://jkanime.net/yuan-long-3rd-season/",
+      "failedChapters": 16,
+      "samples": [
+        "https://jkanime.net/yuan-long-3rd-season/1/",
+        "https://jkanime.net/yuan-long-3rd-season/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/yuan-long-3rd-season/12/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793289127773
+        },
+        "tio": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793219215.160435
+    },
+    {
       "series": "https://jkanime.net/zhen-hun-jie-3rd-season/",
       "failedChapters": 16,
       "samples": [
@@ -9187,17 +9219,17 @@
       "diagnosedSample": "https://jkanime.net/watashi-no-shiawase-na-kekkon/15/",
       "sources": {
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793287806946
+          "retryAt": 1793287806946,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
+          "cause": "observed-options",
           "stage": "complete",
-          "status": 200,
-          "cause": "observed-options"
+          "status": 200
         }
       },
       "sampleOnly": true,
@@ -9347,44 +9379,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793212491.5300503
-    },
-    {
-      "series": "https://jkanime.net/yuan-long-3rd-season/",
-      "failedChapters": 15,
-      "samples": [
-        "https://jkanime.net/yuan-long-3rd-season/1/",
-        "https://jkanime.net/yuan-long-3rd-season/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/yuan-long-3rd-season/16/",
-      "sources": {
-        "flv": {
-          "cachedFailure": true,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "retryAt": 1793217717972,
-          "stage": "detail",
-          "status": 404
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793217476670,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cachedFailure": true,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "retryAt": 1793217717436,
-          "stage": "detail",
-          "status": 404
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793219215.160435
     },
     {
       "series": "https://jkanime.net/anhe-zhuan-part-2/",
@@ -11912,6 +11906,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793217204.9545035
+    },
+    {
+      "series": "https://jkanime.net/jikan-no-shihaisha/",
+      "failedChapters": 13,
+      "samples": [
+        "https://jkanime.net/jikan-no-shihaisha/1/",
+        "https://jkanime.net/jikan-no-shihaisha/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/jikan-no-shihaisha/13/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793287806946,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793289555.6338336
     },
     {
       "series": "https://jkanime.net/kageki-shoujo/",
@@ -15034,40 +15062,6 @@
       "nextRetryAt": 1793220930.2824805
     },
     {
-      "series": "https://jkanime.net/jikan-no-shihaisha/",
-      "failedChapters": 13,
-      "samples": [
-        "https://jkanime.net/jikan-no-shihaisha/1/",
-        "https://jkanime.net/jikan-no-shihaisha/2/"
-      ],
-      "diagnosedSample": "https://jkanime.net/jikan-no-shihaisha/13/",
-      "sources": {
-        "jk": {
-          "stage": "listing",
-          "status": 403,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793287806946
-        },
-        "tio": {
-          "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider"
-        },
-        "flv": {
-          "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider"
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793289555.6338336
-    },
-    {
       "series": "https://jkanime.net/0-saiji-start-dash-monogatari-season-2/",
       "failedChapters": 12,
       "samples": [
@@ -17730,15 +17724,13 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/",
+      "diagnosedSample": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/6/",
       "sources": {
         "jk": {
           "stage": "listing",
           "status": 403,
           "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793287854240
+          "message": "Source HTTP 403"
         },
         "tio": {
           "stage": "detail",
@@ -17755,7 +17747,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279675.968092
+      "nextRetryAt": 1793280568.1600616
     },
     {
       "series": "https://jkanime.net/buddy-daddies/",
@@ -22641,7 +22633,7 @@
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/5/",
+      "diagnosedSample": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/6/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -22649,7 +22641,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793287879632
+          "retryAt": 1793288851608
         },
         "tio": {
           "stage": "detail",
@@ -22666,7 +22658,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279686.3370836
+      "nextRetryAt": 1793280582.9844916
     },
     {
       "series": "https://jkanime.net/hortensia-saga-tv/",
@@ -26147,7 +26139,7 @@
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/1/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/5/",
+      "diagnosedSample": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/6/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -26155,7 +26147,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793287879632
+          "retryAt": 1793289016773
         },
         "tio": {
           "stage": "detail",
@@ -26172,7 +26164,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279704.5342064
+      "nextRetryAt": 1793280593.2804496
     },
     {
       "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo/",
@@ -33146,32 +33138,32 @@
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/1/",
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/5/",
+      "diagnosedSample": "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/6/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793257538953,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793289016773
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279719.2961726
+      "nextRetryAt": 1793280609.7431774
     },
     {
       "series": "https://jkanime.net/saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu/",
@@ -35897,32 +35889,32 @@
         "https://jkanime.net/super-no-ura-de-yani-suu-futari/13/",
         "https://jkanime.net/super-no-ura-de-yani-suu-futari/14/"
       ],
-      "diagnosedSample": "https://jkanime.net/super-no-ura-de-yani-suu-futari/15/",
+      "diagnosedSample": "https://jkanime.net/super-no-ura-de-yani-suu-futari/16/",
       "sources": {
-        "flv": {
-          "cause": "identity-mismatch",
-          "message": "Ambiguous AnimeFLV listing identity",
-          "stage": "listing",
-          "status": null
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793286090130,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793289225933
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "episode",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "listing",
+          "status": null,
+          "cause": "identity-mismatch",
+          "message": "Ambiguous AnimeFLV listing identity"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279133.196634
+      "nextRetryAt": 1793279752.4985304
     },
     {
       "series": "https://jkanime.net/sword-art-online-alicization-war-of-underworld/",
@@ -36515,32 +36507,32 @@
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/1/",
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/3/",
+      "diagnosedSample": "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/4/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793286128579,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793289289571
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279135.1999006
+      "nextRetryAt": 1793279754.9451964
     },
     {
       "series": "https://jkanime.net/tensai-ouji-no-akaji-kokka-saisei-jutsu/",
@@ -38288,7 +38280,7 @@
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/1/",
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/ushiro-no-shoumen-kamui-san/5/",
+      "diagnosedSample": "https://jkanime.net/ushiro-no-shoumen-kamui-san/6/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -38296,7 +38288,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793288125008
+          "retryAt": 1793289115891
         },
         "tio": {
           "stage": "detail",
@@ -38313,7 +38305,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279733.811894
+      "nextRetryAt": 1793280625.0173893
     },
     {
       "series": "https://jkanime.net/uzaki-chan-wa-asobitai/",
@@ -38454,29 +38446,29 @@
       "failedChapters": 12,
       "samples": [
         "https://jkanime.net/vatican-kiseki-chousakan/1/",
-        "https://jkanime.net/vatican-kiseki-chousakan/2/"
+        "https://jkanime.net/vatican-kiseki-chousakan/10/"
       ],
       "diagnosedSample": "https://jkanime.net/vatican-kiseki-chousakan/12/",
       "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793287745224
+          "retryAt": 1793287745224,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "parse",
-          "status": null,
           "cause": "no-approved-provider",
-          "message": "No independent approved provider"
-        },
-        "flv": {
+          "message": "No independent approved provider",
           "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider"
+          "status": null
         }
       },
       "sampleOnly": true,
@@ -39610,7 +39602,7 @@
         "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/1/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/",
+      "diagnosedSample": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/6/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -39618,7 +39610,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793287806946
+          "retryAt": 1793288789332
         },
         "tio": {
           "stage": "detail",
@@ -39635,7 +39627,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279672.576645
+      "nextRetryAt": 1793280549.6642148
     },
     {
       "series": "https://jkanime.net/yoru-no-kurage-wa-oyogenai/",
@@ -40500,6 +40492,172 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793224174.0872798
+    },
+    {
+      "series": "https://jkanime.net/dive/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/dive/1/",
+        "https://jkanime.net/dive/2/"
+      ],
+      "diagnosedSample": "https://jkanime.net/dive/12/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793288794080
+        },
+        "tio": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290544.4831493
+    },
+    {
+      "series": "https://jkanime.net/saiyuuki-reload-blast/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/saiyuuki-reload-blast/1/",
+        "https://jkanime.net/saiyuuki-reload-blast/2/"
+      ],
+      "diagnosedSample": "https://jkanime.net/saiyuuki-reload-blast/12/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793288859965
+        },
+        "tio": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290587.114064
+    },
+    {
+      "series": "https://jkanime.net/netsuzou-trap/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/netsuzou-trap/1/",
+        "https://jkanime.net/netsuzou-trap/2/"
+      ],
+      "diagnosedSample": "https://jkanime.net/netsuzou-trap/12/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793289032821
+        },
+        "tio": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290755.7324102
+    },
+    {
+      "series": "https://jkanime.net/nana-maru-san-batsu/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/nana-maru-san-batsu/1/",
+        "https://jkanime.net/nana-maru-san-batsu/2/"
+      ],
+      "diagnosedSample": "https://jkanime.net/nana-maru-san-batsu/12/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403"
+        },
+        "tio": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290855.3638089
+    },
+    {
+      "series": "https://jkanime.net/aho-girl/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/aho-girl/1/",
+        "https://jkanime.net/aho-girl/2/"
+      ],
+      "diagnosedSample": "https://jkanime.net/aho-girl/12/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403"
+        },
+        "tio": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290987.3928304
     },
     {
       "series": "https://jkanime.net/0-saiji-start-dash-monogatari/",
@@ -47158,15 +47316,13 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/10/",
         "https://jkanime.net/cyberpunk-edgerunners-2/3/"
       ],
-      "diagnosedSample": "https://jkanime.net/cyberpunk-edgerunners-2/7/",
+      "diagnosedSample": "https://jkanime.net/cyberpunk-edgerunners-2/8/",
       "sources": {
         "jk": {
           "stage": "listing",
           "status": 403,
           "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793287745224
+          "message": "Source HTTP 403"
         },
         "tio": {
           "stage": "complete",
@@ -47176,7 +47332,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279666.745076
+      "nextRetryAt": 1793280517.0811458
     },
     {
       "series": "https://jkanime.net/fangkai-nage-nuwu/",
@@ -48599,7 +48755,7 @@
         "https://jkanime.net/jiyi-guanli-ju-2026/1/",
         "https://jkanime.net/jiyi-guanli-ju-2026/2/"
       ],
-      "diagnosedSample": "https://jkanime.net/jiyi-guanli-ju-2026/5/",
+      "diagnosedSample": "https://jkanime.net/jiyi-guanli-ju-2026/6/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -48607,7 +48763,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793287745224
+          "retryAt": 1793288789332
         },
         "tio": {
           "stage": "detail",
@@ -48624,7 +48780,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793279670.3288107
+      "nextRetryAt": 1793280533.9498627
     },
     {
       "series": "https://jkanime.net/kabukichou-sherlock/",
@@ -56900,6 +57056,38 @@
       "nextRetryAt": 1793235565.5752378
     },
     {
+      "series": "https://jkanime.net/konbini-kareshi/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/konbini-kareshi/1/",
+        "https://jkanime.net/konbini-kareshi/6/"
+      ],
+      "diagnosedSample": "https://jkanime.net/konbini-kareshi/6/",
+      "sources": {
+        "flv": {
+          "cause": "source-http",
+          "message": "Source HTTP 522",
+          "stage": "detail",
+          "status": 522
+        },
+        "jk": {
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290047.592584
+    },
+    {
       "series": "https://jkanime.net/leviathan/",
       "failedChapters": 2,
       "samples": [
@@ -58085,13 +58273,40 @@
       "nextRetryAt": 1793209766.6072242
     },
     {
-      "series": "https://jkanime.net/konbini-kareshi/",
+      "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/konbini-kareshi/1/",
-        "https://jkanime.net/konbini-kareshi/6/"
+        "https://jkanime.net/yoroi-shin-den-samurai-troopers/13/",
+        "https://jkanime.net/yoroi-shin-den-samurai-troopers/14/"
       ],
-      "diagnosedSample": "https://jkanime.net/konbini-kareshi/6/",
+      "diagnosedSample": "https://jkanime.net/yoroi-shin-den-samurai-troopers/14/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793288812691
+        },
+        "tio": {
+          "stage": "complete",
+          "status": 200,
+          "cause": "observed-options"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793289614.5773408
+    },
+    {
+      "series": "https://jkanime.net/tsurezure-children/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/tsurezure-children/1/",
+        "https://jkanime.net/tsurezure-children/2/"
+      ],
+      "diagnosedSample": "https://jkanime.net/tsurezure-children/2/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -58106,15 +58321,15 @@
           "message": "No independent approved provider"
         },
         "flv": {
-          "stage": "detail",
-          "status": 522,
-          "cause": "source-http",
-          "message": "Source HTTP 522"
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793290047.592584
+      "nextRetryAt": 1793291129.8960278
     },
     {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
@@ -85643,6 +85858,164 @@
       "nextRetryAt": 1793306495.8977504
     },
     {
+      "series": "https://jkanime.net/youjo-senki-movie-manner-eizou/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/youjo-senki-movie-manner-eizou/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/youjo-senki-movie-manner-eizou/1/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793287854240,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793289634.9468522
+    },
+    {
+      "series": "https://jkanime.net/youjo-senki-movie/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/youjo-senki-movie/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/youjo-senki-movie/1/",
+      "sources": {
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793287872691,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "observed-options",
+          "stage": "complete",
+          "status": 200
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793289653.9934993
+    },
+    {
+      "series": "https://jkanime.net/youjo-senki-senkyou-houkoku/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/youjo-senki-senkyou-houkoku/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/youjo-senki-senkyou-houkoku/1/",
+      "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793288125008,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793289873.1434538
+    },
+    {
+      "series": "https://jkanime.net/youjuu-toshi/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/youjuu-toshi/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/youjuu-toshi/1/",
+      "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793288240797,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290023.6288958
+    },
+    {
+      "series": "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/1/",
+      "sources": {
+        "flv": {
+          "cause": "source-http",
+          "message": "Source HTTP 520",
+          "stage": "detail",
+          "status": 520
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793288386911,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290197.2952826
+    },
+    {
       "series": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv/",
       "failedChapters": 1,
       "samples": [
@@ -85867,12 +86240,78 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers/",
+      "series": "https://jkanime.net/youkai-watch/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/yoroi-shin-den-samurai-troopers/13/"
+        "https://jkanime.net/youkai-watch/1/"
       ],
-      "diagnosedSample": "https://jkanime.net/yoroi-shin-den-samurai-troopers/13/",
+      "diagnosedSample": "https://jkanime.net/youkai-watch/1/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793288794080
+        },
+        "tio": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290572.464324
+    },
+    {
+      "series": "https://jkanime.net/youkoso-japari-park/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/youkoso-japari-park/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/youkoso-japari-park/1/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793288812691
+        },
+        "tio": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290599.4656954
+    },
+    {
+      "series": "https://jkanime.net/yowamushi-pedal-movie/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yowamushi-pedal-movie/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/yowamushi-pedal-movie/1/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -85881,36 +86320,10 @@
           "message": "Source HTTP 403"
         },
         "tio": {
-          "stage": "complete",
-          "status": 200,
-          "cause": "observed-options"
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793289614.5773408
-    },
-    {
-      "series": "https://jkanime.net/youjo-senki-movie-manner-eizou/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/youjo-senki-movie-manner-eizou/1/"
-      ],
-      "diagnosedSample": "https://jkanime.net/youjo-senki-movie-manner-eizou/1/",
-      "sources": {
-        "jk": {
-          "stage": "listing",
-          "status": 403,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793287854240
-        },
-        "tio": {
-          "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
         },
         "flv": {
           "stage": "parse",
@@ -85921,15 +86334,15 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793289634.9468522
+      "nextRetryAt": 1793290665.4217489
     },
     {
-      "series": "https://jkanime.net/youjo-senki-movie/",
+      "series": "https://jkanime.net/yowamushi-pedal-special-ride/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/youjo-senki-movie/1/"
+        "https://jkanime.net/yowamushi-pedal-special-ride/1/"
       ],
-      "diagnosedSample": "https://jkanime.net/youjo-senki-movie/1/",
+      "diagnosedSample": "https://jkanime.net/yowamushi-pedal-special-ride/1/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -85937,7 +86350,40 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793287872691
+          "retryAt": 1793289028286
+        },
+        "tio": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793290772.3118293
+    },
+    {
+      "series": "https://jkanime.net/yuru-camp-movie/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuru-camp-movie/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/yuru-camp-movie/1/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793289230586
         },
         "tio": {
           "stage": "complete",
@@ -85947,15 +86393,15 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793289653.9934993
+      "nextRetryAt": 1793290974.2025275
     },
     {
-      "series": "https://jkanime.net/youjo-senki-senkyou-houkoku/",
+      "series": "https://jkanime.net/yuru-yuri-nachuyachumi/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/youjo-senki-senkyou-houkoku/1/"
+        "https://jkanime.net/yuru-yuri-nachuyachumi/1/"
       ],
-      "diagnosedSample": "https://jkanime.net/youjo-senki-senkyou-houkoku/1/",
+      "diagnosedSample": "https://jkanime.net/yuru-yuri-nachuyachumi/1/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -85963,7 +86409,40 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793288125008
+          "retryAt": 1793289236980
+        },
+        "tio": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793291013.7345388
+    },
+    {
+      "series": "https://jkanime.net/yuusha-ni-ova/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuusha-ni-ova/1/"
+      ],
+      "diagnosedSample": "https://jkanime.net/yuusha-ni-ova/1/",
+      "sources": {
+        "jk": {
+          "stage": "listing",
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "cachedFailure": true,
+          "retryAt": 1793289322975
         },
         "tio": {
           "stage": "detail",
@@ -85980,73 +86459,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793289873.1434538
-    },
-    {
-      "series": "https://jkanime.net/youjuu-toshi/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/youjuu-toshi/1/"
-      ],
-      "diagnosedSample": "https://jkanime.net/youjuu-toshi/1/",
-      "sources": {
-        "jk": {
-          "stage": "listing",
-          "status": 403,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793288240797
-        },
-        "tio": {
-          "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
-          "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793290023.6288958
-    },
-    {
-      "series": "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/1/"
-      ],
-      "diagnosedSample": "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/1/",
-      "sources": {
-        "jk": {
-          "stage": "listing",
-          "status": 403,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793288386911
-        },
-        "tio": {
-          "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
-          "stage": "detail",
-          "status": 520,
-          "cause": "source-http",
-          "message": "Source HTTP 520"
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793290197.2952826
+      "nextRetryAt": 1793291066.6160965
     }
   ]
 }
