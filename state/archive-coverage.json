@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T20:30:16.314705+00:00",
+  "checkedAt": "2026-10-29T20:44:27.042885+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73531,
-  "storedChapters": 71702,
-  "missingChapters": 1829,
+  "storedChapters": 71704,
+  "missingChapters": 1827,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2748,13 +2748,6 @@
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
           "https://jkanime.net/wakabagirl-onsen-tsukaritai/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/monster-strike/",
-        "title": "Monster Strike",
-        "samples": [
-          "https://jkanime.net/monster-strike/52/"
         ]
       },
       {
@@ -24798,7 +24791,104 @@
         "series": "https://jkanime.net/monster-strike/",
         "title": "Monster Strike",
         "samples": [
-          "https://jkanime.net/monster-strike/52/"
+          "https://jkanime.net/monster-strike/24/",
+          "https://jkanime.net/monster-strike/25/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gochuumon-wa-usagi-desu-ka-2/",
+        "title": "Gochuumon wa Usagi desu ka??",
+        "samples": [
+          "https://jkanime.net/gochuumon-wa-usagi-desu-ka-2/1/",
+          "https://jkanime.net/gochuumon-wa-usagi-desu-ka-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/owari-no-seraph-nagoya-kessen-hen/",
+        "title": "Owari no Seraph: Nagoya Kessen-hen",
+        "samples": [
+          "https://jkanime.net/owari-no-seraph-nagoya-kessen-hen/1/",
+          "https://jkanime.net/owari-no-seraph-nagoya-kessen-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/valkyrie-drive-mermaid/",
+        "title": "Valkyrie Drive: Mermaid",
+        "samples": [
+          "https://jkanime.net/valkyrie-drive-mermaid/1/",
+          "https://jkanime.net/valkyrie-drive-mermaid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/garo-guren-no-tsuki/",
+        "title": "Garo: Guren no Tsuki",
+        "samples": [
+          "https://jkanime.net/garo-guren-no-tsuki/1/",
+          "https://jkanime.net/garo-guren-no-tsuki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinmai-maou-no-testament-burst/",
+        "title": "Shinmai Maou no Testament Burst",
+        "samples": [
+          "https://jkanime.net/shinmai-maou-no-testament-burst/1/",
+          "https://jkanime.net/shinmai-maou-no-testament-burst/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/subete-ga-f-ni-naru-the-perfect-insider/",
+        "title": "Subete ga F ni Naru: The Perfect Insider",
+        "samples": [
+          "https://jkanime.net/subete-ga-f-ni-naru-the-perfect-insider/1/",
+          "https://jkanime.net/subete-ga-f-ni-naru-the-perfect-insider/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru/",
+        "title": "Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru",
+        "samples": [
+          "https://jkanime.net/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru/1/",
+          "https://jkanime.net/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dance-with-devils/",
+        "title": "Dance with Devils",
+        "samples": [
+          "https://jkanime.net/dance-with-devils/1/",
+          "https://jkanime.net/dance-with-devils/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/",
+        "title": "Shomin Sample",
+        "samples": [
+          "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/1/",
+          "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taimadou-gakuen-35-shiken-shoutai/",
+        "title": "Taimadou Gakuen 35 Shiken Shoutai",
+        "samples": [
+          "https://jkanime.net/taimadou-gakuen-35-shiken-shoutai/1/",
+          "https://jkanime.net/taimadou-gakuen-35-shiken-shoutai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hidan-no-aria-aa/",
+        "title": "Hidan no Aria AA",
+        "samples": [
+          "https://jkanime.net/hidan-no-aria-aa/1/",
+          "https://jkanime.net/hidan-no-aria-aa/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hokuto-no-ken-ichigo-aji/",
+        "title": "DD Hokuto II + Hokuto no Ken: Ichigo Aji",
+        "samples": [
+          "https://jkanime.net/hokuto-no-ken-ichigo-aji/1/",
+          "https://jkanime.net/hokuto-no-ken-ichigo-aji/10/"
         ]
       },
       {
@@ -24809,11 +24899,51 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hantsu-x-trash/",
+        "title": "Hantsu x Trash",
+        "samples": [
+          "https://jkanime.net/hantsu-x-trash/1/",
+          "https://jkanime.net/hantsu-x-trash/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu-6/",
+        "title": "Teekyuu 6",
+        "samples": [
+          "https://jkanime.net/teekyuu-6/1/",
+          "https://jkanime.net/teekyuu-6/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-school-star-musical/",
+        "title": "High School Star Musical",
+        "samples": [
+          "https://jkanime.net/high-school-star-musical/1/",
+          "https://jkanime.net/high-school-star-musical/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuru-yuri-sanhai/",
+        "title": "Yuru Yuri San☆Hai!",
+        "samples": [
+          "https://jkanime.net/yuru-yuri-sanhai/1/",
+          "https://jkanime.net/yuru-yuri-sanhai/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/peeping-life-tv-season-1/",
         "title": "Peeping Life TV: Season 1??",
         "samples": [
           "https://jkanime.net/peeping-life-tv-season-1/1/",
           "https://jkanime.net/peeping-life-tv-season-1/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/osomatsu-san/",
+        "title": "Osomatsu-san",
+        "samples": [
+          "https://jkanime.net/osomatsu-san/10/",
+          "https://jkanime.net/osomatsu-san/11/"
         ]
       },
       {
@@ -28261,6 +28391,7 @@
         "series": "https://jkanime.net/you-shou-yan-6th-season/",
         "title": "You Shou Yan 6th Season",
         "samples": [
+          "https://jkanime.net/you-shou-yan-6th-season/10/",
           "https://jkanime.net/you-shou-yan-6th-season/11/"
         ]
       },
@@ -74272,20 +74403,19 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
         "https://jkanime.net/7-seeds/16/",
         "https://jkanime.net/7-seeds/18/",
-        "https://jkanime.net/7-seeds/19/",
-        "https://jkanime.net/7-seeds/24/"
+        "https://jkanime.net/7-seeds/19/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "mp4upload": 18,
+        "mp4upload": 19,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -75552,7 +75682,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 2
       },
@@ -91907,7 +92037,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 32,
+      "renewalFailed": 33,
       "families": {
         "mega": 32,
         "streamwish": 47,
@@ -92037,19 +92167,16 @@
       "series": "https://jkanime.net/monster-strike/",
       "title": "Monster Strike",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 51,
-      "missing": [
-        "https://jkanime.net/monster-strike/52/"
-      ],
+      "stored": 52,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 28,
       "families": {
-        "mp4upload": 51,
+        "mp4upload": 52,
         "mega": 28,
         "streamwish": 28,
         "vidhide": 28,
@@ -92061,13 +92188,15 @@
     {
       "series": "https://jkanime.net/gochuumon-wa-usagi-desu-ka-2/",
       "title": "Gochuumon wa Usagi desu ka??",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92080,13 +92209,15 @@
     {
       "series": "https://jkanime.net/owari-no-seraph-nagoya-kessen-hen/",
       "title": "Owari no Seraph: Nagoya Kessen-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92099,13 +92230,15 @@
     {
       "series": "https://jkanime.net/valkyrie-drive-mermaid/",
       "title": "Valkyrie Drive: Mermaid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92134,13 +92267,15 @@
     {
       "series": "https://jkanime.net/garo-guren-no-tsuki/",
       "title": "Garo: Guren no Tsuki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -92153,13 +92288,15 @@
     {
       "series": "https://jkanime.net/shinmai-maou-no-testament-burst/",
       "title": "Shinmai Maou no Testament Burst",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -92172,13 +92309,15 @@
     {
       "series": "https://jkanime.net/subete-ga-f-ni-naru-the-perfect-insider/",
       "title": "Subete ga F ni Naru: The Perfect Insider",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -92208,13 +92347,15 @@
     {
       "series": "https://jkanime.net/sakurako-san-no-ashimoto-ni-wa-shitai-ga-umatteiru/",
       "title": "Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 9,
         "streamwish": 12,
@@ -92227,13 +92368,15 @@
     {
       "series": "https://jkanime.net/dance-with-devils/",
       "title": "Dance with Devils",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
@@ -92246,13 +92389,15 @@
     {
       "series": "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/",
       "title": "Shomin Sample",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92265,13 +92410,15 @@
     {
       "series": "https://jkanime.net/taimadou-gakuen-35-shiken-shoutai/",
       "title": "Taimadou Gakuen 35 Shiken Shoutai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92292,25 +92439,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 16,
+        "mp4upload": 15,
         "streamwish": 16,
-        "vidhide": 16,
-        "mixdrop": 16,
-        "mp4upload": 16,
-        "streamtape": 16
+        "vidhide": 15
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hidan-no-aria-aa/",
       "title": "Hidan no Aria AA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92323,13 +92469,15 @@
     {
       "series": "https://jkanime.net/hokuto-no-ken-ichigo-aji/",
       "title": "DD Hokuto II + Hokuto no Ken: Ichigo Aji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92350,11 +92498,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 13,
+        "vidhide": 13
       },
       "playbackVerified": false
     },
@@ -92380,13 +92526,15 @@
     {
       "series": "https://jkanime.net/hantsu-x-trash/",
       "title": "Hantsu x Trash",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -92399,13 +92547,15 @@
     {
       "series": "https://jkanime.net/teekyuu-6/",
       "title": "Teekyuu 6",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92418,13 +92568,15 @@
     {
       "series": "https://jkanime.net/high-school-star-musical/",
       "title": "High School Star Musical",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92445,24 +92597,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 26,
+        "mp4upload": 24,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 24
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yuru-yuri-sanhai/",
       "title": "Yuru Yuri San☆Hai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -92504,13 +92656,15 @@
     {
       "series": "https://jkanime.net/osomatsu-san/",
       "title": "Osomatsu-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -133774,7 +133928,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 5,
       "families": {
         "mega": 11,
         "streamwish": 11,
