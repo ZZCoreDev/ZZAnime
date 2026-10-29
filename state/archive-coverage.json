@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T17:18:14.622108+00:00",
+  "checkedAt": "2026-10-29T17:32:07.799389+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73525,
-  "storedChapters": 71661,
-  "missingChapters": 1864,
+  "storedChapters": 71664,
+  "missingChapters": 1861,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/23/"
         ]
       },
       {
@@ -2311,7 +2311,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/19/"
+          "https://jkanime.net/classicaloid/2/"
         ]
       },
       {
@@ -22418,6 +22418,109 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kemono-friends/",
+        "title": "Kemono Friends",
+        "samples": [
+          "https://jkanime.net/kemono-friends/1/",
+          "https://jkanime.net/kemono-friends/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gabriel-dropout/",
+        "title": "Gabriel DropOut",
+        "samples": [
+          "https://jkanime.net/gabriel-dropout/1/",
+          "https://jkanime.net/gabriel-dropout/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yowamushi-pedal-new-generation/",
+        "title": "Yowamushi Pedal: New Generation",
+        "samples": [
+          "https://jkanime.net/yowamushi-pedal-new-generation/1/",
+          "https://jkanime.net/yowamushi-pedal-new-generation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onihei/",
+        "title": "Onihei",
+        "samples": [
+          "https://jkanime.net/onihei/1/",
+          "https://jkanime.net/onihei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ldlive/",
+        "title": "elDLIVE",
+        "samples": [
+          "https://jkanime.net/ldlive/1/",
+          "https://jkanime.net/ldlive/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nyanko-days/",
+        "title": "Nyanko Days",
+        "samples": [
+          "https://jkanime.net/nyanko-days/1/",
+          "https://jkanime.net/nyanko-days/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tales-of-zestiria-the-x-2017/",
+        "title": "Tales of Zestiria the X (2017)",
+        "samples": [
+          "https://jkanime.net/tales-of-zestiria-the-x-2017/1/",
+          "https://jkanime.net/tales-of-zestiria-the-x-2017/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idol-jihen/",
+        "title": "Idol Jihen",
+        "samples": [
+          "https://jkanime.net/idol-jihen/1/",
+          "https://jkanime.net/idol-jihen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/little-witch-academia-tv/",
+        "title": "Little Witch Academia (TV)",
+        "samples": [
+          "https://jkanime.net/little-witch-academia-tv/1/",
+          "https://jkanime.net/little-witch-academia-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama-2017/",
+        "title": "Gintama (2017)",
+        "samples": [
+          "https://jkanime.net/gintama-2017/10/",
+          "https://jkanime.net/gintama-2017/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/demi-chan-wa-kataritai/",
+        "title": "Demi-chan wa Kataritai",
+        "samples": [
+          "https://jkanime.net/demi-chan-wa-kataritai/1/",
+          "https://jkanime.net/demi-chan-wa-kataritai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/reikenzan-eichi-e-no-shikaku/",
+        "title": "Reikenzan: Eichi e no Shikaku",
+        "samples": [
+          "https://jkanime.net/reikenzan-eichi-e-no-shikaku/12/",
+          "https://jkanime.net/reikenzan-eichi-e-no-shikaku/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fuuka/",
+        "title": "Fuuka",
+        "samples": [
+          "https://jkanime.net/fuuka/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/",
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
@@ -22478,7 +22581,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/19/"
+          "https://jkanime.net/classicaloid/2/"
         ]
       },
       {
@@ -55778,7 +55881,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -64389,11 +64492,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/cardfight-vanguard-overdress/13/",
         "https://jkanime.net/cardfight-vanguard-overdress/15/",
-        "https://jkanime.net/cardfight-vanguard-overdress/17/",
         "https://jkanime.net/cardfight-vanguard-overdress/18/",
         "https://jkanime.net/cardfight-vanguard-overdress/19/",
         "https://jkanime.net/cardfight-vanguard-overdress/20/",
@@ -64407,7 +64509,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "vidhide": 3,
         "mega": 2,
         "streamwish": 4,
@@ -79720,9 +79822,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/23/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/24/",
@@ -79738,9 +79839,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 13,
-        "streamwish": 13,
-        "vidhide": 13
+        "mp4upload": 14,
+        "streamwish": 14,
+        "vidhide": 14
       },
       "playbackVerified": false
     },
@@ -83331,13 +83432,15 @@
     {
       "series": "https://jkanime.net/kemono-friends/",
       "title": "Kemono Friends",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83350,13 +83453,15 @@
     {
       "series": "https://jkanime.net/gabriel-dropout/",
       "title": "Gabriel DropOut",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83386,13 +83491,15 @@
     {
       "series": "https://jkanime.net/yowamushi-pedal-new-generation/",
       "title": "Yowamushi Pedal: New Generation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -83405,13 +83512,15 @@
     {
       "series": "https://jkanime.net/onihei/",
       "title": "Onihei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -83424,13 +83533,15 @@
     {
       "series": "https://jkanime.net/ldlive/",
       "title": "elDLIVE",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83444,13 +83555,15 @@
     {
       "series": "https://jkanime.net/nyanko-days/",
       "title": "Nyanko Days",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83463,13 +83576,15 @@
     {
       "series": "https://jkanime.net/tales-of-zestiria-the-x-2017/",
       "title": "Tales of Zestiria the X (2017)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -83482,33 +83597,37 @@
     {
       "series": "https://jkanime.net/idol-jihen/",
       "title": "Idol Jihen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
+        "mixdrop": 3,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/little-witch-academia-tv/",
       "title": "Little Witch Academia (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -83521,32 +83640,36 @@
     {
       "series": "https://jkanime.net/gintama-2017/",
       "title": "Gintama (2017)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/demi-chan-wa-kataritai/",
       "title": "Demi-chan wa Kataritai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -83559,32 +83682,36 @@
     {
       "series": "https://jkanime.net/reikenzan-eichi-e-no-shikaku/",
       "title": "Reikenzan: Eichi e no Shikaku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/fuuka/",
       "title": "Fuuka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84276,10 +84403,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/19/",
         "https://jkanime.net/classicaloid/2/",
         "https://jkanime.net/classicaloid/20/",
         "https://jkanime.net/classicaloid/21/",
@@ -84299,9 +84425,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 11,
-        "streamwish": 11,
-        "vidhide": 11
+        "mp4upload": 12,
+        "streamwish": 12,
+        "vidhide": 12
       },
       "playbackVerified": false
     },
