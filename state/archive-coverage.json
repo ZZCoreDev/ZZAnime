@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T04:20:55.961860+00:00",
+  "checkedAt": "2026-10-29T04:34:11.668331+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73482,
   "storedChapters": 71450,
@@ -18012,7 +18012,55 @@
         "title": "Radiant 2nd Season",
         "samples": [
           "https://jkanime.net/radiant-2nd-season/1/",
-          "https://jkanime.net/radiant-2nd-season/2/"
+          "https://jkanime.net/radiant-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen/",
+        "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
+        "samples": [
+          "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen/1/",
+          "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo/",
+        "title": "Ore wo Suki nano wa Omae dake ka yo",
+        "samples": [
+          "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo/1/",
+          "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinchou-yuusha-kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru/",
+        "title": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+        "samples": [
+          "https://jkanime.net/shinchou-yuusha-kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru/1/",
+          "https://jkanime.net/shinchou-yuusha-kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hataage-kemono-michi/",
+        "title": "Hataage! Kemono Michi",
+        "samples": [
+          "https://jkanime.net/hataage-kemono-michi/1/",
+          "https://jkanime.net/hataage-kemono-michi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/houkago-saikoro-club/",
+        "title": "Houkago Saikoro Club",
+        "samples": [
+          "https://jkanime.net/houkago-saikoro-club/1/",
+          "https://jkanime.net/houkago-saikoro-club/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginga-eiyuu-densetsu-die-neue-these-seiran-1/",
+        "title": "Ginga Eiyuu Densetsu: Die Neue These - Seiran 1",
+        "samples": [
+          "https://jkanime.net/ginga-eiyuu-densetsu-die-neue-these-seiran-1/10/",
+          "https://jkanime.net/ginga-eiyuu-densetsu-die-neue-these-seiran-1/11/"
         ]
       },
       {
@@ -18030,6 +18078,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/another-world/",
+        "title": "Another World",
+        "samples": [
+          "https://jkanime.net/another-world/1/",
+          "https://jkanime.net/another-world/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-kurenai-densetsu/",
         "title": "Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu",
         "samples": [
@@ -18044,10 +18100,98 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mo-dao-zu-shi-xian-yun-pian/",
+        "title": "Mo Dao Zu Shi: Xian Yun Pian",
+        "samples": [
+          "https://jkanime.net/mo-dao-zu-shi-xian-yun-pian/2/",
+          "https://jkanime.net/mo-dao-zu-shi-xian-yun-pian/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kengan-ashura/",
+        "title": "Kengan Ashura",
+        "samples": [
+          "https://jkanime.net/kengan-ashura/1/",
+          "https://jkanime.net/kengan-ashura/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/try-knights/",
+        "title": "Try Knights",
+        "samples": [
+          "https://jkanime.net/try-knights/1/",
+          "https://jkanime.net/try-knights/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanhua-riji/",
+        "title": "Hanhua Riji",
+        "samples": [
+          "https://jkanime.net/hanhua-riji/1/",
+          "https://jkanime.net/hanhua-riji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bem/",
+        "title": "Bem",
+        "samples": [
+          "https://jkanime.net/bem/1/",
+          "https://jkanime.net/bem/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fatekaleid-liner-prismaillya-prismaphantasm/",
         "title": "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
         "samples": [
           "https://jkanime.net/fatekaleid-liner-prismaillya-prismaphantasm/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii/",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii/1/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka/",
+        "title": "Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki Desu ka?",
+        "samples": [
+          "https://jkanime.net/tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka/1/",
+          "https://jkanime.net/tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/machikado-mazoku/",
+        "title": "Machikado Mazoku",
+        "samples": [
+          "https://jkanime.net/machikado-mazoku/1/",
+          "https://jkanime.net/machikado-mazoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/given/",
+        "title": "Given",
+        "samples": [
+          "https://jkanime.net/given/1/",
+          "https://jkanime.net/given/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-kagaku-no-accelerator/",
+        "title": "Toaru Kagaku no Accelerator",
+        "samples": [
+          "https://jkanime.net/toaru-kagaku-no-accelerator/1/",
+          "https://jkanime.net/toaru-kagaku-no-accelerator/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-cheat-magician/",
+        "title": "Isekai Cheat Magician",
+        "samples": [
+          "https://jkanime.net/isekai-cheat-magician/1/",
+          "https://jkanime.net/isekai-cheat-magician/10/"
         ]
       },
       {
@@ -65438,7 +65582,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 21,
       "families": {
         "mega": 21,
         "streamwish": 21,
@@ -65459,24 +65603,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
+        "mp4upload": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen/",
       "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -65489,13 +65633,15 @@
     {
       "series": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo/",
       "title": "Ore wo Suki nano wa Omae dake ka yo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65508,13 +65654,15 @@
     {
       "series": "https://jkanime.net/shinchou-yuusha-kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru/",
       "title": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65527,13 +65675,15 @@
     {
       "series": "https://jkanime.net/hataage-kemono-michi/",
       "title": "Hataage! Kemono Michi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65546,38 +65696,42 @@
     {
       "series": "https://jkanime.net/houkago-saikoro-club/",
       "title": "Houkago Saikoro Club",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
+        "mega": 5,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ginga-eiyuu-densetsu-die-neue-these-seiran-1/",
       "title": "Ginga Eiyuu Densetsu: Die Neue These - Seiran 1",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -65640,19 +65794,21 @@
     {
       "series": "https://jkanime.net/another-world/",
       "title": "Another World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
         "mp4upload": 3,
-        "streamtape": 3
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -65781,19 +65937,21 @@
     {
       "series": "https://jkanime.net/mo-dao-zu-shi-xian-yun-pian/",
       "title": "Mo Dao Zu Shi: Xian Yun Pian",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 8,
         "streamwish": 8,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "mega": 6,
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -65815,13 +65973,15 @@
     {
       "series": "https://jkanime.net/kengan-ashura/",
       "title": "Kengan Ashura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65834,32 +65994,36 @@
     {
       "series": "https://jkanime.net/try-knights/",
       "title": "Try Knights",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hanhua-riji/",
       "title": "Hanhua Riji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65890,19 +66054,21 @@
     {
       "series": "https://jkanime.net/bem/",
       "title": "Bem",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 13,
+        "mp4upload": 13,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -65928,32 +66094,36 @@
     {
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii/",
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 11,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka/",
       "title": "Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki Desu ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65966,13 +66136,15 @@
     {
       "series": "https://jkanime.net/machikado-mazoku/",
       "title": "Machikado Mazoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -65985,13 +66157,15 @@
     {
       "series": "https://jkanime.net/given/",
       "title": "Given",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -66004,13 +66178,15 @@
     {
       "series": "https://jkanime.net/toaru-kagaku-no-accelerator/",
       "title": "Toaru Kagaku no Accelerator",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -66023,13 +66199,15 @@
     {
       "series": "https://jkanime.net/isekai-cheat-magician/",
       "title": "Isekai Cheat Magician",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 13,
         "streamwish": 13,
