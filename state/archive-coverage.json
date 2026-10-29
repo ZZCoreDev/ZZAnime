@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T00:31:49.068839+00:00",
+  "checkedAt": "2026-10-29T00:47:14.098082+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73467,
+  "observedChapters": 73480,
   "storedChapters": 71450,
-  "missingChapters": 2017,
+  "missingChapters": 2030,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 52,
@@ -1378,6 +1378,14 @@
         "title": "Tenchi Souzou Design-bu: Idea 13",
         "samples": [
           "https://jkanime.net/tenchi-souzou-design-bu-idea-13/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard-overdress/",
+        "title": "Cardfight!! Vanguard: overDress",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard-overdress/13/",
+          "https://jkanime.net/cardfight-vanguard-overdress/14/"
         ]
       },
       {
@@ -15735,6 +15743,37 @@
         ]
       },
       {
+        "series": "https://jkanime.net/edens-zero/",
+        "title": "Edens Zero",
+        "samples": [
+          "https://jkanime.net/edens-zero/1/",
+          "https://jkanime.net/edens-zero/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-5th-season/",
+        "title": "Boku no Hero Academia 5th Season",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-5th-season/1/",
+          "https://jkanime.net/boku-no-hero-academia-5th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard-overdress/",
+        "title": "Cardfight!! Vanguard: overDress",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard-overdress/13/",
+          "https://jkanime.net/cardfight-vanguard-overdress/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/b-the-beginning-succession/",
+        "title": "B: The Beginning - Succession",
+        "samples": [
+          "https://jkanime.net/b-the-beginning-succession/6/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
         "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
         "samples": [
@@ -15742,10 +15781,105 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tropical-rouge-precure/",
+        "title": "Tropical-Rouge! Precure",
+        "samples": [
+          "https://jkanime.net/tropical-rouge-precure/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenkuu-shinpan/",
+        "title": "Tenkuu Shinpan",
+        "samples": [
+          "https://jkanime.net/tenkuu-shinpan/10/",
+          "https://jkanime.net/tenkuu-shinpan/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maiko-san-chi-no-makanai-san/",
+        "title": "Maiko-san Chi no Makanai-san",
+        "samples": [
+          "https://jkanime.net/maiko-san-chi-no-makanai-san/1/",
+          "https://jkanime.net/maiko-san-chi-no-makanai-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimetsu-gakuen-valentine-hen/",
+        "title": "Kimetsu Gakuen: Valentine-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-gakuen-valentine-hen/1/",
+          "https://jkanime.net/kimetsu-gakuen-valentine-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-2/",
         "title": "Bishoujo Senshi Sailor Moon Eternal Movie 2",
         "samples": [
           "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-2/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shanhe-jian-xin/",
+        "title": "Shanhe Jian Xin",
+        "samples": [
+          "https://jkanime.net/shanhe-jian-xin/1/",
+          "https://jkanime.net/shanhe-jian-xin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chang-jian-feng-yun/",
+        "title": "Chang Jian Feng Yun",
+        "samples": [
+          "https://jkanime.net/chang-jian-feng-yun/1/",
+          "https://jkanime.net/chang-jian-feng-yun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wu-liuqi-xuanwu-guo-pian/",
+        "title": "Wu Liuqi: Xuanwu Guo Pian",
+        "samples": [
+          "https://jkanime.net/wu-liuqi-xuanwu-guo-pian/1/",
+          "https://jkanime.net/wu-liuqi-xuanwu-guo-pian/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majutsushi-orphen-hagure-tabi-kimluck-hen/",
+        "title": "Majutsushi Orphen Hagure Tabi: Kimluck-hen",
+        "samples": [
+          "https://jkanime.net/majutsushi-orphen-hagure-tabi-kimluck-hen/1/",
+          "https://jkanime.net/majutsushi-orphen-hagure-tabi-kimluck-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dr-stone-stone-wars/",
+        "title": "Dr. Stone: Stone Wars",
+        "samples": [
+          "https://jkanime.net/dr-stone-stone-wars/1/",
+          "https://jkanime.net/dr-stone-stone-wars/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wonder-egg-priority/",
+        "title": "Wonder Egg Priority",
+        "samples": [
+          "https://jkanime.net/wonder-egg-priority/1/",
+          "https://jkanime.net/wonder-egg-priority/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanatsu-no-taizai-fundo-no-shinpan/",
+        "title": "Nanatsu no Taizai: Fundo no Shinpan",
+        "samples": [
+          "https://jkanime.net/nanatsu-no-taizai-fundo-no-shinpan/1/",
+          "https://jkanime.net/nanatsu-no-taizai-fundo-no-shinpan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bungou-stray-dogs-wan/",
+        "title": "Bungou Stray Dogs Wan!",
+        "samples": [
+          "https://jkanime.net/bungou-stray-dogs-wan/1/",
+          "https://jkanime.net/bungou-stray-dogs-wan/10/"
         ]
       },
       {
@@ -56581,13 +56715,15 @@
     {
       "series": "https://jkanime.net/edens-zero/",
       "title": "Edens Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -56600,13 +56736,15 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-5th-season/",
       "title": "Boku no Hero Academia 5th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -56627,11 +56765,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 10,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
@@ -56653,38 +56787,57 @@
     {
       "series": "https://jkanime.net/cardfight-vanguard-overdress/",
       "title": "Cardfight!! Vanguard: overDress",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 25,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/cardfight-vanguard-overdress/13/",
+        "https://jkanime.net/cardfight-vanguard-overdress/14/",
+        "https://jkanime.net/cardfight-vanguard-overdress/15/",
+        "https://jkanime.net/cardfight-vanguard-overdress/16/",
+        "https://jkanime.net/cardfight-vanguard-overdress/17/",
+        "https://jkanime.net/cardfight-vanguard-overdress/18/",
+        "https://jkanime.net/cardfight-vanguard-overdress/19/",
+        "https://jkanime.net/cardfight-vanguard-overdress/20/",
+        "https://jkanime.net/cardfight-vanguard-overdress/21/",
+        "https://jkanime.net/cardfight-vanguard-overdress/22/",
+        "https://jkanime.net/cardfight-vanguard-overdress/23/",
+        "https://jkanime.net/cardfight-vanguard-overdress/24/",
+        "https://jkanime.net/cardfight-vanguard-overdress/25/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 3,
+        "mega": 2,
+        "streamwish": 3,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/b-the-beginning-succession/",
       "title": "B: The Beginning - Succession",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 6,
-        "streamwish": 6,
-        "vidhide": 6,
         "mp4upload": 6,
-        "streamtape": 6
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -56726,7 +56879,8 @@
       "series": "https://jkanime.net/tropical-rouge-precure/",
       "title": "Tropical-Rouge! Precure",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 46,
       "stored": 45,
@@ -56735,45 +56889,49 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 45,
-        "streamwish": 45,
-        "vidhide": 45,
         "mp4upload": 45,
-        "streamtape": 45
+        "mega": 8,
+        "streamwish": 9,
+        "vidhide": 9,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tenkuu-shinpan/",
       "title": "Tenkuu Shinpan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 11,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/maiko-san-chi-no-makanai-san/",
       "title": "Maiko-san Chi no Makanai-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -56801,13 +56959,15 @@
     {
       "series": "https://jkanime.net/kimetsu-gakuen-valentine-hen/",
       "title": "Kimetsu Gakuen: Valentine-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -56828,11 +56988,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
@@ -56876,13 +57032,15 @@
     {
       "series": "https://jkanime.net/shanhe-jian-xin/",
       "title": "Shanhe Jian Xin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -56896,13 +57054,15 @@
     {
       "series": "https://jkanime.net/chang-jian-feng-yun/",
       "title": "Chang Jian Feng Yun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -56916,13 +57076,15 @@
     {
       "series": "https://jkanime.net/wu-liuqi-xuanwu-guo-pian/",
       "title": "Wu Liuqi: Xuanwu Guo Pian",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -56935,19 +57097,21 @@
     {
       "series": "https://jkanime.net/majutsushi-orphen-hagure-tabi-kimluck-hen/",
       "title": "Majutsushi Orphen Hagure Tabi: Kimluck-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 11,
+        "mega": 10,
         "streamwish": 11,
         "vidhide": 11,
         "mp4upload": 11,
-        "streamtape": 11
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56972,13 +57136,15 @@
     {
       "series": "https://jkanime.net/dr-stone-stone-wars/",
       "title": "Dr. Stone: Stone Wars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 10,
         "streamwish": 11,
@@ -56991,13 +57157,15 @@
     {
       "series": "https://jkanime.net/wonder-egg-priority/",
       "title": "Wonder Egg Priority",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57010,32 +57178,36 @@
     {
       "series": "https://jkanime.net/nanatsu-no-taizai-fundo-no-shinpan/",
       "title": "Nanatsu no Taizai: Fundo no Shinpan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
-        "mega": 24,
+        "mega": 19,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 19
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/bungou-stray-dogs-wan/",
       "title": "Bungou Stray Dogs Wan!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
