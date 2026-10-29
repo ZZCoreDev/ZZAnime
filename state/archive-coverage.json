@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T09:17:13.533266+00:00",
+  "checkedAt": "2026-10-29T14:43:44.215426+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73523,
-  "storedChapters": 71619,
-  "missingChapters": 1904,
+  "storedChapters": 71628,
+  "missingChapters": 1895,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -364,13 +364,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/versailles-no-bara-movie/",
-        "title": "Versailles no Bara (Movie)",
-        "samples": [
-          "https://jkanime.net/versailles-no-bara-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/project-sekai-movie-kowareta-sekai-to-utaenai-miku/",
         "title": "Project Sekai Movie: Kowareta Sekai to Utaenai Miku",
         "samples": [
@@ -484,13 +477,6 @@
         "title": "Suu-funkan no Yell wo",
         "samples": [
           "https://jkanime.net/suu-funkan-no-yell-wo/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/uma-musume-pretty-derby-shin-jidai-no-tobira/",
-        "title": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
-        "samples": [
-          "https://jkanime.net/uma-musume-pretty-derby-shin-jidai-no-tobira/1/"
         ]
       },
       {
@@ -682,13 +668,6 @@
         "title": "Lupin III vs. Cat's Eye",
         "samples": [
           "https://jkanime.net/lupin-iii-vs-cats-eye/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/shuumatsu-no-walkre-ii/",
-        "title": "Shuumatsu no Walküre II",
-        "samples": [
-          "https://jkanime.net/shuumatsu-no-walkre-ii/15/"
         ]
       },
       {
@@ -1240,13 +1219,6 @@
         "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
         "samples": [
           "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tropical-rouge-precure/",
-        "title": "Tropical-Rouge! Precure",
-        "samples": [
-          "https://jkanime.net/tropical-rouge-precure/15/"
         ]
       },
       {
@@ -2065,16 +2037,16 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/10/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/11/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/11/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/"
         ]
       },
       {
         "series": "https://jkanime.net/urahara/",
         "title": "Urahara",
         "samples": [
-          "https://jkanime.net/urahara/1/",
-          "https://jkanime.net/urahara/10/"
+          "https://jkanime.net/urahara/10/",
+          "https://jkanime.net/urahara/11/"
         ]
       },
       {
@@ -2283,8 +2255,8 @@
         "series": "https://jkanime.net/piace-watashi-no-italian/",
         "title": "Piace: Watashi no Italian",
         "samples": [
-          "https://jkanime.net/piace-watashi-no-italian/5/",
-          "https://jkanime.net/piace-watashi-no-italian/6/"
+          "https://jkanime.net/piace-watashi-no-italian/6/",
+          "https://jkanime.net/piace-watashi-no-italian/7/"
         ]
       },
       {
@@ -2677,8 +2649,8 @@
         "series": "https://jkanime.net/nurse-witch-komugi-chan-r/",
         "title": "Nurse Witch Komugi-chan R",
         "samples": [
-          "https://jkanime.net/nurse-witch-komugi-chan-r/7/",
-          "https://jkanime.net/nurse-witch-komugi-chan-r/8/"
+          "https://jkanime.net/nurse-witch-komugi-chan-r/8/",
+          "https://jkanime.net/nurse-witch-komugi-chan-r/9/"
         ]
       },
       {
@@ -4399,8 +4371,8 @@
         "series": "https://jkanime.net/sword-art-offline/",
         "title": "Sword Art Offline",
         "samples": [
-          "https://jkanime.net/sword-art-offline/4/",
-          "https://jkanime.net/sword-art-offline/5/"
+          "https://jkanime.net/sword-art-offline/5/",
+          "https://jkanime.net/sword-art-offline/6/"
         ]
       },
       {
@@ -6881,6 +6853,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/undead-unluck-winter-hen/",
+        "title": "Undead Unluck: Winter-hen",
+        "samples": [
+          "https://jkanime.net/undead-unluck-winter-hen/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/xian-wang-de-richang-shenghuo-5/",
         "title": "Xian Wang de Richang Shenghuo 5",
         "samples": [
@@ -7323,6 +7302,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/",
+        "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)",
+        "samples": [
+          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/13/",
+          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-haikara/",
         "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
         "samples": [
@@ -7447,6 +7434,13 @@
         "samples": [
           "https://jkanime.net/guimi-zhi-zhu-xiaochou-pian/1/",
           "https://jkanime.net/guimi-zhi-zhu-xiaochou-pian/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/virgin-punk-clockwork-girl/",
+        "title": "Virgin Punk: Clockwork Girl",
+        "samples": [
+          "https://jkanime.net/virgin-punk-clockwork-girl/1/"
         ]
       },
       {
@@ -7642,6 +7636,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/uma-musume-cinderella-gray/",
+        "title": "Uma Musume: Cinderella Gray",
+        "samples": [
+          "https://jkanime.net/uma-musume-cinderella-gray/14/",
+          "https://jkanime.net/uma-musume-cinderella-gray/15/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/princession-orchestra/",
         "title": "Princession Orchestra",
         "samples": [
@@ -7812,6 +7814,13 @@
         "title": "The iDOLM@STER Shiny Colors 2nd Season: SHHis",
         "samples": [
           "https://jkanime.net/the-idolm-at-ster-shiny-colors-2nd-season-shhis/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/twins-hinahima/",
+        "title": "Twins Hinahima",
+        "samples": [
+          "https://jkanime.net/twins-hinahima/1/"
         ]
       },
       {
@@ -15821,7 +15830,8 @@
         "series": "https://jkanime.net/tropical-rouge-precure/",
         "title": "Tropical-Rouge! Precure",
         "samples": [
-          "https://jkanime.net/tropical-rouge-precure/15/"
+          "https://jkanime.net/tropical-rouge-precure/16/",
+          "https://jkanime.net/tropical-rouge-precure/20/"
         ]
       },
       {
@@ -16748,6 +16758,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/violet-evergarden-movie/",
+        "title": "Violet Evergarden Movie",
+        "samples": [
+          "https://jkanime.net/violet-evergarden-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/umibe-no-tranger/",
+        "title": "Umibe no Etranger",
+        "samples": [
+          "https://jkanime.net/umibe-no-tranger/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/chuan-shu-zijiu-zhinan/",
         "title": "Chuan Shu Zijiu Zhinan",
         "samples": [
@@ -17298,6 +17322,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka-ova/",
+        "title": "Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki Desu ka? OVA",
+        "samples": [
+          "https://jkanime.net/tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy-special/",
         "title": "Chuubyou Gekihatsu Boy Special",
         "samples": [
@@ -17537,6 +17568,14 @@
         "samples": [
           "https://jkanime.net/housekishou-richard-shi-no-nazo-kantei/1/",
           "https://jkanime.net/housekishou-richard-shi-no-nazo-kantei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
+        "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
+        "samples": [
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/1/",
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/10/"
         ]
       },
       {
@@ -18217,6 +18256,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/",
+        "title": "Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou",
+        "samples": [
+          "https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-kurenai-densetsu/",
         "title": "Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu",
         "samples": [
@@ -18636,6 +18682,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu-yabai/",
+        "title": "Tsurune: Kazemai Koukou Kyuudoubu - Yabai",
+        "samples": [
+          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu-yabai/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/wotaku-ni-koi-wa-muzukashii-youth/",
         "title": "Wotaku ni Koi wa Muzukashii: Youth",
         "samples": [
@@ -18936,6 +18989,13 @@
         "samples": [
           "https://jkanime.net/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no/1/",
           "https://jkanime.net/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/",
+        "title": "Trinity Seven Movie 2: Tenkuu Toshokan to Shinku no Maou",
+        "samples": [
+          "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/1/"
         ]
       },
       {
@@ -21193,7 +21253,71 @@
         "title": "Tsukipro The Animation",
         "samples": [
           "https://jkanime.net/tsukipro-the-animation/1/",
-          "https://jkanime.net/tsukipro-the-animation/2/"
+          "https://jkanime.net/tsukipro-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-clover-tv/",
+        "title": "Black Clover (TV)",
+        "samples": [
+          "https://jkanime.net/black-clover-tv/100/",
+          "https://jkanime.net/black-clover-tv/101/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/juuni-taisen/",
+        "title": "Juuni Taisen",
+        "samples": [
+          "https://jkanime.net/juuni-taisen/1/",
+          "https://jkanime.net/juuni-taisen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sengoku-night-blood/",
+        "title": "Sengoku Night Blood",
+        "samples": [
+          "https://jkanime.net/sengoku-night-blood/1/",
+          "https://jkanime.net/sengoku-night-blood/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/osake-wa-fuufu-ni-natte-kara/",
+        "title": "Osake wa Fuufu ni Natte kara",
+        "samples": [
+          "https://jkanime.net/osake-wa-fuufu-ni-natte-kara/1/",
+          "https://jkanime.net/osake-wa-fuufu-ni-natte-kara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shokugeki-no-souma-san-no-sara/",
+        "title": "Shokugeki no Souma: San no Sara",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma-san-no-sara/1/",
+          "https://jkanime.net/shokugeki-no-souma-san-no-sara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/osomatsu-san-2/",
+        "title": "Osomatsu-san 2",
+        "samples": [
+          "https://jkanime.net/osomatsu-san-2/1/",
+          "https://jkanime.net/osomatsu-san-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uq-holder-mahou-sensei-negima-2/",
+        "title": "UQ Holder!: Mahou Sensei Negima! 2",
+        "samples": [
+          "https://jkanime.net/uq-holder-mahou-sensei-negima-2/1/",
+          "https://jkanime.net/uq-holder-mahou-sensei-negima-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/omiai-aite-wa-oshiego-tsuyokina-mondaiji/",
+        "title": "Omiai Aite wa Oshiego, Tsuyokina, Mondaiji.",
+        "samples": [
+          "https://jkanime.net/omiai-aite-wa-oshiego-tsuyokina-mondaiji/3/",
+          "https://jkanime.net/omiai-aite-wa-oshiego-tsuyokina-mondaiji/5/"
         ]
       },
       {
@@ -21229,6 +21353,13 @@
         "title": "Kimi no Koe wo Todoketai",
         "samples": [
           "https://jkanime.net/kimi-no-koe-wo-todoketai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchiage-hanabi-shita-kara-miru-ka-yoko-kara-miru-ka/",
+        "title": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?",
+        "samples": [
+          "https://jkanime.net/uchiage-hanabi-shita-kara-miru-ka-yoko-kara-miru-ka/1/"
         ]
       },
       {
@@ -21360,6 +21491,13 @@
         "title": "Trinity Seven Movie 1: Eternity Library to Alchemic Girl",
         "samples": [
           "https://jkanime.net/trinity-seven-movie-1-eternity-library-to-alchemic-girl/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vivid-strike-specials/",
+        "title": "ViVid Strike! Specials",
+        "samples": [
+          "https://jkanime.net/vivid-strike-specials/1/"
         ]
       },
       {
@@ -21590,6 +21728,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/under-the-dog/",
+        "title": "Under the Dog",
+        "samples": [
+          "https://jkanime.net/under-the-dog/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
@@ -21653,6 +21798,14 @@
         "title": "Owari no Seraph: Kyuuketsuki Shahar",
         "samples": [
           "https://jkanime.net/owari-no-seraph-kyuuketsuki-shahar/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wagamama-high-spec/",
+        "title": "Wagamama High Spec",
+        "samples": [
+          "https://jkanime.net/wagamama-high-spec/1/",
+          "https://jkanime.net/wagamama-high-spec/10/"
         ]
       },
       {
@@ -21849,6 +22002,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/wakabagirl-onsen-tsukaritai/",
+        "title": "Wakaba*Girl: Onsen Tsukaritai",
+        "samples": [
+          "https://jkanime.net/wakabagirl-onsen-tsukaritai/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tokyo-ghoul-jack/",
         "title": "Tokyo Ghoul: \"Jack\"",
         "samples": [
@@ -21921,6 +22081,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ushinawareta-mirai-wo-motomete-ova/",
+        "title": "Ushinawareta Mirai wo Motomete: Ushinawareta Natsuyasumi wo Motomete",
+        "samples": [
+          "https://jkanime.net/ushinawareta-mirai-wo-motomete-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/durararax2-shou-watashi-no-kokoro-wa-nabe-moyou/",
         "title": "Durarara!!x2 Shou 4.5",
         "samples": [
@@ -21967,6 +22134,14 @@
         "title": "Aoki Hagane no Arpeggio: Ars Nova DC",
         "samples": [
           "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/venus-project-climax/",
+        "title": "Venus Project: Climax",
+        "samples": [
+          "https://jkanime.net/venus-project-climax/1/",
+          "https://jkanime.net/venus-project-climax/2/"
         ]
       },
       {
@@ -22132,6 +22307,13 @@
         "title": "Senran Kagura: Estival Versus - Shoujo-tachi no Sentaku",
         "samples": [
           "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trinity-seven-ova/",
+        "title": "Trinity Seven OVA",
+        "samples": [
+          "https://jkanime.net/trinity-seven-ova/1/"
         ]
       },
       {
@@ -22347,6 +22529,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/watashi-ga-motenai-no-wa-dou-kangaetemo-omaera-ga-warui-ova/",
+        "title": "Watamote! OVA",
+        "samples": [
+          "https://jkanime.net/watashi-ga-motenai-no-wa-dou-kangaetemo-omaera-ga-warui-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/",
         "title": "Go! Go! 575: Meippai ni, Hajiketeru?",
         "samples": [
@@ -22414,6 +22603,14 @@
         "title": "Kara no Kyoukai 7: Satsujin Kousatsu (Part 2)",
         "samples": [
           "https://jkanime.net/kara-no-kyoukai-7-satsujin-kousatsu-part-2/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tribe-cool-crew/",
+        "title": "Tribe Cool Crew",
+        "samples": [
+          "https://jkanime.net/tribe-cool-crew/10/",
+          "https://jkanime.net/tribe-cool-crew/11/"
         ]
       },
       {
@@ -22644,6 +22841,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tsubasa-to-hotaru/",
+        "title": "Tsubasa to Hotaru",
+        "samples": [
+          "https://jkanime.net/tsubasa-to-hotaru/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mitsuwano/",
         "title": "Mitsuwano",
         "samples": [
@@ -22714,6 +22918,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/wake-up-girls-shichinin-no-idol/",
+        "title": "Wake Up, Girls! Shichinin no Idol",
+        "samples": [
+          "https://jkanime.net/wake-up-girls-shichinin-no-idol/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mushishi-special-hihamukage/",
         "title": "Mushishi Special: Hihamukage",
         "samples": [
@@ -22754,6 +22965,13 @@
         "title": "Majokko Shimai no Yoyo to Nene",
         "samples": [
           "https://jkanime.net/majokko-shimai-no-yoyo-to-nene/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uta-noprince-sama-maji-love-2000-shining-star-xmas/",
+        "title": "Uta no☆Prince-sama♪ Maji Love 2000%: Shining Star Xmas",
+        "samples": [
+          "https://jkanime.net/uta-noprince-sama-maji-love-2000-shining-star-xmas/1/"
         ]
       },
       {
@@ -23158,6 +23376,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/vassalord/",
+        "title": "Vassalord.",
+        "samples": [
+          "https://jkanime.net/vassalord/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hanasaku-hiroka-home-sweet-home/",
         "title": "Hanasaku Iroha: Home Sweet Home",
         "samples": [
@@ -23353,6 +23578,13 @@
         "title": "Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari",
         "samples": [
           "https://jkanime.net/mahou-shoujo-madokamagica-movie-2-eien-no-monogatari/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/upotte-ova/",
+        "title": "Upotte!! OVA",
+        "samples": [
+          "https://jkanime.net/upotte-ova/1/"
         ]
       },
       {
@@ -24337,6 +24569,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/utakata-shotou-no-futanatsu/",
+        "title": "Uta∽Kata: Shotou no Futanatsu",
+        "samples": [
+          "https://jkanime.net/utakata-shotou-no-futanatsu/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-max-heart-movie-1/",
         "title": "Futari wa Precure: Max Heart Movie 1",
         "samples": [
@@ -24616,6 +24855,13 @@
         "samples": [
           "https://jkanime.net/inuyasha/47/",
           "https://jkanime.net/inuyasha/77/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vampire-hunter-d-2000/",
+        "title": "Vampire Hunter D (2000)",
+        "samples": [
+          "https://jkanime.net/vampire-hunter-d-2000/1/"
         ]
       },
       {
@@ -24983,6 +25229,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/wata-no-kuni-hoshi/",
+        "title": "Wata no Kuni Hoshi",
+        "samples": [
+          "https://jkanime.net/wata-no-kuni-hoshi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-senkan-yamato-kanketsu-hen/",
+        "title": "Uchuu Senkan Yamato: Kanketsu-hen",
+        "samples": [
+          "https://jkanime.net/uchuu-senkan-yamato-kanketsu-hen/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/space-adventure-cobra/",
         "title": "Space Adventure Cobra",
         "samples": [
@@ -24994,6 +25254,13 @@
         "title": "Doraemon Movie 02: Nobita no Uchuu Kaitakushi",
         "samples": [
           "https://jkanime.net/doraemon-movie-02-nobita-no-uchuu-kaitakushi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wakakusa-monogatari/",
+        "title": "Wakakusa Monogatari",
+        "samples": [
+          "https://jkanime.net/wakakusa-monogatari/1/"
         ]
       },
       {
@@ -25024,6 +25291,13 @@
         "samples": [
           "https://jkanime.net/mirai-shounen-conan/1/",
           "https://jkanime.net/mirai-shounen-conan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-senkan-yamato-movie/",
+        "title": "Uchuu Senkan Yamato (Movie)",
+        "samples": [
+          "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
         ]
       },
       {
@@ -25365,13 +25639,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/versailles-no-bara-movie/",
-        "title": "Versailles no Bara (Movie)",
-        "samples": [
-          "https://jkanime.net/versailles-no-bara-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/project-sekai-movie-kowareta-sekai-to-utaenai-miku/",
         "title": "Project Sekai Movie: Kowareta Sekai to Utaenai Miku",
         "samples": [
@@ -25432,13 +25699,6 @@
         "title": "Suu-funkan no Yell wo",
         "samples": [
           "https://jkanime.net/suu-funkan-no-yell-wo/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/uma-musume-pretty-derby-shin-jidai-no-tobira/",
-        "title": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
-        "samples": [
-          "https://jkanime.net/uma-musume-pretty-derby-shin-jidai-no-tobira/1/"
         ]
       },
       {
@@ -34846,7 +35106,8 @@
       "title": "Undead Unluck: Winter-hen",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -34855,7 +35116,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -37073,7 +37334,8 @@
       "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/",
       "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 17,
       "stored": 12,
@@ -37086,7 +37348,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 12,
         "vidhide": 4,
@@ -37984,7 +38246,8 @@
       "title": "Virgin Punk: Clockwork Girl",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -37993,7 +38256,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -38777,7 +39040,8 @@
       "series": "https://jkanime.net/uma-musume-cinderella-gray/",
       "title": "Uma Musume: Cinderella Gray",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 23,
       "stored": 13,
@@ -38795,7 +39059,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 13,
         "streamwish": 7,
@@ -39492,7 +39756,8 @@
       "title": "Twins Hinahima",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -39501,7 +39766,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -39602,19 +39867,17 @@
     {
       "series": "https://jkanime.net/versailles-no-bara-movie/",
       "title": "Versailles no Bara (Movie)",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/versailles-no-bara-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -44398,19 +44661,16 @@
     {
       "series": "https://jkanime.net/uma-musume-pretty-derby-shin-jidai-no-tobira/",
       "title": "Uma Musume: Pretty Derby - Shin Jidai no Tobira",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/uma-musume-pretty-derby-shin-jidai-no-tobira/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -52700,19 +52960,15 @@
     {
       "series": "https://jkanime.net/shuumatsu-no-walkre-ii/",
       "title": "Shuumatsu no Walküre II",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 15,
-      "stored": 14,
-      "missing": [
-        "https://jkanime.net/shuumatsu-no-walkre-ii/15/"
-      ],
+      "stored": 15,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 14
+        "mp4upload": 15
       },
       "playbackVerified": false
     },
@@ -54411,7 +54667,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "mega": 19,
         "streamwish": 19,
@@ -63222,19 +63478,16 @@
       "series": "https://jkanime.net/tropical-rouge-precure/",
       "title": "Tropical-Rouge! Precure",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 46,
-      "stored": 45,
-      "missing": [
-        "https://jkanime.net/tropical-rouge-precure/15/"
-      ],
+      "stored": 46,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "mp4upload": 45,
+        "mp4upload": 46,
         "mega": 8,
         "streamwish": 9,
         "vidhide": 9,
@@ -65879,7 +66132,8 @@
       "title": "Violet Evergarden Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -65888,7 +66142,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -65897,7 +66151,8 @@
       "title": "Umibe no Etranger",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -65906,7 +66161,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -67452,7 +67707,8 @@
       "title": "Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki Desu ka? OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -67461,7 +67717,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -68145,7 +68401,8 @@
       "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
       "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 11,
       "stored": 0,
@@ -68164,7 +68421,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -70113,7 +70370,8 @@
       "title": "Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -70122,7 +70380,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -71354,7 +71612,8 @@
       "title": "Tsurune: Kazemai Koukou Kyuudoubu - Yabai",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -71363,7 +71622,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -72188,7 +72447,8 @@
       "title": "Trinity Seven Movie 2: Tenkuu Toshokan to Shinku no Maou",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -72197,7 +72457,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -73492,7 +73752,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 8,
         "streamwish": 13,
@@ -78461,9 +78721,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/10/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/11/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/12/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/13/",
@@ -78491,9 +78750,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 1,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 2,
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -78840,9 +79099,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/urahara/1/",
         "https://jkanime.net/urahara/10/",
         "https://jkanime.net/urahara/11/",
         "https://jkanime.net/urahara/12/",
@@ -78858,7 +79116,11 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -78872,7 +79134,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -78886,19 +79148,21 @@
     {
       "series": "https://jkanime.net/black-clover-tv/",
       "title": "Black Clover (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 170,
       "stored": 170,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 101,
       "families": {
-        "mega": 170,
+        "mp4upload": 126,
         "streamwish": 170,
         "vidhide": 170,
-        "mp4upload": 170,
-        "streamtape": 170,
+        "mega": 101,
+        "streamtape": 101,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -78923,13 +79187,15 @@
     {
       "series": "https://jkanime.net/juuni-taisen/",
       "title": "Juuni Taisen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -78942,13 +79208,15 @@
     {
       "series": "https://jkanime.net/sengoku-night-blood/",
       "title": "Sengoku Night Blood",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -78961,13 +79229,15 @@
     {
       "series": "https://jkanime.net/osake-wa-fuufu-ni-natte-kara/",
       "title": "Osake wa Fuufu ni Natte kara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -78980,13 +79250,15 @@
     {
       "series": "https://jkanime.net/shokugeki-no-souma-san-no-sara/",
       "title": "Shokugeki no Souma: San no Sara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -78999,13 +79271,15 @@
     {
       "series": "https://jkanime.net/osomatsu-san-2/",
       "title": "Osomatsu-san 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -79019,13 +79293,15 @@
     {
       "series": "https://jkanime.net/uq-holder-mahou-sensei-negima-2/",
       "title": "UQ Holder!: Mahou Sensei Negima! 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -79038,19 +79314,21 @@
     {
       "series": "https://jkanime.net/omiai-aite-wa-oshiego-tsuyokina-mondaiji/",
       "title": "Omiai Aite wa Oshiego, Tsuyokina, Mondaiji.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -79255,7 +79533,8 @@
       "title": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -79264,7 +79543,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -81540,7 +81819,8 @@
       "series": "https://jkanime.net/vivid-strike-specials/",
       "title": "ViVid Strike! Specials",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -81549,7 +81829,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -81759,9 +82039,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/piace-watashi-no-italian/5/",
         "https://jkanime.net/piace-watashi-no-italian/6/",
         "https://jkanime.net/piace-watashi-no-italian/7/",
         "https://jkanime.net/piace-watashi-no-italian/8/",
@@ -81771,9 +82050,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 6,
-        "streamwish": 7,
-        "vidhide": 6
+        "mp4upload": 7,
+        "streamwish": 8,
+        "vidhide": 7
       },
       "playbackVerified": false
     },
@@ -84348,7 +84627,8 @@
       "title": "Under the Dog",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -84357,7 +84637,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -85597,7 +85877,8 @@
       "series": "https://jkanime.net/wagamama-high-spec/",
       "title": "Wagamama High Spec",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 0,
@@ -85617,7 +85898,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -87153,9 +87434,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/nurse-witch-komugi-chan-r/7/",
         "https://jkanime.net/nurse-witch-komugi-chan-r/8/",
         "https://jkanime.net/nurse-witch-komugi-chan-r/9/"
       ],
@@ -87163,9 +87443,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 9,
-        "streamwish": 9,
-        "vidhide": 9
+        "mp4upload": 10,
+        "streamwish": 10,
+        "vidhide": 10
       },
       "playbackVerified": false
     },
@@ -88140,7 +88420,8 @@
       "title": "Wakaba*Girl: Onsen Tsukaritai",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -88149,7 +88430,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -89539,7 +89820,8 @@
       "title": "Ushinawareta Mirai wo Motomete: Ushinawareta Natsuyasumi wo Motomete",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -89548,7 +89830,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -89824,7 +90106,8 @@
       "series": "https://jkanime.net/venus-project-climax/",
       "title": "Venus Project: Climax",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 6,
       "stored": 0,
@@ -89838,7 +90121,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -91952,7 +92235,8 @@
       "title": "Trinity Seven OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -91961,7 +92245,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -93660,7 +93944,8 @@
       "title": "Watamote! OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -93669,7 +93954,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -94803,7 +95088,8 @@
       "series": "https://jkanime.net/tribe-cool-crew/",
       "title": "Tribe Cool Crew",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 50,
       "stored": 1,
@@ -94860,7 +95146,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 1
       },
@@ -97751,7 +98037,8 @@
       "title": "Tsubasa to Hotaru",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -97760,7 +98047,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -98242,7 +98529,8 @@
       "title": "Wake Up, Girls! Shichinin no Idol",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -98251,7 +98539,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -99000,7 +99288,8 @@
       "title": "Uta no☆Prince-sama♪ Maji Love 2000%: Shining Star Xmas",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -99009,7 +99298,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -102778,7 +103067,8 @@
       "title": "Vassalord.",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -102787,7 +103077,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -104050,9 +104340,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 6,
-      "stored": 3,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/sword-art-offline/4/",
         "https://jkanime.net/sword-art-offline/5/",
         "https://jkanime.net/sword-art-offline/6/"
       ],
@@ -104060,8 +104349,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mp4upload": 1
       },
       "playbackVerified": false
@@ -104293,7 +104582,8 @@
       "title": "Upotte!! OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -104302,7 +104592,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -119178,7 +119468,8 @@
       "title": "Uta∽Kata: Shotou no Futanatsu",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -119187,7 +119478,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -124686,7 +124977,8 @@
       "title": "Vampire Hunter D (2000)",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -124695,7 +124987,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -127964,7 +128256,8 @@
       "title": "Wata no Kuni Hoshi",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -127973,7 +128266,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -128001,7 +128294,8 @@
       "title": "Uchuu Senkan Yamato: Kanketsu-hen",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -128010,7 +128304,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -128173,7 +128467,8 @@
       "title": "Wakakusa Monogatari",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -128182,7 +128477,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -128412,7 +128707,8 @@
       "title": "Uchuu Senkan Yamato (Movie)",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -128421,7 +128717,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
