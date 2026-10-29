@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T22:59:30.735970+00:00",
+  "checkedAt": "2026-10-29T23:12:57.991789+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -27066,6 +27066,110 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gugure-kokkuri-san/",
+        "title": "Gugure! Kokkuri-san",
+        "samples": [
+          "https://jkanime.net/gugure-kokkuri-san/1/",
+          "https://jkanime.net/gugure-kokkuri-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sora-no-method/",
+        "title": "Sora no Method",
+        "samples": [
+          "https://jkanime.net/sora-no-method/1/",
+          "https://jkanime.net/sora-no-method/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-bahamut-genesis/",
+        "title": "Shingeki no Bahamut: Genesis",
+        "samples": [
+          "https://jkanime.net/shingeki-no-bahamut-genesis/1/",
+          "https://jkanime.net/shingeki-no-bahamut-genesis/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ookami-shoujo-to-kuro-ouji/",
+        "title": "Ookami Shoujo to Kuro Ouji",
+        "samples": [
+          "https://jkanime.net/ookami-shoujo-to-kuro-ouji/1/",
+          "https://jkanime.net/ookami-shoujo-to-kuro-ouji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanatsu-no-taizai/",
+        "title": "Nanatsu no Taizai",
+        "samples": [
+          "https://jkanime.net/nanatsu-no-taizai/1/",
+          "https://jkanime.net/nanatsu-no-taizai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cross-ange-tenshi-to-ryuu-no-rondo/",
+        "title": "Cross Ange: Tenshi to Ryuu no Rondo",
+        "samples": [
+          "https://jkanime.net/cross-ange-tenshi-to-ryuu-no-rondo/1/",
+          "https://jkanime.net/cross-ange-tenshi-to-ryuu-no-rondo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grisaia-no-kajitsu/",
+        "title": "Grisaia no Kajitsu",
+        "samples": [
+          "https://jkanime.net/grisaia-no-kajitsu/1/",
+          "https://jkanime.net/grisaia-no-kajitsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/log-horizon-2nd-season/",
+        "title": "Log Horizon 2nd Season",
+        "samples": [
+          "https://jkanime.net/log-horizon-2nd-season/1/",
+          "https://jkanime.net/log-horizon-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv/",
+        "title": "Fate/stay night: Unlimited Blade Works (TV)",
+        "samples": [
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv/1/",
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/madan-no-ou-to-vanadis/",
+        "title": "Madan no Ou to Vanadis",
+        "samples": [
+          "https://jkanime.net/madan-no-ou-to-vanadis/1/",
+          "https://jkanime.net/madan-no-ou-to-vanadis/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/garo-honoo-no-kokuin/",
+        "title": "Garo: Honoo no Kokuin",
+        "samples": [
+          "https://jkanime.net/garo-honoo-no-kokuin/1/",
+          "https://jkanime.net/garo-honoo-no-kokuin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/world-trigger/",
+        "title": "World Trigger",
+        "samples": [
+          "https://jkanime.net/world-trigger/1/",
+          "https://jkanime.net/world-trigger/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ushinawareta-mirai-wo-motomete/",
+        "title": "Ushinawareta Mirai wo Motomete",
+        "samples": [
+          "https://jkanime.net/ushinawareta-mirai-wo-motomete/1/",
+          "https://jkanime.net/ushinawareta-mirai-wo-motomete/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita-nagarekawa-annai-shite-mita/",
         "title": "[Locodol] Yatte Mita.: Nagarekawa, Annai Shite Mita.",
         "samples": [
@@ -29997,7 +30101,7 @@
         "title": "Douluo Dalu II: Jueshi Tangmen",
         "samples": [
           "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/170/",
-          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/172/"
+          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/171/"
         ]
       },
       {
@@ -35367,7 +35471,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -64167,7 +64271,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -74639,7 +74743,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -100160,13 +100264,15 @@
     {
       "series": "https://jkanime.net/gugure-kokkuri-san/",
       "title": "Gugure! Kokkuri-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100179,13 +100285,15 @@
     {
       "series": "https://jkanime.net/sora-no-method/",
       "title": "Sora no Method",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -100198,13 +100306,15 @@
     {
       "series": "https://jkanime.net/shingeki-no-bahamut-genesis/",
       "title": "Shingeki no Bahamut: Genesis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100217,13 +100327,15 @@
     {
       "series": "https://jkanime.net/ookami-shoujo-to-kuro-ouji/",
       "title": "Ookami Shoujo to Kuro Ouji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100236,13 +100348,15 @@
     {
       "series": "https://jkanime.net/nanatsu-no-taizai/",
       "title": "Nanatsu no Taizai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -100255,13 +100369,15 @@
     {
       "series": "https://jkanime.net/cross-ange-tenshi-to-ryuu-no-rondo/",
       "title": "Cross Ange: Tenshi to Ryuu no Rondo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -100274,13 +100390,15 @@
     {
       "series": "https://jkanime.net/grisaia-no-kajitsu/",
       "title": "Grisaia no Kajitsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -100293,13 +100411,15 @@
     {
       "series": "https://jkanime.net/log-horizon-2nd-season/",
       "title": "Log Horizon 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 24,
         "streamwish": 25,
@@ -100313,13 +100433,15 @@
     {
       "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv/",
       "title": "Fate/stay night: Unlimited Blade Works (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -100332,13 +100454,15 @@
     {
       "series": "https://jkanime.net/madan-no-ou-to-vanadis/",
       "title": "Madan no Ou to Vanadis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -100351,32 +100475,36 @@
     {
       "series": "https://jkanime.net/garo-honoo-no-kokuin/",
       "title": "Garo: Honoo no Kokuin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 24,
+        "mega": 23,
         "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "vidhide": 23,
+        "mp4upload": 23,
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/world-trigger/",
       "title": "World Trigger",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 73,
       "stored": 73,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 73,
       "families": {
         "mega": 72,
         "streamwish": 73,
@@ -100389,13 +100517,15 @@
     {
       "series": "https://jkanime.net/ushinawareta-mirai-wo-motomete/",
       "title": "Ushinawareta Mirai wo Motomete",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104816,7 +104946,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "mp4upload": 1
       },
@@ -136276,7 +136406,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 6,
       "families": {
         "mega": 172,
         "streamwish": 173,
