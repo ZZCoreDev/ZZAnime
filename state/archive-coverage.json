@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T21:25:10.525527+00:00",
+  "checkedAt": "2026-10-29T21:37:18.234827+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73534,
-  "storedChapters": 71709,
-  "missingChapters": 1825,
+  "storedChapters": 71711,
+  "missingChapters": 1823,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2301,8 +2301,7 @@
         "series": "https://jkanime.net/classicaloid/",
         "title": "ClassicaLoid",
         "samples": [
-          "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/9/"
+          "https://jkanime.net/classicaloid/14/"
         ]
       },
       {
@@ -2911,13 +2910,6 @@
         "title": "Bakemono no Ko",
         "samples": [
           "https://jkanime.net/bakemono-no-ko/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/durarara-x2-ten/",
-        "title": "Durarara!!x2 Ten",
-        "samples": [
-          "https://jkanime.net/durarara-x2-ten/13/"
         ]
       },
       {
@@ -22789,8 +22781,7 @@
         "series": "https://jkanime.net/classicaloid/",
         "title": "ClassicaLoid",
         "samples": [
-          "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/9/"
+          "https://jkanime.net/classicaloid/14/"
         ]
       },
       {
@@ -25561,6 +25552,86 @@
         ]
       },
       {
+        "series": "https://jkanime.net/senki-zesshou-symphogear-gx/",
+        "title": "Senki Zesshou Symphogear GX",
+        "samples": [
+          "https://jkanime.net/senki-zesshou-symphogear-gx/1/",
+          "https://jkanime.net/senki-zesshou-symphogear-gx/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/classroomcrisis/",
+        "title": "Classroom☆Crisis",
+        "samples": [
+          "https://jkanime.net/classroomcrisis/1/",
+          "https://jkanime.net/classroomcrisis/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aoharu-x-kikanjuu/",
+        "title": "Aoharu x Kikanjuu",
+        "samples": [
+          "https://jkanime.net/aoharu-x-kikanjuu/1/",
+          "https://jkanime.net/aoharu-x-kikanjuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ushio-to-tora-tv/",
+        "title": "Ushio to Tora",
+        "samples": [
+          "https://jkanime.net/ushio-to-tora-tv/1/",
+          "https://jkanime.net/ushio-to-tora-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aquarion-logos/",
+        "title": "Aquarion Logos",
+        "samples": [
+          "https://jkanime.net/aquarion-logos/1/",
+          "https://jkanime.net/aquarion-logos/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gate/",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "samples": [
+          "https://jkanime.net/gate/1/",
+          "https://jkanime.net/gate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+        "samples": [
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
+        "title": "Miss Monochrome: The Animation 2",
+        "samples": [
+          "https://jkanime.net/miss-monochrome-the-animation-2/10/",
+          "https://jkanime.net/miss-monochrome-the-animation-2/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wakaba-girl/",
+        "title": "Wakaba*Girl",
+        "samples": [
+          "https://jkanime.net/wakaba-girl/1/",
+          "https://jkanime.net/wakaba-girl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-the-world-twinkle/",
+        "title": "Hetalia: The World Twinkle",
+        "samples": [
+          "https://jkanime.net/hetalia-the-world-twinkle/1/",
+          "https://jkanime.net/hetalia-the-world-twinkle/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/little-witch-academia-mahou-shikake-no-parade/",
         "title": "Little Witch Academia Movie",
         "samples": [
@@ -25568,10 +25639,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chaos-dragon-sekiryuu-seneki/",
+        "title": "Chaos Dragon: Sekiryuu Seneki",
+        "samples": [
+          "https://jkanime.net/chaos-dragon-sekiryuu-seneki/1/",
+          "https://jkanime.net/chaos-dragon-sekiryuu-seneki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ranpo-kitan-game-of-laplace/",
+        "title": "Ranpo Kitan: Game of Laplace",
+        "samples": [
+          "https://jkanime.net/ranpo-kitan-game-of-laplace/1/",
+          "https://jkanime.net/ranpo-kitan-game-of-laplace/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/joukamachi-no-dandelion/",
+        "title": "Joukamachi no Dandelion",
+        "samples": [
+          "https://jkanime.net/joukamachi-no-dandelion/1/",
+          "https://jkanime.net/joukamachi-no-dandelion/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sousei-no-aquarion-evol/",
         "title": "Sousei no Aquarion Evol",
         "samples": [
           "https://jkanime.net/sousei-no-aquarion-evol/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gangsta-/",
+        "title": "Gangsta.",
+        "samples": [
+          "https://jkanime.net/gangsta-/1/",
+          "https://jkanime.net/gangsta-/2/"
         ]
       },
       {
@@ -34269,7 +34372,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -58314,7 +58417,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -86851,18 +86954,17 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 23,
+      "stored": 24,
       "missing": [
-        "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/9/"
+        "https://jkanime.net/classicaloid/14/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 23,
-        "streamwish": 25,
-        "vidhide": 23
+        "mp4upload": 24,
+        "streamwish": 26,
+        "vidhide": 24
       },
       "playbackVerified": false
     },
@@ -93800,7 +93902,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 24,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -94710,19 +94812,15 @@
     {
       "series": "https://jkanime.net/durarara-x2-ten/",
       "title": "Durarara!!x2 Ten",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/durarara-x2-ten/13/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 12
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
@@ -94821,7 +94919,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 131,
       "families": {
         "mega": 131,
         "streamwish": 131,
@@ -94835,13 +94933,15 @@
     {
       "series": "https://jkanime.net/senki-zesshou-symphogear-gx/",
       "title": "Senki Zesshou Symphogear GX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94854,13 +94954,15 @@
     {
       "series": "https://jkanime.net/classroomcrisis/",
       "title": "Classroom☆Crisis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -94873,13 +94975,15 @@
     {
       "series": "https://jkanime.net/aoharu-x-kikanjuu/",
       "title": "Aoharu x Kikanjuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94892,13 +94996,15 @@
     {
       "series": "https://jkanime.net/ushio-to-tora-tv/",
       "title": "Ushio to Tora",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -94911,13 +95017,15 @@
     {
       "series": "https://jkanime.net/aquarion-logos/",
       "title": "Aquarion Logos",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -94931,13 +95039,15 @@
     {
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94950,13 +95060,15 @@
     {
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94969,32 +95081,36 @@
     {
       "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
       "title": "Miss Monochrome: The Animation 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/wakaba-girl/",
       "title": "Wakaba*Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -95007,13 +95123,15 @@
     {
       "series": "https://jkanime.net/hetalia-the-world-twinkle/",
       "title": "Hetalia: The World Twinkle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -95045,13 +95163,15 @@
     {
       "series": "https://jkanime.net/chaos-dragon-sekiryuu-seneki/",
       "title": "Chaos Dragon: Sekiryuu Seneki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95064,13 +95184,15 @@
     {
       "series": "https://jkanime.net/ranpo-kitan-game-of-laplace/",
       "title": "Ranpo Kitan: Game of Laplace",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -95083,13 +95205,15 @@
     {
       "series": "https://jkanime.net/joukamachi-no-dandelion/",
       "title": "Joukamachi no Dandelion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95121,13 +95245,15 @@
     {
       "series": "https://jkanime.net/gangsta-/",
       "title": "Gangsta.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103456,7 +103582,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mp4upload": 1
       },
@@ -117969,7 +118095,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
