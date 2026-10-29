@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-29T17:59:43.350362+00:00",
+  "checkedAt": "2026-10-29T18:12:49.217903+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73525,
-  "storedChapters": 71669,
+  "observedChapters": 73527,
+  "storedChapters": 71671,
   "missingChapters": 1856,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -2036,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/24/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/3/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/3/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/"
         ]
       },
       {
@@ -6126,6 +6126,13 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
+        "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
+        "samples": [
+          "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
         ]
       },
       {
@@ -22787,7 +22794,40 @@
         "series": "https://jkanime.net/sengoku-choujuu-giga/",
         "title": "Sengoku Choujuu Giga",
         "samples": [
-          "https://jkanime.net/sengoku-choujuu-giga/1/"
+          "https://jkanime.net/sengoku-choujuu-giga/1/",
+          "https://jkanime.net/sengoku-choujuu-giga/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/drifters/",
+        "title": "Drifters",
+        "samples": [
+          "https://jkanime.net/drifters/1/",
+          "https://jkanime.net/drifters/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ajin-2nd-season/",
+        "title": "Ajin 2nd Season",
+        "samples": [
+          "https://jkanime.net/ajin-2nd-season/1/",
+          "https://jkanime.net/ajin-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haikyuu-third-season/",
+        "title": "Haikyuu!! Third Season",
+        "samples": [
+          "https://jkanime.net/haikyuu-third-season/1/",
+          "https://jkanime.net/haikyuu-third-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-ga-motete-dousunda/",
+        "title": "Watashi ga Motete Dousunda",
+        "samples": [
+          "https://jkanime.net/watashi-ga-motete-dousunda/1/",
+          "https://jkanime.net/watashi-ga-motete-dousunda/10/"
         ]
       },
       {
@@ -72673,7 +72713,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mp4upload": 14,
         "mega": 3,
@@ -80027,9 +80067,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/24/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/3/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/4/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/5/",
@@ -80042,9 +80081,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 16,
-        "streamwish": 16,
-        "vidhide": 16
+        "mp4upload": 17,
+        "streamwish": 17,
+        "vidhide": 17
       },
       "playbackVerified": false
     },
@@ -84731,26 +84770,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 5,
       "families": {
-        "mega": 26,
+        "mega": 5,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/drifters/",
       "title": "Drifters",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -84763,13 +84804,15 @@
     {
       "series": "https://jkanime.net/ajin-2nd-season/",
       "title": "Ajin 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -84782,13 +84825,15 @@
     {
       "series": "https://jkanime.net/haikyuu-third-season/",
       "title": "Haikyuu!! Third Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -84801,13 +84846,15 @@
     {
       "series": "https://jkanime.net/watashi-ga-motete-dousunda/",
       "title": "Watashi ga Motete Dousunda",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -130601,10 +130648,14 @@
     {
       "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
       "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
-      "causes": [],
-      "observed": 3,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 4,
       "stored": 3,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -131588,19 +131639,19 @@
       "series": "https://jkanime.net/fx-senshi-kurumi-chan/",
       "title": "FX Senshi Kurumi-chan",
       "causes": [],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
+        "streamwish": 5,
+        "vidhide": 5,
         "mixdrop": 4,
         "streamtape": 4,
-        "mp4upload": 3
+        "mp4upload": 4
       },
       "playbackVerified": false
     },
