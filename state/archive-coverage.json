@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T22:05:00.912261+00:00",
+  "checkedAt": "2026-10-29T22:18:42.719245+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73535,
   "storedChapters": 71711,
@@ -26095,6 +26095,69 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/",
+        "title": "Nagato Yuki-chan no Shoushitsu",
+        "samples": [
+          "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/1/",
+          "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kekkai-sensen/",
+        "title": "Kekkai Sensen",
+        "samples": [
+          "https://jkanime.net/kekkai-sensen/1/",
+          "https://jkanime.net/kekkai-sensen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vampire-holmes/",
+        "title": "Vampire Holmes",
+        "samples": [
+          "https://jkanime.net/vampire-holmes/1/",
+          "https://jkanime.net/vampire-holmes/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama-ova/",
+        "title": "Gintama 2015",
+        "samples": [
+          "https://jkanime.net/gintama-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/re-kan/",
+        "title": "Re-Kan!",
+        "samples": [
+          "https://jkanime.net/re-kan/1/",
+          "https://jkanime.net/re-kan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/",
+        "title": "Oregairu 2",
+        "samples": [
+          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/1/",
+          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/",
+        "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken 2 Sure-me",
+        "samples": [
+          "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/1/",
+          "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinmai-maou-no-testament-specials/",
+        "title": "Shinmai Maou no Testament Specials",
+        "samples": [
+          "https://jkanime.net/shinmai-maou-no-testament-specials/1/",
+          "https://jkanime.net/shinmai-maou-no-testament-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/omoide-no-marnie/",
         "title": "Omoide no Marnie",
         "samples": [
@@ -26165,6 +26228,28 @@
         ]
       },
       {
+        "series": "https://jkanime.net/etotama/",
+        "title": "Etotama",
+        "samples": [
+          "https://jkanime.net/etotama/1/",
+          "https://jkanime.net/etotama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haikyuu-oad/",
+        "title": "Haikyuu!! OAD",
+        "samples": [
+          "https://jkanime.net/haikyuu-oad/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-the-origin/",
+        "title": "Mobile Suit Gundam: The Origin",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-the-origin/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/diabolik-lovers-ova/",
         "title": "Diabolik Lovers OVA",
         "samples": [
@@ -26195,6 +26280,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/anime-de-wakaru-shinryounaika/",
+        "title": "Anime de Wakaru Shinryounaika",
+        "samples": [
+          "https://jkanime.net/anime-de-wakaru-shinryounaika/1/",
+          "https://jkanime.net/anime-de-wakaru-shinryounaika/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/go-princess-precure/",
+        "title": "Go! Princess Precure",
+        "samples": [
+          "https://jkanime.net/go-princess-precure/1/",
+          "https://jkanime.net/go-princess-precure/13/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bokura-wa-minna-kawaisou-hajimete-no/",
         "title": "Bokura wa Minna Kawaisou: Hajimete no",
         "samples": [
@@ -26202,10 +26303,66 @@
         ]
       },
       {
+        "series": "https://jkanime.net/isuca/",
+        "title": "Isuca",
+        "samples": [
+          "https://jkanime.net/isuca/1/",
+          "https://jkanime.net/isuca/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-after/",
+        "title": "Hyakka Ryouran: Samurai After",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-after/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-after/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-after-specials/",
+        "title": "Hyakka Ryouran: Samurai After Specials",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-after-specials/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-after-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/pokemon-pikachu-kore-nan-no-kagi/",
         "title": "Pokemon XY: Pikachu, Kore Nan no Kagi?",
         "samples": [
           "https://jkanime.net/pokemon-pikachu-kore-nan-no-kagi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sengoku-musou/",
+        "title": "Sengoku Musou",
+        "samples": [
+          "https://jkanime.net/sengoku-musou/1/",
+          "https://jkanime.net/sengoku-musou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seiken-tsukai-no-world-break/",
+        "title": "Seiken Tsukai no World Break",
+        "samples": [
+          "https://jkanime.net/seiken-tsukai-no-world-break/1/",
+          "https://jkanime.net/seiken-tsukai-no-world-break/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yoru-no-yatterman/",
+        "title": "Yoru no Yatterman",
+        "samples": [
+          "https://jkanime.net/yoru-no-yatterman/1/",
+          "https://jkanime.net/yoru-no-yatterman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shounen-hollywood-holly-stage-for-50/",
+        "title": "Shounen Hollywood: Holly Stage for 50",
+        "samples": [
+          "https://jkanime.net/shounen-hollywood-holly-stage-for-50/2/",
+          "https://jkanime.net/shounen-hollywood-holly-stage-for-50/5/"
         ]
       },
       {
@@ -34751,7 +34908,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -44258,7 +44415,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 19,
         "vidhide": 16,
@@ -85423,7 +85580,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -87718,7 +87875,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -95852,7 +96009,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -96427,7 +96584,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mega": 22,
         "streamwish": 24,
@@ -96746,7 +96903,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -96759,13 +96916,15 @@
     {
       "series": "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/",
       "title": "Nagato Yuki-chan no Shoushitsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -96778,13 +96937,15 @@
     {
       "series": "https://jkanime.net/kekkai-sensen/",
       "title": "Kekkai Sensen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -96812,32 +96973,36 @@
     {
       "series": "https://jkanime.net/vampire-holmes/",
       "title": "Vampire Holmes",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
+        "mega": 6,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gintama-ova/",
       "title": "Gintama 2015",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -96850,13 +97015,15 @@
     {
       "series": "https://jkanime.net/re-kan/",
       "title": "Re-Kan!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96869,13 +97036,15 @@
     {
       "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/",
       "title": "Oregairu 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96888,13 +97057,15 @@
     {
       "series": "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/",
       "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken 2 Sure-me",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96907,13 +97078,15 @@
     {
       "series": "https://jkanime.net/shinmai-maou-no-testament-specials/",
       "title": "Shinmai Maou no Testament Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -97116,13 +97289,15 @@
     {
       "series": "https://jkanime.net/etotama/",
       "title": "Etotama",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -97135,13 +97310,15 @@
     {
       "series": "https://jkanime.net/haikyuu-oad/",
       "title": "Haikyuu!! OAD",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -97169,13 +97346,15 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-the-origin/",
       "title": "Mobile Suit Gundam: The Origin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -97265,38 +97444,42 @@
     {
       "series": "https://jkanime.net/anime-de-wakaru-shinryounaika/",
       "title": "Anime de Wakaru Shinryounaika",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 20,
+        "mega": 11,
         "streamwish": 20,
-        "vidhide": 20,
-        "mp4upload": 20,
-        "streamtape": 20
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
       "title": "Go! Princess Precure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 50,
+        "mega": 4,
         "streamwish": 50,
         "vidhide": 50,
         "mp4upload": 50,
-        "streamtape": 50
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -97322,13 +97505,15 @@
     {
       "series": "https://jkanime.net/isuca/",
       "title": "Isuca",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -97341,13 +97526,15 @@
     {
       "series": "https://jkanime.net/hyakka-ryouran-samurai-after/",
       "title": "Hyakka Ryouran: Samurai After",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -97360,13 +97547,15 @@
     {
       "series": "https://jkanime.net/hyakka-ryouran-samurai-after-specials/",
       "title": "Hyakka Ryouran: Samurai After Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -97398,32 +97587,36 @@
     {
       "series": "https://jkanime.net/sengoku-musou/",
       "title": "Sengoku Musou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 11,
+        "mega": 6,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/seiken-tsukai-no-world-break/",
       "title": "Seiken Tsukai no World Break",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -97436,13 +97629,15 @@
     {
       "series": "https://jkanime.net/yoru-no-yatterman/",
       "title": "Yoru no Yatterman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -97463,30 +97658,28 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shounen-hollywood-holly-stage-for-50/",
       "title": "Shounen Hollywood: Holly Stage for 50",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 13,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 9,
+        "vidhide": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
