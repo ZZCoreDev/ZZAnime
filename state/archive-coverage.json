@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T21:37:18.234827+00:00",
+  "checkedAt": "2026-10-29T21:51:14.055603+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73534,
   "storedChapters": 71711,
@@ -25674,7 +25674,23 @@
         "title": "Gangsta.",
         "samples": [
           "https://jkanime.net/gangsta-/1/",
-          "https://jkanime.net/gangsta-/2/"
+          "https://jkanime.net/gangsta-/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/okusama-ga-seitokaichou/",
+        "title": "Okusama ga Seitokaichou!",
+        "samples": [
+          "https://jkanime.net/okusama-ga-seitokaichou/1/",
+          "https://jkanime.net/okusama-ga-seitokaichou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-love-ru-darkness-2nd/",
+        "title": "To LOVE-Ru Darkness 2nd",
+        "samples": [
+          "https://jkanime.net/to-love-ru-darkness-2nd/1/",
+          "https://jkanime.net/to-love-ru-darkness-2nd/10/"
         ]
       },
       {
@@ -25689,6 +25705,21 @@
         "title": "Gatchaman Crowds Insight: Inbound",
         "samples": [
           "https://jkanime.net/gatchaman-crowds-insight-inbound/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-xy-pikachu-the-movie-1-jikan-special/",
+        "title": "Pokemon XY: Cosplay Pikachu Special",
+        "samples": [
+          "https://jkanime.net/pokemon-xy-pikachu-the-movie-1-jikan-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hibike-euphonium-specials/",
+        "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
+        "samples": [
+          "https://jkanime.net/hibike-euphonium-specials/1/",
+          "https://jkanime.net/hibike-euphonium-specials/2/"
         ]
       },
       {
@@ -25713,6 +25744,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/robot-girls-z-plus/",
+        "title": "Robot Girls Z Plus",
+        "samples": [
+          "https://jkanime.net/robot-girls-z-plus/1/",
+          "https://jkanime.net/robot-girls-z-plus/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shigatsu-wa-kimi-no-uso-ova/",
         "title": "Shigatsu wa Kimi no Uso: Moments",
         "samples": [
@@ -25732,6 +25771,14 @@
         "title": "Ansatsu Kyoushitsu (TV): Deai no Jikan",
         "samples": [
           "https://jkanime.net/ansatsu-kyoushitsu-tv-deai-no-jikan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grisaia-no-rakuen/",
+        "title": "Grisaia no Rakuen",
+        "samples": [
+          "https://jkanime.net/grisaia-no-rakuen/1/",
+          "https://jkanime.net/grisaia-no-rakuen/10/"
         ]
       },
       {
@@ -25764,6 +25811,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yamada-kun-to-7-nin-no-majo-tv/",
+        "title": "Yamada-kun to 7-nin no Majo (TV)",
+        "samples": [
+          "https://jkanime.net/yamada-kun-to-7-nin-no-majo-tv/5/",
+          "https://jkanime.net/yamada-kun-to-7-nin-no-majo-tv/8/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/grisaia-no-meikyuu/",
         "title": "Grisaia no Meikyuu",
         "samples": [
@@ -25771,10 +25826,106 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/",
+        "title": "Sidonia no Kishi S2",
+        "samples": [
+          "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/1/",
+          "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
+        "title": "Saint Seiya: Soul of Gold",
+        "samples": [
+          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
+          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/punchline/",
+        "title": "Punchline",
+        "samples": [
+          "https://jkanime.net/punchline/1/",
+          "https://jkanime.net/punchline/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/urawa-no-usagi-chan/",
+        "title": "Urawa no Usagi-chan",
+        "samples": [
+          "https://jkanime.net/urawa-no-usagi-chan/1/",
+          "https://jkanime.net/urawa-no-usagi-chan/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama-2015/",
+        "title": "Gintama° 2015",
+        "samples": [
+          "https://jkanime.net/gintama-2015/1/",
+          "https://jkanime.net/gintama-2015/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/triage-x/",
+        "title": "Triage X",
+        "samples": [
+          "https://jkanime.net/triage-x/1/",
+          "https://jkanime.net/triage-x/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-monogatari/",
+        "title": "Ore Monogatari!!",
+        "samples": [
+          "https://jkanime.net/ore-monogatari/1/",
+          "https://jkanime.net/ore-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/houkago-no-pleiades-tv/",
+        "title": "Houkago no Pleiades (TV)",
+        "samples": [
+          "https://jkanime.net/houkago-no-pleiades-tv/1/",
+          "https://jkanime.net/houkago-no-pleiades-tv/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ai-mai-mii-mousou-catastrophe-special/",
         "title": "Ai Mai Mii: Mousou Catastrophe Special",
         "samples": [
           "https://jkanime.net/ai-mai-mii-mousou-catastrophe-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hibike-euphonium/",
+        "title": "Hibike! Euphonium",
+        "samples": [
+          "https://jkanime.net/hibike-euphonium/1/",
+          "https://jkanime.net/hibike-euphonium/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/diamond-no-ace-second-season/",
+        "title": "Diamond no Ace S2",
+        "samples": [
+          "https://jkanime.net/diamond-no-ace-second-season/1/",
+          "https://jkanime.net/diamond-no-ace-second-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mikagura-gakuen-kumikyoku/",
+        "title": "Mikagura Gakuen Kumikyoku",
+        "samples": [
+          "https://jkanime.net/mikagura-gakuen-kumikyoku/1/",
+          "https://jkanime.net/mikagura-gakuen-kumikyoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaitou-joker-2nd-season/",
+        "title": "Kaitou Joker 2",
+        "samples": [
+          "https://jkanime.net/kaitou-joker-2nd-season/1/",
+          "https://jkanime.net/kaitou-joker-2nd-season/2/"
         ]
       },
       {
@@ -28959,6 +29110,7 @@
         "series": "https://jkanime.net/shiguang-dailiren-iii/",
         "title": "Shiguang Dailiren III",
         "samples": [
+          "https://jkanime.net/shiguang-dailiren-iii/11/",
           "https://jkanime.net/shiguang-dailiren-iii/12/"
         ]
       },
@@ -29002,7 +29154,8 @@
         "series": "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/",
         "title": "Douluo Dalu II: Jueshi Tangmen",
         "samples": [
-          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/175/"
+          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/170/",
+          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/172/"
         ]
       },
       {
@@ -43938,7 +44091,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 19,
         "vidhide": 16,
@@ -58417,7 +58570,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -73644,7 +73797,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -95253,7 +95406,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95266,13 +95419,15 @@
     {
       "series": "https://jkanime.net/okusama-ga-seitokaichou/",
       "title": "Okusama ga Seitokaichou!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95285,13 +95440,15 @@
     {
       "series": "https://jkanime.net/to-love-ru-darkness-2nd/",
       "title": "To LOVE-Ru Darkness 2nd",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -95358,13 +95515,15 @@
     {
       "series": "https://jkanime.net/pokemon-xy-pikachu-the-movie-1-jikan-special/",
       "title": "Pokemon XY: Cosplay Pikachu Special",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -95385,24 +95544,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hibike-euphonium-specials/",
       "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -95472,13 +95629,15 @@
     {
       "series": "https://jkanime.net/robot-girls-z-plus/",
       "title": "Robot Girls Z Plus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -95552,13 +95711,15 @@
     {
       "series": "https://jkanime.net/grisaia-no-rakuen/",
       "title": "Grisaia no Rakuen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -95671,19 +95832,21 @@
     {
       "series": "https://jkanime.net/yamada-kun-to-7-nin-no-majo-tv/",
       "title": "Yamada-kun to 7-nin no Majo (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 13,
+        "streamwish": 13,
+        "vidhide": 13,
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -95709,13 +95872,15 @@
     {
       "series": "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/",
       "title": "Sidonia no Kishi S2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95728,13 +95893,15 @@
     {
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -95747,13 +95914,15 @@
     {
       "series": "https://jkanime.net/punchline/",
       "title": "Punchline",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95766,32 +95935,36 @@
     {
       "series": "https://jkanime.net/urawa-no-usagi-chan/",
       "title": "Urawa no Usagi-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gintama-2015/",
       "title": "Gintama° 2015",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 50,
         "streamwish": 51,
@@ -95804,13 +95977,15 @@
     {
       "series": "https://jkanime.net/triage-x/",
       "title": "Triage X",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -95823,13 +95998,15 @@
     {
       "series": "https://jkanime.net/ore-monogatari/",
       "title": "Ore Monogatari!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -95842,13 +96019,15 @@
     {
       "series": "https://jkanime.net/houkago-no-pleiades-tv/",
       "title": "Houkago no Pleiades (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95880,13 +96059,15 @@
     {
       "series": "https://jkanime.net/hibike-euphonium/",
       "title": "Hibike! Euphonium",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -95900,13 +96081,15 @@
     {
       "series": "https://jkanime.net/diamond-no-ace-second-season/",
       "title": "Diamond no Ace S2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -95919,13 +96102,15 @@
     {
       "series": "https://jkanime.net/mikagura-gakuen-kumikyoku/",
       "title": "Mikagura Gakuen Kumikyoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -95938,13 +96123,15 @@
     {
       "series": "https://jkanime.net/kaitou-joker-2nd-season/",
       "title": "Kaitou Joker 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134614,7 +134801,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135038,7 +135225,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mega": 172,
         "streamwish": 173,
