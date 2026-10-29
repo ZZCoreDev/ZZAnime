@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T00:47:14.098082+00:00",
+  "checkedAt": "2026-10-29T01:01:25.415610+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73480,
   "storedChapters": 71450,
@@ -15883,10 +15883,129 @@
         ]
       },
       {
+        "series": "https://jkanime.net/log-horizon-entaku-houkai/",
+        "title": "Log Horizon: Entaku Houkai",
+        "samples": [
+          "https://jkanime.net/log-horizon-entaku-houkai/1/",
+          "https://jkanime.net/log-horizon-entaku-houkai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaifuku-jutsushi-no-yarinaoshi/",
+        "title": "Kaifuku Jutsushi no Yarinaoshi",
+        "samples": [
+          "https://jkanime.net/kaifuku-jutsushi-no-yarinaoshi/1/",
+          "https://jkanime.net/kaifuku-jutsushi-no-yarinaoshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/world-witches-hasshin-shimasu/",
+        "title": "World Witches Hasshin Shimasu!",
+        "samples": [
+          "https://jkanime.net/world-witches-hasshin-shimasu/1/",
+          "https://jkanime.net/world-witches-hasshin-shimasu/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dogeza-de-tanondemita-isekai-hen/",
         "title": "Dogeza de Tanondemita: Isekai-hen",
         "samples": [
           "https://jkanime.net/dogeza-de-tanondemita-isekai-hen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wave-surfing-yappe-tv/",
+        "title": "Wave!!: Surfing Yappe!! (TV)",
+        "samples": [
+          "https://jkanime.net/wave-surfing-yappe-tv/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/azur-lane-bisoku-zenshin/",
+        "title": "Azur Lane: Bisoku Zenshin!",
+        "samples": [
+          "https://jkanime.net/azur-lane-bisoku-zenshin/1/",
+          "https://jkanime.net/azur-lane-bisoku-zenshin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu/",
+        "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+        "samples": [
+          "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu/1/",
+          "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/non-non-biyori-nonstop/",
+        "title": "Non Non Biyori Nonstop",
+        "samples": [
+          "https://jkanime.net/non-non-biyori-nonstop/1/",
+          "https://jkanime.net/non-non-biyori-nonstop/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ex-arm/",
+        "title": "Ex-Arm",
+        "samples": [
+          "https://jkanime.net/ex-arm/1/",
+          "https://jkanime.net/ex-arm/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-shibai-8/",
+        "title": "Yami Shibai 8",
+        "samples": [
+          "https://jkanime.net/yami-shibai-8/1/",
+          "https://jkanime.net/yami-shibai-8/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hataraku-saibou-black-tv/",
+        "title": "Hataraku Saibou Black (TV)",
+        "samples": [
+          "https://jkanime.net/hataraku-saibou-black-tv/1/",
+          "https://jkanime.net/hataraku-saibou-black-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/world-trigger-2nd-season/",
+        "title": "World Trigger 2nd Season",
+        "samples": [
+          "https://jkanime.net/world-trigger-2nd-season/1/",
+          "https://jkanime.net/world-trigger-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kai-byoui-ramune/",
+        "title": "Kai Byoui Ramune",
+        "samples": [
+          "https://jkanime.net/kai-byoui-ramune/1/",
+          "https://jkanime.net/kai-byoui-ramune/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/horimiya/",
+        "title": "Horimiya",
+        "samples": [
+          "https://jkanime.net/horimiya/1/",
+          "https://jkanime.net/horimiya/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sk/",
+        "title": "SK∞",
+        "samples": [
+          "https://jkanime.net/sk/1/",
+          "https://jkanime.net/sk/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kemono-jihen/",
+        "title": "Kemono Jihen",
+        "samples": [
+          "https://jkanime.net/kemono-jihen/1/",
+          "https://jkanime.net/kemono-jihen/2/"
         ]
       },
       {
@@ -57220,32 +57339,36 @@
     {
       "series": "https://jkanime.net/log-horizon-entaku-houkai/",
       "title": "Log Horizon: Entaku Houkai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kaifuku-jutsushi-no-yarinaoshi/",
       "title": "Kaifuku Jutsushi no Yarinaoshi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57258,19 +57381,21 @@
     {
       "series": "https://jkanime.net/world-witches-hasshin-shimasu/",
       "title": "World Witches Hasshin Shimasu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12,
-        "mega": 11
+        "streamtape": 11,
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -57304,43 +57429,45 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
+        "mp4upload": 9,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/wave-surfing-yappe-tv/",
       "title": "Wave!!: Surfing Yappe!! (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/azur-lane-bisoku-zenshin/",
       "title": "Azur Lane: Bisoku Zenshin!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57353,13 +57480,15 @@
     {
       "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu/",
       "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -57372,51 +57501,57 @@
     {
       "series": "https://jkanime.net/non-non-biyori-nonstop/",
       "title": "Non Non Biyori Nonstop",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ex-arm/",
       "title": "Ex-Arm",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mega": 4,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yami-shibai-8/",
       "title": "Yami Shibai 8",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -57437,24 +57572,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 12,
+        "vidhide": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hataraku-saibou-black-tv/",
       "title": "Hataraku Saibou Black (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -57467,13 +57602,15 @@
     {
       "series": "https://jkanime.net/world-trigger-2nd-season/",
       "title": "World Trigger 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57486,13 +57623,15 @@
     {
       "series": "https://jkanime.net/kai-byoui-ramune/",
       "title": "Kai Byoui Ramune",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57505,13 +57644,15 @@
     {
       "series": "https://jkanime.net/horimiya/",
       "title": "Horimiya",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -57525,13 +57666,15 @@
     {
       "series": "https://jkanime.net/sk/",
       "title": "SK∞",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -57544,13 +57687,15 @@
     {
       "series": "https://jkanime.net/kemono-jihen/",
       "title": "Kemono Jihen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
