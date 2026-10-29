@@ -22,7 +22,7 @@
     ]
   },
   "renewal-error": {
-    "series": 1872,
+    "series": 1894,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -64,7 +64,7 @@
     ]
   },
   "no-observed-listing": {
-    "series": 52,
+    "series": 51,
     "twoSeriesProofRequired": true,
     "samples": [
       {

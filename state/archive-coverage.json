@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-29T05:31:38.414854+00:00",
+  "checkedAt": "2026-10-29T05:49:57.484697+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73495,
-  "storedChapters": 71450,
-  "missingChapters": 2045,
+  "observedChapters": 73500,
+  "storedChapters": 71459,
+  "missingChapters": 2041,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
-  "seriesWithoutObservedListing": 52,
+  "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -361,7 +361,6 @@
         "series": "https://jkanime.net/enen-no-shouboutai-san-no-shou/",
         "title": "Enen no Shouboutai: San no Shou",
         "samples": [
-          "https://jkanime.net/enen-no-shouboutai-san-no-shou/24/",
           "https://jkanime.net/enen-no-shouboutai-san-no-shou/25/"
         ]
       },
@@ -434,8 +433,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/25/",
-          "https://jkanime.net/dr-stone-science-future/26/"
+          "https://jkanime.net/dr-stone-science-future/26/",
+          "https://jkanime.net/dr-stone-science-future/27/"
         ]
       },
       {
@@ -986,8 +985,8 @@
         "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
         "title": "Bastard!! Ankoku no Hakaishin (ONA)",
         "samples": [
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/15/",
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/16/"
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/16/",
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/"
         ]
       },
       {
@@ -2267,8 +2266,8 @@
         "series": "https://jkanime.net/classicaloid-2nd-season/",
         "title": "ClassicaLoid 2nd Season",
         "samples": [
-          "https://jkanime.net/classicaloid-2nd-season/22/",
-          "https://jkanime.net/classicaloid-2nd-season/23/"
+          "https://jkanime.net/classicaloid-2nd-season/23/",
+          "https://jkanime.net/classicaloid-2nd-season/24/"
         ]
       },
       {
@@ -7957,7 +7956,6 @@
         "series": "https://jkanime.net/enen-no-shouboutai-san-no-shou/",
         "title": "Enen no Shouboutai: San no Shou",
         "samples": [
-          "https://jkanime.net/enen-no-shouboutai-san-no-shou/24/",
           "https://jkanime.net/enen-no-shouboutai-san-no-shou/25/"
         ]
       },
@@ -8226,8 +8224,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/25/",
-          "https://jkanime.net/dr-stone-science-future/26/"
+          "https://jkanime.net/dr-stone-science-future/26/",
+          "https://jkanime.net/dr-stone-science-future/27/"
         ]
       },
       {
@@ -13364,6 +13362,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/15/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/love-live-superstar-2nd-season/",
         "title": "Love Live! Superstar!! 2nd Season",
         "samples": [
@@ -13716,8 +13722,8 @@
         "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
         "title": "Bastard!! Ankoku no Hakaishin (ONA)",
         "samples": [
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/15/",
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/16/"
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/16/",
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/"
         ]
       },
       {
@@ -18779,6 +18785,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no/",
+        "title": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+        "samples": [
+          "https://jkanime.net/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no/1/",
+          "https://jkanime.net/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-score-girl-extra-stage/",
+        "title": "High Score Girl: Extra Stage",
+        "samples": [
+          "https://jkanime.net/high-score-girl-extra-stage/1/",
+          "https://jkanime.net/high-score-girl-extra-stage/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grisaia-phantom-trigger-the-animation/",
+        "title": "Grisaia: Phantom Trigger The Animation",
+        "samples": [
+          "https://jkanime.net/grisaia-phantom-trigger-the-animation/1/",
+          "https://jkanime.net/grisaia-phantom-trigger-the-animation/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
+        "title": "Otona no Bouguya-san (Rimen)",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-rimen/1/",
+          "https://jkanime.net/otona-no-bouguya-san-rimen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/code-geass-fukkatsu-no-lelouch/",
         "title": "Code Geass: Fukkatsu no Lelouch",
         "samples": [
@@ -18798,6 +18836,141 @@
         "samples": [
           "https://jkanime.net/fight-league-gear-gadget-generators/1/",
           "https://jkanime.net/fight-league-gear-gadget-generators/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/piano-no-mori-tv-2nd-season/",
+        "title": "Piano no Mori (TV) 2nd Season",
+        "samples": [
+          "https://jkanime.net/piano-no-mori-tv-2nd-season/1/",
+          "https://jkanime.net/piano-no-mori-tv-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wei-kanjian-erduo-la-2/",
+        "title": "Wei, Kanjian Erduo La! 2",
+        "samples": [
+          "https://jkanime.net/wei-kanjian-erduo-la-2/1/",
+          "https://jkanime.net/wei-kanjian-erduo-la-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kemono-friends-2/",
+        "title": "Kemono Friends 2",
+        "samples": [
+          "https://jkanime.net/kemono-friends-2/1/",
+          "https://jkanime.net/kemono-friends-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/virtual-san-wa-miteiru/",
+        "title": "Virtual-san wa Miteiru",
+        "samples": [
+          "https://jkanime.net/virtual-san-wa-miteiru/7/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kouya-no-kotobuki-hikoutai/",
+        "title": "Kouya no Kotobuki Hikoutai",
+        "samples": [
+          "https://jkanime.net/kouya-no-kotobuki-hikoutai/1/",
+          "https://jkanime.net/kouya-no-kotobuki-hikoutai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen/",
+        "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+        "samples": [
+          "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen/1/",
+          "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/endro/",
+        "title": "Endro~!",
+        "samples": [
+          "https://jkanime.net/endro/1/",
+          "https://jkanime.net/endro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/date-a-live-iii/",
+        "title": "Date A Live Ⅲ",
+        "samples": [
+          "https://jkanime.net/date-a-live-iii/1/",
+          "https://jkanime.net/date-a-live-iii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-tokushusen-asuka/",
+        "title": "Mahou Shoujo Tokushusen Asuka",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-tokushusen-asuka/1/",
+          "https://jkanime.net/mahou-shoujo-tokushusen-asuka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/domestic-na-kanojo/",
+        "title": "Domestic na Kanojo",
+        "samples": [
+          "https://jkanime.net/domestic-na-kanojo/1/",
+          "https://jkanime.net/domestic-na-kanojo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grimms-notes-the-animation/",
+        "title": "Grimms Notes The Animation",
+        "samples": [
+          "https://jkanime.net/grimms-notes-the-animation/1/",
+          "https://jkanime.net/grimms-notes-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girly-air-force/",
+        "title": "Girly Air Force",
+        "samples": [
+          "https://jkanime.net/girly-air-force/1/",
+          "https://jkanime.net/girly-air-force/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gotoubun-no-hanayome/",
+        "title": "Gotoubun no Hanayome",
+        "samples": [
+          "https://jkanime.net/gotoubun-no-hanayome/1/",
+          "https://jkanime.net/gotoubun-no-hanayome/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tate-no-yuusha-no-nariagari/",
+        "title": "Tate no Yuusha no Nariagari",
+        "samples": [
+          "https://jkanime.net/tate-no-yuusha-no-nariagari/1/",
+          "https://jkanime.net/tate-no-yuusha-no-nariagari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yakusoku-no-neverland/",
+        "title": "Yakusoku no Neverland",
+        "samples": [
+          "https://jkanime.net/yakusoku-no-neverland/1/",
+          "https://jkanime.net/yakusoku-no-neverland/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meiji-tokyo-renka/",
+        "title": "Meiji Tokyo Renka",
+        "samples": [
+          "https://jkanime.net/meiji-tokyo-renka/1/",
+          "https://jkanime.net/meiji-tokyo-renka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/doukyonin-wa-hiza-tokidoki-atama-no-ue/",
+        "title": "Doukyonin wa Hiza, Tokidoki, Atama no Ue.",
+        "samples": [
+          "https://jkanime.net/doukyonin-wa-hiza-tokidoki-atama-no-ue/1/",
+          "https://jkanime.net/doukyonin-wa-hiza-tokidoki-atama-no-ue/10/"
         ]
       },
       {
@@ -26668,11 +26841,6 @@
       {
         "series": "https://jkanime.net/cardfight-vanguard-divinez-unmei-seisen-hen/",
         "title": "Cardfight!! Vanguard: Divinez Unmei Seisen-hen",
-        "samples": []
-      },
-      {
-        "series": "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/",
-        "title": "Chitose-kun wa Ramune Bin no Naka Part 2",
         "samples": []
       },
       {
@@ -35176,9 +35344,8 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 23,
+      "stored": 24,
       "missing": [
-        "https://jkanime.net/enen-no-shouboutai-san-no-shou/24/",
         "https://jkanime.net/enen-no-shouboutai-san-no-shou/25/"
       ],
       "expired": [],
@@ -35186,8 +35353,8 @@
       "renewalFailed": 1,
       "families": {
         "vidhide": 13,
-        "mp4upload": 22,
-        "streamwish": 16,
+        "mp4upload": 23,
+        "streamwish": 17,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -36281,9 +36448,8 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 24,
+      "stored": 25,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/25/",
         "https://jkanime.net/dr-stone-science-future/26/",
         "https://jkanime.net/dr-stone-science-future/27/",
         "https://jkanime.net/dr-stone-science-future/28/",
@@ -36301,9 +36467,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 16,
+        "streamwish": 17,
         "vidhide": 16,
-        "mp4upload": 21,
+        "mp4upload": 22,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -52010,7 +52176,8 @@
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/",
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 22,
       "stored": 13,
@@ -52027,7 +52194,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 10,
         "streamwish": 11,
@@ -52983,9 +53150,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/15/",
         "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/16/",
         "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/",
         "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/",
@@ -53000,7 +53166,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -58516,7 +58682,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -59437,7 +59603,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 12,
         "vidhide": 3,
@@ -67397,7 +67563,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 12,
         "mega": 3,
@@ -68424,26 +68590,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 46,
       "families": {
-        "mega": 50,
+        "mega": 46,
         "streamwish": 52,
         "vidhide": 52,
         "mp4upload": 52,
-        "streamtape": 50
+        "streamtape": 46
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no/",
       "title": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -68489,13 +68657,15 @@
     {
       "series": "https://jkanime.net/high-score-girl-extra-stage/",
       "title": "High Score Girl: Extra Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -68508,13 +68678,15 @@
     {
       "series": "https://jkanime.net/grisaia-phantom-trigger-the-animation/",
       "title": "Grisaia: Phantom Trigger The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -68546,13 +68718,15 @@
     {
       "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
       "title": "Otona no Bouguya-san (Rimen)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -68684,13 +68858,15 @@
     {
       "series": "https://jkanime.net/piano-no-mori-tv-2nd-season/",
       "title": "Piano no Mori (TV) 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68739,13 +68915,15 @@
     {
       "series": "https://jkanime.net/wei-kanjian-erduo-la-2/",
       "title": "Wei, Kanjian Erduo La! 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68758,13 +68936,15 @@
     {
       "series": "https://jkanime.net/kemono-friends-2/",
       "title": "Kemono Friends 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68792,19 +68972,21 @@
     {
       "series": "https://jkanime.net/virtual-san-wa-miteiru/",
       "title": "Virtual-san wa Miteiru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -68819,24 +69001,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kouya-no-kotobuki-hikoutai/",
       "title": "Kouya no Kotobuki Hikoutai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68849,13 +69029,15 @@
     {
       "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen/",
       "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68868,13 +69050,15 @@
     {
       "series": "https://jkanime.net/endro/",
       "title": "Endro~!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68895,24 +69079,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 11,
+        "streamwish": 11,
+        "vidhide": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/date-a-live-iii/",
       "title": "Date A Live Ⅲ",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68925,13 +69109,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-tokushusen-asuka/",
       "title": "Mahou Shoujo Tokushusen Asuka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68944,13 +69130,15 @@
     {
       "series": "https://jkanime.net/domestic-na-kanojo/",
       "title": "Domestic na Kanojo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68963,13 +69151,15 @@
     {
       "series": "https://jkanime.net/grimms-notes-the-animation/",
       "title": "Grimms Notes The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -68982,13 +69172,15 @@
     {
       "series": "https://jkanime.net/girly-air-force/",
       "title": "Girly Air Force",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -69001,13 +69193,15 @@
     {
       "series": "https://jkanime.net/gotoubun-no-hanayome/",
       "title": "Gotoubun no Hanayome",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -69020,13 +69214,15 @@
     {
       "series": "https://jkanime.net/tate-no-yuusha-no-nariagari/",
       "title": "Tate no Yuusha no Nariagari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -69039,13 +69235,15 @@
     {
       "series": "https://jkanime.net/yakusoku-no-neverland/",
       "title": "Yakusoku no Neverland",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -69058,13 +69256,15 @@
     {
       "series": "https://jkanime.net/meiji-tokyo-renka/",
       "title": "Meiji Tokyo Renka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -69077,13 +69277,15 @@
     {
       "series": "https://jkanime.net/doukyonin-wa-hiza-tokidoki-atama-no-ue/",
       "title": "Doukyonin wa Hiza, Tokidoki, Atama no Ue.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -74182,9 +74384,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 25,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/classicaloid-2nd-season/22/",
         "https://jkanime.net/classicaloid-2nd-season/23/",
         "https://jkanime.net/classicaloid-2nd-season/24/",
         "https://jkanime.net/classicaloid-2nd-season/25/",
@@ -74201,7 +74402,7 @@
       "renewalFailed": 0,
       "families": {
         "mp4upload": 13,
-        "streamwish": 14,
+        "streamwish": 15,
         "vidhide": 13
       },
       "playbackVerified": false
@@ -124236,16 +124437,21 @@
     {
       "series": "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/",
       "title": "Chitose-kun wa Ramune Bin no Naka Part 2",
-      "causes": [
-        "no-observed-listing"
-      ],
-      "observed": 0,
-      "stored": 0,
+      "causes": [],
+      "observed": 1,
+      "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "mp4upload": 1,
+        "streamtape": 1
+      },
       "playbackVerified": false
     },
     {
@@ -124516,19 +124722,19 @@
       "series": "https://jkanime.net/sasaki-to-pii-chan-season-2/",
       "title": "Sasaki to Pii-chan Season 2",
       "causes": [],
-      "observed": 3,
-      "stored": 3,
+      "observed": 4,
+      "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 2
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "mixdrop": 4,
+        "mp4upload": 4,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -124576,19 +124782,19 @@
       "series": "https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/",
       "title": "Sekai Saikyou no Majo, Hajimemashita",
       "causes": [],
-      "observed": 3,
-      "stored": 3,
+      "observed": 4,
+      "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 2
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "mixdrop": 4,
+        "mp4upload": 4,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -125022,19 +125228,19 @@
       "series": "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/",
       "title": "Mahou no Shimai Lulutto Lilly Part 2",
       "causes": [],
-      "observed": 2,
-      "stored": 2,
+      "observed": 3,
+      "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -125858,18 +126064,18 @@
       "series": "https://jkanime.net/koupen-chan/",
       "title": "Koupen-chan",
       "causes": [],
-      "observed": 81,
-      "stored": 81,
+      "observed": 82,
+      "stored": 82,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 81,
-        "streamwish": 81,
-        "vidhide": 81,
-        "mixdrop": 81,
-        "mp4upload": 81,
+        "mega": 82,
+        "streamwish": 82,
+        "vidhide": 82,
+        "mixdrop": 82,
+        "mp4upload": 82,
         "streamtape": 81
       },
       "playbackVerified": false
