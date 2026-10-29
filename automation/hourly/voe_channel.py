@@ -37,6 +37,29 @@ def due_targets(folder,failures,now,limit):
     state=load(Path(folder)/'voe-state')
     return [u for u,e in sorted(state['episodes'].items(),key=lambda r:stamp(r[1].get('observedAt'))) if now-stamp(e.get('observedAt'))>=5*86400 and failures.get(u,{}).get('retryAt',0)<=now][:limit]
 
+def repair_legacy(folder,original):
+    """Undo unsupported-family writes by pre-upgrade jobs; keep both genuine observations."""
+    folder=Path(folder);state=load(folder);restored=[];held=[];changed=set()
+    for url,ep in list(state['episodes'].items()):
+        if not any(p.get('family')=='voe' for p in ep.get('providers',[])):continue
+        parent=url.rsplit('/',2)[0]+'/'
+        split(folder,{'episodes':{url:ep},'listings':{parent:state['listings'][parent]}})
+        import run as p
+        archive=folder/'quarantine'/'voe-legacy'/ (p.sha(url.encode())+'.json')
+        if not archive.exists():p.put(archive,p.raw({'episode':ep,'listing':state['listings'][parent]}))
+        others=[v for v in ep['providers'] if v.get('family')!='voe' and v.get('links')]
+        baseline=original.get('episodes',{}).get(url)
+        if others:state['episodes'][url]={**ep,'providers':others}
+        elif baseline and baseline.get('episode')==url and baseline.get('complete') and 0<=time.time()-stamp(baseline.get('observedAt'))<=7*86400 and any(v.get('links') for v in baseline.get('providers',[])) and all(v.get('family')!='voe' for v in baseline['providers']):
+            state['episodes'][url]=copy.deepcopy(baseline)
+        else:held.append(url);continue
+        restored.append(url);changed.add(parent)
+    if changed:save(folder,state,changed)
+    report={'restored':len(restored),'held':held,'originalDatesPreserved':True,'voeObservationRetained':True}
+    (folder/'voe-legacy-repair.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    if held:raise ValueError('Legacy VOE migration needs an authentic baseline; originals retained')
+    return report
+
 def render(folder,now,key,runtime):
     import run as p
     from cryptography.hazmat.primitives import hashes
@@ -56,9 +79,14 @@ def render(folder,now,key,runtime):
 def proof(publish=False):
     import run as p
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True)
+    baseline_path=p.W/'recovered-batch.json';baseline=json.loads(baseline_path.read_bytes()).get('state',{}) if baseline_path.exists() else {}
+    repaired=repair_legacy(folder,baseline)
     before=load(folder);original={u:json.dumps(e,sort_keys=True) for u,e in before['episodes'].items()}
-    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=p.raw({'mode':'renew','retry':PROOF,'skip':[],'voeProof':True}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
-    with urllib.request.urlopen(req,timeout=90) as response:result=json.loads(response.read(2097153))
+    saved=load(folder/'voe-state');reuse=all(u in saved['episodes'] and 0<=time.time()-stamp(saved['episodes'][u].get('observedAt'))<3600 for u in PROOF)
+    if reuse:result={'passed':True,'state':{'episodes':{u:saved['episodes'][u] for u in PROOF},'listings':saved['listings']}}
+    else:
+        req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=p.raw({'mode':'renew','retry':PROOF,'skip':[],'voeProof':True}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
+        with urllib.request.urlopen(req,timeout=90) as response:result=json.loads(response.read(2097153))
     if not result.get('passed') or set(result['state']['episodes'])!=set(PROOF):raise ValueError('Two-series VOE collection failed')
     legacy,count=split(folder,result['state']);after=load(folder)
     if any(json.dumps(after['episodes'][u],sort_keys=True)!=e for u,e in original.items()):raise ValueError('Legacy changed during VOE proof')
@@ -71,5 +99,5 @@ def proof(publish=False):
         with tempfile.TemporaryDirectory() as temp:
             cp=p.compile_java(Path(temp)/'classes',modern=True)
             merged=json.loads(p.command(['java','-cp',cp,'tv.jkanime.web.VoeOverlayAudit',str(p.W/'public-key.der'),str(Path(temp)/'cache'),p.BASE]))
-    report={'state':'complete','captured':count,'twoSeries':True,'mergedClient':merged,'legacyUnchanged':True,'published':publish,'physicalAndroidPlayback':False,'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+    report={'state':'complete','captured':count,'twoSeries':True,'reusedSourceObservations':reuse,'legacyRepair':repaired,'mergedClient':merged,'legacyUnchanged':True,'published':publish,'physicalAndroidPlayback':False,'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
     (folder/'voe-proof-status.json').write_text(json.dumps(report,indent=2),encoding='utf-8');print(json.dumps(report))

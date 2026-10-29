@@ -38,5 +38,11 @@ class VoeChannelTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    source=self.fixture(PROOF[0]);source['episodes'][PROOF[0]]['observedAt']=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=5.5)).isoformat();save(Path(d)/'voe-state',source)
    self.assertEqual(due_targets(d,{},time.time(),1),[PROOF[0]]);self.assertEqual(due_targets(d,{PROOF[0]:{'retryAt':time.time()+60}},time.time(),1),[])
+ def test_pre_upgrade_write_restored_without_freshening_or_losing_voe(self):
+  from voe_channel import repair_legacy
+  from archive_state import save
+  with tempfile.TemporaryDirectory() as d:
+   source=self.fixture(PROOF[0]);baseline=copy.deepcopy(source);ep=baseline['episodes'][PROOF[0]];ep['observedAt']=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(hours=2)).isoformat();ep['providers']=[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-original.html']}];save(Path(d),source)
+   self.assertEqual(repair_legacy(d,baseline)['restored'],1);self.assertEqual(load(d)['episodes'][PROOF[0]],ep);self.assertEqual(load(Path(d)/'voe-state')['episodes'][PROOF[0]]['providers'][0]['family'],'voe');self.assertEqual(len(list(Path(d,'quarantine/voe-legacy').glob('*.json'))),1);self.assertEqual(repair_legacy(d,baseline)['restored'],0)
 
 if __name__=='__main__':unittest.main()
