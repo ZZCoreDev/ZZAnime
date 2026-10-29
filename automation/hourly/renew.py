@@ -1,5 +1,6 @@
 """Separate cloud renewal: re-observe before expiry, retain genuine records on failure."""
 from pathlib import Path
+from collections import deque
 import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile,hashlib
 from archive_state import load,save,merge,stamp
 from incident_diagnostics import fair_retries,report as diagnostic_report
@@ -46,17 +47,18 @@ def select(state,failures,now,limit,include_missing=False):
     chosen=chosen[:limit]
     # The time budget often ends before the tail of a 400-item list. Enforce
     # the existing 75/25 allocation in each prefix, not only at list completion.
-    healthy_queue=[row for row in chosen if row[1] in state['episodes'] and row[1] not in failures]
-    failed_queue=[row for row in chosen if row[1] in failures and row[1] in state['episodes']]
-    missing_queue=[row for row in chosen if row[1] not in state['episodes']]
-    repair_queue=[]
+    healthy_queue=deque(row for row in chosen if row[1] in state['episodes'] and row[1] not in failures)
+    failed_queue=deque(row for row in chosen if row[1] in failures and row[1] in state['episodes'])
+    missing_queue=deque(row for row in chosen if row[1] not in state['episodes'])
+    repair_queue=deque()
     while failed_queue or missing_queue:
-        if failed_queue:repair_queue.append(failed_queue.pop(0))
-        if missing_queue:repair_queue.append(missing_queue.pop(0))
+        if failed_queue:repair_queue.append(failed_queue.popleft())
+        if missing_queue:repair_queue.append(missing_queue.popleft())
     ordered=[]
     while healthy_queue or repair_queue:
-        ordered.extend(healthy_queue[:3]);del healthy_queue[:3]
-        if repair_queue:ordered.append(repair_queue.pop(0))
+        for _ in range(3):
+            if healthy_queue:ordered.append(healthy_queue.popleft())
+        if repair_queue:ordered.append(repair_queue.popleft())
     return [url for _,url in ordered]
 
 def record_failure(failures,url,reason,now,observed,diagnostic=None):
