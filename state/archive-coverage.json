@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T16:23:42.839654+00:00",
+  "checkedAt": "2026-10-29T16:37:16.876026+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73524,
-  "storedChapters": 71654,
-  "missingChapters": 1870,
+  "storedChapters": 71655,
+  "missingChapters": 1869,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2029,8 +2029,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/18/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/"
         ]
       },
       {
@@ -21942,7 +21942,15 @@
         "title": "Natsume Yuujinchou Roku",
         "samples": [
           "https://jkanime.net/natsume-yuujinchou-roku/1/",
-          "https://jkanime.net/natsume-yuujinchou-roku/2/"
+          "https://jkanime.net/natsume-yuujinchou-roku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zero-kara-hajimeru-mahou-no-sho/",
+        "title": "Zero kara Hajimeru Mahou no Sho",
+        "samples": [
+          "https://jkanime.net/zero-kara-hajimeru-mahou-no-sho/1/",
+          "https://jkanime.net/zero-kara-hajimeru-mahou-no-sho/10/"
         ]
       },
       {
@@ -21954,11 +21962,107 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kyoukai-no-rinne-tv-3rd-season/",
+        "title": "Kyoukai no Rinne (TV) 3rd Season",
+        "samples": [
+          "https://jkanime.net/kyoukai-no-rinne-tv-3rd-season/1/",
+          "https://jkanime.net/kyoukai-no-rinne-tv-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/recreators/",
+        "title": "Re:Creators",
+        "samples": [
+          "https://jkanime.net/recreators/1/",
+          "https://jkanime.net/recreators/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eromanga-sensei/",
+        "title": "Eromanga-sensei",
+        "samples": [
+          "https://jkanime.net/eromanga-sensei/1/",
+          "https://jkanime.net/eromanga-sensei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchouten-kazoku-2/",
+        "title": "Uchouten Kazoku 2",
+        "samples": [
+          "https://jkanime.net/uchouten-kazoku-2/1/",
+          "https://jkanime.net/uchouten-kazoku-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nobunaga-no-shinobi-ise-kanegasaki-hen/",
+        "title": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
+        "samples": [
+          "https://jkanime.net/nobunaga-no-shinobi-ise-kanegasaki-hen/1/",
+          "https://jkanime.net/nobunaga-no-shinobi-ise-kanegasaki-hen/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/quanzhi-gaoshou/",
+        "title": "Quanzhi Gaoshou",
+        "samples": [
+          "https://jkanime.net/quanzhi-gaoshou/1/",
+          "https://jkanime.net/quanzhi-gaoshou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hinako-note/",
+        "title": "Hinako Note",
+        "samples": [
+          "https://jkanime.net/hinako-note/1/",
+          "https://jkanime.net/hinako-note/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kaitou-tenshi-twin-angel-tv/",
         "title": "Kaitou Tenshi Twin Angel (TV)",
         "samples": [
           "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
           "https://jkanime.net/kaitou-tenshi-twin-angel-tv/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-bahamut-virgin-soul/",
+        "title": "Shingeki no Bahamut: Virgin Soul",
+        "samples": [
+          "https://jkanime.net/shingeki-no-bahamut-virgin-soul/1/",
+          "https://jkanime.net/shingeki-no-bahamut-virgin-soul/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/berserk-2017/",
+        "title": "Berserk (2017)",
+        "samples": [
+          "https://jkanime.net/berserk-2017/1/",
+          "https://jkanime.net/berserk-2017/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuki-ga-kirei/",
+        "title": "Tsuki ga Kirei",
+        "samples": [
+          "https://jkanime.net/tsuki-ga-kirei/1/",
+          "https://jkanime.net/tsuki-ga-kirei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/clockwork-planet/",
+        "title": "Clockwork Planet",
+        "samples": [
+          "https://jkanime.net/clockwork-planet/1/",
+          "https://jkanime.net/clockwork-planet/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kabukibu/",
+        "title": "Kabukibu!",
+        "samples": [
+          "https://jkanime.net/kabukibu/1/",
+          "https://jkanime.net/kabukibu/10/"
         ]
       },
       {
@@ -25944,6 +26048,13 @@
         "title": "Umayuru: Full Gate!",
         "samples": [
           "https://jkanime.net/umayuru-full-gate/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
+        "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
+        "samples": [
+          "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
         ]
       },
       {
@@ -71958,7 +72069,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 13,
         "mega": 3,
@@ -79312,9 +79423,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/18/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/",
@@ -79334,9 +79444,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 9,
-        "streamwish": 9,
-        "vidhide": 9
+        "mp4upload": 10,
+        "streamwish": 10,
+        "vidhide": 10
       },
       "playbackVerified": false
     },
@@ -81583,7 +81693,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -81596,13 +81706,15 @@
     {
       "series": "https://jkanime.net/zero-kara-hajimeru-mahou-no-sho/",
       "title": "Zero kara Hajimeru Mahou no Sho",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81644,13 +81756,15 @@
     {
       "series": "https://jkanime.net/kyoukai-no-rinne-tv-3rd-season/",
       "title": "Kyoukai no Rinne (TV) 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -81663,13 +81777,15 @@
     {
       "series": "https://jkanime.net/recreators/",
       "title": "Re:Creators",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -81682,13 +81798,15 @@
     {
       "series": "https://jkanime.net/eromanga-sensei/",
       "title": "Eromanga-sensei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81701,51 +81819,57 @@
     {
       "series": "https://jkanime.net/uchouten-kazoku-2/",
       "title": "Uchouten Kazoku 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nobunaga-no-shinobi-ise-kanegasaki-hen/",
       "title": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 26,
+        "mega": 7,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/quanzhi-gaoshou/",
       "title": "Quanzhi Gaoshou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81758,13 +81882,15 @@
     {
       "series": "https://jkanime.net/hinako-note/",
       "title": "Hinako Note",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81806,13 +81932,15 @@
     {
       "series": "https://jkanime.net/shingeki-no-bahamut-virgin-soul/",
       "title": "Shingeki no Bahamut: Virgin Soul",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -81825,13 +81953,15 @@
     {
       "series": "https://jkanime.net/berserk-2017/",
       "title": "Berserk (2017)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81859,13 +81989,15 @@
     {
       "series": "https://jkanime.net/tsuki-ga-kirei/",
       "title": "Tsuki ga Kirei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81878,13 +82010,15 @@
     {
       "series": "https://jkanime.net/clockwork-planet/",
       "title": "Clockwork Planet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81897,20 +82031,22 @@
     {
       "series": "https://jkanime.net/kabukibu/",
       "title": "Kabukibu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mega": 2,
         "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 2,
+        "mixdrop": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -131036,7 +131172,8 @@
       "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
       "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 18,
       "stored": 17,
@@ -131045,7 +131182,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 17,
         "streamwish": 17,
