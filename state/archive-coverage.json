@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T20:58:21.326229+00:00",
+  "checkedAt": "2026-10-29T21:11:34.410450+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73531,
-  "storedChapters": 71706,
-  "missingChapters": 1825,
+  "observedChapters": 73533,
+  "storedChapters": 71707,
+  "missingChapters": 1826,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2303,7 +2303,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/7/"
+          "https://jkanime.net/classicaloid/8/"
         ]
       },
       {
@@ -2805,6 +2805,14 @@
         "title": "Youkai Watch Movie 1: Tanjou no Himitsu da Nyan!",
         "samples": [
           "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lupin-iii-2015/",
+        "title": "Lupin III (2015)",
+        "samples": [
+          "https://jkanime.net/lupin-iii-2015/25/",
+          "https://jkanime.net/lupin-iii-2015/26/"
         ]
       },
       {
@@ -22777,7 +22785,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/7/"
+          "https://jkanime.net/classicaloid/8/"
         ]
       },
       {
@@ -25066,7 +25074,15 @@
         "title": "Heavy Object",
         "samples": [
           "https://jkanime.net/heavy-object/1/",
-          "https://jkanime.net/heavy-object/2/"
+          "https://jkanime.net/heavy-object/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/k-return-of-kings/",
+        "title": "K: Return of Kings",
+        "samples": [
+          "https://jkanime.net/k-return-of-kings/1/",
+          "https://jkanime.net/k-return-of-kings/10/"
         ]
       },
       {
@@ -25075,6 +25091,54 @@
         "samples": [
           "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus-2nd-season/1/",
           "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/miss-monochrome-the-animation-3/",
+        "title": "Miss Monochrome: The Animation 3",
+        "samples": [
+          "https://jkanime.net/miss-monochrome-the-animation-3/1/",
+          "https://jkanime.net/miss-monochrome-the-animation-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hacka-doll-the-animation/",
+        "title": "Hacka Doll The Animation",
+        "samples": [
+          "https://jkanime.net/hacka-doll-the-animation/1/",
+          "https://jkanime.net/hacka-doll-the-animation/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kagewani/",
+        "title": "Kagewani",
+        "samples": [
+          "https://jkanime.net/kagewani/1/",
+          "https://jkanime.net/kagewani/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/young-black-jack/",
+        "title": "Young Black Jack",
+        "samples": [
+          "https://jkanime.net/young-black-jack/1/",
+          "https://jkanime.net/young-black-jack/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fate-kaleid-liner-prismaillya-2wei-herz-specials/",
+        "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz! Specials",
+        "samples": [
+          "https://jkanime.net/fate-kaleid-liner-prismaillya-2wei-herz-specials/1/",
+          "https://jkanime.net/fate-kaleid-liner-prismaillya-2wei-herz-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akatsuki-no-yona-ova/",
+        "title": "Akatsuki no Yona OVA",
+        "samples": [
+          "https://jkanime.net/akatsuki-no-yona-ova/1/",
+          "https://jkanime.net/akatsuki-no-yona-ova/2/"
         ]
       },
       {
@@ -25106,6 +25170,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/one-punch-man/",
+        "title": "One Punch Man",
+        "samples": [
+          "https://jkanime.net/one-punch-man/1/",
+          "https://jkanime.net/one-punch-man/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lupin-iii-2015/",
+        "title": "Lupin III (2015)",
+        "samples": [
+          "https://jkanime.net/lupin-iii-2015/25/",
+          "https://jkanime.net/lupin-iii-2015/26/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yowamushi-pedal-movie/",
         "title": "Yowamushi Pedal Movie",
         "samples": [
@@ -25127,6 +25207,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/grisaia-no-rakuen-specials/",
+        "title": "Grisaia no Rakuen Specials",
+        "samples": [
+          "https://jkanime.net/grisaia-no-rakuen-specials/1/",
+          "https://jkanime.net/grisaia-no-rakuen-specials/5/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/date-a-live-movie-mayuri-judgment/",
         "title": "Date A Live Movie: Mayuri Judgment",
         "samples": [
@@ -25134,10 +25222,49 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yuru-yuri-nachuyachumi-plus/",
+        "title": "Yuru Yuri Nachuyachumi! Plus",
+        "samples": [
+          "https://jkanime.net/yuru-yuri-nachuyachumi-plus/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-hajimemashita-kako-hen/",
+        "title": "Kamisama Hajimemashita: Kako-hen",
+        "samples": [
+          "https://jkanime.net/kamisama-hajimemashita-kako-hen/1/",
+          "https://jkanime.net/kamisama-hajimemashita-kako-hen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/diabolik-lovers-moreblood/",
+        "title": "Diabolik Lovers More,Blood",
+        "samples": [
+          "https://jkanime.net/diabolik-lovers-moreblood/1/",
+          "https://jkanime.net/diabolik-lovers-moreblood/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/overlord-specials/",
+        "title": "Overlord: Ple Ple Pleiades",
+        "samples": [
+          "https://jkanime.net/overlord-specials/1/",
+          "https://jkanime.net/overlord-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ushinawareta-mirai-wo-motomete-ova/",
         "title": "Ushinawareta Mirai wo Motomete: Ushinawareta Natsuyasumi wo Motomete",
         "samples": [
           "https://jkanime.net/ushinawareta-mirai-wo-motomete-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/owari-no-seraph-owaranai-seraph/",
+        "title": "Owari no Seraph: Owaranai Seraph",
+        "samples": [
+          "https://jkanime.net/owari-no-seraph-owaranai-seraph/1/",
+          "https://jkanime.net/owari-no-seraph-owaranai-seraph/2/"
         ]
       },
       {
@@ -25169,10 +25296,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-2wei-herz/",
+        "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
+        "samples": [
+          "https://jkanime.net/fatekaleid-liner-prismaillya-2wei-herz/1/",
+          "https://jkanime.net/fatekaleid-liner-prismaillya-2wei-herz/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-school-dxd-born-specials/",
+        "title": "High School DxD BorN Specials",
+        "samples": [
+          "https://jkanime.net/high-school-dxd-born-specials/1/",
+          "https://jkanime.net/high-school-dxd-born-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/grisaia-no-meikyuu-special/",
         "title": "Grisaia no Meikyuu Special",
         "samples": [
           "https://jkanime.net/grisaia-no-meikyuu-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chu-feng-bee/",
+        "title": "School Shock: Chu Feng B.E.E",
+        "samples": [
+          "https://jkanime.net/chu-feng-bee/1/",
+          "https://jkanime.net/chu-feng-bee/2/"
         ]
       },
       {
@@ -25183,10 +25334,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/the-idolmster-cinderella-girls-2nd-season/",
+        "title": "The iDOLM@STER Cinderella Girls 2nd Season",
+        "samples": [
+          "https://jkanime.net/the-idolmster-cinderella-girls-2nd-season/1/",
+          "https://jkanime.net/the-idolmster-cinderella-girls-2nd-season/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/",
         "title": "Aoki Hagane no Arpeggio: Ars Nova DC",
         "samples": [
           "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/makura-no-danshi/",
+        "title": "Makura no Danshi",
+        "samples": [
+          "https://jkanime.net/makura-no-danshi/1/",
+          "https://jkanime.net/makura-no-danshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/god-eater/",
+        "title": "God Eater",
+        "samples": [
+          "https://jkanime.net/god-eater/1/",
+          "https://jkanime.net/god-eater/10/"
         ]
       },
       {
@@ -25198,10 +25373,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/prison-school/",
+        "title": "Prison School",
+        "samples": [
+          "https://jkanime.net/prison-school/1/",
+          "https://jkanime.net/prison-school/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bakemono-no-ko/",
         "title": "Bakemono no Ko",
         "samples": [
           "https://jkanime.net/bakemono-no-ko/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gakkou-gurashi/",
+        "title": "Gakkou Gurashi!",
+        "samples": [
+          "https://jkanime.net/gakkou-gurashi/1/",
+          "https://jkanime.net/gakkou-gurashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/danchigai/",
+        "title": "Danchigai",
+        "samples": [
+          "https://jkanime.net/danchigai/1/",
+          "https://jkanime.net/danchigai/2/"
         ]
       },
       {
@@ -86496,10 +86695,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 21,
+      "stored": 22,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/7/",
         "https://jkanime.net/classicaloid/8/",
         "https://jkanime.net/classicaloid/9/"
       ],
@@ -86507,9 +86705,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 21,
-        "streamwish": 23,
-        "vidhide": 21
+        "mp4upload": 22,
+        "streamwish": 24,
+        "vidhide": 22
       },
       "playbackVerified": false
     },
@@ -93128,7 +93326,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -93141,13 +93339,15 @@
     {
       "series": "https://jkanime.net/k-return-of-kings/",
       "title": "K: Return of Kings",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -93190,13 +93390,15 @@
     {
       "series": "https://jkanime.net/miss-monochrome-the-animation-3/",
       "title": "Miss Monochrome: The Animation 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -93209,38 +93411,42 @@
     {
       "series": "https://jkanime.net/hacka-doll-the-animation/",
       "title": "Hacka Doll The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 13,
+        "mega": 5,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kagewani/",
       "title": "Kagewani",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 2,
+        "streamwish": 14,
+        "vidhide": 14,
+        "mp4upload": 14,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -93266,13 +93472,15 @@
     {
       "series": "https://jkanime.net/young-black-jack/",
       "title": "Young Black Jack",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93285,13 +93493,15 @@
     {
       "series": "https://jkanime.net/fate-kaleid-liner-prismaillya-2wei-herz-specials/",
       "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -93304,13 +93514,15 @@
     {
       "series": "https://jkanime.net/akatsuki-no-yona-ova/",
       "title": "Akatsuki no Yona OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -93399,13 +93611,15 @@
     {
       "series": "https://jkanime.net/one-punch-man/",
       "title": "One Punch Man",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93419,19 +93633,25 @@
     {
       "series": "https://jkanime.net/lupin-iii-2015/",
       "title": "Lupin III (2015)",
-      "causes": [],
-      "observed": 24,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 26,
       "stored": 24,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/lupin-iii-2015/25/",
+        "https://jkanime.net/lupin-iii-2015/26/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
+        "mega": 22,
+        "streamwish": 22,
+        "vidhide": 22,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 22
       },
       "playbackVerified": false
     },
@@ -93495,19 +93715,21 @@
     {
       "series": "https://jkanime.net/grisaia-no-rakuen-specials/",
       "title": "Grisaia no Rakuen Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 5,
+        "mega": 2,
         "streamwish": 5,
         "vidhide": 5,
         "mp4upload": 5,
-        "streamtape": 5
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -93548,32 +93770,36 @@
     {
       "series": "https://jkanime.net/yuru-yuri-nachuyachumi-plus/",
       "title": "Yuru Yuri Nachuyachumi! Plus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
         "mp4upload": 2,
-        "streamtape": 2
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kamisama-hajimemashita-kako-hen/",
       "title": "Kamisama Hajimemashita: Kako-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -93586,13 +93812,15 @@
     {
       "series": "https://jkanime.net/diabolik-lovers-moreblood/",
       "title": "Diabolik Lovers More,Blood",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93605,13 +93833,15 @@
     {
       "series": "https://jkanime.net/overlord-specials/",
       "title": "Overlord: Ple Ple Pleiades",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -93643,13 +93873,15 @@
     {
       "series": "https://jkanime.net/owari-no-seraph-owaranai-seraph/",
       "title": "Owari no Seraph: Owaranai Seraph",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -93738,13 +93970,15 @@
     {
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-2wei-herz/",
       "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -93757,13 +93991,15 @@
     {
       "series": "https://jkanime.net/high-school-dxd-born-specials/",
       "title": "High School DxD BorN Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -93796,13 +94032,15 @@
     {
       "series": "https://jkanime.net/chu-feng-bee/",
       "title": "School Shock: Chu Feng B.E.E",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -93835,13 +94073,15 @@
     {
       "series": "https://jkanime.net/the-idolmster-cinderella-girls-2nd-season/",
       "title": "The iDOLM@STER Cinderella Girls 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93873,13 +94113,15 @@
     {
       "series": "https://jkanime.net/makura-no-danshi/",
       "title": "Makura no Danshi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93892,13 +94134,15 @@
     {
       "series": "https://jkanime.net/god-eater/",
       "title": "God Eater",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -93935,13 +94179,15 @@
     {
       "series": "https://jkanime.net/prison-school/",
       "title": "Prison School",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93973,13 +94219,15 @@
     {
       "series": "https://jkanime.net/gakkou-gurashi/",
       "title": "Gakkou Gurashi!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -93992,13 +94240,15 @@
     {
       "series": "https://jkanime.net/danchigai/",
       "title": "Danchigai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 12,
         "streamwish": 12,
