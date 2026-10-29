@@ -1,6 +1,6 @@
 {
   "observed-chapters-without-options": {
-    "series": 917,
+    "series": 912,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -22,7 +22,7 @@
     ]
   },
   "renewal-error": {
-    "series": 1944,
+    "series": 1980,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -34,17 +34,17 @@
         ]
       },
       {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
-        "title": "Danmachi",
+        "series": "https://jkanime.net/megalo-box/",
+        "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+          "https://jkanime.net/megalo-box/1/",
+          "https://jkanime.net/megalo-box/10/"
         ]
       }
     ]
   },
   "retained-redirect": {
-    "series": 757,
+    "series": 754,
     "twoSeriesProofRequired": true,
     "samples": [
       {

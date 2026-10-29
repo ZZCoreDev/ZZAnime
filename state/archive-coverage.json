@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T06:02:16.431348+00:00",
+  "checkedAt": "2026-10-29T06:10:02.178592+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73501,
-  "storedChapters": 71480,
-  "missingChapters": 2021,
+  "observedChapters": 73502,
+  "storedChapters": 71496,
+  "missingChapters": 2006,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -105,13 +105,6 @@
         "samples": [
           "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/13/",
           "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/koori-no-jouheki/",
-        "title": "Koori no Jouheki",
-        "samples": [
-          "https://jkanime.net/koori-no-jouheki/18/"
         ]
       },
       {
@@ -309,8 +302,8 @@
         "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
-          "https://jkanime.net/jigoku-sensei-nube-2025/19/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/20/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/20/",
+          "https://jkanime.net/jigoku-sensei-nube-2025/21/"
         ]
       },
       {
@@ -402,8 +395,8 @@
         "series": "https://jkanime.net/jibaku-shounen-hanako-kun-2/",
         "title": "Jibaku Shounen Hanako-kun 2",
         "samples": [
-          "https://jkanime.net/jibaku-shounen-hanako-kun-2/18/",
-          "https://jkanime.net/jibaku-shounen-hanako-kun-2/19/"
+          "https://jkanime.net/jibaku-shounen-hanako-kun-2/19/",
+          "https://jkanime.net/jibaku-shounen-hanako-kun-2/20/"
         ]
       },
       {
@@ -425,8 +418,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/27/",
-          "https://jkanime.net/dr-stone-science-future/28/"
+          "https://jkanime.net/dr-stone-science-future/28/",
+          "https://jkanime.net/dr-stone-science-future/29/"
         ]
       },
       {
@@ -650,13 +643,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mask-danshi-wa-koishitakunai-noni/",
-        "title": "Mask Danshi wa Koishitakunai noni",
-        "samples": [
-          "https://jkanime.net/mask-danshi-wa-koishitakunai-noni/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ooyukiumi-no-kaina-hoshi-no-kenja/",
         "title": "Ooyukiumi no Kaina: Hoshi no Kenja",
         "samples": [
@@ -782,8 +768,8 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/19/",
-          "https://jkanime.net/high-card/20/"
+          "https://jkanime.net/high-card/20/",
+          "https://jkanime.net/high-card/21/"
         ]
       },
       {
@@ -928,7 +914,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/16/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/17/"
         ]
       },
       {
@@ -956,8 +942,8 @@
         "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
         "title": "Bastard!! Ankoku no Hakaishin (ONA)",
         "samples": [
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/",
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/"
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/",
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/19/"
         ]
       },
       {
@@ -1085,13 +1071,6 @@
         "title": "Sorairo Utility",
         "samples": [
           "https://jkanime.net/sorairo-utility/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-tsuioku-hen/",
-        "title": "Mahouka Koukou no Rettousei: Tsuioku-hen",
-        "samples": [
-          "https://jkanime.net/mahouka-koukou-no-rettousei-tsuioku-hen/1/"
         ]
       },
       {
@@ -1429,13 +1408,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/marudase-kintarou/",
-        "title": "Marudase Kintarou",
-        "samples": [
-          "https://jkanime.net/marudase-kintarou/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yes-ka-no-ka-hanbun-ka/",
         "title": "Yes ka No ka Hanbun ka",
         "samples": [
@@ -1598,13 +1570,6 @@
         "samples": [
           "https://jkanime.net/mewkledreamy/1/",
           "https://jkanime.net/mewkledreamy/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/major-2nd-tv-2nd-season/",
-        "title": "Major 2nd (TV) 2nd Season",
-        "samples": [
-          "https://jkanime.net/major-2nd-tv-2nd-season/18/"
         ]
       },
       {
@@ -2033,6 +1998,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
+        "title": "Tsurune: Kazemai Koukou Kyuudoubu",
+        "samples": [
+          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/youkoso-japari-park/",
         "title": "Youkoso Japari Park",
         "samples": [
@@ -2208,8 +2180,8 @@
         "series": "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/",
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season",
         "samples": [
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/3/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/4/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/4/",
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/5/"
         ]
       },
       {
@@ -2237,8 +2209,8 @@
         "series": "https://jkanime.net/classicaloid-2nd-season/",
         "title": "ClassicaLoid 2nd Season",
         "samples": [
-          "https://jkanime.net/classicaloid-2nd-season/24/",
-          "https://jkanime.net/classicaloid-2nd-season/25/"
+          "https://jkanime.net/classicaloid-2nd-season/25/",
+          "https://jkanime.net/classicaloid-2nd-season/3/"
         ]
       },
       {
@@ -2563,8 +2535,8 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/10/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/10/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/"
         ]
       },
       {
@@ -3043,13 +3015,6 @@
         "title": "Nagato Yuki-chan no Shoushitsu OVA",
         "samples": [
           "https://jkanime.net/nagato-yuki-chan-no-shoushitsu-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fushigi-na-somera-chan/",
-        "title": "Fushigi na Somera-chan",
-        "samples": [
-          "https://jkanime.net/fushigi-na-somera-chan/9/"
         ]
       },
       {
@@ -6547,6 +6512,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/megalo-box/",
+        "title": "Megalo Box",
+        "samples": [
+          "https://jkanime.net/megalo-box/1/",
+          "https://jkanime.net/megalo-box/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
         "title": "Danmachi",
         "samples": [
@@ -6730,6 +6703,13 @@
         "samples": [
           "https://jkanime.net/wan-ren-zhi-shang/1/",
           "https://jkanime.net/wan-ren-zhi-shang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meitantei-conan-hanamaru-na-answer/",
+        "title": "Meitantei Conan: Hanamaru na Answer",
+        "samples": [
+          "https://jkanime.net/meitantei-conan-hanamaru-na-answer/1/"
         ]
       },
       {
@@ -7220,6 +7200,13 @@
         "samples": [
           "https://jkanime.net/cengjing-you-yongshi/1/",
           "https://jkanime.net/cengjing-you-yongshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-holowitch-the-stage-trick-or-magic/",
+        "title": "Mahou Shoujo holoWitch! The Stage: Trick or Magic!",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-holowitch-the-stage-trick-or-magic/1/"
         ]
       },
       {
@@ -8071,8 +8058,8 @@
         "series": "https://jkanime.net/jibaku-shounen-hanako-kun-2/",
         "title": "Jibaku Shounen Hanako-kun 2",
         "samples": [
-          "https://jkanime.net/jibaku-shounen-hanako-kun-2/18/",
-          "https://jkanime.net/jibaku-shounen-hanako-kun-2/19/"
+          "https://jkanime.net/jibaku-shounen-hanako-kun-2/19/",
+          "https://jkanime.net/jibaku-shounen-hanako-kun-2/20/"
         ]
       },
       {
@@ -8180,8 +8167,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/27/",
-          "https://jkanime.net/dr-stone-science-future/28/"
+          "https://jkanime.net/dr-stone-science-future/28/",
+          "https://jkanime.net/dr-stone-science-future/29/"
         ]
       },
       {
@@ -12471,8 +12458,8 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/19/",
-          "https://jkanime.net/high-card/20/"
+          "https://jkanime.net/high-card/20/",
+          "https://jkanime.net/high-card/21/"
         ]
       },
       {
@@ -13329,7 +13316,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/16/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/17/"
         ]
       },
       {
@@ -13685,8 +13672,8 @@
         "series": "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/",
         "title": "Bastard!! Ankoku no Hakaishin (ONA)",
         "samples": [
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/",
-          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/"
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/",
+          "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/19/"
         ]
       },
       {
@@ -17078,7 +17065,8 @@
         "series": "https://jkanime.net/major-2nd-tv-2nd-season/",
         "title": "Major 2nd (TV) 2nd Season",
         "samples": [
-          "https://jkanime.net/major-2nd-tv-2nd-season/18/"
+          "https://jkanime.net/major-2nd-tv-2nd-season/12/",
+          "https://jkanime.net/major-2nd-tv-2nd-season/23/"
         ]
       },
       {
@@ -19159,10 +19147,79 @@
         ]
       },
       {
+        "series": "https://jkanime.net/karakuri-circus/",
+        "title": "Karakuri Circus",
+        "samples": [
+          "https://jkanime.net/karakuri-circus/1/",
+          "https://jkanime.net/karakuri-circus/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hug-tto-precurefutari-wa-precure-movie-all-stars-memories/",
         "title": "Hug tto! Precure♡Futari wa Precure Movie: All Stars Memories",
         "samples": [
           "https://jkanime.net/hug-tto-precurefutari-wa-precure-movie-all-stars-memories/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hangyakusei-million-arthur/",
+        "title": "Hangyakusei Million Arthur",
+        "samples": [
+          "https://jkanime.net/hangyakusei-million-arthur/1/",
+          "https://jkanime.net/hangyakusei-million-arthur/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
+        "title": "Tsurune: Kazemai Koukou Kyuudoubu",
+        "samples": [
+          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kitsune-no-koe/",
+        "title": "Kitsune no Koe",
+        "samples": [
+          "https://jkanime.net/kitsune-no-koe/1/",
+          "https://jkanime.net/kitsune-no-koe/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senran-kagura-shinovi-master-tokyo-youma-hen/",
+        "title": "Senran Kagura Shinovi Master: Tokyo Youma-hen",
+        "samples": [
+          "https://jkanime.net/senran-kagura-shinovi-master-tokyo-youma-hen/1/",
+          "https://jkanime.net/senran-kagura-shinovi-master-tokyo-youma-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/quanzhi-fashi-iii/",
+        "title": "Quanzhi Fashi III",
+        "samples": [
+          "https://jkanime.net/quanzhi-fashi-iii/1/",
+          "https://jkanime.net/quanzhi-fashi-iii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/",
+        "title": "Ore ga Suki nano wa Imouto dakedo Imouto ja Nai",
+        "samples": [
+          "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/1/",
+          "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-detonation/",
+        "title": "Mahou Shoujo Lyrical Nanoha: Detonation",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-detonation/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/",
+        "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
         ]
       },
       {
@@ -19184,6 +19241,13 @@
         "title": "Devils Line: Anytime Anywhere",
         "samples": [
           "https://jkanime.net/devils-line-anytime-anywhere/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/masamune-kun-no-revenge-ova/",
+        "title": "Masamune-kun no Revenge OVA",
+        "samples": [
+          "https://jkanime.net/masamune-kun-no-revenge-ova/1/"
         ]
       },
       {
@@ -19279,6 +19343,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mary-to-majo-no-hana/",
+        "title": "Mary to Majo no Hana",
+        "samples": [
+          "https://jkanime.net/mary-to-majo-no-hana/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/18if/",
         "title": "18if",
         "samples": [
@@ -19291,6 +19362,13 @@
         "title": "Boku no Hero Academia: Training of the Dead",
         "samples": [
           "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
+        "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
+        "samples": [
+          "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
         ]
       },
       {
@@ -19343,6 +19421,14 @@
         "title": "Digimon Adventure tri. 4: Soushitsu",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri-4-soushitsu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/",
+        "title": "Marginal#4: Kiss kara Tsukuru Big Bang",
+        "samples": [
+          "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/1/",
+          "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/10/"
         ]
       },
       {
@@ -19522,6 +19608,14 @@
         "title": "Kuusen Madoushi Kouhosei no Kyoukan OVA",
         "samples": [
           "https://jkanime.net/kuusen-madoushi-kouhosei-no-kyoukan-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/",
+        "title": "Mahou Shoujo Nante Mou Ii Desukara.",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/10/"
         ]
       },
       {
@@ -20012,6 +20106,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mikakunin-de-shinkoukei-ova-2/",
+        "title": "Mikakunin de Shinkoukei OVA 2",
+        "samples": [
+          "https://jkanime.net/mikakunin-de-shinkoukei-ova-2/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/choujigen-game-neptune-the-animation-ova/",
         "title": "Choujigen Game Neptune: The Animation OVA",
         "samples": [
@@ -20023,6 +20124,13 @@
         "title": "Keroro",
         "samples": [
           "https://jkanime.net/keroro-2014/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mikakunin-de-shinkoukei-mite-are-ga-watashitachi-no-tomatteiru-ryokan-yo/",
+        "title": "Mikakunin de Shinkoukei: Mite. Are ga Watashitachi no Tomatteiru Ryokan yo.",
+        "samples": [
+          "https://jkanime.net/mikakunin-de-shinkoukei-mite-are-ga-watashitachi-no-tomatteiru-ryokan-yo/1/"
         ]
       },
       {
@@ -20073,6 +20181,13 @@
         "samples": [
           "https://jkanime.net/ansatsu-kyoushitsu/10/",
           "https://jkanime.net/ansatsu-kyoushitsu/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majokko-shimai-no-yoyo-to-nene/",
+        "title": "Majokko Shimai no Yoyo to Nene",
+        "samples": [
+          "https://jkanime.net/majokko-shimai-no-yoyo-to-nene/1/"
         ]
       },
       {
@@ -20151,6 +20266,13 @@
         "title": "Dokidoki! Precure Movie: Mana Kekkon!!? Mirai ni Tsunagu Kibou no Dress",
         "samples": [
           "https://jkanime.net/dokidoki-precure-movie-mana-kekkon-mirai-ni-tsunagu-kibou-no-dress/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-madokamagica-movie-3-hangyaku-no-monogatari/",
+        "title": "Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-madokamagica-movie-3-hangyaku-no-monogatari/1/"
         ]
       },
       {
@@ -20284,6 +20406,13 @@
         "title": "Kotonoha no Niwa",
         "samples": [
           "https://jkanime.net/kotonoha-no-niwa/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mangirl-asobu-henshuu-girl/",
+        "title": "Mangirl!: Asobu Henshuu Girl",
+        "samples": [
+          "https://jkanime.net/mangirl-asobu-henshuu-girl/1/"
         ]
       },
       {
@@ -20448,10 +20577,31 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mahou-shoujo-madokamagica-movie-2-eien-no-monogatari/",
+        "title": "Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-madokamagica-movie-2-eien-no-monogatari/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-madokamagica-movie-1-hajimari-no-monogatari/",
+        "title": "Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-madokamagica-movie-1-hajimari-no-monogatari/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/asura/",
         "title": "Asura",
         "samples": [
           "https://jkanime.net/asura/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
+        "title": "Mardock Scramble: The Third Exhaust",
+        "samples": [
+          "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
         ]
       },
       {
@@ -20522,6 +20672,13 @@
         "title": "Ijime: Ikenie no Kyoushitsu",
         "samples": [
           "https://jkanime.net/ijime/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-2nd-as/",
+        "title": "Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-2nd-as/1/"
         ]
       },
       {
@@ -20660,6 +20817,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
+        "title": "Mardock Scramble: The Second Combustion",
+        "samples": [
+          "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hotarubi-no-mori-e/",
         "title": "Hotarubi no Mori e",
         "samples": [
@@ -20745,6 +20909,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
+        "title": "Mardock Scramble: The First Compression",
+        "samples": [
+          "https://jkanime.net/mardock-scramble-the-first-compression/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/colorful-movie/",
         "title": "Colorful (Movie)",
         "samples": [
@@ -20809,6 +20980,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mai-hime-kuro-no-maisaigo-no-bansan/",
+        "title": "Mai-HiME: Kuro no Mai/Saigo no Bansan",
+        "samples": [
+          "https://jkanime.net/mai-hime-kuro-no-maisaigo-no-bansan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/",
+        "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fate-stay-night-unlimited-blade-works/",
         "title": "Fate/stay night: Unlimited Blade Works",
         "samples": [
@@ -20841,6 +21026,13 @@
         "title": "God Eater Prologue",
         "samples": [
           "https://jkanime.net/god-eater-prologue/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mai-mai-shinko-to-sennen-no-mahou/",
+        "title": "Mai Mai Shinko to Sennen no Mahou",
+        "samples": [
+          "https://jkanime.net/mai-mai-shinko-to-sennen-no-mahou/1/"
         ]
       },
       {
@@ -21254,6 +21446,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/megumi-no-daigo-kajiba-no-baka-yarou/",
+        "title": "Megumi no Daigo: Kajiba no Baka Yarou",
+        "samples": [
+          "https://jkanime.net/megumi-no-daigo-kajiba-no-baka-yarou/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/digimon-adventure-movie/",
         "title": "Digimon Adventure Movie",
         "samples": [
@@ -21436,6 +21635,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/midnight-eye-gokuu-ii/",
+        "title": "Midnight Eye: Gokuu II",
+        "samples": [
+          "https://jkanime.net/midnight-eye-gokuu-ii/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kikis-delivery-service/",
         "title": "Kiki's Delivery Service",
         "samples": [
@@ -21447,6 +21653,20 @@
         "title": "Dragon Ball Z Movie 01: The Deadzone",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-01-the-deadzone/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/midnight-eye-gokuu/",
+        "title": "Midnight Eye: Gokuu",
+        "samples": [
+          "https://jkanime.net/midnight-eye-gokuu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/makai-toshi-shinjuku/",
+        "title": "Makai Toshi Shinjuku",
+        "samples": [
+          "https://jkanime.net/makai-toshi-shinjuku/1/"
         ]
       },
       {
@@ -21546,6 +21766,13 @@
         "title": "Onegai AiPri",
         "samples": [
           "https://jkanime.net/onegai-aipri/29/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meikyuu-no-shiori/",
+        "title": "Meikyuu no Shiori",
+        "samples": [
+          "https://jkanime.net/meikyuu-no-shiori/1/"
         ]
       },
       {
@@ -22020,13 +22247,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mask-danshi-wa-koishitakunai-noni/",
-        "title": "Mask Danshi wa Koishitakunai noni",
-        "samples": [
-          "https://jkanime.net/mask-danshi-wa-koishitakunai-noni/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ooyukiumi-no-kaina-hoshi-no-kenja/",
         "title": "Ooyukiumi no Kaina: Hoshi no Kenja",
         "samples": [
@@ -22335,13 +22555,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-tsuioku-hen/",
-        "title": "Mahouka Koukou no Rettousei: Tsuioku-hen",
-        "samples": [
-          "https://jkanime.net/mahouka-koukou-no-rettousei-tsuioku-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/jujutsu-kaisen-0-movie/",
         "title": "Jujutsu Kaisen 0 Movie",
         "samples": [
@@ -22584,13 +22797,6 @@
         "title": "Josee to Tora to Sakana-tachi",
         "samples": [
           "https://jkanime.net/josee-to-tora-to-sakana-tachi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/marudase-kintarou/",
-        "title": "Marudase Kintarou",
-        "samples": [
-          "https://jkanime.net/marudase-kintarou/1/"
         ]
       },
       {
@@ -27168,7 +27374,8 @@
       "series": "https://jkanime.net/megalo-box/",
       "title": "Megalo Box",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 0,
@@ -27189,7 +27396,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -28623,7 +28830,8 @@
       "title": "Meitantei Conan: Hanamaru na Answer",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -28632,7 +28840,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -29829,21 +30037,17 @@
     {
       "series": "https://jkanime.net/koori-no-jouheki/",
       "title": "Koori no Jouheki",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 18,
-      "stored": 17,
-      "missing": [
-        "https://jkanime.net/koori-no-jouheki/18/"
-      ],
+      "stored": 18,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 16,
+        "mp4upload": 17,
         "streamwish": 16,
-        "vidhide": 9
+        "vidhide": 10
       },
       "playbackVerified": false
     },
@@ -31768,7 +31972,8 @@
       "series": "https://jkanime.net/mahou-shoujo-holowitch-the-stage-trick-or-magic/",
       "title": "Mahou Shoujo holoWitch! The Stage: Trick or Magic!",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -31777,7 +31982,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -34451,9 +34656,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 26,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/jigoku-sensei-nube-2025/19/",
         "https://jkanime.net/jigoku-sensei-nube-2025/20/",
         "https://jkanime.net/jigoku-sensei-nube-2025/21/",
         "https://jkanime.net/jigoku-sensei-nube-2025/22/",
@@ -34466,8 +34670,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 17,
-        "streamwish": 14,
+        "mp4upload": 18,
+        "streamwish": 15,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -36355,9 +36559,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/jibaku-shounen-hanako-kun-2/18/",
         "https://jkanime.net/jibaku-shounen-hanako-kun-2/19/",
         "https://jkanime.net/jibaku-shounen-hanako-kun-2/20/",
         "https://jkanime.net/jibaku-shounen-hanako-kun-2/21/",
@@ -36371,9 +36574,9 @@
       "families": {
         "mega": 1,
         "streamwish": 12,
-        "vidhide": 5,
+        "vidhide": 6,
         "mixdrop": 1,
-        "mp4upload": 16,
+        "mp4upload": 17,
         "streamtape": 1
       },
       "playbackVerified": false
@@ -36706,9 +36909,8 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 26,
+      "stored": 27,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/27/",
         "https://jkanime.net/dr-stone-science-future/28/",
         "https://jkanime.net/dr-stone-science-future/29/",
         "https://jkanime.net/dr-stone-science-future/30/",
@@ -36724,9 +36926,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 18,
+        "streamwish": 19,
         "vidhide": 16,
-        "mp4upload": 23,
+        "mp4upload": 24,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -44673,19 +44875,17 @@
     {
       "series": "https://jkanime.net/mask-danshi-wa-koishitakunai-noni/",
       "title": "Mask Danshi wa Koishitakunai noni",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mask-danshi-wa-koishitakunai-noni/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -49748,9 +49948,8 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/high-card/19/",
         "https://jkanime.net/high-card/20/",
         "https://jkanime.net/high-card/21/",
         "https://jkanime.net/high-card/22/",
@@ -49765,7 +49964,7 @@
         "mega": 8,
         "streamwish": 8,
         "vidhide": 8,
-        "mp4upload": 18,
+        "mp4upload": 19,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -52428,10 +52627,9 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/16/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/17/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/",
@@ -52444,7 +52642,7 @@
       "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
-        "streamwish": 11,
+        "streamwish": 12,
         "vidhide": 4
       },
       "playbackVerified": false
@@ -53397,9 +53595,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/17/",
         "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/18/",
         "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/19/",
         "https://jkanime.net/bastard-ankoku-no-hakaishin-ona/20/",
@@ -53412,7 +53609,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 16,
+        "mp4upload": 17,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -55788,19 +55985,17 @@
     {
       "series": "https://jkanime.net/mahouka-koukou-no-rettousei-tsuioku-hen/",
       "title": "Mahouka Koukou no Rettousei: Tsuioku-hen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mahouka-koukou-no-rettousei-tsuioku-hen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -55983,7 +56178,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -56804,7 +56999,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -57178,7 +57373,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mp4upload": 13,
         "mega": 7,
@@ -59848,7 +60043,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 13,
         "vidhide": 3,
@@ -61332,19 +61527,16 @@
     {
       "series": "https://jkanime.net/marudase-kintarou/",
       "title": "Marudase Kintarou",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/marudase-kintarou/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -63714,7 +63906,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 42,
+      "renewalFailed": 43,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -63750,21 +63942,18 @@
       "series": "https://jkanime.net/major-2nd-tv-2nd-season/",
       "title": "Major 2nd (TV) 2nd Season",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 24,
-      "missing": [
-        "https://jkanime.net/major-2nd-tv-2nd-season/18/"
-      ],
+      "stored": 25,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mp4upload": 24,
-        "vidhide": 24,
-        "streamwish": 23,
+        "mp4upload": 25,
+        "vidhide": 25,
+        "streamwish": 24,
         "mega": 2,
         "streamtape": 2
       },
@@ -67790,11 +67979,10 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
         "https://jkanime.net/7-seeds/13/",
         "https://jkanime.net/7-seeds/14/",
-        "https://jkanime.net/7-seeds/15/",
         "https://jkanime.net/7-seeds/16/",
         "https://jkanime.net/7-seeds/17/",
         "https://jkanime.net/7-seeds/18/",
@@ -67809,7 +67997,7 @@
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
-        "mp4upload": 12,
+        "mp4upload": 13,
         "mega": 3,
         "streamwish": 3,
         "vidhide": 3,
@@ -70104,7 +70292,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 40,
+      "renewalFailed": 238,
       "families": {
         "mega": 238,
         "streamwish": 238,
@@ -70118,13 +70306,15 @@
     {
       "series": "https://jkanime.net/karakuri-circus/",
       "title": "Karakuri Circus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 36,
       "stored": 36,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 36,
       "families": {
         "mega": 35,
         "streamwish": 36,
@@ -70156,13 +70346,15 @@
     {
       "series": "https://jkanime.net/hangyakusei-million-arthur/",
       "title": "Hangyakusei Million Arthur",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -70175,19 +70367,24 @@
     {
       "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
       "title": "Tsurune: Kazemai Koukou Kyuudoubu",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 14,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/14/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 13,
+        "mega": 8,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -70217,13 +70414,15 @@
     {
       "series": "https://jkanime.net/kitsune-no-koe/",
       "title": "Kitsune no Koe",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70236,13 +70435,15 @@
     {
       "series": "https://jkanime.net/senran-kagura-shinovi-master-tokyo-youma-hen/",
       "title": "Senran Kagura Shinovi Master: Tokyo Youma-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70255,13 +70456,15 @@
     {
       "series": "https://jkanime.net/quanzhi-fashi-iii/",
       "title": "Quanzhi Fashi III",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70274,13 +70477,15 @@
     {
       "series": "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/",
       "title": "Ore ga Suki nano wa Imouto dakedo Imouto ja Nai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -70409,7 +70614,8 @@
       "title": "Mahou Shoujo Lyrical Nanoha: Detonation",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -70418,7 +70624,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -70466,7 +70672,8 @@
       "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -70475,7 +70682,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -71454,7 +71661,8 @@
       "title": "Masamune-kun no Revenge OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -71463,7 +71671,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -73874,9 +74082,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/3/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/4/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/5/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/6/",
@@ -73888,9 +74095,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 5,
-        "streamwish": 5,
-        "vidhide": 5
+        "mp4upload": 6,
+        "streamwish": 6,
+        "vidhide": 6
       },
       "playbackVerified": false
     },
@@ -74674,9 +74881,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 25,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/classicaloid-2nd-season/24/",
         "https://jkanime.net/classicaloid-2nd-season/25/",
         "https://jkanime.net/classicaloid-2nd-season/3/",
         "https://jkanime.net/classicaloid-2nd-season/4/",
@@ -74691,7 +74897,7 @@
       "renewalFailed": 0,
       "families": {
         "mp4upload": 14,
-        "streamwish": 16,
+        "streamwish": 17,
         "vidhide": 14
       },
       "playbackVerified": false
@@ -75958,7 +76164,8 @@
       "title": "Mary to Majo no Hana",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -75967,7 +76174,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -76517,7 +76724,8 @@
       "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -76526,7 +76734,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -77979,7 +78187,8 @@
       "series": "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/",
       "title": "Marginal#4: Kiss kara Tsukuru Big Bang",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 0,
@@ -77999,7 +78208,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -79514,9 +79723,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/1/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/10/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/12/",
@@ -79532,7 +79740,9 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -83216,7 +83426,8 @@
       "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/",
       "title": "Mahou Shoujo Nante Mou Ii Desukara.",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 0,
@@ -83236,7 +83447,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -84687,21 +84898,17 @@
     {
       "series": "https://jkanime.net/fushigi-na-somera-chan/",
       "title": "Fushigi na Somera-chan",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/fushigi-na-somera-chan/9/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 11,
-        "streamwish": 12,
-        "vidhide": 11
+        "mp4upload": 12,
+        "streamwish": 13,
+        "vidhide": 12
       },
       "playbackVerified": false
     },
@@ -93817,7 +94024,8 @@
       "title": "Mikakunin de Shinkoukei OVA 2",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -93826,7 +94034,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -93980,7 +94188,8 @@
       "title": "Mikakunin de Shinkoukei: Mite. Are ga Watashitachi no Tomatteiru Ryokan yo.",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -93989,7 +94198,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -95202,7 +95411,8 @@
       "title": "Majokko Shimai no Yoyo to Nene",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -95211,7 +95421,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -95691,7 +95901,8 @@
       "title": "Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -95700,7 +95911,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -98137,7 +98348,8 @@
       "title": "Mangirl!: Asobu Henshuu Girl",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -98146,7 +98358,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -100489,7 +100701,8 @@
       "title": "Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -100498,7 +100711,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -100774,7 +100987,8 @@
       "title": "Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -100783,7 +100997,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -101133,7 +101347,8 @@
       "title": "Mardock Scramble: The Third Exhaust",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -101142,7 +101357,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -101664,7 +101879,8 @@
       "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-2nd-as/",
       "title": "Mahou Shoujo Lyrical Nanoha: The Movie 2nd A's",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -101673,7 +101889,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -104326,7 +104542,8 @@
       "title": "Mardock Scramble: The Second Combustion",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -104335,7 +104552,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -106160,7 +106377,8 @@
       "title": "Mardock Scramble: The First Compression",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -106169,7 +106387,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -107804,7 +108022,8 @@
       "title": "Mai-HiME: Kuro no Mai/Saigo no Bansan",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -107813,7 +108032,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -107841,7 +108060,8 @@
       "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -107850,7 +108070,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -108708,7 +108928,8 @@
       "title": "Mai Mai Shinko to Sennen no Mahou",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -108717,7 +108938,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -121344,7 +121565,8 @@
       "title": "Megumi no Daigo: Kajiba no Baka Yarou",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -121353,7 +121575,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -123573,7 +123795,8 @@
       "title": "Midnight Eye: Gokuu II",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -123582,7 +123805,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -123740,7 +123963,8 @@
       "title": "Midnight Eye: Gokuu",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -123749,7 +123973,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -123758,7 +123982,8 @@
       "title": "Makai Toshi Shinjuku",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -123767,7 +123992,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -126324,7 +126549,8 @@
       "title": "Meikyuu no Shiori",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect"
+        "retained-redirect",
+        "renewal-error"
       ],
       "observed": 1,
       "stored": 0,
@@ -126333,7 +126559,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
