@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T03:36:41.358972+00:00",
+  "checkedAt": "2026-10-29T03:52:20.405373+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73482,
   "storedChapters": 71450,
@@ -17692,10 +17692,90 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kengan-ashura-part-2/",
+        "title": "Kengan Ashura Part 2",
+        "samples": [
+          "https://jkanime.net/kengan-ashura-part-2/1/",
+          "https://jkanime.net/kengan-ashura-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/high-score-girl-ii/",
+        "title": "High Score Girl II",
+        "samples": [
+          "https://jkanime.net/high-score-girl-ii/1/",
+          "https://jkanime.net/high-score-girl-ii/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/psycho-pass-3/",
+        "title": "Psycho-Pass 3",
+        "samples": [
+          "https://jkanime.net/psycho-pass-3/1/",
+          "https://jkanime.net/psycho-pass-3/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wu-liuqi-zui-qiang-fa-xing-shi/",
+        "title": "Wu Liuqi: Zui Qiang Fa Xing Shi",
+        "samples": [
+          "https://jkanime.net/wu-liuqi-zui-qiang-fa-xing-shi/1/",
+          "https://jkanime.net/wu-liuqi-zui-qiang-fa-xing-shi/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/human-lost-ningen-shikkaku/",
         "title": "Human Lost: Ningen Shikkaku",
         "samples": [
           "https://jkanime.net/human-lost-ningen-shikkaku/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chihayafuru-3/",
+        "title": "Chihayafuru 3",
+        "samples": [
+          "https://jkanime.net/chihayafuru-3/1/",
+          "https://jkanime.net/chihayafuru-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/one-punch-man-2nd-season-specials/",
+        "title": "One Punch Man 2nd Season Specials",
+        "samples": [
+          "https://jkanime.net/one-punch-man-2nd-season-specials/1/",
+          "https://jkanime.net/one-punch-man-2nd-season-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rifle-is-beautiful/",
+        "title": "Rifle Is Beautiful",
+        "samples": [
+          "https://jkanime.net/rifle-is-beautiful/1/",
+          "https://jkanime.net/rifle-is-beautiful/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-hero-academia-4th-season/",
+        "title": "Boku no Hero Academia 4th Season",
+        "samples": [
+          "https://jkanime.net/boku-no-hero-academia-4th-season/1/",
+          "https://jkanime.net/boku-no-hero-academia-4th-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-online-alicization-war-of-underworld/",
+        "title": "Sword Art Online: Alicization - War of Underworld",
+        "samples": [
+          "https://jkanime.net/sword-art-online-alicization-war-of-underworld/1/",
+          "https://jkanime.net/sword-art-online-alicization-war-of-underworld/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kabukichou-sherlock/",
+        "title": "Kabukichou Sherlock",
+        "samples": [
+          "https://jkanime.net/kabukichou-sherlock/1/",
+          "https://jkanime.net/kabukichou-sherlock/10/"
         ]
       },
       {
@@ -64141,13 +64221,13 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 78,
       "families": {
-        "mega": 135,
-        "streamwish": 136,
-        "vidhide": 136,
-        "mp4upload": 136,
-        "streamtape": 135
+        "mega": 78,
+        "streamwish": 114,
+        "vidhide": 111,
+        "mp4upload": 131,
+        "streamtape": 78
       },
       "playbackVerified": false
     },
@@ -64184,7 +64264,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -64197,13 +64277,15 @@
     {
       "series": "https://jkanime.net/kengan-ashura-part-2/",
       "title": "Kengan Ashura Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64234,13 +64316,15 @@
     {
       "series": "https://jkanime.net/high-score-girl-ii/",
       "title": "High Score Girl II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -64253,32 +64337,36 @@
     {
       "series": "https://jkanime.net/psycho-pass-3/",
       "title": "Psycho-Pass 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 8,
-        "streamwish": 8,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "mega": 6,
+        "streamwish": 9,
+        "vidhide": 9,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/wu-liuqi-zui-qiang-fa-xing-shi/",
       "title": "Wu Liuqi: Zui Qiang Fa Xing Shi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -64310,13 +64398,15 @@
     {
       "series": "https://jkanime.net/chihayafuru-3/",
       "title": "Chihayafuru 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -64329,13 +64419,15 @@
     {
       "series": "https://jkanime.net/one-punch-man-2nd-season-specials/",
       "title": "One Punch Man 2nd Season Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -64349,13 +64441,15 @@
     {
       "series": "https://jkanime.net/rifle-is-beautiful/",
       "title": "Rifle Is Beautiful",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64368,13 +64462,15 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-4th-season/",
       "title": "Boku no Hero Academia 4th Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -64387,13 +64483,15 @@
     {
       "series": "https://jkanime.net/sword-art-online-alicization-war-of-underworld/",
       "title": "Sword Art Online: Alicization - War of Underworld",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64406,19 +64504,21 @@
     {
       "series": "https://jkanime.net/kabukichou-sherlock/",
       "title": "Kabukichou Sherlock",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 23,
+        "mega": 9,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 10
       },
       "playbackVerified": false
     },
