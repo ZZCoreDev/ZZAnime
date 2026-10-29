@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T20:16:30.736846+00:00",
+  "checkedAt": "2026-10-29T20:30:16.314705+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73528,
-  "storedChapters": 71701,
-  "missingChapters": 1827,
+  "observedChapters": 73531,
+  "storedChapters": 71702,
+  "missingChapters": 1829,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2303,7 +2303,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/5/"
+          "https://jkanime.net/classicaloid/6/"
         ]
       },
       {
@@ -2736,10 +2736,25 @@
         ]
       },
       {
+        "series": "https://jkanime.net/pokemon-xyz/",
+        "title": "Pokemon XY&Z",
+        "samples": [
+          "https://jkanime.net/pokemon-xyz/48/",
+          "https://jkanime.net/pokemon-xyz/49/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/wakabagirl-onsen-tsukaritai/",
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
           "https://jkanime.net/wakabagirl-onsen-tsukaritai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster-strike/",
+        "title": "Monster Strike",
+        "samples": [
+          "https://jkanime.net/monster-strike/52/"
         ]
       },
       {
@@ -22770,7 +22785,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/5/"
+          "https://jkanime.net/classicaloid/6/"
         ]
       },
       {
@@ -24531,10 +24546,74 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dagashi-kashi/",
+        "title": "Dagashi Kashi",
+        "samples": [
+          "https://jkanime.net/dagashi-kashi/1/",
+          "https://jkanime.net/dagashi-kashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ojisan-to-marshmallow/",
+        "title": "Ojisan to Marshmallow",
+        "samples": [
+          "https://jkanime.net/ojisan-to-marshmallow/1/",
+          "https://jkanime.net/ojisan-to-marshmallow/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haruchika-haruta-to-chika-wa-seishun-suru/",
+        "title": "Haruchika: Haruta to Chika wa Seishun Suru",
+        "samples": [
+          "https://jkanime.net/haruchika-haruta-to-chika-wa-seishun-suru/1/",
+          "https://jkanime.net/haruchika-haruta-to-chika-wa-seishun-suru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/musaigen-no-phantom-world/",
+        "title": "Musaigen no Phantom World",
+        "samples": [
+          "https://jkanime.net/musaigen-no-phantom-world/1/",
+          "https://jkanime.net/musaigen-no-phantom-world/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prince-of-stride-alternative/",
+        "title": "Prince of Stride: Alternative",
+        "samples": [
+          "https://jkanime.net/prince-of-stride-alternative/1/",
+          "https://jkanime.net/prince-of-stride-alternative/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/akagami-no-shirayuki-hime-nandemonai-takaramono-kono-page/",
         "title": "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",
         "samples": [
           "https://jkanime.net/akagami-no-shirayuki-hime-nandemonai-takaramono-kono-page/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-love-ru-darkness-2nd-ova/",
+        "title": "To LOVE-Ru Darkness 2nd OVA",
+        "samples": [
+          "https://jkanime.net/to-love-ru-darkness-2nd-ova/1/",
+          "https://jkanime.net/to-love-ru-darkness-2nd-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bubuki-buranki/",
+        "title": "Bubuki Buranki",
+        "samples": [
+          "https://jkanime.net/bubuki-buranki/1/",
+          "https://jkanime.net/bubuki-buranki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-thunderbolt/",
+        "title": "Mobile Suit Gundam Thunderbolt",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-thunderbolt/1/",
+          "https://jkanime.net/mobile-suit-gundam-thunderbolt/2/"
         ]
       },
       {
@@ -24545,10 +24624,25 @@
         ]
       },
       {
+        "series": "https://jkanime.net/macross-delta/",
+        "title": "Macross Δ",
+        "samples": [
+          "https://jkanime.net/macross-delta/1/",
+          "https://jkanime.net/macross-delta/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/aoharu-x-kikanjuu-special/",
         "title": "Aoharu x Kikanjuu Special",
         "samples": [
           "https://jkanime.net/aoharu-x-kikanjuu-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aria-the-avvenire/",
+        "title": "Aria The Avvenire",
+        "samples": [
+          "https://jkanime.net/aria-the-avvenire/1/"
         ]
       },
       {
@@ -24587,6 +24681,29 @@
         ]
       },
       {
+        "series": "https://jkanime.net/one-punch-man-specials/",
+        "title": "One Punch Man Specials",
+        "samples": [
+          "https://jkanime.net/one-punch-man-specials/2/",
+          "https://jkanime.net/one-punch-man-specials/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bikini-warriors-special/",
+        "title": "Bikini Warriors Special",
+        "samples": [
+          "https://jkanime.net/bikini-warriors-special/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/valkyrie-drive-mermaid-specials/",
+        "title": "Valkyrie Drive: Mermaid Specials",
+        "samples": [
+          "https://jkanime.net/valkyrie-drive-mermaid-specials/1/",
+          "https://jkanime.net/valkyrie-drive-mermaid-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/love-live-the-school-idol-movie/",
         "title": "Love Live! The School Idol Movie",
         "samples": [
@@ -24608,6 +24725,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shen-ming-zhi-zhou/",
+        "title": "Shen Ming Zhi Zhou",
+        "samples": [
+          "https://jkanime.net/shen-ming-zhi-zhou/1/",
+          "https://jkanime.net/shen-ming-zhi-zhou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strike-the-blood-valkyria-no-oukoku-hen/",
+        "title": "Strike the Blood: Valkyria no Oukoku-hen",
+        "samples": [
+          "https://jkanime.net/strike-the-blood-valkyria-no-oukoku-hen/1/",
+          "https://jkanime.net/strike-the-blood-valkyria-no-oukoku-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
@@ -24615,10 +24748,57 @@
         ]
       },
       {
+        "series": "https://jkanime.net/noragami-aragoto-ova/",
+        "title": "Noragami Aragoto OVA",
+        "samples": [
+          "https://jkanime.net/noragami-aragoto-ova/1/",
+          "https://jkanime.net/noragami-aragoto-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-xyz/",
+        "title": "Pokemon XY&Z",
+        "samples": [
+          "https://jkanime.net/pokemon-xyz/48/",
+          "https://jkanime.net/pokemon-xyz/49/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/wakabagirl-onsen-tsukaritai/",
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
           "https://jkanime.net/wakabagirl-onsen-tsukaritai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ling-yu/",
+        "title": "Ling Yu",
+        "samples": [
+          "https://jkanime.net/ling-yu/1/",
+          "https://jkanime.net/ling-yu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/himouto-umaru-chan-ova/",
+        "title": "Himouto! Umaru-chan OVA",
+        "samples": [
+          "https://jkanime.net/himouto-umaru-chan-ova/1/",
+          "https://jkanime.net/himouto-umaru-chan-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/anitore-ex/",
+        "title": "Anitore! EX",
+        "samples": [
+          "https://jkanime.net/anitore-ex/1/",
+          "https://jkanime.net/anitore-ex/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster-strike/",
+        "title": "Monster Strike",
+        "samples": [
+          "https://jkanime.net/monster-strike/52/"
         ]
       },
       {
@@ -75372,7 +75552,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 2
       },
@@ -86070,10 +86250,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/5/",
         "https://jkanime.net/classicaloid/6/",
         "https://jkanime.net/classicaloid/7/",
         "https://jkanime.net/classicaloid/8/",
@@ -86083,9 +86262,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 19,
-        "streamwish": 21,
-        "vidhide": 19
+        "mp4upload": 20,
+        "streamwish": 22,
+        "vidhide": 20
       },
       "playbackVerified": false
     },
@@ -91036,26 +91215,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 18,
       "families": {
-        "mega": 25,
+        "mega": 18,
         "streamwish": 25,
         "vidhide": 25,
         "mp4upload": 25,
-        "streamtape": 25
+        "streamtape": 18
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dagashi-kashi/",
       "title": "Dagashi Kashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -91068,13 +91249,15 @@
     {
       "series": "https://jkanime.net/ojisan-to-marshmallow/",
       "title": "Ojisan to Marshmallow",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -91087,13 +91270,15 @@
     {
       "series": "https://jkanime.net/haruchika-haruta-to-chika-wa-seishun-suru/",
       "title": "Haruchika: Haruta to Chika wa Seishun Suru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -91107,13 +91292,15 @@
     {
       "series": "https://jkanime.net/musaigen-no-phantom-world/",
       "title": "Musaigen no Phantom World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -91127,13 +91314,15 @@
     {
       "series": "https://jkanime.net/prince-of-stride-alternative/",
       "title": "Prince of Stride: Alternative",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -91166,13 +91355,15 @@
     {
       "series": "https://jkanime.net/to-love-ru-darkness-2nd-ova/",
       "title": "To LOVE-Ru Darkness 2nd OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -91185,13 +91376,15 @@
     {
       "series": "https://jkanime.net/bubuki-buranki/",
       "title": "Bubuki Buranki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -91204,13 +91397,15 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-thunderbolt/",
       "title": "Mobile Suit Gundam Thunderbolt",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -91242,13 +91437,15 @@
     {
       "series": "https://jkanime.net/macross-delta/",
       "title": "Macross Δ",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -91295,13 +91492,15 @@
     {
       "series": "https://jkanime.net/aria-the-avvenire/",
       "title": "Aria The Avvenire",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -91424,38 +91623,42 @@
     {
       "series": "https://jkanime.net/one-punch-man-specials/",
       "title": "One Punch Man Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 6,
+        "mp4upload": 6,
         "streamwish": 6,
         "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "mega": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/bikini-warriors-special/",
       "title": "Bikini Warriors Special",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 4,
         "streamwish": 4,
         "vidhide": 4,
-        "mega": 2,
-        "streamtape": 2
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -91477,13 +91680,15 @@
     {
       "series": "https://jkanime.net/valkyrie-drive-mermaid-specials/",
       "title": "Valkyrie Drive: Mermaid Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -91586,13 +91791,15 @@
     {
       "series": "https://jkanime.net/shen-ming-zhi-zhou/",
       "title": "Shen Ming Zhi Zhou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -91605,13 +91812,15 @@
     {
       "series": "https://jkanime.net/strike-the-blood-valkyria-no-oukoku-hen/",
       "title": "Strike the Blood: Valkyria no Oukoku-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -91652,7 +91861,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -91665,13 +91874,15 @@
     {
       "series": "https://jkanime.net/noragami-aragoto-ova/",
       "title": "Noragami Aragoto OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -91684,19 +91895,25 @@
     {
       "series": "https://jkanime.net/pokemon-xyz/",
       "title": "Pokemon XY&Z",
-      "causes": [],
-      "observed": 47,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 49,
       "stored": 47,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/pokemon-xyz/48/",
+        "https://jkanime.net/pokemon-xyz/49/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 32,
       "families": {
-        "mega": 47,
+        "mega": 32,
         "streamwish": 47,
         "vidhide": 47,
         "mp4upload": 47,
-        "streamtape": 47
+        "streamtape": 32
       },
       "playbackVerified": false
     },
@@ -91739,13 +91956,15 @@
     {
       "series": "https://jkanime.net/ling-yu/",
       "title": "Ling Yu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -91758,13 +91977,15 @@
     {
       "series": "https://jkanime.net/himouto-umaru-chan-ova/",
       "title": "Himouto! Umaru-chan OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -91777,19 +91998,21 @@
     {
       "series": "https://jkanime.net/anitore-ex/",
       "title": "Anitore! EX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
+        "mega": 6,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -91804,31 +92027,34 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 22,
+        "mp4upload": 18,
         "streamwish": 22,
-        "vidhide": 22,
-        "mp4upload": 22,
-        "streamtape": 22
+        "vidhide": 18
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/monster-strike/",
       "title": "Monster Strike",
-      "causes": [],
-      "observed": 51,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 52,
       "stored": 51,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/monster-strike/52/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 51,
-        "streamwish": 51,
-        "vidhide": 51,
-        "mixdrop": 51,
         "mp4upload": 51,
-        "streamtape": 51
+        "mega": 28,
+        "streamwish": 28,
+        "vidhide": 28,
+        "mixdrop": 28,
+        "streamtape": 28
       },
       "playbackVerified": false
     },
