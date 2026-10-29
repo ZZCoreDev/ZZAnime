@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T16:10:55.031819+00:00",
+  "checkedAt": "2026-10-29T16:23:42.839654+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73523,
-  "storedChapters": 71652,
-  "missingChapters": 1871,
+  "observedChapters": 73524,
+  "storedChapters": 71654,
+  "missingChapters": 1870,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -97,13 +97,6 @@
         "title": "Kujira wo Yumemu",
         "samples": [
           "https://jkanime.net/kujira-wo-yumemu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/",
-        "title": "Yozakura-san Chi no Daisakusen 2nd Season",
-        "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/15/"
         ]
       },
       {
@@ -2036,8 +2029,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/17/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/18/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/18/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/"
         ]
       },
       {
@@ -6126,6 +6119,13 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
+        "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
+        "samples": [
+          "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
         ]
       },
       {
@@ -21853,6 +21853,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yao-shen-ji/",
+        "title": "Yao Shen Ji",
+        "samples": [
+          "https://jkanime.net/yao-shen-ji/1/",
+          "https://jkanime.net/yao-shen-ji/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/new-game-watashi-shain-ryokou-tte-hajimete-nano-de/",
         "title": "New Game!: Watashi, Shain Ryokou tte Hajimete nano de...",
         "samples": [
@@ -21864,6 +21872,77 @@
         "title": "Fairy Tail Movie 2: Dragon Cry",
         "samples": [
           "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jian-wangchao/",
+        "title": "Jian Wangchao",
+        "samples": [
+          "https://jkanime.net/jian-wangchao/1/",
+          "https://jkanime.net/jian-wangchao/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ao-no-exorcist-ova/",
+        "title": "Ao no Exorcist OVA",
+        "samples": [
+          "https://jkanime.net/ao-no-exorcist-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/atom-the-beginning/",
+        "title": "Atom: The Beginning",
+        "samples": [
+          "https://jkanime.net/atom-the-beginning/1/",
+          "https://jkanime.net/atom-the-beginning/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sin-nanatsu-no-taizai/",
+        "title": "Sin: Nanatsu no Taizai",
+        "samples": [
+          "https://jkanime.net/sin-nanatsu-no-taizai/1/",
+          "https://jkanime.net/sin-nanatsu-no-taizai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-gaiden-sword-oratoria/",
+        "title": "Danmachi: Sword Oratoria",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-gaiden-sword-oratoria/1/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-gaiden-sword-oratoria/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/room-mate/",
+        "title": "Room Mate",
+        "samples": [
+          "https://jkanime.net/room-mate/1/",
+          "https://jkanime.net/room-mate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fukumenkei-noise/",
+        "title": "Fukumenkei Noise",
+        "samples": [
+          "https://jkanime.net/fukumenkei-noise/1/",
+          "https://jkanime.net/fukumenkei-noise/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shuumatsu-nani-shitemasu-ka-isogashii-desu-ka-sukutte-moratte-ii-desu-ka/",
+        "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+        "samples": [
+          "https://jkanime.net/shuumatsu-nani-shitemasu-ka-isogashii-desu-ka-sukutte-moratte-ii-desu-ka/1/",
+          "https://jkanime.net/shuumatsu-nani-shitemasu-ka-isogashii-desu-ka-sukutte-moratte-ii-desu-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsume-yuujinchou-roku/",
+        "title": "Natsume Yuujinchou Roku",
+        "samples": [
+          "https://jkanime.net/natsume-yuujinchou-roku/1/",
+          "https://jkanime.net/natsume-yuujinchou-roku/2/"
         ]
       },
       {
@@ -32929,19 +33008,15 @@
     {
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/",
       "title": "Yozakura-san Chi no Daisakusen 2nd Season",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 15,
-      "stored": 14,
-      "missing": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/15/"
-      ],
+      "stored": 15,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "streamwish": 13,
         "vidhide": 1
       },
@@ -74297,7 +74372,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -79237,9 +79312,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/17/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/18/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/19/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/",
@@ -79260,9 +79334,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 8,
-        "streamwish": 8,
-        "vidhide": 8
+        "mp4upload": 9,
+        "streamwish": 9,
+        "vidhide": 9
       },
       "playbackVerified": false
     },
@@ -81126,7 +81200,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 120,
       "families": {
         "mega": 120,
         "streamwish": 120,
@@ -81211,13 +81285,15 @@
     {
       "series": "https://jkanime.net/yao-shen-ji/",
       "title": "Yao Shen Ji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 40,
       "stored": 40,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 40,
       "families": {
         "mega": 40,
         "streamwish": 40,
@@ -81276,25 +81352,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/jian-wangchao/",
       "title": "Jian Wangchao",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81307,13 +81380,15 @@
     {
       "series": "https://jkanime.net/ao-no-exorcist-ova/",
       "title": "Ao no Exorcist OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -81342,13 +81417,15 @@
     {
       "series": "https://jkanime.net/atom-the-beginning/",
       "title": "Atom: The Beginning",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81361,13 +81438,15 @@
     {
       "series": "https://jkanime.net/sin-nanatsu-no-taizai/",
       "title": "Sin: Nanatsu no Taizai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81380,13 +81459,15 @@
     {
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-gaiden-sword-oratoria/",
       "title": "Danmachi: Sword Oratoria",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81422,24 +81503,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 3,
+        "streamwish": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/room-mate/",
       "title": "Room Mate",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81452,13 +81533,15 @@
     {
       "series": "https://jkanime.net/fukumenkei-noise/",
       "title": "Fukumenkei Noise",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81471,13 +81554,15 @@
     {
       "series": "https://jkanime.net/shuumatsu-nani-shitemasu-ka-isogashii-desu-ka-sukutte-moratte-ii-desu-ka/",
       "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -81490,13 +81575,15 @@
     {
       "series": "https://jkanime.net/natsume-yuujinchou-roku/",
       "title": "Natsume Yuujinchou Roku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -99360,7 +99447,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -130948,10 +131035,14 @@
     {
       "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
       "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
-      "causes": [],
-      "observed": 17,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 18,
       "stored": 17,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
