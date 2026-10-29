@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T06:10:02.178592+00:00",
+  "checkedAt": "2026-10-29T06:24:23.042786+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73502,
-  "storedChapters": 71496,
-  "missingChapters": 2006,
+  "observedChapters": 73506,
+  "storedChapters": 71497,
+  "missingChapters": 2009,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2010,6 +2010,14 @@
         "samples": [
           "https://jkanime.net/youkoso-japari-park/1/",
           "https://jkanime.net/youkoso-japari-park/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otona-no-bouguya-san/",
+        "title": "Otona no Bouguya-san",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san/13/",
+          "https://jkanime.net/otona-no-bouguya-san/14/"
         ]
       },
       {
@@ -19205,7 +19213,47 @@
         "title": "Ore ga Suki nano wa Imouto dakedo Imouto ja Nai",
         "samples": [
           "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/1/",
-          "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/2/"
+          "https://jkanime.net/ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/",
+        "title": "Merc Storia: Mukiryoku no Shounen to Bin no Naka no Shoujo",
+        "samples": [
+          "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/1/",
+          "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/conception/",
+        "title": "Conception",
+        "samples": [
+          "https://jkanime.net/conception/4/",
+          "https://jkanime.net/conception/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beelzebub-jou-no-okinimesu-mama/",
+        "title": "Beelzebub-jou no Okinimesu mama.",
+        "samples": [
+          "https://jkanime.net/beelzebub-jou-no-okinimesu-mama/1/",
+          "https://jkanime.net/beelzebub-jou-no-okinimesu-mama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-ghoulre-2nd-season/",
+        "title": "Tokyo Ghoul:re 2nd Season",
+        "samples": [
+          "https://jkanime.net/tokyo-ghoulre-2nd-season/1/",
+          "https://jkanime.net/tokyo-ghoulre-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otona-no-bouguya-san/",
+        "title": "Otona no Bouguya-san",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san/13/",
+          "https://jkanime.net/otona-no-bouguya-san/14/"
         ]
       },
       {
@@ -19216,10 +19264,98 @@
         ]
       },
       {
+        "series": "https://jkanime.net/the-idolmster-sidem-wake-atte-mini/",
+        "title": "The iDOLM@STER SideM: Wake Atte Mini!",
+        "samples": [
+          "https://jkanime.net/the-idolmster-sidem-wake-atte-mini/12/",
+          "https://jkanime.net/the-idolmster-sidem-wake-atte-mini/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/golden-kamuy-2nd-season/",
+        "title": "Golden Kamuy 2nd Season",
+        "samples": [
+          "https://jkanime.net/golden-kamuy-2nd-season/1/",
+          "https://jkanime.net/golden-kamuy-2nd-season/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/",
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zoku-owarimonogatari/",
+        "title": "Zoku Owarimonogatari",
+        "samples": [
+          "https://jkanime.net/zoku-owarimonogatari/1/",
+          "https://jkanime.net/zoku-owarimonogatari/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/anima-yell/",
+        "title": "Anima Yell!",
+        "samples": [
+          "https://jkanime.net/anima-yell/1/",
+          "https://jkanime.net/anima-yell/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ulysses-jehanne-darc-to-renkin-no-kishi/",
+        "title": "Ulysses: Jehanne Darc to Renkin no Kishi",
+        "samples": [
+          "https://jkanime.net/ulysses-jehanne-darc-to-renkin-no-kishi/11/",
+          "https://jkanime.net/ulysses-jehanne-darc-to-renkin-no-kishi/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gaikotsu-shotenin-honda-san/",
+        "title": "Gaikotsu Shotenin Honda-san",
+        "samples": [
+          "https://jkanime.net/gaikotsu-shotenin-honda-san/1/",
+          "https://jkanime.net/gaikotsu-shotenin-honda-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/release-the-spyce/",
+        "title": "Release the Spyce",
+        "samples": [
+          "https://jkanime.net/release-the-spyce/1/",
+          "https://jkanime.net/release-the-spyce/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ssssgridman/",
+        "title": "SSSS.Gridman",
+        "samples": [
+          "https://jkanime.net/ssssgridman/1/",
+          "https://jkanime.net/ssssgridman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fairy-tail-final-series/",
+        "title": "Fairy Tail: Final Series",
+        "samples": [
+          "https://jkanime.net/fairy-tail-final-series/1/",
+          "https://jkanime.net/fairy-tail-final-series/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/irozuku-sekai-no-ashita-kara/",
+        "title": "Irozuku Sekai no Ashita kara",
+        "samples": [
+          "https://jkanime.net/irozuku-sekai-no-ashita-kara/1/",
+          "https://jkanime.net/irozuku-sekai-no-ashita-kara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari-season-2/",
+        "title": "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari! Season 2",
+        "samples": [
+          "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari-season-2/1/",
+          "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari-season-2/2/"
         ]
       },
       {
@@ -47316,8 +47452,8 @@
         "observed-chapters-without-options",
         "renewal-error"
       ],
-      "observed": 28,
-      "stored": 14,
+      "observed": 29,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/13/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/14/",
@@ -47342,7 +47478,8 @@
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 14,
-        "streamtape": 12
+        "streamtape": 12,
+        "voe": 1
       },
       "playbackVerified": false
     },
@@ -70485,7 +70622,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -70498,51 +70635,57 @@
     {
       "series": "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/",
       "title": "Merc Storia: Mukiryoku no Shounen to Bin no Naka no Shoujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 8,
+        "streamwish": 13,
+        "vidhide": 13,
+        "mp4upload": 13,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/conception/",
       "title": "Conception",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
+        "mp4upload": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mega": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/beelzebub-jou-no-okinimesu-mama/",
       "title": "Beelzebub-jou no Okinimesu mama.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70555,13 +70698,15 @@
     {
       "series": "https://jkanime.net/tokyo-ghoulre-2nd-season/",
       "title": "Tokyo Ghoul:re 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70574,20 +70719,27 @@
     {
       "series": "https://jkanime.net/otona-no-bouguya-san/",
       "title": "Otona no Bouguya-san",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 15,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/otona-no-bouguya-san/13/",
+        "https://jkanime.net/otona-no-bouguya-san/14/",
+        "https://jkanime.net/otona-no-bouguya-san/15/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
+        "mixdrop": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -70631,33 +70783,37 @@
     {
       "series": "https://jkanime.net/the-idolmster-sidem-wake-atte-mini/",
       "title": "The iDOLM@STER SideM: Wake Atte Mini!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
         "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/golden-kamuy-2nd-season/",
       "title": "Golden Kamuy 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70689,13 +70845,15 @@
     {
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -70708,13 +70866,15 @@
     {
       "series": "https://jkanime.net/anima-yell/",
       "title": "Anima Yell!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70727,32 +70887,36 @@
     {
       "series": "https://jkanime.net/ulysses-jehanne-darc-to-renkin-no-kishi/",
       "title": "Ulysses: Jehanne Darc to Renkin no Kishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gaikotsu-shotenin-honda-san/",
       "title": "Gaikotsu Shotenin Honda-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70773,24 +70937,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
+        "mp4upload": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/release-the-spyce/",
       "title": "Release the Spyce",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70804,13 +70968,15 @@
     {
       "series": "https://jkanime.net/ssssgridman/",
       "title": "SSSS.Gridman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70824,13 +70990,15 @@
     {
       "series": "https://jkanime.net/fairy-tail-final-series/",
       "title": "Fairy Tail: Final Series",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -70843,13 +71011,15 @@
     {
       "series": "https://jkanime.net/irozuku-sekai-no-ashita-kara/",
       "title": "Irozuku Sekai no Ashita kara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -70862,13 +71032,15 @@
     {
       "series": "https://jkanime.net/gyakuten-saiban-sono-shinjitsu-igi-ari-season-2/",
       "title": "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari! Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -125311,12 +125483,13 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
-        "mp4upload": 4,
-        "streamtape": 3
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "mp4upload": 3,
+        "streamtape": 2,
+        "voe": 1
       },
       "playbackVerified": false
     },
