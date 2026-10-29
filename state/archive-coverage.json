@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T02:40:04.622957+00:00",
+  "checkedAt": "2026-10-29T02:53:42.249203+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73481,
   "storedChapters": 71450,
@@ -17057,7 +17057,77 @@
         "title": "Digimon Adventure 2020",
         "samples": [
           "https://jkanime.net/digimon-adventure-2020/1/",
-          "https://jkanime.net/digimon-adventure-2020/2/"
+          "https://jkanime.net/digimon-adventure-2020/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mewkledreamy/",
+        "title": "Mewkledreamy",
+        "samples": [
+          "https://jkanime.net/mewkledreamy/1/",
+          "https://jkanime.net/mewkledreamy/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-2nd-season/",
+        "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 2nd Season",
+        "samples": [
+          "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-2nd-season/1/",
+          "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-2nd-season/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/major-2nd-tv-2nd-season/",
+        "title": "Major 2nd (TV) 2nd Season",
+        "samples": [
+          "https://jkanime.net/major-2nd-tv-2nd-season/18/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arte/",
+        "title": "Arte",
+        "samples": [
+          "https://jkanime.net/arte/1/",
+          "https://jkanime.net/arte/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta/",
+        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
+        "samples": [
+          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta/1/",
+          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yesterday-wo-utatte/",
+        "title": "Yesterday wo Utatte",
+        "samples": [
+          "https://jkanime.net/yesterday-wo-utatte/1/",
+          "https://jkanime.net/yesterday-wo-utatte/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gal-to-kyouryuu/",
+        "title": "Gal to Kyouryuu",
+        "samples": [
+          "https://jkanime.net/gal-to-kyouryuu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yugioh-sevens/",
+        "title": "Yu☆Gi☆Oh!: Sevens",
+        "samples": [
+          "https://jkanime.net/yugioh-sevens/1/",
+          "https://jkanime.net/yugioh-sevens/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beyblade-burst-sparking/",
+        "title": "Beyblade Burst Sparking",
+        "samples": [
+          "https://jkanime.net/beyblade-burst-sparking/1/",
+          "https://jkanime.net/beyblade-burst-sparking/10/"
         ]
       },
       {
@@ -61719,13 +61789,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 60,
       "families": {
-        "mega": 67,
-        "streamwish": 67,
-        "vidhide": 67,
-        "mp4upload": 67,
-        "streamtape": 67
+        "mega": 60,
+        "streamwish": 68,
+        "vidhide": 68,
+        "mp4upload": 68,
+        "streamtape": 60
       },
       "playbackVerified": false
     },
@@ -61733,7 +61803,8 @@
       "series": "https://jkanime.net/mewkledreamy/",
       "title": "Mewkledreamy",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 48,
       "stored": 42,
@@ -61747,7 +61818,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 42,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -61760,20 +61831,22 @@
     {
       "series": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-2nd-season/",
       "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
+        "mega": 5,
+        "streamwish": 9,
         "vidhide": 12,
-        "mixdrop": 12,
+        "mixdrop": 5,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -61781,7 +61854,8 @@
       "series": "https://jkanime.net/major-2nd-tv-2nd-season/",
       "title": "Major 2nd (TV) 2nd Season",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 25,
       "stored": 24,
@@ -61790,26 +61864,28 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "vidhide": 24,
+        "streamwish": 23,
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/arte/",
       "title": "Arte",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61822,13 +61898,15 @@
     {
       "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta/",
       "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61841,13 +61919,15 @@
     {
       "series": "https://jkanime.net/yesterday-wo-utatte/",
       "title": "Yesterday wo Utatte",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -61860,33 +61940,37 @@
     {
       "series": "https://jkanime.net/gal-to-kyouryuu/",
       "title": "Gal to Kyouryuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mega": 1,
         "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 7,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 1,
+        "mixdrop": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yugioh-sevens/",
       "title": "Yu☆Gi☆Oh!: Sevens",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 92,
       "stored": 92,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 92,
       "families": {
         "mega": 92,
         "streamwish": 92,
@@ -61899,13 +61983,15 @@
     {
       "series": "https://jkanime.net/beyblade-burst-sparking/",
       "title": "Beyblade Burst Sparking",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
         "mega": 52,
         "streamwish": 52,
