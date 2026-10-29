@@ -77,7 +77,7 @@ def main():
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
-    received=set(result['state']['episodes']);incoming,voe_captured=split(D,result['state']);collected+=len(received);newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    received=set(result['state']['episodes']);incoming,voe_captured=split(D,result['state']);collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
     for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
     for url in received:incidents.pop(url,None)

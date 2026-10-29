@@ -45,6 +45,7 @@ jobs:
           python3 test_cloud.py
           python3 test_news_empty.py
           python3 test_voe_channel.py
+          python3 test_voe_consumer.py
           python3 test_renew.py
           python3 test_news_watchdog.py
           python3 test_import_recovered.py

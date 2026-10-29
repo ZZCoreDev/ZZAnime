@@ -38,6 +38,7 @@ jobs:
           python3 test_cloud.py
           python3 test_news_empty.py
           python3 test_voe_channel.py
+          python3 test_voe_consumer.py
           node test_identities.cjs
           node test_flv_tokens.cjs
           node test_source_diagnostics.cjs

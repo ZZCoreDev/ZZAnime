@@ -195,7 +195,7 @@ def main():
             if not args.proof and time.time()-instant>11*60:break
             if not args.proof and args.publish and check_news(folder):state=load(folder)
             pair=targets[at:at+2];before=time.time()
-            if not args.proof:pair=[url for url in pair if url not in state['episodes'] or before-stamp(state['episodes'][url].get('observedAt'))>=LEAD_AGE]
+            if not args.proof:pair=[url for url in pair if url not in state['episodes'] or before-stamp(state['episodes'][url].get('observedAt'))>=LEAD_AGE or url in extras]
             if not pair:continue
             try:
                 body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof}).encode()
