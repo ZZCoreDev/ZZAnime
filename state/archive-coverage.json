@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-29T16:51:14.876370+00:00",
+  "checkedAt": "2026-10-29T17:05:43.005308+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73524,
-  "storedChapters": 71657,
+  "observedChapters": 73525,
+  "storedChapters": 71658,
   "missingChapters": 1867,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -97,6 +97,13 @@
         "title": "Kujira wo Yumemu",
         "samples": [
           "https://jkanime.net/kujira-wo-yumemu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koori-no-jouheki/",
+        "title": "Koori no Jouheki",
+        "samples": [
+          "https://jkanime.net/koori-no-jouheki/19/"
         ]
       },
       {
@@ -2029,8 +2036,8 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/",
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/"
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/",
+          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/"
         ]
       },
       {
@@ -6536,6 +6543,13 @@
         "title": "Ganbare! Nakamura-kun!!",
         "samples": [
           "https://jkanime.net/ganbare-nakamura-kun/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koori-no-jouheki/",
+        "title": "Koori no Jouheki",
+        "samples": [
+          "https://jkanime.net/koori-no-jouheki/19/"
         ]
       },
       {
@@ -22138,6 +22152,70 @@
         ]
       },
       {
+        "series": "https://jkanime.net/beyblade-burst-god/",
+        "title": "Beyblade Burst God",
+        "samples": [
+          "https://jkanime.net/beyblade-burst-god/1/",
+          "https://jkanime.net/beyblade-burst-god/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekai-no-yami-zukan/",
+        "title": "Sekai no Yami Zukan",
+        "samples": [
+          "https://jkanime.net/sekai-no-yami-zukan/1/",
+          "https://jkanime.net/sekai-no-yami-zukan/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/warau-salesman-new/",
+        "title": "Warau Salesman New",
+        "samples": [
+          "https://jkanime.net/warau-salesman-new/1/",
+          "https://jkanime.net/warau-salesman-new/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/starmyu-2nd-season/",
+        "title": "Starmyu 2nd Season",
+        "samples": [
+          "https://jkanime.net/starmyu-2nd-season/1/",
+          "https://jkanime.net/starmyu-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/frame-arms-girl/",
+        "title": "Frame Arms Girl",
+        "samples": [
+          "https://jkanime.net/frame-arms-girl/1/",
+          "https://jkanime.net/frame-arms-girl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/alice-to-zouroku/",
+        "title": "Alice to Zouroku",
+        "samples": [
+          "https://jkanime.net/alice-to-zouroku/1/",
+          "https://jkanime.net/alice-to-zouroku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsugumomo/",
+        "title": "Tsugumomo",
+        "samples": [
+          "https://jkanime.net/tsugumomo/1/",
+          "https://jkanime.net/tsugumomo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
+        "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
+        "samples": [
+          "https://jkanime.net/souryo-to-majiwaru-shikiyoku-no-yoru-ni/11/",
+          "https://jkanime.net/souryo-to-majiwaru-shikiyoku-no-yoru-ni/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hirune-hime-shiranai-watashi-no-monogatari/",
         "title": "Hirune Hime: Shiranai Watashi no Monogatari",
         "samples": [
@@ -34171,13 +34249,18 @@
     {
       "series": "https://jkanime.net/koori-no-jouheki/",
       "title": "Koori no Jouheki",
-      "causes": [],
-      "observed": 18,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 19,
       "stored": 18,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/koori-no-jouheki/19/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 17,
         "streamwish": 16,
@@ -72132,7 +72215,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 14,
         "mega": 3,
@@ -79486,9 +79569,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/2/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/20/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/21/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/22/",
@@ -79506,9 +79588,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 11,
-        "streamwish": 11,
-        "vidhide": 11
+        "mp4upload": 12,
+        "streamwish": 12,
+        "vidhide": 12
       },
       "playbackVerified": false
     },
@@ -80855,7 +80937,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -82301,7 +82383,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 135,
+      "renewalFailed": 292,
       "families": {
         "mega": 292,
         "streamwish": 293,
@@ -82314,13 +82396,15 @@
     {
       "series": "https://jkanime.net/beyblade-burst-god/",
       "title": "Beyblade Burst God",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -82334,32 +82418,36 @@
     {
       "series": "https://jkanime.net/sekai-no-yami-zukan/",
       "title": "Sekai no Yami Zukan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 13,
+        "mega": 3,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/warau-salesman-new/",
       "title": "Warau Salesman New",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82372,13 +82460,15 @@
     {
       "series": "https://jkanime.net/starmyu-2nd-season/",
       "title": "Starmyu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82391,13 +82481,15 @@
     {
       "series": "https://jkanime.net/frame-arms-girl/",
       "title": "Frame Arms Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82410,13 +82502,15 @@
     {
       "series": "https://jkanime.net/alice-to-zouroku/",
       "title": "Alice to Zouroku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82429,13 +82523,15 @@
     {
       "series": "https://jkanime.net/tsugumomo/",
       "title": "Tsugumomo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -82448,19 +82544,21 @@
     {
       "series": "https://jkanime.net/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
       "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -82475,11 +82573,11 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 5,
+        "mp4upload": 6,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -100080,7 +100178,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 1
       },
@@ -114256,7 +114354,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -114593,7 +114691,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -129493,7 +129591,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mega": 32,
         "streamwish": 32,
