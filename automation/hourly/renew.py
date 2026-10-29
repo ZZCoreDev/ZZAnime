@@ -44,7 +44,20 @@ def select(state,failures,now,limit,include_missing=False):
     seen={url for _,url in chosen}
     if len(chosen)<limit:chosen+=(row for row in retry[retry_count:]+missing[missing_count:] if row[1] not in seen)
     chosen=chosen[:limit]
-    return [url for _,url in chosen]
+    # The time budget often ends before the tail of a 400-item list. Enforce
+    # the existing 75/25 allocation in each prefix, not only at list completion.
+    healthy_queue=[row for row in chosen if row[1] in state['episodes'] and row[1] not in failures]
+    failed_queue=[row for row in chosen if row[1] in failures and row[1] in state['episodes']]
+    missing_queue=[row for row in chosen if row[1] not in state['episodes']]
+    repair_queue=[]
+    while failed_queue or missing_queue:
+        if failed_queue:repair_queue.append(failed_queue.pop(0))
+        if missing_queue:repair_queue.append(missing_queue.pop(0))
+    ordered=[]
+    while healthy_queue or repair_queue:
+        ordered.extend(healthy_queue[:3]);del healthy_queue[:3]
+        if repair_queue:ordered.append(repair_queue.pop(0))
+    return [url for _,url in ordered]
 
 def record_failure(failures,url,reason,now,observed,diagnostic=None):
     count=failures.get(url,{}).get('attempts',0)+1
@@ -185,7 +198,7 @@ def main():
         from voe_channel import due_targets
         extras=due_targets(folder,failures,instant,MAX_EPISODES//4);targets=list(dict.fromkeys(extras+targets))[:MAX_EPISODES]
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
-    status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
+    status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'attempted':0,'repairAttempts':0,'earlyRepairAttempts':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
     status['retryDeadlinesRepaired']=repaired
     status['proof']=args.proof
     status['identityRetriesReleased']=identities_repaired
@@ -197,6 +210,10 @@ def main():
             pair=targets[at:at+2];before=time.time()
             if not args.proof:pair=[url for url in pair if url not in state['episodes'] or before-stamp(state['episodes'][url].get('observedAt'))>=LEAD_AGE or url in extras]
             if not pair:continue
+            repair=[u for u in pair if u in failures or u not in state['episodes']]
+            status['repairAttempts']+=len(repair)
+            if status['attempted']<8:status['earlyRepairAttempts']+=len(repair)
+            status['attempted']+=len(pair)
             try:
                 body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof}).encode()
                 req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')

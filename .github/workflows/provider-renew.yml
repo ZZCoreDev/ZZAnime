@@ -47,6 +47,7 @@ jobs:
           python3 test_voe_channel.py
           python3 test_voe_consumer.py
           python3 test_renew.py
+          python3 test_history_prefix.py
           python3 test_news_watchdog.py
           python3 test_import_recovered.py
           python3 test_archive_coverage.py
