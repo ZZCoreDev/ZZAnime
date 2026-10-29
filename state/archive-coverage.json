@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T22:45:58.028629+00:00",
+  "checkedAt": "2026-10-29T22:59:30.735970+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -26968,6 +26968,101 @@
         "samples": [
           "https://jkanime.net/kiseijuu-sei-no-kakuritsu/1/",
           "https://jkanime.net/kiseijuu-sei-no-kakuritsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hitsugi-no-chaika-avenging-battle/",
+        "title": "Hitsugi no Chaika: Avenging Battle",
+        "samples": [
+          "https://jkanime.net/hitsugi-no-chaika-avenging-battle/1/",
+          "https://jkanime.net/hitsugi-no-chaika-avenging-battle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hiscoool-seha-girls/",
+        "title": "Hi☆sCoool! SeHa Girls",
+        "samples": [
+          "https://jkanime.net/hiscoool-seha-girls/1/",
+          "https://jkanime.net/hiscoool-seha-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/daitoshokan-no-hitsujikai/",
+        "title": "Daitoshokan no Hitsujikai",
+        "samples": [
+          "https://jkanime.net/daitoshokan-no-hitsujikai/1/",
+          "https://jkanime.net/daitoshokan-no-hitsujikai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gundam-build-fighters-try/",
+        "title": "Gundam Build Fighters Try",
+        "samples": [
+          "https://jkanime.net/gundam-build-fighters-try/1/",
+          "https://jkanime.net/gundam-build-fighters-try/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trinity-seven/",
+        "title": "Trinity Seven",
+        "samples": [
+          "https://jkanime.net/trinity-seven/1/",
+          "https://jkanime.net/trinity-seven/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akatsuki-no-yona/",
+        "title": "Akatsuki no Yona",
+        "samples": [
+          "https://jkanime.net/akatsuki-no-yona/1/",
+          "https://jkanime.net/akatsuki-no-yona/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amagi-brilliant-park/",
+        "title": "Amagi Brilliant Park",
+        "samples": [
+          "https://jkanime.net/amagi-brilliant-park/1/",
+          "https://jkanime.net/amagi-brilliant-park/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inou-battle-wa-nichijou-kei-no-naka-de/",
+        "title": "Inou-Battle wa Nichijou-kei no Naka de",
+        "samples": [
+          "https://jkanime.net/inou-battle-wa-nichijou-kei-no-naka-de/1/",
+          "https://jkanime.net/inou-battle-wa-nichijou-kei-no-naka-de/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yowamushi-pedal-grande-road/",
+        "title": "Yowamushi Pedal: Grande Road",
+        "samples": [
+          "https://jkanime.net/yowamushi-pedal-grande-road/1/",
+          "https://jkanime.net/yowamushi-pedal-grande-road/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaitou-joker/",
+        "title": "Kaitou Joker",
+        "samples": [
+          "https://jkanime.net/kaitou-joker/1/",
+          "https://jkanime.net/kaitou-joker/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ai-tenchi-muyo/",
+        "title": "Ai Tenchi Muyo!",
+        "samples": [
+          "https://jkanime.net/ai-tenchi-muyo/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/orenchi-no-furo-jijou/",
+        "title": "Orenchi no Furo Jijou",
+        "samples": [
+          "https://jkanime.net/orenchi-no-furo-jijou/1/",
+          "https://jkanime.net/orenchi-no-furo-jijou/10/"
         ]
       },
       {
@@ -57629,7 +57724,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -64072,7 +64167,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -82021,7 +82116,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -84593,7 +84688,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -99800,7 +99895,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -99813,13 +99908,15 @@
     {
       "series": "https://jkanime.net/hitsugi-no-chaika-avenging-battle/",
       "title": "Hitsugi no Chaika: Avenging Battle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -99832,13 +99929,15 @@
     {
       "series": "https://jkanime.net/hiscoool-seha-girls/",
       "title": "Hi☆sCoool! SeHa Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -99851,13 +99950,15 @@
     {
       "series": "https://jkanime.net/daitoshokan-no-hitsujikai/",
       "title": "Daitoshokan no Hitsujikai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -99870,13 +99971,15 @@
     {
       "series": "https://jkanime.net/gundam-build-fighters-try/",
       "title": "Gundam Build Fighters Try",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -99889,13 +99992,15 @@
     {
       "series": "https://jkanime.net/trinity-seven/",
       "title": "Trinity Seven",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -99908,13 +100013,15 @@
     {
       "series": "https://jkanime.net/akatsuki-no-yona/",
       "title": "Akatsuki no Yona",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -99927,13 +100034,15 @@
     {
       "series": "https://jkanime.net/amagi-brilliant-park/",
       "title": "Amagi Brilliant Park",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -99946,13 +100055,15 @@
     {
       "series": "https://jkanime.net/inou-battle-wa-nichijou-kei-no-naka-de/",
       "title": "Inou-Battle wa Nichijou-kei no Naka de",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -99965,13 +100076,15 @@
     {
       "series": "https://jkanime.net/yowamushi-pedal-grande-road/",
       "title": "Yowamushi Pedal: Grande Road",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -99984,13 +100097,15 @@
     {
       "series": "https://jkanime.net/kaitou-joker/",
       "title": "Kaitou Joker",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -100003,32 +100118,36 @@
     {
       "series": "https://jkanime.net/ai-tenchi-muyo/",
       "title": "Ai Tenchi Muyo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 60,
       "stored": 60,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 60,
+        "mp4upload": 63,
         "streamwish": 60,
-        "vidhide": 60,
-        "mp4upload": 60,
-        "streamtape": 60
+        "vidhide": 63,
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/orenchi-no-furo-jijou/",
       "title": "Orenchi no Furo Jijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -118873,7 +118992,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -134110,7 +134229,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 32,
         "streamwish": 32,
