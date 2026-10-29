@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T19:20:47.542379+00:00",
+  "checkedAt": "2026-10-29T19:34:53.266316+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73528,
-  "storedChapters": 71686,
-  "missingChapters": 1842,
+  "storedChapters": 71690,
+  "missingChapters": 1838,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -827,7 +827,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/"
         ]
       },
       {
@@ -2036,7 +2036,6 @@
         "series": "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/",
         "title": "Time Bokan: Gyakushuu no San Akunin",
         "samples": [
-          "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/8/",
           "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/9/"
         ]
       },
@@ -2311,7 +2310,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/24/"
+          "https://jkanime.net/classicaloid/25/"
         ]
       },
       {
@@ -13347,7 +13346,7 @@
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/"
         ]
       },
       {
@@ -22778,7 +22777,7 @@
         "title": "ClassicaLoid",
         "samples": [
           "https://jkanime.net/classicaloid/14/",
-          "https://jkanime.net/classicaloid/24/"
+          "https://jkanime.net/classicaloid/25/"
         ]
       },
       {
@@ -23853,6 +23852,126 @@
         "samples": [
           "https://jkanime.net/kyoukai-no-rinne-tv-2nd-season/1/",
           "https://jkanime.net/kyoukai-no-rinne-tv-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tanaka-kun-wa-itsumo-kedaruge/",
+        "title": "Tanaka-kun wa Itsumo Kedaruge",
+        "samples": [
+          "https://jkanime.net/tanaka-kun-wa-itsumo-kedaruge/1/",
+          "https://jkanime.net/tanaka-kun-wa-itsumo-kedaruge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kiznaiver/",
+        "title": "Kiznaiver",
+        "samples": [
+          "https://jkanime.net/kiznaiver/1/",
+          "https://jkanime.net/kiznaiver/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haifuri/",
+        "title": "Haifuri",
+        "samples": [
+          "https://jkanime.net/haifuri/1/",
+          "https://jkanime.net/haifuri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/flying-witch/",
+        "title": "Flying Witch",
+        "samples": [
+          "https://jkanime.net/flying-witch/1/",
+          "https://jkanime.net/flying-witch/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakamoto-desu-ga/",
+        "title": "Sakamoto desu ga?",
+        "samples": [
+          "https://jkanime.net/sakamoto-desu-ga/1/",
+          "https://jkanime.net/sakamoto-desu-ga/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/concrete-revolutio-choujin-gensou-the-last-song/",
+        "title": "Concrete Revolutio: Choujin Gensou - The Last Song",
+        "samples": [
+          "https://jkanime.net/concrete-revolutio-choujin-gensou-the-last-song/1/",
+          "https://jkanime.net/concrete-revolutio-choujin-gensou-the-last-song/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/anne-happy/",
+        "title": "Anne Happy♪",
+        "samples": [
+          "https://jkanime.net/anne-happy/1/",
+          "https://jkanime.net/anne-happy/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuromukuro/",
+        "title": "Kuromukuro",
+        "samples": [
+          "https://jkanime.net/kuromukuro/1/",
+          "https://jkanime.net/kuromukuro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/netoge-no-yome-wa-onnanoko-ja-nai-to-omotta/",
+        "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
+        "samples": [
+          "https://jkanime.net/netoge-no-yome-wa-onnanoko-ja-nai-to-omotta/1/",
+          "https://jkanime.net/netoge-no-yome-wa-onnanoko-ja-nai-to-omotta/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koutetsujou-no-kabaneri/",
+        "title": "Koutetsujou no Kabaneri",
+        "samples": [
+          "https://jkanime.net/koutetsujou-no-kabaneri/1/",
+          "https://jkanime.net/koutetsujou-no-kabaneri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shounen-maid/",
+        "title": "Shounen Maid",
+        "samples": [
+          "https://jkanime.net/shounen-maid/1/",
+          "https://jkanime.net/shounen-maid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sousei-no-onmyouji/",
+        "title": "Sousei no Onmyouji",
+        "samples": [
+          "https://jkanime.net/sousei-no-onmyouji/1/",
+          "https://jkanime.net/sousei-no-onmyouji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/super-lovers/",
+        "title": "Super Lovers",
+        "samples": [
+          "https://jkanime.net/super-lovers/1/",
+          "https://jkanime.net/super-lovers/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bungou-stray-dogs/",
+        "title": "Bungou Stray Dogs",
+        "samples": [
+          "https://jkanime.net/bungou-stray-dogs/1/",
+          "https://jkanime.net/bungou-stray-dogs/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls/",
+        "title": "Bishoujo Yuugi Unit Crane Game Girls",
+        "samples": [
+          "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls/4/",
+          "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls/8/"
         ]
       },
       {
@@ -27452,6 +27571,13 @@
         "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
         "samples": [
           "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
+        "title": "Tetsuryou! Meet with Tetsudou Musume",
+        "samples": [
+          "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
         ]
       },
       {
@@ -56950,7 +57076,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -58172,10 +58298,9 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/14/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/18/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/19/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/20/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/21/",
@@ -58185,7 +58310,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 11,
+        "mp4upload": 12,
         "streamwish": 13,
         "vidhide": 5
       },
@@ -65560,11 +65685,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/cardfight-vanguard-overdress/13/",
         "https://jkanime.net/cardfight-vanguard-overdress/15/",
-        "https://jkanime.net/cardfight-vanguard-overdress/22/",
         "https://jkanime.net/cardfight-vanguard-overdress/23/",
         "https://jkanime.net/cardfight-vanguard-overdress/24/",
         "https://jkanime.net/cardfight-vanguard-overdress/25/"
@@ -65573,7 +65697,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 19,
+        "mp4upload": 20,
         "vidhide": 3,
         "mega": 2,
         "streamwish": 4,
@@ -69681,7 +69805,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -72184,7 +72308,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 1,
         "streamwish": 1,
@@ -80884,18 +81008,17 @@
         "observed-chapters-without-options"
       ],
       "observed": 24,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/8/",
         "https://jkanime.net/time-bokan-gyakushuu-no-san-akunin/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 22,
-        "streamwish": 22,
-        "vidhide": 22
+        "mp4upload": 23,
+        "streamwish": 23,
+        "vidhide": 23
       },
       "playbackVerified": false
     },
@@ -83652,7 +83775,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -85503,10 +85626,9 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/classicaloid/14/",
-        "https://jkanime.net/classicaloid/24/",
         "https://jkanime.net/classicaloid/25/",
         "https://jkanime.net/classicaloid/3/",
         "https://jkanime.net/classicaloid/4/",
@@ -85521,7 +85643,7 @@
       "renewalFailed": 1,
       "families": {
         "mp4upload": 16,
-        "streamwish": 17,
+        "streamwish": 18,
         "vidhide": 16
       },
       "playbackVerified": false
@@ -85956,7 +86078,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -88547,7 +88669,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -88560,13 +88682,15 @@
     {
       "series": "https://jkanime.net/tanaka-kun-wa-itsumo-kedaruge/",
       "title": "Tanaka-kun wa Itsumo Kedaruge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88579,13 +88703,15 @@
     {
       "series": "https://jkanime.net/kiznaiver/",
       "title": "Kiznaiver",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88598,13 +88724,15 @@
     {
       "series": "https://jkanime.net/haifuri/",
       "title": "Haifuri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88617,13 +88745,15 @@
     {
       "series": "https://jkanime.net/flying-witch/",
       "title": "Flying Witch",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88636,13 +88766,15 @@
     {
       "series": "https://jkanime.net/sakamoto-desu-ga/",
       "title": "Sakamoto desu ga?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88655,13 +88787,15 @@
     {
       "series": "https://jkanime.net/concrete-revolutio-choujin-gensou-the-last-song/",
       "title": "Concrete Revolutio: Choujin Gensou - The Last Song",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -88674,13 +88808,15 @@
     {
       "series": "https://jkanime.net/anne-happy/",
       "title": "Anne Happy♪",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88693,32 +88829,36 @@
     {
       "series": "https://jkanime.net/kuromukuro/",
       "title": "Kuromukuro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mega": 25,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 25,
+        "mp4upload": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/netoge-no-yome-wa-onnanoko-ja-nai-to-omotta/",
       "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88731,13 +88871,15 @@
     {
       "series": "https://jkanime.net/koutetsujou-no-kabaneri/",
       "title": "Koutetsujou no Kabaneri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88750,13 +88892,15 @@
     {
       "series": "https://jkanime.net/shounen-maid/",
       "title": "Shounen Maid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88769,13 +88913,15 @@
     {
       "series": "https://jkanime.net/sousei-no-onmyouji/",
       "title": "Sousei no Onmyouji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -88788,13 +88934,15 @@
     {
       "series": "https://jkanime.net/super-lovers/",
       "title": "Super Lovers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -88807,13 +88955,15 @@
     {
       "series": "https://jkanime.net/bungou-stray-dogs/",
       "title": "Bungou Stray Dogs",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -88826,19 +88976,21 @@
     {
       "series": "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls/",
       "title": "Bishoujo Yuugi Unit Crane Game Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 13,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 5,
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -101985,7 +102137,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -131699,7 +131851,8 @@
       "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
       "title": "Tetsuryou! Meet with Tetsudou Musume",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 4,
       "stored": 3,
@@ -131708,7 +131861,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 3,
         "streamwish": 3,
