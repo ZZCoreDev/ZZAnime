@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T03:52:20.405373+00:00",
+  "checkedAt": "2026-10-29T04:06:45.659633+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73482,
   "storedChapters": 71450,
@@ -17776,6 +17776,124 @@
         "samples": [
           "https://jkanime.net/kabukichou-sherlock/1/",
           "https://jkanime.net/kabukichou-sherlock/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shokugeki-no-souma-shin-no-sara/",
+        "title": "Shokugeki no Souma: Shin no Sara",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma-shin-no-sara/1/",
+          "https://jkanime.net/shokugeki-no-souma-shin-no-sara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shin-chuuka-ichiban/",
+        "title": "Shin Chuuka Ichiban!",
+        "samples": [
+          "https://jkanime.net/shin-chuuka-ichiban/10/",
+          "https://jkanime.net/shin-chuuka-ichiban/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gundam-build-divers-rerise/",
+        "title": "Gundam Build Divers Re:Rise",
+        "samples": [
+          "https://jkanime.net/gundam-build-divers-rerise/1/",
+          "https://jkanime.net/gundam-build-divers-rerise/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/assassins-pride/",
+        "title": "Assassins Pride",
+        "samples": [
+          "https://jkanime.net/assassins-pride/1/",
+          "https://jkanime.net/assassins-pride/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/no-guns-life/",
+        "title": "No Guns Life",
+        "samples": [
+          "https://jkanime.net/no-guns-life/1/",
+          "https://jkanime.net/no-guns-life/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mugen-no-juunin-immortal/",
+        "title": "Mugen no Juunin: Immortal",
+        "samples": [
+          "https://jkanime.net/mugen-no-juunin-immortal/1/",
+          "https://jkanime.net/mugen-no-juunin-immortal/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hoshiai-no-sora/",
+        "title": "Hoshiai no Sora",
+        "samples": [
+          "https://jkanime.net/hoshiai-no-sora/1/",
+          "https://jkanime.net/hoshiai-no-sora/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanatsu-no-taizai-kamigami-no-gekirin/",
+        "title": "Nanatsu no Taizai: Kamigami no Gekirin",
+        "samples": [
+          "https://jkanime.net/nanatsu-no-taizai-kamigami-no-gekirin/1/",
+          "https://jkanime.net/nanatsu-no-taizai-kamigami-no-gekirin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beastars/",
+        "title": "Beastars",
+        "samples": [
+          "https://jkanime.net/beastars/1/",
+          "https://jkanime.net/beastars/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zx-code-reunion/",
+        "title": "Z/X: Code Reunion",
+        "samples": [
+          "https://jkanime.net/zx-code-reunion/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kandagawa-jet-girls/",
+        "title": "Kandagawa Jet Girls",
+        "samples": [
+          "https://jkanime.net/kandagawa-jet-girls/1/",
+          "https://jkanime.net/kandagawa-jet-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/",
+        "title": "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!",
+        "samples": [
+          "https://jkanime.net/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/1/",
+          "https://jkanime.net/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne/",
+        "title": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+        "samples": [
+          "https://jkanime.net/watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne/1/",
+          "https://jkanime.net/watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/stand-my-heroes-piece-of-truth/",
+        "title": "Stand My Heroes: Piece of Truth",
+        "samples": [
+          "https://jkanime.net/stand-my-heroes-piece-of-truth/1/",
+          "https://jkanime.net/stand-my-heroes-piece-of-truth/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/phantasy-star-online-2-episode-oracle/",
+        "title": "Phantasy Star Online 2: Episode Oracle",
+        "samples": [
+          "https://jkanime.net/phantasy-star-online-2-episode-oracle/9/"
         ]
       },
       {
@@ -64512,13 +64630,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
-        "mega": 9,
+        "mega": 7,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 10
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -64543,13 +64661,15 @@
     {
       "series": "https://jkanime.net/shokugeki-no-souma-shin-no-sara/",
       "title": "Shokugeki no Souma: Shin no Sara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -64562,19 +64682,21 @@
     {
       "series": "https://jkanime.net/shin-chuuka-ichiban/",
       "title": "Shin Chuuka Ichiban!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -64598,51 +64720,57 @@
     {
       "series": "https://jkanime.net/gundam-build-divers-rerise/",
       "title": "Gundam Build Divers Re:Rise",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 26,
+        "mega": 23,
         "streamwish": 26,
         "vidhide": 26,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/assassins-pride/",
       "title": "Assassins Pride",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/no-guns-life/",
       "title": "No Guns Life",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64655,70 +64783,78 @@
     {
       "series": "https://jkanime.net/mugen-no-juunin-immortal/",
       "title": "Mugen no Juunin: Immortal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 17,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
+        "mega": 17,
+        "streamwish": 23,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 17
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hoshiai-no-sora/",
       "title": "Hoshiai no Sora",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nanatsu-no-taizai-kamigami-no-gekirin/",
       "title": "Nanatsu no Taizai: Kamigami no Gekirin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 24,
+        "mega": 23,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/beastars/",
       "title": "Beastars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64731,51 +64867,57 @@
     {
       "series": "https://jkanime.net/zx-code-reunion/",
       "title": "Z/X: Code Reunion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kandagawa-jet-girls/",
       "title": "Kandagawa Jet Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/",
       "title": "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64788,13 +64930,15 @@
     {
       "series": "https://jkanime.net/watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne/",
       "title": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -64807,19 +64951,21 @@
     {
       "series": "https://jkanime.net/stand-my-heroes-piece-of-truth/",
       "title": "Stand My Heroes: Piece of Truth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mega": 9,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 9
       },
       "playbackVerified": false
     },
@@ -64827,7 +64973,8 @@
       "series": "https://jkanime.net/phantasy-star-online-2-episode-oracle/",
       "title": "Phantasy Star Online 2: Episode Oracle",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 25,
       "stored": 24,
@@ -64836,13 +64983,13 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 24,
+        "mega": 14,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 14
       },
       "playbackVerified": false
     },
