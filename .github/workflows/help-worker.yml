@@ -1,0 +1,49 @@
+name: Ayuda entre dispositivos (Worker)
+on:
+  push:
+    branches: [main, claude/tarea10-cadena-ayuda]
+    paths: ['automation/help-worker/**', '.github/workflows/help-worker.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  deploy:
+    concurrency:
+      group: zzanime-help-worker
+      cancel-in-progress: false
+    if: github.repository == 'ZZCoreDev/ZZAnime'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Pruebas del Worker sin red
+        working-directory: automation/hourly
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          node --no-warnings ../help-worker/test_help_worker.mjs
+      - name: Desplegar en Cloudflare (plan gratuito, Durable Object SQLite)
+        working-directory: automation/help-worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
+          ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: |
+          W=../hourly/node_modules/wrangler/bin/wrangler.js
+          derive() { python3 -c "import hmac,hashlib,os,sys;print(hmac.new(os.environ['ZZ_COLLECTOR_KEY'].encode(),('zzanime-ayuda/'+sys.argv[1]).encode(),hashlib.sha256).hexdigest())" "$1"; }
+          node "$W" deploy
+          derive help-key | node "$W" secret put HELP_KEY
+          derive salt | node "$W" secret put SALT
+      - name: Comprobar que responde y lee el canal firmado
+        env:
+          ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
+        run: |
+          URL=https://zzanime-ayuda.zzcoredev.workers.dev
+          KEY=$(python3 -c "import hmac,hashlib,os;print(hmac.new(os.environ['ZZ_COLLECTOR_KEY'].encode(),b'zzanime-ayuda/help-key',hashlib.sha256).hexdigest())")
+          for i in 1 2 3 4 5 6; do
+            if curl -fsS "$URL/" && curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/accepted" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1;print('\naccepted',len(d['episodes']))"; then exit 0; fi
+            sleep 15
+          done
+          exit 1

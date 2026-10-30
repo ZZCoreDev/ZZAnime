@@ -4,7 +4,7 @@ The signed channel carries a short "wanted" list. The help Worker accepts submis
 wanted chapters, requires two devices on two different networks plus a content check, and this
 module imports only what the cloud itself asked for in its last published channel."""
 from pathlib import Path
-import datetime,gzip,json,os,re,urllib.request
+import datetime,gzip,hashlib,hmac,json,os,re,urllib.request
 from archive_state import save as save_observations
 W=Path(__file__).resolve().parent
 EPISODE=re.compile(r'https://jkanime\.net/[a-zA-Z0-9_-]+/[1-9][0-9]*/')
@@ -13,7 +13,12 @@ FAMILIES={'desu','magi','mega','streamwish','vidhide','mixdrop','mp4upload','str
 CHECKS={'name-match','quorum3'}
 MAX_WANTED=40
 MAX_IMPORT=50
+HELP_URL='https://zzanime-ayuda.zzcoredev.workers.dev'
 def iso(t):return t.isoformat().replace('+00:00','Z')
+def derived(label,secret=None):
+ # Help Worker secrets derive from the existing collector secret, so no new GitHub secret is needed.
+ secret=os.environ.get('ZZ_COLLECTOR_KEY','') if secret is None else secret
+ return hmac.new(secret.encode(),('zzanime-ayuda/'+label).encode(),hashlib.sha256).hexdigest() if secret else ''
 def policy(path=None):
  path=path or W/'help-policy.json';x=json.loads(path.read_bytes()) if path.exists() else {}
  mode=x.get('mode','off');trial=[u for u in x.get('trial',[]) if isinstance(u,str) and EPISODE.fullmatch(u)]
@@ -72,7 +77,7 @@ def accept(data,state,asked,now):
   seen[url]=row.get('firstSeenAt') or iso(at)
  return incoming,seen,held
 def pull(folder,state,now,fetch=None):
- base,key=os.environ.get('ZZ_HELP_URL'),os.environ.get('ZZ_HELP_KEY')
+ base,key=os.environ.get('ZZ_HELP_URL'),os.environ.get('ZZ_HELP_KEY') or derived('help-key')
  if not base or not key:return {'state':'disabled','imported':0}
  path=folder/'help-wanted.json';asked=set(json.loads(path.read_bytes()).get('urls',[])) if path.exists() else set()
  if not asked:return {'state':'nothing-asked','imported':0}

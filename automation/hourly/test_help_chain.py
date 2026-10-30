@@ -79,6 +79,10 @@ class AcceptTests(unittest.TestCase):
   # Imported options pass through the normal build once the app validator approves them.
   link=self.state['episodes'][b]['providers'][0]['links'][0];approved={run.sha(('Mega\0'+link).encode()):True,**fixture(self.now)[1]}
   index,_=run.build(self.state,approved,self.now);self.assertEqual(sum(x['episodes'] for x in index['series'].values()),3)
+ def test_key_derives_from_collector_secret(self):
+  import hmac,hashlib
+  self.assertEqual(h.derived('help-key','s'),hmac.new(b's',b'zzanime-ayuda/help-key',hashlib.sha256).hexdigest());self.assertEqual(h.derived('help-key',''),'')
+  self.assertNotEqual(h.derived('help-key','s'),h.derived('salt','s'))
  def test_disabled_or_nothing_asked_makes_no_request(self):
   with tempfile.TemporaryDirectory() as folder:
    def fail():raise AssertionError('no request expected')

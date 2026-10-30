@@ -150,7 +150,9 @@ def main():
    key=rsa.generate_private_key(public_exponent=65537,key_size=2048);public=key.public_key().public_bytes(serialization.Encoding.DER,serialization.PublicFormat.SubjectPublicKeyInfo)
   site=tmp/'site';assets=site/'assets'
   digest=sha(raw(index));name='indexes/'+digest+'.bin';files[name]=raw(index)
-  import help_chain;wanted=None if proof else help_chain.wanted(state,files,now,help_chain.policy())
+  import help_chain
+  try:wanted=None if proof else help_chain.wanted(state,files,now,help_chain.policy())
+  except Exception as error:wanted=None;print(json.dumps({'helpWantedError':type(error).__name__+': '+str(error)[:120]}))
   # Extra signed field: installed readers check only their own keys, so older APKs ignore it.
   payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new',**({'wanted':wanted} if wanted is not None else {})})
   files['channel.json']=raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
