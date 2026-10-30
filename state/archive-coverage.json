@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T15:50:52.937988+00:00",
+  "checkedAt": "2026-10-30T16:03:35.044918+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73623,
-  "storedChapters": 71835,
-  "missingChapters": 1788,
+  "observedChapters": 73655,
+  "storedChapters": 71838,
+  "missingChapters": 1817,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -523,6 +523,14 @@
         "title": "The iDOLM@STER Cinderella Girls: U149 Special",
         "samples": [
           "https://jkanime.net/the-idolmster-cinderella-girls-u149-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
+        "title": "Kusuriya no Hitorigoto",
+        "samples": [
+          "https://jkanime.net/kusuriya-no-hitorigoto/25/",
+          "https://jkanime.net/kusuriya-no-hitorigoto/26/"
         ]
       },
       {
@@ -5468,8 +5476,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/37/",
-          "https://jkanime.net/tsubasa-chronicle/38/"
+          "https://jkanime.net/tsubasa-chronicle/38/",
+          "https://jkanime.net/tsubasa-chronicle/39/"
         ]
       },
       {
@@ -5554,7 +5562,6 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/12/",
           "https://jkanime.net/hit-wo-nerae/9/"
         ]
       },
@@ -5612,6 +5619,14 @@
         "title": "Momoko, Kaeru no Uta ga Kikoeru yo.",
         "samples": [
           "https://jkanime.net/momoko-kaeru-no-uta-ga-kikoeru-yo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/green-green/",
+        "title": "Green Green",
+        "samples": [
+          "https://jkanime.net/green-green/13/",
+          "https://jkanime.net/green-green/14/"
         ]
       },
       {
@@ -6225,6 +6240,13 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-anbu-no-item/",
+        "title": "Toaru Anbu no Item",
+        "samples": [
+          "https://jkanime.net/toaru-anbu-no-item/4/"
         ]
       },
       {
@@ -10704,8 +10726,8 @@
         "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
         "title": "Kusuriya no Hitorigoto",
         "samples": [
-          "https://jkanime.net/kusuriya-no-hitorigoto/1/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/10/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/25/",
+          "https://jkanime.net/kusuriya-no-hitorigoto/26/"
         ]
       },
       {
@@ -36713,8 +36735,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/37/",
-          "https://jkanime.net/tsubasa-chronicle/38/"
+          "https://jkanime.net/tsubasa-chronicle/38/",
+          "https://jkanime.net/tsubasa-chronicle/39/"
         ]
       },
       {
@@ -37406,7 +37428,6 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/12/",
           "https://jkanime.net/hit-wo-nerae/9/"
         ]
       },
@@ -37694,6 +37715,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shinkon-gattai-godannar/",
+        "title": "Shinkon Gattai Godannar!!",
+        "samples": [
+          "https://jkanime.net/shinkon-gattai-godannar/1/",
+          "https://jkanime.net/shinkon-gattai-godannar/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/heat-guy-j-toriko-angel/",
         "title": "Heat Guy J: Toriko - Angel",
         "samples": [
@@ -37708,10 +37737,98 @@
         ]
       },
       {
+        "series": "https://jkanime.net/full-metal-panic-fumoffu/",
+        "title": "Full Metal Panic? Fumoffu",
+        "samples": [
+          "https://jkanime.net/full-metal-panic-fumoffu/1/",
+          "https://jkanime.net/full-metal-panic-fumoffu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ikkitousen/",
+        "title": "Ikkitousen",
+        "samples": [
+          "https://jkanime.net/ikkitousen/1/",
+          "https://jkanime.net/ikkitousen/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/momoko-kaeru-no-uta-ga-kikoeru-yo/",
         "title": "Momoko, Kaeru no Uta ga Kikoeru yo.",
         "samples": [
           "https://jkanime.net/momoko-kaeru-no-uta-ga-kikoeru-yo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/popotan/",
+        "title": "Popotan",
+        "samples": [
+          "https://jkanime.net/popotan/1/",
+          "https://jkanime.net/popotan/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onegai-twins/",
+        "title": "Onegai Twins",
+        "samples": [
+          "https://jkanime.net/onegai-twins/1/",
+          "https://jkanime.net/onegai-twins/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/green-green/",
+        "title": "Green Green",
+        "samples": [
+          "https://jkanime.net/green-green/13/",
+          "https://jkanime.net/green-green/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/narutaru-mukuro-naru-hoshi-tama-taru-ko/",
+        "title": "Narutaru: Mukuro Naru Hoshi Tama Taru Ko",
+        "samples": [
+          "https://jkanime.net/narutaru-mukuro-naru-hoshi-tama-taru-ko/1/",
+          "https://jkanime.net/narutaru-mukuro-naru-hoshi-tama-taru-ko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/takahashi-rumiko-gekijou/",
+        "title": "Takahashi Rumiko Gekijou",
+        "samples": [
+          "https://jkanime.net/takahashi-rumiko-gekijou/1/",
+          "https://jkanime.net/takahashi-rumiko-gekijou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-capo/",
+        "title": "Da Capo",
+        "samples": [
+          "https://jkanime.net/da-capo/1/",
+          "https://jkanime.net/da-capo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/happylesson-advance/",
+        "title": "Happy☆Lesson Advance",
+        "samples": [
+          "https://jkanime.net/happylesson-advance/1/",
+          "https://jkanime.net/happylesson-advance/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/divergence-eve/",
+        "title": "Divergence Eve",
+        "samples": [
+          "https://jkanime.net/divergence-eve/11/",
+          "https://jkanime.net/divergence-eve/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cinderella-boy/",
+        "title": "Cinderella Boy",
+        "samples": [
+          "https://jkanime.net/cinderella-boy/1/",
+          "https://jkanime.net/cinderella-boy/13/"
         ]
       },
       {
@@ -37726,6 +37843,22 @@
         "title": "Naruto: Akaki Yotsuba no Clover wo Sagase",
         "samples": [
           "https://jkanime.net/naruto-akaki-yotsuba-no-clover-wo-sagase/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/submarine-super-99/",
+        "title": "Submarine Super 99",
+        "samples": [
+          "https://jkanime.net/submarine-super-99/1/",
+          "https://jkanime.net/submarine-super-99/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/texhnolyze/",
+        "title": "Texhnolyze",
+        "samples": [
+          "https://jkanime.net/texhnolyze/1/",
+          "https://jkanime.net/texhnolyze/10/"
         ]
       },
       {
@@ -61214,11 +61347,42 @@
       "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
       "title": "Kusuriya no Hitorigoto",
       "causes": [
+        "observed-chapters-without-options",
         "renewal-error"
       ],
-      "observed": 24,
+      "observed": 53,
       "stored": 24,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/kusuriya-no-hitorigoto/25/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/26/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/27/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/28/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/29/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/30/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/31/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/32/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/33/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/34/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/35/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/36/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/37/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/38/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/39/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/40/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/41/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/42/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/43/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/44/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/45/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/46/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/47/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/48/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/49/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/50/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/51/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/52/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/53/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 24,
@@ -73721,7 +73885,7 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
@@ -73729,7 +73893,6 @@
         "https://jkanime.net/megaton-kyuu-musashi/19/",
         "https://jkanime.net/megaton-kyuu-musashi/20/",
         "https://jkanime.net/megaton-kyuu-musashi/22/",
-        "https://jkanime.net/megaton-kyuu-musashi/23/",
         "https://jkanime.net/megaton-kyuu-musashi/24/",
         "https://jkanime.net/megaton-kyuu-musashi/25/",
         "https://jkanime.net/megaton-kyuu-musashi/26/",
@@ -73740,7 +73903,7 @@
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
-        "mp4upload": 16,
+        "mp4upload": 17,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -101039,7 +101202,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -104965,7 +105128,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 6
       },
@@ -135406,9 +135569,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 36,
+      "stored": 37,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/37/",
         "https://jkanime.net/tsubasa-chronicle/38/",
         "https://jkanime.net/tsubasa-chronicle/39/",
         "https://jkanime.net/tsubasa-chronicle/40/",
@@ -135429,9 +135591,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 37,
-        "streamwish": 36,
-        "vidhide": 37,
+        "mp4upload": 38,
+        "streamwish": 37,
+        "vidhide": 38,
         "mega": 1,
         "streamtape": 1
       },
@@ -137337,16 +137499,15 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/hit-wo-nerae/12/",
         "https://jkanime.net/hit-wo-nerae/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 9,
+        "mp4upload": 10,
         "streamwish": 8,
         "mega": 1,
         "vidhide": 1,
@@ -138116,7 +138277,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -138130,13 +138291,15 @@
     {
       "series": "https://jkanime.net/shinkon-gattai-godannar/",
       "title": "Shinkon Gattai Godannar!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138188,13 +138351,15 @@
     {
       "series": "https://jkanime.net/full-metal-panic-fumoffu/",
       "title": "Full Metal Panic? Fumoffu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -138207,13 +138372,15 @@
     {
       "series": "https://jkanime.net/ikkitousen/",
       "title": "Ikkitousen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138245,33 +138412,37 @@
     {
       "series": "https://jkanime.net/popotan/",
       "title": "Popotan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mega": 4,
         "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 4,
+        "mixdrop": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/onegai-twins/",
       "title": "Onegai Twins",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -138284,32 +138455,40 @@
     {
       "series": "https://jkanime.net/green-green/",
       "title": "Green Green",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 14,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/green-green/13/",
+        "https://jkanime.net/green-green/14/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/narutaru-mukuro-naru-hoshi-tama-taru-ko/",
       "title": "Narutaru: Mukuro Naru Hoshi Tama Taru Ko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138323,13 +138502,15 @@
     {
       "series": "https://jkanime.net/takahashi-rumiko-gekijou/",
       "title": "Takahashi Rumiko Gekijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138343,13 +138524,15 @@
     {
       "series": "https://jkanime.net/da-capo/",
       "title": "Da Capo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -138362,13 +138545,15 @@
     {
       "series": "https://jkanime.net/happylesson-advance/",
       "title": "Happy☆Lesson Advance",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138382,39 +138567,43 @@
     {
       "series": "https://jkanime.net/divergence-eve/",
       "title": "Divergence Eve",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "mixdrop": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/cinderella-boy/",
       "title": "Cinderella Boy",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 13,
+        "mega": 5,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -138459,13 +138648,15 @@
     {
       "series": "https://jkanime.net/submarine-super-99/",
       "title": "Submarine Super 99",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138479,13 +138670,15 @@
     {
       "series": "https://jkanime.net/texhnolyze/",
       "title": "Texhnolyze",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -144791,7 +144984,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -145194,10 +145387,14 @@
     {
       "series": "https://jkanime.net/toaru-anbu-no-item/",
       "title": "Toaru Anbu no Item",
-      "causes": [],
-      "observed": 3,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 4,
       "stored": 3,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/toaru-anbu-no-item/4/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
