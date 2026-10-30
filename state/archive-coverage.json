@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T11:17:06.492178+00:00",
+  "checkedAt": "2026-10-30T11:29:33.101280+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73568,
-  "storedChapters": 71791,
-  "missingChapters": 1777,
+  "storedChapters": 71794,
+  "missingChapters": 1774,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -417,8 +417,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/"
         ]
       },
       {
@@ -2980,7 +2980,7 @@
         "title": "Ninja Slayer From Animation",
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
-          "https://jkanime.net/ninja-slayer-from-animation/12/"
+          "https://jkanime.net/ninja-slayer-from-animation/13/"
         ]
       },
       {
@@ -8898,8 +8898,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/"
         ]
       },
       {
@@ -25836,7 +25836,7 @@
         "title": "Ninja Slayer From Animation",
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
-          "https://jkanime.net/ninja-slayer-from-animation/12/"
+          "https://jkanime.net/ninja-slayer-from-animation/13/"
         ]
       },
       {
@@ -54273,9 +54273,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
@@ -54288,9 +54287,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 14,
+        "streamwish": 15,
         "vidhide": 13,
-        "mp4upload": 16,
+        "mp4upload": 17,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -66174,7 +66173,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 31,
+      "stored": 32,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -66190,7 +66189,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/45/",
         "https://jkanime.net/bleach-sennen-kessen-hen/46/",
         "https://jkanime.net/bleach-sennen-kessen-hen/47/",
         "https://jkanime.net/bleach-sennen-kessen-hen/48/",
@@ -66201,10 +66199,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 19,
-        "vidhide": 28,
+        "streamwish": 20,
+        "vidhide": 29,
         "streamtape": 13,
-        "mp4upload": 18,
+        "mp4upload": 19,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -103353,10 +103351,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
-        "https://jkanime.net/ninja-slayer-from-animation/12/",
         "https://jkanime.net/ninja-slayer-from-animation/13/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/15/",
@@ -103384,7 +103381,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 2
+        "streamwish": 3
       },
       "playbackVerified": false
     },
@@ -131384,7 +131381,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 99,
+      "renewalFailed": 399,
       "families": {
         "mega": 497,
         "streamwish": 500,
@@ -142759,7 +142756,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
