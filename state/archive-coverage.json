@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T01:11:14.755785+00:00",
+  "checkedAt": "2026-10-30T01:24:12.402885+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
   "storedChapters": 71712,
@@ -28800,7 +28800,7 @@
         "title": "Seitokai Yakuindomo* S2",
         "samples": [
           "https://jkanime.net/seitokai-yakuindomo-2/1/",
-          "https://jkanime.net/seitokai-yakuindomo-2/2/"
+          "https://jkanime.net/seitokai-yakuindomo-2/10/"
         ]
       },
       {
@@ -28808,6 +28808,46 @@
         "title": "Mushishi Special: Hihamukage",
         "samples": [
           "https://jkanime.net/mushishi-special-hihamukage/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spacedandy/",
+        "title": "Space☆Dandy",
+        "samples": [
+          "https://jkanime.net/spacedandy/1/",
+          "https://jkanime.net/spacedandy/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/robot-girls-z/",
+        "title": "Robot Girls Z",
+        "samples": [
+          "https://jkanime.net/robot-girls-z/1/",
+          "https://jkanime.net/robot-girls-z/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saikin-imouto-no-yousu-ga-chotto-okashiinda-ga/",
+        "title": "ImoCho",
+        "samples": [
+          "https://jkanime.net/saikin-imouto-no-yousu-ga-chotto-okashiinda-ga/1/",
+          "https://jkanime.net/saikin-imouto-no-yousu-ga-chotto-okashiinda-ga/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saki-zenkoku-hen/",
+        "title": "Saki: Zenkoku-hen",
+        "samples": [
+          "https://jkanime.net/saki-zenkoku-hen/1/",
+          "https://jkanime.net/saki-zenkoku-hen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/witch-craft-works/",
+        "title": "Witch Craft Works",
+        "samples": [
+          "https://jkanime.net/witch-craft-works/1/",
+          "https://jkanime.net/witch-craft-works/10/"
         ]
       },
       {
@@ -28840,6 +28880,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zetsumetsu-kigu-shoujo-amazing-twins/",
+        "title": "Zetsumetsu Kigu Shoujo: Amazing Twins",
+        "samples": [
+          "https://jkanime.net/zetsumetsu-kigu-shoujo-amazing-twins/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buddy-complex/",
+        "title": "Buddy Complex",
+        "samples": [
+          "https://jkanime.net/buddy-complex/1/",
+          "https://jkanime.net/buddy-complex/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/majokko-shimai-no-yoyo-to-nene/",
         "title": "Majokko Shimai no Yoyo to Nene",
         "samples": [
@@ -28847,10 +28902,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-lite/",
+        "title": "Chuu-ni Byou! Ren Lite",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-lite/1/",
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-lite/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/uta-noprince-sama-maji-love-2000-shining-star-xmas/",
         "title": "Uta no☆Prince-sama♪ Maji Love 2000%: Shining Star Xmas",
         "samples": [
           "https://jkanime.net/uta-noprince-sama-maji-love-2000-shining-star-xmas/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/freezing-vibration-specials/",
+        "title": "Freezing Vibration Specials",
+        "samples": [
+          "https://jkanime.net/freezing-vibration-specials/1/",
+          "https://jkanime.net/freezing-vibration-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/machine-doll-wa-kizutsukanai-specials/",
+        "title": "Machine-Doll wa Kizutsukanai Specials",
+        "samples": [
+          "https://jkanime.net/machine-doll-wa-kizutsukanai-specials/1/",
+          "https://jkanime.net/machine-doll-wa-kizutsukanai-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pupipo/",
+        "title": "Pupipo!",
+        "samples": [
+          "https://jkanime.net/pupipo/1/",
+          "https://jkanime.net/pupipo/10/"
         ]
       },
       {
@@ -28873,6 +28960,30 @@
         "title": "Natsume Yuujinchou: Nyanko-sensei to Hajimete no Otsukai",
         "samples": [
           "https://jkanime.net/natsume-yuujinchou-nyanko-sensei-to-hajimete-no-otsukai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
+        "title": "Mou Hitotsu no Mirai wo.",
+        "samples": [
+          "https://jkanime.net/mou-hitotsu-no-mirai-wo/1/",
+          "https://jkanime.net/mou-hitotsu-no-mirai-wo/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai-specials/",
+        "title": "Sekai de Ichiban Tsuyoku Naritai! Specials",
+        "samples": [
+          "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai-specials/1/",
+          "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-kyojin-ova/",
+        "title": "Shingeki no Kyojin OVA",
+        "samples": [
+          "https://jkanime.net/shingeki-no-kyojin-ova/1/",
+          "https://jkanime.net/shingeki-no-kyojin-ova/2/"
         ]
       },
       {
@@ -28918,6 +29029,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kyoukai-no-kanata-idol-saiban-mayoi-nagara-mo-kimi-wo-sabaku-tami/",
+        "title": "Kyoukai no Kanata: Idol Saiban! Mayoi Nagara mo Kimi wo Sabaku Tami",
+        "samples": [
+          "https://jkanime.net/kyoukai-no-kanata-idol-saiban-mayoi-nagara-mo-kimi-wo-sabaku-tami/1/",
+          "https://jkanime.net/kyoukai-no-kanata-idol-saiban-mayoi-nagara-mo-kimi-wo-sabaku-tami/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyousou-giga-tv-specials/",
+        "title": "Kyousou Giga (TV) Specials",
+        "samples": [
+          "https://jkanime.net/kyousou-giga-tv-specials/1/",
+          "https://jkanime.net/kyousou-giga-tv-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/is-infinite-stratos-2-hitonatsu-no-omoide/",
         "title": "IS: Infinite Stratos 2 - Hitonatsu no Omoide",
         "samples": [
@@ -28950,6 +29077,93 @@
         "title": "Mahou Shoujo Madoka★Magica Movie 3: Hangyaku no Monogatari",
         "samples": [
           "https://jkanime.net/mahou-shoujo-madokamagica-movie-3-hangyaku-no-monogatari/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-ravens-specials/",
+        "title": "Tokyo Ravens Specials",
+        "samples": [
+          "https://jkanime.net/tokyo-ravens-specials/1/",
+          "https://jkanime.net/tokyo-ravens-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/meganebu/",
+        "title": "Meganebu!",
+        "samples": [
+          "https://jkanime.net/meganebu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kakumeiki-valvrave-2nd-season/",
+        "title": "Kakumeiki Valvrave 2nd Season",
+        "samples": [
+          "https://jkanime.net/kakumeiki-valvrave-2nd-season/1/",
+          "https://jkanime.net/kakumeiki-valvrave-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/noucome/",
+        "title": "Ore no Nounai Sentakushi ga, Gakuen Love Comedy wo Zenryoku de Jama Shiteiru",
+        "samples": [
+          "https://jkanime.net/noucome/1/",
+          "https://jkanime.net/noucome/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-quartet-tsuki-ni-naku/",
+        "title": "Yozakura Quartet: Tsuki ni Naku",
+        "samples": [
+          "https://jkanime.net/yozakura-quartet-tsuki-ni-naku/1/",
+          "https://jkanime.net/yozakura-quartet-tsuki-ni-naku/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blazblue-alter-memory/",
+        "title": "BlazBlue: Alter Memory",
+        "samples": [
+          "https://jkanime.net/blazblue-alter-memory/1/",
+          "https://jkanime.net/blazblue-alter-memory/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/galilei-donna/",
+        "title": "Galilei Donna",
+        "samples": [
+          "https://jkanime.net/galilei-donna/1/",
+          "https://jkanime.net/galilei-donna/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/samurai-flamenco/",
+        "title": "Samurai Flamenco",
+        "samples": [
+          "https://jkanime.net/samurai-flamenco/1/",
+          "https://jkanime.net/samurai-flamenco/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-ravens/",
+        "title": "Tokyo Ravens",
+        "samples": [
+          "https://jkanime.net/tokyo-ravens/1/",
+          "https://jkanime.net/tokyo-ravens/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yowamushi-pedal/",
+        "title": "Yowamushi Pedal",
+        "samples": [
+          "https://jkanime.net/yowamushi-pedal/1/",
+          "https://jkanime.net/yowamushi-pedal/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/machine-doll-wa-kizutsukanai/",
+        "title": "Machine-Doll wa Kizutsukanai",
+        "samples": [
+          "https://jkanime.net/machine-doll-wa-kizutsukanai/1/",
+          "https://jkanime.net/machine-doll-wa-kizutsukanai/2/"
         ]
       },
       {
@@ -105762,7 +105976,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "mp4upload": 18,
         "streamwish": 20,
@@ -106298,7 +106512,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -106330,13 +106544,15 @@
     {
       "series": "https://jkanime.net/spacedandy/",
       "title": "Space☆Dandy",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -106349,13 +106565,15 @@
     {
       "series": "https://jkanime.net/robot-girls-z/",
       "title": "Robot Girls Z",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -106368,13 +106586,15 @@
     {
       "series": "https://jkanime.net/saikin-imouto-no-yousu-ga-chotto-okashiinda-ga/",
       "title": "ImoCho",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -106387,32 +106607,36 @@
     {
       "series": "https://jkanime.net/saki-zenkoku-hen/",
       "title": "Saki: Zenkoku-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 11,
+        "mega": 5,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/witch-craft-works/",
       "title": "Witch Craft Works",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -106522,32 +106746,36 @@
     {
       "series": "https://jkanime.net/zetsumetsu-kigu-shoujo-amazing-twins/",
       "title": "Zetsumetsu Kigu Shoujo: Amazing Twins",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
+        "mega": 1,
         "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/buddy-complex/",
       "title": "Buddy Complex",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -106579,13 +106807,15 @@
     {
       "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-lite/",
       "title": "Chuu-ni Byou! Ren Lite",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -106617,13 +106847,15 @@
     {
       "series": "https://jkanime.net/freezing-vibration-specials/",
       "title": "Freezing Vibration Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -106636,13 +106868,15 @@
     {
       "series": "https://jkanime.net/machine-doll-wa-kizutsukanai-specials/",
       "title": "Machine-Doll wa Kizutsukanai Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -106655,19 +106889,21 @@
     {
       "series": "https://jkanime.net/pupipo/",
       "title": "Pupipo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 15,
+        "mega": 12,
         "streamwish": 15,
-        "vidhide": 15,
-        "mp4upload": 15,
-        "streamtape": 15
+        "vidhide": 12,
+        "mp4upload": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -106735,13 +106971,15 @@
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
       "title": "Mou Hitotsu no Mirai wo.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -106754,13 +106992,15 @@
     {
       "series": "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai-specials/",
       "title": "Sekai de Ichiban Tsuyoku Naritai! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -106773,13 +107013,15 @@
     {
       "series": "https://jkanime.net/shingeki-no-kyojin-ova/",
       "title": "Shingeki no Kyojin OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -106921,13 +107163,15 @@
     {
       "series": "https://jkanime.net/kyoukai-no-kanata-idol-saiban-mayoi-nagara-mo-kimi-wo-sabaku-tami/",
       "title": "Kyoukai no Kanata: Idol Saiban! Mayoi Nagara mo Kimi wo Sabaku Tami",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -106940,13 +107184,15 @@
     {
       "series": "https://jkanime.net/kyousou-giga-tv-specials/",
       "title": "Kyousou Giga (TV) Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -107084,13 +107330,15 @@
     {
       "series": "https://jkanime.net/tokyo-ravens-specials/",
       "title": "Tokyo Ravens Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -107133,32 +107381,36 @@
     {
       "series": "https://jkanime.net/meganebu/",
       "title": "Meganebu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
+        "mega": 1,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kakumeiki-valvrave-2nd-season/",
       "title": "Kakumeiki Valvrave 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107171,13 +107423,15 @@
     {
       "series": "https://jkanime.net/noucome/",
       "title": "Ore no Nounai Sentakushi ga, Gakuen Love Comedy wo Zenryoku de Jama Shiteiru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -107205,13 +107459,15 @@
     {
       "series": "https://jkanime.net/yozakura-quartet-tsuki-ni-naku/",
       "title": "Yozakura Quartet: Tsuki ni Naku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -107224,13 +107480,15 @@
     {
       "series": "https://jkanime.net/blazblue-alter-memory/",
       "title": "BlazBlue: Alter Memory",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107243,13 +107501,15 @@
     {
       "series": "https://jkanime.net/galilei-donna/",
       "title": "Galilei Donna",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -107262,13 +107522,15 @@
     {
       "series": "https://jkanime.net/samurai-flamenco/",
       "title": "Samurai Flamenco",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 20,
         "streamwish": 22,
@@ -107281,13 +107543,15 @@
     {
       "series": "https://jkanime.net/tokyo-ravens/",
       "title": "Tokyo Ravens",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -107300,13 +107564,15 @@
     {
       "series": "https://jkanime.net/yowamushi-pedal/",
       "title": "Yowamushi Pedal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 38,
       "stored": 38,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 38,
       "families": {
         "mega": 38,
         "streamwish": 38,
@@ -107319,13 +107585,15 @@
     {
       "series": "https://jkanime.net/machine-doll-wa-kizutsukanai/",
       "title": "Machine-Doll wa Kizutsukanai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
