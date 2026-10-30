@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T09:08:57.994515+00:00",
+  "checkedAt": "2026-10-30T09:21:55.295011+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73564,
-  "storedChapters": 71759,
-  "missingChapters": 1805,
+  "storedChapters": 71766,
+  "missingChapters": 1798,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -381,8 +381,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/29/",
-          "https://jkanime.net/dr-stone-science-future/30/"
+          "https://jkanime.net/dr-stone-science-future/30/",
+          "https://jkanime.net/dr-stone-science-future/31/"
         ]
       },
       {
@@ -8051,8 +8051,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/29/",
-          "https://jkanime.net/dr-stone-science-future/30/"
+          "https://jkanime.net/dr-stone-science-future/30/",
+          "https://jkanime.net/dr-stone-science-future/31/"
         ]
       },
       {
@@ -34716,6 +34716,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ga-rei-zero/",
+        "title": "Ga-Rei: Zero",
+        "samples": [
+          "https://jkanime.net/ga-rei-zero/1/",
+          "https://jkanime.net/ga-rei-zero/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-00-second-season/",
+        "title": "Mobile Suit Gundam 00 S2",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-00-second-season/1/",
+          "https://jkanime.net/mobile-suit-gundam-00-second-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inazuma-eleven/",
+        "title": "Inazuma Eleven",
+        "samples": [
+          "https://jkanime.net/inazuma-eleven/1/",
+          "https://jkanime.net/inazuma-eleven/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shugo-chara-doki/",
+        "title": "Shugo Chara!! Doki",
+        "samples": [
+          "https://jkanime.net/shugo-chara-doki/1/",
+          "https://jkanime.net/shugo-chara-doki/13/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/lucky-star-ova/",
         "title": "Lucky ☆ Star OVA",
         "samples": [
@@ -50732,25 +50764,19 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 28,
+      "stored": 34,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/29/",
         "https://jkanime.net/dr-stone-science-future/30/",
         "https://jkanime.net/dr-stone-science-future/31/",
-        "https://jkanime.net/dr-stone-science-future/32/",
-        "https://jkanime.net/dr-stone-science-future/33/",
-        "https://jkanime.net/dr-stone-science-future/34/",
-        "https://jkanime.net/dr-stone-science-future/35/",
-        "https://jkanime.net/dr-stone-science-future/36/",
-        "https://jkanime.net/dr-stone-science-future/37/"
+        "https://jkanime.net/dr-stone-science-future/32/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "streamwish": 20,
-        "vidhide": 16,
-        "mp4upload": 25,
+        "streamwish": 26,
+        "vidhide": 20,
+        "mp4upload": 31,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -77564,7 +77590,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -80423,23 +80449,22 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/2/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/3/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/4/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/5/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/9/"
+        "https://jkanime.net/chuubyou-gekihatsu-boy/5/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 4,
-        "vidhide": 4
+        "mp4upload": 5,
+        "streamwish": 5,
+        "vidhide": 5
       },
       "playbackVerified": false
     },
@@ -91433,7 +91458,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -98469,7 +98494,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -126707,7 +126732,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 52,
+      "renewalFailed": 53,
       "families": {
         "mega": 50,
         "streamwish": 52,
@@ -127326,7 +127351,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -127339,13 +127364,15 @@
     {
       "series": "https://jkanime.net/ga-rei-zero/",
       "title": "Ga-Rei: Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127358,13 +127385,15 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-00-second-season/",
       "title": "Mobile Suit Gundam 00 S2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -127377,38 +127406,42 @@
     {
       "series": "https://jkanime.net/inazuma-eleven/",
       "title": "Inazuma Eleven",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 127,
       "stored": 127,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 126,
       "families": {
-        "mega": 127,
+        "mega": 126,
         "streamwish": 127,
         "vidhide": 127,
         "mp4upload": 127,
-        "streamtape": 127
+        "streamtape": 126
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shugo-chara-doki/",
       "title": "Shugo Chara!! Doki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 51,
+        "mega": 35,
         "streamwish": 51,
         "vidhide": 51,
         "mp4upload": 51,
-        "streamtape": 51
+        "streamtape": 35
       },
       "playbackVerified": false
     },
@@ -141457,7 +141490,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {
         "mega": 32,
         "streamwish": 32,
