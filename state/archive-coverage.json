@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T12:22:31.921640+00:00",
+  "checkedAt": "2026-10-30T12:34:26.729840+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73569,
-  "storedChapters": 71809,
-  "missingChapters": 1760,
+  "storedChapters": 71810,
+  "missingChapters": 1759,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -410,7 +410,6 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
           "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
         ]
       },
@@ -8899,7 +8898,6 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
           "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
         ]
       },
@@ -36064,6 +36062,30 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kujibiki-unbalance-tv/",
+        "title": "Kujibiki♥Unbalance (TV)",
+        "samples": [
+          "https://jkanime.net/kujibiki-unbalance-tv/1/",
+          "https://jkanime.net/kujibiki-unbalance-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/welcome-to-the-nhk/",
+        "title": "Welcome to the NHK!",
+        "samples": [
+          "https://jkanime.net/welcome-to-the-nhk/1/",
+          "https://jkanime.net/welcome-to-the-nhk/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tonagura/",
+        "title": "Tonagura!",
+        "samples": [
+          "https://jkanime.net/tonagura/1/",
+          "https://jkanime.net/tonagura/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/brave-story/",
         "title": "Brave Story",
         "samples": [
@@ -36071,10 +36093,106 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bokura-ga-ita/",
+        "title": "Bokura ga Ita",
+        "samples": [
+          "https://jkanime.net/bokura-ga-ita/1/",
+          "https://jkanime.net/bokura-ga-ita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zero-no-tsukaima/",
+        "title": "Zero no Tsukaima",
+        "samples": [
+          "https://jkanime.net/zero-no-tsukaima/1/",
+          "https://jkanime.net/zero-no-tsukaima/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/rec-yurusarezarumono/",
         "title": "Rec: Yurusarezarumono",
         "samples": [
           "https://jkanime.net/rec-yurusarezarumono/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/demonbane-tv/",
+        "title": "Demonbane (TV)",
+        "samples": [
+          "https://jkanime.net/demonbane-tv/1/",
+          "https://jkanime.net/demonbane-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsubasa-chronicle-2/",
+        "title": "Tsubasa Chronicle 2nd Season",
+        "samples": [
+          "https://jkanime.net/tsubasa-chronicle-2/1/",
+          "https://jkanime.net/tsubasa-chronicle-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokko/",
+        "title": "Tokko",
+        "samples": [
+          "https://jkanime.net/tokko/1/",
+          "https://jkanime.net/tokko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-lagoon/",
+        "title": "Black Lagoon",
+        "samples": [
+          "https://jkanime.net/black-lagoon/1/",
+          "https://jkanime.net/black-lagoon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rockman-exe-beast-plus/",
+        "title": "Rockman EXE Beast+",
+        "samples": [
+          "https://jkanime.net/rockman-exe-beast-plus/1/",
+          "https://jkanime.net/rockman-exe-beast-plus/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saiunkoku-monogatari/",
+        "title": "Saiunkoku Monogatari",
+        "samples": [
+          "https://jkanime.net/saiunkoku-monogatari/1/",
+          "https://jkanime.net/saiunkoku-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/xxxholic/",
+        "title": "xxxHOLiC",
+        "samples": [
+          "https://jkanime.net/xxxholic/1/",
+          "https://jkanime.net/xxxholic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ah-my-goddess-2/",
+        "title": "Ah! My Goddess: Sorezore no Tsubasa",
+        "samples": [
+          "https://jkanime.net/ah-my-goddess-2/1/",
+          "https://jkanime.net/ah-my-goddess-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/higurashi-no-naku-koro-ni/",
+        "title": "Higurashi no Naku Koro ni",
+        "samples": [
+          "https://jkanime.net/higurashi-no-naku-koro-ni/1/",
+          "https://jkanime.net/higurashi-no-naku-koro-ni/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ouran-high-school-host-club/",
+        "title": "Ouran High School Host Club",
+        "samples": [
+          "https://jkanime.net/ouran-high-school-host-club/1/",
+          "https://jkanime.net/ouran-high-school-host-club/10/"
         ]
       },
       {
@@ -54461,9 +54579,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
       ],
       "expired": [],
@@ -54471,9 +54588,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 19,
+        "streamwish": 20,
         "vidhide": 13,
-        "mp4upload": 21,
+        "mp4upload": 22,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -84198,7 +84315,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mp4upload": 12
       },
@@ -132191,13 +132308,15 @@
     {
       "series": "https://jkanime.net/kujibiki-unbalance-tv/",
       "title": "Kujibiki♥Unbalance (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -132210,13 +132329,15 @@
     {
       "series": "https://jkanime.net/welcome-to-the-nhk/",
       "title": "Welcome to the NHK!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -132229,13 +132350,15 @@
     {
       "series": "https://jkanime.net/tonagura/",
       "title": "Tonagura!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -132268,13 +132391,15 @@
     {
       "series": "https://jkanime.net/bokura-ga-ita/",
       "title": "Bokura ga Ita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132287,13 +132412,15 @@
     {
       "series": "https://jkanime.net/zero-no-tsukaima/",
       "title": "Zero no Tsukaima",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -132345,13 +132472,15 @@
     {
       "series": "https://jkanime.net/demonbane-tv/",
       "title": "Demonbane (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -132364,13 +132493,15 @@
     {
       "series": "https://jkanime.net/tsubasa-chronicle-2/",
       "title": "Tsubasa Chronicle 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132383,13 +132514,15 @@
     {
       "series": "https://jkanime.net/tokko/",
       "title": "Tokko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -132402,13 +132535,15 @@
     {
       "series": "https://jkanime.net/black-lagoon/",
       "title": "Black Lagoon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -132421,13 +132556,15 @@
     {
       "series": "https://jkanime.net/rockman-exe-beast-plus/",
       "title": "Rockman EXE Beast+",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132441,13 +132578,15 @@
     {
       "series": "https://jkanime.net/saiunkoku-monogatari/",
       "title": "Saiunkoku Monogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -132461,13 +132600,15 @@
     {
       "series": "https://jkanime.net/xxxholic/",
       "title": "xxxHOLiC",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -132480,13 +132621,15 @@
     {
       "series": "https://jkanime.net/ah-my-goddess-2/",
       "title": "Ah! My Goddess: Sorezore no Tsubasa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -132499,13 +132642,15 @@
     {
       "series": "https://jkanime.net/higurashi-no-naku-koro-ni/",
       "title": "Higurashi no Naku Koro ni",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132518,13 +132663,15 @@
     {
       "series": "https://jkanime.net/ouran-high-school-host-club/",
       "title": "Ouran High School Host Club",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 26,
         "streamwish": 26,
