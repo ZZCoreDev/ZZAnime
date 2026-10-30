@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T05:49:39.848448+00:00",
+  "checkedAt": "2026-10-30T06:03:06.639307+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73544,
-  "storedChapters": 71739,
-  "missingChapters": 1805,
+  "storedChapters": 71741,
+  "missingChapters": 1803,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -32823,11 +32823,51 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nichijou/",
+        "title": "Nichijou",
+        "samples": [
+          "https://jkanime.net/nichijou/1/",
+          "https://jkanime.net/nichijou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanasaku-iroha/",
+        "title": "Hanasaku Iroha",
+        "samples": [
+          "https://jkanime.net/hanasaku-iroha/1/",
+          "https://jkanime.net/hanasaku-iroha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/freezing-specials/",
+        "title": "Freezing Specials",
+        "samples": [
+          "https://jkanime.net/freezing-specials/1/",
+          "https://jkanime.net/freezing-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dog-days/",
+        "title": "Dog Days",
+        "samples": [
+          "https://jkanime.net/dog-days/1/",
+          "https://jkanime.net/dog-days/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hetalia-world-series-extra-episodes/",
         "title": "Hetalia World Series Extra Episodes",
         "samples": [
           "https://jkanime.net/hetalia-world-series-extra-episodes/1/",
           "https://jkanime.net/hetalia-world-series-extra-episodes/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/luo-xiao-hei-zhan-ji/",
+        "title": "Luo Xiao Hei Zhan Ji",
+        "samples": [
+          "https://jkanime.net/luo-xiao-hei-zhan-ji/1/",
+          "https://jkanime.net/luo-xiao-hei-zhan-ji/10/"
         ]
       },
       {
@@ -32842,6 +32882,37 @@
         "title": "Nichijou Episode 0",
         "samples": [
           "https://jkanime.net/nichijou-episode-0/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/steins-gate/",
+        "title": "Steins;Gate",
+        "samples": [
+          "https://jkanime.net/steins-gate/1/",
+          "https://jkanime.net/steins-gate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-matsuri/",
+        "title": "Baka to Test to Shoukanjuu: Matsuri",
+        "samples": [
+          "https://jkanime.net/baka-to-test-to-shoukanjuu-matsuri/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-true-route/",
+        "title": "OreImo True Route",
+        "samples": [
+          "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-true-route/1/",
+          "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-true-route/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suite-precure/",
+        "title": "Suite Precure♪",
+        "samples": [
+          "https://jkanime.net/suite-precure/1/",
+          "https://jkanime.net/suite-precure/13/"
         ]
       },
       {
@@ -39641,7 +39712,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -63616,7 +63687,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 23,
+      "stored": 24,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -63630,7 +63701,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/35/",
         "https://jkanime.net/bleach-sennen-kessen-hen/36/",
         "https://jkanime.net/bleach-sennen-kessen-hen/37/",
         "https://jkanime.net/bleach-sennen-kessen-hen/38/",
@@ -63652,7 +63722,7 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 22,
+        "vidhide": 23,
         "streamtape": 13,
         "mp4upload": 12,
         "mixdrop": 4
@@ -69580,11 +69650,10 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
-        "https://jkanime.net/megaton-kyuu-musashi/17/",
         "https://jkanime.net/megaton-kyuu-musashi/18/",
         "https://jkanime.net/megaton-kyuu-musashi/19/",
         "https://jkanime.net/megaton-kyuu-musashi/20/",
@@ -69601,7 +69670,7 @@
       "noIndependent": [],
       "renewalFailed": 9,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -76128,7 +76197,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 45,
+      "renewalFailed": 46,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -120387,7 +120456,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 147,
       "families": {
         "mega": 147,
         "streamwish": 147,
@@ -120400,13 +120469,15 @@
     {
       "series": "https://jkanime.net/nichijou/",
       "title": "Nichijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "streamwish": 26,
         "vidhide": 26,
@@ -120419,13 +120490,15 @@
     {
       "series": "https://jkanime.net/hanasaku-iroha/",
       "title": "Hanasaku Iroha",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -120438,13 +120511,15 @@
     {
       "series": "https://jkanime.net/freezing-specials/",
       "title": "Freezing Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -120457,13 +120532,15 @@
     {
       "series": "https://jkanime.net/dog-days/",
       "title": "Dog Days",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -120497,13 +120574,15 @@
     {
       "series": "https://jkanime.net/luo-xiao-hei-zhan-ji/",
       "title": "Luo Xiao Hei Zhan Ji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 28,
       "stored": 28,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 28,
       "families": {
         "mega": 27,
         "streamwish": 28,
@@ -120554,13 +120633,15 @@
     {
       "series": "https://jkanime.net/steins-gate/",
       "title": "Steins;Gate",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -120588,32 +120669,36 @@
     {
       "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-matsuri/",
       "title": "Baka to Test to Shoukanjuu: Matsuri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
         "mp4upload": 2,
-        "streamtape": 2
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-true-route/",
       "title": "OreImo True Route",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -120626,20 +120711,22 @@
     {
       "series": "https://jkanime.net/suite-precure/",
       "title": "Suite Precure♪",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
-        "mega": 48,
+        "mega": 28,
         "streamwish": 48,
-        "vidhide": 48,
-        "mixdrop": 48,
-        "mp4upload": 48,
-        "streamtape": 48
+        "vidhide": 28,
+        "mixdrop": 28,
+        "mp4upload": 28,
+        "streamtape": 28
       },
       "playbackVerified": false
     },
