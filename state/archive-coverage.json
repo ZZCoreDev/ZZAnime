@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T07:35:20.693959+00:00",
+  "checkedAt": "2026-10-30T07:48:49.773577+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73560,
-  "storedChapters": 71742,
-  "missingChapters": 1818,
+  "storedChapters": 71743,
+  "missingChapters": 1817,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -33943,7 +33943,110 @@
         "title": "Kimi ni Todoke",
         "samples": [
           "https://jkanime.net/kimi-ni-todoke/1/",
-          "https://jkanime.net/kimi-ni-todoke/2/"
+          "https://jkanime.net/kimi-ni-todoke/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sasameki-koto/",
+        "title": "Sasameki Koto",
+        "samples": [
+          "https://jkanime.net/sasameki-koto/1/",
+          "https://jkanime.net/sasameki-koto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kobato/",
+        "title": "Kobato.",
+        "samples": [
+          "https://jkanime.net/kobato/1/",
+          "https://jkanime.net/kobato/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/11-eyes/",
+        "title": "11eyes",
+        "samples": [
+          "https://jkanime.net/11-eyes/1/",
+          "https://jkanime.net/11-eyes/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nogizaka-haruka-no-himitsu-purezza/",
+        "title": "Nogizaka Haruka no Himitsu: Purezza",
+        "samples": [
+          "https://jkanime.net/nogizaka-haruka-no-himitsu-purezza/1/",
+          "https://jkanime.net/nogizaka-haruka-no-himitsu-purezza/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sora-no-otoshimono/",
+        "title": "Sora no Otoshimono",
+        "samples": [
+          "https://jkanime.net/sora-no-otoshimono/1/",
+          "https://jkanime.net/sora-no-otoshimono/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsu-no-arashi-akinai-chu/",
+        "title": "Natsu no Arashi! Akinaichuu",
+        "samples": [
+          "https://jkanime.net/natsu-no-arashi-akinai-chu/1/",
+          "https://jkanime.net/natsu-no-arashi-akinai-chu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tegami-bachi/",
+        "title": "Tegami Bachi",
+        "samples": [
+          "https://jkanime.net/tegami-bachi/1/",
+          "https://jkanime.net/tegami-bachi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/white-album-2nd-season/",
+        "title": "White Album 2nd Season",
+        "samples": [
+          "https://jkanime.net/white-album-2nd-season/10/",
+          "https://jkanime.net/white-album-2nd-season/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inuyasha-kanketsu-hen/",
+        "title": "InuYasha: Kanketsu-hen",
+        "samples": [
+          "https://jkanime.net/inuyasha-kanketsu-hen/1/",
+          "https://jkanime.net/inuyasha-kanketsu-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shugo-chara-party/",
+        "title": "Shugo Chara! Party!",
+        "samples": [
+          "https://jkanime.net/shugo-chara-party/1/",
+          "https://jkanime.net/shugo-chara-party/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seiken-no-blacksmith/",
+        "title": "Seiken no Blacksmith",
+        "samples": [
+          "https://jkanime.net/seiken-no-blacksmith/1/",
+          "https://jkanime.net/seiken-no-blacksmith/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-aru-kagaku-no-railgun/",
+        "title": "Toaru Kagaku no Railgun",
+        "samples": [
+          "https://jkanime.net/to-aru-kagaku-no-railgun/1/",
+          "https://jkanime.net/to-aru-kagaku-no-railgun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seitokai-no-ichizon/",
+        "title": "Seitokai no Ichizon",
+        "samples": [
+          "https://jkanime.net/seitokai-no-ichizon/1/"
         ]
       },
       {
@@ -82324,7 +82427,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -82337,7 +82440,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/23/",
         "https://jkanime.net/fight-league-gear-gadget-generators/24/",
         "https://jkanime.net/fight-league-gear-gadget-generators/25/",
         "https://jkanime.net/fight-league-gear-gadget-generators/26/",
@@ -82353,7 +82455,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 4
+        "mp4upload": 5
       },
       "playbackVerified": false
     },
@@ -124392,7 +124494,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -124405,13 +124507,15 @@
     {
       "series": "https://jkanime.net/sasameki-koto/",
       "title": "Sasameki Koto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -124424,13 +124528,15 @@
     {
       "series": "https://jkanime.net/kobato/",
       "title": "Kobato.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -124443,13 +124549,15 @@
     {
       "series": "https://jkanime.net/11-eyes/",
       "title": "11eyes",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124462,13 +124570,15 @@
     {
       "series": "https://jkanime.net/nogizaka-haruka-no-himitsu-purezza/",
       "title": "Nogizaka Haruka no Himitsu: Purezza",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124481,13 +124591,15 @@
     {
       "series": "https://jkanime.net/sora-no-otoshimono/",
       "title": "Sora no Otoshimono",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -124508,24 +124620,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/natsu-no-arashi-akinai-chu/",
       "title": "Natsu no Arashi! Akinaichuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -124538,13 +124648,15 @@
     {
       "series": "https://jkanime.net/tegami-bachi/",
       "title": "Tegami Bachi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -124558,32 +124670,36 @@
     {
       "series": "https://jkanime.net/white-album-2nd-season/",
       "title": "White Album 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 12,
+        "streamwish": 12,
+        "vidhide": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/inuyasha-kanketsu-hen/",
       "title": "InuYasha: Kanketsu-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -124596,13 +124712,15 @@
     {
       "series": "https://jkanime.net/shugo-chara-party/",
       "title": "Shugo Chara! Party!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -124615,13 +124733,15 @@
     {
       "series": "https://jkanime.net/seiken-no-blacksmith/",
       "title": "Seiken no Blacksmith",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -124634,13 +124754,15 @@
     {
       "series": "https://jkanime.net/to-aru-kagaku-no-railgun/",
       "title": "Toaru Kagaku no Railgun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -124653,13 +124775,15 @@
     {
       "series": "https://jkanime.net/seitokai-no-ichizon/",
       "title": "Seitokai no Ichizon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
