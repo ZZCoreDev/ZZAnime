@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T04:15:34.079599+00:00",
+  "checkedAt": "2026-10-30T04:29:00.886079+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
-  "storedChapters": 71724,
-  "missingChapters": 1817,
+  "storedChapters": 71725,
+  "missingChapters": 1816,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -31828,7 +31828,48 @@
         "series": "https://jkanime.net/uchuu-kyoudai/",
         "title": "Uchuu Kyoudai",
         "samples": [
-          "https://jkanime.net/uchuu-kyoudai/8/"
+          "https://jkanime.net/uchuu-kyoudai/50/",
+          "https://jkanime.net/uchuu-kyoudai/51/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hiiro-no-kakera/",
+        "title": "Hiiro no Kakera",
+        "samples": [
+          "https://jkanime.net/hiiro-no-kakera/1/",
+          "https://jkanime.net/hiiro-no-kakera/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/accel-world/",
+        "title": "Accel World",
+        "samples": [
+          "https://jkanime.net/accel-world/1/",
+          "https://jkanime.net/accel-world/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginga-e-kickoff/",
+        "title": "Ginga e Kickoff!!",
+        "samples": [
+          "https://jkanime.net/ginga-e-kickoff/1/",
+          "https://jkanime.net/ginga-e-kickoff/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/highschool-dxd-specials/",
+        "title": "Highschool DxD Specials",
+        "samples": [
+          "https://jkanime.net/highschool-dxd-specials/1/",
+          "https://jkanime.net/highschool-dxd-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/holy-knight/",
+        "title": "Holy Knight",
+        "samples": [
+          "https://jkanime.net/holy-knight/1/",
+          "https://jkanime.net/holy-knight/2/"
         ]
       },
       {
@@ -31836,6 +31877,30 @@
         "title": "Strike Witches Movie",
         "samples": [
           "https://jkanime.net/strike-witches-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-no-iru-machi/",
+        "title": "Kimi no Iru Machi",
+        "samples": [
+          "https://jkanime.net/kimi-no-iru-machi/1/",
+          "https://jkanime.net/kimi-no-iru-machi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/historys-strongest-disciple-kenichi-ova/",
+        "title": "Shijou Saikyou no Deshi Kenichi OVA",
+        "samples": [
+          "https://jkanime.net/historys-strongest-disciple-kenichi-ova/1/",
+          "https://jkanime.net/historys-strongest-disciple-kenichi-ova/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maken-ki-ova/",
+        "title": "Maken-Ki! OVA",
+        "samples": [
+          "https://jkanime.net/maken-ki-ova/1/",
+          "https://jkanime.net/maken-ki-ova/2/"
         ]
       },
       {
@@ -31857,6 +31922,38 @@
         "title": "Denpa Onna to Seishun Otoko: Mayonaka no Taiyou",
         "samples": [
           "https://jkanime.net/denpa-onna-to-seishun-otoko-mayonaka-no-taiyou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/smile-precure/",
+        "title": "Smile Precure!",
+        "samples": [
+          "https://jkanime.net/smile-precure/1/",
+          "https://jkanime.net/smile-precure/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-rock-shooter/",
+        "title": "Black★Rock Shooter (TV)",
+        "samples": [
+          "https://jkanime.net/black-rock-shooter/1/",
+          "https://jkanime.net/black-rock-shooter/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inu-x-boku-ss/",
+        "title": "Inu x Boku SS",
+        "samples": [
+          "https://jkanime.net/inu-x-boku-ss/1/",
+          "https://jkanime.net/inu-x-boku-ss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/papa-no-iukoto-wo-kikinasai/",
+        "title": "Papa no Iukoto wo Kikinasai!",
+        "samples": [
+          "https://jkanime.net/papa-no-iukoto-wo-kikinasai/1/",
+          "https://jkanime.net/papa-no-iukoto-wo-kikinasai/2/"
         ]
       },
       {
@@ -62837,7 +62934,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -62851,7 +62948,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/30/",
         "https://jkanime.net/bleach-sennen-kessen-hen/31/",
         "https://jkanime.net/bleach-sennen-kessen-hen/32/",
         "https://jkanime.net/bleach-sennen-kessen-hen/33/",
@@ -62878,7 +62974,7 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 18,
+        "vidhide": 19,
         "streamtape": 13,
         "mp4upload": 9,
         "mixdrop": 4
@@ -89106,7 +89202,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -89278,7 +89374,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 4
       },
@@ -92727,7 +92823,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 9
       },
@@ -116851,26 +116947,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 22,
       "families": {
-        "mp4upload": 100,
+        "mp4upload": 72,
         "streamwish": 99,
-        "vidhide": 100,
-        "mega": 67,
-        "streamtape": 68
+        "vidhide": 72,
+        "mega": 21,
+        "streamtape": 22
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hiiro-no-kakera/",
       "title": "Hiiro no Kakera",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116883,13 +116981,15 @@
     {
       "series": "https://jkanime.net/accel-world/",
       "title": "Accel World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -116902,13 +117002,15 @@
     {
       "series": "https://jkanime.net/ginga-e-kickoff/",
       "title": "Ginga e Kickoff!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -116922,13 +117024,15 @@
     {
       "series": "https://jkanime.net/highschool-dxd-specials/",
       "title": "Highschool DxD Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -116942,13 +117046,15 @@
     {
       "series": "https://jkanime.net/holy-knight/",
       "title": "Holy Knight",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -116981,13 +117087,15 @@
     {
       "series": "https://jkanime.net/kimi-no-iru-machi/",
       "title": "Kimi no Iru Machi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -117000,13 +117108,15 @@
     {
       "series": "https://jkanime.net/historys-strongest-disciple-kenichi-ova/",
       "title": "Shijou Saikyou no Deshi Kenichi OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -117019,13 +117129,15 @@
     {
       "series": "https://jkanime.net/maken-ki-ova/",
       "title": "Maken-Ki! OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -117095,32 +117207,36 @@
     {
       "series": "https://jkanime.net/smile-precure/",
       "title": "Smile Precure!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
-        "mega": 47,
+        "mega": 15,
         "streamwish": 48,
-        "vidhide": 48,
-        "mp4upload": 48,
-        "streamtape": 48
+        "vidhide": 15,
+        "mp4upload": 15,
+        "streamtape": 15
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/black-rock-shooter/",
       "title": "Black★Rock Shooter (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -117133,13 +117249,15 @@
     {
       "series": "https://jkanime.net/inu-x-boku-ss/",
       "title": "Inu x Boku SS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117152,13 +117270,15 @@
     {
       "series": "https://jkanime.net/papa-no-iukoto-wo-kikinasai/",
       "title": "Papa no Iukoto wo Kikinasai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 12,
         "streamwish": 12,
