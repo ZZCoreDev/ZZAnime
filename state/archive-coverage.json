@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T14:42:16.057267+00:00",
+  "checkedAt": "2026-10-30T14:56:02.494051+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73618,
-  "storedChapters": 71824,
-  "missingChapters": 1794,
+  "storedChapters": 71826,
+  "missingChapters": 1792,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5475,8 +5475,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/32/",
-          "https://jkanime.net/tsubasa-chronicle/33/"
+          "https://jkanime.net/tsubasa-chronicle/33/",
+          "https://jkanime.net/tsubasa-chronicle/34/"
         ]
       },
       {
@@ -36719,8 +36719,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/32/",
-          "https://jkanime.net/tsubasa-chronicle/33/"
+          "https://jkanime.net/tsubasa-chronicle/33/",
+          "https://jkanime.net/tsubasa-chronicle/34/"
         ]
       },
       {
@@ -37094,6 +37094,30 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kannazuki-no-miko/",
+        "title": "Kannazuki no Miko",
+        "samples": [
+          "https://jkanime.net/kannazuki-no-miko/1/",
+          "https://jkanime.net/kannazuki-no-miko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mai-hime/",
+        "title": "Mai-HiME",
+        "samples": [
+          "https://jkanime.net/mai-hime/1/",
+          "https://jkanime.net/mai-hime/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bouken-ou-beet/",
+        "title": "Bouken Ou Beet",
+        "samples": [
+          "https://jkanime.net/bouken-ou-beet/3/",
+          "https://jkanime.net/bouken-ou-beet/5/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ichigo-100-koi-ga-hajimaru-satsuei-gasshuku-yureru-kokoro-ga-higashi-e-nishi-e/",
         "title": "Ichigo 100%: Koi ga Hajimaru?! Satsuei Gasshuku - Yureru Kokoro ga Higashi e Nishi e",
         "samples": [
@@ -37115,10 +37139,90 @@
         ]
       },
       {
+        "series": "https://jkanime.net/elfen-lied/",
+        "title": "Elfen Lied",
+        "samples": [
+          "https://jkanime.net/elfen-lied/1/",
+          "https://jkanime.net/elfen-lied/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dears/",
+        "title": "DearS",
+        "samples": [
+          "https://jkanime.net/dears/1/",
+          "https://jkanime.net/dears/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/2x2-shinobuden/",
+        "title": "2x2=Shinobuden",
+        "samples": [
+          "https://jkanime.net/2x2-shinobuden/1/",
+          "https://jkanime.net/2x2-shinobuden/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otogizoushi/",
+        "title": "Otogizoushi",
+        "samples": [
+          "https://jkanime.net/otogizoushi/1/",
+          "https://jkanime.net/otogizoushi/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-bravo-first-season/",
+        "title": "Girls Bravo: First Season",
+        "samples": [
+          "https://jkanime.net/girls-bravo-first-season/1/",
+          "https://jkanime.net/girls-bravo-first-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maria-sama-ga-miteru-haru/",
+        "title": "Maria-sama ga Miteru: Haru",
+        "samples": [
+          "https://jkanime.net/maria-sama-ga-miteru-haru/1/",
+          "https://jkanime.net/maria-sama-ga-miteru-haru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuki-wa-higashi-ni-hi-wa-nishi-ni-operation-sanctuary/",
+        "title": "Tsuki wa Higashi ni Hi wa Nishi ni: Operation Sanctuary",
+        "samples": [
+          "https://jkanime.net/tsuki-wa-higashi-ni-hi-wa-nishi-ni-operation-sanctuary/1/",
+          "https://jkanime.net/tsuki-wa-higashi-ni-hi-wa-nishi-ni-operation-sanctuary/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kurau-phantom-memory/",
+        "title": "Kurau Phantom Memory",
+        "samples": [
+          "https://jkanime.net/kurau-phantom-memory/1/",
+          "https://jkanime.net/kurau-phantom-memory/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/samurai-7/",
+        "title": "Samurai 7",
+        "samples": [
+          "https://jkanime.net/samurai-7/1/",
+          "https://jkanime.net/samurai-7/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/green-green-thirteen-erolutions/",
         "title": "Green Green Thirteen: Erolutions",
         "samples": [
           "https://jkanime.net/green-green-thirteen-erolutions/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/samurai-champloo/",
+        "title": "Samurai Champloo",
+        "samples": [
+          "https://jkanime.net/samurai-champloo/1/",
+          "https://jkanime.net/samurai-champloo/10/"
         ]
       },
       {
@@ -67253,7 +67357,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 35,
+      "stored": 36,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -67268,18 +67372,17 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/49/"
+        "https://jkanime.net/bleach-sennen-kessen-hen/40/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 23,
+        "streamwish": 24,
         "vidhide": 30,
         "streamtape": 13,
-        "mp4upload": 22,
+        "mp4upload": 23,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -128157,7 +128260,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {},
       "playbackVerified": false
     },
@@ -134888,9 +134991,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 31,
+      "stored": 32,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/32/",
         "https://jkanime.net/tsubasa-chronicle/33/",
         "https://jkanime.net/tsubasa-chronicle/34/",
         "https://jkanime.net/tsubasa-chronicle/35/",
@@ -134916,9 +135018,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 32,
-        "streamwish": 31,
-        "vidhide": 32,
+        "mp4upload": 33,
+        "streamwish": 32,
+        "vidhide": 33,
         "mega": 1,
         "streamtape": 1
       },
@@ -135921,7 +136023,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 34,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -135935,13 +136037,15 @@
     {
       "series": "https://jkanime.net/kannazuki-no-miko/",
       "title": "Kannazuki no Miko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135955,13 +136059,15 @@
     {
       "series": "https://jkanime.net/mai-hime/",
       "title": "Mai-HiME",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -135975,20 +136081,22 @@
     {
       "series": "https://jkanime.net/bouken-ou-beet/",
       "title": "Bouken Ou Beet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 52,
-        "streamwish": 52,
-        "vidhide": 52,
-        "mixdrop": 52,
         "mp4upload": 52,
-        "streamtape": 52
+        "mega": 5,
+        "streamwish": 5,
+        "vidhide": 5,
+        "mixdrop": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -136052,13 +136160,15 @@
     {
       "series": "https://jkanime.net/elfen-lied/",
       "title": "Elfen Lied",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136087,13 +136197,15 @@
     {
       "series": "https://jkanime.net/dears/",
       "title": "DearS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -136106,71 +136218,79 @@
     {
       "series": "https://jkanime.net/2x2-shinobuden/",
       "title": "2x2=Shinobuden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
+        "mega": 6,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/otogizoushi/",
       "title": "Otogizoushi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "mega": 2,
+        "streamwish": 27,
+        "vidhide": 28,
+        "mixdrop": 2,
+        "mp4upload": 28,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/girls-bravo-first-season/",
       "title": "Girls Bravo: First Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
+        "mega": 9,
+        "streamwish": 9,
+        "vidhide": 9,
         "mp4upload": 11,
-        "streamtape": 11
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/maria-sama-ga-miteru-haru/",
       "title": "Maria-sama ga Miteru: Haru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136184,13 +136304,15 @@
     {
       "series": "https://jkanime.net/tsuki-wa-higashi-ni-hi-wa-nishi-ni-operation-sanctuary/",
       "title": "Tsuki wa Higashi ni Hi wa Nishi ni: Operation Sanctuary",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136204,13 +136326,15 @@
     {
       "series": "https://jkanime.net/kurau-phantom-memory/",
       "title": "Kurau Phantom Memory",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -136224,13 +136348,15 @@
     {
       "series": "https://jkanime.net/samurai-7/",
       "title": "Samurai 7",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 25,
         "streamwish": 26,
@@ -136262,13 +136388,15 @@
     {
       "series": "https://jkanime.net/samurai-champloo/",
       "title": "Samurai Champloo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 23,
         "streamwish": 26,
