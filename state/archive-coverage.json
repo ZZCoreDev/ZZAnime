@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T13:14:34.223410+00:00",
+  "checkedAt": "2026-10-30T13:26:11.245551+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73583,
-  "storedChapters": 71815,
+  "observedChapters": 73584,
+  "storedChapters": 71816,
   "missingChapters": 1768,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -650,7 +650,6 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/22/",
           "https://jkanime.net/high-card/25/"
         ]
       },
@@ -5456,6 +5455,13 @@
         "title": "Fullmetal Alchemist: The Conqueror of Shamballa",
         "samples": [
           "https://jkanime.net/fullmetal-alchemist-the-conqueror-of-shamballa/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ichigo-mashimaro/",
+        "title": "Ichigo Mashimaro",
+        "samples": [
+          "https://jkanime.net/ichigo-mashimaro/13/"
         ]
       },
       {
@@ -12480,7 +12486,6 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/22/",
           "https://jkanime.net/high-card/25/"
         ]
       },
@@ -36520,7 +36525,54 @@
         "title": "Solty Rei",
         "samples": [
           "https://jkanime.net/solty-rei/1/",
-          "https://jkanime.net/solty-rei/3/"
+          "https://jkanime.net/solty-rei/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bouken-ou-beet-excellion/",
+        "title": "Bouken Ou Beet Excellion",
+        "samples": [
+          "https://jkanime.net/bouken-ou-beet-excellion/10/",
+          "https://jkanime.net/bouken-ou-beet-excellion/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cluster-edge/",
+        "title": "Cluster Edge",
+        "samples": [
+          "https://jkanime.net/cluster-edge/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jigoku-shoujo/",
+        "title": "Jigoku Shoujo",
+        "samples": [
+          "https://jkanime.net/jigoku-shoujo/1/",
+          "https://jkanime.net/jigoku-shoujo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rockman-exe-beast/",
+        "title": "Rockman EXE Beast",
+        "samples": [
+          "https://jkanime.net/rockman-exe-beast/1/",
+          "https://jkanime.net/rockman-exe-beast/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idaten-jump/",
+        "title": "Idaten Jump",
+        "samples": [
+          "https://jkanime.net/idaten-jump/1/",
+          "https://jkanime.net/idaten-jump/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/air-in-summer/",
+        "title": "Air in Summer",
+        "samples": [
+          "https://jkanime.net/air-in-summer/1/",
+          "https://jkanime.net/air-in-summer/2/"
         ]
       },
       {
@@ -36528,6 +36580,69 @@
         "title": "Fullmetal Alchemist: The Conqueror of Shamballa",
         "samples": [
           "https://jkanime.net/fullmetal-alchemist-the-conqueror-of-shamballa/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ichigo-mashimaro/",
+        "title": "Ichigo Mashimaro",
+        "samples": [
+          "https://jkanime.net/ichigo-mashimaro/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/full-metal-panic-tsr/",
+        "title": "Full Metal Panic! The Second Raid",
+        "samples": [
+          "https://jkanime.net/full-metal-panic-tsr/1/",
+          "https://jkanime.net/full-metal-panic-tsr/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/petopeto-san/",
+        "title": "PetoPeto-san",
+        "samples": [
+          "https://jkanime.net/petopeto-san/1/",
+          "https://jkanime.net/petopeto-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shuffle/",
+        "title": "Shuffle!",
+        "samples": [
+          "https://jkanime.net/shuffle/1/",
+          "https://jkanime.net/shuffle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suzuka/",
+        "title": "Suzuka",
+        "samples": [
+          "https://jkanime.net/suzuka/1/",
+          "https://jkanime.net/suzuka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gun-x-sword/",
+        "title": "Gun x Sword",
+        "samples": [
+          "https://jkanime.net/gun-x-sword/1/",
+          "https://jkanime.net/gun-x-sword/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/okusama-wa-joshikousei-tv/",
+        "title": "Okusama wa Joshikousei (TV)",
+        "samples": [
+          "https://jkanime.net/okusama-wa-joshikousei-tv/1/",
+          "https://jkanime.net/okusama-wa-joshikousei-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-capo-second-season/",
+        "title": "Da Capo Second Season",
+        "samples": [
+          "https://jkanime.net/da-capo-second-season/1/",
+          "https://jkanime.net/da-capo-second-season/2/"
         ]
       },
       {
@@ -65319,19 +65434,18 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 23,
+      "stored": 24,
       "missing": [
-        "https://jkanime.net/high-card/22/",
         "https://jkanime.net/high-card/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "mega": 8,
         "streamwish": 8,
         "vidhide": 8,
-        "mp4upload": 23,
+        "mp4upload": 24,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -133098,7 +133212,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -133857,66 +133971,72 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 8,
       "families": {
-        "mega": 21,
+        "mega": 8,
         "streamwish": 24,
-        "vidhide": 21,
-        "mp4upload": 21,
-        "streamtape": 21
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/bouken-ou-beet-excellion/",
       "title": "Bouken Ou Beet Excellion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 18,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mixdrop": 25,
         "mp4upload": 25,
-        "streamtape": 25
+        "mega": 18,
+        "streamwish": 18,
+        "vidhide": 18,
+        "mixdrop": 18,
+        "streamtape": 18
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/cluster-edge/",
       "title": "Cluster Edge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mixdrop": 25,
         "mp4upload": 25,
-        "streamtape": 25
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 2,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/jigoku-shoujo/",
       "title": "Jigoku Shoujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -133948,13 +134068,15 @@
     {
       "series": "https://jkanime.net/rockman-exe-beast/",
       "title": "Rockman EXE Beast",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -133968,13 +134090,15 @@
     {
       "series": "https://jkanime.net/idaten-jump/",
       "title": "Idaten Jump",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -133988,13 +134112,15 @@
     {
       "series": "https://jkanime.net/air-in-summer/",
       "title": "Air in Summer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -134027,33 +134153,40 @@
     {
       "series": "https://jkanime.net/ichigo-mashimaro/",
       "title": "Ichigo Mashimaro",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/ichigo-mashimaro/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
+        "mega": 6,
+        "streamwish": 6,
+        "vidhide": 6,
+        "mixdrop": 6,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/full-metal-panic-tsr/",
       "title": "Full Metal Panic! The Second Raid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134066,13 +134199,15 @@
     {
       "series": "https://jkanime.net/petopeto-san/",
       "title": "PetoPeto-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134085,13 +134220,15 @@
     {
       "series": "https://jkanime.net/shuffle/",
       "title": "Shuffle!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -134104,13 +134241,15 @@
     {
       "series": "https://jkanime.net/suzuka/",
       "title": "Suzuka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -134123,13 +134262,15 @@
     {
       "series": "https://jkanime.net/gun-x-sword/",
       "title": "Gun x Sword",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -134142,13 +134283,15 @@
     {
       "series": "https://jkanime.net/okusama-wa-joshikousei-tv/",
       "title": "Okusama wa Joshikousei (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134162,13 +134305,15 @@
     {
       "series": "https://jkanime.net/da-capo-second-season/",
       "title": "Da Capo Second Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 26,
         "streamwish": 26,
