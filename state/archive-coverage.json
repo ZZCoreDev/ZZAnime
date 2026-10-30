@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T07:21:50.255388+00:00",
+  "checkedAt": "2026-10-30T07:35:20.693959+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73560,
-  "storedChapters": 71741,
-  "missingChapters": 1819,
+  "storedChapters": 71742,
+  "missingChapters": 1818,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -33865,7 +33865,24 @@
         "series": "https://jkanime.net/ladies-versus-butlers/",
         "title": "Ladies versus Butlers!",
         "samples": [
-          "https://jkanime.net/ladies-versus-butlers/2/"
+          "https://jkanime.net/ladies-versus-butlers/11/",
+          "https://jkanime.net/ladies-versus-butlers/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chu-bra/",
+        "title": "Chuu Bra!!",
+        "samples": [
+          "https://jkanime.net/chu-bra/1/",
+          "https://jkanime.net/chu-bra/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/",
+        "title": "Zan Sayonara Zetsubou Sensei Bangaichi",
+        "samples": [
+          "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/1/",
+          "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/2/"
         ]
       },
       {
@@ -33876,6 +33893,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shakugan-no-shana-s/",
+        "title": "Shakugan no Shana S",
+        "samples": [
+          "https://jkanime.net/shakugan-no-shana-s/1/",
+          "https://jkanime.net/shakugan-no-shana-s/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/winter-sonata/",
+        "title": "Winter Sonata",
+        "samples": [
+          "https://jkanime.net/winter-sonata/1/",
+          "https://jkanime.net/winter-sonata/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/naruto-the-cross-roads/",
         "title": "Naruto: The Cross Roads",
         "samples": [
@@ -33883,10 +33916,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fairy-tail/",
+        "title": "Fairy Tail",
+        "samples": [
+          "https://jkanime.net/fairy-tail/1/",
+          "https://jkanime.net/fairy-tail/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ibara-no-ou/",
         "title": "Ibara no Ou",
         "samples": [
           "https://jkanime.net/ibara-no-ou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/darker-than-black-ryuusei-no-gemini/",
+        "title": "Darker than Black: Ryuusei no Gemini",
+        "samples": [
+          "https://jkanime.net/darker-than-black-ryuusei-no-gemini/1/",
+          "https://jkanime.net/darker-than-black-ryuusei-no-gemini/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-ni-todoke/",
+        "title": "Kimi ni Todoke",
+        "samples": [
+          "https://jkanime.net/kimi-ni-todoke/1/",
+          "https://jkanime.net/kimi-ni-todoke/2/"
         ]
       },
       {
@@ -82267,7 +82324,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -82280,7 +82337,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/22/",
         "https://jkanime.net/fight-league-gear-gadget-generators/23/",
         "https://jkanime.net/fight-league-gear-gadget-generators/24/",
         "https://jkanime.net/fight-league-gear-gadget-generators/25/",
@@ -82295,9 +82351,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mp4upload": 3
+        "mp4upload": 4
       },
       "playbackVerified": false
     },
@@ -124115,26 +124171,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 12,
-        "mega": 10,
-        "streamwish": 10,
-        "vidhide": 10,
-        "streamtape": 10
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/chu-bra/",
       "title": "Chuu Bra!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124162,13 +124220,15 @@
     {
       "series": "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/",
       "title": "Zan Sayonara Zetsubou Sensei Bangaichi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -124201,13 +124261,15 @@
     {
       "series": "https://jkanime.net/shakugan-no-shana-s/",
       "title": "Shakugan no Shana S",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -124220,13 +124282,15 @@
     {
       "series": "https://jkanime.net/winter-sonata/",
       "title": "Winter Sonata",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 25,
         "streamwish": 26,
@@ -124258,13 +124322,15 @@
     {
       "series": "https://jkanime.net/fairy-tail/",
       "title": "Fairy Tail",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 175,
       "stored": 175,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 175,
       "families": {
         "mega": 173,
         "streamwish": 175,
@@ -124297,13 +124363,15 @@
     {
       "series": "https://jkanime.net/darker-than-black-ryuusei-no-gemini/",
       "title": "Darker than Black: Ryuusei no Gemini",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124316,13 +124384,15 @@
     {
       "series": "https://jkanime.net/kimi-ni-todoke/",
       "title": "Kimi ni Todoke",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 25,
         "streamwish": 25,
