@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T17:09:31.581621+00:00",
+  "checkedAt": "2026-10-30T17:22:08.559914+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73661,
-  "storedChapters": 71859,
-  "missingChapters": 1802,
+  "storedChapters": 71862,
+  "missingChapters": 1799,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/29/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/30/"
         ]
       },
       {
@@ -1862,7 +1862,7 @@
         "title": "Piano no Mori (TV)",
         "samples": [
           "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/21/"
+          "https://jkanime.net/piano-no-mori-tv/22/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/43/",
-          "https://jkanime.net/tsubasa-chronicle/44/"
+          "https://jkanime.net/tsubasa-chronicle/44/",
+          "https://jkanime.net/tsubasa-chronicle/45/"
         ]
       },
       {
@@ -10728,7 +10728,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/29/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/30/"
         ]
       },
       {
@@ -20026,7 +20026,7 @@
         "title": "Piano no Mori (TV)",
         "samples": [
           "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/21/"
+          "https://jkanime.net/piano-no-mori-tv/22/"
         ]
       },
       {
@@ -36737,8 +36737,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/43/",
-          "https://jkanime.net/tsubasa-chronicle/44/"
+          "https://jkanime.net/tsubasa-chronicle/44/",
+          "https://jkanime.net/tsubasa-chronicle/45/"
         ]
       },
       {
@@ -38186,6 +38186,38 @@
         ]
       },
       {
+        "series": "https://jkanime.net/heat-guy-j/",
+        "title": "Heat Guy J",
+        "samples": [
+          "https://jkanime.net/heat-guy-j/1/",
+          "https://jkanime.net/heat-guy-j/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/asobot-senki-gokuu/",
+        "title": "Asobot Senki Gokuu",
+        "samples": [
+          "https://jkanime.net/asobot-senki-gokuu/1/",
+          "https://jkanime.net/asobot-senki-gokuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koukaku-kidoutai-stand-alone-complex/",
+        "title": "Koukaku Kidoutai: Stand Alone Complex",
+        "samples": [
+          "https://jkanime.net/koukaku-kidoutai-stand-alone-complex/1/",
+          "https://jkanime.net/koukaku-kidoutai-stand-alone-complex/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rockman-hoshi-ni-negai-wo/",
+        "title": "Rockman Hoshi ni Negai wo",
+        "samples": [
+          "https://jkanime.net/rockman-hoshi-ni-negai-wo/1/",
+          "https://jkanime.net/rockman-hoshi-ni-negai-wo/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sennen-joyuu/",
         "title": "Sennen Joyuu",
         "samples": [
@@ -38193,10 +38225,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hungry-heart/",
+        "title": "Hungry Heart: Wild Striker",
+        "samples": [
+          "https://jkanime.net/hungry-heart/1/",
+          "https://jkanime.net/hungry-heart/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/princess-tutu/",
+        "title": "Princess Tutu",
+        "samples": [
+          "https://jkanime.net/princess-tutu/1/",
+          "https://jkanime.net/princess-tutu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futari-ecchi/",
+        "title": "Futari Ecchi",
+        "samples": [
+          "https://jkanime.net/futari-ecchi/1/",
+          "https://jkanime.net/futari-ecchi/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/pokemon-movie-05-mizu-no-miyako-no-mamorigami-latias-to-latios/",
         "title": "Pokemon Movie 05: Mizu no Miyako no Mamorigami Latias to Latios",
         "samples": [
           "https://jkanime.net/pokemon-movie-05-mizu-no-miyako-no-mamorigami-latias-to-latios/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saikano/",
+        "title": "Saikano",
+        "samples": [
+          "https://jkanime.net/saikano/1/",
+          "https://jkanime.net/saikano/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/samurai-deeper-kyo/",
+        "title": "Samurai Deeper Kyo",
+        "samples": [
+          "https://jkanime.net/samurai-deeper-kyo/1/",
+          "https://jkanime.net/samurai-deeper-kyo/10/"
         ]
       },
       {
@@ -44278,7 +44350,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -61646,10 +61718,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 27,
+      "stored": 28,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/29/",
         "https://jkanime.net/kusuriya-no-hitorigoto/30/",
         "https://jkanime.net/kusuriya-no-hitorigoto/31/",
         "https://jkanime.net/kusuriya-no-hitorigoto/32/",
@@ -61681,8 +61752,8 @@
       "families": {
         "mega": 23,
         "streamwish": 25,
-        "vidhide": 20,
-        "mp4upload": 26,
+        "vidhide": 21,
+        "mp4upload": 27,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -73822,7 +73893,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -88392,10 +88463,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/piano-no-mori-tv/18/",
-        "https://jkanime.net/piano-no-mori-tv/21/",
         "https://jkanime.net/piano-no-mori-tv/22/",
         "https://jkanime.net/piano-no-mori-tv/23/",
         "https://jkanime.net/piano-no-mori-tv/24/"
@@ -88404,9 +88474,9 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 19,
-        "streamwish": 19,
-        "vidhide": 19,
+        "mp4upload": 20,
+        "streamwish": 20,
+        "vidhide": 20,
         "mega": 2,
         "streamtape": 2
       },
@@ -135849,9 +135919,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 42,
+      "stored": 43,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/43/",
         "https://jkanime.net/tsubasa-chronicle/44/",
         "https://jkanime.net/tsubasa-chronicle/45/",
         "https://jkanime.net/tsubasa-chronicle/46/",
@@ -135866,9 +135935,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 43,
-        "streamwish": 42,
-        "vidhide": 43,
+        "mp4upload": 44,
+        "streamwish": 43,
+        "vidhide": 44,
         "mega": 1,
         "streamtape": 1
       },
@@ -139834,7 +139903,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 24,
       "families": {
         "mp4upload": 50,
         "streamwish": 48,
@@ -139877,7 +139946,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 145,
+      "renewalFailed": 220,
       "families": {
         "mega": 220,
         "streamwish": 220,
@@ -139890,13 +139959,15 @@
     {
       "series": "https://jkanime.net/heat-guy-j/",
       "title": "Heat Guy J",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -139910,13 +139981,15 @@
     {
       "series": "https://jkanime.net/asobot-senki-gokuu/",
       "title": "Asobot Senki Gokuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -139930,13 +140003,15 @@
     {
       "series": "https://jkanime.net/koukaku-kidoutai-stand-alone-complex/",
       "title": "Koukaku Kidoutai: Stand Alone Complex",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -139950,13 +140025,15 @@
     {
       "series": "https://jkanime.net/rockman-hoshi-ni-negai-wo/",
       "title": "Rockman Hoshi ni Negai wo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -139989,13 +140066,15 @@
     {
       "series": "https://jkanime.net/hungry-heart/",
       "title": "Hungry Heart: Wild Striker",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -140008,13 +140087,15 @@
     {
       "series": "https://jkanime.net/princess-tutu/",
       "title": "Princess Tutu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -140028,13 +140109,15 @@
     {
       "series": "https://jkanime.net/futari-ecchi/",
       "title": "Futari Ecchi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -140066,13 +140149,15 @@
     {
       "series": "https://jkanime.net/saikano/",
       "title": "Saikano",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -140085,13 +140170,15 @@
     {
       "series": "https://jkanime.net/samurai-deeper-kyo/",
       "title": "Samurai Deeper Kyo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 25,
         "streamwish": 26,
