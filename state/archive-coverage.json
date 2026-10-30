@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T22:51:02.657656+00:00",
+  "checkedAt": "2026-10-30T23:02:28.137661+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73752,
-  "storedChapters": 71998,
-  "missingChapters": 1754,
+  "storedChapters": 72015,
+  "missingChapters": 1737,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -199,13 +199,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/",
-        "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
-        "samples": [
-          "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yeon-ui-pyeonji/",
         "title": "Yeon-ui Pyeonji",
         "samples": [
@@ -358,8 +351,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/12/",
-          "https://jkanime.net/sakamoto-days/13/"
+          "https://jkanime.net/sakamoto-days/13/",
+          "https://jkanime.net/sakamoto-days/14/"
         ]
       },
       {
@@ -380,8 +373,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/14/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/15/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/15/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/16/"
         ]
       },
       {
@@ -879,8 +872,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/16/",
-          "https://jkanime.net/orient/17/"
+          "https://jkanime.net/orient/17/",
+          "https://jkanime.net/orient/18/"
         ]
       },
       {
@@ -1724,13 +1717,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/",
-        "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow",
-        "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-detonation/",
         "title": "Mahou Shoujo Lyrical Nanoha: Detonation",
         "samples": [
@@ -2305,8 +2291,8 @@
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/13/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/2/"
+          "https://jkanime.net/regalia-the-three-sacred-stars/2/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/3/"
         ]
       },
       {
@@ -2859,7 +2845,6 @@
         "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
         "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
         "samples": [
-          "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/3/",
           "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
         ]
       },
@@ -3658,13 +3643,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sakasama-no-patema/",
-        "title": "Sakasama no Patema",
-        "samples": [
-          "https://jkanime.net/sakasama-no-patema/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/diabolik-lovers-recap/",
         "title": "Diabolik Lovers Recap",
         "samples": [
@@ -4041,13 +4019,6 @@
         "title": "Death Billiards",
         "samples": [
           "https://jkanime.net/death-billiards/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ryo/",
-        "title": "Ryo",
-        "samples": [
-          "https://jkanime.net/ryo/1/"
         ]
       },
       {
@@ -5577,8 +5548,7 @@
         "series": "https://jkanime.net/inuyasha/",
         "title": "InuYasha",
         "samples": [
-          "https://jkanime.net/inuyasha/47/",
-          "https://jkanime.net/inuyasha/77/"
+          "https://jkanime.net/inuyasha/47/"
         ]
       },
       {
@@ -5712,8 +5682,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/19/",
-          "https://jkanime.net/taiho-shichau-zo/20/"
+          "https://jkanime.net/taiho-shichau-zo/20/",
+          "https://jkanime.net/taiho-shichau-zo/21/"
         ]
       },
       {
@@ -6942,13 +6912,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/",
-        "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
-        "samples": [
-          "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu/",
         "title": "Mikata ga Yowasugite Hojo Mahou ni Tesshiteita Kyuutei Mahoushi, Tsuihou sarete Saikyou wo Mezashimasu",
         "samples": [
@@ -7820,8 +7783,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/12/",
-          "https://jkanime.net/sakamoto-days/13/"
+          "https://jkanime.net/sakamoto-days/13/",
+          "https://jkanime.net/sakamoto-days/14/"
         ]
       },
       {
@@ -8431,8 +8394,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/14/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/15/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/15/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/16/"
         ]
       },
       {
@@ -14277,8 +14240,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/16/",
-          "https://jkanime.net/orient/17/"
+          "https://jkanime.net/orient/17/",
+          "https://jkanime.net/orient/18/"
         ]
       },
       {
@@ -19420,13 +19383,6 @@
         "samples": [
           "https://jkanime.net/otona-no-bouguya-san/1/",
           "https://jkanime.net/otona-no-bouguya-san/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/",
-        "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow",
-        "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/1/"
         ]
       },
       {
@@ -25817,14 +25773,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
-        "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
-        "samples": [
-          "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/3/",
-          "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/",
         "title": "Mahou Shoujo Lyrical Nanoha ViVid",
         "samples": [
@@ -28783,13 +28731,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sakasama-no-patema/",
-        "title": "Sakasama no Patema",
-        "samples": [
-          "https://jkanime.net/sakasama-no-patema/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/diabolik-lovers-recap/",
         "title": "Diabolik Lovers Recap",
         "samples": [
@@ -30132,13 +30073,6 @@
         "title": "Death Billiards",
         "samples": [
           "https://jkanime.net/death-billiards/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ryo/",
-        "title": "Ryo",
-        "samples": [
-          "https://jkanime.net/ryo/1/"
         ]
       },
       {
@@ -38445,8 +38379,7 @@
         "series": "https://jkanime.net/inuyasha/",
         "title": "InuYasha",
         "samples": [
-          "https://jkanime.net/inuyasha/47/",
-          "https://jkanime.net/inuyasha/77/"
+          "https://jkanime.net/inuyasha/47/"
         ]
       },
       {
@@ -39180,8 +39113,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/19/",
-          "https://jkanime.net/taiho-shichau-zo/20/"
+          "https://jkanime.net/taiho-shichau-zo/20/",
+          "https://jkanime.net/taiho-shichau-zo/21/"
         ]
       },
       {
@@ -39822,10 +39755,49 @@
         ]
       },
       {
+        "series": "https://jkanime.net/uchuu-kaizoku-captain-herlock/",
+        "title": "Uchuu Kaizoku Captain Herlock",
+        "samples": [
+          "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/uchuu-senkan-yamato-movie/",
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/candy-candy/",
+        "title": "Candy Candy",
+        "samples": [
+          "https://jkanime.net/candy-candy/108/",
+          "https://jkanime.net/candy-candy/83/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-senkan-yamato/",
+        "title": "Uchuu Senkan Yamato",
+        "samples": [
+          "https://jkanime.net/uchuu-senkan-yamato/1/",
+          "https://jkanime.net/uchuu-senkan-yamato/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/alps-no-shoujo-heidi/",
+        "title": "Alps no Shoujo Heidi",
+        "samples": [
+          "https://jkanime.net/alps-no-shoujo-heidi/1/",
+          "https://jkanime.net/alps-no-shoujo-heidi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mazinger-z/",
+        "title": "Mazinger Z",
+        "samples": [
+          "https://jkanime.net/mazinger-z/1/",
+          "https://jkanime.net/mazinger-z/10/"
         ]
       },
       {
@@ -41289,13 +41261,6 @@
         "title": "Hug tto! Precure♡Futari wa Precure Movie: All Stars Memories",
         "samples": [
           "https://jkanime.net/hug-tto-precurefutari-wa-precure-movie-all-stars-memories/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/",
-        "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow",
-        "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/1/"
         ]
       },
       {
@@ -42783,13 +42748,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sakasama-no-patema/",
-        "title": "Sakasama no Patema",
-        "samples": [
-          "https://jkanime.net/sakasama-no-patema/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/diabolik-lovers-recap/",
         "title": "Diabolik Lovers Recap",
         "samples": [
@@ -43144,13 +43102,6 @@
         "title": "Death Billiards",
         "samples": [
           "https://jkanime.net/death-billiards/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ryo/",
-        "title": "Ryo",
-        "samples": [
-          "https://jkanime.net/ryo/1/"
         ]
       },
       {
@@ -45147,21 +45098,20 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/6/",
         "https://jkanime.net/megalo-box/7/",
         "https://jkanime.net/megalo-box/8/",
         "https://jkanime.net/megalo-box/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 6
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -50401,21 +50351,16 @@
     {
       "series": "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/",
       "title": "Saigo ni Hitotsu dake Onegai shitemo Yoroshii deshou ka",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/13/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mp4upload": 11,
-        "streamwish": 12,
+        "mp4upload": 12,
+        "streamwish": 13,
         "vidhide": 1
       },
       "playbackVerified": false
@@ -54413,9 +54358,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/sakamoto-days/12/",
         "https://jkanime.net/sakamoto-days/13/",
         "https://jkanime.net/sakamoto-days/14/",
         "https://jkanime.net/sakamoto-days/15/",
@@ -54429,10 +54373,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "vidhide": 6,
-        "mp4upload": 9,
+        "vidhide": 7,
+        "mp4upload": 10,
         "streamwish": 5
       },
       "playbackVerified": false
@@ -56328,9 +56272,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/14/",
         "https://jkanime.net/puniru-wa-kawaii-slime/15/",
         "https://jkanime.net/puniru-wa-kawaii-slime/16/",
         "https://jkanime.net/puniru-wa-kawaii-slime/17/",
@@ -56344,12 +56287,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
-        "streamwish": 13,
+        "streamwish": 14,
         "vidhide": 12,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -62528,11 +62471,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 49,
+      "stored": 50,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/51/",
         "https://jkanime.net/kusuriya-no-hitorigoto/52/"
       ],
       "expired": [],
@@ -62542,7 +62484,7 @@
         "mega": 24,
         "streamwish": 37,
         "vidhide": 31,
-        "mp4upload": 45,
+        "mp4upload": 46,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -73450,9 +73392,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/orient/16/",
         "https://jkanime.net/orient/17/",
         "https://jkanime.net/orient/18/",
         "https://jkanime.net/orient/19/",
@@ -73464,9 +73405,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 14,
+        "mega": 15,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
@@ -73841,7 +73782,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 26,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -88207,20 +88148,16 @@
     {
       "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/",
       "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Memory Snow",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-memory-snow/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -91722,7 +91659,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {},
       "playbackVerified": false
     },
@@ -94268,14 +94205,13 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/18if/1/",
         "https://jkanime.net/18if/10/",
         "https://jkanime.net/18if/11/",
         "https://jkanime.net/18if/12/",
         "https://jkanime.net/18if/13/",
-        "https://jkanime.net/18if/3/",
         "https://jkanime.net/18if/4/",
         "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/6/",
@@ -94283,9 +94219,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -96324,7 +96260,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -98044,7 +97980,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/nazotokine/1/",
         "https://jkanime.net/nazotokine/2/",
@@ -98052,14 +97988,13 @@
         "https://jkanime.net/nazotokine/4/",
         "https://jkanime.net/nazotokine/5/",
         "https://jkanime.net/nazotokine/6/",
-        "https://jkanime.net/nazotokine/8/",
         "https://jkanime.net/nazotokine/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 4
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -99437,9 +99372,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 4,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/13/",
         "https://jkanime.net/regalia-the-three-sacred-stars/2/",
         "https://jkanime.net/regalia-the-three-sacred-stars/3/",
         "https://jkanime.net/regalia-the-three-sacred-stars/4/",
@@ -99453,8 +99387,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 3,
-        "mega": 1
+        "mega": 1,
+        "streamwish": 4
       },
       "playbackVerified": false
     },
@@ -106142,12 +106076,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/25/",
         "https://jkanime.net/ninja-slayer-from-animation/26/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
         "https://jkanime.net/ninja-slayer-from-animation/4/",
@@ -106162,7 +106095,7 @@
       "renewalFailed": 3,
       "families": {
         "streamwish": 13,
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -106905,20 +106838,19 @@
       "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
       "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 6,
-      "stored": 4,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/3/",
         "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "streamwish": 4
+        "streamwish": 4,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -115184,20 +115116,16 @@
     {
       "series": "https://jkanime.net/sakasama-no-patema/",
       "title": "Sakasama no Patema",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/sakasama-no-patema/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -118940,20 +118868,16 @@
     {
       "series": "https://jkanime.net/ryo/",
       "title": "Ryo",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/ryo/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -126923,7 +126847,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 77,
+      "renewalFailed": 78,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -129812,14 +129736,13 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
         "https://jkanime.net/07-ghost/11/",
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
-        "https://jkanime.net/07-ghost/15/",
         "https://jkanime.net/07-ghost/16/",
         "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/18/",
@@ -129835,9 +129758,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -142353,16 +142276,15 @@
         "renewal-error"
       ],
       "observed": 167,
-      "stored": 165,
+      "stored": 166,
       "missing": [
-        "https://jkanime.net/inuyasha/47/",
-        "https://jkanime.net/inuyasha/77/"
+        "https://jkanime.net/inuyasha/47/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 167,
+      "renewalFailed": 166,
       "families": {
-        "mega": 165,
+        "mega": 166,
         "streamwish": 165,
         "vidhide": 165,
         "mp4upload": 165,
@@ -142624,7 +142546,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mega": 1
       },
@@ -144542,9 +144464,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/19/",
         "https://jkanime.net/taiho-shichau-zo/20/",
         "https://jkanime.net/taiho-shichau-zo/21/",
         "https://jkanime.net/taiho-shichau-zo/22/",
@@ -144591,7 +144512,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -145955,7 +145876,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mega": 3
       },
@@ -146439,27 +146360,29 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uchuu-kaizoku-captain-herlock/",
       "title": "Uchuu Kaizoku Captain Herlock",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 42,
       "stored": 42,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 42,
-        "streamwish": 42,
-        "vidhide": 42,
-        "mixdrop": 42,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
         "mp4upload": 42,
-        "streamtape": 42
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -146485,32 +146408,36 @@
     {
       "series": "https://jkanime.net/candy-candy/",
       "title": "Candy Candy",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 115,
       "stored": 115,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 115,
-        "streamwish": 115,
-        "vidhide": 115,
-        "mp4upload": 115,
-        "streamtape": 115
+        "mega": 111,
+        "mp4upload": 10,
+        "streamwish": 6,
+        "vidhide": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uchuu-senkan-yamato/",
       "title": "Uchuu Senkan Yamato",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -146524,13 +146451,15 @@
     {
       "series": "https://jkanime.net/alps-no-shoujo-heidi/",
       "title": "Alps no Shoujo Heidi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -146543,13 +146472,15 @@
     {
       "series": "https://jkanime.net/mazinger-z/",
       "title": "Mazinger Z",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 92,
       "stored": 92,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 65,
       "families": {
         "mega": 92,
         "streamwish": 92,
