@@ -69,7 +69,7 @@ def build(state,approved,now,allow_voe=False):
  return index,files
 def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
- collected=0;recent_added=0
+ collected=0;recent_added=0;links_changed=0
  if '--collect' in sys.argv:
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.
   if os.environ.get('ZZ_COLLECTOR_URL'):
@@ -104,9 +104,15 @@ def main():
     for url,ep in result['state']['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
     merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
     if not incoming['episodes'] and not newly_deferred:break
+   if '--publish' in sys.argv and not proof:
+    # A few provider pages per run; a failing check never blocks the channel and never claims playback.
+    try:
+     from link_health import check as check_links
+     before=json.loads((D/'link-health.json').read_bytes()).get('last',{}).get('excluded',0) if (D/'link-health.json').exists() else 0;links=check_links(D);links_changed=links['excluded']!=before
+    except Exception as error:print(json.dumps({'linkHealthError':type(error).__name__+': '+str(error)[:120]}))
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
   # Historical changes remain for renewal's final publish; an empty news check must not redeploy them.
-  if '--news-only' in sys.argv and os.environ.get('ZZ_COLLECTOR_URL') and not proof and collected==0 and recent_added==0:
+  if '--news-only' in sys.argv and os.environ.get('ZZ_COLLECTOR_URL') and not proof and collected==0 and recent_added==0 and not links_changed:
    print(json.dumps({'newsUnchanged':True,'historicalPublicationDeferred':True,'aiCalls':0}));return
  state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)
  # Undo the obsolete homepage baseline only; preserve collected options and true news observations.
@@ -126,6 +132,8 @@ def main():
   output=command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
   approved={r['key']:r['approved'] for r in map(json.loads,output.splitlines())}
   if set(approved)!=set(queries):raise ValueError('Incomplete real app option validation')
+  from link_health import exclude
+  exclude(D,approved)
   index,files=build(state,approved,now)
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
   public=(W/'public-key.der').read_bytes()

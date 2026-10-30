@@ -100,6 +100,8 @@ def render(folder,now,key,runtime):
     queries={p.sha((v['name']+'\0'+u).encode()):{'name':v['name'],'url':u} for e in state['episodes'].values() for v in e['providers'] for u in v['links']}
     result=p.command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
     approved={r['key']:r['approved'] for r in map(json.loads,result.splitlines())}
+    from link_health import exclude
+    exclude(folder,approved)
     index,files=p.build(state,approved,now,allow_voe=True);body=p.raw(index);digest=p.sha(body);name='indexes/'+digest+'.bin';files[name]=body
     payload=p.raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(body),'mode':'daily-new'})
     files['channel.json']=p.raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
