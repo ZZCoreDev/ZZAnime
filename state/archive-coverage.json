@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T10:24:13.451155+00:00",
+  "checkedAt": "2026-10-30T10:38:10.396602+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73566,
-  "storedChapters": 71778,
-  "missingChapters": 1788,
+  "observedChapters": 73567,
+  "storedChapters": 71780,
+  "missingChapters": 1787,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -417,8 +417,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/"
         ]
       },
       {
@@ -5334,6 +5334,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/moetan/",
+        "title": "Moetan",
+        "samples": [
+          "https://jkanime.net/moetan/13/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shakugan-no-shana-movie/",
         "title": "Shakugan no Shana Movie",
         "samples": [
@@ -8884,8 +8891,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/"
         ]
       },
       {
@@ -35353,7 +35360,56 @@
         "series": "https://jkanime.net/clannad/",
         "title": "Clannad",
         "samples": [
-          "https://jkanime.net/clannad/1/"
+          "https://jkanime.net/clannad/1/",
+          "https://jkanime.net/clannad/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shakugan-no-shana-ii/",
+        "title": "Shakugan no Shana II",
+        "samples": [
+          "https://jkanime.net/shakugan-no-shana-ii/1/",
+          "https://jkanime.net/shakugan-no-shana-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gyakkyou-burai-kaiji-ultimate-survivor/",
+        "title": "Gyakkyou Burai Kaiji Ultimate Survivor",
+        "samples": [
+          "https://jkanime.net/gyakkyou-burai-kaiji-ultimate-survivor/1/",
+          "https://jkanime.net/gyakkyou-burai-kaiji-ultimate-survivor/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suteki-tantei-labyrinth/",
+        "title": "Suteki Tantei Labyrinth",
+        "samples": [
+          "https://jkanime.net/suteki-tantei-labyrinth/1/",
+          "https://jkanime.net/suteki-tantei-labyrinth/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/myself-yourself/",
+        "title": "Myself Yourself",
+        "samples": [
+          "https://jkanime.net/myself-yourself/1/",
+          "https://jkanime.net/myself-yourself/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majin-tantei-nougami-neuro/",
+        "title": "Majin Tantei Nougami Neuro",
+        "samples": [
+          "https://jkanime.net/majin-tantei-nougami-neuro/1/",
+          "https://jkanime.net/majin-tantei-nougami-neuro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-capo-ii/",
+        "title": "Da Capo II",
+        "samples": [
+          "https://jkanime.net/da-capo-ii/1/",
+          "https://jkanime.net/da-capo-ii/10/"
         ]
       },
       {
@@ -35364,10 +35420,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/potemayo-specials/",
+        "title": "Potemayo Specials",
+        "samples": [
+          "https://jkanime.net/potemayo-specials/1/",
+          "https://jkanime.net/potemayo-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/evangelion-1-11-you-are-not-alone/",
         "title": "Evangelion: 1.11 You Are (Not) Alone",
         "samples": [
           "https://jkanime.net/evangelion-1-11-you-are-not-alone/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokusatsu-tenshi-dokuro-chan-2/",
+        "title": "Bokusatsu Tenshi Dokuro-chan 2",
+        "samples": [
+          "https://jkanime.net/bokusatsu-tenshi-dokuro-chan-2/1/",
+          "https://jkanime.net/bokusatsu-tenshi-dokuro-chan-2/2/"
         ]
       },
       {
@@ -35382,6 +35454,85 @@
         "title": "Higurashi no Naku Koro ni Gaiden Nekogoroshi-hen",
         "samples": [
           "https://jkanime.net/higurashi-no-naku-koro-ni-gaiden-nekogoroshi-hen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baccano/",
+        "title": "Baccano!",
+        "samples": [
+          "https://jkanime.net/baccano/1/",
+          "https://jkanime.net/baccano/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shigurui/",
+        "title": "Shigurui",
+        "samples": [
+          "https://jkanime.net/shigurui/1/",
+          "https://jkanime.net/shigurui/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mononoke/",
+        "title": "Mononoke",
+        "samples": [
+          "https://jkanime.net/mononoke/1/",
+          "https://jkanime.net/mononoke/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zero-no-tsukaima-futatsuki-no-kishi/",
+        "title": "Zero no Tsukaima: Futatsuki no Kishi",
+        "samples": [
+          "https://jkanime.net/zero-no-tsukaima-futatsuki-no-kishi/1/",
+          "https://jkanime.net/zero-no-tsukaima-futatsuki-no-kishi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/moetan/",
+        "title": "Moetan",
+        "samples": [
+          "https://jkanime.net/moetan/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/potemayo/",
+        "title": "Potemayo",
+        "samples": [
+          "https://jkanime.net/potemayo/10/",
+          "https://jkanime.net/potemayo/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-zetsubou-sensei/",
+        "title": "Sayonara Zetsubou Sensei",
+        "samples": [
+          "https://jkanime.net/sayonara-zetsubou-sensei/1/",
+          "https://jkanime.net/sayonara-zetsubou-sensei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sky-girls/",
+        "title": "Sky Girls",
+        "samples": [
+          "https://jkanime.net/sky-girls/1/",
+          "https://jkanime.net/sky-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/higurashi-no-naku-koro-ni-kai/",
+        "title": "Higurashi no Naku Koro ni Kai",
+        "samples": [
+          "https://jkanime.net/higurashi-no-naku-koro-ni-kai/11/",
+          "https://jkanime.net/higurashi-no-naku-koro-ni-kai/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zombie-loan/",
+        "title": "Zombie-Loan",
+        "samples": [
+          "https://jkanime.net/zombie-loan/1/",
+          "https://jkanime.net/zombie-loan/2/"
         ]
       },
       {
@@ -41771,7 +41922,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -53821,9 +53972,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
@@ -53836,12 +53986,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 13,
+        "mp4upload": 14,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -78230,7 +78380,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 46,
+      "renewalFailed": 47,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -91952,7 +92102,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/id-0/1/",
         "https://jkanime.net/id-0/10/",
@@ -91964,13 +92114,14 @@
         "https://jkanime.net/id-0/5/",
         "https://jkanime.net/id-0/6/",
         "https://jkanime.net/id-0/7/",
-        "https://jkanime.net/id-0/8/",
-        "https://jkanime.net/id-0/9/"
+        "https://jkanime.net/id-0/8/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 11,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -93060,7 +93211,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -129623,7 +129774,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -129636,13 +129787,15 @@
     {
       "series": "https://jkanime.net/shakugan-no-shana-ii/",
       "title": "Shakugan no Shana II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -129655,13 +129808,15 @@
     {
       "series": "https://jkanime.net/gyakkyou-burai-kaiji-ultimate-survivor/",
       "title": "Gyakkyou Burai Kaiji Ultimate Survivor",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -129674,13 +129829,15 @@
     {
       "series": "https://jkanime.net/suteki-tantei-labyrinth/",
       "title": "Suteki Tantei Labyrinth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -129694,13 +129851,15 @@
     {
       "series": "https://jkanime.net/myself-yourself/",
       "title": "Myself Yourself",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129713,13 +129872,15 @@
     {
       "series": "https://jkanime.net/majin-tantei-nougami-neuro/",
       "title": "Majin Tantei Nougami Neuro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -129732,13 +129893,15 @@
     {
       "series": "https://jkanime.net/da-capo-ii/",
       "title": "Da Capo II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129770,13 +129933,15 @@
     {
       "series": "https://jkanime.net/potemayo-specials/",
       "title": "Potemayo Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -129809,13 +129974,15 @@
     {
       "series": "https://jkanime.net/bokusatsu-tenshi-dokuro-chan-2/",
       "title": "Bokusatsu Tenshi Dokuro-chan 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -129866,13 +130033,15 @@
     {
       "series": "https://jkanime.net/baccano/",
       "title": "Baccano!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129885,13 +130054,15 @@
     {
       "series": "https://jkanime.net/shigurui/",
       "title": "Shigurui",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129904,13 +130075,15 @@
     {
       "series": "https://jkanime.net/mononoke/",
       "title": "Mononoke",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129924,13 +130097,15 @@
     {
       "series": "https://jkanime.net/zero-no-tsukaima-futatsuki-no-kishi/",
       "title": "Zero no Tsukaima: Futatsuki no Kishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129943,52 +130118,61 @@
     {
       "series": "https://jkanime.net/moetan/",
       "title": "Moetan",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/moetan/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/potemayo/",
       "title": "Potemayo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "mixdrop": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sayonara-zetsubou-sensei/",
       "title": "Sayonara Zetsubou Sensei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -130001,53 +130185,59 @@
     {
       "series": "https://jkanime.net/sky-girls/",
       "title": "Sky Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mega": 25,
         "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 25,
+        "mixdrop": 25,
+        "mp4upload": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/higurashi-no-naku-koro-ni-kai/",
       "title": "Higurashi no Naku Koro ni Kai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mixdrop": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "mixdrop": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/zombie-loan/",
       "title": "Zombie-Loan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 13,
         "streamwish": 13,
