@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T07:08:50.343361+00:00",
+  "checkedAt": "2026-10-30T07:21:50.255388+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73560,
   "storedChapters": 71741,
@@ -33670,10 +33670,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ladies-versus-butlers-specials/",
+        "title": "Ladies versus Butlers! Specials",
+        "samples": [
+          "https://jkanime.net/ladies-versus-butlers-specials/1/",
+          "https://jkanime.net/ladies-versus-butlers-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ladies-versus-butlers-tokuten-disc-music-clip/",
         "title": "Ladies versus Butlers! Tokuten Disc Music Clip",
         "samples": [
           "https://jkanime.net/ladies-versus-butlers-tokuten-disc-music-clip/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ikkitousen-xtreme-xecutor/",
+        "title": "Ikkitousen: Xtreme Xecutor",
+        "samples": [
+          "https://jkanime.net/ikkitousen-xtreme-xecutor/1/",
+          "https://jkanime.net/ikkitousen-xtreme-xecutor/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kiss-x-sis-tv/",
+        "title": "Kiss x Sis (TV)",
+        "samples": [
+          "https://jkanime.net/kiss-x-sis-tv/1/",
+          "https://jkanime.net/kiss-x-sis-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/angel-beats/",
+        "title": "Angel Beats!",
+        "samples": [
+          "https://jkanime.net/angel-beats/1/",
+          "https://jkanime.net/angel-beats/10/"
         ]
       },
       {
@@ -33684,10 +33716,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/working/",
+        "title": "Working!",
+        "samples": [
+          "https://jkanime.net/working/1/",
+          "https://jkanime.net/working/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/katekyo-hitman-reborn-special/",
         "title": "Katekyo Hitman Reborn! Special",
         "samples": [
           "https://jkanime.net/katekyo-hitman-reborn-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yondemasu-yo-azazel-san-ova/",
+        "title": "Yondemasu yo, Azazel-san OVA",
+        "samples": [
+          "https://jkanime.net/yondemasu-yo-azazel-san-ova/1/",
+          "https://jkanime.net/yondemasu-yo-azazel-san-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heartcatch-precure/",
+        "title": "Heartcatch Precure!",
+        "samples": [
+          "https://jkanime.net/heartcatch-precure/1/",
+          "https://jkanime.net/heartcatch-precure/10/"
         ]
       },
       {
@@ -33702,6 +33758,14 @@
         "title": "Mai-HiME: Kuro no Mai/Saigo no Bansan",
         "samples": [
           "https://jkanime.net/mai-hime-kuro-no-maisaigo-no-bansan/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/katanagatari/",
+        "title": "Katanagatari",
+        "samples": [
+          "https://jkanime.net/katanagatari/1/",
+          "https://jkanime.net/katanagatari/10/"
         ]
       },
       {
@@ -33723,6 +33787,85 @@
         "title": "K-ON! Special: Live House!",
         "samples": [
           "https://jkanime.net/k-on-special-live-house/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nodame-cantabile-finale/",
+        "title": "Nodame Cantabile Finale",
+        "samples": [
+          "https://jkanime.net/nodame-cantabile-finale/1/",
+          "https://jkanime.net/nodame-cantabile-finale/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanamaru-kindergarten/",
+        "title": "Hanamaru Youchien",
+        "samples": [
+          "https://jkanime.net/hanamaru-kindergarten/1/",
+          "https://jkanime.net/hanamaru-kindergarten/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seikon-no-qwaser/",
+        "title": "Seikon no Qwaser",
+        "samples": [
+          "https://jkanime.net/seikon-no-qwaser/1/",
+          "https://jkanime.net/seikon-no-qwaser/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/durarara/",
+        "title": "Durarara!!",
+        "samples": [
+          "https://jkanime.net/durarara/1/",
+          "https://jkanime.net/durarara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ookami-kakushi/",
+        "title": "Ookami Kakushi",
+        "samples": [
+          "https://jkanime.net/ookami-kakushi/1/",
+          "https://jkanime.net/ookami-kakushi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dance-in-the-vampire-bund/",
+        "title": "Dance in the Vampire Bund",
+        "samples": [
+          "https://jkanime.net/dance-in-the-vampire-bund/1/",
+          "https://jkanime.net/dance-in-the-vampire-bund/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baka-to-test-to-shoukanjuu/",
+        "title": "Baka to Test to Shoukanjuu",
+        "samples": [
+          "https://jkanime.net/baka-to-test-to-shoukanjuu/1/",
+          "https://jkanime.net/baka-to-test-to-shoukanjuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/omamori-himari/",
+        "title": "Omamori Himari",
+        "samples": [
+          "https://jkanime.net/omamori-himari/1/",
+          "https://jkanime.net/omamori-himari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/so-ra-no-wo-to/",
+        "title": "Sora no Woto",
+        "samples": [
+          "https://jkanime.net/so-ra-no-wo-to/1/",
+          "https://jkanime.net/so-ra-no-wo-to/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ladies-versus-butlers/",
+        "title": "Ladies versus Butlers!",
+        "samples": [
+          "https://jkanime.net/ladies-versus-butlers/2/"
         ]
       },
       {
@@ -123425,7 +123568,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 42,
+      "renewalFailed": 48,
       "families": {
         "mega": 48,
         "streamwish": 48,
@@ -123438,13 +123581,15 @@
     {
       "series": "https://jkanime.net/ladies-versus-butlers-specials/",
       "title": "Ladies versus Butlers! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -123476,13 +123621,15 @@
     {
       "series": "https://jkanime.net/ikkitousen-xtreme-xecutor/",
       "title": "Ikkitousen: Xtreme Xecutor",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123495,13 +123642,15 @@
     {
       "series": "https://jkanime.net/kiss-x-sis-tv/",
       "title": "Kiss x Sis (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123515,13 +123664,15 @@
     {
       "series": "https://jkanime.net/angel-beats/",
       "title": "Angel Beats!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -123553,13 +123704,15 @@
     {
       "series": "https://jkanime.net/working/",
       "title": "Working!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -123591,13 +123744,15 @@
     {
       "series": "https://jkanime.net/yondemasu-yo-azazel-san-ova/",
       "title": "Yondemasu yo, Azazel-san OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -123610,13 +123765,15 @@
     {
       "series": "https://jkanime.net/heartcatch-precure/",
       "title": "Heartcatch Precure!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 49,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -123668,13 +123825,15 @@
     {
       "series": "https://jkanime.net/katanagatari/",
       "title": "Katanagatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123744,13 +123903,15 @@
     {
       "series": "https://jkanime.net/nodame-cantabile-finale/",
       "title": "Nodame Cantabile Finale",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -123763,13 +123924,15 @@
     {
       "series": "https://jkanime.net/hanamaru-kindergarten/",
       "title": "Hanamaru Youchien",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123782,13 +123945,15 @@
     {
       "series": "https://jkanime.net/seikon-no-qwaser/",
       "title": "Seikon no Qwaser",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 22,
         "streamwish": 24,
@@ -123801,13 +123966,15 @@
     {
       "series": "https://jkanime.net/durarara/",
       "title": "Durarara!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -123820,13 +123987,15 @@
     {
       "series": "https://jkanime.net/ookami-kakushi/",
       "title": "Ookami Kakushi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123839,13 +124008,15 @@
     {
       "series": "https://jkanime.net/dance-in-the-vampire-bund/",
       "title": "Dance in the Vampire Bund",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123858,13 +124029,15 @@
     {
       "series": "https://jkanime.net/baka-to-test-to-shoukanjuu/",
       "title": "Baka to Test to Shoukanjuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -123877,13 +124050,15 @@
     {
       "series": "https://jkanime.net/omamori-himari/",
       "title": "Omamori Himari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123896,13 +124071,15 @@
     {
       "series": "https://jkanime.net/so-ra-no-wo-to/",
       "title": "Sora no Woto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123930,19 +124107,21 @@
     {
       "series": "https://jkanime.net/ladies-versus-butlers/",
       "title": "Ladies versus Butlers!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -140344,7 +140523,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {
         "mega": 32,
         "streamwish": 32,
