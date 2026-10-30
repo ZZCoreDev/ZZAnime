@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T12:34:26.729840+00:00",
+  "checkedAt": "2026-10-30T12:48:02.732775+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73569,
-  "storedChapters": 71810,
-  "missingChapters": 1759,
+  "storedChapters": 71814,
+  "missingChapters": 1755,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -287,8 +287,7 @@
         "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
-          "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/23/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/20/"
         ]
       },
       {
@@ -404,13 +403,6 @@
         "title": "Fureru.",
         "samples": [
           "https://jkanime.net/fureru/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
-        "title": "Nageki no Bourei wa Intai shitai",
-        "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
         ]
       },
       {
@@ -658,8 +650,8 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/20/",
-          "https://jkanime.net/high-card/21/"
+          "https://jkanime.net/high-card/21/",
+          "https://jkanime.net/high-card/22/"
         ]
       },
       {
@@ -7466,8 +7458,7 @@
         "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
-          "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/23/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/20/"
         ]
       },
       {
@@ -8898,7 +8889,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/1/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/10/"
         ]
       },
       {
@@ -12480,8 +12472,8 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/20/",
-          "https://jkanime.net/high-card/21/"
+          "https://jkanime.net/high-card/21/",
+          "https://jkanime.net/high-card/22/"
         ]
       },
       {
@@ -36196,6 +36188,46 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nana/",
+        "title": "Nana",
+        "samples": [
+          "https://jkanime.net/nana/1/",
+          "https://jkanime.net/nana/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/air-gear/",
+        "title": "Air Gear",
+        "samples": [
+          "https://jkanime.net/air-gear/1/",
+          "https://jkanime.net/air-gear/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ray-the-animation/",
+        "title": "Ray the Animation",
+        "samples": [
+          "https://jkanime.net/ray-the-animation/1/",
+          "https://jkanime.net/ray-the-animation/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/utawarerumono/",
+        "title": "Utawarerumono",
+        "samples": [
+          "https://jkanime.net/utawarerumono/1/",
+          "https://jkanime.net/utawarerumono/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama/",
+        "title": "Gintama",
+        "samples": [
+          "https://jkanime.net/gintama/1/",
+          "https://jkanime.net/gintama/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/konjiki-no-gash-bell-hashire-gash-ubawareta-umagon/",
         "title": "Konjiki no Gash Bell!!: Hashire Gash!! Ubawareta Umagon",
         "samples": [
@@ -49803,17 +49835,16 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 24,
+      "stored": 25,
       "missing": [
-        "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/23/"
+        "https://jkanime.net/jigoku-sensei-nube-2025/20/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mp4upload": 23,
-        "streamwish": 20,
+        "mp4upload": 24,
+        "streamwish": 21,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -54575,22 +54606,19 @@
       "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
       "title": "Nageki no Bourei wa Intai shitai",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 23,
-      "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
-      ],
+      "stored": 24,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 20,
+        "streamwish": 21,
         "vidhide": 13,
-        "mp4upload": 22,
+        "mp4upload": 23,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -65051,21 +65079,20 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/high-card/20/",
         "https://jkanime.net/high-card/21/",
         "https://jkanime.net/high-card/22/",
         "https://jkanime.net/high-card/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 8,
         "streamwish": 8,
         "vidhide": 8,
-        "mp4upload": 21,
+        "mp4upload": 22,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -71219,11 +71246,10 @@
         "renewal-error"
       ],
       "observed": 38,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
-        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/17/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/18/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/19/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/20/",
@@ -71248,12 +71274,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
         "streamwish": 13,
         "mega": 9,
         "vidhide": 9,
-        "mp4upload": 13,
+        "mp4upload": 14,
         "streamtape": 9
       },
       "playbackVerified": false
@@ -84315,7 +84341,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mp4upload": 12
       },
@@ -132671,7 +132697,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132684,13 +132710,15 @@
     {
       "series": "https://jkanime.net/nana/",
       "title": "Nana",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 47,
       "stored": 47,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
         "mega": 47,
         "streamwish": 47,
@@ -132703,13 +132731,15 @@
     {
       "series": "https://jkanime.net/air-gear/",
       "title": "Air Gear",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -132722,32 +132752,36 @@
     {
       "series": "https://jkanime.net/ray-the-animation/",
       "title": "Ray the Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 6,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/utawarerumono/",
       "title": "Utawarerumono",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132760,13 +132794,15 @@
     {
       "series": "https://jkanime.net/gintama/",
       "title": "Gintama",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 201,
       "stored": 201,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 158,
       "families": {
         "mega": 201,
         "streamwish": 201,
