@@ -104,6 +104,11 @@ def main():
     for url,ep in result['state']['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
     merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
     if not incoming['episodes'] and not newly_deferred:break
+   if os.environ.get('ZZ_HELP_URL') and not proof:
+    # Device help only fills chapters the cloud asked for; a failing help service never blocks collection.
+    try:
+     import help_chain;collected+=help_chain.pull(D,state,instant)['imported']
+    except Exception as error:print(json.dumps({'helpChainError':type(error).__name__+': '+str(error)[:120]}))
    if '--publish' in sys.argv and not proof:
     # A few provider pages per run; a failing check never blocks the channel and never claims playback.
     try:
@@ -145,7 +150,9 @@ def main():
    key=rsa.generate_private_key(public_exponent=65537,key_size=2048);public=key.public_key().public_bytes(serialization.Encoding.DER,serialization.PublicFormat.SubjectPublicKeyInfo)
   site=tmp/'site';assets=site/'assets'
   digest=sha(raw(index));name='indexes/'+digest+'.bin';files[name]=raw(index)
-  payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new'})
+  import help_chain;wanted=None if proof else help_chain.wanted(state,files,now,help_chain.policy())
+  # Extra signed field: installed readers check only their own keys, so older APKs ignore it.
+  payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new',**({'wanted':wanted} if wanted is not None else {})})
   files['channel.json']=raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
   from voe_channel import render
   extra_files,voe_cp,voe_digest=render(D,now,key,tmp)
@@ -156,7 +163,7 @@ def main():
   put(tmp/'key.der',public)
   proof_result=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'cache')]))
   voe_proof=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/'voe-cache')])) if voe_cp else None
-  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
+  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'wanted':[w['url'] for w in wanted]} if wanted else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
   report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False,'voe':voe_proof}
   if '--publish' in sys.argv and changed:
@@ -187,5 +194,6 @@ def main():
    if old.exists():shutil.rmtree(old)
    for n,b in files.items():put(old/n,b)
    report.update(published=True,verifiedRemote=True,publishedAt=now.isoformat());put(D/'publication.json',raw(report))
+   help_chain.record_published(D,wanted,now)
   put(D/'verification.json',raw(report));print(json.dumps(report))
 if __name__=='__main__':main()

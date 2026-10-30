@@ -46,6 +46,8 @@ jobs:
           node test_source_diagnostics.cjs
           node test_source_failure_cache.cjs
           node test_title_entities.cjs
+          python3 test_help_chain.py
+          node --no-warnings ../help-worker/test_help_worker.mjs
       - name: Prueba aislada con lector real de la app
         if: inputs.proof == true
         working-directory: code/automation/hourly
@@ -70,6 +72,8 @@ jobs:
           ZZ_DATA: ${{ github.workspace }}/data/state
           ZZ_COLLECTOR_URL: 'https://zzanime-new-episodes.zzcoredev.workers.dev/'
           ZZ_COLLECTOR_KEY: ${{ secrets.ZZ_COLLECTOR_KEY }}
+          ZZ_HELP_URL: ${{ vars.ZZ_HELP_URL }}
+          ZZ_HELP_KEY: ${{ secrets.ZZ_HELP_KEY }}
           ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
         run: python3 run.py --collect --publish
