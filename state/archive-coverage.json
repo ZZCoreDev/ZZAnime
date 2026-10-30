@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T09:21:55.295011+00:00",
+  "checkedAt": "2026-10-30T09:35:19.810299+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73564,
-  "storedChapters": 71766,
-  "missingChapters": 1798,
+  "storedChapters": 71767,
+  "missingChapters": 1797,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -34748,6 +34748,94 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jigoku-shoujo-mitsuganae/",
+        "title": "Jigoku Shoujo Mitsuganae",
+        "samples": [
+          "https://jkanime.net/jigoku-shoujo-mitsuganae/1/",
+          "https://jkanime.net/jigoku-shoujo-mitsuganae/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-majutsu-no-index/",
+        "title": "Toaru Majutsu no Index",
+        "samples": [
+          "https://jkanime.net/toaru-majutsu-no-index/1/",
+          "https://jkanime.net/toaru-majutsu-no-index/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kannagi/",
+        "title": "Kannagi",
+        "samples": [
+          "https://jkanime.net/kannagi/1/",
+          "https://jkanime.net/kannagi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kurogane-no-linebarrels/",
+        "title": "Kurogane no Linebarrels",
+        "samples": [
+          "https://jkanime.net/kurogane-no-linebarrels/1/",
+          "https://jkanime.net/kurogane-no-linebarrels/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-quartet/",
+        "title": "Yozakura Quartet",
+        "samples": [
+          "https://jkanime.net/yozakura-quartet/1/",
+          "https://jkanime.net/yozakura-quartet/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tales-of-the-abyss/",
+        "title": "Tales of the Abyss",
+        "samples": [
+          "https://jkanime.net/tales-of-the-abyss/1/",
+          "https://jkanime.net/tales-of-the-abyss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akane-iro-ni-somaru-saka/",
+        "title": "Akane-iro ni Somaru Saka",
+        "samples": [
+          "https://jkanime.net/akane-iro-ni-somaru-saka/1/",
+          "https://jkanime.net/akane-iro-ni-somaru-saka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroshitsuji/",
+        "title": "Kuroshitsuji",
+        "samples": [
+          "https://jkanime.net/kuroshitsuji/1/",
+          "https://jkanime.net/kuroshitsuji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rosario-to-vampire-capu-2/",
+        "title": "Rosario + Vampire Capu2",
+        "samples": [
+          "https://jkanime.net/rosario-to-vampire-capu-2/1/",
+          "https://jkanime.net/rosario-to-vampire-capu-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/clannad-after-story/",
+        "title": "Clannad: After Story",
+        "samples": [
+          "https://jkanime.net/clannad-after-story/1/",
+          "https://jkanime.net/clannad-after-story/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toradora/",
+        "title": "Toradora!",
+        "samples": [
+          "https://jkanime.net/toradora/1/",
+          "https://jkanime.net/toradora/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/lucky-star-ova/",
         "title": "Lucky ☆ Star OVA",
         "samples": [
@@ -63787,23 +63875,22 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/high-card/20/",
         "https://jkanime.net/high-card/21/",
         "https://jkanime.net/high-card/22/",
-        "https://jkanime.net/high-card/23/",
         "https://jkanime.net/high-card/24/",
         "https://jkanime.net/high-card/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 8,
         "streamwish": 8,
         "vidhide": 8,
-        "mp4upload": 19,
+        "mp4upload": 20,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -69994,7 +70081,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -77590,7 +77677,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -91458,7 +91545,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -94169,7 +94256,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 7
       },
@@ -98154,7 +98241,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 3
       },
@@ -98494,7 +98581,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -127435,26 +127522,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
-        "mega": 35,
+        "mega": 8,
         "streamwish": 51,
         "vidhide": 51,
         "mp4upload": 51,
-        "streamtape": 35
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/jigoku-shoujo-mitsuganae/",
       "title": "Jigoku Shoujo Mitsuganae",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -127467,13 +127556,15 @@
     {
       "series": "https://jkanime.net/toaru-majutsu-no-index/",
       "title": "Toaru Majutsu no Index",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -127486,13 +127577,15 @@
     {
       "series": "https://jkanime.net/kannagi/",
       "title": "Kannagi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -127505,13 +127598,15 @@
     {
       "series": "https://jkanime.net/kurogane-no-linebarrels/",
       "title": "Kurogane no Linebarrels",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -127524,13 +127619,15 @@
     {
       "series": "https://jkanime.net/yozakura-quartet/",
       "title": "Yozakura Quartet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127543,13 +127640,15 @@
     {
       "series": "https://jkanime.net/tales-of-the-abyss/",
       "title": "Tales of the Abyss",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -127562,13 +127661,15 @@
     {
       "series": "https://jkanime.net/akane-iro-ni-somaru-saka/",
       "title": "Akane-iro ni Somaru Saka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127581,13 +127682,15 @@
     {
       "series": "https://jkanime.net/kuroshitsuji/",
       "title": "Kuroshitsuji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -127600,13 +127703,15 @@
     {
       "series": "https://jkanime.net/rosario-to-vampire-capu-2/",
       "title": "Rosario + Vampire Capu2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -127619,13 +127724,15 @@
     {
       "series": "https://jkanime.net/clannad-after-story/",
       "title": "Clannad: After Story",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -127638,13 +127745,15 @@
     {
       "series": "https://jkanime.net/toradora/",
       "title": "Toradora!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 25,
         "streamwish": 25,
