@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T22:43:30.440599+00:00",
+  "checkedAt": "2026-10-30T22:51:02.657656+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73752,
-  "storedChapters": 71983,
-  "missingChapters": 1769,
+  "storedChapters": 71998,
+  "missingChapters": 1754,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -380,8 +380,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/13/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/14/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/14/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/15/"
         ]
       },
       {
@@ -581,13 +581,6 @@
         "title": "Black Clover: Mahou Tei no Ken",
         "samples": [
           "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/psycho-pass-movie-providence/",
-        "title": "Psycho-Pass Movie: Providence",
-        "samples": [
-          "https://jkanime.net/psycho-pass-movie-providence/1/"
         ]
       },
       {
@@ -886,8 +879,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/15/",
-          "https://jkanime.net/orient/16/"
+          "https://jkanime.net/orient/16/",
+          "https://jkanime.net/orient/17/"
         ]
       },
       {
@@ -1461,13 +1454,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/",
-        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
-        "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-ova/",
         "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
         "samples": [
@@ -1798,8 +1784,7 @@
         "series": "https://jkanime.net/piano-no-mori-tv/",
         "title": "Piano no Mori (TV)",
         "samples": [
-          "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/24/"
+          "https://jkanime.net/piano-no-mori-tv/18/"
         ]
       },
       {
@@ -2320,8 +2305,8 @@
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/1/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/13/"
+          "https://jkanime.net/regalia-the-three-sacred-stars/13/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/2/"
         ]
       },
       {
@@ -2577,13 +2562,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/pokemon-xyz/",
-        "title": "Pokemon XY&Z",
-        "samples": [
-          "https://jkanime.net/pokemon-xyz/48/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/wakabagirl-onsen-tsukaritai/",
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
@@ -2703,13 +2681,6 @@
         "title": "Sora no Method: Aru Shoujo no Kyuujitsu★",
         "samples": [
           "https://jkanime.net/sora-no-method-aru-shoujo-no-kyuujitsu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/psycho-pass-movie/",
-        "title": "Psycho-Pass Movie",
-        "samples": [
-          "https://jkanime.net/psycho-pass-movie/1/"
         ]
       },
       {
@@ -5741,8 +5712,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/18/",
-          "https://jkanime.net/taiho-shichau-zo/19/"
+          "https://jkanime.net/taiho-shichau-zo/19/",
+          "https://jkanime.net/taiho-shichau-zo/20/"
         ]
       },
       {
@@ -8460,8 +8431,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/13/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/14/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/14/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/15/"
         ]
       },
       {
@@ -11670,13 +11641,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/psycho-pass-movie-providence/",
-        "title": "Psycho-Pass Movie: Providence",
-        "samples": [
-          "https://jkanime.net/psycho-pass-movie-providence/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/zhen-wu-dianfeng-2nd-season/",
         "title": "Zhen Wu Dianfeng 2nd Season",
         "samples": [
@@ -14313,8 +14277,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/15/",
-          "https://jkanime.net/orient/16/"
+          "https://jkanime.net/orient/16/",
+          "https://jkanime.net/orient/17/"
         ]
       },
       {
@@ -17772,13 +17736,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/",
-        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
-        "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bokutachi-wa-benkyou-ga-dekinai-ova/",
         "title": "Bokutachi wa Benkyou ga Dekinai: Nagisa ni Usemono Arite Senjin wa Enzen to [X] Suru",
         "samples": [
@@ -19804,8 +19761,7 @@
         "series": "https://jkanime.net/piano-no-mori-tv/",
         "title": "Piano no Mori (TV)",
         "samples": [
-          "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/24/"
+          "https://jkanime.net/piano-no-mori-tv/18/"
         ]
       },
       {
@@ -23269,14 +23225,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
-        "title": "Regalia: The Three Sacred Stars",
-        "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/1/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kono-bijutsubu-ni-wa-mondai-ga-aru/",
         "title": "Kono Bijutsubu ni wa Mondai ga Aru!",
         "samples": [
@@ -24566,7 +24514,8 @@
         "series": "https://jkanime.net/pokemon-xyz/",
         "title": "Pokemon XY&Z",
         "samples": [
-          "https://jkanime.net/pokemon-xyz/48/"
+          "https://jkanime.net/pokemon-xyz/1/",
+          "https://jkanime.net/pokemon-xyz/10/"
         ]
       },
       {
@@ -25086,13 +25035,6 @@
         "title": "Sora no Method: Aru Shoujo no Kyuujitsu★",
         "samples": [
           "https://jkanime.net/sora-no-method-aru-shoujo-no-kyuujitsu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/psycho-pass-movie/",
-        "title": "Psycho-Pass Movie",
-        "samples": [
-          "https://jkanime.net/psycho-pass-movie/1/"
         ]
       },
       {
@@ -39238,8 +39180,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/18/",
-          "https://jkanime.net/taiho-shichau-zo/19/"
+          "https://jkanime.net/taiho-shichau-zo/19/",
+          "https://jkanime.net/taiho-shichau-zo/20/"
         ]
       },
       {
@@ -39833,10 +39775,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/rose-of-versailles/",
+        "title": "Rose of Versailles",
+        "samples": [
+          "https://jkanime.net/rose-of-versailles/1/",
+          "https://jkanime.net/rose-of-versailles/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ginga-tetsudou-999-movie/",
         "title": "Ginga Tetsudou 999 (Movie)",
         "samples": [
           "https://jkanime.net/ginga-tetsudou-999-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hana-no-ko-lunlun/",
+        "title": "Hana no Ko Lunlun",
+        "samples": [
+          "https://jkanime.net/hana-no-ko-lunlun/1/",
+          "https://jkanime.net/hana-no-ko-lunlun/10/"
         ]
       },
       {
@@ -39845,6 +39803,14 @@
         "samples": [
           "https://jkanime.net/akage-no-anne/1/",
           "https://jkanime.net/akage-no-anne/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginga-tetsudou-999/",
+        "title": "Ginga Tetsudou 999",
+        "samples": [
+          "https://jkanime.net/ginga-tetsudou-999/1/",
+          "https://jkanime.net/ginga-tetsudou-999/10/"
         ]
       },
       {
@@ -40469,13 +40435,6 @@
         "title": "Black Clover: Mahou Tei no Ken",
         "samples": [
           "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/psycho-pass-movie-providence/",
-        "title": "Psycho-Pass Movie: Providence",
-        "samples": [
-          "https://jkanime.net/psycho-pass-movie-providence/1/"
         ]
       },
       {
@@ -41106,13 +41065,6 @@
         "title": "Fragtime",
         "samples": [
           "https://jkanime.net/fragtime/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/",
-        "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
-        "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/1/"
         ]
       },
       {
@@ -42023,13 +41975,6 @@
         "title": "Sora no Method: Aru Shoujo no Kyuujitsu★",
         "samples": [
           "https://jkanime.net/sora-no-method-aru-shoujo-no-kyuujitsu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/psycho-pass-movie/",
-        "title": "Psycho-Pass Movie",
-        "samples": [
-          "https://jkanime.net/psycho-pass-movie/1/"
         ]
       },
       {
@@ -45202,12 +45147,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/5/",
         "https://jkanime.net/megalo-box/6/",
         "https://jkanime.net/megalo-box/7/",
         "https://jkanime.net/megalo-box/8/",
@@ -45215,9 +45159,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
-        "mega": 5
+        "mega": 6
       },
       "playbackVerified": false
     },
@@ -56384,9 +56328,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/13/",
         "https://jkanime.net/puniru-wa-kawaii-slime/14/",
         "https://jkanime.net/puniru-wa-kawaii-slime/15/",
         "https://jkanime.net/puniru-wa-kawaii-slime/16/",
@@ -56401,12 +56344,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "mega": 11,
-        "streamwish": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
+        "streamwish": 13,
+        "vidhide": 12,
+        "mp4upload": 12,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -62585,11 +62528,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 48,
+      "stored": 49,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/50/",
         "https://jkanime.net/kusuriya-no-hitorigoto/51/",
         "https://jkanime.net/kusuriya-no-hitorigoto/52/"
       ],
@@ -62598,9 +62540,9 @@
       "renewalFailed": 26,
       "families": {
         "mega": 24,
-        "streamwish": 36,
+        "streamwish": 37,
         "vidhide": 31,
-        "mp4upload": 44,
+        "mp4upload": 45,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -65785,20 +65727,16 @@
     {
       "series": "https://jkanime.net/psycho-pass-movie-providence/",
       "title": "Psycho-Pass Movie: Providence",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/psycho-pass-movie-providence/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -73512,9 +73450,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/orient/15/",
         "https://jkanime.net/orient/16/",
         "https://jkanime.net/orient/17/",
         "https://jkanime.net/orient/18/",
@@ -73527,9 +73464,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
+        "mega": 14,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
@@ -73904,7 +73841,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -74710,21 +74647,20 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
         "https://jkanime.net/kyoukai-senki/17/",
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/",
-        "https://jkanime.net/kyoukai-senki/20/",
-        "https://jkanime.net/kyoukai-senki/25/"
+        "https://jkanime.net/kyoukai-senki/20/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
-        "mega": 16,
+        "mega": 17,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -83450,20 +83386,16 @@
     {
       "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/",
       "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-hyouketsu-no-kizuna/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -89262,18 +89194,17 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/piano-no-mori-tv/18/",
-        "https://jkanime.net/piano-no-mori-tv/24/"
+        "https://jkanime.net/piano-no-mori-tv/18/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 22,
-        "streamwish": 22,
-        "vidhide": 22,
+        "mp4upload": 23,
+        "streamwish": 23,
+        "vidhide": 23,
         "mega": 2,
         "streamtape": 2
       },
@@ -96393,7 +96324,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -98113,7 +98044,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/nazotokine/1/",
         "https://jkanime.net/nazotokine/2/",
@@ -98121,7 +98052,6 @@
         "https://jkanime.net/nazotokine/4/",
         "https://jkanime.net/nazotokine/5/",
         "https://jkanime.net/nazotokine/6/",
-        "https://jkanime.net/nazotokine/7/",
         "https://jkanime.net/nazotokine/8/",
         "https://jkanime.net/nazotokine/9/"
       ],
@@ -98129,7 +98059,7 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 3
+        "streamwish": 4
       },
       "playbackVerified": false
     },
@@ -99504,13 +99434,11 @@
       "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
       "title": "Regalia: The Three Sacred Stars",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 3,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/1/",
         "https://jkanime.net/regalia-the-three-sacred-stars/13/",
         "https://jkanime.net/regalia-the-three-sacred-stars/2/",
         "https://jkanime.net/regalia-the-three-sacred-stars/3/",
@@ -99523,9 +99451,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "streamwish": 3
+        "streamwish": 3,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -103213,19 +103142,16 @@
       "series": "https://jkanime.net/pokemon-xyz/",
       "title": "Pokemon XY&Z",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 49,
-      "stored": 48,
-      "missing": [
-        "https://jkanime.net/pokemon-xyz/48/"
-      ],
+      "stored": 49,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 33,
+      "renewalFailed": 32,
       "families": {
-        "mega": 32,
+        "mega": 33,
         "streamwish": 48,
         "vidhide": 48,
         "mp4upload": 48,
@@ -104806,20 +104732,16 @@
     {
       "series": "https://jkanime.net/psycho-pass-movie/",
       "title": "Psycho-Pass Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/psycho-pass-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -106220,12 +106142,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/24/",
         "https://jkanime.net/ninja-slayer-from-animation/25/",
         "https://jkanime.net/ninja-slayer-from-animation/26/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
@@ -106240,7 +106161,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 12,
+        "streamwish": 13,
         "mega": 1
       },
       "playbackVerified": false
@@ -129891,7 +129812,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -129910,14 +129831,13 @@
         "https://jkanime.net/07-ghost/25/",
         "https://jkanime.net/07-ghost/3/",
         "https://jkanime.net/07-ghost/4/",
-        "https://jkanime.net/07-ghost/5/",
-        "https://jkanime.net/07-ghost/9/"
+        "https://jkanime.net/07-ghost/5/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 18,
       "families": {
-        "mega": 6
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -142704,7 +142624,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1
       },
@@ -144622,9 +144542,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/18/",
         "https://jkanime.net/taiho-shichau-zo/19/",
         "https://jkanime.net/taiho-shichau-zo/20/",
         "https://jkanime.net/taiho-shichau-zo/21/",
@@ -144672,7 +144591,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 11,
+        "mp4upload": 12,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -146036,7 +145955,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 3
       },
@@ -146272,7 +146191,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 30,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -146343,13 +146262,15 @@
     {
       "series": "https://jkanime.net/rose-of-versailles/",
       "title": "Rose of Versailles",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 40,
       "stored": 40,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 40,
       "families": {
         "mega": 40,
         "streamwish": 40,
@@ -146389,24 +146310,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 43,
-        "streamwish": 43,
-        "vidhide": 43,
-        "mp4upload": 43,
-        "streamtape": 43
+        "mega": 43
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hana-no-ko-lunlun/",
       "title": "Hana no Ko Lunlun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -146448,7 +146367,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 50,
       "families": {
         "mega": 32,
         "streamwish": 32,
@@ -146462,13 +146381,15 @@
     {
       "series": "https://jkanime.net/ginga-tetsudou-999/",
       "title": "Ginga Tetsudou 999",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 113,
       "stored": 113,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 113,
       "families": {
         "mega": 113,
         "streamwish": 113,
