@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T23:25:14.071839+00:00",
+  "checkedAt": "2026-10-30T23:33:32.807200+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73752,
-  "storedChapters": 72045,
-  "missingChapters": 1707,
+  "storedChapters": 72060,
+  "missingChapters": 1692,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -344,8 +344,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/15/",
-          "https://jkanime.net/sakamoto-days/16/"
+          "https://jkanime.net/sakamoto-days/16/",
+          "https://jkanime.net/sakamoto-days/17/"
         ]
       },
       {
@@ -366,8 +366,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/17/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/18/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/18/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/19/"
         ]
       },
       {
@@ -467,13 +467,6 @@
         "title": "Jashin-chan Dropkick \"Seikimatsu-hen\"",
         "samples": [
           "https://jkanime.net/jashin-chan-dropkick-seikimatsu-hen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/spy-x-family-movie-code-white/",
-        "title": "Spy x Family Movie: Code: White",
-        "samples": [
-          "https://jkanime.net/spy-x-family-movie-code-white/1/"
         ]
       },
       {
@@ -623,16 +616,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/13/",
-          "https://jkanime.net/sugar-apple-fairy-tale/14/"
+          "https://jkanime.net/sugar-apple-fairy-tale/14/",
+          "https://jkanime.net/sugar-apple-fairy-tale/15/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/13/",
-          "https://jkanime.net/spy-kyoushitsu/14/"
+          "https://jkanime.net/spy-kyoushitsu/14/",
+          "https://jkanime.net/spy-kyoushitsu/15/"
         ]
       },
       {
@@ -865,8 +858,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/19/",
-          "https://jkanime.net/orient/20/"
+          "https://jkanime.net/orient/20/",
+          "https://jkanime.net/orient/21/"
         ]
       },
       {
@@ -888,13 +881,6 @@
         "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note Special",
         "samples": [
           "https://jkanime.net/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/jujutsu-kaisen-0-movie/",
-        "title": "Jujutsu Kaisen 0 Movie",
-        "samples": [
-          "https://jkanime.net/jujutsu-kaisen-0-movie/1/"
         ]
       },
       {
@@ -1727,8 +1713,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/10/",
-          "https://jkanime.net/sora-to-umi-no-aida/11/"
+          "https://jkanime.net/sora-to-umi-no-aida/11/",
+          "https://jkanime.net/sora-to-umi-no-aida/12/"
         ]
       },
       {
@@ -2183,8 +2169,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/1/",
-          "https://jkanime.net/stella-no-mahou/10/"
+          "https://jkanime.net/stella-no-mahou/10/",
+          "https://jkanime.net/stella-no-mahou/11/"
         ]
       },
       {
@@ -2284,8 +2270,8 @@
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/4/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/5/"
+          "https://jkanime.net/regalia-the-three-sacred-stars/5/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/6/"
         ]
       },
       {
@@ -4355,13 +4341,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/strike-witches-movie/",
-        "title": "Strike Witches Movie",
-        "samples": [
-          "https://jkanime.net/strike-witches-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sora-no-otoshimono-tokeijikake-no-angeloid/",
         "title": "Sora no Otoshimono: Tokeijikake no Angeloid",
         "samples": [
@@ -5633,8 +5612,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/22/",
-          "https://jkanime.net/taiho-shichau-zo/23/"
+          "https://jkanime.net/taiho-shichau-zo/23/",
+          "https://jkanime.net/taiho-shichau-zo/24/"
         ]
       },
       {
@@ -5974,13 +5953,6 @@
         "title": "Tougen Anki: Nikko Kegon no Taki-hen",
         "samples": [
           "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
-        "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
-        "samples": [
-          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
         ]
       },
       {
@@ -8330,8 +8302,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/17/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/18/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/18/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/19/"
         ]
       },
       {
@@ -10280,13 +10252,6 @@
         "title": "Jashin-chan Dropkick \"Seikimatsu-hen\"",
         "samples": [
           "https://jkanime.net/jashin-chan-dropkick-seikimatsu-hen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/spy-x-family-movie-code-white/",
-        "title": "Spy x Family Movie: Code: White",
-        "samples": [
-          "https://jkanime.net/spy-x-family-movie-code-white/1/"
         ]
       },
       {
@@ -12376,8 +12341,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/13/",
-          "https://jkanime.net/sugar-apple-fairy-tale/14/"
+          "https://jkanime.net/sugar-apple-fairy-tale/14/",
+          "https://jkanime.net/sugar-apple-fairy-tale/15/"
         ]
       },
       {
@@ -12416,8 +12381,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/13/",
-          "https://jkanime.net/spy-kyoushitsu/14/"
+          "https://jkanime.net/spy-kyoushitsu/14/",
+          "https://jkanime.net/spy-kyoushitsu/15/"
         ]
       },
       {
@@ -14176,8 +14141,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/19/",
-          "https://jkanime.net/orient/20/"
+          "https://jkanime.net/orient/20/",
+          "https://jkanime.net/orient/21/"
         ]
       },
       {
@@ -14239,13 +14204,6 @@
         "samples": [
           "https://jkanime.net/zhen-wu-dianfeng/1/",
           "https://jkanime.net/zhen-wu-dianfeng/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/jujutsu-kaisen-0-movie/",
-        "title": "Jujutsu Kaisen 0 Movie",
-        "samples": [
-          "https://jkanime.net/jujutsu-kaisen-0-movie/1/"
         ]
       },
       {
@@ -19539,8 +19497,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/10/",
-          "https://jkanime.net/sora-to-umi-no-aida/11/"
+          "https://jkanime.net/sora-to-umi-no-aida/11/",
+          "https://jkanime.net/sora-to-umi-no-aida/12/"
         ]
       },
       {
@@ -22803,8 +22761,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/1/",
-          "https://jkanime.net/stella-no-mahou/10/"
+          "https://jkanime.net/stella-no-mahou/10/",
+          "https://jkanime.net/stella-no-mahou/11/"
         ]
       },
       {
@@ -31404,13 +31362,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/strike-witches-movie/",
-        "title": "Strike Witches Movie",
-        "samples": [
-          "https://jkanime.net/strike-witches-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kimi-no-iru-machi/",
         "title": "Kimi no Iru Machi",
         "samples": [
@@ -39014,8 +38965,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/22/",
-          "https://jkanime.net/taiho-shichau-zo/23/"
+          "https://jkanime.net/taiho-shichau-zo/23/",
+          "https://jkanime.net/taiho-shichau-zo/24/"
         ]
       },
       {
@@ -39985,7 +39936,8 @@
         "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
         "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
         "samples": [
-          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/5/",
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/6/"
         ]
       },
       {
@@ -40022,14 +39974,39 @@
         "title": "Koupen-chan",
         "samples": [
           "https://jkanime.net/koupen-chan/1/",
-          "https://jkanime.net/koupen-chan/2/"
+          "https://jkanime.net/koupen-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tian-guan-cifu-short-films/",
+        "title": "Tian Guan Cifu Short Films",
+        "samples": [
+          "https://jkanime.net/tian-guan-cifu-short-films/1/",
+          "https://jkanime.net/tian-guan-cifu-short-films/2/"
         ]
       },
       {
         "series": "https://jkanime.net/mushen-ji/",
         "title": "Mushen Ji",
         "samples": [
-          "https://jkanime.net/mushen-ji/104/"
+          "https://jkanime.net/mushen-ji/1/",
+          "https://jkanime.net/mushen-ji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yamato-yo-towa-ni-rebel-3199/",
+        "title": "Yamato yo, Towa ni: Rebel 3199",
+        "samples": [
+          "https://jkanime.net/yamato-yo-towa-ni-rebel-3199/10/",
+          "https://jkanime.net/yamato-yo-towa-ni-rebel-3199/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beyblade-x/",
+        "title": "Beyblade X",
+        "samples": [
+          "https://jkanime.net/beyblade-x/12/",
+          "https://jkanime.net/beyblade-x/13/"
         ]
       },
       {
@@ -40414,13 +40391,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/spy-x-family-movie-code-white/",
-        "title": "Spy x Family Movie: Code: White",
-        "samples": [
-          "https://jkanime.net/spy-x-family-movie-code-white/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yaneura-no-rudger/",
         "title": "Yaneura no Rudger",
         "samples": [
@@ -40719,13 +40689,6 @@
         "title": "Lord El-Melloi II-sei no Jikenbo: Rail Zeppelin Grace Note Special",
         "samples": [
           "https://jkanime.net/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/jujutsu-kaisen-0-movie/",
-        "title": "Jujutsu Kaisen 0 Movie",
-        "samples": [
-          "https://jkanime.net/jujutsu-kaisen-0-movie/1/"
         ]
       },
       {
@@ -43487,13 +43450,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/strike-witches-movie/",
-        "title": "Strike Witches Movie",
-        "samples": [
-          "https://jkanime.net/strike-witches-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sora-no-otoshimono-tokeijikake-no-angeloid/",
         "title": "Sora no Otoshimono: Tokeijikake no Angeloid",
         "samples": [
@@ -45151,18 +45107,17 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
-        "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/9/"
+        "https://jkanime.net/megalo-box/12/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -54404,9 +54359,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 22,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/sakamoto-days/15/",
         "https://jkanime.net/sakamoto-days/16/",
         "https://jkanime.net/sakamoto-days/17/",
         "https://jkanime.net/sakamoto-days/18/",
@@ -54419,9 +54373,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "vidhide": 7,
-        "mp4upload": 12,
-        "streamwish": 7
+        "vidhide": 8,
+        "mp4upload": 13,
+        "streamwish": 8
       },
       "playbackVerified": false
     },
@@ -56316,9 +56270,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/17/",
         "https://jkanime.net/puniru-wa-kawaii-slime/18/",
         "https://jkanime.net/puniru-wa-kawaii-slime/19/",
         "https://jkanime.net/puniru-wa-kawaii-slime/20/",
@@ -56334,7 +56287,7 @@
         "mega": 11,
         "streamwish": 15,
         "vidhide": 13,
-        "mp4upload": 15,
+        "mp4upload": 16,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -62087,20 +62040,16 @@
     {
       "series": "https://jkanime.net/spy-x-family-movie-code-white/",
       "title": "Spy x Family Movie: Code: White",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/spy-x-family-movie-code-white/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -68105,9 +68054,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/13/",
         "https://jkanime.net/sugar-apple-fairy-tale/14/",
         "https://jkanime.net/sugar-apple-fairy-tale/15/",
         "https://jkanime.net/sugar-apple-fairy-tale/16/",
@@ -68122,9 +68070,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 10,
+        "mega": 11,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -68224,9 +68172,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/13/",
         "https://jkanime.net/spy-kyoushitsu/14/",
         "https://jkanime.net/spy-kyoushitsu/15/",
         "https://jkanime.net/spy-kyoushitsu/16/",
@@ -68241,9 +68188,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 10,
+        "mega": 11,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -73432,9 +73379,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/orient/19/",
         "https://jkanime.net/orient/20/",
         "https://jkanime.net/orient/21/",
         "https://jkanime.net/orient/22/",
@@ -73445,7 +73391,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mega": 16,
+        "mega": 17,
         "streamwish": 13,
         "vidhide": 12,
         "mp4upload": 13,
@@ -73669,20 +73615,16 @@
     {
       "series": "https://jkanime.net/jujutsu-kaisen-0-movie/",
       "title": "Jujutsu Kaisen 0 Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/jujutsu-kaisen-0-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -88806,9 +88748,8 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/10/",
         "https://jkanime.net/sora-to-umi-no-aida/11/",
         "https://jkanime.net/sora-to-umi-no-aida/12/",
         "https://jkanime.net/sora-to-umi-no-aida/2/",
@@ -88822,9 +88763,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -98486,9 +98427,8 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/1/",
         "https://jkanime.net/stella-no-mahou/10/",
         "https://jkanime.net/stella-no-mahou/11/",
         "https://jkanime.net/stella-no-mahou/12/",
@@ -98503,8 +98443,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
-      "families": {},
+      "renewalFailed": 2,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -99406,9 +99348,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/4/",
         "https://jkanime.net/regalia-the-three-sacred-stars/5/",
         "https://jkanime.net/regalia-the-three-sacred-stars/6/",
         "https://jkanime.net/regalia-the-three-sacred-stars/7/",
@@ -99419,7 +99360,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
+        "mega": 4,
         "streamwish": 4
       },
       "playbackVerified": false
@@ -99574,7 +99515,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -103727,7 +103668,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -106104,13 +106045,12 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
-        "https://jkanime.net/ninja-slayer-from-animation/4/",
         "https://jkanime.net/ninja-slayer-from-animation/5/",
         "https://jkanime.net/ninja-slayer-from-animation/6/",
         "https://jkanime.net/ninja-slayer-from-animation/7/",
@@ -106121,7 +106061,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "streamwish": 14,
+        "streamwish": 15,
         "mega": 2
       },
       "playbackVerified": false
@@ -118060,7 +118000,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -119794,7 +119734,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -122962,20 +122902,16 @@
     {
       "series": "https://jkanime.net/strike-witches-movie/",
       "title": "Strike Witches Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/strike-witches-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -144469,9 +144405,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/22/",
         "https://jkanime.net/taiho-shichau-zo/23/",
         "https://jkanime.net/taiho-shichau-zo/24/",
         "https://jkanime.net/taiho-shichau-zo/25/",
@@ -144515,7 +144450,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 15,
+        "mp4upload": 16,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -148025,22 +147960,19 @@
       "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
       "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 7,
-      "stored": 6,
-      "missing": [
-        "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
-      ],
+      "stored": 7,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 6,
         "mp4upload": 4,
         "vidhide": 3,
-        "mega": 2,
+        "mega": 3,
         "mixdrop": 2,
         "streamtape": 2
       },
@@ -148141,7 +148073,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 81,
       "families": {
         "mega": 82,
         "streamwish": 82,
@@ -148155,13 +148087,15 @@
     {
       "series": "https://jkanime.net/tian-guan-cifu-short-films/",
       "title": "Tian Guan Cifu Short Films",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -148183,7 +148117,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 104,
       "families": {
         "mega": 104,
         "streamwish": 104,
@@ -148197,40 +148131,44 @@
     {
       "series": "https://jkanime.net/yamato-yo-towa-ni-rebel-3199/",
       "title": "Yamato yo, Towa ni: Rebel 3199",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
-        "mega": 22,
-        "streamwish": 22,
-        "vidhide": 22,
         "mp4upload": 22,
-        "streamtape": 22,
-        "mixdrop": 16
+        "mega": 16,
+        "streamwish": 20,
+        "vidhide": 16,
+        "mixdrop": 16,
+        "streamtape": 16
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/beyblade-x/",
       "title": "Beyblade X",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 136,
       "stored": 136,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 73,
       "families": {
-        "mega": 136,
-        "streamwish": 136,
-        "vidhide": 136,
-        "mixdrop": 136,
-        "mp4upload": 135,
-        "streamtape": 136
+        "streamwish": 128,
+        "mega": 115,
+        "vidhide": 128,
+        "mixdrop": 115,
+        "mp4upload": 114,
+        "streamtape": 115
       },
       "playbackVerified": false
     },
