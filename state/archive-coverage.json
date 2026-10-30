@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T11:04:55.657841+00:00",
+  "checkedAt": "2026-10-30T11:17:06.492178+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73568,
-  "storedChapters": 71787,
-  "missingChapters": 1781,
+  "storedChapters": 71791,
+  "missingChapters": 1777,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -288,7 +288,7 @@
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
           "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/22/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/23/"
         ]
       },
       {
@@ -417,8 +417,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/"
         ]
       },
       {
@@ -7468,7 +7468,7 @@
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
           "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/22/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/23/"
         ]
       },
       {
@@ -8898,8 +8898,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/"
         ]
       },
       {
@@ -35773,6 +35773,78 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tengen-toppa/",
+        "title": "Tengen Toppa Gurren Lagann",
+        "samples": [
+          "https://jkanime.net/tengen-toppa/1/",
+          "https://jkanime.net/tengen-toppa/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hayate-no-gotoku/",
+        "title": "Hayate no Gotoku!",
+        "samples": [
+          "https://jkanime.net/hayate-no-gotoku/1/",
+          "https://jkanime.net/hayate-no-gotoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heroic-age/",
+        "title": "Heroic Age",
+        "samples": [
+          "https://jkanime.net/heroic-age/1/",
+          "https://jkanime.net/heroic-age/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seto-no-hanayome/",
+        "title": "Seto no Hanayome",
+        "samples": [
+          "https://jkanime.net/seto-no-hanayome/1/",
+          "https://jkanime.net/seto-no-hanayome/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/murder-princess/",
+        "title": "Murder Princess",
+        "samples": [
+          "https://jkanime.net/murder-princess/1/",
+          "https://jkanime.net/murder-princess/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hitohira/",
+        "title": "Hitohira",
+        "samples": [
+          "https://jkanime.net/hitohira/1/",
+          "https://jkanime.net/hitohira/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/petit-eva-evangelion-school/",
+        "title": "Evangelion@School",
+        "samples": [
+          "https://jkanime.net/petit-eva-evangelion-school/1/",
+          "https://jkanime.net/petit-eva-evangelion-school/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ikkitousen-dragon-destiny/",
+        "title": "Ikkitousen: Dragon Destiny",
+        "samples": [
+          "https://jkanime.net/ikkitousen-dragon-destiny/1/",
+          "https://jkanime.net/ikkitousen-dragon-destiny/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/naruto-shippuden/",
+        "title": "Naruto Shippuden",
+        "samples": [
+          "https://jkanime.net/naruto-shippuden/1/",
+          "https://jkanime.net/naruto-shippuden/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-movie-tick-tack-kiki-ippatsu/",
         "title": "Futari wa Precure: Splash☆Star Movie - Tick Tack Kiki Ippatsu!",
         "samples": [
@@ -42093,7 +42165,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
@@ -42101,7 +42173,6 @@
         "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
         "https://jkanime.net/ao-ashi/14/",
-        "https://jkanime.net/ao-ashi/15/",
         "https://jkanime.net/ao-ashi/16/",
         "https://jkanime.net/ao-ashi/17/",
         "https://jkanime.net/ao-ashi/18/",
@@ -42122,8 +42193,11 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
-      "families": {},
+      "renewalFailed": 19,
+      "families": {
+        "mp4upload": 1,
+        "vidhide": 1
+      },
       "playbackVerified": false
     },
     {
@@ -49420,18 +49494,17 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 23,
+      "stored": 24,
       "missing": [
         "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/22/",
         "https://jkanime.net/jigoku-sensei-nube-2025/23/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mp4upload": 22,
-        "streamwish": 19,
+        "mp4upload": 23,
+        "streamwish": 20,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -54200,9 +54273,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
@@ -54216,9 +54288,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 13,
+        "streamwish": 14,
         "vidhide": 13,
-        "mp4upload": 15,
+        "mp4upload": 16,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -83929,7 +84001,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -83943,7 +84015,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
         "https://jkanime.net/fight-league-gear-gadget-generators/4/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/6/",
         "https://jkanime.net/fight-league-gear-gadget-generators/7/",
         "https://jkanime.net/fight-league-gear-gadget-generators/8/",
         "https://jkanime.net/fight-league-gear-gadget-generators/9/"
@@ -83952,7 +84023,7 @@
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
-        "mp4upload": 10
+        "mp4upload": 11
       },
       "playbackVerified": false
     },
@@ -88815,7 +88886,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {},
       "playbackVerified": false
     },
@@ -95173,7 +95244,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 3
       },
@@ -95225,7 +95296,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -130988,7 +131059,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -131114,24 +131185,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 26,
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "streamtape": 13
+        "mp4upload": 26
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tengen-toppa/",
       "title": "Tengen Toppa Gurren Lagann",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 27,
       "stored": 27,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 27,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -131144,13 +131213,15 @@
     {
       "series": "https://jkanime.net/hayate-no-gotoku/",
       "title": "Hayate no Gotoku!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -131163,13 +131234,15 @@
     {
       "series": "https://jkanime.net/heroic-age/",
       "title": "Heroic Age",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -131182,13 +131255,15 @@
     {
       "series": "https://jkanime.net/seto-no-hanayome/",
       "title": "Seto no Hanayome",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 22,
         "streamwish": 26,
@@ -131201,13 +131276,15 @@
     {
       "series": "https://jkanime.net/murder-princess/",
       "title": "Murder Princess",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -131221,13 +131298,15 @@
     {
       "series": "https://jkanime.net/hitohira/",
       "title": "Hitohira",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -131240,13 +131319,15 @@
     {
       "series": "https://jkanime.net/petit-eva-evangelion-school/",
       "title": "Evangelion@School",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 21,
         "streamwish": 24,
@@ -131259,13 +131340,15 @@
     {
       "series": "https://jkanime.net/ikkitousen-dragon-destiny/",
       "title": "Ikkitousen: Dragon Destiny",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -131286,25 +131369,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/naruto-shippuden/",
       "title": "Naruto Shippuden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 500,
       "stored": 500,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 99,
       "families": {
         "mega": 497,
         "streamwish": 500,
@@ -142679,7 +142759,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
