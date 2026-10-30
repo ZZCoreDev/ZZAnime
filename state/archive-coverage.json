@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T08:54:17.904428+00:00",
+  "checkedAt": "2026-10-30T09:08:57.994515+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73564,
-  "storedChapters": 71751,
-  "missingChapters": 1813,
+  "storedChapters": 71759,
+  "missingChapters": 1805,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -97,13 +97,6 @@
         "title": "Kujira wo Yumemu",
         "samples": [
           "https://jkanime.net/kujira-wo-yumemu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/koori-no-jouheki/",
-        "title": "Koori no Jouheki",
-        "samples": [
-          "https://jkanime.net/koori-no-jouheki/19/"
         ]
       },
       {
@@ -388,8 +381,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/28/",
-          "https://jkanime.net/dr-stone-science-future/29/"
+          "https://jkanime.net/dr-stone-science-future/29/",
+          "https://jkanime.net/dr-stone-science-future/30/"
         ]
       },
       {
@@ -6200,27 +6193,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
-        "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
-        "samples": [
-          "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
-        "title": "Tetsuryou! Meet with Tetsudou Musume",
-        "samples": [
-          "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
-        "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
-        "samples": [
-          "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/meikyuu-no-shiori/",
         "title": "Meikyuu no Shiori",
         "samples": [
@@ -8079,8 +8051,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/28/",
-          "https://jkanime.net/dr-stone-science-future/29/"
+          "https://jkanime.net/dr-stone-science-future/29/",
+          "https://jkanime.net/dr-stone-science-future/30/"
         ]
       },
       {
@@ -34614,7 +34586,23 @@
         "title": "Maria-sama ga Miteru 4th",
         "samples": [
           "https://jkanime.net/maria-sama-ga-miteru-4th/1/",
-          "https://jkanime.net/maria-sama-ga-miteru-4th/2/"
+          "https://jkanime.net/maria-sama-ga-miteru-4th/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maria-holic/",
+        "title": "Maria†Holic",
+        "samples": [
+          "https://jkanime.net/maria-holic/1/",
+          "https://jkanime.net/maria-holic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-capo-if/",
+        "title": "Da Capo If",
+        "samples": [
+          "https://jkanime.net/da-capo-if/1/",
+          "https://jkanime.net/da-capo-if/2/"
         ]
       },
       {
@@ -34622,6 +34610,109 @@
         "title": "One Piece: Romance Dawn",
         "samples": [
           "https://jkanime.net/one-piece-romance-dawn/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seto-no-hanayome-ova/",
+        "title": "Seto no Hanayome OVA",
+        "samples": [
+          "https://jkanime.net/seto-no-hanayome-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/goku-sayonara-zetsubou-sensei/",
+        "title": "Goku Sayonara Zetsubou Sensei",
+        "samples": [
+          "https://jkanime.net/goku-sayonara-zetsubou-sensei/1/",
+          "https://jkanime.net/goku-sayonara-zetsubou-sensei/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/michiko-to-hatchin/",
+        "title": "Michiko to Hatchin",
+        "samples": [
+          "https://jkanime.net/michiko-to-hatchin/1/",
+          "https://jkanime.net/michiko-to-hatchin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/junjou-romantica-2/",
+        "title": "Junjou Romantica 2",
+        "samples": [
+          "https://jkanime.net/junjou-romantica-2/1/",
+          "https://jkanime.net/junjou-romantica-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nodame-cantabile-paris-hen/",
+        "title": "Nodame Cantabile Paris Chapter",
+        "samples": [
+          "https://jkanime.net/nodame-cantabile-paris-hen/1/",
+          "https://jkanime.net/nodame-cantabile-paris-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chaos-head/",
+        "title": "ChaoS;HEAd",
+        "samples": [
+          "https://jkanime.net/chaos-head/1/",
+          "https://jkanime.net/chaos-head/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/one-outs/",
+        "title": "One Outs",
+        "samples": [
+          "https://jkanime.net/one-outs/1/",
+          "https://jkanime.net/one-outs/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kurozuka/",
+        "title": "Kurozuka",
+        "samples": [
+          "https://jkanime.net/kurozuka/1/",
+          "https://jkanime.net/kurozuka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/skip-beat/",
+        "title": "Skip Beat!",
+        "samples": [
+          "https://jkanime.net/skip-beat/1/",
+          "https://jkanime.net/skip-beat/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vampire-knight-guilty/",
+        "title": "Vampire Knight Guilty",
+        "samples": [
+          "https://jkanime.net/vampire-knight-guilty/1/",
+          "https://jkanime.net/vampire-knight-guilty/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ef-a-tale-of-melodies-blu-ray/",
+        "title": "ef - a tale of melodies.",
+        "samples": [
+          "https://jkanime.net/ef-a-tale-of-melodies-blu-ray/1/",
+          "https://jkanime.net/ef-a-tale-of-melodies-blu-ray/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/macademi-wasshoi/",
+        "title": "Macademi WAsshoi!",
+        "samples": [
+          "https://jkanime.net/macademi-wasshoi/1/",
+          "https://jkanime.net/macademi-wasshoi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyou-no-go-no-ni-2008/",
+        "title": "Kyou no Go no Ni (2008)",
+        "samples": [
+          "https://jkanime.net/kyou-no-go-no-ni-2008/1/",
+          "https://jkanime.net/kyou-no-go-no-ni-2008/10/"
         ]
       },
       {
@@ -43763,21 +43854,18 @@
       "series": "https://jkanime.net/koori-no-jouheki/",
       "title": "Koori no Jouheki",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 19,
-      "stored": 18,
-      "missing": [
-        "https://jkanime.net/koori-no-jouheki/19/"
-      ],
+      "stored": 19,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 17,
-        "streamwish": 16,
-        "vidhide": 10
+        "mp4upload": 18,
+        "streamwish": 17,
+        "vidhide": 11
       },
       "playbackVerified": false
     },
@@ -50644,9 +50732,8 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 27,
+      "stored": 28,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/28/",
         "https://jkanime.net/dr-stone-science-future/29/",
         "https://jkanime.net/dr-stone-science-future/30/",
         "https://jkanime.net/dr-stone-science-future/31/",
@@ -50659,11 +50746,11 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "streamwish": 19,
+        "streamwish": 20,
         "vidhide": 16,
-        "mp4upload": 24,
+        "mp4upload": 25,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -65126,7 +65213,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 27,
       "families": {
         "mega": 13,
         "streamwish": 15,
@@ -77477,7 +77564,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -80336,7 +80423,7 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 1,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
@@ -80344,18 +80431,15 @@
         "https://jkanime.net/chuubyou-gekihatsu-boy/3/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/4/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/5/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/6/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/7/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/8/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mp4upload": 1,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -91349,7 +91433,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -91519,7 +91603,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 6
       },
@@ -126028,7 +126112,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {},
       "playbackVerified": false
     },
@@ -126623,7 +126707,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 51,
+      "renewalFailed": 52,
       "families": {
         "mega": 50,
         "streamwish": 52,
@@ -126876,7 +126960,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -126890,13 +126974,15 @@
     {
       "series": "https://jkanime.net/maria-holic/",
       "title": "Maria†Holic",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -126909,13 +126995,15 @@
     {
       "series": "https://jkanime.net/da-capo-if/",
       "title": "Da Capo If",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -126977,32 +127065,36 @@
     {
       "series": "https://jkanime.net/seto-no-hanayome-ova/",
       "title": "Seto no Hanayome OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
         "mp4upload": 2,
-        "streamtape": 2
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/goku-sayonara-zetsubou-sensei/",
       "title": "Goku Sayonara Zetsubou Sensei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -127016,13 +127108,15 @@
     {
       "series": "https://jkanime.net/michiko-to-hatchin/",
       "title": "Michiko to Hatchin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -127035,13 +127129,15 @@
     {
       "series": "https://jkanime.net/junjou-romantica-2/",
       "title": "Junjou Romantica 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127054,13 +127150,15 @@
     {
       "series": "https://jkanime.net/nodame-cantabile-paris-hen/",
       "title": "Nodame Cantabile Paris Chapter",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -127073,13 +127171,15 @@
     {
       "series": "https://jkanime.net/chaos-head/",
       "title": "ChaoS;HEAd",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127092,13 +127192,15 @@
     {
       "series": "https://jkanime.net/one-outs/",
       "title": "One Outs",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -127111,13 +127213,15 @@
     {
       "series": "https://jkanime.net/kurozuka/",
       "title": "Kurozuka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127130,13 +127234,15 @@
     {
       "series": "https://jkanime.net/skip-beat/",
       "title": "Skip Beat!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -127149,13 +127255,15 @@
     {
       "series": "https://jkanime.net/vampire-knight-guilty/",
       "title": "Vampire Knight Guilty",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -127168,13 +127276,15 @@
     {
       "series": "https://jkanime.net/ef-a-tale-of-melodies-blu-ray/",
       "title": "ef - a tale of melodies.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127187,13 +127297,15 @@
     {
       "series": "https://jkanime.net/macademi-wasshoi/",
       "title": "Macademi WAsshoi!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127206,13 +127318,15 @@
     {
       "series": "https://jkanime.net/kyou-no-go-no-ni-2008/",
       "title": "Kyou no Go no Ni (2008)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -141795,23 +141909,20 @@
       "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
       "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 4,
-      "stored": 3,
-      "missing": [
-        "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
-      ],
+      "stored": 4,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
         "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -141840,23 +141951,20 @@
       "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
       "title": "Tetsuryou! Meet with Tetsudou Musume",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 4,
-      "stored": 3,
-      "missing": [
-        "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
-      ],
+      "stored": 4,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
         "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -143116,23 +143224,21 @@
       "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
       "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 18,
-      "stored": 17,
-      "missing": [
-        "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
-      ],
+      "stored": 18,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
         "mega": 17,
-        "streamwish": 17,
-        "vidhide": 17,
+        "streamwish": 18,
+        "vidhide": 18,
         "mixdrop": 17,
-        "streamtape": 16
+        "streamtape": 16,
+        "mp4upload": 1
       },
       "playbackVerified": false
     },
