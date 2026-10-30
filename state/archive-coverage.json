@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T02:45:25.603477+00:00",
+  "checkedAt": "2026-10-30T02:58:57.624045+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
-  "storedChapters": 71716,
-  "missingChapters": 1824,
+  "storedChapters": 71718,
+  "missingChapters": 1822,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2400,7 +2400,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/"
         ]
       },
       {
@@ -23255,7 +23255,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/"
         ]
       },
       {
@@ -30495,7 +30495,159 @@
         "title": "Hetalia: The Beautiful World",
         "samples": [
           "https://jkanime.net/hetalia-the-beautiful-world/1/",
-          "https://jkanime.net/hetalia-the-beautiful-world/2/"
+          "https://jkanime.net/hetalia-the-beautiful-world/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo/",
+        "title": "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?",
+        "samples": [
+          "https://jkanime.net/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo/1/",
+          "https://jkanime.net/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chihayafuru-2/",
+        "title": "Chihayafuru 2",
+        "samples": [
+          "https://jkanime.net/chihayafuru-2/1/",
+          "https://jkanime.net/chihayafuru-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sasami-san-ganbaranai/",
+        "title": "Sasami-san@Ganbaranai",
+        "samples": [
+          "https://jkanime.net/sasami-san-ganbaranai/1/",
+          "https://jkanime.net/sasami-san-ganbaranai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vividred-operation/",
+        "title": "Vividred Operation",
+        "samples": [
+          "https://jkanime.net/vividred-operation/1/",
+          "https://jkanime.net/vividred-operation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-next/",
+        "title": "Boku wa Tomodachi ga Sukunai NEXT",
+        "samples": [
+          "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-next/1/",
+          "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-next/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tamako-market/",
+        "title": "Tamako Market",
+        "samples": [
+          "https://jkanime.net/tamako-market/1/",
+          "https://jkanime.net/tamako-market/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kotoura-san/",
+        "title": "Kotoura-san",
+        "samples": [
+          "https://jkanime.net/kotoura-san/1/",
+          "https://jkanime.net/kotoura-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gj-bu/",
+        "title": "GJ-bu",
+        "samples": [
+          "https://jkanime.net/gj-bu/1/",
+          "https://jkanime.net/gj-bu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senyuu/",
+        "title": "Senyuu.",
+        "samples": [
+          "https://jkanime.net/senyuu/1/",
+          "https://jkanime.net/senyuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-live-school-idol-project/",
+        "title": "Love Live!: School Idol Project",
+        "samples": [
+          "https://jkanime.net/love-live-school-idol-project/1/",
+          "https://jkanime.net/love-live-school-idol-project/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakumatsu-gijinden-roman/",
+        "title": "Bakumatsu Gijinden Roman",
+        "samples": [
+          "https://jkanime.net/bakumatsu-gijinden-roman/3/",
+          "https://jkanime.net/bakumatsu-gijinden-roman/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zettai-karen-children-the-unlimited-hyoubu-kyousuke/",
+        "title": "Zettai Karen Children: The Unlimited - Hyoubu Kyousuke",
+        "samples": [
+          "https://jkanime.net/zettai-karen-children-the-unlimited-hyoubu-kyousuke/10/",
+          "https://jkanime.net/zettai-karen-children-the-unlimited-hyoubu-kyousuke/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hakkenden-touhou-hakken-ibun/",
+        "title": "Hakkenden: Touhou Hakken Ibun",
+        "samples": [
+          "https://jkanime.net/hakkenden-touhou-hakken-ibun/1/",
+          "https://jkanime.net/hakkenden-touhou-hakken-ibun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amnesia/",
+        "title": "Amnesia",
+        "samples": [
+          "https://jkanime.net/amnesia/1/",
+          "https://jkanime.net/amnesia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-no-kanojo-to-osananajimi-ga-shuraba-sugiru/",
+        "title": "OreShura",
+        "samples": [
+          "https://jkanime.net/ore-no-kanojo-to-osananajimi-ga-shuraba-sugiru/1/",
+          "https://jkanime.net/ore-no-kanojo-to-osananajimi-ga-shuraba-sugiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senran-kagura/",
+        "title": "Senran Kagura",
+        "samples": [
+          "https://jkanime.net/senran-kagura/1/",
+          "https://jkanime.net/senran-kagura/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ishida-to-asakura/",
+        "title": "Ishida to Asakura",
+        "samples": [
+          "https://jkanime.net/ishida-to-asakura/1/",
+          "https://jkanime.net/ishida-to-asakura/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/minami-ke-tadaima/",
+        "title": "Minami-ke Tadaima",
+        "samples": [
+          "https://jkanime.net/minami-ke-tadaima/1/",
+          "https://jkanime.net/minami-ke-tadaima/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maoyuu-maou-yuusha/",
+        "title": "Maoyuu Maou Yuusha",
+        "samples": [
+          "https://jkanime.net/maoyuu-maou-yuusha/1/",
+          "https://jkanime.net/maoyuu-maou-yuusha/10/"
         ]
       },
       {
@@ -30503,6 +30655,30 @@
         "title": "Da Capo III Episode 0",
         "samples": [
           "https://jkanime.net/da-capo-iii-episode-0/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-capo-iii/",
+        "title": "Da Capo III",
+        "samples": [
+          "https://jkanime.net/da-capo-iii/1/",
+          "https://jkanime.net/da-capo-iii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cuticle-tantei-inaba/",
+        "title": "Cuticle Tantei Inaba",
+        "samples": [
+          "https://jkanime.net/cuticle-tantei-inaba/1/",
+          "https://jkanime.net/cuticle-tantei-inaba/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mangirl/",
+        "title": "Mangirl!",
+        "samples": [
+          "https://jkanime.net/mangirl/1/",
+          "https://jkanime.net/mangirl/2/"
         ]
       },
       {
@@ -37853,7 +38029,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
@@ -45166,7 +45342,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 18,
         "streamwish": 15,
@@ -66653,7 +66829,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -74251,7 +74427,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -79737,7 +79913,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "mp4upload": 2
       },
@@ -88289,12 +88465,11 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/3/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/4/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/5/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/6/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/7/",
@@ -88305,7 +88480,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 3
+        "streamwish": 4
       },
       "playbackVerified": false
     },
@@ -91744,10 +91919,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/7/",
@@ -91758,7 +91932,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 5
+        "streamwish": 6
       },
       "playbackVerified": false
     },
@@ -112154,7 +112328,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -112183,13 +112357,15 @@
     {
       "series": "https://jkanime.net/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo/",
       "title": "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -112202,13 +112378,15 @@
     {
       "series": "https://jkanime.net/chihayafuru-2/",
       "title": "Chihayafuru 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -112221,13 +112399,15 @@
     {
       "series": "https://jkanime.net/sasami-san-ganbaranai/",
       "title": "Sasami-san@Ganbaranai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -112240,13 +112420,15 @@
     {
       "series": "https://jkanime.net/vividred-operation/",
       "title": "Vividred Operation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112259,13 +112441,15 @@
     {
       "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-next/",
       "title": "Boku wa Tomodachi ga Sukunai NEXT",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112278,13 +112462,15 @@
     {
       "series": "https://jkanime.net/tamako-market/",
       "title": "Tamako Market",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112297,13 +112483,15 @@
     {
       "series": "https://jkanime.net/kotoura-san/",
       "title": "Kotoura-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112316,13 +112504,15 @@
     {
       "series": "https://jkanime.net/gj-bu/",
       "title": "GJ-bu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112335,13 +112525,15 @@
     {
       "series": "https://jkanime.net/senyuu/",
       "title": "Senyuu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112354,13 +112546,15 @@
     {
       "series": "https://jkanime.net/love-live-school-idol-project/",
       "title": "Love Live!: School Idol Project",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112373,51 +112567,57 @@
     {
       "series": "https://jkanime.net/bakumatsu-gijinden-roman/",
       "title": "Bakumatsu Gijinden Roman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 3,
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/zettai-karen-children-the-unlimited-hyoubu-kyousuke/",
       "title": "Zettai Karen Children: The Unlimited - Hyoubu Kyousuke",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hakkenden-touhou-hakken-ibun/",
       "title": "Hakkenden: Touhou Hakken Ibun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112430,13 +112630,15 @@
     {
       "series": "https://jkanime.net/amnesia/",
       "title": "Amnesia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 8,
         "streamwish": 12,
@@ -112449,13 +112651,15 @@
     {
       "series": "https://jkanime.net/ore-no-kanojo-to-osananajimi-ga-shuraba-sugiru/",
       "title": "OreShura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112468,13 +112672,15 @@
     {
       "series": "https://jkanime.net/senran-kagura/",
       "title": "Senran Kagura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -112487,32 +112693,36 @@
     {
       "series": "https://jkanime.net/ishida-to-asakura/",
       "title": "Ishida to Asakura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
+        "mega": 4,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/minami-ke-tadaima/",
       "title": "Minami-ke Tadaima",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112525,20 +112735,21 @@
     {
       "series": "https://jkanime.net/maoyuu-maou-yuusha/",
       "title": "Maoyuu Maou Yuusha",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 6,
+        "streamwish": 6,
+        "vidhide": 6,
         "mp4upload": 12,
-        "streamtape": 12,
-        "mixdrop": 1
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -112564,13 +112775,15 @@
     {
       "series": "https://jkanime.net/da-capo-iii/",
       "title": "Da Capo III",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112583,13 +112796,15 @@
     {
       "series": "https://jkanime.net/cuticle-tantei-inaba/",
       "title": "Cuticle Tantei Inaba",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112602,13 +112817,15 @@
     {
       "series": "https://jkanime.net/mangirl/",
       "title": "Mangirl!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137336,7 +137553,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mega": 32,
         "streamwish": 32,
