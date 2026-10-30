@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T23:02:28.137661+00:00",
+  "checkedAt": "2026-10-30T23:14:26.921753+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73752,
-  "storedChapters": 72015,
-  "missingChapters": 1737,
+  "storedChapters": 72031,
+  "missingChapters": 1721,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -153,13 +153,6 @@
         "title": "All You Need Is Kill",
         "samples": [
           "https://jkanime.net/all-you-need-is-kill/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu/",
-        "title": "Shibou Yuugi de Meshi wo Kuu.",
-        "samples": [
-          "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu/12/"
         ]
       },
       {
@@ -351,8 +344,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/13/",
-          "https://jkanime.net/sakamoto-days/14/"
+          "https://jkanime.net/sakamoto-days/14/",
+          "https://jkanime.net/sakamoto-days/15/"
         ]
       },
       {
@@ -373,8 +366,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/15/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/16/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/16/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/17/"
         ]
       },
       {
@@ -872,8 +865,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/17/",
-          "https://jkanime.net/orient/18/"
+          "https://jkanime.net/orient/18/",
+          "https://jkanime.net/orient/19/"
         ]
       },
       {
@@ -2291,8 +2284,8 @@
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/2/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/3/"
+          "https://jkanime.net/regalia-the-three-sacred-stars/3/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/4/"
         ]
       },
       {
@@ -2842,13 +2835,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
-        "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
-        "samples": [
-          "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/omoide-no-marnie/",
         "title": "Omoide no Marnie",
         "samples": [
@@ -2867,13 +2853,6 @@
         "title": "Shingeki no Kyojin Movie 1: Guren no Yumiya",
         "samples": [
           "https://jkanime.net/shingeki-no-kyojin-movie-1-guren-no-yumiya/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/",
-        "title": "Senran Kagura: Estival Versus - Shoujo-tachi no Sentaku",
-        "samples": [
-          "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/1/"
         ]
       },
       {
@@ -5682,8 +5661,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/20/",
-          "https://jkanime.net/taiho-shichau-zo/21/"
+          "https://jkanime.net/taiho-shichau-zo/21/",
+          "https://jkanime.net/taiho-shichau-zo/22/"
         ]
       },
       {
@@ -6661,13 +6640,6 @@
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda-2nd-season/1/",
           "https://jkanime.net/douse-koishite-shimaunda-2nd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu/",
-        "title": "Shibou Yuugi de Meshi wo Kuu.",
-        "samples": [
-          "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu/12/"
         ]
       },
       {
@@ -7783,8 +7755,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/13/",
-          "https://jkanime.net/sakamoto-days/14/"
+          "https://jkanime.net/sakamoto-days/14/",
+          "https://jkanime.net/sakamoto-days/15/"
         ]
       },
       {
@@ -8394,8 +8366,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/15/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/16/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/16/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/17/"
         ]
       },
       {
@@ -14240,8 +14212,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/17/",
-          "https://jkanime.net/orient/18/"
+          "https://jkanime.net/orient/18/",
+          "https://jkanime.net/orient/19/"
         ]
       },
       {
@@ -25870,13 +25842,6 @@
         "title": "Shingeki no Kyojin Movie 1: Guren no Yumiya",
         "samples": [
           "https://jkanime.net/shingeki-no-kyojin-movie-1-guren-no-yumiya/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/",
-        "title": "Senran Kagura: Estival Versus - Shoujo-tachi no Sentaku",
-        "samples": [
-          "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/1/"
         ]
       },
       {
@@ -39113,8 +39078,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/20/",
-          "https://jkanime.net/taiho-shichau-zo/21/"
+          "https://jkanime.net/taiho-shichau-zo/21/",
+          "https://jkanime.net/taiho-shichau-zo/22/"
         ]
       },
       {
@@ -39801,17 +39766,43 @@
         ]
       },
       {
+        "series": "https://jkanime.net/lupin-iii/",
+        "title": "Lupin III",
+        "samples": [
+          "https://jkanime.net/lupin-iii/1/",
+          "https://jkanime.net/lupin-iii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ashita-no-joe/",
+        "title": "Ashita no Joe",
+        "samples": [
+          "https://jkanime.net/ashita-no-joe/1/",
+          "https://jkanime.net/ashita-no-joe/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mach-gogogo/",
+        "title": "Mach GoGoGo",
+        "samples": [
+          "https://jkanime.net/mach-gogogo/1/",
+          "https://jkanime.net/mach-gogogo/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/3/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/1/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/2/"
         ]
       },
       {
         "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/",
         "title": "Diamond no Ace: Act II Second Season Part 2",
         "samples": [
-          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/3/"
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/1/",
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/2/"
         ]
       },
       {
@@ -39836,11 +39827,27 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/",
+        "title": "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru. Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
+        "samples": [
+          "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/1/",
+          "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/",
+        "title": "Kyouran Reijou Nia Liston: Byoujaku Reijou ni Tensei shita Kamigoroshi no Bujin no Karei Naru Musouroku",
+        "samples": [
+          "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/1/",
+          "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kanojo-no-tomodachi/",
         "title": "Kanojo no Tomodachi",
         "samples": [
-          "https://jkanime.net/kanojo-no-tomodachi/2/",
-          "https://jkanime.net/kanojo-no-tomodachi/3/"
+          "https://jkanime.net/kanojo-no-tomodachi/1/",
+          "https://jkanime.net/kanojo-no-tomodachi/2/"
         ]
       },
       {
@@ -39854,7 +39861,16 @@
         "series": "https://jkanime.net/magical-explorer/",
         "title": "Magical★Explorer",
         "samples": [
-          "https://jkanime.net/magical-explorer/5/"
+          "https://jkanime.net/magical-explorer/1/",
+          "https://jkanime.net/magical-explorer/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/",
+        "title": "Mahou no Shimai Lulutto Lilly Part 2",
+        "samples": [
+          "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/1/",
+          "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/2/"
         ]
       },
       {
@@ -42094,13 +42110,6 @@
         "title": "Shingeki no Kyojin Movie 1: Guren no Yumiya",
         "samples": [
           "https://jkanime.net/shingeki-no-kyojin-movie-1-guren-no-yumiya/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/",
-        "title": "Senran Kagura: Estival Versus - Shoujo-tachi no Sentaku",
-        "samples": [
-          "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/1/"
         ]
       },
       {
@@ -45098,12 +45107,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/7/",
         "https://jkanime.net/megalo-box/8/",
         "https://jkanime.net/megalo-box/9/"
       ],
@@ -45111,7 +45119,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -48916,21 +48924,17 @@
     {
       "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu/",
       "title": "Shibou Yuugi de Meshi wo Kuu.",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu/12/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 10,
-        "streamwish": 11
+        "streamwish": 12,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -54358,9 +54362,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/sakamoto-days/13/",
         "https://jkanime.net/sakamoto-days/14/",
         "https://jkanime.net/sakamoto-days/15/",
         "https://jkanime.net/sakamoto-days/16/",
@@ -54373,11 +54376,11 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "vidhide": 7,
-        "mp4upload": 10,
-        "streamwish": 5
+        "mp4upload": 11,
+        "streamwish": 6
       },
       "playbackVerified": false
     },
@@ -56272,9 +56275,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/15/",
         "https://jkanime.net/puniru-wa-kawaii-slime/16/",
         "https://jkanime.net/puniru-wa-kawaii-slime/17/",
         "https://jkanime.net/puniru-wa-kawaii-slime/18/",
@@ -56287,12 +56289,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
-        "streamwish": 14,
-        "vidhide": 12,
-        "mp4upload": 13,
+        "streamwish": 15,
+        "vidhide": 13,
+        "mp4upload": 14,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -62471,11 +62473,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 50,
+      "stored": 51,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/52/"
+        "https://jkanime.net/kusuriya-no-hitorigoto/42/"
       ],
       "expired": [],
       "noIndependent": [],
@@ -62484,7 +62485,7 @@
         "mega": 24,
         "streamwish": 37,
         "vidhide": 31,
-        "mp4upload": 46,
+        "mp4upload": 47,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -73392,9 +73393,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/orient/17/",
         "https://jkanime.net/orient/18/",
         "https://jkanime.net/orient/19/",
         "https://jkanime.net/orient/20/",
@@ -73408,9 +73408,9 @@
       "renewalFailed": 11,
       "families": {
         "mega": 15,
-        "streamwish": 12,
+        "streamwish": 13,
         "vidhide": 12,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamtape": 11
       },
       "playbackVerified": false
@@ -84199,21 +84199,20 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/2/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/5/"
+        "https://jkanime.net/chuubyou-gekihatsu-boy/2/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 5,
         "streamwish": 5,
         "vidhide": 5,
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -94205,23 +94204,22 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/18if/1/",
         "https://jkanime.net/18if/10/",
         "https://jkanime.net/18if/11/",
         "https://jkanime.net/18if/12/",
         "https://jkanime.net/18if/13/",
-        "https://jkanime.net/18if/4/",
         "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/6/",
         "https://jkanime.net/18if/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 4
+        "mega": 5
       },
       "playbackVerified": false
     },
@@ -95602,12 +95600,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/1/",
         "https://jkanime.net/cinderella-girls-gekijou/10/",
         "https://jkanime.net/cinderella-girls-gekijou/11/",
-        "https://jkanime.net/cinderella-girls-gekijou/13/",
         "https://jkanime.net/cinderella-girls-gekijou/2/",
         "https://jkanime.net/cinderella-girls-gekijou/3/",
         "https://jkanime.net/cinderella-girls-gekijou/4/",
@@ -95617,9 +95614,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -97980,21 +97977,20 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/nazotokine/1/",
         "https://jkanime.net/nazotokine/2/",
         "https://jkanime.net/nazotokine/3/",
         "https://jkanime.net/nazotokine/4/",
         "https://jkanime.net/nazotokine/5/",
-        "https://jkanime.net/nazotokine/6/",
-        "https://jkanime.net/nazotokine/9/"
+        "https://jkanime.net/nazotokine/6/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 5
+        "streamwish": 6
       },
       "playbackVerified": false
     },
@@ -99372,9 +99368,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 5,
+      "stored": 6,
       "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/2/",
         "https://jkanime.net/regalia-the-three-sacred-stars/3/",
         "https://jkanime.net/regalia-the-three-sacred-stars/4/",
         "https://jkanime.net/regalia-the-three-sacred-stars/5/",
@@ -99387,7 +99382,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 1,
+        "mega": 2,
         "streamwish": 4
       },
       "playbackVerified": false
@@ -99542,7 +99537,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -103695,7 +103690,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -106076,12 +106071,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/26/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
         "https://jkanime.net/ninja-slayer-from-animation/4/",
         "https://jkanime.net/ninja-slayer-from-animation/5/",
@@ -106094,7 +106088,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 13,
+        "streamwish": 14,
         "mega": 2
       },
       "playbackVerified": false
@@ -106837,19 +106831,15 @@
     {
       "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
       "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 6,
-      "stored": 5,
-      "missing": [
-        "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
-      ],
+      "stored": 6,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 4,
+        "streamwish": 5,
         "mega": 1
       },
       "playbackVerified": false
@@ -107139,20 +107129,16 @@
     {
       "series": "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/",
       "title": "Senran Kagura: Estival Versus - Shoujo-tachi no Sentaku",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/senran-kagura-estival-versus-shoujo-tachi-no-sentaku/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -126847,7 +126833,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 78,
+      "renewalFailed": 79,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -129736,14 +129722,13 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
         "https://jkanime.net/07-ghost/11/",
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
-        "https://jkanime.net/07-ghost/16/",
         "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/18/",
         "https://jkanime.net/07-ghost/20/",
@@ -129758,9 +129743,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
-        "mega": 8
+        "mega": 9
       },
       "playbackVerified": false
     },
@@ -142546,7 +142531,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 1
       },
@@ -144464,9 +144449,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/20/",
         "https://jkanime.net/taiho-shichau-zo/21/",
         "https://jkanime.net/taiho-shichau-zo/22/",
         "https://jkanime.net/taiho-shichau-zo/23/",
@@ -144512,7 +144496,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 13,
+        "mp4upload": 14,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -145876,7 +145860,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 3
       },
@@ -146360,7 +146344,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -146480,7 +146464,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 65,
+      "renewalFailed": 92,
       "families": {
         "mega": 92,
         "streamwish": 92,
@@ -146493,13 +146477,15 @@
     {
       "series": "https://jkanime.net/lupin-iii/",
       "title": "Lupin III",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -146513,32 +146499,36 @@
     {
       "series": "https://jkanime.net/ashita-no-joe/",
       "title": "Ashita no Joe",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 79,
       "stored": 79,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 57,
       "families": {
-        "mega": 79,
-        "streamwish": 79,
-        "vidhide": 79,
+        "mega": 57,
+        "streamwish": 57,
+        "vidhide": 57,
         "mp4upload": 79,
-        "streamtape": 79
+        "streamtape": 57
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mach-gogogo/",
       "title": "Mach GoGoGo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -146575,12 +146565,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 2,
         "mp4upload": 3,
-        "streamtape": 2
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -146615,12 +146602,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
-        "streamtape": 2,
-        "mp4upload": 1
+        "mp4upload": 3,
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -146635,7 +146618,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -146657,7 +146640,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "families": {
         "mega": 2,
         "streamwish": 3,
@@ -146679,12 +146662,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
         "mp4upload": 3,
-        "streamtape": 2
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -146699,12 +146678,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 3,
-        "streamtape": 2
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -146719,12 +146695,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 3,
-        "vidhide": 2,
-        "mixdrop": 2,
         "mp4upload": 3,
-        "streamtape": 2
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -146739,12 +146711,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 3,
-        "streamtape": 3
+        "streamwish": 1,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -146761,12 +146730,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -146783,12 +146749,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 4,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 3,
-        "streamtape": 3
+        "streamwish": 1,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -146805,12 +146768,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 3,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -146825,12 +146785,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 5,
-        "vidhide": 5,
-        "mixdrop": 4,
-        "streamtape": 3,
-        "mp4upload": 3
+        "mp4upload": 5,
+        "streamwish": 4,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -146845,12 +146802,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 2
+        "streamwish": 3,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -146865,12 +146819,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 2
+        "streamwish": 3,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -146885,12 +146836,12 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
         "mp4upload": 4,
-        "streamtape": 3
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -146905,25 +146856,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 2
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/",
       "title": "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru. Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -146945,25 +146895,27 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "mega": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/",
       "title": "Kyouran Reijou Nia Liston: Byoujaku Reijou ni Tensei shita Kamigoroshi no Bujin no Karei Naru Musouroku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -146985,12 +146937,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -147005,12 +146954,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -147025,12 +146971,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -147045,12 +146988,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 4,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -147065,12 +147005,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
         "mp4upload": 4,
-        "streamtape": 4
+        "vidhide": 2,
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -147085,12 +147022,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -147105,12 +147038,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 5,
-        "vidhide": 5,
-        "mixdrop": 4,
         "mp4upload": 5,
-        "streamtape": 4
+        "streamwish": 5,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -147125,12 +147055,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -147145,7 +147072,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -147167,12 +147094,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -147187,12 +147111,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 4,
-        "streamtape": 3
+        "mp4upload": 5,
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -147207,12 +147127,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -147227,12 +147143,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -147249,12 +147162,8 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -147269,7 +147178,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -147291,12 +147200,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -147311,12 +147216,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "streamtape": 3,
-        "mp4upload": 2
+        "mp4upload": 4,
+        "streamwish": 3
       },
       "playbackVerified": false
     },
@@ -147331,12 +147232,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -147351,12 +147249,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -147371,25 +147265,23 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 3
+        "streamwish": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/",
       "title": "Mahou no Shimai Lulutto Lilly Part 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -147411,12 +147303,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "streamtape": 3,
-        "mp4upload": 1
+        "mp4upload": 4,
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -147436,12 +147324,12 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 3,
-        "mixdrop": 4,
         "mp4upload": 4,
-        "streamtape": 4
+        "streamwish": 4,
+        "mega": 3,
+        "vidhide": 2,
+        "mixdrop": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
