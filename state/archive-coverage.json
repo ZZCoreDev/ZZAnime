@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T21:35:08.094986+00:00",
+  "checkedAt": "2026-10-30T21:45:13.391665+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73714,
-  "storedChapters": 71895,
-  "missingChapters": 1819,
+  "storedChapters": 71906,
+  "missingChapters": 1808,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2074,13 +2074,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
-        "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
-        "samples": [
-          "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/suki-ni-naru-sono-shunkan-wo-kokuhaku-jikkou-iinkai/",
         "title": "Suki ni Naru Sono Shunkan wo.: Kokuhaku Jikkou Iinkai",
         "samples": [
@@ -2263,8 +2256,8 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/"
         ]
       },
       {
@@ -5877,13 +5870,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
-        "title": "Neon Genesis Evangelion: Death & Rebirth",
-        "samples": [
-          "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kodomo-no-omocha/",
         "title": "Kodomo no Omocha",
         "samples": [
@@ -5922,8 +5908,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/12/",
-          "https://jkanime.net/taiho-shichau-zo/13/"
+          "https://jkanime.net/taiho-shichau-zo/13/",
+          "https://jkanime.net/taiho-shichau-zo/14/"
         ]
       },
       {
@@ -21944,13 +21930,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
-        "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
-        "samples": [
-          "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/suki-ni-naru-sono-shunkan-wo-kokuhaku-jikkou-iinkai/",
         "title": "Suki ni Naru Sono Shunkan wo.: Kokuhaku Jikkou Iinkai",
         "samples": [
@@ -23034,8 +23013,8 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/"
         ]
       },
       {
@@ -39353,13 +39332,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
-        "title": "Neon Genesis Evangelion: Death & Rebirth",
-        "samples": [
-          "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/eat-man/",
         "title": "Eat-Man",
         "samples": [
@@ -39598,8 +39570,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/12/",
-          "https://jkanime.net/taiho-shichau-zo/13/"
+          "https://jkanime.net/taiho-shichau-zo/13/",
+          "https://jkanime.net/taiho-shichau-zo/14/"
         ]
       },
       {
@@ -39788,10 +39760,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tekkaman-blade/",
+        "title": "Tekkaman Blade",
+        "samples": [
+          "https://jkanime.net/tekkaman-blade/1/",
+          "https://jkanime.net/tekkaman-blade/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-z-atsumare-gokuu-world/",
         "title": "Dragon Ball Z: Atsumare! Gokuu World",
         "samples": [
           "https://jkanime.net/dragon-ball-z-atsumare-gokuu-world/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-quest-dai-no-daibouken-tv/",
+        "title": "Dragon Quest: Dai no Daibouken (TV)",
+        "samples": [
+          "https://jkanime.net/dragon-quest-dai-no-daibouken-tv/1/",
+          "https://jkanime.net/dragon-quest-dai-no-daibouken-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-heroic-legend-of-arslan/",
+        "title": "Arslan Senki: The Heroic Legend of Arslan",
+        "samples": [
+          "https://jkanime.net/the-heroic-legend-of-arslan/1/",
+          "https://jkanime.net/the-heroic-legend-of-arslan/2/"
         ]
       },
       {
@@ -39806,6 +39802,14 @@
         "title": "Dragon Ball Z Movie 05: Cooler's Revenge",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bubblegum-crash/",
+        "title": "Bubblegum Crash",
+        "samples": [
+          "https://jkanime.net/bubblegum-crash/2/",
+          "https://jkanime.net/bubblegum-crash/3/"
         ]
       },
       {
@@ -39837,6 +39841,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/lodoss-tou-senki/",
+        "title": "Lodoss-tou Senki",
+        "samples": [
+          "https://jkanime.net/lodoss-tou-senki/1/",
+          "https://jkanime.net/lodoss-tou-senki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyber-city-oedo-808/",
+        "title": "Cyber City Oedo 808",
+        "samples": [
+          "https://jkanime.net/cyber-city-oedo-808/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ryokunohara-labyrinth-sparkling-phantom/",
         "title": "Ryokunohara Labyrinth: Sparkling Phantom",
         "samples": [
@@ -39858,6 +39877,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kidou-keisatsu-patlabor/",
+        "title": "Kidou Keisatsu Patlabor: On Television",
+        "samples": [
+          "https://jkanime.net/kidou-keisatsu-patlabor/1/",
+          "https://jkanime.net/kidou-keisatsu-patlabor/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kikis-delivery-service/",
         "title": "Kiki's Delivery Service",
         "samples": [
@@ -39869,6 +39896,30 @@
         "title": "Dragon Ball Z Movie 01: The Deadzone",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-01-the-deadzone/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shin-captain-tsubasa/",
+        "title": "Shin Captain Tsubasa",
+        "samples": [
+          "https://jkanime.net/shin-captain-tsubasa/1/",
+          "https://jkanime.net/shin-captain-tsubasa/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/youma/",
+        "title": "Youma",
+        "samples": [
+          "https://jkanime.net/youma/1/",
+          "https://jkanime.net/youma/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-z/",
+        "title": "Dragon Ball Z (Original)",
+        "samples": [
+          "https://jkanime.net/dragon-ball-z/1/",
+          "https://jkanime.net/dragon-ball-z/10/"
         ]
       },
       {
@@ -41747,13 +41798,6 @@
         "title": "Boku no Hero Academia: Training of the Dead",
         "samples": [
           "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
-        "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
-        "samples": [
-          "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
         ]
       },
       {
@@ -44886,13 +44930,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
-        "title": "Neon Genesis Evangelion: Death & Rebirth",
-        "samples": [
-          "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kodomo-no-omocha/",
         "title": "Kodomo no Omocha",
         "samples": [
@@ -45489,14 +45526,13 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
         "https://jkanime.net/ao-ashi/11/",
         "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
-        "https://jkanime.net/ao-ashi/14/",
         "https://jkanime.net/ao-ashi/16/",
         "https://jkanime.net/ao-ashi/17/",
         "https://jkanime.net/ao-ashi/18/",
@@ -45517,8 +45553,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 22,
       "families": {
+        "mega": 1,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -45532,13 +45569,12 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/megalo-box/1/",
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/13/",
         "https://jkanime.net/megalo-box/2/",
         "https://jkanime.net/megalo-box/3/",
         "https://jkanime.net/megalo-box/4/",
@@ -45550,8 +45586,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
-      "families": {},
+      "renewalFailed": 9,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -62918,11 +62956,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 42,
+      "stored": 43,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/45/",
         "https://jkanime.net/kusuriya-no-hitorigoto/46/",
         "https://jkanime.net/kusuriya-no-hitorigoto/47/",
         "https://jkanime.net/kusuriya-no-hitorigoto/48/",
@@ -62937,9 +62974,9 @@
       "renewalFailed": 26,
       "families": {
         "mega": 23,
-        "streamwish": 34,
-        "vidhide": 27,
-        "mp4upload": 39,
+        "streamwish": 35,
+        "vidhide": 28,
+        "mp4upload": 40,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -74230,7 +74267,7 @@
         "renewal-error"
       ],
       "observed": 38,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
@@ -74245,7 +74282,6 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/27/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/28/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/29/",
-        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/31/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/32/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/33/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/34/",
@@ -74258,10 +74294,10 @@
       "noIndependent": [],
       "renewalFailed": 22,
       "families": {
-        "streamwish": 13,
+        "streamwish": 14,
         "mega": 9,
-        "vidhide": 9,
-        "mp4upload": 16,
+        "vidhide": 10,
+        "mp4upload": 17,
         "streamtape": 9
       },
       "playbackVerified": false
@@ -75062,7 +75098,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
@@ -75071,7 +75107,6 @@
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/",
         "https://jkanime.net/kyoukai-senki/20/",
-        "https://jkanime.net/kyoukai-senki/21/",
         "https://jkanime.net/kyoukai-senki/22/",
         "https://jkanime.net/kyoukai-senki/23/",
         "https://jkanime.net/kyoukai-senki/24/",
@@ -75079,9 +75114,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 22,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -94731,7 +94766,7 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/18if/1/",
         "https://jkanime.net/18if/10/",
@@ -94743,14 +94778,15 @@
         "https://jkanime.net/18if/4/",
         "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/6/",
-        "https://jkanime.net/18if/7/",
         "https://jkanime.net/18if/8/",
         "https://jkanime.net/18if/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
-      "families": {},
+      "renewalFailed": 12,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -95220,20 +95256,16 @@
     {
       "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
       "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -98407,18 +98439,18 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "streamwish": 8
+        "streamwish": 8,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -130339,7 +130371,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -130351,7 +130383,6 @@
         "https://jkanime.net/07-ghost/16/",
         "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/18/",
-        "https://jkanime.net/07-ghost/19/",
         "https://jkanime.net/07-ghost/2/",
         "https://jkanime.net/07-ghost/20/",
         "https://jkanime.net/07-ghost/21/",
@@ -130369,8 +130400,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
-      "families": {},
+      "renewalFailed": 22,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -144345,20 +144378,16 @@
     {
       "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
       "title": "Neon Genesis Evangelion: Death & Rebirth",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -145061,9 +145090,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/12/",
         "https://jkanime.net/taiho-shichau-zo/13/",
         "https://jkanime.net/taiho-shichau-zo/14/",
         "https://jkanime.net/taiho-shichau-zo/15/",
@@ -145117,7 +145145,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 5,
+        "mp4upload": 6,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -145629,7 +145657,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 164,
+      "renewalFailed": 182,
       "families": {
         "mp4upload": 200,
         "vidhide": 187,
@@ -145642,13 +145670,15 @@
     {
       "series": "https://jkanime.net/tekkaman-blade/",
       "title": "Tekkaman Blade",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 49,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -145680,13 +145710,15 @@
     {
       "series": "https://jkanime.net/dragon-quest-dai-no-daibouken-tv/",
       "title": "Dragon Quest: Dai no Daibouken (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 46,
       "stored": 46,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 46,
       "families": {
         "mega": 46,
         "streamwish": 46,
@@ -145700,13 +145732,15 @@
     {
       "series": "https://jkanime.net/the-heroic-legend-of-arslan/",
       "title": "Arslan Senki: The Heroic Legend of Arslan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -145756,20 +145790,22 @@
     {
       "series": "https://jkanime.net/bubblegum-crash/",
       "title": "Bubblegum Crash",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
         "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "mega": 2,
+        "streamwish": 2,
+        "mixdrop": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -145784,11 +145820,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -145871,13 +145903,15 @@
     {
       "series": "https://jkanime.net/lodoss-tou-senki/",
       "title": "Lodoss-tou Senki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -145891,20 +145925,22 @@
     {
       "series": "https://jkanime.net/cyber-city-oedo-808/",
       "title": "Cyber City Oedo 808",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "streamtape": 3,
-        "mp4upload": 1
+        "mp4upload": 3,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -145967,13 +146003,15 @@
     {
       "series": "https://jkanime.net/kidou-keisatsu-patlabor/",
       "title": "Kidou Keisatsu Patlabor: On Television",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 47,
       "stored": 47,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
         "mega": 47,
         "streamwish": 47,
@@ -146039,13 +146077,15 @@
     {
       "series": "https://jkanime.net/shin-captain-tsubasa/",
       "title": "Shin Captain Tsubasa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -146059,13 +146099,15 @@
     {
       "series": "https://jkanime.net/youma/",
       "title": "Youma",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -146078,13 +146120,15 @@
     {
       "series": "https://jkanime.net/dragon-ball-z/",
       "title": "Dragon Ball Z (Original)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 291,
       "stored": 291,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 89,
       "families": {
         "mega": 289,
         "streamwish": 291,
