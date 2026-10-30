@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T19:53:00.063780+00:00",
+  "checkedAt": "2026-10-30T20:06:53.593184+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73666,
-  "storedChapters": 71889,
-  "missingChapters": 1777,
+  "storedChapters": 71890,
+  "missingChapters": 1776,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/40/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/41/"
         ]
       },
       {
@@ -10734,7 +10734,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/40/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/41/"
         ]
       },
       {
@@ -39204,6 +39204,94 @@
         ]
       },
       {
+        "series": "https://jkanime.net/queen-emeraldas/",
+        "title": "Queen Emeraldas",
+        "samples": [
+          "https://jkanime.net/queen-emeraldas/1/",
+          "https://jkanime.net/queen-emeraldas/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/initial-d/",
+        "title": "Initial D First Stage",
+        "samples": [
+          "https://jkanime.net/initial-d/1/",
+          "https://jkanime.net/initial-d/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakura-card-captor/",
+        "title": "Cardcaptor Sakura",
+        "samples": [
+          "https://jkanime.net/sakura-card-captor/1/",
+          "https://jkanime.net/sakura-card-captor/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jikuu-tenshou-nazca/",
+        "title": "Jikuu Tenshou Nazca",
+        "samples": [
+          "https://jkanime.net/jikuu-tenshou-nazca/1/",
+          "https://jkanime.net/jikuu-tenshou-nazca/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cowboy-bebop/",
+        "title": "Cowboy Bebop",
+        "samples": [
+          "https://jkanime.net/cowboy-bebop/1/",
+          "https://jkanime.net/cowboy-bebop/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/",
+        "title": "Lodoss-tou Senki: Eiyuu Kishi Den",
+        "samples": [
+          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/10/",
+          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trigun/",
+        "title": "Trigun",
+        "samples": [
+          "https://jkanime.net/trigun/1/",
+          "https://jkanime.net/trigun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/devilman-lady/",
+        "title": "Devilman Lady",
+        "samples": [
+          "https://jkanime.net/devilman-lady/1/",
+          "https://jkanime.net/devilman-lady/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/burn-up-excess/",
+        "title": "Burn Up Excess",
+        "samples": [
+          "https://jkanime.net/burn-up-excess/1/",
+          "https://jkanime.net/burn-up-excess/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saber-marionette-j-again/",
+        "title": "Saber Marionette J Again",
+        "samples": [
+          "https://jkanime.net/saber-marionette-j-again/1/",
+          "https://jkanime.net/saber-marionette-j-again/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/berserk/",
+        "title": "Berserk",
+        "samples": [
+          "https://jkanime.net/berserk/1/",
+          "https://jkanime.net/berserk/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
         "title": "Neon Genesis Evangelion: The End of Evangelion",
         "samples": [
@@ -39215,6 +39303,14 @@
         "title": "Mononoke Hime",
         "samples": [
           "https://jkanime.net/mononoke-hime/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shoujo-kakumei-utena/",
+        "title": "Shoujo Kakumei Utena",
+        "samples": [
+          "https://jkanime.net/shoujo-kakumei-utena/1/",
+          "https://jkanime.net/shoujo-kakumei-utena/2/"
         ]
       },
       {
@@ -39638,6 +39734,13 @@
         "title": "Magical★Explorer",
         "samples": [
           "https://jkanime.net/magical-explorer/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
+        "title": "Tougen Anki: Nikko Kegon no Taki-hen",
+        "samples": [
+          "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/5/"
         ]
       },
       {
@@ -62481,10 +62584,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 38,
+      "stored": 39,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/40/",
         "https://jkanime.net/kusuriya-no-hitorigoto/41/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
         "https://jkanime.net/kusuriya-no-hitorigoto/43/",
@@ -62506,7 +62608,7 @@
         "mega": 23,
         "streamwish": 32,
         "vidhide": 26,
-        "mp4upload": 35,
+        "mp4upload": 36,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -143506,7 +143608,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
@@ -143519,13 +143621,15 @@
     {
       "series": "https://jkanime.net/queen-emeraldas/",
       "title": "Queen Emeraldas",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -143539,13 +143643,15 @@
     {
       "series": "https://jkanime.net/initial-d/",
       "title": "Initial D First Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -143558,13 +143664,15 @@
     {
       "series": "https://jkanime.net/sakura-card-captor/",
       "title": "Cardcaptor Sakura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 70,
       "stored": 70,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 70,
       "families": {
         "mega": 70,
         "streamwish": 70,
@@ -143577,13 +143685,15 @@
     {
       "series": "https://jkanime.net/jikuu-tenshou-nazca/",
       "title": "Jikuu Tenshou Nazca",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -143596,13 +143706,15 @@
     {
       "series": "https://jkanime.net/cowboy-bebop/",
       "title": "Cowboy Bebop",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -143615,33 +143727,37 @@
     {
       "series": "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/",
       "title": "Lodoss-tou Senki: Eiyuu Kishi Den",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 27,
       "stored": 27,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
-        "mega": 27,
         "streamwish": 27,
-        "vidhide": 27,
-        "mixdrop": 27,
-        "mp4upload": 27,
-        "streamtape": 27
+        "mega": 20,
+        "vidhide": 20,
+        "mixdrop": 20,
+        "mp4upload": 20,
+        "streamtape": 20
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/trigun/",
       "title": "Trigun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -143654,13 +143770,15 @@
     {
       "series": "https://jkanime.net/devilman-lady/",
       "title": "Devilman Lady",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -143673,13 +143791,15 @@
     {
       "series": "https://jkanime.net/burn-up-excess/",
       "title": "Burn Up Excess",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -143693,13 +143813,15 @@
     {
       "series": "https://jkanime.net/saber-marionette-j-again/",
       "title": "Saber Marionette J Again",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -143712,13 +143834,15 @@
     {
       "series": "https://jkanime.net/berserk/",
       "title": "Berserk",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -143797,25 +143921,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shoujo-kakumei-utena/",
       "title": "Shoujo Kakumei Utena",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -147656,7 +147777,8 @@
       "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
       "title": "Tougen Anki: Nikko Kegon no Taki-hen",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 5,
       "stored": 4,
@@ -147665,7 +147787,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 4,
         "streamwish": 4,
