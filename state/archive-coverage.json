@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T17:36:49.790158+00:00",
+  "checkedAt": "2026-10-30T17:49:45.727944+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73663,
-  "storedChapters": 71865,
-  "missingChapters": 1798,
+  "storedChapters": 71869,
+  "missingChapters": 1794,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/31/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/32/"
         ]
       },
       {
@@ -1862,7 +1862,7 @@
         "title": "Piano no Mori (TV)",
         "samples": [
           "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/23/"
+          "https://jkanime.net/piano-no-mori-tv/24/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/45/",
-          "https://jkanime.net/tsubasa-chronicle/46/"
+          "https://jkanime.net/tsubasa-chronicle/46/",
+          "https://jkanime.net/tsubasa-chronicle/47/"
         ]
       },
       {
@@ -10736,7 +10736,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/31/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/32/"
         ]
       },
       {
@@ -20034,7 +20034,7 @@
         "title": "Piano no Mori (TV)",
         "samples": [
           "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/23/"
+          "https://jkanime.net/piano-no-mori-tv/24/"
         ]
       },
       {
@@ -36745,8 +36745,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/45/",
-          "https://jkanime.net/tsubasa-chronicle/46/"
+          "https://jkanime.net/tsubasa-chronicle/46/",
+          "https://jkanime.net/tsubasa-chronicle/47/"
         ]
       },
       {
@@ -38358,10 +38358,137 @@
         ]
       },
       {
+        "series": "https://jkanime.net/abenobashi-mahou-shoutengai/",
+        "title": "Abenobashi Mahou Shoutengai",
+        "samples": [
+          "https://jkanime.net/abenobashi-mahou-shoutengai/1/",
+          "https://jkanime.net/abenobashi-mahou-shoutengai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chobits/",
+        "title": "Chobits",
+        "samples": [
+          "https://jkanime.net/chobits/1/",
+          "https://jkanime.net/chobits/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenchi-muyo-gxp/",
+        "title": "Tenchi Muyo! GXP",
+        "samples": [
+          "https://jkanime.net/tenchi-muyo-gxp/1/",
+          "https://jkanime.net/tenchi-muyo-gxp/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/happylesson-tv/",
+        "title": "Happy☆Lesson (TV)",
+        "samples": [
+          "https://jkanime.net/happylesson-tv/1/",
+          "https://jkanime.net/happylesson-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gun-frontier/",
+        "title": "Gun Frontier",
+        "samples": [
+          "https://jkanime.net/gun-frontier/1/",
+          "https://jkanime.net/gun-frontier/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rockman-exe/",
+        "title": "Rockman EXE",
+        "samples": [
+          "https://jkanime.net/rockman-exe/1/",
+          "https://jkanime.net/rockman-exe/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kigeki-comedy/",
+        "title": "Sweat Punch",
+        "samples": [
+          "https://jkanime.net/kigeki-comedy/1/",
+          "https://jkanime.net/kigeki-comedy/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/honoo-no-mirage-muyou-no-michi/",
         "title": "Honoo no Mirage: Muyou no Michi",
         "samples": [
           "https://jkanime.net/honoo-no-mirage-muyou-no-michi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/galaxy-angel-z/",
+        "title": "Galaxy Angel Z",
+        "samples": [
+          "https://jkanime.net/galaxy-angel-z/3/",
+          "https://jkanime.net/galaxy-angel-z/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-hina-again/",
+        "title": "Love Hina Again",
+        "samples": [
+          "https://jkanime.net/love-hina-again/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/galaxy-angel-specials/",
+        "title": "Galaxy Angel Specials",
+        "samples": [
+          "https://jkanime.net/galaxy-angel-specials/1/",
+          "https://jkanime.net/galaxy-angel-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rahxephon/",
+        "title": "RahXephon",
+        "samples": [
+          "https://jkanime.net/rahxephon/1/",
+          "https://jkanime.net/rahxephon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hunter-x-hunter-ryodan/",
+        "title": "Hunter x Hunter OVA",
+        "samples": [
+          "https://jkanime.net/hunter-x-hunter-ryodan/1/",
+          "https://jkanime.net/hunter-x-hunter-ryodan/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onegai-teacher/",
+        "title": "Onegai Teacher",
+        "samples": [
+          "https://jkanime.net/onegai-teacher/1/",
+          "https://jkanime.net/onegai-teacher/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kinnikuman-ii-sei/",
+        "title": "Kinnikuman II Sei",
+        "samples": [
+          "https://jkanime.net/kinnikuman-ii-sei/1/",
+          "https://jkanime.net/kinnikuman-ii-sei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/full-metal-panic/",
+        "title": "Full Metal Panic!",
+        "samples": [
+          "https://jkanime.net/full-metal-panic/1/",
+          "https://jkanime.net/full-metal-panic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuten-shoot-beyblade-2002/",
+        "title": "Bakuten Shoot Beyblade 2002",
+        "samples": [
+          "https://jkanime.net/bakuten-shoot-beyblade-2002/1/",
+          "https://jkanime.net/bakuten-shoot-beyblade-2002/2/"
         ]
       },
       {
@@ -44389,7 +44516,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mp4upload": 1,
         "vidhide": 1
@@ -61790,10 +61917,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 29,
+      "stored": 30,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/31/",
         "https://jkanime.net/kusuriya-no-hitorigoto/32/",
         "https://jkanime.net/kusuriya-no-hitorigoto/33/",
         "https://jkanime.net/kusuriya-no-hitorigoto/34/",
@@ -61822,9 +61948,9 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 26,
-        "vidhide": 22,
-        "mp4upload": 28,
+        "streamwish": 27,
+        "vidhide": 23,
+        "mp4upload": 29,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -72763,7 +72889,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -74318,7 +74444,7 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
@@ -74327,14 +74453,13 @@
         "https://jkanime.net/megaton-kyuu-musashi/20/",
         "https://jkanime.net/megaton-kyuu-musashi/22/",
         "https://jkanime.net/megaton-kyuu-musashi/25/",
-        "https://jkanime.net/megaton-kyuu-musashi/27/",
         "https://jkanime.net/megaton-kyuu-musashi/28/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 14,
       "families": {
-        "mp4upload": 19,
+        "mp4upload": 20,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -88534,19 +88659,18 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
         "https://jkanime.net/piano-no-mori-tv/18/",
-        "https://jkanime.net/piano-no-mori-tv/23/",
         "https://jkanime.net/piano-no-mori-tv/24/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 21,
-        "streamwish": 21,
-        "vidhide": 21,
+        "mp4upload": 22,
+        "streamwish": 22,
+        "vidhide": 22,
         "mega": 2,
         "streamtape": 2
       },
@@ -98978,7 +99102,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -135989,9 +136113,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 44,
+      "stored": 45,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/45/",
         "https://jkanime.net/tsubasa-chronicle/46/",
         "https://jkanime.net/tsubasa-chronicle/47/",
         "https://jkanime.net/tsubasa-chronicle/48/",
@@ -136004,9 +136127,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 45,
-        "streamwish": 44,
-        "vidhide": 45,
+        "mp4upload": 46,
+        "streamwish": 45,
+        "vidhide": 46,
         "mega": 1,
         "streamtape": 1
       },
@@ -140459,26 +140582,28 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 11,
       "families": {
-        "mega": 15,
-        "streamwish": 15,
-        "vidhide": 15,
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
         "mp4upload": 26,
-        "streamtape": 15
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/abenobashi-mahou-shoutengai/",
       "title": "Abenobashi Mahou Shoutengai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -140491,13 +140616,15 @@
     {
       "series": "https://jkanime.net/chobits/",
       "title": "Chobits",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -140510,13 +140637,15 @@
     {
       "series": "https://jkanime.net/tenchi-muyo-gxp/",
       "title": "Tenchi Muyo! GXP",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -140529,13 +140658,15 @@
     {
       "series": "https://jkanime.net/happylesson-tv/",
       "title": "Happy☆Lesson (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -140549,13 +140680,15 @@
     {
       "series": "https://jkanime.net/gun-frontier/",
       "title": "Gun Frontier",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -140569,13 +140702,15 @@
     {
       "series": "https://jkanime.net/rockman-exe/",
       "title": "Rockman EXE",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 56,
       "stored": 56,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 56,
       "families": {
         "mega": 56,
         "streamwish": 56,
@@ -140589,13 +140724,15 @@
     {
       "series": "https://jkanime.net/kigeki-comedy/",
       "title": "Sweat Punch",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -140627,52 +140764,58 @@
     {
       "series": "https://jkanime.net/galaxy-angel-z/",
       "title": "Galaxy Angel Z",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 9,
         "streamwish": 9,
-        "vidhide": 9,
-        "mixdrop": 9,
-        "mp4upload": 9,
-        "streamtape": 9
-      },
-      "playbackVerified": false
-    },
-    {
-      "series": "https://jkanime.net/love-hina-again/",
-      "title": "Love Hina Again",
-      "causes": [],
-      "observed": 3,
-      "stored": 3,
-      "missing": [],
-      "expired": [],
-      "noIndependent": [],
-      "renewalFailed": 0,
-      "families": {
         "mega": 3,
-        "streamwish": 3,
         "vidhide": 3,
+        "mixdrop": 3,
         "mp4upload": 3,
         "streamtape": 3
       },
       "playbackVerified": false
     },
     {
+      "series": "https://jkanime.net/love-hina-again/",
+      "title": "Love Hina Again",
+      "causes": [
+        "renewal-error"
+      ],
+      "observed": 3,
+      "stored": 3,
+      "missing": [],
+      "expired": [],
+      "noIndependent": [],
+      "renewalFailed": 1,
+      "families": {
+        "mp4upload": 3,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "streamtape": 1
+      },
+      "playbackVerified": false
+    },
+    {
       "series": "https://jkanime.net/galaxy-angel-specials/",
       "title": "Galaxy Angel Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -140686,13 +140829,15 @@
     {
       "series": "https://jkanime.net/rahxephon/",
       "title": "RahXephon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -140706,13 +140851,15 @@
     {
       "series": "https://jkanime.net/hunter-x-hunter-ryodan/",
       "title": "Hunter x Hunter OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -140725,13 +140872,15 @@
     {
       "series": "https://jkanime.net/onegai-teacher/",
       "title": "Onegai Teacher",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -140744,13 +140893,15 @@
     {
       "series": "https://jkanime.net/kinnikuman-ii-sei/",
       "title": "Kinnikuman II Sei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -140764,13 +140915,15 @@
     {
       "series": "https://jkanime.net/full-metal-panic/",
       "title": "Full Metal Panic!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -140783,13 +140936,15 @@
     {
       "series": "https://jkanime.net/bakuten-shoot-beyblade-2002/",
       "title": "Bakuten Shoot Beyblade 2002",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 51,
         "streamwish": 51,
