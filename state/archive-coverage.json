@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T23:52:33.805536+00:00",
+  "checkedAt": "2026-10-30T00:06:11.467494+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -27776,7 +27776,55 @@
         "title": "Glasslip",
         "samples": [
           "https://jkanime.net/glasslip/1/",
-          "https://jkanime.net/glasslip/2/"
+          "https://jkanime.net/glasslip/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shirogane-no-ishi-argevollen/",
+        "title": "Shirogane no Ishi: Argevollen",
+        "samples": [
+          "https://jkanime.net/shirogane-no-ishi-argevollen/1/",
+          "https://jkanime.net/shirogane-no-ishi-argevollen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-ghoul/",
+        "title": "Tokyo Ghoul",
+        "samples": [
+          "https://jkanime.net/tokyo-ghoul/1/",
+          "https://jkanime.net/tokyo-ghoul/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
+        "title": "[Locodol]",
+        "samples": [
+          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/1/",
+          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rail-wars/",
+        "title": "Rail Wars!",
+        "samples": [
+          "https://jkanime.net/rail-wars/1/",
+          "https://jkanime.net/rail-wars/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/free-eternal-summer/",
+        "title": "Free!: Eternal Summer",
+        "samples": [
+          "https://jkanime.net/free-eternal-summer/1/",
+          "https://jkanime.net/free-eternal-summer/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakumatsu-rock/",
+        "title": "Bakumatsu Rock",
+        "samples": [
+          "https://jkanime.net/bakumatsu-rock/1/",
+          "https://jkanime.net/bakumatsu-rock/12/"
         ]
       },
       {
@@ -27797,8 +27845,8 @@
         "series": "https://jkanime.net/wangpai-yushi/",
         "title": "Wangpai Yushi",
         "samples": [
-          "https://jkanime.net/wangpai-yushi/10/",
-          "https://jkanime.net/wangpai-yushi/11/"
+          "https://jkanime.net/wangpai-yushi/1/",
+          "https://jkanime.net/wangpai-yushi/10/"
         ]
       },
       {
@@ -27806,6 +27854,14 @@
         "title": "Inari, Konkon, Koi Iroha. OVA",
         "samples": [
           "https://jkanime.net/inari-konkon-koi-iroha-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/no-game-no-life-specials/",
+        "title": "No Game No Life Specials",
+        "samples": [
+          "https://jkanime.net/no-game-no-life-specials/1/",
+          "https://jkanime.net/no-game-no-life-specials/2/"
         ]
       },
       {
@@ -27817,6 +27873,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mangaka-san-to-assistant-san-specials/",
+        "title": "Mangaka-san to Assistant-san Specials",
+        "samples": [
+          "https://jkanime.net/mangaka-san-to-assistant-san-specials/1/",
+          "https://jkanime.net/mangaka-san-to-assistant-san-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sabagebu/",
+        "title": "Sabagebu!",
+        "samples": [
+          "https://jkanime.net/sabagebu/1/",
+          "https://jkanime.net/sabagebu/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/saint-seiya-legend-of-sanctuary/",
         "title": "Saint Seiya: Legend of Sanctuary",
         "samples": [
@@ -27824,10 +27896,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/isshuukan-friends-specials/",
+        "title": "Isshuukan Friends. Specials",
+        "samples": [
+          "https://jkanime.net/isshuukan-friends-specials/1/",
+          "https://jkanime.net/isshuukan-friends-specials/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/miss-monochrome-supporter/",
         "title": "Miss Monochrome: Supporter",
         "samples": [
           "https://jkanime.net/miss-monochrome-supporter/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hayate-no-gotoku-ova/",
+        "title": "Hayate no Gotoku! OVA",
+        "samples": [
+          "https://jkanime.net/hayate-no-gotoku-ova/1/",
+          "https://jkanime.net/hayate-no-gotoku-ova/2/"
         ]
       },
       {
@@ -27845,10 +27933,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tonari-no-seki-kun-specials/",
+        "title": "Tonari no Seki-kun Specials",
+        "samples": [
+          "https://jkanime.net/tonari-no-seki-kun-specials/1/",
+          "https://jkanime.net/tonari-no-seki-kun-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/noucome-ova/",
         "title": "Noucome OVA",
         "samples": [
           "https://jkanime.net/noucome-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seitokai-yakuindomo-2-ova/",
+        "title": "Seitokai Yakuindomo* S2 OVA",
+        "samples": [
+          "https://jkanime.net/seitokai-yakuindomo-2-ova/1/",
+          "https://jkanime.net/seitokai-yakuindomo-2-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magi-sinbad-no-bouken/",
+        "title": "Magi: Sinbad no Bouken",
+        "samples": [
+          "https://jkanime.net/magi-sinbad-no-bouken/1/",
+          "https://jkanime.net/magi-sinbad-no-bouken/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/initial-d-final-stage/",
+        "title": "Initial D Final Stage",
+        "samples": [
+          "https://jkanime.net/initial-d-final-stage/1/",
+          "https://jkanime.net/initial-d-final-stage/2/"
         ]
       },
       {
@@ -27859,10 +27979,81 @@
         ]
       },
       {
+        "series": "https://jkanime.net/world-fool-news/",
+        "title": "World Fool News",
+        "samples": [
+          "https://jkanime.net/world-fool-news/1/",
+          "https://jkanime.net/world-fool-news/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sword-art-online-sword-art-offline-extra-edition/",
         "title": "Sword Art Online: Sword Art Offline - Extra Edition",
         "samples": [
           "https://jkanime.net/sword-art-online-sword-art-offline-extra-edition/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/m3-sono-kuroki-hagane/",
+        "title": "M3: Sono Kuroki Hagane",
+        "samples": [
+          "https://jkanime.net/m3-sono-kuroki-hagane/1/",
+          "https://jkanime.net/m3-sono-kuroki-hagane/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/escha-logy-no-atelier-tasogare-no-sora-no-renkinjutsushi/",
+        "title": "Escha & Logy no Atelier: Tasogare no Sora no Renkinjutsushi",
+        "samples": [
+          "https://jkanime.net/escha-logy-no-atelier-tasogare-no-sora-no-renkinjutsushi/1/",
+          "https://jkanime.net/escha-logy-no-atelier-tasogare-no-sora-no-renkinjutsushi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mekakucity-actors/",
+        "title": "Mekakucity Actors",
+        "samples": [
+          "https://jkanime.net/mekakucity-actors/1/",
+          "https://jkanime.net/mekakucity-actors/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/date-a-live-ii/",
+        "title": "Date A Live II",
+        "samples": [
+          "https://jkanime.net/date-a-live-ii/1/",
+          "https://jkanime.net/date-a-live-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sidonia-no-kishi/",
+        "title": "Sidonia no Kishi",
+        "samples": [
+          "https://jkanime.net/sidonia-no-kishi/1/",
+          "https://jkanime.net/sidonia-no-kishi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inugami-san-to-nekoyama-san/",
+        "title": "Inugami-san to Nekoyama-san",
+        "samples": [
+          "https://jkanime.net/inugami-san-to-nekoyama-san/1/",
+          "https://jkanime.net/inugami-san-to-nekoyama-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gochuumon-wa-usagi-desu-ka/",
+        "title": "Gochuumon wa Usagi Desu ka?",
+        "samples": [
+          "https://jkanime.net/gochuumon-wa-usagi-desu-ka/1/",
+          "https://jkanime.net/gochuumon-wa-usagi-desu-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ping-pong-the-animation/",
+        "title": "Ping Pong The Animation",
+        "samples": [
+          "https://jkanime.net/ping-pong-the-animation/1/"
         ]
       },
       {
@@ -86655,7 +86846,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -102674,7 +102865,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -102687,13 +102878,15 @@
     {
       "series": "https://jkanime.net/shirogane-no-ishi-argevollen/",
       "title": "Shirogane no Ishi: Argevollen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -102706,13 +102899,15 @@
     {
       "series": "https://jkanime.net/tokyo-ghoul/",
       "title": "Tokyo Ghoul",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102725,13 +102920,15 @@
     {
       "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
       "title": "[Locodol]",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102744,13 +102941,15 @@
     {
       "series": "https://jkanime.net/rail-wars/",
       "title": "Rail Wars!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102778,13 +102977,15 @@
     {
       "series": "https://jkanime.net/free-eternal-summer/",
       "title": "Free!: Eternal Summer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -102797,19 +102998,21 @@
     {
       "series": "https://jkanime.net/bakumatsu-rock/",
       "title": "Bakumatsu Rock",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mega": 9,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
@@ -102862,7 +103065,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 20,
       "families": {
         "mega": 19,
         "streamwish": 20,
@@ -102895,13 +103098,15 @@
     {
       "series": "https://jkanime.net/no-game-no-life-specials/",
       "title": "No Game No Life Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -102933,13 +103138,15 @@
     {
       "series": "https://jkanime.net/mangaka-san-to-assistant-san-specials/",
       "title": "Mangaka-san to Assistant-san Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -102952,13 +103159,15 @@
     {
       "series": "https://jkanime.net/sabagebu/",
       "title": "Sabagebu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103005,13 +103214,15 @@
     {
       "series": "https://jkanime.net/isshuukan-friends-specials/",
       "title": "Isshuukan Friends. Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103043,13 +103254,15 @@
     {
       "series": "https://jkanime.net/hayate-no-gotoku-ova/",
       "title": "Hayate no Gotoku! OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -103099,13 +103312,15 @@
     {
       "series": "https://jkanime.net/tonari-no-seki-kun-specials/",
       "title": "Tonari no Seki-kun Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -103137,13 +103352,15 @@
     {
       "series": "https://jkanime.net/seitokai-yakuindomo-2-ova/",
       "title": "Seitokai Yakuindomo* S2 OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -103156,13 +103373,15 @@
     {
       "series": "https://jkanime.net/magi-sinbad-no-bouken/",
       "title": "Magi: Sinbad no Bouken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -103175,13 +103394,15 @@
     {
       "series": "https://jkanime.net/initial-d-final-stage/",
       "title": "Initial D Final Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -103213,13 +103434,15 @@
     {
       "series": "https://jkanime.net/world-fool-news/",
       "title": "World Fool News",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103251,13 +103474,15 @@
     {
       "series": "https://jkanime.net/m3-sono-kuroki-hagane/",
       "title": "M3: Sono Kuroki Hagane",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -103270,13 +103495,15 @@
     {
       "series": "https://jkanime.net/escha-logy-no-atelier-tasogare-no-sora-no-renkinjutsushi/",
       "title": "Escha & Logy no Atelier: Tasogare no Sora no Renkinjutsushi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103289,13 +103516,15 @@
     {
       "series": "https://jkanime.net/mekakucity-actors/",
       "title": "Mekakucity Actors",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103308,13 +103537,15 @@
     {
       "series": "https://jkanime.net/date-a-live-ii/",
       "title": "Date A Live II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -103327,13 +103558,15 @@
     {
       "series": "https://jkanime.net/sidonia-no-kishi/",
       "title": "Sidonia no Kishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103346,13 +103579,15 @@
     {
       "series": "https://jkanime.net/inugami-san-to-nekoyama-san/",
       "title": "Inugami-san to Nekoyama-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103365,13 +103600,15 @@
     {
       "series": "https://jkanime.net/gochuumon-wa-usagi-desu-ka/",
       "title": "Gochuumon wa Usagi Desu ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103384,13 +103621,15 @@
     {
       "series": "https://jkanime.net/ping-pong-the-animation/",
       "title": "Ping Pong The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 11,
         "streamwish": 11,
