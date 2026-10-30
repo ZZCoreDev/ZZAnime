@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T20:06:53.593184+00:00",
+  "checkedAt": "2026-10-30T20:20:34.306500+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73666,
-  "storedChapters": 71890,
+  "observedChapters": 73667,
+  "storedChapters": 71891,
   "missingChapters": 1776,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/41/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/42/"
         ]
       },
       {
@@ -6250,6 +6250,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tokyo-revengers-santen-sensou-hen/",
+        "title": "Tokyo Revengers: Santen Sensou-hen",
+        "samples": [
+          "https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
         "title": "Tougen Anki: Nikko Kegon no Taki-hen",
         "samples": [
@@ -10734,7 +10741,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/41/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/42/"
         ]
       },
       {
@@ -39310,7 +39317,15 @@
         "title": "Shoujo Kakumei Utena",
         "samples": [
           "https://jkanime.net/shoujo-kakumei-utena/1/",
-          "https://jkanime.net/shoujo-kakumei-utena/2/"
+          "https://jkanime.net/shoujo-kakumei-utena/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon/",
+        "title": "Pokemon",
+        "samples": [
+          "https://jkanime.net/pokemon/106/",
+          "https://jkanime.net/pokemon/110/"
         ]
       },
       {
@@ -62584,10 +62599,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 39,
+      "stored": 40,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/41/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
         "https://jkanime.net/kusuriya-no-hitorigoto/43/",
         "https://jkanime.net/kusuriya-no-hitorigoto/44/",
@@ -62608,7 +62622,7 @@
         "mega": 23,
         "streamwish": 32,
         "vidhide": 26,
-        "mp4upload": 36,
+        "mp4upload": 37,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -143936,7 +143950,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -143950,19 +143964,21 @@
     {
       "series": "https://jkanime.net/pokemon/",
       "title": "Pokemon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 276,
       "stored": 276,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 42,
       "families": {
-        "mega": 274,
-        "streamwish": 276,
-        "vidhide": 276,
-        "mp4upload": 276,
-        "streamtape": 276
+        "mp4upload": 270,
+        "vidhide": 177,
+        "mega": 172,
+        "streamwish": 207,
+        "streamtape": 172
       },
       "playbackVerified": false
     },
@@ -147516,10 +147532,14 @@
     {
       "series": "https://jkanime.net/tokyo-revengers-santen-sensou-hen/",
       "title": "Tokyo Revengers: Santen Sensou-hen",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
