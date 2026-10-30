@@ -9,8 +9,8 @@
   "vars": {
     "PUBLIC_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsNgjPmNaFkJZccuXRJx9+yJrSefH7rC1eR+YNIv21LbJOEgspdJxNKKeP2IuN0Uhuh2RxKuchQ3p+7ccwhfbUvWPqHlQTD5TG9Qdhq9rV2WmKQktN+X7eOy3yjIDNlt1jB1CVjQZgiDYrm4bVT9g6APWfxtPa2WCuLwzU59n3REtwx4YR+uxXB0ZqhiEdeLfOwuR5azqeUMJ3m3IeNEOdwtF3j55uFrV5YUuJfGEG+v2b+SIkM/jVX7VG0HYYROS/KQ4JiNhs62edQfHpFRJJTcMS+8/IWmxYkvaFjPKXzYV/5ksBwZ5djfqi6UMsHHlMcmUGW6CHlBkU5b86coUcwIDAQAB",
     "CHANNEL_URL": "https://zzanime-respaldo.zzcoredev.workers.dev/channel.json",
-    "DAILY_CAP": "5000",
-    "IP_LIMIT": "60"
+    "DAILY_CAP": "40000",
+    "IP_LIMIT": "200"
   },
   "send_metrics": false,
   "observability": {"enabled": false}

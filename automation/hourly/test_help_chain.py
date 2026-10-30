@@ -44,7 +44,23 @@ class WantedTests(unittest.TestCase):
    p.write_text(json.dumps({'mode':'open','maxWanted':500}));self.assertEqual(h.policy(p)['max'],40)
    self.assertEqual(h.policy(Path(d,'missing.json'))['mode'],'off')
  def test_shipped_policy_is_trial_with_two_chapters(self):
-  self.assertEqual(h.policy(),{'mode':'trial','trial':TRIAL,'max':40})
+  self.assertEqual(h.policy(),{'mode':'trial','trial':TRIAL,'max':40,'renew':180})
+ def test_open_mode_renews_oldest_published_chapters(self):
+  a,b,c,d=self.urls;old=self.now-datetime.timedelta(days=30)
+  for i in range(3):
+   u='https://jkanime.net/serie-a/'+str(10+i)+'/';self.state['episodes'][u]={'episode':u,'complete':True,'observedAt':h.iso(old+datetime.timedelta(days=i)),'providers':[{'name':'Mp4upload','family':'mp4upload','links':['https://www.mp4upload.com/embed-a.html']}]};self.state['listings']['https://jkanime.net/serie-a/']['episodes'].append(u)
+  _,files=run.build(self.state,self.approved,self.now)
+  w=h.wanted(self.state,files,self.now,{'mode':'open','trial':TRIAL,'max':40,'renew':2},{})
+  self.assertEqual([(x['url'],x.get('renew',False)) for x in w],[(b,False),(c,False),('https://jkanime.net/serie-a/10/',True),('https://jkanime.net/serie-a/11/',True)])
+  self.assertNotIn(a,[x['url'] for x in w])  # observed today: not due for renewal
+  self.assertEqual([x['url'] for x in h.wanted(self.state,files,self.now,self.rules('trial'),{})],[b,c])
+ def test_wanted_list_stays_far_below_the_64kb_channel_limit(self):
+  base='https://jkanime.net/serie-a/';old=h.iso(self.now-datetime.timedelta(days=9))
+  for i in range(400):
+   u=base+str(100+i)+'/';self.state['episodes'][u]={'episode':u,'complete':True,'observedAt':old,'providers':[{'name':'Mp4upload','family':'mp4upload','links':['https://www.mp4upload.com/embed-a.html']}]};self.state['listings'][base]['episodes'].append(u)
+  _,files=run.build(self.state,self.approved,self.now)
+  w=h.wanted(self.state,files,self.now,{'mode':'open','trial':TRIAL,'max':40,'renew':180},{u.rsplit('/',2)[0]+'/':'T'*60 for u in self.state['episodes']})
+  self.assertLessEqual(len(json.dumps(w,ensure_ascii=False,separators=(',',':')).encode()),h.WANTED_BYTES);self.assertGreater(len(w),100)
 
 class AcceptTests(unittest.TestCase):
  def setUp(self):
@@ -60,6 +76,17 @@ class AcceptTests(unittest.TestCase):
   for bad in [{'devices':1},{'asns':1},{'check':'none'},{'check':'quorum3','asns':2},{'family':'unknown'},{'url':'http://mega.nz/x'}]:
    with self.subTest(bad=bad):self.assertEqual(h.accept(answer(self.now,b,**bad),self.state,{b},self.now)[0]['episodes'],{})
   self.assertIn(b,h.accept(answer(self.now,b,check='quorum3',asns=3),self.state,{b},self.now)[0]['episodes'])
+ def test_renew_replaces_only_asked_and_older_records(self):
+  a=self.urls[0];before=copy.deepcopy(self.state)
+  self.assertEqual(h.accept(answer(self.now,a),self.state,{a},self.now)[2][a],'Already stored')
+  older=self.now-datetime.timedelta(days=1);self.assertEqual(h.accept(answer(older,a),self.state,{a},self.now,frozenset({a}))[2][a],'Stored observation is newer')
+  self.state['episodes'][a]['observedAt']=h.iso(self.now-datetime.timedelta(days=9))
+  incoming,seen,held=h.accept(answer(self.now,a),self.state,{a},self.now,frozenset({a}))
+  self.assertEqual(incoming['episodes'][a]['providers'][0]['name'],'Mega');self.assertTrue(incoming['episodes'][a]['helpEvidence']['renewed']);self.assertEqual(seen,{})
+  with tempfile.TemporaryDirectory() as folder:
+   folder=Path(folder);h.record_published(folder,[{'url':a,'renew':True}],self.now)
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):r=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a))
+  self.assertEqual((r['imported'],r['renewed']),(1,1));self.assertEqual(self.state['newsSeen'][a],before['newsSeen'][a]);self.assertEqual(self.state['episodes'][a]['observedAt'],h.iso(self.now))
  def test_stale_or_future_acceptance_is_held(self):
   b=self.urls[1]
   for t in [self.now-datetime.timedelta(days=8),self.now+datetime.timedelta(hours=1)]:

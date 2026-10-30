@@ -1,4 +1,4 @@
-import unittest,datetime,hashlib
+import unittest,datetime,gzip,hashlib,json
 from run import build,record_recent,COLLECTION_BATCHES,RETRY_SECONDS
 class CloudTests(unittest.TestCase):
  def test_frequent_collection_is_bounded(self):
@@ -29,9 +29,11 @@ class CloudTests(unittest.TestCase):
  def test_unlisted_excluded(self):
   now,parent,_,s,a=self.fixture();s['listings'][parent]['episodes']=[]
   with self.assertRaises(ValueError):build(s,a,now)
- def test_old_excluded(self):
-  now,_,url,s,a=self.fixture();s['episodes'][url]['observedAt']=(now-datetime.timedelta(days=8)).isoformat()
-  with self.assertRaises(ValueError):build(s,a,now)
+ def test_old_kept_with_real_date(self):
+  # Chapters never expire (Robin, 30/10): an old observation stays published with its original date.
+  now,_,url,s,a=self.fixture();old=(now-datetime.timedelta(days=40)).isoformat();s['episodes'][url]['observedAt']=old
+  index,files=build(s,a,now);row=json.loads(gzip.decompress(next(b for n,b in files.items() if n.startswith('series/'))))
+  self.assertEqual([(e['url'],e['observedAt']) for e in row['episodes']],[(url,old)])
  def test_future_excluded(self):
   now,_,url,s,a=self.fixture();s['episodes'][url]['observedAt']=(now+datetime.timedelta(hours=1)).isoformat()
   with self.assertRaises(ValueError):build(s,a,now)

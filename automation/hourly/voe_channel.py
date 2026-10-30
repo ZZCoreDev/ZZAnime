@@ -94,7 +94,8 @@ def render(folder,now,key,runtime):
     state=load(Path(folder)/'voe-state')
     policy=json.loads((p.W/'voe-policy.json').read_bytes())
     if not policy.get('enabled'):state['episodes']={u:e for u,e in state['episodes'].items() if u in PROOF}
-    state['episodes']={u:e for u,e in state['episodes'].items() if 0<=now.timestamp()-stamp(e.get('observedAt'))<=7*86400}
+    # Published VOE options never expire either; incoming observations are still checked for freshness in split().
+    state['episodes']={u:e for u,e in state['episodes'].items() if 0<=now.timestamp()-stamp(e.get('observedAt'))}
     if not state['episodes']:return {},None,None
     cp=p.compile_java(Path(runtime)/'voe-classes',modern=True)
     queries={p.sha((v['name']+'\0'+u).encode()):{'name':v['name'],'url':u} for e in state['episodes'].values() for v in e['providers'] for u in v['links']}

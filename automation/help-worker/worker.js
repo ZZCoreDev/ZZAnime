@@ -4,12 +4,9 @@ import {handle,Store} from './logic.js';
 
 export class HelpStore extends DurableObject{
  constructor(ctx,env){super(ctx,env);this.store=new Store(ctx.storage.sql);}
- take(limits,expires){return this.store.take(limits,expires);}
- add(rows){return this.store.add(rows);}
- candidates(since){return this.store.candidates(since);}
- check(key,since){return this.store.check(key,since);}
- saveCheck(key,verdict,now){return this.store.saveCheck(key,verdict,now);}
- cleanup(now){return this.store.cleanup(now);}
+ submit(items,limits,expires,now){return this.store.submit(items,limits,expires,now);}
+ decide(results,now){return this.store.decide(results,now);}
+ accepted(episodes,now){return this.store.accepted(episodes,now);}
 }
 
 export default{

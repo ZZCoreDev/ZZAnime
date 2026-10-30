@@ -40,7 +40,9 @@ def build(state,approved,now,allow_voe=False):
   parent=url.rsplit('/',2)[0]+'/'
   listing=state['listings'].get(parent)
   age=(now-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()
-  if not listing or url not in listing['episodes'] or not ep.get('complete') or not 0<=age<=7*86400:continue
+  # Chapters never expire: they stay published with their real observation date; only links the
+  # link checker confirms dead are excluded. Renewal keeps refreshing them, oldest first.
+  if not listing or url not in listing['episodes'] or not ep.get('complete') or age<0:continue
   options=[];seen=set()
   for provider in ep['providers']:
    if provider.get('family')=='voe' and not allow_voe:continue

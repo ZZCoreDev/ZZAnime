@@ -1,9 +1,10 @@
 // ZZAnime help chain (task 10). The signed channel lists the chapters the cloud lacks ("wanted");
-// devices answer only those. An option is offered to the cloud only after two devices on two
-// different networks (Cloudflare ASN) sent it and its real file name matches the chapter.
+// devices answer only those, in batches. An option is offered to the cloud only after two devices on
+// two different networks (Cloudflare ASN) sent it and its real file name matches the chapter.
 // No IP, account or device identifier is stored in clear; everything expires after 8 days.
 export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
-const DAY=86400000,KEEP=8*DAY,CHECK_TTL=6*3600000,MAX_OPTIONS=8,MAX_INSPECT=20,WANTED_TTL=120000;
+const DAY=86400000,KEEP=8*DAY,RECHECK=6*3600000,MAX_ITEMS=20,MAX_OPTIONS=8,MAX_INSPECT=30,MAX_WANTED=400,WANTED_TTL=120000,ENOUGH_OPTIONS=2;
+const ACCEPTED=new Set(['name-match','quorum3']);
 const STOP=new Set(['the','and','season','temporada','part','movie','hen']);
 const enc=new TextEncoder();
 export const iso=t=>new Date(t).toISOString();
@@ -69,62 +70,115 @@ export async function loadWanted(env,now=Date.now(),fetcher=fetch){
  const key=await crypto.subtle.importKey('spki',Uint8Array.from(atob(env.PUBLIC_KEY),c=>c.charCodeAt(0)),{name:'RSASSA-PKCS1-v1_5',hash:'SHA-256'},false,['verify']);
  if(!await crypto.subtle.verify('RSASSA-PKCS1-v1_5',key,Uint8Array.from(sig.match(/../g),h=>parseInt(h,16)),enc.encode(wrapper.payload)))throw new Error('channel signature');
  const payload=JSON.parse(wrapper.payload),age=now-Date.parse(payload.createdAt),map=new Map();
- if(payload.schema===1&&age>=-300000&&age<=DAY&&Array.isArray(payload.wanted))for(const w of payload.wanted.slice(0,40))if(EPISODE.test(w.url)&&Number.isInteger(w.number))map.set(w.url,w);
+ if(payload.schema===1&&age>=-300000&&age<=DAY&&Array.isArray(payload.wanted))for(const w of payload.wanted.slice(0,MAX_WANTED))if(EPISODE.test(w.url)&&Number.isInteger(w.number))map.set(w.url,w);
  cached={at:now,map};return map;
 }
 export function resetWanted(){cached={at:0,map:null};}
-// Storage lives in one SQLite-backed Durable Object (free plan); every method is synchronous, so atomic.
+// Storage lives in one SQLite-backed Durable Object (free plan: 100k rows written a day). One row per
+// chapter and device; options are tallied per chapter and a decision is written once per option.
+// Every method is synchronous, so each call is atomic.
 export class Store{
  constructor(sql){this.sql=sql;
-  sql.exec('CREATE TABLE IF NOT EXISTS submissions(episode TEXT,okey TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(episode,okey,device))');
-  sql.exec('CREATE TABLE IF NOT EXISTS counters(k TEXT PRIMARY KEY,n INTEGER,expires INTEGER)');
-  sql.exec('CREATE TABLE IF NOT EXISTS checks(okey TEXT PRIMARY KEY,verdict TEXT,detail TEXT,checked INTEGER)');}
+  sql.exec('DROP TABLE IF EXISTS submissions');sql.exec('DROP TABLE IF EXISTS checks');
+  sql.exec('CREATE TABLE IF NOT EXISTS seen(episode TEXT,device TEXT,asn INTEGER,created INTEGER,options TEXT,PRIMARY KEY(episode,device))');
+  sql.exec('CREATE TABLE IF NOT EXISTS decided(episode TEXT,okey TEXT,name TEXT,family TEXT,url TEXT,devices INTEGER,asns INTEGER,first INTEGER,verdict TEXT,checked INTEGER,PRIMARY KEY(episode,okey))');
+  sql.exec('CREATE TABLE IF NOT EXISTS counters(k TEXT PRIMARY KEY,n INTEGER,expires INTEGER)');}
+ rows(q,...p){return this.sql.exec(q,...p).toArray();}
  take(limits,expires){
-  for(const [k,limit] of limits){const row=this.sql.exec('SELECT n FROM counters WHERE k=?',k).toArray()[0];if(row&&row.n>=limit)return false;}
-  for(const [k] of limits)this.sql.exec('INSERT INTO counters(k,n,expires) VALUES(?,1,?) ON CONFLICT(k) DO UPDATE SET n=n+1',k,expires);
+  for(const [k,limit,w] of limits){const r=this.rows('SELECT n FROM counters WHERE k=?',k)[0];if((r?r.n:0)+w>limit)return false;}
+  for(const [k,,w] of limits)this.sql.exec('INSERT INTO counters(k,n,expires) VALUES(?,?,?) ON CONFLICT(k) DO UPDATE SET n=n+?',k,w,expires,w);
   return true;
  }
- add(rows){for(const r of rows)this.sql.exec('INSERT OR IGNORE INTO submissions VALUES(?,?,?,?,?,?,?,?)',r.episode,r.okey,r.name,r.family,r.url,r.device,r.asn,r.created);return rows.length;}
- candidates(since){return this.sql.exec('SELECT episode,okey,name,family,url,COUNT(DISTINCT device) AS devices,COUNT(DISTINCT asn) AS asns,MIN(created) AS first FROM submissions WHERE created>=? GROUP BY episode,okey HAVING devices>=2 AND asns>=2 ORDER BY first LIMIT 400',since).toArray();}
- check(okey,since){return this.sql.exec('SELECT verdict,detail FROM checks WHERE okey=? AND checked>=?',okey,since).toArray()[0]||null;}
- saveCheck(okey,v,now){this.sql.exec('INSERT OR REPLACE INTO checks VALUES(?,?,?,?)',okey,v.verdict,v.detail||'',now);}
- cleanup(now){this.sql.exec('DELETE FROM submissions WHERE created<?',now-KEEP);this.sql.exec('DELETE FROM counters WHERE expires<?',now);this.sql.exec('DELETE FROM checks WHERE checked<?',now-DAY);}
+ tally(episode){
+  const out=new Map();
+  for(const r of this.rows('SELECT device,asn,created,options FROM seen WHERE episode=?',episode))for(const o of JSON.parse(r.options)){
+   let t=out.get(o.okey);if(!t){t={...o,devices:new Set(),asns:new Set(),first:r.created};out.set(o.okey,t);}
+   t.devices.add(r.device);t.asns.add(r.asn);t.first=Math.min(t.first,r.created);
+  }
+  return out;
+ }
+ // Stores each new answer and returns the options that just reached two devices on two networks and
+ // still need their file name checked. A chapter with enough accepted options answers 'enough'.
+ submit(items,limits,expires,now){
+  if(!this.take(limits,expires))return {limited:true};
+  const status={},inspect=[];
+  for(const it of items){
+   const decided=new Map(this.rows('SELECT okey,verdict,checked FROM decided WHERE episode=?',it.episode).map(r=>[r.okey,r]));
+   if([...decided.values()].filter(r=>ACCEPTED.has(r.verdict)).length>=ENOUGH_OPTIONS){status[it.episode]='enough';continue;}
+   const known=this.rows('SELECT 1 AS x FROM seen WHERE episode=? AND device=?',it.episode,it.device).length>0;
+   if(!known)this.sql.exec('INSERT INTO seen VALUES(?,?,?,?,?)',it.episode,it.device,it.asn,now,JSON.stringify(it.options));
+   status[it.episode]=known?'duplicate':'stored';
+   for(const t of this.tally(it.episode).values()){
+    if(t.devices.size<2||t.asns.size<2)continue;
+    const d=decided.get(t.okey),c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:t.devices.size,asns:t.asns.size,first:t.first};
+    if(d&&d.verdict!=='unknown')continue;
+    if(d&&t.family!=='mega'&&c.asns>=3){this.decide([{...c,verdict:'unknown'}],now);continue;}
+    if(d&&now-d.checked<RECHECK)continue;
+    inspect.push(c);
+   }
+  }
+  return {status,inspect};
+ }
+ decide(results,now){
+  for(const r of results){
+   const verdict=r.verdict==='match'?'name-match':r.verdict==='unknown'&&r.family!=='mega'&&r.asns>=3?'quorum3':r.verdict;
+   this.sql.exec('INSERT OR REPLACE INTO decided VALUES(?,?,?,?,?,?,?,?,?,?)',r.episode,r.okey,r.name,r.family,r.url,r.devices,r.asns,r.first,verdict,now);
+  }
+  return results.length;
+ }
+ // Forgets chapters that are no longer wanted (filled or rotated out) and returns accepted options.
+ accepted(episodes,now){
+  const list=JSON.stringify(episodes);
+  this.sql.exec('DELETE FROM seen WHERE created<? OR episode NOT IN (SELECT value FROM json_each(?))',now-KEEP,list);
+  this.sql.exec('DELETE FROM decided WHERE first<? OR episode NOT IN (SELECT value FROM json_each(?))',now-KEEP,list);
+  this.sql.exec('DELETE FROM counters WHERE expires<?',now);
+  return this.rows("SELECT episode,name,family,url,devices,asns,first,verdict FROM decided WHERE verdict IN ('name-match','quorum3') ORDER BY episode,first");
+ }
 }
 async function body(request,limit){const text=await request.text();if(text.length>limit)throw new Error('too large');return JSON.parse(text);}
 function same(a,b){if(typeof a!=='string'||typeof b!=='string'||a.length!==b.length)return false;let d=0;for(let i=0;i<a.length;i++)d|=a.charCodeAt(i)^b.charCodeAt(i);return d===0;}
+async function options(list){
+ const out=[],seen=new Set();
+ for(const o of (Array.isArray(list)?list:[]).slice(0,MAX_OPTIONS)){
+  const f=family(o?.name),link=String(o?.url||'');
+  if(!f||typeof o.name!=='string'||o.name.length>70||!/^https:\/\/[a-z0-9.-]+\.[a-z]{2,}\//i.test(link)||link.length>500)continue;
+  const okey=await sha(o.name+'\0'+link);if(!seen.has(okey)){seen.add(okey);out.push({okey,name:o.name,family:f,url:link});}
+ }
+ return out;
+}
 export async function handle(request,env,store,deps={}){
  const now=(deps.now||Date.now)(),fetcher=deps.fetch||fetch,url=new URL(request.url);
  if(request.method==='POST'&&url.pathname==='/v1/submit'){
-  let x;try{x=await body(request,8192);}catch{return json({accepted:false,reason:'bad-request'},400);}
-  if(x?.schema!==1||!EPISODE.test(x.episode||'')||!/^[A-Za-z0-9_-]{16,64}$/.test(x.device||'')||!Array.isArray(x.options)||!x.options.length)return json({accepted:false,reason:'bad-request'},400);
-  const wanted=await loadWanted(env,now,fetcher);
-  // Not asked (or already filled): tell the device to drop it, so nobody keeps working on it.
-  if(!wanted.has(x.episode))return json({accepted:false,reason:'not-wanted',stop:true},409);
+  // {"schema":1,"device":"<random id>","items":[{"episode":url,"options":[{"name","url"}]}]}; per-item answer:
+  // stored | duplicate | enough (drop it, enough devices answered) | stop (not wanted any more) | unsupported.
+  let x;try{x=await body(request,32768);}catch{return json({accepted:false,reason:'bad-request'},400);}
+  if(x?.schema!==1||!/^[A-Za-z0-9_-]{16,64}$/.test(x.device||'')||!Array.isArray(x.items)||!x.items.length||x.items.length>MAX_ITEMS)return json({accepted:false,reason:'bad-request'},400);
   const asn=Number(request.cf?.asn)||0;if(!asn)return json({accepted:false,reason:'no-network'},400);
-  const day=Math.floor(now/DAY),ip=request.headers.get('cf-connecting-ip')||'';
-  if(!await store.take([['ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),Number(env.IP_LIMIT||60)],['day:'+day,Number(env.DAILY_CAP||5000)]],(day+2)*DAY))return json({accepted:false,reason:'limit'},429);
-  const device=await sha(env.SALT+'|device|'+x.device),rows=[],seen=new Set();
-  for(const o of x.options.slice(0,MAX_OPTIONS)){
-   const f=family(o?.name),link=String(o?.url||'');
-   if(!f||typeof o.name!=='string'||o.name.length>70||!/^https:\/\/[a-z0-9.-]+\.[a-z]{2,}\//i.test(link)||link.length>500)continue;
-   const okey=await sha(o.name+'\0'+link);if(seen.has(okey))continue;seen.add(okey);
-   rows.push({episode:x.episode,okey,name:o.name,family:f,url:link,device,asn,created:now});
+  const wanted=await loadWanted(env,now,fetcher),device=await sha(env.SALT+'|device|'+x.device),result={},valid=[];
+  for(const it of x.items){
+   if(!EPISODE.test(it?.episode||'')||result[it.episode])continue;
+   if(!wanted.has(it.episode)){result[it.episode]='stop';continue;}
+   const opts=await options(it.options);if(!opts.length){result[it.episode]='unsupported';continue;}
+   valid.push({episode:it.episode,device,asn,options:opts});
   }
-  if(!rows.length)return json({accepted:false,reason:'no-supported-option'},422);
-  await store.add(rows);return json({accepted:true,stored:rows.length});
+  if(valid.length){
+   const day=Math.floor(now/DAY),ip=request.headers.get('cf-connecting-ip')||'';
+   const r=await store.submit(valid,[['ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),Number(env.IP_LIMIT||200),1],['day:'+day,Number(env.DAILY_CAP||40000),valid.length]],(day+2)*DAY,now);
+   if(r.limited)return json({accepted:false,reason:'limit'},429);
+   Object.assign(result,r.status);const done=[];
+   for(const c of r.inspect.slice(0,MAX_INSPECT))done.push({...c,verdict:(await inspect(c,wanted.get(c.episode),fetcher)).verdict});
+   if(done.length)await store.decide(done,now);
+  }
+  return json({accepted:true,items:Object.entries(result).map(([episode,status])=>({episode,status}))});
  }
  if(request.method==='GET'&&url.pathname==='/v1/accepted'){
   if(!env.HELP_KEY||!same(request.headers.get('authorization')||'','Bearer '+env.HELP_KEY))return json({error:'unauthorized'},401);
-  await store.cleanup(now);const wanted=await loadWanted(env,now,fetcher),out=new Map();let inspected=0;
-  for(const c of await store.candidates(now-KEEP)){
-   const entry=wanted.get(c.episode);if(!entry)continue;
-   const ck=c.episode+'|'+c.okey;let v=await store.check(ck,now-CHECK_TTL);
-   if(!v){if(inspected>=MAX_INSPECT)continue;inspected++;v=await inspect(c,entry,fetcher);await store.saveCheck(ck,v,now);}
-   const check=v.verdict==='match'?'name-match':v.verdict==='unknown'&&c.family!=='mega'&&c.asns>=3?'quorum3':null;
-   if(!check)continue;
-   const row=out.get(c.episode)||{url:c.episode,acceptedAt:iso(c.first),...(entry.firstSeenAt?{firstSeenAt:entry.firstSeenAt}:{}),options:[]};
-   if(c.first<Date.parse(row.acceptedAt))row.acceptedAt=iso(c.first);
-   row.options.push({name:c.name,family:c.family,url:c.url,devices:c.devices,asns:c.asns,check});out.set(c.episode,row);
+  const wanted=await loadWanted(env,now,fetcher),out=new Map();
+  for(const r of await store.accepted([...wanted.keys()],now)){
+   const entry=wanted.get(r.episode);if(!entry)continue;
+   const row=out.get(r.episode)||{url:r.episode,acceptedAt:iso(r.first),...(entry.firstSeenAt?{firstSeenAt:entry.firstSeenAt}:{}),...(entry.renew?{renew:true}:{}),options:[]};
+   if(r.first<Date.parse(row.acceptedAt))row.acceptedAt=iso(r.first);
+   row.options.push({name:r.name,family:r.family,url:r.url,devices:r.devices,asns:r.asns,check:r.verdict});out.set(r.episode,row);
   }
   return json({schema:1,generatedAt:iso(now),episodes:[...out.values()]});
  }
