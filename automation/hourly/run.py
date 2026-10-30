@@ -74,11 +74,16 @@ def main():
     recent=sorted(state['episodes'].items(),key=lambda row:state.get('newsSeen',{}).get(row[0],''),reverse=True)
     skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
     from voe_channel import fresh_urls,split
-    # VOE-only episodes have no root-channel record; recheck them through the source chain with a backoff.
-    voe_fresh=fresh_urls(D,instant.timestamp());recheck=state.setdefault('voeRecheck',{})
+    # News seen in the last 7 days without a root-channel record (VOE-only) are rechecked through the
+    # source chain with a backoff; historical VOE-only episodes are left to the renewal job.
+    voe_fresh=fresh_urls(D,instant.timestamp());recheck=state.setdefault('voeRecheck',{});voe_news=[]
+    for url,seen in sorted(state.get('newsSeen',{}).items(),key=lambda row:str(row[1]),reverse=True):
+     try:age=(instant-datetime.datetime.fromisoformat(seen.replace('Z','+00:00'))).total_seconds()
+     except (ValueError,TypeError,AttributeError):continue
+     if url not in state['episodes'] and 0<=age<=7*86400:voe_news.append(url)
     for url in list(recheck):
-     if url not in voe_fresh or url in state['episodes']:recheck.pop(url)
-    due=[url for url in voe_fresh if url not in state['episodes'] and instant.timestamp()-recheck.get(url,0)>=VOE_RECHECK_SECONDS][:VOE_RECHECK_LIMIT]
+     if url not in voe_news:recheck.pop(url)
+    due=[url for url in voe_news if instant.timestamp()-recheck.get(url,0)>=VOE_RECHECK_SECONDS][:VOE_RECHECK_LIMIT]
     skip=skip[:2000]+[url for url in voe_fresh if url not in due]
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
     retry=(retry+[url for url in due if url not in retry and url not in skip])[:200]
