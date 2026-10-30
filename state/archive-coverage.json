@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T10:51:37.126593+00:00",
+  "checkedAt": "2026-10-30T11:04:55.657841+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73567,
-  "storedChapters": 71784,
-  "missingChapters": 1783,
+  "observedChapters": 73568,
+  "storedChapters": 71787,
+  "missingChapters": 1781,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -417,8 +417,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/"
         ]
       },
       {
@@ -5348,6 +5348,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/darker-than-black-kuro-no-keiyakusha/",
+        "title": "Darker than Black: Kuro no Keiyakusha",
+        "samples": [
+          "https://jkanime.net/darker-than-black-kuro-no-keiyakusha/26/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-movie-tick-tack-kiki-ippatsu/",
         "title": "Futari wa Precure: Splash☆Star Movie - Tick Tack Kiki Ippatsu!",
         "samples": [
@@ -8891,8 +8898,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/"
         ]
       },
       {
@@ -35679,6 +35686,93 @@
         ]
       },
       {
+        "series": "https://jkanime.net/saiunkoku-monogatari-2nd-season/",
+        "title": "Saiunkoku Monogatari 2nd Season",
+        "samples": [
+          "https://jkanime.net/saiunkoku-monogatari-2nd-season/1/",
+          "https://jkanime.net/saiunkoku-monogatari-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sola/",
+        "title": "sola",
+        "samples": [
+          "https://jkanime.net/sola/1/",
+          "https://jkanime.net/sola/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shining-tears-x-wind/",
+        "title": "Shining Tears X Wind",
+        "samples": [
+          "https://jkanime.net/shining-tears-x-wind/1/",
+          "https://jkanime.net/shining-tears-x-wind/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakugan-battle-brawlers/",
+        "title": "Bakugan Battle Brawlers",
+        "samples": [
+          "https://jkanime.net/bakugan-battle-brawlers/1/",
+          "https://jkanime.net/bakugan-battle-brawlers/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nagasarete-airantou/",
+        "title": "Nagasarete Airantou",
+        "samples": [
+          "https://jkanime.net/nagasarete-airantou/1/",
+          "https://jkanime.net/nagasarete-airantou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/darker-than-black-kuro-no-keiyakusha/",
+        "title": "Darker than Black: Kuro no Keiyakusha",
+        "samples": [
+          "https://jkanime.net/darker-than-black-kuro-no-keiyakusha/26/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koutetsushin-jeeg/",
+        "title": "Koutetsushin Jeeg",
+        "samples": [
+          "https://jkanime.net/koutetsushin-jeeg/1/",
+          "https://jkanime.net/koutetsushin-jeeg/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/claymore/",
+        "title": "Claymore",
+        "samples": [
+          "https://jkanime.net/claymore/1/",
+          "https://jkanime.net/claymore/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinkyoku-soukai-polyphonica/",
+        "title": "Shinkyoku Soukai Polyphonica",
+        "samples": [
+          "https://jkanime.net/shinkyoku-soukai-polyphonica/1/",
+          "https://jkanime.net/shinkyoku-soukai-polyphonica/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/romeo-x-juliet/",
+        "title": "Romeo x Juliet",
+        "samples": [
+          "https://jkanime.net/romeo-x-juliet/1/",
+          "https://jkanime.net/romeo-x-juliet/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/idolmster-xenoglossia/",
+        "title": "iDOLM@STER Xenoglossia",
+        "samples": [
+          "https://jkanime.net/idolmster-xenoglossia/1/",
+          "https://jkanime.net/idolmster-xenoglossia/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-movie-tick-tack-kiki-ippatsu/",
         "title": "Futari wa Precure: Splash☆Star Movie - Tick Tack Kiki Ippatsu!",
         "samples": [
@@ -49326,19 +49420,18 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 22,
+      "stored": 23,
       "missing": [
         "https://jkanime.net/jigoku-sensei-nube-2025/20/",
         "https://jkanime.net/jigoku-sensei-nube-2025/22/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/23/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/26/"
+        "https://jkanime.net/jigoku-sensei-nube-2025/23/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mp4upload": 21,
-        "streamwish": 18,
+        "mp4upload": 22,
+        "streamwish": 19,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -54107,9 +54200,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/18/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
@@ -54121,12 +54213,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 14,
+        "mp4upload": 15,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -66010,7 +66102,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 30,
+      "stored": 31,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -66026,7 +66118,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/44/",
         "https://jkanime.net/bleach-sennen-kessen-hen/45/",
         "https://jkanime.net/bleach-sennen-kessen-hen/46/",
         "https://jkanime.net/bleach-sennen-kessen-hen/47/",
@@ -66038,10 +66129,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 18,
-        "vidhide": 27,
+        "streamwish": 19,
+        "vidhide": 28,
         "streamtape": 13,
-        "mp4upload": 17,
+        "mp4upload": 18,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -88724,7 +88815,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {},
       "playbackVerified": false
     },
@@ -95082,7 +95173,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 3
       },
@@ -130766,26 +130857,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 14,
       "families": {
-        "mega": 29,
+        "mega": 14,
         "streamwish": 51,
         "vidhide": 51,
         "mp4upload": 51,
-        "streamtape": 29
+        "streamtape": 14
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/saiunkoku-monogatari-2nd-season/",
       "title": "Saiunkoku Monogatari 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -130799,13 +130892,15 @@
     {
       "series": "https://jkanime.net/sola/",
       "title": "sola",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -130818,13 +130913,15 @@
     {
       "series": "https://jkanime.net/shining-tears-x-wind/",
       "title": "Shining Tears X Wind",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -130837,13 +130934,15 @@
     {
       "series": "https://jkanime.net/bakugan-battle-brawlers/",
       "title": "Bakugan Battle Brawlers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -130857,13 +130956,15 @@
     {
       "series": "https://jkanime.net/nagasarete-airantou/",
       "title": "Nagasarete Airantou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -130876,32 +130977,39 @@
     {
       "series": "https://jkanime.net/darker-than-black-kuro-no-keiyakusha/",
       "title": "Darker than Black: Kuro no Keiyakusha",
-      "causes": [],
-      "observed": 25,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 26,
       "stored": 25,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/darker-than-black-kuro-no-keiyakusha/26/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
+        "mega": 22,
+        "streamwish": 22,
+        "vidhide": 22,
         "mp4upload": 25,
-        "streamtape": 25
+        "streamtape": 22
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/koutetsushin-jeeg/",
       "title": "Koutetsushin Jeeg",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -130914,13 +131022,15 @@
     {
       "series": "https://jkanime.net/claymore/",
       "title": "Claymore",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -130933,13 +131043,15 @@
     {
       "series": "https://jkanime.net/shinkyoku-soukai-polyphonica/",
       "title": "Shinkyoku Soukai Polyphonica",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -130952,13 +131064,15 @@
     {
       "series": "https://jkanime.net/romeo-x-juliet/",
       "title": "Romeo x Juliet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -130971,13 +131085,15 @@
     {
       "series": "https://jkanime.net/idolmster-xenoglossia/",
       "title": "iDOLM@STER Xenoglossia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -130998,11 +131114,11 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 25,
-        "streamwish": 26,
-        "vidhide": 26,
         "mp4upload": 26,
-        "streamtape": 26
+        "mega": 13,
+        "streamwish": 13,
+        "vidhide": 13,
+        "streamtape": 13
       },
       "playbackVerified": false
     },
