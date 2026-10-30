@@ -36,6 +36,8 @@ class VoeRecheckTests(unittest.TestCase):
    state['voeRecheck'][URL]-=run.VOE_RECHECK_SECONDS
    third=self.collect(d,state)
    self.assertIn(URL,third[0]['retry'],'retried again after the backoff')
+   status=json.loads(Path(d,'collection-status.json').read_bytes())
+   self.assertEqual(status['voeOnly'],1,'collection status counts VOE-only news');self.assertEqual(status['voeRecheckPending'],1)
  def test_news_dropped_from_short_voe_recent_list_is_still_retried(self):
   # Real case 2026-10-30: Watashi 29 fell out of the 500-entry VOE recent list filled by renewals.
   with tempfile.TemporaryDirectory() as d:
