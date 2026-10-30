@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T15:38:01.035673+00:00",
+  "checkedAt": "2026-10-30T15:50:52.937988+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73623,
-  "storedChapters": 71831,
-  "missingChapters": 1792,
+  "storedChapters": 71835,
+  "missingChapters": 1788,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -55,13 +55,6 @@
         "title": "Sword Art Online: Unanswered//butterfly",
         "samples": [
           "https://jkanime.net/sword-art-online-unansweredbutterfly/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/one-piece-heroines/",
-        "title": "One Piece: Heroines",
-        "samples": [
-          "https://jkanime.net/one-piece-heroines/1/"
         ]
       },
       {
@@ -5475,8 +5468,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/36/",
-          "https://jkanime.net/tsubasa-chronicle/37/"
+          "https://jkanime.net/tsubasa-chronicle/37/",
+          "https://jkanime.net/tsubasa-chronicle/38/"
         ]
       },
       {
@@ -5561,8 +5554,8 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/11/",
-          "https://jkanime.net/hit-wo-nerae/12/"
+          "https://jkanime.net/hit-wo-nerae/12/",
+          "https://jkanime.net/hit-wo-nerae/9/"
         ]
       },
       {
@@ -6391,13 +6384,6 @@
         "samples": [
           "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/1/",
           "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/one-piece-heroines/",
-        "title": "One Piece: Heroines",
-        "samples": [
-          "https://jkanime.net/one-piece-heroines/1/"
         ]
       },
       {
@@ -36727,8 +36713,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/36/",
-          "https://jkanime.net/tsubasa-chronicle/37/"
+          "https://jkanime.net/tsubasa-chronicle/37/",
+          "https://jkanime.net/tsubasa-chronicle/38/"
         ]
       },
       {
@@ -37420,8 +37406,8 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/11/",
-          "https://jkanime.net/hit-wo-nerae/12/"
+          "https://jkanime.net/hit-wo-nerae/12/",
+          "https://jkanime.net/hit-wo-nerae/9/"
         ]
       },
       {
@@ -37601,6 +37587,110 @@
         "samples": [
           "https://jkanime.net/maburaho/1/",
           "https://jkanime.net/maburaho/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ai-yori-aoshi-enishi/",
+        "title": "Ai Yori Aoshi: Enishi",
+        "samples": [
+          "https://jkanime.net/ai-yori-aoshi-enishi/1/",
+          "https://jkanime.net/ai-yori-aoshi-enishi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shigetsutan-tsukihime/",
+        "title": "Shingetsutan Tsukihime",
+        "samples": [
+          "https://jkanime.net/shigetsutan-tsukihime/1/",
+          "https://jkanime.net/shigetsutan-tsukihime/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gunslinger-girl/",
+        "title": "Gunslinger Girl",
+        "samples": [
+          "https://jkanime.net/gunslinger-girl/1/",
+          "https://jkanime.net/gunslinger-girl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gungrave/",
+        "title": "Gungrave",
+        "samples": [
+          "https://jkanime.net/gungrave/1/",
+          "https://jkanime.net/gungrave/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-ga-nozomu-eien/",
+        "title": "Kimi ga Nozomu Eien",
+        "samples": [
+          "https://jkanime.net/kimi-ga-nozomu-eien/1/",
+          "https://jkanime.net/kimi-ga-nozomu-eien/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori/",
+        "title": "Takahashi Rumiko Gekijou Ningyo no Mori",
+        "samples": [
+          "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori/1/",
+          "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginga-tetsudou-monogatari/",
+        "title": "Ginga Tetsudou Monogatari",
+        "samples": [
+          "https://jkanime.net/ginga-tetsudou-monogatari/1/",
+          "https://jkanime.net/ginga-tetsudou-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rockman-exe-axess/",
+        "title": "Rockman EXE Axess",
+        "samples": [
+          "https://jkanime.net/rockman-exe-axess/1/",
+          "https://jkanime.net/rockman-exe-axess/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fullmetal-alchemist/",
+        "title": "Fullmetal Alchemist",
+        "samples": [
+          "https://jkanime.net/fullmetal-alchemist/1/",
+          "https://jkanime.net/fullmetal-alchemist/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kousetsu-hyaku-monogatari/",
+        "title": "Hundred Stories",
+        "samples": [
+          "https://jkanime.net/kousetsu-hyaku-monogatari/1/",
+          "https://jkanime.net/kousetsu-hyaku-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/planetes/",
+        "title": "Planetes",
+        "samples": [
+          "https://jkanime.net/planetes/1/",
+          "https://jkanime.net/planetes/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakigake-cromartie-koukou/",
+        "title": "Sakigake!! Cromartie Koukou",
+        "samples": [
+          "https://jkanime.net/sakigake-cromartie-koukou/10/",
+          "https://jkanime.net/sakigake-cromartie-koukou/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saiyuuki-reload/",
+        "title": "Saiyuuki Reload",
+        "samples": [
+          "https://jkanime.net/saiyuuki-reload/1/",
+          "https://jkanime.net/saiyuuki-reload/10/"
         ]
       },
       {
@@ -38403,13 +38493,6 @@
         "title": "Sword Art Online: Unanswered//butterfly",
         "samples": [
           "https://jkanime.net/sword-art-online-unansweredbutterfly/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/one-piece-heroines/",
-        "title": "One Piece: Heroines",
-        "samples": [
-          "https://jkanime.net/one-piece-heroines/1/"
         ]
       },
       {
@@ -44546,20 +44629,17 @@
     {
       "series": "https://jkanime.net/one-piece-heroines/",
       "title": "One Piece: Heroines",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/one-piece-heroines/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mp4upload": 1,
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -100606,7 +100686,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/",
@@ -100615,14 +100695,13 @@
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/5/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/6/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/7/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/8/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/9/"
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/8/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
-        "streamwish": 3
+        "streamwish": 4
       },
       "playbackVerified": false
     },
@@ -135327,9 +135406,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 35,
+      "stored": 36,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/36/",
         "https://jkanime.net/tsubasa-chronicle/37/",
         "https://jkanime.net/tsubasa-chronicle/38/",
         "https://jkanime.net/tsubasa-chronicle/39/",
@@ -135351,9 +135429,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 36,
-        "streamwish": 35,
-        "vidhide": 36,
+        "mp4upload": 37,
+        "streamwish": 36,
+        "vidhide": 37,
         "mega": 1,
         "streamtape": 1
       },
@@ -137259,9 +137337,8 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/hit-wo-nerae/11/",
         "https://jkanime.net/hit-wo-nerae/12/",
         "https://jkanime.net/hit-wo-nerae/9/"
       ],
@@ -137269,8 +137346,8 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 8,
-        "streamwish": 7,
+        "mp4upload": 9,
+        "streamwish": 8,
         "mega": 1,
         "vidhide": 1,
         "mixdrop": 1,
@@ -137760,7 +137837,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -137773,13 +137850,15 @@
     {
       "series": "https://jkanime.net/ai-yori-aoshi-enishi/",
       "title": "Ai Yori Aoshi: Enishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137792,13 +137871,15 @@
     {
       "series": "https://jkanime.net/shigetsutan-tsukihime/",
       "title": "Shingetsutan Tsukihime",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137811,13 +137892,15 @@
     {
       "series": "https://jkanime.net/gunslinger-girl/",
       "title": "Gunslinger Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137830,13 +137913,15 @@
     {
       "series": "https://jkanime.net/gungrave/",
       "title": "Gungrave",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -137849,13 +137934,15 @@
     {
       "series": "https://jkanime.net/kimi-ga-nozomu-eien/",
       "title": "Kimi ga Nozomu Eien",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -137868,13 +137955,15 @@
     {
       "series": "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori/",
       "title": "Takahashi Rumiko Gekijou Ningyo no Mori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -137888,13 +137977,15 @@
     {
       "series": "https://jkanime.net/ginga-tetsudou-monogatari/",
       "title": "Ginga Tetsudou Monogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -137908,13 +137999,15 @@
     {
       "series": "https://jkanime.net/rockman-exe-axess/",
       "title": "Rockman EXE Axess",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -137928,13 +138021,15 @@
     {
       "series": "https://jkanime.net/fullmetal-alchemist/",
       "title": "Fullmetal Alchemist",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -137948,13 +138043,15 @@
     {
       "series": "https://jkanime.net/kousetsu-hyaku-monogatari/",
       "title": "Hundred Stories",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137967,13 +138064,15 @@
     {
       "series": "https://jkanime.net/planetes/",
       "title": "Planetes",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -137987,33 +138086,37 @@
     {
       "series": "https://jkanime.net/sakigake-cromartie-koukou/",
       "title": "Sakigake!! Cromartie Koukou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mp4upload": 26,
         "streamwish": 26,
         "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "mega": 25,
+        "mixdrop": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/saiyuuki-reload/",
       "title": "Saiyuuki Reload",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 25,
         "streamwish": 25,
