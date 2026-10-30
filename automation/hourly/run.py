@@ -9,8 +9,10 @@ D=Path(os.environ.get('ZZ_DATA',W/'state')).resolve()
 BASE='https://zzanime-respaldo.zzcoredev.workers.dev'
 COLLECTION_BATCHES=2
 RETRY_SECONDS=15*60
-VOE_RECHECK_SECONDS=6*3600
-VOE_RECHECK_LIMIT=2
+# VOE-only news (≤7 days) are retried hourly, 4 per run: a source fix (e.g. AnimeFLV Mega) must reach new
+# chapters within the hour, not after a 6 h backoff.
+VOE_RECHECK_SECONDS=3600
+VOE_RECHECK_LIMIT=4
 def sha(b):return hashlib.sha256(b).hexdigest()
 def raw(x):return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 def put(p,b):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
