@@ -43,7 +43,7 @@ jobs:
           URL=https://zzanime-ayuda.zzcoredev.workers.dev
           KEY=$(python3 -c "import hmac,hashlib,os;print(hmac.new(os.environ['ZZ_COLLECTOR_KEY'].encode(),b'zzanime-ayuda/help-key',hashlib.sha256).hexdigest())")
           for i in 1 2 3 4 5 6; do
-            if curl -fsS "$URL/" && curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/accepted" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1;print('\naccepted',len(d['episodes']))"; then exit 0; fi
+            if curl -fsS "$URL/" && curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/accepted" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1;print('\naccepted',len(d['episodes']))" && curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/stats" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1 and 'quorum' in d;print('stats ok')"; then exit 0; fi
             sleep 15
           done
           exit 1
