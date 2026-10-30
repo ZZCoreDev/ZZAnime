@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T08:16:24.026477+00:00",
+  "checkedAt": "2026-10-30T08:27:38.934976+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73561,
-  "storedChapters": 71747,
-  "missingChapters": 1814,
+  "storedChapters": 71748,
+  "missingChapters": 1813,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -34347,6 +34347,70 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fullmetal-alchemist-brotherhood/",
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "samples": [
+          "https://jkanime.net/fullmetal-alchemist-brotherhood/1/",
+          "https://jkanime.net/fullmetal-alchemist-brotherhood/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tayutama-kiss-on-my-deity/",
+        "title": "Tayutama: Kiss on my Deity",
+        "samples": [
+          "https://jkanime.net/tayutama-kiss-on-my-deity/1/",
+          "https://jkanime.net/tayutama-kiss-on-my-deity/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/metal-fight-beyblade/",
+        "title": "Metal Fight Beyblade",
+        "samples": [
+          "https://jkanime.net/metal-fight-beyblade/1/",
+          "https://jkanime.net/metal-fight-beyblade/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saki/",
+        "title": "Saki",
+        "samples": [
+          "https://jkanime.net/saki/1/",
+          "https://jkanime.net/saki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shin-mazinger-shougeki-z-hen/",
+        "title": "Shin Mazinger Shougeki! Z-Hen",
+        "samples": [
+          "https://jkanime.net/shin-mazinger-shougeki-z-hen/1/",
+          "https://jkanime.net/shin-mazinger-shougeki-z-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/",
+        "title": "Senjou no Valkyria: Gallian Chronicles",
+        "samples": [
+          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/1/",
+          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tears-to-tiara/",
+        "title": "Tears to Tiara",
+        "samples": [
+          "https://jkanime.net/tears-to-tiara/1/",
+          "https://jkanime.net/tears-to-tiara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/slap-up-party-arad-senki/",
+        "title": "Arad Senki: Slap Up Party",
+        "samples": [
+          "https://jkanime.net/slap-up-party-arad-senki/1/",
+          "https://jkanime.net/slap-up-party-arad-senki/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
@@ -40830,7 +40894,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {},
       "playbackVerified": false
     },
@@ -63187,7 +63251,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -64835,7 +64899,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 26,
+      "stored": 27,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -64849,7 +64913,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/38/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
         "https://jkanime.net/bleach-sennen-kessen-hen/41/",
@@ -64868,9 +64931,9 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 25,
+        "vidhide": 26,
         "streamtape": 13,
-        "mp4upload": 13,
+        "mp4upload": 14,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -87561,7 +87624,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
@@ -110600,7 +110663,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {
         "mp4upload": 1
       },
@@ -125850,7 +125913,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 38,
+      "renewalFailed": 39,
       "families": {
         "mega": 38,
         "streamwish": 39,
@@ -125872,7 +125935,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 43,
+      "renewalFailed": 97,
       "families": {
         "mega": 97,
         "streamwish": 97,
@@ -125886,13 +125949,15 @@
     {
       "series": "https://jkanime.net/fullmetal-alchemist-brotherhood/",
       "title": "Fullmetal Alchemist: Brotherhood",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 64,
       "stored": 64,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 64,
       "families": {
         "mega": 64,
         "streamwish": 64,
@@ -125905,13 +125970,15 @@
     {
       "series": "https://jkanime.net/tayutama-kiss-on-my-deity/",
       "title": "Tayutama: Kiss on my Deity",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -125924,13 +125991,15 @@
     {
       "series": "https://jkanime.net/metal-fight-beyblade/",
       "title": "Metal Fight Beyblade",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -125944,13 +126013,15 @@
     {
       "series": "https://jkanime.net/saki/",
       "title": "Saki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -125963,13 +126034,15 @@
     {
       "series": "https://jkanime.net/shin-mazinger-shougeki-z-hen/",
       "title": "Shin Mazinger Shougeki! Z-Hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -125982,13 +126055,15 @@
     {
       "series": "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/",
       "title": "Senjou no Valkyria: Gallian Chronicles",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 24,
         "streamwish": 26,
@@ -126001,13 +126076,15 @@
     {
       "series": "https://jkanime.net/tears-to-tiara/",
       "title": "Tears to Tiara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -126020,13 +126097,15 @@
     {
       "series": "https://jkanime.net/slap-up-party-arad-senki/",
       "title": "Arad Senki: Slap Up Party",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 26,
         "streamwish": 26,
