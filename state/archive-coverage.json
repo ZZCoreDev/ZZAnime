@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T17:22:08.559914+00:00",
+  "checkedAt": "2026-10-30T17:36:49.790158+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73661,
-  "storedChapters": 71862,
-  "missingChapters": 1799,
+  "observedChapters": 73663,
+  "storedChapters": 71865,
+  "missingChapters": 1798,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/30/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/31/"
         ]
       },
       {
@@ -1862,7 +1862,7 @@
         "title": "Piano no Mori (TV)",
         "samples": [
           "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/22/"
+          "https://jkanime.net/piano-no-mori-tv/23/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/44/",
-          "https://jkanime.net/tsubasa-chronicle/45/"
+          "https://jkanime.net/tsubasa-chronicle/45/",
+          "https://jkanime.net/tsubasa-chronicle/46/"
         ]
       },
       {
@@ -5706,6 +5706,14 @@
         "title": "Galaxy Angel Music Collection: Shouen to Shien no Cassoulet",
         "samples": [
           "https://jkanime.net/galaxy-angel-music-collection-shouen-to-shien-no-cassoulet/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hack-sign/",
+        "title": ".hack//Sign",
+        "samples": [
+          "https://jkanime.net/hack-sign/27/",
+          "https://jkanime.net/hack-sign/28/"
         ]
       },
       {
@@ -10728,7 +10736,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/30/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/31/"
         ]
       },
       {
@@ -20026,7 +20034,7 @@
         "title": "Piano no Mori (TV)",
         "samples": [
           "https://jkanime.net/piano-no-mori-tv/18/",
-          "https://jkanime.net/piano-no-mori-tv/22/"
+          "https://jkanime.net/piano-no-mori-tv/23/"
         ]
       },
       {
@@ -36737,8 +36745,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/44/",
-          "https://jkanime.net/tsubasa-chronicle/45/"
+          "https://jkanime.net/tsubasa-chronicle/45/",
+          "https://jkanime.net/tsubasa-chronicle/46/"
         ]
       },
       {
@@ -38279,10 +38287,74 @@
         ]
       },
       {
+        "series": "https://jkanime.net/young-herlock-wo-oe-cosmo-warrior-zero-gaiden/",
+        "title": "Young Herlock wo Oe! Cosmo Warrior Zero Gaiden",
+        "samples": [
+          "https://jkanime.net/young-herlock-wo-oe-cosmo-warrior-zero-gaiden/1/",
+          "https://jkanime.net/young-herlock-wo-oe-cosmo-warrior-zero-gaiden/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/galaxy-angel-music-collection-shouen-to-shien-no-cassoulet/",
         "title": "Galaxy Angel Music Collection: Shouen to Shien no Cassoulet",
         "samples": [
           "https://jkanime.net/galaxy-angel-music-collection-shouen-to-shien-no-cassoulet/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ai-yori-aoshi/",
+        "title": "Ai Yori Aoshi",
+        "samples": [
+          "https://jkanime.net/ai-yori-aoshi/1/",
+          "https://jkanime.net/ai-yori-aoshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/juuni-kokuki/",
+        "title": "Juuni Kokuki",
+        "samples": [
+          "https://jkanime.net/juuni-kokuki/10/",
+          "https://jkanime.net/juuni-kokuki/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/azumanga-daioh/",
+        "title": "Azumanga Daioh",
+        "samples": [
+          "https://jkanime.net/azumanga-daioh/16/",
+          "https://jkanime.net/azumanga-daioh/19/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/digimon-frontier/",
+        "title": "Digimon Frontier",
+        "samples": [
+          "https://jkanime.net/digimon-frontier/1/",
+          "https://jkanime.net/digimon-frontier/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenshi-na-konamaiki/",
+        "title": "Tenshi na Konamaiki",
+        "samples": [
+          "https://jkanime.net/tenshi-na-konamaiki/1/",
+          "https://jkanime.net/tenshi-na-konamaiki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/full-moon-wo-sagashite/",
+        "title": "Full Moon wo Sagashite",
+        "samples": [
+          "https://jkanime.net/full-moon-wo-sagashite/30/",
+          "https://jkanime.net/full-moon-wo-sagashite/35/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hack-sign/",
+        "title": ".hack//Sign",
+        "samples": [
+          "https://jkanime.net/hack-sign/27/",
+          "https://jkanime.net/hack-sign/28/"
         ]
       },
       {
@@ -44350,7 +44422,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -61718,10 +61790,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 28,
+      "stored": 29,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/30/",
         "https://jkanime.net/kusuriya-no-hitorigoto/31/",
         "https://jkanime.net/kusuriya-no-hitorigoto/32/",
         "https://jkanime.net/kusuriya-no-hitorigoto/33/",
@@ -61751,9 +61822,9 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 25,
-        "vidhide": 21,
-        "mp4upload": 27,
+        "streamwish": 26,
+        "vidhide": 22,
+        "mp4upload": 28,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -88463,10 +88534,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/piano-no-mori-tv/18/",
-        "https://jkanime.net/piano-no-mori-tv/22/",
         "https://jkanime.net/piano-no-mori-tv/23/",
         "https://jkanime.net/piano-no-mori-tv/24/"
       ],
@@ -88474,9 +88544,9 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 20,
-        "streamwish": 20,
-        "vidhide": 20,
+        "mp4upload": 21,
+        "streamwish": 21,
+        "vidhide": 21,
         "mega": 2,
         "streamtape": 2
       },
@@ -95614,7 +95684,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -135919,9 +135989,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 43,
+      "stored": 44,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/44/",
         "https://jkanime.net/tsubasa-chronicle/45/",
         "https://jkanime.net/tsubasa-chronicle/46/",
         "https://jkanime.net/tsubasa-chronicle/47/",
@@ -135935,9 +136004,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 44,
-        "streamwish": 43,
-        "vidhide": 44,
+        "mp4upload": 45,
+        "streamwish": 44,
+        "vidhide": 45,
         "mega": 1,
         "streamtape": 1
       },
@@ -139903,7 +139972,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "families": {
         "mp4upload": 50,
         "streamwish": 48,
@@ -140178,7 +140247,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 26,
       "families": {
         "mega": 25,
         "streamwish": 26,
@@ -140210,13 +140279,15 @@
     {
       "series": "https://jkanime.net/young-herlock-wo-oe-cosmo-warrior-zero-gaiden/",
       "title": "Young Herlock wo Oe! Cosmo Warrior Zero Gaiden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -140249,13 +140320,15 @@
     {
       "series": "https://jkanime.net/ai-yori-aoshi/",
       "title": "Ai Yori Aoshi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -140268,51 +140341,57 @@
     {
       "series": "https://jkanime.net/juuni-kokuki/",
       "title": "Juuni Kokuki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 45,
       "stored": 45,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 35,
       "families": {
-        "mega": 45,
-        "streamwish": 45,
-        "vidhide": 45,
         "mp4upload": 45,
-        "streamtape": 45
+        "mega": 35,
+        "streamwish": 35,
+        "vidhide": 35,
+        "streamtape": 35
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/azumanga-daioh/",
       "title": "Azumanga Daioh",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "mp4upload": 27,
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 5,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/digimon-frontier/",
       "title": "Digimon Frontier",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -140325,13 +140404,15 @@
     {
       "series": "https://jkanime.net/tenshi-na-konamaiki/",
       "title": "Tenshi na Konamaiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 49,
         "streamwish": 50,
@@ -140344,39 +140425,47 @@
     {
       "series": "https://jkanime.net/full-moon-wo-sagashite/",
       "title": "Full Moon wo Sagashite",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 52,
+        "mp4upload": 52,
         "streamwish": 52,
         "vidhide": 52,
-        "mixdrop": 52,
-        "mp4upload": 52,
-        "streamtape": 52
+        "mega": 5,
+        "mixdrop": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hack-sign/",
       "title": ".hack//Sign",
-      "causes": [],
-      "observed": 26,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 28,
       "stored": 26,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hack-sign/27/",
+        "https://jkanime.net/hack-sign/28/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
+        "mega": 15,
+        "streamwish": 15,
+        "vidhide": 15,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 15
       },
       "playbackVerified": false
     },
