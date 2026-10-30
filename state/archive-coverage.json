@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T14:30:55.485873+00:00",
+  "checkedAt": "2026-10-30T14:42:16.057267+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73618,
-  "storedChapters": 71822,
-  "missingChapters": 1796,
+  "storedChapters": 71824,
+  "missingChapters": 1794,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -281,13 +281,6 @@
         "samples": [
           "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/13/",
           "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
-        "title": "Jigoku Sensei Nube (2025)",
-        "samples": [
-          "https://jkanime.net/jigoku-sensei-nube-2025/20/"
         ]
       },
       {
@@ -5482,8 +5475,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/31/",
-          "https://jkanime.net/tsubasa-chronicle/32/"
+          "https://jkanime.net/tsubasa-chronicle/32/",
+          "https://jkanime.net/tsubasa-chronicle/33/"
         ]
       },
       {
@@ -7496,13 +7489,6 @@
         "samples": [
           "https://jkanime.net/ginga-tokkyuu-milkysubway/1/",
           "https://jkanime.net/ginga-tokkyuu-milkysubway/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
-        "title": "Jigoku Sensei Nube (2025)",
-        "samples": [
-          "https://jkanime.net/jigoku-sensei-nube-2025/20/"
         ]
       },
       {
@@ -36733,8 +36719,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/31/",
-          "https://jkanime.net/tsubasa-chronicle/32/"
+          "https://jkanime.net/tsubasa-chronicle/32/",
+          "https://jkanime.net/tsubasa-chronicle/33/"
         ]
       },
       {
@@ -37057,6 +37043,54 @@
         "samples": [
           "https://jkanime.net/bleach/1/",
           "https://jkanime.net/bleach/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/school-rumble/",
+        "title": "School Rumble",
+        "samples": [
+          "https://jkanime.net/school-rumble/1/",
+          "https://jkanime.net/school-rumble/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fantastic-children/",
+        "title": "Fantastic Children",
+        "samples": [
+          "https://jkanime.net/fantastic-children/1/",
+          "https://jkanime.net/fantastic-children/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/samurai-gun/",
+        "title": "Samurai Gun",
+        "samples": [
+          "https://jkanime.net/samurai-gun/1/",
+          "https://jkanime.net/samurai-gun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/utakata/",
+        "title": "Uta∽Kata",
+        "samples": [
+          "https://jkanime.net/utakata/1/",
+          "https://jkanime.net/utakata/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha/",
+        "title": "Mahou Shoujo Lyrical Nanoha",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha/1/",
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rockman-exe-stream/",
+        "title": "Rockman EXE Stream",
+        "samples": [
+          "https://jkanime.net/rockman-exe-stream/1/",
+          "https://jkanime.net/rockman-exe-stream/10/"
         ]
       },
       {
@@ -50556,21 +50590,16 @@
     {
       "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
       "title": "Jigoku Sensei Nube (2025)",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 26,
-      "stored": 25,
-      "missing": [
-        "https://jkanime.net/jigoku-sensei-nube-2025/20/"
-      ],
+      "stored": 26,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mp4upload": 24,
-        "streamwish": 21,
+        "mp4upload": 25,
+        "streamwish": 22,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -112959,7 +112988,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "mp4upload": 2
       },
@@ -128128,7 +128157,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {},
       "playbackVerified": false
     },
@@ -134859,9 +134888,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 30,
+      "stored": 31,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/31/",
         "https://jkanime.net/tsubasa-chronicle/32/",
         "https://jkanime.net/tsubasa-chronicle/33/",
         "https://jkanime.net/tsubasa-chronicle/34/",
@@ -134888,9 +134916,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 31,
-        "streamwish": 30,
-        "vidhide": 31,
+        "mp4upload": 32,
+        "streamwish": 31,
+        "vidhide": 32,
         "mega": 1,
         "streamtape": 1
       },
@@ -135763,7 +135791,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 195,
+      "renewalFailed": 365,
       "families": {
         "mega": 365,
         "streamwish": 366,
@@ -135777,13 +135805,15 @@
     {
       "series": "https://jkanime.net/school-rumble/",
       "title": "School Rumble",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 25,
         "streamwish": 26,
@@ -135796,33 +135826,37 @@
     {
       "series": "https://jkanime.net/fantastic-children/",
       "title": "Fantastic Children",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 26,
+        "mega": 4,
         "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 4,
+        "mixdrop": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/samurai-gun/",
       "title": "Samurai Gun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135836,13 +135870,15 @@
     {
       "series": "https://jkanime.net/utakata/",
       "title": "Uta∽Kata",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135856,13 +135892,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha/",
       "title": "Mahou Shoujo Lyrical Nanoha",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -135875,13 +135913,15 @@
     {
       "series": "https://jkanime.net/rockman-exe-stream/",
       "title": "Rockman EXE Stream",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 34,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -145873,7 +145913,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mega": 6,
         "streamwish": 6,
