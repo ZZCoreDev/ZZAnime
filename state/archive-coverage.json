@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T19:42:14.567060+00:00",
+  "checkedAt": "2026-10-30T19:53:00.063780+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73665,
-  "storedChapters": 71888,
+  "observedChapters": 73666,
+  "storedChapters": 71889,
   "missingChapters": 1777,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/39/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/40/"
         ]
       },
       {
@@ -6250,6 +6250,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
+        "title": "Tougen Anki: Nikko Kegon no Taki-hen",
+        "samples": [
+          "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/5/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
         "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
         "samples": [
@@ -10727,7 +10734,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/39/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/40/"
         ]
       },
       {
@@ -39091,7 +39098,24 @@
         "series": "https://jkanime.net/gto/",
         "title": "Great Teacher Onizuka",
         "samples": [
-          "https://jkanime.net/gto/1/"
+          "https://jkanime.net/gto/1/",
+          "https://jkanime.net/gto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster-farm-enbanseki-no-himitsu/",
+        "title": "Monster Farm: Enbanseki no Himitsu",
+        "samples": [
+          "https://jkanime.net/monster-farm-enbanseki-no-himitsu/1/",
+          "https://jkanime.net/monster-farm-enbanseki-no-himitsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/digimon-digital-monsters/",
+        "title": "Digimon Adventure",
+        "samples": [
+          "https://jkanime.net/digimon-digital-monsters/1/",
+          "https://jkanime.net/digimon-digital-monsters/10/"
         ]
       },
       {
@@ -39099,6 +39123,62 @@
         "title": "Digimon Adventure Movie",
         "samples": [
           "https://jkanime.net/digimon-adventure-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rurouni-kenshin-tsuiokuhen/",
+        "title": "Rurouni Kenshin: Tsuiokuhen",
+        "samples": [
+          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/2/",
+          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/iketeru-futari/",
+        "title": "Iketeru Futari",
+        "samples": [
+          "https://jkanime.net/iketeru-futari/1/",
+          "https://jkanime.net/iketeru-futari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yoiko/",
+        "title": "Yoiko",
+        "samples": [
+          "https://jkanime.net/yoiko/12/",
+          "https://jkanime.net/yoiko/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bubblegum-crisis-tokyo-2040/",
+        "title": "Bubblegum Crisis Tokyo 2040",
+        "samples": [
+          "https://jkanime.net/bubblegum-crisis-tokyo-2040/1/",
+          "https://jkanime.net/bubblegum-crisis-tokyo-2040/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saber-marionette-j-to-x/",
+        "title": "Saber Marionette J to X",
+        "samples": [
+          "https://jkanime.net/saber-marionette-j-to-x/1/",
+          "https://jkanime.net/saber-marionette-j-to-x/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/orphen/",
+        "title": "Majutsushi Orphen",
+        "samples": [
+          "https://jkanime.net/orphen/1/",
+          "https://jkanime.net/orphen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/karekano/",
+        "title": "Kare Kano",
+        "samples": [
+          "https://jkanime.net/karekano/1/",
+          "https://jkanime.net/karekano/10/"
         ]
       },
       {
@@ -39113,6 +39193,14 @@
         "title": "Pokemon Movie 01: Mewtwo no Gyakushuu",
         "samples": [
           "https://jkanime.net/pokemon-movie-01-mewtwo-no-gyakushuu/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/serial-experiments-lain/",
+        "title": "Serial Experiments Lain",
+        "samples": [
+          "https://jkanime.net/serial-experiments-lain/1/",
+          "https://jkanime.net/serial-experiments-lain/10/"
         ]
       },
       {
@@ -62393,10 +62481,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 37,
+      "stored": 38,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/39/",
         "https://jkanime.net/kusuriya-no-hitorigoto/40/",
         "https://jkanime.net/kusuriya-no-hitorigoto/41/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
@@ -62417,8 +62504,8 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 31,
-        "vidhide": 25,
+        "streamwish": 32,
+        "vidhide": 26,
         "mp4upload": 35,
         "streamtape": 22
       },
@@ -143114,7 +143201,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 43,
       "families": {
         "mega": 43,
         "streamwish": 43,
@@ -143127,13 +143214,15 @@
     {
       "series": "https://jkanime.net/monster-farm-enbanseki-no-himitsu/",
       "title": "Monster Farm: Enbanseki no Himitsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 48,
       "families": {
         "mega": 48,
         "streamwish": 48,
@@ -143147,13 +143236,15 @@
     {
       "series": "https://jkanime.net/digimon-digital-monsters/",
       "title": "Digimon Adventure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 54,
       "stored": 54,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 54,
       "families": {
         "mega": 54,
         "streamwish": 54,
@@ -143193,43 +143284,43 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "mp4upload": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/rurouni-kenshin-tsuiokuhen/",
       "title": "Rurouni Kenshin: Tsuiokuhen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 4,
         "streamwish": 4,
         "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "mega": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/iketeru-futari/",
       "title": "Iketeru Futari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -143242,40 +143333,44 @@
     {
       "series": "https://jkanime.net/yoiko/",
       "title": "Yoiko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 20,
-        "streamwish": 20,
-        "vidhide": 20,
-        "mixdrop": 20,
         "mp4upload": 20,
-        "streamtape": 20
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/bubblegum-crisis-tokyo-2040/",
       "title": "Bubblegum Crisis Tokyo 2040",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 26,
+        "mega": 11,
         "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 11,
+        "mixdrop": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -143302,13 +143397,15 @@
     {
       "series": "https://jkanime.net/saber-marionette-j-to-x/",
       "title": "Saber Marionette J to X",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -143321,13 +143418,15 @@
     {
       "series": "https://jkanime.net/orphen/",
       "title": "Majutsushi Orphen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -143340,13 +143439,15 @@
     {
       "series": "https://jkanime.net/karekano/",
       "title": "Kare Kano",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -143397,13 +143498,15 @@
     {
       "series": "https://jkanime.net/serial-experiments-lain/",
       "title": "Serial Experiments Lain",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
@@ -147552,10 +147655,14 @@
     {
       "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
       "title": "Tougen Anki: Nikko Kegon no Taki-hen",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
