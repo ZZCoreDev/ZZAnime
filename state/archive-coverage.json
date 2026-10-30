@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T21:21:48.622882+00:00",
+  "checkedAt": "2026-10-30T21:35:08.094986+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73714,
-  "storedChapters": 71894,
-  "missingChapters": 1820,
+  "storedChapters": 71895,
+  "missingChapters": 1819,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5922,8 +5922,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/11/",
-          "https://jkanime.net/taiho-shichau-zo/12/"
+          "https://jkanime.net/taiho-shichau-zo/12/",
+          "https://jkanime.net/taiho-shichau-zo/13/"
         ]
       },
       {
@@ -39598,8 +39598,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/11/",
-          "https://jkanime.net/taiho-shichau-zo/12/"
+          "https://jkanime.net/taiho-shichau-zo/12/",
+          "https://jkanime.net/taiho-shichau-zo/13/"
         ]
       },
       {
@@ -39744,6 +39744,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ushio-to-tora-ova/",
+        "title": "Ushio to Tora OVA",
+        "samples": [
+          "https://jkanime.net/ushio-to-tora-ova/1/",
+          "https://jkanime.net/ushio-to-tora-ova/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/",
         "title": "Mobile Suit Gundam 0083: The Fading Light of Zeon",
         "samples": [
@@ -39769,6 +39777,14 @@
         "title": "Dragon Ball Z Movie 06: Return of Cooler",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-06-return-of-cooler/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sailor-moon/",
+        "title": "Sailor Moon",
+        "samples": [
+          "https://jkanime.net/sailor-moon/100/",
+          "https://jkanime.net/sailor-moon/101/"
         ]
       },
       {
@@ -145045,9 +145061,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 5,
+      "stored": 6,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/11/",
         "https://jkanime.net/taiho-shichau-zo/12/",
         "https://jkanime.net/taiho-shichau-zo/13/",
         "https://jkanime.net/taiho-shichau-zo/14/",
@@ -145102,7 +145117,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 4,
+        "mp4upload": 5,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -145496,7 +145511,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 74,
+      "renewalFailed": 112,
       "families": {
         "mega": 112,
         "streamwish": 112,
@@ -145509,13 +145524,15 @@
     {
       "series": "https://jkanime.net/ushio-to-tora-ova/",
       "title": "Ushio to Tora OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -145604,19 +145621,21 @@
     {
       "series": "https://jkanime.net/sailor-moon/",
       "title": "Sailor Moon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 200,
       "stored": 200,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 164,
       "families": {
-        "mega": 197,
-        "streamwish": 200,
-        "vidhide": 200,
         "mp4upload": 200,
-        "streamtape": 200
+        "vidhide": 187,
+        "streamwish": 189,
+        "mega": 179,
+        "streamtape": 182
       },
       "playbackVerified": false
     },
