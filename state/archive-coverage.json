@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T06:57:01.373322+00:00",
+  "checkedAt": "2026-10-30T07:08:50.343361+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73560,
   "storedChapters": 71741,
@@ -33579,7 +33579,39 @@
         "title": "Giant Killing",
         "samples": [
           "https://jkanime.net/giant-killing/1/",
-          "https://jkanime.net/giant-killing/2/"
+          "https://jkanime.net/giant-killing/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hakuouki/",
+        "title": "Hakuouki Shinsengumi Kitan",
+        "samples": [
+          "https://jkanime.net/hakuouki/1/",
+          "https://jkanime.net/hakuouki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arakawa-under-the-bridge/",
+        "title": "Arakawa Under the Bridge",
+        "samples": [
+          "https://jkanime.net/arakawa-under-the-bridge/1/",
+          "https://jkanime.net/arakawa-under-the-bridge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/metal-fight-beyblade-baku/",
+        "title": "Metal Fight Beyblade: Baku",
+        "samples": [
+          "https://jkanime.net/metal-fight-beyblade-baku/1/",
+          "https://jkanime.net/metal-fight-beyblade-baku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ichiban-ushiro-no-daimaou/",
+        "title": "Ichiban Ushiro no Daimaou",
+        "samples": [
+          "https://jkanime.net/ichiban-ushiro-no-daimaou/1/",
+          "https://jkanime.net/ichiban-ushiro-no-daimaou/10/"
         ]
       },
       {
@@ -33591,10 +33623,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kaichou-wa-maid-sama/",
+        "title": "Kaichou wa Maid-sama!",
+        "samples": [
+          "https://jkanime.net/kaichou-wa-maid-sama/1/",
+          "https://jkanime.net/kaichou-wa-maid-sama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rainbow-nisha-rokubou-no-shichinin/",
+        "title": "Rainbow: Nisha Rokubou no Shichinin",
+        "samples": [
+          "https://jkanime.net/rainbow-nisha-rokubou-no-shichinin/1/",
+          "https://jkanime.net/rainbow-nisha-rokubou-no-shichinin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/b-gata-h-kei/",
+        "title": "B Gata H Kei",
+        "samples": [
+          "https://jkanime.net/b-gata-h-kei/1/",
+          "https://jkanime.net/b-gata-h-kei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/heroman/",
+        "title": "Heroman",
+        "samples": [
+          "https://jkanime.net/heroman/1/",
+          "https://jkanime.net/heroman/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/one-piece-strong-world-episode-0/",
         "title": "One Piece: Strong World Episode 0",
         "samples": [
           "https://jkanime.net/one-piece-strong-world-episode-0/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-world-series/",
+        "title": "Hetalia World Series",
+        "samples": [
+          "https://jkanime.net/hetalia-world-series/1/",
+          "https://jkanime.net/hetalia-world-series/10/"
         ]
       },
       {
@@ -123102,7 +123174,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -123115,13 +123187,15 @@
     {
       "series": "https://jkanime.net/hakuouki/",
       "title": "Hakuouki Shinsengumi Kitan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123134,13 +123208,15 @@
     {
       "series": "https://jkanime.net/arakawa-under-the-bridge/",
       "title": "Arakawa Under the Bridge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -123153,13 +123229,15 @@
     {
       "series": "https://jkanime.net/metal-fight-beyblade-baku/",
       "title": "Metal Fight Beyblade: Baku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -123173,13 +123251,15 @@
     {
       "series": "https://jkanime.net/ichiban-ushiro-no-daimaou/",
       "title": "Ichiban Ushiro no Daimaou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123205,7 +123285,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 52,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -123218,13 +123298,15 @@
     {
       "series": "https://jkanime.net/kaichou-wa-maid-sama/",
       "title": "Kaichou wa Maid-sama!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -123238,13 +123320,15 @@
     {
       "series": "https://jkanime.net/rainbow-nisha-rokubou-no-shichinin/",
       "title": "Rainbow: Nisha Rokubou no Shichinin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -123272,13 +123356,15 @@
     {
       "series": "https://jkanime.net/b-gata-h-kei/",
       "title": "B Gata H Kei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -123291,13 +123377,15 @@
     {
       "series": "https://jkanime.net/heroman/",
       "title": "Heroman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -123329,13 +123417,15 @@
     {
       "series": "https://jkanime.net/hetalia-world-series/",
       "title": "Hetalia World Series",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 42,
       "families": {
         "mega": 48,
         "streamwish": 48,
@@ -140254,7 +140344,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 32,
         "streamwish": 32,
