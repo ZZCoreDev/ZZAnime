@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T01:37:48.100531+00:00",
+  "checkedAt": "2026-10-30T01:51:24.855009+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
   "storedChapters": 71712,
@@ -29298,7 +29298,95 @@
         "title": "Teekyuu 3",
         "samples": [
           "https://jkanime.net/teekyuu-3/1/",
-          "https://jkanime.net/teekyuu-3/2/"
+          "https://jkanime.net/teekyuu-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nagi-no-asukara/",
+        "title": "Nagi no Asukara",
+        "samples": [
+          "https://jkanime.net/nagi-no-asukara/1/",
+          "https://jkanime.net/nagi-no-asukara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kill-la-kill/",
+        "title": "Kill la Kill",
+        "samples": [
+          "https://jkanime.net/kill-la-kill/1/",
+          "https://jkanime.net/kill-la-kill/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/golden-time/",
+        "title": "Golden Time",
+        "samples": [
+          "https://jkanime.net/golden-time/1/",
+          "https://jkanime.net/golden-time/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strike-the-blood/",
+        "title": "Strike the Blood",
+        "samples": [
+          "https://jkanime.net/strike-the-blood/1/",
+          "https://jkanime.net/strike-the-blood/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/outbreak-company/",
+        "title": "Outbreak Company",
+        "samples": [
+          "https://jkanime.net/outbreak-company/1/",
+          "https://jkanime.net/outbreak-company/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-ni/",
+        "title": "Yuushibu",
+        "samples": [
+          "https://jkanime.net/yuusha-ni/1/",
+          "https://jkanime.net/yuusha-ni/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/white-album2/",
+        "title": "White Album 2 ( 2013)",
+        "samples": [
+          "https://jkanime.net/white-album2/1/",
+          "https://jkanime.net/white-album2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/diamond-no-ace/",
+        "title": "Diamond no Ace",
+        "samples": [
+          "https://jkanime.net/diamond-no-ace/1/",
+          "https://jkanime.net/diamond-no-ace/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/is-infinite-stratos-2/",
+        "title": "IS: Infinite Stratos 2",
+        "samples": [
+          "https://jkanime.net/is-infinite-stratos-2/1/",
+          "https://jkanime.net/is-infinite-stratos-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-no-kanata/",
+        "title": "Kyoukai no Kanata",
+        "samples": [
+          "https://jkanime.net/kyoukai-no-kanata/1/",
+          "https://jkanime.net/kyoukai-no-kanata/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/coppelion/",
+        "title": "Coppelion",
+        "samples": [
+          "https://jkanime.net/coppelion/1/",
+          "https://jkanime.net/coppelion/2/"
         ]
       },
       {
@@ -61108,7 +61196,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "families": {
         "mega": 13,
         "streamwish": 14,
@@ -108076,7 +108164,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -108089,13 +108177,15 @@
     {
       "series": "https://jkanime.net/nagi-no-asukara/",
       "title": "Nagi no Asukara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -108108,13 +108198,15 @@
     {
       "series": "https://jkanime.net/kill-la-kill/",
       "title": "Kill la Kill",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -108127,13 +108219,15 @@
     {
       "series": "https://jkanime.net/golden-time/",
       "title": "Golden Time",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -108146,13 +108240,15 @@
     {
       "series": "https://jkanime.net/strike-the-blood/",
       "title": "Strike the Blood",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -108165,13 +108261,15 @@
     {
       "series": "https://jkanime.net/outbreak-company/",
       "title": "Outbreak Company",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -108184,13 +108282,15 @@
     {
       "series": "https://jkanime.net/yuusha-ni/",
       "title": "Yuushibu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -108203,13 +108303,15 @@
     {
       "series": "https://jkanime.net/white-album2/",
       "title": "White Album 2 ( 2013)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -108222,32 +108324,36 @@
     {
       "series": "https://jkanime.net/diamond-no-ace/",
       "title": "Diamond no Ace",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 75,
       "stored": 75,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 69,
       "families": {
-        "mega": 75,
+        "mega": 69,
         "streamwish": 75,
-        "vidhide": 75,
-        "mp4upload": 75,
-        "streamtape": 75
+        "vidhide": 76,
+        "mp4upload": 76,
+        "streamtape": 69
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/is-infinite-stratos-2/",
       "title": "IS: Infinite Stratos 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -108260,13 +108366,15 @@
     {
       "series": "https://jkanime.net/kyoukai-no-kanata/",
       "title": "Kyoukai no Kanata",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -108279,13 +108387,15 @@
     {
       "series": "https://jkanime.net/coppelion/",
       "title": "Coppelion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 13,
         "streamwish": 13,
