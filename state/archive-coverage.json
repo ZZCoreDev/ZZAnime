@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T04:42:37.255484+00:00",
+  "checkedAt": "2026-10-30T04:56:19.623203+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
-  "storedChapters": 71727,
-  "missingChapters": 1814,
+  "storedChapters": 71729,
+  "missingChapters": 1812,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -32182,7 +32182,15 @@
         "title": "UN-GO",
         "samples": [
           "https://jkanime.net/un-go/1/",
-          "https://jkanime.net/un-go/2/"
+          "https://jkanime.net/un-go/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/guilty-crown/",
+        "title": "Guilty Crown",
+        "samples": [
+          "https://jkanime.net/guilty-crown/1/",
+          "https://jkanime.net/guilty-crown/10/"
         ]
       },
       {
@@ -32193,11 +32201,123 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mirai-nikki/",
+        "title": "Mirai Nikki",
+        "samples": [
+          "https://jkanime.net/mirai-nikki/1/",
+          "https://jkanime.net/mirai-nikki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ben-to/",
+        "title": "Ben-To",
+        "samples": [
+          "https://jkanime.net/ben-to/1/",
+          "https://jkanime.net/ben-to/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shakugan-no-shana-iii-final/",
+        "title": "Shakugan no Shana III (Final)",
+        "samples": [
+          "https://jkanime.net/shakugan-no-shana-iii-final/1/",
+          "https://jkanime.net/shakugan-no-shana-iii-final/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai/",
+        "title": "Boku wa Tomodachi ga Sukunai",
+        "samples": [
+          "https://jkanime.net/boku-wa-tomodachi-ga-sukunai/1/",
+          "https://jkanime.net/boku-wa-tomodachi-ga-sukunai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/persona-4-the-animation/",
+        "title": "Persona 4 The Animation",
+        "samples": [
+          "https://jkanime.net/persona-4-the-animation/1/",
+          "https://jkanime.net/persona-4-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maken-ki/",
+        "title": "Maken-Ki!",
+        "samples": [
+          "https://jkanime.net/maken-ki/1/",
+          "https://jkanime.net/maken-ki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mashiroiro-symphony/",
+        "title": "Mashiro-iro Symphony: The Color of Lovers",
+        "samples": [
+          "https://jkanime.net/mashiroiro-symphony/1/",
+          "https://jkanime.net/mashiroiro-symphony/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chihayafuru/",
+        "title": "Chihayafuru",
+        "samples": [
+          "https://jkanime.net/chihayafuru/1/",
+          "https://jkanime.net/chihayafuru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-to-boku/",
+        "title": "Kimi to Boku.",
+        "samples": [
+          "https://jkanime.net/kimi-to-boku/1/",
+          "https://jkanime.net/kimi-to-boku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tamayura-hitotose/",
+        "title": "Tamayura: Hitotose",
+        "samples": [
+          "https://jkanime.net/tamayura-hitotose/1/",
+          "https://jkanime.net/tamayura-hitotose/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/manyuu-hikenchou-specials/",
+        "title": "Manyuu Hikenchou Specials",
+        "samples": [
+          "https://jkanime.net/manyuu-hikenchou-specials/1/",
+          "https://jkanime.net/manyuu-hikenchou-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maji-de-watashi-ni-koi-shinasai/",
+        "title": "Maji de Watashi ni Koi Shinasai!",
+        "samples": [
+          "https://jkanime.net/maji-de-watashi-ni-koi-shinasai/1/",
+          "https://jkanime.net/maji-de-watashi-ni-koi-shinasai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-senjou-no-horizon/",
+        "title": "Kyoukai Senjou no Horizon",
+        "samples": [
+          "https://jkanime.net/kyoukai-senjou-no-horizon/1/",
+          "https://jkanime.net/kyoukai-senjou-no-horizon/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hunter-x-hunter-2011-latino/",
         "title": "Hunter x Hunter (2011) Latino",
         "samples": [
           "https://jkanime.net/hunter-x-hunter-2011-latino/1/",
           "https://jkanime.net/hunter-x-hunter-2011-latino/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hunter-x-hunter-2011/",
+        "title": "Hunter x Hunter (2011)",
+        "samples": [
+          "https://jkanime.net/hunter-x-hunter-2011/13/",
+          "https://jkanime.net/hunter-x-hunter-2011/14/"
         ]
       },
       {
@@ -63085,7 +63205,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -63099,7 +63219,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/32/",
         "https://jkanime.net/bleach-sennen-kessen-hen/33/",
         "https://jkanime.net/bleach-sennen-kessen-hen/34/",
         "https://jkanime.net/bleach-sennen-kessen-hen/35/",
@@ -63124,9 +63243,9 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 20,
+        "vidhide": 21,
         "streamtape": 13,
-        "mp4upload": 9,
+        "mp4upload": 10,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -75473,7 +75592,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -80930,7 +81049,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -80943,7 +81062,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/21/",
         "https://jkanime.net/fight-league-gear-gadget-generators/22/",
         "https://jkanime.net/fight-league-gear-gadget-generators/23/",
         "https://jkanime.net/fight-league-gear-gadget-generators/24/",
@@ -80961,7 +81079,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 2
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
@@ -92238,7 +92356,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -96393,7 +96511,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -118104,7 +118222,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -118117,13 +118235,15 @@
     {
       "series": "https://jkanime.net/guilty-crown/",
       "title": "Guilty Crown",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -118156,13 +118276,15 @@
     {
       "series": "https://jkanime.net/mirai-nikki/",
       "title": "Mirai Nikki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -118175,13 +118297,15 @@
     {
       "series": "https://jkanime.net/ben-to/",
       "title": "Ben-To",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118194,13 +118318,15 @@
     {
       "series": "https://jkanime.net/shakugan-no-shana-iii-final/",
       "title": "Shakugan no Shana III (Final)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -118229,13 +118355,15 @@
     {
       "series": "https://jkanime.net/boku-wa-tomodachi-ga-sukunai/",
       "title": "Boku wa Tomodachi ga Sukunai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118248,13 +118376,15 @@
     {
       "series": "https://jkanime.net/persona-4-the-animation/",
       "title": "Persona 4 The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -118267,13 +118397,15 @@
     {
       "series": "https://jkanime.net/maken-ki/",
       "title": "Maken-Ki!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118286,13 +118418,15 @@
     {
       "series": "https://jkanime.net/mashiroiro-symphony/",
       "title": "Mashiro-iro Symphony: The Color of Lovers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118305,13 +118439,15 @@
     {
       "series": "https://jkanime.net/chihayafuru/",
       "title": "Chihayafuru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -118324,13 +118460,15 @@
     {
       "series": "https://jkanime.net/kimi-to-boku/",
       "title": "Kimi to Boku.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -118344,32 +118482,36 @@
     {
       "series": "https://jkanime.net/tamayura-hitotose/",
       "title": "Tamayura: Hitotose",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 12,
+        "mega": 8,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/manyuu-hikenchou-specials/",
       "title": "Manyuu Hikenchou Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -118382,13 +118524,15 @@
     {
       "series": "https://jkanime.net/maji-de-watashi-ni-koi-shinasai/",
       "title": "Maji de Watashi ni Koi Shinasai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118401,13 +118545,15 @@
     {
       "series": "https://jkanime.net/kyoukai-senjou-no-horizon/",
       "title": "Kyoukai Senjou no Horizon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -118440,19 +118586,21 @@
     {
       "series": "https://jkanime.net/hunter-x-hunter-2011/",
       "title": "Hunter x Hunter (2011)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 148,
       "stored": 148,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 33,
       "families": {
-        "mega": 148,
         "streamwish": 148,
         "vidhide": 148,
-        "mp4upload": 148,
-        "streamtape": 148
+        "mp4upload": 139,
+        "mega": 130,
+        "streamtape": 130
       },
       "playbackVerified": false
     },
