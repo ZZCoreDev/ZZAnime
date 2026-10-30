@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T11:55:23.256604+00:00",
+  "checkedAt": "2026-10-30T12:09:32.263588+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73568,
-  "storedChapters": 71801,
-  "missingChapters": 1767,
+  "observedChapters": 73569,
+  "storedChapters": 71805,
+  "missingChapters": 1764,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -410,8 +410,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/"
         ]
       },
       {
@@ -5362,6 +5362,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/009-1/",
+        "title": "009-1",
+        "samples": [
+          "https://jkanime.net/009-1/13/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sky-girls-ova/",
         "title": "Sky Girls OVA",
         "samples": [
@@ -8892,8 +8899,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/"
         ]
       },
       {
@@ -35944,7 +35951,94 @@
         "title": "Code Geass: Hangyaku no Lelouch",
         "samples": [
           "https://jkanime.net/code-geass-hangyaku-no-lelouch/1/",
-          "https://jkanime.net/code-geass-hangyaku-no-lelouch/2/"
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jigoku-shoujo-futakomori/",
+        "title": "Jigoku Shoujo Futakomori",
+        "samples": [
+          "https://jkanime.net/jigoku-shoujo-futakomori/1/",
+          "https://jkanime.net/jigoku-shoujo-futakomori/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/009-1/",
+        "title": "009-1",
+        "samples": [
+          "https://jkanime.net/009-1/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanon2006/",
+        "title": "Kanon (2006)",
+        "samples": [
+          "https://jkanime.net/kanon2006/1/",
+          "https://jkanime.net/kanon2006/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/busou-renkin/",
+        "title": "Busou Renkin",
+        "samples": [
+          "https://jkanime.net/busou-renkin/1/",
+          "https://jkanime.net/busou-renkin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/",
+        "title": "Ginga Tetsudou Monogatari: Eien e no Bunkiten",
+        "samples": [
+          "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/1/",
+          "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yoake-mae-yori-ruriiro-na/",
+        "title": "Yoake Mae yori Ruriiro na",
+        "samples": [
+          "https://jkanime.net/yoake-mae-yori-ruriiro-na/1/",
+          "https://jkanime.net/yoake-mae-yori-ruriiro-na/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/death-note/",
+        "title": "Death Note",
+        "samples": [
+          "https://jkanime.net/death-note/1/",
+          "https://jkanime.net/death-note/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yamato-nadeshiko-shichi-henge/",
+        "title": "Yamato Nadeshiko Shichi Henge",
+        "samples": [
+          "https://jkanime.net/yamato-nadeshiko-shichi-henge/1/",
+          "https://jkanime.net/yamato-nadeshiko-shichi-henge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ghost-hunt/",
+        "title": "Ghost Hunt",
+        "samples": [
+          "https://jkanime.net/ghost-hunt/1/",
+          "https://jkanime.net/ghost-hunt/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-lagoon-the-second-barrage/",
+        "title": "Black Lagoon: The Second Barrage",
+        "samples": [
+          "https://jkanime.net/black-lagoon-the-second-barrage/1/",
+          "https://jkanime.net/black-lagoon-the-second-barrage/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/d-gray-man/",
+        "title": "D.Gray-man",
+        "samples": [
+          "https://jkanime.net/d-gray-man/1/",
+          "https://jkanime.net/d-gray-man/10/"
         ]
       },
       {
@@ -54359,9 +54453,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
@@ -54371,9 +54464,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 17,
+        "streamwish": 18,
         "vidhide": 13,
-        "mp4upload": 19,
+        "mp4upload": 20,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -66256,7 +66349,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 32,
+      "stored": 33,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -66272,7 +66365,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/46/",
         "https://jkanime.net/bleach-sennen-kessen-hen/47/",
         "https://jkanime.net/bleach-sennen-kessen-hen/48/",
         "https://jkanime.net/bleach-sennen-kessen-hen/49/"
@@ -66282,10 +66374,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 20,
+        "streamwish": 21,
         "vidhide": 29,
         "streamtape": 13,
-        "mp4upload": 19,
+        "mp4upload": 20,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -72210,14 +72302,13 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
         "https://jkanime.net/megaton-kyuu-musashi/18/",
         "https://jkanime.net/megaton-kyuu-musashi/19/",
         "https://jkanime.net/megaton-kyuu-musashi/20/",
-        "https://jkanime.net/megaton-kyuu-musashi/21/",
         "https://jkanime.net/megaton-kyuu-musashi/22/",
         "https://jkanime.net/megaton-kyuu-musashi/23/",
         "https://jkanime.net/megaton-kyuu-musashi/24/",
@@ -72230,7 +72321,7 @@
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
-        "mp4upload": 15,
+        "mp4upload": 16,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -95376,7 +95467,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -99190,7 +99281,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 3
       },
@@ -99683,7 +99774,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 3,
         "streamwish": 3,
@@ -103432,11 +103523,10 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
-        "https://jkanime.net/ninja-slayer-from-animation/15/",
         "https://jkanime.net/ninja-slayer-from-animation/16/",
         "https://jkanime.net/ninja-slayer-from-animation/17/",
         "https://jkanime.net/ninja-slayer-from-animation/18/",
@@ -103461,7 +103551,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "streamwish": 4
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -112000,7 +112090,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "mp4upload": 2
       },
@@ -131787,7 +131877,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -131800,13 +131890,15 @@
     {
       "series": "https://jkanime.net/jigoku-shoujo-futakomori/",
       "title": "Jigoku Shoujo Futakomori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -131819,33 +131911,40 @@
     {
       "series": "https://jkanime.net/009-1/",
       "title": "009-1",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/009-1/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
+        "mega": 2,
+        "streamwish": 5,
+        "vidhide": 2,
+        "mixdrop": 2,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kanon2006/",
       "title": "Kanon (2006)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -131858,13 +131957,15 @@
     {
       "series": "https://jkanime.net/busou-renkin/",
       "title": "Busou Renkin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -131877,13 +131978,15 @@
     {
       "series": "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/",
       "title": "Ginga Tetsudou Monogatari: Eien e no Bunkiten",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -131897,13 +132000,15 @@
     {
       "series": "https://jkanime.net/yoake-mae-yori-ruriiro-na/",
       "title": "Yoake Mae yori Ruriiro na",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -131916,13 +132021,15 @@
     {
       "series": "https://jkanime.net/death-note/",
       "title": "Death Note",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 37,
       "stored": 37,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 37,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -131936,13 +132043,15 @@
     {
       "series": "https://jkanime.net/yamato-nadeshiko-shichi-henge/",
       "title": "Yamato Nadeshiko Shichi Henge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -131955,13 +132064,15 @@
     {
       "series": "https://jkanime.net/ghost-hunt/",
       "title": "Ghost Hunt",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -131975,13 +132086,15 @@
     {
       "series": "https://jkanime.net/black-lagoon-the-second-barrage/",
       "title": "Black Lagoon: The Second Barrage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -131994,13 +132107,15 @@
     {
       "series": "https://jkanime.net/d-gray-man/",
       "title": "D.Gray-man",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 103,
       "stored": 103,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 56,
       "families": {
         "mega": 103,
         "streamwish": 103,
