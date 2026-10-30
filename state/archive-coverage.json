@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T23:42:25.622149+00:00",
+  "checkedAt": "2026-10-30T23:56:58.437468+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73752,
-  "storedChapters": 72080,
-  "missingChapters": 1672,
+  "observedChapters": 73753,
+  "storedChapters": 72098,
+  "missingChapters": 1655,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -344,8 +344,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/17/",
-          "https://jkanime.net/sakamoto-days/18/"
+          "https://jkanime.net/sakamoto-days/18/",
+          "https://jkanime.net/sakamoto-days/19/"
         ]
       },
       {
@@ -366,8 +366,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/19/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/20/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/20/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/21/"
         ]
       },
       {
@@ -616,16 +616,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/15/",
-          "https://jkanime.net/sugar-apple-fairy-tale/16/"
+          "https://jkanime.net/sugar-apple-fairy-tale/16/",
+          "https://jkanime.net/sugar-apple-fairy-tale/17/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/15/",
-          "https://jkanime.net/spy-kyoushitsu/16/"
+          "https://jkanime.net/spy-kyoushitsu/16/",
+          "https://jkanime.net/spy-kyoushitsu/17/"
         ]
       },
       {
@@ -851,8 +851,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/21/",
-          "https://jkanime.net/orient/22/"
+          "https://jkanime.net/orient/22/",
+          "https://jkanime.net/orient/23/"
         ]
       },
       {
@@ -909,7 +909,7 @@
         "series": "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/",
         "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
         "samples": [
-          "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/1/"
+          "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/2/"
         ]
       },
       {
@@ -1692,8 +1692,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/12/",
-          "https://jkanime.net/sora-to-umi-no-aida/2/"
+          "https://jkanime.net/sora-to-umi-no-aida/2/",
+          "https://jkanime.net/sora-to-umi-no-aida/3/"
         ]
       },
       {
@@ -2148,8 +2148,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/11/",
-          "https://jkanime.net/stella-no-mahou/12/"
+          "https://jkanime.net/stella-no-mahou/12/",
+          "https://jkanime.net/stella-no-mahou/2/"
         ]
       },
       {
@@ -2249,8 +2249,8 @@
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/6/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/7/"
+          "https://jkanime.net/regalia-the-three-sacred-stars/7/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/8/"
         ]
       },
       {
@@ -2554,13 +2554,6 @@
         "title": "Danchigai OVA",
         "samples": [
           "https://jkanime.net/danchigai-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/taifuu-no-noruda/",
-        "title": "Taifuu no Noruda",
-        "samples": [
-          "https://jkanime.net/taifuu-no-noruda/1/"
         ]
       },
       {
@@ -3456,13 +3449,6 @@
         "title": "Pokemon XY: New Year Special",
         "samples": [
           "https://jkanime.net/pokemon-xy-new-year-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sword-art-online-extra-edition/",
-        "title": "Sword Art Online: Extra Edition",
-        "samples": [
-          "https://jkanime.net/sword-art-online-extra-edition/1/"
         ]
       },
       {
@@ -5577,8 +5563,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/24/",
-          "https://jkanime.net/taiho-shichau-zo/25/"
+          "https://jkanime.net/taiho-shichau-zo/25/",
+          "https://jkanime.net/taiho-shichau-zo/26/"
         ]
       },
       {
@@ -8253,8 +8239,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/19/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/20/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/20/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/21/"
         ]
       },
       {
@@ -12292,8 +12278,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/15/",
-          "https://jkanime.net/sugar-apple-fairy-tale/16/"
+          "https://jkanime.net/sugar-apple-fairy-tale/16/",
+          "https://jkanime.net/sugar-apple-fairy-tale/17/"
         ]
       },
       {
@@ -12332,8 +12318,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/15/",
-          "https://jkanime.net/spy-kyoushitsu/16/"
+          "https://jkanime.net/spy-kyoushitsu/16/",
+          "https://jkanime.net/spy-kyoushitsu/17/"
         ]
       },
       {
@@ -14093,8 +14079,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/21/",
-          "https://jkanime.net/orient/22/"
+          "https://jkanime.net/orient/22/",
+          "https://jkanime.net/orient/23/"
         ]
       },
       {
@@ -14231,13 +14217,6 @@
         "samples": [
           "https://jkanime.net/wangu-jian-shen/1/",
           "https://jkanime.net/wangu-jian-shen/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/",
-        "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
-        "samples": [
-          "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/1/"
         ]
       },
       {
@@ -22702,14 +22681,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/stella-no-mahou/",
-        "title": "Stella no Mahou",
-        "samples": [
-          "https://jkanime.net/stella-no-mahou/11/",
-          "https://jkanime.net/stella-no-mahou/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/touken-ranbu-hanamaru/",
         "title": "Touken Ranbu: Hanamaru",
         "samples": [
@@ -24703,13 +24674,6 @@
         "title": "Danchigai OVA",
         "samples": [
           "https://jkanime.net/danchigai-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/taifuu-no-noruda/",
-        "title": "Taifuu no Noruda",
-        "samples": [
-          "https://jkanime.net/taifuu-no-noruda/1/"
         ]
       },
       {
@@ -28344,13 +28308,6 @@
         "title": "Pokemon XY: New Year Special",
         "samples": [
           "https://jkanime.net/pokemon-xy-new-year-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sword-art-online-extra-edition/",
-        "title": "Sword Art Online: Extra Edition",
-        "samples": [
-          "https://jkanime.net/sword-art-online-extra-edition/1/"
         ]
       },
       {
@@ -38895,8 +38852,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/24/",
-          "https://jkanime.net/taiho-shichau-zo/25/"
+          "https://jkanime.net/taiho-shichau-zo/25/",
+          "https://jkanime.net/taiho-shichau-zo/26/"
         ]
       },
       {
@@ -39956,6 +39913,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/one-piece/",
+        "title": "One Piece",
+        "samples": [
+          "https://jkanime.net/one-piece/1/",
+          "https://jkanime.net/one-piece/133/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tonari-no-yamada-kun/",
         "title": "Tonari no Yamada-kun",
         "samples": [
@@ -40634,13 +40599,6 @@
         "title": "Summer Ghost",
         "samples": [
           "https://jkanime.net/summer-ghost/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/",
-        "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
-        "samples": [
-          "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/1/"
         ]
       },
       {
@@ -41841,13 +41799,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/taifuu-no-noruda/",
-        "title": "Taifuu no Noruda",
-        "samples": [
-          "https://jkanime.net/taifuu-no-noruda/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/youkai-watch-movie-1-tanjou-no-himitsu-da-nyan/",
         "title": "Youkai Watch Movie 1: Tanjou no Himitsu da Nyan!",
         "samples": [
@@ -42587,13 +42538,6 @@
         "title": "Pokemon XY: New Year Special",
         "samples": [
           "https://jkanime.net/pokemon-xy-new-year-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sword-art-online-extra-edition/",
-        "title": "Sword Art Online: Extra Edition",
-        "samples": [
-          "https://jkanime.net/sword-art-online-extra-edition/1/"
         ]
       },
       {
@@ -44964,7 +44908,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 7,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
@@ -44976,8 +44920,6 @@
         "https://jkanime.net/ao-ashi/19/",
         "https://jkanime.net/ao-ashi/2/",
         "https://jkanime.net/ao-ashi/20/",
-        "https://jkanime.net/ao-ashi/21/",
-        "https://jkanime.net/ao-ashi/22/",
         "https://jkanime.net/ao-ashi/23/",
         "https://jkanime.net/ao-ashi/24/",
         "https://jkanime.net/ao-ashi/3/",
@@ -44988,7 +44930,7 @@
       "noIndependent": [],
       "renewalFailed": 17,
       "families": {
-        "mega": 6,
+        "mega": 8,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -54254,9 +54196,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 22,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/sakamoto-days/17/",
         "https://jkanime.net/sakamoto-days/18/",
         "https://jkanime.net/sakamoto-days/19/",
         "https://jkanime.net/sakamoto-days/20/",
@@ -54268,8 +54209,8 @@
       "renewalFailed": 0,
       "families": {
         "vidhide": 9,
-        "mp4upload": 14,
-        "streamwish": 8
+        "mp4upload": 15,
+        "streamwish": 9
       },
       "playbackVerified": false
     },
@@ -56164,9 +56105,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/19/",
         "https://jkanime.net/puniru-wa-kawaii-slime/20/",
         "https://jkanime.net/puniru-wa-kawaii-slime/21/",
         "https://jkanime.net/puniru-wa-kawaii-slime/22/",
@@ -56178,9 +56118,9 @@
       "renewalFailed": 11,
       "families": {
         "mega": 11,
-        "streamwish": 16,
+        "streamwish": 17,
         "vidhide": 13,
-        "mp4upload": 17,
+        "mp4upload": 18,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -67248,21 +67188,20 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/hikari-no-ou/11/",
         "https://jkanime.net/hikari-no-ou/12/",
         "https://jkanime.net/hikari-no-ou/13/",
-        "https://jkanime.net/hikari-no-ou/16/",
         "https://jkanime.net/hikari-no-ou/17/",
         "https://jkanime.net/hikari-no-ou/18/",
         "https://jkanime.net/hikari-no-ou/19/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
-        "mega": 12,
+        "mega": 13,
         "streamwish": 9,
         "vidhide": 9,
         "mp4upload": 10,
@@ -67947,9 +67886,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/15/",
         "https://jkanime.net/sugar-apple-fairy-tale/16/",
         "https://jkanime.net/sugar-apple-fairy-tale/17/",
         "https://jkanime.net/sugar-apple-fairy-tale/18/",
@@ -67962,9 +67900,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 13,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -68064,9 +68002,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/15/",
         "https://jkanime.net/spy-kyoushitsu/16/",
         "https://jkanime.net/spy-kyoushitsu/17/",
         "https://jkanime.net/spy-kyoushitsu/18/",
@@ -68079,12 +68016,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 10,
         "vidhide": 10,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamtape": 10
       },
       "playbackVerified": false
@@ -73266,9 +73203,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/orient/21/",
         "https://jkanime.net/orient/22/",
         "https://jkanime.net/orient/23/",
         "https://jkanime.net/orient/24/"
@@ -73277,7 +73213,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mega": 18,
+        "mega": 19,
         "streamwish": 13,
         "vidhide": 12,
         "mp4upload": 13,
@@ -73742,19 +73678,19 @@
       "series": "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/",
       "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
-      "observed": 1,
-      "stored": 0,
+      "observed": 2,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/1/"
+        "https://jkanime.net/sword-art-online-progressive-movie-hoshi-naki-yoru-no-aria/2/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -81117,7 +81053,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 41,
+      "renewalFailed": 42,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -88629,9 +88565,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/12/",
         "https://jkanime.net/sora-to-umi-no-aida/2/",
         "https://jkanime.net/sora-to-umi-no-aida/3/",
         "https://jkanime.net/sora-to-umi-no-aida/4/",
@@ -88645,7 +88580,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -93864,7 +93799,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -95460,12 +95395,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/1/",
         "https://jkanime.net/cinderella-girls-gekijou/10/",
         "https://jkanime.net/cinderella-girls-gekijou/11/",
-        "https://jkanime.net/cinderella-girls-gekijou/2/",
         "https://jkanime.net/cinderella-girls-gekijou/3/",
         "https://jkanime.net/cinderella-girls-gekijou/4/",
         "https://jkanime.net/cinderella-girls-gekijou/5/",
@@ -95473,9 +95407,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "mega": 5
+        "mega": 6
       },
       "playbackVerified": false
     },
@@ -98303,13 +98237,11 @@
       "series": "https://jkanime.net/stella-no-mahou/",
       "title": "Stella no Mahou",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/11/",
         "https://jkanime.net/stella-no-mahou/12/",
         "https://jkanime.net/stella-no-mahou/2/",
         "https://jkanime.net/stella-no-mahou/3/",
@@ -98322,9 +98254,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -99227,9 +99159,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/6/",
         "https://jkanime.net/regalia-the-three-sacred-stars/7/",
         "https://jkanime.net/regalia-the-three-sacred-stars/8/",
         "https://jkanime.net/regalia-the-three-sacred-stars/9/"
@@ -99239,7 +99170,7 @@
       "renewalFailed": 0,
       "families": {
         "mega": 5,
-        "streamwish": 4
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -103968,7 +103899,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -104158,20 +104089,16 @@
     {
       "series": "https://jkanime.net/taifuu-no-noruda/",
       "title": "Taifuu no Noruda",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/taifuu-no-noruda/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -105923,13 +105850,12 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
-        "https://jkanime.net/ninja-slayer-from-animation/6/",
         "https://jkanime.net/ninja-slayer-from-animation/7/",
         "https://jkanime.net/ninja-slayer-from-animation/8/",
         "https://jkanime.net/ninja-slayer-from-animation/9/"
@@ -105938,7 +105864,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "streamwish": 16,
+        "streamwish": 17,
         "mega": 2
       },
       "playbackVerified": false
@@ -114404,20 +114330,16 @@
     {
       "series": "https://jkanime.net/sword-art-online-extra-edition/",
       "title": "Sword Art Online: Extra Edition",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/sword-art-online-extra-edition/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -117873,7 +117795,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -129924,23 +129846,22 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/asura-cryin/1/",
         "https://jkanime.net/asura-cryin/10/",
         "https://jkanime.net/asura-cryin/11/",
         "https://jkanime.net/asura-cryin/12/",
         "https://jkanime.net/asura-cryin/13/",
-        "https://jkanime.net/asura-cryin/4/",
         "https://jkanime.net/asura-cryin/5/",
         "https://jkanime.net/asura-cryin/6/",
         "https://jkanime.net/asura-cryin/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 4
+        "mega": 5
       },
       "playbackVerified": false
     },
@@ -144272,9 +144193,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/24/",
         "https://jkanime.net/taiho-shichau-zo/25/",
         "https://jkanime.net/taiho-shichau-zo/26/",
         "https://jkanime.net/taiho-shichau-zo/27/",
@@ -144316,7 +144236,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 17,
+        "mp4upload": 18,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -146164,7 +146084,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
@@ -148066,7 +147986,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 92,
+      "renewalFailed": 154,
       "families": {
         "mega": 154,
         "streamwish": 154,
@@ -148088,32 +148008,29 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/one-piece/",
       "title": "One Piece",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1180,
       "stored": 1180,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 1179,
-        "streamwish": 1180,
-        "vidhide": 1174,
-        "mp4upload": 1165,
-        "streamtape": 1179,
-        "mixdrop": 62
+        "mega": 1180,
+        "streamwish": 946,
+        "vidhide": 940,
+        "mp4upload": 931,
+        "streamtape": 945,
+        "mixdrop": 61
       },
       "playbackVerified": false
     },
