@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T05:36:25.167037+00:00",
+  "checkedAt": "2026-10-30T05:49:39.848448+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73544,
-  "storedChapters": 71737,
-  "missingChapters": 1807,
+  "storedChapters": 71739,
+  "missingChapters": 1805,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -32751,6 +32751,78 @@
         ]
       },
       {
+        "series": "https://jkanime.net/astarotte-no-omocha/",
+        "title": "Astarotte no Omocha!",
+        "samples": [
+          "https://jkanime.net/astarotte-no-omocha/1/",
+          "https://jkanime.net/astarotte-no-omocha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekaiichi-hatsukoi/",
+        "title": "Sekaiichi Hatsukoi",
+        "samples": [
+          "https://jkanime.net/sekaiichi-hatsukoi/1/",
+          "https://jkanime.net/sekaiichi-hatsukoi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yondemasu-yo-azazel-san/",
+        "title": "Yondemasu yo, Azazel-san",
+        "samples": [
+          "https://jkanime.net/yondemasu-yo-azazel-san/1/",
+          "https://jkanime.net/yondemasu-yo-azazel-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mariaholic-alive/",
+        "title": "Maria†Holic Alive",
+        "samples": [
+          "https://jkanime.net/mariaholic-alive/10/",
+          "https://jkanime.net/mariaholic-alive/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sket-dance/",
+        "title": "SKET Dance",
+        "samples": [
+          "https://jkanime.net/sket-dance/1/",
+          "https://jkanime.net/sket-dance/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gyakkyou-burai-kaiji-hakairoku-hen/",
+        "title": "Gyakkyou Burai Kaiji Hakairoku-hen",
+        "samples": [
+          "https://jkanime.net/gyakkyou-burai-kaiji-hakairoku-hen/1/",
+          "https://jkanime.net/gyakkyou-burai-kaiji-hakairoku-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama-2011/",
+        "title": "Gintama 2011",
+        "samples": [
+          "https://jkanime.net/gintama-2011/1/",
+          "https://jkanime.net/gintama-2011/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tiger-bunny/",
+        "title": "Tiger & Bunny",
+        "samples": [
+          "https://jkanime.net/tiger-bunny/1/",
+          "https://jkanime.net/tiger-bunny/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toriko/",
+        "title": "Toriko",
+        "samples": [
+          "https://jkanime.net/toriko/1/",
+          "https://jkanime.net/toriko/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hetalia-world-series-extra-episodes/",
         "title": "Hetalia World Series Extra Episodes",
         "samples": [
@@ -39569,7 +39641,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -63544,7 +63616,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 22,
+      "stored": 23,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -63558,7 +63630,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/34/",
         "https://jkanime.net/bleach-sennen-kessen-hen/35/",
         "https://jkanime.net/bleach-sennen-kessen-hen/36/",
         "https://jkanime.net/bleach-sennen-kessen-hen/37/",
@@ -63581,9 +63652,9 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 21,
+        "vidhide": 22,
         "streamtape": 13,
-        "mp4upload": 11,
+        "mp4upload": 12,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -69509,11 +69580,10 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
-        "https://jkanime.net/megaton-kyuu-musashi/16/",
         "https://jkanime.net/megaton-kyuu-musashi/17/",
         "https://jkanime.net/megaton-kyuu-musashi/18/",
         "https://jkanime.net/megaton-kyuu-musashi/19/",
@@ -69531,7 +69601,7 @@
       "noIndependent": [],
       "renewalFailed": 9,
       "families": {
-        "mp4upload": 13,
+        "mp4upload": 14,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -76058,7 +76128,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 44,
+      "renewalFailed": 45,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -90900,7 +90970,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -92520,7 +92590,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 7
       },
@@ -96505,7 +96575,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 3
       },
@@ -119648,7 +119718,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 25,
         "mega": 11,
@@ -120128,7 +120198,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 32,
+      "renewalFailed": 73,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -120141,13 +120211,15 @@
     {
       "series": "https://jkanime.net/astarotte-no-omocha/",
       "title": "Astarotte no Omocha!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -120160,13 +120232,15 @@
     {
       "series": "https://jkanime.net/sekaiichi-hatsukoi/",
       "title": "Sekaiichi Hatsukoi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -120179,13 +120253,15 @@
     {
       "series": "https://jkanime.net/yondemasu-yo-azazel-san/",
       "title": "Yondemasu yo, Azazel-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -120198,32 +120274,36 @@
     {
       "series": "https://jkanime.net/mariaholic-alive/",
       "title": "Maria†Holic Alive",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sket-dance/",
       "title": "SKET Dance",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 77,
       "stored": 77,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 77,
       "families": {
         "mega": 77,
         "streamwish": 77,
@@ -120236,51 +120316,57 @@
     {
       "series": "https://jkanime.net/gyakkyou-burai-kaiji-hakairoku-hen/",
       "title": "Gyakkyou Burai Kaiji Hakairoku-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
+        "mega": 24,
+        "streamwish": 24,
+        "vidhide": 24,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 24
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/gintama-2011/",
       "title": "Gintama 2011",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 30,
       "families": {
-        "mega": 51,
-        "streamwish": 51,
-        "vidhide": 51,
+        "mega": 30,
+        "streamwish": 30,
+        "vidhide": 30,
         "mp4upload": 51,
-        "streamtape": 51
+        "streamtape": 30
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tiger-bunny/",
       "title": "Tiger & Bunny",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -120293,13 +120379,15 @@
     {
       "series": "https://jkanime.net/toriko/",
       "title": "Toriko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 147,
       "stored": 147,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 147,
         "streamwish": 147,
