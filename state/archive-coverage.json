@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T00:44:11.656996+00:00",
+  "checkedAt": "2026-10-30T00:57:35.607347+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73536,
+  "observedChapters": 73540,
   "storedChapters": 71712,
-  "missingChapters": 1824,
+  "missingChapters": 1828,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -3704,6 +3704,14 @@
         "title": "Tonari no Seki-kun OVA",
         "samples": [
           "https://jkanime.net/tonari-no-seki-kun-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nisekoi/",
+        "title": "Nisekoi",
+        "samples": [
+          "https://jkanime.net/nisekoi/21/",
+          "https://jkanime.net/nisekoi/22/"
         ]
       },
       {
@@ -28322,6 +28330,45 @@
         ]
       },
       {
+        "series": "https://jkanime.net/blade-and-soul/",
+        "title": "Blade and Soul",
+        "samples": [
+          "https://jkanime.net/blade-and-soul/1/",
+          "https://jkanime.net/blade-and-soul/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-xy-mega-evolution/",
+        "title": "Pokemon XY: Mega Evolution",
+        "samples": [
+          "https://jkanime.net/pokemon-xy-mega-evolution/1/",
+          "https://jkanime.net/pokemon-xy-mega-evolution/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/12-sai-kiss-kirai-suki/",
+        "title": "12-sai.: Kiss, Kirai, Suki",
+        "samples": [
+          "https://jkanime.net/12-sai-kiss-kirai-suki/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/marvel-disk-wars-the-avengers/",
+        "title": "Marvel Disk Wars: The Avengers endgame",
+        "samples": [
+          "https://jkanime.net/marvel-disk-wars-the-avengers/1/",
+          "https://jkanime.net/marvel-disk-wars-the-avengers/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majin-bone/",
+        "title": "Majin Bone",
+        "samples": [
+          "https://jkanime.net/majin-bone/30/",
+          "https://jkanime.net/majin-bone/31/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mikakunin-de-shinkoukei-ova-2/",
         "title": "Mikakunin de Shinkoukei OVA 2",
         "samples": [
@@ -28329,10 +28376,33 @@
         ]
       },
       {
+        "series": "https://jkanime.net/maken-ki-two-specials/",
+        "title": "Maken-Ki! Two Specials",
+        "samples": [
+          "https://jkanime.net/maken-ki-two-specials/1/",
+          "https://jkanime.net/maken-ki-two-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/choujigen-game-neptune-the-animation-ova/",
         "title": "Choujigen Game Neptune: The Animation OVA",
         "samples": [
           "https://jkanime.net/choujigen-game-neptune-the-animation-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wild-adapter/",
+        "title": "Wild Adapter",
+        "samples": [
+          "https://jkanime.net/wild-adapter/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/witch-craft-works-specials/",
+        "title": "Witch Craft Works Specials",
+        "samples": [
+          "https://jkanime.net/witch-craft-works-specials/1/",
+          "https://jkanime.net/witch-craft-works-specials/2/"
         ]
       },
       {
@@ -28427,10 +28497,41 @@
         ]
       },
       {
+        "series": "https://jkanime.net/noragami-ova/",
+        "title": "Noragami OVA",
+        "samples": [
+          "https://jkanime.net/noragami-ova/1/",
+          "https://jkanime.net/noragami-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wonder-momo/",
+        "title": "Wonder Momo",
+        "samples": [
+          "https://jkanime.net/wonder-momo/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamisama-no-inai-nichiyoubi-special/",
         "title": "Kamisama no Inai Nichiyoubi Special",
         "samples": [
           "https://jkanime.net/kamisama-no-inai-nichiyoubi-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/happiness-charge-precure/",
+        "title": "Happiness Charge Precure!",
+        "samples": [
+          "https://jkanime.net/happiness-charge-precure/1/",
+          "https://jkanime.net/happiness-charge-precure/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/little-busters-ex/",
+        "title": "Little Busters!: EX",
+        "samples": [
+          "https://jkanime.net/little-busters-ex/1/",
+          "https://jkanime.net/little-busters-ex/2/"
         ]
       },
       {
@@ -28441,10 +28542,74 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kimi-no-iru-machi-ova/",
+        "title": "Kimi no Iru Machi OVA",
+        "samples": [
+          "https://jkanime.net/kimi-no-iru-machi-ova/1/",
+          "https://jkanime.net/kimi-no-iru-machi-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inari-konkon-koi-iroha/",
+        "title": "Inari, Konkon, Koi Iroha.",
+        "samples": [
+          "https://jkanime.net/inari-konkon-koi-iroha/1/",
+          "https://jkanime.net/inari-konkon-koi-iroha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maken-ki-two/",
+        "title": "Maken-Ki! Two",
+        "samples": [
+          "https://jkanime.net/maken-ki-two/1/",
+          "https://jkanime.net/maken-ki-two/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tonari-no-seki-kun-ova/",
         "title": "Tonari no Seki-kun OVA",
         "samples": [
           "https://jkanime.net/tonari-no-seki-kun-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wizard-barristers-benmashi-cecil/",
+        "title": "Wizard Barristers: Benmashi Cecil",
+        "samples": [
+          "https://jkanime.net/wizard-barristers-benmashi-cecil/1/",
+          "https://jkanime.net/wizard-barristers-benmashi-cecil/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nourin/",
+        "title": "Nourin",
+        "samples": [
+          "https://jkanime.net/nourin/1/",
+          "https://jkanime.net/nourin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakura-trick/",
+        "title": "Sakura Trick",
+        "samples": [
+          "https://jkanime.net/sakura-trick/1/",
+          "https://jkanime.net/sakura-trick/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekai-seifuku-bouryaku-no-zvezda/",
+        "title": "Sekai Seifuku: Bouryaku no Zvezda",
+        "samples": [
+          "https://jkanime.net/sekai-seifuku-bouryaku-no-zvezda/1/",
+          "https://jkanime.net/sekai-seifuku-bouryaku-no-zvezda/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nisekoi/",
+        "title": "Nisekoi",
+        "samples": [
+          "https://jkanime.net/nisekoi/21/",
+          "https://jkanime.net/nisekoi/22/"
         ]
       },
       {
@@ -36439,7 +36604,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -83129,7 +83294,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -104619,13 +104784,15 @@
     {
       "series": "https://jkanime.net/blade-and-soul/",
       "title": "Blade and Soul",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -104638,13 +104805,15 @@
     {
       "series": "https://jkanime.net/pokemon-xy-mega-evolution/",
       "title": "Pokemon XY: Mega Evolution",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -104657,13 +104826,15 @@
     {
       "series": "https://jkanime.net/12-sai-kiss-kirai-suki/",
       "title": "12-sai.: Kiss, Kirai, Suki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -104676,13 +104847,15 @@
     {
       "series": "https://jkanime.net/marvel-disk-wars-the-avengers/",
       "title": "Marvel Disk Wars: The Avengers endgame",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -104695,20 +104868,21 @@
     {
       "series": "https://jkanime.net/majin-bone/",
       "title": "Majin Bone",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 52,
-        "streamwish": 52,
-        "vidhide": 52,
-        "mp4upload": 52,
-        "streamtape": 52,
-        "mixdrop": 1
+        "mp4upload": 32,
+        "streamwish": 53,
+        "vidhide": 32,
+        "mega": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -104749,13 +104923,15 @@
     {
       "series": "https://jkanime.net/maken-ki-two-specials/",
       "title": "Maken-Ki! Two Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 4,
         "streamwish": 5,
@@ -104787,13 +104963,15 @@
     {
       "series": "https://jkanime.net/wild-adapter/",
       "title": "Wild Adapter",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -104806,13 +104984,15 @@
     {
       "series": "https://jkanime.net/witch-craft-works-specials/",
       "title": "Witch Craft Works Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -105103,13 +105283,15 @@
     {
       "series": "https://jkanime.net/noragami-ova/",
       "title": "Noragami OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -105122,20 +105304,22 @@
     {
       "series": "https://jkanime.net/wonder-momo/",
       "title": "Wonder Momo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 5,
+        "mega": 1,
         "streamwish": 5,
-        "vidhide": 5,
-        "mixdrop": 5,
-        "mp4upload": 5,
-        "streamtape": 5
+        "vidhide": 1,
+        "mixdrop": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -105161,13 +105345,15 @@
     {
       "series": "https://jkanime.net/happiness-charge-precure/",
       "title": "Happiness Charge Precure!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 49,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -105180,13 +105366,15 @@
     {
       "series": "https://jkanime.net/little-busters-ex/",
       "title": "Little Busters!: EX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -105218,13 +105406,15 @@
     {
       "series": "https://jkanime.net/kimi-no-iru-machi-ova/",
       "title": "Kimi no Iru Machi OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -105237,13 +105427,15 @@
     {
       "series": "https://jkanime.net/inari-konkon-koi-iroha/",
       "title": "Inari, Konkon, Koi Iroha.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -105256,13 +105448,15 @@
     {
       "series": "https://jkanime.net/maken-ki-two/",
       "title": "Maken-Ki! Two",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -105294,13 +105488,15 @@
     {
       "series": "https://jkanime.net/wizard-barristers-benmashi-cecil/",
       "title": "Wizard Barristers: Benmashi Cecil",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -105313,13 +105509,15 @@
     {
       "series": "https://jkanime.net/nourin/",
       "title": "Nourin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -105332,13 +105530,15 @@
     {
       "series": "https://jkanime.net/sakura-trick/",
       "title": "Sakura Trick",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -105351,13 +105551,15 @@
     {
       "series": "https://jkanime.net/sekai-seifuku-bouryaku-no-zvezda/",
       "title": "Sekai Seifuku: Bouryaku no Zvezda",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -105370,19 +105572,27 @@
     {
       "series": "https://jkanime.net/nisekoi/",
       "title": "Nisekoi",
-      "causes": [],
-      "observed": 20,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 24,
       "stored": 20,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/nisekoi/21/",
+        "https://jkanime.net/nisekoi/22/",
+        "https://jkanime.net/nisekoi/23/",
+        "https://jkanime.net/nisekoi/24/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 20,
+        "mp4upload": 18,
         "streamwish": 20,
         "vidhide": 20,
-        "mp4upload": 20,
-        "streamtape": 20
+        "mega": 17,
+        "streamtape": 17
       },
       "playbackVerified": false
     },
@@ -129665,7 +129875,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mega": 4,
         "streamwish": 4,
