@@ -21,6 +21,14 @@ def record_recent(state,recent,instant):
   if not isinstance(url,str) or not re.fullmatch(r'https://jkanime\.net/[a-zA-Z0-9_-]+/[1-9][0-9]*/',url):continue
   parent=url.rsplit('/',2)[0]+'/'
   if url in state['episodes'] and url in state['listings'].get(parent,{}).get('episodes',[]):seen.setdefault(url,instant.isoformat().replace('+00:00','Z'))
+def voe_only_news(state,instant):
+ # News seen in the last 7 days that have no root-channel record (only the VOE complement, or nothing).
+ out=[]
+ for url,seen in sorted(state.get('newsSeen',{}).items(),key=lambda row:str(row[1]),reverse=True):
+  try:age=(instant-datetime.datetime.fromisoformat(seen.replace('Z','+00:00'))).total_seconds()
+  except (ValueError,TypeError,AttributeError):continue
+  if url not in state['episodes'] and 0<=age<=7*86400:out.append(url)
+ return out
 def command(args,**kw):return subprocess.run(args,check=True,capture_output=True,text=True,encoding='utf-8',**kw).stdout
 def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
@@ -76,11 +84,7 @@ def main():
     from voe_channel import fresh_urls,split
     # News seen in the last 7 days without a root-channel record (VOE-only) are rechecked through the
     # source chain with a backoff; historical VOE-only episodes are left to the renewal job.
-    voe_fresh=fresh_urls(D,instant.timestamp());recheck=state.setdefault('voeRecheck',{});voe_news=[]
-    for url,seen in sorted(state.get('newsSeen',{}).items(),key=lambda row:str(row[1]),reverse=True):
-     try:age=(instant-datetime.datetime.fromisoformat(seen.replace('Z','+00:00'))).total_seconds()
-     except (ValueError,TypeError,AttributeError):continue
-     if url not in state['episodes'] and 0<=age<=7*86400:voe_news.append(url)
+    voe_fresh=fresh_urls(D,instant.timestamp());recheck=state.setdefault('voeRecheck',{});voe_news=voe_only_news(state,instant)
     for url in list(recheck):
      if url not in voe_news:recheck.pop(url)
     due=[url for url in voe_news if instant.timestamp()-recheck.get(url,0)>=VOE_RECHECK_SECONDS][:VOE_RECHECK_LIMIT]
@@ -98,7 +102,7 @@ def main():
     put(incidents_path,raw(incidents))
     for url in newly_deferred:deferred[url]=instant.timestamp()
     for url,ep in result['state']['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
-    merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60}))
+    merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
     if not incoming['episodes'] and not newly_deferred:break
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
   # Historical changes remain for renewal's final publish; an empty news check must not redeploy them.
