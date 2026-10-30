@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T16:29:24.646047+00:00",
+  "checkedAt": "2026-10-30T16:42:55.639983+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73657,
-  "storedChapters": 71847,
-  "missingChapters": 1810,
+  "storedChapters": 71854,
+  "missingChapters": 1803,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/27/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/28/"
         ]
       },
       {
@@ -1087,13 +1087,6 @@
         "title": "100-nichikan Ikita Wani",
         "samples": [
           "https://jkanime.net/100-nichikan-ikita-wani/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/",
-        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
-        "samples": [
-          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/13/"
         ]
       },
       {
@@ -5476,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/40/",
-          "https://jkanime.net/tsubasa-chronicle/41/"
+          "https://jkanime.net/tsubasa-chronicle/41/",
+          "https://jkanime.net/tsubasa-chronicle/42/"
         ]
       },
       {
@@ -5634,13 +5627,6 @@
         "title": "Naruto: Akaki Yotsuba no Clover wo Sagase",
         "samples": [
           "https://jkanime.net/naruto-akaki-yotsuba-no-clover-wo-sagase/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
-        "title": "Astro Boy: Tetsuwan Atom",
-        "samples": [
-          "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
         ]
       },
       {
@@ -10727,7 +10713,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/27/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/28/"
         ]
       },
       {
@@ -15419,7 +15405,8 @@
         "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/",
         "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
         "samples": [
-          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/13/"
+          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/1/",
+          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/11/"
         ]
       },
       {
@@ -36735,8 +36722,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/40/",
-          "https://jkanime.net/tsubasa-chronicle/41/"
+          "https://jkanime.net/tsubasa-chronicle/41/",
+          "https://jkanime.net/tsubasa-chronicle/42/"
         ]
       },
       {
@@ -37929,7 +37916,7 @@
         "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
         "title": "Astro Boy: Tetsuwan Atom",
         "samples": [
-          "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
+          "https://jkanime.net/astro-boy-tetsuwan-atom/2/"
         ]
       },
       {
@@ -37973,11 +37960,51 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dnangel/",
+        "title": "D.N.Angel",
+        "samples": [
+          "https://jkanime.net/dnangel/15/",
+          "https://jkanime.net/dnangel/17/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-no-stellvia/",
+        "title": "Uchuu no Stellvia",
+        "samples": [
+          "https://jkanime.net/uchuu-no-stellvia/1/",
+          "https://jkanime.net/uchuu-no-stellvia/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/air-master/",
+        "title": "Air Master",
+        "samples": [
+          "https://jkanime.net/air-master/1/",
+          "https://jkanime.net/air-master/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/majuu-sensen-the-apocalypse/",
+        "title": "Majuu Sensen: The Apocalypse",
+        "samples": [
+          "https://jkanime.net/majuu-sensen-the-apocalypse/1/",
+          "https://jkanime.net/majuu-sensen-the-apocalypse/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/gunparade-march-arata-naru-kougunka/",
         "title": "Gunparade March: Arata Naru Kougunka",
         "samples": [
           "https://jkanime.net/gunparade-march-arata-naru-kougunka/10/",
           "https://jkanime.net/gunparade-march-arata-naru-kougunka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hunter-x-hunter-greed-island/",
+        "title": "Hunter x Hunter: Greed Island",
+        "samples": [
+          "https://jkanime.net/hunter-x-hunter-greed-island/1/",
+          "https://jkanime.net/hunter-x-hunter-greed-island/2/"
         ]
       },
       {
@@ -37988,10 +38015,66 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ashita-no-nadja/",
+        "title": "Ashita no Nadja",
+        "samples": [
+          "https://jkanime.net/ashita-no-nadja/1/",
+          "https://jkanime.net/ashita-no-nadja/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hand-maid-mai/",
         "title": "Hand Maid Mai",
         "samples": [
           "https://jkanime.net/hand-maid-mai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/",
+        "title": "Mahoutsukai ni Taisetsu na Koto",
+        "samples": [
+          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/1/",
+          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nanaka-617/",
+        "title": "Nanaka 6/17",
+        "samples": [
+          "https://jkanime.net/nanaka-617/1/",
+          "https://jkanime.net/nanaka-617/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuten-shoot-beyblade-g-revolution/",
+        "title": "Bakuten Shoot Beyblade G Revolution",
+        "samples": [
+          "https://jkanime.net/bakuten-shoot-beyblade-g-revolution/1/",
+          "https://jkanime.net/bakuten-shoot-beyblade-g-revolution/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mouse/",
+        "title": "Mouse",
+        "samples": [
+          "https://jkanime.net/mouse/1/",
+          "https://jkanime.net/mouse/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/stratos-4/",
+        "title": "Stratos 4",
+        "samples": [
+          "https://jkanime.net/stratos-4/1/",
+          "https://jkanime.net/stratos-4/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lime-iro-senkitan/",
+        "title": "Lime-iro Senkitan",
+        "samples": [
+          "https://jkanime.net/lime-iro-senkitan/1/",
+          "https://jkanime.net/lime-iro-senkitan/2/"
         ]
       },
       {
@@ -44068,7 +44151,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {
         "mp4upload": 1,
         "vidhide": 1
@@ -61469,10 +61552,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 25,
+      "stored": 26,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/27/",
         "https://jkanime.net/kusuriya-no-hitorigoto/28/",
         "https://jkanime.net/kusuriya-no-hitorigoto/29/",
         "https://jkanime.net/kusuriya-no-hitorigoto/30/",
@@ -61507,7 +61589,7 @@
         "mega": 23,
         "streamwish": 24,
         "vidhide": 19,
-        "mp4upload": 24,
+        "mp4upload": 25,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -72798,7 +72880,7 @@
         "renewal-error"
       ],
       "observed": 38,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
@@ -72813,7 +72895,6 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/27/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/28/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/29/",
-        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/30/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/31/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/32/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/33/",
@@ -72830,7 +72911,7 @@
         "streamwish": 13,
         "mega": 9,
         "vidhide": 9,
-        "mp4upload": 15,
+        "mp4upload": 16,
         "streamtape": 9
       },
       "playbackVerified": false
@@ -74002,7 +74083,7 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
@@ -74011,7 +74092,6 @@
         "https://jkanime.net/megaton-kyuu-musashi/20/",
         "https://jkanime.net/megaton-kyuu-musashi/22/",
         "https://jkanime.net/megaton-kyuu-musashi/25/",
-        "https://jkanime.net/megaton-kyuu-musashi/26/",
         "https://jkanime.net/megaton-kyuu-musashi/27/",
         "https://jkanime.net/megaton-kyuu-musashi/28/"
       ],
@@ -74019,7 +74099,7 @@
       "noIndependent": [],
       "renewalFailed": 14,
       "families": {
-        "mp4upload": 18,
+        "mp4upload": 19,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -75099,22 +75179,19 @@
       "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/",
       "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x/13/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
+        "streamwish": 13,
+        "vidhide": 13,
+        "mp4upload": 13,
         "streamtape": 11
       },
       "playbackVerified": false
@@ -97113,7 +97190,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 3
       },
@@ -101457,13 +101534,12 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/norn9-nornnonet/1/",
         "https://jkanime.net/norn9-nornnonet/2/",
         "https://jkanime.net/norn9-nornnonet/3/",
         "https://jkanime.net/norn9-nornnonet/6/",
-        "https://jkanime.net/norn9-nornnonet/7/",
         "https://jkanime.net/norn9-nornnonet/8/",
         "https://jkanime.net/norn9-nornnonet/9/"
       ],
@@ -101471,9 +101547,9 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 5,
-        "streamwish": 5,
-        "vidhide": 5
+        "mp4upload": 6,
+        "streamwish": 6,
+        "vidhide": 6
       },
       "playbackVerified": false
     },
@@ -113022,7 +113098,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
         "mp4upload": 18,
         "streamwish": 20,
@@ -135682,9 +135758,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 39,
+      "stored": 40,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/40/",
         "https://jkanime.net/tsubasa-chronicle/41/",
         "https://jkanime.net/tsubasa-chronicle/42/",
         "https://jkanime.net/tsubasa-chronicle/43/",
@@ -135702,9 +135777,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 40,
-        "streamwish": 39,
-        "vidhide": 40,
+        "mp4upload": 41,
+        "streamwish": 40,
+        "vidhide": 41,
         "mega": 1,
         "streamtape": 1
       },
@@ -138973,19 +139048,16 @@
       "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
       "title": "Astro Boy: Tetsuwan Atom",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 51,
-      "missing": [
-        "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
-      ],
+      "stored": 52,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 51,
+        "mp4upload": 52,
         "mega": 1,
         "streamwish": 1,
         "vidhide": 1,
@@ -139091,7 +139163,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 31,
       "families": {
         "mega": 31,
         "streamwish": 51,
@@ -139104,52 +139176,58 @@
     {
       "series": "https://jkanime.net/dnangel/",
       "title": "D.N.Angel",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
         "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 3,
+        "mega": 2,
+        "streamwish": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uchuu-no-stellvia/",
       "title": "Uchuu no Stellvia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 26,
+        "mega": 4,
         "streamwish": 26,
         "vidhide": 26,
-        "mixdrop": 26,
+        "mixdrop": 4,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/air-master/",
       "title": "Air Master",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 27,
       "stored": 27,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 27,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -139183,20 +139261,22 @@
     {
       "series": "https://jkanime.net/majuu-sensen-the-apocalypse/",
       "title": "Majuu Sensen: The Apocalypse",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 6,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 6,
+        "mixdrop": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -139221,7 +139301,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 12,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -139235,13 +139315,15 @@
     {
       "series": "https://jkanime.net/hunter-x-hunter-greed-island/",
       "title": "Hunter x Hunter: Greed Island",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -139273,19 +139355,21 @@
     {
       "series": "https://jkanime.net/ashita-no-nadja/",
       "title": "Ashita no Nadja",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
-        "mega": 50,
+        "mega": 47,
         "streamwish": 50,
-        "vidhide": 50,
-        "mp4upload": 50,
-        "streamtape": 50
+        "vidhide": 49,
+        "mp4upload": 49,
+        "streamtape": 47
       },
       "playbackVerified": false
     },
@@ -139311,13 +139395,15 @@
     {
       "series": "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/",
       "title": "Mahoutsukai ni Taisetsu na Koto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -139331,20 +139417,22 @@
     {
       "series": "https://jkanime.net/nanaka-617/",
       "title": "Nanaka 6/17",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
+        "mixdrop": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -139370,13 +139458,15 @@
     {
       "series": "https://jkanime.net/bakuten-shoot-beyblade-g-revolution/",
       "title": "Bakuten Shoot Beyblade G Revolution",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -139390,13 +139480,15 @@
     {
       "series": "https://jkanime.net/mouse/",
       "title": "Mouse",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -139410,13 +139502,15 @@
     {
       "series": "https://jkanime.net/stratos-4/",
       "title": "Stratos 4",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -139430,20 +139524,22 @@
     {
       "series": "https://jkanime.net/lime-iro-senkitan/",
       "title": "Lime-iro Senkitan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 11,
         "streamwish": 13,
         "vidhide": 13,
-        "mixdrop": 13,
+        "mixdrop": 11,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 11
       },
       "playbackVerified": false
     },
