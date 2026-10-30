@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T04:29:00.886079+00:00",
+  "checkedAt": "2026-10-30T04:42:37.255484+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
-  "storedChapters": 71725,
-  "missingChapters": 1816,
+  "storedChapters": 71727,
+  "missingChapters": 1814,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -31953,7 +31953,63 @@
         "title": "Papa no Iukoto wo Kikinasai!",
         "samples": [
           "https://jkanime.net/papa-no-iukoto-wo-kikinasai/1/",
-          "https://jkanime.net/papa-no-iukoto-wo-kikinasai/2/"
+          "https://jkanime.net/papa-no-iukoto-wo-kikinasai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/danshi-koukousei-no-nichijou/",
+        "title": "Danshi Koukousei no Nichijou",
+        "samples": [
+          "https://jkanime.net/danshi-koukousei-no-nichijou/1/",
+          "https://jkanime.net/danshi-koukousei-no-nichijou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ano-natsu-de-matteru/",
+        "title": "Ano Natsu de Matteru",
+        "samples": [
+          "https://jkanime.net/ano-natsu-de-matteru/1/",
+          "https://jkanime.net/ano-natsu-de-matteru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aquarion-evol/",
+        "title": "Aquarion Evol",
+        "samples": [
+          "https://jkanime.net/aquarion-evol/1/",
+          "https://jkanime.net/aquarion-evol/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mouretsu-pirates/",
+        "title": "Mouretsu Pirates",
+        "samples": [
+          "https://jkanime.net/mouretsu-pirates/10/",
+          "https://jkanime.net/mouretsu-pirates/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nisemonogatari/",
+        "title": "Nisemonogatari",
+        "samples": [
+          "https://jkanime.net/nisemonogatari/1/",
+          "https://jkanime.net/nisemonogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/area-no-kishi/",
+        "title": "Area no Kishi",
+        "samples": [
+          "https://jkanime.net/area-no-kishi/1/",
+          "https://jkanime.net/area-no-kishi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zero-no-tsukaima-f/",
+        "title": "Zero no Tsukaima F - Final Series",
+        "samples": [
+          "https://jkanime.net/zero-no-tsukaima-f/1/",
+          "https://jkanime.net/zero-no-tsukaima-f/10/"
         ]
       },
       {
@@ -31964,10 +32020,81 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kill-me-baby/",
+        "title": "Kill Me Baby",
+        "samples": [
+          "https://jkanime.net/kill-me-baby/1/",
+          "https://jkanime.net/kill-me-baby/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/recorder-to-randoseru-do/",
+        "title": "Recorder to Randoseru Do♪",
+        "samples": [
+          "https://jkanime.net/recorder-to-randoseru-do/1/",
+          "https://jkanime.net/recorder-to-randoseru-do/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/highschool-dxd/",
+        "title": "Highschool DxD",
+        "samples": [
+          "https://jkanime.net/highschool-dxd/1/",
+          "https://jkanime.net/highschool-dxd/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amagami-ss-plus/",
+        "title": "Amagami SS+ plus",
+        "samples": [
+          "https://jkanime.net/amagami-ss-plus/1/",
+          "https://jkanime.net/amagami-ss-plus/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-opera-milky-holmes-dai-2-maku/",
+        "title": "Tantei Opera Milky Holmes Dai 2 Maku",
+        "samples": [
+          "https://jkanime.net/tantei-opera-milky-holmes-dai-2-maku/1/",
+          "https://jkanime.net/tantei-opera-milky-holmes-dai-2-maku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/new-prince-of-tennis/",
+        "title": "New Prince of Tennis",
+        "samples": [
+          "https://jkanime.net/new-prince-of-tennis/1/",
+          "https://jkanime.net/new-prince-of-tennis/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsume-yuujinchou-shi/",
+        "title": "Natsume Yuujinchou Shi",
+        "samples": [
+          "https://jkanime.net/natsume-yuujinchou-shi/10/",
+          "https://jkanime.net/natsume-yuujinchou-shi/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fate-prototype/",
         "title": "Fate/Prototype",
         "samples": [
           "https://jkanime.net/fate-prototype/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senki-zesshou-symphogear/",
+        "title": "Senki Zesshou Symphogear",
+        "samples": [
+          "https://jkanime.net/senki-zesshou-symphogear/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/another/",
+        "title": "Another",
+        "samples": [
+          "https://jkanime.net/another/1/",
+          "https://jkanime.net/another/10/"
         ]
       },
       {
@@ -31976,6 +32103,14 @@
         "samples": [
           "https://jkanime.net/ben-to-specials/1/",
           "https://jkanime.net/ben-to-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maken-ki-specials/",
+        "title": "Maken-Ki! Specials",
+        "samples": [
+          "https://jkanime.net/maken-ki-specials/1/",
+          "https://jkanime.net/maken-ki-specials/2/"
         ]
       },
       {
@@ -32028,10 +32163,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/usagi-drop-specials/",
+        "title": "Usagi Drop Specials",
+        "samples": [
+          "https://jkanime.net/usagi-drop-specials/1/",
+          "https://jkanime.net/usagi-drop-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
         "title": "Ao no Exorcist: Kuro no Iede",
         "samples": [
           "https://jkanime.net/ao-no-exorcist-kuro-no-iede/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/un-go/",
+        "title": "UN-GO",
+        "samples": [
+          "https://jkanime.net/un-go/1/",
+          "https://jkanime.net/un-go/2/"
         ]
       },
       {
@@ -62934,7 +63085,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -62948,7 +63099,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/31/",
         "https://jkanime.net/bleach-sennen-kessen-hen/32/",
         "https://jkanime.net/bleach-sennen-kessen-hen/33/",
         "https://jkanime.net/bleach-sennen-kessen-hen/34/",
@@ -62974,7 +63124,7 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 19,
+        "vidhide": 20,
         "streamtape": 13,
         "mp4upload": 9,
         "mixdrop": 4
@@ -89202,7 +89352,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -89361,14 +89511,13 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/3/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/5/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/6/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/7/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/8/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/9/"
       ],
@@ -89376,7 +89525,7 @@
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
-        "streamwish": 4
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -96244,7 +96393,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -108718,7 +108867,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {
         "mp4upload": 1
       },
@@ -117278,7 +117427,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117291,13 +117440,15 @@
     {
       "series": "https://jkanime.net/danshi-koukousei-no-nichijou/",
       "title": "Danshi Koukousei no Nichijou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117311,13 +117462,15 @@
     {
       "series": "https://jkanime.net/ano-natsu-de-matteru/",
       "title": "Ano Natsu de Matteru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117330,13 +117483,15 @@
     {
       "series": "https://jkanime.net/aquarion-evol/",
       "title": "Aquarion Evol",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -117349,32 +117504,36 @@
     {
       "series": "https://jkanime.net/mouretsu-pirates/",
       "title": "Mouretsu Pirates",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
         "mp4upload": 26,
-        "streamtape": 26
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nisemonogatari/",
       "title": "Nisemonogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -117388,13 +117547,15 @@
     {
       "series": "https://jkanime.net/area-no-kishi/",
       "title": "Area no Kishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 37,
       "stored": 37,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 37,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -117407,13 +117568,15 @@
     {
       "series": "https://jkanime.net/zero-no-tsukaima-f/",
       "title": "Zero no Tsukaima F - Final Series",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117445,13 +117608,15 @@
     {
       "series": "https://jkanime.net/kill-me-baby/",
       "title": "Kill Me Baby",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -117464,13 +117629,15 @@
     {
       "series": "https://jkanime.net/recorder-to-randoseru-do/",
       "title": "Recorder to Randoseru Do♪",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -117483,13 +117650,15 @@
     {
       "series": "https://jkanime.net/highschool-dxd/",
       "title": "Highschool DxD",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117502,13 +117671,15 @@
     {
       "series": "https://jkanime.net/amagami-ss-plus/",
       "title": "Amagami SS+ plus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -117521,13 +117692,15 @@
     {
       "series": "https://jkanime.net/tantei-opera-milky-holmes-dai-2-maku/",
       "title": "Tantei Opera Milky Holmes Dai 2 Maku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117540,13 +117713,15 @@
     {
       "series": "https://jkanime.net/new-prince-of-tennis/",
       "title": "New Prince of Tennis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -117559,20 +117734,22 @@
     {
       "series": "https://jkanime.net/natsume-yuujinchou-shi/",
       "title": "Natsume Yuujinchou Shi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 12,
+        "streamwish": 12,
+        "vidhide": 12,
+        "mixdrop": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -117598,32 +117775,36 @@
     {
       "series": "https://jkanime.net/senki-zesshou-symphogear/",
       "title": "Senki Zesshou Symphogear",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 9,
+        "streamwish": 12,
+        "mega": 1,
+        "vidhide": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/another/",
       "title": "Another",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -117656,13 +117837,15 @@
     {
       "series": "https://jkanime.net/maken-ki-specials/",
       "title": "Maken-Ki! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -117872,13 +118055,15 @@
     {
       "series": "https://jkanime.net/usagi-drop-specials/",
       "title": "Usagi Drop Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -117911,13 +118096,15 @@
     {
       "series": "https://jkanime.net/un-go/",
       "title": "UN-GO",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 11,
         "streamwish": 11,
