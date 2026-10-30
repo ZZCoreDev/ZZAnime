@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T13:39:43.260939+00:00",
+  "checkedAt": "2026-10-30T13:51:50.961161+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73616,
-  "storedChapters": 71816,
-  "missingChapters": 1800,
+  "storedChapters": 71817,
+  "missingChapters": 1799,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5482,8 +5482,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/27/",
-          "https://jkanime.net/tsubasa-chronicle/28/"
+          "https://jkanime.net/tsubasa-chronicle/28/",
+          "https://jkanime.net/tsubasa-chronicle/29/"
         ]
       },
       {
@@ -36719,8 +36719,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/27/",
-          "https://jkanime.net/tsubasa-chronicle/28/"
+          "https://jkanime.net/tsubasa-chronicle/28/",
+          "https://jkanime.net/tsubasa-chronicle/29/"
         ]
       },
       {
@@ -36748,10 +36748,105 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ichigo-100/",
+        "title": "Ichigo 100%",
+        "samples": [
+          "https://jkanime.net/ichigo-100/1/",
+          "https://jkanime.net/ichigo-100/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sousei-no-aquarion/",
+        "title": "Sousei no Aquarion",
+        "samples": [
+          "https://jkanime.net/sousei-no-aquarion/1/",
+          "https://jkanime.net/sousei-no-aquarion/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/elemental-gelade/",
+        "title": "Elemental Gelade",
+        "samples": [
+          "https://jkanime.net/elemental-gelade/1/",
+          "https://jkanime.net/elemental-gelade/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ueki-no-housoku/",
+        "title": "Ueki no Housoku",
+        "samples": [
+          "https://jkanime.net/ueki-no-housoku/1/",
+          "https://jkanime.net/ueki-no-housoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eikoku-koi-monogatari-emma/",
+        "title": "Eikoku Koi Monogatari Emma",
+        "samples": [
+          "https://jkanime.net/eikoku-koi-monogatari-emma/11/",
+          "https://jkanime.net/eikoku-koi-monogatari-emma/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/karas/",
+        "title": "Karas",
+        "samples": [
+          "https://jkanime.net/karas/1/",
+          "https://jkanime.net/karas/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokusatsu-tenshi-dokuro-chan/",
+        "title": "Bokusatsu Tenshi Dokuro-chan",
+        "samples": [
+          "https://jkanime.net/bokusatsu-tenshi-dokuro-chan/1/",
+          "https://jkanime.net/bokusatsu-tenshi-dokuro-chan/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-nanika-wo-suru-tame-ni-life-goes-on/",
         "title": "Kino no Tabi: The Beautiful World - Nanika wo Suru Tame ni - Life Goes On.",
         "samples": [
           "https://jkanime.net/kino-no-tabi-the-beautiful-world-nanika-wo-suru-tame-ni-life-goes-on/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futari-wa-precure-max-heart/",
+        "title": "Futari wa Precure: Max Heart",
+        "samples": [
+          "https://jkanime.net/futari-wa-precure-max-heart/1/",
+          "https://jkanime.net/futari-wa-precure-max-heart/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buzzer-beater/",
+        "title": "Buzzer Beater",
+        "samples": [
+          "https://jkanime.net/buzzer-beater/2/",
+          "https://jkanime.net/buzzer-beater/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mai-hime-specials/",
+        "title": "Mai-HiME Specials",
+        "samples": [
+          "https://jkanime.net/mai-hime-specials/1/",
+          "https://jkanime.net/mai-hime-specials/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-bravo-2/",
+        "title": "Girls Bravo: Second Season",
+        "samples": [
+          "https://jkanime.net/girls-bravo-2/1/",
+          "https://jkanime.net/girls-bravo-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ugultimate-girls/",
+        "title": "UG☆Ultimate Girls",
+        "samples": [
+          "https://jkanime.net/ugultimate-girls/1/"
         ]
       },
       {
@@ -134578,9 +134673,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 26,
+      "stored": 27,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/27/",
         "https://jkanime.net/tsubasa-chronicle/28/",
         "https://jkanime.net/tsubasa-chronicle/29/",
         "https://jkanime.net/tsubasa-chronicle/30/",
@@ -134611,9 +134705,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 27,
-        "streamwish": 26,
-        "vidhide": 27,
+        "mp4upload": 28,
+        "streamwish": 27,
+        "vidhide": 28,
         "mega": 1,
         "streamtape": 1
       },
@@ -134638,7 +134732,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -134681,7 +134775,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 83,
+      "renewalFailed": 145,
       "families": {
         "mega": 145,
         "streamwish": 145,
@@ -134694,13 +134788,15 @@
     {
       "series": "https://jkanime.net/ichigo-100/",
       "title": "Ichigo 100%",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -134713,13 +134809,15 @@
     {
       "series": "https://jkanime.net/sousei-no-aquarion/",
       "title": "Sousei no Aquarion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -134732,13 +134830,15 @@
     {
       "series": "https://jkanime.net/elemental-gelade/",
       "title": "Elemental Gelade",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -134751,13 +134851,15 @@
     {
       "series": "https://jkanime.net/ueki-no-housoku/",
       "title": "Ueki no Housoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -134770,52 +134872,58 @@
     {
       "series": "https://jkanime.net/eikoku-koi-monogatari-emma/",
       "title": "Eikoku Koi Monogatari Emma",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
         "mp4upload": 12,
-        "streamtape": 11
+        "mega": 6,
+        "streamwish": 6,
+        "vidhide": 6,
+        "mixdrop": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/karas/",
       "title": "Karas",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 6,
+        "mega": 5,
         "streamwish": 6,
-        "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/bokusatsu-tenshi-dokuro-chan/",
       "title": "Bokusatsu Tenshi Dokuro-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -134847,52 +134955,58 @@
     {
       "series": "https://jkanime.net/futari-wa-precure-max-heart/",
       "title": "Futari wa Precure: Max Heart",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 47,
       "stored": 47,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 38,
       "families": {
-        "mega": 47,
+        "mega": 38,
         "streamwish": 47,
-        "vidhide": 47,
-        "mixdrop": 47,
-        "mp4upload": 47,
-        "streamtape": 47
+        "vidhide": 38,
+        "mixdrop": 38,
+        "mp4upload": 38,
+        "streamtape": 38
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/buzzer-beater/",
       "title": "Buzzer Beater",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mai-hime-specials/",
       "title": "Mai-HiME Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 27,
       "stored": 27,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 27,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -134906,13 +135020,15 @@
     {
       "series": "https://jkanime.net/girls-bravo-2/",
       "title": "Girls Bravo: Second Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134925,13 +135041,15 @@
     {
       "series": "https://jkanime.net/ugultimate-girls/",
       "title": "UG☆Ultimate Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
