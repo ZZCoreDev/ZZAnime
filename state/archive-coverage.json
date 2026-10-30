@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T20:33:39.361102+00:00",
+  "checkedAt": "2026-10-30T20:45:33.354333+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73667,
   "storedChapters": 71891,
@@ -39388,7 +39388,39 @@
         "title": "Jigoku Sensei Nube",
         "samples": [
           "https://jkanime.net/jigoku-sensei-nube/1/",
-          "https://jkanime.net/jigoku-sensei-nube/2/"
+          "https://jkanime.net/jigoku-sensei-nube/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/burn-up-w/",
+        "title": "Burn Up! W",
+        "samples": [
+          "https://jkanime.net/burn-up-w/1/",
+          "https://jkanime.net/burn-up-w/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kodomo-no-omocha-tv/",
+        "title": "Kodomo no Omocha (TV)",
+        "samples": [
+          "https://jkanime.net/kodomo-no-omocha-tv/1/",
+          "https://jkanime.net/kodomo-no-omocha-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-gt/",
+        "title": "Dragon Ball GT",
+        "samples": [
+          "https://jkanime.net/dragon-ball-gt/1/",
+          "https://jkanime.net/dragon-ball-gt/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rurouni-kenshin/",
+        "title": "Rurouni Kenshin",
+        "samples": [
+          "https://jkanime.net/rurouni-kenshin/1/",
+          "https://jkanime.net/rurouni-kenshin/10/"
         ]
       },
       {
@@ -144222,7 +144254,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 48,
       "families": {
         "mega": 48,
         "streamwish": 48,
@@ -144235,13 +144267,15 @@
     {
       "series": "https://jkanime.net/burn-up-w/",
       "title": "Burn Up! W",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -144274,13 +144308,15 @@
     {
       "series": "https://jkanime.net/kodomo-no-omocha-tv/",
       "title": "Kodomo no Omocha (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 102,
       "stored": 102,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 102,
       "families": {
         "mega": 102,
         "streamwish": 102,
@@ -144302,24 +144338,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "mp4upload": 26
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dragon-ball-gt/",
       "title": "Dragon Ball GT",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 64,
       "stored": 64,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 64,
       "families": {
         "mega": 64,
         "streamwish": 64,
@@ -144332,19 +144366,21 @@
     {
       "series": "https://jkanime.net/rurouni-kenshin/",
       "title": "Rurouni Kenshin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 95,
       "stored": 95,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 63,
       "families": {
-        "mega": 95,
+        "mega": 94,
         "streamwish": 95,
         "vidhide": 95,
         "mp4upload": 95,
-        "streamtape": 95
+        "streamtape": 94
       },
       "playbackVerified": false
     },
