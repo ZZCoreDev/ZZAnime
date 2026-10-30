@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T02:58:57.624045+00:00",
+  "checkedAt": "2026-10-30T03:11:53.676613+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
-  "storedChapters": 71718,
-  "missingChapters": 1822,
+  "storedChapters": 71719,
+  "missingChapters": 1821,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2400,7 +2400,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/"
         ]
       },
       {
@@ -23255,7 +23255,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/"
         ]
       },
       {
@@ -30678,7 +30678,39 @@
         "title": "Mangirl!",
         "samples": [
           "https://jkanime.net/mangirl/1/",
-          "https://jkanime.net/mangirl/2/"
+          "https://jkanime.net/mangirl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ai-mai-mi/",
+        "title": "Ai Mai Mi",
+        "samples": [
+          "https://jkanime.net/ai-mai-mi/1/",
+          "https://jkanime.net/ai-mai-mi/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nekomonogatari-kuro/",
+        "title": "Nekomonogatari: Kuro",
+        "samples": [
+          "https://jkanime.net/nekomonogatari-kuro/1/",
+          "https://jkanime.net/nekomonogatari-kuro/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yama-no-susume/",
+        "title": "Yama no Susume",
+        "samples": [
+          "https://jkanime.net/yama-no-susume/1/",
+          "https://jkanime.net/yama-no-susume/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kokoro-connect-michi-random/",
+        "title": "Kokoro Connect: Michi Random",
+        "samples": [
+          "https://jkanime.net/kokoro-connect-michi-random/1/",
+          "https://jkanime.net/kokoro-connect-michi-random/2/"
         ]
       },
       {
@@ -30689,11 +30721,74 @@
         ]
       },
       {
+        "series": "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne-specials/",
+        "title": "OniAi Specials",
+        "samples": [
+          "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne-specials/1/",
+          "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inferno-cop/",
+        "title": "Inferno Cop",
+        "samples": [
+          "https://jkanime.net/inferno-cop/1/",
+          "https://jkanime.net/inferno-cop/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/saki-achiga-hen-episode-of-side-a-specials/",
         "title": "Saki: Achiga-hen - Episode of Side-A Specials",
         "samples": [
           "https://jkanime.net/saki-achiga-hen-episode-of-side-a-specials/1/",
           "https://jkanime.net/saki-achiga-hen-episode-of-side-a-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/one-piece-special-glorious-island/",
+        "title": "One Piece Special: Glorious Island",
+        "samples": [
+          "https://jkanime.net/one-piece-special-glorious-island/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akb0048-next-stage/",
+        "title": "AKB0048 Next Stage",
+        "samples": [
+          "https://jkanime.net/akb0048-next-stage/1/",
+          "https://jkanime.net/akb0048-next-stage/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boku-no-imouto-wa-osaka-okan/",
+        "title": "Boku no Imouto wa \"Osaka Okan\"",
+        "samples": [
+          "https://jkanime.net/boku-no-imouto-wa-osaka-okan/1/",
+          "https://jkanime.net/boku-no-imouto-wa-osaka-okan/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-und-panzer-specials/",
+        "title": "Girls und Panzer",
+        "samples": [
+          "https://jkanime.net/girls-und-panzer-specials/1/",
+          "https://jkanime.net/girls-und-panzer-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/junjou-romantica-ova/",
+        "title": "Junjou Romantica OVA",
+        "samples": [
+          "https://jkanime.net/junjou-romantica-ova/1/",
+          "https://jkanime.net/junjou-romantica-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/",
+        "title": "Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/1/",
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/2/"
         ]
       },
       {
@@ -30725,6 +30820,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/saintonii-san/",
+        "title": "Saint☆Onii-san",
+        "samples": [
+          "https://jkanime.net/saintonii-san/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/",
+        "title": "Ebiten: Kouritsu Ebisugawa Koukou Tenmonbu Specials",
+        "samples": [
+          "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/1/",
+          "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/",
         "title": "Haiyore! Nyaruko-san: Yasashii Teki no Shitome-kata",
         "samples": [
@@ -30736,6 +30846,14 @@
         "title": "Evangelion: 3.33 You Can (Not) Redo",
         "samples": [
           "https://jkanime.net/evangelion-3-33-you-can-not-redo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-und-panzer-shoukai-shimasu/",
+        "title": "Girls und Panzer: Shoukai Shimasu!",
+        "samples": [
+          "https://jkanime.net/girls-und-panzer-shoukai-shimasu/1/",
+          "https://jkanime.net/girls-und-panzer-shoukai-shimasu/2/"
         ]
       },
       {
@@ -30761,6 +30879,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/initial-d-fifth-stage/",
+        "title": "Initial D Fifth Stage",
+        "samples": [
+          "https://jkanime.net/initial-d-fifth-stage/1/",
+          "https://jkanime.net/initial-d-fifth-stage/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/smile-precure-movie-ehon-no-naka-wa-minna-chiguhagu/",
         "title": "Smile Precure! Movie: Ehon no Naka wa Minna Chiguhagu!",
         "samples": [
@@ -30783,10 +30909,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/aoi-sekai-no-chuushin-de/",
+        "title": "Aoi Sekai no Chuushin de",
+        "samples": [
+          "https://jkanime.net/aoi-sekai-no-chuushin-de/1/",
+          "https://jkanime.net/aoi-sekai-no-chuushin-de/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/nerawareta-gakuen/",
         "title": "Nerawareta Gakuen",
         "samples": [
           "https://jkanime.net/nerawareta-gakuen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-nomi-zo-shiru-sekai-tenri-hen/",
+        "title": "Kami nomi zo Shiru Sekai: Tenri-hen",
+        "samples": [
+          "https://jkanime.net/kami-nomi-zo-shiru-sekai-tenri-hen/1/",
+          "https://jkanime.net/kami-nomi-zo-shiru-sekai-tenri-hen/2/"
         ]
       },
       {
@@ -30801,6 +30943,62 @@
         "title": "Upotte!! OVA",
         "samples": [
           "https://jkanime.net/upotte-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/psycho-pass/",
+        "title": "Psycho-Pass",
+        "samples": [
+          "https://jkanime.net/psycho-pass/1/",
+          "https://jkanime.net/psycho-pass/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/robotics-notes/",
+        "title": "Robotics;Notes",
+        "samples": [
+          "https://jkanime.net/robotics-notes/1/",
+          "https://jkanime.net/robotics-notes/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/medaka-box-abnormal/",
+        "title": "Medaka Box Abnormal",
+        "samples": [
+          "https://jkanime.net/medaka-box-abnormal/1/",
+          "https://jkanime.net/medaka-box-abnormal/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jormungand-perfect-order/",
+        "title": "Jormungand: Perfect Order",
+        "samples": [
+          "https://jkanime.net/jormungand-perfect-order/1/",
+          "https://jkanime.net/jormungand-perfect-order/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakurasou-no-pet-na-kanojo/",
+        "title": "Sakurasou no Pet na Kanojo",
+        "samples": [
+          "https://jkanime.net/sakurasou-no-pet-na-kanojo/1/",
+          "https://jkanime.net/sakurasou-no-pet-na-kanojo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-und-panzer/",
+        "title": "Girls und Panzer",
+        "samples": [
+          "https://jkanime.net/girls-und-panzer/10/",
+          "https://jkanime.net/girls-und-panzer/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aikatsu/",
+        "title": "Aikatsu!",
+        "samples": [
+          "https://jkanime.net/aikatsu/1/",
+          "https://jkanime.net/aikatsu/2/"
         ]
       },
       {
@@ -45342,7 +45540,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 18,
         "streamwish": 15,
@@ -66829,7 +67027,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -74427,7 +74625,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -88758,7 +88956,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
@@ -91919,10 +92117,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/7/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/8/",
@@ -91932,7 +92129,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 6
+        "streamwish": 7
       },
       "playbackVerified": false
     },
@@ -112825,7 +113022,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -112838,32 +113035,36 @@
     {
       "series": "https://jkanime.net/ai-mai-mi/",
       "title": "Ai Mai Mi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 6,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nekomonogatari-kuro/",
       "title": "Nekomonogatari: Kuro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -112876,13 +113077,15 @@
     {
       "series": "https://jkanime.net/yama-no-susume/",
       "title": "Yama no Susume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112895,13 +113098,15 @@
     {
       "series": "https://jkanime.net/kokoro-connect-michi-random/",
       "title": "Kokoro Connect: Michi Random",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -112933,13 +113138,15 @@
     {
       "series": "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne-specials/",
       "title": "OniAi Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 6,
         "vidhide": 6,
@@ -112952,19 +113159,21 @@
     {
       "series": "https://jkanime.net/inferno-cop/",
       "title": "Inferno Cop",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 13,
+        "mega": 4,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -112992,13 +113201,15 @@
     {
       "series": "https://jkanime.net/one-piece-special-glorious-island/",
       "title": "One Piece Special: Glorious Island",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -113011,13 +113222,15 @@
     {
       "series": "https://jkanime.net/akb0048-next-stage/",
       "title": "AKB0048 Next Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -113030,32 +113243,36 @@
     {
       "series": "https://jkanime.net/boku-no-imouto-wa-osaka-okan/",
       "title": "Boku no Imouto wa \"Osaka Okan\"",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
+        "mega": 7,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/girls-und-panzer-specials/",
       "title": "Girls und Panzer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -113068,13 +113285,15 @@
     {
       "series": "https://jkanime.net/junjou-romantica-ova/",
       "title": "Junjou Romantica OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -113087,13 +113306,15 @@
     {
       "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/",
       "title": "Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -113182,13 +113403,15 @@
     {
       "series": "https://jkanime.net/saintonii-san/",
       "title": "Saint☆Onii-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -113202,13 +113425,15 @@
     {
       "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/",
       "title": "Ebiten: Kouritsu Ebisugawa Koukou Tenmonbu Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -113259,13 +113484,15 @@
     {
       "series": "https://jkanime.net/girls-und-panzer-shoukai-shimasu/",
       "title": "Girls und Panzer: Shoukai Shimasu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -113339,13 +113566,15 @@
     {
       "series": "https://jkanime.net/initial-d-fifth-stage/",
       "title": "Initial D Fifth Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -113447,13 +113676,15 @@
     {
       "series": "https://jkanime.net/aoi-sekai-no-chuushin-de/",
       "title": "Aoi Sekai no Chuushin de",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -113485,13 +113716,15 @@
     {
       "series": "https://jkanime.net/kami-nomi-zo-shiru-sekai-tenri-hen/",
       "title": "Kami nomi zo Shiru Sekai: Tenri-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -113542,13 +113775,15 @@
     {
       "series": "https://jkanime.net/psycho-pass/",
       "title": "Psycho-Pass",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -113561,13 +113796,15 @@
     {
       "series": "https://jkanime.net/robotics-notes/",
       "title": "Robotics;Notes",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -113580,13 +113817,15 @@
     {
       "series": "https://jkanime.net/medaka-box-abnormal/",
       "title": "Medaka Box Abnormal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -113599,13 +113838,15 @@
     {
       "series": "https://jkanime.net/jormungand-perfect-order/",
       "title": "Jormungand: Perfect Order",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -113618,13 +113859,15 @@
     {
       "series": "https://jkanime.net/sakurasou-no-pet-na-kanojo/",
       "title": "Sakurasou no Pet na Kanojo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -113637,32 +113880,36 @@
     {
       "series": "https://jkanime.net/girls-und-panzer/",
       "title": "Girls und Panzer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/aikatsu/",
       "title": "Aikatsu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 132,
       "stored": 132,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 132,
         "streamwish": 132,
