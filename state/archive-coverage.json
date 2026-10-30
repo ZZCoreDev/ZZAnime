@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T14:05:07.251769+00:00",
+  "checkedAt": "2026-10-30T14:17:00.962273+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73617,
-  "storedChapters": 71819,
-  "missingChapters": 1798,
+  "storedChapters": 71820,
+  "missingChapters": 1797,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5482,8 +5482,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/29/",
-          "https://jkanime.net/tsubasa-chronicle/30/"
+          "https://jkanime.net/tsubasa-chronicle/30/",
+          "https://jkanime.net/tsubasa-chronicle/31/"
         ]
       },
       {
@@ -36726,8 +36726,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/29/",
-          "https://jkanime.net/tsubasa-chronicle/30/"
+          "https://jkanime.net/tsubasa-chronicle/30/",
+          "https://jkanime.net/tsubasa-chronicle/31/"
         ]
       },
       {
@@ -36978,6 +36978,54 @@
         "title": "Mobile Suit Gundam Seed Destiny",
         "samples": [
           "https://jkanime.net/mobile-suit-gundam-seed-destiny/51/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rozen-maiden/",
+        "title": "Rozen Maiden",
+        "samples": [
+          "https://jkanime.net/rozen-maiden/1/",
+          "https://jkanime.net/rozen-maiden/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zipang/",
+        "title": "Zipang",
+        "samples": [
+          "https://jkanime.net/zipang/1/",
+          "https://jkanime.net/zipang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futakoi/",
+        "title": "Futakoi",
+        "samples": [
+          "https://jkanime.net/futakoi/1/",
+          "https://jkanime.net/futakoi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beck/",
+        "title": "Beck",
+        "samples": [
+          "https://jkanime.net/beck/1/",
+          "https://jkanime.net/beck/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gankutsuou-el-conde-de-montecristo/",
+        "title": "Gankutsuou",
+        "samples": [
+          "https://jkanime.net/gankutsuou-el-conde-de-montecristo/1/",
+          "https://jkanime.net/gankutsuou-el-conde-de-montecristo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
+        "title": "Yu Gi Oh!: Duel Monsters GX",
+        "samples": [
+          "https://jkanime.net/yugioh-duel-monsters-gx/1/",
+          "https://jkanime.net/yugioh-duel-monsters-gx/10/"
         ]
       },
       {
@@ -71919,7 +71967,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "streamwish": 13,
         "mega": 9,
@@ -134782,9 +134830,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 28,
+      "stored": 29,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/29/",
         "https://jkanime.net/tsubasa-chronicle/30/",
         "https://jkanime.net/tsubasa-chronicle/31/",
         "https://jkanime.net/tsubasa-chronicle/32/",
@@ -134813,9 +134860,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 29,
-        "streamwish": 28,
-        "vidhide": 29,
+        "mp4upload": 30,
+        "streamwish": 29,
+        "vidhide": 30,
         "mega": 1,
         "streamtape": 1
       },
@@ -134840,7 +134887,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -135495,26 +135542,28 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 26,
       "families": {
         "mp4upload": 50,
         "streamwish": 50,
         "vidhide": 50,
-        "mega": 41,
-        "streamtape": 41
+        "mega": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/rozen-maiden/",
       "title": "Rozen Maiden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135527,13 +135576,15 @@
     {
       "series": "https://jkanime.net/zipang/",
       "title": "Zipang",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -135547,13 +135598,15 @@
     {
       "series": "https://jkanime.net/futakoi/",
       "title": "Futakoi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -135567,13 +135620,15 @@
     {
       "series": "https://jkanime.net/beck/",
       "title": "Beck",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -135586,13 +135641,15 @@
     {
       "series": "https://jkanime.net/gankutsuou-el-conde-de-montecristo/",
       "title": "Gankutsuou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -135605,13 +135662,15 @@
     {
       "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
       "title": "Yu Gi Oh!: Duel Monsters GX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 180,
       "stored": 180,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 159,
       "families": {
         "mega": 179,
         "streamwish": 180,
