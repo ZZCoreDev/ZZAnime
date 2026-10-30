@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T06:30:21.967683+00:00",
+  "checkedAt": "2026-10-30T06:44:01.209674+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73547,
+  "observedChapters": 73560,
   "storedChapters": 71741,
-  "missingChapters": 1806,
+  "missingChapters": 1819,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -33250,11 +33250,59 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mm/",
+        "title": "MM!",
+        "samples": [
+          "https://jkanime.net/mm/1/",
+          "https://jkanime.net/mm/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otome-youkai-zakuro/",
+        "title": "Otome Youkai Zakuro",
+        "samples": [
+          "https://jkanime.net/otome-youkai-zakuro/1/",
+          "https://jkanime.net/otome-youkai-zakuro/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-nomi-zo-shiru-sekai/",
+        "title": "Kami nomi zo Shiru Sekai",
+        "samples": [
+          "https://jkanime.net/kami-nomi-zo-shiru-sekai/1/",
+          "https://jkanime.net/kami-nomi-zo-shiru-sekai/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/pokemon-best-wishes/",
         "title": "Pokemon Best Wishes!",
         "samples": [
           "https://jkanime.net/pokemon-best-wishes/23/",
           "https://jkanime.net/pokemon-best-wishes/24/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/togainu-no-chi/",
+        "title": "Togainu no Chi",
+        "samples": [
+          "https://jkanime.net/togainu-no-chi/1/",
+          "https://jkanime.net/togainu-no-chi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sora-no-otoshimono-forte/",
+        "title": "Sora no Otoshimono: Forte",
+        "samples": [
+          "https://jkanime.net/sora-no-otoshimono-forte/1/",
+          "https://jkanime.net/sora-no-otoshimono-forte/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/star-driver-kagayaki-no-takuto/",
+        "title": "Star Driver: Kagayaki no Takuto",
+        "samples": [
+          "https://jkanime.net/star-driver-kagayaki-no-takuto/1/",
+          "https://jkanime.net/star-driver-kagayaki-no-takuto/10/"
         ]
       },
       {
@@ -33265,10 +33313,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tamayura/",
+        "title": "Tamayura",
+        "samples": [
+          "https://jkanime.net/tamayura/1/",
+          "https://jkanime.net/tamayura/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-girls/",
+        "title": "Hyakka Ryouran: Samurai Girls",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-girls/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/durarara-specials/",
+        "title": "Durarara!! Specials",
+        "samples": [
+          "https://jkanime.net/durarara-specials/1/",
+          "https://jkanime.net/durarara-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/colorful-movie/",
         "title": "Colorful (Movie)",
         "samples": [
           "https://jkanime.net/colorful-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yojouhan-shinwa-taikei-specials/",
+        "title": "Yojouhan Shinwa Taikei Specials",
+        "samples": [
+          "https://jkanime.net/yojouhan-shinwa-taikei-specials/1/",
+          "https://jkanime.net/yojouhan-shinwa-taikei-specials/2/"
         ]
       },
       {
@@ -33293,10 +33373,42 @@
         ]
       },
       {
+        "series": "https://jkanime.net/iron-man/",
+        "title": "Iron Man",
+        "samples": [
+          "https://jkanime.net/iron-man/1/",
+          "https://jkanime.net/iron-man/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/karigurashi-no-arrietty/",
         "title": "Karigurashi no Arrietty",
         "samples": [
           "https://jkanime.net/karigurashi-no-arrietty/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/asobi-ni-iku-yo/",
+        "title": "Asobi ni Iku yo!",
+        "samples": [
+          "https://jkanime.net/asobi-ni-iku-yo/1/",
+          "https://jkanime.net/asobi-ni-iku-yo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sengoku-basara-two/",
+        "title": "Sengoku Basara Two",
+        "samples": [
+          "https://jkanime.net/sengoku-basara-two/1/",
+          "https://jkanime.net/sengoku-basara-two/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nurarihyon-no-mago/",
+        "title": "Nurarihyon no Mago",
+        "samples": [
+          "https://jkanime.net/nurarihyon-no-mago/1/",
+          "https://jkanime.net/nurarihyon-no-mago/10/"
         ]
       },
       {
@@ -121718,7 +121830,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
@@ -121898,13 +122010,15 @@
     {
       "series": "https://jkanime.net/mm/",
       "title": "MM!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121917,13 +122031,15 @@
     {
       "series": "https://jkanime.net/otome-youkai-zakuro/",
       "title": "Otome Youkai Zakuro",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -121936,13 +122052,15 @@
     {
       "series": "https://jkanime.net/kami-nomi-zo-shiru-sekai/",
       "title": "Kami nomi zo Shiru Sekai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121959,34 +122077,49 @@
         "observed-chapters-without-options",
         "renewal-error"
       ],
-      "observed": 84,
+      "observed": 97,
       "stored": 82,
       "missing": [
         "https://jkanime.net/pokemon-best-wishes/23/",
-        "https://jkanime.net/pokemon-best-wishes/24/"
+        "https://jkanime.net/pokemon-best-wishes/24/",
+        "https://jkanime.net/pokemon-best-wishes/85/",
+        "https://jkanime.net/pokemon-best-wishes/86/",
+        "https://jkanime.net/pokemon-best-wishes/87/",
+        "https://jkanime.net/pokemon-best-wishes/88/",
+        "https://jkanime.net/pokemon-best-wishes/89/",
+        "https://jkanime.net/pokemon-best-wishes/90/",
+        "https://jkanime.net/pokemon-best-wishes/91/",
+        "https://jkanime.net/pokemon-best-wishes/92/",
+        "https://jkanime.net/pokemon-best-wishes/93/",
+        "https://jkanime.net/pokemon-best-wishes/94/",
+        "https://jkanime.net/pokemon-best-wishes/95/",
+        "https://jkanime.net/pokemon-best-wishes/96/",
+        "https://jkanime.net/pokemon-best-wishes/97/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 77,
       "families": {
-        "mega": 82,
+        "mega": 75,
         "streamwish": 82,
-        "vidhide": 82,
-        "mp4upload": 80,
-        "streamtape": 82
+        "vidhide": 83,
+        "mp4upload": 82,
+        "streamtape": 75
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/togainu-no-chi/",
       "title": "Togainu no Chi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121999,13 +122132,15 @@
     {
       "series": "https://jkanime.net/sora-no-otoshimono-forte/",
       "title": "Sora no Otoshimono: Forte",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122018,13 +122153,15 @@
     {
       "series": "https://jkanime.net/star-driver-kagayaki-no-takuto/",
       "title": "Star Driver: Kagayaki no Takuto",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -122056,13 +122193,15 @@
     {
       "series": "https://jkanime.net/tamayura/",
       "title": "Tamayura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -122075,13 +122214,15 @@
     {
       "series": "https://jkanime.net/hyakka-ryouran-samurai-girls/",
       "title": "Hyakka Ryouran: Samurai Girls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122094,13 +122235,15 @@
     {
       "series": "https://jkanime.net/durarara-specials/",
       "title": "Durarara!! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -122133,13 +122276,15 @@
     {
       "series": "https://jkanime.net/yojouhan-shinwa-taikei-specials/",
       "title": "Yojouhan Shinwa Taikei Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -122229,13 +122374,15 @@
     {
       "series": "https://jkanime.net/iron-man/",
       "title": "Iron Man",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122267,13 +122414,15 @@
     {
       "series": "https://jkanime.net/asobi-ni-iku-yo/",
       "title": "Asobi ni Iku yo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122287,13 +122436,15 @@
     {
       "series": "https://jkanime.net/sengoku-basara-two/",
       "title": "Sengoku Basara Two",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -122314,24 +122465,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/nurarihyon-no-mago/",
       "title": "Nurarihyon no Mago",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
         "mega": 26,
         "streamwish": 26,
