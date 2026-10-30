@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T09:35:19.810299+00:00",
+  "checkedAt": "2026-10-30T09:49:36.105203+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73564,
-  "storedChapters": 71767,
-  "missingChapters": 1797,
+  "storedChapters": 71769,
+  "missingChapters": 1795,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -381,8 +381,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/30/",
-          "https://jkanime.net/dr-stone-science-future/31/"
+          "https://jkanime.net/dr-stone-science-future/31/",
+          "https://jkanime.net/dr-stone-science-future/32/"
         ]
       },
       {
@@ -8051,8 +8051,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/30/",
-          "https://jkanime.net/dr-stone-science-future/31/"
+          "https://jkanime.net/dr-stone-science-future/31/",
+          "https://jkanime.net/dr-stone-science-future/32/"
         ]
       },
       {
@@ -34843,6 +34843,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mahou-sensei-negima-shiroki-tsubasa-ala-alba/",
+        "title": "Mahou Sensei Negima! Shiroki Tsubasa Ala Alba",
+        "samples": [
+          "https://jkanime.net/mahou-sensei-negima-shiroki-tsubasa-ala-alba/1/",
+          "https://jkanime.net/mahou-sensei-negima-shiroki-tsubasa-ala-alba/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/detroit-metal-city/",
+        "title": "Detroit Metal City",
+        "samples": [
+          "https://jkanime.net/detroit-metal-city/1/",
+          "https://jkanime.net/detroit-metal-city/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/naruto-shippuuden-movie-2-kizuna/",
         "title": "Naruto: Shippuuden Movie 2 - Kizuna",
         "samples": [
@@ -34861,6 +34877,118 @@
         "title": "Clannad: Another World, Tomoyo Chapter",
         "samples": [
           "https://jkanime.net/clannad-another-world-tomoyo-chapter/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blade-of-the-immortal/",
+        "title": "Blade of the Immortal",
+        "samples": [
+          "https://jkanime.net/blade-of-the-immortal/12/",
+          "https://jkanime.net/blade-of-the-immortal/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsume-yuujinchou/",
+        "title": "Natsume Yuujinchou",
+        "samples": [
+          "https://jkanime.net/natsume-yuujinchou/10/",
+          "https://jkanime.net/natsume-yuujinchou/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zero-no-tsukaima-princesses-no-rondo/",
+        "title": "Zero no Tsukaima: Princesses no Rondo",
+        "samples": [
+          "https://jkanime.net/zero-no-tsukaima-princesses-no-rondo/1/",
+          "https://jkanime.net/zero-no-tsukaima-princesses-no-rondo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tetsuwan-birdy-decode/",
+        "title": "Tetsuwan Birdy Decode",
+        "samples": [
+          "https://jkanime.net/tetsuwan-birdy-decode/1/",
+          "https://jkanime.net/tetsuwan-birdy-decode/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strike-witches/",
+        "title": "Strike Witches",
+        "samples": [
+          "https://jkanime.net/strike-witches/1/",
+          "https://jkanime.net/strike-witches/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nogizaka-haruka-no-himitsu/",
+        "title": "Nogizaka Haruka no Himitsu",
+        "samples": [
+          "https://jkanime.net/nogizaka-haruka-no-himitsu/1/",
+          "https://jkanime.net/nogizaka-haruka-no-himitsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/",
+        "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
+        "samples": [
+          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/1/",
+          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekirei/",
+        "title": "Sekirei",
+        "samples": [
+          "https://jkanime.net/sekirei/1/",
+          "https://jkanime.net/sekirei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ikkitousen-great-guardians/",
+        "title": "Ikkitousen: Great Guardians",
+        "samples": [
+          "https://jkanime.net/ikkitousen-great-guardians/1/",
+          "https://jkanime.net/ikkitousen-great-guardians/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prince-of-tennis-the-national-tournament-finals/",
+        "title": "Prince of Tennis: The National Tournament Finals",
+        "samples": [
+          "https://jkanime.net/prince-of-tennis-the-national-tournament-finals/1/",
+          "https://jkanime.net/prince-of-tennis-the-national-tournament-finals/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/penguin-musume-heart/",
+        "title": "Penguin Musume Heart",
+        "samples": [
+          "https://jkanime.net/penguin-musume-heart/1/",
+          "https://jkanime.net/penguin-musume-heart/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/junjou-romantica/",
+        "title": "Junjou Romantica",
+        "samples": [
+          "https://jkanime.net/junjou-romantica/10/",
+          "https://jkanime.net/junjou-romantica/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vampire-knight/",
+        "title": "Vampire Knight",
+        "samples": [
+          "https://jkanime.net/vampire-knight/10/",
+          "https://jkanime.net/vampire-knight/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soul-eater/",
+        "title": "Soul Eater",
+        "samples": [
+          "https://jkanime.net/soul-eater/1/",
+          "https://jkanime.net/soul-eater/10/"
         ]
       },
       {
@@ -50852,19 +50980,18 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 34,
+      "stored": 35,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/30/",
         "https://jkanime.net/dr-stone-science-future/31/",
         "https://jkanime.net/dr-stone-science-future/32/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "streamwish": 26,
+        "streamwish": 27,
         "vidhide": 20,
-        "mp4upload": 31,
+        "mp4upload": 32,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -70081,7 +70208,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -83152,7 +83279,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 9
       },
@@ -94246,19 +94373,18 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/8/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 7
+        "streamwish": 8
       },
       "playbackVerified": false
     },
@@ -94427,7 +94553,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -98241,7 +98367,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 3
       },
@@ -98581,7 +98707,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -127753,7 +127879,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -127785,13 +127911,15 @@
     {
       "series": "https://jkanime.net/mahou-sensei-negima-shiroki-tsubasa-ala-alba/",
       "title": "Mahou Sensei Negima! Shiroki Tsubasa Ala Alba",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -127804,13 +127932,15 @@
     {
       "series": "https://jkanime.net/detroit-metal-city/",
       "title": "Detroit Metal City",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127880,52 +128010,58 @@
     {
       "series": "https://jkanime.net/blade-of-the-immortal/",
       "title": "Blade of the Immortal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/natsume-yuujinchou/",
       "title": "Natsume Yuujinchou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
+        "mixdrop": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/zero-no-tsukaima-princesses-no-rondo/",
       "title": "Zero no Tsukaima: Princesses no Rondo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127938,13 +128074,15 @@
     {
       "series": "https://jkanime.net/tetsuwan-birdy-decode/",
       "title": "Tetsuwan Birdy Decode",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -127957,13 +128095,15 @@
     {
       "series": "https://jkanime.net/strike-witches/",
       "title": "Strike Witches",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127976,13 +128116,15 @@
     {
       "series": "https://jkanime.net/nogizaka-haruka-no-himitsu/",
       "title": "Nogizaka Haruka no Himitsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -127995,13 +128137,15 @@
     {
       "series": "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/",
       "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -128015,13 +128159,15 @@
     {
       "series": "https://jkanime.net/sekirei/",
       "title": "Sekirei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -128034,13 +128180,15 @@
     {
       "series": "https://jkanime.net/ikkitousen-great-guardians/",
       "title": "Ikkitousen: Great Guardians",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -128053,13 +128201,15 @@
     {
       "series": "https://jkanime.net/prince-of-tennis-the-national-tournament-finals/",
       "title": "Prince of Tennis: The National Tournament Finals",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -128072,70 +128222,78 @@
     {
       "series": "https://jkanime.net/penguin-musume-heart/",
       "title": "Penguin Musume Heart",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 22,
+        "mega": 7,
         "streamwish": 22,
-        "vidhide": 22,
-        "mp4upload": 22,
-        "streamtape": 22
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/junjou-romantica/",
       "title": "Junjou Romantica",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/vampire-knight/",
       "title": "Vampire Knight",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
+        "mp4upload": 13,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/soul-eater/",
       "title": "Soul Eater",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 46,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -142546,12 +142704,12 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
         "mp4upload": 4,
-        "streamtape": 4
+        "streamtape": 3
       },
       "playbackVerified": false
     },
