@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T03:23:55.291037+00:00",
+  "checkedAt": "2026-10-30T03:37:06.465473+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
   "storedChapters": 71720,
@@ -31056,10 +31056,114 @@
         ]
       },
       {
+        "series": "https://jkanime.net/little-busters/",
+        "title": "Little Busters!",
+        "samples": [
+          "https://jkanime.net/little-busters/1/",
+          "https://jkanime.net/little-busters/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuman-3/",
+        "title": "Bakuman. 3",
+        "samples": [
+          "https://jkanime.net/bakuman-3/1/",
+          "https://jkanime.net/bakuman-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-love-ru-darkness/",
+        "title": "To LOVE-Ru Darkness",
+        "samples": [
+          "https://jkanime.net/to-love-ru-darkness/1/",
+          "https://jkanime.net/to-love-ru-darkness/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/k-project/",
+        "title": "K",
+        "samples": [
+          "https://jkanime.net/k-project/1/",
+          "https://jkanime.net/k-project/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zetsuen-no-tempest/",
+        "title": "Zetsuen no Tempest",
+        "samples": [
+          "https://jkanime.net/zetsuen-no-tempest/1/",
+          "https://jkanime.net/zetsuen-no-tempest/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/busou-shinki/",
+        "title": "Busou Shinki",
+        "samples": [
+          "https://jkanime.net/busou-shinki/1/",
+          "https://jkanime.net/busou-shinki/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/minami-ke-omatase/",
         "title": "Minami-ke Omatase",
         "samples": [
           "https://jkanime.net/minami-ke-omatase/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/btooom/",
+        "title": "Btooom!",
+        "samples": [
+          "https://jkanime.net/btooom/1/",
+          "https://jkanime.net/btooom/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai/",
+        "title": "Chuunibyou demo Koi ga Shitai!",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai/1/",
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-hajimemashita/",
+        "title": "Kamisama Hajimemashita",
+        "samples": [
+          "https://jkanime.net/kamisama-hajimemashita/10/",
+          "https://jkanime.net/kamisama-hajimemashita/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hayate-no-gotoku-cant-take-my-eyes-off-you/",
+        "title": "Hayate no Gotoku! Can’t Take My Eyes Off You",
+        "samples": [
+          "https://jkanime.net/hayate-no-gotoku-cant-take-my-eyes-off-you/1/",
+          "https://jkanime.net/hayate-no-gotoku-cant-take-my-eyes-off-you/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wooser-no-sono-higurashi/",
+        "title": "Wooser no Sono Higurashi",
+        "samples": [
+          "https://jkanime.net/wooser-no-sono-higurashi/1/",
+          "https://jkanime.net/wooser-no-sono-higurashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tonari-no-kaibutsu-kun/",
+        "title": "Tonari no Kaibutsu-kun",
+        "samples": [
+          "https://jkanime.net/tonari-no-kaibutsu-kun/1/",
+          "https://jkanime.net/tonari-no-kaibutsu-kun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hiiro-no-kakera-dai-ni-shou/",
+        "title": "Hiiro no Kakera Dai Ni Shou",
+        "samples": [
+          "https://jkanime.net/hiiro-no-kakera-dai-ni-shou/1/",
+          "https://jkanime.net/hiiro-no-kakera-dai-ni-shou/10/"
         ]
       },
       {
@@ -31077,10 +31181,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shinsekai-yori/",
+        "title": "Shinsekai yori",
+        "samples": [
+          "https://jkanime.net/shinsekai-yori/1/",
+          "https://jkanime.net/shinsekai-yori/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/code-geass-boukoku-no-akito/",
         "title": "Code Geass: Boukoku no Akito",
         "samples": [
           "https://jkanime.net/code-geass-boukoku-no-akito/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-lite/",
+        "title": "Chuu-ni Byou! Lite",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-lite/1/",
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-lite/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hori-san-to-miyamura-kun/",
+        "title": "Hori-san to Miyamura-kun",
+        "samples": [
+          "https://jkanime.net/hori-san-to-miyamura-kun/1/",
+          "https://jkanime.net/hori-san-to-miyamura-kun/2/"
         ]
       },
       {
@@ -31098,10 +31226,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hagure-yuusha-no-estetica-hajirai-ippai/",
+        "title": "Hagure Yuusha no Estetica: Hajirai Ippai",
+        "samples": [
+          "https://jkanime.net/hagure-yuusha-no-estetica-hajirai-ippai/1/",
+          "https://jkanime.net/hagure-yuusha-no-estetica-hajirai-ippai/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hashi-no-mukou/",
         "title": "Hashi no Mukou",
         "samples": [
           "https://jkanime.net/hashi-no-mukou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/accel-world-ex/",
+        "title": "Accel World EX",
+        "samples": [
+          "https://jkanime.net/accel-world-ex/1/",
+          "https://jkanime.net/accel-world-ex/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/highschool-dxd-ova/",
+        "title": "Highschool DxD OVA",
+        "samples": [
+          "https://jkanime.net/highschool-dxd-ova/1/",
+          "https://jkanime.net/highschool-dxd-ova/2/"
         ]
       },
       {
@@ -31133,6 +31285,29 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nogizaka-haruka-no-himitsu-finale/",
+        "title": "Nogizaka Haruka no Himitsu: Finale",
+        "samples": [
+          "https://jkanime.net/nogizaka-haruka-no-himitsu-finale/1/",
+          "https://jkanime.net/nogizaka-haruka-no-himitsu-finale/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-opera-milky-holmes-alternative/",
+        "title": "Tantei Opera Milky Holmes: Alternative",
+        "samples": [
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-love-ru-darkness-ova/",
+        "title": "To LOVE-Ru Darkness OVA",
+        "samples": [
+          "https://jkanime.net/to-love-ru-darkness-ova/1/",
+          "https://jkanime.net/to-love-ru-darkness-ova/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dantalian-no-shoka-ibarahime/",
         "title": "Dantalian no Shoka: Ibarahime",
         "samples": [
@@ -31145,6 +31320,14 @@
         "samples": [
           "https://jkanime.net/shinryaku-ika-musume-ova/1/",
           "https://jkanime.net/shinryaku-ika-musume-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyou-no-asuka-show/",
+        "title": "Kyou no Asuka Show",
+        "samples": [
+          "https://jkanime.net/kyou-no-asuka-show/1/",
+          "https://jkanime.net/kyou-no-asuka-show/10/"
         ]
       },
       {
@@ -91437,7 +91620,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -92173,7 +92356,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 7
       },
@@ -114053,7 +114236,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
@@ -114114,7 +114297,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114127,13 +114310,15 @@
     {
       "series": "https://jkanime.net/little-busters/",
       "title": "Little Busters!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -114146,13 +114331,15 @@
     {
       "series": "https://jkanime.net/bakuman-3/",
       "title": "Bakuman. 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -114184,13 +114371,15 @@
     {
       "series": "https://jkanime.net/to-love-ru-darkness/",
       "title": "To LOVE-Ru Darkness",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114203,13 +114392,15 @@
     {
       "series": "https://jkanime.net/k-project/",
       "title": "K",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -114222,13 +114413,15 @@
     {
       "series": "https://jkanime.net/zetsuen-no-tempest/",
       "title": "Zetsuen no Tempest",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -114241,13 +114434,15 @@
     {
       "series": "https://jkanime.net/busou-shinki/",
       "title": "Busou Shinki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114279,13 +114474,15 @@
     {
       "series": "https://jkanime.net/btooom/",
       "title": "Btooom!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114298,13 +114495,15 @@
     {
       "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai/",
       "title": "Chuunibyou demo Koi ga Shitai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114336,32 +114535,36 @@
     {
       "series": "https://jkanime.net/kamisama-hajimemashita/",
       "title": "Kamisama Hajimemashita",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 12,
+        "mp4upload": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hayate-no-gotoku-cant-take-my-eyes-off-you/",
       "title": "Hayate no Gotoku! Can’t Take My Eyes Off You",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114374,32 +114577,36 @@
     {
       "series": "https://jkanime.net/wooser-no-sono-higurashi/",
       "title": "Wooser no Sono Higurashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
+        "mega": 5,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tonari-no-kaibutsu-kun/",
       "title": "Tonari no Kaibutsu-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -114412,13 +114619,15 @@
     {
       "series": "https://jkanime.net/hiiro-no-kakera-dai-ni-shou/",
       "title": "Hiiro no Kakera Dai Ni Shou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -114469,13 +114678,15 @@
     {
       "series": "https://jkanime.net/shinsekai-yori/",
       "title": "Shinsekai yori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -114500,7 +114711,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 5,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -114513,13 +114724,15 @@
     {
       "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-lite/",
       "title": "Chuu-ni Byou! Lite",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -114532,13 +114745,15 @@
     {
       "series": "https://jkanime.net/hori-san-to-miyamura-kun/",
       "title": "Hori-san to Miyamura-kun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -114590,13 +114805,15 @@
     {
       "series": "https://jkanime.net/hagure-yuusha-no-estetica-hajirai-ippai/",
       "title": "Hagure Yuusha no Estetica: Hajirai Ippai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -114628,13 +114845,15 @@
     {
       "series": "https://jkanime.net/accel-world-ex/",
       "title": "Accel World EX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -114647,13 +114866,15 @@
     {
       "series": "https://jkanime.net/highschool-dxd-ova/",
       "title": "Highschool DxD OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -114743,13 +114964,15 @@
     {
       "series": "https://jkanime.net/nogizaka-haruka-no-himitsu-finale/",
       "title": "Nogizaka Haruka no Himitsu: Finale",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -114777,32 +115000,36 @@
     {
       "series": "https://jkanime.net/tantei-opera-milky-holmes-alternative/",
       "title": "Tantei Opera Milky Holmes: Alternative",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
         "mp4upload": 2,
-        "streamtape": 2
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/to-love-ru-darkness-ova/",
       "title": "To LOVE-Ru Darkness OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -114854,13 +115081,15 @@
     {
       "series": "https://jkanime.net/kyou-no-asuka-show/",
       "title": "Kyou no Asuka Show",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 18,
       "families": {
         "mega": 20,
         "streamwish": 20,
