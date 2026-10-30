@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T09:49:36.105203+00:00",
+  "checkedAt": "2026-10-30T10:02:37.086652+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73564,
-  "storedChapters": 71769,
+  "observedChapters": 73566,
+  "storedChapters": 71771,
   "missingChapters": 1795,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -381,7 +381,6 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/31/",
           "https://jkanime.net/dr-stone-science-future/32/"
         ]
       },
@@ -5251,6 +5250,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zettai-karen-children/",
+        "title": "Zettai Karen Children",
+        "samples": [
+          "https://jkanime.net/zettai-karen-children/52/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamen-no-maid-guy/",
+        "title": "Kamen no Maid Guy",
+        "samples": [
+          "https://jkanime.net/kamen-no-maid-guy/13/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hack-g-u-trilogy/",
         "title": ".hack//G.U. Trilogy",
         "samples": [
@@ -8051,7 +8064,6 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/31/",
           "https://jkanime.net/dr-stone-science-future/32/"
         ]
       },
@@ -34992,6 +35004,116 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nabari-no-ou/",
+        "title": "Nabari no Ou",
+        "samples": [
+          "https://jkanime.net/nabari-no-ou/1/",
+          "https://jkanime.net/nabari-no-ou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zettai-karen-children/",
+        "title": "Zettai Karen Children",
+        "samples": [
+          "https://jkanime.net/zettai-karen-children/52/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/neo-angelique-abyss/",
+        "title": "Neo Angelique Abyss",
+        "samples": [
+          "https://jkanime.net/neo-angelique-abyss/1/",
+          "https://jkanime.net/neo-angelique-abyss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/",
+        "title": "Code Geass: Hangyaku no Lelouch R2",
+        "samples": [
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/1/",
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/da-capo-ii-second-season/",
+        "title": "Da Capo II Second Season",
+        "samples": [
+          "https://jkanime.net/da-capo-ii-second-season/1/",
+          "https://jkanime.net/da-capo-ii-second-season/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/special-a/",
+        "title": "Special A",
+        "samples": [
+          "https://jkanime.net/special-a/1/",
+          "https://jkanime.net/special-a/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanokon/",
+        "title": "Kanokon",
+        "samples": [
+          "https://jkanime.net/kanokon/1/",
+          "https://jkanime.net/kanokon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamen-no-maid-guy/",
+        "title": "Kamen no Maid Guy",
+        "samples": [
+          "https://jkanime.net/kamen-no-maid-guy/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/itazura-na-kiss/",
+        "title": "Itazura na Kiss",
+        "samples": [
+          "https://jkanime.net/itazura-na-kiss/1/",
+          "https://jkanime.net/itazura-na-kiss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amatsuki/",
+        "title": "Amatsuki",
+        "samples": [
+          "https://jkanime.net/amatsuki/1/",
+          "https://jkanime.net/amatsuki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/xxxholic-kei/",
+        "title": "xxxHOLiC Kei",
+        "samples": [
+          "https://jkanime.net/xxxholic-kei/1/",
+          "https://jkanime.net/xxxholic-kei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-love-ru/",
+        "title": "To LOVE-Ru",
+        "samples": [
+          "https://jkanime.net/to-love-ru/1/",
+          "https://jkanime.net/to-love-ru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kurenai/",
+        "title": "Kure-nai",
+        "samples": [
+          "https://jkanime.net/kurenai/1/",
+          "https://jkanime.net/kurenai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/macross-frontier/",
+        "title": "Macross Frontier",
+        "samples": [
+          "https://jkanime.net/macross-frontier/1/",
+          "https://jkanime.net/macross-frontier/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hack-g-u-trilogy/",
         "title": ".hack//G.U. Trilogy",
         "samples": [
@@ -41432,7 +41554,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {},
       "playbackVerified": false
     },
@@ -50980,17 +51102,16 @@
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 35,
+      "stored": 36,
       "missing": [
-        "https://jkanime.net/dr-stone-science-future/31/",
         "https://jkanime.net/dr-stone-science-future/32/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "streamwish": 27,
-        "vidhide": 20,
+        "streamwish": 28,
+        "vidhide": 21,
         "mp4upload": 32,
         "mega": 1,
         "mixdrop": 1,
@@ -71031,7 +71152,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -71403,7 +71524,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mp4upload": 15,
         "mega": 7,
@@ -83257,7 +83378,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -83271,7 +83392,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
         "https://jkanime.net/fight-league-gear-gadget-generators/4/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/5/",
         "https://jkanime.net/fight-league-gear-gadget-generators/6/",
         "https://jkanime.net/fight-league-gear-gadget-generators/7/",
         "https://jkanime.net/fight-league-gear-gadget-generators/8/",
@@ -83281,7 +83401,7 @@
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
-        "mp4upload": 9
+        "mp4upload": 10
       },
       "playbackVerified": false
     },
@@ -94382,7 +94502,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 8
       },
@@ -98367,7 +98487,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 3
       },
@@ -128293,7 +128413,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 46,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -128306,13 +128426,15 @@
     {
       "series": "https://jkanime.net/nabari-no-ou/",
       "title": "Nabari no Ou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -128325,32 +128447,39 @@
     {
       "series": "https://jkanime.net/zettai-karen-children/",
       "title": "Zettai Karen Children",
-      "causes": [],
-      "observed": 51,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 52,
       "stored": 51,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/zettai-karen-children/52/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
-        "mega": 51,
+        "mega": 22,
         "streamwish": 51,
-        "vidhide": 51,
-        "mp4upload": 51,
-        "streamtape": 51
+        "vidhide": 37,
+        "mp4upload": 37,
+        "streamtape": 22
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/neo-angelique-abyss/",
       "title": "Neo Angelique Abyss",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -128363,13 +128492,15 @@
     {
       "series": "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/",
       "title": "Code Geass: Hangyaku no Lelouch R2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -128382,32 +128513,36 @@
     {
       "series": "https://jkanime.net/da-capo-ii-second-season/",
       "title": "Da Capo II Second Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 13,
+        "mega": 7,
         "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/special-a/",
       "title": "Special A",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -128420,13 +128555,15 @@
     {
       "series": "https://jkanime.net/kanokon/",
       "title": "Kanokon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -128439,32 +128576,39 @@
     {
       "series": "https://jkanime.net/kamen-no-maid-guy/",
       "title": "Kamen no Maid Guy",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/kamen-no-maid-guy/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/itazura-na-kiss/",
       "title": "Itazura na Kiss",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -128477,13 +128621,15 @@
     {
       "series": "https://jkanime.net/amatsuki/",
       "title": "Amatsuki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -128496,13 +128642,15 @@
     {
       "series": "https://jkanime.net/xxxholic-kei/",
       "title": "xxxHOLiC Kei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
@@ -128515,13 +128663,15 @@
     {
       "series": "https://jkanime.net/to-love-ru/",
       "title": "To LOVE-Ru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -128534,13 +128684,15 @@
     {
       "series": "https://jkanime.net/kurenai/",
       "title": "Kure-nai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -128553,13 +128705,15 @@
     {
       "series": "https://jkanime.net/macross-frontier/",
       "title": "Macross Frontier",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 25,
         "streamwish": 25,
