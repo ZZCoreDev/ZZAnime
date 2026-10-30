@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T00:06:11.467494+00:00",
+  "checkedAt": "2026-10-30T00:19:01.451476+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -28053,7 +28053,72 @@
         "series": "https://jkanime.net/ping-pong-the-animation/",
         "title": "Ping Pong The Animation",
         "samples": [
-          "https://jkanime.net/ping-pong-the-animation/1/"
+          "https://jkanime.net/ping-pong-the-animation/1/",
+          "https://jkanime.net/ping-pong-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryuugajou-nanana-no-maizoukin/",
+        "title": "Ryuugajou Nanana no Maizoukin",
+        "samples": [
+          "https://jkanime.net/ryuugajou-nanana-no-maizoukin/1/",
+          "https://jkanime.net/ryuugajou-nanana-no-maizoukin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yu-gi-oh-arc-v/",
+        "title": "Yu-Gi-Oh! Arc-V",
+        "samples": [
+          "https://jkanime.net/yu-gi-oh-arc-v/1/",
+          "https://jkanime.net/yu-gi-oh-arc-v/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hitsugi-no-chaika/",
+        "title": "Hitsugi no Chaika",
+        "samples": [
+          "https://jkanime.net/hitsugi-no-chaika/1/",
+          "https://jkanime.net/hitsugi-no-chaika/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/no-game-no-life/",
+        "title": "No Game No Life",
+        "samples": [
+          "https://jkanime.net/no-game-no-life/1/",
+          "https://jkanime.net/no-game-no-life/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fuuun-ishin-daishogun/",
+        "title": "Fuuun Ishin Dai☆Shogun",
+        "samples": [
+          "https://jkanime.net/fuuun-ishin-daishogun/1/",
+          "https://jkanime.net/fuuun-ishin-daishogun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-bullet/",
+        "title": "Black Bullet",
+        "samples": [
+          "https://jkanime.net/black-bullet/1/",
+          "https://jkanime.net/black-bullet/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-ga-flag-wo-oraretara/",
+        "title": "Kanojo ga Flag wo Oraretara",
+        "samples": [
+          "https://jkanime.net/kanojo-ga-flag-wo-oraretara/1/",
+          "https://jkanime.net/kanojo-ga-flag-wo-oraretara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-taisen/",
+        "title": "Mahou Shoujo Taisen",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-taisen/1/",
+          "https://jkanime.net/mahou-shoujo-taisen/12/"
         ]
       },
       {
@@ -77999,7 +78064,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 2
       },
@@ -86846,7 +86911,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -89141,7 +89206,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -103629,7 +103694,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -103642,13 +103707,15 @@
     {
       "series": "https://jkanime.net/ryuugajou-nanana-no-maizoukin/",
       "title": "Ryuugajou Nanana no Maizoukin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -103661,13 +103728,15 @@
     {
       "series": "https://jkanime.net/yu-gi-oh-arc-v/",
       "title": "Yu-Gi-Oh! Arc-V",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 148,
       "stored": 148,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 148,
       "families": {
         "mega": 147,
         "streamwish": 148,
@@ -103680,13 +103749,15 @@
     {
       "series": "https://jkanime.net/hitsugi-no-chaika/",
       "title": "Hitsugi no Chaika",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103699,13 +103770,15 @@
     {
       "series": "https://jkanime.net/no-game-no-life/",
       "title": "No Game No Life",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103718,13 +103791,15 @@
     {
       "series": "https://jkanime.net/fuuun-ishin-daishogun/",
       "title": "Fuuun Ishin Dai☆Shogun",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103737,13 +103812,15 @@
     {
       "series": "https://jkanime.net/black-bullet/",
       "title": "Black Bullet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -103756,13 +103833,15 @@
     {
       "series": "https://jkanime.net/kanojo-ga-flag-wo-oraretara/",
       "title": "Kanojo ga Flag wo Oraretara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -103775,19 +103854,21 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-taisen/",
       "title": "Mahou Shoujo Taisen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 26,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "mega": 10,
+        "streamwish": 26,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
