@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T14:56:02.494051+00:00",
+  "checkedAt": "2026-10-30T15:10:31.523226+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73618,
-  "storedChapters": 71826,
+  "observedChapters": 73619,
+  "storedChapters": 71827,
   "missingChapters": 1792,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -5475,8 +5475,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/33/",
-          "https://jkanime.net/tsubasa-chronicle/34/"
+          "https://jkanime.net/tsubasa-chronicle/34/",
+          "https://jkanime.net/tsubasa-chronicle/35/"
         ]
       },
       {
@@ -5548,6 +5548,13 @@
         "title": "Green Green Thirteen: Erolutions",
         "samples": [
           "https://jkanime.net/green-green-thirteen-erolutions/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuretsu-tenshi/",
+        "title": "Bakuretsu Tenshi",
+        "samples": [
+          "https://jkanime.net/bakuretsu-tenshi/25/"
         ]
       },
       {
@@ -36719,8 +36726,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/33/",
-          "https://jkanime.net/tsubasa-chronicle/34/"
+          "https://jkanime.net/tsubasa-chronicle/34/",
+          "https://jkanime.net/tsubasa-chronicle/35/"
         ]
       },
       {
@@ -37226,10 +37233,81 @@
         ]
       },
       {
+        "series": "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori-specials/",
+        "title": "Takahashi Rumiko Gekijou Ningyo no Mori Specials",
+        "samples": [
+          "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori-specials/1/",
+          "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuretsu-tenshi/",
+        "title": "Bakuretsu Tenshi",
+        "samples": [
+          "https://jkanime.net/bakuretsu-tenshi/25/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-love/",
+        "title": "Love♥Love?",
+        "samples": [
+          "https://jkanime.net/love-love/1/",
+          "https://jkanime.net/love-love/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/onegai-twins-ova/",
         "title": "Onegai Twins OVA",
         "samples": [
           "https://jkanime.net/onegai-twins-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/initial-d-fourth-stage/",
+        "title": "Initial D Fourth Stage",
+        "samples": [
+          "https://jkanime.net/initial-d-fourth-stage/1/",
+          "https://jkanime.net/initial-d-fourth-stage/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pugyuru/",
+        "title": "Pugyuru",
+        "samples": [
+          "https://jkanime.net/pugyuru/1/",
+          "https://jkanime.net/pugyuru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gantz/",
+        "title": "Gantz",
+        "samples": [
+          "https://jkanime.net/gantz/1/",
+          "https://jkanime.net/gantz/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle/",
+        "title": "Kinnikuman II Sei: Ultimate Muscle",
+        "samples": [
+          "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle/1/",
+          "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster/",
+        "title": "Monster",
+        "samples": [
+          "https://jkanime.net/monster/1/",
+          "https://jkanime.net/monster/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor/",
+        "title": "Soukyuu no Fafner: Dead Aggressor",
+        "samples": [
+          "https://jkanime.net/soukyuu-no-fafner-dead-aggressor/1/",
+          "https://jkanime.net/soukyuu-no-fafner-dead-aggressor/10/"
         ]
       },
       {
@@ -90060,7 +90138,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {},
       "playbackVerified": false
     },
@@ -94680,7 +94758,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -128260,7 +128338,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {},
       "playbackVerified": false
     },
@@ -134991,9 +135069,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 32,
+      "stored": 33,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/33/",
         "https://jkanime.net/tsubasa-chronicle/34/",
         "https://jkanime.net/tsubasa-chronicle/35/",
         "https://jkanime.net/tsubasa-chronicle/36/",
@@ -135018,9 +135095,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 33,
-        "streamwish": 32,
-        "vidhide": 33,
+        "mp4upload": 34,
+        "streamwish": 33,
+        "vidhide": 34,
         "mega": 1,
         "streamtape": 1
       },
@@ -135045,7 +135122,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -136396,7 +136473,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 26,
       "families": {
         "mega": 23,
         "streamwish": 26,
@@ -136409,13 +136486,15 @@
     {
       "series": "https://jkanime.net/takahashi-rumiko-gekijou-ningyo-no-mori-specials/",
       "title": "Takahashi Rumiko Gekijou Ningyo no Mori Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -136429,32 +136508,39 @@
     {
       "series": "https://jkanime.net/bakuretsu-tenshi/",
       "title": "Bakuretsu Tenshi",
-      "causes": [],
-      "observed": 24,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 25,
       "stored": 24,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/bakuretsu-tenshi/25/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
+        "mega": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/love-love/",
       "title": "Love♥Love?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -136487,13 +136573,15 @@
     {
       "series": "https://jkanime.net/initial-d-fourth-stage/",
       "title": "Initial D Fourth Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -136506,13 +136594,15 @@
     {
       "series": "https://jkanime.net/pugyuru/",
       "title": "Pugyuru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136526,13 +136616,15 @@
     {
       "series": "https://jkanime.net/gantz/",
       "title": "Gantz",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -136554,25 +136646,24 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 20,
+        "mp4upload": 21,
         "streamwish": 20,
-        "vidhide": 20,
-        "mixdrop": 20,
-        "mp4upload": 20,
-        "streamtape": 20
+        "vidhide": 21
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle/",
       "title": "Kinnikuman II Sei: Ultimate Muscle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136586,32 +136677,36 @@
     {
       "series": "https://jkanime.net/monster/",
       "title": "Monster",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 74,
       "stored": 74,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 58,
       "families": {
-        "mega": 74,
+        "mega": 58,
         "streamwish": 74,
         "vidhide": 74,
         "mp4upload": 74,
-        "streamtape": 74
+        "streamtape": 58
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor/",
       "title": "Soukyuu no Fafner: Dead Aggressor",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 25,
         "streamwish": 25,
