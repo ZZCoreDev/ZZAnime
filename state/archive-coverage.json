@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T12:48:02.732775+00:00",
+  "checkedAt": "2026-10-30T13:01:45.972080+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73569,
+  "observedChapters": 73583,
   "storedChapters": 71814,
-  "missingChapters": 1755,
+  "missingChapters": 1769,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5385,6 +5385,14 @@
         "title": "Rec: Yurusarezarumono",
         "samples": [
           "https://jkanime.net/rec-yurusarezarumono/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/",
+        "title": "Suzumiya Haruhi no Yuuutsu",
+        "samples": [
+          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/15/",
+          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/16/"
         ]
       },
       {
@@ -36225,6 +36233,94 @@
         "samples": [
           "https://jkanime.net/gintama/1/",
           "https://jkanime.net/gintama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/",
+        "title": "Suzumiya Haruhi no Yuuutsu",
+        "samples": [
+          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/15/",
+          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/16/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strawberry-panic/",
+        "title": "Strawberry Panic",
+        "samples": [
+          "https://jkanime.net/strawberry-panic/1/",
+          "https://jkanime.net/strawberry-panic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/school-rumble-ni-gakki/",
+        "title": "School Rumble Ni Gakki",
+        "samples": [
+          "https://jkanime.net/school-rumble-ni-gakki/1/",
+          "https://jkanime.net/school-rumble-ni-gakki/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kiba/",
+        "title": "Kiba",
+        "samples": [
+          "https://jkanime.net/kiba/1/",
+          "https://jkanime.net/kiba/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fullmetal-alchemist-premium-collection/",
+        "title": "Fullmetal Alchemist: Premium Collection",
+        "samples": [
+          "https://jkanime.net/fullmetal-alchemist-premium-collection/1/",
+          "https://jkanime.net/fullmetal-alchemist-premium-collection/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prince-of-tennis-the-national-tournament/",
+        "title": "Prince of Tennis: The National Tournament",
+        "samples": [
+          "https://jkanime.net/prince-of-tennis-the-national-tournament/1/",
+          "https://jkanime.net/prince-of-tennis-the-national-tournament/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinigami-no-ballad/",
+        "title": "Shinigami no Ballad",
+        "samples": [
+          "https://jkanime.net/shinigami-no-ballad/1/",
+          "https://jkanime.net/shinigami-no-ballad/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hellsing-ultimate/",
+        "title": "Hellsing Ultimate",
+        "samples": [
+          "https://jkanime.net/hellsing-ultimate/1/",
+          "https://jkanime.net/hellsing-ultimate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futari-wa-precure-splashstar/",
+        "title": "Futari wa Precure: Splash☆Star",
+        "samples": [
+          "https://jkanime.net/futari-wa-precure-splashstar/1/",
+          "https://jkanime.net/futari-wa-precure-splashstar/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ergo-proxy/",
+        "title": "Ergo Proxy",
+        "samples": [
+          "https://jkanime.net/ergo-proxy/1/",
+          "https://jkanime.net/ergo-proxy/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rec/",
+        "title": "Rec",
+        "samples": [
+          "https://jkanime.net/rec/1/",
+          "https://jkanime.net/rec/2/"
         ]
       },
       {
@@ -132802,7 +132898,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 158,
+      "renewalFailed": 201,
       "families": {
         "mega": 201,
         "streamwish": 201,
@@ -132835,32 +132931,52 @@
     {
       "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/",
       "title": "Suzumiya Haruhi no Yuuutsu",
-      "causes": [],
-      "observed": 14,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 28,
       "stored": 14,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/15/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/16/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/17/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/18/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/19/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/20/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/21/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/22/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/23/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/24/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/25/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/26/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/27/",
+        "https://jkanime.net/suzumiya-haruhi-no-yuuutsu/28/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
-        "mega": 14,
-        "streamwish": 14,
-        "vidhide": 14,
+        "mega": 13,
+        "streamwish": 13,
+        "vidhide": 13,
         "mp4upload": 14,
-        "streamtape": 14
+        "streamtape": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/strawberry-panic/",
       "title": "Strawberry Panic",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -132873,51 +132989,57 @@
     {
       "series": "https://jkanime.net/school-rumble-ni-gakki/",
       "title": "School Rumble Ni Gakki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 23,
-        "streamwish": 26,
-        "vidhide": 26,
+        "mega": 3,
+        "streamwish": 4,
+        "vidhide": 4,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kiba/",
       "title": "Kiba",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
-        "mega": 51,
+        "mega": 15,
         "streamwish": 51,
         "vidhide": 51,
         "mp4upload": 51,
-        "streamtape": 51
+        "streamtape": 15
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/fullmetal-alchemist-premium-collection/",
       "title": "Fullmetal Alchemist: Premium Collection",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -132930,13 +133052,15 @@
     {
       "series": "https://jkanime.net/prince-of-tennis-the-national-tournament/",
       "title": "Prince of Tennis: The National Tournament",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -132949,13 +133073,15 @@
     {
       "series": "https://jkanime.net/shinigami-no-ballad/",
       "title": "Shinigami no Ballad",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -132968,13 +133094,15 @@
     {
       "series": "https://jkanime.net/hellsing-ultimate/",
       "title": "Hellsing Ultimate",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -132987,33 +133115,37 @@
     {
       "series": "https://jkanime.net/futari-wa-precure-splashstar/",
       "title": "Futari wa Precure: Splash☆Star",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
-        "mega": 49,
+        "mega": 16,
         "streamwish": 49,
-        "vidhide": 49,
-        "mixdrop": 49,
-        "mp4upload": 49,
-        "streamtape": 49
+        "vidhide": 16,
+        "mixdrop": 16,
+        "mp4upload": 16,
+        "streamtape": 16
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ergo-proxy/",
       "title": "Ergo Proxy",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -133026,13 +133158,15 @@
     {
       "series": "https://jkanime.net/rec/",
       "title": "Rec",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 9,
         "streamwish": 9,
