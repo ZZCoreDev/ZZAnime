@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T23:33:32.807200+00:00",
+  "checkedAt": "2026-10-30T23:42:25.622149+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73752,
-  "storedChapters": 72060,
-  "missingChapters": 1692,
+  "storedChapters": 72080,
+  "missingChapters": 1672,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -344,8 +344,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/16/",
-          "https://jkanime.net/sakamoto-days/17/"
+          "https://jkanime.net/sakamoto-days/17/",
+          "https://jkanime.net/sakamoto-days/18/"
         ]
       },
       {
@@ -366,8 +366,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/18/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/19/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/19/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/20/"
         ]
       },
       {
@@ -616,16 +616,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/14/",
-          "https://jkanime.net/sugar-apple-fairy-tale/15/"
+          "https://jkanime.net/sugar-apple-fairy-tale/15/",
+          "https://jkanime.net/sugar-apple-fairy-tale/16/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/14/",
-          "https://jkanime.net/spy-kyoushitsu/15/"
+          "https://jkanime.net/spy-kyoushitsu/15/",
+          "https://jkanime.net/spy-kyoushitsu/16/"
         ]
       },
       {
@@ -633,13 +633,6 @@
         "title": "Kagami no Kojou",
         "samples": [
           "https://jkanime.net/kagami-no-kojou/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/",
-        "title": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
-        "samples": [
-          "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/1/"
         ]
       },
       {
@@ -858,8 +851,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/20/",
-          "https://jkanime.net/orient/21/"
+          "https://jkanime.net/orient/21/",
+          "https://jkanime.net/orient/22/"
         ]
       },
       {
@@ -903,13 +896,6 @@
         "samples": [
           "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
           "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/given-uragawa-no-sonzai/",
-        "title": "Given: Uragawa no Sonzai",
-        "samples": [
-          "https://jkanime.net/given-uragawa-no-sonzai/1/"
         ]
       },
       {
@@ -1250,13 +1236,6 @@
         "title": "Umibe no Etranger",
         "samples": [
           "https://jkanime.net/umibe-no-tranger/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/given-movie/",
-        "title": "Given Movie",
-        "samples": [
-          "https://jkanime.net/given-movie/1/"
         ]
       },
       {
@@ -1713,8 +1692,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/11/",
-          "https://jkanime.net/sora-to-umi-no-aida/12/"
+          "https://jkanime.net/sora-to-umi-no-aida/12/",
+          "https://jkanime.net/sora-to-umi-no-aida/2/"
         ]
       },
       {
@@ -2169,8 +2148,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/10/",
-          "https://jkanime.net/stella-no-mahou/11/"
+          "https://jkanime.net/stella-no-mahou/11/",
+          "https://jkanime.net/stella-no-mahou/12/"
         ]
       },
       {
@@ -2270,8 +2249,8 @@
         "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
         "title": "Regalia: The Three Sacred Stars",
         "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/5/",
-          "https://jkanime.net/regalia-the-three-sacred-stars/6/"
+          "https://jkanime.net/regalia-the-three-sacred-stars/6/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/7/"
         ]
       },
       {
@@ -2768,13 +2747,6 @@
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
           "https://jkanime.net/ninja-slayer-from-animation/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/k-missing-kings/",
-        "title": "K: Missing Kings",
-        "samples": [
-          "https://jkanime.net/k-missing-kings/1/"
         ]
       },
       {
@@ -3977,13 +3949,6 @@
         "title": "Toaru Majutsu no Index: Endymion no Kiseki",
         "samples": [
           "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kagaku-na-yatsura/",
-        "title": "Kagaku na Yatsura",
-        "samples": [
-          "https://jkanime.net/kagaku-na-yatsura/1/"
         ]
       },
       {
@@ -5612,8 +5577,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/23/",
-          "https://jkanime.net/taiho-shichau-zo/24/"
+          "https://jkanime.net/taiho-shichau-zo/24/",
+          "https://jkanime.net/taiho-shichau-zo/25/"
         ]
       },
       {
@@ -5939,20 +5904,6 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tokyo-revengers-santen-sensou-hen/",
-        "title": "Tokyo Revengers: Santen Sensou-hen",
-        "samples": [
-          "https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
-        "title": "Tougen Anki: Nikko Kegon no Taki-hen",
-        "samples": [
-          "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/5/"
         ]
       },
       {
@@ -8302,8 +8253,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/18/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/19/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/19/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/20/"
         ]
       },
       {
@@ -12341,8 +12292,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/14/",
-          "https://jkanime.net/sugar-apple-fairy-tale/15/"
+          "https://jkanime.net/sugar-apple-fairy-tale/15/",
+          "https://jkanime.net/sugar-apple-fairy-tale/16/"
         ]
       },
       {
@@ -12381,8 +12332,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/14/",
-          "https://jkanime.net/spy-kyoushitsu/15/"
+          "https://jkanime.net/spy-kyoushitsu/15/",
+          "https://jkanime.net/spy-kyoushitsu/16/"
         ]
       },
       {
@@ -12500,7 +12451,8 @@
         "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/",
         "title": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
         "samples": [
-          "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/1/"
+          "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/2/",
+          "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/3/"
         ]
       },
       {
@@ -14141,8 +14093,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/20/",
-          "https://jkanime.net/orient/21/"
+          "https://jkanime.net/orient/21/",
+          "https://jkanime.net/orient/22/"
         ]
       },
       {
@@ -19494,14 +19446,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sora-to-umi-no-aida/",
-        "title": "Sora to Umi no Aida",
-        "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/11/",
-          "https://jkanime.net/sora-to-umi-no-aida/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai/",
         "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
         "samples": [
@@ -22761,8 +22705,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/10/",
-          "https://jkanime.net/stella-no-mahou/11/"
+          "https://jkanime.net/stella-no-mahou/11/",
+          "https://jkanime.net/stella-no-mahou/12/"
         ]
       },
       {
@@ -25390,13 +25334,6 @@
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
           "https://jkanime.net/ninja-slayer-from-animation/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/k-missing-kings/",
-        "title": "K: Missing Kings",
-        "samples": [
-          "https://jkanime.net/k-missing-kings/1/"
         ]
       },
       {
@@ -29953,13 +29890,6 @@
         "title": "Toaru Majutsu no Index: Endymion no Kiseki",
         "samples": [
           "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kagaku-na-yatsura/",
-        "title": "Kagaku na Yatsura",
-        "samples": [
-          "https://jkanime.net/kagaku-na-yatsura/1/"
         ]
       },
       {
@@ -38965,8 +38895,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/23/",
-          "https://jkanime.net/taiho-shichau-zo/24/"
+          "https://jkanime.net/taiho-shichau-zo/24/",
+          "https://jkanime.net/taiho-shichau-zo/25/"
         ]
       },
       {
@@ -40005,23 +39935,24 @@
         "series": "https://jkanime.net/beyblade-x/",
         "title": "Beyblade X",
         "samples": [
-          "https://jkanime.net/beyblade-x/12/",
-          "https://jkanime.net/beyblade-x/13/"
+          "https://jkanime.net/beyblade-x/100/",
+          "https://jkanime.net/beyblade-x/101/"
         ]
       },
       {
         "series": "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/",
         "title": "Douluo Dalu II: Jueshi Tangmen",
         "samples": [
-          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/170/",
-          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/171/"
+          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/1/",
+          "https://jkanime.net/douluo-dalu-ii-jueshi-tangmen/10/"
         ]
       },
       {
         "series": "https://jkanime.net/pokemon-shinsaku-anime/",
         "title": "Pokemon (Shinsaku Anime)",
         "samples": [
-          "https://jkanime.net/pokemon-shinsaku-anime/154/"
+          "https://jkanime.net/pokemon-shinsaku-anime/1/",
+          "https://jkanime.net/pokemon-shinsaku-anime/10/"
         ]
       },
       {
@@ -40503,13 +40434,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/",
-        "title": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
-        "samples": [
-          "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/",
         "title": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen",
         "samples": [
@@ -40703,13 +40627,6 @@
         "title": "Hula Fulla Dance",
         "samples": [
           "https://jkanime.net/hula-fulla-dance/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/given-uragawa-no-sonzai/",
-        "title": "Given: Uragawa no Sonzai",
-        "samples": [
-          "https://jkanime.net/given-uragawa-no-sonzai/1/"
         ]
       },
       {
@@ -40976,13 +40893,6 @@
         "title": "Umibe no Etranger",
         "samples": [
           "https://jkanime.net/umibe-no-tranger/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/given-movie/",
-        "title": "Given Movie",
-        "samples": [
-          "https://jkanime.net/given-movie/1/"
         ]
       },
       {
@@ -42092,13 +42002,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/k-missing-kings/",
-        "title": "K: Missing Kings",
-        "samples": [
-          "https://jkanime.net/k-missing-kings/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kyoukai-no-kanata-movie-ill-be-here-kako-hen/",
         "title": "Kyoukai no Kanata Movie: I´ll Be Here - Kako-hen",
         "samples": [
@@ -43139,13 +43042,6 @@
         "title": "Toaru Majutsu no Index: Endymion no Kiseki",
         "samples": [
           "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kagaku-na-yatsura/",
-        "title": "Kagaku na Yatsura",
-        "samples": [
-          "https://jkanime.net/kagaku-na-yatsura/1/"
         ]
       },
       {
@@ -45068,14 +44964,13 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
         "https://jkanime.net/ao-ashi/11/",
         "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
-        "https://jkanime.net/ao-ashi/16/",
         "https://jkanime.net/ao-ashi/17/",
         "https://jkanime.net/ao-ashi/18/",
         "https://jkanime.net/ao-ashi/19/",
@@ -45091,9 +44986,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
-        "mega": 5,
+        "mega": 6,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -54359,9 +54254,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 22,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/sakamoto-days/16/",
         "https://jkanime.net/sakamoto-days/17/",
         "https://jkanime.net/sakamoto-days/18/",
         "https://jkanime.net/sakamoto-days/19/",
@@ -54373,8 +54267,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "vidhide": 8,
-        "mp4upload": 13,
+        "vidhide": 9,
+        "mp4upload": 14,
         "streamwish": 8
       },
       "playbackVerified": false
@@ -56270,9 +56164,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/18/",
         "https://jkanime.net/puniru-wa-kawaii-slime/19/",
         "https://jkanime.net/puniru-wa-kawaii-slime/20/",
         "https://jkanime.net/puniru-wa-kawaii-slime/21/",
@@ -56285,9 +56178,9 @@
       "renewalFailed": 11,
       "families": {
         "mega": 11,
-        "streamwish": 15,
+        "streamwish": 16,
         "vidhide": 13,
-        "mp4upload": 16,
+        "mp4upload": 17,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -68054,9 +67947,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/14/",
         "https://jkanime.net/sugar-apple-fairy-tale/15/",
         "https://jkanime.net/sugar-apple-fairy-tale/16/",
         "https://jkanime.net/sugar-apple-fairy-tale/17/",
@@ -68070,9 +67962,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -68172,9 +68064,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/14/",
         "https://jkanime.net/spy-kyoushitsu/15/",
         "https://jkanime.net/spy-kyoushitsu/16/",
         "https://jkanime.net/spy-kyoushitsu/17/",
@@ -68188,9 +68079,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -68510,20 +68401,16 @@
       "series": "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/",
       "title": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 4,
-      "stored": 3,
-      "missing": [
-        "https://jkanime.net/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai/1/"
-      ],
+      "stored": 4,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 3,
+        "mega": 4,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -73379,9 +73266,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/orient/20/",
         "https://jkanime.net/orient/21/",
         "https://jkanime.net/orient/22/",
         "https://jkanime.net/orient/23/",
@@ -73391,7 +73277,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mega": 17,
+        "mega": 18,
         "streamwish": 13,
         "vidhide": 12,
         "mp4upload": 13,
@@ -73776,19 +73662,17 @@
       "series": "https://jkanime.net/given-uragawa-no-sonzai/",
       "title": "Given: Uragawa no Sonzai",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/given-uragawa-no-sonzai/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "families": {},
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -80394,19 +80278,17 @@
       "series": "https://jkanime.net/given-movie/",
       "title": "Given Movie",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/given-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "families": {},
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -81235,7 +81117,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 40,
+      "renewalFailed": 41,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -88744,13 +88626,11 @@
       "series": "https://jkanime.net/sora-to-umi-no-aida/",
       "title": "Sora to Umi no Aida",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/11/",
         "https://jkanime.net/sora-to-umi-no-aida/12/",
         "https://jkanime.net/sora-to-umi-no-aida/2/",
         "https://jkanime.net/sora-to-umi-no-aida/3/",
@@ -88763,9 +88643,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -98427,9 +98307,8 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/10/",
         "https://jkanime.net/stella-no-mahou/11/",
         "https://jkanime.net/stella-no-mahou/12/",
         "https://jkanime.net/stella-no-mahou/2/",
@@ -98443,9 +98322,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -99348,9 +99227,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 13,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/5/",
         "https://jkanime.net/regalia-the-three-sacred-stars/6/",
         "https://jkanime.net/regalia-the-three-sacred-stars/7/",
         "https://jkanime.net/regalia-the-three-sacred-stars/8/",
@@ -99360,7 +99238,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
+        "mega": 5,
         "streamwish": 4
       },
       "playbackVerified": false
@@ -99515,7 +99393,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -103668,7 +103546,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -106045,13 +105923,12 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
-        "https://jkanime.net/ninja-slayer-from-animation/5/",
         "https://jkanime.net/ninja-slayer-from-animation/6/",
         "https://jkanime.net/ninja-slayer-from-animation/7/",
         "https://jkanime.net/ninja-slayer-from-animation/8/",
@@ -106061,7 +105938,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "streamwish": 15,
+        "streamwish": 16,
         "mega": 2
       },
       "playbackVerified": false
@@ -106069,20 +105946,16 @@
     {
       "series": "https://jkanime.net/k-missing-kings/",
       "title": "K: Missing Kings",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/k-missing-kings/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -118000,7 +117873,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -118902,20 +118775,16 @@
     {
       "series": "https://jkanime.net/kagaku-na-yatsura/",
       "title": "Kagaku na Yatsura",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/kagaku-na-yatsura/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -126790,7 +126659,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 80,
+      "renewalFailed": 81,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -129679,7 +129548,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -129692,7 +129561,6 @@
         "https://jkanime.net/07-ghost/21/",
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
-        "https://jkanime.net/07-ghost/24/",
         "https://jkanime.net/07-ghost/25/",
         "https://jkanime.net/07-ghost/3/",
         "https://jkanime.net/07-ghost/4/",
@@ -129700,9 +129568,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -130056,14 +129924,13 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/asura-cryin/1/",
         "https://jkanime.net/asura-cryin/10/",
         "https://jkanime.net/asura-cryin/11/",
         "https://jkanime.net/asura-cryin/12/",
         "https://jkanime.net/asura-cryin/13/",
-        "https://jkanime.net/asura-cryin/3/",
         "https://jkanime.net/asura-cryin/4/",
         "https://jkanime.net/asura-cryin/5/",
         "https://jkanime.net/asura-cryin/6/",
@@ -130071,9 +129938,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -144405,9 +144272,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/23/",
         "https://jkanime.net/taiho-shichau-zo/24/",
         "https://jkanime.net/taiho-shichau-zo/25/",
         "https://jkanime.net/taiho-shichau-zo/26/",
@@ -144450,7 +144316,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 16,
+        "mp4upload": 17,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -147266,20 +147132,18 @@
       "series": "https://jkanime.net/tokyo-revengers-santen-sensou-hen/",
       "title": "Tokyo Revengers: Santen Sensou-hen",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 5,
-      "stored": 4,
-      "missing": [
-        "https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/"
-      ],
+      "stored": 5,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
         "mp4upload": 4,
-        "streamwish": 2
+        "streamwish": 2,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -147517,20 +147381,18 @@
       "series": "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/",
       "title": "Tougen Anki: Nikko Kegon no Taki-hen",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 5,
-      "stored": 4,
-      "missing": [
-        "https://jkanime.net/tougen-anki-nikko-kegon-no-taki-hen/5/"
-      ],
+      "stored": 5,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
         "mp4upload": 4,
-        "streamwish": 2
+        "streamwish": 2,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -148161,7 +148023,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 73,
+      "renewalFailed": 115,
       "families": {
         "streamwish": 128,
         "mega": 115,
@@ -148183,7 +148045,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 173,
       "families": {
         "mega": 172,
         "streamwish": 173,
@@ -148204,7 +148066,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 92,
       "families": {
         "mega": 154,
         "streamwish": 154,
