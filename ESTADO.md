@@ -99,12 +99,12 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 43452; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 43739; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 1/4 capítulos recientes; incidencias pendientes: 1.
-Diagnóstico por serie: 3932/3933; pendientes: 1. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 71787 capítulos con registros, 1781 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Diagnóstico por serie: 3941/3942; pendientes: 1. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Cobertura de catálogo: 5053 títulos, 71791 capítulos con registros, 1777 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
