@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T04:56:19.623203+00:00",
+  "checkedAt": "2026-10-30T05:09:41.411034+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
-  "storedChapters": 71729,
-  "missingChapters": 1812,
+  "storedChapters": 71731,
+  "missingChapters": 1810,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2309,7 +2309,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/3/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/4/"
         ]
       },
       {
@@ -2616,7 +2616,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/10/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/11/"
         ]
       },
       {
@@ -22955,7 +22955,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/3/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/4/"
         ]
       },
       {
@@ -24363,7 +24363,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/10/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/11/"
         ]
       },
       {
@@ -32316,8 +32316,24 @@
         "series": "https://jkanime.net/hunter-x-hunter-2011/",
         "title": "Hunter x Hunter (2011)",
         "samples": [
-          "https://jkanime.net/hunter-x-hunter-2011/13/",
-          "https://jkanime.net/hunter-x-hunter-2011/14/"
+          "https://jkanime.net/hunter-x-hunter-2011/100/",
+          "https://jkanime.net/hunter-x-hunter-2011/101/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fatezero/",
+        "title": "Fate/Zero",
+        "samples": [
+          "https://jkanime.net/fatezero/1/",
+          "https://jkanime.net/fatezero/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/phi-brain-kami-no-puzzle/",
+        "title": "Phi Brain: Kami no Puzzle",
+        "samples": [
+          "https://jkanime.net/phi-brain-kami-no-puzzle/1/",
+          "https://jkanime.net/phi-brain-kami-no-puzzle/10/"
         ]
       },
       {
@@ -32325,6 +32341,30 @@
         "title": "Toaru Hikuushi e no Tsuioku",
         "samples": [
           "https://jkanime.net/toaru-hikuushi-e-no-tsuioku/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuman-2/",
+        "title": "Bakuman 2",
+        "samples": [
+          "https://jkanime.net/bakuman-2/1/",
+          "https://jkanime.net/bakuman-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/c3/",
+        "title": "C³",
+        "samples": [
+          "https://jkanime.net/c3/1/",
+          "https://jkanime.net/c3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinryaku-ika-musume-2/",
+        "title": "Shinryaku!? Ika Musume 2",
+        "samples": [
+          "https://jkanime.net/shinryaku-ika-musume-2/1/",
+          "https://jkanime.net/shinryaku-ika-musume-2/3/"
         ]
       },
       {
@@ -68817,7 +68857,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -75592,7 +75632,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -81077,7 +81117,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 3
       },
@@ -92172,10 +92212,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/3/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/4/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
@@ -92187,7 +92226,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 4
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -92356,7 +92395,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -96156,10 +96195,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/10/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/11/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/",
@@ -96174,7 +96212,9 @@
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "families": {},
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -96511,7 +96551,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -118594,26 +118634,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 33,
+      "renewalFailed": 123,
       "families": {
         "streamwish": 148,
         "vidhide": 148,
-        "mp4upload": 139,
-        "mega": 130,
-        "streamtape": 130
+        "mp4upload": 134,
+        "mega": 123,
+        "streamtape": 123
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/fatezero/",
       "title": "Fate/Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -118626,13 +118668,15 @@
     {
       "series": "https://jkanime.net/phi-brain-kami-no-puzzle/",
       "title": "Phi Brain: Kami no Puzzle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -118664,13 +118708,15 @@
     {
       "series": "https://jkanime.net/bakuman-2/",
       "title": "Bakuman 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -118683,13 +118729,15 @@
     {
       "series": "https://jkanime.net/c3/",
       "title": "C³",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118702,19 +118750,21 @@
     {
       "series": "https://jkanime.net/shinryaku-ika-musume-2/",
       "title": "Shinryaku!? Ika Musume 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
