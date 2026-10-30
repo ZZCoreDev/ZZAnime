@@ -40,6 +40,7 @@ jobs:
           python3 test_voe_channel.py
           python3 test_voe_consumer.py
           python3 test_link_health.py
+          python3 test_flv_mega_build.py
           node test_identities.cjs
           node test_flv_tokens.cjs
           node test_source_diagnostics.cjs

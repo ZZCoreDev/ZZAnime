@@ -44,7 +44,7 @@ def build(state,approved,now,allow_voe=False):
   options=[];seen=set()
   for provider in ep['providers']:
    if provider.get('family')=='voe' and not allow_voe:continue
-   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide',*(['voe'] if allow_voe else [])]:continue
+   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega',*(['voe'] if allow_voe else [])]:continue
    if ep.get('sourceSeries','').startswith('https://tioanime.com/') and provider.get('family')=='mega':continue
    for link in provider.get('links',[]):
     k=sha((provider['name']+'\0'+link).encode())
