@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T18:47:56.133429+00:00",
+  "checkedAt": "2026-10-30T19:02:46.691739+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73663,
-  "storedChapters": 71879,
-  "missingChapters": 1784,
+  "observedChapters": 73664,
+  "storedChapters": 71881,
+  "missingChapters": 1783,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/35/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/36/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/50/",
-          "https://jkanime.net/tsubasa-chronicle/51/"
+          "https://jkanime.net/tsubasa-chronicle/51/",
+          "https://jkanime.net/tsubasa-chronicle/52/"
         ]
       },
       {
@@ -5784,6 +5784,13 @@
         "samples": [
           "https://jkanime.net/inuyasha/47/",
           "https://jkanime.net/inuyasha/77/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/argento-soma/",
+        "title": "Argento Soma",
+        "samples": [
+          "https://jkanime.net/argento-soma/26/"
         ]
       },
       {
@@ -10735,7 +10742,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/35/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/36/"
         ]
       },
       {
@@ -36744,8 +36751,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/50/",
-          "https://jkanime.net/tsubasa-chronicle/51/"
+          "https://jkanime.net/tsubasa-chronicle/51/",
+          "https://jkanime.net/tsubasa-chronicle/52/"
         ]
       },
       {
@@ -38811,10 +38818,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dotto-koni-chan/",
+        "title": "Dotto Koni-chan",
+        "samples": [
+          "https://jkanime.net/dotto-koni-chan/1/",
+          "https://jkanime.net/dotto-koni-chan/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/blood-the-last-vampire/",
         "title": "Blood: The Last Vampire",
         "samples": [
           "https://jkanime.net/blood-the-last-vampire/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ghost-stories/",
+        "title": "Ghost Stories",
+        "samples": [
+          "https://jkanime.net/ghost-stories/1/",
+          "https://jkanime.net/ghost-stories/10/"
         ]
       },
       {
@@ -38823,6 +38846,14 @@
         "samples": [
           "https://jkanime.net/inuyasha/47/",
           "https://jkanime.net/inuyasha/77/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hajime-no-ippo/",
+        "title": "Hajime no Ippo",
+        "samples": [
+          "https://jkanime.net/hajime-no-ippo/10/",
+          "https://jkanime.net/hajime-no-ippo/11/"
         ]
       },
       {
@@ -62187,10 +62218,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 33,
+      "stored": 34,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/35/",
         "https://jkanime.net/kusuriya-no-hitorigoto/36/",
         "https://jkanime.net/kusuriya-no-hitorigoto/37/",
         "https://jkanime.net/kusuriya-no-hitorigoto/38/",
@@ -62215,9 +62245,9 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 28,
-        "vidhide": 24,
-        "mp4upload": 32,
+        "streamwish": 29,
+        "vidhide": 25,
+        "mp4upload": 33,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -136378,9 +136408,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 49,
+      "stored": 50,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/50/",
         "https://jkanime.net/tsubasa-chronicle/51/",
         "https://jkanime.net/tsubasa-chronicle/52/"
       ],
@@ -136388,9 +136417,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 50,
-        "streamwish": 49,
-        "vidhide": 50,
+        "mp4upload": 51,
+        "streamwish": 50,
+        "vidhide": 51,
         "mega": 1,
         "streamtape": 1
       },
@@ -142059,13 +142088,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
+        "mega": 21,
+        "streamwish": 21,
+        "vidhide": 21,
         "mp4upload": 26,
-        "streamtape": 25
+        "streamtape": 21
       },
       "playbackVerified": false
     },
@@ -142091,13 +142120,15 @@
     {
       "series": "https://jkanime.net/dotto-koni-chan/",
       "title": "Dotto Koni-chan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -142144,13 +142175,15 @@
     {
       "series": "https://jkanime.net/ghost-stories/",
       "title": "Ghost Stories",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -142175,7 +142208,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 167,
       "families": {
         "mega": 165,
         "streamwish": 165,
@@ -142188,38 +142221,40 @@
     {
       "series": "https://jkanime.net/argento-soma/",
       "title": "Argento Soma",
-      "causes": [],
-      "observed": 25,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 26,
       "stored": 25,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/argento-soma/26/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 25,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "mp4upload": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hajime-no-ippo/",
       "title": "Hajime no Ippo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 75,
       "stored": 75,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 75,
-        "streamwish": 75,
-        "vidhide": 75,
-        "mp4upload": 75,
-        "streamtape": 75
+        "mp4upload": 77,
+        "vidhide": 71,
+        "mega": 66,
+        "streamwish": 68,
+        "streamtape": 66
       },
       "playbackVerified": false
     },
