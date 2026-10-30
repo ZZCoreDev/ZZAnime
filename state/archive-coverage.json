@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T13:01:45.972080+00:00",
+  "checkedAt": "2026-10-30T13:14:34.223410+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73583,
-  "storedChapters": 71814,
-  "missingChapters": 1769,
+  "storedChapters": 71815,
+  "missingChapters": 1768,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -650,8 +650,8 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/21/",
-          "https://jkanime.net/high-card/22/"
+          "https://jkanime.net/high-card/22/",
+          "https://jkanime.net/high-card/25/"
         ]
       },
       {
@@ -12480,8 +12480,8 @@
         "series": "https://jkanime.net/high-card/",
         "title": "High Card",
         "samples": [
-          "https://jkanime.net/high-card/21/",
-          "https://jkanime.net/high-card/22/"
+          "https://jkanime.net/high-card/22/",
+          "https://jkanime.net/high-card/25/"
         ]
       },
       {
@@ -36324,6 +36324,62 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shakugan-no-shana-tan-specials/",
+        "title": "Shakugan No Shana-Tan",
+        "samples": [
+          "https://jkanime.net/shakugan-no-shana-tan-specials/1/",
+          "https://jkanime.net/shakugan-no-shana-tan-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ayakashi-japanese-classic-horror/",
+        "title": "Ayakashi: Japanese Classic Horror",
+        "samples": [
+          "https://jkanime.net/ayakashi-japanese-classic-horror/1/",
+          "https://jkanime.net/ayakashi-japanese-classic-horror/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanbun-no-tsuki/",
+        "title": "Hanbun no Tsuki ga Noboru Sora",
+        "samples": [
+          "https://jkanime.net/hanbun-no-tsuki/1/",
+          "https://jkanime.net/hanbun-no-tsuki/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girl-meets-girl/",
+        "title": "Kashimashi: Girl Meets Girl",
+        "samples": [
+          "https://jkanime.net/girl-meets-girl/1/",
+          "https://jkanime.net/girl-meets-girl/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fatestay-night/",
+        "title": "Fate/stay night",
+        "samples": [
+          "https://jkanime.net/fatestay-night/1/",
+          "https://jkanime.net/fatestay-night/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle-2/",
+        "title": "Kinnikuman II Sei: Ultimate Muscle 2",
+        "samples": [
+          "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle-2/1/",
+          "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amaenaideyo-katsu/",
+        "title": "Amaenaide yo!! Katsu!!",
+        "samples": [
+          "https://jkanime.net/amaenaideyo-katsu/1/",
+          "https://jkanime.net/amaenaideyo-katsu/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/konjiki-no-gash-bell-hashire-gash-ubawareta-umagon/",
         "title": "Konjiki no Gash Bell!!: Hashire Gash!! Ubawareta Umagon",
         "samples": [
@@ -36342,6 +36398,22 @@
         "title": "Naruto Narutimate Hero 3: Tsuini Gekitotsu! Jounin vs. Genin!! Musabetsu Dairansen Taikai Kaisai!!",
         "samples": [
           "https://jkanime.net/naruto-narutimate-hero-3-tsuini-gekitotsu-jounin-vs-genin-musabetsu-dairansen-taikai-kaisai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-saga-de-hades/",
+        "title": "Saint Seiya Saga de Hades Infierno",
+        "samples": [
+          "https://jkanime.net/saint-seiya-saga-de-hades/1/",
+          "https://jkanime.net/saint-seiya-saga-de-hades/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rean-no-tsubasa/",
+        "title": "Rean no Tsubasa",
+        "samples": [
+          "https://jkanime.net/rean-no-tsubasa/1/",
+          "https://jkanime.net/rean-no-tsubasa/2/"
         ]
       },
       {
@@ -36377,6 +36449,78 @@
         "title": "Pale Cocoon",
         "samples": [
           "https://jkanime.net/pale-cocoon/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/karin/",
+        "title": "Karin",
+        "samples": [
+          "https://jkanime.net/karin/1/",
+          "https://jkanime.net/karin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushishi/",
+        "title": "Mushishi",
+        "samples": [
+          "https://jkanime.net/mushishi/1/",
+          "https://jkanime.net/mushishi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rozen-maiden-traumend/",
+        "title": "Rozen Maiden: Traumend",
+        "samples": [
+          "https://jkanime.net/rozen-maiden-traumend/1/",
+          "https://jkanime.net/rozen-maiden-traumend/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/paradise-kiss/",
+        "title": "Paradise Kiss",
+        "samples": [
+          "https://jkanime.net/paradise-kiss/1/",
+          "https://jkanime.net/paradise-kiss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginban-kaleidoscope/",
+        "title": "Ginban Kaleidoscope",
+        "samples": [
+          "https://jkanime.net/ginban-kaleidoscope/1/",
+          "https://jkanime.net/ginban-kaleidoscope/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blood/",
+        "title": "Blood+",
+        "samples": [
+          "https://jkanime.net/blood/1/",
+          "https://jkanime.net/blood/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shakugan-no-shana/",
+        "title": "Shakugan no Shana",
+        "samples": [
+          "https://jkanime.net/shakugan-no-shana/1/",
+          "https://jkanime.net/shakugan-no-shana/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-cat/",
+        "title": "Black Cat",
+        "samples": [
+          "https://jkanime.net/black-cat/1/",
+          "https://jkanime.net/black-cat/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/solty-rei/",
+        "title": "Solty Rei",
+        "samples": [
+          "https://jkanime.net/solty-rei/1/",
+          "https://jkanime.net/solty-rei/3/"
         ]
       },
       {
@@ -65175,20 +65319,19 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/high-card/21/",
         "https://jkanime.net/high-card/22/",
         "https://jkanime.net/high-card/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 8,
         "streamwish": 8,
         "vidhide": 8,
-        "mp4upload": 22,
+        "mp4upload": 23,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -132955,7 +133098,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -133166,7 +133309,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -133179,13 +133322,15 @@
     {
       "series": "https://jkanime.net/shakugan-no-shana-tan-specials/",
       "title": "Shakugan No Shana-Tan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -133198,13 +133343,15 @@
     {
       "series": "https://jkanime.net/ayakashi-japanese-classic-horror/",
       "title": "Ayakashi: Japanese Classic Horror",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -133218,13 +133365,15 @@
     {
       "series": "https://jkanime.net/hanbun-no-tsuki/",
       "title": "Hanbun no Tsuki ga Noboru Sora",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -133237,13 +133386,15 @@
     {
       "series": "https://jkanime.net/girl-meets-girl/",
       "title": "Kashimashi: Girl Meets Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -133256,32 +133407,36 @@
     {
       "series": "https://jkanime.net/fatestay-night/",
       "title": "Fate/stay night",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "mega": 7,
+        "streamwish": 21,
+        "vidhide": 7,
+        "mp4upload": 17,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kinnikuman-ii-sei-ultimate-muscle-2/",
       "title": "Kinnikuman II Sei: Ultimate Muscle 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -133295,13 +133450,15 @@
     {
       "series": "https://jkanime.net/amaenaideyo-katsu/",
       "title": "Amaenaide yo!! Katsu!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -133371,13 +133528,15 @@
     {
       "series": "https://jkanime.net/saint-seiya-saga-de-hades/",
       "title": "Saint Seiya Saga de Hades Infierno",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -133390,13 +133549,15 @@
     {
       "series": "https://jkanime.net/rean-no-tsubasa/",
       "title": "Rean no Tsubasa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -133513,24 +133674,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "mp4upload": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/karin/",
       "title": "Karin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -133543,32 +133702,36 @@
     {
       "series": "https://jkanime.net/mushishi/",
       "title": "Mushishi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 25,
-        "streamwish": 26,
-        "vidhide": 26,
+        "mega": 8,
+        "streamwish": 8,
+        "vidhide": 8,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/rozen-maiden-traumend/",
       "title": "Rozen Maiden: Traumend",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -133581,13 +133744,15 @@
     {
       "series": "https://jkanime.net/paradise-kiss/",
       "title": "Paradise Kiss",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -133600,13 +133765,15 @@
     {
       "series": "https://jkanime.net/ginban-kaleidoscope/",
       "title": "Ginban Kaleidoscope",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -133619,13 +133786,15 @@
     {
       "series": "https://jkanime.net/blood/",
       "title": "Blood+",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -133638,13 +133807,15 @@
     {
       "series": "https://jkanime.net/shakugan-no-shana/",
       "title": "Shakugan no Shana",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -133657,13 +133828,15 @@
     {
       "series": "https://jkanime.net/black-cat/",
       "title": "Black Cat",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -133676,19 +133849,21 @@
     {
       "series": "https://jkanime.net/solty-rei/",
       "title": "Solty Rei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 24,
+        "mega": 21,
         "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "vidhide": 21,
+        "mp4upload": 21,
+        "streamtape": 21
       },
       "playbackVerified": false
     },
