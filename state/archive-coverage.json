@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T08:41:10.851182+00:00",
+  "checkedAt": "2026-10-30T08:54:17.904428+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73564,
-  "storedChapters": 71749,
-  "missingChapters": 1815,
+  "storedChapters": 71751,
+  "missingChapters": 1813,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -34523,6 +34523,101 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ichigo-mashimaro-encore/",
+        "title": "Ichigo Mashimaro Encore",
+        "samples": [
+          "https://jkanime.net/ichigo-mashimaro-encore/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ride-back/",
+        "title": "RideBack",
+        "samples": [
+          "https://jkanime.net/ride-back/1/",
+          "https://jkanime.net/ride-back/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chrome-shelled-regios/",
+        "title": "Chrome Shelled Regios",
+        "samples": [
+          "https://jkanime.net/chrome-shelled-regios/1/",
+          "https://jkanime.net/chrome-shelled-regios/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tetsuwan-birdy-decode02/",
+        "title": "Tetsuwan Birdy Decode:02",
+        "samples": [
+          "https://jkanime.net/tetsuwan-birdy-decode02/1/",
+          "https://jkanime.net/tetsuwan-birdy-decode02/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/asu-no-yoichi/",
+        "title": "Asu no Yoichi!",
+        "samples": [
+          "https://jkanime.net/asu-no-yoichi/1/",
+          "https://jkanime.net/asu-no-yoichi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kurokami/",
+        "title": "Kurokami",
+        "samples": [
+          "https://jkanime.net/kurokami/1/",
+          "https://jkanime.net/kurokami/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hajime-no-ippo-new-challenger/",
+        "title": "Hajime no Ippo: New Challenger",
+        "samples": [
+          "https://jkanime.net/hajime-no-ippo-new-challenger/1/",
+          "https://jkanime.net/hajime-no-ippo-new-challenger/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zoku-natsume-yuujinchou/",
+        "title": "Zoku Natsume Yuujinchou",
+        "samples": [
+          "https://jkanime.net/zoku-natsume-yuujinchou/1/",
+          "https://jkanime.net/zoku-natsume-yuujinchou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/minami-ke-okaeri/",
+        "title": "Minami-ke Okaeri",
+        "samples": [
+          "https://jkanime.net/minami-ke-okaeri/1/",
+          "https://jkanime.net/minami-ke-okaeri/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akikan/",
+        "title": "Akikan!",
+        "samples": [
+          "https://jkanime.net/akikan/1/",
+          "https://jkanime.net/akikan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/white-album/",
+        "title": "White Album",
+        "samples": [
+          "https://jkanime.net/white-album/1/",
+          "https://jkanime.net/white-album/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maria-sama-ga-miteru-4th/",
+        "title": "Maria-sama ga Miteru 4th",
+        "samples": [
+          "https://jkanime.net/maria-sama-ga-miteru-4th/1/",
+          "https://jkanime.net/maria-sama-ga-miteru-4th/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/one-piece-romance-dawn/",
         "title": "One Piece: Romance Dawn",
         "samples": [
@@ -65031,7 +65126,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 26,
       "families": {
         "mega": 13,
         "streamwish": 15,
@@ -82839,7 +82934,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -82852,7 +82947,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/3/",
         "https://jkanime.net/fight-league-gear-gadget-generators/4/",
         "https://jkanime.net/fight-league-gear-gadget-generators/5/",
         "https://jkanime.net/fight-league-gear-gadget-generators/6/",
@@ -82864,7 +82958,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 8
+        "mp4upload": 9
       },
       "playbackVerified": false
     },
@@ -87727,7 +87821,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {},
       "playbackVerified": false
     },
@@ -91414,21 +91508,20 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/3/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/5/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/6/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/8/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
-        "streamwish": 5
+        "streamwish": 6
       },
       "playbackVerified": false
     },
@@ -126530,7 +126623,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 30,
+      "renewalFailed": 51,
       "families": {
         "mega": 50,
         "streamwish": 52,
@@ -126543,52 +126636,58 @@
     {
       "series": "https://jkanime.net/ichigo-mashimaro-encore/",
       "title": "Ichigo Mashimaro Encore",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
         "mp4upload": 2,
-        "streamtape": 2
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ride-back/",
       "title": "RideBack",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/chrome-shelled-regios/",
       "title": "Chrome Shelled Regios",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -126601,32 +126700,36 @@
     {
       "series": "https://jkanime.net/tetsuwan-birdy-decode02/",
       "title": "Tetsuwan Birdy Decode:02",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/asu-no-yoichi/",
       "title": "Asu no Yoichi!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -126639,13 +126742,15 @@
     {
       "series": "https://jkanime.net/kurokami/",
       "title": "Kurokami",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -126658,13 +126763,15 @@
     {
       "series": "https://jkanime.net/hajime-no-ippo-new-challenger/",
       "title": "Hajime no Ippo: New Challenger",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -126677,13 +126784,15 @@
     {
       "series": "https://jkanime.net/zoku-natsume-yuujinchou/",
       "title": "Zoku Natsume Yuujinchou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -126696,13 +126805,15 @@
     {
       "series": "https://jkanime.net/minami-ke-okaeri/",
       "title": "Minami-ke Okaeri",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -126715,13 +126826,15 @@
     {
       "series": "https://jkanime.net/akikan/",
       "title": "Akikan!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -126734,13 +126847,15 @@
     {
       "series": "https://jkanime.net/white-album/",
       "title": "White Album",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -126753,13 +126868,15 @@
     {
       "series": "https://jkanime.net/maria-sama-ga-miteru-4th/",
       "title": "Maria-sama ga Miteru 4th",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
