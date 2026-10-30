@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T18:03:52.369364+00:00",
+  "checkedAt": "2026-10-30T18:18:49.116472+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73663,
-  "storedChapters": 71872,
-  "missingChapters": 1791,
+  "storedChapters": 71874,
+  "missingChapters": 1789,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/47/",
-          "https://jkanime.net/tsubasa-chronicle/48/"
+          "https://jkanime.net/tsubasa-chronicle/48/",
+          "https://jkanime.net/tsubasa-chronicle/49/"
         ]
       },
       {
@@ -36744,8 +36744,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/47/",
-          "https://jkanime.net/tsubasa-chronicle/48/"
+          "https://jkanime.net/tsubasa-chronicle/48/",
+          "https://jkanime.net/tsubasa-chronicle/49/"
         ]
       },
       {
@@ -38537,6 +38537,54 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hikaru-no-go/",
+        "title": "Hikaru no Go",
+        "samples": [
+          "https://jkanime.net/hikaru-no-go/1/",
+          "https://jkanime.net/hikaru-no-go/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/project-arms-the-2nd-chapter/",
+        "title": "Project ARMS: The 2nd Chapter",
+        "samples": [
+          "https://jkanime.net/project-arms-the-2nd-chapter/1/",
+          "https://jkanime.net/project-arms-the-2nd-chapter/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vandread-the-second-stage/",
+        "title": "Vandread: The Second Stage",
+        "samples": [
+          "https://jkanime.net/vandread-the-second-stage/1/",
+          "https://jkanime.net/vandread-the-second-stage/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/x/",
+        "title": "X",
+        "samples": [
+          "https://jkanime.net/x/1/",
+          "https://jkanime.net/x/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chicchana-yukitsukai-sugar/",
+        "title": "Chicchana Yukitsukai Sugar",
+        "samples": [
+          "https://jkanime.net/chicchana-yukitsukai-sugar/1/",
+          "https://jkanime.net/chicchana-yukitsukai-sugar/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanaukyou-maid-tai-ova/",
+        "title": "Hanaukyou Maid-tai OVA",
+        "samples": [
+          "https://jkanime.net/hanaukyou-maid-tai-ova/1/",
+          "https://jkanime.net/hanaukyou-maid-tai-ova/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/",
         "title": "Cowboy Bebop: Tengoku no Tobira",
         "samples": [
@@ -38551,10 +38599,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/happylesson-ovas/",
+        "title": "Happy☆Lesson Ovas",
+        "samples": [
+          "https://jkanime.net/happylesson-ovas/1/",
+          "https://jkanime.net/happylesson-ovas/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/pokemon-movie-04-celebi-toki-wo-koeta-deai/",
         "title": "Pokemon Movie 04: Celebi Toki wo Koeta Deai",
         "samples": [
           "https://jkanime.net/pokemon-movie-04-celebi-toki-wo-koeta-deai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cosmo-warrior-zero/",
+        "title": "Cosmo Warrior Zero",
+        "samples": [
+          "https://jkanime.net/cosmo-warrior-zero/10/",
+          "https://jkanime.net/cosmo-warrior-zero/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fruits-basket/",
+        "title": "Fruits Basket",
+        "samples": [
+          "https://jkanime.net/fruits-basket/1/",
+          "https://jkanime.net/fruits-basket/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shaman-king/",
+        "title": "Shaman King",
+        "samples": [
+          "https://jkanime.net/shaman-king/1/",
+          "https://jkanime.net/shaman-king/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/scryed/",
+        "title": "s.CRY.ed",
+        "samples": [
+          "https://jkanime.net/scryed/1/",
+          "https://jkanime.net/scryed/10/"
         ]
       },
       {
@@ -105686,13 +105774,12 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/17/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/20/",
         "https://jkanime.net/ninja-slayer-from-animation/21/",
         "https://jkanime.net/ninja-slayer-from-animation/22/",
         "https://jkanime.net/ninja-slayer-from-animation/23/",
@@ -105711,7 +105798,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "streamwish": 8
+        "streamwish": 9
       },
       "playbackVerified": false
     },
@@ -136150,9 +136237,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 46,
+      "stored": 47,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/47/",
         "https://jkanime.net/tsubasa-chronicle/48/",
         "https://jkanime.net/tsubasa-chronicle/49/",
         "https://jkanime.net/tsubasa-chronicle/50/",
@@ -136163,9 +136249,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 47,
-        "streamwish": 46,
-        "vidhide": 47,
+        "mp4upload": 48,
+        "streamwish": 47,
+        "vidhide": 48,
         "mega": 1,
         "streamtape": 1
       },
@@ -141105,7 +141191,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 176,
+      "renewalFailed": 178,
       "families": {
         "mega": 178,
         "streamwish": 178,
@@ -141119,13 +141205,15 @@
     {
       "series": "https://jkanime.net/hikaru-no-go/",
       "title": "Hikaru no Go",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 75,
       "stored": 75,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 75,
       "families": {
         "mega": 75,
         "streamwish": 75,
@@ -141139,33 +141227,37 @@
     {
       "series": "https://jkanime.net/project-arms-the-2nd-chapter/",
       "title": "Project ARMS: The 2nd Chapter",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 26,
+        "mega": 3,
         "streamwish": 26,
         "vidhide": 26,
-        "mixdrop": 26,
+        "mixdrop": 3,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/vandread-the-second-stage/",
       "title": "Vandread: The Second Stage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -141179,13 +141271,15 @@
     {
       "series": "https://jkanime.net/x/",
       "title": "X",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -141198,33 +141292,37 @@
     {
       "series": "https://jkanime.net/chicchana-yukitsukai-sugar/",
       "title": "Chicchana Yukitsukai Sugar",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 24,
+        "mega": 9,
         "streamwish": 24,
-        "vidhide": 24,
-        "mixdrop": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "vidhide": 9,
+        "mixdrop": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hanaukyou-maid-tai-ova/",
       "title": "Hanaukyou Maid-tai OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -141276,13 +141374,15 @@
     {
       "series": "https://jkanime.net/happylesson-ovas/",
       "title": "Happy☆Lesson Ovas",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -141315,52 +141415,58 @@
     {
       "series": "https://jkanime.net/cosmo-warrior-zero/",
       "title": "Cosmo Warrior Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/fruits-basket/",
       "title": "Fruits Basket",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mega": 25,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 25,
+        "mp4upload": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shaman-king/",
       "title": "Shaman King",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 64,
       "stored": 64,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 64,
       "families": {
         "mega": 64,
         "streamwish": 64,
@@ -141373,13 +141479,15 @@
     {
       "series": "https://jkanime.net/scryed/",
       "title": "s.CRY.ed",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
         "mega": 26,
         "streamwish": 26,
