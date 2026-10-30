@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T13:26:11.245551+00:00",
+  "checkedAt": "2026-10-30T13:39:43.260939+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73584,
+  "observedChapters": 73616,
   "storedChapters": 71816,
-  "missingChapters": 1768,
+  "missingChapters": 1800,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5476,6 +5476,22 @@
         "title": "Futari wa Precure: Max Heart Movie 1",
         "samples": [
           "https://jkanime.net/futari-wa-precure-max-heart-movie-1/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsubasa-chronicle/",
+        "title": "Tsubasa Chronicle",
+        "samples": [
+          "https://jkanime.net/tsubasa-chronicle/27/",
+          "https://jkanime.net/tsubasa-chronicle/28/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/loveless/",
+        "title": "Loveless",
+        "samples": [
+          "https://jkanime.net/loveless/13/",
+          "https://jkanime.net/loveless/14/"
         ]
       },
       {
@@ -36642,7 +36658,31 @@
         "title": "Da Capo Second Season",
         "samples": [
           "https://jkanime.net/da-capo-second-season/1/",
-          "https://jkanime.net/da-capo-second-season/2/"
+          "https://jkanime.net/da-capo-second-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amaenaideyo/",
+        "title": "Amaenaide yo!",
+        "samples": [
+          "https://jkanime.net/amaenaideyo/1/",
+          "https://jkanime.net/amaenaideyo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ichigo-100-ova/",
+        "title": "Ichigo 100% OVA",
+        "samples": [
+          "https://jkanime.net/ichigo-100-ova/1/",
+          "https://jkanime.net/ichigo-100-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/trinity-blood/",
+        "title": "Trinity Blood",
+        "samples": [
+          "https://jkanime.net/trinity-blood/1/",
+          "https://jkanime.net/trinity-blood/10/"
         ]
       },
       {
@@ -36653,10 +36693,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/eureka-seven/",
+        "title": "Eureka Seven",
+        "samples": [
+          "https://jkanime.net/eureka-seven/1/",
+          "https://jkanime.net/eureka-seven/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-max-heart-movie-1/",
         "title": "Futari wa Precure: Max Heart Movie 1",
         "samples": [
           "https://jkanime.net/futari-wa-precure-max-heart-movie-1/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/basilisk-kouga-ninpou-chou/",
+        "title": "Basilisk: Kouga Ninpou Chou",
+        "samples": [
+          "https://jkanime.net/basilisk-kouga-ninpou-chou/1/",
+          "https://jkanime.net/basilisk-kouga-ninpou-chou/16/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsubasa-chronicle/",
+        "title": "Tsubasa Chronicle",
+        "samples": [
+          "https://jkanime.net/tsubasa-chronicle/27/",
+          "https://jkanime.net/tsubasa-chronicle/28/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/loveless/",
+        "title": "Loveless",
+        "samples": [
+          "https://jkanime.net/loveless/13/",
+          "https://jkanime.net/loveless/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futakoi-alternative/",
+        "title": "Futakoi Alternative",
+        "samples": [
+          "https://jkanime.net/futakoi-alternative/1/",
+          "https://jkanime.net/futakoi-alternative/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eyeshield-21/",
+        "title": "Eyeshield 21",
+        "samples": [
+          "https://jkanime.net/eyeshield-21/1/",
+          "https://jkanime.net/eyeshield-21/10/"
         ]
       },
       {
@@ -133212,7 +133300,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134164,7 +134252,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -134313,7 +134401,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -134326,13 +134414,15 @@
     {
       "series": "https://jkanime.net/amaenaideyo/",
       "title": "Amaenaide yo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -134345,13 +134435,15 @@
     {
       "series": "https://jkanime.net/ichigo-100-ova/",
       "title": "Ichigo 100% OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -134380,13 +134472,15 @@
     {
       "series": "https://jkanime.net/trinity-blood/",
       "title": "Trinity Blood",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -134418,13 +134512,15 @@
     {
       "series": "https://jkanime.net/eureka-seven/",
       "title": "Eureka Seven",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -134456,70 +134552,114 @@
     {
       "series": "https://jkanime.net/basilisk-kouga-ninpou-chou/",
       "title": "Basilisk: Kouga Ninpou Chou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tsubasa-chronicle/",
       "title": "Tsubasa Chronicle",
-      "causes": [],
-      "observed": 26,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 52,
       "stored": 26,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tsubasa-chronicle/27/",
+        "https://jkanime.net/tsubasa-chronicle/28/",
+        "https://jkanime.net/tsubasa-chronicle/29/",
+        "https://jkanime.net/tsubasa-chronicle/30/",
+        "https://jkanime.net/tsubasa-chronicle/31/",
+        "https://jkanime.net/tsubasa-chronicle/32/",
+        "https://jkanime.net/tsubasa-chronicle/33/",
+        "https://jkanime.net/tsubasa-chronicle/34/",
+        "https://jkanime.net/tsubasa-chronicle/35/",
+        "https://jkanime.net/tsubasa-chronicle/36/",
+        "https://jkanime.net/tsubasa-chronicle/37/",
+        "https://jkanime.net/tsubasa-chronicle/38/",
+        "https://jkanime.net/tsubasa-chronicle/39/",
+        "https://jkanime.net/tsubasa-chronicle/40/",
+        "https://jkanime.net/tsubasa-chronicle/41/",
+        "https://jkanime.net/tsubasa-chronicle/42/",
+        "https://jkanime.net/tsubasa-chronicle/43/",
+        "https://jkanime.net/tsubasa-chronicle/44/",
+        "https://jkanime.net/tsubasa-chronicle/45/",
+        "https://jkanime.net/tsubasa-chronicle/46/",
+        "https://jkanime.net/tsubasa-chronicle/47/",
+        "https://jkanime.net/tsubasa-chronicle/48/",
+        "https://jkanime.net/tsubasa-chronicle/49/",
+        "https://jkanime.net/tsubasa-chronicle/50/",
+        "https://jkanime.net/tsubasa-chronicle/51/",
+        "https://jkanime.net/tsubasa-chronicle/52/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 26,
+        "mp4upload": 27,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 27,
+        "mega": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/loveless/",
       "title": "Loveless",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 18,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/loveless/13/",
+        "https://jkanime.net/loveless/14/",
+        "https://jkanime.net/loveless/15/",
+        "https://jkanime.net/loveless/16/",
+        "https://jkanime.net/loveless/17/",
+        "https://jkanime.net/loveless/18/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
+        "mega": 11,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/futakoi-alternative/",
       "title": "Futakoi Alternative",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134533,13 +134673,15 @@
     {
       "series": "https://jkanime.net/eyeshield-21/",
       "title": "Eyeshield 21",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 145,
       "stored": 145,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 83,
       "families": {
         "mega": 145,
         "streamwish": 145,
