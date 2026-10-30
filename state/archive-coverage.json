@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T04:02:32.111612+00:00",
+  "checkedAt": "2026-10-30T04:15:34.079599+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
   "storedChapters": 71724,
@@ -31773,7 +31773,62 @@
         "title": "Shirokuma Cafe",
         "samples": [
           "https://jkanime.net/shirokuma-cafe/1/",
-          "https://jkanime.net/shirokuma-cafe/2/"
+          "https://jkanime.net/shirokuma-cafe/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/recorder-to-randoseru-re/",
+        "title": "Recorder to Randoseru Re♪",
+        "samples": [
+          "https://jkanime.net/recorder-to-randoseru-re/1/",
+          "https://jkanime.net/recorder-to-randoseru-re/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rock-lee-no-seishun-full-power-ninden/",
+        "title": "Rock Lee no Seishun Full-Power Ninden",
+        "samples": [
+          "https://jkanime.net/rock-lee-no-seishun-full-power-ninden/1/",
+          "https://jkanime.net/rock-lee-no-seishun-full-power-ninden/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zetman/",
+        "title": "Zetman",
+        "samples": [
+          "https://jkanime.net/zetman/1/",
+          "https://jkanime.net/zetman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/danshi-koukousei-no-nichijou-specials/",
+        "title": "Danshi Koukousei no Nichijou Specials",
+        "samples": [
+          "https://jkanime.net/danshi-koukousei-no-nichijou-specials/1/",
+          "https://jkanime.net/danshi-koukousei-no-nichijou-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-to-boku-2/",
+        "title": "Kimi to Boku. 2",
+        "samples": [
+          "https://jkanime.net/kimi-to-boku-2/1/",
+          "https://jkanime.net/kimi-to-boku-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-omega/",
+        "title": "Saint Seiya Omega",
+        "samples": [
+          "https://jkanime.net/saint-seiya-omega/1/",
+          "https://jkanime.net/saint-seiya-omega/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uchuu-kyoudai/",
+        "title": "Uchuu Kyoudai",
+        "samples": [
+          "https://jkanime.net/uchuu-kyoudai/8/"
         ]
       },
       {
@@ -38777,7 +38832,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {},
       "playbackVerified": false
     },
@@ -61134,7 +61189,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -85523,7 +85578,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -89223,7 +89278,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 4
       },
@@ -108567,7 +108622,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mp4upload": 1
       },
@@ -116627,27 +116682,29 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 33,
       "families": {
-        "mega": 50,
+        "mega": 33,
         "streamwish": 50,
-        "vidhide": 50,
-        "mixdrop": 50,
-        "mp4upload": 50,
-        "streamtape": 50
+        "vidhide": 33,
+        "mixdrop": 33,
+        "mp4upload": 33,
+        "streamtape": 33
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/recorder-to-randoseru-re/",
       "title": "Recorder to Randoseru Re♪",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116660,13 +116717,15 @@
     {
       "series": "https://jkanime.net/rock-lee-no-seishun-full-power-ninden/",
       "title": "Rock Lee no Seishun Full-Power Ninden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -116679,13 +116738,15 @@
     {
       "series": "https://jkanime.net/zetman/",
       "title": "Zetman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116717,13 +116778,15 @@
     {
       "series": "https://jkanime.net/danshi-koukousei-no-nichijou-specials/",
       "title": "Danshi Koukousei no Nichijou Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -116737,13 +116800,15 @@
     {
       "series": "https://jkanime.net/kimi-to-boku-2/",
       "title": "Kimi to Boku. 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116757,38 +116822,42 @@
     {
       "series": "https://jkanime.net/saint-seiya-omega/",
       "title": "Saint Seiya Omega",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 97,
       "stored": 97,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 91,
       "families": {
-        "mega": 91,
+        "mega": 85,
         "streamwish": 97,
-        "vidhide": 97,
-        "mp4upload": 97,
-        "streamtape": 97
+        "vidhide": 92,
+        "mp4upload": 92,
+        "streamtape": 91
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uchuu-kyoudai/",
       "title": "Uchuu Kyoudai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 99,
       "stored": 99,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 98,
+        "mp4upload": 100,
         "streamwish": 99,
-        "vidhide": 99,
-        "mp4upload": 99,
-        "streamtape": 99
+        "vidhide": 100,
+        "mega": 67,
+        "streamtape": 68
       },
       "playbackVerified": false
     },
@@ -123239,7 +123308,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {},
       "playbackVerified": false
     },
