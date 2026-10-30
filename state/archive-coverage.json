@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T22:07:17.468224+00:00",
+  "checkedAt": "2026-10-30T22:22:55.112300+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73714,
-  "storedChapters": 71938,
-  "missingChapters": 1776,
+  "storedChapters": 71953,
+  "missingChapters": 1761,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -893,8 +893,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/13/",
-          "https://jkanime.net/orient/14/"
+          "https://jkanime.net/orient/14/",
+          "https://jkanime.net/orient/15/"
         ]
       },
       {
@@ -1309,13 +1309,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/",
-        "title": "Ore wo Suki nano wa Omae dake ka yo: Oretachi no Game Set",
-        "samples": [
-          "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/given-movie/",
         "title": "Given Movie",
         "samples": [
@@ -1705,13 +1698,6 @@
         "title": "Code Geass: Fukkatsu no Lelouch",
         "samples": [
           "https://jkanime.net/code-geass-fukkatsu-no-lelouch/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/",
-        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
-        "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/1/"
         ]
       },
       {
@@ -5347,13 +5333,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/pale-cocoon/",
-        "title": "Pale Cocoon",
-        "samples": [
-          "https://jkanime.net/pale-cocoon/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fullmetal-alchemist-the-conqueror-of-shamballa/",
         "title": "Fullmetal Alchemist: The Conqueror of Shamballa",
         "samples": [
@@ -5824,8 +5803,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/15/",
-          "https://jkanime.net/taiho-shichau-zo/16/"
+          "https://jkanime.net/taiho-shichau-zo/16/",
+          "https://jkanime.net/taiho-shichau-zo/17/"
         ]
       },
       {
@@ -6143,13 +6122,6 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toaru-anbu-no-item/",
-        "title": "Toaru Anbu no Item",
-        "samples": [
-          "https://jkanime.net/toaru-anbu-no-item/4/"
         ]
       },
       {
@@ -14402,8 +14374,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/13/",
-          "https://jkanime.net/orient/14/"
+          "https://jkanime.net/orient/14/",
+          "https://jkanime.net/orient/15/"
         ]
       },
       {
@@ -16849,13 +16821,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/",
-        "title": "Ore wo Suki nano wa Omae dake ka yo: Oretachi no Game Set",
-        "samples": [
-          "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/given-movie/",
         "title": "Given Movie",
         "samples": [
@@ -19103,13 +19068,6 @@
         "title": "Code Geass: Fukkatsu no Lelouch",
         "samples": [
           "https://jkanime.net/code-geass-fukkatsu-no-lelouch/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/",
-        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
-        "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/1/"
         ]
       },
       {
@@ -36316,13 +36274,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/pale-cocoon/",
-        "title": "Pale Cocoon",
-        "samples": [
-          "https://jkanime.net/pale-cocoon/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/karin/",
         "title": "Karin",
         "samples": [
@@ -39395,8 +39346,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/15/",
-          "https://jkanime.net/taiho-shichau-zo/16/"
+          "https://jkanime.net/taiho-shichau-zo/16/",
+          "https://jkanime.net/taiho-shichau-zo/17/"
         ]
       },
       {
@@ -39842,6 +39793,22 @@
         "samples": [
           "https://jkanime.net/saint-seiya/1/",
           "https://jkanime.net/saint-seiya/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-zz/",
+        "title": "Mobile Suit Gundam ZZ",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-zz/1/",
+          "https://jkanime.net/mobile-suit-gundam-zz/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball/",
+        "title": "Dragon Ball",
+        "samples": [
+          "https://jkanime.net/dragon-ball/1/",
+          "https://jkanime.net/dragon-ball/10/"
         ]
       },
       {
@@ -41079,13 +41046,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/",
-        "title": "Ore wo Suki nano wa Omae dake ka yo: Oretachi no Game Set",
-        "samples": [
-          "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/given-movie/",
         "title": "Given Movie",
         "samples": [
@@ -41384,13 +41344,6 @@
         "title": "Code Geass: Fukkatsu no Lelouch",
         "samples": [
           "https://jkanime.net/code-geass-fukkatsu-no-lelouch/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/",
-        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
-        "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/1/"
         ]
       },
       {
@@ -44341,13 +44294,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/pale-cocoon/",
-        "title": "Pale Cocoon",
-        "samples": [
-          "https://jkanime.net/pale-cocoon/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fullmetal-alchemist-the-conqueror-of-shamballa/",
         "title": "Fullmetal Alchemist: The Conqueror of Shamballa",
         "samples": [
@@ -45308,7 +45254,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
@@ -45328,14 +45274,13 @@
         "https://jkanime.net/ao-ashi/3/",
         "https://jkanime.net/ao-ashi/4/",
         "https://jkanime.net/ao-ashi/5/",
-        "https://jkanime.net/ao-ashi/8/",
         "https://jkanime.net/ao-ashi/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
-        "mega": 3,
+        "mega": 4,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -45349,12 +45294,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/3/",
         "https://jkanime.net/megalo-box/4/",
         "https://jkanime.net/megalo-box/5/",
         "https://jkanime.net/megalo-box/6/",
@@ -45364,9 +45308,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -62734,25 +62678,23 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 45,
+      "stored": 47,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/48/",
         "https://jkanime.net/kusuriya-no-hitorigoto/49/",
         "https://jkanime.net/kusuriya-no-hitorigoto/50/",
         "https://jkanime.net/kusuriya-no-hitorigoto/51/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/52/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/53/"
+        "https://jkanime.net/kusuriya-no-hitorigoto/52/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 26,
       "families": {
-        "mega": 23,
+        "mega": 24,
         "streamwish": 36,
-        "vidhide": 30,
-        "mp4upload": 42,
+        "vidhide": 31,
+        "mp4upload": 43,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -67641,12 +67583,11 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 11,
+      "stored": 12,
       "missing": [
         "https://jkanime.net/hikari-no-ou/11/",
         "https://jkanime.net/hikari-no-ou/12/",
         "https://jkanime.net/hikari-no-ou/13/",
-        "https://jkanime.net/hikari-no-ou/15/",
         "https://jkanime.net/hikari-no-ou/16/",
         "https://jkanime.net/hikari-no-ou/17/",
         "https://jkanime.net/hikari-no-ou/18/",
@@ -67655,9 +67596,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
-        "mega": 10,
+        "mega": 11,
         "streamwish": 9,
         "vidhide": 9,
         "mp4upload": 10,
@@ -73669,9 +73610,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/orient/13/",
         "https://jkanime.net/orient/14/",
         "https://jkanime.net/orient/15/",
         "https://jkanime.net/orient/16/",
@@ -73686,9 +73626,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
@@ -74869,7 +74809,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
@@ -74877,15 +74817,14 @@
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/",
         "https://jkanime.net/kyoukai-senki/20/",
-        "https://jkanime.net/kyoukai-senki/23/",
         "https://jkanime.net/kyoukai-senki/24/",
         "https://jkanime.net/kyoukai-senki/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
-        "mega": 14,
+        "mega": 15,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -80690,20 +80629,16 @@
     {
       "series": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/",
       "title": "Ore wo Suki nano wa Omae dake ka yo: Oretachi no Game Set",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -82007,21 +81942,20 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/1/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/",
-        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/5/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/6/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/7/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 6,
+        "mega": 7,
         "streamwish": 6,
         "vidhide": 6,
         "mp4upload": 6,
@@ -87058,20 +86992,16 @@
     {
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/",
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -91977,7 +91907,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {},
       "playbackVerified": false
     },
@@ -130099,7 +130029,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -130120,15 +130050,14 @@
         "https://jkanime.net/07-ghost/3/",
         "https://jkanime.net/07-ghost/4/",
         "https://jkanime.net/07-ghost/5/",
-        "https://jkanime.net/07-ghost/7/",
         "https://jkanime.net/07-ghost/8/",
         "https://jkanime.net/07-ghost/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -130482,7 +130411,7 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/asura-cryin/1/",
         "https://jkanime.net/asura-cryin/10/",
@@ -130494,14 +130423,15 @@
         "https://jkanime.net/asura-cryin/4/",
         "https://jkanime.net/asura-cryin/5/",
         "https://jkanime.net/asura-cryin/6/",
-        "https://jkanime.net/asura-cryin/7/",
         "https://jkanime.net/asura-cryin/8/",
         "https://jkanime.net/asura-cryin/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
-      "families": {},
+      "renewalFailed": 12,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -136130,20 +136060,16 @@
     {
       "series": "https://jkanime.net/pale-cocoon/",
       "title": "Pale Cocoon",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/pale-cocoon/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -144812,9 +144738,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/15/",
         "https://jkanime.net/taiho-shichau-zo/16/",
         "https://jkanime.net/taiho-shichau-zo/17/",
         "https://jkanime.net/taiho-shichau-zo/18/",
@@ -144865,7 +144790,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 8,
+        "mp4upload": 9,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -146109,26 +146034,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 71,
       "families": {
-        "mega": 95,
-        "streamwish": 108,
-        "vidhide": 112,
+        "mega": 69,
+        "streamwish": 93,
+        "vidhide": 92,
         "mp4upload": 114,
-        "streamtape": 99
+        "streamtape": 71
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mobile-suit-gundam-zz/",
       "title": "Mobile Suit Gundam ZZ",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 47,
       "stored": 47,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
         "mega": 46,
         "streamwish": 47,
@@ -146141,19 +146068,21 @@
     {
       "series": "https://jkanime.net/dragon-ball/",
       "title": "Dragon Ball",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 153,
       "stored": 153,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 110,
       "families": {
-        "mega": 153,
-        "streamwish": 153,
-        "vidhide": 153,
-        "mp4upload": 153,
-        "streamtape": 153
+        "mega": 149,
+        "streamwish": 152,
+        "vidhide": 149,
+        "mp4upload": 152,
+        "streamtape": 149
       },
       "playbackVerified": false
     },
@@ -147087,19 +147016,16 @@
       "series": "https://jkanime.net/toaru-anbu-no-item/",
       "title": "Toaru Anbu no Item",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 4,
-      "stored": 3,
-      "missing": [
-        "https://jkanime.net/toaru-anbu-no-item/4/"
-      ],
+      "stored": 4,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mega": 3,
+        "mega": 4,
         "streamwish": 3,
         "vidhide": 3,
         "mixdrop": 3,
