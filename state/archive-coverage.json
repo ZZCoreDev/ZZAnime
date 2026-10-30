@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T15:24:14.920394+00:00",
+  "checkedAt": "2026-10-30T15:38:01.035673+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73623,
-  "storedChapters": 71829,
-  "missingChapters": 1794,
+  "storedChapters": 71831,
+  "missingChapters": 1792,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5475,8 +5475,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/35/",
-          "https://jkanime.net/tsubasa-chronicle/36/"
+          "https://jkanime.net/tsubasa-chronicle/36/",
+          "https://jkanime.net/tsubasa-chronicle/37/"
         ]
       },
       {
@@ -5561,8 +5561,8 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/10/",
-          "https://jkanime.net/hit-wo-nerae/11/"
+          "https://jkanime.net/hit-wo-nerae/11/",
+          "https://jkanime.net/hit-wo-nerae/12/"
         ]
       },
       {
@@ -36727,8 +36727,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/35/",
-          "https://jkanime.net/tsubasa-chronicle/36/"
+          "https://jkanime.net/tsubasa-chronicle/36/",
+          "https://jkanime.net/tsubasa-chronicle/37/"
         ]
       },
       {
@@ -37420,8 +37420,8 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/10/",
-          "https://jkanime.net/hit-wo-nerae/11/"
+          "https://jkanime.net/hit-wo-nerae/11/",
+          "https://jkanime.net/hit-wo-nerae/12/"
         ]
       },
       {
@@ -37452,7 +37452,15 @@
         "title": "Paranoia Agent",
         "samples": [
           "https://jkanime.net/paranoia-agent/1/",
-          "https://jkanime.net/paranoia-agent/2/"
+          "https://jkanime.net/paranoia-agent/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futari-wa-precure/",
+        "title": "Futari wa Precure",
+        "samples": [
+          "https://jkanime.net/futari-wa-precure/1/",
+          "https://jkanime.net/futari-wa-precure/10/"
         ]
       },
       {
@@ -37463,10 +37471,98 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hikari-to-mizu-no-daphne/",
+        "title": "Hikari to Mizu no Daphne",
+        "samples": [
+          "https://jkanime.net/hikari-to-mizu-no-daphne/1/",
+          "https://jkanime.net/hikari-to-mizu-no-daphne/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chou-henshin-cosprayers/",
+        "title": "Chou Henshin Cosprayers",
+        "samples": [
+          "https://jkanime.net/chou-henshin-cosprayers/1/",
+          "https://jkanime.net/chou-henshin-cosprayers/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/burn-up-scramble/",
+        "title": "Burn Up Scramble",
+        "samples": [
+          "https://jkanime.net/burn-up-scramble/1/",
+          "https://jkanime.net/burn-up-scramble/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yumeria/",
+        "title": "Yumeria",
+        "samples": [
+          "https://jkanime.net/yumeria/1/",
+          "https://jkanime.net/yumeria/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/area-88-tv/",
+        "title": "Area 88 (TV)",
+        "samples": [
+          "https://jkanime.net/area-88-tv/1/",
+          "https://jkanime.net/area-88-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/choujuushin-gravion-zwei/",
+        "title": "Choujuushin Gravion Zwei",
+        "samples": [
+          "https://jkanime.net/choujuushin-gravion-zwei/1/",
+          "https://jkanime.net/choujuushin-gravion-zwei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maria-sama-ga-miteru/",
+        "title": "Maria-sama ga Miteru",
+        "samples": [
+          "https://jkanime.net/maria-sama-ga-miteru/1/",
+          "https://jkanime.net/maria-sama-ga-miteru/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/juubee-chan-2-siberia-yagyuu-no-gyakushuu/",
         "title": "Juubee-chan 2: Siberia Yagyuu no Gyakushuu",
         "samples": [
           "https://jkanime.net/juubee-chan-2-siberia-yagyuu-no-gyakushuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gokusen/",
+        "title": "Gokusen",
+        "samples": [
+          "https://jkanime.net/gokusen/1/",
+          "https://jkanime.net/gokusen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mezzo-dsa/",
+        "title": "Mezzo DSA",
+        "samples": [
+          "https://jkanime.net/mezzo-dsa/1/",
+          "https://jkanime.net/mezzo-dsa/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/final-approach/",
+        "title": "Final Approach",
+        "samples": [
+          "https://jkanime.net/final-approach/1/",
+          "https://jkanime.net/final-approach/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koukaku-kidoutai-stand-alone-complex-2nd-gig/",
+        "title": "Koukaku Kidoutai: Stand Alone Complex 2nd GIG",
+        "samples": [
+          "https://jkanime.net/koukaku-kidoutai-stand-alone-complex-2nd-gig/1/",
+          "https://jkanime.net/koukaku-kidoutai-stand-alone-complex-2nd-gig/10/"
         ]
       },
       {
@@ -37481,6 +37577,30 @@
         "title": "Naruto: Takigakure no Shitou - Ore ga Eiyuu Dattebayo!",
         "samples": [
           "https://jkanime.net/naruto-takigakure-no-shitou-ore-ga-eiyuu-dattebayo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chrno-crusade/",
+        "title": "Chrno Crusade",
+        "samples": [
+          "https://jkanime.net/chrno-crusade/14/",
+          "https://jkanime.net/chrno-crusade/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futatsu-no-spica/",
+        "title": "Futatsu no Spica",
+        "samples": [
+          "https://jkanime.net/futatsu-no-spica/1/",
+          "https://jkanime.net/futatsu-no-spica/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maburaho/",
+        "title": "Maburaho",
+        "samples": [
+          "https://jkanime.net/maburaho/1/",
+          "https://jkanime.net/maburaho/10/"
         ]
       },
       {
@@ -43647,7 +43767,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -73167,7 +73287,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -94896,7 +95016,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -135207,9 +135327,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 34,
+      "stored": 35,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/35/",
         "https://jkanime.net/tsubasa-chronicle/36/",
         "https://jkanime.net/tsubasa-chronicle/37/",
         "https://jkanime.net/tsubasa-chronicle/38/",
@@ -135232,9 +135351,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 35,
-        "streamwish": 34,
-        "vidhide": 35,
+        "mp4upload": 36,
+        "streamwish": 35,
+        "vidhide": 36,
         "mega": 1,
         "streamtape": 1
       },
@@ -137140,9 +137259,8 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/hit-wo-nerae/10/",
         "https://jkanime.net/hit-wo-nerae/11/",
         "https://jkanime.net/hit-wo-nerae/12/",
         "https://jkanime.net/hit-wo-nerae/9/"
@@ -137151,8 +137269,8 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 7,
-        "streamwish": 6,
+        "mp4upload": 8,
+        "streamwish": 7,
         "mega": 1,
         "vidhide": 1,
         "mixdrop": 1,
@@ -137233,7 +137351,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137246,20 +137364,22 @@
     {
       "series": "https://jkanime.net/futari-wa-precure/",
       "title": "Futari wa Precure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 48,
       "families": {
-        "mega": 49,
+        "mega": 48,
         "streamwish": 49,
-        "vidhide": 49,
-        "mixdrop": 49,
-        "mp4upload": 49,
-        "streamtape": 49
+        "vidhide": 48,
+        "mixdrop": 48,
+        "mp4upload": 48,
+        "streamtape": 48
       },
       "playbackVerified": false
     },
@@ -137285,13 +137405,15 @@
     {
       "series": "https://jkanime.net/hikari-to-mizu-no-daphne/",
       "title": "Hikari to Mizu no Daphne",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -137305,13 +137427,15 @@
     {
       "series": "https://jkanime.net/chou-henshin-cosprayers/",
       "title": "Chou Henshin Cosprayers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -137325,13 +137449,15 @@
     {
       "series": "https://jkanime.net/burn-up-scramble/",
       "title": "Burn Up Scramble",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137345,13 +137471,15 @@
     {
       "series": "https://jkanime.net/yumeria/",
       "title": "Yumeria",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137365,13 +137493,15 @@
     {
       "series": "https://jkanime.net/area-88-tv/",
       "title": "Area 88 (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137385,13 +137515,15 @@
     {
       "series": "https://jkanime.net/choujuushin-gravion-zwei/",
       "title": "Choujuushin Gravion Zwei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137405,13 +137537,15 @@
     {
       "series": "https://jkanime.net/maria-sama-ga-miteru/",
       "title": "Maria-sama ga Miteru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137436,7 +137570,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -137450,13 +137584,15 @@
     {
       "series": "https://jkanime.net/gokusen/",
       "title": "Gokusen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137470,33 +137606,37 @@
     {
       "series": "https://jkanime.net/mezzo-dsa/",
       "title": "Mezzo DSA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 13,
+        "mega": 4,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 4,
+        "mixdrop": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/final-approach/",
       "title": "Final Approach",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137509,13 +137649,15 @@
     {
       "series": "https://jkanime.net/koukaku-kidoutai-stand-alone-complex-2nd-gig/",
       "title": "Koukaku Kidoutai: Stand Alone Complex 2nd GIG",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -137567,32 +137709,36 @@
     {
       "series": "https://jkanime.net/chrno-crusade/",
       "title": "Chrno Crusade",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "mega": 12,
+        "streamwish": 12,
+        "vidhide": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/futatsu-no-spica/",
       "title": "Futatsu no Spica",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -137606,13 +137752,15 @@
     {
       "series": "https://jkanime.net/maburaho/",
       "title": "Maburaho",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 21,
       "families": {
         "mega": 24,
         "streamwish": 24,
