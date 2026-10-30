@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T03:11:53.676613+00:00",
+  "checkedAt": "2026-10-30T03:23:55.291037+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73540,
-  "storedChapters": 71719,
+  "observedChapters": 73541,
+  "storedChapters": 71720,
   "missingChapters": 1821,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -4419,6 +4419,13 @@
         "title": "Upotte!! OVA",
         "samples": [
           "https://jkanime.net/upotte-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sukitte-iinayo/",
+        "title": "Sukitte Ii na yo.",
+        "samples": [
+          "https://jkanime.net/sukitte-iinayo/14/"
         ]
       },
       {
@@ -30418,13 +30425,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/code-breaker-ova/",
-        "title": "Code:Breaker OVA",
-        "samples": [
-          "https://jkanime.net/code-breaker-ova/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/",
         "title": "Toaru Majutsu no Index: Endymion no Kiseki",
         "samples": [
@@ -30998,7 +30998,46 @@
         "title": "Aikatsu!",
         "samples": [
           "https://jkanime.net/aikatsu/1/",
-          "https://jkanime.net/aikatsu/2/"
+          "https://jkanime.net/aikatsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ixion-saga-dt/",
+        "title": "Ixion Saga DT",
+        "samples": [
+          "https://jkanime.net/ixion-saga-dt/1/",
+          "https://jkanime.net/ixion-saga-dt/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu/",
+        "title": "Teekyuu",
+        "samples": [
+          "https://jkanime.net/teekyuu/1/",
+          "https://jkanime.net/teekyuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magi/",
+        "title": "Magi",
+        "samples": [
+          "https://jkanime.net/magi/1/",
+          "https://jkanime.net/magi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sukitte-iinayo/",
+        "title": "Sukitte Ii na yo.",
+        "samples": [
+          "https://jkanime.net/sukitte-iinayo/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
+        "title": "Yu-Gi-Oh! Zexal Second",
+        "samples": [
+          "https://jkanime.net/yu-gi-oh-zexal-second/1/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/10/"
         ]
       },
       {
@@ -31006,6 +31045,14 @@
         "title": "Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari",
         "samples": [
           "https://jkanime.net/mahou-shoujo-madokamagica-movie-1-hajimari-no-monogatari/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne/",
+        "title": "Onii-chan Dakedo Ai Sae Areba Kankeinai yo ne",
+        "samples": [
+          "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne/1/",
+          "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne/10/"
         ]
       },
       {
@@ -38227,7 +38274,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {},
       "playbackVerified": false
     },
@@ -38286,7 +38333,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -45540,7 +45587,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 18,
         "streamwish": 15,
@@ -60819,7 +60866,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -62232,7 +62279,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -62246,7 +62293,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/27/",
         "https://jkanime.net/bleach-sennen-kessen-hen/28/",
         "https://jkanime.net/bleach-sennen-kessen-hen/29/",
         "https://jkanime.net/bleach-sennen-kessen-hen/30/",
@@ -62276,9 +62322,9 @@
       "families": {
         "mega": 13,
         "streamwish": 14,
-        "vidhide": 15,
+        "vidhide": 16,
         "streamtape": 13,
-        "mp4upload": 8,
+        "mp4upload": 9,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -67027,7 +67073,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -108022,7 +108068,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mp4upload": 1
       },
@@ -112303,21 +112349,15 @@
     {
       "series": "https://jkanime.net/code-breaker-ova/",
       "title": "Code:Breaker OVA",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 1,
-        "streamwish": 1,
-        "vidhide": 1,
-        "mp4upload": 3,
-        "streamtape": 1
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
@@ -113909,7 +113949,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 132,
       "families": {
         "mega": 132,
         "streamwish": 132,
@@ -113923,13 +113963,15 @@
     {
       "series": "https://jkanime.net/ixion-saga-dt/",
       "title": "Ixion Saga DT",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -113943,13 +113985,15 @@
     {
       "series": "https://jkanime.net/teekyuu/",
       "title": "Teekyuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -113970,24 +114014,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/magi/",
       "title": "Magi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 24,
         "streamwish": 25,
@@ -114000,32 +114042,39 @@
     {
       "series": "https://jkanime.net/sukitte-iinayo/",
       "title": "Sukitte Ii na yo.",
-      "causes": [],
-      "observed": 13,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 14,
       "stored": 13,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/sukitte-iinayo/14/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
         "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 12,
+        "mp4upload": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
       "title": "Yu-Gi-Oh! Zexal Second",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 73,
       "stored": 73,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 73,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -114057,13 +114106,15 @@
     {
       "series": "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne/",
       "title": "Onii-chan Dakedo Ai Sae Areba Kankeinai yo ne",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
