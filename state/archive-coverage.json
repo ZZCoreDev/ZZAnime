@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T21:08:12.721477+00:00",
+  "checkedAt": "2026-10-30T21:21:48.622882+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73714,
-  "storedChapters": 71892,
-  "missingChapters": 1822,
+  "storedChapters": 71894,
+  "missingChapters": 1820,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5922,8 +5922,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/10/",
-          "https://jkanime.net/taiho-shichau-zo/11/"
+          "https://jkanime.net/taiho-shichau-zo/11/",
+          "https://jkanime.net/taiho-shichau-zo/12/"
         ]
       },
       {
@@ -39598,8 +39598,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/10/",
-          "https://jkanime.net/taiho-shichau-zo/11/"
+          "https://jkanime.net/taiho-shichau-zo/11/",
+          "https://jkanime.net/taiho-shichau-zo/12/"
         ]
       },
       {
@@ -39690,6 +39690,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ghost-sweeper-gs-mikami/",
+        "title": "Ghost Sweeper GS Mikami",
+        "samples": [
+          "https://jkanime.net/ghost-sweeper-gs-mikami/1/",
+          "https://jkanime.net/ghost-sweeper-gs-mikami/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-victory-gundam/",
+        "title": "Mobile Suit Victory Gundam",
+        "samples": [
+          "https://jkanime.net/mobile-suit-victory-gundam/1/",
+          "https://jkanime.net/mobile-suit-victory-gundam/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-z-movie-08-broly-the-legendary-super-saiyan/",
         "title": "Dragon Ball Z Movie 08: Broly - The Legendary Super Saiyan",
         "samples": [
@@ -39701,6 +39717,30 @@
         "title": "Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks",
         "samples": [
           "https://jkanime.net/dragon-ball-z-special-2-zetsubou-e-no-hankou-nokosareta-chousenshi-gohan-to-trunks/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tylor-el-capitan-irresponsable/",
+        "title": "Irresponsible Captain Tylor",
+        "samples": [
+          "https://jkanime.net/tylor-el-capitan-irresponsable/1/",
+          "https://jkanime.net/tylor-el-capitan-irresponsable/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-babylon/",
+        "title": "Tokyo Babylon",
+        "samples": [
+          "https://jkanime.net/tokyo-babylon/1/",
+          "https://jkanime.net/tokyo-babylon/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yu-yu-hakusho/",
+        "title": "Yu Yu Hakusho",
+        "samples": [
+          "https://jkanime.net/yu-yu-hakusho/1/",
+          "https://jkanime.net/yu-yu-hakusho/10/"
         ]
       },
       {
@@ -62862,11 +62902,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 41,
+      "stored": 42,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/44/",
         "https://jkanime.net/kusuriya-no-hitorigoto/45/",
         "https://jkanime.net/kusuriya-no-hitorigoto/46/",
         "https://jkanime.net/kusuriya-no-hitorigoto/47/",
@@ -62882,9 +62921,9 @@
       "renewalFailed": 26,
       "families": {
         "mega": 23,
-        "streamwish": 33,
-        "vidhide": 26,
-        "mp4upload": 38,
+        "streamwish": 34,
+        "vidhide": 27,
+        "mp4upload": 39,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -130314,7 +130353,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {},
       "playbackVerified": false
     },
@@ -145006,9 +145045,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 4,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/10/",
         "https://jkanime.net/taiho-shichau-zo/11/",
         "https://jkanime.net/taiho-shichau-zo/12/",
         "https://jkanime.net/taiho-shichau-zo/13/",
@@ -145064,7 +145102,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 3,
+        "mp4upload": 4,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -145237,7 +145275,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 62,
+      "renewalFailed": 101,
       "families": {
         "mega": 101,
         "streamwish": 101,
@@ -145327,13 +145365,15 @@
     {
       "series": "https://jkanime.net/ghost-sweeper-gs-mikami/",
       "title": "Ghost Sweeper GS Mikami",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 45,
       "stored": 45,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 45,
       "families": {
         "mega": 45,
         "streamwish": 45,
@@ -145346,19 +145386,21 @@
     {
       "series": "https://jkanime.net/mobile-suit-victory-gundam/",
       "title": "Mobile Suit Victory Gundam",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
-        "mega": 51,
-        "streamwish": 51,
-        "vidhide": 51,
-        "mp4upload": 51,
-        "streamtape": 51
+        "mega": 13,
+        "streamwish": 39,
+        "vidhide": 14,
+        "mp4upload": 25,
+        "streamtape": 13
       },
       "playbackVerified": false
     },
@@ -145403,13 +145445,15 @@
     {
       "series": "https://jkanime.net/tylor-el-capitan-irresponsable/",
       "title": "Irresponsible Captain Tylor",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -145422,13 +145466,15 @@
     {
       "series": "https://jkanime.net/tokyo-babylon/",
       "title": "Tokyo Babylon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -145442,13 +145488,15 @@
     {
       "series": "https://jkanime.net/yu-yu-hakusho/",
       "title": "Yu Yu Hakusho",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 112,
       "stored": 112,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 74,
       "families": {
         "mega": 112,
         "streamwish": 112,
