@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T16:42:55.639983+00:00",
+  "checkedAt": "2026-10-30T16:56:00.440114+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73657,
-  "storedChapters": 71854,
-  "missingChapters": 1803,
+  "observedChapters": 73661,
+  "storedChapters": 71857,
+  "missingChapters": 1804,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/28/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/29/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/41/",
-          "https://jkanime.net/tsubasa-chronicle/42/"
+          "https://jkanime.net/tsubasa-chronicle/42/",
+          "https://jkanime.net/tsubasa-chronicle/43/"
         ]
       },
       {
@@ -5670,6 +5670,14 @@
         "title": "Onegai Teacher OVA",
         "samples": [
           "https://jkanime.net/onegai-teacher-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-seed/",
+        "title": "Mobile Suit Gundam Seed",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-seed/49/",
+          "https://jkanime.net/mobile-suit-gundam-seed/50/"
         ]
       },
       {
@@ -6226,6 +6234,13 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hotaru-no-yomeiri/",
+        "title": "Hotaru no Yomeiri",
+        "samples": [
+          "https://jkanime.net/hotaru-no-yomeiri/4/"
         ]
       },
       {
@@ -10713,7 +10728,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/28/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/29/"
         ]
       },
       {
@@ -36722,8 +36737,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/41/",
-          "https://jkanime.net/tsubasa-chronicle/42/"
+          "https://jkanime.net/tsubasa-chronicle/42/",
+          "https://jkanime.net/tsubasa-chronicle/43/"
         ]
       },
       {
@@ -38074,7 +38089,15 @@
         "title": "Lime-iro Senkitan",
         "samples": [
           "https://jkanime.net/lime-iro-senkitan/1/",
-          "https://jkanime.net/lime-iro-senkitan/2/"
+          "https://jkanime.net/lime-iro-senkitan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dear-boys/",
+        "title": "Dear Boys",
+        "samples": [
+          "https://jkanime.net/dear-boys/10/",
+          "https://jkanime.net/dear-boys/11/"
         ]
       },
       {
@@ -38085,6 +38108,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/macross-zero/",
+        "title": "Macross Zero",
+        "samples": [
+          "https://jkanime.net/macross-zero/1/",
+          "https://jkanime.net/macross-zero/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/green-green-ova/",
         "title": "Green Green OVA",
         "samples": [
@@ -38092,10 +38123,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/barom-one/",
+        "title": "Barom One",
+        "samples": [
+          "https://jkanime.net/barom-one/1/",
+          "https://jkanime.net/barom-one/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pokemon-advance/",
+        "title": "Pokemon Advance",
+        "samples": [
+          "https://jkanime.net/pokemon-advance/1/",
+          "https://jkanime.net/pokemon-advance/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/",
+        "title": "Saint Seiya Saga de Hades Sanctuary",
+        "samples": [
+          "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/1/",
+          "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/onegai-teacher-ova/",
         "title": "Onegai Teacher OVA",
         "samples": [
           "https://jkanime.net/onegai-teacher-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/choujuushin-gravion/",
+        "title": "Choujuushin Gravion",
+        "samples": [
+          "https://jkanime.net/choujuushin-gravion/1/",
+          "https://jkanime.net/choujuushin-gravion/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-seed/",
+        "title": "Mobile Suit Gundam Seed",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-seed/49/",
+          "https://jkanime.net/mobile-suit-gundam-seed/50/"
         ]
       },
       {
@@ -61552,10 +61623,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 26,
+      "stored": 27,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/28/",
         "https://jkanime.net/kusuriya-no-hitorigoto/29/",
         "https://jkanime.net/kusuriya-no-hitorigoto/30/",
         "https://jkanime.net/kusuriya-no-hitorigoto/31/",
@@ -61587,9 +61657,9 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 24,
-        "vidhide": 19,
-        "mp4upload": 25,
+        "streamwish": 25,
+        "vidhide": 20,
+        "mp4upload": 26,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -73729,7 +73799,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -97190,7 +97260,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 3
       },
@@ -101534,22 +101604,21 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/norn9-nornnonet/1/",
         "https://jkanime.net/norn9-nornnonet/2/",
         "https://jkanime.net/norn9-nornnonet/3/",
         "https://jkanime.net/norn9-nornnonet/6/",
-        "https://jkanime.net/norn9-nornnonet/8/",
         "https://jkanime.net/norn9-nornnonet/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 6,
-        "streamwish": 6,
-        "vidhide": 6
+        "mp4upload": 7,
+        "streamwish": 7,
+        "vidhide": 7
       },
       "playbackVerified": false
     },
@@ -105317,7 +105386,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 8
       },
@@ -135758,9 +135827,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 40,
+      "stored": 41,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/41/",
         "https://jkanime.net/tsubasa-chronicle/42/",
         "https://jkanime.net/tsubasa-chronicle/43/",
         "https://jkanime.net/tsubasa-chronicle/44/",
@@ -135777,9 +135845,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 41,
-        "streamwish": 40,
-        "vidhide": 41,
+        "mp4upload": 42,
+        "streamwish": 41,
+        "vidhide": 42,
         "mega": 1,
         "streamtape": 1
       },
@@ -139532,7 +139600,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -139546,20 +139614,22 @@
     {
       "series": "https://jkanime.net/dear-boys/",
       "title": "Dear Boys",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
         "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "mega": 25,
+        "vidhide": 25,
+        "mixdrop": 25,
+        "mp4upload": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
@@ -139585,13 +139655,15 @@
     {
       "series": "https://jkanime.net/macross-zero/",
       "title": "Macross Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -139623,13 +139695,15 @@
     {
       "series": "https://jkanime.net/barom-one/",
       "title": "Barom One",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -139643,13 +139717,15 @@
     {
       "series": "https://jkanime.net/pokemon-advance/",
       "title": "Pokemon Advance",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 190,
       "stored": 190,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 190,
       "families": {
         "mega": 190,
         "streamwish": 190,
@@ -139662,13 +139738,15 @@
     {
       "series": "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/",
       "title": "Saint Seiya Saga de Hades Sanctuary",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -139700,13 +139778,15 @@
     {
       "series": "https://jkanime.net/choujuushin-gravion/",
       "title": "Choujuushin Gravion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -139720,20 +139800,27 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-seed/",
       "title": "Mobile Suit Gundam Seed",
-      "causes": [],
-      "observed": 48,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 51,
       "stored": 48,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/mobile-suit-gundam-seed/49/",
+        "https://jkanime.net/mobile-suit-gundam-seed/50/",
+        "https://jkanime.net/mobile-suit-gundam-seed/51/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 48,
+        "mp4upload": 50,
         "streamwish": 48,
-        "vidhide": 48,
-        "mixdrop": 48,
-        "mp4upload": 48,
-        "streamtape": 48
+        "vidhide": 50,
+        "mega": 23,
+        "mixdrop": 23,
+        "streamtape": 23
       },
       "playbackVerified": false
     },
@@ -145579,10 +145666,14 @@
     {
       "series": "https://jkanime.net/hotaru-no-yomeiri/",
       "title": "Hotaru no Yomeiri",
-      "causes": [],
-      "observed": 3,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 4,
       "stored": 3,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hotaru-no-yomeiri/4/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
