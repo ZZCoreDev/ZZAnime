@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T06:03:06.639307+00:00",
+  "checkedAt": "2026-10-30T06:16:30.882146+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73544,
+  "observedChapters": 73545,
   "storedChapters": 71741,
-  "missingChapters": 1803,
+  "missingChapters": 1804,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -4899,6 +4899,13 @@
         "title": "Nichijou Episode 0",
         "samples": [
           "https://jkanime.net/nichijou-episode-0/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/is-infinite-stratos/",
+        "title": "IS: Infinite Stratos",
+        "samples": [
+          "https://jkanime.net/is-infinite-stratos/13/"
         ]
       },
       {
@@ -32913,6 +32920,101 @@
         "samples": [
           "https://jkanime.net/suite-precure/1/",
           "https://jkanime.net/suite-precure/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/houkago-no-pleiades-ona/",
+        "title": "Houkago no Pleiades ONA",
+        "samples": [
+          "https://jkanime.net/houkago-no-pleiades-ona/1/",
+          "https://jkanime.net/houkago-no-pleiades-ona/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fractale/",
+        "title": "Fractale",
+        "samples": [
+          "https://jkanime.net/fractale/1/",
+          "https://jkanime.net/fractale/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kore-wa-zombie-desu-ka/",
+        "title": "Kore wa Zombie Desu ka?",
+        "samples": [
+          "https://jkanime.net/kore-wa-zombie-desu-ka/1/",
+          "https://jkanime.net/kore-wa-zombie-desu-ka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-crisis/",
+        "title": "Dragon Crisis!",
+        "samples": [
+          "https://jkanime.net/dragon-crisis/1/",
+          "https://jkanime.net/dragon-crisis/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mitsudomoe-zouryouchuu/",
+        "title": "Mitsudomoe Zouryouchuu!",
+        "samples": [
+          "https://jkanime.net/mitsudomoe-zouryouchuu/1/",
+          "https://jkanime.net/mitsudomoe-zouryouchuu/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beelzebub/",
+        "title": "Beelzebub",
+        "samples": [
+          "https://jkanime.net/beelzebub/1/",
+          "https://jkanime.net/beelzebub/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cardfight-vanguard/",
+        "title": "Cardfight!! Vanguard",
+        "samples": [
+          "https://jkanime.net/cardfight-vanguard/1/",
+          "https://jkanime.net/cardfight-vanguard/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/freezing/",
+        "title": "Freezing",
+        "samples": [
+          "https://jkanime.net/freezing/1/",
+          "https://jkanime.net/freezing/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/is-infinite-stratos/",
+        "title": "IS: Infinite Stratos",
+        "samples": [
+          "https://jkanime.net/is-infinite-stratos/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-madoka-magica/",
+        "title": "Mahou Shoujo Madoka Magica",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-madoka-magica/1/",
+          "https://jkanime.net/mahou-shoujo-madoka-magica/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yumekui-merry/",
+        "title": "Yumekui Merry",
+        "samples": [
+          "https://jkanime.net/yumekui-merry/1/",
+          "https://jkanime.net/yumekui-merry/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rio-rainbow-gate/",
+        "title": "Rio: Rainbow Gate!",
+        "samples": [
+          "https://jkanime.net/rio-rainbow-gate/1/",
+          "https://jkanime.net/rio-rainbow-gate/10/"
         ]
       },
       {
@@ -120719,7 +120821,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 28,
       "families": {
         "mega": 28,
         "streamwish": 48,
@@ -120733,13 +120835,15 @@
     {
       "series": "https://jkanime.net/houkago-no-pleiades-ona/",
       "title": "Houkago no Pleiades ONA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -120752,19 +120856,21 @@
     {
       "series": "https://jkanime.net/fractale/",
       "title": "Fractale",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 11,
+        "mega": 6,
         "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -120786,13 +120892,15 @@
     {
       "series": "https://jkanime.net/kore-wa-zombie-desu-ka/",
       "title": "Kore wa Zombie Desu ka?",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -120805,13 +120913,15 @@
     {
       "series": "https://jkanime.net/dragon-crisis/",
       "title": "Dragon Crisis!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -120824,33 +120934,37 @@
     {
       "series": "https://jkanime.net/mitsudomoe-zouryouchuu/",
       "title": "Mitsudomoe Zouryouchuu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 8,
-        "streamwish": 8,
-        "vidhide": 8,
-        "mixdrop": 8,
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "mixdrop": 7,
         "mp4upload": 8,
-        "streamtape": 8
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/beelzebub/",
       "title": "Beelzebub",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 60,
       "stored": 60,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 60,
       "families": {
         "mega": 60,
         "streamwish": 60,
@@ -120863,33 +120977,37 @@
     {
       "series": "https://jkanime.net/cardfight-vanguard/",
       "title": "Cardfight!! Vanguard",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 65,
       "stored": 65,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 65,
+        "mega": 25,
         "streamwish": 65,
-        "vidhide": 65,
-        "mixdrop": 65,
-        "mp4upload": 65,
-        "streamtape": 65
+        "vidhide": 52,
+        "mixdrop": 25,
+        "mp4upload": 52,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/freezing/",
       "title": "Freezing",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -120902,51 +121020,60 @@
     {
       "series": "https://jkanime.net/is-infinite-stratos/",
       "title": "IS: Infinite Stratos",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/is-infinite-stratos/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 4,
+        "streamwish": 4,
+        "vidhide": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mahou-shoujo-madoka-magica/",
       "title": "Mahou Shoujo Madoka Magica",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yumekui-merry/",
       "title": "Yumekui Merry",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -120959,13 +121086,15 @@
     {
       "series": "https://jkanime.net/rio-rainbow-gate/",
       "title": "Rio: Rainbow Gate!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
