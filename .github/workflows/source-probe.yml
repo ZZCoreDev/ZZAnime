@@ -1,0 +1,18 @@
+name: Prueba de acceso a fuentes (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Status codes only, one request each with pauses
+        run: |
+          UA='ZZAnimeCatalogBackup/1.0'
+          for u in https://animeyt.cc/ https://animeyt.cc/119010/anime/psyren-capitulo-4/ "https://mytsumi.com/container.php?id=8O08gwQdAQUtCqtf&open=1&lang=SUB&only=SUB" https://archive.org/download/rqv3mfhhbp-pkk7n3bc/32jrp5588zjm.mp4 https://jkanime.net/; do
+            curl -s -o body.html -r 0-200000 -A "$UA" -e https://animeyt.cc/ --max-time 25 -w "%{http_code} %{size_download} $u\n" "$u" || echo "ERR $u"
+            echo "  players=$(grep -o 'data-player-url=' body.html | wc -l) cf=$(grep -c -i 'cloudflare\|just a moment\|attention required' body.html)"
+            sleep 3
+          done
