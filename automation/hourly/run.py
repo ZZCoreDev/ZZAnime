@@ -9,6 +9,8 @@ D=Path(os.environ.get('ZZ_DATA',W/'state')).resolve()
 BASE='https://zzanime-respaldo.zzcoredev.workers.dev'
 COLLECTION_BATCHES=2
 RETRY_SECONDS=15*60
+VOE_RECHECK_SECONDS=6*3600
+VOE_RECHECK_LIMIT=2
 def sha(b):return hashlib.sha256(b).hexdigest()
 def raw(x):return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 def put(p,b):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
@@ -72,8 +74,15 @@ def main():
     recent=sorted(state['episodes'].items(),key=lambda row:state.get('newsSeen',{}).get(row[0],''),reverse=True)
     skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
     from voe_channel import fresh_urls,split
-    skip=skip[:2000]+fresh_urls(D,instant.timestamp())
+    # VOE-only episodes have no root-channel record; recheck them through the source chain with a backoff.
+    voe_fresh=fresh_urls(D,instant.timestamp());recheck=state.setdefault('voeRecheck',{})
+    for url in list(recheck):
+     if url not in voe_fresh or url in state['episodes']:recheck.pop(url)
+    due=[url for url in voe_fresh if url not in state['episodes'] and instant.timestamp()-recheck.get(url,0)>=VOE_RECHECK_SECONDS][:VOE_RECHECK_LIMIT]
+    skip=skip[:2000]+[url for url in voe_fresh if url not in due]
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
+    retry=(retry+[url for url in due if url not in retry and url not in skip])[:200]
+    for url in due:recheck[url]=instant.timestamp()
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
