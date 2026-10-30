@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T03:37:06.465473+00:00",
+  "checkedAt": "2026-10-30T03:50:31.372964+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
-  "storedChapters": 71720,
-  "missingChapters": 1821,
+  "storedChapters": 71722,
+  "missingChapters": 1819,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -31359,6 +31359,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/accel-world-specials/",
+        "title": "Accel World Specials",
+        "samples": [
+          "https://jkanime.net/accel-world-specials/1/",
+          "https://jkanime.net/accel-world-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ijime/",
         "title": "Ijime: Ikenie no Kyoushitsu",
         "samples": [
@@ -31373,6 +31381,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu/",
+        "title": "Ebiten: Kouritsu Ebisugawa Koukou Tenmonbu",
+        "samples": [
+          "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu/1/",
+          "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/papa-no-iukoto-wo-kikinasai-pokkapoka/",
         "title": "Papa no Iukoto wo Kikinasai!: Pokkapoka",
         "samples": [
@@ -31380,10 +31396,138 @@
         ]
       },
       {
+        "series": "https://jkanime.net/oda-nobuna-no-yabou/",
+        "title": "Oda Nobuna no Yabou",
+        "samples": [
+          "https://jkanime.net/oda-nobuna-no-yabou/1/",
+          "https://jkanime.net/oda-nobuna-no-yabou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kokoro-connect/",
+        "title": "Kokoro Connect",
+        "samples": [
+          "https://jkanime.net/kokoro-connect/1/",
+          "https://jkanime.net/kokoro-connect/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-senjou-no-horizon-2/",
+        "title": "Kyoukai Senjou no Horizon II",
+        "samples": [
+          "https://jkanime.net/kyoukai-senjou-no-horizon-2/1/",
+          "https://jkanime.net/kyoukai-senjou-no-horizon-2/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hyouka-motsubeki-mono-wa/",
         "title": "Hyouka: Motsubeki Mono wa",
         "samples": [
           "https://jkanime.net/hyouka-motsubeki-mono-wa/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dakara-boku-wa-h-ga-dekinai/",
+        "title": "Dakara Boku wa, H ga Dekinai.",
+        "samples": [
+          "https://jkanime.net/dakara-boku-wa-h-ga-dekinai/1/",
+          "https://jkanime.net/dakara-boku-wa-h-ga-dekinai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hagure-yuusha-no-estetica/",
+        "title": "Hagure Yuusha no Estetica",
+        "samples": [
+          "https://jkanime.net/hagure-yuusha-no-estetica/1/",
+          "https://jkanime.net/hagure-yuusha-no-estetica/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koi-to-senkyo-to-chocolate/",
+        "title": "Koi to Senkyo to Chocolate",
+        "samples": [
+          "https://jkanime.net/koi-to-senkyo-to-chocolate/1/",
+          "https://jkanime.net/koi-to-senkyo-to-chocolate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kono-naka-ni-hitori-imouto-ga-iru/",
+        "title": "Kono Naka ni Hitori, Imouto ga Iru!",
+        "samples": [
+          "https://jkanime.net/kono-naka-ni-hitori-imouto-ga-iru/1/",
+          "https://jkanime.net/kono-naka-ni-hitori-imouto-ga-iru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/joshiraku/",
+        "title": "Joshiraku",
+        "samples": [
+          "https://jkanime.net/joshiraku/1/",
+          "https://jkanime.net/joshiraku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/moyashimon-returns/",
+        "title": "Moyashimon Returns",
+        "samples": [
+          "https://jkanime.net/moyashimon-returns/1/",
+          "https://jkanime.net/moyashimon-returns/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/binbougami-ga/",
+        "title": "Binbougami ga!",
+        "samples": [
+          "https://jkanime.net/binbougami-ga/1/",
+          "https://jkanime.net/binbougami-ga/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuru-yuri-2/",
+        "title": "Yuru Yuri S2 ♪♪",
+        "samples": [
+          "https://jkanime.net/yuru-yuri-2/1/",
+          "https://jkanime.net/yuru-yuri-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arcana-famiglia/",
+        "title": "Arcana Famiglia",
+        "samples": [
+          "https://jkanime.net/arcana-famiglia/1/",
+          "https://jkanime.net/arcana-famiglia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chitose-get-you/",
+        "title": "Chitose Get You!!",
+        "samples": [
+          "https://jkanime.net/chitose-get-you/1/",
+          "https://jkanime.net/chitose-get-you/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tari-tari/",
+        "title": "Tari Tari",
+        "samples": [
+          "https://jkanime.net/tari-tari/1/",
+          "https://jkanime.net/tari-tari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/muv-luv-alternative-total-eclipse/",
+        "title": "Muv-Luv Alternative: Total Eclipse",
+        "samples": [
+          "https://jkanime.net/muv-luv-alternative-total-eclipse/1/",
+          "https://jkanime.net/muv-luv-alternative-total-eclipse/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/campione/",
+        "title": "Campione!",
+        "samples": [
+          "https://jkanime.net/campione/1/",
+          "https://jkanime.net/campione/10/"
         ]
       },
       {
@@ -31398,6 +31542,14 @@
         "title": "Ookami Kodomo no Ame to Yuki",
         "samples": [
           "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-online/",
+        "title": "Sword Art Online",
+        "samples": [
+          "https://jkanime.net/sword-art-online/1/",
+          "https://jkanime.net/sword-art-online/10/"
         ]
       },
       {
@@ -38457,7 +38609,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {},
       "playbackVerified": false
     },
@@ -60814,7 +60966,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -62462,7 +62614,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -62476,7 +62628,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/28/",
         "https://jkanime.net/bleach-sennen-kessen-hen/29/",
         "https://jkanime.net/bleach-sennen-kessen-hen/30/",
         "https://jkanime.net/bleach-sennen-kessen-hen/31/",
@@ -62504,8 +62655,8 @@
       "renewalFailed": 25,
       "families": {
         "mega": 13,
-        "streamwish": 14,
-        "vidhide": 16,
+        "streamwish": 15,
+        "vidhide": 17,
         "streamtape": 13,
         "mp4upload": 9,
         "mixdrop": 4
@@ -85205,7 +85356,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -92346,11 +92497,10 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/7/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/8/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/9/"
       ],
@@ -92358,7 +92508,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "streamwish": 7
+        "streamwish": 8
       },
       "playbackVerified": false
     },
@@ -108251,7 +108401,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mp4upload": 1
       },
@@ -115089,7 +115239,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -115179,13 +115329,15 @@
     {
       "series": "https://jkanime.net/accel-world-specials/",
       "title": "Accel World Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -115235,13 +115387,15 @@
     {
       "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu/",
       "title": "Ebiten: Kouritsu Ebisugawa Koukou Tenmonbu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -115273,13 +115427,15 @@
     {
       "series": "https://jkanime.net/oda-nobuna-no-yabou/",
       "title": "Oda Nobuna no Yabou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115292,13 +115448,15 @@
     {
       "series": "https://jkanime.net/kokoro-connect/",
       "title": "Kokoro Connect",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115311,13 +115469,15 @@
     {
       "series": "https://jkanime.net/kyoukai-senjou-no-horizon-2/",
       "title": "Kyoukai Senjou no Horizon II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115368,13 +115528,15 @@
     {
       "series": "https://jkanime.net/dakara-boku-wa-h-ga-dekinai/",
       "title": "Dakara Boku wa, H ga Dekinai.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115387,13 +115549,15 @@
     {
       "series": "https://jkanime.net/hagure-yuusha-no-estetica/",
       "title": "Hagure Yuusha no Estetica",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115406,13 +115570,15 @@
     {
       "series": "https://jkanime.net/koi-to-senkyo-to-chocolate/",
       "title": "Koi to Senkyo to Chocolate",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115425,13 +115591,15 @@
     {
       "series": "https://jkanime.net/kono-naka-ni-hitori-imouto-ga-iru/",
       "title": "Kono Naka ni Hitori, Imouto ga Iru!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115444,13 +115612,15 @@
     {
       "series": "https://jkanime.net/joshiraku/",
       "title": "Joshiraku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115463,13 +115633,15 @@
     {
       "series": "https://jkanime.net/moyashimon-returns/",
       "title": "Moyashimon Returns",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -115483,13 +115655,15 @@
     {
       "series": "https://jkanime.net/binbougami-ga/",
       "title": "Binbougami ga!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115502,13 +115676,15 @@
     {
       "series": "https://jkanime.net/yuru-yuri-2/",
       "title": "Yuru Yuri S2 ♪♪",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115521,13 +115697,15 @@
     {
       "series": "https://jkanime.net/arcana-famiglia/",
       "title": "Arcana Famiglia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -115540,13 +115718,15 @@
     {
       "series": "https://jkanime.net/chitose-get-you/",
       "title": "Chitose Get You!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -115560,13 +115740,15 @@
     {
       "series": "https://jkanime.net/tari-tari/",
       "title": "Tari Tari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115579,13 +115761,15 @@
     {
       "series": "https://jkanime.net/muv-luv-alternative-total-eclipse/",
       "title": "Muv-Luv Alternative: Total Eclipse",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 24,
         "streamwish": 25,
@@ -115598,13 +115782,15 @@
     {
       "series": "https://jkanime.net/campione/",
       "title": "Campione!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115674,13 +115860,15 @@
     {
       "series": "https://jkanime.net/sword-art-online/",
       "title": "Sword Art Online",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -122843,7 +123031,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {},
       "playbackVerified": false
     },
