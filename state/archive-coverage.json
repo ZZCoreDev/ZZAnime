@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T10:11:44.269880+00:00",
+  "checkedAt": "2026-10-30T10:24:13.451155+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73566,
-  "storedChapters": 71775,
-  "missingChapters": 1791,
+  "storedChapters": 71778,
+  "missingChapters": 1788,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -417,8 +417,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/14/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
         ]
       },
       {
@@ -8884,8 +8884,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/14/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
         ]
       },
       {
@@ -35170,6 +35170,62 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zoku-sayonara-zetsubou-sensei/",
+        "title": "Zoku Sayonara Zetsubou Sensei",
+        "samples": [
+          "https://jkanime.net/zoku-sayonara-zetsubou-sensei/1/",
+          "https://jkanime.net/zoku-sayonara-zetsubou-sensei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/minami-ke-okawari/",
+        "title": "Minami-ke Okawari",
+        "samples": [
+          "https://jkanime.net/minami-ke-okawari/1/",
+          "https://jkanime.net/minami-ke-okawari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/persona-trinity-soul/",
+        "title": "Persona: Trinity Soul",
+        "samples": [
+          "https://jkanime.net/persona-trinity-soul/1/",
+          "https://jkanime.net/persona-trinity-soul/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shigofumi/",
+        "title": "Shigofumi",
+        "samples": [
+          "https://jkanime.net/shigofumi/1/",
+          "https://jkanime.net/shigofumi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/true-tears/",
+        "title": "True Tears",
+        "samples": [
+          "https://jkanime.net/true-tears/1/",
+          "https://jkanime.net/true-tears/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/h2o/",
+        "title": "H2O: Footprints in the Sand",
+        "samples": [
+          "https://jkanime.net/h2o/1/",
+          "https://jkanime.net/h2o/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rosario-to-vampire/",
+        "title": "Rosario + Vampire",
+        "samples": [
+          "https://jkanime.net/rosario-to-vampire/1/",
+          "https://jkanime.net/rosario-to-vampire/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-majidoki-theater/",
         "title": "Futari wa Precure: Splash☆Star Maji★Doki♥ Theater",
         "samples": [
@@ -35195,6 +35251,109 @@
         "title": "Kara no Kyoukai 1: Fukan Fuukei",
         "samples": [
           "https://jkanime.net/kara-no-kyoukai-1-fukan-fuukei/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsubasa-tokyo-revelations/",
+        "title": "Tsubasa Chronicle: Tokyo Revelations",
+        "samples": [
+          "https://jkanime.net/tsubasa-tokyo-revelations/1/",
+          "https://jkanime.net/tsubasa-tokyo-revelations/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryuusei-no-rockman-tribe/",
+        "title": "Ryuusei no Rockman Tribe",
+        "samples": [
+          "https://jkanime.net/ryuusei-no-rockman-tribe/1/",
+          "https://jkanime.net/ryuusei-no-rockman-tribe/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ghost-hound/",
+        "title": "Ghost Hound - Shinreigari",
+        "samples": [
+          "https://jkanime.net/ghost-hound/1/",
+          "https://jkanime.net/ghost-hound/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koharu-biyori/",
+        "title": "Koharu Biyori",
+        "samples": [
+          "https://jkanime.net/koharu-biyori/1/",
+          "https://jkanime.net/koharu-biyori/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/moyashimon/",
+        "title": "Moyashimon",
+        "samples": [
+          "https://jkanime.net/moyashimon/1/",
+          "https://jkanime.net/moyashimon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kodomo-no-jikan/",
+        "title": "Kodomo no Jikan",
+        "samples": [
+          "https://jkanime.net/kodomo-no-jikan/1/",
+          "https://jkanime.net/kodomo-no-jikan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/genshiken-2/",
+        "title": "Genshiken 2",
+        "samples": [
+          "https://jkanime.net/genshiken-2/1/",
+          "https://jkanime.net/genshiken-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prism-ark/",
+        "title": "Prism Ark",
+        "samples": [
+          "https://jkanime.net/prism-ark/1/",
+          "https://jkanime.net/prism-ark/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/minami-ke/",
+        "title": "Minami-ke",
+        "samples": [
+          "https://jkanime.net/minami-ke/1/",
+          "https://jkanime.net/minami-ke/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-00/",
+        "title": "Mobile Suit Gundam 00",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-00/1/",
+          "https://jkanime.net/mobile-suit-gundam-00/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shugo-chara/",
+        "title": "Shugo Chara!",
+        "samples": [
+          "https://jkanime.net/shugo-chara/1/",
+          "https://jkanime.net/shugo-chara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ef-a-tale-of-memories/",
+        "title": "ef - a tale of memories.",
+        "samples": [
+          "https://jkanime.net/ef-a-tale-of-memories/1/",
+          "https://jkanime.net/ef-a-tale-of-memories/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/clannad/",
+        "title": "Clannad",
+        "samples": [
+          "https://jkanime.net/clannad/1/"
         ]
       },
       {
@@ -41582,7 +41741,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {},
       "playbackVerified": false
     },
@@ -48880,21 +49039,20 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/jigoku-sensei-nube-2025/20/",
         "https://jkanime.net/jigoku-sensei-nube-2025/21/",
         "https://jkanime.net/jigoku-sensei-nube-2025/22/",
         "https://jkanime.net/jigoku-sensei-nube-2025/23/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/25/",
         "https://jkanime.net/jigoku-sensei-nube-2025/26/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mp4upload": 19,
-        "streamwish": 16,
+        "mp4upload": 20,
+        "streamwish": 17,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -53663,9 +53821,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/14/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/15/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/17/",
@@ -53679,12 +53836,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "mega": 12,
-        "streamwish": 12,
+        "streamwish": 13,
         "vidhide": 13,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -65568,7 +65725,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 28,
+      "stored": 29,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -65584,7 +65741,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/42/",
         "https://jkanime.net/bleach-sennen-kessen-hen/43/",
         "https://jkanime.net/bleach-sennen-kessen-hen/44/",
         "https://jkanime.net/bleach-sennen-kessen-hen/45/",
@@ -65598,10 +65754,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 16,
+        "streamwish": 17,
         "vidhide": 27,
         "streamtape": 13,
-        "mp4upload": 15,
+        "mp4upload": 16,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -71173,7 +71329,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -71545,7 +71701,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 15,
         "mega": 7,
@@ -128980,13 +129136,15 @@
     {
       "series": "https://jkanime.net/zoku-sayonara-zetsubou-sensei/",
       "title": "Zoku Sayonara Zetsubou Sensei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129000,13 +129158,15 @@
     {
       "series": "https://jkanime.net/minami-ke-okawari/",
       "title": "Minami-ke Okawari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129019,13 +129179,15 @@
     {
       "series": "https://jkanime.net/persona-trinity-soul/",
       "title": "Persona: Trinity Soul",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -129038,13 +129200,15 @@
     {
       "series": "https://jkanime.net/shigofumi/",
       "title": "Shigofumi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129057,13 +129221,15 @@
     {
       "series": "https://jkanime.net/true-tears/",
       "title": "True Tears",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129076,13 +129242,15 @@
     {
       "series": "https://jkanime.net/h2o/",
       "title": "H2O: Footprints in the Sand",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129095,13 +129263,15 @@
     {
       "series": "https://jkanime.net/rosario-to-vampire/",
       "title": "Rosario + Vampire",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129190,13 +129360,15 @@
     {
       "series": "https://jkanime.net/tsubasa-tokyo-revelations/",
       "title": "Tsubasa Chronicle: Tokyo Revelations",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 2,
         "streamwish": 3,
@@ -129209,13 +129381,15 @@
     {
       "series": "https://jkanime.net/ryuusei-no-rockman-tribe/",
       "title": "Ryuusei no Rockman Tribe",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 21,
       "families": {
         "mega": 21,
         "streamwish": 21,
@@ -129229,13 +129403,15 @@
     {
       "series": "https://jkanime.net/ghost-hound/",
       "title": "Ghost Hound - Shinreigari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -129248,13 +129424,15 @@
     {
       "series": "https://jkanime.net/koharu-biyori/",
       "title": "Koharu Biyori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -129268,13 +129446,15 @@
     {
       "series": "https://jkanime.net/moyashimon/",
       "title": "Moyashimon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -129288,13 +129468,15 @@
     {
       "series": "https://jkanime.net/kodomo-no-jikan/",
       "title": "Kodomo no Jikan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129307,13 +129489,15 @@
     {
       "series": "https://jkanime.net/genshiken-2/",
       "title": "Genshiken 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129326,13 +129510,15 @@
     {
       "series": "https://jkanime.net/prism-ark/",
       "title": "Prism Ark",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129345,13 +129531,15 @@
     {
       "series": "https://jkanime.net/minami-ke/",
       "title": "Minami-ke",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -129364,32 +129552,36 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-00/",
       "title": "Mobile Suit Gundam 00",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
-        "mega": 25,
+        "mega": 24,
         "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "vidhide": 24,
+        "mp4upload": 24,
+        "streamtape": 24
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shugo-chara/",
       "title": "Shugo Chara!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 50,
         "streamwish": 51,
@@ -129402,13 +129594,15 @@
     {
       "series": "https://jkanime.net/ef-a-tale-of-memories/",
       "title": "ef - a tale of memories.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129421,13 +129615,15 @@
     {
       "series": "https://jkanime.net/clannad/",
       "title": "Clannad",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 23,
         "streamwish": 23,
