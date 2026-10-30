@@ -13,5 +13,20 @@
         "title": "Mao (2026)"
       }
     }
+  },
+  "https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/": {
+    "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
+    "year": 2026,
+    "approved": true,
+    "sources": {
+      "tio": {
+        "slug": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai",
+        "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node"
+      },
+      "flv": {
+        "slug": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node",
+        "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node"
+      }
+    }
   }
 }
