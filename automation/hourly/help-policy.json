@@ -1,8 +1,9 @@
 {
-  "mode": "trial",
+  "mode": "open",
   "trial": [
     "https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/",
     "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
   ],
-  "maxWanted": 40
+  "maxWanted": 40,
+  "maxRenew": 0
 }

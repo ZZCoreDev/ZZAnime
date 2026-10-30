@@ -43,8 +43,9 @@ class WantedTests(unittest.TestCase):
    with self.assertRaises(ValueError):h.policy(p)
    p.write_text(json.dumps({'mode':'open','maxWanted':500}));self.assertEqual(h.policy(p)['max'],40)
    self.assertEqual(h.policy(Path(d,'missing.json'))['mode'],'off')
- def test_shipped_policy_is_trial_with_two_chapters(self):
-  self.assertEqual(h.policy(),{'mode':'trial','trial':TRIAL,'max':40,'renew':180})
+ def test_shipped_policy_asks_every_missing_new_chapter_without_renewal(self):
+  # Open for new chapters (Robin, 31/10); renewal stays off until the first accepted help arrives.
+  self.assertEqual(h.policy(),{'mode':'open','trial':TRIAL,'max':40,'renew':0})
  def test_open_mode_renews_oldest_published_chapters(self):
   a,b,c,d=self.urls;old=self.now-datetime.timedelta(days=30)
   for i in range(3):
