@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T19:02:46.691739+00:00",
+  "checkedAt": "2026-10-30T19:16:19.920060+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73664,
-  "storedChapters": 71881,
-  "missingChapters": 1783,
+  "observedChapters": 73665,
+  "storedChapters": 71884,
+  "missingChapters": 1781,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/36/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/37/"
         ]
       },
       {
@@ -5469,7 +5469,6 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/51/",
           "https://jkanime.net/tsubasa-chronicle/52/"
         ]
       },
@@ -5787,17 +5786,17 @@
         ]
       },
       {
-        "series": "https://jkanime.net/argento-soma/",
-        "title": "Argento Soma",
-        "samples": [
-          "https://jkanime.net/argento-soma/26/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/vampire-hunter-d-2000/",
         "title": "Vampire Hunter D (2000)",
         "samples": [
           "https://jkanime.net/vampire-hunter-d-2000/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hand-maid-may/",
+        "title": "Hand Maid May",
+        "samples": [
+          "https://jkanime.net/hand-maid-may/11/"
         ]
       },
       {
@@ -10742,7 +10741,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/36/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/37/"
         ]
       },
       {
@@ -36751,7 +36750,6 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/51/",
           "https://jkanime.net/tsubasa-chronicle/52/"
         ]
       },
@@ -38857,10 +38855,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gravitation/",
+        "title": "Gravitation",
+        "samples": [
+          "https://jkanime.net/gravitation/1/",
+          "https://jkanime.net/gravitation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vandread/",
+        "title": "Vandread",
+        "samples": [
+          "https://jkanime.net/vandread/1/",
+          "https://jkanime.net/vandread/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yami-no-matsuei/",
+        "title": "Yami no Matsuei",
+        "samples": [
+          "https://jkanime.net/yami-no-matsuei/1/",
+          "https://jkanime.net/yami-no-matsuei/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/vampire-hunter-d-2000/",
         "title": "Vampire Hunter D (2000)",
         "samples": [
           "https://jkanime.net/vampire-hunter-d-2000/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ex-driver/",
+        "title": "eX-Driver",
+        "samples": [
+          "https://jkanime.net/ex-driver/1/",
+          "https://jkanime.net/ex-driver/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brigadoon-marin-to-melan/",
+        "title": "Brigadoon: Marin to Melan",
+        "samples": [
+          "https://jkanime.net/brigadoon-marin-to-melan/1/",
+          "https://jkanime.net/brigadoon-marin-to-melan/10/"
         ]
       },
       {
@@ -38882,6 +38920,46 @@
         "title": "Escaflowne",
         "samples": [
           "https://jkanime.net/escaflowne/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/angel-sanctuary/",
+        "title": "Angel Sanctuary",
+        "samples": [
+          "https://jkanime.net/angel-sanctuary/1/",
+          "https://jkanime.net/angel-sanctuary/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/furi-kuri-flcl/",
+        "title": "FLCL",
+        "samples": [
+          "https://jkanime.net/furi-kuri-flcl/1/",
+          "https://jkanime.net/furi-kuri-flcl/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ayashi-no-ceres/",
+        "title": "Ayashi no Ceres",
+        "samples": [
+          "https://jkanime.net/ayashi-no-ceres/1/",
+          "https://jkanime.net/ayashi-no-ceres/16/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-hina/",
+        "title": "Love Hina",
+        "samples": [
+          "https://jkanime.net/love-hina/1/",
+          "https://jkanime.net/love-hina/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yu-gi-oh-duel-monsters/",
+        "title": "Yu-Gi-Oh! Duel Monsters",
+        "samples": [
+          "https://jkanime.net/yu-gi-oh-duel-monsters/1/",
+          "https://jkanime.net/yu-gi-oh-duel-monsters/10/"
         ]
       },
       {
@@ -62218,10 +62296,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 34,
+      "stored": 35,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/36/",
         "https://jkanime.net/kusuriya-no-hitorigoto/37/",
         "https://jkanime.net/kusuriya-no-hitorigoto/38/",
         "https://jkanime.net/kusuriya-no-hitorigoto/39/",
@@ -62245,9 +62322,9 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 29,
+        "streamwish": 30,
         "vidhide": 25,
-        "mp4upload": 33,
+        "mp4upload": 34,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -136408,18 +136485,17 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 50,
+      "stored": 51,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/51/",
         "https://jkanime.net/tsubasa-chronicle/52/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 51,
-        "streamwish": 50,
-        "vidhide": 51,
+        "mp4upload": 52,
+        "streamwish": 51,
+        "vidhide": 52,
         "mega": 1,
         "streamtape": 1
       },
@@ -142221,19 +142297,15 @@
     {
       "series": "https://jkanime.net/argento-soma/",
       "title": "Argento Soma",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 26,
-      "stored": 25,
-      "missing": [
-        "https://jkanime.net/argento-soma/26/"
-      ],
+      "stored": 26,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 25
+        "mp4upload": 26
       },
       "playbackVerified": false
     },
@@ -142248,7 +142320,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 66,
       "families": {
         "mp4upload": 77,
         "vidhide": 71,
@@ -142261,13 +142333,15 @@
     {
       "series": "https://jkanime.net/gravitation/",
       "title": "Gravitation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -142280,13 +142354,15 @@
     {
       "series": "https://jkanime.net/vandread/",
       "title": "Vandread",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -142300,13 +142376,15 @@
     {
       "series": "https://jkanime.net/yami-no-matsuei/",
       "title": "Yami no Matsuei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -142338,33 +142416,34 @@
     {
       "series": "https://jkanime.net/hand-maid-may/",
       "title": "Hand Maid May",
-      "causes": [],
-      "observed": 10,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 11,
       "stored": 10,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hand-maid-may/11/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 10,
-        "streamwish": 10,
-        "vidhide": 10,
-        "mixdrop": 10,
-        "mp4upload": 10,
-        "streamtape": 10
+        "mp4upload": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/ex-driver/",
       "title": "eX-Driver",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -142378,20 +142457,22 @@
     {
       "series": "https://jkanime.net/brigadoon-marin-to-melan/",
       "title": "Brigadoon: Marin to Melan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
+        "mega": 9,
+        "streamwish": 10,
+        "vidhide": 9,
+        "mixdrop": 9,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 9
       },
       "playbackVerified": false
     },
@@ -142455,13 +142536,15 @@
     {
       "series": "https://jkanime.net/angel-sanctuary/",
       "title": "Angel Sanctuary",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -142474,13 +142557,15 @@
     {
       "series": "https://jkanime.net/furi-kuri-flcl/",
       "title": "FLCL",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -142493,33 +142578,37 @@
     {
       "series": "https://jkanime.net/ayashi-no-ceres/",
       "title": "Ayashi no Ceres",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
-        "mixdrop": 24,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
+        "mixdrop": 11,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/love-hina/",
       "title": "Love Hina",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 24,
         "streamwish": 25,
@@ -142532,13 +142621,15 @@
     {
       "series": "https://jkanime.net/yu-gi-oh-duel-monsters/",
       "title": "Yu-Gi-Oh! Duel Monsters",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 224,
       "stored": 224,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 75,
       "families": {
         "mega": 223,
         "streamwish": 224,
