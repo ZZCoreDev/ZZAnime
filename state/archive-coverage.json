@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T00:30:54.217103+00:00",
+  "checkedAt": "2026-10-30T00:44:11.656996+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -28214,7 +28214,111 @@
         "title": "Kamigami no Asobi",
         "samples": [
           "https://jkanime.net/kamigami-no-asobi/1/",
-          "https://jkanime.net/kamigami-no-asobi/2/"
+          "https://jkanime.net/kamigami-no-asobi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kenzen-robo-daimidaler/",
+        "title": "Kenzen Robo Daimidaler",
+        "samples": [
+          "https://jkanime.net/kenzen-robo-daimidaler/1/",
+          "https://jkanime.net/kenzen-robo-daimidaler/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soredemo-sekai-wa-utsukushii/",
+        "title": "Soredemo Sekai wa Utsukushii",
+        "samples": [
+          "https://jkanime.net/soredemo-sekai-wa-utsukushii/1/",
+          "https://jkanime.net/soredemo-sekai-wa-utsukushii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kiniro-no-corda-bluesky/",
+        "title": "Kiniro no Corda: Blue♪Sky",
+        "samples": [
+          "https://jkanime.net/kiniro-no-corda-bluesky/1/",
+          "https://jkanime.net/kiniro-no-corda-bluesky/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns/",
+        "title": "Kindaichi Shounen no Jikenbo Returns",
+        "samples": [
+          "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns/1/",
+          "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahouka-koukou-no-rettousei/",
+        "title": "Mahouka Koukou no Rettousei",
+        "samples": [
+          "https://jkanime.net/mahouka-koukou-no-rettousei/1/",
+          "https://jkanime.net/mahouka-koukou-no-rettousei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seikoku-no-dragonar/",
+        "title": "Seikoku no Dragonar",
+        "samples": [
+          "https://jkanime.net/seikoku-no-dragonar/1/",
+          "https://jkanime.net/seikoku-no-dragonar/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/captain-earth/",
+        "title": "Captain Earth",
+        "samples": [
+          "https://jkanime.net/captain-earth/1/",
+          "https://jkanime.net/captain-earth/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/abarenbou-kishi-matsutarou/",
+        "title": "Abarenbou Kishi!! Matsutarou",
+        "samples": [
+          "https://jkanime.net/abarenbou-kishi-matsutarou/1/",
+          "https://jkanime.net/abarenbou-kishi-matsutarou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fairy-tail-2014/",
+        "title": "Fairy Tail S2",
+        "samples": [
+          "https://jkanime.net/fairy-tail-2014/1/",
+          "https://jkanime.net/fairy-tail-2014/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokura-wa-minna-kawaisou/",
+        "title": "Bokura wa Minna Kawaisou",
+        "samples": [
+          "https://jkanime.net/bokura-wa-minna-kawaisou/1/",
+          "https://jkanime.net/bokura-wa-minna-kawaisou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushishi-zoku-shou/",
+        "title": "Mushishi Zoku Shou",
+        "samples": [
+          "https://jkanime.net/mushishi-zoku-shou/1/",
+          "https://jkanime.net/mushishi-zoku-shou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akuma-no-riddle/",
+        "title": "Akuma no Riddle",
+        "samples": [
+          "https://jkanime.net/akuma-no-riddle/1/",
+          "https://jkanime.net/akuma-no-riddle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/selector-infected-wixoss/",
+        "title": "Selector Infected WIXOSS",
+        "samples": [
+          "https://jkanime.net/selector-infected-wixoss/1/",
+          "https://jkanime.net/selector-infected-wixoss/10/"
         ]
       },
       {
@@ -36335,7 +36439,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -45842,7 +45946,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 19,
         "vidhide": 16,
@@ -78160,7 +78264,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mp4upload": 2
       },
@@ -83025,7 +83129,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -89302,7 +89406,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -104210,7 +104314,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104223,13 +104327,15 @@
     {
       "series": "https://jkanime.net/kenzen-robo-daimidaler/",
       "title": "Kenzen Robo Daimidaler",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104242,13 +104348,15 @@
     {
       "series": "https://jkanime.net/soredemo-sekai-wa-utsukushii/",
       "title": "Soredemo Sekai wa Utsukushii",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104261,13 +104369,15 @@
     {
       "series": "https://jkanime.net/kiniro-no-corda-bluesky/",
       "title": "Kiniro no Corda: Blue♪Sky",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104280,32 +104390,36 @@
     {
       "series": "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns/",
       "title": "Kindaichi Shounen no Jikenbo Returns",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 25,
+        "mega": 10,
         "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mahouka-koukou-no-rettousei/",
       "title": "Mahouka Koukou no Rettousei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -104318,13 +104432,15 @@
     {
       "series": "https://jkanime.net/seikoku-no-dragonar/",
       "title": "Seikoku no Dragonar",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104337,13 +104453,15 @@
     {
       "series": "https://jkanime.net/captain-earth/",
       "title": "Captain Earth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -104356,13 +104474,15 @@
     {
       "series": "https://jkanime.net/abarenbou-kishi-matsutarou/",
       "title": "Abarenbou Kishi!! Matsutarou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -104394,13 +104514,15 @@
     {
       "series": "https://jkanime.net/fairy-tail-2014/",
       "title": "Fairy Tail S2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 102,
       "stored": 102,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 102,
       "families": {
         "mega": 102,
         "streamwish": 102,
@@ -104413,13 +104535,15 @@
     {
       "series": "https://jkanime.net/bokura-wa-minna-kawaisou/",
       "title": "Bokura wa Minna Kawaisou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104432,13 +104556,15 @@
     {
       "series": "https://jkanime.net/mushishi-zoku-shou/",
       "title": "Mushishi Zoku Shou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -104451,13 +104577,15 @@
     {
       "series": "https://jkanime.net/akuma-no-riddle/",
       "title": "Akuma no Riddle",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104470,13 +104598,15 @@
     {
       "series": "https://jkanime.net/selector-infected-wixoss/",
       "title": "Selector Infected WIXOSS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -129535,7 +129665,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mega": 4,
         "streamwish": 4,
