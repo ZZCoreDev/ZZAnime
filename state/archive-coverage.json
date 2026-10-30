@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T08:02:29.851890+00:00",
+  "checkedAt": "2026-10-30T08:16:24.026477+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73560,
-  "storedChapters": 71745,
-  "missingChapters": 1815,
+  "observedChapters": 73561,
+  "storedChapters": 71747,
+  "missingChapters": 1814,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5197,6 +5197,13 @@
         "samples": [
           "https://jkanime.net/07-ghost/1/",
           "https://jkanime.net/07-ghost/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanasakeru-seishounen/",
+        "title": "Hanasakeru Seishounen",
+        "samples": [
+          "https://jkanime.net/hanasakeru-seishounen/40/"
         ]
       },
       {
@@ -34201,7 +34208,8 @@
         "series": "https://jkanime.net/taishou-yakyuu-musume/",
         "title": "Taishou Yakyuu Musume.",
         "samples": [
-          "https://jkanime.net/taishou-yakyuu-musume/3/"
+          "https://jkanime.net/taishou-yakyuu-musume/10/",
+          "https://jkanime.net/taishou-yakyuu-musume/11/"
         ]
       },
       {
@@ -34212,11 +34220,130 @@
         ]
       },
       {
+        "series": "https://jkanime.net/aoi-hana/",
+        "title": "Aoi Hana",
+        "samples": [
+          "https://jkanime.net/aoi-hana/1/",
+          "https://jkanime.net/aoi-hana/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fight-ippatsu-juuden-chan/",
+        "title": "Fight Ippatsu! Juuden-Chan!!",
+        "samples": [
+          "https://jkanime.net/fight-ippatsu-juuden-chan/1/",
+          "https://jkanime.net/fight-ippatsu-juuden-chan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-lost-canvas/",
+        "title": "Saint Seiya: The Lost Canvas",
+        "samples": [
+          "https://jkanime.net/saint-seiya-lost-canvas/1/",
+          "https://jkanime.net/saint-seiya-lost-canvas/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wei-survive/",
+        "title": "Weis Survive",
+        "samples": [
+          "https://jkanime.net/wei-survive/1/",
+          "https://jkanime.net/wei-survive/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/utawarerumono-ova/",
+        "title": "Utawarerumono OVA",
+        "samples": [
+          "https://jkanime.net/utawarerumono-ova/1/",
+          "https://jkanime.net/utawarerumono-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isekai-no-seikishi-monogatari/",
+        "title": "Isekai no Seikishi Monogatari",
+        "samples": [
+          "https://jkanime.net/isekai-no-seikishi-monogatari/1/",
+          "https://jkanime.net/isekai-no-seikishi-monogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/",
+        "title": "Suzumiya Haruhi no Yuuutsu (2009)",
+        "samples": [
+          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/1/",
+          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dogs-bullets-carnage/",
+        "title": "Dogs: Bullets & Carnage",
+        "samples": [
+          "https://jkanime.net/dogs-bullets-carnage/1/",
+          "https://jkanime.net/dogs-bullets-carnage/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hatsukoi-limited/",
+        "title": "Hatsukoi Limited",
+        "samples": [
+          "https://jkanime.net/hatsukoi-limited/1/",
+          "https://jkanime.net/hatsukoi-limited/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/higashi-no-eden/",
+        "title": "Higashi no Eden",
+        "samples": [
+          "https://jkanime.net/higashi-no-eden/1/",
+          "https://jkanime.net/higashi-no-eden/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
           "https://jkanime.net/07-ghost/1/",
           "https://jkanime.net/07-ghost/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cross-game/",
+        "title": "Cross Game",
+        "samples": [
+          "https://jkanime.net/cross-game/1/",
+          "https://jkanime.net/cross-game/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsu-no-arashi/",
+        "title": "Natsu no Arashi!",
+        "samples": [
+          "https://jkanime.net/natsu-no-arashi/1/",
+          "https://jkanime.net/natsu-no-arashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shangri-la/",
+        "title": "Shangri-La",
+        "samples": [
+          "https://jkanime.net/shangri-la/1/",
+          "https://jkanime.net/shangri-la/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanasakeru-seishounen/",
+        "title": "Hanasakeru Seishounen",
+        "samples": [
+          "https://jkanime.net/hanasakeru-seishounen/40/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-kai/",
+        "title": "Dragon Ball Kai",
+        "samples": [
+          "https://jkanime.net/dragon-ball-kai/1/",
+          "https://jkanime.net/dragon-ball-kai/10/"
         ]
       },
       {
@@ -64708,7 +64835,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 25,
+      "stored": 26,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -64722,7 +64849,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/37/",
         "https://jkanime.net/bleach-sennen-kessen-hen/38/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
@@ -64742,7 +64868,7 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 24,
+        "vidhide": 25,
         "streamtape": 13,
         "mp4upload": 13,
         "mixdrop": 4
@@ -82546,7 +82672,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -82559,7 +82685,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/25/",
         "https://jkanime.net/fight-league-gear-gadget-generators/26/",
         "https://jkanime.net/fight-league-gear-gadget-generators/3/",
         "https://jkanime.net/fight-league-gear-gadget-generators/4/",
@@ -82573,7 +82698,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 6
+        "mp4upload": 7
       },
       "playbackVerified": false
     },
@@ -125366,7 +125491,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 10,
       "families": {
         "mp4upload": 12,
         "mega": 10,
@@ -125398,13 +125523,15 @@
     {
       "series": "https://jkanime.net/aoi-hana/",
       "title": "Aoi Hana",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -125417,32 +125544,36 @@
     {
       "series": "https://jkanime.net/fight-ippatsu-juuden-chan/",
       "title": "Fight Ippatsu! Juuden-Chan!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/saint-seiya-lost-canvas/",
       "title": "Saint Seiya: The Lost Canvas",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 22,
         "streamwish": 26,
@@ -125455,13 +125586,15 @@
     {
       "series": "https://jkanime.net/wei-survive/",
       "title": "Weis Survive",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 16,
       "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 16,
         "streamwish": 16,
@@ -125474,13 +125607,15 @@
     {
       "series": "https://jkanime.net/utawarerumono-ova/",
       "title": "Utawarerumono OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -125493,13 +125628,15 @@
     {
       "series": "https://jkanime.net/isekai-no-seikishi-monogatari/",
       "title": "Isekai no Seikishi Monogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -125513,13 +125650,15 @@
     {
       "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/",
       "title": "Suzumiya Haruhi no Yuuutsu (2009)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -125532,13 +125671,15 @@
     {
       "series": "https://jkanime.net/dogs-bullets-carnage/",
       "title": "Dogs: Bullets & Carnage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -125551,13 +125692,15 @@
     {
       "series": "https://jkanime.net/hatsukoi-limited/",
       "title": "Hatsukoi Limited",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -125570,13 +125713,15 @@
     {
       "series": "https://jkanime.net/higashi-no-eden/",
       "title": "Higashi no Eden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -125631,13 +125776,15 @@
     {
       "series": "https://jkanime.net/cross-game/",
       "title": "Cross Game",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -125650,13 +125797,15 @@
     {
       "series": "https://jkanime.net/natsu-no-arashi/",
       "title": "Natsu no Arashi!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -125669,52 +125818,61 @@
     {
       "series": "https://jkanime.net/shangri-la/",
       "title": "Shangri-La",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 24,
+        "mega": 6,
         "streamwish": 24,
-        "vidhide": 24,
-        "mp4upload": 24,
-        "streamtape": 24
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hanasakeru-seishounen/",
       "title": "Hanasakeru Seishounen",
-      "causes": [],
-      "observed": 39,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 40,
       "stored": 39,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hanasakeru-seishounen/40/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 38,
       "families": {
-        "mega": 39,
+        "mega": 38,
         "streamwish": 39,
         "vidhide": 39,
-        "mixdrop": 39,
+        "mixdrop": 38,
         "mp4upload": 39,
-        "streamtape": 39
+        "streamtape": 38
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/dragon-ball-kai/",
       "title": "Dragon Ball Kai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 97,
       "stored": 97,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 43,
       "families": {
         "mega": 97,
         "streamwish": 97,
