@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T17:49:45.727944+00:00",
+  "checkedAt": "2026-10-30T18:03:52.369364+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73663,
-  "storedChapters": 71869,
-  "missingChapters": 1794,
+  "storedChapters": 71872,
+  "missingChapters": 1791,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/32/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/33/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/46/",
-          "https://jkanime.net/tsubasa-chronicle/47/"
+          "https://jkanime.net/tsubasa-chronicle/47/",
+          "https://jkanime.net/tsubasa-chronicle/48/"
         ]
       },
       {
@@ -5712,8 +5712,7 @@
         "series": "https://jkanime.net/hack-sign/",
         "title": ".hack//Sign",
         "samples": [
-          "https://jkanime.net/hack-sign/27/",
-          "https://jkanime.net/hack-sign/28/"
+          "https://jkanime.net/hack-sign/27/"
         ]
       },
       {
@@ -10736,7 +10735,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/32/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/33/"
         ]
       },
       {
@@ -36745,8 +36744,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/46/",
-          "https://jkanime.net/tsubasa-chronicle/47/"
+          "https://jkanime.net/tsubasa-chronicle/47/",
+          "https://jkanime.net/tsubasa-chronicle/48/"
         ]
       },
       {
@@ -38353,8 +38352,7 @@
         "series": "https://jkanime.net/hack-sign/",
         "title": ".hack//Sign",
         "samples": [
-          "https://jkanime.net/hack-sign/27/",
-          "https://jkanime.net/hack-sign/28/"
+          "https://jkanime.net/hack-sign/27/"
         ]
       },
       {
@@ -38488,7 +38486,15 @@
         "title": "Bakuten Shoot Beyblade 2002",
         "samples": [
           "https://jkanime.net/bakuten-shoot-beyblade-2002/1/",
-          "https://jkanime.net/bakuten-shoot-beyblade-2002/2/"
+          "https://jkanime.net/bakuten-shoot-beyblade-2002/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/honoo-no-mirage/",
+        "title": "Honoo no Mirage",
+        "samples": [
+          "https://jkanime.net/honoo-no-mirage/1/",
+          "https://jkanime.net/honoo-no-mirage/10/"
         ]
       },
       {
@@ -38496,6 +38502,38 @@
         "title": "InuYasha Movie 1: Toki wo Koeru Omoi",
         "samples": [
           "https://jkanime.net/inuyasha-movie-1-toki-wo-koeru-omoi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rurouni-kenshin-seisouhen/",
+        "title": "Rurouni Kenshin: Seisouhen",
+        "samples": [
+          "https://jkanime.net/rurouni-kenshin-seisouhen/1/",
+          "https://jkanime.net/rurouni-kenshin-seisouhen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/groove-adventure-rave/",
+        "title": "Groove Adventure Rave",
+        "samples": [
+          "https://jkanime.net/groove-adventure-rave/1/",
+          "https://jkanime.net/groove-adventure-rave/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hellsing/",
+        "title": "Hellsing",
+        "samples": [
+          "https://jkanime.net/hellsing/1/",
+          "https://jkanime.net/hellsing/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prince-of-tennis/",
+        "title": "Prince of Tennis",
+        "samples": [
+          "https://jkanime.net/prince-of-tennis/1/",
+          "https://jkanime.net/prince-of-tennis/10/"
         ]
       },
       {
@@ -61917,10 +61955,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 30,
+      "stored": 31,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/32/",
         "https://jkanime.net/kusuriya-no-hitorigoto/33/",
         "https://jkanime.net/kusuriya-no-hitorigoto/34/",
         "https://jkanime.net/kusuriya-no-hitorigoto/35/",
@@ -61950,7 +61987,7 @@
         "mega": 23,
         "streamwish": 27,
         "vidhide": 23,
-        "mp4upload": 29,
+        "mp4upload": 30,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -74457,7 +74494,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mp4upload": 20,
         "mega": 7,
@@ -136113,9 +136150,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 45,
+      "stored": 46,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/46/",
         "https://jkanime.net/tsubasa-chronicle/47/",
         "https://jkanime.net/tsubasa-chronicle/48/",
         "https://jkanime.net/tsubasa-chronicle/49/",
@@ -136127,9 +136163,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 46,
-        "streamwish": 45,
-        "vidhide": 46,
+        "mp4upload": 47,
+        "streamwish": 46,
+        "vidhide": 47,
         "mega": 1,
         "streamtape": 1
       },
@@ -140575,10 +140611,9 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 26,
+      "stored": 27,
       "missing": [
-        "https://jkanime.net/hack-sign/27/",
-        "https://jkanime.net/hack-sign/28/"
+        "https://jkanime.net/hack-sign/27/"
       ],
       "expired": [],
       "noIndependent": [],
@@ -140587,7 +140622,7 @@
         "mega": 10,
         "streamwish": 10,
         "vidhide": 10,
-        "mp4upload": 26,
+        "mp4upload": 27,
         "streamtape": 10
       },
       "playbackVerified": false
@@ -140944,7 +140979,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -140958,13 +140993,15 @@
     {
       "series": "https://jkanime.net/honoo-no-mirage/",
       "title": "Honoo no Mirage",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -140997,13 +141034,15 @@
     {
       "series": "https://jkanime.net/rurouni-kenshin-seisouhen/",
       "title": "Rurouni Kenshin: Seisouhen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -141016,32 +141055,36 @@
     {
       "series": "https://jkanime.net/groove-adventure-rave/",
       "title": "Groove Adventure Rave",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 42,
       "families": {
-        "mega": 50,
-        "streamwish": 51,
-        "vidhide": 51,
+        "mega": 42,
+        "streamwish": 42,
+        "vidhide": 42,
         "mp4upload": 51,
-        "streamtape": 51
+        "streamtape": 42
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hellsing/",
       "title": "Hellsing",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -141054,13 +141097,15 @@
     {
       "series": "https://jkanime.net/prince-of-tennis/",
       "title": "Prince of Tennis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 178,
       "stored": 178,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 176,
       "families": {
         "mega": 178,
         "streamwish": 178,
