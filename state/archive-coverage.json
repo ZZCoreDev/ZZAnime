@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T05:09:41.411034+00:00",
+  "checkedAt": "2026-10-30T05:22:43.092797+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73541,
-  "storedChapters": 71731,
+  "observedChapters": 73544,
+  "storedChapters": 71734,
   "missingChapters": 1810,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -2309,7 +2309,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/4/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/"
         ]
       },
       {
@@ -2616,7 +2616,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/11/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/"
         ]
       },
       {
@@ -4835,6 +4835,21 @@
         "title": "Coquelicot-zaka kara",
         "samples": [
           "https://jkanime.net/coquelicot-zaka-kara/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuru-yuri/",
+        "title": "Yuru Yuri",
+        "samples": [
+          "https://jkanime.net/yuru-yuri/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/",
+        "title": "Nurarihyon no Mago: Sennen Makyou",
+        "samples": [
+          "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/25/",
+          "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/26/"
         ]
       },
       {
@@ -22955,7 +22970,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/4/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/"
         ]
       },
       {
@@ -24363,7 +24378,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/11/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/"
         ]
       },
       {
@@ -32364,7 +32379,15 @@
         "title": "Shinryaku!? Ika Musume 2",
         "samples": [
           "https://jkanime.net/shinryaku-ika-musume-2/1/",
-          "https://jkanime.net/shinryaku-ika-musume-2/3/"
+          "https://jkanime.net/shinryaku-ika-musume-2/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekaiichi-hatsukoi-2/",
+        "title": "Sekaiichi Hatsukoi 2",
+        "samples": [
+          "https://jkanime.net/sekaiichi-hatsukoi-2/1/",
+          "https://jkanime.net/sekaiichi-hatsukoi-2/10/"
         ]
       },
       {
@@ -32372,6 +32395,13 @@
         "title": "Boku wa Tomodachi ga Sukunai Episode 0",
         "samples": [
           "https://jkanime.net/boku-wa-tomodachi-ga-sukunai-episode-0/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/busou-shinki-moon-angel/",
+        "title": "Busou Shinki Moon Angel",
+        "samples": [
+          "https://jkanime.net/busou-shinki-moon-angel/1/"
         ]
       },
       {
@@ -32403,6 +32433,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/carnival-phantasm/",
+        "title": "Carnival Phantasm",
+        "samples": [
+          "https://jkanime.net/carnival-phantasm/1/",
+          "https://jkanime.net/carnival-phantasm/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-kai-special/",
         "title": "Dragon Ball Kai Special",
         "samples": [
@@ -32417,10 +32455,161 @@
         ]
       },
       {
+        "series": "https://jkanime.net/higurashi-no-naku-koro-ni-kira/",
+        "title": "Higurashi no Naku Koro ni Kira",
+        "samples": [
+          "https://jkanime.net/higurashi-no-naku-koro-ni-kira/1/",
+          "https://jkanime.net/higurashi-no-naku-koro-ni-kira/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/coquelicot-zaka-kara/",
         "title": "Coquelicot-zaka kara",
         "samples": [
           "https://jkanime.net/coquelicot-zaka-kara/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dantalian-no-shoka/",
+        "title": "Dantalian no Shoka",
+        "samples": [
+          "https://jkanime.net/dantalian-no-shoka/1/",
+          "https://jkanime.net/dantalian-no-shoka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/manyuu-hikenchou/",
+        "title": "Manyuu Hikenchou",
+        "samples": [
+          "https://jkanime.net/manyuu-hikenchou/1/",
+          "https://jkanime.net/manyuu-hikenchou/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/r-15/",
+        "title": "R-15",
+        "samples": [
+          "https://jkanime.net/r-15/1/",
+          "https://jkanime.net/r-15/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/itsuka-tenma-no-kuro-usagi/",
+        "title": "Itsuka Tenma no Kuro Usagi",
+        "samples": [
+          "https://jkanime.net/itsuka-tenma-no-kuro-usagi/1/",
+          "https://jkanime.net/itsuka-tenma-no-kuro-usagi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-idolmaster/",
+        "title": "The iDOLM@STER",
+        "samples": [
+          "https://jkanime.net/the-idolmaster/1/",
+          "https://jkanime.net/the-idolmaster/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-ni/",
+        "title": "Baka to Test to Shoukanjuu Ni!",
+        "samples": [
+          "https://jkanime.net/baka-to-test-to-shoukanjuu-ni/10/",
+          "https://jkanime.net/baka-to-test-to-shoukanjuu-ni/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/usagi-drop/",
+        "title": "Usagi Drop",
+        "samples": [
+          "https://jkanime.net/usagi-drop/1/",
+          "https://jkanime.net/usagi-drop/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/no-6/",
+        "title": "No.6",
+        "samples": [
+          "https://jkanime.net/no-6/1/",
+          "https://jkanime.net/no-6/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mayo-chiki/",
+        "title": "Mayo Chiki!",
+        "samples": [
+          "https://jkanime.net/mayo-chiki/1/",
+          "https://jkanime.net/mayo-chiki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mawaru-penguindrum/",
+        "title": "Mawaru Penguindrum",
+        "samples": [
+          "https://jkanime.net/mawaru-penguindrum/1/",
+          "https://jkanime.net/mawaru-penguindrum/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuru-yuri/",
+        "title": "Yuru Yuri",
+        "samples": [
+          "https://jkanime.net/yuru-yuri/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaitou-tenshi-twin-angel-kyun-kyuntokimeki-paradise/",
+        "title": "Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!!",
+        "samples": [
+          "https://jkanime.net/kaitou-tenshi-twin-angel-kyun-kyuntokimeki-paradise/1/",
+          "https://jkanime.net/kaitou-tenshi-twin-angel-kyun-kyuntokimeki-paradise/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/natsume-yuujinchou-san/",
+        "title": "Natsume Yuujinchou San",
+        "samples": [
+          "https://jkanime.net/natsume-yuujinchou-san/10/",
+          "https://jkanime.net/natsume-yuujinchou-san/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uta-noprince-sama-maji-love-1000/",
+        "title": "Uta no Prince-sama Maji Love 1000",
+        "samples": [
+          "https://jkanime.net/uta-noprince-sama-maji-love-1000/1/",
+          "https://jkanime.net/uta-noprince-sama-maji-love-1000/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/",
+        "title": "Nurarihyon no Mago: Sennen Makyou",
+        "samples": [
+          "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/25/",
+          "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/26/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/last-exile-ginyoku-no-fam/",
+        "title": "Last Exile: Ginyoku no Fam",
+        "samples": [
+          "https://jkanime.net/last-exile-ginyoku-no-fam/1/",
+          "https://jkanime.net/last-exile-ginyoku-no-fam/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-no-memochou/",
+        "title": "Kamisama no Memochou",
+        "samples": [
+          "https://jkanime.net/kamisama-no-memochou/1/",
+          "https://jkanime.net/kamisama-no-memochou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ro-kyu-bu/",
+        "title": "Ro-Kyu-Bu!",
+        "samples": [
+          "https://jkanime.net/ro-kyu-bu/1/",
+          "https://jkanime.net/ro-kyu-bu/2/"
         ]
       },
       {
@@ -63245,7 +63434,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 21,
+      "stored": 22,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -63259,7 +63448,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/33/",
         "https://jkanime.net/bleach-sennen-kessen-hen/34/",
         "https://jkanime.net/bleach-sennen-kessen-hen/35/",
         "https://jkanime.net/bleach-sennen-kessen-hen/36/",
@@ -63285,7 +63473,7 @@
         "streamwish": 15,
         "vidhide": 21,
         "streamtape": 13,
-        "mp4upload": 10,
+        "mp4upload": 11,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -68034,7 +68222,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -68857,7 +69045,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -90602,7 +90790,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -92212,10 +92400,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/4/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
@@ -92226,7 +92413,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 5
+        "streamwish": 6
       },
       "playbackVerified": false
     },
@@ -92395,7 +92582,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -96195,10 +96382,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/11/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/3/",
@@ -96213,7 +96399,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 1
+        "streamwish": 2
       },
       "playbackVerified": false
     },
@@ -118758,26 +118944,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 10,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
         "mp4upload": 12,
-        "streamtape": 11
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sekaiichi-hatsukoi-2/",
       "title": "Sekaiichi Hatsukoi 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -118824,13 +119012,15 @@
     {
       "series": "https://jkanime.net/busou-shinki-moon-angel/",
       "title": "Busou Shinki Moon Angel",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -118938,13 +119128,15 @@
     {
       "series": "https://jkanime.net/carnival-phantasm/",
       "title": "Carnival Phantasm",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -118995,13 +119187,15 @@
     {
       "series": "https://jkanime.net/higurashi-no-naku-koro-ni-kira/",
       "title": "Higurashi no Naku Koro ni Kira",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -119033,13 +119227,15 @@
     {
       "series": "https://jkanime.net/dantalian-no-shoka/",
       "title": "Dantalian no Shoka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119052,32 +119248,36 @@
     {
       "series": "https://jkanime.net/manyuu-hikenchou/",
       "title": "Manyuu Hikenchou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/r-15/",
       "title": "R-15",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119091,13 +119291,15 @@
     {
       "series": "https://jkanime.net/itsuka-tenma-no-kuro-usagi/",
       "title": "Itsuka Tenma no Kuro Usagi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119111,13 +119313,15 @@
     {
       "series": "https://jkanime.net/the-idolmaster/",
       "title": "The iDOLM@STER",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -119130,32 +119334,36 @@
     {
       "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-ni/",
       "title": "Baka to Test to Shoukanjuu Ni!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 9,
+        "streamwish": 9,
+        "vidhide": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/usagi-drop/",
       "title": "Usagi Drop",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -119168,13 +119376,15 @@
     {
       "series": "https://jkanime.net/no-6/",
       "title": "No.6",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -119188,13 +119398,15 @@
     {
       "series": "https://jkanime.net/mayo-chiki/",
       "title": "Mayo Chiki!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119207,13 +119419,15 @@
     {
       "series": "https://jkanime.net/mawaru-penguindrum/",
       "title": "Mawaru Penguindrum",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -119227,32 +119441,39 @@
     {
       "series": "https://jkanime.net/yuru-yuri/",
       "title": "Yuru Yuri",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 13,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/yuru-yuri/13/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kaitou-tenshi-twin-angel-kyun-kyuntokimeki-paradise/",
       "title": "Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -119265,33 +119486,37 @@
     {
       "series": "https://jkanime.net/natsume-yuujinchou-san/",
       "title": "Natsume Yuujinchou San",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
         "mp4upload": 13,
-        "streamtape": 13
+        "mega": 12,
+        "streamwish": 12,
+        "vidhide": 12,
+        "mixdrop": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/uta-noprince-sama-maji-love-1000/",
       "title": "Uta no Prince-sama Maji Love 1000",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119304,32 +119529,40 @@
     {
       "series": "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/",
       "title": "Nurarihyon no Mago: Sennen Makyou",
-      "causes": [],
-      "observed": 24,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 26,
       "stored": 24,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/25/",
+        "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/26/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 24,
-        "streamwish": 24,
-        "vidhide": 24,
         "mp4upload": 24,
-        "streamtape": 24
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/last-exile-ginyoku-no-fam/",
       "title": "Last Exile: Ginyoku no Fam",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -119342,13 +119575,15 @@
     {
       "series": "https://jkanime.net/kamisama-no-memochou/",
       "title": "Kamisama no Memochou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119376,13 +119611,15 @@
     {
       "series": "https://jkanime.net/ro-kyu-bu/",
       "title": "Ro-Kyu-Bu!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 12,
         "streamwish": 12,
