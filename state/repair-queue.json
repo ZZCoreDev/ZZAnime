@@ -1,6 +1,6 @@
 {
   "observed-chapters-without-options": {
-    "series": 882,
+    "series": 874,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -15,14 +15,14 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/1/",
-          "https://jkanime.net/megalo-box/10/"
+          "https://jkanime.net/megalo-box/10/",
+          "https://jkanime.net/megalo-box/11/"
         ]
       }
     ]
   },
   "renewal-error": {
-    "series": 4359,
+    "series": 4352,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -37,14 +37,14 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/1/",
-          "https://jkanime.net/megalo-box/10/"
+          "https://jkanime.net/megalo-box/10/",
+          "https://jkanime.net/megalo-box/11/"
         ]
       }
     ]
   },
   "retained-redirect": {
-    "series": 718,
+    "series": 711,
     "twoSeriesProofRequired": true,
     "samples": [
       {

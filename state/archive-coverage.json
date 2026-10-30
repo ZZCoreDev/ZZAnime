@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T21:45:13.391665+00:00",
+  "checkedAt": "2026-10-30T21:56:10.318184+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73714,
-  "storedChapters": 71906,
-  "missingChapters": 1808,
+  "storedChapters": 71923,
+  "missingChapters": 1791,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -24,8 +24,8 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/1/",
-          "https://jkanime.net/megalo-box/10/"
+          "https://jkanime.net/megalo-box/10/",
+          "https://jkanime.net/megalo-box/11/"
         ]
       },
       {
@@ -1837,13 +1837,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/non-non-biyori-movie-vacation/",
-        "title": "Non Non Biyori Movie: Vacation",
-        "samples": [
-          "https://jkanime.net/non-non-biyori-movie-vacation/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/aragne-no-mushikago/",
         "title": "Aragne no Mushikago",
         "samples": [
@@ -2034,13 +2027,6 @@
         "title": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?",
         "samples": [
           "https://jkanime.net/uchiage-hanabi-shita-kara-miru-ka-yoko-kara-miru-ka/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/no-game-no-life-zero/",
-        "title": "No Game No Life: Zero",
-        "samples": [
-          "https://jkanime.net/no-game-no-life-zero/1/"
         ]
       },
       {
@@ -4349,13 +4335,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nerawareta-gakuen/",
-        "title": "Nerawareta Gakuen",
-        "samples": [
-          "https://jkanime.net/nerawareta-gakuen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mahou-shoujo-madokamagica-movie-2-eien-no-monogatari/",
         "title": "Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari",
         "samples": [
@@ -4395,13 +4374,6 @@
         "title": "Asura",
         "samples": [
           "https://jkanime.net/asura/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
-        "title": "Mardock Scramble: The Third Exhaust",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
         ]
       },
       {
@@ -4744,13 +4716,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
-        "title": "Mardock Scramble: The Second Combustion",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/hotarubi-no-mori-e/",
         "title": "Hotarubi no Mori e",
         "samples": [
@@ -4896,13 +4861,6 @@
         "title": "Heartcatch Precure! Movie: Hana no Miyako de Fashion Show... desu ka!?",
         "samples": [
           "https://jkanime.net/heartcatch-precure-movie-hana-no-miyako-de-fashion-show-desu-ka/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
-        "title": "Mardock Scramble: The First Compression",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-first-compression/1/"
         ]
       },
       {
@@ -5856,13 +5814,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
-        "title": "Neon Genesis Evangelion: The End of Evangelion",
-        "samples": [
-          "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mononoke-hime/",
         "title": "Mononoke Hime",
         "samples": [
@@ -5908,8 +5859,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/13/",
-          "https://jkanime.net/taiho-shichau-zo/14/"
+          "https://jkanime.net/taiho-shichau-zo/14/",
+          "https://jkanime.net/taiho-shichau-zo/15/"
         ]
       },
       {
@@ -6230,13 +6181,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hotaru-no-yomeiri/",
-        "title": "Hotaru no Yomeiri",
-        "samples": [
-          "https://jkanime.net/hotaru-no-yomeiri/4/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/toaru-anbu-no-item/",
         "title": "Toaru Anbu no Item",
         "samples": [
@@ -6299,8 +6243,8 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/1/",
-          "https://jkanime.net/megalo-box/10/"
+          "https://jkanime.net/megalo-box/10/",
+          "https://jkanime.net/megalo-box/11/"
         ]
       },
       {
@@ -20001,13 +19945,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/non-non-biyori-movie-vacation/",
-        "title": "Non Non Biyori Movie: Vacation",
-        "samples": [
-          "https://jkanime.net/non-non-biyori-movie-vacation/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/chiisana-eiyuu-kani-to-tamago-to-toumei-ningen/",
         "title": "Chiisana Eiyuu: Kani to Tamago to Toumei Ningen",
         "samples": [
@@ -21604,13 +21541,6 @@
         "samples": [
           "https://jkanime.net/owarimonogatari-2nd-season/1/",
           "https://jkanime.net/owarimonogatari-2nd-season/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/no-game-no-life-zero/",
-        "title": "No Game No Life: Zero",
-        "samples": [
-          "https://jkanime.net/no-game-no-life-zero/1/"
         ]
       },
       {
@@ -30976,13 +30906,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nerawareta-gakuen/",
-        "title": "Nerawareta Gakuen",
-        "samples": [
-          "https://jkanime.net/nerawareta-gakuen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kami-nomi-zo-shiru-sekai-tenri-hen/",
         "title": "Kami nomi zo Shiru Sekai: Tenri-hen",
         "samples": [
@@ -31230,13 +31153,6 @@
         "title": "Asura",
         "samples": [
           "https://jkanime.net/asura/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
-        "title": "Mardock Scramble: The Third Exhaust",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
         ]
       },
       {
@@ -32456,13 +32372,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
-        "title": "Mardock Scramble: The Second Combustion",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/hotarubi-no-mori-e/",
         "title": "Hotarubi no Mori e",
         "samples": [
@@ -33151,13 +33060,6 @@
         "samples": [
           "https://jkanime.net/yozakura-quartet-hoshi-no-umi/1/",
           "https://jkanime.net/yozakura-quartet-hoshi-no-umi/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
-        "title": "Mardock Scramble: The First Compression",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-first-compression/1/"
         ]
       },
       {
@@ -39286,13 +39188,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
-        "title": "Neon Genesis Evangelion: The End of Evangelion",
-        "samples": [
-          "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mononoke-hime/",
         "title": "Mononoke Hime",
         "samples": [
@@ -39570,8 +39465,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/13/",
-          "https://jkanime.net/taiho-shichau-zo/14/"
+          "https://jkanime.net/taiho-shichau-zo/14/",
+          "https://jkanime.net/taiho-shichau-zo/15/"
         ]
       },
       {
@@ -39923,6 +39818,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ranma-/",
+        "title": "Ranma ½",
+        "samples": [
+          "https://jkanime.net/ranma-/1/",
+          "https://jkanime.net/ranma-/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/midnight-eye-gokuu/",
         "title": "Midnight Eye: Gokuu",
         "samples": [
@@ -40062,13 +39965,6 @@
         "title": "Diamond no Ace: Act II Second Season Part 2",
         "samples": [
           "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/hotaru-no-yomeiri/",
-        "title": "Hotaru no Yomeiri",
-        "samples": [
-          "https://jkanime.net/hotaru-no-yomeiri/4/"
         ]
       },
       {
@@ -41619,13 +41515,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/non-non-biyori-movie-vacation/",
-        "title": "Non Non Biyori Movie: Vacation",
-        "samples": [
-          "https://jkanime.net/non-non-biyori-movie-vacation/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/aragne-no-mushikago/",
         "title": "Aragne no Mushikago",
         "samples": [
@@ -41777,13 +41666,6 @@
         "title": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?",
         "samples": [
           "https://jkanime.net/uchiage-hanabi-shita-kara-miru-ka-yoko-kara-miru-ka/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/no-game-no-life-zero/",
-        "title": "No Game No Life: Zero",
-        "samples": [
-          "https://jkanime.net/no-game-no-life-zero/1/"
         ]
       },
       {
@@ -43642,13 +43524,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nerawareta-gakuen/",
-        "title": "Nerawareta Gakuen",
-        "samples": [
-          "https://jkanime.net/nerawareta-gakuen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mahou-shoujo-madokamagica-movie-2-eien-no-monogatari/",
         "title": "Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari",
         "samples": [
@@ -43681,13 +43556,6 @@
         "title": "Asura",
         "samples": [
           "https://jkanime.net/asura/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
-        "title": "Mardock Scramble: The Third Exhaust",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
         ]
       },
       {
@@ -43992,13 +43860,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
-        "title": "Mardock Scramble: The Second Combustion",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/hotarubi-no-mori-e/",
         "title": "Hotarubi no Mori e",
         "samples": [
@@ -44115,13 +43976,6 @@
         "title": "Heartcatch Precure! Movie: Hana no Miyako de Fashion Show... desu ka!?",
         "samples": [
           "https://jkanime.net/heartcatch-precure-movie-hana-no-miyako-de-fashion-show-desu-ka/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
-        "title": "Mardock Scramble: The First Compression",
-        "samples": [
-          "https://jkanime.net/mardock-scramble-the-first-compression/1/"
         ]
       },
       {
@@ -44916,13 +44770,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
-        "title": "Neon Genesis Evangelion: The End of Evangelion",
-        "samples": [
-          "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mononoke-hime/",
         "title": "Mononoke Hime",
         "samples": [
@@ -45526,7 +45373,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
@@ -45546,16 +45393,15 @@
         "https://jkanime.net/ao-ashi/3/",
         "https://jkanime.net/ao-ashi/4/",
         "https://jkanime.net/ao-ashi/5/",
-        "https://jkanime.net/ao-ashi/6/",
         "https://jkanime.net/ao-ashi/7/",
         "https://jkanime.net/ao-ashi/8/",
         "https://jkanime.net/ao-ashi/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
-        "mega": 1,
+        "mega": 2,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -45569,9 +45415,8 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/megalo-box/1/",
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
@@ -45586,9 +45431,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -62956,11 +62801,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 43,
+      "stored": 44,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/46/",
         "https://jkanime.net/kusuriya-no-hitorigoto/47/",
         "https://jkanime.net/kusuriya-no-hitorigoto/48/",
         "https://jkanime.net/kusuriya-no-hitorigoto/49/",
@@ -62974,9 +62818,9 @@
       "renewalFailed": 26,
       "families": {
         "mega": 23,
-        "streamwish": 35,
-        "vidhide": 28,
-        "mp4upload": 40,
+        "streamwish": 36,
+        "vidhide": 29,
+        "mp4upload": 41,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -67865,12 +67709,11 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/hikari-no-ou/11/",
         "https://jkanime.net/hikari-no-ou/12/",
         "https://jkanime.net/hikari-no-ou/13/",
-        "https://jkanime.net/hikari-no-ou/14/",
         "https://jkanime.net/hikari-no-ou/15/",
         "https://jkanime.net/hikari-no-ou/16/",
         "https://jkanime.net/hikari-no-ou/17/",
@@ -67880,9 +67723,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
-        "mega": 9,
+        "mega": 10,
         "streamwish": 9,
         "vidhide": 9,
         "mp4upload": 10,
@@ -75098,11 +74941,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
-        "https://jkanime.net/kyoukai-senki/16/",
         "https://jkanime.net/kyoukai-senki/17/",
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/",
@@ -75114,9 +74956,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
-        "mega": 12,
+        "mega": 13,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -89600,20 +89442,16 @@
     {
       "series": "https://jkanime.net/non-non-biyori-movie-vacation/",
       "title": "Non Non Biyori Movie: Vacation",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/non-non-biyori-movie-vacation/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -94298,20 +94136,16 @@
     {
       "series": "https://jkanime.net/no-game-no-life-zero/",
       "title": "No Game No Life: Zero",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/no-game-no-life-zero/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -94766,7 +94600,7 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/18if/1/",
         "https://jkanime.net/18if/10/",
@@ -94778,14 +94612,13 @@
         "https://jkanime.net/18if/4/",
         "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/6/",
-        "https://jkanime.net/18if/8/",
         "https://jkanime.net/18if/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -102419,7 +102252,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/",
@@ -102427,14 +102260,14 @@
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/4/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/5/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/6/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/7/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/8/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "streamwish": 4
+        "streamwish": 4,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -120901,20 +120734,16 @@
     {
       "series": "https://jkanime.net/nerawareta-gakuen/",
       "title": "Nerawareta Gakuen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/nerawareta-gakuen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -121640,20 +121469,16 @@
     {
       "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
       "title": "Mardock Scramble: The Third Exhaust",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -125073,20 +124898,16 @@
     {
       "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
       "title": "Mardock Scramble: The Second Combustion",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -127057,20 +126878,16 @@
     {
       "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
       "title": "Mardock Scramble: The First Compression",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mardock-scramble-the-first-compression/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -130371,7 +130188,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -130383,7 +130200,6 @@
         "https://jkanime.net/07-ghost/16/",
         "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/18/",
-        "https://jkanime.net/07-ghost/2/",
         "https://jkanime.net/07-ghost/20/",
         "https://jkanime.net/07-ghost/21/",
         "https://jkanime.net/07-ghost/22/",
@@ -130400,9 +130216,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -144239,20 +144055,16 @@
     {
       "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
       "title": "Neon Genesis Evangelion: The End of Evangelion",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -145090,9 +144902,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/13/",
         "https://jkanime.net/taiho-shichau-zo/14/",
         "https://jkanime.net/taiho-shichau-zo/15/",
         "https://jkanime.net/taiho-shichau-zo/16/",
@@ -145145,7 +144956,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 6,
+        "mp4upload": 7,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -146128,7 +145939,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 89,
+      "renewalFailed": 291,
       "families": {
         "mega": 289,
         "streamwish": 291,
@@ -146141,13 +145952,15 @@
     {
       "series": "https://jkanime.net/ranma-/",
       "title": "Ranma ½",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 161,
       "stored": 161,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 98,
       "families": {
         "mega": 161,
         "streamwish": 161,
@@ -147312,20 +147125,15 @@
     {
       "series": "https://jkanime.net/hotaru-no-yomeiri/",
       "title": "Hotaru no Yomeiri",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 4,
-      "stored": 3,
-      "missing": [
-        "https://jkanime.net/hotaru-no-yomeiri/4/"
-      ],
+      "stored": 4,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 3,
+        "mega": 4,
         "streamwish": 3,
         "vidhide": 3,
         "mixdrop": 3,
