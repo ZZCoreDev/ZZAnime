@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T10:02:37.086652+00:00",
+  "checkedAt": "2026-10-30T10:11:44.269880+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73566,
-  "storedChapters": 71771,
-  "missingChapters": 1795,
+  "storedChapters": 71775,
+  "missingChapters": 1791,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -389,13 +389,6 @@
         "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
         "samples": [
           "https://jkanime.net/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta/7/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/momentary-lily/",
-        "title": "Momentary Lily",
-        "samples": [
-          "https://jkanime.net/momentary-lily/14/"
         ]
       },
       {
@@ -5257,13 +5250,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kamen-no-maid-guy/",
-        "title": "Kamen no Maid Guy",
-        "samples": [
-          "https://jkanime.net/kamen-no-maid-guy/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/hack-g-u-trilogy/",
         "title": ".hack//G.U. Trilogy",
         "samples": [
@@ -8258,13 +8244,6 @@
         "title": "BanG Dream! Ave Mujica",
         "samples": [
           "https://jkanime.net/bang-dream-ave-mujica/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/momentary-lily/",
-        "title": "Momentary Lily",
-        "samples": [
-          "https://jkanime.net/momentary-lily/14/"
         ]
       },
       {
@@ -35062,7 +35041,8 @@
         "series": "https://jkanime.net/kamen-no-maid-guy/",
         "title": "Kamen no Maid Guy",
         "samples": [
-          "https://jkanime.net/kamen-no-maid-guy/13/"
+          "https://jkanime.net/kamen-no-maid-guy/1/",
+          "https://jkanime.net/kamen-no-maid-guy/10/"
         ]
       },
       {
@@ -35110,7 +35090,15 @@
         "title": "Macross Frontier",
         "samples": [
           "https://jkanime.net/macross-frontier/1/",
-          "https://jkanime.net/macross-frontier/2/"
+          "https://jkanime.net/macross-frontier/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yu-gi-oh-5d/",
+        "title": "Yu-Gi-Oh 5D",
+        "samples": [
+          "https://jkanime.net/yu-gi-oh-5d/1/",
+          "https://jkanime.net/yu-gi-oh-5d/10/"
         ]
       },
       {
@@ -35118,6 +35106,22 @@
         "title": ".hack//G.U. Trilogy",
         "samples": [
           "https://jkanime.net/hack-g-u-trilogy/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-saga-de-hades-elysion/",
+        "title": "Saint Seiya Saga de Hades Elysion",
+        "samples": [
+          "https://jkanime.net/saint-seiya-saga-de-hades-elysion/1/",
+          "https://jkanime.net/saint-seiya-saga-de-hades-elysion/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baccano-specials/",
+        "title": "Baccano! Specials",
+        "samples": [
+          "https://jkanime.net/baccano-specials/1/",
+          "https://jkanime.net/baccano-specials/2/"
         ]
       },
       {
@@ -35139,6 +35143,30 @@
         "title": "Naruto: Shippuuden - Shippuu! \"Konoha Gakuen\" Den",
         "samples": [
           "https://jkanime.net/naruto-shippuuden-shippuu-konoha-gakuen-den/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yes-precure-5-gogo/",
+        "title": "Yes! Precure 5 GoGo!",
+        "samples": [
+          "https://jkanime.net/yes-precure-5-gogo/1/",
+          "https://jkanime.net/yes-precure-5-gogo/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yatterman/",
+        "title": "Yatterman",
+        "samples": [
+          "https://jkanime.net/yatterman/1/",
+          "https://jkanime.net/yatterman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spice-and-wolf/",
+        "title": "Spice and Wolf",
+        "samples": [
+          "https://jkanime.net/spice-and-wolf/1/",
+          "https://jkanime.net/spice-and-wolf/10/"
         ]
       },
       {
@@ -41554,7 +41582,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {},
       "playbackVerified": false
     },
@@ -48852,22 +48880,21 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/jigoku-sensei-nube-2025/20/",
         "https://jkanime.net/jigoku-sensei-nube-2025/21/",
         "https://jkanime.net/jigoku-sensei-nube-2025/22/",
         "https://jkanime.net/jigoku-sensei-nube-2025/23/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/24/",
         "https://jkanime.net/jigoku-sensei-nube-2025/25/",
         "https://jkanime.net/jigoku-sensei-nube-2025/26/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "mp4upload": 18,
-        "streamwish": 15,
+        "mp4upload": 19,
+        "streamwish": 16,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -51776,20 +51803,15 @@
     {
       "series": "https://jkanime.net/momentary-lily/",
       "title": "Momentary Lily",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 14,
-      "stored": 13,
-      "missing": [
-        "https://jkanime.net/momentary-lily/14/"
-      ],
+      "stored": 14,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mp4upload": 8,
+        "mp4upload": 9,
         "streamwish": 12
       },
       "playbackVerified": false
@@ -65546,7 +65568,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 27,
+      "stored": 28,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -65562,7 +65584,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/41/",
         "https://jkanime.net/bleach-sennen-kessen-hen/42/",
         "https://jkanime.net/bleach-sennen-kessen-hen/43/",
         "https://jkanime.net/bleach-sennen-kessen-hen/44/",
@@ -65577,10 +65598,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 15,
-        "vidhide": 26,
+        "streamwish": 16,
+        "vidhide": 27,
         "streamtape": 13,
-        "mp4upload": 14,
+        "mp4upload": 15,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -71152,7 +71173,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -71524,7 +71545,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "mp4upload": 15,
         "mega": 7,
@@ -126470,7 +126491,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {},
       "playbackVerified": false
     },
@@ -128458,7 +128479,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "mega": 22,
         "streamwish": 51,
@@ -128577,20 +128598,17 @@
       "series": "https://jkanime.net/kamen-no-maid-guy/",
       "title": "Kamen no Maid Guy",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/kamen-no-maid-guy/13/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
         "mega": 10,
-        "streamwish": 12,
+        "streamwish": 13,
         "vidhide": 10,
         "mp4upload": 10,
         "streamtape": 10
@@ -128713,7 +128731,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -128726,13 +128744,15 @@
     {
       "series": "https://jkanime.net/yu-gi-oh-5d/",
       "title": "Yu-Gi-Oh 5D",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 154,
       "stored": 154,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 154,
       "families": {
         "mega": 154,
         "streamwish": 154,
@@ -128781,13 +128801,15 @@
     {
       "series": "https://jkanime.net/saint-seiya-saga-de-hades-elysion/",
       "title": "Saint Seiya Saga de Hades Elysion",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -128800,13 +128822,15 @@
     {
       "series": "https://jkanime.net/baccano-specials/",
       "title": "Baccano! Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -128876,20 +128900,22 @@
     {
       "series": "https://jkanime.net/yes-precure-5-gogo/",
       "title": "Yes! Precure 5 GoGo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
-        "mega": 48,
+        "mega": 12,
         "streamwish": 48,
-        "vidhide": 48,
-        "mixdrop": 48,
-        "mp4upload": 36,
-        "streamtape": 48
+        "vidhide": 12,
+        "mixdrop": 12,
+        "mp4upload": 10,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -128912,13 +128938,15 @@
     {
       "series": "https://jkanime.net/yatterman/",
       "title": "Yatterman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 60,
       "stored": 60,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 60,
       "families": {
         "mega": 59,
         "streamwish": 60,
@@ -128931,13 +128959,15 @@
     {
       "series": "https://jkanime.net/spice-and-wolf/",
       "title": "Spice and Wolf",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
