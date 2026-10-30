@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T07:48:49.773577+00:00",
+  "checkedAt": "2026-10-30T08:02:29.851890+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73560,
-  "storedChapters": 71743,
-  "missingChapters": 1817,
+  "storedChapters": 71745,
+  "missingChapters": 1815,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -34046,7 +34046,24 @@
         "series": "https://jkanime.net/seitokai-no-ichizon/",
         "title": "Seitokai no Ichizon",
         "samples": [
-          "https://jkanime.net/seitokai-no-ichizon/1/"
+          "https://jkanime.net/seitokai-no-ichizon/1/",
+          "https://jkanime.net/seitokai-no-ichizon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kampfer/",
+        "title": "Kampfer",
+        "samples": [
+          "https://jkanime.net/kampfer/1/",
+          "https://jkanime.net/kampfer/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nyan-koi/",
+        "title": "Nyan Koi!",
+        "samples": [
+          "https://jkanime.net/nyan-koi/1/",
+          "https://jkanime.net/nyan-koi/10/"
         ]
       },
       {
@@ -34054,6 +34071,22 @@
         "title": "God Eater Prologue",
         "samples": [
           "https://jkanime.net/god-eater-prologue/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-sensei-negima-mou-hitotsu-no-sekai/",
+        "title": "Mahou Sensei Negima! Mou Hitotsu no Sekai",
+        "samples": [
+          "https://jkanime.net/mahou-sensei-negima-mou-hitotsu-no-sekai/1/",
+          "https://jkanime.net/mahou-sensei-negima-mou-hitotsu-no-sekai/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fullmetal-alchemist-brotherhood-ovas/",
+        "title": "Fullmetal Alchemist: Brotherhood Ovas (Specials)",
+        "samples": [
+          "https://jkanime.net/fullmetal-alchemist-brotherhood-ovas/1/",
+          "https://jkanime.net/fullmetal-alchemist-brotherhood-ovas/2/"
         ]
       },
       {
@@ -34082,6 +34115,93 @@
         "title": "Evangelion: 2.22 You Can (Not) Advance",
         "samples": [
           "https://jkanime.net/evangelion-2-22-you-can-not-advance/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hatsukoi-limited-gentei-shoujo/",
+        "title": "Hatsukoi Limited: Gentei Shoujo",
+        "samples": [
+          "https://jkanime.net/hatsukoi-limited-gentei-shoujo/3/",
+          "https://jkanime.net/hatsukoi-limited-gentei-shoujo/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-magnitude-80/",
+        "title": "Tokyo Magnitude 8.0",
+        "samples": [
+          "https://jkanime.net/tokyo-magnitude-80/1/",
+          "https://jkanime.net/tokyo-magnitude-80/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/spice-and-wolf-2/",
+        "title": "Spice and Wolf II",
+        "samples": [
+          "https://jkanime.net/spice-and-wolf-2/1/",
+          "https://jkanime.net/spice-and-wolf-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sora-no-manimani/",
+        "title": "Sora no Manimani",
+        "samples": [
+          "https://jkanime.net/sora-no-manimani/1/",
+          "https://jkanime.net/sora-no-manimani/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanamemo/",
+        "title": "Kanamemo",
+        "samples": [
+          "https://jkanime.net/kanamemo/1/",
+          "https://jkanime.net/kanamemo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zan-sayonara-zetsubou-sensei/",
+        "title": "Zan Sayonara Zetsubou Sensei",
+        "samples": [
+          "https://jkanime.net/zan-sayonara-zetsubou-sensei/1/",
+          "https://jkanime.net/zan-sayonara-zetsubou-sensei/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/princess-lover/",
+        "title": "Princess Lover!",
+        "samples": [
+          "https://jkanime.net/princess-lover/1/",
+          "https://jkanime.net/princess-lover/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakemonogatari/",
+        "title": "Bakemonogatari",
+        "samples": [
+          "https://jkanime.net/bakemonogatari/1/",
+          "https://jkanime.net/bakemonogatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/needless/",
+        "title": "Needless",
+        "samples": [
+          "https://jkanime.net/needless/1/",
+          "https://jkanime.net/needless/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/umineko-no-naku-koro-ni/",
+        "title": "Umineko no Naku Koro ni",
+        "samples": [
+          "https://jkanime.net/umineko-no-naku-koro-ni/1/",
+          "https://jkanime.net/umineko-no-naku-koro-ni/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taishou-yakyuu-musume/",
+        "title": "Taishou Yakyuu Musume.",
+        "samples": [
+          "https://jkanime.net/taishou-yakyuu-musume/3/"
         ]
       },
       {
@@ -64588,7 +64708,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 24,
+      "stored": 25,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -64602,7 +64722,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/36/",
         "https://jkanime.net/bleach-sennen-kessen-hen/37/",
         "https://jkanime.net/bleach-sennen-kessen-hen/38/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
@@ -64623,9 +64742,9 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 23,
+        "vidhide": 24,
         "streamtape": 13,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -82427,7 +82546,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -82440,7 +82559,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/24/",
         "https://jkanime.net/fight-league-gear-gadget-generators/25/",
         "https://jkanime.net/fight-league-gear-gadget-generators/26/",
         "https://jkanime.net/fight-league-gear-gadget-generators/3/",
@@ -82455,7 +82573,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 5
+        "mp4upload": 6
       },
       "playbackVerified": false
     },
@@ -124783,7 +124901,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124815,13 +124933,15 @@
     {
       "series": "https://jkanime.net/kampfer/",
       "title": "Kampfer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124834,13 +124954,15 @@
     {
       "series": "https://jkanime.net/nyan-koi/",
       "title": "Nyan Koi!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124891,13 +125013,15 @@
     {
       "series": "https://jkanime.net/mahou-sensei-negima-mou-hitotsu-no-sekai/",
       "title": "Mahou Sensei Negima! Mou Hitotsu no Sekai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -124910,13 +125034,15 @@
     {
       "series": "https://jkanime.net/fullmetal-alchemist-brotherhood-ovas/",
       "title": "Fullmetal Alchemist: Brotherhood Ovas (Specials)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -125005,32 +125131,36 @@
     {
       "series": "https://jkanime.net/hatsukoi-limited-gentei-shoujo/",
       "title": "Hatsukoi Limited: Gentei Shoujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 6,
-        "streamwish": 6,
-        "vidhide": 6,
         "mp4upload": 6,
-        "streamtape": 6
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tokyo-magnitude-80/",
       "title": "Tokyo Magnitude 8.0",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -125043,13 +125173,15 @@
     {
       "series": "https://jkanime.net/spice-and-wolf-2/",
       "title": "Spice and Wolf II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -125062,13 +125194,15 @@
     {
       "series": "https://jkanime.net/sora-no-manimani/",
       "title": "Sora no Manimani",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -125081,13 +125215,15 @@
     {
       "series": "https://jkanime.net/kanamemo/",
       "title": "Kanamemo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -125100,13 +125236,15 @@
     {
       "series": "https://jkanime.net/zan-sayonara-zetsubou-sensei/",
       "title": "Zan Sayonara Zetsubou Sensei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -125120,13 +125258,15 @@
     {
       "series": "https://jkanime.net/princess-lover/",
       "title": "Princess Lover!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -125147,24 +125287,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mp4upload": 13
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/bakemonogatari/",
       "title": "Bakemonogatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 15,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -125178,13 +125316,15 @@
     {
       "series": "https://jkanime.net/needless/",
       "title": "Needless",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -125197,13 +125337,15 @@
     {
       "series": "https://jkanime.net/umineko-no-naku-koro-ni/",
       "title": "Umineko no Naku Koro ni",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -125216,19 +125358,21 @@
     {
       "series": "https://jkanime.net/taishou-yakyuu-musume/",
       "title": "Taishou Yakyuu Musume.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 10,
+        "streamwish": 10,
+        "vidhide": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
