@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T10:38:10.396602+00:00",
+  "checkedAt": "2026-10-30T10:51:37.126593+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73567,
-  "storedChapters": 71780,
-  "missingChapters": 1787,
+  "storedChapters": 71784,
+  "missingChapters": 1783,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -288,7 +288,7 @@
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
           "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/21/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/22/"
         ]
       },
       {
@@ -974,7 +974,7 @@
         "title": "JoJo no Kimyou na Bouken Part 6: Stone Ocean",
         "samples": [
           "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
-          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/15/"
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/"
         ]
       },
       {
@@ -7461,7 +7461,7 @@
         "title": "Jigoku Sensei Nube (2025)",
         "samples": [
           "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-          "https://jkanime.net/jigoku-sensei-nube-2025/21/"
+          "https://jkanime.net/jigoku-sensei-nube-2025/22/"
         ]
       },
       {
@@ -14563,7 +14563,7 @@
         "title": "JoJo no Kimyou na Bouken Part 6: Stone Ocean",
         "samples": [
           "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
-          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/15/"
+          "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/"
         ]
       },
       {
@@ -35532,7 +35532,79 @@
         "title": "Zombie-Loan",
         "samples": [
           "https://jkanime.net/zombie-loan/1/",
-          "https://jkanime.net/zombie-loan/2/"
+          "https://jkanime.net/zombie-loan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/doujin-work/",
+        "title": "Doujin Work",
+        "samples": [
+          "https://jkanime.net/doujin-work/1/",
+          "https://jkanime.net/doujin-work/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/school-daysdays/",
+        "title": "School Days",
+        "samples": [
+          "https://jkanime.net/school-daysdays/1/",
+          "https://jkanime.net/school-daysdays/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kenkou-zenrakei-suiei-bu-umishou/",
+        "title": "Kenkou Zenrakei Suiei-bu Umishou",
+        "samples": [
+          "https://jkanime.net/kenkou-zenrakei-suiei-bu-umishou/1/",
+          "https://jkanime.net/kenkou-zenrakei-suiei-bu-umishou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/prince-of-tennis-the-national-tournament-semifinals/",
+        "title": "Prince of Tennis: The National Tournament Semifinals",
+        "samples": [
+          "https://jkanime.net/prince-of-tennis-the-national-tournament-semifinals/1/",
+          "https://jkanime.net/prince-of-tennis-the-national-tournament-semifinals/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/devil-may-cry/",
+        "title": "Devil May Cry",
+        "samples": [
+          "https://jkanime.net/devil-may-cry/1/",
+          "https://jkanime.net/devil-may-cry/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tales-of-symphonia/",
+        "title": "Tales of Symphonia",
+        "samples": [
+          "https://jkanime.net/tales-of-symphonia/1/",
+          "https://jkanime.net/tales-of-symphonia/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sousei-no-aquarion-ova/",
+        "title": "Sousei no Aquarion OVA",
+        "samples": [
+          "https://jkanime.net/sousei-no-aquarion-ova/1/",
+          "https://jkanime.net/sousei-no-aquarion-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ice/",
+        "title": "Ice",
+        "samples": [
+          "https://jkanime.net/ice/1/",
+          "https://jkanime.net/ice/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-skull-man/",
+        "title": "The Skull Man",
+        "samples": [
+          "https://jkanime.net/the-skull-man/1/",
+          "https://jkanime.net/the-skull-man/10/"
         ]
       },
       {
@@ -35540,6 +35612,70 @@
         "title": "Shakugan no Shana Movie",
         "samples": [
           "https://jkanime.net/shakugan-no-shana-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/",
+        "title": "Eikoku Koi Monogatari Emma: Molders-hen",
+        "samples": [
+          "https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/1/",
+          "https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaze-no-stigma/",
+        "title": "Kaze no Stigma",
+        "samples": [
+          "https://jkanime.net/kaze-no-stigma/1/",
+          "https://jkanime.net/kaze-no-stigma/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaibutsu-oujo/",
+        "title": "Kaibutsu Oujo",
+        "samples": [
+          "https://jkanime.net/kaibutsu-oujo/1/",
+          "https://jkanime.net/kaibutsu-oujo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ookiku-furikabutte/",
+        "title": "Ookiku Furikabutte",
+        "samples": [
+          "https://jkanime.net/ookiku-furikabutte/1/",
+          "https://jkanime.net/ookiku-furikabutte/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bokura-no/",
+        "title": "Bokura no",
+        "samples": [
+          "https://jkanime.net/bokura-no/1/",
+          "https://jkanime.net/bokura-no/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lucky-star/",
+        "title": "Lucky☆Star",
+        "samples": [
+          "https://jkanime.net/lucky-star/1/",
+          "https://jkanime.net/lucky-star/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lovely-complex/",
+        "title": "Lovely Complex",
+        "samples": [
+          "https://jkanime.net/lovely-complex/1/",
+          "https://jkanime.net/lovely-complex/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blue-dragon/",
+        "title": "Blue Dragon",
+        "samples": [
+          "https://jkanime.net/blue-dragon/1/",
+          "https://jkanime.net/blue-dragon/10/"
         ]
       },
       {
@@ -41922,7 +42058,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -49190,20 +49326,19 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 21,
+      "stored": 22,
       "missing": [
         "https://jkanime.net/jigoku-sensei-nube-2025/20/",
-        "https://jkanime.net/jigoku-sensei-nube-2025/21/",
         "https://jkanime.net/jigoku-sensei-nube-2025/22/",
         "https://jkanime.net/jigoku-sensei-nube-2025/23/",
         "https://jkanime.net/jigoku-sensei-nube-2025/26/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
-        "mp4upload": 20,
-        "streamwish": 17,
+        "mp4upload": 21,
+        "streamwish": 18,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -65875,7 +66010,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 29,
+      "stored": 30,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -65891,7 +66026,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/43/",
         "https://jkanime.net/bleach-sennen-kessen-hen/44/",
         "https://jkanime.net/bleach-sennen-kessen-hen/45/",
         "https://jkanime.net/bleach-sennen-kessen-hen/46/",
@@ -65904,10 +66038,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 17,
+        "streamwish": 18,
         "vidhide": 27,
         "streamtape": 13,
-        "mp4upload": 16,
+        "mp4upload": 17,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -70626,10 +70760,9 @@
         "renewal-error"
       ],
       "observed": 38,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
-        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/15/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/17/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/18/",
@@ -70656,12 +70789,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
-        "streamwish": 12,
+        "streamwish": 13,
         "mega": 9,
         "vidhide": 9,
-        "mp4upload": 12,
+        "mp4upload": 13,
         "streamtape": 9
       },
       "playbackVerified": false
@@ -78380,7 +78513,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 47,
+      "renewalFailed": 48,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -93211,7 +93344,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -94949,7 +95082,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 3
       },
@@ -111603,7 +111736,7 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/ansatsu-kyoushitsu/10/",
         "https://jkanime.net/ansatsu-kyoushitsu/11/",
@@ -111623,15 +111756,14 @@
         "https://jkanime.net/ansatsu-kyoushitsu/4/",
         "https://jkanime.net/ansatsu-kyoushitsu/5/",
         "https://jkanime.net/ansatsu-kyoushitsu/6/",
-        "https://jkanime.net/ansatsu-kyoushitsu/7/",
         "https://jkanime.net/ansatsu-kyoushitsu/8/",
         "https://jkanime.net/ansatsu-kyoushitsu/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
-        "mp4upload": 1
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
@@ -130129,7 +130261,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -130237,7 +130369,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -130250,32 +130382,36 @@
     {
       "series": "https://jkanime.net/doujin-work/",
       "title": "Doujin Work",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
+        "mega": 7,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/school-daysdays/",
       "title": "School Days",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -130288,13 +130424,15 @@
     {
       "series": "https://jkanime.net/kenkou-zenrakei-suiei-bu-umishou/",
       "title": "Kenkou Zenrakei Suiei-bu Umishou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -130308,13 +130446,15 @@
     {
       "series": "https://jkanime.net/prince-of-tennis-the-national-tournament-semifinals/",
       "title": "Prince of Tennis: The National Tournament Semifinals",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -130327,13 +130467,15 @@
     {
       "series": "https://jkanime.net/devil-may-cry/",
       "title": "Devil May Cry",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -130346,13 +130488,15 @@
     {
       "series": "https://jkanime.net/tales-of-symphonia/",
       "title": "Tales of Symphonia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -130365,13 +130509,15 @@
     {
       "series": "https://jkanime.net/sousei-no-aquarion-ova/",
       "title": "Sousei no Aquarion OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -130384,13 +130530,15 @@
     {
       "series": "https://jkanime.net/ice/",
       "title": "Ice",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -130403,13 +130551,15 @@
     {
       "series": "https://jkanime.net/the-skull-man/",
       "title": "The Skull Man",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -130458,33 +130608,37 @@
     {
       "series": "https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/",
       "title": "Eikoku Koi Monogatari Emma: Molders-hen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
+        "mega": 7,
+        "streamwish": 7,
+        "vidhide": 7,
+        "mixdrop": 7,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kaze-no-stigma/",
       "title": "Kaze no Stigma",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -130497,13 +130651,15 @@
     {
       "series": "https://jkanime.net/kaibutsu-oujo/",
       "title": "Kaibutsu Oujo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -130517,13 +130673,15 @@
     {
       "series": "https://jkanime.net/ookiku-furikabutte/",
       "title": "Ookiku Furikabutte",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -130536,13 +130694,15 @@
     {
       "series": "https://jkanime.net/bokura-no/",
       "title": "Bokura no",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -130556,13 +130716,15 @@
     {
       "series": "https://jkanime.net/lucky-star/",
       "title": "Lucky☆Star",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -130575,13 +130737,15 @@
     {
       "series": "https://jkanime.net/lovely-complex/",
       "title": "Lovely Complex",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -130594,19 +130758,21 @@
     {
       "series": "https://jkanime.net/blue-dragon/",
       "title": "Blue Dragon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 51,
+        "mega": 29,
         "streamwish": 51,
         "vidhide": 51,
         "mp4upload": 51,
-        "streamtape": 51
+        "streamtape": 29
       },
       "playbackVerified": false
     },
