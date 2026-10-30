@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T11:41:27.782927+00:00",
+  "checkedAt": "2026-10-30T11:55:23.256604+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73568,
-  "storedChapters": 71799,
-  "missingChapters": 1769,
+  "storedChapters": 71801,
+  "missingChapters": 1767,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -410,8 +410,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/"
         ]
       },
       {
@@ -8892,8 +8892,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/"
         ]
       },
       {
@@ -35924,6 +35924,30 @@
         ]
       },
       {
+        "series": "https://jkanime.net/katekyo-hitman-reborn/",
+        "title": "Katekyo Hitman Reborn!",
+        "samples": [
+          "https://jkanime.net/katekyo-hitman-reborn/1/",
+          "https://jkanime.net/katekyo-hitman-reborn/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryuusei-no-rockman/",
+        "title": "Ryuusei no Rockman",
+        "samples": [
+          "https://jkanime.net/ryuusei-no-rockman/1/",
+          "https://jkanime.net/ryuusei-no-rockman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/code-geass-hangyaku-no-lelouch/",
+        "title": "Code Geass: Hangyaku no Lelouch",
+        "samples": [
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch/1/",
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sky-girls-ova/",
         "title": "Sky Girls OVA",
         "samples": [
@@ -54335,9 +54359,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
@@ -54348,9 +54371,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 16,
+        "streamwish": 17,
         "vidhide": 13,
-        "mp4upload": 18,
+        "mp4upload": 19,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -71010,7 +71033,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "streamwish": 13,
         "mega": 9,
@@ -84059,7 +84082,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 11,
+      "stored": 12,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -84073,7 +84096,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
         "https://jkanime.net/fight-league-gear-gadget-generators/4/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/7/",
         "https://jkanime.net/fight-league-gear-gadget-generators/8/",
         "https://jkanime.net/fight-league-gear-gadget-generators/9/"
       ],
@@ -84081,7 +84103,7 @@
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
-        "mp4upload": 11
+        "mp4upload": 12
       },
       "playbackVerified": false
     },
@@ -99168,7 +99190,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 3
       },
@@ -99508,7 +99530,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -99661,7 +99683,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 3,
         "streamwish": 3,
@@ -103437,7 +103459,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 4
       },
@@ -131700,7 +131722,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 37,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -131713,13 +131735,15 @@
     {
       "series": "https://jkanime.net/katekyo-hitman-reborn/",
       "title": "Katekyo Hitman Reborn!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 203,
       "stored": 203,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 203,
       "families": {
         "mega": 202,
         "streamwish": 203,
@@ -131733,13 +131757,15 @@
     {
       "series": "https://jkanime.net/ryuusei-no-rockman/",
       "title": "Ryuusei no Rockman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 55,
       "stored": 55,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 55,
       "families": {
         "mega": 55,
         "streamwish": 55,
@@ -131753,13 +131779,15 @@
     {
       "series": "https://jkanime.net/code-geass-hangyaku-no-lelouch/",
       "title": "Code Geass: Hangyaku no Lelouch",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 25,
         "streamwish": 25,
