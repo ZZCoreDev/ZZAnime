@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T22:35:16.308344+00:00",
+  "checkedAt": "2026-10-30T22:43:30.440599+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73752,
-  "storedChapters": 71972,
-  "missingChapters": 1780,
+  "storedChapters": 71983,
+  "missingChapters": 1769,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -886,8 +886,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/14/",
-          "https://jkanime.net/orient/15/"
+          "https://jkanime.net/orient/15/",
+          "https://jkanime.net/orient/16/"
         ]
       },
       {
@@ -1493,13 +1493,6 @@
         "title": "Sora no Aosa wo Shiru Hito yo",
         "samples": [
           "https://jkanime.net/sora-no-aosa-wo-shiru-hito-yo/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/phantasy-star-online-2-episode-oracle/",
-        "title": "Phantasy Star Online 2: Episode Oracle",
-        "samples": [
-          "https://jkanime.net/phantasy-star-online-2-episode-oracle/9/"
         ]
       },
       {
@@ -2286,13 +2279,6 @@
         "title": "Digimon Adventure tri. 3: Kokuhaku",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri-3-kokuhaku/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/persona-5-the-animation-the-day-breakers/",
-        "title": "Persona 5 the Animation: The Day Breakers",
-        "samples": [
-          "https://jkanime.net/persona-5-the-animation-the-day-breakers/1/"
         ]
       },
       {
@@ -5755,8 +5741,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/17/",
-          "https://jkanime.net/taiho-shichau-zo/18/"
+          "https://jkanime.net/taiho-shichau-zo/18/",
+          "https://jkanime.net/taiho-shichau-zo/19/"
         ]
       },
       {
@@ -14327,8 +14313,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/14/",
-          "https://jkanime.net/orient/15/"
+          "https://jkanime.net/orient/15/",
+          "https://jkanime.net/orient/16/"
         ]
       },
       {
@@ -18015,7 +18001,8 @@
         "series": "https://jkanime.net/phantasy-star-online-2-episode-oracle/",
         "title": "Phantasy Star Online 2: Episode Oracle",
         "samples": [
-          "https://jkanime.net/phantasy-star-online-2-episode-oracle/9/"
+          "https://jkanime.net/phantasy-star-online-2-episode-oracle/1/",
+          "https://jkanime.net/phantasy-star-online-2-episode-oracle/11/"
         ]
       },
       {
@@ -23108,13 +23095,6 @@
         "title": "Digimon Adventure tri. 3: Kokuhaku",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri-3-kokuhaku/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/persona-5-the-animation-the-day-breakers/",
-        "title": "Persona 5 the Animation: The Day Breakers",
-        "samples": [
-          "https://jkanime.net/persona-5-the-animation-the-day-breakers/1/"
         ]
       },
       {
@@ -38597,6 +38577,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/escaflowne/",
+        "title": "Escaflowne",
+        "samples": [
+          "https://jkanime.net/escaflowne/10/",
+          "https://jkanime.net/escaflowne/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/angel-sanctuary/",
         "title": "Angel Sanctuary",
         "samples": [
@@ -39250,8 +39238,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/17/",
-          "https://jkanime.net/taiho-shichau-zo/18/"
+          "https://jkanime.net/taiho-shichau-zo/18/",
+          "https://jkanime.net/taiho-shichau-zo/19/"
         ]
       },
       {
@@ -39732,6 +39720,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/area-88/",
+        "title": "Area 88",
+        "samples": [
+          "https://jkanime.net/area-88/10/",
+          "https://jkanime.net/area-88/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kikou-kai-galient/",
         "title": "Kikou Kai Galient",
         "samples": [
@@ -39770,6 +39766,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/macross/",
+        "title": "Macross",
+        "samples": [
+          "https://jkanime.net/macross/1/",
+          "https://jkanime.net/macross/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/space-adventure-cobra/",
         "title": "Space Adventure Cobra",
         "samples": [
@@ -39777,10 +39781,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mahou-no-princess-minky-momo/",
+        "title": "Mahou no Princess Minky Momo",
+        "samples": [
+          "https://jkanime.net/mahou-no-princess-minky-momo/10/",
+          "https://jkanime.net/mahou-no-princess-minky-momo/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/doraemon-movie-02-nobita-no-uchuu-kaitakushi/",
         "title": "Doraemon Movie 02: Nobita no Uchuu Kaitakushi",
         "samples": [
           "https://jkanime.net/doraemon-movie-02-nobita-no-uchuu-kaitakushi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ashita-no-joe-2/",
+        "title": "Ashita no Joe 2",
+        "samples": [
+          "https://jkanime.net/ashita-no-joe-2/1/",
+          "https://jkanime.net/ashita-no-joe-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tetsuwan-atom-1980/",
+        "title": "Tetsuwan Atom (1980)",
+        "samples": [
+          "https://jkanime.net/tetsuwan-atom-1980/1/",
+          "https://jkanime.net/tetsuwan-atom-1980/10/"
         ]
       },
       {
@@ -41673,13 +41701,6 @@
         "title": "Digimon Adventure tri. 3: Kokuhaku",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri-3-kokuhaku/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/persona-5-the-animation-the-day-breakers/",
-        "title": "Persona 5 the Animation: The Day Breakers",
-        "samples": [
-          "https://jkanime.net/persona-5-the-animation-the-day-breakers/1/"
         ]
       },
       {
@@ -45181,12 +45202,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/4/",
         "https://jkanime.net/megalo-box/5/",
         "https://jkanime.net/megalo-box/6/",
         "https://jkanime.net/megalo-box/7/",
@@ -45195,9 +45215,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mega": 4
+        "mega": 5
       },
       "playbackVerified": false
     },
@@ -73492,9 +73512,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/orient/14/",
         "https://jkanime.net/orient/15/",
         "https://jkanime.net/orient/16/",
         "https://jkanime.net/orient/17/",
@@ -73508,9 +73527,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
-        "mega": 12,
+        "mega": 13,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
@@ -74691,7 +74710,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
@@ -74699,14 +74718,13 @@
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/",
         "https://jkanime.net/kyoukai-senki/20/",
-        "https://jkanime.net/kyoukai-senki/24/",
         "https://jkanime.net/kyoukai-senki/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
-        "mega": 15,
+        "mega": 16,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -84054,19 +84072,16 @@
       "series": "https://jkanime.net/phantasy-star-online-2-episode-oracle/",
       "title": "Phantasy Star Online 2: Episode Oracle",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 24,
-      "missing": [
-        "https://jkanime.net/phantasy-star-online-2-episode-oracle/9/"
-      ],
+      "stored": 25,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 10,
+        "mega": 11,
         "streamwish": 24,
         "vidhide": 24,
         "mp4upload": 24,
@@ -91776,7 +91791,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {},
       "playbackVerified": false
     },
@@ -94322,14 +94337,13 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/18if/1/",
         "https://jkanime.net/18if/10/",
         "https://jkanime.net/18if/11/",
         "https://jkanime.net/18if/12/",
         "https://jkanime.net/18if/13/",
-        "https://jkanime.net/18if/2/",
         "https://jkanime.net/18if/3/",
         "https://jkanime.net/18if/4/",
         "https://jkanime.net/18if/5/",
@@ -94338,9 +94352,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -95721,7 +95735,7 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/1/",
         "https://jkanime.net/cinderella-girls-gekijou/10/",
@@ -95731,15 +95745,14 @@
         "https://jkanime.net/cinderella-girls-gekijou/3/",
         "https://jkanime.net/cinderella-girls-gekijou/4/",
         "https://jkanime.net/cinderella-girls-gekijou/5/",
-        "https://jkanime.net/cinderella-girls-gekijou/7/",
         "https://jkanime.net/cinderella-girls-gekijou/8/",
         "https://jkanime.net/cinderella-girls-gekijou/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -98009,7 +98022,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/cheating-craft/1/",
         "https://jkanime.net/cheating-craft/10/",
@@ -98020,14 +98033,13 @@
         "https://jkanime.net/cheating-craft/5/",
         "https://jkanime.net/cheating-craft/6/",
         "https://jkanime.net/cheating-craft/7/",
-        "https://jkanime.net/cheating-craft/8/",
         "https://jkanime.net/cheating-craft/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -98994,20 +99006,16 @@
     {
       "series": "https://jkanime.net/persona-5-the-animation-the-day-breakers/",
       "title": "Persona 5 the Animation: The Day Breakers",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/persona-5-the-animation-the-day-breakers/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -106212,12 +106220,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 12,
+      "stored": 13,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/23/",
         "https://jkanime.net/ninja-slayer-from-animation/24/",
         "https://jkanime.net/ninja-slayer-from-animation/25/",
         "https://jkanime.net/ninja-slayer-from-animation/26/",
@@ -106233,7 +106240,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 11,
+        "streamwish": 12,
         "mega": 1
       },
       "playbackVerified": false
@@ -129884,14 +129891,13 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
         "https://jkanime.net/07-ghost/11/",
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
-        "https://jkanime.net/07-ghost/14/",
         "https://jkanime.net/07-ghost/15/",
         "https://jkanime.net/07-ghost/16/",
         "https://jkanime.net/07-ghost/17/",
@@ -129909,9 +129915,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
-        "mega": 5
+        "mega": 6
       },
       "playbackVerified": false
     },
@@ -142664,7 +142670,8 @@
       "series": "https://jkanime.net/escaflowne/",
       "title": "Escaflowne",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 26,
       "stored": 1,
@@ -142697,7 +142704,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 1
       },
@@ -144615,9 +144622,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/17/",
         "https://jkanime.net/taiho-shichau-zo/18/",
         "https://jkanime.net/taiho-shichau-zo/19/",
         "https://jkanime.net/taiho-shichau-zo/20/",
@@ -144666,7 +144672,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 10,
+        "mp4upload": 11,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -146009,7 +146015,8 @@
       "series": "https://jkanime.net/area-88/",
       "title": "Area 88",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 15,
       "stored": 3,
@@ -146029,7 +146036,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 3
       },
@@ -146108,7 +146115,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 35,
+      "renewalFailed": 128,
       "families": {
         "mega": 127,
         "streamwish": 128,
@@ -146148,25 +146155,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 31,
-        "streamwish": 31,
-        "vidhide": 31,
-        "mixdrop": 31,
-        "mp4upload": 31,
-        "streamtape": 31
+        "mp4upload": 31
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/macross/",
       "title": "Macross",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 36,
       "stored": 36,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 36,
       "families": {
         "mega": 36,
         "streamwish": 36,
@@ -146198,20 +146202,22 @@
     {
       "series": "https://jkanime.net/mahou-no-princess-minky-momo/",
       "title": "Mahou no Princess Minky Momo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 63,
       "stored": 63,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 58,
       "families": {
-        "mega": 63,
-        "streamwish": 63,
-        "vidhide": 63,
-        "mixdrop": 63,
-        "mp4upload": 63,
-        "streamtape": 63
+        "mp4upload": 61,
+        "mega": 58,
+        "streamwish": 60,
+        "vidhide": 58,
+        "mixdrop": 58,
+        "streamtape": 58
       },
       "playbackVerified": false
     },
@@ -146237,13 +146243,15 @@
     {
       "series": "https://jkanime.net/ashita-no-joe-2/",
       "title": "Ashita no Joe 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 47,
       "stored": 47,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
         "mega": 46,
         "streamwish": 47,
@@ -146256,13 +146264,15 @@
     {
       "series": "https://jkanime.net/tetsuwan-atom-1980/",
       "title": "Tetsuwan Atom (1980)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 30,
       "families": {
         "mega": 52,
         "streamwish": 52,
