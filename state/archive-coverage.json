@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T18:31:52.946389+00:00",
+  "checkedAt": "2026-10-30T18:47:56.133429+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73663,
-  "storedChapters": 71877,
-  "missingChapters": 1786,
+  "storedChapters": 71879,
+  "missingChapters": 1784,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/34/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/35/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/49/",
-          "https://jkanime.net/tsubasa-chronicle/50/"
+          "https://jkanime.net/tsubasa-chronicle/50/",
+          "https://jkanime.net/tsubasa-chronicle/51/"
         ]
       },
       {
@@ -10735,7 +10735,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/34/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/35/"
         ]
       },
       {
@@ -36744,8 +36744,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/49/",
-          "https://jkanime.net/tsubasa-chronicle/50/"
+          "https://jkanime.net/tsubasa-chronicle/50/",
+          "https://jkanime.net/tsubasa-chronicle/51/"
         ]
       },
       {
@@ -38749,10 +38749,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/angelic-layer/",
+        "title": "Angelic Layer",
+        "samples": [
+          "https://jkanime.net/angelic-layer/1/",
+          "https://jkanime.net/angelic-layer/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/digimon-tamers/",
+        "title": "Digimon Tamers",
+        "samples": [
+          "https://jkanime.net/digimon-tamers/1/",
+          "https://jkanime.net/digimon-tamers/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/initial-d-third-stage/",
         "title": "Initial D Third Stage",
         "samples": [
           "https://jkanime.net/initial-d-third-stage/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/earth-maiden-arjuna/",
+        "title": "Earth Maiden Arjuna",
+        "samples": [
+          "https://jkanime.net/earth-maiden-arjuna/1/",
+          "https://jkanime.net/earth-maiden-arjuna/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grappler-baki-tv/",
+        "title": "Grappler Baki (TV)",
+        "samples": [
+          "https://jkanime.net/grappler-baki-tv/1/",
+          "https://jkanime.net/grappler-baki-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/beyblade/",
+        "title": "Bakuten Shoot Beyblade",
+        "samples": [
+          "https://jkanime.net/beyblade/1/",
+          "https://jkanime.net/beyblade/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zoids-shinseikizero/",
+        "title": "Zoids Shinseiki/Zero",
+        "samples": [
+          "https://jkanime.net/zoids-shinseikizero/1/",
+          "https://jkanime.net/zoids-shinseikizero/10/"
         ]
       },
       {
@@ -62139,10 +62187,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 32,
+      "stored": 33,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/34/",
         "https://jkanime.net/kusuriya-no-hitorigoto/35/",
         "https://jkanime.net/kusuriya-no-hitorigoto/36/",
         "https://jkanime.net/kusuriya-no-hitorigoto/37/",
@@ -62168,9 +62215,9 @@
       "renewalFailed": 25,
       "families": {
         "mega": 23,
-        "streamwish": 27,
+        "streamwish": 28,
         "vidhide": 24,
-        "mp4upload": 31,
+        "mp4upload": 32,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -136331,9 +136378,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 48,
+      "stored": 49,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/49/",
         "https://jkanime.net/tsubasa-chronicle/50/",
         "https://jkanime.net/tsubasa-chronicle/51/",
         "https://jkanime.net/tsubasa-chronicle/52/"
@@ -136342,9 +136388,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 49,
-        "streamwish": 48,
-        "vidhide": 49,
+        "mp4upload": 50,
+        "streamwish": 49,
+        "vidhide": 50,
         "mega": 1,
         "streamtape": 1
       },
@@ -141842,7 +141888,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -141875,38 +141921,42 @@
     {
       "series": "https://jkanime.net/angelic-layer/",
       "title": "Angelic Layer",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mega": 25,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 25,
+        "mp4upload": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/digimon-tamers/",
       "title": "Digimon Tamers",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 46,
       "families": {
-        "mega": 51,
-        "streamwish": 51,
-        "vidhide": 51,
-        "mp4upload": 51,
-        "streamtape": 51
+        "mega": 46,
+        "streamwish": 46,
+        "vidhide": 46,
+        "mp4upload": 54,
+        "streamtape": 46
       },
       "playbackVerified": false
     },
@@ -141925,7 +141975,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -141938,13 +141988,15 @@
     {
       "series": "https://jkanime.net/earth-maiden-arjuna/",
       "title": "Earth Maiden Arjuna",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -141957,13 +142009,15 @@
     {
       "series": "https://jkanime.net/grappler-baki-tv/",
       "title": "Grappler Baki (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -141976,13 +142030,15 @@
     {
       "series": "https://jkanime.net/beyblade/",
       "title": "Bakuten Shoot Beyblade",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -141995,19 +142051,21 @@
     {
       "series": "https://jkanime.net/zoids-shinseikizero/",
       "title": "Zoids Shinseiki/Zero",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
-        "mega": 26,
-        "streamwish": 26,
-        "vidhide": 26,
+        "mega": 25,
+        "streamwish": 25,
+        "vidhide": 25,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 25
       },
       "playbackVerified": false
     },
