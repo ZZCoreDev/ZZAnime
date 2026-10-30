@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T03:50:31.372964+00:00",
+  "checkedAt": "2026-10-30T04:02:32.111612+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73541,
-  "storedChapters": 71722,
-  "missingChapters": 1819,
+  "storedChapters": 71724,
+  "missingChapters": 1817,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -31560,6 +31560,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sankarea-ova/",
+        "title": "Sankarea OVA",
+        "samples": [
+          "https://jkanime.net/sankarea-ova/1/",
+          "https://jkanime.net/sankarea-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kingdom/",
+        "title": "Kingdom",
+        "samples": [
+          "https://jkanime.net/kingdom/1/",
+          "https://jkanime.net/kingdom/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/blood-c-the-last-dark/",
         "title": "Blood-C: The Last Dark",
         "samples": [
@@ -31595,6 +31611,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/akb0048/",
+        "title": "AKB0048",
+        "samples": [
+          "https://jkanime.net/akb0048/1/",
+          "https://jkanime.net/akb0048/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/c3-special/",
         "title": "C³ Special",
         "samples": [
@@ -31606,6 +31630,150 @@
         "title": "Momo e no Tegami",
         "samples": [
           "https://jkanime.net/momo-e-no-tegami/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/new-prince-of-tennis-specials/",
+        "title": "New Prince of Tennis SP",
+        "samples": [
+          "https://jkanime.net/new-prince-of-tennis-specials/1/",
+          "https://jkanime.net/new-prince-of-tennis-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyouka/",
+        "title": "Hyouka",
+        "samples": [
+          "https://jkanime.net/hyouka/1/",
+          "https://jkanime.net/hyouka/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eureka-seven-ao/",
+        "title": "Eureka Seven AO",
+        "samples": [
+          "https://jkanime.net/eureka-seven-ao/1/",
+          "https://jkanime.net/eureka-seven-ao/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sakamichi-no-apollon/",
+        "title": "Sakamichi no Apollon",
+        "samples": [
+          "https://jkanime.net/sakamichi-no-apollon/1/",
+          "https://jkanime.net/sakamichi-no-apollon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jormungand/",
+        "title": "Jormungand",
+        "samples": [
+          "https://jkanime.net/jormungand/1/",
+          "https://jkanime.net/jormungand/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haiyoru-nyaruko-san/",
+        "title": "Haiyore! Nyaruko-san",
+        "samples": [
+          "https://jkanime.net/haiyoru-nyaruko-san/1/",
+          "https://jkanime.net/haiyoru-nyaruko-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tasogare-otome-x-amnesia/",
+        "title": "Tasogare Otome x Amnesia",
+        "samples": [
+          "https://jkanime.net/tasogare-otome-x-amnesia/1/",
+          "https://jkanime.net/tasogare-otome-x-amnesia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saki-achiga-hen-episode-of-side-a/",
+        "title": "Saki: Achiga-hen - Episode of Side-A",
+        "samples": [
+          "https://jkanime.net/saki-achiga-hen-episode-of-side-a/1/",
+          "https://jkanime.net/saki-achiga-hen-episode-of-side-a/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nazo-no-kanojo-x/",
+        "title": "Nazo no Kanojo X",
+        "samples": [
+          "https://jkanime.net/nazo-no-kanojo-x/1/",
+          "https://jkanime.net/nazo-no-kanojo-x/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroko-no-basket/",
+        "title": "Kuroko no Basket",
+        "samples": [
+          "https://jkanime.net/kuroko-no-basket/1/",
+          "https://jkanime.net/kuroko-no-basket/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/",
+        "title": "Phi Brain: Kami no Puzzle 2nd Season",
+        "samples": [
+          "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/1/",
+          "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/upotte/",
+        "title": "Upotte!!",
+        "samples": [
+          "https://jkanime.net/upotte/1/",
+          "https://jkanime.net/upotte/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fate-zero-2/",
+        "title": "Fate/Zero 2nd Season",
+        "samples": [
+          "https://jkanime.net/fate-zero-2/1/",
+          "https://jkanime.net/fate-zero-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sankarea/",
+        "title": "Sankarea",
+        "samples": [
+          "https://jkanime.net/sankarea/1/",
+          "https://jkanime.net/sankarea/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/acchi-kocchi/",
+        "title": "Acchi Kocchi",
+        "samples": [
+          "https://jkanime.net/acchi-kocchi/1/",
+          "https://jkanime.net/acchi-kocchi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kore-wa-zombie-desu-ka-of-the-dead/",
+        "title": "Kore wa Zombie Desu ka? of the Dead",
+        "samples": [
+          "https://jkanime.net/kore-wa-zombie-desu-ka-of-the-dead/1/",
+          "https://jkanime.net/kore-wa-zombie-desu-ka-of-the-dead/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/medaka-box/",
+        "title": "Medaka Box",
+        "samples": [
+          "https://jkanime.net/medaka-box/1/",
+          "https://jkanime.net/medaka-box/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shirokuma-cafe/",
+        "title": "Shirokuma Cafe",
+        "samples": [
+          "https://jkanime.net/shirokuma-cafe/1/",
+          "https://jkanime.net/shirokuma-cafe/2/"
         ]
       },
       {
@@ -60966,7 +61134,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -62614,7 +62782,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -62628,7 +62796,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/24/",
         "https://jkanime.net/bleach-sennen-kessen-hen/25/",
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/29/",
         "https://jkanime.net/bleach-sennen-kessen-hen/30/",
         "https://jkanime.net/bleach-sennen-kessen-hen/31/",
         "https://jkanime.net/bleach-sennen-kessen-hen/32/",
@@ -62656,7 +62823,7 @@
       "families": {
         "mega": 13,
         "streamwish": 15,
-        "vidhide": 17,
+        "vidhide": 18,
         "streamtape": 13,
         "mp4upload": 9,
         "mixdrop": 4
@@ -85356,7 +85523,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -92497,18 +92664,17 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/8/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "streamwish": 8
+        "streamwish": 9
       },
       "playbackVerified": false
     },
@@ -115900,13 +116066,15 @@
     {
       "series": "https://jkanime.net/sankarea-ova/",
       "title": "Sankarea OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -115919,13 +116087,15 @@
     {
       "series": "https://jkanime.net/kingdom/",
       "title": "Kingdom",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 38,
       "stored": 38,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 38,
       "families": {
         "mega": 38,
         "streamwish": 38,
@@ -116032,13 +116202,15 @@
     {
       "series": "https://jkanime.net/akb0048/",
       "title": "AKB0048",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116089,13 +116261,15 @@
     {
       "series": "https://jkanime.net/new-prince-of-tennis-specials/",
       "title": "New Prince of Tennis SP",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -116108,13 +116282,15 @@
     {
       "series": "https://jkanime.net/hyouka/",
       "title": "Hyouka",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -116127,13 +116303,15 @@
     {
       "series": "https://jkanime.net/eureka-seven-ao/",
       "title": "Eureka Seven AO",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -116146,13 +116324,15 @@
     {
       "series": "https://jkanime.net/sakamichi-no-apollon/",
       "title": "Sakamichi no Apollon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116166,13 +116346,15 @@
     {
       "series": "https://jkanime.net/jormungand/",
       "title": "Jormungand",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116185,13 +116367,15 @@
     {
       "series": "https://jkanime.net/haiyoru-nyaruko-san/",
       "title": "Haiyore! Nyaruko-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116204,13 +116388,15 @@
     {
       "series": "https://jkanime.net/tasogare-otome-x-amnesia/",
       "title": "Tasogare Otome x Amnesia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116223,13 +116409,15 @@
     {
       "series": "https://jkanime.net/saki-achiga-hen-episode-of-side-a/",
       "title": "Saki: Achiga-hen - Episode of Side-A",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -116242,13 +116430,15 @@
     {
       "series": "https://jkanime.net/nazo-no-kanojo-x/",
       "title": "Nazo no Kanojo X",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116261,13 +116451,15 @@
     {
       "series": "https://jkanime.net/kuroko-no-basket/",
       "title": "Kuroko no Basket",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -116280,13 +116472,15 @@
     {
       "series": "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/",
       "title": "Phi Brain: Kami no Puzzle 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -116299,13 +116493,15 @@
     {
       "series": "https://jkanime.net/upotte/",
       "title": "Upotte!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -116318,13 +116514,15 @@
     {
       "series": "https://jkanime.net/fate-zero-2/",
       "title": "Fate/Zero 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116337,13 +116535,15 @@
     {
       "series": "https://jkanime.net/sankarea/",
       "title": "Sankarea",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116356,13 +116556,15 @@
     {
       "series": "https://jkanime.net/acchi-kocchi/",
       "title": "Acchi Kocchi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116375,13 +116577,15 @@
     {
       "series": "https://jkanime.net/kore-wa-zombie-desu-ka-of-the-dead/",
       "title": "Kore wa Zombie Desu ka? of the Dead",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -116394,13 +116598,15 @@
     {
       "series": "https://jkanime.net/medaka-box/",
       "title": "Medaka Box",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -116413,13 +116619,15 @@
     {
       "series": "https://jkanime.net/shirokuma-cafe/",
       "title": "Shirokuma Cafe",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -123031,7 +123239,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {},
       "playbackVerified": false
     },
