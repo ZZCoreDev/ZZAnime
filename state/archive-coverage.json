@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T20:20:34.306500+00:00",
+  "checkedAt": "2026-10-30T20:33:39.361102+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73667,
   "storedChapters": 71891,
@@ -39329,10 +39329,66 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shin-tenchi-muyo/",
+        "title": "Shin Tenchi Muyo!",
+        "samples": [
+          "https://jkanime.net/shin-tenchi-muyo/1/",
+          "https://jkanime.net/shin-tenchi-muyo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jungle-de-ikou/",
+        "title": "Jungle de Ikou!",
+        "samples": [
+          "https://jkanime.net/jungle-de-ikou/1/",
+          "https://jkanime.net/jungle-de-ikou/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
         "title": "Neon Genesis Evangelion: Death & Rebirth",
         "samples": [
           "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/eat-man/",
+        "title": "Eat-Man",
+        "samples": [
+          "https://jkanime.net/eat-man/1/",
+          "https://jkanime.net/eat-man/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/variable-geo/",
+        "title": "Variable Geo",
+        "samples": [
+          "https://jkanime.net/variable-geo/1/",
+          "https://jkanime.net/variable-geo/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saber-marionette-j/",
+        "title": "Saber Marionette J",
+        "samples": [
+          "https://jkanime.net/saber-marionette-j/1/",
+          "https://jkanime.net/saber-marionette-j/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hana-yori-dango/",
+        "title": "Hana yori Dango",
+        "samples": [
+          "https://jkanime.net/hana-yori-dango/27/",
+          "https://jkanime.net/hana-yori-dango/28/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jigoku-sensei-nube/",
+        "title": "Jigoku Sensei Nube",
+        "samples": [
+          "https://jkanime.net/jigoku-sensei-nube/1/",
+          "https://jkanime.net/jigoku-sensei-nube/2/"
         ]
       },
       {
@@ -39749,6 +39805,13 @@
         "title": "Magical★Explorer",
         "samples": [
           "https://jkanime.net/magical-explorer/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-revengers-santen-sensou-hen/",
+        "title": "Tokyo Revengers: Santen Sensou-hen",
+        "samples": [
+          "https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/"
         ]
       },
       {
@@ -143972,26 +144035,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 42,
+      "renewalFailed": 122,
       "families": {
-        "mp4upload": 270,
-        "vidhide": 177,
-        "mega": 172,
-        "streamwish": 207,
-        "streamtape": 172
+        "mp4upload": 250,
+        "vidhide": 129,
+        "mega": 122,
+        "streamwish": 183,
+        "streamtape": 122
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shin-tenchi-muyo/",
       "title": "Shin Tenchi Muyo!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -144004,13 +144069,15 @@
     {
       "series": "https://jkanime.net/jungle-de-ikou/",
       "title": "Jungle de Ikou!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -144043,13 +144110,15 @@
     {
       "series": "https://jkanime.net/eat-man/",
       "title": "Eat-Man",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -144063,13 +144132,15 @@
     {
       "series": "https://jkanime.net/variable-geo/",
       "title": "Variable Geo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -144101,13 +144172,15 @@
     {
       "series": "https://jkanime.net/saber-marionette-j/",
       "title": "Saber Marionette J",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -144120,32 +144193,36 @@
     {
       "series": "https://jkanime.net/hana-yori-dango/",
       "title": "Hana yori Dango",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 51,
-        "streamwish": 51,
-        "vidhide": 51,
-        "mp4upload": 51,
-        "streamtape": 51
+        "mp4upload": 53,
+        "streamwish": 30,
+        "vidhide": 27,
+        "mega": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/jigoku-sensei-nube/",
       "title": "Jigoku Sensei Nube",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 48,
         "streamwish": 48,
@@ -147533,7 +147610,8 @@
       "series": "https://jkanime.net/tokyo-revengers-santen-sensou-hen/",
       "title": "Tokyo Revengers: Santen Sensou-hen",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 5,
       "stored": 4,
@@ -147542,7 +147620,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 4,
         "streamwish": 4,
