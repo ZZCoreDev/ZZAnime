@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T22:22:55.112300+00:00",
+  "checkedAt": "2026-10-30T22:35:16.308344+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73714,
-  "storedChapters": 71953,
-  "missingChapters": 1761,
+  "observedChapters": 73752,
+  "storedChapters": 71972,
+  "missingChapters": 1780,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -570,13 +570,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatestrange-fake-whispers-of-dawn/",
-        "title": "Fate/strange Fake: Whispers of Dawn",
-        "samples": [
-          "https://jkanime.net/fatestrange-fake-whispers-of-dawn/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/seishun-buta-yarou-wa-odekake-sister-no-yume-wo-minai/",
         "title": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai",
         "samples": [
@@ -1048,13 +1041,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/",
-        "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
-        "samples": [
-          "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/cider-no-you-ni-kotoba-ga-wakiagaru/",
         "title": "Cider no You ni Kotoba ga Wakiagaru",
         "samples": [
@@ -1158,13 +1144,6 @@
         "samples": [
           "https://jkanime.net/cardfight-vanguard-overdress/13/",
           "https://jkanime.net/cardfight-vanguard-overdress/15/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
-        "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
-        "samples": [
-          "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
         ]
       },
       {
@@ -1458,13 +1437,6 @@
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
         "samples": [
           "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fategrand-order-moonlightlostroom/",
-        "title": "Fate/Grand Order: Moonlight/Lostroom",
-        "samples": [
-          "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
         ]
       },
       {
@@ -1988,13 +1960,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/",
-        "title": "Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai",
-        "samples": [
-          "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kimi-no-koe-wo-todoketai/",
         "title": "Kimi no Koe wo Todoketai",
         "samples": [
@@ -2071,13 +2036,6 @@
         "title": "New Game!: Watashi, Shain Ryokou tte Hajimete nano de...",
         "samples": [
           "https://jkanime.net/new-game-watashi-shain-ryokou-tte-hajimete-nano-de/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fairy-tail-movie-2-dragon-cry/",
-        "title": "Fairy Tail Movie 2: Dragon Cry",
-        "samples": [
-          "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
         ]
       },
       {
@@ -2159,13 +2117,6 @@
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
           "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fategrand-order-first-order/",
-        "title": "Fate/Grand Order: First Order",
-        "samples": [
-          "https://jkanime.net/fategrand-order-first-order/1/"
         ]
       },
       {
@@ -5698,7 +5649,8 @@
         "series": "https://jkanime.net/escaflowne/",
         "title": "Escaflowne",
         "samples": [
-          "https://jkanime.net/escaflowne/1/"
+          "https://jkanime.net/escaflowne/10/",
+          "https://jkanime.net/escaflowne/11/"
         ]
       },
       {
@@ -5803,8 +5755,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/16/",
-          "https://jkanime.net/taiho-shichau-zo/17/"
+          "https://jkanime.net/taiho-shichau-zo/17/",
+          "https://jkanime.net/taiho-shichau-zo/18/"
         ]
       },
       {
@@ -6043,6 +5995,14 @@
         "title": "Youjuu Toshi",
         "samples": [
           "https://jkanime.net/youjuu-toshi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/area-88/",
+        "title": "Area 88",
+        "samples": [
+          "https://jkanime.net/area-88/10/",
+          "https://jkanime.net/area-88/11/"
         ]
       },
       {
@@ -11567,13 +11527,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatestrange-fake-whispers-of-dawn/",
-        "title": "Fate/strange Fake: Whispers of Dawn",
-        "samples": [
-          "https://jkanime.net/fatestrange-fake-whispers-of-dawn/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ququ-bucai-zaixia-yeguai-2nd-season/",
         "title": "Ququ Bucai, Zaixia Yeguai 2nd Season",
         "samples": [
@@ -15047,13 +15000,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/",
-        "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
-        "samples": [
-          "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/quanzhi-fashi-v/",
         "title": "Quanzhi Fashi V",
         "samples": [
@@ -15851,13 +15797,6 @@
         "title": "B: The Beginning - Succession",
         "samples": [
           "https://jkanime.net/b-the-beginning-succession/6/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
-        "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
-        "samples": [
-          "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
         ]
       },
       {
@@ -17783,13 +17722,6 @@
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
         "samples": [
           "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fategrand-order-moonlightlostroom/",
-        "title": "Fate/Grand Order: Moonlight/Lostroom",
-        "samples": [
-          "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
         ]
       },
       {
@@ -21431,13 +21363,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/",
-        "title": "Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai",
-        "samples": [
-          "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kimi-no-koe-wo-todoketai/",
         "title": "Kimi no Koe wo Todoketai",
         "samples": [
@@ -21824,13 +21749,6 @@
         "title": "New Game!: Watashi, Shain Ryokou tte Hajimete nano de...",
         "samples": [
           "https://jkanime.net/new-game-watashi-shain-ryokou-tte-hajimete-nano-de/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fairy-tail-movie-2-dragon-cry/",
-        "title": "Fairy Tail Movie 2: Dragon Cry",
-        "samples": [
-          "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
         ]
       },
       {
@@ -22558,13 +22476,6 @@
         "samples": [
           "https://jkanime.net/super-lovers-ova/1/",
           "https://jkanime.net/super-lovers-ova/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fategrand-order-first-order/",
-        "title": "Fate/Grand Order: First Order",
-        "samples": [
-          "https://jkanime.net/fategrand-order-first-order/1/"
         ]
       },
       {
@@ -38686,13 +38597,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/escaflowne/",
-        "title": "Escaflowne",
-        "samples": [
-          "https://jkanime.net/escaflowne/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/angel-sanctuary/",
         "title": "Angel Sanctuary",
         "samples": [
@@ -39346,8 +39250,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/16/",
-          "https://jkanime.net/taiho-shichau-zo/17/"
+          "https://jkanime.net/taiho-shichau-zo/17/",
+          "https://jkanime.net/taiho-shichau-zo/18/"
         ]
       },
       {
@@ -39812,10 +39716,50 @@
         ]
       },
       {
+        "series": "https://jkanime.net/onegai-samia-don/",
+        "title": "Onegai! Samia Don",
+        "samples": [
+          "https://jkanime.net/onegai-samia-don/1/",
+          "https://jkanime.net/onegai-samia-don/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-zeta-gundam/",
+        "title": "Mobile Suit Zeta Gundam",
+        "samples": [
+          "https://jkanime.net/mobile-suit-zeta-gundam/1/",
+          "https://jkanime.net/mobile-suit-zeta-gundam/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kikou-kai-galient/",
+        "title": "Kikou Kai Galient",
+        "samples": [
+          "https://jkanime.net/kikou-kai-galient/1/",
+          "https://jkanime.net/kikou-kai-galient/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fist-of-the-north-star/",
+        "title": "fist of the north star",
+        "samples": [
+          "https://jkanime.net/fist-of-the-north-star/1/",
+          "https://jkanime.net/fist-of-the-north-star/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/wata-no-kuni-hoshi/",
         "title": "Wata no Kuni Hoshi",
         "samples": [
           "https://jkanime.net/wata-no-kuni-hoshi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/capitan-tsubasa/",
+        "title": "Capitan Tsubasa",
+        "samples": [
+          "https://jkanime.net/capitan-tsubasa/1/",
+          "https://jkanime.net/capitan-tsubasa/10/"
         ]
       },
       {
@@ -40486,13 +40430,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatestrange-fake-whispers-of-dawn/",
-        "title": "Fate/strange Fake: Whispers of Dawn",
-        "samples": [
-          "https://jkanime.net/fatestrange-fake-whispers-of-dawn/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/seishun-buta-yarou-wa-odekake-sister-no-yume-wo-minai/",
         "title": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai",
         "samples": [
@@ -40829,13 +40766,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/",
-        "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
-        "samples": [
-          "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/cider-no-you-ni-kotoba-ga-wakiagaru/",
         "title": "Cider no You ni Kotoba ga Wakiagaru",
         "samples": [
@@ -40917,13 +40847,6 @@
         "title": "Tenchi Souzou Design-bu: Idea 13",
         "samples": [
           "https://jkanime.net/tenchi-souzou-design-bu-idea-13/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
-        "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
-        "samples": [
-          "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
         ]
       },
       {
@@ -41134,13 +41057,6 @@
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
         "samples": [
           "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fategrand-order-moonlightlostroom/",
-        "title": "Fate/Grand Order: Moonlight/Lostroom",
-        "samples": [
-          "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
         ]
       },
       {
@@ -41564,13 +41480,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/",
-        "title": "Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai",
-        "samples": [
-          "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kimi-no-koe-wo-todoketai/",
         "title": "Kimi no Koe wo Todoketai",
         "samples": [
@@ -41634,13 +41543,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fairy-tail-movie-2-dragon-cry/",
-        "title": "Fairy Tail Movie 2: Dragon Cry",
-        "samples": [
-          "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/hirune-hime-shiranai-watashi-no-monogatari/",
         "title": "Hirune Hime: Shiranai Watashi no Monogatari",
         "samples": [
@@ -41680,13 +41582,6 @@
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
           "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fategrand-order-first-order/",
-        "title": "Fate/Grand Order: First Order",
-        "samples": [
-          "https://jkanime.net/fategrand-order-first-order/1/"
         ]
       },
       {
@@ -44588,13 +44483,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/escaflowne/",
-        "title": "Escaflowne",
-        "samples": [
-          "https://jkanime.net/escaflowne/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/karakuri-no-kimi/",
         "title": "Karakuri no Kimi",
         "samples": [
@@ -45254,7 +45142,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
@@ -45273,14 +45161,13 @@
         "https://jkanime.net/ao-ashi/24/",
         "https://jkanime.net/ao-ashi/3/",
         "https://jkanime.net/ao-ashi/4/",
-        "https://jkanime.net/ao-ashi/5/",
-        "https://jkanime.net/ao-ashi/9/"
+        "https://jkanime.net/ao-ashi/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
-        "mega": 4,
+        "mega": 5,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -62678,11 +62565,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 47,
+      "stored": 48,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/49/",
         "https://jkanime.net/kusuriya-no-hitorigoto/50/",
         "https://jkanime.net/kusuriya-no-hitorigoto/51/",
         "https://jkanime.net/kusuriya-no-hitorigoto/52/"
@@ -62694,7 +62580,7 @@
         "mega": 24,
         "streamwish": 36,
         "vidhide": 31,
-        "mp4upload": 43,
+        "mp4upload": 44,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -65413,20 +65299,16 @@
     {
       "series": "https://jkanime.net/fatestrange-fake-whispers-of-dawn/",
       "title": "Fate/strange Fake: Whispers of Dawn",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/fatestrange-fake-whispers-of-dawn/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -74003,7 +73885,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 24,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -75581,20 +75463,16 @@
     {
       "series": "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/",
       "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -77882,20 +77760,16 @@
     {
       "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
       "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -83350,20 +83224,16 @@
     {
       "series": "https://jkanime.net/fategrand-order-moonlightlostroom/",
       "title": "Fate/Grand Order: Moonlight/Lostroom",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -84441,22 +84311,21 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/2/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/4/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mp4upload": 5,
         "streamwish": 5,
         "vidhide": 5,
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -91907,7 +91776,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {},
       "playbackVerified": false
     },
@@ -93882,20 +93751,16 @@
     {
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/",
       "title": "Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -95113,20 +94978,16 @@
     {
       "series": "https://jkanime.net/fairy-tail-movie-2-dragon-cry/",
       "title": "Fairy Tail Movie 2: Dragon Cry",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -95860,7 +95721,7 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/1/",
         "https://jkanime.net/cinderella-girls-gekijou/10/",
@@ -95870,16 +95731,15 @@
         "https://jkanime.net/cinderella-girls-gekijou/3/",
         "https://jkanime.net/cinderella-girls-gekijou/4/",
         "https://jkanime.net/cinderella-girls-gekijou/5/",
-        "https://jkanime.net/cinderella-girls-gekijou/6/",
         "https://jkanime.net/cinderella-girls-gekijou/7/",
         "https://jkanime.net/cinderella-girls-gekijou/8/",
         "https://jkanime.net/cinderella-girls-gekijou/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -97308,20 +97168,16 @@
     {
       "series": "https://jkanime.net/fategrand-order-first-order/",
       "title": "Fate/Grand Order: First Order",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/fategrand-order-first-order/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -98153,13 +98009,12 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/cheating-craft/1/",
         "https://jkanime.net/cheating-craft/10/",
         "https://jkanime.net/cheating-craft/11/",
         "https://jkanime.net/cheating-craft/12/",
-        "https://jkanime.net/cheating-craft/2/",
         "https://jkanime.net/cheating-craft/3/",
         "https://jkanime.net/cheating-craft/4/",
         "https://jkanime.net/cheating-craft/5/",
@@ -98170,8 +98025,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
-      "families": {},
+      "renewalFailed": 11,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -102601,21 +102458,20 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/norn9-nornnonet/1/",
         "https://jkanime.net/norn9-nornnonet/2/",
         "https://jkanime.net/norn9-nornnonet/3/",
-        "https://jkanime.net/norn9-nornnonet/6/",
-        "https://jkanime.net/norn9-nornnonet/9/"
+        "https://jkanime.net/norn9-nornnonet/6/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mp4upload": 7,
-        "streamwish": 7,
-        "vidhide": 7
+        "mp4upload": 8,
+        "streamwish": 8,
+        "vidhide": 8
       },
       "playbackVerified": false
     },
@@ -106356,12 +106212,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 11,
+      "stored": 12,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/22/",
         "https://jkanime.net/ninja-slayer-from-animation/23/",
         "https://jkanime.net/ninja-slayer-from-animation/24/",
         "https://jkanime.net/ninja-slayer-from-animation/25/",
@@ -106378,7 +106233,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 10,
+        "streamwish": 11,
         "mega": 1
       },
       "playbackVerified": false
@@ -130029,7 +129884,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -130050,14 +129905,13 @@
         "https://jkanime.net/07-ghost/3/",
         "https://jkanime.net/07-ghost/4/",
         "https://jkanime.net/07-ghost/5/",
-        "https://jkanime.net/07-ghost/8/",
         "https://jkanime.net/07-ghost/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 19,
       "families": {
-        "mega": 4
+        "mega": 5
       },
       "playbackVerified": false
     },
@@ -130411,7 +130265,7 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 1,
+      "stored": 2,
       "missing": [
         "https://jkanime.net/asura-cryin/1/",
         "https://jkanime.net/asura-cryin/10/",
@@ -130423,14 +130277,13 @@
         "https://jkanime.net/asura-cryin/4/",
         "https://jkanime.net/asura-cryin/5/",
         "https://jkanime.net/asura-cryin/6/",
-        "https://jkanime.net/asura-cryin/8/",
         "https://jkanime.net/asura-cryin/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -142811,19 +142664,43 @@
       "series": "https://jkanime.net/escaflowne/",
       "title": "Escaflowne",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
-      "observed": 1,
-      "stored": 0,
+      "observed": 26,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/escaflowne/1/"
+        "https://jkanime.net/escaflowne/10/",
+        "https://jkanime.net/escaflowne/11/",
+        "https://jkanime.net/escaflowne/12/",
+        "https://jkanime.net/escaflowne/13/",
+        "https://jkanime.net/escaflowne/14/",
+        "https://jkanime.net/escaflowne/15/",
+        "https://jkanime.net/escaflowne/16/",
+        "https://jkanime.net/escaflowne/17/",
+        "https://jkanime.net/escaflowne/18/",
+        "https://jkanime.net/escaflowne/19/",
+        "https://jkanime.net/escaflowne/2/",
+        "https://jkanime.net/escaflowne/20/",
+        "https://jkanime.net/escaflowne/21/",
+        "https://jkanime.net/escaflowne/22/",
+        "https://jkanime.net/escaflowne/23/",
+        "https://jkanime.net/escaflowne/24/",
+        "https://jkanime.net/escaflowne/25/",
+        "https://jkanime.net/escaflowne/26/",
+        "https://jkanime.net/escaflowne/3/",
+        "https://jkanime.net/escaflowne/4/",
+        "https://jkanime.net/escaflowne/5/",
+        "https://jkanime.net/escaflowne/6/",
+        "https://jkanime.net/escaflowne/7/",
+        "https://jkanime.net/escaflowne/8/",
+        "https://jkanime.net/escaflowne/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -144738,9 +144615,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/16/",
         "https://jkanime.net/taiho-shichau-zo/17/",
         "https://jkanime.net/taiho-shichau-zo/18/",
         "https://jkanime.net/taiho-shichau-zo/19/",
@@ -144790,7 +144666,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 9,
+        "mp4upload": 10,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -146076,26 +145952,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 110,
+      "renewalFailed": 147,
       "families": {
-        "mega": 149,
+        "mega": 147,
         "streamwish": 152,
-        "vidhide": 149,
+        "vidhide": 147,
         "mp4upload": 152,
-        "streamtape": 149
+        "streamtape": 147
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/onegai-samia-don/",
       "title": "Onegai! Samia Don",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -146109,13 +145987,15 @@
     {
       "series": "https://jkanime.net/mobile-suit-zeta-gundam/",
       "title": "Mobile Suit Zeta Gundam",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -146128,33 +146008,45 @@
     {
       "series": "https://jkanime.net/area-88/",
       "title": "Area 88",
-      "causes": [],
-      "observed": 3,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 15,
       "stored": 3,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/area-88/10/",
+        "https://jkanime.net/area-88/11/",
+        "https://jkanime.net/area-88/12/",
+        "https://jkanime.net/area-88/13/",
+        "https://jkanime.net/area-88/14/",
+        "https://jkanime.net/area-88/15/",
+        "https://jkanime.net/area-88/4/",
+        "https://jkanime.net/area-88/5/",
+        "https://jkanime.net/area-88/6/",
+        "https://jkanime.net/area-88/7/",
+        "https://jkanime.net/area-88/8/",
+        "https://jkanime.net/area-88/9/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "mega": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kikou-kai-galient/",
       "title": "Kikou Kai Galient",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -146168,13 +146060,15 @@
     {
       "series": "https://jkanime.net/fist-of-the-north-star/",
       "title": "fist of the north star",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 109,
       "stored": 109,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 109,
       "families": {
         "mega": 109,
         "streamwish": 109,
@@ -146206,13 +146100,15 @@
     {
       "series": "https://jkanime.net/capitan-tsubasa/",
       "title": "Capitan Tsubasa",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 128,
       "stored": 128,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 35,
       "families": {
         "mega": 127,
         "streamwish": 128,
@@ -148301,14 +148197,14 @@
       "series": "https://jkanime.net/uchi-no-otouto-domo-ga-sumimasen/",
       "title": "Uchi no Otouto-domo ga Sumimasen",
       "causes": [],
-      "observed": 16,
-      "stored": 16,
+      "observed": 17,
+      "stored": 17,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 16,
+        "mega": 17,
         "streamwish": 16,
         "vidhide": 16,
         "mixdrop": 16,
