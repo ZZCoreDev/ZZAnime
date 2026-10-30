@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T16:18:31.259719+00:00",
+  "checkedAt": "2026-10-30T16:29:24.646047+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73657,
-  "storedChapters": 71844,
-  "missingChapters": 1813,
+  "storedChapters": 71847,
+  "missingChapters": 1810,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5476,8 +5476,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/39/",
-          "https://jkanime.net/tsubasa-chronicle/40/"
+          "https://jkanime.net/tsubasa-chronicle/40/",
+          "https://jkanime.net/tsubasa-chronicle/41/"
         ]
       },
       {
@@ -5640,7 +5640,6 @@
         "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
         "title": "Astro Boy: Tetsuwan Atom",
         "samples": [
-          "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
           "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
         ]
       },
@@ -36736,8 +36735,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/39/",
-          "https://jkanime.net/tsubasa-chronicle/40/"
+          "https://jkanime.net/tsubasa-chronicle/40/",
+          "https://jkanime.net/tsubasa-chronicle/41/"
         ]
       },
       {
@@ -37930,7 +37929,6 @@
         "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
         "title": "Astro Boy: Tetsuwan Atom",
         "samples": [
-          "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
           "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
         ]
       },
@@ -37940,6 +37938,38 @@
         "samples": [
           "https://jkanime.net/sonic-x/1/",
           "https://jkanime.net/sonic-x/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zatch-bell/",
+        "title": "Konjiki no Gash Bell!!",
+        "samples": [
+          "https://jkanime.net/zatch-bell/1/",
+          "https://jkanime.net/zatch-bell/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mermaid-melody-pichi-pichi-pitch/",
+        "title": "Mermaid Melody Pichi Pichi Pitch",
+        "samples": [
+          "https://jkanime.net/mermaid-melody-pichi-pichi-pitch/1/",
+          "https://jkanime.net/mermaid-melody-pichi-pichi-pitch/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/matantei-loki-ragnarok/",
+        "title": "Matantei Loki Ragnarok",
+        "samples": [
+          "https://jkanime.net/matantei-loki-ragnarok/1/",
+          "https://jkanime.net/matantei-loki-ragnarok/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaleido-star/",
+        "title": "Kaleido Star",
+        "samples": [
+          "https://jkanime.net/kaleido-star/1/",
+          "https://jkanime.net/kaleido-star/10/"
         ]
       },
       {
@@ -44038,7 +44068,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
         "mp4upload": 1,
         "vidhide": 1
@@ -61472,7 +61502,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "families": {
         "mega": 23,
         "streamwish": 24,
@@ -72795,7 +72825,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {
         "streamwish": 13,
         "mega": 9,
@@ -73987,7 +74017,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mp4upload": 18,
         "mega": 7,
@@ -101288,7 +101318,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -101439,7 +101469,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 5,
         "streamwish": 5,
@@ -105188,12 +105218,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/17/",
-        "https://jkanime.net/ninja-slayer-from-animation/19/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/20/",
         "https://jkanime.net/ninja-slayer-from-animation/21/",
@@ -105214,7 +105243,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 7
+        "streamwish": 8
       },
       "playbackVerified": false
     },
@@ -135653,9 +135682,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 38,
+      "stored": 39,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/39/",
         "https://jkanime.net/tsubasa-chronicle/40/",
         "https://jkanime.net/tsubasa-chronicle/41/",
         "https://jkanime.net/tsubasa-chronicle/42/",
@@ -135674,9 +135702,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 39,
-        "streamwish": 38,
-        "vidhide": 39,
+        "mp4upload": 40,
+        "streamwish": 39,
+        "vidhide": 40,
         "mega": 1,
         "streamtape": 1
       },
@@ -138547,7 +138575,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
@@ -138949,16 +138977,15 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 50,
+      "stored": 51,
       "missing": [
-        "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
         "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 50,
+        "mp4upload": 51,
         "mega": 1,
         "streamwish": 1,
         "vidhide": 1,
@@ -138978,27 +139005,29 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 19,
       "families": {
-        "mega": 43,
-        "streamwish": 43,
-        "vidhide": 43,
-        "mixdrop": 43,
+        "mega": 19,
+        "streamwish": 19,
+        "vidhide": 19,
+        "mixdrop": 19,
         "mp4upload": 78,
-        "streamtape": 43
+        "streamtape": 19
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/zatch-bell/",
       "title": "Konjiki no Gash Bell!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 150,
       "stored": 150,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 150,
       "families": {
         "mega": 150,
         "streamwish": 150,
@@ -139011,13 +139040,15 @@
     {
       "series": "https://jkanime.net/mermaid-melody-pichi-pichi-pitch/",
       "title": "Mermaid Melody Pichi Pichi Pitch",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -139031,13 +139062,15 @@
     {
       "series": "https://jkanime.net/matantei-loki-ragnarok/",
       "title": "Matantei Loki Ragnarok",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -139050,20 +139083,21 @@
     {
       "series": "https://jkanime.net/kaleido-star/",
       "title": "Kaleido Star",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 51,
+        "mega": 31,
         "streamwish": 51,
         "vidhide": 51,
         "mp4upload": 51,
-        "streamtape": 51,
-        "mixdrop": 2
+        "streamtape": 31
       },
       "playbackVerified": false
     },
@@ -145088,7 +145122,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
