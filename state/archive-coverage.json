@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T08:27:38.934976+00:00",
+  "checkedAt": "2026-10-30T08:41:10.851182+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73561,
-  "storedChapters": 71748,
-  "missingChapters": 1813,
+  "observedChapters": 73564,
+  "storedChapters": 71749,
+  "missingChapters": 1815,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5212,6 +5212,14 @@
         "samples": [
           "https://jkanime.net/asura-cryin/1/",
           "https://jkanime.net/asura-cryin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-axis-powers/",
+        "title": "Hetalia Axis Powers",
+        "samples": [
+          "https://jkanime.net/hetalia-axis-powers/53/",
+          "https://jkanime.net/hetalia-axis-powers/54/"
         ]
       },
       {
@@ -34411,11 +34419,107 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hayate-no-gotoku-2/",
+        "title": "Hayate no Gotoku!! S2",
+        "samples": [
+          "https://jkanime.net/hayate-no-gotoku-2/1/",
+          "https://jkanime.net/hayate-no-gotoku-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/to-love-ru-ovas/",
+        "title": "To LOVE-Ru OVA",
+        "samples": [
+          "https://jkanime.net/to-love-ru-ovas/1/",
+          "https://jkanime.net/to-love-ru-ovas/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/basquash/",
+        "title": "Basquash!",
+        "samples": [
+          "https://jkanime.net/basquash/1/",
+          "https://jkanime.net/basquash/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
           "https://jkanime.net/asura-cryin/1/",
           "https://jkanime.net/asura-cryin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pandora-hearts/",
+        "title": "Pandora Hearts",
+        "samples": [
+          "https://jkanime.net/pandora-hearts/1/",
+          "https://jkanime.net/pandora-hearts/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/requiem-for-the-phantom/",
+        "title": "Phantom: Requiem for the Phantom",
+        "samples": [
+          "https://jkanime.net/requiem-for-the-phantom/1/",
+          "https://jkanime.net/requiem-for-the-phantom/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/k-on/",
+        "title": "K-ON!",
+        "samples": [
+          "https://jkanime.net/k-on/1/",
+          "https://jkanime.net/k-on/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sengoku-basara/",
+        "title": "Sengoku Basara",
+        "samples": [
+          "https://jkanime.net/sengoku-basara/1/",
+          "https://jkanime.net/sengoku-basara/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsubasa-chronicle-shunraiki/",
+        "title": "Tsubasa Chronicle: Shunraiki",
+        "samples": [
+          "https://jkanime.net/tsubasa-chronicle-shunraiki/1/",
+          "https://jkanime.net/tsubasa-chronicle-shunraiki/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/higurashi-no-naku-koroni-rei/",
+        "title": "Higurashi no Naku Koro ni Rei",
+        "samples": [
+          "https://jkanime.net/higurashi-no-naku-koroni-rei/1/",
+          "https://jkanime.net/higurashi-no-naku-koroni-rei/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-majutsu-no-index-specials/",
+        "title": "Toaru Majutsu no Index Specials",
+        "samples": [
+          "https://jkanime.net/toaru-majutsu-no-index-specials/1/",
+          "https://jkanime.net/toaru-majutsu-no-index-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fresh-precure/",
+        "title": "Fresh Precure!",
+        "samples": [
+          "https://jkanime.net/fresh-precure/1/",
+          "https://jkanime.net/fresh-precure/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-axis-powers/",
+        "title": "Hetalia Axis Powers",
+        "samples": [
+          "https://jkanime.net/hetalia-axis-powers/53/",
+          "https://jkanime.net/hetalia-axis-powers/54/"
         ]
       },
       {
@@ -82735,7 +82839,7 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/",
@@ -82748,7 +82852,6 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/19/",
         "https://jkanime.net/fight-league-gear-gadget-generators/2/",
         "https://jkanime.net/fight-league-gear-gadget-generators/20/",
-        "https://jkanime.net/fight-league-gear-gadget-generators/26/",
         "https://jkanime.net/fight-league-gear-gadget-generators/3/",
         "https://jkanime.net/fight-league-gear-gadget-generators/4/",
         "https://jkanime.net/fight-league-gear-gadget-generators/5/",
@@ -82761,7 +82864,7 @@
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 7
+        "mp4upload": 8
       },
       "playbackVerified": false
     },
@@ -87624,7 +87727,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {},
       "playbackVerified": false
     },
@@ -110663,7 +110766,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "mp4upload": 1
       },
@@ -126105,7 +126208,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -126118,13 +126221,15 @@
     {
       "series": "https://jkanime.net/hayate-no-gotoku-2/",
       "title": "Hayate no Gotoku!! S2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -126137,13 +126242,15 @@
     {
       "series": "https://jkanime.net/to-love-ru-ovas/",
       "title": "To LOVE-Ru OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -126156,19 +126263,21 @@
     {
       "series": "https://jkanime.net/basquash/",
       "title": "Basquash!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mega": 25,
         "streamwish": 26,
         "vidhide": 26,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 25
       },
       "playbackVerified": false
     },
@@ -126205,13 +126314,15 @@
     {
       "series": "https://jkanime.net/pandora-hearts/",
       "title": "Pandora Hearts",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -126243,13 +126354,15 @@
     {
       "series": "https://jkanime.net/requiem-for-the-phantom/",
       "title": "Phantom: Requiem for the Phantom",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -126262,13 +126375,15 @@
     {
       "series": "https://jkanime.net/k-on/",
       "title": "K-ON!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -126281,13 +126396,15 @@
     {
       "series": "https://jkanime.net/sengoku-basara/",
       "title": "Sengoku Basara",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -126300,13 +126417,15 @@
     {
       "series": "https://jkanime.net/tsubasa-chronicle-shunraiki/",
       "title": "Tsubasa Chronicle: Shunraiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -126327,24 +126446,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/higurashi-no-naku-koroni-rei/",
       "title": "Higurashi no Naku Koro ni Rei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -126357,13 +126474,15 @@
     {
       "series": "https://jkanime.net/toaru-majutsu-no-index-specials/",
       "title": "Toaru Majutsu no Index Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -126376,39 +126495,48 @@
     {
       "series": "https://jkanime.net/fresh-precure/",
       "title": "Fresh Precure!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 34,
       "families": {
-        "mega": 50,
+        "mega": 34,
         "streamwish": 50,
-        "vidhide": 50,
-        "mixdrop": 50,
-        "mp4upload": 50,
-        "streamtape": 50
+        "vidhide": 36,
+        "mixdrop": 34,
+        "mp4upload": 36,
+        "streamtape": 34
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hetalia-axis-powers/",
       "title": "Hetalia Axis Powers",
-      "causes": [],
-      "observed": 52,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 55,
       "stored": 52,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hetalia-axis-powers/53/",
+        "https://jkanime.net/hetalia-axis-powers/54/",
+        "https://jkanime.net/hetalia-axis-powers/55/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 30,
       "families": {
-        "mega": 52,
+        "mega": 50,
         "streamwish": 52,
         "vidhide": 52,
         "mp4upload": 52,
-        "streamtape": 52
+        "streamtape": 50
       },
       "playbackVerified": false
     },
