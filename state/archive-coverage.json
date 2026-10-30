@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T21:56:10.318184+00:00",
+  "checkedAt": "2026-10-30T22:07:17.468224+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73714,
-  "storedChapters": 71923,
-  "missingChapters": 1791,
+  "storedChapters": 71938,
+  "missingChapters": 1776,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -768,13 +768,6 @@
         "title": "Natsu e no Tunnel, Sayonara no Deguchi",
         "samples": [
           "https://jkanime.net/natsu-e-no-tunnel-sayonara-no-deguchi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/one-piece-film-red/",
-        "title": "One Piece Film: Red",
-        "samples": [
-          "https://jkanime.net/one-piece-film-red/1/"
         ]
       },
       {
@@ -2647,13 +2640,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-punch-man-road-to-hero/",
-        "title": "One Punch Man: Road to Hero",
-        "samples": [
-          "https://jkanime.net/one-punch-man-road-to-hero/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/steinsgate-kyoukaimenjou-no-missing-link/",
         "title": "Steins;Gate: Kyoukaimenjou no Missing Link",
         "samples": [
@@ -3016,13 +3002,6 @@
         "title": "Trinity Seven OVA",
         "samples": [
           "https://jkanime.net/trinity-seven-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ongaku-shoujo/",
-        "title": "Ongaku Shoujo",
-        "samples": [
-          "https://jkanime.net/ongaku-shoujo/1/"
         ]
       },
       {
@@ -4256,13 +4235,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-piece-film-z/",
-        "title": "One Piece Film Z",
-        "samples": [
-          "https://jkanime.net/one-piece-film-z/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-episode-of-luffy-hand-island-no-bouken/",
         "title": "One Piece: Episode of Luffy - Hand Island no Bouken",
         "samples": [
@@ -4508,13 +4480,6 @@
         "title": "The iDOLM@STER: 765 Pro to Iu Monogatari",
         "samples": [
           "https://jkanime.net/the-idolmster-765-pro-to-iu-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/",
-        "title": "Ookami Kodomo no Ame to Yuki",
-        "samples": [
-          "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/1/"
         ]
       },
       {
@@ -5859,8 +5824,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/14/",
-          "https://jkanime.net/taiho-shichau-zo/15/"
+          "https://jkanime.net/taiho-shichau-zo/15/",
+          "https://jkanime.net/taiho-shichau-zo/16/"
         ]
       },
       {
@@ -13314,13 +13279,6 @@
         "samples": [
           "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean-part-2/1/",
           "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean-part-2/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/one-piece-film-red/",
-        "title": "One Piece Film: Red",
-        "samples": [
-          "https://jkanime.net/one-piece-film-red/1/"
         ]
       },
       {
@@ -24718,13 +24676,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-punch-man-road-to-hero/",
-        "title": "One Punch Man: Road to Hero",
-        "samples": [
-          "https://jkanime.net/one-punch-man-road-to-hero/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/steinsgate-kyoukaimenjou-no-missing-link/",
         "title": "Steins;Gate: Kyoukaimenjou no Missing Link",
         "samples": [
@@ -26194,13 +26145,6 @@
         "title": "Trinity Seven OVA",
         "samples": [
           "https://jkanime.net/trinity-seven-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ongaku-shoujo/",
-        "title": "Ongaku Shoujo",
-        "samples": [
-          "https://jkanime.net/ongaku-shoujo/1/"
         ]
       },
       {
@@ -30788,13 +30732,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-piece-film-z/",
-        "title": "One Piece Film Z",
-        "samples": [
-          "https://jkanime.net/one-piece-film-z/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-episode-of-luffy-hand-island-no-bouken/",
         "title": "One Piece: Episode of Luffy - Hand Island no Bouken",
         "samples": [
@@ -31510,13 +31447,6 @@
         "title": "The iDOLM@STER: 765 Pro to Iu Monogatari",
         "samples": [
           "https://jkanime.net/the-idolmster-765-pro-to-iu-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/",
-        "title": "Ookami Kodomo no Ame to Yuki",
-        "samples": [
-          "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/1/"
         ]
       },
       {
@@ -39465,8 +39395,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/14/",
-          "https://jkanime.net/taiho-shichau-zo/15/"
+          "https://jkanime.net/taiho-shichau-zo/15/",
+          "https://jkanime.net/taiho-shichau-zo/16/"
         ]
       },
       {
@@ -39847,6 +39777,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/samurais-warrios/",
+        "title": "Ronin Warriors",
+        "samples": [
+          "https://jkanime.net/samurais-warrios/1/",
+          "https://jkanime.net/samurais-warrios/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/my-neighbor-totoro/",
         "title": "My Neighbor Totoro",
         "samples": [
@@ -39861,6 +39799,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ginga-eiyuu-densetsu/",
+        "title": "Ginga Eiyuu Densetsu",
+        "samples": [
+          "https://jkanime.net/ginga-eiyuu-densetsu/101/",
+          "https://jkanime.net/ginga-eiyuu-densetsu/102/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/saint-seiya-jashin-eris/",
         "title": "Saint Seiya: Jashin Eris",
         "samples": [
@@ -39872,6 +39818,30 @@
         "title": "Youjuu Toshi",
         "samples": [
           "https://jkanime.net/youjuu-toshi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimagure-orangeroad/",
+        "title": "Kimagure Orange Road",
+        "samples": [
+          "https://jkanime.net/kimagure-orangeroad/1/",
+          "https://jkanime.net/kimagure-orangeroad/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bubblegum-crisis/",
+        "title": "Bubblegum Crisis",
+        "samples": [
+          "https://jkanime.net/bubblegum-crisis/1/",
+          "https://jkanime.net/bubblegum-crisis/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya/",
+        "title": "Saint Seiya",
+        "samples": [
+          "https://jkanime.net/saint-seiya/1/",
+          "https://jkanime.net/saint-seiya/10/"
         ]
       },
       {
@@ -40679,13 +40649,6 @@
         "title": "Natsu e no Tunnel, Sayonara no Deguchi",
         "samples": [
           "https://jkanime.net/natsu-e-no-tunnel-sayonara-no-deguchi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/one-piece-film-red/",
-        "title": "One Piece Film: Red",
-        "samples": [
-          "https://jkanime.net/one-piece-film-red/1/"
         ]
       },
       {
@@ -42082,13 +42045,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-punch-man-road-to-hero/",
-        "title": "One Punch Man: Road to Hero",
-        "samples": [
-          "https://jkanime.net/one-punch-man-road-to-hero/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/steinsgate-kyoukaimenjou-no-missing-link/",
         "title": "Steins;Gate: Kyoukaimenjou no Missing Link",
         "samples": [
@@ -42373,13 +42329,6 @@
         "title": "Trinity Seven OVA",
         "samples": [
           "https://jkanime.net/trinity-seven-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ongaku-shoujo/",
-        "title": "Ongaku Shoujo",
-        "samples": [
-          "https://jkanime.net/ongaku-shoujo/1/"
         ]
       },
       {
@@ -43461,13 +43410,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-piece-film-z/",
-        "title": "One Piece Film Z",
-        "samples": [
-          "https://jkanime.net/one-piece-film-z/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-episode-of-luffy-hand-island-no-bouken/",
         "title": "One Piece: Episode of Luffy - Hand Island no Bouken",
         "samples": [
@@ -43675,13 +43617,6 @@
         "title": "The iDOLM@STER: 765 Pro to Iu Monogatari",
         "samples": [
           "https://jkanime.net/the-idolmster-765-pro-to-iu-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/",
-        "title": "Ookami Kodomo no Ame to Yuki",
-        "samples": [
-          "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/1/"
         ]
       },
       {
@@ -45373,7 +45308,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
@@ -45393,15 +45328,14 @@
         "https://jkanime.net/ao-ashi/3/",
         "https://jkanime.net/ao-ashi/4/",
         "https://jkanime.net/ao-ashi/5/",
-        "https://jkanime.net/ao-ashi/7/",
         "https://jkanime.net/ao-ashi/8/",
         "https://jkanime.net/ao-ashi/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 20,
       "families": {
-        "mega": 2,
+        "mega": 3,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -45415,12 +45349,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/",
-        "https://jkanime.net/megalo-box/2/",
         "https://jkanime.net/megalo-box/3/",
         "https://jkanime.net/megalo-box/4/",
         "https://jkanime.net/megalo-box/5/",
@@ -45431,9 +45364,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -62801,11 +62734,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 44,
+      "stored": 45,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/47/",
         "https://jkanime.net/kusuriya-no-hitorigoto/48/",
         "https://jkanime.net/kusuriya-no-hitorigoto/49/",
         "https://jkanime.net/kusuriya-no-hitorigoto/50/",
@@ -62819,8 +62751,8 @@
       "families": {
         "mega": 23,
         "streamwish": 36,
-        "vidhide": 29,
-        "mp4upload": 41,
+        "vidhide": 30,
+        "mp4upload": 42,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -70436,20 +70368,16 @@
     {
       "series": "https://jkanime.net/one-piece-film-red/",
       "title": "One Piece Film: Red",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/one-piece-film-red/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -74135,7 +74063,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -74941,7 +74869,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
@@ -74949,16 +74877,15 @@
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/",
         "https://jkanime.net/kyoukai-senki/20/",
-        "https://jkanime.net/kyoukai-senki/22/",
         "https://jkanime.net/kyoukai-senki/23/",
         "https://jkanime.net/kyoukai-senki/24/",
         "https://jkanime.net/kyoukai-senki/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 20,
       "families": {
-        "mega": 13,
+        "mega": 14,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -84580,22 +84507,22 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/chuubyou-gekihatsu-boy/1/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/2/",
-        "https://jkanime.net/chuubyou-gekihatsu-boy/3/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/4/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "mp4upload": 5,
         "streamwish": 5,
-        "vidhide": 5
+        "vidhide": 5,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -96003,12 +95930,11 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 0,
+      "stored": 1,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/1/",
         "https://jkanime.net/cinderella-girls-gekijou/10/",
         "https://jkanime.net/cinderella-girls-gekijou/11/",
-        "https://jkanime.net/cinderella-girls-gekijou/12/",
         "https://jkanime.net/cinderella-girls-gekijou/13/",
         "https://jkanime.net/cinderella-girls-gekijou/2/",
         "https://jkanime.net/cinderella-girls-gekijou/3/",
@@ -96021,8 +95947,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
-      "families": {},
+      "renewalFailed": 12,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -102252,22 +102180,21 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/3/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/4/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/5/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/6/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/8/"
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/6/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 4,
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -103353,20 +103280,16 @@
     {
       "series": "https://jkanime.net/one-punch-man-road-to-hero/",
       "title": "One Punch Man: Road to Hero",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/one-punch-man-road-to-hero/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -106503,11 +106426,10 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
-        "https://jkanime.net/ninja-slayer-from-animation/17/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/22/",
         "https://jkanime.net/ninja-slayer-from-animation/23/",
@@ -106524,9 +106446,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "streamwish": 10
+        "streamwish": 10,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -107609,20 +107532,16 @@
     {
       "series": "https://jkanime.net/ongaku-shoujo/",
       "title": "Ongaku Shoujo",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/ongaku-shoujo/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -120383,20 +120302,16 @@
     {
       "series": "https://jkanime.net/one-piece-film-z/",
       "title": "One Piece Film Z",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/one-piece-film-z/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -122497,20 +122412,16 @@
     {
       "series": "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/",
       "title": "Ookami Kodomo no Ame to Yuki",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/ookami-kodomo-no-ame-to-yuki/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -130188,7 +130099,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/07-ghost/1/",
         "https://jkanime.net/07-ghost/10/",
@@ -130209,16 +130120,15 @@
         "https://jkanime.net/07-ghost/3/",
         "https://jkanime.net/07-ghost/4/",
         "https://jkanime.net/07-ghost/5/",
-        "https://jkanime.net/07-ghost/6/",
         "https://jkanime.net/07-ghost/7/",
         "https://jkanime.net/07-ghost/8/",
         "https://jkanime.net/07-ghost/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 20,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -144902,9 +144812,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/14/",
         "https://jkanime.net/taiho-shichau-zo/15/",
         "https://jkanime.net/taiho-shichau-zo/16/",
         "https://jkanime.net/taiho-shichau-zo/17/",
@@ -144956,7 +144865,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 7,
+        "mp4upload": 8,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -145960,7 +145869,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 98,
+      "renewalFailed": 161,
       "families": {
         "mega": 161,
         "streamwish": 161,
@@ -146030,13 +145939,15 @@
     {
       "series": "https://jkanime.net/samurais-warrios/",
       "title": "Ronin Warriors",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 36,
         "streamwish": 39,
@@ -146087,20 +145998,22 @@
     {
       "series": "https://jkanime.net/ginga-eiyuu-densetsu/",
       "title": "Ginga Eiyuu Densetsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 110,
       "stored": 110,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
-        "mega": 110,
-        "streamwish": 110,
-        "vidhide": 110,
-        "mixdrop": 110,
-        "mp4upload": 110,
-        "streamtape": 106
+        "mp4upload": 102,
+        "streamwish": 42,
+        "mega": 19,
+        "vidhide": 19,
+        "mixdrop": 19,
+        "streamtape": 17
       },
       "playbackVerified": false
     },
@@ -146145,13 +146058,15 @@
     {
       "series": "https://jkanime.net/kimagure-orangeroad/",
       "title": "Kimagure Orange Road",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 48,
       "stored": 48,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 48,
       "families": {
         "mega": 47,
         "streamwish": 48,
@@ -146164,13 +146079,15 @@
     {
       "series": "https://jkanime.net/bubblegum-crisis/",
       "title": "Bubblegum Crisis",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -146184,19 +146101,21 @@
     {
       "series": "https://jkanime.net/saint-seiya/",
       "title": "Saint Seiya",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 114,
       "stored": 114,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 17,
       "families": {
-        "mega": 110,
-        "streamwish": 114,
-        "vidhide": 114,
+        "mega": 95,
+        "streamwish": 108,
+        "vidhide": 112,
         "mp4upload": 114,
-        "streamtape": 114
+        "streamtape": 99
       },
       "playbackVerified": false
     },
