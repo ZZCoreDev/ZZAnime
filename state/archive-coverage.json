@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T16:03:35.044918+00:00",
+  "checkedAt": "2026-10-30T16:18:31.259719+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73655,
-  "storedChapters": 71838,
-  "missingChapters": 1817,
+  "observedChapters": 73657,
+  "storedChapters": 71844,
+  "missingChapters": 1813,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -529,8 +529,8 @@
         "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
         "title": "Kusuriya no Hitorigoto",
         "samples": [
-          "https://jkanime.net/kusuriya-no-hitorigoto/25/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/26/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/26/",
+          "https://jkanime.net/kusuriya-no-hitorigoto/27/"
         ]
       },
       {
@@ -5476,8 +5476,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/38/",
-          "https://jkanime.net/tsubasa-chronicle/39/"
+          "https://jkanime.net/tsubasa-chronicle/39/",
+          "https://jkanime.net/tsubasa-chronicle/40/"
         ]
       },
       {
@@ -5559,13 +5559,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hit-wo-nerae/",
-        "title": "Hit wo Nerae!",
-        "samples": [
-          "https://jkanime.net/hit-wo-nerae/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/saint-seiya-tenkai-hen/",
         "title": "Saint Seiya: Tenkai-hen",
         "samples": [
@@ -5641,6 +5634,14 @@
         "title": "Naruto: Akaki Yotsuba no Clover wo Sagase",
         "samples": [
           "https://jkanime.net/naruto-akaki-yotsuba-no-clover-wo-sagase/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
+        "title": "Astro Boy: Tetsuwan Atom",
+        "samples": [
+          "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
+          "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
         ]
       },
       {
@@ -10726,8 +10727,8 @@
         "series": "https://jkanime.net/kusuriya-no-hitorigoto/",
         "title": "Kusuriya no Hitorigoto",
         "samples": [
-          "https://jkanime.net/kusuriya-no-hitorigoto/25/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/26/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/26/",
+          "https://jkanime.net/kusuriya-no-hitorigoto/27/"
         ]
       },
       {
@@ -36735,8 +36736,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/38/",
-          "https://jkanime.net/tsubasa-chronicle/39/"
+          "https://jkanime.net/tsubasa-chronicle/39/",
+          "https://jkanime.net/tsubasa-chronicle/40/"
         ]
       },
       {
@@ -37428,7 +37429,7 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/9/"
+          "https://jkanime.net/hit-wo-nerae/4/"
         ]
       },
       {
@@ -37859,6 +37860,86 @@
         "samples": [
           "https://jkanime.net/texhnolyze/1/",
           "https://jkanime.net/texhnolyze/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gad-guard/",
+        "title": "Gad Guard",
+        "samples": [
+          "https://jkanime.net/gad-guard/1/",
+          "https://jkanime.net/gad-guard/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-gakuen-q/",
+        "title": "Tantei Gakuen Q",
+        "samples": [
+          "https://jkanime.net/tantei-gakuen-q/1/",
+          "https://jkanime.net/tantei-gakuen-q/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ninja-scroll/",
+        "title": "Ninja Scroll: The Series",
+        "samples": [
+          "https://jkanime.net/ninja-scroll/1/",
+          "https://jkanime.net/ninja-scroll/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/narue-no-sekai/",
+        "title": "Narue no Sekai",
+        "samples": [
+          "https://jkanime.net/narue-no-sekai/1/",
+          "https://jkanime.net/narue-no-sekai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world/",
+        "title": "Kino no Tabi: The Beautiful World",
+        "samples": [
+          "https://jkanime.net/kino-no-tabi-the-beautiful-world/1/",
+          "https://jkanime.net/kino-no-tabi-the-beautiful-world/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/scrapped-princess/",
+        "title": "Scrapped Princess",
+        "samples": [
+          "https://jkanime.net/scrapped-princess/1/",
+          "https://jkanime.net/scrapped-princess/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/last-exile/",
+        "title": "Last Exile",
+        "samples": [
+          "https://jkanime.net/last-exile/1/",
+          "https://jkanime.net/last-exile/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/witchblade/",
+        "title": "Witchblade",
+        "samples": [
+          "https://jkanime.net/witchblade/1/",
+          "https://jkanime.net/witchblade/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
+        "title": "Astro Boy: Tetsuwan Atom",
+        "samples": [
+          "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
+          "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sonic-x/",
+        "title": "Sonic X",
+        "samples": [
+          "https://jkanime.net/sonic-x/1/",
+          "https://jkanime.net/sonic-x/15/"
         ]
       },
       {
@@ -38479,6 +38560,13 @@
         "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
         "samples": [
           "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-anbu-no-item/",
+        "title": "Toaru Anbu no Item",
+        "samples": [
+          "https://jkanime.net/toaru-anbu-no-item/4/"
         ]
       },
       {
@@ -43950,7 +44038,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "mp4upload": 1,
         "vidhide": 1
@@ -61351,9 +61439,8 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 24,
+      "stored": 25,
       "missing": [
-        "https://jkanime.net/kusuriya-no-hitorigoto/25/",
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/27/",
         "https://jkanime.net/kusuriya-no-hitorigoto/28/",
@@ -61389,7 +61476,7 @@
       "families": {
         "mega": 23,
         "streamwish": 24,
-        "vidhide": 18,
+        "vidhide": 19,
         "mp4upload": 24,
         "streamtape": 22
       },
@@ -72708,7 +72795,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 21,
       "families": {
         "streamwish": 13,
         "mega": 9,
@@ -73885,7 +73972,7 @@
         "renewal-error"
       ],
       "observed": 28,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/megaton-kyuu-musashi/14/",
         "https://jkanime.net/megaton-kyuu-musashi/15/",
@@ -73893,7 +73980,6 @@
         "https://jkanime.net/megaton-kyuu-musashi/19/",
         "https://jkanime.net/megaton-kyuu-musashi/20/",
         "https://jkanime.net/megaton-kyuu-musashi/22/",
-        "https://jkanime.net/megaton-kyuu-musashi/24/",
         "https://jkanime.net/megaton-kyuu-musashi/25/",
         "https://jkanime.net/megaton-kyuu-musashi/26/",
         "https://jkanime.net/megaton-kyuu-musashi/27/",
@@ -73903,7 +73989,7 @@
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
-        "mp4upload": 17,
+        "mp4upload": 18,
         "mega": 7,
         "streamwish": 7,
         "vidhide": 7,
@@ -97049,7 +97135,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -101202,7 +101288,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -101341,12 +101427,11 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/norn9-nornnonet/1/",
         "https://jkanime.net/norn9-nornnonet/2/",
         "https://jkanime.net/norn9-nornnonet/3/",
-        "https://jkanime.net/norn9-nornnonet/5/",
         "https://jkanime.net/norn9-nornnonet/6/",
         "https://jkanime.net/norn9-nornnonet/7/",
         "https://jkanime.net/norn9-nornnonet/8/",
@@ -101356,9 +101441,9 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 4,
-        "vidhide": 4
+        "mp4upload": 5,
+        "streamwish": 5,
+        "vidhide": 5
       },
       "playbackVerified": false
     },
@@ -105103,12 +105188,11 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/17/",
-        "https://jkanime.net/ninja-slayer-from-animation/18/",
         "https://jkanime.net/ninja-slayer-from-animation/19/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/20/",
@@ -105130,7 +105214,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "streamwish": 6
+        "streamwish": 7
       },
       "playbackVerified": false
     },
@@ -135569,9 +135653,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 37,
+      "stored": 38,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/38/",
         "https://jkanime.net/tsubasa-chronicle/39/",
         "https://jkanime.net/tsubasa-chronicle/40/",
         "https://jkanime.net/tsubasa-chronicle/41/",
@@ -135591,9 +135674,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 38,
-        "streamwish": 37,
-        "vidhide": 38,
+        "mp4upload": 39,
+        "streamwish": 38,
+        "vidhide": 39,
         "mega": 1,
         "streamtape": 1
       },
@@ -137495,19 +137578,16 @@
       "series": "https://jkanime.net/hit-wo-nerae/",
       "title": "Hit wo Nerae!",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/hit-wo-nerae/9/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 10,
+        "mp4upload": 11,
         "streamwish": 8,
         "mega": 1,
         "vidhide": 1,
@@ -138467,7 +138547,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
@@ -138678,7 +138758,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -138692,13 +138772,15 @@
     {
       "series": "https://jkanime.net/gad-guard/",
       "title": "Gad Guard",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -138712,13 +138794,15 @@
     {
       "series": "https://jkanime.net/tantei-gakuen-q/",
       "title": "Tantei Gakuen Q",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 45,
       "stored": 45,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 45,
       "families": {
         "mega": 45,
         "streamwish": 45,
@@ -138731,13 +138815,15 @@
     {
       "series": "https://jkanime.net/ninja-scroll/",
       "title": "Ninja Scroll: The Series",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138750,13 +138836,15 @@
     {
       "series": "https://jkanime.net/narue-no-sekai/",
       "title": "Narue no Sekai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -138770,13 +138858,15 @@
     {
       "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world/",
       "title": "Kino no Tabi: The Beautiful World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -138790,33 +138880,37 @@
     {
       "series": "https://jkanime.net/scrapped-princess/",
       "title": "Scrapped Princess",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
-        "mega": 24,
+        "mega": 22,
         "streamwish": 24,
         "vidhide": 24,
-        "mixdrop": 24,
+        "mixdrop": 22,
         "mp4upload": 24,
-        "streamtape": 24
+        "streamtape": 22
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/last-exile/",
       "title": "Last Exile",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -138829,13 +138923,15 @@
     {
       "series": "https://jkanime.net/witchblade/",
       "title": "Witchblade",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -138848,40 +138944,48 @@
     {
       "series": "https://jkanime.net/astro-boy-tetsuwan-atom/",
       "title": "Astro Boy: Tetsuwan Atom",
-      "causes": [],
-      "observed": 50,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 52,
       "stored": 50,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
+        "https://jkanime.net/astro-boy-tetsuwan-atom/52/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 50,
-        "streamwish": 50,
-        "vidhide": 50,
-        "mixdrop": 50,
         "mp4upload": 50,
-        "streamtape": 50
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sonic-x/",
       "title": "Sonic X",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 78,
       "stored": 78,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
-        "mega": 78,
-        "streamwish": 78,
-        "vidhide": 78,
-        "mixdrop": 78,
+        "mega": 43,
+        "streamwish": 43,
+        "vidhide": 43,
+        "mixdrop": 43,
         "mp4upload": 78,
-        "streamtape": 77
+        "streamtape": 43
       },
       "playbackVerified": false
     },
@@ -144984,7 +145088,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -145388,7 +145492,8 @@
       "series": "https://jkanime.net/toaru-anbu-no-item/",
       "title": "Toaru Anbu no Item",
       "causes": [
-        "observed-chapters-without-options"
+        "observed-chapters-without-options",
+        "renewal-error"
       ],
       "observed": 4,
       "stored": 3,
@@ -145397,7 +145502,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 3,
         "streamwish": 3,
