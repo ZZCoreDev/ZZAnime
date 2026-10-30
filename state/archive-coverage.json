@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T20:54:43.748624+00:00",
+  "checkedAt": "2026-10-30T21:08:12.721477+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73667,
-  "storedChapters": 71891,
-  "missingChapters": 1776,
+  "observedChapters": 73714,
+  "storedChapters": 71892,
+  "missingChapters": 1822,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5916,6 +5916,14 @@
         "title": "Darkside Blues",
         "samples": [
           "https://jkanime.net/darkside-blues/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taiho-shichau-zo/",
+        "title": "Taiho Shichau zo",
+        "samples": [
+          "https://jkanime.net/taiho-shichau-zo/10/",
+          "https://jkanime.net/taiho-shichau-zo/11/"
         ]
       },
       {
@@ -39540,10 +39548,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gulliver-boy/",
+        "title": "Gulliver Boy",
+        "samples": [
+          "https://jkanime.net/gulliver-boy/1/",
+          "https://jkanime.net/gulliver-boy/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aozora-shoujotai/",
+        "title": "Aozora Shoujotai",
+        "samples": [
+          "https://jkanime.net/aozora-shoujotai/1/",
+          "https://jkanime.net/aozora-shoujotai/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magic-knight-rayearth/",
+        "title": "Magic Knight Rayearth",
+        "samples": [
+          "https://jkanime.net/magic-knight-rayearth/1/",
+          "https://jkanime.net/magic-knight-rayearth/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/darkside-blues/",
         "title": "Darkside Blues",
         "samples": [
           "https://jkanime.net/darkside-blues/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dna2/",
+        "title": "DNA²",
+        "samples": [
+          "https://jkanime.net/dna2/1/",
+          "https://jkanime.net/dna2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gatchaman/",
+        "title": "Gatchaman",
+        "samples": [
+          "https://jkanime.net/gatchaman/1/",
+          "https://jkanime.net/gatchaman/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taiho-shichau-zo/",
+        "title": "Taiho Shichau zo",
+        "samples": [
+          "https://jkanime.net/taiho-shichau-zo/10/",
+          "https://jkanime.net/taiho-shichau-zo/11/"
         ]
       },
       {
@@ -39568,6 +39624,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/red-baron/",
+        "title": "Red Baron",
+        "samples": [
+          "https://jkanime.net/red-baron/1/",
+          "https://jkanime.net/red-baron/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kidou-butouden-g-gundam/",
+        "title": "Kidou Butouden G Gundam",
+        "samples": [
+          "https://jkanime.net/kidou-butouden-g-gundam/1/",
+          "https://jkanime.net/kidou-butouden-g-gundam/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-z-movie-10-broly-second-coming/",
         "title": "Dragon Ball Z Movie 10: Broly - Second Coming",
         "samples": [
@@ -39579,6 +39651,14 @@
         "title": "Bishoujo Senshi Sailor Moon R: The Movie",
         "samples": [
           "https://jkanime.net/bishoujo-senshi-sailor-moon-r-the-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/slam-dunk/",
+        "title": "Slam Dunk",
+        "samples": [
+          "https://jkanime.net/slam-dunk/1/",
+          "https://jkanime.net/slam-dunk/10/"
         ]
       },
       {
@@ -62782,11 +62862,10 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 40,
+      "stored": 41,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
         "https://jkanime.net/kusuriya-no-hitorigoto/42/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/43/",
         "https://jkanime.net/kusuriya-no-hitorigoto/44/",
         "https://jkanime.net/kusuriya-no-hitorigoto/45/",
         "https://jkanime.net/kusuriya-no-hitorigoto/46/",
@@ -62803,9 +62882,9 @@
       "renewalFailed": 26,
       "families": {
         "mega": 23,
-        "streamwish": 32,
+        "streamwish": 33,
         "vidhide": 26,
-        "mp4upload": 37,
+        "mp4upload": 38,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -144785,7 +144864,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -144798,13 +144877,15 @@
     {
       "series": "https://jkanime.net/gulliver-boy/",
       "title": "Gulliver Boy",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 50,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -144817,13 +144898,15 @@
     {
       "series": "https://jkanime.net/aozora-shoujotai/",
       "title": "Aozora Shoujotai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -144836,13 +144919,15 @@
     {
       "series": "https://jkanime.net/magic-knight-rayearth/",
       "title": "Magic Knight Rayearth",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 20,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -144874,13 +144959,15 @@
     {
       "series": "https://jkanime.net/dna2/",
       "title": "DNA²",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -144893,13 +144980,15 @@
     {
       "series": "https://jkanime.net/gatchaman/",
       "title": "Gatchaman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -144912,20 +145001,71 @@
     {
       "series": "https://jkanime.net/taiho-shichau-zo/",
       "title": "Taiho Shichau zo",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 51,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/taiho-shichau-zo/10/",
+        "https://jkanime.net/taiho-shichau-zo/11/",
+        "https://jkanime.net/taiho-shichau-zo/12/",
+        "https://jkanime.net/taiho-shichau-zo/13/",
+        "https://jkanime.net/taiho-shichau-zo/14/",
+        "https://jkanime.net/taiho-shichau-zo/15/",
+        "https://jkanime.net/taiho-shichau-zo/16/",
+        "https://jkanime.net/taiho-shichau-zo/17/",
+        "https://jkanime.net/taiho-shichau-zo/18/",
+        "https://jkanime.net/taiho-shichau-zo/19/",
+        "https://jkanime.net/taiho-shichau-zo/20/",
+        "https://jkanime.net/taiho-shichau-zo/21/",
+        "https://jkanime.net/taiho-shichau-zo/22/",
+        "https://jkanime.net/taiho-shichau-zo/23/",
+        "https://jkanime.net/taiho-shichau-zo/24/",
+        "https://jkanime.net/taiho-shichau-zo/25/",
+        "https://jkanime.net/taiho-shichau-zo/26/",
+        "https://jkanime.net/taiho-shichau-zo/27/",
+        "https://jkanime.net/taiho-shichau-zo/28/",
+        "https://jkanime.net/taiho-shichau-zo/29/",
+        "https://jkanime.net/taiho-shichau-zo/30/",
+        "https://jkanime.net/taiho-shichau-zo/31/",
+        "https://jkanime.net/taiho-shichau-zo/32/",
+        "https://jkanime.net/taiho-shichau-zo/33/",
+        "https://jkanime.net/taiho-shichau-zo/34/",
+        "https://jkanime.net/taiho-shichau-zo/35/",
+        "https://jkanime.net/taiho-shichau-zo/36/",
+        "https://jkanime.net/taiho-shichau-zo/37/",
+        "https://jkanime.net/taiho-shichau-zo/38/",
+        "https://jkanime.net/taiho-shichau-zo/39/",
+        "https://jkanime.net/taiho-shichau-zo/40/",
+        "https://jkanime.net/taiho-shichau-zo/41/",
+        "https://jkanime.net/taiho-shichau-zo/42/",
+        "https://jkanime.net/taiho-shichau-zo/43/",
+        "https://jkanime.net/taiho-shichau-zo/44/",
+        "https://jkanime.net/taiho-shichau-zo/45/",
+        "https://jkanime.net/taiho-shichau-zo/46/",
+        "https://jkanime.net/taiho-shichau-zo/47/",
+        "https://jkanime.net/taiho-shichau-zo/48/",
+        "https://jkanime.net/taiho-shichau-zo/49/",
+        "https://jkanime.net/taiho-shichau-zo/5/",
+        "https://jkanime.net/taiho-shichau-zo/50/",
+        "https://jkanime.net/taiho-shichau-zo/51/",
+        "https://jkanime.net/taiho-shichau-zo/6/",
+        "https://jkanime.net/taiho-shichau-zo/7/",
+        "https://jkanime.net/taiho-shichau-zo/8/",
+        "https://jkanime.net/taiho-shichau-zo/9/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 4,
+        "mega": 3,
         "streamwish": 4,
-        "vidhide": 4,
-        "mixdrop": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "vidhide": 3,
+        "mixdrop": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -144989,39 +145129,43 @@
     {
       "series": "https://jkanime.net/red-baron/",
       "title": "Red Baron",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 42,
       "families": {
-        "mega": 49,
+        "mega": 42,
         "streamwish": 49,
-        "vidhide": 49,
-        "mixdrop": 49,
-        "streamtape": 49
+        "vidhide": 42,
+        "mixdrop": 42,
+        "streamtape": 42
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kidou-butouden-g-gundam/",
       "title": "Kidou Butouden G Gundam",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 37,
       "families": {
-        "mega": 49,
+        "mega": 37,
         "streamwish": 49,
-        "vidhide": 49,
-        "mixdrop": 49,
-        "mp4upload": 49,
-        "streamtape": 49
+        "vidhide": 37,
+        "mixdrop": 37,
+        "mp4upload": 37,
+        "streamtape": 37
       },
       "playbackVerified": false
     },
@@ -145085,13 +145229,15 @@
     {
       "series": "https://jkanime.net/slam-dunk/",
       "title": "Slam Dunk",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 101,
       "stored": 101,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 62,
       "families": {
         "mega": 101,
         "streamwish": 101,
