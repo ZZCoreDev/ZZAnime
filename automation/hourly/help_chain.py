@@ -18,6 +18,9 @@ RENEW_AFTER=4*86400
 # Installed APKs read channel.json with a 64 KB limit; the wanted list stays far below it.
 WANTED_BYTES=24000
 MAX_IMPORT=400
+# Same-network answers (Worker SAME_ASN_ZONES) only count with this many devices from as many zones
+# and a matching file name; two networks remain the normal rule.
+ZONES_MIN=3
 HELP_URL='https://zzanime-ayuda.zzcoredev.workers.dev'
 def iso(t):return t.isoformat().replace('+00:00','Z')
 def derived(label,secret=None):
@@ -78,7 +81,9 @@ def accept(data,state,asked,now,renew=frozenset()):
    if not isinstance(o,dict):continue
    name,family,link=o.get('name'),o.get('family'),o.get('url')
    if family not in FAMILIES or not isinstance(name,str) or not 0<len(name)<=70 or not isinstance(link,str) or not link.startswith('https://') or len(link)>500:continue
-   if not (int(o.get('devices',0))>=2 and int(o.get('asns',0))>=2 and o.get('check') in CHECKS and (o['check']!='quorum3' or int(o['asns'])>=3)):continue
+   devices,asns,zones,check=int(o.get('devices',0)),int(o.get('asns',0)),int(o.get('zones',0)),o.get('check')
+   networks=asns>=2 or (check=='name-match' and devices>=ZONES_MIN and zones>=ZONES_MIN)
+   if not (devices>=2 and networks and check in CHECKS and (check!='quorum3' or asns>=3)):continue
    p=providers.setdefault(name,{'name':name,'family':family,'links':[]})
    if p['family']==family and link not in p['links']:p['links'].append(link)
   if not providers:held[url]='No option passed the help checks';continue
@@ -88,16 +93,28 @@ def accept(data,state,asked,now,renew=frozenset()):
   incoming['listings'][parent]={**listing,'episodes':[url]} if listing else {'observedAt':iso(at),'complete':False,'helpListing':True,'episodes':[url]}
   if url not in renew:seen[url]=row.get('firstSeenAt') or iso(at)
  return incoming,seen,held
-def pull(folder,state,now,fetch=None):
+def get(base,key,path,limit=4194305):
+ req=urllib.request.Request(base.rstrip('/')+path,headers={'Authorization':'Bearer '+key,'User-Agent':'ZZAnime-Data/1'})
+ with urllib.request.urlopen(req,timeout=60) as response:return json.loads(response.read(limit))
+def observe(folder,base,key,now,fetch=None):
+ # Worker summary and device dead-link reports, each best effort; neither blocks the import.
+ out={}
+ for name,path in (('worker','/v1/stats'),('deadReports','/v1/dead-reports')):
+  try:out[name]=fetch(path) if fetch else get(base,key,path)
+  except Exception as error:out[name]={'error':type(error).__name__+': '+str(error)[:120]}
+ links=out['deadReports'].get('links') if isinstance(out['deadReports'].get('links'),list) else None
+ if links is not None:(folder/'dead-reports.json').write_bytes(json.dumps({'checkedAt':iso(now),'links':links[:300]},sort_keys=True).encode())
+ return out['worker'],len(links) if links is not None else None
+def pull(folder,state,now,fetch=None,observe_fetch=None):
  base,key=os.environ.get('ZZ_HELP_URL'),os.environ.get('ZZ_HELP_KEY') or derived('help-key')
  if not base or not key:return {'state':'disabled','imported':0}
+ worker,reports=observe(folder,base,key,now,observe_fetch)
  path=folder/'help-wanted.json';published=json.loads(path.read_bytes()) if path.exists() else {}
  asked=set(published.get('urls',[]));renew=frozenset(published.get('renew',[]))&asked
- if not asked:return {'state':'nothing-asked','imported':0}
- if fetch is None:
-  req=urllib.request.Request(base.rstrip('/')+'/v1/accepted',headers={'Authorization':'Bearer '+key,'User-Agent':'ZZAnime-Data/1'})
-  with urllib.request.urlopen(req,timeout=60) as response:data=json.loads(response.read(4194305))
- else:data=fetch()
+ if not asked:
+  report={'state':'nothing-asked','checkedAt':iso(now),'imported':0,'worker':worker,'deadReports':reports}
+  (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report
+ data=fetch() if fetch else get(base,key,'/v1/accepted')
  incoming,seen,held=accept(data,state,asked,now,renew)
  for url,ep in incoming['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/';old=state['listings'].get(parent)
@@ -108,5 +125,5 @@ def pull(folder,state,now,fetch=None):
  state['pending']=sorted(set(state.get('pending',[]))-set(incoming['episodes']))
  if incoming['episodes']:save_observations(folder,state,set(incoming['listings']))
  renewed=sum(1 for url in incoming['episodes'] if url in renew)
- report={'state':'imported' if incoming['episodes'] else 'unchanged','checkedAt':iso(now),'imported':len(incoming['episodes']),'renewed':renewed,'held':held,'asked':len(asked),'askedRenew':len(renew)}
+ report={'state':'imported' if incoming['episodes'] else 'unchanged','checkedAt':iso(now),'imported':len(incoming['episodes']),'renewed':renewed,'held':held,'asked':len(asked),'askedRenew':len(renew),'worker':worker,'deadReports':reports}
  (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report

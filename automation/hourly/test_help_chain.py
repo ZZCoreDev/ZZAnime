@@ -17,6 +17,8 @@ def fixture(now):
   'listings':{'https://jkanime.net/serie-a/':{'complete':True,'observedAt':iso(now),'episodes':[a]},'https://jkanime.net/tokyo-revengers-santen-sensou-hen/':{'complete':True,'observedAt':'2026-10-27T08:29:59.953Z','episodes':[b]}},
   'newsSeen':{a:iso(now),b:iso(now-datetime.timedelta(hours=1)),c:iso(now-datetime.timedelta(hours=2)),d:iso(now-datetime.timedelta(days=8))},'pending':[]}
  return state,{run.sha(('Mp4upload\0'+link).encode()):True},(a,b,c,d)
+STATS={'today':{'devices':3},'quorum':{'sameNetworkOnly':1}}
+def worker(path):return {'/v1/stats':{'schema':1,**STATS},'/v1/dead-reports':{'schema':1,'links':[{'episode':'https://jkanime.net/x/1/','name':'Mega','family':'mega','url':'https://mega.nz/file/AbCd1234#'+'K'*43,'devices':2}]}}[path]
 def answer(now,episode,**option):
  o={'name':'Mega','family':'mega','url':'https://mega.nz/file/AbCdEfGh#'+'k'*43,'devices':2,'asns':2,'check':'name-match',**option}
  return {'schema':1,'episodes':[{'url':episode,'acceptedAt':iso(now),'firstSeenAt':iso(now-datetime.timedelta(hours=1)),'options':[o]}]}
@@ -86,7 +88,7 @@ class AcceptTests(unittest.TestCase):
   self.assertEqual(incoming['episodes'][a]['providers'][0]['name'],'Mega');self.assertTrue(incoming['episodes'][a]['helpEvidence']['renewed']);self.assertEqual(seen,{})
   with tempfile.TemporaryDirectory() as folder:
    folder=Path(folder);h.record_published(folder,[{'url':a,'renew':True}],self.now)
-   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):r=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a))
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):r=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a),observe_fetch=worker)
   self.assertEqual((r['imported'],r['renewed']),(1,1));self.assertEqual(self.state['newsSeen'][a],before['newsSeen'][a]);self.assertEqual(self.state['episodes'][a]['observedAt'],h.iso(self.now))
  def test_stale_or_future_acceptance_is_held(self):
   b=self.urls[1]
@@ -97,7 +99,7 @@ class AcceptTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as folder:
    folder=Path(folder);h.record_published(folder,[{'url':b},{'url':c}],self.now);data={'schema':1,'episodes':answer(self.now,b)['episodes']+answer(self.now,c)['episodes']}
    with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations') as save:
-    report=h.pull(folder,self.state,self.now,fetch=lambda:data)
+    report=h.pull(folder,self.state,self.now,fetch=lambda:data,observe_fetch=worker)
    self.assertEqual(report['imported'],2);save.assert_called_once()
    self.assertTrue(json.loads(Path(folder,'help-status.json').read_bytes())['imported']==2)
   parent_b='https://jkanime.net/tokyo-revengers-santen-sensou-hen/';parent_c='https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/'
@@ -111,11 +113,25 @@ class AcceptTests(unittest.TestCase):
   import hmac,hashlib
   self.assertEqual(h.derived('help-key','s'),hmac.new(b's',b'zzanime-ayuda/help-key',hashlib.sha256).hexdigest());self.assertEqual(h.derived('help-key',''),'')
   self.assertNotEqual(h.derived('help-key','s'),h.derived('salt','s'))
- def test_disabled_or_nothing_asked_makes_no_request(self):
+ def test_disabled_makes_no_request_and_nothing_asked_only_observes(self):
   with tempfile.TemporaryDirectory() as folder:
-   def fail():raise AssertionError('no request expected')
-   with patch.dict('os.environ',{},clear=True):self.assertEqual(h.pull(Path(folder),self.state,self.now,fetch=fail)['state'],'disabled')
-   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}):self.assertEqual(h.pull(Path(folder),self.state,self.now,fetch=fail)['state'],'nothing-asked')
+   def fail(*a):raise AssertionError('no request expected')
+   with patch.dict('os.environ',{},clear=True):self.assertEqual(h.pull(Path(folder),self.state,self.now,fetch=fail,observe_fetch=fail)['state'],'disabled')
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}):r=h.pull(Path(folder),self.state,self.now,fetch=fail,observe_fetch=worker)
+   self.assertEqual((r['state'],r['worker']['today']['devices'],r['deadReports']),('nothing-asked',3,1))
+   self.assertEqual(json.loads(Path(folder,'dead-reports.json').read_bytes())['links'][0]['family'],'mega')
+ def test_worker_summary_and_reports_never_block_the_import(self):
+  a=self.urls[0];self.state['episodes'][a]['observedAt']=h.iso(self.now-datetime.timedelta(days=9))
+  with tempfile.TemporaryDirectory() as folder:
+   folder=Path(folder);h.record_published(folder,[{'url':a,'renew':True}],self.now)
+   def down(path):raise OSError('worker down')
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):r=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a),observe_fetch=down)
+   self.assertEqual(r['imported'],1);self.assertIn('worker down',r['worker']['error']);self.assertIsNone(r['deadReports']);self.assertFalse(Path(folder,'dead-reports.json').exists())
+ def test_same_network_answers_need_three_zones_and_the_file_name(self):
+  b=self.urls[1]
+  for bad in [{'asns':1,'zones':2,'devices':3},{'asns':1,'zones':3,'devices':2},{'asns':1,'zones':3,'devices':3,'check':'quorum3'}]:
+   with self.subTest(bad=bad):self.assertEqual(h.accept(answer(self.now,b,**bad),self.state,{b},self.now)[0]['episodes'],{})
+  self.assertIn(b,h.accept(answer(self.now,b,asns=1,zones=3,devices=3),self.state,{b},self.now)[0]['episodes'])
 
 class RunIntegrationTests(unittest.TestCase):
  def run_news_only(self,imported,error=None):

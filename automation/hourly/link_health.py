@@ -9,15 +9,21 @@ GONE='File is no longer available as it expired or has been deleted.'
 DEAD={'mp4upload':lambda s,b:s==200 and b.strip()=='File was deleted',
  'streamwish':lambda s,b:s==200 and len(b)<4000 and GONE in b,
  'vidhide':lambda s,b:s==200 and len(b)<4000 and GONE in b,
- 'voe':lambda s,b:s==404 and '<title>404 - Not found</title>' in b}
+ 'voe':lambda s,b:s==404 and '<title>404 - Not found</title>' in b,
+ # MEGA's public API: -9 no such file, -16 taken down; an existing file returns its size and attributes.
+ 'mega':lambda s,b:s==200 and b.strip() in ('[-9]','[-16]','-9','-16')}
 ALIVE={'mp4upload':lambda s,b:s==200 and 'player.src(' in b and 'video/mp4' in b,
  'streamwish':lambda s,b:s==200 and 'jwplayer' in b and 'eval(function(p,a,c,k,e,d)' in b,
  'vidhide':lambda s,b:s==200 and 'jwplayer' in b and 'eval(function(p,a,c,k,e,d)' in b,
- 'voe':lambda s,b:s==200 and '<title>Redirecting...</title>' in b and "window.location.href = 'https://" in b}
+ 'voe':lambda s,b:s==200 and '<title>Redirecting...</title>' in b and "window.location.href = 'https://" in b,
+ 'mega':lambda s,b:s==200 and '"s":' in b and '"at":' in b}
 LINKS={'mp4upload':r'https://(?:www\.)?mp4upload\.com/embed-([a-z0-9]{8,16})\.html',
  'streamwish':r'https://(?:hgcloud\.to|streamwish\.(?:com|to))/e/([a-z0-9]{8,16})',
  'vidhide':r'https://(?:vidhidevip\.com|vidhidepro\.com|vidhide\.com|filelions\.top)/(?:embed|v)/([a-z0-9]{8,16})',
- 'voe':r'https://voe\.sx/e/([a-zA-Z0-9]{8,16})'}
+ 'voe':r'https://voe\.sx/e/([a-zA-Z0-9]{8,16})',
+ 'mega':r'https://(?:www\.)?mega\.nz/(?:(?:file|embed)/([A-Za-z0-9_-]{8})#[A-Za-z0-9_-]{43}|(?:embed)?#!([A-Za-z0-9_-]{8})![A-Za-z0-9_-]{43})'}
+MEGA_API='https://g.api.mega.co.nz/cs'
+REPORTED_RECHECK=3600
 INTERVAL={'alive':24*3600,'unknown':6*3600,'dead':1800,'excluded':48*3600}
 CONFIRM_GAP=1800
 def sha(b):return hashlib.sha256(b).hexdigest()
@@ -28,10 +34,17 @@ def target(family,link,rules):
  # hgcloud.to only serves a JavaScript loader; its own script moves to this mirror, which shares the file ids.
  if family=='streamwish':return 'https://'+rules['mirrors']['streamwish']+'/e/'+m.group(1)
  if family=='mp4upload':return 'https://www.mp4upload.com/embed-'+m.group(1)+'.html'
+ if family=='mega':return MEGA_API+'?id=0&file='+(m.group(1) or m.group(2))
  return link
 class Manual(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,*args,**kw):return None
 def fetch(url,hops=1):
+ if url.startswith(MEGA_API+'?'):
+  # The file id only; the decryption key never leaves the stored link.
+  req=urllib.request.Request(MEGA_API+'?id=0',data=json.dumps([{'a':'g','p':url.rsplit('=',1)[1]}]).encode(),headers={'Content-Type':'application/json','User-Agent':'ZZAnime-LinkCheck/1 (+https://github.com/ZZCoreDev/ZZAnime)'},method='POST')
+  try:
+   with urllib.request.urlopen(req,timeout=20) as r:return r.status,r.read(20000).decode('utf-8','replace')
+  except urllib.error.HTTPError as e:return e.code,e.read(20000).decode('utf-8','replace')
  req=urllib.request.Request(url,headers={'User-Agent':'ZZAnime-LinkCheck/1 (+https://github.com/ZZCoreDev/ZZAnime)','Accept':'text/html'})
  try:
   with urllib.request.build_opener(Manual).open(req,timeout=20) as r:return r.status,r.read(300000).decode('utf-8','replace')
@@ -56,6 +69,12 @@ def candidates(folder,now,rules):
    for p in (ep or {}).get('providers',[]):
     for link in p.get('links',[]):
      if target(p.get('family'),link,rules):out[sha((p['name']+'\0'+link).encode())]={'family':p['family'],'name':p['name'],'url':link,'episode':url}
+ # Links that two devices reported as not playing (help Worker), any age: checked first, judged as usual.
+ reports=Path(folder)/'dead-reports.json'
+ if rules.get('enabled') and reports.exists():
+  for r in json.loads(reports.read_bytes()).get('links',[])[:300]:
+   family,link,name=r.get('family'),str(r.get('url','')),str(r.get('name',''))
+   if target(family,link,rules):out.setdefault(sha((name+'\0'+link).encode()),{'family':family,'name':name,'url':link,'episode':r.get('episode')})['reported']=True
  return out
 def due(entry,now):
  if not entry or 'checkedAt' not in entry:return True
@@ -66,7 +85,10 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
  folder=Path(folder);now=time.time() if now is None else now;rules=policy();started=time.time()
  path=folder/'link-health.json';health=json.loads(path.read_bytes()) if path.exists() else {'schema':1,'links':{},'controls':{},'canaries':{}}
  links=health['links'];found=candidates(folder,now,rules)
- queue=sorted((k for k in found if due(links.get(k),now)),key=lambda k:(k in links,links.get(k,{}).get('checkedAt',0)))[:limit]
+ def ready(k):
+  entry=links.get(k)
+  return due(entry,now) or (found[k].get('reported') and now-(entry or {}).get('checkedAt',0)>=REPORTED_RECHECK)
+ queue=sorted((k for k in found if ready(k)),key=lambda k:(not found[k].get('reported'),k in links,links.get(k,{}).get('checkedAt',0)))[:limit]
  families=sorted({found[k]['family'] for k in queue});results={};summary={'checked':0,'alive':0,'dead':0,'unknown':0,'suspended':[]};sent=[0]
  def get(url):
   # One request at a time with a fixed pause; no parallel servers, no retries inside a run.
@@ -77,7 +99,7 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
  for family in families:
   canary=health['canaries'].get(family,{})
   if now-canary.get('at',0)>=(6*3600 if canary.get('ok') else 3600):
-   s,b=get(target(family,{'mp4upload':'https://www.mp4upload.com/embed-%s.html','streamwish':'https://hgcloud.to/e/%s','vidhide':'https://vidhidevip.com/embed/%s','voe':'https://voe.sx/e/%s'}[family]%FAKE,rules))
+   s,b=get(target(family,{'mp4upload':'https://www.mp4upload.com/embed-%s.html','streamwish':'https://hgcloud.to/e/%s','vidhide':'https://vidhidevip.com/embed/%s','voe':'https://voe.sx/e/%s','mega':'https://mega.nz/file/%s#'+'z'*43}[family]%(FAKE[:8] if family=='mega' else FAKE),rules))
    health['canaries'][family]=canary={'at':now,'ok':classify(family,s,b)=='dead','status':s}
  for key in queue:
   if time.time()-started>budget:break

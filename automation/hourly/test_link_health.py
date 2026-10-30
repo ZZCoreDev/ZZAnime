@@ -40,6 +40,25 @@ class LinkHealthTests(unittest.TestCase):
   self.assertEqual(link_health.target('mp4upload','https://mp4upload.com/embed-nfxqz8214v7f.html',rules),DEAD_MP4)
   self.assertIsNone(link_health.target('voe','https://evil.example/e/abcdefgh1234',rules))
   self.assertIsNone(link_health.target('mega','https://mega.nz/file/x',rules))
+ def test_mega_reads_the_public_api_by_file_id_only(self):
+  rules=link_health.policy();key43='K'*43
+  for link in ['https://mega.nz/file/AbCd1234#'+key43,'https://mega.nz/embed/AbCd1234#'+key43,'https://mega.nz/#!AbCd1234!'+key43,'https://mega.nz/embed#!AbCd1234!'+key43]:
+   self.assertEqual(link_health.target('mega',link,rules),link_health.MEGA_API+'?id=0&file=AbCd1234',link)
+  self.assertEqual(link_health.classify('mega',200,'[-9]'),'dead');self.assertEqual(link_health.classify('mega',200,'[-16]'),'dead')
+  self.assertEqual(link_health.classify('mega',200,'[{"s":123,"at":"x","msd":1}]'),'alive')
+  self.assertEqual(link_health.classify('mega',200,'[-3]'),'unknown');self.assertEqual(link_health.classify('mega',500,'[-9]'),'unknown')
+ def test_device_reports_go_first_and_still_need_the_usual_evidence(self):
+  # An old chapter outside the 7-day news list, reported by two devices through the help Worker.
+  reported='https://www.mp4upload.com/embed-abcdefgh1234.html'
+  with tempfile.TemporaryDirectory() as d:
+   world(d);Path(d,'dead-reports.json').write_text(json.dumps({'links':[{'episode':'https://jkanime.net/old-show/3/','name':'Mp4upload','family':'mp4upload','url':reported,'devices':2}]}))
+   web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
+   first=link_health.check(d,now=now,limit=1,fetcher=web,sleep=lambda s:None)
+   self.assertIn(reported,web.urls);self.assertEqual((first['checked'],first['alive'],first['excluded']),(1,1,0))
+   entry=json.loads(Path(d,'link-health.json').read_text())['links'][key('Mp4upload',reported)]
+   self.assertEqual((entry['state'],entry.get('excluded')),('alive',False))
+   # Still reported one hour later: checked again before the 24 h interval of a live link.
+   web.urls.clear();link_health.check(d,now=now+3700,limit=1,fetcher=web,sleep=lambda s:None);self.assertIn(reported,web.urls)
  def test_deletion_needs_two_checks_thirty_minutes_apart_then_leaves_both_channels(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()

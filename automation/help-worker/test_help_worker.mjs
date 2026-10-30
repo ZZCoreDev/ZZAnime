@@ -114,4 +114,42 @@ await check('chapter filled in the channel is forgotten and told to stop',async(
  const after=setup({wanted:[WANTED[1]],mega:[f]});after.store=t.store;
  assert.deepEqual((await accepted(after)).body.episodes,[]);assert.equal(t.store.rows('SELECT * FROM seen WHERE episode=?',TR).length,0);
  assert.equal((await submit(after,[item(TR,f.url)],{asn:3})).of(TR),'stop');});
-console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled)');
+async function get(t,path,key='secret'){const r=await handle(new Request('https://help.test'+path,{headers:{authorization:'Bearer '+key}}),t.env,t.store,{now:()=>t.now+1000,fetch:t.fetcher});return {status:r.status,body:await r.json()};}
+async function dead(t,items,{device,asn=3352,ip}={}){
+ device=device||'device-'+String(++n).padStart(12,'0');
+ const req=new Request('https://help.test/v1/dead',{method:'POST',body:JSON.stringify({schema:1,device,items})});
+ Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||device);
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
+}
+await check('stats show devices, rejections and same-network quorum blocks',async()=>{
+ const t=setup(),opt='https://www.mp4upload.com/embed-x.html';
+ await submit(t,[item(TR,opt),item('https://jkanime.net/otra-serie/1/',opt),{episode:SBR,options:[{name:'Voe',url:'https://voe.sx/e/x'}]}],{asn:3352,ip:'81.0.1.10'});
+ await submit(t,[item(TR,opt)],{asn:3352,ip:'81.0.2.10'});
+ assert.equal((await get(t,'/v1/stats','wrong')).status,401);
+ const s=(await get(t,'/v1/stats')).body;
+ assert.deepEqual([s.today.devices,s.today.networks,s.today.answers,s.today.stop,s.today.unsupported,s.today.requests],[2,1,2,1,1,2]);
+ assert.deepEqual(s.quorum,{waitingSecondDevice:0,sameNetworkOnly:1,reached:0});assert.equal(s.sameAsnZones,0);});
+await check('same-network switch: three zones plus matching MEGA name pass, never without the name',async()=>{
+ const good=megaFile('Tokyo Revengers Santen Sensou-hen 05.mp4','EEEE5555'),bad=megaFile('Random 05.mp4','FFFF6666');
+ const off=setup({mega:[good]});
+ for(const ip of ['81.0.1.1','81.0.2.1','81.0.3.1'])await submit(off,[item(TR,good.url)],{asn:3352,ip});
+ assert.deepEqual((await accepted(off)).body.episodes,[]);
+ const on=setup({mega:[good,bad],pages:{'https://streamwish.to/e/x':'Watch video'}});on.env.SAME_ASN_ZONES='3';
+ for(const ip of ['81.0.1.1','81.0.2.1','81.0.3.1'])await submit(on,[item(TR,good.url,bad.url),item(SBR,'https://streamwish.to/e/x')],{asn:3352,ip});
+ const eps=(await accepted(on)).body.episodes;
+ assert.deepEqual(eps.map(e=>[e.url,e.options.map(o=>[o.url,o.check,o.asns,o.zones])]),[[TR,[[good.url,'name-match',1,3]]]]);
+ const two=setup({mega:[good]});two.env.SAME_ASN_ZONES='3';
+ for(const ip of ['81.0.1.1','81.0.1.2','81.0.1.3'])await submit(two,[item(TR,good.url)],{asn:3352,ip});
+ assert.deepEqual((await accepted(two)).body.episodes,[]);});
+await check('dead-link reports need two devices and stay private to the cloud',async()=>{
+ const t=setup(),link='https://www.mp4upload.com/embed-abcdef12.html',report=[{episode:TR,name:'Mp4upload',url:link}];
+ assert.equal((await dead(t,report,{device:'device-dead-device-1'})).of(link),'stored');
+ assert.equal((await dead(t,report,{device:'device-dead-device-1'})).of(link),'duplicate');
+ assert.deepEqual((await get(t,'/v1/dead-reports')).body.links,[]);
+ await dead(t,report,{device:'device-dead-device-2'});
+ const links=(await get(t,'/v1/dead-reports')).body.links;assert.deepEqual(links.map(l=>[l.url,l.family,l.devices,l.episode]),[[link,'mp4upload',2,TR]]);
+ assert.equal((await dead(t,[{episode:TR,name:'Voe',url:'https://voe.sx/e/abcdefgh12'}])).of('https://voe.sx/e/abcdefgh12'),'stored');
+ assert.equal((await dead(t,[{episode:TR,name:'Rarovideo',url:'https://raro.example/x'}])).of('https://raro.example/x'),'unsupported');
+ assert.equal((await get(t,'/v1/dead-reports','wrong')).status,401);
+ assert.equal((await get(t,'/v1/stats')).body.deadCandidates,1);});
+console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch)');
