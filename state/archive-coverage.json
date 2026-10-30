@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T02:18:03.170076+00:00",
+  "checkedAt": "2026-10-30T02:32:06.249742+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
-  "storedChapters": 71714,
-  "missingChapters": 1826,
+  "storedChapters": 71715,
+  "missingChapters": 1825,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2400,7 +2400,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/2/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/"
         ]
       },
       {
@@ -23255,7 +23255,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/2/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/"
         ]
       },
       {
@@ -30021,6 +30021,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yuyushiki-specials/",
+        "title": "Yuyushiki: Nyanyashiki",
+        "samples": [
+          "https://jkanime.net/yuyushiki-specials/1/",
+          "https://jkanime.net/yuyushiki-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yama-no-susume-kabette-kowakunai-no/",
         "title": "Yama no Susume: Kabette Kowakunai no?",
         "samples": [
@@ -30039,6 +30047,22 @@
         "title": "Saint☆Onii-san (Movie)",
         "samples": [
           "https://jkanime.net/saintonii-san-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/miyakawa-ke-no-kuufuku/",
+        "title": "Miyakawa-ke no Kuufuku",
+        "samples": [
+          "https://jkanime.net/miyakawa-ke-no-kuufuku/1/",
+          "https://jkanime.net/miyakawa-ke-no-kuufuku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-the-beautiful-world-specials/",
+        "title": "Hetalia: The Beautiful World Specials",
+        "samples": [
+          "https://jkanime.net/hetalia-the-beautiful-world-specials/1/",
+          "https://jkanime.net/hetalia-the-beautiful-world-specials/2/"
         ]
       },
       {
@@ -30063,11 +30087,147 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hentai-ouji-to-warawanai-neko/",
+        "title": "Hentai Ouji to Warawanai Neko.",
+        "samples": [
+          "https://jkanime.net/hentai-ouji-to-warawanai-neko/1/",
+          "https://jkanime.net/hentai-ouji-to-warawanai-neko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-kagaku-no-railgun-s/",
+        "title": "Toaru Kagaku no Railgun S",
+        "samples": [
+          "https://jkanime.net/toaru-kagaku-no-railgun-s/1/",
+          "https://jkanime.net/toaru-kagaku-no-railgun-s/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kakumeiki-valvrave/",
+        "title": "Kakumeiki Valvrave",
+        "samples": [
+          "https://jkanime.net/kakumeiki-valvrave/10/",
+          "https://jkanime.net/kakumeiki-valvrave/11/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/puchitto-gargantia/",
         "title": "Puchitto Gargantia",
         "samples": [
           "https://jkanime.net/puchitto-gargantia/1/",
           "https://jkanime.net/puchitto-gargantia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuyushiki/",
+        "title": "Yuyushiki",
+        "samples": [
+          "https://jkanime.net/yuyushiki/1/",
+          "https://jkanime.net/yuyushiki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hayate-no-gotoku-cuties/",
+        "title": "Hayate no Gotoku! Cuties",
+        "samples": [
+          "https://jkanime.net/hayate-no-gotoku-cuties/1/",
+          "https://jkanime.net/hayate-no-gotoku-cuties/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arata-kangatari/",
+        "title": "Arata Kangatari",
+        "samples": [
+          "https://jkanime.net/arata-kangatari/1/",
+          "https://jkanime.net/arata-kangatari/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haiyore-nyaruko-san-w/",
+        "title": "Haiyore! Nyaruko-san W",
+        "samples": [
+          "https://jkanime.net/haiyore-nyaruko-san-w/1/",
+          "https://jkanime.net/haiyore-nyaruko-san-w/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushibugyou/",
+        "title": "Mushibugyou",
+        "samples": [
+          "https://jkanime.net/mushibugyou/1/",
+          "https://jkanime.net/mushibugyou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aiura/",
+        "title": "Aiura",
+        "samples": [
+          "https://jkanime.net/aiura/1/",
+          "https://jkanime.net/aiura/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-2/",
+        "title": "OreImo 2",
+        "samples": [
+          "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-2/1/",
+          "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-kyojin/",
+        "title": "Shingeki no Kyojin",
+        "samples": [
+          "https://jkanime.net/shingeki-no-kyojin/1/",
+          "https://jkanime.net/shingeki-no-kyojin/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yondemasu-yo-azazel-san-z/",
+        "title": "Yondemasu yo, Azazel-san. Z",
+        "samples": [
+          "https://jkanime.net/yondemasu-yo-azazel-san-z/1/",
+          "https://jkanime.net/yondemasu-yo-azazel-san-z/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/namiuchigiwa-no-muromi-san/",
+        "title": "Namiuchigiwa no Muromi-san",
+        "samples": [
+          "https://jkanime.net/namiuchigiwa-no-muromi-san/1/",
+          "https://jkanime.net/namiuchigiwa-no-muromi-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/suisei-no-gargantia/",
+        "title": "Suisei no Gargantia",
+        "samples": [
+          "https://jkanime.net/suisei-no-gargantia/1/",
+          "https://jkanime.net/suisei-no-gargantia/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dream-9-toriko-one-piece-dragon-ball-z-super-collaboration-special/",
+        "title": "Toriko & One Piece & Dragon Ball Z Super Collaboration",
+        "samples": [
+          "https://jkanime.net/dream-9-toriko-one-piece-dragon-ball-z-super-collaboration-special/1/",
+          "https://jkanime.net/dream-9-toriko-one-piece-dragon-ball-z-super-collaboration-special/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-bride/",
+        "title": "Hyakka Ryouran: Samurai Bride",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-bride/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-bride/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zettai-bouei-leviathan/",
+        "title": "Zettai Bouei Leviathan",
+        "samples": [
+          "https://jkanime.net/zettai-bouei-leviathan/1/",
+          "https://jkanime.net/zettai-bouei-leviathan/2/"
         ]
       },
       {
@@ -86879,7 +87039,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
@@ -87835,7 +87995,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -88008,7 +88168,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 3
       },
@@ -91449,10 +91609,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/2/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/",
@@ -91465,7 +91624,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 3
+        "streamwish": 4
       },
       "playbackVerified": false
     },
@@ -110463,7 +110622,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -110514,13 +110673,15 @@
     {
       "series": "https://jkanime.net/yuyushiki-specials/",
       "title": "Yuyushiki: Nyanyashiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -110590,13 +110751,15 @@
     {
       "series": "https://jkanime.net/miyakawa-ke-no-kuufuku/",
       "title": "Miyakawa-ke no Kuufuku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -110609,13 +110772,15 @@
     {
       "series": "https://jkanime.net/hetalia-the-beautiful-world-specials/",
       "title": "Hetalia: The Beautiful World Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -110639,7 +110804,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -110690,13 +110855,15 @@
     {
       "series": "https://jkanime.net/hentai-ouji-to-warawanai-neko/",
       "title": "Hentai Ouji to Warawanai Neko.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110709,13 +110876,15 @@
     {
       "series": "https://jkanime.net/toaru-kagaku-no-railgun-s/",
       "title": "Toaru Kagaku no Railgun S",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -110728,19 +110897,21 @@
     {
       "series": "https://jkanime.net/kakumeiki-valvrave/",
       "title": "Kakumeiki Valvrave",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 11,
+        "streamwish": 11,
+        "vidhide": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -110777,13 +110948,15 @@
     {
       "series": "https://jkanime.net/yuyushiki/",
       "title": "Yuyushiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110796,13 +110969,15 @@
     {
       "series": "https://jkanime.net/hayate-no-gotoku-cuties/",
       "title": "Hayate no Gotoku! Cuties",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110815,19 +110990,21 @@
     {
       "series": "https://jkanime.net/arata-kangatari/",
       "title": "Arata Kangatari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mega": 10,
         "streamwish": 12,
         "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -110853,13 +111030,15 @@
     {
       "series": "https://jkanime.net/haiyore-nyaruko-san-w/",
       "title": "Haiyore! Nyaruko-san W",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110872,32 +111051,36 @@
     {
       "series": "https://jkanime.net/mushibugyou/",
       "title": "Mushibugyou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
-        "mega": 25,
-        "streamwish": 26,
-        "vidhide": 26,
+        "mega": 23,
+        "streamwish": 24,
+        "vidhide": 24,
         "mp4upload": 26,
-        "streamtape": 26
+        "streamtape": 24
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/aiura/",
       "title": "Aiura",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 11,
@@ -110910,13 +111093,15 @@
     {
       "series": "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai-2/",
       "title": "OreImo 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -110929,13 +111114,15 @@
     {
       "series": "https://jkanime.net/shingeki-no-kyojin/",
       "title": "Shingeki no Kyojin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -110949,13 +111136,15 @@
     {
       "series": "https://jkanime.net/yondemasu-yo-azazel-san-z/",
       "title": "Yondemasu yo, Azazel-san. Z",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -110968,13 +111157,15 @@
     {
       "series": "https://jkanime.net/namiuchigiwa-no-muromi-san/",
       "title": "Namiuchigiwa no Muromi-san",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -110987,13 +111178,15 @@
     {
       "series": "https://jkanime.net/suisei-no-gargantia/",
       "title": "Suisei no Gargantia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111007,13 +111200,15 @@
     {
       "series": "https://jkanime.net/dream-9-toriko-one-piece-dragon-ball-z-super-collaboration-special/",
       "title": "Toriko & One Piece & Dragon Ball Z Super Collaboration",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -111026,13 +111221,15 @@
     {
       "series": "https://jkanime.net/hyakka-ryouran-samurai-bride/",
       "title": "Hyakka Ryouran: Samurai Bride",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -111045,19 +111242,21 @@
     {
       "series": "https://jkanime.net/zettai-bouei-leviathan/",
       "title": "Zettai Bouei Leviathan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
+        "mega": 12,
+        "streamwish": 12,
+        "vidhide": 12,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -121734,7 +121933,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {},
       "playbackVerified": false
     },
@@ -136971,7 +137170,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 32,
         "streamwish": 32,
