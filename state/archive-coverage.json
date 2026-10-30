@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T18:18:49.116472+00:00",
+  "checkedAt": "2026-10-30T18:31:52.946389+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73663,
-  "storedChapters": 71874,
-  "missingChapters": 1789,
+  "storedChapters": 71877,
+  "missingChapters": 1786,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -530,7 +530,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/33/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/34/"
         ]
       },
       {
@@ -5469,8 +5469,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/48/",
-          "https://jkanime.net/tsubasa-chronicle/49/"
+          "https://jkanime.net/tsubasa-chronicle/49/",
+          "https://jkanime.net/tsubasa-chronicle/50/"
         ]
       },
       {
@@ -10735,7 +10735,7 @@
         "title": "Kusuriya no Hitorigoto",
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-          "https://jkanime.net/kusuriya-no-hitorigoto/33/"
+          "https://jkanime.net/kusuriya-no-hitorigoto/34/"
         ]
       },
       {
@@ -36744,8 +36744,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/48/",
-          "https://jkanime.net/tsubasa-chronicle/49/"
+          "https://jkanime.net/tsubasa-chronicle/49/",
+          "https://jkanime.net/tsubasa-chronicle/50/"
         ]
       },
       {
@@ -38643,6 +38643,102 @@
         "samples": [
           "https://jkanime.net/scryed/1/",
           "https://jkanime.net/scryed/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/i-my-me-strawberry-eggs/",
+        "title": "I My Me! Strawberry Eggs",
+        "samples": [
+          "https://jkanime.net/i-my-me-strawberry-eggs/1/",
+          "https://jkanime.net/i-my-me-strawberry-eggs/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/figure-17-tsubasa-hikaru/",
+        "title": "Figure 17: Tsubasa & Hikaru",
+        "samples": [
+          "https://jkanime.net/figure-17-tsubasa-hikaru/1/",
+          "https://jkanime.net/figure-17-tsubasa-hikaru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/offside-tv/",
+        "title": "Offside (TV)",
+        "samples": [
+          "https://jkanime.net/offside-tv/1/",
+          "https://jkanime.net/offside-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanaukyou-maid-tai/",
+        "title": "Hanaukyou Maid-tai",
+        "samples": [
+          "https://jkanime.net/hanaukyou-maid-tai/1/",
+          "https://jkanime.net/hanaukyou-maid-tai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koutetsu-tenshi-kurumi-2/",
+        "title": "Koutetsu Tenshi Kurumi 2",
+        "samples": [
+          "https://jkanime.net/koutetsu-tenshi-kurumi-2/1/",
+          "https://jkanime.net/koutetsu-tenshi-kurumi-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/galaxy-angel/",
+        "title": "Galaxy Angel",
+        "samples": [
+          "https://jkanime.net/galaxy-angel/1/",
+          "https://jkanime.net/galaxy-angel/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/project-arms/",
+        "title": "Project ARMS",
+        "samples": [
+          "https://jkanime.net/project-arms/1/",
+          "https://jkanime.net/project-arms/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/taiho-shichau-zo-second-season/",
+        "title": "Taiho Shichau zo: Second Season",
+        "samples": [
+          "https://jkanime.net/taiho-shichau-zo-second-season/1/",
+          "https://jkanime.net/taiho-shichau-zo-second-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/noir/",
+        "title": "Noir",
+        "samples": [
+          "https://jkanime.net/noir/1/",
+          "https://jkanime.net/noir/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/geneshaft/",
+        "title": "Geneshaft",
+        "samples": [
+          "https://jkanime.net/geneshaft/1/",
+          "https://jkanime.net/geneshaft/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-soultaker-tamashii-gari/",
+        "title": "The SoulTaker: Tamashii-gari",
+        "samples": [
+          "https://jkanime.net/the-soultaker-tamashii-gari/1/",
+          "https://jkanime.net/the-soultaker-tamashii-gari/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/star-ocean-ex/",
+        "title": "Star Ocean EX",
+        "samples": [
+          "https://jkanime.net/star-ocean-ex/1/",
+          "https://jkanime.net/star-ocean-ex/10/"
         ]
       },
       {
@@ -62043,10 +62139,9 @@
         "renewal-error"
       ],
       "observed": 53,
-      "stored": 31,
+      "stored": 32,
       "missing": [
         "https://jkanime.net/kusuriya-no-hitorigoto/26/",
-        "https://jkanime.net/kusuriya-no-hitorigoto/33/",
         "https://jkanime.net/kusuriya-no-hitorigoto/34/",
         "https://jkanime.net/kusuriya-no-hitorigoto/35/",
         "https://jkanime.net/kusuriya-no-hitorigoto/36/",
@@ -62074,8 +62169,8 @@
       "families": {
         "mega": 23,
         "streamwish": 27,
-        "vidhide": 23,
-        "mp4upload": 30,
+        "vidhide": 24,
+        "mp4upload": 31,
         "streamtape": 22
       },
       "playbackVerified": false
@@ -105774,13 +105869,12 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/17/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
-        "https://jkanime.net/ninja-slayer-from-animation/21/",
         "https://jkanime.net/ninja-slayer-from-animation/22/",
         "https://jkanime.net/ninja-slayer-from-animation/23/",
         "https://jkanime.net/ninja-slayer-from-animation/24/",
@@ -105798,7 +105892,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "streamwish": 9
+        "streamwish": 10
       },
       "playbackVerified": false
     },
@@ -136237,9 +136331,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 47,
+      "stored": 48,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/48/",
         "https://jkanime.net/tsubasa-chronicle/49/",
         "https://jkanime.net/tsubasa-chronicle/50/",
         "https://jkanime.net/tsubasa-chronicle/51/",
@@ -136249,9 +136342,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 48,
-        "streamwish": 47,
-        "vidhide": 48,
+        "mp4upload": 49,
+        "streamwish": 48,
+        "vidhide": 49,
         "mega": 1,
         "streamtape": 1
       },
@@ -141487,7 +141580,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -141501,13 +141594,15 @@
     {
       "series": "https://jkanime.net/i-my-me-strawberry-eggs/",
       "title": "I My Me! Strawberry Eggs",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -141520,13 +141615,15 @@
     {
       "series": "https://jkanime.net/figure-17-tsubasa-hikaru/",
       "title": "Figure 17: Tsubasa & Hikaru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -141540,13 +141637,15 @@
     {
       "series": "https://jkanime.net/offside-tv/",
       "title": "Offside (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -141560,13 +141659,15 @@
     {
       "series": "https://jkanime.net/hanaukyou-maid-tai/",
       "title": "Hanaukyou Maid-tai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -141580,13 +141681,15 @@
     {
       "series": "https://jkanime.net/koutetsu-tenshi-kurumi-2/",
       "title": "Koutetsu Tenshi Kurumi 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -141600,13 +141703,15 @@
     {
       "series": "https://jkanime.net/galaxy-angel/",
       "title": "Galaxy Angel",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -141620,33 +141725,37 @@
     {
       "series": "https://jkanime.net/project-arms/",
       "title": "Project ARMS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
-        "mega": 26,
+        "mega": 25,
         "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 25,
+        "mixdrop": 25,
+        "mp4upload": 25,
+        "streamtape": 25
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/taiho-shichau-zo-second-season/",
       "title": "Taiho Shichau zo: Second Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -141660,32 +141769,36 @@
     {
       "series": "https://jkanime.net/noir/",
       "title": "Noir",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
-        "mega": 26,
+        "mega": 23,
         "streamwish": 26,
-        "vidhide": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 23,
+        "mp4upload": 23,
+        "streamtape": 23
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/geneshaft/",
       "title": "Geneshaft",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -141699,33 +141812,37 @@
     {
       "series": "https://jkanime.net/the-soultaker-tamashii-gari/",
       "title": "The SoulTaker: Tamashii-gari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
-        "mega": 13,
+        "mega": 8,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 8,
+        "mixdrop": 8,
+        "mp4upload": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/star-ocean-ex/",
       "title": "Star Ocean EX",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
         "mega": 26,
         "streamwish": 26,
