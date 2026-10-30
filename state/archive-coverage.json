@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T02:32:06.249742+00:00",
+  "checkedAt": "2026-10-30T02:45:25.603477+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
-  "storedChapters": 71715,
-  "missingChapters": 1825,
+  "storedChapters": 71716,
+  "missingChapters": 1824,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2400,7 +2400,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/"
         ]
       },
       {
@@ -23255,7 +23255,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/"
         ]
       },
       {
@@ -30227,7 +30227,79 @@
         "title": "Zettai Bouei Leviathan",
         "samples": [
           "https://jkanime.net/zettai-bouei-leviathan/1/",
-          "https://jkanime.net/zettai-bouei-leviathan/2/"
+          "https://jkanime.net/zettai-bouei-leviathan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/devil-survivor-2-the-animation/",
+        "title": "Devil Survivor 2 The Animation",
+        "samples": [
+          "https://jkanime.net/devil-survivor-2-the-animation/1/",
+          "https://jkanime.net/devil-survivor-2-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/photo-kano/",
+        "title": "Photokano",
+        "samples": [
+          "https://jkanime.net/photo-kano/1/",
+          "https://jkanime.net/photo-kano/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yahari-ore-no-seishun-love-come-wa-machigatteiru/",
+        "title": "Oregairu",
+        "samples": [
+          "https://jkanime.net/yahari-ore-no-seishun-love-come-wa-machigatteiru/1/",
+          "https://jkanime.net/yahari-ore-no-seishun-love-come-wa-machigatteiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/karneval-tv/",
+        "title": "Karneval",
+        "samples": [
+          "https://jkanime.net/karneval-tv/1/",
+          "https://jkanime.net/karneval-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aku-no-hana/",
+        "title": "Aku no Hana",
+        "samples": [
+          "https://jkanime.net/aku-no-hana/1/",
+          "https://jkanime.net/aku-no-hana/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dansai-bunri-no-crime-edge/",
+        "title": "Dansai Bunri no Crime Edge",
+        "samples": [
+          "https://jkanime.net/dansai-bunri-no-crime-edge/1/",
+          "https://jkanime.net/dansai-bunri-no-crime-edge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hataraku-maou-sama/",
+        "title": "Hataraku Maou-sama!",
+        "samples": [
+          "https://jkanime.net/hataraku-maou-sama/1/",
+          "https://jkanime.net/hataraku-maou-sama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ginga-kikoutai-majestic-prince/",
+        "title": "Ginga Kikoutai Majestic Prince",
+        "samples": [
+          "https://jkanime.net/ginga-kikoutai-majestic-prince/1/",
+          "https://jkanime.net/ginga-kikoutai-majestic-prince/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uta-no-prince-sama-maji-love-2000/",
+        "title": "Uta no☆Prince-sama♪ Maji Love 2000%",
+        "samples": [
+          "https://jkanime.net/uta-no-prince-sama-maji-love-2000/1/",
+          "https://jkanime.net/uta-no-prince-sama-maji-love-2000/10/"
         ]
       },
       {
@@ -30242,6 +30314,14 @@
         "title": "Dragon Ball Z: Kami to Kami",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-14-kami-to-kami/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vanquished-queens/",
+        "title": "Vanquished Queens",
+        "samples": [
+          "https://jkanime.net/vanquished-queens/3/",
+          "https://jkanime.net/vanquished-queens/4/"
         ]
       },
       {
@@ -30273,10 +30353,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/rdg-red-data-girl/",
+        "title": "RDG: Red Data Girl",
+        "samples": [
+          "https://jkanime.net/rdg-red-data-girl/1/",
+          "https://jkanime.net/rdg-red-data-girl/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/vassalord/",
         "title": "Vassalord.",
         "samples": [
           "https://jkanime.net/vassalord/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyclops-shoujo-saipu/",
+        "title": "Cyclops Shoujo Saipu~",
+        "samples": [
+          "https://jkanime.net/cyclops-shoujo-saipu/1/",
+          "https://jkanime.net/cyclops-shoujo-saipu/10/"
         ]
       },
       {
@@ -30322,6 +30418,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/code-breaker-ova/",
+        "title": "Code:Breaker OVA",
+        "samples": [
+          "https://jkanime.net/code-breaker-ova/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/",
         "title": "Toaru Majutsu no Index: Endymion no Kiseki",
         "samples": [
@@ -30350,6 +30453,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chokkyuu-hyoudai-robot-anime-straight-title/",
+        "title": "Chokkyuu Hyoudai Robot Anime: Straight Title",
+        "samples": [
+          "https://jkanime.net/chokkyuu-hyoudai-robot-anime-straight-title/1/",
+          "https://jkanime.net/chokkyuu-hyoudai-robot-anime-straight-title/12/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sket-dance-ova/",
         "title": "SKET Dance OVA",
         "samples": [
@@ -30357,10 +30468,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dokidoki-precure/",
+        "title": "Dokidoki! Precure",
+        "samples": [
+          "https://jkanime.net/dokidoki-precure/1/",
+          "https://jkanime.net/dokidoki-precure/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroko-no-basket-ng-shuu/",
+        "title": "Kuroko no Basket NG-shuu",
+        "samples": [
+          "https://jkanime.net/kuroko-no-basket-ng-shuu/1/",
+          "https://jkanime.net/kuroko-no-basket-ng-shuu/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-ova/",
         "title": "Ebiten: Kouritsu Ebisugawa Koukou Tenmonbu OVA",
         "samples": [
           "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hetalia-the-beautiful-world/",
+        "title": "Hetalia: The Beautiful World",
+        "samples": [
+          "https://jkanime.net/hetalia-the-beautiful-world/1/",
+          "https://jkanime.net/hetalia-the-beautiful-world/2/"
         ]
       },
       {
@@ -60075,7 +60210,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -74116,7 +74251,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -79602,7 +79737,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mp4upload": 2
       },
@@ -87995,7 +88130,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -88168,7 +88303,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 3
       },
@@ -91609,10 +91744,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/5/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/",
@@ -91624,7 +91758,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 4
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -111250,7 +111384,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -111263,13 +111397,15 @@
     {
       "series": "https://jkanime.net/devil-survivor-2-the-animation/",
       "title": "Devil Survivor 2 The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111282,13 +111418,15 @@
     {
       "series": "https://jkanime.net/photo-kano/",
       "title": "Photokano",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111301,13 +111439,15 @@
     {
       "series": "https://jkanime.net/yahari-ore-no-seishun-love-come-wa-machigatteiru/",
       "title": "Oregairu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111320,13 +111460,15 @@
     {
       "series": "https://jkanime.net/karneval-tv/",
       "title": "Karneval",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111339,13 +111481,15 @@
     {
       "series": "https://jkanime.net/aku-no-hana/",
       "title": "Aku no Hana",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111358,13 +111502,15 @@
     {
       "series": "https://jkanime.net/dansai-bunri-no-crime-edge/",
       "title": "Dansai Bunri no Crime Edge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111377,13 +111523,15 @@
     {
       "series": "https://jkanime.net/hataraku-maou-sama/",
       "title": "Hataraku Maou-sama!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -111396,13 +111544,15 @@
     {
       "series": "https://jkanime.net/ginga-kikoutai-majestic-prince/",
       "title": "Ginga Kikoutai Majestic Prince",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -111415,13 +111565,15 @@
     {
       "series": "https://jkanime.net/uta-no-prince-sama-maji-love-2000/",
       "title": "Uta no☆Prince-sama♪ Maji Love 2000%",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -111442,11 +111594,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 11,
+        "vidhide": 12
       },
       "playbackVerified": false
     },
@@ -111491,19 +111641,21 @@
     {
       "series": "https://jkanime.net/vanquished-queens/",
       "title": "Vanquished Queens",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 4,
-        "streamwish": 4,
-        "vidhide": 4,
         "mp4upload": 4,
-        "streamtape": 4
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -111605,13 +111757,15 @@
     {
       "series": "https://jkanime.net/rdg-red-data-girl/",
       "title": "RDG: Red Data Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -111643,13 +111797,15 @@
     {
       "series": "https://jkanime.net/cyclops-shoujo-saipu/",
       "title": "Cyclops Shoujo Saipu~",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -111776,19 +111932,21 @@
     {
       "series": "https://jkanime.net/code-breaker-ova/",
       "title": "Code:Breaker OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
         "mp4upload": 3,
-        "streamtape": 3
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -111886,19 +112044,21 @@
     {
       "series": "https://jkanime.net/chokkyuu-hyoudai-robot-anime-straight-title/",
       "title": "Chokkyuu Hyoudai Robot Anime: Straight Title",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 12,
+        "mega": 3,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -111924,33 +112084,37 @@
     {
       "series": "https://jkanime.net/dokidoki-precure/",
       "title": "Dokidoki! Precure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 31,
       "families": {
-        "mega": 49,
+        "mega": 31,
         "streamwish": 49,
-        "vidhide": 49,
-        "mixdrop": 49,
-        "mp4upload": 49,
-        "streamtape": 41
+        "vidhide": 31,
+        "mixdrop": 31,
+        "mp4upload": 31,
+        "streamtape": 27
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kuroko-no-basket-ng-shuu/",
       "title": "Kuroko no Basket NG-shuu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -111982,13 +112146,15 @@
     {
       "series": "https://jkanime.net/hetalia-the-beautiful-world/",
       "title": "Hetalia: The Beautiful World",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 20,
         "streamwish": 20,
@@ -121933,7 +122099,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {},
       "playbackVerified": false
     },
@@ -137170,7 +137336,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 32,
         "streamwish": 32,
