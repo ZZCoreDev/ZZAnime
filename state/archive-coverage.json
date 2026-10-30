@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T15:10:31.523226+00:00",
+  "checkedAt": "2026-10-30T15:24:14.920394+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73619,
-  "storedChapters": 71827,
-  "missingChapters": 1792,
+  "observedChapters": 73623,
+  "storedChapters": 71829,
+  "missingChapters": 1794,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5475,8 +5475,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/34/",
-          "https://jkanime.net/tsubasa-chronicle/35/"
+          "https://jkanime.net/tsubasa-chronicle/35/",
+          "https://jkanime.net/tsubasa-chronicle/36/"
         ]
       },
       {
@@ -5551,17 +5551,18 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bakuretsu-tenshi/",
-        "title": "Bakuretsu Tenshi",
-        "samples": [
-          "https://jkanime.net/bakuretsu-tenshi/25/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/onegai-twins-ova/",
         "title": "Onegai Twins OVA",
         "samples": [
           "https://jkanime.net/onegai-twins-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hit-wo-nerae/",
+        "title": "Hit wo Nerae!",
+        "samples": [
+          "https://jkanime.net/hit-wo-nerae/10/",
+          "https://jkanime.net/hit-wo-nerae/11/"
         ]
       },
       {
@@ -36726,8 +36727,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/34/",
-          "https://jkanime.net/tsubasa-chronicle/35/"
+          "https://jkanime.net/tsubasa-chronicle/35/",
+          "https://jkanime.net/tsubasa-chronicle/36/"
         ]
       },
       {
@@ -37244,7 +37245,8 @@
         "series": "https://jkanime.net/bakuretsu-tenshi/",
         "title": "Bakuretsu Tenshi",
         "samples": [
-          "https://jkanime.net/bakuretsu-tenshi/25/"
+          "https://jkanime.net/bakuretsu-tenshi/1/",
+          "https://jkanime.net/bakuretsu-tenshi/2/"
         ]
       },
       {
@@ -37311,10 +37313,146 @@
         ]
       },
       {
+        "series": "https://jkanime.net/boukyaku-no-senritsu/",
+        "title": "Boukyaku no Senritsu",
+        "samples": [
+          "https://jkanime.net/boukyaku-no-senritsu/1/",
+          "https://jkanime.net/boukyaku-no-senritsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/",
+        "title": "Mutsu Enmei Ryuu Gaiden: Shura no Toki",
+        "samples": [
+          "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/1/",
+          "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinkon-gattai-godannar-2nd-season/",
+        "title": "Shinkon Gattai Godannar!! 2nd Season",
+        "samples": [
+          "https://jkanime.net/shinkon-gattai-godannar-2nd-season/1/",
+          "https://jkanime.net/shinkon-gattai-godannar-2nd-season/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sensei-no-ojikan-dokidoki-school-hours/",
+        "title": "Sensei no Ojikan: Dokidoki School Hours",
+        "samples": [
+          "https://jkanime.net/sensei-no-ojikan-dokidoki-school-hours/1/",
+          "https://jkanime.net/sensei-no-ojikan-dokidoki-school-hours/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanaukyou-maid-tai-la-verite/",
+        "title": "Hanaukyou Maid-tai: La Verite",
+        "samples": [
+          "https://jkanime.net/hanaukyou-maid-tai-la-verite/1/",
+          "https://jkanime.net/hanaukyou-maid-tai-la-verite/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/midori-no-hibi/",
+        "title": "Midori no Hibi",
+        "samples": [
+          "https://jkanime.net/midori-no-hibi/1/",
+          "https://jkanime.net/midori-no-hibi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maria-sama-ga-miteru-specials/",
+        "title": "Maria-sama ga Miteru Specials",
+        "samples": [
+          "https://jkanime.net/maria-sama-ga-miteru-specials/1/",
+          "https://jkanime.net/maria-sama-ga-miteru-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mermaid-melody-pichi-pichi-pitch-pure/",
+        "title": "Mermaid Melody Pichi Pichi Pitch Pure",
+        "samples": [
+          "https://jkanime.net/mermaid-melody-pichi-pichi-pitch-pure/1/",
+          "https://jkanime.net/mermaid-melody-pichi-pichi-pitch-pure/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aishiteruze-baby/",
+        "title": "Aishiteruze Baby",
+        "samples": [
+          "https://jkanime.net/aishiteruze-baby/1/",
+          "https://jkanime.net/aishiteruze-baby/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenjou-tenge/",
+        "title": "Tenjou Tenge",
+        "samples": [
+          "https://jkanime.net/tenjou-tenge/1/",
+          "https://jkanime.net/tenjou-tenge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saiyuuki-reload-gunlock/",
+        "title": "Saiyuuki Reload Gunlock",
+        "samples": [
+          "https://jkanime.net/saiyuuki-reload-gunlock/1/",
+          "https://jkanime.net/saiyuuki-reload-gunlock/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koi-kaze/",
+        "title": "Koi Kaze",
+        "samples": [
+          "https://jkanime.net/koi-kaze/1/",
+          "https://jkanime.net/koi-kaze/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hi-no-tori/",
+        "title": "Hi no Tori",
+        "samples": [
+          "https://jkanime.net/hi-no-tori/1/",
+          "https://jkanime.net/hi-no-tori/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hit-wo-nerae/",
+        "title": "Hit wo Nerae!",
+        "samples": [
+          "https://jkanime.net/hit-wo-nerae/10/",
+          "https://jkanime.net/hit-wo-nerae/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hunter-x-hunter-greed-island-final/",
+        "title": "Hunter x Hunter: Greed Island Final",
+        "samples": [
+          "https://jkanime.net/hunter-x-hunter-greed-island-final/1/",
+          "https://jkanime.net/hunter-x-hunter-greed-island-final/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuugo-koushounin/",
+        "title": "Yuugo: Koushounin",
+        "samples": [
+          "https://jkanime.net/yuugo-koushounin/1/",
+          "https://jkanime.net/yuugo-koushounin/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/saint-seiya-tenkai-hen/",
         "title": "Saint Seiya: Tenkai-hen",
         "samples": [
           "https://jkanime.net/saint-seiya-tenkai-hen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/paranoia-agent/",
+        "title": "Paranoia Agent",
+        "samples": [
+          "https://jkanime.net/paranoia-agent/1/",
+          "https://jkanime.net/paranoia-agent/2/"
         ]
       },
       {
@@ -43509,7 +43647,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -90138,7 +90276,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {},
       "playbackVerified": false
     },
@@ -94758,7 +94896,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -135069,9 +135207,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 33,
+      "stored": 34,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/34/",
         "https://jkanime.net/tsubasa-chronicle/35/",
         "https://jkanime.net/tsubasa-chronicle/36/",
         "https://jkanime.net/tsubasa-chronicle/37/",
@@ -135095,9 +135232,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 34,
-        "streamwish": 33,
-        "vidhide": 34,
+        "mp4upload": 35,
+        "streamwish": 34,
+        "vidhide": 35,
         "mega": 1,
         "streamtape": 1
       },
@@ -135122,7 +135259,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -136509,14 +136646,11 @@
       "series": "https://jkanime.net/bakuretsu-tenshi/",
       "title": "Bakuretsu Tenshi",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 24,
-      "missing": [
-        "https://jkanime.net/bakuretsu-tenshi/25/"
-      ],
+      "stored": 25,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -136524,7 +136658,7 @@
         "mega": 3,
         "streamwish": 4,
         "vidhide": 4,
-        "mp4upload": 24,
+        "mp4upload": 25,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -136706,7 +136840,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -136719,13 +136853,15 @@
     {
       "series": "https://jkanime.net/boukyaku-no-senritsu/",
       "title": "Boukyaku no Senritsu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -136739,53 +136875,59 @@
     {
       "series": "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/",
       "title": "Mutsu Enmei Ryuu Gaiden: Shura no Toki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 21,
       "families": {
-        "mega": 26,
+        "mega": 21,
         "streamwish": 26,
-        "vidhide": 26,
-        "mixdrop": 26,
-        "mp4upload": 26,
-        "streamtape": 26
+        "vidhide": 21,
+        "mixdrop": 21,
+        "mp4upload": 21,
+        "streamtape": 21
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shinkon-gattai-godannar-2nd-season/",
       "title": "Shinkon Gattai Godannar!! 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 13,
+        "mega": 6,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 6,
+        "mixdrop": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sensei-no-ojikan-dokidoki-school-hours/",
       "title": "Sensei no Ojikan: Dokidoki School Hours",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136799,13 +136941,15 @@
     {
       "series": "https://jkanime.net/hanaukyou-maid-tai-la-verite/",
       "title": "Hanaukyou Maid-tai: La Verite",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -136819,13 +136963,15 @@
     {
       "series": "https://jkanime.net/midori-no-hibi/",
       "title": "Midori no Hibi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136838,13 +136984,15 @@
     {
       "series": "https://jkanime.net/maria-sama-ga-miteru-specials/",
       "title": "Maria-sama ga Miteru Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -136858,13 +137006,15 @@
     {
       "series": "https://jkanime.net/mermaid-melody-pichi-pichi-pitch-pure/",
       "title": "Mermaid Melody Pichi Pichi Pitch Pure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 39,
       "families": {
         "mega": 39,
         "streamwish": 39,
@@ -136878,13 +137028,15 @@
     {
       "series": "https://jkanime.net/aishiteruze-baby/",
       "title": "Aishiteruze Baby",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -136897,13 +137049,15 @@
     {
       "series": "https://jkanime.net/tenjou-tenge/",
       "title": "Tenjou Tenge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -136916,13 +137070,15 @@
     {
       "series": "https://jkanime.net/saiyuuki-reload-gunlock/",
       "title": "Saiyuuki Reload Gunlock",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -136936,13 +137092,15 @@
     {
       "series": "https://jkanime.net/koi-kaze/",
       "title": "Koi Kaze",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136955,13 +137113,15 @@
     {
       "series": "https://jkanime.net/hi-no-tori/",
       "title": "Hi no Tori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136975,33 +137135,43 @@
     {
       "series": "https://jkanime.net/hit-wo-nerae/",
       "title": "Hit wo Nerae!",
-      "causes": [],
-      "observed": 8,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 12,
       "stored": 8,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/hit-wo-nerae/10/",
+        "https://jkanime.net/hit-wo-nerae/11/",
+        "https://jkanime.net/hit-wo-nerae/12/",
+        "https://jkanime.net/hit-wo-nerae/9/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 8,
-        "streamwish": 8,
-        "vidhide": 8,
-        "mixdrop": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "mp4upload": 7,
+        "streamwish": 6,
+        "mega": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hunter-x-hunter-greed-island-final/",
       "title": "Hunter x Hunter: Greed Island Final",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -137014,13 +137184,15 @@
     {
       "series": "https://jkanime.net/yuugo-koushounin/",
       "title": "Yuugo: Koushounin",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137053,13 +137225,15 @@
     {
       "series": "https://jkanime.net/paranoia-agent/",
       "title": "Paranoia Agent",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 13,
         "streamwish": 13,
