@@ -47,6 +47,7 @@ jobs:
           python3 test_voe_channel.py
           python3 test_voe_consumer.py
           python3 test_renew.py
+          python3 test_chain_continuity.py
           python3 test_history_prefix.py
           python3 test_news_watchdog.py
           python3 test_import_recovered.py
@@ -95,10 +96,11 @@ jobs:
             python3 automation/hourly/renew.py --write-status github
           fi
       - name: Continuar el histórico pendiente sin esperar a otro arranque ni al PC
-        if: success() && inputs.proof != true && vars.ZZ_RENEW_ENABLED == 'true'
+        if: ${{ !cancelled() && inputs.proof != true && vars.ZZ_RENEW_ENABLED == 'true' }}
         working-directory: code
         env:
           ZZ_DATA: ${{ github.workspace }}/data/state
           GH_TOKEN: ${{ github.token }}
+          ZZ_RENEW_OUTCOME: ${{ job.status }}
         run: python3 automation/hourly/renew.py --continue-if-due
 

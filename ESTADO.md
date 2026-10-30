@@ -189,3 +189,8 @@ Tras cerrar VOE, corregido selector: presupuesto nominal75/25 antes concatenaba3
 
 Histórico: reparto entrelazado validado también con cola lineal(deque), sin desplazamientos cuadráticos al evaluar todo el archivo.29 pruebas de selección/renovación pasan tras este ajuste; código23b0a96d8de8450d38e44232b830a0e9408491dd. Medición sostenida pendiente; no declarar todo el archivo renovado.
 Módulos VOE: automation/hourly/voe_channel.py separa/captura/renueva y firma complemento; voe-java contiene consumidor actual, java conserva consumidor legado para comprobar canal raíz. App ProviderBackupUpdates usa cachés independientes y ProviderBackupCatalog las combina sin duplicar opciones. /voe/channel.json comparte clave, no reemplaza /channel.json. Orquestación y recibo local: work/backup-delivery/complete_voe_overlay.py y voe-overlay-completion.json. Histórico: work/historical-throughput/advance.py y status.json.
+
+<!-- NEWS-CHAIN -->
+## Cadena de novedades sin cortes · 30/10
+Medición 28–30/10: con cadena viva, fuente→canal mediana 5,9 min (peor 8,9); cortes de cadena llevaban p90 a 45 min y peor a 239 min; cron de 5 min solo disparó 13 veces en 3 días. Corrección: un lote de renovación fallido ya no corta la cadena (paso Continuar con !cancelled(), espaciado mínimo 300 s si falla) y una ejecución que sigue «queued» más de 30 min (fantasma 40472154081) ya no bloquea la continuación. 5 pruebas nuevas (test_chain_continuity.py) fallaban antes; suites de renovación/watchdog correctas. Detector con Cron Trigger en el Worker pendiente del token de GitHub que debe crear Robin. Detalle en side-session-notes latencia-novedades-20261030.md.
+<!-- /NEWS-CHAIN -->

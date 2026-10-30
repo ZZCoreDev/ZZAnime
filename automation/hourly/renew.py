@@ -154,20 +154,37 @@ def github_status(status):
             if error.code not in (409,422) or attempt==3:raise
             time.sleep(attempt+1)
 
+CHAIN_SPACING=300
+STALE_WAIT=1800
+
+def live(row,statuses,now):
+    # A run still "queued" long after any job could hold the lock is a GitHub phantom, not waiting news.
+    if row.get('status') not in statuses:return False
+    created=stamp(row.get('created_at'))
+    return created<0 or now-created<STALE_WAIT
+
 def continue_if_due(folder):
     status=json.loads((folder/'renewal-status.json').read_bytes())
-    if status.get('state') not in ('complete','complete-with-failures'):return
+    failed=os.environ.get('ZZ_RENEW_OUTCOME','success')!='success'
+    if status.get('state') not in ('complete','complete-with-failures') and not failed:return
     state=load(folder);failed_path=folder/'renewal-failures.json';failures=json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
     if not select(state,failures,time.time(),1,include_missing=True):return
     if os.environ.get('GITHUB_REPOSITORY')!='ZZCoreDev/ZZAnime':raise ValueError('Continuation repository not allowed')
+    headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'}
+    if failed:
+        # A failed batch must not end the chain (and news with it); space retries so a repeating fault stays at the news cadence.
+        with urllib.request.urlopen(urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/runs/'+os.environ['GITHUB_RUN_ID'],headers=headers),timeout=20) as response:started=stamp(json.loads(response.read())['run_started_at'])
+        wait=CHAIN_SPACING-(time.time()-started)
+        if wait>0:print('Failed batch: next renewal in %d s.'%wait,flush=True);time.sleep(wait)
+    now=time.time()
     # GitHub keeps only one pending job per concurrency group. Never replace waiting news.
-    pending=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/runs?per_page=20',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'})
+    pending=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/runs?per_page=20',headers=headers)
     with urllib.request.urlopen(pending,timeout=20) as response:runs=json.loads(response.read())['workflow_runs']
-    if any(row.get('status') in ('queued','pending','waiting','in_progress','requested') for row in runs):
+    if any(live(row,('queued','pending','waiting','in_progress','requested'),now) for row in runs):
         print('Recent episode delivery has priority; renewal resumes after it completes.');return
-    pending_renew=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/runs?per_page=20',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'})
+    pending_renew=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/runs?per_page=20',headers=headers)
     with urllib.request.urlopen(pending_renew,timeout=20) as response:waiting=json.loads(response.read())['workflow_runs']
-    if any(row.get('status') in ('queued','pending','waiting','requested') for row in waiting):
+    if any(live(row,('queued','pending','waiting','requested'),now) for row in waiting):
         print('A renewal or sample is already waiting; keep its place in the queue.');return
     data=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
     req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/dispatches',data=data,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
