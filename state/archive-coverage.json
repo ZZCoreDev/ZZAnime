@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T00:19:01.451476+00:00",
+  "checkedAt": "2026-10-30T00:30:54.217103+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73536,
   "storedChapters": 71712,
@@ -28122,6 +28122,102 @@
         ]
       },
       {
+        "series": "https://jkanime.net/soul-eater-not/",
+        "title": "Soul Eater Not!",
+        "samples": [
+          "https://jkanime.net/soul-eater-not/1/",
+          "https://jkanime.net/soul-eater-not/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isshuukan-friends/",
+        "title": "Isshuukan Friends",
+        "samples": [
+          "https://jkanime.net/isshuukan-friends/1/",
+          "https://jkanime.net/isshuukan-friends/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-live-school-idol-project-2nd-season/",
+        "title": "Love Live! School Idol Project 2nd Season",
+        "samples": [
+          "https://jkanime.net/love-live-school-idol-project-2nd-season/1/",
+          "https://jkanime.net/love-live-school-idol-project-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mangaka-san-to-assistant-san-to/",
+        "title": "Mangaka-san to Assistant-san to",
+        "samples": [
+          "https://jkanime.net/mangaka-san-to-assistant-san-to/1/",
+          "https://jkanime.net/mangaka-san-to-assistant-san-to/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hero-bank/",
+        "title": "Hero Bank",
+        "samples": [
+          "https://jkanime.net/hero-bank/1/",
+          "https://jkanime.net/hero-bank/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haikyuu/",
+        "title": "Haikyuu!!",
+        "samples": [
+          "https://jkanime.net/haikyuu/1/",
+          "https://jkanime.net/haikyuu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/baby-steps/",
+        "title": "Baby Steps",
+        "samples": [
+          "https://jkanime.net/baby-steps/1/",
+          "https://jkanime.net/baby-steps/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gokukoku-no-brynhildr/",
+        "title": "Gokukoku no Brynhildr",
+        "samples": [
+          "https://jkanime.net/gokukoku-no-brynhildr/1/",
+          "https://jkanime.net/gokukoku-no-brynhildr/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/break-blade-tv/",
+        "title": "Break Blade (TV)",
+        "samples": [
+          "https://jkanime.net/break-blade-tv/1/",
+          "https://jkanime.net/break-blade-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-kai-2014/",
+        "title": "Dragon Ball Kai (2014)",
+        "samples": [
+          "https://jkanime.net/dragon-ball-kai-2014/1/",
+          "https://jkanime.net/dragon-ball-kai-2014/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lady-jewelpet/",
+        "title": "Lady Jewelpet",
+        "samples": [
+          "https://jkanime.net/lady-jewelpet/1/",
+          "https://jkanime.net/lady-jewelpet/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamigami-no-asobi/",
+        "title": "Kamigami no Asobi",
+        "samples": [
+          "https://jkanime.net/kamigami-no-asobi/1/",
+          "https://jkanime.net/kamigami-no-asobi/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mikakunin-de-shinkoukei-ova-2/",
         "title": "Mikakunin de Shinkoukei OVA 2",
         "samples": [
@@ -45746,7 +45842,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 19,
         "vidhide": 16,
@@ -78064,7 +78160,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mp4upload": 2
       },
@@ -86911,7 +87007,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -103862,26 +103958,28 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
-        "mega": 10,
+        "mega": 5,
         "streamwish": 26,
-        "vidhide": 10,
-        "mp4upload": 10,
-        "streamtape": 10
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/soul-eater-not/",
       "title": "Soul Eater Not!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103894,13 +103992,15 @@
     {
       "series": "https://jkanime.net/isshuukan-friends/",
       "title": "Isshuukan Friends",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103913,13 +104013,15 @@
     {
       "series": "https://jkanime.net/love-live-school-idol-project-2nd-season/",
       "title": "Love Live! School Idol Project 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -103932,13 +104034,15 @@
     {
       "series": "https://jkanime.net/mangaka-san-to-assistant-san-to/",
       "title": "Mangaka-san to Assistant-san to",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103951,13 +104055,15 @@
     {
       "series": "https://jkanime.net/hero-bank/",
       "title": "Hero Bank",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 51,
         "streamwish": 51,
@@ -103970,13 +104076,15 @@
     {
       "series": "https://jkanime.net/haikyuu/",
       "title": "Haikyuu!!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -103989,13 +104097,15 @@
     {
       "series": "https://jkanime.net/baby-steps/",
       "title": "Baby Steps",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -104008,13 +104118,15 @@
     {
       "series": "https://jkanime.net/gokukoku-no-brynhildr/",
       "title": "Gokukoku no Brynhildr",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -104027,13 +104139,15 @@
     {
       "series": "https://jkanime.net/break-blade-tv/",
       "title": "Break Blade (TV)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -104046,13 +104160,15 @@
     {
       "series": "https://jkanime.net/dragon-ball-kai-2014/",
       "title": "Dragon Ball Kai (2014)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 61,
       "stored": 61,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 61,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -104065,13 +104181,15 @@
     {
       "series": "https://jkanime.net/lady-jewelpet/",
       "title": "Lady Jewelpet",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 51,
       "families": {
         "mega": 49,
         "streamwish": 51,
@@ -104084,13 +104202,15 @@
     {
       "series": "https://jkanime.net/kamigami-no-asobi/",
       "title": "Kamigami no Asobi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129415,7 +129535,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mega": 4,
         "streamwish": 4,
