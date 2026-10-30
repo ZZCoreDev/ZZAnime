@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T01:24:12.402885+00:00",
+  "checkedAt": "2026-10-30T01:37:48.100531+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
   "storedChapters": 71712,
@@ -29163,7 +29163,31 @@
         "title": "Machine-Doll wa Kizutsukanai",
         "samples": [
           "https://jkanime.net/machine-doll-wa-kizutsukanai/1/",
-          "https://jkanime.net/machine-doll-wa-kizutsukanai/2/"
+          "https://jkanime.net/machine-doll-wa-kizutsukanai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/non-non-biyori/",
+        "title": "Non Non Biyori",
+        "samples": [
+          "https://jkanime.net/non-non-biyori/1/",
+          "https://jkanime.net/non-non-biyori/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gundam-build-fighters/",
+        "title": "Gundam Build Fighters",
+        "samples": [
+          "https://jkanime.net/gundam-build-fighters/1/",
+          "https://jkanime.net/gundam-build-fighters/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tesagure-bukatsumono/",
+        "title": "Tesagure! Bukatsumono",
+        "samples": [
+          "https://jkanime.net/tesagure-bukatsumono/1/",
+          "https://jkanime.net/tesagure-bukatsumono/10/"
         ]
       },
       {
@@ -29171,6 +29195,110 @@
         "title": "Naruto Shippuden: Sunny Side Battle",
         "samples": [
           "https://jkanime.net/naruto-shippuuden-sunny-side-battle/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magi-the-kingdom-of-magic/",
+        "title": "Magi 2",
+        "samples": [
+          "https://jkanime.net/magi-the-kingdom-of-magic/1/",
+          "https://jkanime.net/magi-the-kingdom-of-magic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroko-no-basket-2/",
+        "title": "Kuroko no Basket 2",
+        "samples": [
+          "https://jkanime.net/kuroko-no-basket-2/1/",
+          "https://jkanime.net/kuroko-no-basket-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hajime-no-ippo-rising/",
+        "title": "Hajime no Ippo: Rising",
+        "samples": [
+          "https://jkanime.net/hajime-no-ippo-rising/1/",
+          "https://jkanime.net/hajime-no-ippo-rising/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/",
+        "title": "Phi Brain: Kami no Puzzle 3rd Season",
+        "samples": [
+          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/1/",
+          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-quartet-hana-no-uta/",
+        "title": "Yozakura Quartet: Hana no Uta",
+        "samples": [
+          "https://jkanime.net/yozakura-quartet-hana-no-uta/1/",
+          "https://jkanime.net/yozakura-quartet-hana-no-uta/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova/",
+        "title": "Aoki Hagane no Arpeggio: Ars Nova",
+        "samples": [
+          "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova/11/",
+          "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/log-horizon/",
+        "title": "Log Horizon",
+        "samples": [
+          "https://jkanime.net/log-horizon/1/",
+          "https://jkanime.net/log-horizon/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/little-busters-refrain/",
+        "title": "Little Busters!: Refrain",
+        "samples": [
+          "https://jkanime.net/little-busters-refrain/1/",
+          "https://jkanime.net/little-busters-refrain/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/freezing-vibration/",
+        "title": "Freezing Vibration",
+        "samples": [
+          "https://jkanime.net/freezing-vibration/1/",
+          "https://jkanime.net/freezing-vibration/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/walkure-romanze/",
+        "title": "Walkure Romanze",
+        "samples": [
+          "https://jkanime.net/walkure-romanze/10/",
+          "https://jkanime.net/walkure-romanze/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai/",
+        "title": "Sekai de Ichiban Tsuyoku Naritai!",
+        "samples": [
+          "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai/1/",
+          "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gingitsune/",
+        "title": "Gingitsune",
+        "samples": [
+          "https://jkanime.net/gingitsune/1/",
+          "https://jkanime.net/gingitsune/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/teekyuu-3/",
+        "title": "Teekyuu 3",
+        "samples": [
+          "https://jkanime.net/teekyuu-3/1/",
+          "https://jkanime.net/teekyuu-3/2/"
         ]
       },
       {
@@ -105976,7 +106104,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "families": {
         "mp4upload": 18,
         "streamwish": 20,
@@ -107593,7 +107721,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107606,13 +107734,15 @@
     {
       "series": "https://jkanime.net/non-non-biyori/",
       "title": "Non Non Biyori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107625,13 +107755,15 @@
     {
       "series": "https://jkanime.net/gundam-build-fighters/",
       "title": "Gundam Build Fighters",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -107644,13 +107776,15 @@
     {
       "series": "https://jkanime.net/tesagure-bukatsumono/",
       "title": "Tesagure! Bukatsumono",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107682,13 +107816,15 @@
     {
       "series": "https://jkanime.net/magi-the-kingdom-of-magic/",
       "title": "Magi 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -107701,13 +107837,15 @@
     {
       "series": "https://jkanime.net/kuroko-no-basket-2/",
       "title": "Kuroko no Basket 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -107720,13 +107858,15 @@
     {
       "series": "https://jkanime.net/hajime-no-ippo-rising/",
       "title": "Hajime no Ippo: Rising",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -107739,13 +107879,15 @@
     {
       "series": "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/",
       "title": "Phi Brain: Kami no Puzzle 3rd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -107758,13 +107900,15 @@
     {
       "series": "https://jkanime.net/yozakura-quartet-hana-no-uta/",
       "title": "Yozakura Quartet: Hana no Uta",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -107777,32 +107921,36 @@
     {
       "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova/",
       "title": "Aoki Hagane no Arpeggio: Ars Nova",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
         "mp4upload": 12,
-        "streamtape": 12
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/log-horizon/",
       "title": "Log Horizon",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -107815,13 +107963,15 @@
     {
       "series": "https://jkanime.net/little-busters-refrain/",
       "title": "Little Busters!: Refrain",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -107834,13 +107984,15 @@
     {
       "series": "https://jkanime.net/freezing-vibration/",
       "title": "Freezing Vibration",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107853,32 +108005,36 @@
     {
       "series": "https://jkanime.net/walkure-romanze/",
       "title": "Walkure Romanze",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 10,
       "families": {
-        "mega": 12,
+        "mp4upload": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/sekai-de-ichiban-tsuyoku-naritai/",
       "title": "Sekai de Ichiban Tsuyoku Naritai!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -107891,13 +108047,15 @@
     {
       "series": "https://jkanime.net/gingitsune/",
       "title": "Gingitsune",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107910,13 +108068,15 @@
     {
       "series": "https://jkanime.net/teekyuu-3/",
       "title": "Teekyuu 3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
