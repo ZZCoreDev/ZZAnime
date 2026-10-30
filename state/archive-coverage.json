@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T14:17:00.962273+00:00",
+  "checkedAt": "2026-10-30T14:30:55.485873+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73617,
-  "storedChapters": 71820,
-  "missingChapters": 1797,
+  "observedChapters": 73618,
+  "storedChapters": 71822,
+  "missingChapters": 1796,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5482,8 +5482,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/30/",
-          "https://jkanime.net/tsubasa-chronicle/31/"
+          "https://jkanime.net/tsubasa-chronicle/31/",
+          "https://jkanime.net/tsubasa-chronicle/32/"
         ]
       },
       {
@@ -6231,6 +6231,13 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
+        "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+        "samples": [
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
         ]
       },
       {
@@ -36726,8 +36733,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/30/",
-          "https://jkanime.net/tsubasa-chronicle/31/"
+          "https://jkanime.net/tsubasa-chronicle/31/",
+          "https://jkanime.net/tsubasa-chronicle/32/"
         ]
       },
       {
@@ -37026,6 +37033,30 @@
         "samples": [
           "https://jkanime.net/yugioh-duel-monsters-gx/1/",
           "https://jkanime.net/yugioh-duel-monsters-gx/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tactics/",
+        "title": "Tactics",
+        "samples": [
+          "https://jkanime.net/tactics/1/",
+          "https://jkanime.net/tactics/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sunabouzu/",
+        "title": "Sunabouzu",
+        "samples": [
+          "https://jkanime.net/sunabouzu/1/",
+          "https://jkanime.net/sunabouzu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bleach/",
+        "title": "Bleach",
+        "samples": [
+          "https://jkanime.net/bleach/1/",
+          "https://jkanime.net/bleach/10/"
         ]
       },
       {
@@ -37838,8 +37869,7 @@
         "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
         "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
         "samples": [
-          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/5/",
-          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/6/"
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
         ]
       },
       {
@@ -67194,7 +67224,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 34,
+      "stored": 35,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -67210,7 +67240,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/48/",
         "https://jkanime.net/bleach-sennen-kessen-hen/49/"
       ],
       "expired": [],
@@ -67218,10 +67247,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 22,
+        "streamwish": 23,
         "vidhide": 30,
         "streamtape": 13,
-        "mp4upload": 21,
+        "mp4upload": 22,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -134830,9 +134859,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 29,
+      "stored": 30,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/30/",
         "https://jkanime.net/tsubasa-chronicle/31/",
         "https://jkanime.net/tsubasa-chronicle/32/",
         "https://jkanime.net/tsubasa-chronicle/33/",
@@ -134860,9 +134888,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 30,
-        "streamwish": 29,
-        "vidhide": 30,
+        "mp4upload": 31,
+        "streamwish": 30,
+        "vidhide": 31,
         "mega": 1,
         "streamtape": 1
       },
@@ -135670,7 +135698,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 159,
+      "renewalFailed": 180,
       "families": {
         "mega": 179,
         "streamwish": 180,
@@ -135683,13 +135711,15 @@
     {
       "series": "https://jkanime.net/tactics/",
       "title": "Tactics",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -135703,13 +135733,15 @@
     {
       "series": "https://jkanime.net/sunabouzu/",
       "title": "Sunabouzu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -135723,20 +135755,22 @@
     {
       "series": "https://jkanime.net/bleach/",
       "title": "Bleach",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 366,
       "stored": 366,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 195,
       "families": {
-        "mega": 366,
+        "mega": 365,
         "streamwish": 366,
         "vidhide": 366,
-        "mixdrop": 366,
+        "mixdrop": 365,
         "mp4upload": 366,
-        "streamtape": 361
+        "streamtape": 360
       },
       "playbackVerified": false
     },
@@ -145829,11 +145863,14 @@
       "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
       "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
       "causes": [
+        "observed-chapters-without-options",
         "renewal-error"
       ],
-      "observed": 6,
+      "observed": 7,
       "stored": 6,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 2,
