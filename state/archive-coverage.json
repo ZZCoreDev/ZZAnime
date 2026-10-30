@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T12:09:32.263588+00:00",
+  "checkedAt": "2026-10-30T12:22:31.921640+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73569,
-  "storedChapters": 71805,
-  "missingChapters": 1764,
+  "storedChapters": 71809,
+  "missingChapters": 1760,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -410,8 +410,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
         ]
       },
       {
@@ -8899,8 +8899,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
         ]
       },
       {
@@ -36042,6 +36042,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/pokemon-diamond-pearl/",
+        "title": "Pokemon Diamond Pearl",
+        "samples": [
+          "https://jkanime.net/pokemon-diamond-pearl/1/",
+          "https://jkanime.net/pokemon-diamond-pearl/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sky-girls-ova/",
         "title": "Sky Girls OVA",
         "samples": [
@@ -54453,9 +54461,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/23/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/24/"
       ],
@@ -54464,9 +54471,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 18,
+        "streamwish": 19,
         "vidhide": 13,
-        "mp4upload": 20,
+        "mp4upload": 21,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -66349,7 +66356,7 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 33,
+      "stored": 34,
       "missing": [
         "https://jkanime.net/bleach-sennen-kessen-hen/14/",
         "https://jkanime.net/bleach-sennen-kessen-hen/15/",
@@ -66365,7 +66372,6 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/26/",
         "https://jkanime.net/bleach-sennen-kessen-hen/39/",
         "https://jkanime.net/bleach-sennen-kessen-hen/40/",
-        "https://jkanime.net/bleach-sennen-kessen-hen/47/",
         "https://jkanime.net/bleach-sennen-kessen-hen/48/",
         "https://jkanime.net/bleach-sennen-kessen-hen/49/"
       ],
@@ -66374,10 +66380,10 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 21,
-        "vidhide": 29,
+        "streamwish": 22,
+        "vidhide": 30,
         "streamtape": 13,
-        "mp4upload": 20,
+        "mp4upload": 21,
         "mixdrop": 4
       },
       "playbackVerified": false
@@ -72319,7 +72325,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mp4upload": 16,
         "mega": 7,
@@ -99281,7 +99287,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 3
       },
@@ -99760,12 +99766,11 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/norn9-nornnonet/1/",
         "https://jkanime.net/norn9-nornnonet/2/",
         "https://jkanime.net/norn9-nornnonet/3/",
-        "https://jkanime.net/norn9-nornnonet/4/",
         "https://jkanime.net/norn9-nornnonet/5/",
         "https://jkanime.net/norn9-nornnonet/6/",
         "https://jkanime.net/norn9-nornnonet/7/",
@@ -99776,9 +99781,9 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 3,
-        "vidhide": 3
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -103523,11 +103528,10 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
-        "https://jkanime.net/ninja-slayer-from-animation/16/",
         "https://jkanime.net/ninja-slayer-from-animation/17/",
         "https://jkanime.net/ninja-slayer-from-animation/18/",
         "https://jkanime.net/ninja-slayer-from-animation/19/",
@@ -103551,7 +103555,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "streamwish": 5
+        "streamwish": 6
       },
       "playbackVerified": false
     },
@@ -131922,7 +131926,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mega": 2,
         "streamwish": 5,
@@ -132115,7 +132119,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 56,
+      "renewalFailed": 103,
       "families": {
         "mega": 103,
         "streamwish": 103,
@@ -132128,19 +132132,21 @@
     {
       "series": "https://jkanime.net/pokemon-diamond-pearl/",
       "title": "Pokemon Diamond Pearl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 189,
       "stored": 189,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 188,
       "families": {
-        "mega": 189,
+        "mega": 188,
         "streamwish": 189,
         "vidhide": 189,
         "mp4upload": 189,
-        "streamtape": 189
+        "streamtape": 188
       },
       "playbackVerified": false
     },
