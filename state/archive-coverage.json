@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T05:22:43.092797+00:00",
+  "checkedAt": "2026-10-30T05:36:25.167037+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73544,
-  "storedChapters": 71734,
-  "missingChapters": 1810,
+  "storedChapters": 71737,
+  "missingChapters": 1807,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2309,7 +2309,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/"
         ]
       },
       {
@@ -2616,7 +2616,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/"
         ]
       },
       {
@@ -4848,7 +4848,6 @@
         "series": "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/",
         "title": "Nurarihyon no Mago: Sennen Makyou",
         "samples": [
-          "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/25/",
           "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/26/"
         ]
       },
@@ -22970,7 +22969,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/"
         ]
       },
       {
@@ -24378,7 +24377,7 @@
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/"
         ]
       },
       {
@@ -32584,7 +32583,6 @@
         "series": "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/",
         "title": "Nurarihyon no Mago: Sennen Makyou",
         "samples": [
-          "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/25/",
           "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/26/"
         ]
       },
@@ -32609,7 +32607,23 @@
         "title": "Ro-Kyu-Bu!",
         "samples": [
           "https://jkanime.net/ro-kyu-bu/1/",
-          "https://jkanime.net/ro-kyu-bu/2/"
+          "https://jkanime.net/ro-kyu-bu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/blood-c/",
+        "title": "Blood-C",
+        "samples": [
+          "https://jkanime.net/blood-c/1/",
+          "https://jkanime.net/blood-c/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-dolls/",
+        "title": "Kamisama Dolls",
+        "samples": [
+          "https://jkanime.net/kamisama-dolls/1/",
+          "https://jkanime.net/kamisama-dolls/10/"
         ]
       },
       {
@@ -32620,10 +32634,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kore-wa-zombie-desu-ka-ova/",
+        "title": "Kore wa Zombie Desu ka? OVA",
+        "samples": [
+          "https://jkanime.net/kore-wa-zombie-desu-ka-ova/1/",
+          "https://jkanime.net/kore-wa-zombie-desu-ka-ova/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hoshi-wo-ou-kodomo/",
         "title": "Hoshi wo Ou Kodomo",
         "samples": [
           "https://jkanime.net/hoshi-wo-ou-kodomo/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inazuma-eleven-go/",
+        "title": "Inazuma Eleven Go",
+        "samples": [
+          "https://jkanime.net/inazuma-eleven-go/1/",
+          "https://jkanime.net/inazuma-eleven-go/10/"
         ]
       },
       {
@@ -32638,6 +32668,86 @@
         "title": "Highschool of the Dead: Drifters of the Dead",
         "samples": [
           "https://jkanime.net/highschool-of-the-dead-drifters-of-the-dead/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ao-no-exorcist/",
+        "title": "Ao no Exorcist",
+        "samples": [
+          "https://jkanime.net/ao-no-exorcist/1/",
+          "https://jkanime.net/ao-no-exorcist/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/deadman-wonderland/",
+        "title": "Deadman Wonderland",
+        "samples": [
+          "https://jkanime.net/deadman-wonderland/1/",
+          "https://jkanime.net/deadman-wonderland/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hidan-no-aria/",
+        "title": "Hidan no Aria",
+        "samples": [
+          "https://jkanime.net/hidan-no-aria/1/",
+          "https://jkanime.net/hidan-no-aria/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/c-the-money-of-soul-and-possibility-control/",
+        "title": "C The Money of Soul and Possibility Control",
+        "samples": [
+          "https://jkanime.net/c-the-money-of-soul-and-possibility-control/1/",
+          "https://jkanime.net/c-the-money-of-soul-and-possibility-control/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/denpa-onna-to-seishun-otoko/",
+        "title": "Denpa Onna to Seishun Otoko",
+        "samples": [
+          "https://jkanime.net/denpa-onna-to-seishun-otoko/1/",
+          "https://jkanime.net/denpa-onna-to-seishun-otoko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fairy-tail-ova/",
+        "title": "Fairy Tail OVA",
+        "samples": [
+          "https://jkanime.net/fairy-tail-ova/1/",
+          "https://jkanime.net/fairy-tail-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seitokai-yakuindomo-ova/",
+        "title": "Seitokai Yakuindomo OVA",
+        "samples": [
+          "https://jkanime.net/seitokai-yakuindomo-ova/1/",
+          "https://jkanime.net/seitokai-yakuindomo-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seikon-no-qwaser-ii/",
+        "title": "Seikon no Qwaser II",
+        "samples": [
+          "https://jkanime.net/seikon-no-qwaser-ii/1/",
+          "https://jkanime.net/seikon-no-qwaser-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hoshizora-e-kakaru-hashi/",
+        "title": "Hoshizora e Kakaru Hashi",
+        "samples": [
+          "https://jkanime.net/hoshizora-e-kakaru-hashi/10/",
+          "https://jkanime.net/hoshizora-e-kakaru-hashi/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yu-gi-oh-zexal/",
+        "title": "Yu☆Gi☆Oh! Zexal",
+        "samples": [
+          "https://jkanime.net/yu-gi-oh-zexal/1/",
+          "https://jkanime.net/yu-gi-oh-zexal/10/"
         ]
       },
       {
@@ -39459,7 +39569,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -39488,7 +39598,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -68222,7 +68332,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 18,
       "families": {
         "streamwish": 12,
         "mega": 9,
@@ -69045,7 +69155,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -69419,7 +69529,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mp4upload": 13,
         "mega": 7,
@@ -75948,7 +76058,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 43,
+      "renewalFailed": 44,
       "families": {
         "mega": 42,
         "streamwish": 42,
@@ -90790,7 +90900,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -92400,10 +92510,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/5/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/8/",
@@ -92413,7 +92522,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 6
+        "streamwish": 7
       },
       "playbackVerified": false
     },
@@ -96382,10 +96491,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/1/",
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/12/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/2/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/3/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/4/",
@@ -96399,7 +96507,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 2
+        "streamwish": 3
       },
       "playbackVerified": false
     },
@@ -119452,7 +119560,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mp4upload": 12,
         "mega": 7,
@@ -119534,16 +119642,15 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 24,
+      "stored": 25,
       "missing": [
-        "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/25/",
         "https://jkanime.net/nurarihyon-no-mago-sennen-makyou/26/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mp4upload": 24,
+        "mp4upload": 25,
         "mega": 11,
         "streamwish": 11,
         "vidhide": 11,
@@ -119619,7 +119726,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119632,13 +119739,15 @@
     {
       "series": "https://jkanime.net/blood-c/",
       "title": "Blood-C",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119651,13 +119760,15 @@
     {
       "series": "https://jkanime.net/kamisama-dolls/",
       "title": "Kamisama Dolls",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119689,13 +119800,15 @@
     {
       "series": "https://jkanime.net/kore-wa-zombie-desu-ka-ova/",
       "title": "Kore wa Zombie Desu ka? OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -119727,13 +119840,15 @@
     {
       "series": "https://jkanime.net/inazuma-eleven-go/",
       "title": "Inazuma Eleven Go",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 47,
       "stored": 47,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 47,
       "families": {
         "mega": 46,
         "streamwish": 47,
@@ -119784,13 +119899,15 @@
     {
       "series": "https://jkanime.net/ao-no-exorcist/",
       "title": "Ao no Exorcist",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -119803,13 +119920,15 @@
     {
       "series": "https://jkanime.net/deadman-wonderland/",
       "title": "Deadman Wonderland",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119822,13 +119941,15 @@
     {
       "series": "https://jkanime.net/hidan-no-aria/",
       "title": "Hidan no Aria",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119841,13 +119962,15 @@
     {
       "series": "https://jkanime.net/c-the-money-of-soul-and-possibility-control/",
       "title": "C The Money of Soul and Possibility Control",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -119868,24 +119991,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "mp4upload": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/denpa-onna-to-seishun-otoko/",
       "title": "Denpa Onna to Seishun Otoko",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119899,13 +120020,15 @@
     {
       "series": "https://jkanime.net/fairy-tail-ova/",
       "title": "Fairy Tail OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
         "mega": 9,
         "streamwish": 9,
@@ -119918,13 +120041,15 @@
     {
       "series": "https://jkanime.net/seitokai-yakuindomo-ova/",
       "title": "Seitokai Yakuindomo OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -119945,24 +120070,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mp4upload": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/seikon-no-qwaser-ii/",
       "title": "Seikon no Qwaser II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119975,33 +120098,37 @@
     {
       "series": "https://jkanime.net/hoshizora-e-kakaru-hashi/",
       "title": "Hoshizora e Kakaru Hashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 11,
       "families": {
-        "mega": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 11,
+        "mixdrop": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yu-gi-oh-zexal/",
       "title": "Yu☆Gi☆Oh! Zexal",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 73,
       "stored": 73,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 32,
       "families": {
         "mega": 73,
         "streamwish": 73,
