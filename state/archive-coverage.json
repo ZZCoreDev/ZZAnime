@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T06:44:01.209674+00:00",
+  "checkedAt": "2026-10-30T06:57:01.373322+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73560,
   "storedChapters": 71741,
@@ -33412,10 +33412,98 @@
         ]
       },
       {
+        "series": "https://jkanime.net/digimon-xros-wars/",
+        "title": "Digimon Xros Wars",
+        "samples": [
+          "https://jkanime.net/digimon-xros-wars/1/",
+          "https://jkanime.net/digimon-xros-wars/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mitsudomoe/",
+        "title": "Mitsudomoe",
+        "samples": [
+          "https://jkanime.net/mitsudomoe/1/",
+          "https://jkanime.net/mitsudomoe/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroshitsuji-ii/",
+        "title": "Kuroshitsuji II",
+        "samples": [
+          "https://jkanime.net/kuroshitsuji-ii/1/",
+          "https://jkanime.net/kuroshitsuji-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amagami-ss/",
+        "title": "Amagami SS",
+        "samples": [
+          "https://jkanime.net/amagami-ss/1/",
+          "https://jkanime.net/amagami-ss/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/",
+        "title": "Ookami-san to Shichinin no Nakamatachi",
+        "samples": [
+          "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/1/",
+          "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/highschool-of-the-dead/",
+        "title": "Highschool of the Dead",
+        "samples": [
+          "https://jkanime.net/highschool-of-the-dead/1/",
+          "https://jkanime.net/highschool-of-the-dead/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shiki/",
+        "title": "Shiki",
+        "samples": [
+          "https://jkanime.net/shiki/1/",
+          "https://jkanime.net/shiki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shukufuku-no-campanella/",
+        "title": "Shukufuku no Campanella",
+        "samples": [
+          "https://jkanime.net/shukufuku-no-campanella/1/",
+          "https://jkanime.net/shukufuku-no-campanella/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/11eyes-ova/",
         "title": "11eyes OVA",
         "samples": [
           "https://jkanime.net/11eyes-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ichiban-ushiro-no-daimaou-specials/",
+        "title": "Ichiban Ushiro no Daimaou Specials",
+        "samples": [
+          "https://jkanime.net/ichiban-ushiro-no-daimaou-specials/1/",
+          "https://jkanime.net/ichiban-ushiro-no-daimaou-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strike-witches-2/",
+        "title": "Strike Witches 2",
+        "samples": [
+          "https://jkanime.net/strike-witches-2/1/",
+          "https://jkanime.net/strike-witches-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sekirei-pure-engagement/",
+        "title": "Sekirei: Pure Engagement",
+        "samples": [
+          "https://jkanime.net/sekirei-pure-engagement/1/",
+          "https://jkanime.net/sekirei-pure-engagement/10/"
         ]
       },
       {
@@ -33440,10 +33528,58 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yojouhan-shinwa-taikei/",
+        "title": "Yojouhan Shinwa Taikei",
+        "samples": [
+          "https://jkanime.net/yojouhan-shinwa-taikei/1/",
+          "https://jkanime.net/yojouhan-shinwa-taikei/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/magic-kaito/",
+        "title": "Magic Kaito",
+        "samples": [
+          "https://jkanime.net/magic-kaito/1/",
+          "https://jkanime.net/magic-kaito/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/nodame-cantabile-finale-special/",
         "title": "Nodame Cantabile Finale Special",
         "samples": [
           "https://jkanime.net/nodame-cantabile-finale-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/k-on-2/",
+        "title": "K-ON!! Second Season",
+        "samples": [
+          "https://jkanime.net/k-on-2/1/",
+          "https://jkanime.net/k-on-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mayoi-neko-overrun/",
+        "title": "Mayoi Neko Overrun!",
+        "samples": [
+          "https://jkanime.net/mayoi-neko-overrun/1/",
+          "https://jkanime.net/mayoi-neko-overrun/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senkou-no-night-raid/",
+        "title": "Senkou no Night Raid",
+        "samples": [
+          "https://jkanime.net/senkou-no-night-raid/1/",
+          "https://jkanime.net/senkou-no-night-raid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/giant-killing/",
+        "title": "Giant Killing",
+        "samples": [
+          "https://jkanime.net/giant-killing/1/",
+          "https://jkanime.net/giant-killing/2/"
         ]
       },
       {
@@ -121830,7 +121966,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
@@ -122480,7 +122616,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -122493,32 +122629,36 @@
     {
       "series": "https://jkanime.net/digimon-xros-wars/",
       "title": "Digimon Xros Wars",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 54,
       "stored": 54,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
-        "mega": 54,
+        "mega": 4,
         "streamwish": 54,
         "vidhide": 54,
         "mp4upload": 54,
-        "streamtape": 54
+        "streamtape": 4
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/mitsudomoe/",
       "title": "Mitsudomoe",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -122532,13 +122672,15 @@
     {
       "series": "https://jkanime.net/kuroshitsuji-ii/",
       "title": "Kuroshitsuji II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122551,13 +122693,15 @@
     {
       "series": "https://jkanime.net/amagami-ss/",
       "title": "Amagami SS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -122570,13 +122714,15 @@
     {
       "series": "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/",
       "title": "Ookami-san to Shichinin no Nakamatachi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122589,13 +122735,15 @@
     {
       "series": "https://jkanime.net/highschool-of-the-dead/",
       "title": "Highschool of the Dead",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122608,13 +122756,15 @@
     {
       "series": "https://jkanime.net/shiki/",
       "title": "Shiki",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 22,
       "stored": 22,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 22,
@@ -122628,13 +122778,15 @@
     {
       "series": "https://jkanime.net/shukufuku-no-campanella/",
       "title": "Shukufuku no Campanella",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122666,13 +122818,15 @@
     {
       "series": "https://jkanime.net/ichiban-ushiro-no-daimaou-specials/",
       "title": "Ichiban Ushiro no Daimaou Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -122694,25 +122848,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 3,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/strike-witches-2/",
       "title": "Strike Witches 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122725,13 +122876,15 @@
     {
       "series": "https://jkanime.net/sekirei-pure-engagement/",
       "title": "Sekirei: Pure Engagement",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -122816,39 +122969,43 @@
     {
       "series": "https://jkanime.net/yojouhan-shinwa-taikei/",
       "title": "Yojouhan Shinwa Taikei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mixdrop": 11,
+        "mega": 3,
+        "streamwish": 3,
+        "vidhide": 3,
+        "mixdrop": 3,
         "mp4upload": 11,
-        "streamtape": 10
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/magic-kaito/",
       "title": "Magic Kaito",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
+        "mega": 5,
+        "streamwish": 5,
+        "vidhide": 6,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -122874,13 +123031,15 @@
     {
       "series": "https://jkanime.net/k-on-2/",
       "title": "K-ON!! Second Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -122893,13 +123052,15 @@
     {
       "series": "https://jkanime.net/mayoi-neko-overrun/",
       "title": "Mayoi Neko Overrun!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -122912,13 +123073,15 @@
     {
       "series": "https://jkanime.net/senkou-no-night-raid/",
       "title": "Senkou no Night Raid",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
         "streamwish": 13,
@@ -122931,13 +123094,15 @@
     {
       "series": "https://jkanime.net/giant-killing/",
       "title": "Giant Killing",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 26,
         "streamwish": 26,
