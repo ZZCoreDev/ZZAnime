@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T13:51:50.961161+00:00",
+  "checkedAt": "2026-10-30T14:05:07.251769+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73616,
-  "storedChapters": 71817,
-  "missingChapters": 1799,
+  "observedChapters": 73617,
+  "storedChapters": 71819,
+  "missingChapters": 1798,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -5482,8 +5482,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/28/",
-          "https://jkanime.net/tsubasa-chronicle/29/"
+          "https://jkanime.net/tsubasa-chronicle/29/",
+          "https://jkanime.net/tsubasa-chronicle/30/"
         ]
       },
       {
@@ -5520,6 +5520,13 @@
         "title": "Howl no Ugoku Shiro",
         "samples": [
           "https://jkanime.net/howl-no-ugoku-shiro/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-seed-destiny/",
+        "title": "Mobile Suit Gundam Seed Destiny",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-seed-destiny/51/"
         ]
       },
       {
@@ -36719,8 +36726,8 @@
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/28/",
-          "https://jkanime.net/tsubasa-chronicle/29/"
+          "https://jkanime.net/tsubasa-chronicle/29/",
+          "https://jkanime.net/tsubasa-chronicle/30/"
         ]
       },
       {
@@ -36846,7 +36853,48 @@
         "series": "https://jkanime.net/ugultimate-girls/",
         "title": "UG☆Ultimate Girls",
         "samples": [
-          "https://jkanime.net/ugultimate-girls/1/"
+          "https://jkanime.net/ugultimate-girls/1/",
+          "https://jkanime.net/ugultimate-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/peach-girl/",
+        "title": "Peach Girl",
+        "samples": [
+          "https://jkanime.net/peach-girl/10/",
+          "https://jkanime.net/peach-girl/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/air-tv/",
+        "title": "Air",
+        "samples": [
+          "https://jkanime.net/air-tv/1/",
+          "https://jkanime.net/air-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ah-my-goddess/",
+        "title": "Ah! My Goddess",
+        "samples": [
+          "https://jkanime.net/ah-my-goddess/1/",
+          "https://jkanime.net/ah-my-goddess/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-sensei-negima/",
+        "title": "Mahou Sensei Negima!",
+        "samples": [
+          "https://jkanime.net/mahou-sensei-negima/1/",
+          "https://jkanime.net/mahou-sensei-negima/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/starship-operators/",
+        "title": "Starship Operators",
+        "samples": [
+          "https://jkanime.net/starship-operators/1/",
+          "https://jkanime.net/starship-operators/10/"
         ]
       },
       {
@@ -36864,10 +36912,72 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kujibiki-unbalance/",
+        "title": "Kujibiki Unbalance",
+        "samples": [
+          "https://jkanime.net/kujibiki-unbalance/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tales-of-phantasia-ovas/",
+        "title": "Tales of Phantasia: The Animation",
+        "samples": [
+          "https://jkanime.net/tales-of-phantasia-ovas/1/",
+          "https://jkanime.net/tales-of-phantasia-ovas/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/howl-no-ugoku-shiro/",
         "title": "Howl no Ugoku Shiro",
         "samples": [
           "https://jkanime.net/howl-no-ugoku-shiro/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gakuen-alice/",
+        "title": "Gakuen Alice",
+        "samples": [
+          "https://jkanime.net/gakuen-alice/1/",
+          "https://jkanime.net/gakuen-alice/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grenadier-hohoemi-no-senshi/",
+        "title": "Grenadier: Hohoemi no Senshi",
+        "samples": [
+          "https://jkanime.net/grenadier-hohoemi-no-senshi/1/",
+          "https://jkanime.net/grenadier-hohoemi-no-senshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yakitate-japan/",
+        "title": "Yakitate!! Japan",
+        "samples": [
+          "https://jkanime.net/yakitate-japan/1/",
+          "https://jkanime.net/yakitate-japan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-jack/",
+        "title": "Black Jack",
+        "samples": [
+          "https://jkanime.net/black-jack/1/",
+          "https://jkanime.net/black-jack/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/genshiken/",
+        "title": "Genshiken",
+        "samples": [
+          "https://jkanime.net/genshiken/1/",
+          "https://jkanime.net/genshiken/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-seed-destiny/",
+        "title": "Mobile Suit Gundam Seed Destiny",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-seed-destiny/51/"
         ]
       },
       {
@@ -71782,7 +71892,7 @@
         "renewal-error"
       ],
       "observed": 38,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
@@ -71794,7 +71904,6 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/23/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/24/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/25/",
-        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/26/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/27/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/28/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/29/",
@@ -71815,7 +71924,7 @@
         "streamwish": 13,
         "mega": 9,
         "vidhide": 9,
-        "mp4upload": 14,
+        "mp4upload": 15,
         "streamtape": 9
       },
       "playbackVerified": false
@@ -134673,9 +134782,8 @@
         "renewal-error"
       ],
       "observed": 52,
-      "stored": 27,
+      "stored": 28,
       "missing": [
-        "https://jkanime.net/tsubasa-chronicle/28/",
         "https://jkanime.net/tsubasa-chronicle/29/",
         "https://jkanime.net/tsubasa-chronicle/30/",
         "https://jkanime.net/tsubasa-chronicle/31/",
@@ -134705,9 +134813,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 28,
-        "streamwish": 27,
-        "vidhide": 28,
+        "mp4upload": 29,
+        "streamwish": 28,
+        "vidhide": 29,
         "mega": 1,
         "streamtape": 1
       },
@@ -134732,7 +134840,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -135049,7 +135157,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135063,32 +135171,36 @@
     {
       "series": "https://jkanime.net/peach-girl/",
       "title": "Peach Girl",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
-        "mega": 25,
+        "mp4upload": 25,
         "streamwish": 25,
         "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "mega": 24,
+        "streamtape": 24
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/air-tv/",
       "title": "Air",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -135101,13 +135213,15 @@
     {
       "series": "https://jkanime.net/ah-my-goddess/",
       "title": "Ah! My Goddess",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -135120,13 +135234,15 @@
     {
       "series": "https://jkanime.net/mahou-sensei-negima/",
       "title": "Mahou Sensei Negima!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -135139,13 +135255,15 @@
     {
       "series": "https://jkanime.net/starship-operators/",
       "title": "Starship Operators",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -135197,32 +135315,36 @@
     {
       "series": "https://jkanime.net/kujibiki-unbalance/",
       "title": "Kujibiki Unbalance",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 3,
+        "mega": 1,
         "streamwish": 3,
-        "vidhide": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tales-of-phantasia-ovas/",
       "title": "Tales of Phantasia: The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -135254,13 +135376,15 @@
     {
       "series": "https://jkanime.net/gakuen-alice/",
       "title": "Gakuen Alice",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -135274,13 +135398,15 @@
     {
       "series": "https://jkanime.net/grenadier-hohoemi-no-senshi/",
       "title": "Grenadier: Hohoemi no Senshi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135294,13 +135420,15 @@
     {
       "series": "https://jkanime.net/yakitate-japan/",
       "title": "Yakitate!! Japan",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 64,
       "stored": 64,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 64,
       "families": {
         "mega": 64,
         "streamwish": 64,
@@ -135314,13 +135442,15 @@
     {
       "series": "https://jkanime.net/black-jack/",
       "title": "Black Jack",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 52,
       "stored": 52,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 52,
       "families": {
         "mega": 52,
         "streamwish": 52,
@@ -135333,13 +135463,15 @@
     {
       "series": "https://jkanime.net/genshiken/",
       "title": "Genshiken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135352,19 +135484,24 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-seed-destiny/",
       "title": "Mobile Suit Gundam Seed Destiny",
-      "causes": [],
-      "observed": 50,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 51,
       "stored": 50,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/51/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 50,
+        "mp4upload": 50,
         "streamwish": 50,
         "vidhide": 50,
-        "mp4upload": 50,
-        "streamtape": 50
+        "mega": 41,
+        "streamtape": 41
       },
       "playbackVerified": false
     },
