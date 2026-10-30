@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T11:29:33.101280+00:00",
+  "checkedAt": "2026-10-30T11:41:27.782927+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73568,
-  "storedChapters": 71794,
-  "missingChapters": 1774,
+  "storedChapters": 71799,
+  "missingChapters": 1769,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -378,13 +378,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/dr-stone-science-future/",
-        "title": "Dr. Stone: Science Future",
-        "samples": [
-          "https://jkanime.net/dr-stone-science-future/32/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta/",
         "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
         "samples": [
@@ -417,8 +410,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/"
         ]
       },
       {
@@ -2631,7 +2624,7 @@
         "title": "Norn9: Norn+Nonet",
         "samples": [
           "https://jkanime.net/norn9-nornnonet/1/",
-          "https://jkanime.net/norn9-nornnonet/12/"
+          "https://jkanime.net/norn9-nornnonet/2/"
         ]
       },
       {
@@ -2980,7 +2973,7 @@
         "title": "Ninja Slayer From Animation",
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
-          "https://jkanime.net/ninja-slayer-from-animation/13/"
+          "https://jkanime.net/ninja-slayer-from-animation/14/"
         ]
       },
       {
@@ -8064,7 +8057,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/32/"
+          "https://jkanime.net/dr-stone-science-future/2/",
+          "https://jkanime.net/dr-stone-science-future/33/"
         ]
       },
       {
@@ -8898,8 +8892,8 @@
         "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
         "title": "Nageki no Bourei wa Intai shitai",
         "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/"
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/"
         ]
       },
       {
@@ -24557,7 +24551,7 @@
         "title": "Norn9: Norn+Nonet",
         "samples": [
           "https://jkanime.net/norn9-nornnonet/1/",
-          "https://jkanime.net/norn9-nornnonet/12/"
+          "https://jkanime.net/norn9-nornnonet/2/"
         ]
       },
       {
@@ -25836,7 +25830,7 @@
         "title": "Ninja Slayer From Animation",
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
-          "https://jkanime.net/ninja-slayer-from-animation/13/"
+          "https://jkanime.net/ninja-slayer-from-animation/14/"
         ]
       },
       {
@@ -35845,6 +35839,61 @@
         ]
       },
       {
+        "series": "https://jkanime.net/yes-precure-5/",
+        "title": "Yes! Precure 5",
+        "samples": [
+          "https://jkanime.net/yes-precure-5/1/",
+          "https://jkanime.net/yes-precure-5/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/venus-versus-virus/",
+        "title": "Venus Versus Virus",
+        "samples": [
+          "https://jkanime.net/venus-versus-virus/1/",
+          "https://jkanime.net/venus-versus-virus/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nodame-cantabile/",
+        "title": "Nodame Cantabile",
+        "samples": [
+          "https://jkanime.net/nodame-cantabile/1/",
+          "https://jkanime.net/nodame-cantabile/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/afro-samurai/",
+        "title": "Afro Samurai",
+        "samples": [
+          "https://jkanime.net/afro-samurai/1/",
+          "https://jkanime.net/afro-samurai/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maria-sama-ga-miteru-3rd/",
+        "title": "Maria-sama ga Miteru 3rd",
+        "samples": [
+          "https://jkanime.net/maria-sama-ga-miteru-3rd/1/",
+          "https://jkanime.net/maria-sama-ga-miteru-3rd/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rozen-maiden-ouvertre/",
+        "title": "Rozen Maiden: Ouvertüre",
+        "samples": [
+          "https://jkanime.net/rozen-maiden-ouvertre/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/genshiken-ova/",
+        "title": "Genshiken OVA",
+        "samples": [
+          "https://jkanime.net/genshiken-ova/1/",
+          "https://jkanime.net/genshiken-ova/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/futari-wa-precure-splashstar-movie-tick-tack-kiki-ippatsu/",
         "title": "Futari wa Precure: Splash☆Star Movie - Tick Tack Kiki Ippatsu!",
         "samples": [
@@ -35856,6 +35905,22 @@
         "title": "Kashimashi: Girl Meets Girl OVA",
         "samples": [
           "https://jkanime.net/kashimashi-girl-meets-girl-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bartender/",
+        "title": "Bartender",
+        "samples": [
+          "https://jkanime.net/bartender/1/",
+          "https://jkanime.net/bartender/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kenichi/",
+        "title": "Shijou Saikyou no Deshi Kenichi",
+        "samples": [
+          "https://jkanime.net/kenichi/1/",
+          "https://jkanime.net/kenichi/10/"
         ]
       },
       {
@@ -51735,21 +51800,18 @@
       "series": "https://jkanime.net/dr-stone-science-future/",
       "title": "Dr. Stone: Science Future",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 37,
-      "stored": 36,
-      "missing": [
-        "https://jkanime.net/dr-stone-science-future/32/"
-      ],
+      "stored": 37,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "streamwish": 28,
+        "streamwish": 29,
         "vidhide": 21,
-        "mp4upload": 32,
+        "mp4upload": 33,
         "mega": 1,
         "mixdrop": 1,
         "streamtape": 1
@@ -54273,9 +54335,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/19/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/20/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/21/",
         "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/22/",
@@ -54287,9 +54348,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 15,
+        "streamwish": 16,
         "vidhide": 13,
-        "mp4upload": 17,
+        "mp4upload": 18,
         "streamtape": 12,
         "mixdrop": 2
       },
@@ -64750,22 +64811,21 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/high-card/20/",
         "https://jkanime.net/high-card/21/",
         "https://jkanime.net/high-card/22/",
-        "https://jkanime.net/high-card/24/",
         "https://jkanime.net/high-card/25/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 8,
         "streamwish": 8,
         "vidhide": 8,
-        "mp4upload": 20,
+        "mp4upload": 21,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -95294,7 +95354,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -99448,7 +99508,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -99587,10 +99647,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/norn9-nornnonet/1/",
-        "https://jkanime.net/norn9-nornnonet/12/",
         "https://jkanime.net/norn9-nornnonet/2/",
         "https://jkanime.net/norn9-nornnonet/3/",
         "https://jkanime.net/norn9-nornnonet/4/",
@@ -99604,9 +99663,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 2,
-        "streamwish": 2,
-        "vidhide": 2
+        "mp4upload": 3,
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
@@ -103351,10 +103410,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
-        "https://jkanime.net/ninja-slayer-from-animation/13/",
         "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/15/",
         "https://jkanime.net/ninja-slayer-from-animation/16/",
@@ -103381,7 +103439,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 3
+        "streamwish": 4
       },
       "playbackVerified": false
     },
@@ -131381,7 +131439,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 399,
+      "renewalFailed": 500,
       "families": {
         "mega": 497,
         "streamwish": 500,
@@ -131394,33 +131452,37 @@
     {
       "series": "https://jkanime.net/yes-precure-5/",
       "title": "Yes! Precure 5",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 19,
       "families": {
-        "mega": 49,
+        "mega": 19,
         "streamwish": 49,
-        "vidhide": 49,
-        "mixdrop": 49,
-        "mp4upload": 49,
-        "streamtape": 49
+        "vidhide": 19,
+        "mixdrop": 19,
+        "mp4upload": 19,
+        "streamtape": 19
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/venus-versus-virus/",
       "title": "Venus Versus Virus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -131433,13 +131495,15 @@
     {
       "series": "https://jkanime.net/nodame-cantabile/",
       "title": "Nodame Cantabile",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 23,
       "stored": 23,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 23,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -131460,25 +131524,22 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 52,
-        "streamwish": 52,
-        "vidhide": 52,
-        "mixdrop": 52,
-        "mp4upload": 52,
-        "streamtape": 51
+        "mp4upload": 52
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/afro-samurai/",
       "title": "Afro Samurai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -131491,13 +131552,15 @@
     {
       "series": "https://jkanime.net/maria-sama-ga-miteru-3rd/",
       "title": "Maria-sama ga Miteru 3rd",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
         "mega": 5,
         "streamwish": 5,
@@ -131511,33 +131574,37 @@
     {
       "series": "https://jkanime.net/rozen-maiden-ouvertre/",
       "title": "Rozen Maiden: Ouvertüre",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
-        "mega": 2,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
+        "mega": 1,
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
         "mp4upload": 2,
-        "streamtape": 2
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/genshiken-ova/",
       "title": "Genshiken OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -131604,32 +131671,36 @@
     {
       "series": "https://jkanime.net/bartender/",
       "title": "Bartender",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
         "mp4upload": 11,
-        "streamtape": 11
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kenichi/",
       "title": "Shijou Saikyou no Deshi Kenichi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 37,
       "families": {
         "mega": 50,
         "streamwish": 50,
