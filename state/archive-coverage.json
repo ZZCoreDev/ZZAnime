@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T02:05:08.860823+00:00",
+  "checkedAt": "2026-10-30T02:18:03.170076+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73540,
-  "storedChapters": 71712,
-  "missingChapters": 1828,
+  "storedChapters": 71714,
+  "missingChapters": 1826,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2180,7 +2180,7 @@
         "title": "Kaitou Tenshi Twin Angel (TV)",
         "samples": [
           "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
-          "https://jkanime.net/kaitou-tenshi-twin-angel-tv/12/"
+          "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/"
         ]
       },
       {
@@ -2400,7 +2400,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/12/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/2/"
         ]
       },
       {
@@ -22069,7 +22069,7 @@
         "title": "Kaitou Tenshi Twin Angel (TV)",
         "samples": [
           "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
-          "https://jkanime.net/kaitou-tenshi-twin-angel-tv/12/"
+          "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/"
         ]
       },
       {
@@ -23255,7 +23255,7 @@
         "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
         "samples": [
           "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/12/"
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/2/"
         ]
       },
       {
@@ -29779,7 +29779,31 @@
         "title": "Monogatari Series: Second Season",
         "samples": [
           "https://jkanime.net/monogatari-series-second-season/1/",
-          "https://jkanime.net/monogatari-series-second-season/2/"
+          "https://jkanime.net/monogatari-series-second-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/genei-wo-kakeru-taiyou/",
+        "title": "Genei wo Kakeru Taiyou",
+        "samples": [
+          "https://jkanime.net/genei-wo-kakeru-taiyou/1/",
+          "https://jkanime.net/genei-wo-kakeru-taiyou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kiniro-mosaic/",
+        "title": "Kiniro Mosaic",
+        "samples": [
+          "https://jkanime.net/kiniro-mosaic/1/",
+          "https://jkanime.net/kiniro-mosaic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ro-kyu-bu-ss/",
+        "title": "Ro-Kyu-Bu! SS",
+        "samples": [
+          "https://jkanime.net/ro-kyu-bu-ss/1/",
+          "https://jkanime.net/ro-kyu-bu-ss/10/"
         ]
       },
       {
@@ -29797,6 +29821,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
+        "title": "Danganronpa: The Animation",
+        "samples": [
+          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/1/",
+          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/love-lab/",
+        "title": "Love Lab",
+        "samples": [
+          "https://jkanime.net/love-lab/1/",
+          "https://jkanime.net/love-lab/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/seitokai-no-shukujitsu/",
         "title": "Seitokai no Shukujitsu",
         "samples": [
@@ -29804,10 +29844,130 @@
         ]
       },
       {
+        "series": "https://jkanime.net/servant-x-service/",
+        "title": "Servant x Service",
+        "samples": [
+          "https://jkanime.net/servant-x-service/1/",
+          "https://jkanime.net/servant-x-service/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/",
+        "title": "Stella Jogakuin Koutou-ka C³-bu",
+        "samples": [
+          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/1/",
+          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rozen-maiden-2013/",
+        "title": "Rozen Maiden (2013)",
+        "samples": [
+          "https://jkanime.net/rozen-maiden-2013/1/",
+          "https://jkanime.net/rozen-maiden-2013/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tamayura-more-aggressive/",
+        "title": "Tamayura: More Aggressive",
+        "samples": [
+          "https://jkanime.net/tamayura-more-aggressive/1/",
+          "https://jkanime.net/tamayura-more-aggressive/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kitakubu-katsudou-kiroku/",
+        "title": "Kitakubu Katsudou Kiroku",
+        "samples": [
+          "https://jkanime.net/kitakubu-katsudou-kiroku/1/",
+          "https://jkanime.net/kitakubu-katsudou-kiroku/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senki-zesshou-symphogear-g/",
+        "title": "Senki Zesshou Symphogear G",
+        "samples": [
+          "https://jkanime.net/senki-zesshou-symphogear-g/1/",
+          "https://jkanime.net/senki-zesshou-symphogear-g/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/free/",
+        "title": "Free!",
+        "samples": [
+          "https://jkanime.net/free/1/",
+          "https://jkanime.net/free/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brothers-conflict/",
+        "title": "Brothers Conflict",
+        "samples": [
+          "https://jkanime.net/brothers-conflict/1/",
+          "https://jkanime.net/brothers-conflict/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gifuu-doudou-kanetsugu-to-keiji/",
+        "title": "Gifuu Doudou!!: Kanetsugu to Keiji",
+        "samples": [
+          "https://jkanime.net/gifuu-doudou-kanetsugu-to-keiji/1/",
+          "https://jkanime.net/gifuu-doudou-kanetsugu-to-keiji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-no-inai-nichiyoubi/",
+        "title": "Kamisama no Inai Nichiyoubi",
+        "samples": [
+          "https://jkanime.net/kamisama-no-inai-nichiyoubi/1/",
+          "https://jkanime.net/kamisama-no-inai-nichiyoubi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/senyuu-2/",
+        "title": "Senyuu. 2",
+        "samples": [
+          "https://jkanime.net/senyuu-2/1/",
+          "https://jkanime.net/senyuu-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/inu-to-hasami-wa-tsukaiyou/",
+        "title": "Inu to Hasami wa Tsukaiyou",
+        "samples": [
+          "https://jkanime.net/inu-to-hasami-wa-tsukaiyou/1/",
+          "https://jkanime.net/inu-to-hasami-wa-tsukaiyou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-bride-specials/",
+        "title": "Hyakka Ryouran: Samurai Bride Specials",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-bride-specials/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-bride-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/busou-shinki-ova/",
         "title": "Busou Shinki OVA",
         "samples": [
           "https://jkanime.net/busou-shinki-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hentai-ouji-to-warawanai-neko-specials/",
+        "title": "Hentai Ouji to Warawanai Neko. Specials",
+        "samples": [
+          "https://jkanime.net/hentai-ouji-to-warawanai-neko-specials/1/",
+          "https://jkanime.net/hentai-ouji-to-warawanai-neko-specials/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/papa-no-iukoto-wo-kikinasai-ova/",
+        "title": "Papa no Iukoto wo Kikinasai! OVA",
+        "samples": [
+          "https://jkanime.net/papa-no-iukoto-wo-kikinasai-ova/1/",
+          "https://jkanime.net/papa-no-iukoto-wo-kikinasai-ova/2/"
         ]
       },
       {
@@ -29836,6 +29996,14 @@
         "title": "Kami nomi zo Shiru Sekai:Magical☆Star Kanon 100%",
         "samples": [
           "https://jkanime.net/magical-star-kanon-100/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kingdom-2/",
+        "title": "Kingdom 2",
+        "samples": [
+          "https://jkanime.net/kingdom-2/1/",
+          "https://jkanime.net/kingdom-2/10/"
         ]
       },
       {
@@ -87667,7 +87835,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -87826,10 +87994,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/12/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/3/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/4/",
@@ -87843,7 +88010,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 2
+        "streamwish": 3
       },
       "playbackVerified": false
     },
@@ -91282,10 +91449,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-        "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/12/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/2/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/3/",
         "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/4/",
@@ -91299,7 +91465,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 2
+        "streamwish": 3
       },
       "playbackVerified": false
     },
@@ -109688,7 +109854,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -109701,13 +109867,15 @@
     {
       "series": "https://jkanime.net/genei-wo-kakeru-taiyou/",
       "title": "Genei wo Kakeru Taiyou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -109720,13 +109888,15 @@
     {
       "series": "https://jkanime.net/kiniro-mosaic/",
       "title": "Kiniro Mosaic",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -109739,13 +109909,15 @@
     {
       "series": "https://jkanime.net/ro-kyu-bu-ss/",
       "title": "Ro-Kyu-Bu! SS",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -109796,13 +109968,15 @@
     {
       "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
       "title": "Danganronpa: The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -109815,13 +109989,15 @@
     {
       "series": "https://jkanime.net/love-lab/",
       "title": "Love Lab",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -109853,13 +110029,15 @@
     {
       "series": "https://jkanime.net/servant-x-service/",
       "title": "Servant x Service",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -109872,13 +110050,15 @@
     {
       "series": "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/",
       "title": "Stella Jogakuin Koutou-ka C³-bu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -109891,13 +110071,15 @@
     {
       "series": "https://jkanime.net/rozen-maiden-2013/",
       "title": "Rozen Maiden (2013)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -109910,13 +110092,15 @@
     {
       "series": "https://jkanime.net/tamayura-more-aggressive/",
       "title": "Tamayura: More Aggressive",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -109929,32 +110113,36 @@
     {
       "series": "https://jkanime.net/kitakubu-katsudou-kiroku/",
       "title": "Kitakubu Katsudou Kiroku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 9,
       "families": {
-        "mega": 12,
+        "mega": 9,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/senki-zesshou-symphogear-g/",
       "title": "Senki Zesshou Symphogear G",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -109967,13 +110155,15 @@
     {
       "series": "https://jkanime.net/free/",
       "title": "Free!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -109986,13 +110176,15 @@
     {
       "series": "https://jkanime.net/brothers-conflict/",
       "title": "Brothers Conflict",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110005,13 +110197,15 @@
     {
       "series": "https://jkanime.net/gifuu-doudou-kanetsugu-to-keiji/",
       "title": "Gifuu Doudou!!: Kanetsugu to Keiji",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -110024,13 +110218,15 @@
     {
       "series": "https://jkanime.net/kamisama-no-inai-nichiyoubi/",
       "title": "Kamisama no Inai Nichiyoubi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110043,13 +110239,15 @@
     {
       "series": "https://jkanime.net/senyuu-2/",
       "title": "Senyuu. 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -110062,13 +110260,15 @@
     {
       "series": "https://jkanime.net/inu-to-hasami-wa-tsukaiyou/",
       "title": "Inu to Hasami wa Tsukaiyou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110081,13 +110281,15 @@
     {
       "series": "https://jkanime.net/hyakka-ryouran-samurai-bride-specials/",
       "title": "Hyakka Ryouran: Samurai Bride Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -110119,13 +110321,15 @@
     {
       "series": "https://jkanime.net/hentai-ouji-to-warawanai-neko-specials/",
       "title": "Hentai Ouji to Warawanai Neko. Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -110138,13 +110342,15 @@
     {
       "series": "https://jkanime.net/papa-no-iukoto-wo-kikinasai-ova/",
       "title": "Papa no Iukoto wo Kikinasai! OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -110249,13 +110455,15 @@
     {
       "series": "https://jkanime.net/kingdom-2/",
       "title": "Kingdom 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 39,
       "stored": 39,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 16,
       "families": {
         "mega": 39,
         "streamwish": 39,
