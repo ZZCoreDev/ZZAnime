@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T06:16:30.882146+00:00",
+  "checkedAt": "2026-10-30T06:30:21.967683+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73545,
+  "observedChapters": 73547,
   "storedChapters": 71741,
-  "missingChapters": 1804,
+  "missingChapters": 1806,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -4955,6 +4955,14 @@
         "title": "Mardock Scramble: The First Compression",
         "samples": [
           "https://jkanime.net/mardock-scramble-the-first-compression/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yosuga-no-sora/",
+        "title": "Yosuga no Sora",
+        "samples": [
+          "https://jkanime.net/yosuga-no-sora/13/",
+          "https://jkanime.net/yosuga-no-sora/14/"
         ]
       },
       {
@@ -33025,10 +33033,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gosick/",
+        "title": "Gosick",
+        "samples": [
+          "https://jkanime.net/gosick/1/",
+          "https://jkanime.net/gosick/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-heaven-and-earth/",
         "title": "Soukyuu no Fafner: Dead Aggressor - Heaven and Earth",
         "samples": [
           "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-heaven-and-earth/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/angel-beats-ova/",
+        "title": "Angel Beats! OVA",
+        "samples": [
+          "https://jkanime.net/angel-beats-ova/1/",
+          "https://jkanime.net/angel-beats-ova/2/"
         ]
       },
       {
@@ -33046,6 +33070,30 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kaibutsu-oujo-ova/",
+        "title": "Kaibutsu Oujo (OVA)",
+        "samples": [
+          "https://jkanime.net/kaibutsu-oujo-ova/1/",
+          "https://jkanime.net/kaibutsu-oujo-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-girls-specials/",
+        "title": "Hyakka Ryouran: Samurai Girls Specials",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-girls-specials/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-girls-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koe-de-oshigoto-the-animation/",
+        "title": "Koe de Oshigoto! The Animation",
+        "samples": [
+          "https://jkanime.net/koe-de-oshigoto-the-animation/1/",
+          "https://jkanime.net/koe-de-oshigoto-the-animation/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/",
         "title": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
         "samples": [
@@ -33060,10 +33108,138 @@
         ]
       },
       {
+        "series": "https://jkanime.net/soredemo-machi-wa-mawatteiru/",
+        "title": "Soredemo Machi wa Mawatteiru",
+        "samples": [
+          "https://jkanime.net/soredemo-machi-wa-mawatteiru/1/",
+          "https://jkanime.net/soredemo-machi-wa-mawatteiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-quartet-hoshi-no-umi/",
+        "title": "Yozakura Quartet: Hoshi no Umi",
+        "samples": [
+          "https://jkanime.net/yozakura-quartet-hoshi-no-umi/1/",
+          "https://jkanime.net/yozakura-quartet-hoshi-no-umi/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
         "title": "Mardock Scramble: The First Compression",
         "samples": [
           "https://jkanime.net/mardock-scramble-the-first-compression/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fortune-arterial-akai-yakusoku/",
+        "title": "Fortune Arterial: Akai Yakusoku",
+        "samples": [
+          "https://jkanime.net/fortune-arterial-akai-yakusoku/1/",
+          "https://jkanime.net/fortune-arterial-akai-yakusoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toaru-majutsu-no-index-ii/",
+        "title": "Toaru Majutsu no Index II",
+        "samples": [
+          "https://jkanime.net/toaru-majutsu-no-index-ii/1/",
+          "https://jkanime.net/toaru-majutsu-no-index-ii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-opera-milky-holmes/",
+        "title": "Tantei Opera Milky Holmes",
+        "samples": [
+          "https://jkanime.net/tantei-opera-milky-holmes/1/",
+          "https://jkanime.net/tantei-opera-milky-holmes/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/motto-to-love-ru/",
+        "title": "Motto To LOVE-Ru",
+        "samples": [
+          "https://jkanime.net/motto-to-love-ru/11/",
+          "https://jkanime.net/motto-to-love-ru/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinryaku-ika-musume/",
+        "title": "Shinryaku! Ika Musume",
+        "samples": [
+          "https://jkanime.net/shinryaku-ika-musume/1/",
+          "https://jkanime.net/shinryaku-ika-musume/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/arakawa-under-the-bridge-x-bridge/",
+        "title": "Arakawa Under the Bridge x Bridge",
+        "samples": [
+          "https://jkanime.net/arakawa-under-the-bridge-x-bridge/1/",
+          "https://jkanime.net/arakawa-under-the-bridge-x-bridge/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yosuga-no-sora/",
+        "title": "Yosuga no Sora",
+        "samples": [
+          "https://jkanime.net/yosuga-no-sora/13/",
+          "https://jkanime.net/yosuga-no-sora/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hakuouki-hekketsuroku/",
+        "title": "Hakuouki Hekketsuroku",
+        "samples": [
+          "https://jkanime.net/hakuouki-hekketsuroku/10/",
+          "https://jkanime.net/hakuouki-hekketsuroku/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tegami-bachi-reverse/",
+        "title": "Tegami Bachi Reverse",
+        "samples": [
+          "https://jkanime.net/tegami-bachi-reverse/1/",
+          "https://jkanime.net/tegami-bachi-reverse/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai/",
+        "title": "OreImo",
+        "samples": [
+          "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai/1/",
+          "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinrei-tantei-yakumo/",
+        "title": "Shinrei Tantei Yakumo",
+        "samples": [
+          "https://jkanime.net/shinrei-tantei-yakumo/1/",
+          "https://jkanime.net/shinrei-tantei-yakumo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/super-robot-taisen-og-the-inspector/",
+        "title": "Super Robot Taisen OG: The Inspector",
+        "samples": [
+          "https://jkanime.net/super-robot-taisen-og-the-inspector/1/",
+          "https://jkanime.net/super-robot-taisen-og-the-inspector/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/panty-stocking-with-garterbelt/",
+        "title": "Panty & Stocking with Garterbelt",
+        "samples": [
+          "https://jkanime.net/panty-stocking-with-garterbelt/1/",
+          "https://jkanime.net/panty-stocking-with-garterbelt/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuman/",
+        "title": "Bakuman",
+        "samples": [
+          "https://jkanime.net/bakuman/1/",
+          "https://jkanime.net/bakuman/10/"
         ]
       },
       {
@@ -121031,7 +121207,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 12,
         "mega": 4,
@@ -121126,13 +121302,15 @@
     {
       "series": "https://jkanime.net/gosick/",
       "title": "Gosick",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -121164,13 +121342,15 @@
     {
       "series": "https://jkanime.net/angel-beats-ova/",
       "title": "Angel Beats! OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -121221,13 +121401,15 @@
     {
       "series": "https://jkanime.net/kaibutsu-oujo-ova/",
       "title": "Kaibutsu Oujo (OVA)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -121256,13 +121438,15 @@
     {
       "series": "https://jkanime.net/hyakka-ryouran-samurai-girls-specials/",
       "title": "Hyakka Ryouran: Samurai Girls Specials",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -121275,13 +121459,15 @@
     {
       "series": "https://jkanime.net/koe-de-oshigoto-the-animation/",
       "title": "Koe de Oshigoto! The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -121333,32 +121519,36 @@
     {
       "series": "https://jkanime.net/soredemo-machi-wa-mawatteiru/",
       "title": "Soredemo Machi wa Mawatteiru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 7,
       "families": {
-        "mega": 11,
+        "mega": 7,
         "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/yozakura-quartet-hoshi-no-umi/",
       "title": "Yozakura Quartet: Hoshi no Umi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -121390,13 +121580,15 @@
     {
       "series": "https://jkanime.net/fortune-arterial-akai-yakusoku/",
       "title": "Fortune Arterial: Akai Yakusoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121409,13 +121601,15 @@
     {
       "series": "https://jkanime.net/toaru-majutsu-no-index-ii/",
       "title": "Toaru Majutsu no Index II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -121428,13 +121622,15 @@
     {
       "series": "https://jkanime.net/tantei-opera-milky-holmes/",
       "title": "Tantei Opera Milky Holmes",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121447,32 +121643,36 @@
     {
       "series": "https://jkanime.net/motto-to-love-ru/",
       "title": "Motto To LOVE-Ru",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 6,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 11,
+        "mega": 6,
+        "vidhide": 6,
+        "mp4upload": 8,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/shinryaku-ika-musume/",
       "title": "Shinryaku! Ika Musume",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121485,13 +121685,15 @@
     {
       "series": "https://jkanime.net/arakawa-under-the-bridge-x-bridge/",
       "title": "Arakawa Under the Bridge x Bridge",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -121504,52 +121706,62 @@
     {
       "series": "https://jkanime.net/yosuga-no-sora/",
       "title": "Yosuga no Sora",
-      "causes": [],
-      "observed": 12,
+      "causes": [
+        "observed-chapters-without-options",
+        "renewal-error"
+      ],
+      "observed": 14,
       "stored": 12,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/yosuga-no-sora/13/",
+        "https://jkanime.net/yosuga-no-sora/14/"
+      ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 5,
       "families": {
-        "mega": 12,
         "streamwish": 12,
         "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 5,
+        "mixdrop": 5,
+        "mp4upload": 8,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/hakuouki-hekketsuroku/",
       "title": "Hakuouki Hekketsuroku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
-        "mega": 10,
-        "streamwish": 10,
-        "vidhide": 10,
         "mp4upload": 10,
-        "streamtape": 10
+        "mega": 2,
+        "streamwish": 2,
+        "vidhide": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tegami-bachi-reverse/",
       "title": "Tegami Bachi Reverse",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -121562,13 +121774,15 @@
     {
       "series": "https://jkanime.net/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai/",
       "title": "OreImo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121581,13 +121795,15 @@
     {
       "series": "https://jkanime.net/shinrei-tantei-yakumo/",
       "title": "Shinrei Tantei Yakumo",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -121600,13 +121816,15 @@
     {
       "series": "https://jkanime.net/super-robot-taisen-og-the-inspector/",
       "title": "Super Robot Taisen OG: The Inspector",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -121619,13 +121837,15 @@
     {
       "series": "https://jkanime.net/panty-stocking-with-garterbelt/",
       "title": "Panty & Stocking with Garterbelt",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -121638,13 +121858,15 @@
     {
       "series": "https://jkanime.net/bakuman/",
       "title": "Bakuman",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 25,
       "families": {
         "mega": 25,
         "streamwish": 25,
