@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T10:48:35.184788+00:00",
+  "checkedAt": "2026-10-31T11:02:24.128103+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
   "storedChapters": 72386,
@@ -23410,7 +23410,7 @@
         "title": "Kitakubu Katsudou Kiroku",
         "samples": [
           "https://jkanime.net/kitakubu-katsudou-kiroku/1/",
-          "https://jkanime.net/kitakubu-katsudou-kiroku/2/"
+          "https://jkanime.net/kitakubu-katsudou-kiroku/10/"
         ]
       },
       {
@@ -23629,8 +23629,8 @@
         "series": "https://jkanime.net/kakumeiki-valvrave/",
         "title": "Kakumeiki Valvrave",
         "samples": [
-          "https://jkanime.net/kakumeiki-valvrave/10/",
-          "https://jkanime.net/kakumeiki-valvrave/11/"
+          "https://jkanime.net/kakumeiki-valvrave/1/",
+          "https://jkanime.net/kakumeiki-valvrave/10/"
         ]
       },
       {
@@ -23933,6 +23933,13 @@
         "title": "Nozoki Ana",
         "samples": [
           "https://jkanime.net/nozoki-ana/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/code-breaker-ova/",
+        "title": "Code:Breaker OVA",
+        "samples": [
+          "https://jkanime.net/code-breaker-ova/1/"
         ]
       },
       {
@@ -24608,8 +24615,8 @@
         "series": "https://jkanime.net/kamisama-hajimemashita/",
         "title": "Kamisama Hajimemashita",
         "samples": [
-          "https://jkanime.net/kamisama-hajimemashita/10/",
-          "https://jkanime.net/kamisama-hajimemashita/11/"
+          "https://jkanime.net/kamisama-hajimemashita/1/",
+          "https://jkanime.net/kamisama-hajimemashita/10/"
         ]
       },
       {
@@ -24760,7 +24767,8 @@
         "series": "https://jkanime.net/tantei-opera-milky-holmes-alternative/",
         "title": "Tantei Opera Milky Holmes: Alternative",
         "samples": [
-          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/"
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/",
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/2/"
         ]
       },
       {
@@ -25266,8 +25274,8 @@
         "series": "https://jkanime.net/uchuu-kyoudai/",
         "title": "Uchuu Kyoudai",
         "samples": [
-          "https://jkanime.net/uchuu-kyoudai/50/",
-          "https://jkanime.net/uchuu-kyoudai/51/"
+          "https://jkanime.net/uchuu-kyoudai/1/",
+          "https://jkanime.net/uchuu-kyoudai/10/"
         ]
       },
       {
@@ -67646,7 +67654,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 27,
+      "renewalFailed": 29,
       "families": {
         "mega": 13,
         "streamwish": 23,
@@ -115224,7 +115232,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 12,
         "mega": 5,
@@ -115680,7 +115688,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mega": 9,
         "streamwish": 12,
@@ -116301,7 +116309,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mp4upload": 12,
         "mega": 11,
@@ -116394,7 +116402,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -117186,13 +117194,15 @@
     {
       "series": "https://jkanime.net/code-breaker-ova/",
       "title": "Code:Breaker OVA",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 3
       },
@@ -118866,7 +118876,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
@@ -119173,7 +119183,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
@@ -119630,7 +119640,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1,
         "streamwish": 1,
@@ -120913,7 +120923,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 33,
+      "renewalFailed": 34,
       "families": {
         "mega": 33,
         "streamwish": 50,
@@ -121057,7 +121067,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 91,
+      "renewalFailed": 93,
       "families": {
         "mega": 85,
         "streamwish": 97,
@@ -121078,7 +121088,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 49,
       "families": {
         "mp4upload": 72,
         "streamwish": 99,
