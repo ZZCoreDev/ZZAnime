@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T08:53:22.456585+00:00",
+  "checkedAt": "2026-10-31T09:07:03.996823+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
   "storedChapters": 72386,
@@ -128383,7 +128383,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {
         "mp4upload": 12,
         "mega": 4,
