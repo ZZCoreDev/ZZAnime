@@ -8,15 +8,15 @@ function record(detail,episode,row,number,policy,proof=false){
  const info=array(detail,'anime_info'),numbers=array(detail,'episodes'),title=info[2],slug=info[1];
  if(!Number.isInteger(number)||number<1||number>100000||!numbers.every(n=>Number.isInteger(n)&&n>0&&n<=100000)||new Set(numbers).size!==numbers.length||!numbers.includes(number))throw Error('Unobserved chapter');
  if(!/^[a-zA-Z0-9_-]+$/.test(slug)||r.series(row.url)!==row.url||slug!==identity.slug||!p.normal(row.title)||p.normal(title)!==p.normal(identity.title)||p.normal(heading(detail))!==p.normal(title)||p.normal(heading(episode))!==p.normal(title+' '+number))throw Error('Ambiguous cross-source identity');
- const providers=[],held=[];
+ const providers=[],held=[],extraProviders=[];
  for(const video of array(episode,'videos')){
   if(!Array.isArray(video)||typeof video[0]!=='string'||typeof video[1]!=='string')continue;
-  const name=r.canonical(video[0]),family=r.family(name);if(!family){held.push('unapproved-family');continue;}
-  const link=r.embed(video[1],policy[family]||[]);if(!link){held.push('unapproved-origin');continue;}
+  const name=r.canonical(video[0]),family=r.family(name);if(!family){const x=r.extra(name,video[1]);if(x)extraProviders.push(x);held.push('unapproved-family');continue;}
+  const link=r.embed(video[1],policy[family]||[]);if(!link){const x=r.extra(name,video[1]);if(x)extraProviders.push(x);held.push('unapproved-origin');continue;}
   providers.push({name,family,links:[link],playbackVerified:false});
  }
  if(!providers.length)throw Error('No existing app-approved provider family');
  const observedAt=new Date().toISOString(),sourceSeries='https://tioanime.com/anime/'+slug,sourceEpisode='https://tioanime.com/ver/'+slug+'-'+number;
- return {parent:row.url,listing:{series:row.url,title:row.title,episodes:numbers.map(n=>row.url+n+'/'),complete:true,observedAt,sourceSeries,identityEvidence:identity.alias?'verified-title-year-mapping+canonical-id+series-and-chapter-headings+observed-number':'unique-catalogue-title+identical-slug+source-series-and-chapter-headings+observed-number'},episode:{archiveVersion:3,episode:row.url+number+'/',observedAt,complete:true,providers,downloads:downloads(episode),sourceEpisode,sourceSeries,excludedOptions:held.length,playbackVerified:false}};
+ return {parent:row.url,listing:{series:row.url,title:row.title,episodes:numbers.map(n=>row.url+n+'/'),complete:true,observedAt,sourceSeries,identityEvidence:identity.alias?'verified-title-year-mapping+canonical-id+series-and-chapter-headings+observed-number':'unique-catalogue-title+identical-slug+source-series-and-chapter-headings+observed-number'},episode:{archiveVersion:3,episode:row.url+number+'/',observedAt,complete:true,providers,...(extraProviders.length?{extraProviders:extraProviders.slice(0,24)}:{}),downloads:downloads(episode),sourceEpisode,sourceSeries,excludedOptions:held.length,playbackVerified:false}};
 }
 module.exports={array,heading,record,downloads};

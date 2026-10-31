@@ -60,7 +60,10 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
   downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url','')) and sha((x['name']+'\0'+x['url']).encode()) not in (dead or ())][:8]
-  if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'downloads':downloads} if downloads else {}),**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
+  # Extra families for móvil 92+/TV 116+, only next to at least one regular option (older apps drop empty options).
+  import extra_options
+  extra=extra_options.build(ep,dead or set(),seen,sha) if options else []
+  if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'extraOptions':extra} if extra else {}),**({'downloads':downloads} if downloads else {}),**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
  recency={parent:max(e['observedAt'] for e in eps) for parent,eps in rows.items()}
  if len(rows)>APP_SERIES_LIMIT:
   # Chapters never expire, so the series count only grows: drop the least recently observed, never the channel.
