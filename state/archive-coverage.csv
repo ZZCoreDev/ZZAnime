@@ -1,5 +1,5 @@
 ﻿title,series,causes,observed,stored,missing,expired,renewalFailed
-Ao Ashi,https://jkanime.net/ao-ashi/,observed-chapters-without-options | renewal-error,24,23,1,0,5
+Ao Ashi,https://jkanime.net/ao-ashi/,renewal-error,24,24,0,0,4
 Megalo Box,https://jkanime.net/megalo-box/,observed-chapters-without-options | renewal-error,13,10,3,0,3
 Danmachi,https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/,observed-chapters-without-options | renewal-error,13,1,12,0,13
 Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,renewal-error,10,10,0,0,8
@@ -228,8 +228,8 @@ MF Ghost 3rd Season,https://jkanime.net/mf-ghost-3rd-season/,renewal-error,13,13
 Ikoku Nikki,https://jkanime.net/ikoku-nikki/,,13,13,0,0,0
 Yuusha Party wo Oidasareta Kiyoubinbou,https://jkanime.net/yuusha-party-wo-oidasareta-kiyoubinbou/,,12,12,0,0,0
 Hanazakari no Kimitachi e,https://jkanime.net/hanazakari-no-kimitachi-e/,,12,12,0,0,0
-Majutsushi Kunon wa Mieteiru,https://jkanime.net/majutsushi-kunon-wa-mieteiru/,,13,13,0,0,0
-Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku,https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/,,12,12,0,0,0
+Majutsushi Kunon wa Mieteiru,https://jkanime.net/majutsushi-kunon-wa-mieteiru/,renewal-error,13,13,0,0,1
+Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku,https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/,renewal-error,12,12,0,0,2
 Yi Ren Zhi Xia 6,https://jkanime.net/yi-ren-zhi-xia-6/,renewal-error,26,26,0,0,26
 Tamon-kun Ima Docchi!?,https://jkanime.net/tamon-kun-ima-docchi/,,13,13,0,0,0
 Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru,https://jkanime.net/kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru/,,12,12,0,0,0
@@ -257,7 +257,7 @@ One Punch Man 3,https://jkanime.net/one-punch-man-3/,no-observed-listing,0,0,0,0
 Chanto Suenai Kyuuketsuki-chan,https://jkanime.net/chanto-suenai-kyuuketsuki-chan/,,12,12,0,0,0
 Gnosia,https://jkanime.net/gnosia/,renewal-error,21,21,0,0,5
 Tensei Akujo no Kuro Rekishi,https://jkanime.net/tensei-akujo-no-kuro-rekishi/,,13,13,0,0,0
-Tondemo Skill de Isekai Hourou Meshi 2,https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/,,12,12,0,0,0
+Tondemo Skill de Isekai Hourou Meshi 2,https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/,renewal-error,12,12,0,0,1
 Wandance,https://jkanime.net/wandance/,,12,12,0,0,0
 Ninja to Gokudou,https://jkanime.net/ninja-to-gokudou/,,12,12,0,0,0
 3-nen Z-gumi Ginpachi-sensei,https://jkanime.net/3-nen-z-gumi-ginpachi-sensei/,,12,12,0,0,0
@@ -1814,7 +1814,7 @@ Yu☆Gi☆Oh!: Sevens,https://jkanime.net/yugioh-sevens/,renewal-error,92,92,0,0
 Beyblade Burst Sparking,https://jkanime.net/beyblade-burst-sparking/,renewal-error,52,52,0,0,52
 Shin Sakura Taisen the Animation,https://jkanime.net/shin-sakura-taisen-the-animation/,renewal-error,12,12,0,0,6
 Listeners,https://jkanime.net/listeners/,renewal-error,12,12,0,0,2
-Bungou to Alchemist: Shinpan no Haguruma,https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/,observed-chapters-without-options | renewal-error,13,12,1,0,7
+Bungou to Alchemist: Shinpan no Haguruma,https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/,renewal-error,13,13,0,0,6
 Asateer: Mirai no Mukashi Banashi,https://jkanime.net/asateer-mirai-no-mukashi-banashi/,observed-chapters-without-options | retained-redirect | renewal-error,13,12,1,0,13
 "Hachi-nan tte, Sore wa Nai deshou!",https://jkanime.net/hachi-nan-tte-sore-wa-nai-deshou/,renewal-error,12,12,0,0,12
 Kakushigoto (TV),https://jkanime.net/kakushigoto-tv/,renewal-error,12,12,0,0,12
@@ -1954,7 +1954,7 @@ Zenonzard: The Animation,https://jkanime.net/zenonzard-the-animation/,renewal-er
 Luo Xiao Hei Zhan Ji (Movie),https://jkanime.net/luo-xiao-hei-zhan-ji-movie/,,1,1,0,0,0
 Violet Evergarden Gaiden: Eien to Jidou Shuki Ningyou,https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Fate/Grand Order: Zettai Majuu Sensen Babylonia,https://jkanime.net/fategrand-order-zettai-majuu-sensen-babylonia/,no-observed-listing,0,0,0,0,0
-Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu,https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-kurenai-densetsu/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
+Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu,https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-kurenai-densetsu/,,1,1,0,0,0
 Quanzhi Gaoshou zhi Dianfeng Rongyao,https://jkanime.net/quanzhi-gaoshou-zhi-dianfeng-rongyao/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Fate/Grand Order: Zettai Majuu Sensen Babylonia - Initium Iter,https://jkanime.net/fategrand-order-zettai-majuu-sensen-babylonia-initium-iter/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Mo Dao Zu Shi: Xian Yun Pian,https://jkanime.net/mo-dao-zu-shi-xian-yun-pian/,renewal-error,8,8,0,0,6
@@ -2490,7 +2490,7 @@ Love Kome: We Love Rice,https://jkanime.net/love-kome-we-love-rice/,renewal-erro
 Sakurada Reset,https://jkanime.net/sakurada-reset/,renewal-error,24,24,0,0,24
 Sakura Quest,https://jkanime.net/sakura-quest/,renewal-error,25,25,0,0,25
 Rokudenashi Majutsu Koushi to Akashic Records,https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/,renewal-error,12,12,0,0,12
-Cinderella Girls Gekijou,https://jkanime.net/cinderella-girls-gekijou/,observed-chapters-without-options | renewal-error,13,12,1,0,1
+Cinderella Girls Gekijou,https://jkanime.net/cinderella-girls-gekijou/,,13,13,0,0,0
 Oushitsu Kyoushi Haine,https://jkanime.net/oushitsu-kyoushi-haine/,renewal-error,12,12,0,0,11
 Boruto: Naruto Next Generations,https://jkanime.net/boruto-naruto-next-generations/,renewal-error,293,293,0,0,292
 Beyblade Burst God,https://jkanime.net/beyblade-burst-god/,renewal-error,51,51,0,0,51
@@ -2601,7 +2601,7 @@ Anitore! XX,https://jkanime.net/anitore-xx/,renewal-error,12,12,0,0,3
 Yuri!!! on Ice,https://jkanime.net/yuri-on-ice/,renewal-error,12,12,0,0,12
 Hibike! Euphonium 2,https://jkanime.net/hibike-euphonium-2/,renewal-error,13,13,0,0,13
 Mahou Shoujo Nante Mou Ii Desukara. 2nd Season,https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/,observed-chapters-without-options | renewal-error,12,10,2,0,2
-Cheating Craft,https://jkanime.net/cheating-craft/,observed-chapters-without-options | renewal-error,12,11,1,0,1
+Cheating Craft,https://jkanime.net/cheating-craft/,,12,12,0,0,0
 To Be Hero,https://jkanime.net/to-be-hero/,renewal-error,12,12,0,0,12
 Musaigen no Phantom World Special,https://jkanime.net/musaigen-no-phantom-world-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Bishoujo Yuugi Unit Crane Game Girls Galaxy,https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/,renewal-error,12,12,0,0,2
@@ -2848,7 +2848,7 @@ Steins;Gate: Kyoukaimenjou no Missing Link,https://jkanime.net/steinsgate-kyouka
 Shen Ming Zhi Zhou,https://jkanime.net/shen-ming-zhi-zhou/,renewal-error,12,12,0,0,12
 Strike the Blood: Valkyria no Oukoku-hen,https://jkanime.net/strike-the-blood-valkyria-no-oukoku-hen/,renewal-error,2,2,0,0,2
 Girls und Panzer der Film,https://jkanime.net/girls-und-panzer-der-film/,,1,1,0,0,0
-Digimon Adventure tri,https://jkanime.net/digimon-adventure-tri/,observed-chapters-without-options | renewal-error,26,9,17,0,3
+Digimon Adventure tri,https://jkanime.net/digimon-adventure-tri/,observed-chapters-without-options | renewal-error,26,10,16,0,3
 Noragami Aragoto OVA,https://jkanime.net/noragami-aragoto-ova/,renewal-error,2,2,0,0,2
 Pokemon XY&Z,https://jkanime.net/pokemon-xyz/,renewal-error,49,49,0,0,32
 Wakaba*Girl: Onsen Tsukaritai,https://jkanime.net/wakabagirl-onsen-tsukaritai/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
@@ -4155,7 +4155,7 @@ Suzumiya Haruhi no Yuuutsu (2009),https://jkanime.net/suzumiya-haruhi-no-yuuutsu
 Dogs: Bullets & Carnage,https://jkanime.net/dogs-bullets-carnage/,renewal-error,4,4,0,0,4
 Hatsukoi Limited,https://jkanime.net/hatsukoi-limited/,renewal-error,12,12,0,0,12
 Higashi no Eden,https://jkanime.net/higashi-no-eden/,renewal-error,11,11,0,0,11
-07-Ghost,https://jkanime.net/07-ghost/,observed-chapters-without-options | renewal-error,25,24,1,0,1
+07-Ghost,https://jkanime.net/07-ghost/,,25,25,0,0,0
 Cross Game,https://jkanime.net/cross-game/,renewal-error,50,50,0,0,50
 Natsu no Arashi!,https://jkanime.net/natsu-no-arashi/,renewal-error,13,13,0,0,13
 Shangri-La,https://jkanime.net/shangri-la/,renewal-error,24,24,0,0,6
@@ -4856,7 +4856,7 @@ Magic Knight Rayearth,https://jkanime.net/magic-knight-rayearth/,renewal-error,2
 Darkside Blues,https://jkanime.net/darkside-blues/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 DNA²,https://jkanime.net/dna2/,renewal-error,12,12,0,0,12
 Gatchaman,https://jkanime.net/gatchaman/,renewal-error,3,3,0,0,3
-Taiho Shichau zo,https://jkanime.net/taiho-shichau-zo/,observed-chapters-without-options | renewal-error,51,35,16,0,3
+Taiho Shichau zo,https://jkanime.net/taiho-shichau-zo/,observed-chapters-without-options | renewal-error,51,36,15,0,3
 Go! Go! Ackman,https://jkanime.net/go-go-ackman/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Dragon Ball Z Movie 11: Bio-Broly,https://jkanime.net/dragon-ball-z-movie-11-bio-broly/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1
 Heisei Tanuki Gassen Ponpoko,https://jkanime.net/heisei-tanuki-gassen-ponpoko/,,1,1,0,0,0

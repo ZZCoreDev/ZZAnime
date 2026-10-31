@@ -1,13 +1,14 @@
 {
-  "observed-chapters-without-options": {
-    "series": 760,
+  "renewal-error": {
+    "series": 4351,
     "twoSeriesProofRequired": true,
     "samples": [
       {
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/2/"
+          "https://jkanime.net/ao-ashi/21/",
+          "https://jkanime.net/ao-ashi/22/"
         ]
       },
       {
@@ -20,29 +21,30 @@
       }
     ]
   },
-  "renewal-error": {
-    "series": 4352,
+  "observed-chapters-without-options": {
+    "series": 754,
     "twoSeriesProofRequired": true,
     "samples": [
-      {
-        "series": "https://jkanime.net/ao-ashi/",
-        "title": "Ao Ashi",
-        "samples": [
-          "https://jkanime.net/ao-ashi/2/"
-        ]
-      },
       {
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
           "https://jkanime.net/megalo-box/10/",
           "https://jkanime.net/megalo-box/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
+        "title": "Danmachi",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
         ]
       }
     ]
   },
   "retained-redirect": {
-    "series": 620,
+    "series": 619,
     "twoSeriesProofRequired": true,
     "samples": [
       {
