@@ -45,6 +45,9 @@ export function serve(){
  }).listen(0,'127.0.0.1',()=>resolve(s));});
 }
 async function main(){
+ // At most one probing pass per UTC day (12 embeds), unless started by hand.
+ let earlier=null;try{earlier=JSON.parse(fs.readFileSync(previousPath))}catch{}
+ if(process.env.PROBE_FORCE!=='1'&&String(earlier?.checkedAt||'').slice(0,10)===new Date().toISOString().slice(0,10)){console.log(JSON.stringify({skipped:'already-probed-today',checkedAt:earlier.checkedAt}));return;}
  const episodes=[...channelEpisodes(assets),...channelEpisodes(assets,'voe/'),...channelEpisodes(assets,'extra/')];
  const targets=pick(episodes),server=await serve(),origin='http://127.0.0.1:'+server.address().port;
  const browser=await chromium.launch({args:['--autoplay-policy=no-user-gesture-required']});const results=[];

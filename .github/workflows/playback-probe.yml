@@ -2,9 +2,6 @@ name: Probador de reproducción (diario)
 on:
   schedule:
     - cron: '23 5 * * *'
-  push:
-    branches: [main]
-    paths: ['automation/playback-probe/**', '.github/workflows/playback-probe.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -42,6 +39,8 @@ jobs:
           node test_probe.mjs
       - name: Abrir como mucho 12 embeds como la app (pausas de 20 s)
         working-directory: code/automation/playback-probe
+        env:
+          PROBE_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: node probe.mjs "$GITHUB_WORKSPACE/data/state/published-assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
       - name: Guardar el resultado (un único commit, se reemplaza)
         env:
