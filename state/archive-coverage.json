@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T05:29:54.917552+00:00",
+  "checkedAt": "2026-10-31T05:43:05.427518+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72356,
-  "missingChapters": 1420,
+  "storedChapters": 72359,
+  "missingChapters": 1417,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -1977,6 +1977,20 @@
         "title": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
         "samples": [
           "https://jkanime.net/botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zenshuu/",
+        "title": "Zenshuu.",
+        "samples": [
+          "https://jkanime.net/zenshuu/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/",
+        "title": "Kisaki Kyouiku kara Nigetai Watashi",
+        "samples": [
+          "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/3/"
         ]
       },
       {
@@ -10666,7 +10680,8 @@
         "series": "https://jkanime.net/ochikobore-fruit-tart/",
         "title": "Ochikobore Fruit Tart",
         "samples": [
-          "https://jkanime.net/ochikobore-fruit-tart/6/"
+          "https://jkanime.net/ochikobore-fruit-tart/1/",
+          "https://jkanime.net/ochikobore-fruit-tart/10/"
         ]
       },
       {
@@ -19363,7 +19378,7 @@
         "title": "Ninja Slayer From Animation",
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
-          "https://jkanime.net/ninja-slayer-from-animation/14/"
+          "https://jkanime.net/ninja-slayer-from-animation/2/"
         ]
       },
       {
@@ -32713,8 +32728,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/5/",
-          "https://jkanime.net/taiho-shichau-zo/50/"
+          "https://jkanime.net/taiho-shichau-zo/50/",
+          "https://jkanime.net/taiho-shichau-zo/51/"
         ]
       },
       {
@@ -34819,13 +34834,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ochikobore-fruit-tart/",
-        "title": "Ochikobore Fruit Tart",
-        "samples": [
-          "https://jkanime.net/ochikobore-fruit-tart/6/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/omoi-omoware-furi-furare/",
         "title": "Omoi, Omoware, Furi, Furare",
         "samples": [
@@ -36115,7 +36123,7 @@
         "title": "Ninja Slayer From Animation",
         "samples": [
           "https://jkanime.net/ninja-slayer-from-animation/1/",
-          "https://jkanime.net/ninja-slayer-from-animation/14/"
+          "https://jkanime.net/ninja-slayer-from-animation/2/"
         ]
       },
       {
@@ -38684,8 +38692,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/5/",
-          "https://jkanime.net/taiho-shichau-zo/50/"
+          "https://jkanime.net/taiho-shichau-zo/50/",
+          "https://jkanime.net/taiho-shichau-zo/51/"
         ]
       },
       {
@@ -53410,13 +53418,15 @@
     {
       "series": "https://jkanime.net/zenshuu/",
       "title": "Zenshuu.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 15,
         "streamwish": 5,
@@ -53427,13 +53437,15 @@
     {
       "series": "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/",
       "title": "Kisaki Kyouiku kara Nigetai Watashi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 12,
         "streamwish": 5,
@@ -78608,19 +78620,16 @@
       "series": "https://jkanime.net/ochikobore-fruit-tart/",
       "title": "Ochikobore Fruit Tart",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/ochikobore-fruit-tart/6/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 11,
         "vidhide": 11,
         "mp4upload": 11,
@@ -104225,10 +104234,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
-        "https://jkanime.net/ninja-slayer-from-animation/14/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
         "https://jkanime.net/ninja-slayer-from-animation/7/",
@@ -104237,10 +104245,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 17,
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -142411,9 +142419,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 44,
+      "stored": 45,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/5/",
         "https://jkanime.net/taiho-shichau-zo/50/",
         "https://jkanime.net/taiho-shichau-zo/51/",
         "https://jkanime.net/taiho-shichau-zo/6/",
@@ -142429,7 +142436,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 43,
+        "mp4upload": 44,
         "streamtape": 3
       },
       "playbackVerified": false
