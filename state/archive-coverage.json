@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T11:30:33.705413+00:00",
+  "checkedAt": "2026-10-31T11:43:33.922198+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
   "storedChapters": 72387,
@@ -23933,13 +23933,6 @@
         "title": "Nozoki Ana",
         "samples": [
           "https://jkanime.net/nozoki-ana/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/code-breaker-ova/",
-        "title": "Code:Breaker OVA",
-        "samples": [
-          "https://jkanime.net/code-breaker-ova/1/"
         ]
       },
       {
@@ -117194,15 +117187,13 @@
     {
       "series": "https://jkanime.net/code-breaker-ova/",
       "title": "Code:Breaker OVA",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 3
       },
@@ -128546,7 +128537,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 34,
+      "renewalFailed": 35,
       "families": {
         "mega": 34,
         "streamwish": 50,
