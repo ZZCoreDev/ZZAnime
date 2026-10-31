@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T09:22:20.878105+00:00",
+  "checkedAt": "2026-10-31T09:38:12.773160+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
   "storedChapters": 72386,
@@ -13607,13 +13607,6 @@
         "samples": [
           "https://jkanime.net/jojo-no-kimyou-na-bouken-ougon-no-kaze/1/",
           "https://jkanime.net/jojo-no-kimyou-na-bouken-ougon-no-kaze/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/gurazeni-season-2/",
-        "title": "Gurazeni: Season 2",
-        "samples": [
-          "https://jkanime.net/gurazeni-season-2/1/"
         ]
       },
       {
@@ -87182,15 +87175,13 @@
     {
       "series": "https://jkanime.net/gurazeni-season-2/",
       "title": "Gurazeni: Season 2",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
@@ -140742,7 +140733,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 14,
       "families": {
         "mega": 1
       },
