@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T06:48:30.504501+00:00",
+  "checkedAt": "2026-10-31T07:02:12.045342+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72372,
-  "missingChapters": 1422,
+  "storedChapters": 72375,
+  "missingChapters": 1419,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -1868,6 +1868,7 @@
         "series": "https://jkanime.net/douse-koishite-shimaunda/",
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
+          "https://jkanime.net/douse-koishite-shimaunda/17/",
           "https://jkanime.net/douse-koishite-shimaunda/2/"
         ]
       },
@@ -18413,7 +18414,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/6/"
+          "https://jkanime.net/digimon-adventure-tri/7/"
         ]
       },
       {
@@ -27478,8 +27479,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/"
         ]
       },
       {
@@ -36135,7 +36136,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/6/"
+          "https://jkanime.net/digimon-adventure-tri/7/"
         ]
       },
       {
@@ -37745,8 +37746,8 @@
         "series": "https://jkanime.net/queens-blade-rebellion/",
         "title": "Queen's Blade: Rebellion",
         "samples": [
-          "https://jkanime.net/queens-blade-rebellion/14/",
-          "https://jkanime.net/queens-blade-rebellion/15/"
+          "https://jkanime.net/queens-blade-rebellion/15/",
+          "https://jkanime.net/queens-blade-rebellion/16/"
         ]
       },
       {
@@ -38207,8 +38208,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/"
         ]
       },
       {
@@ -53236,7 +53237,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "vidhide": 2,
         "mp4upload": 21,
@@ -62670,7 +62671,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mega": 4,
         "streamwish": 6,
@@ -95909,7 +95910,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 24,
         "streamwish": 26,
@@ -101400,10 +101401,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 21,
+      "stored": 22,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/6/",
         "https://jkanime.net/digimon-adventure-tri/7/",
         "https://jkanime.net/digimon-adventure-tri/8/",
         "https://jkanime.net/digimon-adventure-tri/9/"
@@ -101412,7 +101412,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 21,
+        "mega": 22,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -120984,9 +120984,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 18,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/queens-blade-rebellion/14/",
         "https://jkanime.net/queens-blade-rebellion/15/",
         "https://jkanime.net/queens-blade-rebellion/16/",
         "https://jkanime.net/queens-blade-rebellion/17/",
@@ -120996,7 +120995,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13
+        "mega": 14
       },
       "playbackVerified": false
     },
@@ -127355,9 +127354,8 @@
         "renewal-error"
       ],
       "observed": 18,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/",
@@ -127367,7 +127365,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mp4upload": 13,
+        "mp4upload": 14,
         "mega": 2,
         "streamwish": 2,
         "vidhide": 2,
@@ -128379,7 +128377,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 12,
         "mega": 4,
@@ -142660,7 +142658,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 3,
         "streamwish": 4,
