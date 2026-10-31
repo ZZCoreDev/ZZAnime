@@ -91,6 +91,8 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS counters(k TEXT PRIMARY KEY,n INTEGER,expires INTEGER)');
   // One row per option, device and day: a device votes once a day per option (played or failed).
   sql.exec('CREATE TABLE IF NOT EXISTS plays(okey TEXT,device TEXT,day INTEGER,episode TEXT,name TEXT,family TEXT,url TEXT,ok INTEGER,fail INTEGER,PRIMARY KEY(okey,device,day))');
+  // Intro/ending marks: one per chapter, kind and device; accepted when two devices agree within 3 s.
+  sql.exec('CREATE TABLE IF NOT EXISTS marks(episode TEXT,kind TEXT,device TEXT,day INTEGER,start INTEGER,stop INTEGER,PRIMARY KEY(episode,kind,device))');
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
   for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER'])try{sql.exec(q);}catch{}}
@@ -184,6 +186,31 @@ export class Store{
   const popular=[...viewers].map(([series,set])=>({series,devices:set.size})).filter(x=>x.devices>=2).sort((a,b)=>b.devices-a.devices||(a.series<b.series?-1:1)).slice(0,100);
   return {options:options.map(r=>({key:r.okey,family:r.family,ok:r.oks,fail:r.fails})),families,popular};
  }
+ mark(items,limits,expires,day){
+  if(!this.take(limits,expires))return {limited:true};
+  const status={};
+  for(const it of items){
+   const r=this.rows('SELECT start,stop FROM marks WHERE episode=? AND kind=? AND device=?',it.episode,it.kind,it.device)[0];
+   if(!r)this.sql.exec('INSERT INTO marks VALUES(?,?,?,?,?,?)',it.episode,it.kind,it.device,day,it.start,it.stop);
+   else if(r.start!==it.start||r.stop!==it.stop)this.sql.exec('UPDATE marks SET start=?,stop=?,day=? WHERE episode=? AND kind=? AND device=?',it.start,it.stop,day,it.episode,it.kind,it.device);
+   status[it.episode+'|'+it.kind]=r?'updated':'stored';
+  }
+  return {status};
+ }
+ // Median start/end per chapter and kind; accepted when two or more devices fall within 3 s of both.
+ markStats(now){
+  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM marks WHERE day<?',day-59);
+  const groups=new Map(),out=[];
+  for(const r of this.rows('SELECT episode,kind,start,stop FROM marks ORDER BY episode,kind LIMIT 200000')){const k=r.episode+'|'+r.kind;let g=groups.get(k);if(!g)groups.set(k,g=[]);g.push(r);}
+  const median=a=>{const b=[...a].sort((x,y)=>x-y);return b[Math.floor((b.length-1)/2)];};
+  for(const [k,g] of groups){
+   if(g.length<2)continue;
+   const s=median(g.map(r=>r.start)),e=median(g.map(r=>r.stop)),agree=g.filter(r=>Math.abs(r.start-s)<=3&&Math.abs(r.stop-e)<=3);
+   if(agree.length>=2){const [episode,kind]=k.split('|');out.push({episode,kind,start:Math.round(agree.reduce((a,r)=>a+r.start,0)/agree.length),stop:Math.round(agree.reduce((a,r)=>a+r.stop,0)/agree.length),devices:agree.length});}
+  }
+  out.sort((a,b)=>b.devices-a.devices||(a.episode<b.episode?-1:1));
+  return {marks:out.slice(0,5000)};
+ }
  // Two devices are enough here: a report only moves the link to the front of the cloud link checker,
  // which decides on its own reading and controls.
  deadReports(now){
@@ -204,7 +231,7 @@ export class Store{
     answers:one('SELECT COUNT(*) AS n FROM seen WHERE created>=?',start).n||0,requests:one('SELECT SUM(n) AS n FROM counters WHERE k LIKE ? AND expires=?','ip:%',(day+2)*DAY).n||0,
     items:counter('day:'+day),stop:counter('stat:'+day+':stop'),unsupported:counter('stat:'+day+':unsupported'),limited:counter('stat:'+day+':limited'),
     deadReports:one('SELECT COUNT(*) AS n FROM dead WHERE created>=?',start).n||0,
-    plays:one('SELECT COUNT(*) AS n FROM plays WHERE day=?',day).n||0},
+    plays:one('SELECT COUNT(*) AS n FROM plays WHERE day=?',day).n||0,marks:one('SELECT COUNT(*) AS n FROM marks WHERE day=?',day).n||0},
    pendingEpisodes:episodes,quorum,verdicts,sameAsnZones,
    deadCandidates:this.rows('SELECT okey FROM dead GROUP BY okey HAVING COUNT(DISTINCT device)>=2').length};
  }
@@ -225,7 +252,7 @@ function authorized(request,env){return !!env.HELP_KEY&&same(request.headers.get
 export async function handle(request,env,store,deps={}){
  const now=(deps.now||Date.now)(),fetcher=deps.fetch||fetch,url=new URL(request.url),day=Math.floor(now/DAY),expires=(day+2)*DAY;
  const sameAsnZones=Math.max(0,Number(env.SAME_ASN_ZONES||0));
- if(request.method==='POST'&&['/v1/submit','/v1/dead','/v1/play'].includes(url.pathname)){
+ if(request.method==='POST'&&['/v1/submit','/v1/dead','/v1/play','/v1/marks'].includes(url.pathname)){
   // submit: {"schema":1,"device":"<random id>","items":[{"episode":url,"options":[{"name","url"}]}]}; per-item answer:
   // stored | duplicate | enough (drop it, enough devices answered) | stop (not wanted any more) | unsupported.
   // dead:   {"schema":1,"device":"<random id>","items":[{"episode":url,"name","url"}]}; answer per url.
@@ -235,6 +262,17 @@ export async function handle(request,env,store,deps={}){
   const ip=request.headers.get('cf-connecting-ip')||'',device=await sha(env.SALT+'|device|'+x.device);
   const ipKey='ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),result={},valid=[];
   const limits=n=>[[ipKey,Number(env.IP_LIMIT||200),1],[(url.pathname==='/v1/dead'?'deadday:':'day:')+day,Number(env.DAILY_CAP||40000),n]];
+  if(url.pathname==='/v1/marks'){
+   // {"schema":1,"device","items":[{"episode","kind":"intro"|"outro","start":s,"end":s}]}: whole seconds, intro within
+   // the first 30 min, each mark at most 4 min long.
+   for(const it of x.items){
+    const s=it?.start,e=it?.end,ok=EPISODE.test(it?.episode||'')&&['intro','outro'].includes(it?.kind)&&Number.isInteger(s)&&Number.isInteger(e)&&s>=0&&e>s&&e-s<=240&&e<=21600&&(it.kind!=='intro'||s<=1800);
+    if(!ok){if(it?.episode)result[String(it.episode).slice(0,300)+'|'+String(it?.kind).slice(0,10)]='unsupported';continue;}
+    valid.push({episode:it.episode,kind:it.kind,device,start:s,stop:e});
+   }
+   if(valid.length){const r=await store.mark(valid,[[ipKey,Number(env.IP_LIMIT||200),1],['markday:'+day,Number(env.MARK_CAP||10000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
+   return json({accepted:true,items:Object.entries(result).map(([k,status])=>({episode:k.split('|')[0],kind:k.split('|')[1],status}))});
+  }
   if(url.pathname==='/v1/play'){
    // {"schema":1,"device","items":[{"episode","name","url","ok":true|false}]}: played for real or failed for real.
    for(const it of x.items){
@@ -284,6 +322,10 @@ export async function handle(request,env,store,deps={}){
    row.options.push({name:r.name,family:r.family,url:r.url,devices:r.devices,asns:r.asns,zones:r.zones||0,check:r.verdict});out.set(r.episode,row);
   }
   return json({schema:1,generatedAt:iso(now),episodes:[...out.values()]});
+ }
+ if(request.method==='GET'&&url.pathname==='/v1/marks-stats'){
+  if(!authorized(request,env))return json({error:'unauthorized'},401);
+  return json({schema:1,generatedAt:iso(now),...await store.markStats(now)});
  }
  if(request.method==='GET'&&url.pathname==='/v1/play-stats'){
   if(!authorized(request,env))return json({error:'unauthorized'},401);

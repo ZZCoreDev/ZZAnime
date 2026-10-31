@@ -63,6 +63,7 @@ jobs:
           python3 test_remote_config.py
           python3 test_schedule.py
           python3 test_plays.py
+          python3 test_skip_marks.py
           node --no-warnings ../help-worker/test_help_worker.mjs
       - name: Renovar y publicar por el canal firmado existente
         working-directory: code/automation/hourly

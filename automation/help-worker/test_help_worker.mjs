@@ -174,4 +174,24 @@ await check('play votes: one per device and day, popularity by distinct devices,
  assert.ok(!JSON.stringify(t.store.rows('SELECT * FROM plays')).includes('device-play-device-1'));
  // 8 rows: device 4 voted the same option twice in one day and keeps a single row.
  assert.equal((await get(t,'/v1/stats')).body.today.plays,8);});
-console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch, play votes)');
+async function mark(t,items,{device,asn=3352,ip}={}){
+ device=device||'device-'+String(++n).padStart(12,'0');
+ const req=new Request('https://help.test/v1/marks',{method:'POST',body:JSON.stringify({schema:1,device,items})});
+ Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||device);
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});return {status:r.status,body:await r.json()};
+}
+await check('intro marks: two devices within 3 s agree, outliers and bad marks ignored',async()=>{
+ const t=setup(),m=(start,end,kind='intro',episode=TR)=>({episode,kind,start,end});
+ await mark(t,[m(90,180)],{device:'device-mark-device-1'});
+ assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[]);
+ await mark(t,[m(92,181),m(1300,1390,'outro')],{device:'device-mark-device-2'});
+ await mark(t,[m(400,490)],{device:'device-mark-device-3'});
+ const r=await mark(t,[m(90,400),m(1900,1950),{episode:TR,kind:'ending',start:1,end:2},m(10.5,90)],{device:'device-mark-device-4'});
+ // Answers are per chapter and kind: the three bad intros collapse into one, the unknown kind is another.
+ assert.deepEqual(r.body.items.map(i=>[i.kind,i.status]),[['intro','unsupported'],['ending','unsupported']]);
+ assert.equal((await get(t,'/v1/marks-stats','wrong')).status,401);
+ assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[{episode:TR,kind:'intro',start:91,stop:181,devices:2}]);
+ await mark(t,[m(91,181)],{device:'device-mark-device-1'});
+ assert.equal((await get(t,'/v1/marks-stats')).body.marks[0].devices,2);
+ assert.ok(!JSON.stringify(t.store.rows('SELECT * FROM marks')).includes('device-mark-device-1'));});
+console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch, play votes, intro marks)');

@@ -13,6 +13,8 @@ export class HelpStore extends DurableObject{
  stats(now,sameAsnZones){return this.store.stats(now,sameAsnZones);}
  play(items,limits,expires,day){return this.store.play(items,limits,expires,day);}
  playStats(now){return this.store.playStats(now);}
+ mark(items,limits,expires,day){return this.store.mark(items,limits,expires,day);}
+ markStats(now){return this.store.markStats(now);}
 }
 
 export default{

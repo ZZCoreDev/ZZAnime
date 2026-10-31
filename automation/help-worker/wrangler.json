@@ -12,7 +12,8 @@
     "DAILY_CAP": "40000",
     "IP_LIMIT": "200",
     "SAME_ASN_ZONES": "0",
-    "PLAY_CAP": "20000"
+    "PLAY_CAP": "20000",
+    "MARK_CAP": "10000"
   },
   "send_metrics": false,
   "observability": {"enabled": false}

@@ -39,7 +39,7 @@ def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
  command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java'),*([str(W/'VoeOverlayAudit.java')] if modern else [])])
  return str(runtime)+os.pathsep+cp
-def build(state,approved,now,allow_voe=False,plays=None):
+def build(state,approved,now,allow_voe=False,plays=None,marks=None):
  rows={}
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/'
@@ -82,9 +82,13 @@ def build(state,approved,now,allow_voe=False,plays=None):
  if plays:
   import plays as play_votes
   index['ranking']=play_votes.ranking(plays,set(rows),titles);index['playScores']=play_votes.scores(plays)
- while len(raw(index))>APP_INDEX_BYTES and len(index['series'])>1:
-  # Over the app limit: option scores go first, then the least recently observed series.
-  if index.pop('playScores',None) is not None:continue
+ if marks:
+  import skip_marks
+  index['skipMarks']=skip_marks.build(marks,available)
+ while len(raw(index))>APP_INDEX_BYTES:
+  # Over the app limit: intro marks and option scores go first, then the least recently observed series.
+  if index.pop('skipMarks',None) is not None or index.pop('playScores',None) is not None:continue
+  if len(index['series'])<=1:break
   oldest=min(rows,key=lambda p:recency[p]);entry=index['series'].pop(sha(oldest.encode()));files.pop(entry['path'],None);rows.pop(oldest)
  return index,files
 def main():
@@ -160,7 +164,8 @@ def main():
   from link_health import exclude
   exclude(D,approved)
   import plays as play_votes
-  index,files=build(state,approved,now,plays=play_votes.load(D))
+  import skip_marks
+  index,files=build(state,approved,now,plays=play_votes.load(D),marks=skip_marks.load(D))
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')
