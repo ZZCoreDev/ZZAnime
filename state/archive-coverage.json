@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T11:16:16.537902+00:00",
+  "checkedAt": "2026-10-31T11:30:33.705413+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
   "storedChapters": 72387,
@@ -124274,7 +124274,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 26,
       "families": {
         "mega": 25,
         "streamwish": 65,
