@@ -49,7 +49,12 @@ await check('file name verdicts',()=>{
  assert.equal(nameVerdict('TokyoRevengers_SantenSensouhen_E05.mp4',WANTED[0]),'match');
  assert.equal(nameVerdict('Tokyo Revengers Santen Sensou-hen 06.mp4',WANTED[0]),'mismatch');
  assert.equal(nameVerdict('Steel Ball Run 07 [720p].mkv',WANTED[1]),'match');
- assert.equal(nameVerdict('One Piece 1150.mp4',WANTED[0]),'unknown');});
+ assert.equal(nameVerdict('One Piece 1150.mp4',WANTED[0]),'unknown');
+ const movie={url:'https://jkanime.net/dragon-ball-z-movie-07-super-android-13/1/',number:1,title:'Dragon Ball Z Movie 07: Super Android 13'};
+ assert.equal(nameVerdict('Dragon Ball Z Movie 07 - Super Android 13 [1080p].mp4',movie),'mismatch');
+ assert.equal(nameVerdict('Dragon Ball Z Movie 07 - Super Android 13 [1080p].mp4',{...movie,held:true}),'match');
+ assert.equal(nameVerdict('One Piece 1150.mp4',{...movie,held:true}),'unknown');
+ assert.equal(nameVerdict('Dragon Ball Z Movie 07.mp4',{...movie,held:'yes'}),'mismatch');});
 await check('real MEGA attribute decryption',async()=>{
  const f=megaFile('[Sub] Tokyo Revengers Santen Sensou-hen 05.mp4'),t=setup({mega:[f]});
  assert.equal(await megaName(f.url,t.fetcher),'[Sub] Tokyo Revengers Santen Sensou-hen 05.mp4');

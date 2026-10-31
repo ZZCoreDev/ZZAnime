@@ -19,10 +19,12 @@ export function family(name){
 }
 const norm=s=>String(s||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 // 'match' needs series words and the chapter number; 'mismatch' means series words with another number.
+// Held entries ("held":true: a JK /1/ that redirects to the series' OVA/movie page) need the series words
+// only: movie and OVA files rarely carry «1». Quorum and approved providers are unchanged.
 export function nameVerdict(name,entry){
  const slug=entry.url.split('/')[3].replace(/-/g,' '),words=[...new Set(norm(entry.title+' '+slug).split(' '))].filter(w=>w.length>=3&&!/^[0-9]+$/.test(w)&&!STOP.has(w));
  const n=norm(name),compact=n.replace(/ /g,''),hits=words.filter(w=>compact.includes(w)).length;
- const series=words.length>0&&hits>=Math.min(2,words.length),number=new RegExp('(^|[^0-9])0*'+entry.number+'([^0-9]|$)').test(n);
+ const series=words.length>0&&hits>=Math.min(2,words.length),number=entry.held===true||new RegExp('(^|[^0-9])0*'+entry.number+'([^0-9]|$)').test(n);
  return series&&number?'match':series?'mismatch':'unknown';
 }
 const b64url=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/').padEnd(Math.ceil(s.length/4)*4,'=')),c=>c.charCodeAt(0));

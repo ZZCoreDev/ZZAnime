@@ -70,7 +70,8 @@ def wanted(state,files,now,rules,catalogue=None,held_urls=None):
   if pool:
    start=(int(now.timestamp()//86400)%(-(-len(pool)//size)))*size
    at=next((i for i,w in enumerate(out) if w.get('renew')),len(out))
-   out[at:at]=[entry(u) for u in pool[start:start+size]]
+   # "held": the help Worker then needs only the series words in the file name (no chapter number).
+   out[at:at]=[entry(u,held=True) for u in pool[start:start+size]]
  while out and len(json.dumps(out,ensure_ascii=False,separators=(',',':')).encode())>WANTED_BYTES:out.pop()
  return out
 def record_published(folder,wanted_rows,now):

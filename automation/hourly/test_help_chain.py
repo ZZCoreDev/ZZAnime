@@ -75,7 +75,7 @@ class WantedTests(unittest.TestCase):
   w=h.wanted(self.state,files,day,rules,{},held)
   first=[x['url'] for x in w if 'ova-' in x['url']];self.assertEqual(len(first),2)
   self.assertEqual([x['url'] for x in w[:2]],[b,c]);self.assertTrue(w[-1].get('renew'));self.assertFalse(any(x.get('renew') for x in w[:4]))
-  self.assertNotIn(a,[x['url'] for x in w]);self.assertEqual(set(w[2]),{'url','number','title'})
+  self.assertNotIn(a,[x['url'] for x in w]);self.assertEqual(w[2]['held'],True);self.assertEqual(set(w[2]),{'url','number','title','held'})
   days=[[x['url'] for x in h.wanted(self.state,files,day+datetime.timedelta(days=n),rules,{},held) if 'ova-' in x['url']] for n in range(3)]
   self.assertEqual(sorted(sum(days,[])),sorted(held[:5]))
   self.assertFalse(any('ova-' in x['url'] for x in h.wanted(self.state,files,day,{**rules,'held':0},{},held)))
@@ -186,13 +186,14 @@ class LegacyReaderTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    root=Path(d);public=root/'key.der';public.write_bytes(key.public_key().public_bytes(serialization.Encoding.DER,serialization.PublicFormat.SubjectPublicKeyInfo))
    index,files=run.build(state,approved,now);body=run.raw(index);digest=run.sha(body);path='indexes/'+digest+'.bin';files[path]=body;results=[]
-   wanted=h.wanted(state,files,now,{'mode':'open','trial':TRIAL,'max':40},{})
+   wanted=h.wanted(state,files,now,{'mode':'open','trial':TRIAL,'max':40,'held':1},{},['https://jkanime.net/ova-x/1/'])
    cp=run.compile_java(root/'old')
    for extra in [{},{'wanted':wanted}]:
     payload=run.raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':iso(now),'indexSha256':digest,'indexPath':path,'indexBytes':len(body),'mode':'daily-new',**extra})
     site=root/('site'+str(len(results)))
     for n,b in {**files,'channel.json':run.raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})}.items():run.put(site/n,b)
     results.append(json.loads(run.command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(site),str(public),str(root/('cache'+str(len(results))))])))
-   self.assertEqual(len(wanted),2);self.assertEqual(results[0],results[1])
+   # Two news plus one held entry carrying the extra "held" key: installed readers give the same result.
+   self.assertEqual(len(wanted),3);self.assertEqual(wanted[2].get('held'),True);self.assertEqual(results[0],results[1])
 
 if __name__=='__main__':unittest.main()
