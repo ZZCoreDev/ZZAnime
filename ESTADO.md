@@ -99,15 +99,15 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 59653; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 59560; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 3/4 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 180.
 Equivalencia comprobada: Prince of Tennis, 0/178 capítulos recientes; incidencias pendientes: 178.
 Equivalencia comprobada: Keroro Gunsou☆ 2026, 1/5 capítulos recientes; incidencias pendientes: 4.
-Diagnóstico por serie: 4332/4342; pendientes: 10. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 72414 capítulos con registros, 1409 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Diagnóstico por serie: 4301/4339; pendientes: 38. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Cobertura de catálogo: 5053 títulos, 72425 capítulos con registros, 1398 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
