@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T13:08:59.476456+00:00",
+  "checkedAt": "2026-10-31T13:22:45.342808+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73823,
-  "storedChapters": 72438,
-  "missingChapters": 1385,
+  "storedChapters": 72444,
+  "missingChapters": 1379,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2900,7 +2900,7 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/14/"
+          "https://jkanime.net/bye-bye-earth/15/"
         ]
       },
       {
@@ -3003,8 +3003,8 @@
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/11/",
-          "https://jkanime.net/shoushimin-series/14/"
+          "https://jkanime.net/shoushimin-series/14/",
+          "https://jkanime.net/shoushimin-series/15/"
         ]
       },
       {
@@ -3575,8 +3575,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/18/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/"
         ]
       },
       {
@@ -7484,13 +7484,6 @@
         "samples": [
           "https://jkanime.net/musashino/1/",
           "https://jkanime.net/musashino/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bakuten-movie/",
-        "title": "Bakuten!! Movie",
-        "samples": [
-          "https://jkanime.net/bakuten-movie/1/"
         ]
       },
       {
@@ -16840,7 +16833,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/16/"
+          "https://jkanime.net/time-bokan-24/17/"
         ]
       },
       {
@@ -19554,7 +19547,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/4/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/"
         ]
       },
       {
@@ -20900,13 +20893,6 @@
         "title": "Inugami-san to Nekoyama-san: Nekoyama-san to Onsen Ryokou",
         "samples": [
           "https://jkanime.net/inugami-san-to-nekoyama-san-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/girls-und-panzer-kore-ga-hontou-no-anzio-sen-desu/",
-        "title": "Girls und Panzer: Kore ga Hontou no Anzio-sen Desu!",
-        "samples": [
-          "https://jkanime.net/girls-und-panzer-kore-ga-hontou-no-anzio-sen-desu/1/"
         ]
       },
       {
@@ -23430,13 +23416,6 @@
         "title": "Steins;Gate: Fuka Ryouiki no Déjà vu",
         "samples": [
           "https://jkanime.net/steinsgate-fuka-ryouiki-no-dj-vu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aura-maryuuinkouga-saigo-no-tatakai/",
-        "title": "Aura: Maryuuinkouga Saigo no Tatakai",
-        "samples": [
-          "https://jkanime.net/aura-maryuuinkouga-saigo-no-tatakai/1/"
         ]
       },
       {
@@ -30193,8 +30172,8 @@
         "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
         "title": "Yu Gi Oh!: Duel Monsters GX",
         "samples": [
-          "https://jkanime.net/yugioh-duel-monsters-gx/10/",
-          "https://jkanime.net/yugioh-duel-monsters-gx/100/"
+          "https://jkanime.net/yugioh-duel-monsters-gx/100/",
+          "https://jkanime.net/yugioh-duel-monsters-gx/101/"
         ]
       },
       {
@@ -31683,8 +31662,8 @@
         "series": "https://jkanime.net/prince-of-tennis/",
         "title": "Prince of Tennis",
         "samples": [
-          "https://jkanime.net/prince-of-tennis/10/",
-          "https://jkanime.net/prince-of-tennis/100/"
+          "https://jkanime.net/prince-of-tennis/100/",
+          "https://jkanime.net/prince-of-tennis/101/"
         ]
       },
       {
@@ -33530,14 +33509,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/keroro-gunsou-2026/",
-        "title": "Keroro Gunsou☆ 2026",
-        "samples": [
-          "https://jkanime.net/keroro-gunsou-2026/3/",
-          "https://jkanime.net/keroro-gunsou-2026/4/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/da-wang-rao-ming-3/",
         "title": "Da Wang Rao Ming 3",
         "samples": [
@@ -34170,15 +34141,15 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/14/"
+          "https://jkanime.net/bye-bye-earth/15/"
         ]
       },
       {
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/11/",
-          "https://jkanime.net/shoushimin-series/14/"
+          "https://jkanime.net/shoushimin-series/14/",
+          "https://jkanime.net/shoushimin-series/15/"
         ]
       },
       {
@@ -34206,8 +34177,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/18/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/"
         ]
       },
       {
@@ -35605,7 +35576,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/16/"
+          "https://jkanime.net/time-bokan-24/17/"
         ]
       },
       {
@@ -36110,7 +36081,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/4/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/"
         ]
       },
       {
@@ -36398,8 +36369,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/16/",
-          "https://jkanime.net/tribe-cool-crew/17/"
+          "https://jkanime.net/tribe-cool-crew/17/",
+          "https://jkanime.net/tribe-cool-crew/18/"
         ]
       },
       {
@@ -55990,10 +55961,9 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 12,
+      "stored": 13,
       "missing": [
         "https://jkanime.net/bye-bye-earth/13/",
-        "https://jkanime.net/bye-bye-earth/14/",
         "https://jkanime.net/bye-bye-earth/15/",
         "https://jkanime.net/bye-bye-earth/16/",
         "https://jkanime.net/bye-bye-earth/17/",
@@ -56005,10 +55975,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 10,
+        "streamwish": 11,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 7,
+        "mp4upload": 8,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -56294,9 +56264,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/shoushimin-series/11/",
         "https://jkanime.net/shoushimin-series/14/",
         "https://jkanime.net/shoushimin-series/15/",
         "https://jkanime.net/shoushimin-series/16/",
@@ -56309,12 +56278,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "streamwish": 12,
+        "streamwish": 13,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 8,
+        "mp4upload": 9,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -58017,9 +57986,8 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/18/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
@@ -58036,9 +58004,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 17,
+        "streamwish": 18,
         "vidhide": 12,
-        "mp4upload": 14,
+        "mp4upload": 15,
         "streamtape": 12
       },
       "playbackVerified": false
@@ -69257,8 +69225,7 @@
       "title": "Bakuten!! Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -69267,7 +69234,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -72706,7 +72673,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 22,
         "streamwish": 13,
@@ -89675,7 +89642,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {},
       "playbackVerified": false
     },
@@ -94241,7 +94208,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -96043,7 +96010,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -96542,10 +96509,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/16/",
         "https://jkanime.net/time-bokan-24/17/",
         "https://jkanime.net/time-bokan-24/18/",
         "https://jkanime.net/time-bokan-24/19/",
@@ -96567,9 +96533,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 6,
-        "streamwish": 6,
-        "vidhide": 6
+        "mp4upload": 7,
+        "streamwish": 7,
+        "vidhide": 7
       },
       "playbackVerified": false
     },
@@ -97451,7 +97417,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -98376,7 +98342,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -99760,7 +99726,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 4,
         "mega": 2
@@ -100093,7 +100059,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -104651,10 +104617,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/4/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/",
@@ -104665,7 +104630,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 5,
+        "streamwish": 6,
         "mega": 1
       },
       "playbackVerified": false
@@ -108015,9 +107980,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/16/",
         "https://jkanime.net/tribe-cool-crew/17/",
         "https://jkanime.net/tribe-cool-crew/18/",
         "https://jkanime.net/tribe-cool-crew/19/",
@@ -108065,7 +108029,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 7,
+        "streamwish": 8,
         "mega": 3
       },
       "playbackVerified": false
@@ -108611,8 +108575,7 @@
       "title": "Girls und Panzer: Kore ga Hontou no Anzio-sen Desu!",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -108621,7 +108584,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -115710,8 +115673,7 @@
       "title": "Aura: Maryuuinkouga Saigo no Tatakai",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -115720,7 +115682,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -124550,7 +124512,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 80,
+      "renewalFailed": 79,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -132883,7 +132845,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134191,7 +134153,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -134970,7 +134932,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 178,
+      "renewalFailed": 108,
       "families": {
         "mega": 179,
         "streamwish": 180,
@@ -137033,7 +136995,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
@@ -139096,13 +139058,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 176,
+      "renewalFailed": 107,
       "families": {
-        "mega": 178,
+        "mega": 176,
         "streamwish": 178,
-        "vidhide": 178,
-        "mp4upload": 178,
-        "streamtape": 178,
+        "vidhide": 176,
+        "mp4upload": 176,
+        "streamtape": 176,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -143477,7 +143439,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 3
       },
@@ -145014,22 +144976,17 @@
     {
       "series": "https://jkanime.net/keroro-gunsou-2026/",
       "title": "Keroro Gunsou☆ 2026",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 5,
       "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 5,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mega": 2,
-        "mixdrop": 2,
-        "streamtape": 2
+        "streamwish": 2,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
