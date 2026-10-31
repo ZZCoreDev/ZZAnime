@@ -54,11 +54,19 @@ class LinkHealthTests(unittest.TestCase):
    world(d);Path(d,'dead-reports.json').write_text(json.dumps({'links':[{'episode':'https://jkanime.net/old-show/3/','name':'Mp4upload','family':'mp4upload','url':reported,'devices':2}]}))
    web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
    first=link_health.check(d,now=now,limit=1,fetcher=web,sleep=lambda s:None)
-   self.assertIn(reported,web.urls);self.assertEqual((first['checked'],first['alive'],first['excluded']),(1,1,0))
+   # Its own slot plus the one regular slot; nothing is excluded on a single reading.
+   self.assertIn(reported,web.urls);self.assertEqual((first['checked'],first['excluded']),(2,0))
    entry=json.loads(Path(d,'link-health.json').read_text())['links'][key('Mp4upload',reported)]
    self.assertEqual((entry['state'],entry.get('excluded')),('alive',False))
    # Still reported one hour later: checked again before the 24 h interval of a live link.
    web.urls.clear();link_health.check(d,now=now+3700,limit=1,fetcher=web,sleep=lambda s:None);self.assertIn(reported,web.urls)
+ def test_reported_links_have_their_own_slots(self):
+  reported=['https://www.mp4upload.com/embed-abcdefgh%04d.html'%i for i in range(12)]
+  with tempfile.TemporaryDirectory() as d:
+   world(d);Path(d,'dead-reports.json').write_text(json.dumps({'links':[{'episode':'https://jkanime.net/old-show/%d/'%(i+1),'name':'Mp4upload','family':'mp4upload','url':u,'devices':2} for i,u in enumerate(reported)]}))
+   web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
+   s=link_health.check(d,now=now,limit=1,fetcher=web,sleep=lambda s:None)
+   self.assertEqual(sum(u in web.urls for u in reported),link_health.REPORTED_LIMIT);self.assertEqual(s['checked'],link_health.REPORTED_LIMIT+1)
  def test_deletion_needs_two_checks_thirty_minutes_apart_then_leaves_both_channels(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()

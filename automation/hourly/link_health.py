@@ -24,6 +24,8 @@ LINKS={'mp4upload':r'https://(?:www\.)?mp4upload\.com/embed-([a-z0-9]{8,16})\.ht
  'mega':r'https://(?:www\.)?mega\.nz/(?:(?:file|embed)/([A-Za-z0-9_-]{8})#[A-Za-z0-9_-]{43}|(?:embed)?#!([A-Za-z0-9_-]{8})![A-Za-z0-9_-]{43})'}
 MEGA_API='https://g.api.mega.co.nz/cs'
 REPORTED_RECHECK=3600
+# Device-reported links get their own slots on top of the regular ones, still inside the run's time budget.
+REPORTED_LIMIT=10
 INTERVAL={'alive':24*3600,'unknown':6*3600,'dead':1800,'excluded':48*3600}
 CONFIRM_GAP=1800
 def sha(b):return hashlib.sha256(b).hexdigest()
@@ -88,7 +90,8 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
  def ready(k):
   entry=links.get(k)
   return due(entry,now) or (found[k].get('reported') and now-(entry or {}).get('checkedAt',0)>=REPORTED_RECHECK)
- queue=sorted((k for k in found if ready(k)),key=lambda k:(not found[k].get('reported'),k in links,links.get(k,{}).get('checkedAt',0)))[:limit]
+ ordered=sorted((k for k in found if ready(k)),key=lambda k:(k in links,links.get(k,{}).get('checkedAt',0)))
+ queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+[k for k in ordered if not found[k].get('reported')][:limit]
  families=sorted({found[k]['family'] for k in queue});results={};summary={'checked':0,'alive':0,'dead':0,'unknown':0,'suspended':[]};sent=[0]
  def get(url):
   # One request at a time with a fixed pause; no parallel servers, no retries inside a run.
