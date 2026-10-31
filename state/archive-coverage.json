@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T07:02:12.045342+00:00",
+  "checkedAt": "2026-10-31T07:17:28.496205+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72375,
-  "missingChapters": 1419,
+  "storedChapters": 72378,
+  "missingChapters": 1416,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -18414,7 +18414,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/7/"
+          "https://jkanime.net/digimon-adventure-tri/8/"
         ]
       },
       {
@@ -27479,8 +27479,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/"
         ]
       },
       {
@@ -36136,7 +36136,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/7/"
+          "https://jkanime.net/digimon-adventure-tri/8/"
         ]
       },
       {
@@ -37746,8 +37746,8 @@
         "series": "https://jkanime.net/queens-blade-rebellion/",
         "title": "Queen's Blade: Rebellion",
         "samples": [
-          "https://jkanime.net/queens-blade-rebellion/15/",
-          "https://jkanime.net/queens-blade-rebellion/16/"
+          "https://jkanime.net/queens-blade-rebellion/16/",
+          "https://jkanime.net/queens-blade-rebellion/17/"
         ]
       },
       {
@@ -38208,8 +38208,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/"
         ]
       },
       {
@@ -101401,10 +101401,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 22,
+      "stored": 23,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/7/",
         "https://jkanime.net/digimon-adventure-tri/8/",
         "https://jkanime.net/digimon-adventure-tri/9/"
       ],
@@ -101412,7 +101411,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 22,
+        "mega": 23,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -120984,9 +120983,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 18,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/queens-blade-rebellion/15/",
         "https://jkanime.net/queens-blade-rebellion/16/",
         "https://jkanime.net/queens-blade-rebellion/17/",
         "https://jkanime.net/queens-blade-rebellion/18/"
@@ -120995,7 +120993,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 14
+        "mega": 15
       },
       "playbackVerified": false
     },
@@ -127354,9 +127352,8 @@
         "renewal-error"
       ],
       "observed": 18,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
@@ -127365,7 +127362,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "mega": 2,
         "streamwish": 2,
         "vidhide": 2,
@@ -128377,7 +128374,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 12,
         "mega": 4,
