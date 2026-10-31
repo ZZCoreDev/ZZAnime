@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T02:20:40.842839+00:00",
+  "checkedAt": "2026-10-31T02:34:42.129804+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73775,
-  "storedChapters": 72259,
-  "missingChapters": 1516,
+  "storedChapters": 72269,
+  "missingChapters": 1506,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -557,8 +557,8 @@
         "series": "https://jkanime.net/hikari-no-ou/",
         "title": "Hikari no Ou",
         "samples": [
-          "https://jkanime.net/hikari-no-ou/12/",
-          "https://jkanime.net/hikari-no-ou/13/"
+          "https://jkanime.net/hikari-no-ou/13/",
+          "https://jkanime.net/hikari-no-ou/17/"
         ]
       },
       {
@@ -2323,8 +2323,8 @@
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
-          "https://jkanime.net/digimon-adventure-tri/10/",
-          "https://jkanime.net/digimon-adventure-tri/11/"
+          "https://jkanime.net/digimon-adventure-tri/11/",
+          "https://jkanime.net/digimon-adventure-tri/12/"
         ]
       },
       {
@@ -2640,7 +2640,6 @@
         "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
         "title": "Hoozuki no Reitetsu OVA",
         "samples": [
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/2/",
           "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
         ]
       },
@@ -4130,13 +4129,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hotarubi-no-mori-e/",
-        "title": "Hotarubi no Mori e",
-        "samples": [
-          "https://jkanime.net/hotarubi-no-mori-e/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tantei-opera-milky-holmes-summer-special/",
         "title": "Tantei Opera Milky Holmes: Summer Special",
         "samples": [
@@ -4839,13 +4831,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/howl-no-ugoku-shiro/",
-        "title": "Howl no Ugoku Shiro",
-        "samples": [
-          "https://jkanime.net/howl-no-ugoku-shiro/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mobile-suit-gundam-seed-destiny/",
         "title": "Mobile Suit Gundam Seed Destiny",
         "samples": [
@@ -5087,13 +5072,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/initial-d-third-stage/",
-        "title": "Initial D Third Stage",
-        "samples": [
-          "https://jkanime.net/initial-d-third-stage/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/love-hina-christmas-special-silent-eve/",
         "title": "Love Hina Christmas Special: Silent Eve",
         "samples": [
@@ -5231,8 +5209,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/36/",
-          "https://jkanime.net/taiho-shichau-zo/37/"
+          "https://jkanime.net/taiho-shichau-zo/37/",
+          "https://jkanime.net/taiho-shichau-zo/38/"
         ]
       },
       {
@@ -5881,9 +5859,17 @@
         ]
       },
       {
+        "series": "https://jkanime.net/awajima-hyakkei/",
+        "title": "Awajima Hyakkei",
+        "samples": [
+          "https://jkanime.net/awajima-hyakkei/7/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kami-no-shizuku/",
         "title": "Kami no Shizuku",
         "samples": [
+          "https://jkanime.net/kami-no-shizuku/1/",
           "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
@@ -11769,8 +11755,8 @@
         "series": "https://jkanime.net/hikari-no-ou/",
         "title": "Hikari no Ou",
         "samples": [
-          "https://jkanime.net/hikari-no-ou/12/",
-          "https://jkanime.net/hikari-no-ou/13/"
+          "https://jkanime.net/hikari-no-ou/13/",
+          "https://jkanime.net/hikari-no-ou/17/"
         ]
       },
       {
@@ -24049,8 +24035,8 @@
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
-          "https://jkanime.net/digimon-adventure-tri/10/",
-          "https://jkanime.net/digimon-adventure-tri/11/"
+          "https://jkanime.net/digimon-adventure-tri/11/",
+          "https://jkanime.net/digimon-adventure-tri/12/"
         ]
       },
       {
@@ -25487,7 +25473,6 @@
         "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
         "title": "Hoozuki no Reitetsu OVA",
         "samples": [
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/2/",
           "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
         ]
       },
@@ -31454,13 +31439,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hotarubi-no-mori-e/",
-        "title": "Hotarubi no Mori e",
-        "samples": [
-          "https://jkanime.net/hotarubi-no-mori-e/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tantei-opera-milky-holmes-summer-special/",
         "title": "Tantei Opera Milky Holmes: Summer Special",
         "samples": [
@@ -35914,13 +35892,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/howl-no-ugoku-shiro/",
-        "title": "Howl no Ugoku Shiro",
-        "samples": [
-          "https://jkanime.net/howl-no-ugoku-shiro/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/gakuen-alice/",
         "title": "Gakuen Alice",
         "samples": [
@@ -37730,7 +37701,7 @@
         "series": "https://jkanime.net/initial-d-third-stage/",
         "title": "Initial D Third Stage",
         "samples": [
-          "https://jkanime.net/initial-d-third-stage/1/"
+          "https://jkanime.net/initial-d-third-stage/2/"
         ]
       },
       {
@@ -38519,8 +38490,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/36/",
-          "https://jkanime.net/taiho-shichau-zo/37/"
+          "https://jkanime.net/taiho-shichau-zo/37/",
+          "https://jkanime.net/taiho-shichau-zo/38/"
         ]
       },
       {
@@ -42859,13 +42830,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hotarubi-no-mori-e/",
-        "title": "Hotarubi no Mori e",
-        "samples": [
-          "https://jkanime.net/hotarubi-no-mori-e/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tantei-opera-milky-holmes-summer-special/",
         "title": "Tantei Opera Milky Holmes: Summer Special",
         "samples": [
@@ -43433,13 +43397,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/howl-no-ugoku-shiro/",
-        "title": "Howl no Ugoku Shiro",
-        "samples": [
-          "https://jkanime.net/howl-no-ugoku-shiro/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ichigo-100-koi-ga-hajimaru-satsuei-gasshuku-yureru-kokoro-ga-higashi-e-nishi-e/",
         "title": "Ichigo 100%: Koi ga Hajimaru?! Satsuei Gasshuku - Yureru Kokoro ga Higashi e Nishi e",
         "samples": [
@@ -43633,13 +43590,6 @@
         "title": "Love Hina Spring Special",
         "samples": [
           "https://jkanime.net/love-hina-spring-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/initial-d-third-stage/",
-        "title": "Initial D Third Stage",
-        "samples": [
-          "https://jkanime.net/initial-d-third-stage/1/"
         ]
       },
       {
@@ -44309,18 +44259,17 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/ao-ashi/13/",
         "https://jkanime.net/ao-ashi/19/",
-        "https://jkanime.net/ao-ashi/2/",
-        "https://jkanime.net/ao-ashi/3/"
+        "https://jkanime.net/ao-ashi/2/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "mega": 19,
+        "mega": 20,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -46131,13 +46080,15 @@
     {
       "series": "https://jkanime.net/awajima-hyakkei/",
       "title": "Awajima Hyakkei",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 12,
         "streamwish": 12
@@ -46155,7 +46106,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 24,
         "streamwish": 23,
@@ -66580,9 +66531,8 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/hikari-no-ou/12/",
         "https://jkanime.net/hikari-no-ou/13/",
         "https://jkanime.net/hikari-no-ou/17/",
         "https://jkanime.net/hikari-no-ou/18/",
@@ -66590,9 +66540,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
-        "mega": 14,
+        "mega": 15,
         "streamwish": 9,
         "vidhide": 9,
         "mp4upload": 10,
@@ -68225,8 +68175,8 @@
       "renewalFailed": 27,
       "families": {
         "mega": 13,
-        "streamwish": 24,
-        "vidhide": 30,
+        "streamwish": 23,
+        "vidhide": 29,
         "streamtape": 13,
         "mp4upload": 23,
         "mixdrop": 4
@@ -102112,9 +102062,8 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 4,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/digimon-adventure-tri/10/",
         "https://jkanime.net/digimon-adventure-tri/11/",
         "https://jkanime.net/digimon-adventure-tri/12/",
         "https://jkanime.net/digimon-adventure-tri/13/",
@@ -102141,7 +102090,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mega": 4,
+        "mega": 5,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -106443,16 +106392,15 @@
         "renewal-error"
       ],
       "observed": 3,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/hoozuki-no-reitetsu-ova/2/",
         "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -123469,20 +123417,16 @@
     {
       "series": "https://jkanime.net/hotarubi-no-mori-e/",
       "title": "Hotarubi no Mori e",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/hotarubi-no-mori-e/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -128725,18 +128669,17 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 21,
+      "stored": 22,
       "missing": [
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
-        "https://jkanime.net/07-ghost/3/",
-        "https://jkanime.net/07-ghost/5/"
+        "https://jkanime.net/07-ghost/3/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 21
+        "mega": 22
       },
       "playbackVerified": false
     },
@@ -129090,17 +129033,16 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/asura-cryin/12/",
-        "https://jkanime.net/asura-cryin/13/",
-        "https://jkanime.net/asura-cryin/6/"
+        "https://jkanime.net/asura-cryin/13/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -136000,20 +135942,16 @@
     {
       "series": "https://jkanime.net/howl-no-ugoku-shiro/",
       "title": "Howl no Ugoku Shiro",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/howl-no-ugoku-shiro/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -141028,20 +140966,16 @@
       "series": "https://jkanime.net/initial-d-third-stage/",
       "title": "Initial D Third Stage",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 2,
-      "stored": 1,
-      "missing": [
-        "https://jkanime.net/initial-d-third-stage/1/"
-      ],
+      "stored": 2,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 1,
+        "mega": 2,
         "streamwish": 1,
         "vidhide": 1,
         "mp4upload": 1,
@@ -143416,9 +143350,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 30,
+      "stored": 31,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/36/",
         "https://jkanime.net/taiho-shichau-zo/37/",
         "https://jkanime.net/taiho-shichau-zo/38/",
         "https://jkanime.net/taiho-shichau-zo/39/",
@@ -143448,7 +143381,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 29,
+        "mp4upload": 30,
         "streamtape": 3
       },
       "playbackVerified": false
