@@ -1682,7 +1682,8 @@
         "slug": "jojos-bizarre-adventure-the-animation",
         "title": "JoJo's Bizarre Adventure The Animation"
       }
-    }
+    },
+    "collector": "e235f348"
   },
   "https://jkanime.net/majin-tantei-nougami-neuro/": {
     "title": "Majin Tantei Nougami Neuro",
@@ -1694,7 +1695,8 @@
         "slug": "majin-tantei-nogami-neuro",
         "title": "Majin Tantei Nōgami Neuro"
       }
-    }
+    },
+    "collector": "e235f348"
   },
   "https://jkanime.net/bonjour-koiaji-ptisserie/": {
     "title": "Bonjour♪ Koiaji Pâtisserie",
@@ -1706,7 +1708,8 @@
         "slug": "bonjour-koiaji-patisserie",
         "title": "Bonjour♪ Koiaji Pâtisserie"
       }
-    }
+    },
+    "collector": "e235f348"
   },
   "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/": {
     "title": "JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc",
@@ -1718,7 +1721,8 @@
         "slug": "jojos-bizarre-adventure-stardust-crusaders-2",
         "title": "Jojo's Bizarre Adventure: Stardust Crusaders 2nd Season"
       }
-    }
+    },
+    "collector": "e235f348"
   },
   "https://jkanime.net/jojos-bizarre-adventures/": {
     "title": "JoJo's Bizarre Adventure",
@@ -1734,7 +1738,8 @@
         "slug": "jojos-bizarre-adventure",
         "title": "JoJo's Bizarre Adventure"
       }
-    }
+    },
+    "collector": "e235f348"
   },
   "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/": {
     "title": "Shomin Sample",
@@ -1746,6 +1751,7 @@
         "slug": "ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-gets-sareta",
         "title": "Ore ga Ojousama Gakkou ni \"Shomin Sample\" Toshite Gets♥Sareta Ken"
       }
-    }
+    },
+    "collector": "e235f348"
   }
 }
