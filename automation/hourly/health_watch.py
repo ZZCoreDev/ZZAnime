@@ -83,6 +83,7 @@ def check(folder,now,memory):
         left=stamp(date+'T00:00:00+00:00')-now
         alarm('secreto-'+name,left<=SECRET_NOTICE,f'El secreto {name} caduca el {date}',
             f'Quedan {max(0,int(left//DAY))} días. Renuévalo y actualiza la fecha en automation/hourly/health_watch.py (SECRETS).')
+    # Written by the daily playback probe (branch playback-probe, copied here by health-watch.yml).
     probe=read(folder,'playback-probe.json',{}) or {}
     for family,row in sorted((probe.get('families') or {}).items()):
         alarm('reproduccion-'+family,row.get('failingDays',0)>=2,f'La reproducción de {family} falla 2 días seguidos',

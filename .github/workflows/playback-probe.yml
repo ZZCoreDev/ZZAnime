@@ -1,0 +1,56 @@
+name: Probador de reproducción (diario)
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  push:
+    branches: [main]
+    paths: ['automation/playback-probe/**', '.github/workflows/playback-probe.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: zzanime-playback-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    if: github.repository == 'ZZCoreDev/ZZAnime'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: code
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: provider-data
+          path: data
+          persist-credentials: false
+          sparse-checkout: state/published-assets
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Resultado anterior (rama playback-probe)
+        working-directory: code
+        run: |
+          mkdir -p "$RUNNER_TEMP/probe"
+          if git fetch -q --depth 1 origin playback-probe; then git show FETCH_HEAD:playback-probe.json > "$RUNNER_TEMP/probe/previous.json" || true; fi
+      - name: Chromium headless y pruebas locales
+        working-directory: code/automation/playback-probe
+        run: |
+          npm ci --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          node test_probe.mjs
+      - name: Abrir 12 embeds como la app (pausas de 20 s, sin reintentos)
+        working-directory: code/automation/playback-probe
+        run: node probe.mjs "$GITHUB_WORKSPACE/data/state/published-assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
+      - name: Guardar el resultado (un único commit, se reemplaza)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f "$RUNNER_TEMP/probe/playback-probe.json" ] || exit 0
+          mkdir -p "$RUNNER_TEMP/out" && cp "$RUNNER_TEMP/probe/playback-probe.json" "$RUNNER_TEMP/out/" && cd "$RUNNER_TEMP/out"
+          git init -q && git checkout -q -b playback-probe
+          git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
+          git add playback-probe.json && git commit -q -m 'Resultado del probador de reproducción'
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:playback-probe
