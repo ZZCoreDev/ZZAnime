@@ -51,6 +51,7 @@ jobs:
           python3 test_schedule.py
           python3 test_plays.py
           python3 test_skip_marks.py
+          python3 test_mega_check.py
           node --no-warnings ../help-worker/test_help_worker.mjs
       - name: Prueba aislada con lector real de la app
         if: inputs.proof == true

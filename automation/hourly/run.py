@@ -39,7 +39,7 @@ def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
  command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java'),*([str(W/'VoeOverlayAudit.java')] if modern else [])])
  return str(runtime)+os.pathsep+cp
-def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None):
+def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,mega_alive=None):
  rows={}
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/'
@@ -49,12 +49,14 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None):
   # link checker confirms dead are excluded. Renewal keeps refreshing them, oldest first.
   if not listing or url not in listing['episodes'] or not ep.get('complete') or age<0:continue
   options=[];seen=set()
-  for provider in ep['providers']:
+  review=[dict(p,review=True) for p in ep.get('reviewProviders',[]) if p.get('family')=='mega']
+  for provider in ep['providers']+review:
    if provider.get('family')=='voe' and not allow_voe:continue
    if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega',*(['voe'] if allow_voe else [])]:continue
-   if ep.get('sourceSeries','').startswith('https://tioanime.com/') and provider.get('family')=='mega':continue
    for link in provider.get('links',[]):
     k=sha((provider['name']+'\0'+link).encode())
+    # MEGA from TioAnime or from AnimeFLV's review list counts only once MEGA's API read it alive.
+    if provider.get('family')=='mega' and (provider.get('review') or ep.get('sourceSeries','').startswith('https://tioanime.com/')) and k not in (mega_alive or ()):continue
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
   downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url','')) and sha((x['name']+'\0'+x['url']).encode()) not in (dead or ())][:8]
@@ -156,7 +158,7 @@ def main():
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
   for ep in state['episodes'].values():
-   for p in ep.get('providers',[]):
+   for p in ep.get('providers',[])+[q for q in ep.get('reviewProviders',[]) if q.get('family')=='mega']:
     for url in p.get('links',[]):queries[sha((p['name']+'\0'+url).encode())]={'name':p['name'],'url':url}
   output=command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
   approved={r['key']:r['approved'] for r in map(json.loads,output.splitlines())}
@@ -166,7 +168,11 @@ def main():
   import plays as play_votes
   import skip_marks
   from link_health import excluded_keys
-  index,files=build(state,approved,now,plays=play_votes.load(D),marks=skip_marks.load(D),dead=excluded_keys(D))
+  import mega_check
+  if '--publish' in sys.argv and not proof:
+   try:print(json.dumps({'megaCheck':mega_check.check(D,state)}))
+   except Exception as error:print(json.dumps({'megaCheckError':type(error).__name__+': '+str(error)[:120]}))
+  index,files=build(state,approved,now,plays=play_votes.load(D),marks=skip_marks.load(D),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')

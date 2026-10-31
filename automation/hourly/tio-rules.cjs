@@ -11,9 +11,9 @@ function record(detail,episode,row,number,policy,proof=false){
  const providers=[],held=[];
  for(const video of array(episode,'videos')){
   if(!Array.isArray(video)||typeof video[0]!=='string'||typeof video[1]!=='string')continue;
-  const family=r.family(video[0]);if(!family){held.push('unapproved-family');continue;}
+  const name=r.canonical(video[0]),family=r.family(name);if(!family){held.push('unapproved-family');continue;}
   const link=r.embed(video[1],policy[family]||[]);if(!link){held.push('unapproved-origin');continue;}
-  providers.push({name:video[0],family,links:[link],playbackVerified:false});
+  providers.push({name,family,links:[link],playbackVerified:false});
  }
  if(!providers.length)throw Error('No existing app-approved provider family');
  const observedAt=new Date().toISOString(),sourceSeries='https://tioanime.com/anime/'+slug,sourceEpisode='https://tioanime.com/ver/'+slug+'-'+number;

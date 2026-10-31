@@ -111,7 +111,7 @@ class LinkHealthTests(unittest.TestCase):
   def command(args,**kw):
    if args[0]=='javac':return ''
    return '\n'.join(json.dumps({'key':run.sha((q['name']+'\0'+q['url']).encode()),'approved':True}) for q in map(json.loads,kw['input'].splitlines()))
-  def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None):seen['voe' if allow_voe else 'root']=dict(approved);raise StopIteration
+  def build(state,approved,now,allow_voe=False,**extra):seen['voe' if allow_voe else 'root']=dict(approved);raise StopIteration
   with patch.object(run,'D',Path(folder)),patch.object(run,'command',side_effect=command),patch.object(run,'build',side_effect=build),patch('sys.argv',['run.py']):
    with self.assertRaises(StopIteration):run.main()
    with self.assertRaises(StopIteration):voe_channel.render(folder,datetime.datetime.now(datetime.timezone.utc),None,folder)

@@ -13,7 +13,7 @@ function record(detail,episode,options,row,number,policy,proof=false,allowVoe=fa
  if(r.series(row.url)!==row.url||!title||p.normal(title)!==p.normal(identity.title)||![number,token].some(n=>p.normal(t.heading(episode))===p.normal(identity.title+' episodio '+n))||!detail.includes('data-sl="'+slug+'"')||selected.length!==1||selected[0][2]!==''||numbers.some(n=>!Number.isInteger(n)||n<1||n>100000)||new Set(numbers).size!==numbers.length)throw Error('Ambiguous AnimeFLV chapter identity');
  const providers=[],reviewProviders=[],seen=new Set();let excluded=0;
  for(const m of options.matchAll(/<li\b[^>]*\bencrypt=["']([a-fA-F0-9]{2,8000})["'][^>]*>([\s\S]*?)<\/li>/g)){
-  if(m[1].length%2){excluded++;continue;}const link=Buffer.from(m[1],'hex').toString('utf8'),name=/<span[^>]*>([^<]+)<\/span>/i.exec(m[2])?.[1]?.trim(),family=r.family(name);
+  if(m[1].length%2){excluded++;continue;}const link=Buffer.from(m[1],'hex').toString('utf8'),name=r.canonical(/<span[^>]*>([^<]+)<\/span>/i.exec(m[2])?.[1]?.trim()),family=r.family(name);
   if(!family||r.embed(link,policy[family]||[])!==link){excluded++;continue;}if(seen.has(link))continue;seen.add(link);const provider={name,family,links:[link],playbackVerified:false};if(!['mp4upload','streamwish','vidhide',...(allowVoe?['voe']:[])].includes(family)){reviewProviders.push(provider);excluded++;continue;}providers.push(provider);
  }
  const rank=['mp4upload','streamwish','mixdrop','vidhide','streamtape','mega'];providers.sort((a,b)=>rank.indexOf(a.family)-rank.indexOf(b.family));if(!providers.length)throw Error('No existing approved provider');
