@@ -10,4 +10,5 @@ const known=new Map([[row.url,row]]);assert.equal(identity.canonicalSlug('mao-20
 known.set('https://jkanime.net/mao-2026/',{...row,title:'Another series'});assert.equal(identity.canonicalSlug('mao-2026',known,true),'mao-2026');
 const gx={url:'https://jkanime.net/yugioh-duel-monsters-gx/',title:'Yu Gi Oh!: Duel Monsters GX',year:2004};assert.equal(identity.resolve(gx,'tio').slug,'yu-gi-oh-gx');assert.throws(()=>identity.resolve(gx,'flv'));assert.throws(()=>identity.resolve({...gx,year:2005},'tio'));
 const pot={url:'https://jkanime.net/prince-of-tennis/',title:'Prince of Tennis',year:2001};assert.equal(identity.resolve(pot,'tio').slug,'the-prince-of-tennis');assert.equal(identity.resolve(pot,'flv').title,'The Prince of Tennis');
+const ker={url:'https://jkanime.net/keroro-gunsou-2026/',title:'Keroro Gunsou☆ 2026',year:2026};assert.equal(identity.resolve(ker,'tio').slug,'keroro-gunsou');assert.equal(identity.resolve(ker,'flv').title,'Keroro Gunsou☆');assert.equal(entries[ker.url].collector,undefined);
 console.log('10 exact identity/year/collision controls PASS; season and episode rules preserved.');

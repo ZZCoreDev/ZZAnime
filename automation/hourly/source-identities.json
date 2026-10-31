@@ -58,5 +58,21 @@
       }
     },
     "collector": "291ed2a1-bbef-4a9a-9f2d-a4bf790d9a17"
+  },
+  "https://jkanime.net/keroro-gunsou-2026/": {
+    "title": "Keroro Gunsou☆ 2026",
+    "year": 2026,
+    "approved": true,
+    "episodes": 4,
+    "sources": {
+      "tio": {
+        "slug": "keroro-gunsou",
+        "title": "Keroro Gunsou☆"
+      },
+      "flv": {
+        "slug": "keroro-gunsou",
+        "title": "Keroro Gunsou☆"
+      }
+    }
   }
 }
