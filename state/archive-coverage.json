@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T07:17:28.496205+00:00",
+  "checkedAt": "2026-10-31T07:31:24.408069+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72378,
-  "missingChapters": 1416,
+  "storedChapters": 72381,
+  "missingChapters": 1413,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -409,6 +409,7 @@
         "series": "https://jkanime.net/koori-no-jouheki/",
         "title": "Koori no Jouheki",
         "samples": [
+          "https://jkanime.net/koori-no-jouheki/15/",
           "https://jkanime.net/koori-no-jouheki/19/"
         ]
       },
@@ -1291,6 +1292,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
+        "title": "Jigoku Sensei Nube (2025)",
+        "samples": [
+          "https://jkanime.net/jigoku-sensei-nube-2025/16/",
+          "https://jkanime.net/jigoku-sensei-nube-2025/17/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hitozuma-no-kuchibiru-wa-kan-chuuhai-no-aji-ga-shite/",
         "title": "Hitozuma no Kuchibiru wa Kan Chuuhai no Aji ga Shite",
         "samples": [
@@ -1587,6 +1596,7 @@
         "series": "https://jkanime.net/enen-no-shouboutai-san-no-shou/",
         "title": "Enen no Shouboutai: San no Shou",
         "samples": [
+          "https://jkanime.net/enen-no-shouboutai-san-no-shou/21/",
           "https://jkanime.net/enen-no-shouboutai-san-no-shou/3/"
         ]
       },
@@ -2712,7 +2722,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/12/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/12/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/3/"
         ]
       },
       {
@@ -7801,6 +7812,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/komi-san-wa-comyushou-desu-2nd-season/",
+        "title": "Komi-san wa, Comyushou desu. 2nd Season",
+        "samples": [
+          "https://jkanime.net/komi-san-wa-comyushou-desu-2nd-season/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mahoutsukai-reimeiki/",
         "title": "Mahoutsukai Reimeiki",
         "samples": [
@@ -8179,7 +8197,7 @@
         "title": "Gensou Sangokushi: Tengen Reishinki",
         "samples": [
           "https://jkanime.net/gensou-sangokushi-tengen-reishinki/1/",
-          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/2/"
+          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/10/"
         ]
       },
       {
@@ -8204,6 +8222,13 @@
         "samples": [
           "https://jkanime.net/tribe-nine/1/",
           "https://jkanime.net/tribe-nine/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki-2nd-season/",
+        "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki 2nd Season",
+        "samples": [
+          "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki-2nd-season/13/"
         ]
       },
       {
@@ -8251,7 +8276,7 @@
         "title": "Sabiiro no Armor: Reimei",
         "samples": [
           "https://jkanime.net/sabiiro-no-armor-reimei/1/",
-          "https://jkanime.net/sabiiro-no-armor-reimei/12/"
+          "https://jkanime.net/sabiiro-no-armor-reimei/11/"
         ]
       },
       {
@@ -8283,7 +8308,7 @@
         "title": "Cue!",
         "samples": [
           "https://jkanime.net/cue/1/",
-          "https://jkanime.net/cue/15/"
+          "https://jkanime.net/cue/10/"
         ]
       },
       {
@@ -14712,6 +14737,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/",
+        "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season",
+        "samples": [
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/11/",
+          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/12/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/karakai-jouzu-no-takagi-san/",
         "title": "Karakai Jouzu no Takagi-san",
         "samples": [
@@ -15018,6 +15051,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/classicaloid-2nd-season/",
+        "title": "ClassicaLoid 2nd Season",
+        "samples": [
+          "https://jkanime.net/classicaloid-2nd-season/20/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/coderealize-sousei-no-himegimi/",
         "title": "Code:Realize: Sousei no Himegimi",
         "samples": [
@@ -15167,6 +15207,13 @@
         "samples": [
           "https://jkanime.net/black-clover-tv/100/",
           "https://jkanime.net/black-clover-tv/101/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cinderella-girls-gekijou-2nd-season/",
+        "title": "Cinderella Girls Gekijou 2nd Season",
+        "samples": [
+          "https://jkanime.net/cinderella-girls-gekijou-2nd-season/9/"
         ]
       },
       {
@@ -15635,13 +15682,6 @@
         "samples": [
           "https://jkanime.net/yugioh-vrains/1/",
           "https://jkanime.net/yugioh-vrains/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/blame-movie/",
-        "title": "Blame! Movie",
-        "samples": [
-          "https://jkanime.net/blame-movie/1/"
         ]
       },
       {
@@ -18414,7 +18454,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/8/"
+          "https://jkanime.net/digimon-adventure-tri/9/"
         ]
       },
       {
@@ -27479,8 +27519,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
         ]
       },
       {
@@ -29022,6 +29062,13 @@
         "title": "Shakugan no Shana Movie",
         "samples": [
           "https://jkanime.net/shakugan-no-shana-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/",
+        "title": "Kino no Tabi: The Beautiful World - Byouki no Kuni - For You",
+        "samples": [
+          "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/1/"
         ]
       },
       {
@@ -33634,6 +33681,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dragon-ball-super-beerus/",
+        "title": "Dragon Ball Super: Beerus",
+        "samples": [
+          "https://jkanime.net/dragon-ball-super-beerus/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -33668,6 +33722,20 @@
         "title": "Tetsuryou! Meet with Tetsudou Musume",
         "samples": [
           "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/juuou-mujin-dandivine/",
+        "title": "Juuou Mujin Dandivine",
+        "samples": [
+          "https://jkanime.net/juuou-mujin-dandivine/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-wa-mou-shindeiru-season-2/",
+        "title": "Tantei wa Mou, Shindeiru. Season 2",
+        "samples": [
+          "https://jkanime.net/tantei-wa-mou-shindeiru-season-2/4/"
         ]
       },
       {
@@ -33762,6 +33830,13 @@
         "samples": [
           "https://jkanime.net/aoki-denshou-welsh-shedar/1/",
           "https://jkanime.net/aoki-denshou-welsh-shedar/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu-2nd-season/",
+        "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
+        "samples": [
+          "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu-2nd-season/4/"
         ]
       },
       {
@@ -36136,7 +36211,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/8/"
+          "https://jkanime.net/digimon-adventure-tri/9/"
         ]
       },
       {
@@ -37746,8 +37821,8 @@
         "series": "https://jkanime.net/queens-blade-rebellion/",
         "title": "Queen's Blade: Rebellion",
         "samples": [
-          "https://jkanime.net/queens-blade-rebellion/16/",
-          "https://jkanime.net/queens-blade-rebellion/17/"
+          "https://jkanime.net/queens-blade-rebellion/17/",
+          "https://jkanime.net/queens-blade-rebellion/18/"
         ]
       },
       {
@@ -38208,8 +38283,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
         ]
       },
       {
@@ -46430,7 +46505,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 18,
         "streamwish": 17,
@@ -51047,13 +51122,15 @@
     {
       "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
       "title": "Jigoku Sensei Nube (2025)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 25,
         "streamwish": 22,
@@ -52204,7 +52281,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "vidhide": 13,
         "mp4upload": 24,
@@ -55776,7 +55853,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 12,
         "streamwish": 10,
@@ -69449,7 +69526,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -70498,13 +70575,15 @@
     {
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu-2nd-season/",
       "title": "Komi-san wa, Comyushou desu. 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 12,
         "streamwish": 3,
@@ -71626,7 +71705,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 11,
       "families": {
         "mega": 8,
         "streamwish": 12,
@@ -71702,13 +71781,15 @@
     {
       "series": "https://jkanime.net/genjitsu-shugi-yuusha-no-oukoku-saikenki-2nd-season/",
       "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 13,
         "streamwish": 6
@@ -71789,7 +71870,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -71831,7 +71912,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 9,
       "families": {
         "mega": 2,
         "streamwish": 12,
@@ -71930,7 +72011,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 19,
       "families": {
         "mega": 10,
         "streamwish": 23,
@@ -90386,13 +90467,15 @@
     {
       "series": "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season/",
       "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
@@ -91249,13 +91332,15 @@
     {
       "series": "https://jkanime.net/classicaloid-2nd-season/",
       "title": "ClassicaLoid 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 22,
         "streamwish": 25,
@@ -91778,13 +91863,15 @@
     {
       "series": "https://jkanime.net/cinderella-girls-gekijou-2nd-season/",
       "title": "Cinderella Girls Gekijou 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 3,
         "streamwish": 13,
@@ -93209,15 +93296,13 @@
     {
       "series": "https://jkanime.net/blame-movie/",
       "title": "Blame! Movie",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 1
       },
@@ -93801,7 +93886,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 6,
         "mega": 3
@@ -101401,17 +101486,16 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 23,
+      "stored": 24,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/8/",
         "https://jkanime.net/digimon-adventure-tri/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 23,
+        "mega": 24,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -120983,9 +121067,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 18,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/queens-blade-rebellion/16/",
         "https://jkanime.net/queens-blade-rebellion/17/",
         "https://jkanime.net/queens-blade-rebellion/18/"
       ],
@@ -120993,7 +121076,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 15
+        "mega": 16
       },
       "playbackVerified": false
     },
@@ -125080,7 +125163,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 81,
+      "renewalFailed": 82,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -127352,9 +127435,8 @@
         "renewal-error"
       ],
       "observed": 18,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/17/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
       ],
@@ -127362,7 +127444,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mp4upload": 15,
+        "mp4upload": 16,
         "mega": 2,
         "streamwish": 2,
         "vidhide": 2,
@@ -131629,13 +131711,15 @@
     {
       "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/",
       "title": "Kino no Tabi: The Beautiful World - Byouki no Kuni - For You",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 2,
         "streamwish": 2,
@@ -144747,13 +144831,15 @@
     {
       "series": "https://jkanime.net/dragon-ball-super-beerus/",
       "title": "Dragon Ball Super: Beerus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 3,
         "streamwish": 2
@@ -144947,13 +145033,15 @@
     {
       "series": "https://jkanime.net/juuou-mujin-dandivine/",
       "title": "Juuou Mujin Dandivine",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 4,
         "streamwish": 3,
@@ -144964,13 +145052,15 @@
     {
       "series": "https://jkanime.net/tantei-wa-mou-shindeiru-season-2/",
       "title": "Tantei wa Mou, Shindeiru. Season 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 4,
         "streamwish": 3,
@@ -145674,13 +145764,15 @@
     {
       "series": "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu-2nd-season/",
       "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 4,
         "streamwish": 3,
