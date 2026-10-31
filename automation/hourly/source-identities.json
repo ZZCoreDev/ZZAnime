@@ -1650,5 +1650,21 @@
       }
     },
     "collector": "17619225-4ca3-4e55-b83a-3b2be9367fc0"
+  },
+  "https://jkanime.net/blade-and-soul/": {
+    "title": "Blade and Soul",
+    "year": 2014,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "blade-soul",
+        "title": "Blade & Soul"
+      },
+      "flv": {
+        "slug": "blade-soul",
+        "title": "Blade & Soul"
+      }
+    }
   }
 }
