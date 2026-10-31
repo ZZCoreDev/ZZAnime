@@ -7,7 +7,8 @@ def fair_retries(rows,failures):
     groups=defaultdict(deque)
     for row in rows:groups[row[1].rsplit('/',2)[0]+'/'].append(row)
     # First inspect a different series, rather than 100 chapters of one broken address.
-    ordered=sorted(groups,key=lambda parent:(any(failures.get(r[1],{}).get('diagnostic') for r in groups[parent]),groups[parent][0]))
+    # Series just released by a verified identity alias go first; the mark is gone after their next attempt.
+    ordered=sorted(groups,key=lambda parent:(not any(failures.get(r[1],{}).get('identityReleased') for r in groups[parent]),any(failures.get(r[1],{}).get('diagnostic') for r in groups[parent]),groups[parent][0]))
     result=[]
     while ordered:
         for parent in ordered:result.append(groups[parent].popleft())

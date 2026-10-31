@@ -17,6 +17,13 @@ class RenewalTests(unittest.TestCase):
     def test_retry_inspects_two_series_before_repeating_a_series(self):
         rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/a/2/'),(3,'https://jkanime.net/b/1/')]
         self.assertEqual([url for _,url in fair_retries(rows,{})][:2],[rows[0][1],rows[2][1]])
+    def test_identity_released_series_go_first_until_retried(self):
+        rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/b/1/'),(3,'https://jkanime.net/gx/1/'),(4,'https://jkanime.net/gx/2/')]
+        released={'diagnostic':{'flv':{'cause':'address-not-found'}},'identityReleased':True}
+        order=[u for _,u in fair_retries(rows,{rows[2][1]:released,rows[3][1]:dict(released)})]
+        self.assertEqual(order[0],rows[2][1]);self.assertEqual(order[1],rows[0][1])
+        failures={rows[2][1]:dict(released)};record_failure(failures,rows[2][1],'Source HTTP 404',10,'',released['diagnostic'])
+        self.assertNotIn('identityReleased',failures[rows[2][1]])
     def test_retry_prioritizes_unexplained_series(self):
         rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/b/1/')]
         self.assertEqual(fair_retries(rows,{rows[0][1]:{'diagnostic':{'flv':{'cause':'address-not-found'}}}})[0],rows[1])
@@ -48,7 +55,7 @@ class RenewalTests(unittest.TestCase):
         with patch.object(Path,'read_bytes',read):
             self.assertEqual(repair_verified_identities(state,failed,now.timestamp()),0);self.assertNotIn('identityRepairs',state)
             identity[gx]['collector']='deployed';self.assertEqual(repair_verified_identities(state,failed,now.timestamp()),1)
-        self.assertEqual(failed[gx+'1/']['retryAt'],now.timestamp());self.assertNotIn('permanentAttempts',failed[gx+'1/'])
+        self.assertEqual(failed[gx+'1/']['retryAt'],now.timestamp());self.assertNotIn('permanentAttempts',failed[gx+'1/']);self.assertTrue(failed[gx+'1/']['identityReleased'])
     def test_real_identity_entries_match_the_catalogue(self):
         here=Path(__file__).parent;rows={r['url']:r for r in json.loads((here/'catalogue.json').read_bytes())}
         for parent,entry in json.loads((here/'source-identities.json').read_bytes()).items():

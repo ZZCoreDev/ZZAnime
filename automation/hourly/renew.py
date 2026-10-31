@@ -12,6 +12,9 @@ MAX_EPISODES=400
 PROOF=['https://jkanime.net/psyren/4/','https://jkanime.net/dark-summoner-to-dekiteiru/4/']
 INCIDENT_PROOF=['https://jkanime.net/mao/1/','https://jkanime.net/psyren/4/']
 
+# Bump to release every approved identity again under new release rules (2: released retries go first).
+RELEASE_RULES='|2'
+
 def repair_verified_identities(state,failures,now):
     path=Path(__file__).with_name('source-identities.json');catalog=Path(__file__).with_name('catalogue.json')
     if not path.exists() or not catalog.exists():return 0
@@ -22,12 +25,12 @@ def repair_verified_identities(state,failures,now):
         # The aliases ship inside the collector: release retries only once an entry names the collector
         # version that carries it (Mao predates this and was already released), never before the deploy.
         if 'collector' not in entry and parent not in state.get('identityRepairs',{}):continue
-        revision=hashlib.sha256(json.dumps(entry,sort_keys=True).encode()).hexdigest();done=state.setdefault('identityRepairs',{})
+        revision=hashlib.sha256((json.dumps(entry,sort_keys=True)+RELEASE_RULES).encode()).hexdigest();done=state.setdefault('identityRepairs',{})
         if done.get(parent)==revision:continue
         for url,failure in failures.items():
             ep=state['episodes'].get(url)
             if url.rsplit('/',2)[0]+'/'==parent and ep and now-stamp(ep['observedAt'])>=LEAD_AGE:
-                failure['previousRetryAt']=failure.get('retryAt',0);failure['retryAt']=now;failure.pop('permanentAttempts',None);repaired+=1
+                failure['previousRetryAt']=failure.get('retryAt',0);failure['retryAt']=now;failure['identityReleased']=True;failure.pop('permanentAttempts',None);repaired+=1
         done[parent]=revision
     return repaired
 
