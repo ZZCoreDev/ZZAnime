@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T04:10:08.837843+00:00",
+  "checkedAt": "2026-10-31T04:23:08.625619+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72332,
-  "missingChapters": 1444,
+  "storedChapters": 72337,
+  "missingChapters": 1439,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -24,8 +24,8 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/10/",
-          "https://jkanime.net/megalo-box/11/"
+          "https://jkanime.net/megalo-box/11/",
+          "https://jkanime.net/megalo-box/12/"
         ]
       },
       {
@@ -644,7 +644,6 @@
         "series": "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/",
         "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
         "samples": [
-          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/8/",
           "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/9/"
         ]
       },
@@ -683,7 +682,6 @@
         "series": "https://jkanime.net/mato-seihei-no-slave-2/",
         "title": "Mato Seihei no Slave 2",
         "samples": [
-          "https://jkanime.net/mato-seihei-no-slave-2/8/",
           "https://jkanime.net/mato-seihei-no-slave-2/9/"
         ]
       },
@@ -751,18 +749,10 @@
         ]
       },
       {
-        "series": "https://jkanime.net/majutsushi-kunon-wa-mieteiru/",
-        "title": "Majutsushi Kunon wa Mieteiru",
-        "samples": [
-          "https://jkanime.net/majutsushi-kunon-wa-mieteiru/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/",
         "title": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
         "samples": [
-          "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/11/",
-          "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/5/"
+          "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/11/"
         ]
       },
       {
@@ -1200,6 +1190,13 @@
         "samples": [
           "https://jkanime.net/yuusha-party-wo-tsuihou-sareta-shiromadoushi-s-rank-boukensha-ni-hirowareru-kono-shiromadoushi-ga-kikakugai-sugiru/1/",
           "https://jkanime.net/yuusha-party-wo-tsuihou-sareta-shiromadoushi-s-rank-boukensha-ni-hirowareru-kono-shiromadoushi-ga-kikakugai-sugiru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futari-solo-camp/",
+        "title": "Futari Solo Camp",
+        "samples": [
+          "https://jkanime.net/futari-solo-camp/14/"
         ]
       },
       {
@@ -8719,7 +8716,7 @@
         "title": "Kyoukai Senki",
         "samples": [
           "https://jkanime.net/kyoukai-senki/17/",
-          "https://jkanime.net/kyoukai-senki/18/"
+          "https://jkanime.net/kyoukai-senki/19/"
         ]
       },
       {
@@ -16718,13 +16715,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
-        "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
-        "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/to-be-hero/",
         "title": "To Be Hero",
         "samples": [
@@ -18449,7 +18439,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/18/"
+          "https://jkanime.net/digimon-adventure-tri/19/"
         ]
       },
       {
@@ -32825,8 +32815,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/44/",
-          "https://jkanime.net/taiho-shichau-zo/45/"
+          "https://jkanime.net/taiho-shichau-zo/45/",
+          "https://jkanime.net/taiho-shichau-zo/46/"
         ]
       },
       {
@@ -33899,8 +33889,8 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/10/",
-          "https://jkanime.net/megalo-box/11/"
+          "https://jkanime.net/megalo-box/11/",
+          "https://jkanime.net/megalo-box/12/"
         ]
       },
       {
@@ -34695,7 +34685,7 @@
         "title": "Kyoukai Senki",
         "samples": [
           "https://jkanime.net/kyoukai-senki/17/",
-          "https://jkanime.net/kyoukai-senki/18/"
+          "https://jkanime.net/kyoukai-senki/19/"
         ]
       },
       {
@@ -35724,13 +35714,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
-        "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
-        "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/musaigen-no-phantom-world-special/",
         "title": "Musaigen no Phantom World Special",
         "samples": [
@@ -36062,7 +36045,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/18/"
+          "https://jkanime.net/digimon-adventure-tri/19/"
         ]
       },
       {
@@ -38861,8 +38844,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/44/",
-          "https://jkanime.net/taiho-shichau-zo/45/"
+          "https://jkanime.net/taiho-shichau-zo/45/",
+          "https://jkanime.net/taiho-shichau-zo/46/"
         ]
       },
       {
@@ -43763,17 +43746,16 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/megalo-box/10/",
         "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -47264,7 +47246,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47337,7 +47319,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47400,7 +47382,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 8,
         "streamwish": 9,
@@ -47498,7 +47480,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47517,7 +47499,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47993,15 +47975,13 @@
     {
       "series": "https://jkanime.net/majutsushi-kunon-wa-mieteiru/",
       "title": "Majutsushi Kunon wa Mieteiru",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 10,
         "streamwish": 12,
@@ -48020,7 +48000,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 12,
         "streamwish": 11,
@@ -50100,13 +50080,15 @@
     {
       "series": "https://jkanime.net/futari-solo-camp/",
       "title": "Futari Solo Camp",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 24,
         "vidhide": 3,
@@ -73183,17 +73165,16 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 22,
+      "stored": 23,
       "missing": [
         "https://jkanime.net/kyoukai-senki/17/",
-        "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
-        "mega": 20,
+        "mega": 21,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -96367,21 +96348,16 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
       "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 8,
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -101472,10 +101448,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 11,
+      "stored": 12,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/18/",
         "https://jkanime.net/digimon-adventure-tri/19/",
         "https://jkanime.net/digimon-adventure-tri/20/",
         "https://jkanime.net/digimon-adventure-tri/21/",
@@ -101494,7 +101469,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -142701,9 +142676,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 38,
+      "stored": 39,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/44/",
         "https://jkanime.net/taiho-shichau-zo/45/",
         "https://jkanime.net/taiho-shichau-zo/46/",
         "https://jkanime.net/taiho-shichau-zo/47/",
@@ -142725,7 +142699,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 37,
+        "mp4upload": 38,
         "streamtape": 3
       },
       "playbackVerified": false
