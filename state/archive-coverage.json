@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T12:26:17.116377+00:00",
+  "checkedAt": "2026-10-31T12:40:16.823933+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73823,
-  "storedChapters": 72414,
-  "missingChapters": 1409,
+  "storedChapters": 72425,
+  "missingChapters": 1398,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -1533,8 +1533,8 @@
         "series": "https://jkanime.net/uma-musume-cinderella-gray/",
         "title": "Uma Musume: Cinderella Gray",
         "samples": [
-          "https://jkanime.net/uma-musume-cinderella-gray/14/",
-          "https://jkanime.net/uma-musume-cinderella-gray/15/"
+          "https://jkanime.net/uma-musume-cinderella-gray/15/",
+          "https://jkanime.net/uma-musume-cinderella-gray/16/"
         ]
       },
       {
@@ -1601,8 +1601,8 @@
         "series": "https://jkanime.net/anne-shirley/",
         "title": "Anne Shirley",
         "samples": [
-          "https://jkanime.net/anne-shirley/16/",
-          "https://jkanime.net/anne-shirley/2/"
+          "https://jkanime.net/anne-shirley/2/",
+          "https://jkanime.net/anne-shirley/3/"
         ]
       },
       {
@@ -1812,8 +1812,7 @@
         "series": "https://jkanime.net/babanbabanban-vampire/",
         "title": "Babanbabanban Vampire",
         "samples": [
-          "https://jkanime.net/babanbabanban-vampire/1/",
-          "https://jkanime.net/babanbabanban-vampire/12/"
+          "https://jkanime.net/babanbabanban-vampire/1/"
         ]
       },
       {
@@ -1905,7 +1904,7 @@
         "title": "Sousei no Aquarion: Myth of Emotions",
         "samples": [
           "https://jkanime.net/sousei-no-aquarion-myth-of-emotions/1/",
-          "https://jkanime.net/sousei-no-aquarion-myth-of-emotions/4/"
+          "https://jkanime.net/sousei-no-aquarion-myth-of-emotions/5/"
         ]
       },
       {
@@ -1927,16 +1926,14 @@
         "series": "https://jkanime.net/magic-maker-isekai-mahou-no-tsukurikata/",
         "title": "Magic Maker: Isekai Mahou no Tsukurikata",
         "samples": [
-          "https://jkanime.net/magic-maker-isekai-mahou-no-tsukurikata/2/",
-          "https://jkanime.net/magic-maker-isekai-mahou-no-tsukurikata/7/"
+          "https://jkanime.net/magic-maker-isekai-mahou-no-tsukurikata/2/"
         ]
       },
       {
         "series": "https://jkanime.net/tasokare-hotel/",
         "title": "Tasokare Hotel",
         "samples": [
-          "https://jkanime.net/tasokare-hotel/2/",
-          "https://jkanime.net/tasokare-hotel/5/"
+          "https://jkanime.net/tasokare-hotel/2/"
         ]
       },
       {
@@ -2211,15 +2208,15 @@
         "title": "Ao no Miburo",
         "samples": [
           "https://jkanime.net/ao-no-miburo/24/",
-          "https://jkanime.net/ao-no-miburo/3/"
+          "https://jkanime.net/ao-no-miburo/4/"
         ]
       },
       {
         "series": "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/",
         "title": "Arifureta Shokugyou de Sekai Saikyou Season 3",
         "samples": [
-          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/3/",
-          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/4/"
+          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/4/",
+          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/5/"
         ]
       },
       {
@@ -2243,7 +2240,7 @@
         "title": "Maou 2099",
         "samples": [
           "https://jkanime.net/maou-2099/10/",
-          "https://jkanime.net/maou-2099/3/"
+          "https://jkanime.net/maou-2099/4/"
         ]
       },
       {
@@ -2282,7 +2279,8 @@
         "series": "https://jkanime.net/natsume-yuujinchou-shichi/",
         "title": "Natsume Yuujinchou Shichi",
         "samples": [
-          "https://jkanime.net/natsume-yuujinchou-shichi/13/"
+          "https://jkanime.net/natsume-yuujinchou-shichi/10/",
+          "https://jkanime.net/natsume-yuujinchou-shichi/11/"
         ]
       },
       {
@@ -2345,8 +2343,8 @@
         "series": "https://jkanime.net/haigakura/",
         "title": "Haigakura",
         "samples": [
-          "https://jkanime.net/haigakura/2/",
-          "https://jkanime.net/haigakura/3/"
+          "https://jkanime.net/haigakura/3/",
+          "https://jkanime.net/haigakura/4/"
         ]
       },
       {
@@ -2631,8 +2629,8 @@
         "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/",
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
         "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/2/",
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/3/"
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/3/",
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/4/"
         ]
       },
       {
@@ -2695,8 +2693,7 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/12/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/3/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/12/"
         ]
       },
       {
@@ -2848,7 +2845,8 @@
         "series": "https://jkanime.net/kimi-ni-todoke-3rd-season/",
         "title": "Kimi ni Todoke 3rd Season",
         "samples": [
-          "https://jkanime.net/kimi-ni-todoke-3rd-season/6/"
+          "https://jkanime.net/kimi-ni-todoke-3rd-season/3/",
+          "https://jkanime.net/kimi-ni-todoke-3rd-season/4/"
         ]
       },
       {
@@ -2910,16 +2908,16 @@
         "series": "https://jkanime.net/bye-bye-earth/",
         "title": "Bye Bye, Earth",
         "samples": [
-          "https://jkanime.net/bye-bye-earth/11/",
-          "https://jkanime.net/bye-bye-earth/12/"
+          "https://jkanime.net/bye-bye-earth/12/",
+          "https://jkanime.net/bye-bye-earth/13/"
         ]
       },
       {
         "series": "https://jkanime.net/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii/",
         "title": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",
         "samples": [
-          "https://jkanime.net/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii/2/",
-          "https://jkanime.net/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii/3/"
+          "https://jkanime.net/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii/3/",
+          "https://jkanime.net/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-season-ii/4/"
         ]
       },
       {
@@ -3046,7 +3044,6 @@
         "series": "https://jkanime.net/elf-san-wa-yaserarenai/",
         "title": "Elf-san wa Yaserarenai.",
         "samples": [
-          "https://jkanime.net/elf-san-wa-yaserarenai/13/",
           "https://jkanime.net/elf-san-wa-yaserarenai/14/"
         ]
       },
@@ -3070,7 +3067,6 @@
         "series": "https://jkanime.net/tensui-no-sakuna-hime/",
         "title": "Tensui no Sakuna-hime",
         "samples": [
-          "https://jkanime.net/tensui-no-sakuna-hime/14/",
           "https://jkanime.net/tensui-no-sakuna-hime/15/"
         ]
       },
@@ -3594,8 +3590,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/15/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/16/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/16/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/17/"
         ]
       },
       {
@@ -11498,8 +11494,8 @@
         "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
         "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
         "samples": [
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/10/",
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/"
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/",
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/2/"
         ]
       },
       {
@@ -16859,7 +16855,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/13/"
+          "https://jkanime.net/time-bokan-24/14/"
         ]
       },
       {
@@ -16980,13 +16976,6 @@
         "title": "Planetarian: Hoshi no Hito",
         "samples": [
           "https://jkanime.net/planetarian-hoshi-no-hito/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/under-the-dog/",
-        "title": "Under the Dog",
-        "samples": [
-          "https://jkanime.net/under-the-dog/1/"
         ]
       },
       {
@@ -18216,13 +18205,6 @@
         "samples": [
           "https://jkanime.net/prince-of-stride-alternative/1/",
           "https://jkanime.net/prince-of-stride-alternative/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/akagami-no-shirayuki-hime-nandemonai-takaramono-kono-page/",
-        "title": "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",
-        "samples": [
-          "https://jkanime.net/akagami-no-shirayuki-hime-nandemonai-takaramono-kono-page/1/"
         ]
       },
       {
@@ -19601,7 +19583,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/12/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/2/"
         ]
       },
       {
@@ -19702,13 +19684,6 @@
         "title": "Trinity Seven OVA",
         "samples": [
           "https://jkanime.net/trinity-seven-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aki-no-kanade/",
-        "title": "Aki no Kanade",
-        "samples": [
-          "https://jkanime.net/aki-no-kanade/1/"
         ]
       },
       {
@@ -34173,8 +34148,8 @@
         "series": "https://jkanime.net/uma-musume-cinderella-gray/",
         "title": "Uma Musume: Cinderella Gray",
         "samples": [
-          "https://jkanime.net/uma-musume-cinderella-gray/14/",
-          "https://jkanime.net/uma-musume-cinderella-gray/15/"
+          "https://jkanime.net/uma-musume-cinderella-gray/15/",
+          "https://jkanime.net/uma-musume-cinderella-gray/16/"
         ]
       },
       {
@@ -34227,13 +34202,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/natsume-yuujinchou-shichi/",
-        "title": "Natsume Yuujinchou Shichi",
-        "samples": [
-          "https://jkanime.net/natsume-yuujinchou-shichi/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fureru/",
         "title": "Fureru.",
         "samples": [
@@ -34269,18 +34237,11 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kimi-ni-todoke-3rd-season/",
-        "title": "Kimi ni Todoke 3rd Season",
-        "samples": [
-          "https://jkanime.net/kimi-ni-todoke-3rd-season/6/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bye-bye-earth/",
         "title": "Bye Bye, Earth",
         "samples": [
-          "https://jkanime.net/bye-bye-earth/11/",
-          "https://jkanime.net/bye-bye-earth/12/"
+          "https://jkanime.net/bye-bye-earth/12/",
+          "https://jkanime.net/bye-bye-earth/13/"
         ]
       },
       {
@@ -34295,7 +34256,6 @@
         "series": "https://jkanime.net/elf-san-wa-yaserarenai/",
         "title": "Elf-san wa Yaserarenai.",
         "samples": [
-          "https://jkanime.net/elf-san-wa-yaserarenai/13/",
           "https://jkanime.net/elf-san-wa-yaserarenai/14/"
         ]
       },
@@ -34303,7 +34263,6 @@
         "series": "https://jkanime.net/tensui-no-sakuna-hime/",
         "title": "Tensui no Sakuna-hime",
         "samples": [
-          "https://jkanime.net/tensui-no-sakuna-hime/14/",
           "https://jkanime.net/tensui-no-sakuna-hime/15/"
         ]
       },
@@ -34332,8 +34291,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/15/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/16/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/16/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/17/"
         ]
       },
       {
@@ -35093,8 +35052,8 @@
         "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
         "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
         "samples": [
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/10/",
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/"
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/",
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/2/"
         ]
       },
       {
@@ -35731,7 +35690,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/13/"
+          "https://jkanime.net/time-bokan-24/14/"
         ]
       },
       {
@@ -36236,7 +36195,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/12/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/2/"
         ]
       },
       {
@@ -36524,8 +36483,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/13/",
-          "https://jkanime.net/tribe-cool-crew/14/"
+          "https://jkanime.net/tribe-cool-crew/14/",
+          "https://jkanime.net/tribe-cool-crew/15/"
         ]
       },
       {
@@ -51726,9 +51685,8 @@
         "renewal-error"
       ],
       "observed": 23,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/uma-musume-cinderella-gray/14/",
         "https://jkanime.net/uma-musume-cinderella-gray/15/",
         "https://jkanime.net/uma-musume-cinderella-gray/16/",
         "https://jkanime.net/uma-musume-cinderella-gray/17/",
@@ -51741,9 +51699,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mp4upload": 13,
+        "mp4upload": 14,
         "streamwish": 7,
         "vidhide": 8
       },
@@ -51986,7 +51944,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "vidhide": 18,
         "streamwish": 22,
@@ -52657,7 +52615,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "vidhide": 5,
         "streamwish": 11,
@@ -52787,7 +52745,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 3,
         "streamwish": 4,
@@ -52809,7 +52767,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 6,
         "streamwish": 8,
@@ -52985,7 +52943,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53051,7 +53009,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 4,
         "streamwish": 8,
@@ -53117,7 +53075,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "vidhide": 5,
         "mp4upload": 11,
@@ -53139,7 +53097,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
         "streamwish": 6,
@@ -53443,7 +53401,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53930,14 +53888,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 21,
         "mega": 16,
-        "vidhide": 14,
+        "vidhide": 13,
         "mixdrop": 10,
-        "mp4upload": 14,
-        "streamtape": 14
+        "mp4upload": 13,
+        "streamtape": 13
       },
       "playbackVerified": false
     },
@@ -54109,14 +54067,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 16,
         "mega": 10,
-        "mp4upload": 21,
-        "vidhide": 9,
+        "mp4upload": 20,
+        "vidhide": 8,
         "mixdrop": 2,
-        "streamtape": 8
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -54131,13 +54089,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 12,
         "mega": 9,
-        "mp4upload": 14,
-        "vidhide": 12,
-        "streamtape": 7
+        "mp4upload": 13,
+        "vidhide": 11,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -54196,14 +54154,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "vidhide": 10,
+        "vidhide": 9,
         "mega": 9,
         "streamwish": 9,
         "mixdrop": 1,
-        "mp4upload": 9,
-        "streamtape": 8
+        "mp4upload": 8,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -54218,14 +54176,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 20,
         "mega": 12,
-        "vidhide": 12,
+        "vidhide": 11,
         "mixdrop": 3,
-        "mp4upload": 16,
-        "streamtape": 11
+        "mp4upload": 15,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -54277,13 +54235,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 10,
-        "mp4upload": 11,
-        "streamtape": 10,
+        "vidhide": 9,
+        "mp4upload": 10,
+        "streamtape": 9,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54314,22 +54272,19 @@
       "series": "https://jkanime.net/natsume-yuujinchou-shichi/",
       "title": "Natsume Yuujinchou Shichi",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/natsume-yuujinchou-shichi/13/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "streamwish": 12,
+        "streamwish": 13,
         "mega": 12,
         "vidhide": 11,
-        "mp4upload": 11,
+        "mp4upload": 12,
         "streamtape": 11,
         "mixdrop": 2
       },
@@ -54346,13 +54301,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
         "streamwish": 24,
         "mega": 17,
-        "vidhide": 16,
-        "mp4upload": 16,
-        "streamtape": 16,
+        "vidhide": 15,
+        "mp4upload": 15,
+        "streamtape": 15,
         "mixdrop": 7
       },
       "playbackVerified": false
@@ -54368,13 +54323,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 10,
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 9,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54412,13 +54367,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 10,
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 9,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54455,13 +54410,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54477,13 +54432,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 10,
-        "mp4upload": 11,
-        "streamtape": 10,
+        "vidhide": 9,
+        "mp4upload": 10,
+        "streamtape": 9,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54499,7 +54454,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 9,
         "mega": 7,
@@ -54585,13 +54540,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54629,13 +54584,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 20,
         "mega": 11,
-        "vidhide": 12,
-        "mp4upload": 22,
-        "streamtape": 10,
+        "vidhide": 11,
+        "mp4upload": 21,
+        "streamtape": 9,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54695,13 +54650,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 12,
         "mega": 10,
-        "vidhide": 9,
-        "mp4upload": 11,
-        "streamtape": 9,
+        "vidhide": 8,
+        "mp4upload": 10,
+        "streamtape": 8,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54717,13 +54672,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 12,
         "mega": 10,
-        "vidhide": 10,
-        "mp4upload": 9,
-        "streamtape": 9,
+        "vidhide": 9,
+        "mp4upload": 8,
+        "streamtape": 8,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54739,13 +54694,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 10,
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 9,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54761,13 +54716,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 17,
         "mega": 13,
-        "vidhide": 14,
-        "mp4upload": 24,
-        "streamtape": 12,
+        "vidhide": 13,
+        "mp4upload": 23,
+        "streamtape": 11,
         "mixdrop": 3
       },
       "playbackVerified": false
@@ -54805,13 +54760,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54871,13 +54826,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54893,13 +54848,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54959,7 +54914,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -55044,13 +54999,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 18,
         "mega": 13,
-        "vidhide": 18,
-        "mp4upload": 22,
-        "streamtape": 12,
+        "vidhide": 17,
+        "mp4upload": 21,
+        "streamtape": 11,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55066,13 +55021,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55110,7 +55065,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
@@ -55132,13 +55087,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 12,
         "mega": 10,
-        "vidhide": 9,
-        "mp4upload": 9,
-        "streamtape": 9,
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 8,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55154,13 +55109,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 26,
         "mega": 13,
-        "vidhide": 13,
-        "mp4upload": 12,
-        "streamtape": 12,
+        "vidhide": 12,
+        "mp4upload": 11,
+        "streamtape": 11,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -55176,13 +55131,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55220,13 +55175,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55264,13 +55219,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55286,14 +55241,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 10,
         "mega": 8,
-        "mp4upload": 14,
-        "vidhide": 12,
-        "mixdrop": 1,
-        "streamtape": 7
+        "mp4upload": 13,
+        "vidhide": 11,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -55308,13 +55262,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -55351,13 +55305,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 13,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 6,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 5,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55395,13 +55349,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 19,
         "mega": 13,
-        "vidhide": 12,
-        "mp4upload": 23,
-        "streamtape": 12,
+        "vidhide": 11,
+        "mp4upload": 22,
+        "streamtape": 11,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -55417,14 +55371,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mixdrop": 11,
-        "mp4upload": 12,
-        "streamtape": 11
+        "vidhide": 10,
+        "mixdrop": 10,
+        "mp4upload": 11,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -55439,13 +55393,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 10,
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 9,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55461,7 +55415,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 12,
         "streamwish": 10,
@@ -55483,13 +55437,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 21,
         "mega": 12,
-        "vidhide": 12,
-        "mp4upload": 22,
-        "streamtape": 11,
+        "vidhide": 11,
+        "mp4upload": 21,
+        "streamtape": 10,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -55505,13 +55459,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55548,13 +55502,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55936,22 +55890,19 @@
       "series": "https://jkanime.net/kimi-ni-todoke-3rd-season/",
       "title": "Kimi ni Todoke 3rd Season",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 6,
-      "stored": 5,
-      "missing": [
-        "https://jkanime.net/kimi-ni-todoke-3rd-season/6/"
-      ],
+      "stored": 6,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "streamwish": 5,
-        "mega": 5,
-        "vidhide": 4,
-        "streamtape": 4
+        "streamwish": 6,
+        "mega": 6,
+        "vidhide": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -56045,13 +55996,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 13,
         "mega": 13,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -56066,13 +56017,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56087,13 +56038,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56126,9 +56077,8 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/bye-bye-earth/11/",
         "https://jkanime.net/bye-bye-earth/12/",
         "https://jkanime.net/bye-bye-earth/13/",
         "https://jkanime.net/bye-bye-earth/14/",
@@ -56141,13 +56091,13 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 10,
         "mega": 10,
-        "vidhide": 9,
+        "vidhide": 8,
         "mp4upload": 8,
-        "streamtape": 9
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -56162,14 +56112,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 7,
         "mega": 4,
-        "mp4upload": 11,
-        "vidhide": 11,
-        "mixdrop": 3,
-        "streamtape": 3
+        "mp4upload": 10,
+        "vidhide": 10,
+        "mixdrop": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -56184,13 +56134,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56205,13 +56155,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56226,13 +56176,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56268,13 +56218,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56289,13 +56239,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 22,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 25,
-        "mp4upload": 24,
-        "streamtape": 23,
+        "vidhide": 24,
+        "mp4upload": 23,
+        "streamtape": 22,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -56311,13 +56261,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
         "streamwish": 23,
         "mega": 23,
-        "vidhide": 22,
-        "mp4upload": 23,
-        "streamtape": 22,
+        "vidhide": 21,
+        "mp4upload": 22,
+        "streamtape": 21,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -56333,13 +56283,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56354,13 +56304,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56375,13 +56325,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56396,13 +56346,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
+        "vidhide": 10,
         "mp4upload": 10,
-        "streamtape": 11
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56457,9 +56407,9 @@
       "families": {
         "streamwish": 10,
         "mega": 10,
-        "vidhide": 9,
-        "mp4upload": 9,
-        "streamtape": 9
+        "vidhide": 8,
+        "mp4upload": 8,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -56474,13 +56424,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
+        "vidhide": 10,
         "mp4upload": 6,
-        "streamtape": 11
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56495,13 +56445,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56513,20 +56463,19 @@
         "renewal-error"
       ],
       "observed": 14,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/elf-san-wa-yaserarenai/13/",
         "https://jkanime.net/elf-san-wa-yaserarenai/14/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "streamwish": 12,
-        "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "streamwish": 13,
+        "mega": 13,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56541,13 +56490,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56562,13 +56511,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56580,20 +56529,19 @@
         "renewal-error"
       ],
       "observed": 15,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/tensui-no-sakuna-hime/14/",
         "https://jkanime.net/tensui-no-sakuna-hime/15/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "streamwish": 13,
+        "streamwish": 14,
         "mega": 13,
-        "vidhide": 12,
+        "vidhide": 11,
         "mp4upload": 12,
-        "streamtape": 12
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -56623,13 +56571,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "streamwish": 14,
         "mega": 14,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "vidhide": 12,
+        "mp4upload": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -56665,13 +56613,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 22,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 23,
-        "mp4upload": 23,
-        "streamtape": 23,
+        "vidhide": 22,
+        "mp4upload": 22,
+        "streamtape": 22,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -56687,13 +56635,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 13,
         "mega": 13,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -56708,13 +56656,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56771,13 +56719,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56792,13 +56740,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56834,13 +56782,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56855,13 +56803,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -56876,13 +56824,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -58169,9 +58117,8 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/15/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/16/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/17/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/18/",
@@ -58191,7 +58138,7 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 14,
+        "streamwish": 15,
         "vidhide": 12,
         "mp4upload": 14,
         "streamtape": 12
@@ -80842,9 +80789,8 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 1,
+      "stored": 2,
       "missing": [
-        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/10/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/2/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/3/",
@@ -80857,9 +80803,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -89831,7 +89777,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {},
       "playbackVerified": false
     },
@@ -94397,7 +94343,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -96097,7 +96043,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 6
       },
@@ -96199,7 +96145,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -96698,10 +96644,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/13/",
         "https://jkanime.net/time-bokan-24/14/",
         "https://jkanime.net/time-bokan-24/15/",
         "https://jkanime.net/time-bokan-24/16/",
@@ -96726,9 +96671,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 3,
-        "vidhide": 3
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -97122,8 +97067,7 @@
       "title": "Under the Dog",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -97132,7 +97076,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -97611,7 +97555,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -98536,7 +98480,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -100585,8 +100529,7 @@
       "title": "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -100595,7 +100538,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -104098,7 +104041,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 18,
         "mega": 3
@@ -104814,10 +104757,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 2,
+      "stored": 3,
       "missing": [
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/12/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/2/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/3/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/4/",
@@ -104831,7 +104773,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 2
+        "streamwish": 3
       },
       "playbackVerified": false
     },
@@ -105183,8 +105125,7 @@
       "title": "Aki no Kanade",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -105193,7 +105134,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -108182,9 +108123,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 4,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/13/",
         "https://jkanime.net/tribe-cool-crew/14/",
         "https://jkanime.net/tribe-cool-crew/15/",
         "https://jkanime.net/tribe-cool-crew/16/",
@@ -108235,7 +108175,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 4,
+        "streamwish": 5,
         "mega": 2
       },
       "playbackVerified": false
@@ -118134,7 +118074,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -124723,7 +124663,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 83,
+      "renewalFailed": 82,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -140367,7 +140307,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "mega": 1
       },
@@ -143651,7 +143591,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 3
       },
