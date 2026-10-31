@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T04:23:08.625619+00:00",
+  "checkedAt": "2026-10-31T04:36:28.974055+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72337,
-  "missingChapters": 1439,
+  "storedChapters": 72344,
+  "missingChapters": 1432,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -24,7 +24,6 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/11/",
           "https://jkanime.net/megalo-box/12/"
         ]
       },
@@ -641,13 +640,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/",
-        "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
-        "samples": [
-          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai/",
         "title": "\"Omae Gotoki ga Maou ni Kateru to Omouna\" to Yuusha Party wo Tsuihou sareta node, Outo de Kimama ni Kurashitai",
         "samples": [
@@ -676,13 +668,6 @@
         "samples": [
           "https://jkanime.net/jujutsu-kaisen-shimetsu-kaiyuu-zenpen/11/",
           "https://jkanime.net/jujutsu-kaisen-shimetsu-kaiyuu-zenpen/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mato-seihei-no-slave-2/",
-        "title": "Mato Seihei no Slave 2",
-        "samples": [
-          "https://jkanime.net/mato-seihei-no-slave-2/9/"
         ]
       },
       {
@@ -746,13 +731,6 @@
         "samples": [
           "https://jkanime.net/mf-ghost-3rd-season/1/",
           "https://jkanime.net/mf-ghost-3rd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/",
-        "title": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
-        "samples": [
-          "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/11/"
         ]
       },
       {
@@ -8715,8 +8693,7 @@
         "series": "https://jkanime.net/kyoukai-senki/",
         "title": "Kyoukai Senki",
         "samples": [
-          "https://jkanime.net/kyoukai-senki/17/",
-          "https://jkanime.net/kyoukai-senki/19/"
+          "https://jkanime.net/kyoukai-senki/17/"
         ]
       },
       {
@@ -23081,13 +23058,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/minami-ke-natsuyasumi/",
-        "title": "Minami-ke Natsuyasumi",
-        "samples": [
-          "https://jkanime.net/minami-ke-natsuyasumi/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kobayashi-ga-kawai-sugite-tsurai/",
         "title": "Kobayashi ga Kawai Sugite Tsurai!!",
         "samples": [
@@ -24560,13 +24530,6 @@
         "samples": [
           "https://jkanime.net/busou-shinki/1/",
           "https://jkanime.net/busou-shinki/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/minami-ke-omatase/",
-        "title": "Minami-ke Omatase",
-        "samples": [
-          "https://jkanime.net/minami-ke-omatase/1/"
         ]
       },
       {
@@ -32679,13 +32642,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mimi-wo-sumaseba/",
-        "title": "Mimi wo Sumaseba",
-        "samples": [
-          "https://jkanime.net/mimi-wo-sumaseba/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/street-fighter-ii-v/",
         "title": "Street Fighter II V",
         "samples": [
@@ -32815,8 +32771,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/45/",
-          "https://jkanime.net/taiho-shichau-zo/46/"
+          "https://jkanime.net/taiho-shichau-zo/46/",
+          "https://jkanime.net/taiho-shichau-zo/47/"
         ]
       },
       {
@@ -32959,13 +32915,6 @@
         "samples": [
           "https://jkanime.net/ushio-to-tora-ova/1/",
           "https://jkanime.net/ushio-to-tora-ova/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/",
-        "title": "Mobile Suit Gundam 0083: The Fading Light of Zeon",
-        "samples": [
-          "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/1/"
         ]
       },
       {
@@ -33889,7 +33838,6 @@
         "series": "https://jkanime.net/megalo-box/",
         "title": "Megalo Box",
         "samples": [
-          "https://jkanime.net/megalo-box/11/",
           "https://jkanime.net/megalo-box/12/"
         ]
       },
@@ -34684,8 +34632,7 @@
         "series": "https://jkanime.net/kyoukai-senki/",
         "title": "Kyoukai Senki",
         "samples": [
-          "https://jkanime.net/kyoukai-senki/17/",
-          "https://jkanime.net/kyoukai-senki/19/"
+          "https://jkanime.net/kyoukai-senki/17/"
         ]
       },
       {
@@ -37108,13 +37055,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/minami-ke-natsuyasumi/",
-        "title": "Minami-ke Natsuyasumi",
-        "samples": [
-          "https://jkanime.net/minami-ke-natsuyasumi/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sukitte-ii-na-yo-ova/",
         "title": "Sukitte Ii na yo. OVA",
         "samples": [
@@ -37501,13 +37441,6 @@
         "title": "Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari",
         "samples": [
           "https://jkanime.net/mahou-shoujo-madokamagica-movie-1-hajimari-no-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/minami-ke-omatase/",
-        "title": "Minami-ke Omatase",
-        "samples": [
-          "https://jkanime.net/minami-ke-omatase/1/"
         ]
       },
       {
@@ -38820,13 +38753,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mimi-wo-sumaseba/",
-        "title": "Mimi wo Sumaseba",
-        "samples": [
-          "https://jkanime.net/mimi-wo-sumaseba/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-z-movie-12-fusion-reborn/",
         "title": "Dragon Ball Z Movie 12: Fusion Reborn",
         "samples": [
@@ -38844,8 +38770,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/45/",
-          "https://jkanime.net/taiho-shichau-zo/46/"
+          "https://jkanime.net/taiho-shichau-zo/46/",
+          "https://jkanime.net/taiho-shichau-zo/47/"
         ]
       },
       {
@@ -38916,13 +38842,6 @@
         "title": "Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks",
         "samples": [
           "https://jkanime.net/dragon-ball-z-special-2-zetsubou-e-no-hankou-nokosareta-chousenshi-gohan-to-trunks/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/",
-        "title": "Mobile Suit Gundam 0083: The Fading Light of Zeon",
-        "samples": [
-          "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/1/"
         ]
       },
       {
@@ -41710,13 +41629,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/minami-ke-natsuyasumi/",
-        "title": "Minami-ke Natsuyasumi",
-        "samples": [
-          "https://jkanime.net/minami-ke-natsuyasumi/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sukitte-ii-na-yo-ova/",
         "title": "Sukitte Ii na yo. OVA",
         "samples": [
@@ -42050,13 +41962,6 @@
         "title": "Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari",
         "samples": [
           "https://jkanime.net/mahou-shoujo-madokamagica-movie-1-hajimari-no-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/minami-ke-omatase/",
-        "title": "Minami-ke Omatase",
-        "samples": [
-          "https://jkanime.net/minami-ke-omatase/1/"
         ]
       },
       {
@@ -43159,13 +43064,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mimi-wo-sumaseba/",
-        "title": "Mimi wo Sumaseba",
-        "samples": [
-          "https://jkanime.net/mimi-wo-sumaseba/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-z-movie-12-fusion-reborn/",
         "title": "Dragon Ball Z Movie 12: Fusion Reborn",
         "samples": [
@@ -43247,13 +43145,6 @@
         "title": "Dragon Ball Z Special 2: Zetsubou e no Hankou!! Nokosareta Chousenshi - Gohan to Trunks",
         "samples": [
           "https://jkanime.net/dragon-ball-z-special-2-zetsubou-e-no-hankou-nokosareta-chousenshi-gohan-to-trunks/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/",
-        "title": "Mobile Suit Gundam 0083: The Fading Light of Zeon",
-        "samples": [
-          "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/1/"
         ]
       },
       {
@@ -43746,16 +43637,15 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/megalo-box/11/",
         "https://jkanime.net/megalo-box/12/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 11
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -47246,7 +47136,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47319,7 +47209,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47374,15 +47264,13 @@
     {
       "series": "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/",
       "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 9,
       "stored": 9,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 8,
         "streamwish": 9,
@@ -47480,7 +47368,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47491,15 +47379,13 @@
     {
       "series": "https://jkanime.net/mato-seihei-no-slave-2/",
       "title": "Mato Seihei no Slave 2",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47992,15 +47878,13 @@
     {
       "series": "https://jkanime.net/yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku/",
       "title": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 12,
         "streamwish": 11,
@@ -73165,16 +73049,15 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 23,
+      "stored": 24,
       "missing": [
-        "https://jkanime.net/kyoukai-senki/17/",
-        "https://jkanime.net/kyoukai-senki/19/"
+        "https://jkanime.net/kyoukai-senki/17/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 21,
+        "mega": 22,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -114840,20 +114723,16 @@
     {
       "series": "https://jkanime.net/minami-ke-natsuyasumi/",
       "title": "Minami-ke Natsuyasumi",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/minami-ke-natsuyasumi/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -119132,20 +119011,16 @@
     {
       "series": "https://jkanime.net/minami-ke-omatase/",
       "title": "Minami-ke Omatase",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/minami-ke-omatase/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -142319,20 +142194,16 @@
     {
       "series": "https://jkanime.net/mimi-wo-sumaseba/",
       "title": "Mimi wo Sumaseba",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mimi-wo-sumaseba/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -142676,9 +142547,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 39,
+      "stored": 40,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/45/",
         "https://jkanime.net/taiho-shichau-zo/46/",
         "https://jkanime.net/taiho-shichau-zo/47/",
         "https://jkanime.net/taiho-shichau-zo/48/",
@@ -142699,7 +142569,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 38,
+        "mp4upload": 39,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -143123,20 +142993,16 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/",
       "title": "Mobile Suit Gundam 0083: The Fading Light of Zeon",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mobile-suit-gundam-0083-the-fading-light-of-zeon/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
