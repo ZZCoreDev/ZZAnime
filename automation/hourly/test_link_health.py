@@ -176,4 +176,13 @@ class LinkHealthTests(unittest.TestCase):
    for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-old%dabcdefg.html'%i]}])
    s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=Web(),sleep=lambda s:None)
    self.assertEqual((s['checked'],s['archive']['checked']),(6,2))
+ def test_most_watched_series_get_half_of_the_archive_slots(self):
+  with tempfile.TemporaryDirectory() as d:
+   world(d);hot='https://jkanime.net/hot/1/'
+   shard(d,hot,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-hot%dabcdefg.html'%i for i in range(4)]}])
+   for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-old%dabcdefg.html'%i]}])
+   Path(d,'play-stats.json').write_text(json.dumps({'options':[],'popular':[{'series':'https://jkanime.net/hot/','devices':3}]}))
+   web=Web();s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=web,sleep=lambda s:None)
+   arch=[u for u in web.urls if '/embed-hot' in u or '/embed-old' in u]
+   self.assertEqual(s['archive']['checked'],3);self.assertEqual(sum('/embed-hot' in u for u in arch),1)
 if __name__=='__main__':unittest.main()

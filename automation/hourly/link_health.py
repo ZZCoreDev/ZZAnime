@@ -38,6 +38,7 @@ CONFIRM_GAP=1800
 # series shards per run from a cursor stored in link-health.json.
 ARCHIVE_SLOTS=2
 ARCHIVE_SHARDS=40
+POPULAR_SERIES=10
 def sha(b):return hashlib.sha256(b).hexdigest()
 def policy():return json.loads((W/'link-health-policy.json').read_bytes())
 def target(family,link,rules):
@@ -118,7 +119,23 @@ def archive_candidates(folder,health,now,rules,found,budget):
  files=sorted((Path(folder)/'series-state').glob('*.json.gz'))
  cursor=health.setdefault('archive',{'cursor':0,'sweeps':0})
  if not files or budget<=0:return {}
- i=cursor['cursor']%len(files);out={}
+ out={}
+ # Half of the archive slots (at least one) go first to the most watched series (play-stats «popular»,
+ # distinct devices from the help Worker); the cursor keeps the other half, so the sweep never stops.
+ stats=Path(folder)/'play-stats.json';popular=json.loads(stats.read_bytes()).get('popular',[]) if stats.exists() else []
+ share=max(1,budget//2) if budget>1 else 1
+ for r in sorted((r for r in popular if isinstance(r,dict) and isinstance(r.get('series'),str)),key=lambda r:-int(r.get('devices',0) or 0))[:POPULAR_SERIES]:
+  if len(out)>=share:break
+  path=Path(folder)/'series-state'/(hashlib.sha256(r['series'].encode()).hexdigest()+'.json.gz')
+  if not path.exists():continue
+  row=json.loads(gzip.decompress(path.read_bytes()))
+  if row.get('series')!=r['series']:continue
+  for url,ep in sorted(row.get('episodes',{}).items()):
+   if not rules.get('enabled') and url not in rules['proof']:continue
+   for k,v in links_of(ep,url,rules).items():
+    if len(out)<share and k not in found and k not in out and due(health['links'].get(k),now):out[k]=dict(v,archive=True,popular=True)
+ if len(out)>=budget:return out
+ i=cursor['cursor']%len(files)
  for _ in range(min(ARCHIVE_SHARDS,len(files))):
   row=json.loads(gzip.decompress(files[i].read_bytes()));batch={}
   for url,ep in sorted(row.get('episodes',{}).items()):
