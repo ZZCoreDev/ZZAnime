@@ -99,15 +99,15 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 59472; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 59419; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 4/4 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 179.
-Equivalencia comprobada: Prince of Tennis, 0/178 capítulos recientes; incidencias pendientes: 177.
-Equivalencia comprobada: Keroro Gunsou☆ 2026, 2/5 capítulos recientes; incidencias pendientes: 3.
-Diagnóstico por serie: 4290/4334; pendientes: 44. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 72433 capítulos con registros, 1390 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 178.
+Equivalencia comprobada: Prince of Tennis, 0/178 capítulos recientes; incidencias pendientes: 176.
+Equivalencia comprobada: Keroro Gunsou☆ 2026, 3/5 capítulos recientes; incidencias pendientes: 2.
+Diagnóstico por serie: 4286/4329; pendientes: 43. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Cobertura de catálogo: 5053 títulos, 72438 capítulos con registros, 1385 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
