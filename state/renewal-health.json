@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-31T21:57:07.079791+00:00",
-  "episodes": 72551,
-  "oldestHours": 129.64,
-  "pending": 59454,
+  "checkedAt": "2026-10-31T22:11:47.980799+00:00",
+  "episodes": 72552,
+  "oldestHours": 129.89,
+  "pending": 59606,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 103,
-  "sampleMinutes": 1427.12,
-  "measuredWallClockPerHour": 542.81,
-  "estimatedSweepDays": 5.57,
+  "sampleMinutes": 1428.15,
+  "measuredWallClockPerHour": 540.62,
+  "estimatedSweepDays": 5.59,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -66,7 +66,7 @@
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 55,
+      "pendingFailures": 54,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
@@ -80,7 +80,7 @@
       "title": "Dragon Ball Kai (2014)",
       "total": 61,
       "fresh": 0,
-      "pendingFailures": 36,
+      "pendingFailures": 35,
       "state": "pending"
     },
     "https://jkanime.net/digimon-digital-monsters/": {
@@ -149,22 +149,22 @@
     "https://jkanime.net/requiem-for-the-phantom/": {
       "title": "Phantom: Requiem for the Phantom",
       "total": 26,
-      "fresh": 9,
-      "pendingFailures": 17,
+      "fresh": 10,
+      "pendingFailures": 16,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-lost-canvas/": {
       "title": "Saint Seiya: The Lost Canvas",
       "total": 26,
       "fresh": 0,
-      "pendingFailures": 15,
+      "pendingFailures": 14,
       "state": "pending"
     },
     "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/": {
       "title": "Senjou no Valkyria: Gallian Chronicles",
       "total": 26,
       "fresh": 1,
-      "pendingFailures": 17,
+      "pendingFailures": 16,
       "state": "pending"
     },
     "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/": {
@@ -185,28 +185,28 @@
       "title": "Mobile Suit Gundam 00 S2",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 18,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/": {
       "title": "Phi Brain: Kami no Puzzle 2nd Season",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/": {
       "title": "Phi Brain: Kami no Puzzle 3rd Season",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/eureka-seven-ao/": {
       "title": "Eureka Seven AO",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kanon2006/": {
@@ -234,7 +234,7 @@
       "title": "Steins;Gate",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/abarenbou-kishi-matsutarou/": {
@@ -248,7 +248,7 @@
       "title": "Suzumiya Haruhi no Yuuutsu (2009)",
       "total": 14,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/aooni-the-blue-monster/": {
@@ -444,7 +444,7 @@
       "title": "Hanamaru Youchien",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/hanaukyou-maid-tai-la-verite/": {
@@ -479,7 +479,7 @@
       "title": "Kiss x Sis (TV)",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/komi-san-wa-comyushou-desu/": {
@@ -500,7 +500,7 @@
       "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/": {
@@ -876,16 +876,16 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4229,
-    "diagnosedSeries": 4185,
+    "series": 4227,
+    "diagnosedSeries": 4183,
     "pendingSeries": 44
   },
   "coverage": {
-    "checkedAt": "2026-10-31T21:57:07.079791+00:00",
+    "checkedAt": "2026-10-31T22:11:47.980799+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
-    "storedChapters": 72551,
-    "missingChapters": 1285,
+    "storedChapters": 72552,
+    "missingChapters": 1284,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
