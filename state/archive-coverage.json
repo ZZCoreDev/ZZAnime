@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T06:34:44.818562+00:00",
+  "checkedAt": "2026-10-31T06:48:30.504501+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72367,
-  "missingChapters": 1427,
+  "storedChapters": 72372,
+  "missingChapters": 1422,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -4779,8 +4779,8 @@
         "series": "https://jkanime.net/rail-romanesque-2/",
         "title": "Rail Romanesque 2",
         "samples": [
-          "https://jkanime.net/rail-romanesque-2/10/",
-          "https://jkanime.net/rail-romanesque-2/11/"
+          "https://jkanime.net/rail-romanesque-2/1/",
+          "https://jkanime.net/rail-romanesque-2/10/"
         ]
       },
       {
@@ -15637,6 +15637,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/blame-movie/",
+        "title": "Blame! Movie",
+        "samples": [
+          "https://jkanime.net/blame-movie/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/koe-no-katachi/",
         "title": "Koe no Katachi",
         "samples": [
@@ -18366,6 +18373,7 @@
         "series": "https://jkanime.net/bikini-warriors-special/",
         "title": "Bikini Warriors Special",
         "samples": [
+          "https://jkanime.net/bikini-warriors-special/1/",
           "https://jkanime.net/bikini-warriors-special/3/"
         ]
       },
@@ -18405,7 +18413,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/5/"
+          "https://jkanime.net/digimon-adventure-tri/6/"
         ]
       },
       {
@@ -27470,8 +27478,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/13/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/"
         ]
       },
       {
@@ -32927,7 +32935,6 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/8/",
           "https://jkanime.net/taiho-shichau-zo/9/"
         ]
       },
@@ -36128,7 +36135,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/5/"
+          "https://jkanime.net/digimon-adventure-tri/6/"
         ]
       },
       {
@@ -37738,8 +37745,8 @@
         "series": "https://jkanime.net/queens-blade-rebellion/",
         "title": "Queen's Blade: Rebellion",
         "samples": [
-          "https://jkanime.net/queens-blade-rebellion/13/",
-          "https://jkanime.net/queens-blade-rebellion/14/"
+          "https://jkanime.net/queens-blade-rebellion/14/",
+          "https://jkanime.net/queens-blade-rebellion/15/"
         ]
       },
       {
@@ -38200,8 +38207,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/13/",
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/"
         ]
       },
       {
@@ -38923,7 +38930,6 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/8/",
           "https://jkanime.net/taiho-shichau-zo/9/"
         ]
       },
@@ -59344,7 +59350,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 24,
       "families": {
         "mega": 23,
         "streamwish": 35,
@@ -61875,7 +61881,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 13,
         "mega": 3,
@@ -72338,7 +72344,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 28,
+      "renewalFailed": 29,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -93202,13 +93208,15 @@
     {
       "series": "https://jkanime.net/blame-movie/",
       "title": "Blame! Movie",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 1
       },
@@ -95901,7 +95909,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 24,
         "streamwish": 26,
@@ -101198,7 +101206,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 4,
         "streamwish": 4,
@@ -101392,10 +101400,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/5/",
         "https://jkanime.net/digimon-adventure-tri/6/",
         "https://jkanime.net/digimon-adventure-tri/7/",
         "https://jkanime.net/digimon-adventure-tri/8/",
@@ -101405,7 +101412,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 20,
+        "mega": 21,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -104406,20 +104413,19 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/ninja-slayer-from-animation/1/",
         "https://jkanime.net/ninja-slayer-from-animation/2/",
         "https://jkanime.net/ninja-slayer-from-animation/3/",
         "https://jkanime.net/ninja-slayer-from-animation/7/",
-        "https://jkanime.net/ninja-slayer-from-animation/8/",
-        "https://jkanime.net/ninja-slayer-from-animation/9/"
+        "https://jkanime.net/ninja-slayer-from-animation/8/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
-        "streamwish": 17,
+        "streamwish": 18,
         "mega": 3
       },
       "playbackVerified": false
@@ -120978,9 +120984,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 18,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/queens-blade-rebellion/13/",
         "https://jkanime.net/queens-blade-rebellion/14/",
         "https://jkanime.net/queens-blade-rebellion/15/",
         "https://jkanime.net/queens-blade-rebellion/16/",
@@ -120991,7 +120996,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -127350,9 +127355,8 @@
         "renewal-error"
       ],
       "observed": 18,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/13/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/14/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/15/",
         "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/16/",
@@ -127363,7 +127367,7 @@
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mp4upload": 12,
+        "mp4upload": 13,
         "mega": 2,
         "streamwish": 2,
         "vidhide": 2,
@@ -128375,7 +128379,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 12,
         "mega": 4,
@@ -142650,9 +142654,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 49,
+      "stored": 50,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/8/",
         "https://jkanime.net/taiho-shichau-zo/9/"
       ],
       "expired": [],
@@ -142663,7 +142666,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 48,
+        "mp4upload": 49,
         "streamtape": 3
       },
       "playbackVerified": false
