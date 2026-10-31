@@ -1,0 +1,53 @@
+name: Vigía de salud (avisos por issue)
+on:
+  schedule:
+    - cron: '41 * * * *'
+  push:
+    branches: [main]
+    paths: ['automation/hourly/health_watch.py', '.github/workflows/health-watch.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: zzanime-health-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    if: github.repository == 'ZZCoreDev/ZZAnime'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: code
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: provider-data
+          path: data
+          persist-credentials: false
+      - name: Memoria del vigía (rama health-watch)
+        working-directory: code
+        run: |
+          mkdir -p "$RUNNER_TEMP/memory"
+          if git fetch -q --depth 1 origin health-watch; then git show FETCH_HEAD:state.json > "$RUNNER_TEMP/memory/state.json" || true; fi
+      - name: Pruebas sin red
+        working-directory: code/automation/hourly
+        run: python3 test_health_watch.py
+      - name: Comprobar y abrir, actualizar o cerrar issues
+        working-directory: code/automation/hourly
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 health_watch.py --data "$GITHUB_WORKSPACE/data/state" --memory "$RUNNER_TEMP/memory/state.json"
+      - name: Guardar la memoria (un único commit, se reemplaza)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f "$RUNNER_TEMP/memory/state.json" ] || exit 0
+          cd "$RUNNER_TEMP/memory"
+          git init -q && git checkout -q -b health-watch
+          git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
+          git add state.json && git commit -q -m 'Memoria del vigía de salud'
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:health-watch
