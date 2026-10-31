@@ -21,7 +21,7 @@ class RenewalTests(unittest.TestCase):
         rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/b/1/'),(3,'https://jkanime.net/gx/1/'),(4,'https://jkanime.net/gx/2/')]
         released={'diagnostic':{'flv':{'cause':'address-not-found'}},'identityReleased':True}
         order=[u for _,u in fair_retries(rows,{rows[2][1]:released,rows[3][1]:dict(released)})]
-        self.assertEqual(order[0],rows[2][1]);self.assertEqual(order[1],rows[0][1])
+        self.assertEqual(order[:2],[rows[2][1],rows[3][1]]);self.assertEqual(order[2],rows[0][1])
         failures={rows[2][1]:dict(released)};record_failure(failures,rows[2][1],'Source HTTP 404',10,'',released['diagnostic'])
         self.assertNotIn('identityReleased',failures[rows[2][1]])
     def test_retry_prioritizes_unexplained_series(self):
