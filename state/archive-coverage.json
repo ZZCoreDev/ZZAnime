@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T22:41:12.623698+00:00",
+  "checkedAt": "2026-10-31T22:56:02.913699+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
-  "storedChapters": 72554,
-  "missingChapters": 1282,
+  "storedChapters": 72557,
+  "missingChapters": 1279,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -6648,8 +6648,8 @@
         "series": "https://jkanime.net/urusei-yatsura-2022/",
         "title": "Urusei Yatsura (2022)",
         "samples": [
-          "https://jkanime.net/urusei-yatsura-2022/24/",
-          "https://jkanime.net/urusei-yatsura-2022/25/"
+          "https://jkanime.net/urusei-yatsura-2022/25/",
+          "https://jkanime.net/urusei-yatsura-2022/26/"
         ]
       },
       {
@@ -14891,14 +14891,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/urahara/",
-        "title": "Urahara",
-        "samples": [
-          "https://jkanime.net/urahara/10/",
-          "https://jkanime.net/urahara/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tsukipro-the-animation/",
         "title": "Tsukipro The Animation",
         "samples": [
@@ -21234,8 +21226,8 @@
         "series": "https://jkanime.net/dragon-ball-kai-2014/",
         "title": "Dragon Ball Kai (2014)",
         "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/29/",
-          "https://jkanime.net/dragon-ball-kai-2014/30/"
+          "https://jkanime.net/dragon-ball-kai-2014/30/",
+          "https://jkanime.net/dragon-ball-kai-2014/31/"
         ]
       },
       {
@@ -22165,13 +22157,6 @@
         "samples": [
           "https://jkanime.net/hajime-no-ippo-rising/1/",
           "https://jkanime.net/hajime-no-ippo-rising/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/",
-        "title": "Phi Brain: Kami no Puzzle 3rd Season",
-        "samples": [
-          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/25/"
         ]
       },
       {
@@ -23789,8 +23774,8 @@
         "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
         "title": "Yu-Gi-Oh! Zexal Second",
         "samples": [
-          "https://jkanime.net/yu-gi-oh-zexal-second/22/",
-          "https://jkanime.net/yu-gi-oh-zexal-second/23/"
+          "https://jkanime.net/yu-gi-oh-zexal-second/23/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/24/"
         ]
       },
       {
@@ -24324,8 +24309,8 @@
         "series": "https://jkanime.net/eureka-seven-ao/",
         "title": "Eureka Seven AO",
         "samples": [
-          "https://jkanime.net/eureka-seven-ao/21/",
-          "https://jkanime.net/eureka-seven-ao/22/"
+          "https://jkanime.net/eureka-seven-ao/22/",
+          "https://jkanime.net/eureka-seven-ao/23/"
         ]
       },
       {
@@ -24388,8 +24373,8 @@
         "series": "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/",
         "title": "Phi Brain: Kami no Puzzle 2nd Season",
         "samples": [
-          "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/20/",
-          "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/21/"
+          "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/21/",
+          "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/22/"
         ]
       },
       {
@@ -25449,8 +25434,8 @@
         "series": "https://jkanime.net/steins-gate/",
         "title": "Steins;Gate",
         "samples": [
-          "https://jkanime.net/steins-gate/17/",
-          "https://jkanime.net/steins-gate/18/"
+          "https://jkanime.net/steins-gate/18/",
+          "https://jkanime.net/steins-gate/19/"
         ]
       },
       {
@@ -26734,8 +26719,8 @@
         "series": "https://jkanime.net/saint-seiya-lost-canvas/",
         "title": "Saint Seiya: The Lost Canvas",
         "samples": [
-          "https://jkanime.net/saint-seiya-lost-canvas/15/",
-          "https://jkanime.net/saint-seiya-lost-canvas/16/"
+          "https://jkanime.net/saint-seiya-lost-canvas/16/",
+          "https://jkanime.net/saint-seiya-lost-canvas/17/"
         ]
       },
       {
@@ -26760,13 +26745,6 @@
         "samples": [
           "https://jkanime.net/isekai-no-seikishi-monogatari/1/",
           "https://jkanime.net/isekai-no-seikishi-monogatari/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/",
-        "title": "Suzumiya Haruhi no Yuuutsu (2009)",
-        "samples": [
-          "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/14/"
         ]
       },
       {
@@ -26876,8 +26854,8 @@
         "series": "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/",
         "title": "Senjou no Valkyria: Gallian Chronicles",
         "samples": [
-          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/13/",
-          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/14/"
+          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/14/",
+          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/15/"
         ]
       },
       {
@@ -26932,8 +26910,8 @@
         "series": "https://jkanime.net/requiem-for-the-phantom/",
         "title": "Phantom: Requiem for the Phantom",
         "samples": [
-          "https://jkanime.net/requiem-for-the-phantom/13/",
-          "https://jkanime.net/requiem-for-the-phantom/14/"
+          "https://jkanime.net/requiem-for-the-phantom/14/",
+          "https://jkanime.net/requiem-for-the-phantom/15/"
         ]
       },
       {
@@ -27217,8 +27195,8 @@
         "series": "https://jkanime.net/mobile-suit-gundam-00-second-season/",
         "title": "Mobile Suit Gundam 00 S2",
         "samples": [
-          "https://jkanime.net/mobile-suit-gundam-00-second-season/11/",
-          "https://jkanime.net/mobile-suit-gundam-00-second-season/12/"
+          "https://jkanime.net/mobile-suit-gundam-00-second-season/12/",
+          "https://jkanime.net/mobile-suit-gundam-00-second-season/13/"
         ]
       },
       {
@@ -27421,8 +27399,8 @@
         "series": "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/",
         "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
         "samples": [
-          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/10/",
-          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/11/"
+          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/11/",
+          "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/12/"
         ]
       },
       {
@@ -28808,7 +28786,6 @@
         "series": "https://jkanime.net/hanbun-no-tsuki/",
         "title": "Hanbun no Tsuki ga Noboru Sora",
         "samples": [
-          "https://jkanime.net/hanbun-no-tsuki/5/",
           "https://jkanime.net/hanbun-no-tsuki/6/"
         ]
       },
@@ -30909,13 +30886,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/rurouni-kenshin-seisouhen/",
-        "title": "Rurouni Kenshin: Seisouhen",
-        "samples": [
-          "https://jkanime.net/rurouni-kenshin-seisouhen/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/groove-adventure-rave/",
         "title": "Groove Adventure Rave",
         "samples": [
@@ -31311,8 +31281,8 @@
         "series": "https://jkanime.net/furi-kuri-flcl/",
         "title": "FLCL",
         "samples": [
-          "https://jkanime.net/furi-kuri-flcl/2/",
-          "https://jkanime.net/furi-kuri-flcl/3/"
+          "https://jkanime.net/furi-kuri-flcl/3/",
+          "https://jkanime.net/furi-kuri-flcl/4/"
         ]
       },
       {
@@ -33595,8 +33565,8 @@
         "series": "https://jkanime.net/urusei-yatsura-2022/",
         "title": "Urusei Yatsura (2022)",
         "samples": [
-          "https://jkanime.net/urusei-yatsura-2022/24/",
-          "https://jkanime.net/urusei-yatsura-2022/25/"
+          "https://jkanime.net/urusei-yatsura-2022/25/",
+          "https://jkanime.net/urusei-yatsura-2022/26/"
         ]
       },
       {
@@ -34554,8 +34524,8 @@
         "series": "https://jkanime.net/urahara/",
         "title": "Urahara",
         "samples": [
-          "https://jkanime.net/urahara/10/",
-          "https://jkanime.net/urahara/2/"
+          "https://jkanime.net/urahara/2/",
+          "https://jkanime.net/urahara/3/"
         ]
       },
       {
@@ -35585,8 +35555,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/50/",
-          "https://jkanime.net/tribe-cool-crew/6/"
+          "https://jkanime.net/tribe-cool-crew/6/",
+          "https://jkanime.net/tribe-cool-crew/7/"
         ]
       },
       {
@@ -66212,9 +66182,8 @@
         "renewal-error"
       ],
       "observed": 46,
-      "stored": 23,
+      "stored": 24,
       "missing": [
-        "https://jkanime.net/urusei-yatsura-2022/24/",
         "https://jkanime.net/urusei-yatsura-2022/25/",
         "https://jkanime.net/urusei-yatsura-2022/26/",
         "https://jkanime.net/urusei-yatsura-2022/27/",
@@ -66240,12 +66209,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
         "mega": 19,
         "streamwish": 19,
         "vidhide": 19,
-        "mp4upload": 23,
+        "mp4upload": 24,
         "streamtape": 19
       },
       "playbackVerified": false
@@ -90340,13 +90309,11 @@
       "series": "https://jkanime.net/urahara/",
       "title": "Urahara",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/urahara/10/",
         "https://jkanime.net/urahara/2/",
         "https://jkanime.net/urahara/3/",
         "https://jkanime.net/urahara/4/",
@@ -90358,11 +90325,11 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 3,
-        "vidhide": 3
+        "mp4upload": 4,
+        "streamwish": 4,
+        "vidhide": 4
       },
       "playbackVerified": false
     },
@@ -107053,9 +107020,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 45,
+      "stored": 46,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/50/",
         "https://jkanime.net/tribe-cool-crew/6/",
         "https://jkanime.net/tribe-cool-crew/7/",
         "https://jkanime.net/tribe-cool-crew/8/",
@@ -107065,7 +107031,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 45,
+        "streamwish": 46,
         "mega": 9
       },
       "playbackVerified": false
@@ -109513,7 +109479,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 33,
+      "renewalFailed": 32,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -112392,15 +112358,13 @@
     {
       "series": "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/",
       "title": "Phi Brain: Kami no Puzzle 3rd Season",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 25,
       "stored": 25,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -117309,7 +117273,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 52,
+      "renewalFailed": 51,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -119010,7 +118974,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -119179,7 +119143,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -122412,7 +122376,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -126180,7 +126144,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 22,
         "streamwish": 26,
@@ -126257,15 +126221,13 @@
     {
       "series": "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/",
       "title": "Suzumiya Haruhi no Yuuutsu (2009)",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -126580,7 +126542,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 23,
         "streamwish": 26,
@@ -126769,13 +126731,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 26,
-        "streamwish": 14,
-        "vidhide": 14,
-        "mp4upload": 14,
-        "streamtape": 14
+        "streamwish": 13,
+        "vidhide": 13,
+        "mp4upload": 13,
+        "streamtape": 13
       },
       "playbackVerified": false
     },
@@ -127596,7 +127558,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -128135,7 +128097,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -128370,7 +128332,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -128559,7 +128521,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -128941,7 +128903,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -129334,7 +129296,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -129817,13 +129779,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 11,
-        "streamwish": 5,
-        "vidhide": 5,
-        "mp4upload": 5,
-        "streamtape": 5
+        "streamwish": 4,
+        "vidhide": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -130671,7 +130633,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -130889,7 +130851,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 43,
+      "renewalFailed": 42,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -130954,7 +130916,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -131021,13 +130983,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
         "mega": 24,
-        "streamwish": 19,
-        "vidhide": 19,
-        "mp4upload": 19,
-        "streamtape": 19
+        "streamwish": 18,
+        "vidhide": 18,
+        "mp4upload": 18,
+        "streamtape": 18
       },
       "playbackVerified": false
     },
@@ -131085,7 +131047,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -131621,7 +131583,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
         "mp4upload": 26,
         "streamwish": 26,
@@ -132060,7 +132022,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -132223,7 +132185,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -132757,7 +132719,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134777,7 +134739,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135227,14 +135189,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 12,
-        "mega": 8,
-        "vidhide": 8,
-        "mixdrop": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "mega": 7,
+        "vidhide": 7,
+        "mixdrop": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -135506,7 +135468,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135976,7 +135938,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136252,7 +136214,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136684,7 +136646,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -136955,7 +136917,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136995,7 +136957,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -137925,15 +137887,13 @@
     {
       "series": "https://jkanime.net/rurouni-kenshin-seisouhen/",
       "title": "Rurouni Kenshin: Seisouhen",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -139129,7 +139089,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 6,
         "streamwish": 5,
