@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T00:51:31.960972+00:00",
+  "checkedAt": "2026-10-31T01:01:49.292872+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72166,
-  "missingChapters": 1587,
+  "storedChapters": 72180,
+  "missingChapters": 1573,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -16,8 +16,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/11/",
-          "https://jkanime.net/ao-ashi/12/"
+          "https://jkanime.net/ao-ashi/12/",
+          "https://jkanime.net/ao-ashi/13/"
         ]
       },
       {
@@ -341,13 +341,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sakamoto-days/",
-        "title": "Sakamoto Days",
-        "samples": [
-          "https://jkanime.net/sakamoto-days/22/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta/",
         "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
         "samples": [
@@ -359,13 +352,6 @@
         "title": "Shingeki no Kyojin Movie: Kanketsu-hen - The Last Attack",
         "samples": [
           "https://jkanime.net/shingeki-no-kyojin-movie-kanketsu-hen-the-last-attack/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
-        "title": "Puniru wa Kawaii Slime",
-        "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/24/"
         ]
       },
       {
@@ -607,16 +593,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/20/",
-          "https://jkanime.net/sugar-apple-fairy-tale/21/"
+          "https://jkanime.net/sugar-apple-fairy-tale/21/",
+          "https://jkanime.net/sugar-apple-fairy-tale/22/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/20/",
-          "https://jkanime.net/spy-kyoushitsu/21/"
+          "https://jkanime.net/spy-kyoushitsu/21/",
+          "https://jkanime.net/spy-kyoushitsu/22/"
         ]
       },
       {
@@ -1654,8 +1640,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/6/",
-          "https://jkanime.net/sora-to-umi-no-aida/7/"
+          "https://jkanime.net/sora-to-umi-no-aida/7/",
+          "https://jkanime.net/sora-to-umi-no-aida/8/"
         ]
       },
       {
@@ -2110,8 +2096,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/5/",
-          "https://jkanime.net/stella-no-mahou/6/"
+          "https://jkanime.net/stella-no-mahou/6/",
+          "https://jkanime.net/stella-no-mahou/7/"
         ]
       },
       {
@@ -2353,13 +2339,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
-        "title": "Glass no Hana to Kowasu Sekai",
-        "samples": [
-          "https://jkanime.net/glass-no-hana-to-kowasu-sekai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kizumonogatari-i-tekketsu-hen/",
         "title": "Kizumonogatari I: Tekketsu-hen",
         "samples": [
@@ -2594,13 +2573,6 @@
         "samples": [
           "https://jkanime.net/venus-project-climax/1/",
           "https://jkanime.net/venus-project-climax/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bakemono-no-ko/",
-        "title": "Bakemono no Ko",
-        "samples": [
-          "https://jkanime.net/bakemono-no-ko/1/"
         ]
       },
       {
@@ -3468,13 +3440,6 @@
         "title": "Love Live! School Idol Project OVA",
         "samples": [
           "https://jkanime.net/love-live-school-idol-project-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bayonetta-bloody-fate/",
-        "title": "Bayonetta: Bloody Fate",
-        "samples": [
-          "https://jkanime.net/bayonetta-bloody-fate/1/"
         ]
       },
       {
@@ -4732,8 +4697,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/10/",
-          "https://jkanime.net/asura-cryin/11/"
+          "https://jkanime.net/asura-cryin/11/",
+          "https://jkanime.net/asura-cryin/12/"
         ]
       },
       {
@@ -5468,8 +5433,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/29/",
-          "https://jkanime.net/taiho-shichau-zo/30/"
+          "https://jkanime.net/taiho-shichau-zo/30/",
+          "https://jkanime.net/taiho-shichau-zo/31/"
         ]
       },
       {
@@ -5817,8 +5782,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/11/",
-          "https://jkanime.net/ao-ashi/12/"
+          "https://jkanime.net/ao-ashi/12/",
+          "https://jkanime.net/ao-ashi/13/"
         ]
       },
       {
@@ -8137,7 +8102,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/24/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/1/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/10/"
         ]
       },
       {
@@ -12175,8 +12141,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/20/",
-          "https://jkanime.net/sugar-apple-fairy-tale/21/"
+          "https://jkanime.net/sugar-apple-fairy-tale/21/",
+          "https://jkanime.net/sugar-apple-fairy-tale/22/"
         ]
       },
       {
@@ -12215,8 +12181,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/20/",
-          "https://jkanime.net/spy-kyoushitsu/21/"
+          "https://jkanime.net/spy-kyoushitsu/21/",
+          "https://jkanime.net/spy-kyoushitsu/22/"
         ]
       },
       {
@@ -23861,13 +23827,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
-        "title": "Glass no Hana to Kowasu Sekai",
-        "samples": [
-          "https://jkanime.net/glass-no-hana-to-kowasu-sekai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kizumonogatari-i-tekketsu-hen/",
         "title": "Kizumonogatari I: Tekketsu-hen",
         "samples": [
@@ -24769,13 +24728,6 @@
         "samples": [
           "https://jkanime.net/prison-school/1/",
           "https://jkanime.net/prison-school/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bakemono-no-ko/",
-        "title": "Bakemono no Ko",
-        "samples": [
-          "https://jkanime.net/bakemono-no-ko/1/"
         ]
       },
       {
@@ -28342,13 +28294,6 @@
         "title": "Love Live! School Idol Project OVA",
         "samples": [
           "https://jkanime.net/love-live-school-idol-project-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bayonetta-bloody-fate/",
-        "title": "Bayonetta: Bloody Fate",
-        "samples": [
-          "https://jkanime.net/bayonetta-bloody-fate/1/"
         ]
       },
       {
@@ -33606,8 +33551,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/10/",
-          "https://jkanime.net/asura-cryin/11/"
+          "https://jkanime.net/asura-cryin/11/",
+          "https://jkanime.net/asura-cryin/12/"
         ]
       },
       {
@@ -38701,8 +38646,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/29/",
-          "https://jkanime.net/taiho-shichau-zo/30/"
+          "https://jkanime.net/taiho-shichau-zo/30/",
+          "https://jkanime.net/taiho-shichau-zo/31/"
         ]
       },
       {
@@ -41515,13 +41460,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
-        "title": "Glass no Hana to Kowasu Sekai",
-        "samples": [
-          "https://jkanime.net/glass-no-hana-to-kowasu-sekai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kizumonogatari-i-tekketsu-hen/",
         "title": "Kizumonogatari I: Tekketsu-hen",
         "samples": [
@@ -41701,13 +41639,6 @@
         "title": "Pokemon the Movie XY: Ring no Choumajin Hoopa",
         "samples": [
           "https://jkanime.net/pokemon-the-movie-xy-ring-no-choumajin-hoopa/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bakemono-no-ko/",
-        "title": "Bakemono no Ko",
-        "samples": [
-          "https://jkanime.net/bakemono-no-ko/1/"
         ]
       },
       {
@@ -42422,13 +42353,6 @@
         "title": "Love Live! School Idol Project OVA",
         "samples": [
           "https://jkanime.net/love-live-school-idol-project-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bayonetta-bloody-fate/",
-        "title": "Bayonetta: Bloody Fate",
-        "samples": [
-          "https://jkanime.net/bayonetta-bloody-fate/1/"
         ]
       },
       {
@@ -44687,9 +44611,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/ao-ashi/11/",
         "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
         "https://jkanime.net/ao-ashi/17/",
@@ -44704,9 +44627,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -53968,20 +53891,16 @@
     {
       "series": "https://jkanime.net/sakamoto-days/",
       "title": "Sakamoto Days",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 22,
-      "stored": 21,
-      "missing": [
-        "https://jkanime.net/sakamoto-days/22/"
-      ],
+      "stored": 22,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "vidhide": 9,
-        "mp4upload": 19,
+        "mp4upload": 20,
         "streamwish": 12
       },
       "playbackVerified": false
@@ -55873,22 +55792,19 @@
       "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
       "title": "Puniru wa Kawaii Slime",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 23,
-      "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/24/"
-      ],
+      "stored": 24,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
         "mega": 11,
-        "streamwish": 19,
+        "streamwish": 20,
         "vidhide": 13,
-        "mp4upload": 22,
+        "mp4upload": 23,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -67652,9 +67568,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/20/",
         "https://jkanime.net/sugar-apple-fairy-tale/21/",
         "https://jkanime.net/sugar-apple-fairy-tale/22/",
         "https://jkanime.net/sugar-apple-fairy-tale/23/",
@@ -67664,7 +67579,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 17,
+        "mega": 18,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -67764,9 +67679,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/20/",
         "https://jkanime.net/spy-kyoushitsu/21/",
         "https://jkanime.net/spy-kyoushitsu/22/",
         "https://jkanime.net/spy-kyoushitsu/23/",
@@ -67776,7 +67690,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 16,
+        "mega": 17,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 13,
@@ -88309,9 +88223,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/6/",
         "https://jkanime.net/sora-to-umi-no-aida/7/",
         "https://jkanime.net/sora-to-umi-no-aida/8/",
         "https://jkanime.net/sora-to-umi-no-aida/9/"
@@ -88320,7 +88233,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 8
+        "mega": 9
       },
       "playbackVerified": false
     },
@@ -93739,18 +93652,17 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/18if/12/",
         "https://jkanime.net/18if/13/",
-        "https://jkanime.net/18if/6/",
-        "https://jkanime.net/18if/9/"
+        "https://jkanime.net/18if/6/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -97970,9 +97882,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/5/",
         "https://jkanime.net/stella-no-mahou/6/",
         "https://jkanime.net/stella-no-mahou/7/",
         "https://jkanime.net/stella-no-mahou/8/",
@@ -97982,7 +97893,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -101611,20 +101522,16 @@
     {
       "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
       "title": "Glass no Hana to Kowasu Sekai",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/glass-no-hana-to-kowasu-sekai/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -104420,20 +104327,16 @@
     {
       "series": "https://jkanime.net/bakemono-no-ko/",
       "title": "Bakemono no Ko",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bakemono-no-ko/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -114479,20 +114382,16 @@
     {
       "series": "https://jkanime.net/bayonetta-bloody-fate/",
       "title": "Bayonetta: Bloody Fate",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bayonetta-bloody-fate/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -129162,12 +129061,11 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
         "https://jkanime.net/07-ghost/18/",
-        "https://jkanime.net/07-ghost/20/",
         "https://jkanime.net/07-ghost/21/",
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
@@ -129178,9 +129076,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 14
+        "mega": 15
       },
       "playbackVerified": false
     },
@@ -129534,9 +129432,8 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/asura-cryin/10/",
         "https://jkanime.net/asura-cryin/11/",
         "https://jkanime.net/asura-cryin/12/",
         "https://jkanime.net/asura-cryin/13/",
@@ -129545,9 +129442,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -143879,9 +143776,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 23,
+      "stored": 24,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/29/",
         "https://jkanime.net/taiho-shichau-zo/30/",
         "https://jkanime.net/taiho-shichau-zo/31/",
         "https://jkanime.net/taiho-shichau-zo/32/",
@@ -143918,7 +143814,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 22,
+        "mp4upload": 23,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -147744,7 +147640,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 218,
+      "renewalFailed": 518,
       "families": {
         "mega": 1216,
         "streamwish": 1216,
