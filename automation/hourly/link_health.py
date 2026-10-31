@@ -34,9 +34,9 @@ REPORTED_LIMIT=10
 INTERVAL={'alive':24*3600,'unknown':6*3600,'dead':1800,'excluded':48*3600}
 CONFIRM_GAP=1800
 # The whole archive is swept in turns inside the same per-run request budget: news keep priority, the archive
-# gets ARCHIVE_SLOTS of the regular slots (more when news leave them free), reading at most ARCHIVE_SHARDS
+# gets half of the regular slots (20 per run since 31/10/2026, approved by Robin; same 2.5 s pause) (more when news leave them free), reading at most ARCHIVE_SHARDS
 # series shards per run from a cursor stored in link-health.json.
-ARCHIVE_SLOTS=2
+ARCHIVE_SHARE=2  # the archive is guaranteed limit//ARCHIVE_SHARE of the regular slots: 10 of 20
 ARCHIVE_SHARDS=40
 POPULAR_SERIES=10
 def sha(b):return hashlib.sha256(b).hexdigest()
@@ -153,7 +153,7 @@ def due(entry,now):
  if not entry or 'checkedAt' not in entry:return True
  kind='excluded' if entry.get('excluded') else entry.get('state','unknown')
  return now-entry['checkedAt']>=INTERVAL.get(kind,INTERVAL['unknown'])
-def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budget=75):
+def check(folder,now=None,limit=20,pause=2.5,fetcher=fetch,sleep=time.sleep,budget=75):
  """Check a few due links; deletion counts only when a fake id reads deleted and a real link reads alive."""
  folder=Path(folder);now=time.time() if now is None else now;rules=policy();started=time.time()
  path=folder/'link-health.json';health=json.loads(path.read_bytes()) if path.exists() else {'schema':1,'links':{},'controls':{},'canaries':{}}
@@ -166,7 +166,7 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
   if e.get('archive') and k not in found and (e.get('excluded') or e.get('state')=='dead'):found[k]={x:e[x] for x in ('family','name','url','episode','archive','download') if x in e}
  ordered=sorted((k for k in found if ready(k)),key=lambda k:(k in links,links.get(k,{}).get('checkedAt',0)))
  news=[k for k in ordered if not found[k].get('reported')]
- archive=archive_candidates(folder,health,now,rules,found,max(0,limit-min(len(news),max(0,limit-ARCHIVE_SLOTS))));found.update(archive)
+ archive=archive_candidates(folder,health,now,rules,found,max(0,limit-min(len(news),limit-limit//ARCHIVE_SHARE)));found.update(archive)
  queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+news[:limit-len(archive)]+list(archive)
  families=sorted({found[k]['family'] for k in queue});results={};summary={'checked':0,'alive':0,'dead':0,'unknown':0,'suspended':[]};sent=[0]
  def get(url):

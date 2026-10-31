@@ -155,15 +155,15 @@ class LinkHealthTests(unittest.TestCase):
    for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':arch[i*3:i*3+3]+([gone] if i==1 else [])}])
    web=Old();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
    # News first (3 due links), the archive fills the rest of the 6 regular slots; same total as before.
-   first=link_health.check(d,now=now,fetcher=web,sleep=lambda s:None)
+   first=link_health.check(d,now=now,fetcher=web,sleep=lambda s:None,limit=6)
    self.assertEqual(first['checked'],6);self.assertEqual(first['archive']['checked'],3);self.assertEqual(sum(u in web.urls for u in (DEAD_MP4,LIVE_SW,DEAD_VOE)),2)
    seen=set(u for u in web.urls if 'arch' in u)
-   for n in range(1,6):web.urls.clear();link_health.check(d,now=now+60*n,fetcher=web,sleep=lambda s:None);seen|={u for u in web.urls if 'arch' in u}
+   for n in range(1,6):web.urls.clear();link_health.check(d,now=now+60*n,fetcher=web,sleep=lambda s:None,limit=6);seen|={u for u in web.urls if 'arch' in u}
    self.assertEqual(seen,set(arch)|{gone},'every archive link checked once, none twice in a day')
    health=json.loads(Path(d,'link-health.json').read_text());g=health['links'][key('Mp4upload',gone)]
    self.assertTrue(g['archive']);self.assertEqual(g['state'],'dead');self.assertGreaterEqual(health['archive']['sweeps'],1)
    # The cursor moved on, but the dead archive link is confirmed 30 min later and leaves the channel.
-   link_health.check(d,now=now+1900,fetcher=web,sleep=lambda s:None)
+   link_health.check(d,now=now+1900,fetcher=web,sleep=lambda s:None,limit=6)
    self.assertTrue(json.loads(Path(d,'link-health.json').read_text())['links'][key('Mp4upload',gone)]['excluded'])
    # Alive archive entries are dropped after their interval; excluded ones stay.
    link_health.check(d,now=now+25*3600,fetcher=Old(),sleep=lambda s:None,limit=0)
@@ -174,15 +174,20 @@ class LinkHealthTests(unittest.TestCase):
    world(d);many=['https://www.mp4upload.com/embed-news%04dabcd.html'%i for i in range(8)]
    shard(d,ROOT,[{'family':'mp4upload','name':'Mp4upload','links':many}])
    for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-old%dabcdefg.html'%i]}])
-   s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=Web(),sleep=lambda s:None)
-   self.assertEqual((s['checked'],s['archive']['checked']),(6,2))
+   s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=Web(),sleep=lambda s:None,limit=6)
+   self.assertEqual((s['checked'],s['archive']['checked']),(6,3))
+   # Production: 20 regular slots, at least 10 for the archive even with 8+ news links due.
+   many2=['https://www.mp4upload.com/embed-more%04dabcd.html'%i for i in range(20)];shard(d,ROOT,[{'family':'mp4upload','name':'Mp4upload','links':many2}])
+   for i in range(12):shard(d,'https://jkanime.net/older-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-older%dabcd.html'%i]}])
+   s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp()+60,fetcher=Web(),sleep=lambda s:None)
+   self.assertEqual((s['checked'],s['archive']['checked']),(20,10))
  def test_most_watched_series_get_half_of_the_archive_slots(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);hot='https://jkanime.net/hot/1/'
    shard(d,hot,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-hot%dabcdefg.html'%i for i in range(4)]}])
    for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-old%dabcdefg.html'%i]}])
    Path(d,'play-stats.json').write_text(json.dumps({'options':[],'popular':[{'series':'https://jkanime.net/hot/','devices':3}]}))
-   web=Web();s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=web,sleep=lambda s:None)
+   web=Web();s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=web,sleep=lambda s:None,limit=6)
    arch=[u for u in web.urls if '/embed-hot' in u or '/embed-old' in u]
    self.assertEqual(s['archive']['checked'],3);self.assertEqual(sum('/embed-hot' in u for u in arch),1)
 if __name__=='__main__':unittest.main()
