@@ -39,7 +39,7 @@ def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
  command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java'),*([str(W/'VoeOverlayAudit.java')] if modern else [])])
  return str(runtime)+os.pathsep+cp
-def build(state,approved,now,allow_voe=False):
+def build(state,approved,now,allow_voe=False,plays=None):
  rows={}
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/'
@@ -78,8 +78,13 @@ def build(state,approved,now,allow_voe=False):
   files[name]=packed;index['series'][sha(parent.encode())]={'path':name,'sha256':h,'bytes':len(packed),'expandedBytes':len(body),'episodes':len(eps)}
  if not rows:raise ValueError('No approved observations; previous channel retained')
  import schedule,help_chain
- index['schedule']=schedule.build(state,available,now,help_chain.titles())
+ titles=help_chain.titles();index['schedule']=schedule.build(state,available,now,titles)
+ if plays:
+  import plays as play_votes
+  index['ranking']=play_votes.ranking(plays,set(rows),titles);index['playScores']=play_votes.scores(plays)
  while len(raw(index))>APP_INDEX_BYTES and len(index['series'])>1:
+  # Over the app limit: option scores go first, then the least recently observed series.
+  if index.pop('playScores',None) is not None:continue
   oldest=min(rows,key=lambda p:recency[p]);entry=index['series'].pop(sha(oldest.encode()));files.pop(entry['path'],None);rows.pop(oldest)
  return index,files
 def main():
@@ -154,7 +159,8 @@ def main():
   if set(approved)!=set(queries):raise ValueError('Incomplete real app option validation')
   from link_health import exclude
   exclude(D,approved)
-  index,files=build(state,approved,now)
+  import plays as play_votes
+  index,files=build(state,approved,now,plays=play_votes.load(D))
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')

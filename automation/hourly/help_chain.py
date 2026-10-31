@@ -99,11 +99,13 @@ def get(base,key,path,limit=4194305):
 def observe(folder,base,key,now,fetch=None):
  # Worker summary and device dead-link reports, each best effort; neither blocks the import.
  out={}
- for name,path in (('worker','/v1/stats'),('deadReports','/v1/dead-reports')):
+ for name,path in (('worker','/v1/stats'),('deadReports','/v1/dead-reports'),('playStats','/v1/play-stats')):
   try:out[name]=fetch(path) if fetch else get(base,key,path)
   except Exception as error:out[name]={'error':type(error).__name__+': '+str(error)[:120]}
  links=out['deadReports'].get('links') if isinstance(out['deadReports'].get('links'),list) else None
  if links is not None:(folder/'dead-reports.json').write_bytes(json.dumps({'checkedAt':iso(now),'links':links[:300]},sort_keys=True).encode())
+ plays=out['playStats']
+ if isinstance(plays.get('options'),list) and isinstance(plays.get('popular'),list):(folder/'play-stats.json').write_bytes(json.dumps({'checkedAt':iso(now),'options':plays['options'],'families':plays.get('families',{}),'popular':plays['popular']},sort_keys=True).encode())
  return out['worker'],len(links) if links is not None else None
 def pull(folder,state,now,fetch=None,observe_fetch=None):
  base,key=os.environ.get('ZZ_HELP_URL'),os.environ.get('ZZ_HELP_KEY') or derived('help-key')

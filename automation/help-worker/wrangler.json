@@ -11,7 +11,8 @@
     "CHANNEL_URL": "https://zzanime-respaldo.zzcoredev.workers.dev/channel.json",
     "DAILY_CAP": "40000",
     "IP_LIMIT": "200",
-    "SAME_ASN_ZONES": "0"
+    "SAME_ASN_ZONES": "0",
+    "PLAY_CAP": "20000"
   },
   "send_metrics": false,
   "observability": {"enabled": false}

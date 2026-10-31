@@ -152,4 +152,26 @@ await check('dead-link reports need two devices and stay private to the cloud',a
  assert.equal((await dead(t,[{episode:TR,name:'Rarovideo',url:'https://raro.example/x'}])).of('https://raro.example/x'),'unsupported');
  assert.equal((await get(t,'/v1/dead-reports','wrong')).status,401);
  assert.equal((await get(t,'/v1/stats')).body.deadCandidates,1);});
-console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch)');
+async function play(t,items,{device,asn=3352,ip}={}){
+ device=device||'device-'+String(++n).padStart(12,'0');
+ const req=new Request('https://help.test/v1/play',{method:'POST',body:JSON.stringify({schema:1,device,items})});
+ Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||device);
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
+}
+await check('play votes: one per device and day, popularity by distinct devices, private to the cloud',async()=>{
+ const t=setup(),good='https://www.mp4upload.com/embed-good1234.html',bad='https://streamwish.to/e/bad12345',voe='https://voe.sx/e/voe12345';
+ const ep=(u,ok,e=TR)=>({episode:e,name:u.includes('mp4upload')?'Mp4upload':u.includes('voe')?'Voe':'Streamwish',url:u,ok});
+ assert.equal((await play(t,[ep(good,true)],{device:'device-play-device-1'})).of(good),'stored');
+ assert.equal((await play(t,[ep(good,true)],{device:'device-play-device-1'})).of(good),'duplicate');
+ for(const d of ['device-play-device-2','device-play-device-3'])await play(t,[ep(good,true),ep(bad,false),ep(voe,true,SBR)],{device:d});
+ await play(t,[ep(bad,false),ep(bad,true)],{device:'device-play-device-4'});
+ assert.equal((await play(t,[{episode:TR,name:'Raro',url:'https://raro.example/x',ok:true}])).of('https://raro.example/x'),'unsupported');
+ assert.equal((await play(t,[{episode:TR,name:'Mp4upload',url:good}])).of(good),'unsupported');
+ assert.equal((await get(t,'/v1/play-stats','wrong')).status,401);
+ const st=(await get(t,'/v1/play-stats')).body,by=Object.fromEntries(st.options.map(o=>[o.family,[o.ok,o.fail]]));
+ assert.deepEqual(by,{mp4upload:[3,0],streamwish:[1,3]});assert.deepEqual(st.families.voe,[2,0]);
+ assert.deepEqual(st.popular.map(x=>[x.series,x.devices]),[['https://jkanime.net/tokyo-revengers-santen-sensou-hen/',4],['https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/',2]]);
+ assert.ok(!JSON.stringify(t.store.rows('SELECT * FROM plays')).includes('device-play-device-1'));
+ // 8 rows: device 4 voted the same option twice in one day and keeps a single row.
+ assert.equal((await get(t,'/v1/stats')).body.today.plays,8);});
+console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch, play votes)');

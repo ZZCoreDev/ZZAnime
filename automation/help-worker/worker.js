@@ -11,6 +11,8 @@ export class HelpStore extends DurableObject{
  dead(items,limits,expires,now){return this.store.dead(items,limits,expires,now);}
  deadReports(now){return this.store.deadReports(now);}
  stats(now,sameAsnZones){return this.store.stats(now,sameAsnZones);}
+ play(items,limits,expires,day){return this.store.play(items,limits,expires,day);}
+ playStats(now){return this.store.playStats(now);}
 }
 
 export default{

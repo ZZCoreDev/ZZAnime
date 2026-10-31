@@ -89,6 +89,8 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS seen(episode TEXT,device TEXT,asn INTEGER,created INTEGER,options TEXT,PRIMARY KEY(episode,device))');
   sql.exec('CREATE TABLE IF NOT EXISTS decided(episode TEXT,okey TEXT,name TEXT,family TEXT,url TEXT,devices INTEGER,asns INTEGER,first INTEGER,verdict TEXT,checked INTEGER,PRIMARY KEY(episode,okey))');
   sql.exec('CREATE TABLE IF NOT EXISTS counters(k TEXT PRIMARY KEY,n INTEGER,expires INTEGER)');
+  // One row per option, device and day: a device votes once a day per option (played or failed).
+  sql.exec('CREATE TABLE IF NOT EXISTS plays(okey TEXT,device TEXT,day INTEGER,episode TEXT,name TEXT,family TEXT,url TEXT,ok INTEGER,fail INTEGER,PRIMARY KEY(okey,device,day))');
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
   for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER'])try{sql.exec(q);}catch{}}
@@ -160,6 +162,28 @@ export class Store{
   }
   return {status};
  }
+ // Writes only when the device's vote for that option and day is new or changes, so repeats cost nothing.
+ play(items,limits,expires,day){
+  if(!this.take(limits,expires))return {limited:true};
+  const status={};
+  for(const it of items){
+   const r=this.rows('SELECT ok,fail FROM plays WHERE okey=? AND device=? AND day=?',it.okey,it.device,day)[0],ok=it.ok?1:0,fail=it.ok?0:1;
+   if(!r)this.sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail);
+   else if((ok&&!r.ok)||(fail&&!r.fail))this.sql.exec('UPDATE plays SET ok=MAX(ok,?),fail=MAX(fail,?) WHERE okey=? AND device=? AND day=?',ok,fail,it.okey,it.device,day);
+   status[it.url]=r?'duplicate':'stored';
+  }
+  return {status};
+ }
+ // Option and family success counts (devices, 14 days) and series popularity (distinct devices, 7 days).
+ playStats(now){
+  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM plays WHERE day<?',day-13);
+  const options=this.rows('SELECT okey,family,SUM(ok) AS oks,SUM(fail) AS fails FROM plays GROUP BY okey HAVING SUM(ok)+SUM(fail)>=3 ORDER BY SUM(ok)+SUM(fail) DESC,okey LIMIT 3000');
+  const families=Object.fromEntries(this.rows('SELECT family,SUM(ok) AS oks,SUM(fail) AS fails FROM plays GROUP BY family').map(r=>[r.family,[r.oks,r.fails]]));
+  const viewers=new Map();
+  for(const r of this.rows('SELECT DISTINCT episode,device FROM plays WHERE day>=? LIMIT 200000',day-6)){const series=r.episode.replace(/[0-9]+\/$/,'');let set=viewers.get(series);if(!set)viewers.set(series,set=new Set());set.add(r.device);}
+  const popular=[...viewers].map(([series,set])=>({series,devices:set.size})).filter(x=>x.devices>=2).sort((a,b)=>b.devices-a.devices||(a.series<b.series?-1:1)).slice(0,100);
+  return {options:options.map(r=>({key:r.okey,family:r.family,ok:r.oks,fail:r.fails})),families,popular};
+ }
  // Two devices are enough here: a report only moves the link to the front of the cloud link checker,
  // which decides on its own reading and controls.
  deadReports(now){
@@ -179,7 +203,8 @@ export class Store{
    today:{devices:one('SELECT COUNT(DISTINCT device) AS n FROM seen WHERE created>=?',start).n||0,networks:one('SELECT COUNT(DISTINCT asn) AS n FROM seen WHERE created>=?',start).n||0,
     answers:one('SELECT COUNT(*) AS n FROM seen WHERE created>=?',start).n||0,requests:one('SELECT SUM(n) AS n FROM counters WHERE k LIKE ? AND expires=?','ip:%',(day+2)*DAY).n||0,
     items:counter('day:'+day),stop:counter('stat:'+day+':stop'),unsupported:counter('stat:'+day+':unsupported'),limited:counter('stat:'+day+':limited'),
-    deadReports:one('SELECT COUNT(*) AS n FROM dead WHERE created>=?',start).n||0},
+    deadReports:one('SELECT COUNT(*) AS n FROM dead WHERE created>=?',start).n||0,
+    plays:one('SELECT COUNT(*) AS n FROM plays WHERE day=?',day).n||0},
    pendingEpisodes:episodes,quorum,verdicts,sameAsnZones,
    deadCandidates:this.rows('SELECT okey FROM dead GROUP BY okey HAVING COUNT(DISTINCT device)>=2').length};
  }
@@ -200,7 +225,7 @@ function authorized(request,env){return !!env.HELP_KEY&&same(request.headers.get
 export async function handle(request,env,store,deps={}){
  const now=(deps.now||Date.now)(),fetcher=deps.fetch||fetch,url=new URL(request.url),day=Math.floor(now/DAY),expires=(day+2)*DAY;
  const sameAsnZones=Math.max(0,Number(env.SAME_ASN_ZONES||0));
- if(request.method==='POST'&&(url.pathname==='/v1/submit'||url.pathname==='/v1/dead')){
+ if(request.method==='POST'&&['/v1/submit','/v1/dead','/v1/play'].includes(url.pathname)){
   // submit: {"schema":1,"device":"<random id>","items":[{"episode":url,"options":[{"name","url"}]}]}; per-item answer:
   // stored | duplicate | enough (drop it, enough devices answered) | stop (not wanted any more) | unsupported.
   // dead:   {"schema":1,"device":"<random id>","items":[{"episode":url,"name","url"}]}; answer per url.
@@ -210,6 +235,16 @@ export async function handle(request,env,store,deps={}){
   const ip=request.headers.get('cf-connecting-ip')||'',device=await sha(env.SALT+'|device|'+x.device);
   const ipKey='ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),result={},valid=[];
   const limits=n=>[[ipKey,Number(env.IP_LIMIT||200),1],[(url.pathname==='/v1/dead'?'deadday:':'day:')+day,Number(env.DAILY_CAP||40000),n]];
+  if(url.pathname==='/v1/play'){
+   // {"schema":1,"device","items":[{"episode","name","url","ok":true|false}]}: played for real or failed for real.
+   for(const it of x.items){
+    const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
+    if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
+    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,ok:it.ok});
+   }
+   if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],['playday:'+day,Number(env.PLAY_CAP||20000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
+   return json({accepted:true,items:Object.entries(result).map(([u,status])=>({url:u,status}))});
+  }
   if(url.pathname==='/v1/dead'){
    for(const it of x.items){
     const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
@@ -249,6 +284,10 @@ export async function handle(request,env,store,deps={}){
    row.options.push({name:r.name,family:r.family,url:r.url,devices:r.devices,asns:r.asns,zones:r.zones||0,check:r.verdict});out.set(r.episode,row);
   }
   return json({schema:1,generatedAt:iso(now),episodes:[...out.values()]});
+ }
+ if(request.method==='GET'&&url.pathname==='/v1/play-stats'){
+  if(!authorized(request,env))return json({error:'unauthorized'},401);
+  return json({schema:1,generatedAt:iso(now),...await store.playStats(now)});
  }
  if(request.method==='GET'&&url.pathname==='/v1/dead-reports'){
   if(!authorized(request,env))return json({error:'unauthorized'},401);
