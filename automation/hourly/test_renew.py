@@ -35,11 +35,26 @@ class RenewalTests(unittest.TestCase):
         _,_,_,state=self.fixture(2);failed[url]['retryAt']=now.timestamp()+3600;self.assertEqual(select(state,failed,now.timestamp(),100),[])
     def test_identity_fix_retries_only_affected_old_records_once(self):
         now,_,_,original=self.fixture();old=copy.deepcopy(next(iter(original['episodes'].values())));fresh=copy.deepcopy(old);fresh['observedAt']=now.isoformat();mao='https://jkanime.net/mao/';state={'episodes':{mao+'1/':old,mao+'2/':fresh,'https://jkanime.net/other/1/':old},'listings':{}};failed={url:{'retryAt':now.timestamp()+3600} for url in state['episodes']};dates=copy.deepcopy(state['episodes'])
-        identity={mao:{'title':'Mao','year':2026,'approved':True,'sources':{}}};catalog=[{'url':mao,'title':'Mao','year':2026}]
+        identity={mao:{'title':'Mao','year':2026,'approved':True,'collector':'test','sources':{}}};catalog=[{'url':mao,'title':'Mao','year':2026}]
         def read(path):return json.dumps(identity if path.name=='source-identities.json' else catalog).encode()
         with patch.object(Path,'read_bytes',read):
             self.assertEqual(repair_verified_identities(state,failed,now.timestamp()),1);self.assertEqual(failed[mao+'1/']['retryAt'],now.timestamp());self.assertGreater(failed[mao+'2/']['retryAt'],now.timestamp());self.assertGreater(failed['https://jkanime.net/other/1/']['retryAt'],now.timestamp());self.assertEqual(repair_verified_identities(state,failed,now.timestamp()+60),0)
         self.assertEqual(state['episodes'],dates)
+    def test_identity_waits_for_collector_deploy_then_clears_long_wait(self):
+        now,_,_,original=self.fixture();old=copy.deepcopy(next(iter(original['episodes'].values())));gx='https://jkanime.net/yugioh-duel-monsters-gx/'
+        state={'episodes':{gx+'1/':old},'listings':{}};failed={gx+'1/':{'retryAt':now.timestamp()+7*DAY,'permanentAttempts':6}}
+        identity={gx:{'title':'Yu Gi Oh!: Duel Monsters GX','year':2004,'approved':True,'sources':{'tio':{'slug':'yu-gi-oh-gx','title':'Yu-Gi-Oh! GX'}}}};catalog=[{'url':gx,'title':'Yu Gi Oh!: Duel Monsters GX','year':2004}]
+        def read(path):return json.dumps(identity if path.name=='source-identities.json' else catalog).encode()
+        with patch.object(Path,'read_bytes',read):
+            self.assertEqual(repair_verified_identities(state,failed,now.timestamp()),0);self.assertNotIn('identityRepairs',state)
+            identity[gx]['collector']='deployed';self.assertEqual(repair_verified_identities(state,failed,now.timestamp()),1)
+        self.assertEqual(failed[gx+'1/']['retryAt'],now.timestamp());self.assertNotIn('permanentAttempts',failed[gx+'1/'])
+    def test_real_identity_entries_match_the_catalogue(self):
+        here=Path(__file__).parent;rows={r['url']:r for r in json.loads((here/'catalogue.json').read_bytes())}
+        for parent,entry in json.loads((here/'source-identities.json').read_bytes()).items():
+            if not entry.get('approved'):continue
+            self.assertEqual((rows[parent]['title'].casefold(),rows[parent]['year']),(entry['title'].casefold(),entry['year']),parent)
+            self.assertTrue(entry['sources']);self.assertTrue(all(set(v)=={'slug','title'} for v in entry['sources'].values()),parent)
     def test_queued_sample_is_not_replaced_by_a_continuation(self):
         class Response:
             def __init__(self,rows):self.rows=rows

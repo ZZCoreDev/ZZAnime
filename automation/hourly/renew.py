@@ -19,12 +19,15 @@ def repair_verified_identities(state,failures,now):
     for parent,entry in json.loads(path.read_bytes()).items():
         row=rows.get(parent,{})
         if not entry.get('approved') or row.get('year')!=entry['year'] or row.get('title','').casefold()!=entry['title'].casefold():continue
+        # The aliases ship inside the collector: release retries only once an entry names the collector
+        # version that carries it (Mao predates this and was already released), never before the deploy.
+        if 'collector' not in entry and parent not in state.get('identityRepairs',{}):continue
         revision=hashlib.sha256(json.dumps(entry,sort_keys=True).encode()).hexdigest();done=state.setdefault('identityRepairs',{})
         if done.get(parent)==revision:continue
         for url,failure in failures.items():
             ep=state['episodes'].get(url)
             if url.rsplit('/',2)[0]+'/'==parent and ep and now-stamp(ep['observedAt'])>=LEAD_AGE:
-                failure['previousRetryAt']=failure.get('retryAt',0);failure['retryAt']=now;repaired+=1
+                failure['previousRetryAt']=failure.get('retryAt',0);failure['retryAt']=now;failure.pop('permanentAttempts',None);repaired+=1
         done[parent]=revision
     return repaired
 

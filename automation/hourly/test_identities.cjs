@@ -8,4 +8,6 @@ assert.equal(identity.resolve({url:'https://jkanime.net/psyren/',title:'Psyren'}
 assert.equal(identity.resolve({url:'https://jkanime.net/dr-stone-science-future-part-3/',title:'Dr. Stone: Science Future Part 3'},'flv',true).title,'Dr. Stone: Science Future Part 3');
 const known=new Map([[row.url,row]]);assert.equal(identity.canonicalSlug('mao-2026',known,true),'mao');assert.equal(identity.canonicalSlug('unknown',known,true),'unknown');
 known.set('https://jkanime.net/mao-2026/',{...row,title:'Another series'});assert.equal(identity.canonicalSlug('mao-2026',known,true),'mao-2026');
+const gx={url:'https://jkanime.net/yugioh-duel-monsters-gx/',title:'Yu Gi Oh!: Duel Monsters GX',year:2004};assert.equal(identity.resolve(gx,'tio').slug,'yu-gi-oh-gx');assert.throws(()=>identity.resolve(gx,'flv'));assert.throws(()=>identity.resolve({...gx,year:2005},'tio'));
+const pot={url:'https://jkanime.net/prince-of-tennis/',title:'Prince of Tennis',year:2001};assert.equal(identity.resolve(pot,'tio').slug,'the-prince-of-tennis');assert.equal(identity.resolve(pot,'flv').title,'The Prince of Tennis');
 console.log('10 exact identity/year/collision controls PASS; season and episode rules preserved.');

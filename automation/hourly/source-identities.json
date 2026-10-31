@@ -28,5 +28,33 @@
         "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node"
       }
     }
+  },
+  "https://jkanime.net/yugioh-duel-monsters-gx/": {
+    "title": "Yu Gi Oh!: Duel Monsters GX",
+    "year": 2004,
+    "approved": true,
+    "episodes": 180,
+    "sources": {
+      "tio": {
+        "slug": "yu-gi-oh-gx",
+        "title": "Yu-Gi-Oh! GX"
+      }
+    }
+  },
+  "https://jkanime.net/prince-of-tennis/": {
+    "title": "Prince of Tennis",
+    "year": 2001,
+    "approved": true,
+    "episodes": 178,
+    "sources": {
+      "tio": {
+        "slug": "the-prince-of-tennis",
+        "title": "The Prince of Tennis"
+      },
+      "flv": {
+        "slug": "the-prince-of-tennis",
+        "title": "The Prince of Tennis"
+      }
+    }
   }
 }
