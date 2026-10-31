@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T02:06:48.676340+00:00",
+  "checkedAt": "2026-10-31T02:20:40.842839+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73753,
-  "storedChapters": 72253,
-  "missingChapters": 1500,
+  "observedChapters": 73775,
+  "storedChapters": 72259,
+  "missingChapters": 1516,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -557,8 +557,8 @@
         "series": "https://jkanime.net/hikari-no-ou/",
         "title": "Hikari no Ou",
         "samples": [
-          "https://jkanime.net/hikari-no-ou/11/",
-          "https://jkanime.net/hikari-no-ou/12/"
+          "https://jkanime.net/hikari-no-ou/12/",
+          "https://jkanime.net/hikari-no-ou/13/"
         ]
       },
       {
@@ -2323,7 +2323,8 @@
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
-          "https://jkanime.net/digimon-adventure-tri/1/"
+          "https://jkanime.net/digimon-adventure-tri/10/",
+          "https://jkanime.net/digimon-adventure-tri/11/"
         ]
       },
       {
@@ -2639,8 +2640,8 @@
         "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
         "title": "Hoozuki no Reitetsu OVA",
         "samples": [
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/1/",
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/2/"
+          "https://jkanime.net/hoozuki-no-reitetsu-ova/2/",
+          "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
         ]
       },
       {
@@ -5171,13 +5172,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/digimon-adventure-movie/",
-        "title": "Digimon Adventure Movie",
-        "samples": [
-          "https://jkanime.net/digimon-adventure-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-taose-kaizoku-ganzack/",
         "title": "One Piece: Taose! Kaizoku Ganzack",
         "samples": [
@@ -5237,8 +5231,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/35/",
-          "https://jkanime.net/taiho-shichau-zo/36/"
+          "https://jkanime.net/taiho-shichau-zo/36/",
+          "https://jkanime.net/taiho-shichau-zo/37/"
         ]
       },
       {
@@ -11775,8 +11769,8 @@
         "series": "https://jkanime.net/hikari-no-ou/",
         "title": "Hikari no Ou",
         "samples": [
-          "https://jkanime.net/hikari-no-ou/11/",
-          "https://jkanime.net/hikari-no-ou/12/"
+          "https://jkanime.net/hikari-no-ou/12/",
+          "https://jkanime.net/hikari-no-ou/13/"
         ]
       },
       {
@@ -24055,7 +24049,8 @@
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
-          "https://jkanime.net/digimon-adventure-tri/1/"
+          "https://jkanime.net/digimon-adventure-tri/10/",
+          "https://jkanime.net/digimon-adventure-tri/11/"
         ]
       },
       {
@@ -25492,8 +25487,8 @@
         "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
         "title": "Hoozuki no Reitetsu OVA",
         "samples": [
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/1/",
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/2/"
+          "https://jkanime.net/hoozuki-no-reitetsu-ova/2/",
+          "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
         ]
       },
       {
@@ -38081,13 +38076,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/digimon-adventure-movie/",
-        "title": "Digimon Adventure Movie",
-        "samples": [
-          "https://jkanime.net/digimon-adventure-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/rurouni-kenshin-tsuiokuhen/",
         "title": "Rurouni Kenshin: Tsuiokuhen",
         "samples": [
@@ -38531,8 +38519,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/35/",
-          "https://jkanime.net/taiho-shichau-zo/36/"
+          "https://jkanime.net/taiho-shichau-zo/36/",
+          "https://jkanime.net/taiho-shichau-zo/37/"
         ]
       },
       {
@@ -41345,13 +41333,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/digimon-adventure-tri/",
-        "title": "Digimon Adventure tri",
-        "samples": [
-          "https://jkanime.net/digimon-adventure-tri/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/wakabagirl-onsen-tsukaritai/",
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
@@ -43722,13 +43703,6 @@
         "title": "Pokemon Movie 02: Maboroshi no Pokemon Lugia Bakutan",
         "samples": [
           "https://jkanime.net/pokemon-movie-02-maboroshi-no-pokemon-lugia-bakutan/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/digimon-adventure-movie/",
-        "title": "Digimon Adventure Movie",
-        "samples": [
-          "https://jkanime.net/digimon-adventure-movie/1/"
         ]
       },
       {
@@ -49220,9 +49194,9 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 14,
+        "streamwish": 13,
         "mp4upload": 15,
-        "vidhide": 3
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -66606,9 +66580,8 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/hikari-no-ou/11/",
         "https://jkanime.net/hikari-no-ou/12/",
         "https://jkanime.net/hikari-no-ou/13/",
         "https://jkanime.net/hikari-no-ou/17/",
@@ -66617,9 +66590,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
-        "mega": 13,
+        "mega": 14,
         "streamwish": 9,
         "vidhide": 9,
         "mp4upload": 10,
@@ -102136,19 +102109,39 @@
       "title": "Digimon Adventure tri",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
-      "observed": 4,
-      "stored": 3,
+      "observed": 26,
+      "stored": 4,
       "missing": [
-        "https://jkanime.net/digimon-adventure-tri/1/"
+        "https://jkanime.net/digimon-adventure-tri/10/",
+        "https://jkanime.net/digimon-adventure-tri/11/",
+        "https://jkanime.net/digimon-adventure-tri/12/",
+        "https://jkanime.net/digimon-adventure-tri/13/",
+        "https://jkanime.net/digimon-adventure-tri/14/",
+        "https://jkanime.net/digimon-adventure-tri/15/",
+        "https://jkanime.net/digimon-adventure-tri/16/",
+        "https://jkanime.net/digimon-adventure-tri/17/",
+        "https://jkanime.net/digimon-adventure-tri/18/",
+        "https://jkanime.net/digimon-adventure-tri/19/",
+        "https://jkanime.net/digimon-adventure-tri/20/",
+        "https://jkanime.net/digimon-adventure-tri/21/",
+        "https://jkanime.net/digimon-adventure-tri/22/",
+        "https://jkanime.net/digimon-adventure-tri/23/",
+        "https://jkanime.net/digimon-adventure-tri/24/",
+        "https://jkanime.net/digimon-adventure-tri/25/",
+        "https://jkanime.net/digimon-adventure-tri/26/",
+        "https://jkanime.net/digimon-adventure-tri/5/",
+        "https://jkanime.net/digimon-adventure-tri/6/",
+        "https://jkanime.net/digimon-adventure-tri/7/",
+        "https://jkanime.net/digimon-adventure-tri/8/",
+        "https://jkanime.net/digimon-adventure-tri/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 3,
+        "mega": 4,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -106450,16 +106443,17 @@
         "renewal-error"
       ],
       "observed": 3,
-      "stored": 0,
+      "stored": 1,
       "missing": [
-        "https://jkanime.net/hoozuki-no-reitetsu-ova/1/",
         "https://jkanime.net/hoozuki-no-reitetsu-ova/2/",
         "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
-      "families": {},
+      "renewalFailed": 2,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -128731,19 +128725,18 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 20,
+      "stored": 21,
       "missing": [
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
-        "https://jkanime.net/07-ghost/25/",
         "https://jkanime.net/07-ghost/3/",
         "https://jkanime.net/07-ghost/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
-        "mega": 20
+        "mega": 21
       },
       "playbackVerified": false
     },
@@ -141509,7 +141502,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 1
       },
@@ -142064,20 +142057,16 @@
     {
       "series": "https://jkanime.net/digimon-adventure-movie/",
       "title": "Digimon Adventure Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/digimon-adventure-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -143427,9 +143416,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 29,
+      "stored": 30,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/35/",
         "https://jkanime.net/taiho-shichau-zo/36/",
         "https://jkanime.net/taiho-shichau-zo/37/",
         "https://jkanime.net/taiho-shichau-zo/38/",
@@ -143460,7 +143448,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 28,
+        "mp4upload": 29,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -144816,7 +144804,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 3
       },
