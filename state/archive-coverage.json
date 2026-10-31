@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T01:52:53.351819+00:00",
+  "checkedAt": "2026-10-31T02:06:48.676340+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72240,
-  "missingChapters": 1513,
+  "storedChapters": 72253,
+  "missingChapters": 1500,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -1205,7 +1205,6 @@
         "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
         "title": "Bungou to Alchemist: Shinpan no Haguruma",
         "samples": [
-          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/",
           "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/"
         ]
       },
@@ -1340,7 +1339,6 @@
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
         "title": "Chuubyou Gekihatsu Boy",
         "samples": [
-          "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
           "https://jkanime.net/chuubyou-gekihatsu-boy/2/"
         ]
       },
@@ -1779,13 +1777,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/18if/",
-        "title": "18if",
-        "samples": [
-          "https://jkanime.net/18if/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/",
         "title": "Boku no Hero Academia: Training of the Dead",
         "samples": [
@@ -1847,8 +1838,8 @@
         "series": "https://jkanime.net/cinderella-girls-gekijou/",
         "title": "Cinderella Girls Gekijou",
         "samples": [
-          "https://jkanime.net/cinderella-girls-gekijou/10/",
-          "https://jkanime.net/cinderella-girls-gekijou/11/"
+          "https://jkanime.net/cinderella-girls-gekijou/11/",
+          "https://jkanime.net/cinderella-girls-gekijou/4/"
         ]
       },
       {
@@ -1969,8 +1960,8 @@
         "series": "https://jkanime.net/cheating-craft/",
         "title": "Cheating Craft",
         "samples": [
-          "https://jkanime.net/cheating-craft/11/",
-          "https://jkanime.net/cheating-craft/12/"
+          "https://jkanime.net/cheating-craft/12/",
+          "https://jkanime.net/cheating-craft/6/"
         ]
       },
       {
@@ -2017,13 +2008,6 @@
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
           "https://jkanime.net/time-bokan-24/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/",
-        "title": "Danganronpa 3: The End of Kibougamine Gakuen - Kibou-hen",
-        "samples": [
-          "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/1/"
         ]
       },
       {
@@ -2427,13 +2411,6 @@
         "title": "Isuca OVA",
         "samples": [
           "https://jkanime.net/isuca-gokuraku/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/date-a-live-movie-mayuri-judgment/",
-        "title": "Date A Live Movie: Mayuri Judgment",
-        "samples": [
-          "https://jkanime.net/date-a-live-movie-mayuri-judgment/1/"
         ]
       },
       {
@@ -3705,13 +3682,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/death-billiards/",
-        "title": "Death Billiards",
-        "samples": [
-          "https://jkanime.net/death-billiards/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/nozoki-ana/",
         "title": "Nozoki Ana",
         "samples": [
@@ -3922,13 +3892,6 @@
         "title": "Persona 4 The Animation: No One is Alone",
         "samples": [
           "https://jkanime.net/persona-4-the-animation-no-one-is-alone/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dantalian-no-shoka-ibarahime/",
-        "title": "Dantalian no Shoka: Ibarahime",
-        "samples": [
-          "https://jkanime.net/dantalian-no-shoka-ibarahime/1/"
         ]
       },
       {
@@ -4544,8 +4507,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/13/",
-          "https://jkanime.net/07-ghost/22/"
+          "https://jkanime.net/07-ghost/22/",
+          "https://jkanime.net/07-ghost/23/"
         ]
       },
       {
@@ -5102,13 +5065,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/",
-        "title": "Cowboy Bebop: Tengoku no Tobira",
-        "samples": [
-          "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/el-viaje-de-chihiro/",
         "title": "Spirited Away",
         "samples": [
@@ -5281,8 +5237,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/34/",
-          "https://jkanime.net/taiho-shichau-zo/35/"
+          "https://jkanime.net/taiho-shichau-zo/35/",
+          "https://jkanime.net/taiho-shichau-zo/36/"
         ]
       },
       {
@@ -16811,7 +16767,6 @@
         "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
         "title": "Bungou to Alchemist: Shinpan no Haguruma",
         "samples": [
-          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/",
           "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/"
         ]
       },
@@ -17685,7 +17640,6 @@
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
         "title": "Chuubyou Gekihatsu Boy",
         "samples": [
-          "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
           "https://jkanime.net/chuubyou-gekihatsu-boy/2/"
         ]
       },
@@ -21104,13 +21058,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/18if/",
-        "title": "18if",
-        "samples": [
-          "https://jkanime.net/18if/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/konbini-kareshi/",
         "title": "Konbini Kareshi",
         "samples": [
@@ -21560,8 +21507,8 @@
         "series": "https://jkanime.net/cinderella-girls-gekijou/",
         "title": "Cinderella Girls Gekijou",
         "samples": [
-          "https://jkanime.net/cinderella-girls-gekijou/10/",
-          "https://jkanime.net/cinderella-girls-gekijou/11/"
+          "https://jkanime.net/cinderella-girls-gekijou/11/",
+          "https://jkanime.net/cinderella-girls-gekijou/4/"
         ]
       },
       {
@@ -22352,8 +22299,8 @@
         "series": "https://jkanime.net/cheating-craft/",
         "title": "Cheating Craft",
         "samples": [
-          "https://jkanime.net/cheating-craft/11/",
-          "https://jkanime.net/cheating-craft/12/"
+          "https://jkanime.net/cheating-craft/12/",
+          "https://jkanime.net/cheating-craft/6/"
         ]
       },
       {
@@ -22616,13 +22563,6 @@
         "samples": [
           "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/1/",
           "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/",
-        "title": "Danganronpa 3: The End of Kibougamine Gakuen - Kibou-hen",
-        "samples": [
-          "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/1/"
         ]
       },
       {
@@ -24577,13 +24517,6 @@
         "samples": [
           "https://jkanime.net/grisaia-no-rakuen-specials/1/",
           "https://jkanime.net/grisaia-no-rakuen-specials/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/date-a-live-movie-mayuri-judgment/",
-        "title": "Date A Live Movie: Mayuri Judgment",
-        "samples": [
-          "https://jkanime.net/date-a-live-movie-mayuri-judgment/1/"
         ]
       },
       {
@@ -29652,13 +29585,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/death-billiards/",
-        "title": "Death Billiards",
-        "samples": [
-          "https://jkanime.net/death-billiards/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/nozoki-ana/",
         "title": "Nozoki Ana",
         "samples": [
@@ -30490,13 +30416,6 @@
         "samples": [
           "https://jkanime.net/to-love-ru-darkness-ova/1/",
           "https://jkanime.net/to-love-ru-darkness-ova/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dantalian-no-shoka-ibarahime/",
-        "title": "Dantalian no Shoka: Ibarahime",
-        "samples": [
-          "https://jkanime.net/dantalian-no-shoka-ibarahime/1/"
         ]
       },
       {
@@ -33403,8 +33322,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/13/",
-          "https://jkanime.net/07-ghost/22/"
+          "https://jkanime.net/07-ghost/22/",
+          "https://jkanime.net/07-ghost/23/"
         ]
       },
       {
@@ -37640,13 +37559,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/",
-        "title": "Cowboy Bebop: Tengoku no Tobira",
-        "samples": [
-          "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/el-viaje-de-chihiro/",
         "title": "Spirited Away",
         "samples": [
@@ -38619,8 +38531,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/34/",
-          "https://jkanime.net/taiho-shichau-zo/35/"
+          "https://jkanime.net/taiho-shichau-zo/35/",
+          "https://jkanime.net/taiho-shichau-zo/36/"
         ]
       },
       {
@@ -41195,13 +41107,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/",
-        "title": "Danganronpa 3: The End of Kibougamine Gakuen - Kibou-hen",
-        "samples": [
-          "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ginga-kikoutai-majestic-prince-mirai-e-no-tsubasa/",
         "title": "Ginga Kikoutai Majestic Prince: Mirai e no Tsubasa",
         "samples": [
@@ -41507,13 +41412,6 @@
         "title": "Isuca OVA",
         "samples": [
           "https://jkanime.net/isuca-gokuraku/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/date-a-live-movie-mayuri-judgment/",
-        "title": "Date A Live Movie: Mayuri Judgment",
-        "samples": [
-          "https://jkanime.net/date-a-live-movie-mayuri-judgment/1/"
         ]
       },
       {
@@ -42602,13 +42500,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/death-billiards/",
-        "title": "Death Billiards",
-        "samples": [
-          "https://jkanime.net/death-billiards/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/nozoki-ana/",
         "title": "Nozoki Ana",
         "samples": [
@@ -42788,13 +42679,6 @@
         "title": "Persona 4 The Animation: No One is Alone",
         "samples": [
           "https://jkanime.net/persona-4-the-animation-no-one-is-alone/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dantalian-no-shoka-ibarahime/",
-        "title": "Dantalian no Shoka: Ibarahime",
-        "samples": [
-          "https://jkanime.net/dantalian-no-shoka-ibarahime/1/"
         ]
       },
       {
@@ -43750,13 +43634,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/",
-        "title": "Cowboy Bebop: Tengoku no Tobira",
-        "samples": [
-          "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/el-viaje-de-chihiro/",
         "title": "Spirited Away",
         "samples": [
@@ -44458,19 +44335,18 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/ao-ashi/13/",
         "https://jkanime.net/ao-ashi/19/",
         "https://jkanime.net/ao-ashi/2/",
-        "https://jkanime.net/ao-ashi/3/",
-        "https://jkanime.net/ao-ashi/5/"
+        "https://jkanime.net/ao-ashi/3/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 18,
+        "mega": 19,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -81030,16 +80906,15 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 6,
         "vidhide": 6,
         "mp4upload": 6,
@@ -83513,19 +83388,18 @@
         "renewal-error"
       ],
       "observed": 11,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/chuubyou-gekihatsu-boy/11/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/2/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
+        "mega": 5,
         "mp4upload": 5,
         "streamwish": 5,
-        "vidhide": 5,
-        "mega": 4
+        "vidhide": 5
       },
       "playbackVerified": false
     },
@@ -93492,20 +93366,15 @@
     {
       "series": "https://jkanime.net/18if/",
       "title": "18if",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/18if/13/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 12
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -94887,18 +94756,17 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/cinderella-girls-gekijou/10/",
         "https://jkanime.net/cinderella-girls-gekijou/11/",
         "https://jkanime.net/cinderella-girls-gekijou/4/",
         "https://jkanime.net/cinderella-girls-gekijou/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -97169,18 +97037,17 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/cheating-craft/11/",
         "https://jkanime.net/cheating-craft/12/",
         "https://jkanime.net/cheating-craft/6/",
         "https://jkanime.net/cheating-craft/7/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 8
+        "mega": 9
       },
       "playbackVerified": false
     },
@@ -97967,20 +97834,16 @@
     {
       "series": "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/",
       "title": "Danganronpa 3: The End of Kibougamine Gakuen - Kibou-hen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -103723,20 +103586,16 @@
     {
       "series": "https://jkanime.net/date-a-live-movie-mayuri-judgment/",
       "title": "Date A Live Movie: Mayuri Judgment",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/date-a-live-movie-mayuri-judgment/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -118033,20 +117892,16 @@
     {
       "series": "https://jkanime.net/death-billiards/",
       "title": "Death Billiards",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/death-billiards/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -120564,20 +120419,16 @@
     {
       "series": "https://jkanime.net/dantalian-no-shoka-ibarahime/",
       "title": "Dantalian no Shoka: Ibarahime",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/dantalian-no-shoka-ibarahime/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -128880,9 +128731,8 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/07-ghost/13/",
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
         "https://jkanime.net/07-ghost/25/",
@@ -128891,9 +128741,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mega": 19
+        "mega": 20
       },
       "playbackVerified": false
     },
@@ -140700,20 +140550,16 @@
     {
       "series": "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/",
       "title": "Cowboy Bebop: Tengoku no Tobira",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/cowboy-bebop-tengoku-no-tobira/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -141663,7 +141509,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mega": 1
       },
@@ -143581,9 +143427,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 28,
+      "stored": 29,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/34/",
         "https://jkanime.net/taiho-shichau-zo/35/",
         "https://jkanime.net/taiho-shichau-zo/36/",
         "https://jkanime.net/taiho-shichau-zo/37/",
@@ -143615,7 +143460,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 27,
+        "mp4upload": 28,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -144971,7 +144816,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mega": 3
       },
