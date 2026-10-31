@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-31T20:11:16.114089+00:00",
-  "episodes": 72544,
-  "oldestHours": 127.88,
-  "pending": 59141,
+  "checkedAt": "2026-10-31T20:26:02.118952+00:00",
+  "episodes": 72545,
+  "oldestHours": 128.12,
+  "pending": 59267,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 105,
-  "sampleMinutes": 1430.04,
-  "measuredWallClockPerHour": 555.18,
-  "estimatedSweepDays": 5.44,
+  "sampleMinutes": 1431.72,
+  "measuredWallClockPerHour": 551.51,
+  "estimatedSweepDays": 5.48,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -66,7 +66,7 @@
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 62,
+      "pendingFailures": 61,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
@@ -80,7 +80,7 @@
       "title": "Dragon Ball Kai (2014)",
       "total": 61,
       "fresh": 0,
-      "pendingFailures": 43,
+      "pendingFailures": 42,
       "state": "pending"
     },
     "https://jkanime.net/digimon-digital-monsters/": {
@@ -101,7 +101,7 @@
       "title": "Shijou Saikyou no Deshi Kenichi",
       "total": 50,
       "fresh": 0,
-      "pendingFailures": 50,
+      "pendingFailures": 49,
       "state": "pending"
     },
     "https://jkanime.net/gundam-wing/": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -149,29 +149,29 @@
     "https://jkanime.net/requiem-for-the-phantom/": {
       "title": "Phantom: Requiem for the Phantom",
       "total": 26,
-      "fresh": 2,
-      "pendingFailures": 24,
+      "fresh": 3,
+      "pendingFailures": 23,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-lost-canvas/": {
       "title": "Saint Seiya: The Lost Canvas",
       "total": 26,
       "fresh": 0,
-      "pendingFailures": 22,
+      "pendingFailures": 21,
       "state": "pending"
     },
     "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/": {
       "title": "Senjou no Valkyria: Gallian Chronicles",
       "total": 26,
       "fresh": 0,
-      "pendingFailures": 24,
+      "pendingFailures": 23,
       "state": "pending"
     },
     "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/": {
       "title": "Code Geass: Hangyaku no Lelouch R2",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 25,
+      "pendingFailures": 24,
       "state": "pending"
     },
     "https://jkanime.net/code-geass-hangyaku-no-lelouch/": {
@@ -185,28 +185,28 @@
       "title": "Mobile Suit Gundam 00 S2",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 25,
+      "pendingFailures": 24,
       "state": "pending"
     },
     "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/": {
       "title": "Phi Brain: Kami no Puzzle 2nd Season",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 16,
+      "pendingFailures": 15,
       "state": "pending"
     },
     "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/": {
       "title": "Phi Brain: Kami no Puzzle 3rd Season",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/eureka-seven-ao/": {
       "title": "Eureka Seven AO",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 14,
+      "pendingFailures": 13,
       "state": "pending"
     },
     "https://jkanime.net/kanon2006/": {
@@ -227,28 +227,28 @@
       "title": "Shakugan no Shana II",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 24,
+      "pendingFailures": 23,
       "state": "pending"
     },
     "https://jkanime.net/steins-gate/": {
       "title": "Steins;Gate",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 18,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/abarenbou-kishi-matsutarou/": {
       "title": "Abarenbou Kishi!! Matsutarou",
       "total": 23,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/": {
       "title": "Suzumiya Haruhi no Yuuutsu (2009)",
       "total": 14,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/aooni-the-blue-monster/": {
@@ -304,7 +304,7 @@
       "title": "Kyoukai Senjou no Horizon II",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/": {
@@ -388,7 +388,7 @@
       "title": "Fate/Zero 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/": {
@@ -430,7 +430,7 @@
       "title": "H2O: Footprints in the Sand",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 12,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/hamatora-the-animation/": {
@@ -444,7 +444,7 @@
       "title": "Hanamaru Youchien",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/hanaukyou-maid-tai-la-verite/": {
@@ -458,14 +458,14 @@
       "title": "Kaitou Tenshi Twin Angel: Kyun Kyun\u2606Tokimeki Paradise!!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kamisama-no-memochou/": {
       "title": "Kamisama no Memochou",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kanojo-mo-kanojo-2nd-season/": {
@@ -479,7 +479,7 @@
       "title": "Kiss x Sis (TV)",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/komi-san-wa-comyushou-desu/": {
@@ -493,14 +493,14 @@
       "title": "Kure-nai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 12,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/": {
       "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 12,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/": {
@@ -514,7 +514,7 @@
       "title": "Mashiro-iro Symphony: The Color of Lovers",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/mrchen-mdchen/": {
@@ -528,7 +528,7 @@
       "title": "Ookami-san to Shichinin no Nakamatachi",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-ii/": {
@@ -555,8 +555,8 @@
     "https://jkanime.net/school-daysdays/": {
       "title": "School Days",
       "total": 12,
-      "fresh": 0,
-      "pendingFailures": 12,
+      "fresh": 1,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/shigetsutan-tsukihime/": {
@@ -591,7 +591,7 @@
       "title": "Venus Versus Virus",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 12,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/yoake-mae-yori-ruriiro-na/": {
@@ -633,7 +633,7 @@
       "title": "Shijou Saikyou no Deshi Kenichi OVA",
       "total": 11,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/mushishi-zoku-shou-2nd-season/": {
@@ -654,7 +654,7 @@
       "title": "Yondemasu yo, Azazel-san",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/black-rock-shooter/": {
@@ -710,14 +710,14 @@
       "title": "Saint Seiya Saga de Hades Elysion",
       "total": 6,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/to-love-ru-ovas/": {
       "title": "To LOVE-Ru OVA",
       "total": 6,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/code-geass-boukoku-no-akito/": {
@@ -759,7 +759,7 @@
       "title": "Tales of Symphonia",
       "total": 4,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/": {
@@ -808,7 +808,7 @@
       "title": "Tsubasa Chronicle: Shunraiki",
       "total": 2,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/": {
@@ -828,8 +828,8 @@
     "https://jkanime.net/blade-and-soul/": {
       "title": "Blade and Soul",
       "total": 13,
-      "fresh": 11,
-      "pendingFailures": 2,
+      "fresh": 12,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/jojos-bizarre-adventure-2012/": {
@@ -876,16 +876,16 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4245,
-    "diagnosedSeries": 4201,
+    "series": 4244,
+    "diagnosedSeries": 4200,
     "pendingSeries": 44
   },
   "coverage": {
-    "checkedAt": "2026-10-31T20:11:16.114089+00:00",
+    "checkedAt": "2026-10-31T20:26:02.118952+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
-    "storedChapters": 72544,
-    "missingChapters": 1292,
+    "storedChapters": 72545,
+    "missingChapters": 1291,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
