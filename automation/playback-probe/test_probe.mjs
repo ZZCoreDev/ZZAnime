@@ -30,6 +30,7 @@ assert.deepEqual(Object.keys(day1.families),FAMILIES);
 const fake=http.createServer((req,res)=>{
  if(req.url==='/e/blocked'){res.writeHead(403,{'content-type':'text/html'}).end('<title>Just a moment...</title>cf-chl');return;}
  if(req.url==='/e/gone'){res.writeHead(404,{'content-type':'text/html'}).end('<title>404 - Not found</title>');return;}
+ if(req.url==='/e/adnotfound'){res.writeHead(200,{'content-type':'text/html'}).end('<video id=v src="/none.mp4"></video><iframe srcdoc="<h1>404 - Not found</h1>"></iframe>');return;}
  if(req.url==='/e/deleted'){res.writeHead(200,{'content-type':'text/html'}).end('<h1>File was deleted</h1>');return;}
  if(req.url==='/e/jw'){res.writeHead(200,{'content-type':'text/html'}).end(`<!doctype html><div class="jw-icon-display" style="width:80px;height:80px;background:red"></div><video id=v width=320 height=180></video><script>const c=document.createElement('canvas');c.width=64;c.height=36;const g=c.getContext('2d');setInterval(()=>{g.fillStyle='#'+Math.floor(Math.random()*4095).toString(16).padStart(3,'0');g.fillRect(0,0,64,36)},50);document.querySelector('.jw-icon-display').addEventListener('click',()=>{v.srcObject=c.captureStream(20);v.muted=true;v.play()});</script>`);return;}
  const play=req.url==='/e/live';
@@ -45,6 +46,7 @@ const live=await probeOne(browser,origin,t('/e/live'));assert.equal(live.state,'
 const dead=await probeOne(browser,origin,t('/e/dead'));assert.notEqual(dead.state,'played');
 const blocked=await probeOne(browser,origin,t('/e/blocked'));assert.equal(blocked.state,'blocked-from-github',JSON.stringify(blocked));
 assert.equal((await probeOne(browser,origin,t('/e/gone'))).state,'gone');assert.equal((await probeOne(browser,origin,t('/e/deleted'))).state,'gone');
+assert.notEqual((await probeOne(browser,origin,t('/e/adnotfound'))).state,'gone','a nested ad frame saying Not found is not a deletion');
 const jw=await probeOne(browser,origin,t('/e/jw'));assert.equal(jw.state,'played','jwplayer overlay is pressed: '+JSON.stringify(jw));
 await browser.close();server.close();fake.close();
 console.log('playback probe controls PASS (selection, day logic, played/not-played/blocked in real Chromium)');

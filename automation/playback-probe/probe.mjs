@@ -26,7 +26,8 @@ export async function probeOne(browser,origin,target){
     for(const frame of page.frames().slice(1))for(const sel of PLAY){if(!hit&&await frame.click(sel,{timeout:500}).then(()=>true).catch(()=>false))hit=true;}
     if(!hit)await page.mouse.click(box.x+box.width/2,box.y+box.height/2).catch(()=>{});clicks++;
    }
-   for(const frame of page.frames().slice(1)){if(await frame.evaluate(re=>new RegExp(re,'i').test((document.title||'')+' '+(document.body?.innerText||'').slice(0,4000)),GONE.source).catch(()=>false)){gone=true;}}
+   // Only the embed's own frame: nested ad frames often say «Not found» and must not mark a file deleted.
+   for(const frame of page.frames().filter(f=>f.parentFrame()===page.mainFrame())){if(await frame.evaluate(re=>new RegExp(re,'i').test((document.title||'')+' '+(document.body?.innerText||'').slice(0,4000)),GONE.source).catch(()=>false)){gone=true;}}
    for(const frame of page.frames()){
     const t=await frame.evaluate(()=>{const v=[...document.querySelectorAll('video')].sort((a,b)=>b.currentTime-a.currentTime)[0];if(!v)return null;if(v.paused&&v.readyState>=2){v.muted=true;v.play().catch(()=>{});}return v.currentTime;}).catch(()=>null);
     if(typeof t==='number'){if(start===null)start=t;best=Math.max(best,t-start);}
