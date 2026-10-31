@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T00:23:59.494518+00:00",
+  "checkedAt": "2026-10-31T00:37:35.466898+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72130,
-  "missingChapters": 1623,
+  "storedChapters": 72147,
+  "missingChapters": 1606,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -16,8 +16,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/1/",
-          "https://jkanime.net/ao-ashi/10/"
+          "https://jkanime.net/ao-ashi/10/",
+          "https://jkanime.net/ao-ashi/11/"
         ]
       },
       {
@@ -344,8 +344,8 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/20/",
-          "https://jkanime.net/sakamoto-days/21/"
+          "https://jkanime.net/sakamoto-days/21/",
+          "https://jkanime.net/sakamoto-days/22/"
         ]
       },
       {
@@ -366,8 +366,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/22/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/23/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/23/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/24/"
         ]
       },
       {
@@ -616,16 +616,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/18/",
-          "https://jkanime.net/sugar-apple-fairy-tale/19/"
+          "https://jkanime.net/sugar-apple-fairy-tale/19/",
+          "https://jkanime.net/sugar-apple-fairy-tale/20/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/18/",
-          "https://jkanime.net/spy-kyoushitsu/19/"
+          "https://jkanime.net/spy-kyoushitsu/19/",
+          "https://jkanime.net/spy-kyoushitsu/20/"
         ]
       },
       {
@@ -845,13 +845,6 @@
         "title": "Kobayashi-san Chi no Maidragon S: Nippon no Omotenashi - Attend wa Dragon Desu",
         "samples": [
           "https://jkanime.net/kobayashi-san-chi-no-maidragon-s-nippon-no-omotenashi-attend-wa-dragon-desu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/orient/",
-        "title": "Orient",
-        "samples": [
-          "https://jkanime.net/orient/24/"
         ]
       },
       {
@@ -1677,8 +1670,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/4/",
-          "https://jkanime.net/sora-to-umi-no-aida/5/"
+          "https://jkanime.net/sora-to-umi-no-aida/5/",
+          "https://jkanime.net/sora-to-umi-no-aida/6/"
         ]
       },
       {
@@ -1899,8 +1892,8 @@
         "series": "https://jkanime.net/18if/",
         "title": "18if",
         "samples": [
-          "https://jkanime.net/18if/11/",
-          "https://jkanime.net/18if/12/"
+          "https://jkanime.net/18if/12/",
+          "https://jkanime.net/18if/13/"
         ]
       },
       {
@@ -2133,8 +2126,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/3/",
-          "https://jkanime.net/stella-no-mahou/4/"
+          "https://jkanime.net/stella-no-mahou/4/",
+          "https://jkanime.net/stella-no-mahou/5/"
         ]
       },
       {
@@ -2228,13 +2221,6 @@
         "title": "Under the Dog",
         "samples": [
           "https://jkanime.net/under-the-dog/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
-        "title": "Regalia: The Three Sacred Stars",
-        "samples": [
-          "https://jkanime.net/regalia-the-three-sacred-stars/9/"
         ]
       },
       {
@@ -2616,13 +2602,6 @@
         "title": "Pokemon the Movie XY: Ring no Choumajin Hoopa",
         "samples": [
           "https://jkanime.net/pokemon-the-movie-xy-ring-no-choumajin-hoopa/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/",
-        "title": "Aoki Hagane no Arpeggio: Ars Nova DC",
-        "samples": [
-          "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/1/"
         ]
       },
       {
@@ -3943,13 +3922,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ao-no-exorcist-movie/",
-        "title": "Ao no Exorcist Movie",
-        "samples": [
-          "https://jkanime.net/ao-no-exorcist-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/saki-achiga-hen-episode-of-side-a-specials/",
         "title": "Saki: Achiga-hen - Episode of Side-A Specials",
         "samples": [
@@ -4351,13 +4323,6 @@
         "title": "Itsuka Tenma no Kuro Usagi: Kokoro Utsuri no Toukoubi - School Attendance Day",
         "samples": [
           "https://jkanime.net/itsuka-tenma-no-kuro-usagi-kokoro-utsuri-no-toukoubi-school-attendance-day/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
-        "title": "Ao no Exorcist: Kuro no Iede",
-        "samples": [
-          "https://jkanime.net/ao-no-exorcist-kuro-no-iede/1/"
         ]
       },
       {
@@ -4782,8 +4747,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/11/",
-          "https://jkanime.net/07-ghost/12/"
+          "https://jkanime.net/07-ghost/12/",
+          "https://jkanime.net/07-ghost/13/"
         ]
       },
       {
@@ -5533,8 +5498,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/27/",
-          "https://jkanime.net/taiho-shichau-zo/28/"
+          "https://jkanime.net/taiho-shichau-zo/28/",
+          "https://jkanime.net/taiho-shichau-zo/29/"
         ]
       },
       {
@@ -5882,8 +5847,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/1/",
-          "https://jkanime.net/ao-ashi/10/"
+          "https://jkanime.net/ao-ashi/10/",
+          "https://jkanime.net/ao-ashi/11/"
         ]
       },
       {
@@ -8202,8 +8167,8 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/22/",
-          "https://jkanime.net/puniru-wa-kawaii-slime/23/"
+          "https://jkanime.net/puniru-wa-kawaii-slime/23/",
+          "https://jkanime.net/puniru-wa-kawaii-slime/24/"
         ]
       },
       {
@@ -12241,8 +12206,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/18/",
-          "https://jkanime.net/sugar-apple-fairy-tale/19/"
+          "https://jkanime.net/sugar-apple-fairy-tale/19/",
+          "https://jkanime.net/sugar-apple-fairy-tale/20/"
         ]
       },
       {
@@ -12281,8 +12246,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/18/",
-          "https://jkanime.net/spy-kyoushitsu/19/"
+          "https://jkanime.net/spy-kyoushitsu/19/",
+          "https://jkanime.net/spy-kyoushitsu/20/"
         ]
       },
       {
@@ -14042,7 +14007,8 @@
         "series": "https://jkanime.net/orient/",
         "title": "Orient",
         "samples": [
-          "https://jkanime.net/orient/24/"
+          "https://jkanime.net/orient/1/",
+          "https://jkanime.net/orient/10/"
         ]
       },
       {
@@ -21225,8 +21191,8 @@
         "series": "https://jkanime.net/18if/",
         "title": "18if",
         "samples": [
-          "https://jkanime.net/18if/11/",
-          "https://jkanime.net/18if/12/"
+          "https://jkanime.net/18if/12/",
+          "https://jkanime.net/18if/13/"
         ]
       },
       {
@@ -24802,13 +24768,6 @@
         "samples": [
           "https://jkanime.net/the-idolmster-cinderella-girls-2nd-season/1/",
           "https://jkanime.net/the-idolmster-cinderella-girls-2nd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/",
-        "title": "Aoki Hagane no Arpeggio: Ars Nova DC",
-        "samples": [
-          "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/1/"
         ]
       },
       {
@@ -30074,13 +30033,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ao-no-exorcist-movie/",
-        "title": "Ao no Exorcist Movie",
-        "samples": [
-          "https://jkanime.net/ao-no-exorcist-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/onii-chan-dakedo-ai-sae-areba-kankeinai-yo-ne-specials/",
         "title": "OniAi Specials",
         "samples": [
@@ -31486,13 +31438,6 @@
         "samples": [
           "https://jkanime.net/usagi-drop-specials/1/",
           "https://jkanime.net/usagi-drop-specials/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
-        "title": "Ao no Exorcist: Kuro no Iede",
-        "samples": [
-          "https://jkanime.net/ao-no-exorcist-kuro-no-iede/1/"
         ]
       },
       {
@@ -33571,8 +33516,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/11/",
-          "https://jkanime.net/07-ghost/12/"
+          "https://jkanime.net/07-ghost/12/",
+          "https://jkanime.net/07-ghost/13/"
         ]
       },
       {
@@ -38801,8 +38746,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/27/",
-          "https://jkanime.net/taiho-shichau-zo/28/"
+          "https://jkanime.net/taiho-shichau-zo/28/",
+          "https://jkanime.net/taiho-shichau-zo/29/"
         ]
       },
       {
@@ -41811,13 +41756,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/",
-        "title": "Aoki Hagane no Arpeggio: Ars Nova DC",
-        "samples": [
-          "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bakemono-no-ko/",
         "title": "Bakemono no Ko",
         "samples": [
@@ -42952,13 +42890,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ao-no-exorcist-movie/",
-        "title": "Ao no Exorcist Movie",
-        "samples": [
-          "https://jkanime.net/ao-no-exorcist-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tasogare-otome-x-amnesia-special/",
         "title": "Tasogare Otome x Amnesia Special",
         "samples": [
@@ -43299,13 +43230,6 @@
         "title": "Itsuka Tenma no Kuro Usagi: Kokoro Utsuri no Toukoubi - School Attendance Day",
         "samples": [
           "https://jkanime.net/itsuka-tenma-no-kuro-usagi-kokoro-utsuri-no-toukoubi-school-attendance-day/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
-        "title": "Ao no Exorcist: Kuro no Iede",
-        "samples": [
-          "https://jkanime.net/ao-no-exorcist-kuro-no-iede/1/"
         ]
       },
       {
@@ -44829,9 +44753,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
         "https://jkanime.net/ao-ashi/11/",
         "https://jkanime.net/ao-ashi/12/",
@@ -44848,9 +44771,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
-        "mega": 9,
+        "mega": 10,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -54116,9 +54039,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 22,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/sakamoto-days/20/",
         "https://jkanime.net/sakamoto-days/21/",
         "https://jkanime.net/sakamoto-days/22/"
       ],
@@ -54127,8 +54049,8 @@
       "renewalFailed": 0,
       "families": {
         "vidhide": 9,
-        "mp4upload": 17,
-        "streamwish": 10
+        "mp4upload": 18,
+        "streamwish": 11
       },
       "playbackVerified": false
     },
@@ -56023,9 +55945,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/22/",
         "https://jkanime.net/puniru-wa-kawaii-slime/23/",
         "https://jkanime.net/puniru-wa-kawaii-slime/24/"
       ],
@@ -56036,7 +55957,7 @@
         "mega": 11,
         "streamwish": 19,
         "vidhide": 13,
-        "mp4upload": 20,
+        "mp4upload": 21,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -67802,9 +67723,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/18/",
         "https://jkanime.net/sugar-apple-fairy-tale/19/",
         "https://jkanime.net/sugar-apple-fairy-tale/20/",
         "https://jkanime.net/sugar-apple-fairy-tale/21/",
@@ -67816,7 +67736,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 15,
+        "mega": 16,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -67916,9 +67836,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/18/",
         "https://jkanime.net/spy-kyoushitsu/19/",
         "https://jkanime.net/spy-kyoushitsu/20/",
         "https://jkanime.net/spy-kyoushitsu/21/",
@@ -67930,7 +67849,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 14,
+        "mega": 15,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 13,
@@ -73111,19 +73030,16 @@
       "series": "https://jkanime.net/orient/",
       "title": "Orient",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 23,
-      "missing": [
-        "https://jkanime.net/orient/24/"
-      ],
+      "stored": 24,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
-        "mega": 21,
+        "mega": 22,
         "streamwish": 13,
         "vidhide": 12,
         "mp4upload": 13,
@@ -88468,9 +88384,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/4/",
         "https://jkanime.net/sora-to-umi-no-aida/5/",
         "https://jkanime.net/sora-to-umi-no-aida/6/",
         "https://jkanime.net/sora-to-umi-no-aida/7/",
@@ -88481,7 +88396,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 6
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -93900,9 +93815,8 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/18if/11/",
         "https://jkanime.net/18if/12/",
         "https://jkanime.net/18if/13/",
         "https://jkanime.net/18if/5/",
@@ -93911,9 +93825,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -95021,20 +94935,20 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/3/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/5/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/6/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "streamwish": 6
+        "streamwish": 6,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -97577,7 +97491,7 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 3,
+      "stored": 4,
       "missing": [
         "https://jkanime.net/cheating-craft/1/",
         "https://jkanime.net/cheating-craft/10/",
@@ -97586,14 +97500,13 @@
         "https://jkanime.net/cheating-craft/4/",
         "https://jkanime.net/cheating-craft/5/",
         "https://jkanime.net/cheating-craft/6/",
-        "https://jkanime.net/cheating-craft/7/",
-        "https://jkanime.net/cheating-craft/9/"
+        "https://jkanime.net/cheating-craft/7/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 3
+        "mega": 4
       },
       "playbackVerified": false
     },
@@ -98137,9 +98050,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/3/",
         "https://jkanime.net/stella-no-mahou/4/",
         "https://jkanime.net/stella-no-mahou/5/",
         "https://jkanime.net/stella-no-mahou/6/",
@@ -98151,7 +98063,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 5
+        "mega": 6
       },
       "playbackVerified": false
     },
@@ -99050,20 +98962,16 @@
     {
       "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
       "title": "Regalia: The Three Sacred Stars",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 13,
-      "stored": 12,
-      "missing": [
-        "https://jkanime.net/regalia-the-three-sacred-stars/9/"
-      ],
+      "stored": 13,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
         "mega": 5,
-        "streamwish": 7
+        "streamwish": 8
       },
       "playbackVerified": false
     },
@@ -104491,20 +104399,16 @@
     {
       "series": "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/",
       "title": "Aoki Hagane no Arpeggio: Ars Nova DC",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/aoki-hagane-no-arpeggio-ars-nova-dc/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -119339,20 +119243,16 @@
     {
       "series": "https://jkanime.net/ao-no-exorcist-movie/",
       "title": "Ao no Exorcist Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/ao-no-exorcist-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -123434,20 +123334,16 @@
     {
       "series": "https://jkanime.net/ao-no-exorcist-kuro-no-iede/",
       "title": "Ao no Exorcist: Kuro no Iede",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/ao-no-exorcist-kuro-no-iede/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -129355,9 +129251,8 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 12,
+      "stored": 13,
       "missing": [
-        "https://jkanime.net/07-ghost/11/",
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
         "https://jkanime.net/07-ghost/17/",
@@ -129373,9 +129268,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 12
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -144075,9 +143970,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/27/",
         "https://jkanime.net/taiho-shichau-zo/28/",
         "https://jkanime.net/taiho-shichau-zo/29/",
         "https://jkanime.net/taiho-shichau-zo/30/",
@@ -144116,7 +144010,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 20,
+        "mp4upload": 21,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -147899,14 +147793,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 14,
       "families": {
         "mega": 1180,
-        "streamwish": 380,
-        "vidhide": 374,
-        "mp4upload": 365,
-        "streamtape": 379,
-        "mixdrop": 61
+        "streamwish": 88,
+        "vidhide": 88,
+        "mp4upload": 73,
+        "streamtape": 87,
+        "mixdrop": 60
       },
       "playbackVerified": false
     },
