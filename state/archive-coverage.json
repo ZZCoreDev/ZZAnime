@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T03:42:32.199866+00:00",
+  "checkedAt": "2026-10-31T03:56:26.384281+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72318,
-  "missingChapters": 1458,
+  "storedChapters": 72326,
+  "missingChapters": 1450,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -582,7 +582,6 @@
         "series": "https://jkanime.net/seihantai-na-kimi-to-boku/",
         "title": "Seihantai na Kimi to Boku",
         "samples": [
-          "https://jkanime.net/seihantai-na-kimi-to-boku/11/",
           "https://jkanime.net/seihantai-na-kimi-to-boku/12/"
         ]
       },
@@ -652,8 +651,8 @@
         "series": "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/",
         "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
         "samples": [
-          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/2/",
-          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/3/"
+          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/3/",
+          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/8/"
         ]
       },
       {
@@ -691,8 +690,8 @@
         "series": "https://jkanime.net/mato-seihei-no-slave-2/",
         "title": "Mato Seihei no Slave 2",
         "samples": [
-          "https://jkanime.net/mato-seihei-no-slave-2/5/",
-          "https://jkanime.net/mato-seihei-no-slave-2/6/"
+          "https://jkanime.net/mato-seihei-no-slave-2/6/",
+          "https://jkanime.net/mato-seihei-no-slave-2/8/"
         ]
       },
       {
@@ -8726,8 +8725,8 @@
         "series": "https://jkanime.net/kyoukai-senki/",
         "title": "Kyoukai Senki",
         "samples": [
-          "https://jkanime.net/kyoukai-senki/14/",
-          "https://jkanime.net/kyoukai-senki/15/"
+          "https://jkanime.net/kyoukai-senki/15/",
+          "https://jkanime.net/kyoukai-senki/17/"
         ]
       },
       {
@@ -11585,13 +11584,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kyochuu-rettou-movie/",
-        "title": "Kyochuu Rettou Movie",
-        "samples": [
-          "https://jkanime.net/kyochuu-rettou-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/jie-yao/",
         "title": "Jie Yao",
         "samples": [
@@ -12606,13 +12598,6 @@
         "title": "Cencoroll Connect",
         "samples": [
           "https://jkanime.net/cencoroll-connect/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kyochuu-rettou/",
-        "title": "Kyochuu Rettou",
-        "samples": [
-          "https://jkanime.net/kyochuu-rettou/1/"
         ]
       },
       {
@@ -22080,13 +22065,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kuro-no-sumika-chronus/",
-        "title": "Kuro no Sumika -Chronus-",
-        "samples": [
-          "https://jkanime.net/kuro-no-sumika-chronus/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ookii-1-nensei-to-chiisana-2-nensei/",
         "title": "Ookii 1 Nensei to Chiisana 2 Nensei",
         "samples": [
@@ -23092,13 +23070,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/",
-        "title": "Little Busters!: Sekai no Saitou wa Ore ga Mamoru!",
-        "samples": [
-          "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-episode-of-merry-mou-hitori-no-nakama-no-monogatari/",
         "title": "One Piece: Episode of Merry - Mou Hitori no Nakama no Monogatari",
         "samples": [
@@ -23604,13 +23575,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kotonoha-no-niwa/",
-        "title": "Kotonoha no Niwa",
-        "samples": [
-          "https://jkanime.net/kotonoha-no-niwa/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yuyushiki-specials/",
         "title": "Yuyushiki: Nyanyashiki",
         "samples": [
@@ -23977,13 +23941,6 @@
         "title": "Arve Rezzle: Kikaijikake no Yoseitachi",
         "samples": [
           "https://jkanime.net/arve-rezzle-kikaijikake-no-yoseitachi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/little-witch-academia/",
-        "title": "Little Witch Academia",
-        "samples": [
-          "https://jkanime.net/little-witch-academia/1/"
         ]
       },
       {
@@ -32890,8 +32847,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/42/",
-          "https://jkanime.net/taiho-shichau-zo/43/"
+          "https://jkanime.net/taiho-shichau-zo/43/",
+          "https://jkanime.net/taiho-shichau-zo/44/"
         ]
       },
       {
@@ -34759,8 +34716,8 @@
         "series": "https://jkanime.net/kyoukai-senki/",
         "title": "Kyoukai Senki",
         "samples": [
-          "https://jkanime.net/kyoukai-senki/14/",
-          "https://jkanime.net/kyoukai-senki/15/"
+          "https://jkanime.net/kyoukai-senki/15/",
+          "https://jkanime.net/kyoukai-senki/17/"
         ]
       },
       {
@@ -35163,13 +35120,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kyochuu-rettou-movie/",
-        "title": "Kyochuu Rettou Movie",
-        "samples": [
-          "https://jkanime.net/kyochuu-rettou-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/",
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
         "samples": [
@@ -35301,13 +35251,6 @@
         "title": "Cencoroll Connect",
         "samples": [
           "https://jkanime.net/cencoroll-connect/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kyochuu-rettou/",
-        "title": "Kyochuu Rettou",
-        "samples": [
-          "https://jkanime.net/kyochuu-rettou/1/"
         ]
       },
       {
@@ -36942,13 +36885,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kuro-no-sumika-chronus/",
-        "title": "Kuro no Sumika -Chronus-",
-        "samples": [
-          "https://jkanime.net/kuro-no-sumika-chronus/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ookii-1-nensei-to-chiisana-2-nensei/",
         "title": "Ookii 1 Nensei to Chiisana 2 Nensei",
         "samples": [
@@ -37198,13 +37134,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/",
-        "title": "Little Busters!: Sekai no Saitou wa Ore ga Mamoru!",
-        "samples": [
-          "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-episode-of-merry-mou-hitori-no-nakama-no-monogatari/",
         "title": "One Piece: Episode of Merry - Mou Hitori no Nakama no Monogatari",
         "samples": [
@@ -37359,13 +37288,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kotonoha-no-niwa/",
-        "title": "Kotonoha no Niwa",
-        "samples": [
-          "https://jkanime.net/kotonoha-no-niwa/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yama-no-susume-kabette-kowakunai-no/",
         "title": "Yama no Susume: Kabette Kowakunai no?",
         "samples": [
@@ -37476,13 +37398,6 @@
         "title": "Arve Rezzle: Kikaijikake no Yoseitachi",
         "samples": [
           "https://jkanime.net/arve-rezzle-kikaijikake-no-yoseitachi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/little-witch-academia/",
-        "title": "Little Witch Academia",
-        "samples": [
-          "https://jkanime.net/little-witch-academia/1/"
         ]
       },
       {
@@ -38983,8 +38898,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/42/",
-          "https://jkanime.net/taiho-shichau-zo/43/"
+          "https://jkanime.net/taiho-shichau-zo/43/",
+          "https://jkanime.net/taiho-shichau-zo/44/"
         ]
       },
       {
@@ -40246,13 +40161,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kyochuu-rettou-movie/",
-        "title": "Kyochuu Rettou Movie",
-        "samples": [
-          "https://jkanime.net/kyochuu-rettou-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/",
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban",
         "samples": [
@@ -40376,13 +40284,6 @@
         "title": "Cencoroll Connect",
         "samples": [
           "https://jkanime.net/cencoroll-connect/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kyochuu-rettou/",
-        "title": "Kyochuu Rettou",
-        "samples": [
-          "https://jkanime.net/kyochuu-rettou/1/"
         ]
       },
       {
@@ -41632,13 +41533,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kuro-no-sumika-chronus/",
-        "title": "Kuro no Sumika -Chronus-",
-        "samples": [
-          "https://jkanime.net/kuro-no-sumika-chronus/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ookii-1-nensei-to-chiisana-2-nensei/",
         "title": "Ookii 1 Nensei to Chiisana 2 Nensei",
         "samples": [
@@ -41856,13 +41750,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/",
-        "title": "Little Busters!: Sekai no Saitou wa Ore ga Mamoru!",
-        "samples": [
-          "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/one-piece-episode-of-merry-mou-hitori-no-nakama-no-monogatari/",
         "title": "One Piece: Episode of Merry - Mou Hitori no Nakama no Monogatari",
         "samples": [
@@ -42010,13 +41897,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kotonoha-no-niwa/",
-        "title": "Kotonoha no Niwa",
-        "samples": [
-          "https://jkanime.net/kotonoha-no-niwa/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yama-no-susume-kabette-kowakunai-no/",
         "title": "Yama no Susume: Kabette Kowakunai no?",
         "samples": [
@@ -42112,13 +41992,6 @@
         "title": "Arve Rezzle: Kikaijikake no Yoseitachi",
         "samples": [
           "https://jkanime.net/arve-rezzle-kikaijikake-no-yoseitachi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/little-witch-academia/",
-        "title": "Little Witch Academia",
-        "samples": [
-          "https://jkanime.net/little-witch-academia/1/"
         ]
       },
       {
@@ -47260,7 +47133,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
         "streamwish": 12,
@@ -47444,7 +47317,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47517,7 +47390,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47580,7 +47453,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 8,
         "streamwish": 9,
@@ -47678,7 +47551,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47697,7 +47570,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -73363,9 +73236,8 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
         "https://jkanime.net/kyoukai-senki/17/",
         "https://jkanime.net/kyoukai-senki/18/",
@@ -73373,9 +73245,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
-        "mega": 18,
+        "mega": 19,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -81416,20 +81288,16 @@
     {
       "series": "https://jkanime.net/kyochuu-rettou-movie/",
       "title": "Kyochuu Rettou Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/kyochuu-rettou-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -84370,20 +84238,16 @@
     {
       "series": "https://jkanime.net/kyochuu-rettou/",
       "title": "Kyochuu Rettou",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/kyochuu-rettou/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -101688,7 +101552,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 10,
         "streamwish": 3,
@@ -112072,20 +111936,16 @@
     {
       "series": "https://jkanime.net/kuro-no-sumika-chronus/",
       "title": "Kuro no Sumika -Chronus-",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/kuro-no-sumika-chronus/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -114951,20 +114811,16 @@
     {
       "series": "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/",
       "title": "Little Busters!: Sekai no Saitou wa Ore ga Mamoru!",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -116334,20 +116190,16 @@
     {
       "series": "https://jkanime.net/kotonoha-no-niwa/",
       "title": "Kotonoha no Niwa",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/kotonoha-no-niwa/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -117402,20 +117254,16 @@
     {
       "series": "https://jkanime.net/little-witch-academia/",
       "title": "Little Witch Academia",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/little-witch-academia/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -142917,9 +142765,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 36,
+      "stored": 37,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/42/",
         "https://jkanime.net/taiho-shichau-zo/43/",
         "https://jkanime.net/taiho-shichau-zo/44/",
         "https://jkanime.net/taiho-shichau-zo/45/",
@@ -142943,7 +142790,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 35,
+        "mp4upload": 36,
         "streamtape": 3
       },
       "playbackVerified": false
