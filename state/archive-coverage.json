@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T13:22:45.342808+00:00",
+  "checkedAt": "2026-10-31T13:38:52.667534+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73823,
-  "storedChapters": 72444,
-  "missingChapters": 1379,
+  "observedChapters": 73826,
+  "storedChapters": 72450,
+  "missingChapters": 1376,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2900,7 +2900,7 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/15/"
+          "https://jkanime.net/bye-bye-earth/16/"
         ]
       },
       {
@@ -3003,8 +3003,8 @@
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/14/",
-          "https://jkanime.net/shoushimin-series/15/"
+          "https://jkanime.net/shoushimin-series/15/",
+          "https://jkanime.net/shoushimin-series/16/"
         ]
       },
       {
@@ -3575,8 +3575,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/"
         ]
       },
       {
@@ -16833,7 +16833,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/17/"
+          "https://jkanime.net/time-bokan-24/18/"
         ]
       },
       {
@@ -19547,7 +19547,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/"
         ]
       },
       {
@@ -27239,13 +27239,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/god-eater-prologue/",
-        "title": "God Eater Prologue",
-        "samples": [
-          "https://jkanime.net/god-eater-prologue/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
@@ -28424,13 +28417,6 @@
         "title": "Kara no Kyoukai 2: Satsujin Kousatsu",
         "samples": [
           "https://jkanime.net/kara-no-kyoukai-2-satsujin-kousatsu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bleach-the-diamonddust-rebellion/",
-        "title": "Bleach: The DiamondDust Rebellion",
-        "samples": [
-          "https://jkanime.net/bleach-the-diamonddust-rebellion/1/"
         ]
       },
       {
@@ -34141,15 +34127,15 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/15/"
+          "https://jkanime.net/bye-bye-earth/16/"
         ]
       },
       {
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/14/",
-          "https://jkanime.net/shoushimin-series/15/"
+          "https://jkanime.net/shoushimin-series/15/",
+          "https://jkanime.net/shoushimin-series/16/"
         ]
       },
       {
@@ -34177,8 +34163,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/"
         ]
       },
       {
@@ -35576,7 +35562,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/17/"
+          "https://jkanime.net/time-bokan-24/18/"
         ]
       },
       {
@@ -36081,7 +36067,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/"
         ]
       },
       {
@@ -36369,8 +36355,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/17/",
-          "https://jkanime.net/tribe-cool-crew/18/"
+          "https://jkanime.net/tribe-cool-crew/18/",
+          "https://jkanime.net/tribe-cool-crew/19/"
         ]
       },
       {
@@ -38878,6 +38864,27 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shuiro-no-kamen/",
+        "title": "Shuiro no Kamen",
+        "samples": [
+          "https://jkanime.net/shuiro-no-kamen/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/romelia-senki/",
+        "title": "Romelia Senki",
+        "samples": [
+          "https://jkanime.net/romelia-senki/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/",
+        "title": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu",
+        "samples": [
+          "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/6/"
         ]
       },
       {
@@ -55961,10 +55968,9 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/bye-bye-earth/13/",
-        "https://jkanime.net/bye-bye-earth/15/",
         "https://jkanime.net/bye-bye-earth/16/",
         "https://jkanime.net/bye-bye-earth/17/",
         "https://jkanime.net/bye-bye-earth/18/",
@@ -55975,10 +55981,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 11,
+        "streamwish": 12,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 8,
+        "mp4upload": 9,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -56264,9 +56270,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/shoushimin-series/14/",
         "https://jkanime.net/shoushimin-series/15/",
         "https://jkanime.net/shoushimin-series/16/",
         "https://jkanime.net/shoushimin-series/17/",
@@ -56283,7 +56288,7 @@
         "streamwish": 13,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 9,
+        "mp4upload": 10,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -57986,9 +57991,8 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 19,
+      "stored": 20,
       "missing": [
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
@@ -58004,7 +58008,7 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 18,
+        "streamwish": 19,
         "vidhide": 12,
         "mp4upload": 15,
         "streamtape": 12
@@ -96509,10 +96513,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/17/",
         "https://jkanime.net/time-bokan-24/18/",
         "https://jkanime.net/time-bokan-24/19/",
         "https://jkanime.net/time-bokan-24/2/",
@@ -96533,9 +96536,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 7,
-        "streamwish": 7,
-        "vidhide": 7
+        "mp4upload": 8,
+        "streamwish": 8,
+        "vidhide": 8
       },
       "playbackVerified": false
     },
@@ -98342,7 +98345,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -101547,7 +101550,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -104617,10 +104620,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/",
@@ -104630,8 +104632,8 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 6,
-        "mega": 1
+        "streamwish": 7,
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -107980,9 +107982,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/17/",
         "https://jkanime.net/tribe-cool-crew/18/",
         "https://jkanime.net/tribe-cool-crew/19/",
         "https://jkanime.net/tribe-cool-crew/2/",
@@ -108029,7 +108030,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 8,
+        "streamwish": 9,
         "mega": 3
       },
       "playbackVerified": false
@@ -126761,8 +126762,7 @@
       "title": "God Eater Prologue",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -126771,7 +126771,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -130071,8 +130071,7 @@
       "title": "Bleach: The DiamondDust Rebellion",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -130081,7 +130080,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -134932,7 +134931,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 108,
+      "renewalFailed": 91,
       "families": {
         "mega": 179,
         "streamwish": 180,
@@ -139058,7 +139057,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 107,
+      "renewalFailed": 91,
       "families": {
         "mega": 176,
         "streamwish": 178,
@@ -140155,7 +140154,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 1
       },
@@ -143439,7 +143438,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 3
       },
@@ -144249,10 +144248,14 @@
     {
       "series": "https://jkanime.net/shuiro-no-kamen/",
       "title": "Shuiro no Kamen",
-      "causes": [],
-      "observed": 3,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 4,
       "stored": 3,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/shuiro-no-kamen/4/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -144580,10 +144583,14 @@
     {
       "series": "https://jkanime.net/romelia-senki/",
       "title": "Romelia Senki",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/romelia-senki/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -144928,10 +144935,14 @@
     {
       "series": "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/",
       "title": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu",
-      "causes": [],
-      "observed": 5,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 6,
       "stored": 5,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/6/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
