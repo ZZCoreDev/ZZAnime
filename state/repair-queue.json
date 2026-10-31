@@ -1,6 +1,6 @@
 {
   "renewal-error": {
-    "series": 4359,
+    "series": 4344,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -22,7 +22,7 @@
     ]
   },
   "observed-chapters-without-options": {
-    "series": 737,
+    "series": 719,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -34,16 +34,16 @@
         ]
       },
       {
-        "series": "https://jkanime.net/the-ribbon-hero/",
-        "title": "The Ribbon Hero",
+        "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/",
+        "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
         "samples": [
-          "https://jkanime.net/the-ribbon-hero/1/"
+          "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/1/"
         ]
       }
     ]
   },
   "retained-redirect": {
-    "series": 604,
+    "series": 589,
     "twoSeriesProofRequired": true,
     "samples": [
       {

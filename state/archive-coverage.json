@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T11:57:02.045821+00:00",
+  "checkedAt": "2026-10-31T12:10:41.399076+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72387,
-  "missingChapters": 1407,
+  "storedChapters": 72407,
+  "missingChapters": 1387,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -34,13 +34,6 @@
         "samples": [
           "https://jkanime.net/cyberpunk-edgerunners-2/10/",
           "https://jkanime.net/cyberpunk-edgerunners-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/the-ribbon-hero/",
-        "title": "The Ribbon Hero",
-        "samples": [
-          "https://jkanime.net/the-ribbon-hero/1/"
         ]
       },
       {
@@ -1587,7 +1580,6 @@
         "series": "https://jkanime.net/enen-no-shouboutai-san-no-shou/",
         "title": "Enen no Shouboutai: San no Shou",
         "samples": [
-          "https://jkanime.net/enen-no-shouboutai-san-no-shou/21/",
           "https://jkanime.net/enen-no-shouboutai-san-no-shou/3/"
         ]
       },
@@ -2173,8 +2165,8 @@
         "series": "https://jkanime.net/one-piece-gyojin-tou-hen/",
         "title": "One Piece: Gyojin Tou-hen",
         "samples": [
-          "https://jkanime.net/one-piece-gyojin-tou-hen/1/",
-          "https://jkanime.net/one-piece-gyojin-tou-hen/10/"
+          "https://jkanime.net/one-piece-gyojin-tou-hen/10/",
+          "https://jkanime.net/one-piece-gyojin-tou-hen/11/"
         ]
       },
       {
@@ -2227,16 +2219,16 @@
         "series": "https://jkanime.net/ao-no-miburo/",
         "title": "Ao no Miburo",
         "samples": [
-          "https://jkanime.net/ao-no-miburo/1/",
-          "https://jkanime.net/ao-no-miburo/2/"
+          "https://jkanime.net/ao-no-miburo/2/",
+          "https://jkanime.net/ao-no-miburo/24/"
         ]
       },
       {
         "series": "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/",
         "title": "Arifureta Shokugyou de Sekai Saikyou Season 3",
         "samples": [
-          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/1/",
-          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/2/"
+          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/2/",
+          "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-season-3/3/"
         ]
       },
       {
@@ -3613,8 +3605,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/13/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/14/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/14/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/15/"
         ]
       },
       {
@@ -6687,13 +6679,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/",
-        "title": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen",
-        "samples": [
-          "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/isekai-meikyuu-de-harem-wo-specials/",
         "title": "Isekai Meikyuu de Harem wo Specials",
         "samples": [
@@ -7566,7 +7551,8 @@
         "series": "https://jkanime.net/teppen/",
         "title": "Teppen!!!!!!!!!!!!!!!",
         "samples": [
-          "https://jkanime.net/teppen/1/"
+          "https://jkanime.net/teppen/10/",
+          "https://jkanime.net/teppen/11/"
         ]
       },
       {
@@ -8066,7 +8052,7 @@
         "series": "https://jkanime.net/totsukuni-no-shoujo-2022/",
         "title": "Totsukuni no Shoujo (2022)",
         "samples": [
-          "https://jkanime.net/totsukuni-no-shoujo-2022/1/"
+          "https://jkanime.net/totsukuni-no-shoujo-2022/3/"
         ]
       },
       {
@@ -8909,13 +8895,6 @@
         "title": "BanG Dream! Film Live 2nd Stage",
         "samples": [
           "https://jkanime.net/bang-dream-film-live-2nd-stage/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tonikaku-kawaii-sns/",
-        "title": "Tonikaku Kawaii: SNS",
-        "samples": [
-          "https://jkanime.net/tonikaku-kawaii-sns/1/"
         ]
       },
       {
@@ -12252,13 +12231,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tenki-no-ko/",
-        "title": "Tenki no Ko",
-        "samples": [
-          "https://jkanime.net/tenki-no-ko/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bem/",
         "title": "Bem",
         "samples": [
@@ -12914,13 +12886,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/",
-        "title": "Trinity Seven Movie 2: Tenkuu Toshokan to Shinku no Maou",
-        "samples": [
-          "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/high-score-girl-extra-stage/",
         "title": "High Score Girl: Extra Stage",
         "samples": [
@@ -13344,7 +13309,8 @@
         "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
         "title": "Tsurune: Kazemai Koukou Kyuudoubu",
         "samples": [
-          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/14/"
+          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/1/",
+          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/11/"
         ]
       },
       {
@@ -18338,13 +18304,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tokyo-ghoul-pinto/",
-        "title": "Tokyo Ghoul: \"Pinto\"",
-        "samples": [
-          "https://jkanime.net/tokyo-ghoul-pinto/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita-christmas-special/",
         "title": "[Locodol]: Christmas Special",
         "samples": [
@@ -18568,13 +18527,6 @@
         "samples": [
           "https://jkanime.net/hokuto-no-ken-ichigo-aji/1/",
           "https://jkanime.net/hokuto-no-ken-ichigo-aji/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tokyo-ghoul-jack/",
-        "title": "Tokyo Ghoul: \"Jack\"",
-        "samples": [
-          "https://jkanime.net/tokyo-ghoul-jack/1/"
         ]
       },
       {
@@ -18849,13 +18801,6 @@
         "title": "Yowamushi Pedal Movie",
         "samples": [
           "https://jkanime.net/yowamushi-pedal-movie/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/",
-        "title": "Tamayura: Sotsugyou Shashin Part 1 - Kizashi",
-        "samples": [
-          "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/1/"
         ]
       },
       {
@@ -20127,13 +20072,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/",
-        "title": "Tales of Zestiria: Doushi no Yoake",
-        "samples": [
-          "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kono-danshi-sekika-ni-nayandemasu/",
         "title": "Kono Danshi, Sekika ni Nayandemasu.",
         "samples": [
@@ -20461,13 +20399,6 @@
         "title": "Sekai Seifuku: Bouryaku no Zvezda - Shin Zvezda Daisakusen",
         "samples": [
           "https://jkanime.net/sekai-seifuku-bouryaku-no-zvezda-shin-zvezda-daisakusen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tamako-love-story/",
-        "title": "Tamako Love Story",
-        "samples": [
-          "https://jkanime.net/tamako-love-story/1/"
         ]
       },
       {
@@ -20866,8 +20797,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/10/",
-          "https://jkanime.net/tribe-cool-crew/11/"
+          "https://jkanime.net/tribe-cool-crew/11/",
+          "https://jkanime.net/tribe-cool-crew/13/"
         ]
       },
       {
@@ -22013,13 +21944,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tsubasa-to-hotaru/",
-        "title": "Tsubasa to Hotaru",
-        "samples": [
-          "https://jkanime.net/tsubasa-to-hotaru/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mitsuwano/",
         "title": "Mitsuwano",
         "samples": [
@@ -22128,13 +22052,6 @@
         "samples": [
           "https://jkanime.net/maken-ki-two/1/",
           "https://jkanime.net/maken-ki-two/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tonari-no-seki-kun-ova/",
-        "title": "Tonari no Seki-kun OVA",
-        "samples": [
-          "https://jkanime.net/tonari-no-seki-kun-ova/1/"
         ]
       },
       {
@@ -23936,13 +23853,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/",
-        "title": "Toaru Majutsu no Index: Endymion no Kiseki",
-        "samples": [
-          "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fairy-tail-houou-no-miko-prologue/",
         "title": "Fairy Tail: Prologue 「Hajimari no Asa」",
         "samples": [
@@ -25557,13 +25467,6 @@
         "title": "Hidan no Aria OVA",
         "samples": [
           "https://jkanime.net/hidan-no-aria-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toradora-bentou-no-gokui/",
-        "title": "Toradora!: Bentou no Gokui",
-        "samples": [
-          "https://jkanime.net/toradora-bentou-no-gokui/1/"
         ]
       },
       {
@@ -29466,13 +29369,6 @@
         "title": "Sky Girls OVA",
         "samples": [
           "https://jkanime.net/sky-girls-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toki-wo-kakeru-shoujo/",
-        "title": "Toki wo Kakeru Shoujo",
-        "samples": [
-          "https://jkanime.net/toki-wo-kakeru-shoujo/1/"
         ]
       },
       {
@@ -34046,13 +33942,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/the-ribbon-hero/",
-        "title": "The Ribbon Hero",
-        "samples": [
-          "https://jkanime.net/the-ribbon-hero/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/",
         "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
         "samples": [
@@ -34423,8 +34312,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/13/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/14/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/14/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/15/"
         ]
       },
       {
@@ -34577,13 +34466,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/",
-        "title": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen",
-        "samples": [
-          "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tonikaku-kawaii-seifuku/",
         "title": "Tonikaku Kawaii: Seifuku",
         "samples": [
@@ -34677,13 +34559,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/teppen/",
-        "title": "Teppen!!!!!!!!!!!!!!!",
-        "samples": [
-          "https://jkanime.net/teppen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yuru-camp-movie/",
         "title": "Yuru Camp△ Movie",
         "samples": [
@@ -34737,13 +34612,6 @@
         "title": "Mushoku Tensei: Isekai Ittara Honki Dasu Special",
         "samples": [
           "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/totsukuni-no-shoujo-2022/",
-        "title": "Totsukuni no Shoujo (2022)",
-        "samples": [
-          "https://jkanime.net/totsukuni-no-shoujo-2022/1/"
         ]
       },
       {
@@ -34872,13 +34740,6 @@
         "title": "BanG Dream! Film Live 2nd Stage",
         "samples": [
           "https://jkanime.net/bang-dream-film-live-2nd-stage/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tonikaku-kawaii-sns/",
-        "title": "Tonikaku Kawaii: SNS",
-        "samples": [
-          "https://jkanime.net/tonikaku-kawaii-sns/1/"
         ]
       },
       {
@@ -35322,13 +35183,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tenki-no-ko/",
-        "title": "Tenki no Ko",
-        "samples": [
-          "https://jkanime.net/tenki-no-ko/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fatekaleid-liner-prismaillya-prismaphantasm/",
         "title": "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
         "samples": [
@@ -35393,13 +35247,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/",
-        "title": "Trinity Seven Movie 2: Tenkuu Toshokan to Shinku no Maou",
-        "samples": [
-          "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/psycho-pass-sinners-of-the-system-case3-onshuu-no-kanata-ni/",
         "title": "Psycho-Pass: Sinners of the System Case.3 - Onshuu no Kanata ni",
         "samples": [
@@ -35461,13 +35308,6 @@
         "title": "Hug tto! Precure♡Futari wa Precure Movie: All Stars Memories",
         "samples": [
           "https://jkanime.net/hug-tto-precurefutari-wa-precure-movie-all-stars-memories/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
-        "title": "Tsurune: Kazemai Koukou Kyuudoubu",
-        "samples": [
-          "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/14/"
         ]
       },
       {
@@ -36135,13 +35975,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tokyo-ghoul-pinto/",
-        "title": "Tokyo Ghoul: \"Pinto\"",
-        "samples": [
-          "https://jkanime.net/tokyo-ghoul-pinto/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita-christmas-special/",
         "title": "[Locodol]: Christmas Special",
         "samples": [
@@ -36174,13 +36007,6 @@
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
           "https://jkanime.net/wakabagirl-onsen-tsukaritai/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tokyo-ghoul-jack/",
-        "title": "Tokyo Ghoul: \"Jack\"",
-        "samples": [
-          "https://jkanime.net/tokyo-ghoul-jack/1/"
         ]
       },
       {
@@ -36233,13 +36059,6 @@
         "title": "Yowamushi Pedal Movie",
         "samples": [
           "https://jkanime.net/yowamushi-pedal-movie/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/",
-        "title": "Tamayura: Sotsugyou Shashin Part 1 - Kizashi",
-        "samples": [
-          "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/1/"
         ]
       },
       {
@@ -36500,13 +36319,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/",
-        "title": "Tales of Zestiria: Doushi no Yoake",
-        "samples": [
-          "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kono-danshi-sekika-ni-nayandemasu/",
         "title": "Kono Danshi, Sekika ni Nayandemasu.",
         "samples": [
@@ -36647,13 +36459,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tamako-love-story/",
-        "title": "Tamako Love Story",
-        "samples": [
-          "https://jkanime.net/tamako-love-story/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sword-art-online-ii-debriefing/",
         "title": "Sword Art Online II: Debriefing 14.5",
         "samples": [
@@ -36706,8 +36511,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/10/",
-          "https://jkanime.net/tribe-cool-crew/11/"
+          "https://jkanime.net/tribe-cool-crew/11/",
+          "https://jkanime.net/tribe-cool-crew/13/"
         ]
       },
       {
@@ -36931,13 +36736,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tsubasa-to-hotaru/",
-        "title": "Tsubasa to Hotaru",
-        "samples": [
-          "https://jkanime.net/tsubasa-to-hotaru/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mitsuwano/",
         "title": "Mitsuwano",
         "samples": [
@@ -36991,13 +36789,6 @@
         "title": "The iDOLM@STER Movie: Kagayaki no Mukougawa e!",
         "samples": [
           "https://jkanime.net/the-idolmster-movie-kagayaki-no-mukougawa-e/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tonari-no-seki-kun-ova/",
-        "title": "Tonari no Seki-kun OVA",
-        "samples": [
-          "https://jkanime.net/tonari-no-seki-kun-ova/1/"
         ]
       },
       {
@@ -37475,13 +37266,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/",
-        "title": "Toaru Majutsu no Index: Endymion no Kiseki",
-        "samples": [
-          "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fairy-tail-houou-no-miko-prologue/",
         "title": "Fairy Tail: Prologue 「Hajimari no Asa」",
         "samples": [
@@ -37827,13 +37611,6 @@
         "title": "Hidan no Aria OVA",
         "samples": [
           "https://jkanime.net/hidan-no-aria-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toradora-bentou-no-gokui/",
-        "title": "Toradora!: Bentou no Gokui",
-        "samples": [
-          "https://jkanime.net/toradora-bentou-no-gokui/1/"
         ]
       },
       {
@@ -38450,13 +38227,6 @@
         "title": "Sky Girls OVA",
         "samples": [
           "https://jkanime.net/sky-girls-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toki-wo-kakeru-shoujo/",
-        "title": "Toki wo Kakeru Shoujo",
-        "samples": [
-          "https://jkanime.net/toki-wo-kakeru-shoujo/1/"
         ]
       },
       {
@@ -39703,13 +39473,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/",
-        "title": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen",
-        "samples": [
-          "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tonikaku-kawaii-seifuku/",
         "title": "Tonikaku Kawaii: Seifuku",
         "samples": [
@@ -39829,13 +39592,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/totsukuni-no-shoujo-2022/",
-        "title": "Totsukuni no Shoujo (2022)",
-        "samples": [
-          "https://jkanime.net/totsukuni-no-shoujo-2022/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fruits-basket-prelude/",
         "title": "Fruits Basket: Prelude",
         "samples": [
@@ -39924,13 +39680,6 @@
         "title": "BanG Dream! Film Live 2nd Stage",
         "samples": [
           "https://jkanime.net/bang-dream-film-live-2nd-stage/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tonikaku-kawaii-sns/",
-        "title": "Tonikaku Kawaii: SNS",
-        "samples": [
-          "https://jkanime.net/tonikaku-kawaii-sns/1/"
         ]
       },
       {
@@ -40298,13 +40047,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tenki-no-ko/",
-        "title": "Tenki no Ko",
-        "samples": [
-          "https://jkanime.net/tenki-no-ko/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fatekaleid-liner-prismaillya-prismaphantasm/",
         "title": "Fate/kaleid liner Prisma☆Illya: Prisma☆Phantasm",
         "samples": [
@@ -40351,13 +40093,6 @@
         "title": "Birthday Wonderland",
         "samples": [
           "https://jkanime.net/birthday-wonderland/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/",
-        "title": "Trinity Seven Movie 2: Tenkuu Toshokan to Shinku no Maou",
-        "samples": [
-          "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/1/"
         ]
       },
       {
@@ -40886,13 +40621,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tokyo-ghoul-pinto/",
-        "title": "Tokyo Ghoul: \"Pinto\"",
-        "samples": [
-          "https://jkanime.net/tokyo-ghoul-pinto/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kuroko-no-basket-saikou-no-present-desu/",
         "title": "Kuroko no Basket: Saikou no Present Desu",
         "samples": [
@@ -40911,13 +40639,6 @@
         "title": "Wakaba*Girl: Onsen Tsukaritai",
         "samples": [
           "https://jkanime.net/wakabagirl-onsen-tsukaritai/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tokyo-ghoul-jack/",
-        "title": "Tokyo Ghoul: \"Jack\"",
-        "samples": [
-          "https://jkanime.net/tokyo-ghoul-jack/1/"
         ]
       },
       {
@@ -40946,13 +40667,6 @@
         "title": "Yowamushi Pedal Movie",
         "samples": [
           "https://jkanime.net/yowamushi-pedal-movie/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/",
-        "title": "Tamayura: Sotsugyou Shashin Part 1 - Kizashi",
-        "samples": [
-          "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/1/"
         ]
       },
       {
@@ -41166,13 +40880,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/",
-        "title": "Tales of Zestiria: Doushi no Yoake",
-        "samples": [
-          "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kono-danshi-sekika-ni-nayandemasu/",
         "title": "Kono Danshi, Sekika ni Nayandemasu.",
         "samples": [
@@ -41282,13 +40989,6 @@
         "title": "Sekai Seifuku: Bouryaku no Zvezda - Shin Zvezda Daisakusen",
         "samples": [
           "https://jkanime.net/sekai-seifuku-bouryaku-no-zvezda-shin-zvezda-daisakusen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tamako-love-story/",
-        "title": "Tamako Love Story",
-        "samples": [
-          "https://jkanime.net/tamako-love-story/1/"
         ]
       },
       {
@@ -41523,13 +41223,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tsubasa-to-hotaru/",
-        "title": "Tsubasa to Hotaru",
-        "samples": [
-          "https://jkanime.net/tsubasa-to-hotaru/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/mitsuwano/",
         "title": "Mitsuwano",
         "samples": [
@@ -41583,13 +41276,6 @@
         "title": "The iDOLM@STER Movie: Kagayaki no Mukougawa e!",
         "samples": [
           "https://jkanime.net/the-idolmster-movie-kagayaki-no-mukougawa-e/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tonari-no-seki-kun-ova/",
-        "title": "Tonari no Seki-kun OVA",
-        "samples": [
-          "https://jkanime.net/tonari-no-seki-kun-ova/1/"
         ]
       },
       {
@@ -42013,13 +41699,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/",
-        "title": "Toaru Majutsu no Index: Endymion no Kiseki",
-        "samples": [
-          "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fairy-tail-houou-no-miko-prologue/",
         "title": "Fairy Tail: Prologue 「Hajimari no Asa」",
         "samples": [
@@ -42304,13 +41983,6 @@
         "title": "Hidan no Aria OVA",
         "samples": [
           "https://jkanime.net/hidan-no-aria-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toradora-bentou-no-gokui/",
-        "title": "Toradora!: Bentou no Gokui",
-        "samples": [
-          "https://jkanime.net/toradora-bentou-no-gokui/1/"
         ]
       },
       {
@@ -42815,13 +42487,6 @@
         "title": "Sky Girls OVA",
         "samples": [
           "https://jkanime.net/sky-girls-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toki-wo-kakeru-shoujo/",
-        "title": "Toki wo Kakeru Shoujo",
-        "samples": [
-          "https://jkanime.net/toki-wo-kakeru-shoujo/1/"
         ]
       },
       {
@@ -43875,19 +43540,16 @@
     {
       "series": "https://jkanime.net/the-ribbon-hero/",
       "title": "The Ribbon Hero",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/the-ribbon-hero/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "streamwish": 1
+      },
       "playbackVerified": false
     },
     {
@@ -52218,7 +51880,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "vidhide": 13,
         "mp4upload": 24,
@@ -54262,14 +53924,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
-        "mega": 16,
         "streamwish": 21,
-        "vidhide": 16,
-        "mp4upload": 15,
-        "streamtape": 16,
-        "mixdrop": 10
+        "mega": 16,
+        "vidhide": 15,
+        "mixdrop": 10,
+        "mp4upload": 14,
+        "streamtape": 15
       },
       "playbackVerified": false
     },
@@ -54441,13 +54103,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "mega": 10,
         "streamwish": 16,
-        "vidhide": 11,
-        "mp4upload": 23,
-        "streamtape": 10,
+        "mega": 10,
+        "mp4upload": 22,
+        "vidhide": 10,
+        "streamtape": 9,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54463,13 +54125,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 9,
         "streamwish": 12,
-        "vidhide": 14,
-        "mp4upload": 16,
-        "streamtape": 9
+        "mega": 9,
+        "mp4upload": 15,
+        "vidhide": 13,
+        "streamtape": 8
       },
       "playbackVerified": false
     },
@@ -58461,9 +58123,8 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/13/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/14/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/15/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/16/",
@@ -58482,10 +58143,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 12,
-        "streamwish": 12,
+        "streamwish": 13,
         "vidhide": 12,
         "mp4upload": 13,
         "streamtape": 12
@@ -67260,20 +66921,16 @@
     {
       "series": "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/",
       "title": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna-hen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -69791,19 +69448,16 @@
       "series": "https://jkanime.net/teppen/",
       "title": "Teppen!!!!!!!!!!!!!!!",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/teppen/1/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 11,
+        "mega": 12,
         "streamwish": 11,
         "vidhide": 11,
         "mp4upload": 11,
@@ -71296,23 +70950,19 @@
       "series": "https://jkanime.net/totsukuni-no-shoujo-2022/",
       "title": "Totsukuni no Shoujo (2022)",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 3,
-      "stored": 2,
-      "missing": [
-        "https://jkanime.net/totsukuni-no-shoujo-2022/1/"
-      ],
+      "stored": 3,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 2,
         "streamwish": 2,
         "vidhide": 2,
-        "mega": 1,
+        "mega": 2,
         "streamtape": 1
       },
       "playbackVerified": false
@@ -73804,20 +73454,16 @@
     {
       "series": "https://jkanime.net/tonikaku-kawaii-sns/",
       "title": "Tonikaku Kawaii: SNS",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tonikaku-kawaii-sns/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mp4upload": 1
+      },
       "playbackVerified": false
     },
     {
@@ -83272,20 +82918,16 @@
     {
       "series": "https://jkanime.net/tenki-no-ko/",
       "title": "Tenki no Ko",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tenki-no-ko/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -85145,20 +84787,16 @@
     {
       "series": "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/",
       "title": "Trinity Seven Movie 2: Tenkuu Toshokan to Shinku no Maou",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -86424,22 +86062,19 @@
       "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
       "title": "Tsurune: Kazemai Koukou Kyuudoubu",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 14,
-      "stored": 13,
-      "missing": [
-        "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/14/"
-      ],
+      "stored": 14,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 8,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
+        "streamwish": 14,
+        "vidhide": 14,
+        "mp4upload": 14,
         "streamtape": 8
       },
       "playbackVerified": false
@@ -101134,20 +100769,16 @@
     {
       "series": "https://jkanime.net/tokyo-ghoul-pinto/",
       "title": "Tokyo Ghoul: \"Pinto\"",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tokyo-ghoul-pinto/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -101933,20 +101564,16 @@
     {
       "series": "https://jkanime.net/tokyo-ghoul-jack/",
       "title": "Tokyo Ghoul: \"Jack\"",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tokyo-ghoul-jack/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -102779,20 +102406,16 @@
     {
       "series": "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/",
       "title": "Tamayura: Sotsugyou Shashin Part 1 - Kizashi",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -106503,20 +106126,16 @@
     {
       "series": "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/",
       "title": "Tales of Zestiria: Doushi no Yoake",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tales-of-zestiria-doushi-no-yoake/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -107445,20 +107064,16 @@
     {
       "series": "https://jkanime.net/tamako-love-story/",
       "title": "Tamako Love Story",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tamako-love-story/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -108528,9 +108143,8 @@
         "renewal-error"
       ],
       "observed": 50,
-      "stored": 2,
+      "stored": 3,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/10/",
         "https://jkanime.net/tribe-cool-crew/11/",
         "https://jkanime.net/tribe-cool-crew/13/",
         "https://jkanime.net/tribe-cool-crew/14/",
@@ -108581,9 +108195,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "streamwish": 2
+        "streamwish": 3,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -111697,20 +111312,16 @@
     {
       "series": "https://jkanime.net/tsubasa-to-hotaru/",
       "title": "Tsubasa to Hotaru",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tsubasa-to-hotaru/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -112063,20 +111674,16 @@
     {
       "series": "https://jkanime.net/tonari-no-seki-kun-ova/",
       "title": "Tonari no Seki-kun OVA",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/tonari-no-seki-kun-ova/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -117217,20 +116824,16 @@
     {
       "series": "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/",
       "title": "Toaru Majutsu no Index: Endymion no Kiseki",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/toaru-majutsu-no-index-endymion-no-kiseki/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -121875,20 +121478,16 @@
     {
       "series": "https://jkanime.net/toradora-bentou-no-gokui/",
       "title": "Toradora!: Bentou no Gokui",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/toradora-bentou-no-gokui/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -132880,20 +132479,16 @@
     {
       "series": "https://jkanime.net/toki-wo-kakeru-shoujo/",
       "title": "Toki wo Kakeru Shoujo",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/toki-wo-kakeru-shoujo/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -140734,7 +140329,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 16,
       "families": {
         "mega": 1
       },
