@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "version": 1,
+  "deviceHelp": {
+    "enabled": true,
+    "tvShare": 0.35,
+    "mobileShare": 0.12,
+    "tvPages": 24,
+    "mobilePages": 8,
+    "renewFraction": 0.67
+  },
+  "deadReports": {
+    "enabled": true,
+    "perDay": 20
+  },
+  "notice": null,
+  "minVersion": null
+}

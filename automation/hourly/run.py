@@ -158,7 +158,10 @@ def main():
   try:wanted=None if proof else help_chain.wanted(state,files,now,help_chain.policy())
   except Exception as error:wanted=None;print(json.dumps({'helpWantedError':type(error).__name__+': '+str(error)[:120]}))
   # Extra signed field: installed readers check only their own keys, so older APKs ignore it.
-  payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new',**({'wanted':wanted} if wanted is not None else {})})
+  import remote_config
+  try:config=None if proof else remote_config.load(now)
+  except Exception as error:config=None;print(json.dumps({'remoteConfigError':type(error).__name__+': '+str(error)[:120]}))
+  payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new',**({'wanted':wanted} if wanted is not None else {}),**({'config':config} if config else {})})
   files['channel.json']=raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
   from voe_channel import render
   extra_files,voe_cp,voe_digest=render(D,now,key,tmp)
@@ -169,7 +172,7 @@ def main():
   put(tmp/'key.der',public)
   proof_result=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'cache')]))
   voe_proof=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/'voe-cache')])) if voe_cp else None
-  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'wanted':[w['url'] for w in wanted]} if wanted else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
+  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'wanted':[w['url'] for w in wanted]} if wanted else {}),**({'config':config} if config else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
   report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False,'voe':voe_proof}
   if '--publish' in sys.argv and changed:
