@@ -112,7 +112,8 @@ def validate(incoming,targets,before,after):
     for url,ep in incoming.get('episodes',{}).items():
         parent=url.rsplit('/',2)[0]+'/';listing=incoming.get('listings',{}).get(parent)
         if not listing or not listing.get('complete') or url not in listing.get('episodes',[]):raise ValueError('Observed listing mismatch')
-        if not ep.get('complete') or not ep.get('providers'):raise ValueError('No complete options')
+        # A chapter may come with only new-family servers (extraProviders); it goes to the /extra/ complement.
+        if not ep.get('complete') or not (ep.get('providers') or ep.get('extraProviders')):raise ValueError('No complete options')
         for date in (ep.get('observedAt'),listing.get('observedAt')):
             if not before-60<=stamp(date)<=after+60:raise ValueError('No fresh source observation')
     return incoming
@@ -243,6 +244,9 @@ def main():
                 if result.get('passed') is not True:raise ValueError('Sources unavailable')
                 incoming=validate(result.get('state'),pair,before,time.time())
                 from voe_channel import split
+                from extra_channel import split as split_extra
+                incoming,extra_count=split_extra(folder,incoming)
+                if extra_count:status['extraRenewed']=status.get('extraRenewed',0)+extra_count;publish=True
                 incoming,voe_count=split(folder,incoming)
                 if voe_count:status['voeRenewed']=status.get('voeRenewed',0)+voe_count;publish=True
                 missing=[url for url in pair if url not in incoming.get('episodes',{})]

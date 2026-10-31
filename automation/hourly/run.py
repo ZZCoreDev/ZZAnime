@@ -111,6 +111,7 @@ def main():
     recent=sorted(state['episodes'].items(),key=lambda row:state.get('newsSeen',{}).get(row[0],''),reverse=True)
     skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
     from voe_channel import fresh_urls,split
+    from extra_channel import split as split_extra
     # News seen in the last 7 days without a root-channel record (VOE-only) are rechecked through the
     # source chain with a backoff; historical VOE-only episodes are left to the renewal job.
     voe_fresh=fresh_urls(D,instant.timestamp());recheck=state.setdefault('voeRecheck',{});voe_news=voe_only_news(state,instant)
@@ -124,7 +125,7 @@ def main():
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
-    received=set(result['state']['episodes']);incoming,voe_captured=split(D,result['state']);collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    received=set(result['state']['episodes']);extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in);voe_captured+=extra_captured;collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
     for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
     for url in received:incidents.pop(url,None)
@@ -198,13 +199,18 @@ def main():
   from voe_channel import render
   extra_files,voe_cp,voe_digest=render(D,now,key,tmp)
   files.update(extra_files)
-  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+  # /extra/: chapters whose only servers are new families, read by móvil 93+/TV 117+ only.
+  import extra_channel
+  try:extra_only={} if proof else extra_channel.render(D,now,key,excluded_keys(D))
+  except Exception as error:extra_only={};print(json.dumps({'extraChannelError':type(error).__name__+': '+str(error)[:120]}))
+  files.update(extra_only);extra_digest=next((n for n in extra_only if n.startswith('extra/indexes/')),None)
+  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
   for n,b in files.items():put(assets/n,b)
   put(tmp/'key.der',public)
   proof_result=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'cache')]))
   voe_proof=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/'voe-cache')])) if voe_cp else None
-  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'wanted':[w['url'] for w in wanted]} if wanted else {}),**({'config':config} if config else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
+  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'extra':extra_digest} if extra_digest else {}),**({'wanted':[w['url'] for w in wanted]} if wanted else {}),**({'config':config} if config else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
   report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False,'voe':voe_proof}
   if '--publish' in sys.argv and changed:
@@ -215,7 +221,7 @@ def main():
     import re
     for p in old.rglob('*.bin'):
      n=p.relative_to(old).as_posix()
-     if re.fullmatch(r'(?:voe/)?(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
+     if re.fullmatch(r'(?:voe/|extra/)?(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
    if len(list(assets.rglob('*')))>18000 or any(p.stat().st_size>2097152 for p in assets.rglob('*') if p.is_file()):raise ValueError('Static/app limits; paid upgrade forbidden')
    config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','assets':{'directory':'./assets','not_found_handling':'none'},'send_metrics':False,'observability':{'enabled':False}}
    put(site/'wrangler.json',raw(config));cli=W/'node_modules/wrangler/bin/wrangler.js'
