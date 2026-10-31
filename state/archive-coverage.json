@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T11:02:24.128103+00:00",
+  "checkedAt": "2026-10-31T11:16:16.537902+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72386,
-  "missingChapters": 1408,
+  "storedChapters": 72387,
+  "missingChapters": 1407,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -72341,7 +72341,7 @@
         "renewal-error"
       ],
       "observed": 38,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/14/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/16/",
@@ -72356,7 +72356,6 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/27/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/28/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/29/",
-        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/32/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/33/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/34/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/35/",
@@ -72366,13 +72365,14 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 29,
+      "renewalFailed": 28,
       "families": {
         "streamwish": 14,
         "mega": 9,
         "vidhide": 10,
         "mp4upload": 17,
-        "streamtape": 9
+        "streamtape": 9,
+        "mixdrop": 1
       },
       "playbackVerified": false
     },
