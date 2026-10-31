@@ -103,7 +103,7 @@ Estado: complete-with-failures. Fallos pendientes: 59730; capítulos vencidos pe
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 4/4 capítulos recientes; incidencias pendientes: 1.
-Diagnóstico por serie: 4349/4357; pendientes: 8. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4349/4355; pendientes: 6. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 72386 capítulos con registros, 1408 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
