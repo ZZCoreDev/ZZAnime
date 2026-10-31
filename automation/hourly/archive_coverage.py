@@ -10,10 +10,13 @@ def baseline():
     path=Path(__file__).with_name('coverage-baseline.json.gz')
     return json.loads(gzip.decompress(path.read_bytes())) if path.exists() else {'series':{}}
 
-def missing_targets(state,failures,now):
+def missing_targets(state,failures,now,side=None):
+    # side: {url: observed stamp} of chapters published in /voe/ or /extra/. They are not missing; they are
+    # asked again only once their complement record is a day old, like any renewal.
     observed={parent:set(row['episodes']) for parent,row in baseline().get('series',{}).items()}
     for parent,row in state.get('listings',{}).items():observed.setdefault(parent,set()).update(row.get('episodes',[]))
-    return sorted(url for urls in observed.values() for url in urls if url not in state['episodes'] and failures.get(url,{}).get('retryAt',0)<=now)
+    side=side or {}
+    return sorted(url for urls in observed.values() for url in urls if url not in state['episodes'] and failures.get(url,{}).get('retryAt',0)<=now and not (url in side and now-side[url]<86400))
 
 def audit(catalogue,baseline,state,failures,now):
     by_parent=defaultdict(dict);failed_by_parent=defaultdict(list)

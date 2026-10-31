@@ -117,6 +117,26 @@ class RenewalTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError,'Two-series renewal proof failed'):renew.main()
             saved=load(temp);self.assertEqual(saved['episodes'][url]['observedAt'],incoming['episodes'][url]['observedAt']);self.assertEqual(saved['episodes'][second]['observedAt'],state['episodes'][second]['observedAt'])
             failures=json.loads((Path(temp)/'renewal-failures.json').read_bytes());self.assertEqual(set(failures),{second});self.assertEqual(failures[second]['reason'],'Episode not found')
+    def test_chapter_split_into_extra_is_not_a_failure_nor_missing(self):
+        import renew,run
+        now,parent,url,state=self.fixture();second='https://jkanime.net/dark-summoner-to-dekiteiru/4/';sp=second.rsplit('/',2)[0]+'/'
+        state['episodes'][second]=copy.deepcopy(state['episodes'][url]);state['listings'][sp]={'complete':True,'observedAt':state['episodes'][url]['observedAt'],'episodes':[second]}
+        incoming=copy.deepcopy(self.fixture(0)[3]);fresh=incoming['episodes'][url]['observedAt'];link=incoming['episodes'][url]['providers'][0]['links'][0];key=run.sha(('Mp4upload\0'+link).encode())
+        incoming['episodes'][second]={'complete':True,'observedAt':fresh,'providers':[],'extraProviders':[{'family':'yourupload','name':'YourUpload','links':['https://www.yourupload.com/embed/abc123']}]};incoming['listings'][sp]={'complete':True,'observedAt':fresh,'episodes':[second]}
+        class Response:
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+            def read(self,*args):return json.dumps({'passed':True,'state':incoming,'errors':{}}).encode()
+        with self.temporary() as temp:
+            save(temp,state);Path(temp,'renewal-failures.json').write_text(json.dumps({second:{'attempts':3,'retryAt':0,'reason':'Source did not return a verified observation'}}))
+            with patch.dict(os.environ,{'ZZ_DATA':str(temp),'ZZ_COLLECTOR_URL':'https://collector.invalid/','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['renew.py','--proof']),patch('renew.urllib.request.urlopen',return_value=Response()),patch('run.compile_java',return_value='test'),patch('run.command',return_value=json.dumps({'key':key,'approved':True})):
+                with self.assertRaisesRegex(ValueError,'Two-series renewal proof failed'):renew.main()
+            self.assertEqual(json.loads((Path(temp)/'renewal-failures.json').read_bytes()),{})
+            side=renew.complements(temp);self.assertIn(second,side)
+            from archive_coverage import missing_targets
+            alone={'episodes':{},'listings':{sp:state['listings'][sp]}}
+            with patch('archive_coverage.baseline',return_value={}):
+                self.assertEqual(missing_targets(alone,{},now.timestamp(),side),[]);self.assertEqual(missing_targets(alone,{},now.timestamp()+86401,side),[second]);self.assertEqual(missing_targets(alone,{},now.timestamp()),[second])
     def test_pending_news_is_never_replaced_by_renewal_continuation(self):
         class Response:
             def __enter__(self):return self

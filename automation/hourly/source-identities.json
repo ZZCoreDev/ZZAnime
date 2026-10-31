@@ -39,7 +39,8 @@
         "slug": "yu-gi-oh-gx",
         "title": "Yu-Gi-Oh! GX"
       }
-    }
+    },
+    "collector": "291ed2a1-bbef-4a9a-9f2d-a4bf790d9a17"
   },
   "https://jkanime.net/prince-of-tennis/": {
     "title": "Prince of Tennis",
@@ -55,6 +56,7 @@
         "slug": "the-prince-of-tennis",
         "title": "The Prince of Tennis"
       }
-    }
+    },
+    "collector": "291ed2a1-bbef-4a9a-9f2d-a4bf790d9a17"
   }
 }

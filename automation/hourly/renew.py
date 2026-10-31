@@ -31,7 +31,14 @@ def repair_verified_identities(state,failures,now):
         done[parent]=revision
     return repaired
 
-def select(state,failures,now,limit,include_missing=False):
+def complements(folder):
+    """{url: observed stamp} of chapters published in the /voe/ or /extra/ complement."""
+    out={}
+    for name in ('voe-state','extra-state'):
+        for url,ep in load(Path(folder)/name)['episodes'].items():out[url]=max(out.get(url,-1),stamp(ep.get('observedAt')))
+    return out
+
+def select(state,failures,now,limit,include_missing=False,side=None):
     rows=[]
     for url,ep in state['episodes'].items():
         observed=stamp(ep.get('observedAt'));listing=state['listings'].get(url.rsplit('/',2)[0]+'/')
@@ -40,7 +47,7 @@ def select(state,failures,now,limit,include_missing=False):
         rows.append((observed,url))
     healthy=sorted(row for row in rows if row[1] not in failures);retry=fair_retries(sorted(row for row in rows if row[1] in failures),failures)
     from archive_coverage import missing_targets
-    missing=fair_retries([(0,url) for url in missing_targets(state,failures,now)],failures) if include_missing else []
+    missing=fair_retries([(0,url) for url in missing_targets(state,failures,now,side)],failures) if include_missing else []
     repair_limit=max(1,limit//4) if healthy else limit
     missing_count=min(len(missing),max(1,repair_limit//2)) if missing else 0
     retry_count=min(len(retry),repair_limit-missing_count)
@@ -94,7 +101,7 @@ def health_report(folder,state,failures,status,now):
     measured_span=now-min((r['start'] for r in usable),default=now);span=max(3600,measured_span);rate=sum(r['renewed'] for r in usable)*3600/span
     qualified=len(usable)>=3 and measured_span>=3600
     eta=len(ages)/rate/24 if rate and qualified else None
-    report={'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'episodes':len(ages),'oldestHours':round(max(ages.values(),default=0)/3600,2),'pending':len(select(state,failures,now,len(ages))),'expired':sum(age>7*DAY for age in ages.values()),'expiresWithin24Hours':sum(age>=6*DAY for age in ages.values()),'retryAfterExpiry':sum(r.get('retryAt',0)>now+7*DAY-ages[url] for url,r in failures.items() if url in ages),'successfulCyclesMeasured':len(usable),'sampleMinutes':round(measured_span/60,2),'measuredWallClockPerHour':round(rate,2),'estimatedSweepDays':round(eta,2) if eta is not None else None,'capacityStatus':'insufficient-history' if not qualified else 'within-budget' if eta is not None and eta<=5 else 'behind','datesInvented':False}
+    report={'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'episodes':len(ages),'oldestHours':round(max(ages.values(),default=0)/3600,2),'pending':len(select(state,failures,now,len(ages),side=complements(folder))),'expired':sum(age>7*DAY for age in ages.values()),'expiresWithin24Hours':sum(age>=6*DAY for age in ages.values()),'retryAfterExpiry':sum(r.get('retryAt',0)>now+7*DAY-ages[url] for url,r in failures.items() if url in ages),'successfulCyclesMeasured':len(usable),'sampleMinutes':round(measured_span/60,2),'measuredWallClockPerHour':round(rate,2),'estimatedSweepDays':round(eta,2) if eta is not None else None,'capacityStatus':'insufficient-history' if not qualified else 'within-budget' if eta is not None and eta<=5 else 'behind','datesInvented':False}
     identity_path=Path(__file__).with_name('source-identities.json');recovery={}
     if identity_path.exists():
         for parent,entry in json.loads(identity_path.read_bytes()).items():
@@ -172,7 +179,7 @@ def continue_if_due(folder):
     failed=os.environ.get('ZZ_RENEW_OUTCOME','success')!='success'
     if status.get('state') not in ('complete','complete-with-failures') and not failed:return
     state=load(folder);failed_path=folder/'renewal-failures.json';failures=json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
-    if not select(state,failures,time.time(),1,include_missing=True):return
+    if not select(state,failures,time.time(),1,include_missing=True,side=complements(folder)):return
     if os.environ.get('GITHUB_REPOSITORY')!='ZZCoreDev/ZZAnime':raise ValueError('Continuation repository not allowed')
     headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'}
     if failed:
@@ -215,7 +222,7 @@ def main():
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
     identities_repaired=repair_verified_identities(state,failures,instant)
     proof_targets=json.loads(Path(__file__).with_name('observed-token-policy.json').read_bytes())['proof'] if args.sample_group=='observed-token' else INCIDENT_PROOF if args.sample_group=='verified-year' else PROOF
-    targets=proof_targets if args.proof else select(state,failures,instant,MAX_EPISODES,include_missing=True)
+    targets=proof_targets if args.proof else select(state,failures,instant,MAX_EPISODES,include_missing=True,side=complements(folder))
     if not args.proof:
         from voe_channel import due_targets
         extras=due_targets(folder,failures,instant,MAX_EPISODES//4);targets=list(dict.fromkeys(extras+targets))[:MAX_EPISODES]
@@ -246,11 +253,14 @@ def main():
                 incoming=validate(result.get('state'),pair,before,time.time())
                 from voe_channel import split
                 from extra_channel import split as split_extra
+                returned=set(incoming.get('episodes',{}))
                 incoming,extra_count=split_extra(folder,incoming)
                 if extra_count:status['extraRenewed']=status.get('extraRenewed',0)+extra_count;publish=True
                 incoming,voe_count=split(folder,incoming)
                 if voe_count:status['voeRenewed']=status.get('voeRenewed',0)+voe_count;publish=True
-                missing=[url for url in pair if url not in incoming.get('episodes',{})]
+                # Chapters split into /extra/ or /voe/ were observed and published: not failures.
+                missing=[url for url in pair if url not in returned]
+                for url in returned-set(incoming.get('episodes',{})):failures.pop(url,None)
                 for url in missing:record_failure(failures,url,result.get('errors',{}).get(url,'Source did not return a verified observation'),time.time(),state['episodes'].get(url,{}).get('observedAt',''),result.get('diagnostics',{}).get(url))
                 if not incoming.get('episodes'):continue
                 # Use the real app validator before replacing any previous options.
