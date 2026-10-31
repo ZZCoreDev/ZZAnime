@@ -45,4 +45,19 @@ class RemoteConfigTests(unittest.TestCase):
     results.append(json.loads(run.command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(site),str(public),str(root/('cache'+str(len(results))))])))
    self.assertEqual(results[0],results[1])
 
+class ProviderHealthTests(unittest.TestCase):
+ def test_probe_verdicts_map_to_app_states(self):
+  import datetime,json,tempfile
+  from pathlib import Path
+  import remote_config as rc
+  now=datetime.datetime(2026,11,2,12,tzinfo=datetime.timezone.utc)
+  probe={'checkedAt':'2026-11-02T05:30:00Z','families':{'streamwish':{'state':'ok','failingDays':0},'vidhide':{'state':'failed','failingDays':1},'mp4upload':{'state':'failed','failingDays':2},'voe':{'state':'blocked','failingDays':0},'mega':{'state':'no-sample'}}}
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d)/'playback-probe.json';p.write_text(json.dumps(probe))
+   h=rc.provider_health(now,p)
+   self.assertEqual(h,{'schema':1,'checkedAt':'2026-11-02T05:30:00Z','families':{'streamwish':'ok','vidhide':'unknown','mp4upload':'down','yourupload':'unknown','mega':'unknown','voe':'blocked'}})
+   self.assertEqual(set(rc.provider_health(now+datetime.timedelta(days=4),p)['families'].values()),{'unknown'})
+   p.write_text('not json');self.assertIsNone(rc.provider_health(now,p))
+   self.assertIsNone(rc.provider_health(now,Path(d)/'missing.json'))
+
 if __name__=='__main__':unittest.main()

@@ -51,3 +51,21 @@ def load(now,path=None):
   if not isinstance(m,dict) or not m or set(m)-PLATFORMS or any(isinstance(v,bool) or not isinstance(v,int) or v<1 for v in m.values()):raise ValueError('Remote config minVersion')
   out['minVersion']=dict(sorted(m.items()))
  return out
+
+# providerHealth (signed config): the daily playback probe's verdict per family, for apps to show server
+# status. down = failed 2 days in a row; blocked = the server refuses GitHub's IPs (not down); unknown =
+# no sample, a single failed day or a probe older than 3 days. Installed apps ignore the field.
+HEALTH_FAMILIES=('streamwish','vidhide','mp4upload','yourupload','mega','voe')
+def provider_health(now,path=None):
+ import os
+ path=Path(path or os.environ.get('ZZ_PLAYBACK_PROBE') or Path(os.environ.get('RUNNER_TEMP','/nonexistent'))/'playback-probe.json')
+ try:probe=json.loads(path.read_bytes())
+ except (OSError,ValueError):return None
+ try:checked=datetime.datetime.fromisoformat(str(probe['checkedAt']).replace('Z','+00:00'))
+ except (KeyError,ValueError):return None
+ fresh=0<=(now-checked).total_seconds()<=3*86400;families={}
+ for f in HEALTH_FAMILIES:
+  row=(probe.get('families') or {}).get(f) or {}
+  state=row.get('state');days=row.get('failingDays',0)
+  families[f]='unknown' if not fresh else 'ok' if state=='ok' else 'blocked' if state=='blocked' else 'down' if state=='failed' and isinstance(days,int) and days>=2 else 'unknown'
+ return {'schema':1,'checkedAt':checked.isoformat().replace('+00:00','Z'),'families':families}

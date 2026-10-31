@@ -30,6 +30,10 @@ jobs:
         with:
           ref: provider-data
           path: data
+      - name: Estado del probador de reproduccion (rama playback-probe)
+        working-directory: code
+        run: |
+          if git fetch -q --depth 1 origin playback-probe; then git show FETCH_HEAD:playback-probe.json > "$RUNNER_TEMP/playback-probe.json" || true; fi
       - name: Dependencias fijadas, sin caché ni artefactos de pago
         working-directory: code/automation/hourly
         run: |

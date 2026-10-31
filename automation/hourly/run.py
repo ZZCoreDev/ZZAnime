@@ -195,7 +195,12 @@ def main():
   except Exception as error:wanted=None;print(json.dumps({'helpWantedError':type(error).__name__+': '+str(error)[:120]}))
   # Extra signed field: installed readers check only their own keys, so older APKs ignore it.
   import remote_config
-  try:config=None if proof else remote_config.load(now)
+  try:
+   config=None if proof else remote_config.load(now)
+   # Server status from the daily playback probe (branch playback-probe, copied to $RUNNER_TEMP by the workflow).
+   try:health=None if proof or config is None else remote_config.provider_health(now)
+   except Exception as error:health=None;print(json.dumps({'providerHealthError':type(error).__name__+': '+str(error)[:120]}))
+   if health:config['providerHealth']=health
   except Exception as error:config=None;print(json.dumps({'remoteConfigError':type(error).__name__+': '+str(error)[:120]}))
   payload=raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(files[name]),'mode':'daily-new',**({'wanted':wanted} if wanted is not None else {}),**({'config':config} if config else {})})
   files['channel.json']=raw({'payload':payload.decode(),'signature':key.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})
