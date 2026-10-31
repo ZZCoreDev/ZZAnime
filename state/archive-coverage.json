@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T03:56:26.384281+00:00",
+  "checkedAt": "2026-10-31T04:10:08.837843+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72326,
-  "missingChapters": 1450,
+  "storedChapters": 72332,
+  "missingChapters": 1444,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -579,13 +579,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/seihantai-na-kimi-to-boku/",
-        "title": "Seihantai na Kimi to Boku",
-        "samples": [
-          "https://jkanime.net/seihantai-na-kimi-to-boku/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yuusha-no-kuzu/",
         "title": "Yuusha no Kuzu",
         "samples": [
@@ -651,8 +644,8 @@
         "series": "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/",
         "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
         "samples": [
-          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/3/",
-          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/8/"
+          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/8/",
+          "https://jkanime.net/android-wa-keiken-ninzuu-ni-hairimasu-ka/9/"
         ]
       },
       {
@@ -690,8 +683,8 @@
         "series": "https://jkanime.net/mato-seihei-no-slave-2/",
         "title": "Mato Seihei no Slave 2",
         "samples": [
-          "https://jkanime.net/mato-seihei-no-slave-2/6/",
-          "https://jkanime.net/mato-seihei-no-slave-2/8/"
+          "https://jkanime.net/mato-seihei-no-slave-2/8/",
+          "https://jkanime.net/mato-seihei-no-slave-2/9/"
         ]
       },
       {
@@ -8725,8 +8718,8 @@
         "series": "https://jkanime.net/kyoukai-senki/",
         "title": "Kyoukai Senki",
         "samples": [
-          "https://jkanime.net/kyoukai-senki/15/",
-          "https://jkanime.net/kyoukai-senki/17/"
+          "https://jkanime.net/kyoukai-senki/17/",
+          "https://jkanime.net/kyoukai-senki/18/"
         ]
       },
       {
@@ -16728,7 +16721,6 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
         ]
       },
@@ -18430,13 +18422,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/love-live-the-school-idol-movie/",
-        "title": "Love Live! The School Idol Movie",
-        "samples": [
-          "https://jkanime.net/love-live-the-school-idol-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/steinsgate-kyoukaimenjou-no-missing-link/",
         "title": "Steins;Gate: Kyoukaimenjou no Missing Link",
         "samples": [
@@ -18464,7 +18449,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/17/"
+          "https://jkanime.net/digimon-adventure-tri/18/"
         ]
       },
       {
@@ -27140,13 +27125,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/",
-        "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
-        "samples": [
-          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fate-stay-night-unlimited-blade-works/",
         "title": "Fate/stay night: Unlimited Blade Works",
         "samples": [
@@ -32847,8 +32825,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/43/",
-          "https://jkanime.net/taiho-shichau-zo/44/"
+          "https://jkanime.net/taiho-shichau-zo/44/",
+          "https://jkanime.net/taiho-shichau-zo/45/"
         ]
       },
       {
@@ -34716,8 +34694,8 @@
         "series": "https://jkanime.net/kyoukai-senki/",
         "title": "Kyoukai Senki",
         "samples": [
-          "https://jkanime.net/kyoukai-senki/15/",
-          "https://jkanime.net/kyoukai-senki/17/"
+          "https://jkanime.net/kyoukai-senki/17/",
+          "https://jkanime.net/kyoukai-senki/18/"
         ]
       },
       {
@@ -35749,7 +35727,6 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
         ]
       },
@@ -36074,13 +36051,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/love-live-the-school-idol-movie/",
-        "title": "Love Live! The School Idol Movie",
-        "samples": [
-          "https://jkanime.net/love-live-the-school-idol-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/steinsgate-kyoukaimenjou-no-missing-link/",
         "title": "Steins;Gate: Kyoukaimenjou no Missing Link",
         "samples": [
@@ -36092,7 +36062,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/17/"
+          "https://jkanime.net/digimon-adventure-tri/18/"
         ]
       },
       {
@@ -38132,13 +38102,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/",
-        "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
-        "samples": [
-          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fate-stay-night-unlimited-blade-works/",
         "title": "Fate/stay night: Unlimited Blade Works",
         "samples": [
@@ -38898,8 +38861,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/43/",
-          "https://jkanime.net/taiho-shichau-zo/44/"
+          "https://jkanime.net/taiho-shichau-zo/44/",
+          "https://jkanime.net/taiho-shichau-zo/45/"
         ]
       },
       {
@@ -40875,13 +40838,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/love-live-the-school-idol-movie/",
-        "title": "Love Live! The School Idol Movie",
-        "samples": [
-          "https://jkanime.net/love-live-the-school-idol-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/steinsgate-kyoukaimenjou-no-missing-link/",
         "title": "Steins;Gate: Kyoukaimenjou no Missing Link",
         "samples": [
@@ -42601,13 +42557,6 @@
         "title": "Mai-HiME: Kuro no Mai/Saigo no Bansan",
         "samples": [
           "https://jkanime.net/mai-hime-kuro-no-maisaigo-no-bansan/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/",
-        "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
-        "samples": [
-          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/1/"
         ]
       },
       {
@@ -47125,15 +47074,13 @@
     {
       "series": "https://jkanime.net/seihantai-na-kimi-to-boku/",
       "title": "Seihantai na Kimi to Boku",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 11,
         "streamwish": 12,
@@ -47317,7 +47264,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47390,7 +47337,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47453,7 +47400,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 8,
         "streamwish": 9,
@@ -47551,7 +47498,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47570,7 +47517,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -73236,18 +73183,17 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/kyoukai-senki/15/",
         "https://jkanime.net/kyoukai-senki/17/",
         "https://jkanime.net/kyoukai-senki/18/",
         "https://jkanime.net/kyoukai-senki/19/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
-        "mega": 19,
+        "mega": 20,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -96426,17 +96372,16 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 8,
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -101382,20 +101327,16 @@
     {
       "series": "https://jkanime.net/love-live-the-school-idol-movie/",
       "title": "Love Live! The School Idol Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/love-live-the-school-idol-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -101531,10 +101472,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/17/",
         "https://jkanime.net/digimon-adventure-tri/18/",
         "https://jkanime.net/digimon-adventure-tri/19/",
         "https://jkanime.net/digimon-adventure-tri/20/",
@@ -101554,7 +101494,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 10,
+        "mega": 11,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -126610,20 +126550,16 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/",
       "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -142765,9 +142701,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 37,
+      "stored": 38,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/43/",
         "https://jkanime.net/taiho-shichau-zo/44/",
         "https://jkanime.net/taiho-shichau-zo/45/",
         "https://jkanime.net/taiho-shichau-zo/46/",
@@ -142790,7 +142725,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 36,
+        "mp4upload": 37,
         "streamtape": 3
       },
       "playbackVerified": false
