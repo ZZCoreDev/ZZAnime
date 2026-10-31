@@ -1,6 +1,6 @@
 """Provider-page liveness of stored options: only positive deletion markers exclude, never a playback claim."""
 from pathlib import Path
-import hashlib,json,re,time,urllib.request,urllib.error
+import gzip,hashlib,json,re,time,urllib.request,urllib.error
 from archive_state import stamp
 W=Path(__file__).resolve().parent
 FAKE='zzzzzzzzzzzz'
@@ -33,6 +33,11 @@ REPORTED_RECHECK=3600
 REPORTED_LIMIT=10
 INTERVAL={'alive':24*3600,'unknown':6*3600,'dead':1800,'excluded':48*3600}
 CONFIRM_GAP=1800
+# The whole archive is swept in turns inside the same per-run request budget: news keep priority, the archive
+# gets ARCHIVE_SLOTS of the regular slots (more when news leave them free), reading at most ARCHIVE_SHARDS
+# series shards per run from a cursor stored in link-health.json.
+ARCHIVE_SLOTS=2
+ARCHIVE_SHARDS=40
 def sha(b):return hashlib.sha256(b).hexdigest()
 def policy():return json.loads((W/'link-health-policy.json').read_bytes())
 def target(family,link,rules):
@@ -99,6 +104,34 @@ def candidates(folder,now,rules):
    family,link,name=r.get('family'),str(r.get('url','')),str(r.get('name',''))
    if target(family,link,rules):out.setdefault(sha((name+'\0'+link).encode()),{'family':family,'name':name,'url':link,'episode':r.get('episode')})['reported']=True
  return out
+def links_of(ep,url,rules):
+ out={}
+ for p in (ep or {}).get('providers',[])+(ep or {}).get('extraProviders',[]):
+  for link in p.get('links',[]):
+   if target(p.get('family'),link,rules):out[sha((p['name']+'\0'+link).encode())]={'family':p['family'],'name':p['name'],'url':link,'episode':url}
+ for x in (ep or {}).get('downloads',[]):
+  link,name=x.get('url',''),x.get('name','Mega')
+  if x.get('family')=='mega' and target('mega',link,rules):out[sha((name+'\0'+link).encode())]={'family':'mega','name':name,'url':link,'episode':url,'download':True}
+ return out
+def archive_candidates(folder,health,now,rules,found,budget):
+ """Due links of the next series shards (whole archive, any age), from the stored cursor; at most `budget`."""
+ files=sorted((Path(folder)/'series-state').glob('*.json.gz'))
+ cursor=health.setdefault('archive',{'cursor':0,'sweeps':0})
+ if not files or budget<=0:return {}
+ i=cursor['cursor']%len(files);out={}
+ for _ in range(min(ARCHIVE_SHARDS,len(files))):
+  row=json.loads(gzip.decompress(files[i].read_bytes()));batch={}
+  for url,ep in sorted(row.get('episodes',{}).items()):
+   if not rules.get('enabled') and url not in rules['proof']:continue
+   for k,v in links_of(ep,url,rules).items():
+    if k not in found and k not in out and due(health['links'].get(k),now):batch[k]=dict(v,archive=True)
+  out.update(batch)
+  # Stay on a shard until all its due links fit in a run; checked links stop being due.
+  if len(out)>budget:break
+  i=(i+1)%len(files)
+  if i==0:cursor['sweeps']=cursor.get('sweeps',0)+1
+ cursor['cursor']=i;cursor['shards']=len(files)
+ return dict(list(out.items())[:budget])
 def due(entry,now):
  if not entry or 'checkedAt' not in entry:return True
  kind='excluded' if entry.get('excluded') else entry.get('state','unknown')
@@ -111,8 +144,13 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
  def ready(k):
   entry=links.get(k)
   return due(entry,now) or (found[k].get('reported') and now-(entry or {}).get('checkedAt',0)>=REPORTED_RECHECK)
+ # Archive links read dead or excluded keep being re-checked until confirmed (or revived), whatever the cursor.
+ for k,e in links.items():
+  if e.get('archive') and k not in found and (e.get('excluded') or e.get('state')=='dead'):found[k]={x:e[x] for x in ('family','name','url','episode','archive','download') if x in e}
  ordered=sorted((k for k in found if ready(k)),key=lambda k:(k in links,links.get(k,{}).get('checkedAt',0)))
- queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+[k for k in ordered if not found[k].get('reported')][:limit]
+ news=[k for k in ordered if not found[k].get('reported')]
+ archive=archive_candidates(folder,health,now,rules,found,max(0,limit-min(len(news),max(0,limit-ARCHIVE_SLOTS))));found.update(archive)
+ queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+news[:limit-len(archive)]+list(archive)
  families=sorted({found[k]['family'] for k in queue});results={};summary={'checked':0,'alive':0,'dead':0,'unknown':0,'suspended':[]};sent=[0]
  def get(url):
   # One request at a time with a fixed pause; no parallel servers, no retries inside a run.
@@ -148,7 +186,12 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
    checks=(entry.get('deadChecks',[])+[now])[-3:];entry['deadChecks']=checks
    if not entry.get('excluded') and checks[-1]-checks[0]>=CONFIRM_GAP:entry.update(excluded=True,excludedAt=now)
  for key in list(links):
-  if key not in found and now-links[key].get('checkedAt',now)>14*86400:links.pop(key)
+  e=links[key];age=now-e.get('checkedAt',now)
+  if key in found:continue
+  if age>14*86400:links.pop(key)
+  # Archive links only stay while they matter: dead (pending confirmation) or excluded; the sweep re-reads the rest.
+  elif e.get('archive') and not e.get('excluded') and e.get('state')!='dead' and age>=INTERVAL.get(e.get('state'),INTERVAL['unknown']):links.pop(key)
+ summary['archive']={'checked':sum(1 for k in results if links.get(k,{}).get('archive')),**{k:health.get('archive',{}).get(k) for k in ('cursor','shards','sweeps')}}
  summary.update(excluded=sum(1 for e in links.values() if e.get('excluded')),tracked=len(links),candidates=len(found),checkedAt=now,playbackVerified=False,aiCalls=0)
  health['last']=summary;path.write_text(json.dumps(health,sort_keys=True,separators=(',',':')),encoding='utf-8')
  return summary

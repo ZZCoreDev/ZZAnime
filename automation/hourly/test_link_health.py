@@ -144,4 +144,36 @@ class LinkHealthTests(unittest.TestCase):
    found=link_health.candidates(d,datetime.datetime.now(datetime.timezone.utc).timestamp(),link_health.policy())
    self.assertEqual(found[key('YourUpload',yu)],{'family':'yourupload','name':'YourUpload','url':yu,'episode':old})
    self.assertTrue(any(v['url']==DEAD_MP4 for v in found.values()))
+ def test_archive_is_swept_in_turns_inside_the_same_budget(self):
+  arch=['https://www.mp4upload.com/embed-arch%04dabcd.html'%i for i in range(9)];gone='https://www.mp4upload.com/embed-archdeadabcd.html'
+  class Old(Web):
+   def __call__(self,url):
+    if url==gone:self.urls.append(url);return page('mp4upload','dead')
+    return Web.__call__(self,url)
+  with tempfile.TemporaryDirectory() as d:
+   world(d)
+   for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':arch[i*3:i*3+3]+([gone] if i==1 else [])}])
+   web=Old();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
+   # News first (3 due links), the archive fills the rest of the 6 regular slots; same total as before.
+   first=link_health.check(d,now=now,fetcher=web,sleep=lambda s:None)
+   self.assertEqual(first['checked'],6);self.assertEqual(first['archive']['checked'],3);self.assertEqual(sum(u in web.urls for u in (DEAD_MP4,LIVE_SW,DEAD_VOE)),2)
+   seen=set(u for u in web.urls if 'arch' in u)
+   for n in range(1,6):web.urls.clear();link_health.check(d,now=now+60*n,fetcher=web,sleep=lambda s:None);seen|={u for u in web.urls if 'arch' in u}
+   self.assertEqual(seen,set(arch)|{gone},'every archive link checked once, none twice in a day')
+   health=json.loads(Path(d,'link-health.json').read_text());g=health['links'][key('Mp4upload',gone)]
+   self.assertTrue(g['archive']);self.assertEqual(g['state'],'dead');self.assertGreaterEqual(health['archive']['sweeps'],1)
+   # The cursor moved on, but the dead archive link is confirmed 30 min later and leaves the channel.
+   link_health.check(d,now=now+1900,fetcher=web,sleep=lambda s:None)
+   self.assertTrue(json.loads(Path(d,'link-health.json').read_text())['links'][key('Mp4upload',gone)]['excluded'])
+   # Alive archive entries are dropped after their interval; excluded ones stay.
+   link_health.check(d,now=now+25*3600,fetcher=Old(),sleep=lambda s:None,limit=0)
+   kept=json.loads(Path(d,'link-health.json').read_text())['links']
+   self.assertIn(key('Mp4upload',gone),kept);self.assertFalse(any(key('Mp4upload',u) in kept for u in arch))
+ def test_news_keep_all_but_two_slots(self):
+  with tempfile.TemporaryDirectory() as d:
+   world(d);many=['https://www.mp4upload.com/embed-news%04dabcd.html'%i for i in range(8)]
+   shard(d,ROOT,[{'family':'mp4upload','name':'Mp4upload','links':many}])
+   for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-old%dabcdefg.html'%i]}])
+   s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=Web(),sleep=lambda s:None)
+   self.assertEqual((s['checked'],s['archive']['checked']),(6,2))
 if __name__=='__main__':unittest.main()
