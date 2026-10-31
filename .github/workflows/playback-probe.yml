@@ -15,7 +15,7 @@ jobs:
   probe:
     if: github.repository == 'ZZCoreDev/ZZAnime'
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -40,7 +40,7 @@ jobs:
           npm ci --no-audit --no-fund
           npx playwright install --with-deps chromium
           node test_probe.mjs
-      - name: Abrir 12 embeds como la app (pausas de 20 s, sin reintentos)
+      - name: Abrir como mucho 12 embeds como la app (pausas de 20 s)
         working-directory: code/automation/playback-probe
         run: node probe.mjs "$GITHUB_WORKSPACE/data/state/published-assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
       - name: Guardar el resultado (un único commit, se reemplaza)
