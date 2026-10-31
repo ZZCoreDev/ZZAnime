@@ -22,8 +22,15 @@ class RenewalTests(unittest.TestCase):
         released={'diagnostic':{'flv':{'cause':'address-not-found'}},'identityReleased':True}
         order=[u for _,u in fair_retries(rows,{rows[2][1]:released,rows[3][1]:dict(released)})]
         self.assertEqual(order[:2],[rows[2][1],rows[3][1]]);self.assertEqual(order[2],rows[0][1])
-        failures={rows[2][1]:dict(released)};record_failure(failures,rows[2][1],'Source HTTP 404',10,'',released['diagnostic'])
+        failures={rows[2][1]:dict(released)};record_failure(failures,rows[2][1],'Source HTTP 404',10,'',{'flv':{'cause':'address-not-found'},'tio':{'cause':'address-not-found'}})
         self.assertNotIn('identityReleased',failures[rows[2][1]])
+    def test_released_priority_survives_three_network_errors_not_a_404(self):
+        url='https://jkanime.net/gx/1/';failures={url:{'identityReleased':True,'retryAt':0}}
+        for n in range(3):
+            self.assertTrue(failures[url].get('identityReleased'),n);record_failure(failures,url,'TimeoutError',10,'')
+        self.assertNotIn('identityReleased',failures[url])
+        failures={url:{'identityReleased':True}};record_failure(failures,url,'Source HTTP 404',10,'',{'flv':{'cause':'address-not-found'},'tio':{'cause':'address-not-found'}})
+        self.assertNotIn('identityReleased',failures[url])
     def test_retry_prioritizes_unexplained_series(self):
         rows=[(1,'https://jkanime.net/a/1/'),(2,'https://jkanime.net/b/1/')]
         self.assertEqual(fair_retries(rows,{rows[0][1]:{'diagnostic':{'flv':{'cause':'address-not-found'}}}})[0],rows[1])

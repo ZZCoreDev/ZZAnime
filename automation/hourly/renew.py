@@ -92,6 +92,10 @@ def record_failure(failures,url,reason,now,observed,diagnostic=None):
     previous=previous_row.get('diagnostic')
     failures[url]={'attempts':count,'lastAttempt':now,'retryAt':now+delay,'reason':str(reason)[:160]}
     if streak:failures[url]['permanentAttempts']=streak
+    # A chapter released by an identity alias keeps its priority through up to 3 attempts that end in a
+    # network or source-limit error (e.g. TioAnime timing out); a confirmed 404/identity answer ends it.
+    if previous_row.get('identityReleased') and not streak and previous_row.get('releasedAttempts',0)<2:
+        failures[url].update(identityReleased=True,releasedAttempts=previous_row.get('releasedAttempts',0)+1)
     if diagnostic or previous:failures[url]['diagnostic']=diagnostic or previous
 
 def health_report(folder,state,failures,status,now):
