@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T01:12:32.790273+00:00",
+  "checkedAt": "2026-10-31T01:25:09.941254+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72195,
-  "missingChapters": 1558,
+  "storedChapters": 72213,
+  "missingChapters": 1540,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -16,8 +16,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/12/",
-          "https://jkanime.net/ao-ashi/13/"
+          "https://jkanime.net/ao-ashi/13/",
+          "https://jkanime.net/ao-ashi/17/"
         ]
       },
       {
@@ -411,13 +411,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blue-lock-episode-nagi/",
-        "title": "Blue Lock: Episode Nagi",
-        "samples": [
-          "https://jkanime.net/blue-lock-episode-nagi/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
@@ -579,16 +572,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/22/",
-          "https://jkanime.net/sugar-apple-fairy-tale/23/"
+          "https://jkanime.net/sugar-apple-fairy-tale/23/",
+          "https://jkanime.net/sugar-apple-fairy-tale/24/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/22/",
-          "https://jkanime.net/spy-kyoushitsu/23/"
+          "https://jkanime.net/spy-kyoushitsu/23/",
+          "https://jkanime.net/spy-kyoushitsu/24/"
         ]
       },
       {
@@ -661,13 +654,6 @@
         "samples": [
           "https://jkanime.net/bleach-sennen-kessen-hen/14/",
           "https://jkanime.net/bleach-sennen-kessen-hen/15/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/",
-        "title": "Boku ga Aishita Subete no Kimi e",
-        "samples": [
-          "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/1/"
         ]
       },
       {
@@ -930,13 +916,6 @@
         "title": "Tonikaku Kawaii: SNS",
         "samples": [
           "https://jkanime.net/tonikaku-kawaii-sns/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/",
-        "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/"
         ]
       },
       {
@@ -1619,7 +1598,6 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/8/",
           "https://jkanime.net/sora-to-umi-no-aida/9/"
         ]
       },
@@ -2075,8 +2053,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/7/",
-          "https://jkanime.net/stella-no-mahou/8/"
+          "https://jkanime.net/stella-no-mahou/8/",
+          "https://jkanime.net/stella-no-mahou/9/"
         ]
       },
       {
@@ -2359,13 +2337,6 @@
         "title": "Aoharu x Kikanjuu Special",
         "samples": [
           "https://jkanime.net/aoharu-x-kikanjuu-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boruto-naruto-the-movie/",
-        "title": "Boruto: Naruto the Movie",
-        "samples": [
-          "https://jkanime.net/boruto-naruto-the-movie/1/"
         ]
       },
       {
@@ -2816,13 +2787,6 @@
         "title": "DRAMAtical Murder OVA: Data_xx_Transitory",
         "samples": [
           "https://jkanime.net/dramatical-murder-ova-data-xx-transitory/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/",
-        "title": "Boku wa Imouto ni Koi wo Suru",
-        "samples": [
-          "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/1/"
         ]
       },
       {
@@ -4085,13 +4049,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blood-c-the-last-dark/",
-        "title": "Blood-C: The Last Dark",
-        "samples": [
-          "https://jkanime.net/blood-c-the-last-dark/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/queens-blade-rebellion-vs-hagure-yuusha-no-estetica/",
         "title": "Queen's Blade Rebellion vs. Hagure Yuusha no Estetica",
         "samples": [
@@ -4655,8 +4612,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/11/",
-          "https://jkanime.net/asura-cryin/12/"
+          "https://jkanime.net/asura-cryin/12/",
+          "https://jkanime.net/asura-cryin/13/"
         ]
       },
       {
@@ -4847,13 +4804,6 @@
         "title": "Toki wo Kakeru Shoujo",
         "samples": [
           "https://jkanime.net/toki-wo-kakeru-shoujo/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/brave-story/",
-        "title": "Brave Story",
-        "samples": [
-          "https://jkanime.net/brave-story/1/"
         ]
       },
       {
@@ -5247,13 +5197,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blood-the-last-vampire/",
-        "title": "Blood: The Last Vampire",
-        "samples": [
-          "https://jkanime.net/blood-the-last-vampire/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/inuyasha/",
         "title": "InuYasha",
         "samples": [
@@ -5391,8 +5334,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/31/",
-          "https://jkanime.net/taiho-shichau-zo/32/"
+          "https://jkanime.net/taiho-shichau-zo/32/",
+          "https://jkanime.net/taiho-shichau-zo/33/"
         ]
       },
       {
@@ -5740,8 +5683,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/12/",
-          "https://jkanime.net/ao-ashi/13/"
+          "https://jkanime.net/ao-ashi/13/",
+          "https://jkanime.net/ao-ashi/17/"
         ]
       },
       {
@@ -9022,13 +8965,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blue-lock-episode-nagi/",
-        "title": "Blue Lock: Episode Nagi",
-        "samples": [
-          "https://jkanime.net/blue-lock-episode-nagi/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/grimm-kumikyoku/",
         "title": "Grimm Kumikyoku",
         "samples": [
@@ -12085,8 +12021,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/22/",
-          "https://jkanime.net/sugar-apple-fairy-tale/23/"
+          "https://jkanime.net/sugar-apple-fairy-tale/23/",
+          "https://jkanime.net/sugar-apple-fairy-tale/24/"
         ]
       },
       {
@@ -12125,8 +12061,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/22/",
-          "https://jkanime.net/spy-kyoushitsu/23/"
+          "https://jkanime.net/spy-kyoushitsu/23/",
+          "https://jkanime.net/spy-kyoushitsu/24/"
         ]
       },
       {
@@ -12471,13 +12407,6 @@
         "samples": [
           "https://jkanime.net/seiken-densetsu-legend-of-mana-the-teardrop-crystal/1/",
           "https://jkanime.net/seiken-densetsu-legend-of-mana-the-teardrop-crystal/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/",
-        "title": "Boku ga Aishita Subete no Kimi e",
-        "samples": [
-          "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/1/"
         ]
       },
       {
@@ -14519,13 +14448,6 @@
         "samples": [
           "https://jkanime.net/mo-dao-zu-shi-wanjie-pian/1/",
           "https://jkanime.net/mo-dao-zu-shi-wanjie-pian/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/",
-        "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/"
         ]
       },
       {
@@ -23967,13 +23889,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/boruto-naruto-the-movie/",
-        "title": "Boruto: Naruto the Movie",
-        "samples": [
-          "https://jkanime.net/boruto-naruto-the-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-akechi-keibu-no-jikenbo/",
         "title": "Kindaichi Shounen no Jikenbo Returns: Akechi Keibu no Jikenbo",
         "samples": [
@@ -25901,13 +25816,6 @@
         "samples": [
           "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/1/",
           "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/",
-        "title": "Boku wa Imouto ni Koi wo Suru",
-        "samples": [
-          "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/1/"
         ]
       },
       {
@@ -30676,13 +30584,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blood-c-the-last-dark/",
-        "title": "Blood-C: The Last Dark",
-        "samples": [
-          "https://jkanime.net/blood-c-the-last-dark/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/queens-blade-rebellion-vs-hagure-yuusha-no-estetica/",
         "title": "Queen's Blade Rebellion vs. Hagure Yuusha no Estetica",
         "samples": [
@@ -33467,8 +33368,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/11/",
-          "https://jkanime.net/asura-cryin/12/"
+          "https://jkanime.net/asura-cryin/12/",
+          "https://jkanime.net/asura-cryin/13/"
         ]
       },
       {
@@ -35128,13 +35029,6 @@
         "samples": [
           "https://jkanime.net/tonagura/1/",
           "https://jkanime.net/tonagura/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/brave-story/",
-        "title": "Brave Story",
-        "samples": [
-          "https://jkanime.net/brave-story/1/"
         ]
       },
       {
@@ -37810,13 +37704,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blood-the-last-vampire/",
-        "title": "Blood: The Last Vampire",
-        "samples": [
-          "https://jkanime.net/blood-the-last-vampire/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ghost-stories/",
         "title": "Ghost Stories",
         "samples": [
@@ -38562,8 +38449,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/31/",
-          "https://jkanime.net/taiho-shichau-zo/32/"
+          "https://jkanime.net/taiho-shichau-zo/32/",
+          "https://jkanime.net/taiho-shichau-zo/33/"
         ]
       },
       {
@@ -39955,13 +39842,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blue-lock-episode-nagi/",
-        "title": "Blue Lock: Episode Nagi",
-        "samples": [
-          "https://jkanime.net/blue-lock-episode-nagi/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/watashi-no-shiawase-na-kekkon-watashi-no-shiawase-na-katachi/",
         "title": "Watashi no Shiawase na Kekkon: Watashi no Shiawase na Katachi",
         "samples": [
@@ -40113,13 +39993,6 @@
         "title": "Watashi ni Tenshi ga Maiorita! Precious Friends",
         "samples": [
           "https://jkanime.net/watashi-ni-tenshi-ga-maiorita-precious-friends/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/",
-        "title": "Boku ga Aishita Subete no Kimi e",
-        "samples": [
-          "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/1/"
         ]
       },
       {
@@ -41383,13 +41256,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/boruto-naruto-the-movie/",
-        "title": "Boruto: Naruto the Movie",
-        "samples": [
-          "https://jkanime.net/boruto-naruto-the-movie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kindaichi-shounen-no-jikenbo-returns-akechi-keibu-no-jikenbo/",
         "title": "Kindaichi Shounen no Jikenbo Returns: Akechi Keibu no Jikenbo",
         "samples": [
@@ -41737,13 +41603,6 @@
         "title": "DRAMAtical Murder OVA: Data_xx_Transitory",
         "samples": [
           "https://jkanime.net/dramatical-murder-ova-data-xx-transitory/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/",
-        "title": "Boku wa Imouto ni Koi wo Suru",
-        "samples": [
-          "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/1/"
         ]
       },
       {
@@ -42846,13 +42705,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/blood-c-the-last-dark/",
-        "title": "Blood-C: The Last Dark",
-        "samples": [
-          "https://jkanime.net/blood-c-the-last-dark/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/another-ova/",
         "title": "Another OVA",
         "samples": [
@@ -43476,13 +43328,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/brave-story/",
-        "title": "Brave Story",
-        "samples": [
-          "https://jkanime.net/brave-story/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/rec-yurusarezarumono/",
         "title": "Rec: Yurusarezarumono",
         "samples": [
@@ -43802,13 +43647,6 @@
         "title": "Love Hina Christmas Special: Silent Eve",
         "samples": [
           "https://jkanime.net/love-hina-christmas-special-silent-eve/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/blood-the-last-vampire/",
-        "title": "Blood: The Last Vampire",
-        "samples": [
-          "https://jkanime.net/blood-the-last-vampire/1/"
         ]
       },
       {
@@ -44485,9 +44323,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
         "https://jkanime.net/ao-ashi/17/",
         "https://jkanime.net/ao-ashi/18/",
@@ -44500,9 +44337,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
+        "mega": 14,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -58523,20 +58360,16 @@
     {
       "series": "https://jkanime.net/blue-lock-episode-nagi/",
       "title": "Blue Lock: Episode Nagi",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/blue-lock-episode-nagi/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -67433,9 +67266,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/22/",
         "https://jkanime.net/sugar-apple-fairy-tale/23/",
         "https://jkanime.net/sugar-apple-fairy-tale/24/"
       ],
@@ -67443,7 +67275,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 19,
+        "mega": 20,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -67543,9 +67375,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/22/",
         "https://jkanime.net/spy-kyoushitsu/23/",
         "https://jkanime.net/spy-kyoushitsu/24/"
       ],
@@ -67553,7 +67384,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 18,
+        "mega": 19,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 13,
@@ -68591,20 +68422,16 @@
     {
       "series": "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/",
       "title": "Boku ga Aishita Subete no Kimi e",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/boku-ga-aishita-subete-no-kimi-e/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -74624,19 +74451,16 @@
     {
       "series": "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/",
       "title": "Boku no Hero Academia the Movie 3: World Heroes' Mission",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/boku-no-hero-academia-the-movie-3-world-heroes-mission/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -88081,16 +87905,15 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/8/",
         "https://jkanime.net/sora-to-umi-no-aida/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -93509,17 +93332,16 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/18if/12/",
-        "https://jkanime.net/18if/13/",
-        "https://jkanime.net/18if/6/"
+        "https://jkanime.net/18if/13/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -97180,21 +97002,20 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 5,
+      "stored": 6,
       "missing": [
         "https://jkanime.net/cheating-craft/1/",
         "https://jkanime.net/cheating-craft/10/",
         "https://jkanime.net/cheating-craft/11/",
         "https://jkanime.net/cheating-craft/12/",
-        "https://jkanime.net/cheating-craft/5/",
         "https://jkanime.net/cheating-craft/6/",
         "https://jkanime.net/cheating-craft/7/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "mega": 5
+        "mega": 6
       },
       "playbackVerified": false
     },
@@ -97738,9 +97559,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/7/",
         "https://jkanime.net/stella-no-mahou/8/",
         "https://jkanime.net/stella-no-mahou/9/"
       ],
@@ -97748,7 +97568,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -101962,20 +101782,16 @@
     {
       "series": "https://jkanime.net/boruto-naruto-the-movie/",
       "title": "Boruto: Naruto the Movie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/boruto-naruto-the-movie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -107758,20 +107574,16 @@
     {
       "series": "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/",
       "title": "Boku wa Imouto ni Koi wo Suru",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/boku-wa-imouto-ni-koi-wo-suru/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -121326,20 +121138,16 @@
     {
       "series": "https://jkanime.net/blood-c-the-last-dark/",
       "title": "Blood-C: The Last Dark",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/blood-c-the-last-dark/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -128904,11 +128712,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
-        "https://jkanime.net/07-ghost/18/",
         "https://jkanime.net/07-ghost/21/",
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
@@ -128918,9 +128725,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
-        "mega": 16
+        "mega": 17
       },
       "playbackVerified": false
     },
@@ -129274,9 +129081,8 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/asura-cryin/11/",
         "https://jkanime.net/asura-cryin/12/",
         "https://jkanime.net/asura-cryin/13/",
         "https://jkanime.net/asura-cryin/5/",
@@ -129284,9 +129090,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
-        "mega": 8
+        "mega": 9
       },
       "playbackVerified": false
     },
@@ -133906,20 +133712,16 @@
     {
       "series": "https://jkanime.net/brave-story/",
       "title": "Brave Story",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/brave-story/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -141370,20 +141172,16 @@
     {
       "series": "https://jkanime.net/blood-the-last-vampire/",
       "title": "Blood: The Last Vampire",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/blood-the-last-vampire/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -143618,9 +143416,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 25,
+      "stored": 26,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/31/",
         "https://jkanime.net/taiho-shichau-zo/32/",
         "https://jkanime.net/taiho-shichau-zo/33/",
         "https://jkanime.net/taiho-shichau-zo/34/",
@@ -143655,7 +143452,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 24,
+        "mp4upload": 25,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -147481,7 +147278,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 818,
+      "renewalFailed": 1118,
       "families": {
         "mega": 1216,
         "streamwish": 1216,
