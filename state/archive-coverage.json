@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T06:10:05.174248+00:00",
+  "checkedAt": "2026-10-31T06:23:22.548055+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72363,
-  "missingChapters": 1413,
+  "storedChapters": 72365,
+  "missingChapters": 1411,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2000,20 +2000,6 @@
         "title": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
         "samples": [
           "https://jkanime.net/botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zenshuu/",
-        "title": "Zenshuu.",
-        "samples": [
-          "https://jkanime.net/zenshuu/9/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/",
-        "title": "Kisaki Kyouiku kara Nigetai Watashi",
-        "samples": [
-          "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/3/"
         ]
       },
       {
@@ -11333,6 +11319,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/healin-good-precure/",
+        "title": "Healin' Good♡Precure",
+        "samples": [
+          "https://jkanime.net/healin-good-precure/13/",
+          "https://jkanime.net/healin-good-precure/14/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/goblin-slayer-goblins-crown/",
         "title": "Goblin Slayer: Goblin's Crown",
         "samples": [
@@ -17987,6 +17981,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/queens-blade-grimoire/",
+        "title": "Queen's Blade: Grimoire",
+        "samples": [
+          "https://jkanime.net/queens-blade-grimoire/1/",
+          "https://jkanime.net/queens-blade-grimoire/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shinmai-maou-no-testament-burst-ova/",
         "title": "Shinmai Maou no Testament Burst OVA",
         "samples": [
@@ -18410,7 +18412,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/25/"
+          "https://jkanime.net/digimon-adventure-tri/26/"
         ]
       },
       {
@@ -19938,6 +19940,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dog-days-3/",
+        "title": "Dog Days'' S3",
+        "samples": [
+          "https://jkanime.net/dog-days-3/1/",
+          "https://jkanime.net/dog-days-3/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kuroko-no-basket-3/",
         "title": "Kuroko no Basket 3",
         "samples": [
@@ -19983,6 +19993,14 @@
         "samples": [
           "https://jkanime.net/the-idolmster-cinderella-girls/1/",
           "https://jkanime.net/the-idolmster-cinderella-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/",
+        "title": "JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc",
+        "samples": [
+          "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/1/",
+          "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/10/"
         ]
       },
       {
@@ -21832,6 +21850,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders/",
+        "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+        "samples": [
+          "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders/1/",
+          "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fairy-tail-2014/",
         "title": "Fairy Tail S2",
         "samples": [
@@ -23636,6 +23662,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sparrows-hotel/",
+        "title": "Sparrow's Hotel",
+        "samples": [
+          "https://jkanime.net/sparrows-hotel/1/",
+          "https://jkanime.net/sparrows-hotel/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/haiyore-nyaruko-san-w/",
         "title": "Haiyore! Nyaruko-san W",
         "samples": [
@@ -23836,6 +23870,14 @@
         "title": "Koi to Senkyo to Chocolate Special",
         "samples": [
           "https://jkanime.net/koi-to-senkyo-to-chocolate-special/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tamako-market-deras-bar/",
+        "title": "Tamako Market: Dera's BAR",
+        "samples": [
+          "https://jkanime.net/tamako-market-deras-bar/1/",
+          "https://jkanime.net/tamako-market-deras-bar/2/"
         ]
       },
       {
@@ -24495,6 +24537,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jojos-bizarre-adventure-2012/",
+        "title": "JoJo's Bizarre Adventure The Animation",
+        "samples": [
+          "https://jkanime.net/jojos-bizarre-adventure-2012/1/",
+          "https://jkanime.net/jojos-bizarre-adventure-2012/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/to-love-ru-darkness/",
         "title": "To LOVE-Ru Darkness",
         "samples": [
@@ -24540,6 +24590,14 @@
         "samples": [
           "https://jkanime.net/chuunibyou-demo-koi-ga-shitai/1/",
           "https://jkanime.net/chuunibyou-demo-koi-ga-shitai/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama-2012/",
+        "title": "Gintama' (2012)",
+        "samples": [
+          "https://jkanime.net/gintama-2012/1/",
+          "https://jkanime.net/gintama-2012/10/"
         ]
       },
       {
@@ -24819,6 +24877,14 @@
         "title": "Hyouka: Motsubeki Mono wa",
         "samples": [
           "https://jkanime.net/hyouka-motsubeki-mono-wa/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dog-days-2/",
+        "title": "Dog Days' S2",
+        "samples": [
+          "https://jkanime.net/dog-days-2/1/",
+          "https://jkanime.net/dog-days-2/10/"
         ]
       },
       {
@@ -32758,8 +32824,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/6/",
-          "https://jkanime.net/taiho-shichau-zo/7/"
+          "https://jkanime.net/taiho-shichau-zo/7/",
+          "https://jkanime.net/taiho-shichau-zo/8/"
         ]
       },
       {
@@ -35951,7 +36017,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/25/"
+          "https://jkanime.net/digimon-adventure-tri/26/"
         ]
       },
       {
@@ -38722,8 +38788,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/6/",
-          "https://jkanime.net/taiho-shichau-zo/7/"
+          "https://jkanime.net/taiho-shichau-zo/7/",
+          "https://jkanime.net/taiho-shichau-zo/8/"
         ]
       },
       {
@@ -53450,15 +53516,13 @@
     {
       "series": "https://jkanime.net/zenshuu/",
       "title": "Zenshuu.",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 15,
         "streamwish": 5,
@@ -53469,15 +53533,13 @@
     {
       "series": "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/",
       "title": "Kisaki Kyouiku kara Nigetai Watashi",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 12,
         "streamwish": 5,
@@ -70574,11 +70636,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -71205,11 +71263,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 13,
-        "vidhide": 12,
-        "mp4upload": 14,
-        "streamtape": 12
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -71721,11 +71775,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -80383,20 +80433,22 @@
     {
       "series": "https://jkanime.net/healin-good-precure/",
       "title": "Healin' Good♡Precure",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 45,
       "stored": 45,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 14,
       "families": {
-        "mega": 45,
-        "streamwish": 45,
-        "vidhide": 45,
-        "mixdrop": 45,
         "mp4upload": 45,
-        "streamtape": 45
+        "mega": 14,
+        "streamwish": 14,
+        "vidhide": 14,
+        "mixdrop": 14,
+        "streamtape": 14
       },
       "playbackVerified": false
     },
@@ -81394,11 +81446,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 11,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -85889,11 +85937,10 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 14,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 12,
+        "mp4upload": 1,
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -92738,11 +92785,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -95201,11 +95244,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -99871,13 +99910,15 @@
     {
       "series": "https://jkanime.net/queens-blade-grimoire/",
       "title": "Queen's Blade: Grimoire",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -101218,10 +101259,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 18,
+      "stored": 19,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/25/",
         "https://jkanime.net/digimon-adventure-tri/26/",
         "https://jkanime.net/digimon-adventure-tri/5/",
         "https://jkanime.net/digimon-adventure-tri/6/",
@@ -101233,7 +101273,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 18,
+        "mega": 19,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -102385,11 +102425,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -105822,13 +105858,15 @@
     {
       "series": "https://jkanime.net/dog-days-3/",
       "title": "Dog Days'' S3",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -105967,13 +106005,15 @@
     {
       "series": "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/",
       "title": "JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -111069,13 +111109,15 @@
     {
       "series": "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders/",
       "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -116217,13 +116259,15 @@
     {
       "series": "https://jkanime.net/sparrows-hotel/",
       "title": "Sparrow's Hotel",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 12,
         "streamwish": 26,
@@ -116791,13 +116835,15 @@
     {
       "series": "https://jkanime.net/tamako-market-deras-bar/",
       "title": "Tamako Market: Dera's BAR",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -118788,13 +118834,15 @@
     {
       "series": "https://jkanime.net/jojos-bizarre-adventure-2012/",
       "title": "JoJo's Bizarre Adventure The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 26,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -118948,13 +118996,15 @@
     {
       "series": "https://jkanime.net/gintama-2012/",
       "title": "Gintama' (2012)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -119779,13 +119829,15 @@
     {
       "series": "https://jkanime.net/dog-days-2/",
       "title": "Dog Days' S2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 12,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -142423,9 +142475,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 47,
+      "stored": 48,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/6/",
         "https://jkanime.net/taiho-shichau-zo/7/",
         "https://jkanime.net/taiho-shichau-zo/8/",
         "https://jkanime.net/taiho-shichau-zo/9/"
@@ -142438,7 +142489,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 46,
+        "mp4upload": 47,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -143790,7 +143841,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 3
       },
