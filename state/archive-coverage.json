@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T01:25:09.941254+00:00",
+  "checkedAt": "2026-10-31T01:39:10.694032+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72213,
-  "missingChapters": 1540,
+  "storedChapters": 72226,
+  "missingChapters": 1527,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -17,7 +17,7 @@
         "title": "Ao Ashi",
         "samples": [
           "https://jkanime.net/ao-ashi/13/",
-          "https://jkanime.net/ao-ashi/17/"
+          "https://jkanime.net/ao-ashi/18/"
         ]
       },
       {
@@ -572,7 +572,6 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/23/",
           "https://jkanime.net/sugar-apple-fairy-tale/24/"
         ]
       },
@@ -580,7 +579,6 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/23/",
           "https://jkanime.net/spy-kyoushitsu/24/"
         ]
       },
@@ -1221,8 +1219,8 @@
         "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
         "title": "Bungou to Alchemist: Shinpan no Haguruma",
         "samples": [
-          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/1/",
-          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/"
+          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/",
+          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/"
         ]
       },
       {
@@ -1595,13 +1593,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sora-to-umi-no-aida/",
-        "title": "Sora to Umi no Aida",
-        "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/natsume-yuujinchou-movie-utsusemi-ni-musubu/",
         "title": "Natsume Yuujinchou Movie: Utsusemi ni Musubu",
         "samples": [
@@ -1698,13 +1689,6 @@
         "title": "Mob Psycho 100 Reigen: Shirarezaru Kiseki no Reinouryokusha",
         "samples": [
           "https://jkanime.net/mob-psycho-100-reigen-shirarezaru-kiseki-no-reinouryokusha/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bungou-stray-dogs-dead-apple/",
-        "title": "Bungou Stray Dogs: Dead Apple",
-        "samples": [
-          "https://jkanime.net/bungou-stray-dogs-dead-apple/1/"
         ]
       },
       {
@@ -2007,8 +1991,8 @@
         "series": "https://jkanime.net/cheating-craft/",
         "title": "Cheating Craft",
         "samples": [
-          "https://jkanime.net/cheating-craft/1/",
-          "https://jkanime.net/cheating-craft/10/"
+          "https://jkanime.net/cheating-craft/10/",
+          "https://jkanime.net/cheating-craft/11/"
         ]
       },
       {
@@ -2053,7 +2037,6 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/8/",
           "https://jkanime.net/stella-no-mahou/9/"
         ]
       },
@@ -4573,13 +4556,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cencoroll/",
-        "title": "Cencoroll",
-        "samples": [
-          "https://jkanime.net/cencoroll/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/evangelion-2-22-you-can-not-advance/",
         "title": "Evangelion: 2.22 You Can (Not) Advance",
         "samples": [
@@ -5334,8 +5310,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/32/",
-          "https://jkanime.net/taiho-shichau-zo/33/"
+          "https://jkanime.net/taiho-shichau-zo/33/",
+          "https://jkanime.net/taiho-shichau-zo/34/"
         ]
       },
       {
@@ -5350,13 +5326,6 @@
         "title": "Dragon Ball Z Movie 11: Bio-Broly",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-11-bio-broly/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/heisei-tanuki-gassen-ponpoko/",
-        "title": "Heisei Tanuki Gassen Ponpoko",
-        "samples": [
-          "https://jkanime.net/heisei-tanuki-gassen-ponpoko/1/"
         ]
       },
       {
@@ -5684,7 +5653,7 @@
         "title": "Ao Ashi",
         "samples": [
           "https://jkanime.net/ao-ashi/13/",
-          "https://jkanime.net/ao-ashi/17/"
+          "https://jkanime.net/ao-ashi/18/"
         ]
       },
       {
@@ -5970,6 +5939,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/the-bloody-mary/",
+        "title": "The Bloody Mary",
+        "samples": [
+          "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kami-no-shizuku/",
         "title": "Kami no Shizuku",
         "samples": [
@@ -6166,6 +6142,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/luca/",
+        "title": "Luca",
+        "samples": [
+          "https://jkanime.net/luca/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kidou-senshi-gundam-senkou-no-hathaway-circe-no-majo/",
         "title": "Kidou Senshi Gundam: Senkou no Hathaway - Circe no Majo",
         "samples": [
@@ -6348,6 +6331,13 @@
         "samples": [
           "https://jkanime.net/yi-ren-zhi-xia-6/1/",
           "https://jkanime.net/yi-ren-zhi-xia-6/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/",
+        "title": "Tomoni Kagayaku Ashita no Tameni.",
+        "samples": [
+          "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/1/"
         ]
       },
       {
@@ -6670,6 +6660,13 @@
         "title": "Baan Otona no Kyoukai",
         "samples": [
           "https://jkanime.net/baan-otona-no-kyoukai/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/musashino-bonus/",
+        "title": "Musashino! Bonus",
+        "samples": [
+          "https://jkanime.net/musashino-bonus/1/"
         ]
       },
       {
@@ -8342,10 +8339,31 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ai-no-yakusoku/",
+        "title": "Ai no Yakusoku",
+        "samples": [
+          "https://jkanime.net/ai-no-yakusoku/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/himitsu-doushi/",
+        "title": "Himitsu Doushi",
+        "samples": [
+          "https://jkanime.net/himitsu-doushi/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/wonderful-precure-movie-dokidoki-game-no-sekai-de-daibouken/",
         "title": "Wonderful Precure! Movie: Dokidoki Game no Sekai de Daibouken!",
         "samples": [
           "https://jkanime.net/wonderful-precure-movie-dokidoki-game-no-sekai-de-daibouken/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mirai-kara-yattekita-mori/",
+        "title": "Mirai kara Yattekita Mori",
+        "samples": [
+          "https://jkanime.net/mirai-kara-yattekita-mori/1/"
         ]
       },
       {
@@ -9475,6 +9493,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/aishang-ta-de-liyou-extra/",
+        "title": "Aishang Ta de Liyou Extra",
+        "samples": [
+          "https://jkanime.net/aishang-ta-de-liyou-extra/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ninja-kamui/",
         "title": "Ninja Kamui",
         "samples": [
@@ -9970,6 +9995,13 @@
         "title": "Yaneura no Rudger",
         "samples": [
           "https://jkanime.net/yaneura-no-rudger/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/twi-yaba/",
+        "title": "Twi-Yaba",
+        "samples": [
+          "https://jkanime.net/twi-yaba/1/"
         ]
       },
       {
@@ -10692,6 +10724,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chronoir-episode0/",
+        "title": "ChroNoiR Episode.0",
+        "samples": [
+          "https://jkanime.net/chronoir-episode0/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hanma-baki-son-of-ogre-2nd-season/",
         "title": "Hanma Baki: Son of Ogre 2nd Season",
         "samples": [
@@ -10841,6 +10880,13 @@
         "samples": [
           "https://jkanime.net/temple/1/",
           "https://jkanime.net/temple/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ahiru-kun-no-chiisana-bouken/",
+        "title": "Ahiru-kun no Chiisana Bouken",
+        "samples": [
+          "https://jkanime.net/ahiru-kun-no-chiisana-bouken/1/"
         ]
       },
       {
@@ -11701,6 +11747,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tentai-kansoku/",
+        "title": "Tentai Kansoku",
+        "samples": [
+          "https://jkanime.net/tentai-kansoku/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shingeki-no-kyojin-the-final-season-kanketsu-hen/",
         "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
         "samples": [
@@ -11760,6 +11813,13 @@
         "samples": [
           "https://jkanime.net/wu-liuqi-anying-suming/1/",
           "https://jkanime.net/wu-liuqi-anying-suming/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-no-hashtag-ga-haenakute/",
+        "title": "Watashi no Hashtag ga Haenakute.",
+        "samples": [
+          "https://jkanime.net/watashi-no-hashtag-ga-haenakute/1/"
         ]
       },
       {
@@ -12021,7 +12081,6 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/23/",
           "https://jkanime.net/sugar-apple-fairy-tale/24/"
         ]
       },
@@ -12061,7 +12120,6 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/23/",
           "https://jkanime.net/spy-kyoushitsu/24/"
         ]
       },
@@ -12167,6 +12225,13 @@
         "samples": [
           "https://jkanime.net/cang-lan-jue-part-2/1/",
           "https://jkanime.net/cang-lan-jue-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pole-princess-prologue/",
+        "title": "Pole Princess!! Prologue",
+        "samples": [
+          "https://jkanime.net/pole-princess-prologue/1/"
         ]
       },
       {
@@ -13165,6 +13230,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dead-or-arrive/",
+        "title": "Dead or Arrive",
+        "samples": [
+          "https://jkanime.net/dead-or-arrive/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/inu-ou/",
         "title": "Inu-Ou",
         "samples": [
@@ -13562,6 +13634,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kirakira-kirari/",
+        "title": "Kirakira Kirari",
+        "samples": [
+          "https://jkanime.net/kirakira-kirari/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/estab-life-great-escape/",
         "title": "Estab-Life: Great Escape",
         "samples": [
@@ -13599,10 +13678,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/",
+        "title": "Ryuukyuu Timeline 2: Tedako no Machi Tanbou",
+        "samples": [
+          "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fruits-basket-prelude/",
         "title": "Fruits Basket: Prelude",
         "samples": [
           "https://jkanime.net/fruits-basket-prelude/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shiyakusho/",
+        "title": "Shiyakusho",
+        "samples": [
+          "https://jkanime.net/shiyakusho/1/"
         ]
       },
       {
@@ -14788,6 +14881,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/",
+        "title": "Youjo Senki: Sabaku no Pasta Daisakusen",
+        "samples": [
+          "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sonny-boy/",
         "title": "Sonny Boy",
         "samples": [
@@ -15252,6 +15352,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/home/",
+        "title": "Home!",
+        "samples": [
+          "https://jkanime.net/home/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cardfight-vanguard-overdress/",
         "title": "Cardfight!! Vanguard: overDress",
         "samples": [
@@ -15264,6 +15371,13 @@
         "title": "B: The Beginning - Succession",
         "samples": [
           "https://jkanime.net/b-the-beginning-succession/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/",
+        "title": "Ryuukyuu Timeline: Mirai Shoujo to Inishie no Ou",
+        "samples": [
+          "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/1/"
         ]
       },
       {
@@ -15288,6 +15402,13 @@
         "samples": [
           "https://jkanime.net/maiko-san-chi-no-makanai-san/1/",
           "https://jkanime.net/maiko-san-chi-no-makanai-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tian-guan-cifu-special/",
+        "title": "Tian Guan Cifu Special",
+        "samples": [
+          "https://jkanime.net/tian-guan-cifu-special/1/"
         ]
       },
       {
@@ -15927,6 +16048,13 @@
         "samples": [
           "https://jkanime.net/gochuumon-wa-usagi-desu-ka-bloom/1/",
           "https://jkanime.net/gochuumon-wa-usagi-desu-ka-bloom/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boukyaku-battery/",
+        "title": "Boukyaku Battery",
+        "samples": [
+          "https://jkanime.net/boukyaku-battery/1/"
         ]
       },
       {
@@ -16696,8 +16824,8 @@
         "series": "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/",
         "title": "Bungou to Alchemist: Shinpan no Haguruma",
         "samples": [
-          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/1/",
-          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/"
+          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/",
+          "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/"
         ]
       },
       {
@@ -17681,6 +17809,13 @@
         "samples": [
           "https://jkanime.net/another-world/1/",
           "https://jkanime.net/another-world/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zenonzard-the-animation/",
+        "title": "Zenonzard: The Animation",
+        "samples": [
+          "https://jkanime.net/zenonzard-the-animation/1/"
         ]
       },
       {
@@ -19187,6 +19322,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jashin-chan-dropkick-episode-12/",
+        "title": "Jashin-chan Dropkick Episode 12",
+        "samples": [
+          "https://jkanime.net/jashin-chan-dropkick-episode-12/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/double-decker-doug-kirill/",
         "title": "Double Decker! Doug & Kirill",
         "samples": [
@@ -19541,6 +19683,13 @@
         "samples": [
           "https://jkanime.net/yuragi-sou-no-yuuna-san-ova/1/",
           "https://jkanime.net/yuragi-sou-no-yuuna-san-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/",
+        "title": "Aru Zombie Shoujo no Sainan (ONA)",
+        "samples": [
+          "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/1/"
         ]
       },
       {
@@ -20023,13 +20172,6 @@
         "title": "Mob Psycho 100 Reigen: Shirarezaru Kiseki no Reinouryokusha",
         "samples": [
           "https://jkanime.net/mob-psycho-100-reigen-shirarezaru-kiseki-no-reinouryokusha/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bungou-stray-dogs-dead-apple/",
-        "title": "Bungou Stray Dogs: Dead Apple",
-        "samples": [
-          "https://jkanime.net/bungou-stray-dogs-dead-apple/1/"
         ]
       },
       {
@@ -21132,6 +21274,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/demi-chan-wa-kataritai-special/",
+        "title": "Demi-chan wa Kataritai Special",
+        "samples": [
+          "https://jkanime.net/demi-chan-wa-kataritai-special/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hina-logi-from-luck-logic/",
         "title": "Hina Logi: From Luck & Logic",
         "samples": [
@@ -21918,6 +22067,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/monster-strike-zoku-saishuu-banashi-pandora-no-hako/",
+        "title": "Monster Strike: Zoku Saishuu-banashi - Pandora no Hako",
+        "samples": [
+          "https://jkanime.net/monster-strike-zoku-saishuu-banashi-pandora-no-hako/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/",
         "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
         "samples": [
@@ -22217,8 +22373,8 @@
         "series": "https://jkanime.net/cheating-craft/",
         "title": "Cheating Craft",
         "samples": [
-          "https://jkanime.net/cheating-craft/1/",
-          "https://jkanime.net/cheating-craft/10/"
+          "https://jkanime.net/cheating-craft/10/",
+          "https://jkanime.net/cheating-craft/11/"
         ]
       },
       {
@@ -22584,6 +22740,13 @@
         "samples": [
           "https://jkanime.net/gintama-aizome-kaori-hen/1/",
           "https://jkanime.net/gintama-aizome-kaori-hen/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fastening-days-2/",
+        "title": "Fastening Days 2",
+        "samples": [
+          "https://jkanime.net/fastening-days-2/1/"
         ]
       },
       {
@@ -25905,6 +26068,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fastening-days/",
+        "title": "Fastening Days",
+        "samples": [
+          "https://jkanime.net/fastening-days/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ryuugajou-nanana-no-maizoukin-tv-specials/",
         "title": "Ryuugajou Nanana no Maizoukin (TV) Specials",
         "samples": [
@@ -27547,6 +27717,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/paulette-no-isu/",
+        "title": "Paulette no Isu",
+        "samples": [
+          "https://jkanime.net/paulette-no-isu/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mikakunin-de-shinkoukei-mite-are-ga-watashitachi-no-tomatteiru-ryokan-yo/",
         "title": "Mikakunin de Shinkoukei: Mite. Are ga Watashitachi no Tomatteiru Ryokan yo.",
         "samples": [
@@ -28177,6 +28354,13 @@
         "samples": [
           "https://jkanime.net/tokyo-ravens-specials/1/",
           "https://jkanime.net/tokyo-ravens-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wonder-garden/",
+        "title": "Wonder Garden",
+        "samples": [
+          "https://jkanime.net/wonder-garden/1/"
         ]
       },
       {
@@ -31852,6 +32036,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/rain-town/",
+        "title": "Rain Town",
+        "samples": [
+          "https://jkanime.net/rain-town/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-matsuri/",
         "title": "Baka to Test to Shoukanjuu: Matsuri",
         "samples": [
@@ -32815,6 +33006,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-christmas-special/",
+        "title": "Baka to Test to Shoukanjuu: Christmas Special",
+        "samples": [
+          "https://jkanime.net/baka-to-test-to-shoukanjuu-christmas-special/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/",
         "title": "Zan Sayonara Zetsubou Sensei Bangaichi",
         "samples": [
@@ -33038,13 +33236,6 @@
         "title": "Naruto: Shippuuden Movie 3 - Hi no Ishi wo Tsugu Mono",
         "samples": [
           "https://jkanime.net/naruto-shippuuden-movie-3-hi-no-ishi-wo-tsugu-mono/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cencoroll/",
-        "title": "Cencoroll",
-        "samples": [
-          "https://jkanime.net/cencoroll/1/"
         ]
       },
       {
@@ -38449,8 +38640,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/32/",
-          "https://jkanime.net/taiho-shichau-zo/33/"
+          "https://jkanime.net/taiho-shichau-zo/33/",
+          "https://jkanime.net/taiho-shichau-zo/34/"
         ]
       },
       {
@@ -38465,13 +38656,6 @@
         "title": "Dragon Ball Z Movie 11: Bio-Broly",
         "samples": [
           "https://jkanime.net/dragon-ball-z-movie-11-bio-broly/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/heisei-tanuki-gassen-ponpoko/",
-        "title": "Heisei Tanuki Gassen Ponpoko",
-        "samples": [
-          "https://jkanime.net/heisei-tanuki-gassen-ponpoko/1/"
         ]
       },
       {
@@ -40829,13 +41013,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/bungou-stray-dogs-dead-apple/",
-        "title": "Bungou Stray Dogs: Dead Apple",
-        "samples": [
-          "https://jkanime.net/bungou-stray-dogs-dead-apple/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/doraemon-movie-38-nobita-no-takarajima/",
         "title": "Doraemon Movie 38: Nobita no Takarajima",
         "samples": [
@@ -43153,13 +43330,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cencoroll/",
-        "title": "Cencoroll",
-        "samples": [
-          "https://jkanime.net/cencoroll/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/evangelion-2-22-you-can-not-advance/",
         "title": "Evangelion: 2.22 You Can (Not) Advance",
         "samples": [
@@ -43783,13 +43953,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/heisei-tanuki-gassen-ponpoko/",
-        "title": "Heisei Tanuki Gassen Ponpoko",
-        "samples": [
-          "https://jkanime.net/heisei-tanuki-gassen-ponpoko/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-z-movie-10-broly-second-coming/",
         "title": "Dragon Ball Z Movie 10: Broly - Second Coming",
         "samples": [
@@ -44323,10 +44486,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/ao-ashi/13/",
-        "https://jkanime.net/ao-ashi/17/",
         "https://jkanime.net/ao-ashi/18/",
         "https://jkanime.net/ao-ashi/19/",
         "https://jkanime.net/ao-ashi/2/",
@@ -44337,9 +44499,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 14,
+        "mega": 15,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -44471,7 +44633,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 1
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -46128,13 +46291,15 @@
     {
       "series": "https://jkanime.net/the-bloody-mary/",
       "title": "The Bloody Mary",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -47450,13 +47615,15 @@
     {
       "series": "https://jkanime.net/luca/",
       "title": "Luca",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -48668,13 +48835,15 @@
     {
       "series": "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/",
       "title": "Tomoni Kagayaku Ashita no Tameni.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -50308,13 +50477,15 @@
     {
       "series": "https://jkanime.net/musashino-bonus/",
       "title": "Musashino! Bonus",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -54956,7 +55127,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 1
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -56442,13 +56613,15 @@
     {
       "series": "https://jkanime.net/ai-no-yakusoku/",
       "title": "Ai no Yakusoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -56457,13 +56630,15 @@
     {
       "series": "https://jkanime.net/himitsu-doushi/",
       "title": "Himitsu Doushi",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -56521,13 +56696,15 @@
     {
       "series": "https://jkanime.net/mirai-kara-yattekita-mori/",
       "title": "Mirai kara Yattekita Mori",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -59867,13 +60044,15 @@
     {
       "series": "https://jkanime.net/aishang-ta-de-liyou-extra/",
       "title": "Aishang Ta de Liyou Extra",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -61357,13 +61536,15 @@
     {
       "series": "https://jkanime.net/twi-yaba/",
       "title": "Twi-Yaba",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -63398,13 +63579,15 @@
     {
       "series": "https://jkanime.net/chronoir-episode0/",
       "title": "ChroNoiR Episode.0",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -63861,13 +64044,15 @@
     {
       "series": "https://jkanime.net/ahiru-kun-no-chiisana-bouken/",
       "title": "Ahiru-kun no Chiisana Bouken",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -66317,13 +66502,15 @@
     {
       "series": "https://jkanime.net/tentai-kansoku/",
       "title": "Tentai Kansoku",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -66527,13 +66714,15 @@
     {
       "series": "https://jkanime.net/watashi-no-hashtag-ga-haenakute/",
       "title": "Watashi no Hashtag ga Haenakute.",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -67266,16 +67455,15 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/23/",
         "https://jkanime.net/sugar-apple-fairy-tale/24/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 20,
+        "mega": 21,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -67375,16 +67563,15 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/23/",
         "https://jkanime.net/spy-kyoushitsu/24/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 19,
+        "mega": 20,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 13,
@@ -67669,13 +67856,15 @@
     {
       "series": "https://jkanime.net/pole-princess-prologue/",
       "title": "Pole Princess!! Prologue",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -70549,13 +70738,15 @@
     {
       "series": "https://jkanime.net/dead-or-arrive/",
       "title": "Dead or Arrive",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -71756,13 +71947,15 @@
     {
       "series": "https://jkanime.net/kirakira-kirari/",
       "title": "Kirakira Kirari",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -71913,13 +72106,15 @@
     {
       "series": "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/",
       "title": "Ryuukyuu Timeline 2: Tedako no Machi Tanbou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -71947,13 +72142,15 @@
     {
       "series": "https://jkanime.net/shiyakusho/",
       "title": "Shiyakusho",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -72941,7 +73138,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 27,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -75397,13 +75594,15 @@
     {
       "series": "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/",
       "title": "Youjo Senki: Sabaku no Pasta Daisakusen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -76742,13 +76941,15 @@
     {
       "series": "https://jkanime.net/home/",
       "title": "Home!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -76820,13 +77021,15 @@
     {
       "series": "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/",
       "title": "Ryuukyuu Timeline: Mirai Shoujo to Inishie no Ou",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -76898,13 +77101,15 @@
     {
       "series": "https://jkanime.net/tian-guan-cifu-special/",
       "title": "Tian Guan Cifu Special",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -78709,13 +78914,15 @@
     {
       "series": "https://jkanime.net/boukyaku-battery/",
       "title": "Boukyaku Battery",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -80856,18 +81063,17 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/1/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "mega": 9,
+        "mega": 10,
         "streamwish": 6,
         "vidhide": 6,
         "mp4upload": 6,
@@ -83667,13 +83873,15 @@
     {
       "series": "https://jkanime.net/zenonzard-the-animation/",
       "title": "Zenonzard: The Animation",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -87901,19 +88109,15 @@
     {
       "series": "https://jkanime.net/sora-to-umi-no-aida/",
       "title": "Sora to Umi no Aida",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 12,
-      "stored": 11,
-      "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/9/"
-      ],
+      "stored": 12,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 11
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -88025,13 +88229,15 @@
     {
       "series": "https://jkanime.net/jashin-chan-dropkick-episode-12/",
       "title": "Jashin-chan Dropkick Episode 12",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -89045,13 +89251,15 @@
     {
       "series": "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/",
       "title": "Aru Zombie Shoujo no Sainan (ONA)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -90442,20 +90650,16 @@
     {
       "series": "https://jkanime.net/bungou-stray-dogs-dead-apple/",
       "title": "Bungou Stray Dogs: Dead Apple",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/bungou-stray-dogs-dead-apple/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -93776,13 +93980,15 @@
     {
       "series": "https://jkanime.net/demi-chan-wa-kataritai-special/",
       "title": "Demi-chan wa Kataritai Special",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -96147,13 +96353,15 @@
     {
       "series": "https://jkanime.net/monster-strike-zoku-saishuu-banashi-pandora-no-hako/",
       "title": "Monster Strike: Zoku Saishuu-banashi - Pandora no Hako",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -97002,9 +97210,8 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/cheating-craft/1/",
         "https://jkanime.net/cheating-craft/10/",
         "https://jkanime.net/cheating-craft/11/",
         "https://jkanime.net/cheating-craft/12/",
@@ -97013,9 +97220,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mega": 6
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -97559,16 +97766,15 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/8/",
         "https://jkanime.net/stella-no-mahou/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -98105,13 +98311,15 @@
     {
       "series": "https://jkanime.net/fastening-days-2/",
       "title": "Fastening Days 2",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -107839,13 +108047,15 @@
     {
       "series": "https://jkanime.net/fastening-days/",
       "title": "Fastening Days",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -112372,13 +112582,15 @@
     {
       "series": "https://jkanime.net/paulette-no-isu/",
       "title": "Paulette no Isu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -114255,13 +114467,15 @@
     {
       "series": "https://jkanime.net/wonder-garden/",
       "title": "Wonder Garden",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -124773,13 +124987,15 @@
     {
       "series": "https://jkanime.net/rain-town/",
       "title": "Rain Town",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -127523,13 +127739,15 @@
     {
       "series": "https://jkanime.net/baka-to-test-to-shoukanjuu-christmas-special/",
       "title": "Baka to Test to Shoukanjuu: Christmas Special",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 1
       },
@@ -128191,20 +128409,16 @@
     {
       "series": "https://jkanime.net/cencoroll/",
       "title": "Cencoroll",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/cencoroll/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -128712,11 +128926,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 17,
+      "stored": 18,
       "missing": [
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
-        "https://jkanime.net/07-ghost/21/",
         "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
         "https://jkanime.net/07-ghost/25/",
@@ -128725,9 +128938,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "mega": 17
+        "mega": 18
       },
       "playbackVerified": false
     },
@@ -129081,18 +129294,17 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/asura-cryin/12/",
         "https://jkanime.net/asura-cryin/13/",
-        "https://jkanime.net/asura-cryin/5/",
         "https://jkanime.net/asura-cryin/6/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -143416,9 +143628,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 26,
+      "stored": 27,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/32/",
         "https://jkanime.net/taiho-shichau-zo/33/",
         "https://jkanime.net/taiho-shichau-zo/34/",
         "https://jkanime.net/taiho-shichau-zo/35/",
@@ -143452,7 +143663,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 25,
+        "mp4upload": 26,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -143498,20 +143709,16 @@
     {
       "series": "https://jkanime.net/heisei-tanuki-gassen-ponpoko/",
       "title": "Heisei Tanuki Gassen Ponpoko",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/heisei-tanuki-gassen-ponpoko/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -145517,9 +145724,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 3
       },
       "playbackVerified": false
     },
@@ -145825,7 +146030,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -145867,7 +146072,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -146613,8 +146818,7 @@
       "renewalFailed": 0,
       "families": {
         "mp4upload": 4,
-        "streamwish": 2,
-        "vidhide": 1
+        "streamwish": 1
       },
       "playbackVerified": false
     },
@@ -146865,8 +147069,8 @@
       "renewalFailed": 0,
       "families": {
         "mp4upload": 17,
-        "streamwish": 13,
-        "vidhide": 7
+        "streamwish": 12,
+        "vidhide": 6
       },
       "playbackVerified": false
     },
@@ -147278,7 +147482,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1118,
+      "renewalFailed": 1217,
       "families": {
         "mega": 1216,
         "streamwish": 1216,
