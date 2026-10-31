@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T13:38:52.667534+00:00",
+  "checkedAt": "2026-10-31T13:55:32.036908+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73826,
-  "storedChapters": 72450,
-  "missingChapters": 1376,
+  "storedChapters": 72456,
+  "missingChapters": 1370,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2900,7 +2900,7 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/16/"
+          "https://jkanime.net/bye-bye-earth/17/"
         ]
       },
       {
@@ -3003,8 +3003,8 @@
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/15/",
-          "https://jkanime.net/shoushimin-series/16/"
+          "https://jkanime.net/shoushimin-series/16/",
+          "https://jkanime.net/shoushimin-series/17/"
         ]
       },
       {
@@ -3575,8 +3575,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/"
         ]
       },
       {
@@ -11667,13 +11667,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/boku-no-hero-academia-the-movie-2-heroesrising/",
-        "title": "Boku no Hero Academia the Movie 2: Heroes:Rising",
-        "samples": [
-          "https://jkanime.net/boku-no-hero-academia-the-movie-2-heroesrising/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bokura-no-nanokakan-sensou/",
         "title": "Bokura no Nanokakan Sensou",
         "samples": [
@@ -16833,7 +16826,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/18/"
+          "https://jkanime.net/time-bokan-24/19/"
         ]
       },
       {
@@ -19547,7 +19540,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/"
         ]
       },
       {
@@ -19729,13 +19722,6 @@
         "samples": [
           "https://jkanime.net/go-princess-precure/1/",
           "https://jkanime.net/go-princess-precure/13/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bokura-wa-minna-kawaisou-hajimete-no/",
-        "title": "Bokura wa Minna Kawaisou: Hajimete no",
-        "samples": [
-          "https://jkanime.net/bokura-wa-minna-kawaisou-hajimete-no/1/"
         ]
       },
       {
@@ -22939,13 +22925,6 @@
         "title": "Kaze Tachinu",
         "samples": [
           "https://jkanime.net/kaze-tachinu/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/buki-yo-saraba/",
-        "title": "Buki yo Saraba",
-        "samples": [
-          "https://jkanime.net/buki-yo-saraba/1/"
         ]
       },
       {
@@ -30158,8 +30137,8 @@
         "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
         "title": "Yu Gi Oh!: Duel Monsters GX",
         "samples": [
-          "https://jkanime.net/yugioh-duel-monsters-gx/100/",
-          "https://jkanime.net/yugioh-duel-monsters-gx/101/"
+          "https://jkanime.net/yugioh-duel-monsters-gx/110/",
+          "https://jkanime.net/yugioh-duel-monsters-gx/111/"
         ]
       },
       {
@@ -31648,8 +31627,8 @@
         "series": "https://jkanime.net/prince-of-tennis/",
         "title": "Prince of Tennis",
         "samples": [
-          "https://jkanime.net/prince-of-tennis/100/",
-          "https://jkanime.net/prince-of-tennis/101/"
+          "https://jkanime.net/prince-of-tennis/108/",
+          "https://jkanime.net/prince-of-tennis/109/"
         ]
       },
       {
@@ -32928,13 +32907,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/burn-up/",
-        "title": "Burn Up!",
-        "samples": [
-          "https://jkanime.net/burn-up/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-z-movie-04-lord-slug/",
         "title": "Dragon Ball Z Movie 04: Lord Slug",
         "samples": [
@@ -34127,15 +34099,15 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/16/"
+          "https://jkanime.net/bye-bye-earth/17/"
         ]
       },
       {
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/15/",
-          "https://jkanime.net/shoushimin-series/16/"
+          "https://jkanime.net/shoushimin-series/16/",
+          "https://jkanime.net/shoushimin-series/17/"
         ]
       },
       {
@@ -34163,8 +34135,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/"
         ]
       },
       {
@@ -35562,7 +35534,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/18/"
+          "https://jkanime.net/time-bokan-24/19/"
         ]
       },
       {
@@ -36067,7 +36039,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/"
         ]
       },
       {
@@ -36355,8 +36327,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/18/",
-          "https://jkanime.net/tribe-cool-crew/19/"
+          "https://jkanime.net/tribe-cool-crew/19/",
+          "https://jkanime.net/tribe-cool-crew/2/"
         ]
       },
       {
@@ -55968,10 +55940,9 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/bye-bye-earth/13/",
-        "https://jkanime.net/bye-bye-earth/16/",
         "https://jkanime.net/bye-bye-earth/17/",
         "https://jkanime.net/bye-bye-earth/18/",
         "https://jkanime.net/bye-bye-earth/19/",
@@ -55981,10 +55952,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 12,
+        "streamwish": 13,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 9,
+        "mp4upload": 10,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -56270,9 +56241,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/shoushimin-series/15/",
         "https://jkanime.net/shoushimin-series/16/",
         "https://jkanime.net/shoushimin-series/17/",
         "https://jkanime.net/shoushimin-series/18/",
@@ -56285,10 +56255,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 13,
+        "streamwish": 14,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 10,
+        "mp4upload": 11,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -57991,9 +57961,8 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/23/",
@@ -58008,7 +57977,7 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 19,
+        "streamwish": 20,
         "vidhide": 12,
         "mp4upload": 15,
         "streamtape": 12
@@ -81270,8 +81239,7 @@
       "title": "Boku no Hero Academia the Movie 2: Heroes:Rising",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -81280,7 +81248,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -96513,10 +96481,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/18/",
         "https://jkanime.net/time-bokan-24/19/",
         "https://jkanime.net/time-bokan-24/2/",
         "https://jkanime.net/time-bokan-24/20/",
@@ -96536,9 +96503,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 8,
-        "streamwish": 8,
-        "vidhide": 8
+        "mp4upload": 9,
+        "streamwish": 9,
+        "vidhide": 9
       },
       "playbackVerified": false
     },
@@ -98345,7 +98312,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -101550,7 +101517,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -104620,10 +104587,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/9/"
@@ -104632,7 +104598,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 7,
+        "streamwish": 8,
         "mega": 2
       },
       "playbackVerified": false
@@ -105252,8 +105218,7 @@
       "title": "Bokura wa Minna Kawaisou: Hajimete no",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -105262,7 +105227,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -107982,9 +107947,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/18/",
         "https://jkanime.net/tribe-cool-crew/19/",
         "https://jkanime.net/tribe-cool-crew/2/",
         "https://jkanime.net/tribe-cool-crew/20/",
@@ -108030,7 +107994,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 9,
+        "streamwish": 10,
         "mega": 3
       },
       "playbackVerified": false
@@ -114368,8 +114332,7 @@
       "title": "Buki yo Saraba",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -114378,7 +114341,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -134931,7 +134894,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 91,
+      "renewalFailed": 71,
       "families": {
         "mega": 179,
         "streamwish": 180,
@@ -139057,7 +139020,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 91,
+      "renewalFailed": 71,
       "families": {
         "mega": 176,
         "streamwish": 178,
@@ -142762,8 +142725,7 @@
       "title": "Burn Up!",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -142772,7 +142734,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -143438,7 +143400,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 3
       },
