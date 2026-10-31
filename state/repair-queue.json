@@ -1,13 +1,12 @@
 {
   "observed-chapters-without-options": {
-    "series": 768,
+    "series": 760,
     "twoSeriesProofRequired": true,
     "samples": [
       {
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/19/",
           "https://jkanime.net/ao-ashi/2/"
         ]
       },
@@ -22,14 +21,13 @@
     ]
   },
   "renewal-error": {
-    "series": 4358,
+    "series": 4352,
     "twoSeriesProofRequired": true,
     "samples": [
       {
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/19/",
           "https://jkanime.net/ao-ashi/2/"
         ]
       },
@@ -44,7 +42,7 @@
     ]
   },
   "retained-redirect": {
-    "series": 626,
+    "series": 620,
     "twoSeriesProofRequired": true,
     "samples": [
       {
