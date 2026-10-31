@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T13:55:32.036908+00:00",
+  "checkedAt": "2026-10-31T14:10:45.093245+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73826,
-  "storedChapters": 72456,
-  "missingChapters": 1370,
+  "observedChapters": 73827,
+  "storedChapters": 72462,
+  "missingChapters": 1365,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2900,7 +2900,7 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/17/"
+          "https://jkanime.net/bye-bye-earth/18/"
         ]
       },
       {
@@ -3003,8 +3003,8 @@
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/16/",
-          "https://jkanime.net/shoushimin-series/17/"
+          "https://jkanime.net/shoushimin-series/17/",
+          "https://jkanime.net/shoushimin-series/18/"
         ]
       },
       {
@@ -3575,8 +3575,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/23/"
         ]
       },
       {
@@ -16826,7 +16826,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/19/"
+          "https://jkanime.net/time-bokan-24/2/"
         ]
       },
       {
@@ -18823,13 +18823,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/grisaia-no-meikyuu-special/",
-        "title": "Grisaia no Meikyuu Special",
-        "samples": [
-          "https://jkanime.net/grisaia-no-meikyuu-special/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/chu-feng-bee/",
         "title": "School Shock: Chu Feng B.E.E",
         "samples": [
@@ -19299,13 +19292,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/grisaia-no-meikyuu/",
-        "title": "Grisaia no Meikyuu",
-        "samples": [
-          "https://jkanime.net/grisaia-no-meikyuu/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/",
         "title": "Sidonia no Kishi S2",
         "samples": [
@@ -19540,7 +19526,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/"
         ]
       },
       {
@@ -23332,13 +23318,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hal/",
-        "title": "Hal",
-        "samples": [
-          "https://jkanime.net/hal/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yuyushiki-specials/",
         "title": "Yuyushiki: Nyanyashiki",
         "samples": [
@@ -24574,13 +24553,6 @@
         "title": "Code Geass: Nunnally in Wonderland",
         "samples": [
           "https://jkanime.net/code-geass-nunnally-in-wonderland/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/guilty-crown-lost-christmas/",
-        "title": "Guilty Crown: Lost Christmas",
-        "samples": [
-          "https://jkanime.net/guilty-crown-lost-christmas/1/"
         ]
       },
       {
@@ -30137,8 +30109,8 @@
         "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
         "title": "Yu Gi Oh!: Duel Monsters GX",
         "samples": [
-          "https://jkanime.net/yugioh-duel-monsters-gx/110/",
-          "https://jkanime.net/yugioh-duel-monsters-gx/111/"
+          "https://jkanime.net/yugioh-duel-monsters-gx/130/",
+          "https://jkanime.net/yugioh-duel-monsters-gx/131/"
         ]
       },
       {
@@ -31627,8 +31599,8 @@
         "series": "https://jkanime.net/prince-of-tennis/",
         "title": "Prince of Tennis",
         "samples": [
-          "https://jkanime.net/prince-of-tennis/108/",
-          "https://jkanime.net/prince-of-tennis/109/"
+          "https://jkanime.net/prince-of-tennis/127/",
+          "https://jkanime.net/prince-of-tennis/128/"
         ]
       },
       {
@@ -34099,15 +34071,15 @@
         "title": "Bye Bye, Earth",
         "samples": [
           "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/17/"
+          "https://jkanime.net/bye-bye-earth/18/"
         ]
       },
       {
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/16/",
-          "https://jkanime.net/shoushimin-series/17/"
+          "https://jkanime.net/shoushimin-series/17/",
+          "https://jkanime.net/shoushimin-series/18/"
         ]
       },
       {
@@ -34135,8 +34107,8 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/23/"
         ]
       },
       {
@@ -35534,7 +35506,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/19/"
+          "https://jkanime.net/time-bokan-24/2/"
         ]
       },
       {
@@ -36039,7 +36011,7 @@
         "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
         "samples": [
           "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/"
+          "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/"
         ]
       },
       {
@@ -36327,8 +36299,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/19/",
-          "https://jkanime.net/tribe-cool-crew/2/"
+          "https://jkanime.net/tribe-cool-crew/2/",
+          "https://jkanime.net/tribe-cool-crew/20/"
         ]
       },
       {
@@ -38850,6 +38822,13 @@
         "title": "Romelia Senki",
         "samples": [
           "https://jkanime.net/romelia-senki/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yasei-no-last-boss-ga-arawareta-2nd-season/",
+        "title": "Yasei no Last Boss ga Arawareta! 2nd Season",
+        "samples": [
+          "https://jkanime.net/yasei-no-last-boss-ga-arawareta-2nd-season/6/"
         ]
       },
       {
@@ -55940,10 +55919,9 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/bye-bye-earth/13/",
-        "https://jkanime.net/bye-bye-earth/17/",
         "https://jkanime.net/bye-bye-earth/18/",
         "https://jkanime.net/bye-bye-earth/19/",
         "https://jkanime.net/bye-bye-earth/20/"
@@ -55952,10 +55930,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 13,
+        "streamwish": 14,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 10,
+        "mp4upload": 11,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -56241,9 +56219,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 15,
+      "stored": 16,
       "missing": [
-        "https://jkanime.net/shoushimin-series/16/",
         "https://jkanime.net/shoushimin-series/17/",
         "https://jkanime.net/shoushimin-series/18/",
         "https://jkanime.net/shoushimin-series/19/",
@@ -56255,10 +56232,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 14,
+        "streamwish": 15,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 11,
+        "mp4upload": 12,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -57961,9 +57938,8 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/23/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/24/",
@@ -57977,9 +57953,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 20,
+        "streamwish": 21,
         "vidhide": 12,
-        "mp4upload": 15,
+        "mp4upload": 16,
         "streamtape": 12
       },
       "playbackVerified": false
@@ -89614,7 +89590,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {},
       "playbackVerified": false
     },
@@ -96481,10 +96457,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 9,
+      "stored": 10,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/19/",
         "https://jkanime.net/time-bokan-24/2/",
         "https://jkanime.net/time-bokan-24/20/",
         "https://jkanime.net/time-bokan-24/21/",
@@ -96504,7 +96479,7 @@
       "renewalFailed": 1,
       "families": {
         "mp4upload": 9,
-        "streamwish": 9,
+        "streamwish": 10,
         "vidhide": 9
       },
       "playbackVerified": false
@@ -98312,7 +98287,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -102543,8 +102518,7 @@
       "title": "Grisaia no Meikyuu Special",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -102553,7 +102527,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -103938,8 +103912,7 @@
       "title": "Grisaia no Meikyuu",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -103948,7 +103921,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -104587,10 +104560,9 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/1/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/9/"
       ],
@@ -104598,7 +104570,7 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "streamwish": 8,
+        "streamwish": 9,
         "mega": 2
       },
       "playbackVerified": false
@@ -107947,9 +107919,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 10,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/19/",
         "https://jkanime.net/tribe-cool-crew/2/",
         "https://jkanime.net/tribe-cool-crew/20/",
         "https://jkanime.net/tribe-cool-crew/21/",
@@ -107994,7 +107965,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 10,
+        "streamwish": 11,
         "mega": 3
       },
       "playbackVerified": false
@@ -115440,8 +115411,7 @@
       "title": "Hal",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -115450,7 +115420,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -119176,8 +119146,7 @@
       "title": "Guilty Crown: Lost Christmas",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -119186,7 +119155,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -134894,7 +134863,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 71,
+      "renewalFailed": 51,
       "families": {
         "mega": 179,
         "streamwish": 180,
@@ -139020,7 +138989,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 71,
+      "renewalFailed": 52,
       "families": {
         "mega": 176,
         "streamwish": 178,
@@ -140117,7 +140086,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 1
       },
@@ -143400,7 +143369,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 3
       },
@@ -144880,10 +144849,14 @@
     {
       "series": "https://jkanime.net/yasei-no-last-boss-ga-arawareta-2nd-season/",
       "title": "Yasei no Last Boss ga Arawareta! 2nd Season",
-      "causes": [],
-      "observed": 5,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 6,
       "stored": 5,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/yasei-no-last-boss-ga-arawareta-2nd-season/6/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
