@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T16:31:32.886726+00:00",
+  "checkedAt": "2026-10-31T16:48:34.358028+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73831,
-  "storedChapters": 72507,
-  "missingChapters": 1324,
+  "storedChapters": 72511,
+  "missingChapters": 1320,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -8464,13 +8464,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-        "samples": [
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -11269,13 +11262,6 @@
         "samples": [
           "https://jkanime.net/marulk-chan-no-nichijou/1/",
           "https://jkanime.net/marulk-chan-no-nichijou/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/made-in-abyss-movie-3-fukaki-tamashii-no-reimei/",
-        "title": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
-        "samples": [
-          "https://jkanime.net/made-in-abyss-movie-3-fukaki-tamashii-no-reimei/1/"
         ]
       },
       {
@@ -16743,7 +16729,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/6/"
+          "https://jkanime.net/time-bokan-24/7/"
         ]
       },
       {
@@ -20016,13 +20002,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/love-stage-ova/",
-        "title": "Love Stage!! OVA",
-        "samples": [
-          "https://jkanime.net/love-stage-ova/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/akuma-no-riddle-shousha-wa-dare-nukiuchi-test/",
         "title": "Akuma no Riddle: Shousha wa Dare? Nukiuchi Test",
         "samples": [
@@ -20146,7 +20125,7 @@
         "title": "Mushishi Zoku Shou 2nd Season",
         "samples": [
           "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/",
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/7/"
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/8/"
         ]
       },
       {
@@ -33740,8 +33719,8 @@
         "series": "https://jkanime.net/uma-musume-cinderella-gray/",
         "title": "Uma Musume: Cinderella Gray",
         "samples": [
-          "https://jkanime.net/uma-musume-cinderella-gray/18/",
-          "https://jkanime.net/uma-musume-cinderella-gray/19/"
+          "https://jkanime.net/uma-musume-cinderella-gray/19/",
+          "https://jkanime.net/uma-musume-cinderella-gray/20/"
         ]
       },
       {
@@ -34620,8 +34599,8 @@
         "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
         "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
         "samples": [
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/4/",
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/5/"
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/5/",
+          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/6/"
         ]
       },
       {
@@ -35258,7 +35237,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/6/"
+          "https://jkanime.net/time-bokan-24/7/"
         ]
       },
       {
@@ -36050,8 +36029,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/29/",
-          "https://jkanime.net/tribe-cool-crew/3/"
+          "https://jkanime.net/tribe-cool-crew/3/",
+          "https://jkanime.net/tribe-cool-crew/30/"
         ]
       },
       {
@@ -43570,7 +43549,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50201,7 +50180,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51282,9 +51261,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 23,
-      "stored": 17,
+      "stored": 18,
       "missing": [
-        "https://jkanime.net/uma-musume-cinderella-gray/18/",
         "https://jkanime.net/uma-musume-cinderella-gray/19/",
         "https://jkanime.net/uma-musume-cinderella-gray/20/",
         "https://jkanime.net/uma-musume-cinderella-gray/21/",
@@ -51295,8 +51273,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 17,
-        "streamwish": 9,
+        "mp4upload": 18,
+        "streamwish": 10,
         "vidhide": 8
       },
       "playbackVerified": false
@@ -51351,14 +51329,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "mega": 8,
+        "mega": 7,
         "streamwish": 9,
-        "vidhide": 8,
-        "mixdrop": 8,
+        "vidhide": 7,
+        "mixdrop": 7,
         "mp4upload": 13,
-        "streamtape": 8
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -52295,14 +52273,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "vidhide": 11,
-        "mega": 7,
-        "streamwish": 8,
-        "mixdrop": 7,
+        "mega": 6,
+        "streamwish": 7,
+        "mixdrop": 6,
         "mp4upload": 8,
-        "streamtape": 7
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -54464,7 +54442,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54571,7 +54549,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -56663,13 +56641,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -57614,7 +57592,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 20,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -60337,7 +60315,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 25,
       "families": {
         "mega": 24,
         "streamwish": 37,
@@ -60869,7 +60847,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -71974,15 +71952,13 @@
     {
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -72101,7 +72077,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -73421,13 +73397,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 12,
-        "streamwish": 8,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 7
+        "streamwish": 7,
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -76732,7 +76708,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -78581,14 +78557,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
-        "streamwish": 7,
-        "vidhide": 7,
-        "mixdrop": 7,
-        "mp4upload": 7,
-        "streamtape": 7
+        "streamwish": 6,
+        "vidhide": 6,
+        "mixdrop": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
@@ -79908,8 +79884,7 @@
       "title": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -79918,7 +79893,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -80206,7 +80181,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -80330,9 +80305,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 11,
-      "stored": 5,
+      "stored": 6,
       "missing": [
-        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/4/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/5/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/6/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/7/",
@@ -80343,7 +80317,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 5
+        "mega": 6
       },
       "playbackVerified": false
     },
@@ -89450,13 +89424,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
-        "streamwish": 6,
-        "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "streamwish": 5,
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -91654,7 +91628,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -93777,7 +93751,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -95995,7 +95969,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96175,10 +96149,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/6/",
         "https://jkanime.net/time-bokan-24/7/",
         "https://jkanime.net/time-bokan-24/8/",
         "https://jkanime.net/time-bokan-24/9/"
@@ -96187,9 +96160,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 16,
-        "streamwish": 19,
-        "vidhide": 16,
+        "mp4upload": 17,
+        "streamwish": 20,
+        "vidhide": 17,
         "mega": 1
       },
       "playbackVerified": false
@@ -98451,7 +98424,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -99711,7 +99684,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {},
       "playbackVerified": false
     },
@@ -101621,7 +101594,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "families": {},
       "playbackVerified": false
     },
@@ -102842,7 +102815,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102991,7 +102964,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103012,7 +102985,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103197,13 +103170,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
-        "streamwish": 6,
-        "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "streamwish": 5,
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -103664,7 +103637,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -104185,7 +104158,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -106089,8 +106062,7 @@
       "title": "Love Stage!! OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -106099,7 +106071,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -106450,7 +106422,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -107623,9 +107595,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/29/",
         "https://jkanime.net/tribe-cool-crew/3/",
         "https://jkanime.net/tribe-cool-crew/30/",
         "https://jkanime.net/tribe-cool-crew/31/",
@@ -107659,7 +107630,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 21,
+        "streamwish": 22,
         "mega": 6
       },
       "playbackVerified": false
@@ -109032,7 +109003,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -109838,7 +109809,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110111,7 +110082,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 55,
+      "renewalFailed": 54,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -133761,7 +133732,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -143524,7 +143495,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 22,
       "families": {},
       "playbackVerified": false
     },
