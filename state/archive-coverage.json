@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T18:38:38.247492+00:00",
+  "checkedAt": "2026-10-31T18:55:41.116638+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73834,
-  "storedChapters": 72531,
-  "missingChapters": 1303,
+  "storedChapters": 72533,
+  "missingChapters": 1301,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -98,7 +98,8 @@
         "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
         "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
         "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/"
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/6/"
         ]
       },
       {
@@ -2475,13 +2476,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
-        "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ao-no-hako/",
         "title": "Ao no Hako",
         "samples": [
@@ -3487,8 +3481,8 @@
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
         "title": "Yozakura-san Chi no Daisakusen",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/15/",
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/16/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/16/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/17/"
         ]
       },
       {
@@ -21248,8 +21242,8 @@
         "series": "https://jkanime.net/dragon-ball-kai-2014/",
         "title": "Dragon Ball Kai (2014)",
         "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/13/",
-          "https://jkanime.net/dragon-ball-kai-2014/14/"
+          "https://jkanime.net/dragon-ball-kai-2014/14/",
+          "https://jkanime.net/dragon-ball-kai-2014/15/"
         ]
       },
       {
@@ -21328,8 +21322,8 @@
         "series": "https://jkanime.net/abarenbou-kishi-matsutarou/",
         "title": "Abarenbou Kishi!! Matsutarou",
         "samples": [
-          "https://jkanime.net/abarenbou-kishi-matsutarou/12/",
-          "https://jkanime.net/abarenbou-kishi-matsutarou/13/"
+          "https://jkanime.net/abarenbou-kishi-matsutarou/13/",
+          "https://jkanime.net/abarenbou-kishi-matsutarou/14/"
         ]
       },
       {
@@ -21674,13 +21668,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/strange-plus/",
-        "title": "Strange+",
-        "samples": [
-          "https://jkanime.net/strange-plus/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/onee-chan-ga-kita/",
         "title": "Onee-chan ga Kita",
         "samples": [
@@ -21708,8 +21695,8 @@
         "series": "https://jkanime.net/z-x-ignition/",
         "title": "Z/X: Ignition",
         "samples": [
-          "https://jkanime.net/z-x-ignition/10/",
-          "https://jkanime.net/z-x-ignition/11/"
+          "https://jkanime.net/z-x-ignition/11/",
+          "https://jkanime.net/z-x-ignition/12/"
         ]
       },
       {
@@ -23670,13 +23657,6 @@
         "samples": [
           "https://jkanime.net/junjou-romantica-ova/1/",
           "https://jkanime.net/junjou-romantica-ova/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/",
-        "title": "Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo",
-        "samples": [
-          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/7/"
         ]
       },
       {
@@ -35814,8 +35794,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/36/",
-          "https://jkanime.net/tribe-cool-crew/37/"
+          "https://jkanime.net/tribe-cool-crew/37/",
+          "https://jkanime.net/tribe-cool-crew/38/"
         ]
       },
       {
@@ -38365,13 +38345,6 @@
         "title": "Vertex Force",
         "samples": [
           "https://jkanime.net/vertex-force/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/",
-        "title": "Marronnier Oukoku no Shichinin no Kishi",
-        "samples": [
-          "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/5/"
         ]
       },
       {
@@ -43355,7 +43328,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54331,15 +54304,13 @@
     {
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 10,
         "streamwish": 13,
@@ -57377,7 +57348,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -107321,9 +107292,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 29,
+      "stored": 30,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/36/",
         "https://jkanime.net/tribe-cool-crew/37/",
         "https://jkanime.net/tribe-cool-crew/38/",
         "https://jkanime.net/tribe-cool-crew/39/",
@@ -107349,8 +107319,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 29,
-        "mega": 6
+        "streamwish": 30,
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -109797,7 +109767,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 49,
+      "renewalFailed": 48,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -110007,7 +109977,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -110154,13 +110124,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 13,
-        "streamwish": 8,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "streamwish": 7,
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -111048,15 +111018,13 @@
     {
       "series": "https://jkanime.net/strange-plus/",
       "title": "Strange+",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -111140,13 +111108,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -111182,7 +111150,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -111299,7 +111267,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -112704,7 +112672,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -114284,13 +114252,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 13,
-        "streamwish": 6,
-        "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "streamwish": 5,
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -114366,7 +114334,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116214,7 +116182,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -116912,15 +116880,13 @@
     {
       "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/",
       "title": "Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 7,
       "stored": 7,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -117625,7 +117591,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 68,
+      "renewalFailed": 67,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -118677,7 +118643,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119329,7 +119295,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -144271,19 +144237,17 @@
     {
       "series": "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/",
       "title": "Marronnier Oukoku no Shichinin no Kishi",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 5,
-      "stored": 4,
-      "missing": [
-        "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/5/"
-      ],
+      "stored": 5,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 4
+        "mp4upload": 5,
+        "streamwish": 1,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
