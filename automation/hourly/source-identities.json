@@ -75,5 +75,1469 @@
       }
     },
     "collector": "3184e0d6-cadd-4e09-8b4b-ab88dab3dd17"
+  },
+  "https://jkanime.net/ranma-/": {
+    "title": "Ranma ½",
+    "year": 1989,
+    "approved": true,
+    "episodes": 161,
+    "sources": {
+      "tio": {
+        "slug": "ranma",
+        "title": "Ranma ½"
+      },
+      "flv": {
+        "slug": "ranma",
+        "title": "Ranma ½"
+      }
+    }
+  },
+  "https://jkanime.net/kodomo-no-omocha-tv/": {
+    "title": "Kodomo no Omocha (TV)",
+    "year": 1996,
+    "approved": true,
+    "episodes": 102,
+    "sources": {
+      "tio": {
+        "slug": "kodomo-no-omocha",
+        "title": "Kodomo no Omocha"
+      },
+      "flv": {
+        "slug": "kodomo-no-omocha",
+        "title": "Kodomo no Omocha"
+      }
+    }
+  },
+  "https://jkanime.net/yu-gi-oh-zexal-second/": {
+    "title": "Yu-Gi-Oh! Zexal Second",
+    "year": 2012,
+    "approved": true,
+    "episodes": 73,
+    "sources": {
+      "tio": {
+        "slug": "yu-gi-oh-zexal-ii",
+        "title": "Yu-Gi-Oh! Zexal II"
+      }
+    }
+  },
+  "https://jkanime.net/zoid/": {
+    "title": "Zoids",
+    "year": 1999,
+    "approved": true,
+    "episodes": 67,
+    "sources": {
+      "tio": {
+        "slug": "zoids",
+        "title": "Zoids"
+      }
+    }
+  },
+  "https://jkanime.net/dragon-ball-kai-2014/": {
+    "title": "Dragon Ball Kai (2014)",
+    "year": 2014,
+    "approved": true,
+    "episodes": 61,
+    "sources": {
+      "tio": {
+        "slug": "dragon-ball-kai-majin-buu-hen",
+        "title": "Dragon Ball Kai: Majin Buu-hen"
+      }
+    }
+  },
+  "https://jkanime.net/digimon-digital-monsters/": {
+    "title": "Digimon Adventure",
+    "year": 1999,
+    "approved": true,
+    "episodes": 54,
+    "sources": {
+      "tio": {
+        "slug": "digimon-adventure",
+        "title": "Digimon Adventure"
+      }
+    }
+  },
+  "https://jkanime.net/zenki/": {
+    "title": "Kishin Douji Zenki",
+    "year": 1995,
+    "approved": true,
+    "episodes": 51,
+    "sources": {
+      "tio": {
+        "slug": "kishin-douji-zenki",
+        "title": "Kishin Douji Zenki"
+      },
+      "flv": {
+        "slug": "kishin-douji-zenki",
+        "title": "Kishin Douji Zenki"
+      }
+    }
+  },
+  "https://jkanime.net/kenichi/": {
+    "title": "Shijou Saikyou no Deshi Kenichi",
+    "year": 2006,
+    "approved": true,
+    "episodes": 50,
+    "sources": {
+      "tio": {
+        "slug": "shijou-saikyou-no-deshi-kenichi",
+        "title": "Shijou Saikyou no Deshi Kenichi"
+      }
+    }
+  },
+  "https://jkanime.net/gundam-wing/": {
+    "title": "Mobile Suit Gundam Wing",
+    "year": 1995,
+    "approved": true,
+    "episodes": 49,
+    "sources": {
+      "tio": {
+        "slug": "mobile-suit-gundam-wing",
+        "title": "Mobile Suit Gundam Wing"
+      },
+      "flv": {
+        "slug": "mobile-suit-gundam-wing",
+        "title": "Mobile Suit Gundam Wing"
+      }
+    }
+  },
+  "https://jkanime.net/tekkaman-blade/": {
+    "title": "Tekkaman Blade",
+    "year": 1992,
+    "approved": true,
+    "episodes": 49,
+    "sources": {
+      "tio": {
+        "slug": "uchuu-no-kishi-tekkaman-blade",
+        "title": "Uchuu no Kishi Tekkaman Blade"
+      }
+    }
+  },
+  "https://jkanime.net/gto/": {
+    "title": "Great Teacher Onizuka",
+    "year": 1999,
+    "approved": true,
+    "episodes": 43,
+    "sources": {
+      "tio": {
+        "slug": "great-teacher-onizuka",
+        "title": "Great Teacher Onizuka"
+      },
+      "flv": {
+        "slug": "great-teacher-onizuka",
+        "title": "Great Teacher Onizuka"
+      }
+    }
+  },
+  "https://jkanime.net/yozakura-san-chi-no-daisakusen/": {
+    "title": "Yozakura-san Chi no Daisakusen",
+    "year": 2024,
+    "approved": true,
+    "episodes": 27,
+    "sources": {
+      "tio": {
+        "slug": "yozakurasan-chi-no-daisakusen",
+        "title": "Yozakura-san Chi no Daisakusen"
+      }
+    }
+  },
+  "https://jkanime.net/evangelion/": {
+    "title": "Neon Genesis Evangelion",
+    "year": 1995,
+    "approved": true,
+    "episodes": 26,
+    "sources": {
+      "tio": {
+        "slug": "neon-genesis-evangelion",
+        "title": "Neon Genesis Evangelion"
+      }
+    }
+  },
+  "https://jkanime.net/ouran-high-school-host-club/": {
+    "title": "Ouran High School Host Club",
+    "year": 2006,
+    "approved": true,
+    "episodes": 26,
+    "sources": {
+      "tio": {
+        "slug": "ouran-host-club",
+        "title": "Ouran Host Club"
+      },
+      "flv": {
+        "slug": "ouran-host-club",
+        "title": "Ouran Host Club"
+      }
+    }
+  },
+  "https://jkanime.net/requiem-for-the-phantom/": {
+    "title": "Phantom: Requiem for the Phantom",
+    "year": 2009,
+    "approved": true,
+    "episodes": 26,
+    "sources": {
+      "tio": {
+        "slug": "phantom-requiem-for-the-phantom",
+        "title": "Phantom: Requiem for the Phantom"
+      },
+      "flv": {
+        "slug": "phantom-requiem-for-the-phantom",
+        "title": "Phantom: Requiem for the Phantom"
+      }
+    }
+  },
+  "https://jkanime.net/saint-seiya-lost-canvas/": {
+    "title": "Saint Seiya: The Lost Canvas",
+    "year": 2009,
+    "approved": true,
+    "episodes": 26,
+    "sources": {
+      "tio": {
+        "slug": "saint-seiya-the-lost-canvas",
+        "title": "Saint Seiya: The Lost Canvas"
+      }
+    }
+  },
+  "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/": {
+    "title": "Senjou no Valkyria: Gallian Chronicles",
+    "year": 2009,
+    "approved": true,
+    "episodes": 26,
+    "sources": {
+      "tio": {
+        "slug": "senjou-no-valkyria-valkyria-chronicles",
+        "title": "Senjou no Valkyria: Valkyria Chronicles"
+      },
+      "flv": {
+        "slug": "senjou-no-valkyria-valkyria-chronicles",
+        "title": "Senjou no Valkyria: Valkyria Chronicles"
+      }
+    }
+  },
+  "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/": {
+    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "year": 2008,
+    "approved": true,
+    "episodes": 25,
+    "sources": {
+      "tio": {
+        "slug": "code-geass-r2",
+        "title": "Code Geass: R2"
+      }
+    }
+  },
+  "https://jkanime.net/code-geass-hangyaku-no-lelouch/": {
+    "title": "Code Geass: Hangyaku no Lelouch",
+    "year": 2006,
+    "approved": true,
+    "episodes": 25,
+    "sources": {
+      "tio": {
+        "slug": "code-geass",
+        "title": "Code Geass"
+      }
+    }
+  },
+  "https://jkanime.net/mobile-suit-gundam-00-second-season/": {
+    "title": "Mobile Suit Gundam 00 S2",
+    "year": 2008,
+    "approved": true,
+    "episodes": 25,
+    "sources": {
+      "tio": {
+        "slug": "gundam-00-2nd-season",
+        "title": "Mobile Suit Gundam 00 2nd Season"
+      }
+    }
+  },
+  "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/": {
+    "title": "Phi Brain: Kami no Puzzle 2nd Season",
+    "year": 2012,
+    "approved": true,
+    "episodes": 25,
+    "sources": {
+      "tio": {
+        "slug": "phi-brain-kami-no-puzzle-ii",
+        "title": "Phi Brain: Kami no Puzzle II"
+      }
+    }
+  },
+  "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/": {
+    "title": "Phi Brain: Kami no Puzzle 3rd Season",
+    "year": 2013,
+    "approved": true,
+    "episodes": 25,
+    "sources": {
+      "tio": {
+        "slug": "phi-brain-kami-no-puzzle-iii",
+        "title": "Phi Brain: Kami no Puzzle III"
+      }
+    }
+  },
+  "https://jkanime.net/eureka-seven-ao/": {
+    "title": "Eureka Seven AO",
+    "year": 2012,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "eureka-seven-astral-ocean",
+        "title": "Eureka Seven Astral Ocean"
+      }
+    }
+  },
+  "https://jkanime.net/kanon2006/": {
+    "title": "Kanon (2006)",
+    "year": 2006,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "kanon-2006",
+        "title": "Kanon 2006"
+      },
+      "flv": {
+        "slug": "kanon-2006",
+        "title": "Kanon 2006"
+      }
+    }
+  },
+  "https://jkanime.net/orphen/": {
+    "title": "Majutsushi Orphen",
+    "year": 1998,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "majutsushi-orphen",
+        "title": "Majutsushi Orphen"
+      }
+    }
+  },
+  "https://jkanime.net/shakugan-no-shana-ii/": {
+    "title": "Shakugan no Shana II",
+    "year": 2007,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "shakugan-no-shana-second",
+        "title": "Shakugan no Shana Second"
+      }
+    }
+  },
+  "https://jkanime.net/steins-gate/": {
+    "title": "Steins;Gate",
+    "year": 2011,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "steinsgate",
+        "title": "Steins;Gate"
+      }
+    }
+  },
+  "https://jkanime.net/abarenbou-kishi-matsutarou/": {
+    "title": "Abarenbou Kishi!! Matsutarou",
+    "year": 2014,
+    "approved": true,
+    "episodes": 23,
+    "sources": {
+      "tio": {
+        "slug": "abarenbou-rikishi-matsutarou",
+        "title": "Abarenbou Rikishi!! Matsutarou"
+      }
+    }
+  },
+  "https://jkanime.net/suzumiya-haruhi-no-yuuutsu-2009/": {
+    "title": "Suzumiya Haruhi no Yuuutsu (2009)",
+    "year": 2009,
+    "approved": true,
+    "episodes": 14,
+    "sources": {
+      "tio": {
+        "slug": "suzumiya-haruhi-s2",
+        "title": "The Melancholy of Haruhi Suzumiya (2009)"
+      }
+    }
+  },
+  "https://jkanime.net/aooni-the-blue-monster/": {
+    "title": "Ao Oni The Animation",
+    "year": 2016,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "ao-oni-the-animation",
+        "title": "Ao Oni The Animation"
+      },
+      "flv": {
+        "slug": "ao-oni-the-animation",
+        "title": "Ao Oni The Animation"
+      }
+    }
+  },
+  "https://jkanime.net/choujuushin-gravion/": {
+    "title": "Choujuushin Gravion",
+    "year": 2002,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "gravion",
+        "title": "Gravion"
+      }
+    }
+  },
+  "https://jkanime.net/d_cide-traumerei-the-animation/": {
+    "title": "D_Cide Traumerei the Animation",
+    "year": 2021,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "dcide-traumerei-the-animation",
+        "title": "D_Cide Traumerei the Animation"
+      },
+      "flv": {
+        "slug": "dcide-traumerei-the-animation",
+        "title": "D_Cide Traumerei the Animation"
+      }
+    }
+  },
+  "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/": {
+    "title": "Danganronpa: The Animation",
+    "year": 2013,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "danganronpa-the-animation",
+        "title": "Danganronpa The Animation"
+      },
+      "flv": {
+        "slug": "danganronpa-the-animation",
+        "title": "Danganronpa The Animation"
+      }
+    }
+  },
+  "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/": {
+    "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
+    "year": 2015,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "fate-stay-night-unlimited-blade-works-2",
+        "title": "Fate/stay night: Unlimited Blade Works (TV) 2nd Season"
+      }
+    }
+  },
+  "https://jkanime.net/full-metal-panic-tsr/": {
+    "title": "Full Metal Panic! The Second Raid",
+    "year": 2005,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "full-metal-panic-2",
+        "title": "Full Metal Panic! The Second Raid"
+      }
+    }
+  },
+  "https://jkanime.net/kino-no-tabi-the-beautiful-world/": {
+    "title": "Kino no Tabi: The Beautiful World",
+    "year": 2003,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "los-viajes-de-kino",
+        "title": "Kino no Tabi"
+      }
+    }
+  },
+  "https://jkanime.net/kyoukai-senjou-no-horizon-2/": {
+    "title": "Kyoukai Senjou no Horizon II",
+    "year": 2012,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "kyoukai-senjou-no-horizon-ii",
+        "title": "Kyoukai Senjou no Horizon Segunda Temporada"
+      }
+    }
+  },
+  "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/": {
+    "title": "Maou Gakuin no Futekigousha",
+    "year": 2020,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "maou-gakuin-no-futekigousha",
+        "title": "Maou Gakuin no Futekigousha"
+      },
+      "flv": {
+        "slug": "maou-gakuin-no-futekigousha",
+        "title": "Maou Gakuin no Futekigousha"
+      }
+    }
+  },
+  "https://jkanime.net/saint-seiya-ougon-tamashii/": {
+    "title": "Saint Seiya: Soul of Gold",
+    "year": 2015,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "saint-seiya-soul-of-gold",
+        "title": "Saint Seiya: Soul of Gold"
+      }
+    }
+  },
+  "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
+    "title": "Saint Seiya Saga de Hades Sanctuary",
+    "year": 2002,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "saint-seiya-the-hades-chapter-sanctuary",
+        "title": "Saint Seiya: The Hades Chapter - Sanctuary"
+      }
+    }
+  },
+  "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/": {
+    "title": "Seisen Cerberus: Ryuukoku no Fatalités",
+    "year": 2016,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "seisen-cerberus-ryuukoku-no-fatalite",
+        "title": "Seisen Cerberus: Ryuukoku no Fatalite"
+      }
+    }
+  },
+  "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
+    "title": "Stella Jogakuin Koutou-ka C³-bu",
+    "year": 2013,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "stella-jogakuin-koutouka-c3-bu",
+        "title": "Stella Jogakuin Koutouka C3-bu"
+      }
+    }
+  },
+  "https://jkanime.net/takahashi-rumiko-gekijou/": {
+    "title": "Takahashi Rumiko Gekijou",
+    "year": 2003,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "rumiko-takahashi-anthology",
+        "title": "Rumiko Takahashi Anthology"
+      }
+    }
+  },
+  "https://jkanime.net/uta-noprince-sama-maji-love-1000/": {
+    "title": "Uta no Prince-sama Maji Love 1000",
+    "year": 2011,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "uta-no-prince-sama-maji-love-1000",
+        "title": "Uta no Prince sama: Maji Love 1000%"
+      }
+    }
+  },
+  "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/": {
+    "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+    "year": 2026,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "buchigire-reijou-wa-houfuku-wo-chikaimashita",
+        "title": "Buchigire Reijou wa Houfuku wo Chikaimashita."
+      }
+    }
+  },
+  "https://jkanime.net/choujuushin-gravion-zwei/": {
+    "title": "Choujuushin Gravion Zwei",
+    "year": 2004,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "gravion-zwei",
+        "title": "Gravion Zwei"
+      },
+      "flv": {
+        "slug": "gravion-zwei",
+        "title": "Gravion Zwei"
+      }
+    }
+  },
+  "https://jkanime.net/code-geass-dakkan-no-roz/": {
+    "title": "Code Geass: Dakkan no Rozé",
+    "year": 2024,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "code-geass-dakkan-no-roze",
+        "title": "Code Geass: Dakkan no Rozé"
+      },
+      "flv": {
+        "slug": "code-geass-dakkan-no-roze",
+        "title": "Code Geass: Dakkan no Rozé"
+      }
+    }
+  },
+  "https://jkanime.net/cuticle-tantei-inaba/": {
+    "title": "Cuticle Tantei Inaba",
+    "year": 2013,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "cuticle-detective-inaba",
+        "title": "Cuticle Detective Inaba"
+      }
+    }
+  },
+  "https://jkanime.net/fate-zero-2/": {
+    "title": "Fate/Zero 2nd Season",
+    "year": 2012,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "fate-zero-ii",
+        "title": "Fate/Zero 2"
+      }
+    }
+  },
+  "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/": {
+    "title": "[Locodol]",
+    "year": 2014,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "futsuu-no-joshikousei-ga-yatte-mita",
+        "title": "Futsuu no Joshikousei ga [Locodol] Yatte Mita."
+      }
+    }
+  },
+  "https://jkanime.net/fuuun-ishin-daishogun/": {
+    "title": "Fuuun Ishin Dai☆Shogun",
+    "year": 2014,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "fuuun-ishin-dai-shougun",
+        "title": "Fuuun Ishin Dai Shougun"
+      }
+    }
+  },
+  "https://jkanime.net/gangsta-/": {
+    "title": "Gangsta.",
+    "year": 2015,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "gangsta",
+        "title": "Gangsta."
+      },
+      "flv": {
+        "slug": "gangsta",
+        "title": "Gangsta."
+      }
+    }
+  },
+  "https://jkanime.net/gatchamancrowds-insight/": {
+    "title": "Gatchaman Crowds Insight",
+    "year": 2015,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "gatchaman-crowds-insight",
+        "title": "Gatchaman Crowds Insight"
+      }
+    }
+  },
+  "https://jkanime.net/gate/": {
+    "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+    "year": 2015,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "gate-jieitai-kanochi-nite-kaku-tatakaeri",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri"
+      }
+    }
+  },
+  "https://jkanime.net/h2o/": {
+    "title": "H2O: Footprints in the Sand",
+    "year": 2008,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "h2o-footprints-in-the-sand",
+        "title": "H2O Footprints in the Sand"
+      },
+      "flv": {
+        "slug": "h2o-footprints-in-the-sand",
+        "title": "H2O Footprints in the Sand"
+      }
+    }
+  },
+  "https://jkanime.net/hamatora-the-animation/": {
+    "title": "Hamatora The Animation",
+    "year": 2014,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "hamatora",
+        "title": "Hamatora"
+      }
+    }
+  },
+  "https://jkanime.net/hanamaru-kindergarten/": {
+    "title": "Hanamaru Youchien",
+    "year": 2010,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "hanamaru-youchien",
+        "title": "Hanamaru Youchien"
+      },
+      "flv": {
+        "slug": "hanamaru-youchien",
+        "title": "Hanamaru Youchien"
+      }
+    }
+  },
+  "https://jkanime.net/hanaukyou-maid-tai-la-verite/": {
+    "title": "Hanaukyou Maid-tai: La Verite",
+    "year": 2004,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "hanaukyo-maid-team-la-verite",
+        "title": "Hanaukyo Maid Team La Verite"
+      }
+    }
+  },
+  "https://jkanime.net/kaitou-tenshi-twin-angel-kyun-kyuntokimeki-paradise/": {
+    "title": "Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!!",
+    "year": 2011,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "kaitou-tenshi-twin-angel",
+        "title": "Kaitou Tenshi Twin Angel: Kyun Kyun Tokimeki Paradise!!"
+      }
+    }
+  },
+  "https://jkanime.net/kamisama-no-memochou/": {
+    "title": "Kamisama no Memochou",
+    "year": 2011,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "kamisama-no-memo-chou",
+        "title": "Kamisama no Memo chou"
+      }
+    }
+  },
+  "https://jkanime.net/kanojo-mo-kanojo-2nd-season/": {
+    "title": "Kanojo mo Kanojo 2nd Season",
+    "year": 2023,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "kanojo-mo-kanojo-season-2",
+        "title": "Kanojo mo Kanojo Season 2"
+      }
+    }
+  },
+  "https://jkanime.net/kiss-x-sis-tv/": {
+    "title": "Kiss x Sis (TV)",
+    "year": 2010,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "kiss-x-sis",
+        "title": "KissxSis"
+      }
+    }
+  },
+  "https://jkanime.net/komi-san-wa-comyushou-desu/": {
+    "title": "Komi-san wa, Comyushou desu.",
+    "year": 2021,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "komisan-wa-comyushou-desu",
+        "title": "Komi-san wa, Comyushou desu."
+      }
+    }
+  },
+  "https://jkanime.net/kurenai/": {
+    "title": "Kure-nai",
+    "year": 2008,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "kure-nai",
+        "title": "Kure-nai"
+      },
+      "flv": {
+        "slug": "kure-nai",
+        "title": "Kure-nai"
+      }
+    }
+  },
+  "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/": {
+    "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
+    "year": 2008,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "mahou-tsukai-ni-taisetsu-na-koto-natsu-no-sora",
+        "title": "Mahou Tsukai ni Taisetsu na Koto: Natsu no Sora"
+      },
+      "flv": {
+        "slug": "mahou-tsukai-ni-taisetsu-na-koto-natsu-no-sora",
+        "title": "Mahou Tsukai ni Taisetsu na Koto: Natsu no Sora"
+      }
+    }
+  },
+  "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto/": {
+    "title": "Mahoutsukai ni Taisetsu na Koto",
+    "year": 2003,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "mahou-tsukai-ni-taisetsu-na-koto",
+        "title": "Mahou Tsukai ni Taisetsu na Koto"
+      }
+    }
+  },
+  "https://jkanime.net/mashiroiro-symphony/": {
+    "title": "Mashiro-iro Symphony: The Color of Lovers",
+    "year": 2011,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "mashiro-iro-symphony",
+        "title": "Mashiro-iro Symphony: The Color of Lovers"
+      }
+    }
+  },
+  "https://jkanime.net/mrchen-mdchen/": {
+    "title": "Marchen Madchen",
+    "year": 2018,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "marchen-madchen",
+        "title": "Märchen Mädchen"
+      },
+      "flv": {
+        "slug": "marchen-madchen",
+        "title": "Märchen Mädchen"
+      }
+    }
+  },
+  "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/": {
+    "title": "Ookami-san to Shichinin no Nakamatachi",
+    "year": 2010,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "okami-san",
+        "title": "Okami-san to Shichinin no Nakama-tachi"
+      }
+    }
+  },
+  "https://jkanime.net/otona-no-bouguya-san-ii/": {
+    "title": "Otona no Bouguya-san II",
+    "year": 2021,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "otona-no-bouguyasan-2nd-season",
+        "title": "Otona no Bouguya-san 2nd Season"
+      }
+    }
+  },
+  "https://jkanime.net/saint-seiya-saga-de-hades/": {
+    "title": "Saint Seiya Saga de Hades Infierno",
+    "year": 2005,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "saint-seiya-the-hades-chapter-inferno",
+        "title": "Saint Seiya: The Hades Chapter - Inferno"
+      }
+    }
+  },
+  "https://jkanime.net/sasami-san-ganbaranai/": {
+    "title": "Sasami-san@Ganbaranai",
+    "year": 2013,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "sasami-sanganbaranai",
+        "title": "Sasami-san@Ganbaranai"
+      },
+      "flv": {
+        "slug": "sasami-sanganbaranai",
+        "title": "Sasami-san@Ganbaranai"
+      }
+    }
+  },
+  "https://jkanime.net/school-daysdays/": {
+    "title": "School Days",
+    "year": 2007,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "school-days",
+        "title": "School Days"
+      },
+      "flv": {
+        "slug": "school-days",
+        "title": "School Days"
+      }
+    }
+  },
+  "https://jkanime.net/shigetsutan-tsukihime/": {
+    "title": "Shingetsutan Tsukihime",
+    "year": 2003,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "tsukihime",
+        "title": "Tsukihime, Lunar Legend"
+      }
+    }
+  },
+  "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/": {
+    "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+    "year": 2015,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "shimoneta-to-Iu-gainen-ga-sonzai-shinai-taikutsu-na-sekai",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai"
+      }
+    }
+  },
+  "https://jkanime.net/strange-plus/": {
+    "title": "Strange+",
+    "year": 2014,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "shin-strange-plus",
+        "title": "Shin Strange+"
+      }
+    }
+  },
+  "https://jkanime.net/tsuihousha-shokudou-e-youkoso/": {
+    "title": "Tsuihousha Shokudou e Youkoso!",
+    "year": 2025,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "60523",
+        "title": "Tsuihousha Shokudou e Youkoso!"
+      }
+    }
+  },
+  "https://jkanime.net/venus-versus-virus/": {
+    "title": "Venus Versus Virus",
+    "year": 2007,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "venus-vs-virus",
+        "title": "Venus vs Virus"
+      }
+    }
+  },
+  "https://jkanime.net/yoake-mae-yori-ruriiro-na/": {
+    "title": "Yoake Mae yori Ruriiro na",
+    "year": 2006,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "yoake-mae-yori-ruri-iro-na-crescent-love",
+        "title": "Yoake Mae Yori Ruri Iro Na -Crescent Love-"
+      }
+    }
+  },
+  "https://jkanime.net/z-x-ignition/": {
+    "title": "Z/X: Ignition",
+    "year": 2014,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "zx-ignition",
+        "title": "Z/X Ignition"
+      },
+      "flv": {
+        "slug": "zx-ignition",
+        "title": "Z/X Ignition"
+      }
+    }
+  },
+  "https://jkanime.net/break-blade-tv/": {
+    "title": "Break Blade (TV)",
+    "year": 2014,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "break-blade-2014",
+        "title": "Break Blade (2014)"
+      }
+    }
+  },
+  "https://jkanime.net/gin-no-saji-2nd-season/": {
+    "title": "Gin no Saji 2nd Season",
+    "year": 2014,
+    "approved": true,
+    "episodes": 11,
+    "sources": {
+      "tio": {
+        "slug": "gin-no-saji-2",
+        "title": "Gin no Saji 2"
+      }
+    }
+  },
+  "https://jkanime.net/granblue-fantasy-the-animation/": {
+    "title": "Granblue Fantasy The Animation",
+    "year": 2017,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "granblue-fantasy-the-animation-tv",
+        "title": "Granblue Fantasy The Animation TV"
+      },
+      "flv": {
+        "slug": "granblue-fantasy-the-animation-tv",
+        "title": "Granblue Fantasy The Animation TV"
+      }
+    }
+  },
+  "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
+    "title": "Shijou Saikyou no Deshi Kenichi OVA",
+    "year": 2012,
+    "approved": true,
+    "episodes": 11,
+    "sources": {
+      "tio": {
+        "slug": "shijou-saikyou-no-deshi-kenichi-ovas",
+        "title": "Shijou Saikyou no Deshi Kenichi OVA"
+      }
+    }
+  },
+  "https://jkanime.net/mushishi-zoku-shou-2nd-season/": {
+    "title": "Mushishi Zoku Shou 2nd Season",
+    "year": 2014,
+    "approved": true,
+    "episodes": 10,
+    "sources": {
+      "tio": {
+        "slug": "mushishi-zoku-shou-2",
+        "title": "Mushishi Zoku Shou 2"
+      }
+    }
+  },
+  "https://jkanime.net/nekopara/": {
+    "title": "Nekopara",
+    "year": 2020,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "nekopara-tv",
+        "title": "Nekopara (TV)"
+      }
+    }
+  },
+  "https://jkanime.net/yondemasu-yo-azazel-san/": {
+    "title": "Yondemasu yo, Azazel-san",
+    "year": 2011,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "yondemasuyo-azazel-san",
+        "title": "Yondemasuyo Azazel-san"
+      }
+    }
+  },
+  "https://jkanime.net/black-rock-shooter/": {
+    "title": "Black★Rock Shooter (TV)",
+    "year": 2012,
+    "approved": true,
+    "episodes": 8,
+    "sources": {
+      "tio": {
+        "slug": "black-rock-shooter-tv",
+        "title": "Black Rock Shooter (TV)"
+      }
+    }
+  },
+  "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-depth-of-field-ai-to-nikushimi-gekijyo/": {
+    "title": "Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo",
+    "year": 2012,
+    "approved": true,
+    "episodes": 7,
+    "sources": {
+      "tio": {
+        "slug": "chuunibyou-demo-koi-ga-shitai-depth-of-field",
+        "title": "Chuunibyou demo Koi ga Shitai!: Depth of Field - Ai to Nikus"
+      }
+    }
+  },
+  "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/": {
+    "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+    "year": 2021,
+    "approved": true,
+    "episodes": 7,
+    "sources": {
+      "tio": {
+        "slug": "kimetsu-no-yaiba-mugen-resshahen-arc-tv",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen Arc TV"
+      }
+    }
+  },
+  "https://jkanime.net/bel-blatt/": {
+    "title": "Übel Blatt",
+    "year": 2025,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "ubel-blatt",
+        "title": "Übel Blatt"
+      },
+      "flv": {
+        "slug": "ubel-blatt",
+        "title": "Übel Blatt"
+      }
+    }
+  },
+  "https://jkanime.net/classic-stars/": {
+    "title": "Classic★Stars",
+    "year": 2025,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "classicstars",
+        "title": "Classic★Stars"
+      },
+      "flv": {
+        "slug": "classicstars",
+        "title": "Classic★Stars"
+      }
+    }
+  },
+  "https://jkanime.net/furi-kuri-flcl/": {
+    "title": "FLCL",
+    "year": 2000,
+    "approved": true,
+    "episodes": 6,
+    "sources": {
+      "tio": {
+        "slug": "flcl",
+        "title": "FLCL"
+      },
+      "flv": {
+        "slug": "flcl",
+        "title": "FLCL"
+      }
+    }
+  },
+  "https://jkanime.net/hanbun-no-tsuki/": {
+    "title": "Hanbun no Tsuki ga Noboru Sora",
+    "year": 2006,
+    "approved": true,
+    "episodes": 6,
+    "sources": {
+      "tio": {
+        "slug": "hanbun-tsuki",
+        "title": "Hanbun no Tsuki ga Noboru Sora"
+      }
+    }
+  },
+  "https://jkanime.net/saint-seiya-saga-de-hades-elysion/": {
+    "title": "Saint Seiya Saga de Hades Elysion",
+    "year": 2008,
+    "approved": true,
+    "episodes": 6,
+    "sources": {
+      "tio": {
+        "slug": "saint-seiya-the-hades-chapter-elysion",
+        "title": "Saint Seiya: The Hades Chapter - Elysion"
+      }
+    }
+  },
+  "https://jkanime.net/to-love-ru-ovas/": {
+    "title": "To LOVE-Ru OVA",
+    "year": 2009,
+    "approved": true,
+    "episodes": 6,
+    "sources": {
+      "tio": {
+        "slug": "to-love-ru-ova",
+        "title": "To LOVE-Ru OVA"
+      }
+    }
+  },
+  "https://jkanime.net/code-geass-boukoku-no-akito/": {
+    "title": "Code Geass: Boukoku no Akito",
+    "year": 2012,
+    "approved": true,
+    "episodes": 5,
+    "sources": {
+      "tio": {
+        "slug": "code-geass-gaiden-bokoku-no-akito",
+        "title": "Code Geass Gaiden: Bokoku no Akito"
+      }
+    }
+  },
+  "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/": {
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
+    "year": 2024,
+    "approved": true,
+    "episodes": 15,
+    "sources": {
+      "tio": {
+        "slug": "dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V"
+      },
+      "flv": {
+        "slug": "dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v",
+        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V"
+      }
+    }
+  },
+  "https://jkanime.net/kabushikigaisha-magi-lumire/": {
+    "title": "Kabushikigaisha Magi-Lumière",
+    "year": 2024,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "kabushikigaisha-magilumiere",
+        "title": "Kabushikigaisha Magi-Lumière"
+      }
+    }
+  },
+  "https://jkanime.net/magical-explorer/": {
+    "title": "Magical★Explorer",
+    "year": 2026,
+    "approved": true,
+    "episodes": 5,
+    "sources": {
+      "tio": {
+        "slug": "magicalexplorer",
+        "title": "Magical★Explorer"
+      },
+      "flv": {
+        "slug": "magicalexplorer",
+        "title": "Magical★Explorer"
+      }
+    }
+  },
+  "https://jkanime.net/pokemon-xy-mega-evolution/": {
+    "title": "Pokemon XY: Mega Evolution",
+    "year": 2014,
+    "approved": true,
+    "episodes": 4,
+    "sources": {
+      "tio": {
+        "slug": "pokemon-xy-tokubetsu-hen-saikyou-mega-shinka",
+        "title": "Pokemon XY: Saikyou Mega Shinka"
+      }
+    }
+  },
+  "https://jkanime.net/tales-of-symphonia/": {
+    "title": "Tales of Symphonia",
+    "year": 2007,
+    "approved": true,
+    "episodes": 4,
+    "sources": {
+      "tio": {
+        "slug": "tales-of-symphonia-sylvarant-hen",
+        "title": "Tales of Symphonia: Sylvarant Hen"
+      }
+    }
+  },
+  "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/": {
+    "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Specials",
+    "year": 2016,
+    "approved": true,
+    "episodes": 3,
+    "sources": {
+      "tio": {
+        "slug": "fatekaleid-liner-prismaillya-3rei-special",
+        "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Special"
+      },
+      "flv": {
+        "slug": "fatekaleid-liner-prismaillya-3rei-special",
+        "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Special"
+      }
+    }
+  },
+  "https://jkanime.net/otona-no-bouguya-san-rimen/": {
+    "title": "Otona no Bouguya-san (Rimen)",
+    "year": 2019,
+    "approved": true,
+    "episodes": 3,
+    "sources": {
+      "tio": {
+        "slug": "otona-no-bouguyasan-rimen",
+        "title": "Otona no Bouguya-san (Rimen)"
+      }
+    }
+  },
+  "https://jkanime.net/highschool-dxd-ova/": {
+    "title": "Highschool DxD OVA",
+    "year": 2012,
+    "approved": true,
+    "episodes": 2,
+    "sources": {
+      "tio": {
+        "slug": "high-school-dxd-ova",
+        "title": "High School DxD OVA"
+      }
+    }
+  },
+  "https://jkanime.net/kobayashi-ga-kawai-sugite-tsurai/": {
+    "title": "Kobayashi ga Kawai Sugite Tsurai!!",
+    "year": 2013,
+    "approved": true,
+    "episodes": 2,
+    "sources": {
+      "tio": {
+        "slug": "kobayashi-ga-kawaisugite-tsurai",
+        "title": "Kobayashi ga Kawaisugite Tsurai!!"
+      }
+    }
+  },
+  "https://jkanime.net/koe-de-oshigoto-the-animation/": {
+    "title": "Koe de Oshigoto! The Animation",
+    "year": 2010,
+    "approved": true,
+    "episodes": 2,
+    "sources": {
+      "tio": {
+        "slug": "koe-de-oshigoto",
+        "title": "Koe de Oshigoto!"
+      },
+      "flv": {
+        "slug": "koe-de-oshigoto",
+        "title": "Koe de Oshigoto!"
+      }
+    }
+  },
+  "https://jkanime.net/rurouni-kenshin-seisouhen/": {
+    "title": "Rurouni Kenshin: Seisouhen",
+    "year": 2001,
+    "approved": true,
+    "episodes": 2,
+    "sources": {
+      "tio": {
+        "slug": "rurouni-kenshin-seisou-hen",
+        "title": "Rurouni Kenshin Seisou-hen"
+      }
+    }
+  },
+  "https://jkanime.net/tsubasa-chronicle-shunraiki/": {
+    "title": "Tsubasa Chronicle: Shunraiki",
+    "year": 2009,
+    "approved": true,
+    "episodes": 2,
+    "sources": {
+      "tio": {
+        "slug": "tsubasa-shunraiki",
+        "title": "Tsubasa Shunraiki"
+      },
+      "flv": {
+        "slug": "tsubasa-shunraiki",
+        "title": "Tsubasa Shunraiki"
+      }
+    }
+  },
+  "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/": {
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "year": 2026,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10nen-ga-tattara-densetsu-ni-natteita",
+        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita."
+      }
+    }
+  },
+  "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "year": 2026,
+    "approved": true,
+    "episodes": 5,
+    "sources": {
+      "tio": {
+        "slug": "shin-tennis-no-oujisama-u17-world-cup-kesshou-member-ketteisen",
+        "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen"
+      }
+    }
   }
 }
