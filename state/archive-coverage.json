@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T14:38:18.520364+00:00",
+  "checkedAt": "2026-10-31T14:52:29.814915+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73827,
-  "storedChapters": 72475,
-  "missingChapters": 1352,
+  "storedChapters": 72479,
+  "missingChapters": 1348,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2622,8 +2622,8 @@
         "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/",
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
         "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/5/",
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/6/"
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/6/",
+          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/7/"
         ]
       },
       {
@@ -2900,8 +2900,7 @@
         "series": "https://jkanime.net/bye-bye-earth/",
         "title": "Bye Bye, Earth",
         "samples": [
-          "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/20/"
+          "https://jkanime.net/bye-bye-earth/13/"
         ]
       },
       {
@@ -3004,8 +3003,8 @@
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/19/",
-          "https://jkanime.net/shoushimin-series/20/"
+          "https://jkanime.net/shoushimin-series/20/",
+          "https://jkanime.net/shoushimin-series/21/"
         ]
       },
       {
@@ -16827,7 +16826,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/20/"
+          "https://jkanime.net/time-bokan-24/21/"
         ]
       },
       {
@@ -28525,13 +28524,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/higurashi-no-naku-koro-ni-gaiden-nekogoroshi-hen/",
-        "title": "Higurashi no Naku Koro ni Gaiden Nekogoroshi-hen",
-        "samples": [
-          "https://jkanime.net/higurashi-no-naku-koro-ni-gaiden-nekogoroshi-hen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/baccano/",
         "title": "Baccano!",
         "samples": [
@@ -30064,14 +30056,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
-        "title": "Yu Gi Oh!: Duel Monsters GX",
-        "samples": [
-          "https://jkanime.net/yugioh-duel-monsters-gx/171/",
-          "https://jkanime.net/yugioh-duel-monsters-gx/172/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tactics/",
         "title": "Tactics",
         "samples": [
@@ -31551,14 +31535,6 @@
         "samples": [
           "https://jkanime.net/hellsing/1/",
           "https://jkanime.net/hellsing/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/prince-of-tennis/",
-        "title": "Prince of Tennis",
-        "samples": [
-          "https://jkanime.net/prince-of-tennis/168/",
-          "https://jkanime.net/prince-of-tennis/169/"
         ]
       },
       {
@@ -34028,16 +34004,15 @@
         "series": "https://jkanime.net/bye-bye-earth/",
         "title": "Bye Bye, Earth",
         "samples": [
-          "https://jkanime.net/bye-bye-earth/13/",
-          "https://jkanime.net/bye-bye-earth/20/"
+          "https://jkanime.net/bye-bye-earth/13/"
         ]
       },
       {
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/19/",
-          "https://jkanime.net/shoushimin-series/20/"
+          "https://jkanime.net/shoushimin-series/20/",
+          "https://jkanime.net/shoushimin-series/21/"
         ]
       },
       {
@@ -35464,7 +35439,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/20/"
+          "https://jkanime.net/time-bokan-24/21/"
         ]
       },
       {
@@ -36256,8 +36231,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/21/",
-          "https://jkanime.net/tribe-cool-crew/22/"
+          "https://jkanime.net/tribe-cool-crew/22/",
+          "https://jkanime.net/tribe-cool-crew/23/"
         ]
       },
       {
@@ -55026,13 +55001,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 10,
         "mega": 8,
-        "mp4upload": 11,
-        "vidhide": 9,
-        "streamtape": 4
+        "mp4upload": 10,
+        "vidhide": 8,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -55047,13 +55022,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -55090,13 +55065,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 13,
         "mega": 12,
-        "vidhide": 8,
+        "vidhide": 7,
         "mp4upload": 5,
-        "streamtape": 8,
+        "streamtape": 7,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55134,13 +55109,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 19,
         "mega": 13,
-        "vidhide": 9,
-        "mp4upload": 20,
-        "streamtape": 9,
+        "vidhide": 8,
+        "mp4upload": 19,
+        "streamtape": 8,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -55156,14 +55131,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 8,
-        "mixdrop": 8,
-        "mp4upload": 9,
-        "streamtape": 8
+        "vidhide": 7,
+        "mixdrop": 7,
+        "mp4upload": 8,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -55178,13 +55153,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 8,
-        "mp4upload": 7,
-        "streamtape": 7,
+        "vidhide": 7,
+        "mp4upload": 6,
+        "streamtape": 6,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55222,13 +55197,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 21,
         "mega": 12,
-        "vidhide": 9,
-        "mp4upload": 19,
-        "streamtape": 8,
+        "vidhide": 8,
+        "mp4upload": 18,
+        "streamtape": 7,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55244,13 +55219,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8,
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -55862,19 +55837,18 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/bye-bye-earth/13/",
-        "https://jkanime.net/bye-bye-earth/20/"
+        "https://jkanime.net/bye-bye-earth/13/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 15,
+        "streamwish": 16,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 13,
+        "mp4upload": 14,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -56160,9 +56134,8 @@
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/shoushimin-series/19/",
         "https://jkanime.net/shoushimin-series/20/",
         "https://jkanime.net/shoushimin-series/21/",
         "https://jkanime.net/shoushimin-series/22/"
@@ -56171,10 +56144,10 @@
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
-        "streamwish": 16,
+        "streamwish": 17,
         "mega": 10,
         "vidhide": 6,
-        "mp4upload": 14,
+        "mp4upload": 15,
         "streamtape": 6
       },
       "playbackVerified": false
@@ -89527,7 +89500,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {},
       "playbackVerified": false
     },
@@ -96394,10 +96367,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 11,
+      "stored": 12,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/20/",
         "https://jkanime.net/time-bokan-24/21/",
         "https://jkanime.net/time-bokan-24/22/",
         "https://jkanime.net/time-bokan-24/23/",
@@ -96414,9 +96386,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 9,
-        "streamwish": 11,
-        "vidhide": 9
+        "mp4upload": 10,
+        "streamwish": 12,
+        "vidhide": 10
       },
       "playbackVerified": false
     },
@@ -97298,7 +97270,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -98223,7 +98195,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -107852,9 +107824,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/21/",
         "https://jkanime.net/tribe-cool-crew/22/",
         "https://jkanime.net/tribe-cool-crew/23/",
         "https://jkanime.net/tribe-cool-crew/24/",
@@ -107896,7 +107867,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 13,
+        "streamwish": 14,
         "mega": 3
       },
       "playbackVerified": false
@@ -124372,7 +124343,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 79,
+      "renewalFailed": 78,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -130469,8 +130440,7 @@
       "title": "Higurashi no Naku Koro ni Gaiden Nekogoroshi-hen",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -130479,7 +130449,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -134661,7 +134631,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 25,
       "families": {
         "mp4upload": 50,
         "streamwish": 50,
@@ -134781,15 +134751,13 @@
     {
       "series": "https://jkanime.net/yugioh-duel-monsters-gx/",
       "title": "Yu Gi Oh!: Duel Monsters GX",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 180,
       "stored": 180,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 0,
       "families": {
         "mega": 179,
         "streamwish": 180,
@@ -138907,15 +138875,13 @@
     {
       "series": "https://jkanime.net/prince-of-tennis/",
       "title": "Prince of Tennis",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 178,
       "stored": 178,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 0,
       "families": {
         "mega": 176,
         "streamwish": 178,
@@ -143295,7 +143261,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 3
       },
