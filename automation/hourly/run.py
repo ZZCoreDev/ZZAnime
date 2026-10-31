@@ -11,6 +11,9 @@ COLLECTION_BATCHES=2
 RETRY_SECONDS=15*60
 # VOE-only news (≤7 days) are retried hourly, 4 per run: a source fix (e.g. AnimeFLV Mega) must reach new
 # chapters within the hour, not after a 6 h backoff.
+# Installed APKs reject the whole channel above these (ProviderBackupStore): keep a margin, never exceed.
+APP_SERIES_LIMIT=5053
+APP_INDEX_BYTES=2*1024*1024-262144
 VOE_RECHECK_SECONDS=3600
 VOE_RECHECK_LIMIT=4
 def sha(b):return hashlib.sha256(b).hexdigest()
@@ -56,6 +59,10 @@ def build(state,approved,now,allow_voe=False):
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
   downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url',''))][:8]
   if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'downloads':downloads} if downloads else {}),**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
+ recency={parent:max(e['observedAt'] for e in eps) for parent,eps in rows.items()}
+ if len(rows)>APP_SERIES_LIMIT:
+  # Chapters never expire, so the series count only grows: drop the least recently observed, never the channel.
+  rows={parent:rows[parent] for parent in sorted(rows,key=lambda p:recency[p],reverse=True)[:APP_SERIES_LIMIT]}
  available={ep['url'] for eps in rows.values() for ep in eps};news=[]
  for url,observed in sorted(state.get('newsSeen',{}).items(),key=lambda item:item[1],reverse=True):
   try:age=(now-datetime.datetime.fromisoformat(observed.replace('Z','+00:00'))).total_seconds()
@@ -70,6 +77,10 @@ def build(state,approved,now,allow_voe=False):
   if max(len(body),len(packed))>2097152:raise ValueError('App shard limit')
   files[name]=packed;index['series'][sha(parent.encode())]={'path':name,'sha256':h,'bytes':len(packed),'expandedBytes':len(body),'episodes':len(eps)}
  if not rows:raise ValueError('No approved observations; previous channel retained')
+ import schedule,help_chain
+ index['schedule']=schedule.build(state,available,now,help_chain.titles())
+ while len(raw(index))>APP_INDEX_BYTES and len(index['series'])>1:
+  oldest=min(rows,key=lambda p:recency[p]);entry=index['series'].pop(sha(oldest.encode()));files.pop(entry['path'],None);rows.pop(oldest)
  return index,files
 def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'

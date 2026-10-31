@@ -61,6 +61,7 @@ jobs:
           node test_title_entities.cjs
           python3 test_help_chain.py
           python3 test_remote_config.py
+          python3 test_schedule.py
           node --no-warnings ../help-worker/test_help_worker.mjs
       - name: Renovar y publicar por el canal firmado existente
         working-directory: code/automation/hourly
