@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-31T14:24:30.669295+00:00",
-  "episodes": 72467,
-  "oldestHours": 122.1,
-  "pending": 57182,
+  "checkedAt": "2026-10-31T14:38:18.520364+00:00",
+  "episodes": 72475,
+  "oldestHours": 122.33,
+  "pending": 57256,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 108,
-  "sampleMinutes": 1433.0,
-  "measuredWallClockPerHour": 583.38,
-  "estimatedSweepDays": 5.18,
+  "sampleMinutes": 1435.29,
+  "measuredWallClockPerHour": 581.4,
+  "estimatedSweepDays": 5.19,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -31,14 +31,14 @@
       "title": "Yu Gi Oh!: Duel Monsters GX",
       "total": 180,
       "fresh": 0,
-      "pendingFailures": 29,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/prince-of-tennis/": {
       "title": "Prince of Tennis",
       "total": 178,
       "fresh": 2,
-      "pendingFailures": 30,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/keroro-gunsou-2026/": {
@@ -50,16 +50,16 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4311,
-    "diagnosedSeries": 4267,
+    "series": 4309,
+    "diagnosedSeries": 4265,
     "pendingSeries": 44
   },
   "coverage": {
-    "checkedAt": "2026-10-31T14:24:30.669295+00:00",
+    "checkedAt": "2026-10-31T14:38:18.520364+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73827,
-    "storedChapters": 72467,
-    "missingChapters": 1360,
+    "storedChapters": 72475,
+    "missingChapters": 1352,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
