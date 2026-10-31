@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T01:01:49.292872+00:00",
+  "checkedAt": "2026-10-31T01:12:32.790273+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72180,
-  "missingChapters": 1573,
+  "storedChapters": 72195,
+  "missingChapters": 1558,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -433,13 +433,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/",
-        "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
-        "samples": [
-          "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kidou-senshi-gundam-seed-freedom/",
         "title": "Kidou Senshi Gundam SEED Freedom",
         "samples": [
@@ -540,13 +533,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
-        "title": "Black Clover: Mahou Tei no Ken",
-        "samples": [
-          "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-kan-dakara-shishunki-wa-owarazu-ni-seishun-wa-tsuzuiteiku/",
         "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan: Dakara, Shishunki wa Owarazu ni, Seishun wa Tsuzuiteiku.",
         "samples": [
@@ -593,16 +579,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/21/",
-          "https://jkanime.net/sugar-apple-fairy-tale/22/"
+          "https://jkanime.net/sugar-apple-fairy-tale/22/",
+          "https://jkanime.net/sugar-apple-fairy-tale/23/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/21/",
-          "https://jkanime.net/spy-kyoushitsu/22/"
+          "https://jkanime.net/spy-kyoushitsu/22/",
+          "https://jkanime.net/spy-kyoushitsu/23/"
         ]
       },
       {
@@ -1474,13 +1460,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hakubo/",
-        "title": "Hakubo",
-        "samples": [
-          "https://jkanime.net/hakubo/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kyochuu-rettou/",
         "title": "Kyochuu Rettou",
         "samples": [
@@ -1640,8 +1619,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/7/",
-          "https://jkanime.net/sora-to-umi-no-aida/8/"
+          "https://jkanime.net/sora-to-umi-no-aida/8/",
+          "https://jkanime.net/sora-to-umi-no-aida/9/"
         ]
       },
       {
@@ -2096,8 +2075,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/6/",
-          "https://jkanime.net/stella-no-mahou/7/"
+          "https://jkanime.net/stella-no-mahou/7/",
+          "https://jkanime.net/stella-no-mahou/8/"
         ]
       },
       {
@@ -2608,13 +2587,6 @@
         "title": "Kekkai Sensen 10.5",
         "samples": [
           "https://jkanime.net/kekkai-sensen-soresaemo-saitei-de-saikou-na-hibi/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/haiyore-nyaruko-san-f/",
-        "title": "Haiyore! Nyaruko-san F",
-        "samples": [
-          "https://jkanime.net/haiyore-nyaruko-san-f/1/"
         ]
       },
       {
@@ -3264,13 +3236,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/harmonie/",
-        "title": "Harmonie",
-        "samples": [
-          "https://jkanime.net/harmonie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kuro-no-sumika-chronus/",
         "title": "Kuro no Sumika -Chronus-",
         "samples": [
@@ -3897,13 +3862,6 @@
         "title": "Acchi Kocchi: Place=Princess",
         "samples": [
           "https://jkanime.net/acchi-kocchi-placeprincess/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/",
-        "title": "Haiyore! Nyaruko-san: Yasashii Teki no Shitome-kata",
-        "samples": [
-          "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/1/"
         ]
       },
       {
@@ -5433,8 +5391,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/30/",
-          "https://jkanime.net/taiho-shichau-zo/31/"
+          "https://jkanime.net/taiho-shichau-zo/31/",
+          "https://jkanime.net/taiho-shichau-zo/32/"
         ]
       },
       {
@@ -9581,13 +9539,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/",
-        "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
-        "samples": [
-          "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ninja-kamui/",
         "title": "Ninja Kamui",
         "samples": [
@@ -11251,13 +11202,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
-        "title": "Black Clover: Mahou Tei no Ken",
-        "samples": [
-          "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/jian-gu/",
         "title": "Jian Gu",
         "samples": [
@@ -12141,8 +12085,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/21/",
-          "https://jkanime.net/sugar-apple-fairy-tale/22/"
+          "https://jkanime.net/sugar-apple-fairy-tale/22/",
+          "https://jkanime.net/sugar-apple-fairy-tale/23/"
         ]
       },
       {
@@ -12181,8 +12125,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/21/",
-          "https://jkanime.net/spy-kyoushitsu/22/"
+          "https://jkanime.net/spy-kyoushitsu/22/",
+          "https://jkanime.net/spy-kyoushitsu/23/"
         ]
       },
       {
@@ -18183,13 +18127,6 @@
         "title": "Cencoroll Connect",
         "samples": [
           "https://jkanime.net/cencoroll-connect/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/hakubo/",
-        "title": "Hakubo",
-        "samples": [
-          "https://jkanime.net/hakubo/1/"
         ]
       },
       {
@@ -25077,13 +25014,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/haiyore-nyaruko-san-f/",
-        "title": "Haiyore! Nyaruko-san F",
-        "samples": [
-          "https://jkanime.net/haiyore-nyaruko-san-f/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ookami-shoujo-to-kuro-ouji-ova/",
         "title": "Ookami Shoujo to Kuro Ouji OVA",
         "samples": [
@@ -27744,13 +27674,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/harmonie/",
-        "title": "Harmonie",
-        "samples": [
-          "https://jkanime.net/harmonie/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kuro-no-sumika-chronus/",
         "title": "Kuro no Sumika -Chronus-",
         "samples": [
@@ -30051,13 +29974,6 @@
         "samples": [
           "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/1/",
           "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/",
-        "title": "Haiyore! Nyaruko-san: Yasashii Teki no Shitome-kata",
-        "samples": [
-          "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/1/"
         ]
       },
       {
@@ -38646,8 +38562,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/30/",
-          "https://jkanime.net/taiho-shichau-zo/31/"
+          "https://jkanime.net/taiho-shichau-zo/31/",
+          "https://jkanime.net/taiho-shichau-zo/32/"
         ]
       },
       {
@@ -40053,13 +39969,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/",
-        "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
-        "samples": [
-          "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kidou-senshi-gundam-seed-freedom/",
         "title": "Kidou Senshi Gundam SEED Freedom",
         "samples": [
@@ -40141,13 +40050,6 @@
         "title": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai",
         "samples": [
           "https://jkanime.net/seishun-buta-yarou-wa-odekake-sister-no-yume-wo-minai/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
-        "title": "Black Clover: Mahou Tei no Ken",
-        "samples": [
-          "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
         ]
       },
       {
@@ -40841,13 +40743,6 @@
         "title": "Cencoroll Connect",
         "samples": [
           "https://jkanime.net/cencoroll-connect/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/hakubo/",
-        "title": "Hakubo",
-        "samples": [
-          "https://jkanime.net/hakubo/1/"
         ]
       },
       {
@@ -41677,13 +41572,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/haiyore-nyaruko-san-f/",
-        "title": "Haiyore! Nyaruko-san F",
-        "samples": [
-          "https://jkanime.net/haiyore-nyaruko-san-f/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ookami-shoujo-to-kuro-ouji-ova/",
         "title": "Ookami Shoujo to Kuro Ouji OVA",
         "samples": [
@@ -42206,13 +42094,6 @@
         "title": "Fate/kaleid liner Prisma☆Illya (2014)",
         "samples": [
           "https://jkanime.net/fate-kaleid-liner-prisma-illya-2014/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/harmonie/",
-        "title": "Harmonie",
-        "samples": [
-          "https://jkanime.net/harmonie/1/"
         ]
       },
       {
@@ -42780,13 +42661,6 @@
         "title": "Acchi Kocchi: Place=Princess",
         "samples": [
           "https://jkanime.net/acchi-kocchi-placeprincess/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/",
-        "title": "Haiyore! Nyaruko-san: Yasashii Teki no Shitome-kata",
-        "samples": [
-          "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/1/"
         ]
       },
       {
@@ -44611,7 +44485,7 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
@@ -44622,14 +44496,13 @@
         "https://jkanime.net/ao-ashi/23/",
         "https://jkanime.net/ao-ashi/24/",
         "https://jkanime.net/ao-ashi/3/",
-        "https://jkanime.net/ao-ashi/4/",
         "https://jkanime.net/ao-ashi/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 12,
+        "mega": 13,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -60146,20 +60019,16 @@
     {
       "series": "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/",
       "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -65016,20 +64885,16 @@
     {
       "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
       "title": "Black Clover: Mahou Tei no Ken",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -67568,9 +67433,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/21/",
         "https://jkanime.net/sugar-apple-fairy-tale/22/",
         "https://jkanime.net/sugar-apple-fairy-tale/23/",
         "https://jkanime.net/sugar-apple-fairy-tale/24/"
@@ -67579,7 +67443,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 18,
+        "mega": 19,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -67679,9 +67543,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/21/",
         "https://jkanime.net/spy-kyoushitsu/22/",
         "https://jkanime.net/spy-kyoushitsu/23/",
         "https://jkanime.net/spy-kyoushitsu/24/"
@@ -67690,7 +67553,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 17,
+        "mega": 18,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 13,
@@ -74052,20 +73915,19 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 19,
+      "stored": 20,
       "missing": [
         "https://jkanime.net/kyoukai-senki/14/",
         "https://jkanime.net/kyoukai-senki/15/",
         "https://jkanime.net/kyoukai-senki/17/",
         "https://jkanime.net/kyoukai-senki/18/",
-        "https://jkanime.net/kyoukai-senki/19/",
-        "https://jkanime.net/kyoukai-senki/20/"
+        "https://jkanime.net/kyoukai-senki/19/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
-        "mega": 17,
+        "mega": 18,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 13,
@@ -85055,20 +84917,16 @@
     {
       "series": "https://jkanime.net/hakubo/",
       "title": "Hakubo",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/hakubo/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -88223,9 +88081,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/7/",
         "https://jkanime.net/sora-to-umi-no-aida/8/",
         "https://jkanime.net/sora-to-umi-no-aida/9/"
       ],
@@ -88233,7 +88090,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 9
+        "mega": 10
       },
       "playbackVerified": false
     },
@@ -95042,20 +94899,19 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/1/",
         "https://jkanime.net/cinderella-girls-gekijou/10/",
         "https://jkanime.net/cinderella-girls-gekijou/11/",
         "https://jkanime.net/cinderella-girls-gekijou/4/",
-        "https://jkanime.net/cinderella-girls-gekijou/5/",
-        "https://jkanime.net/cinderella-girls-gekijou/9/"
+        "https://jkanime.net/cinderella-girls-gekijou/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -97882,9 +97738,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 8,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/6/",
         "https://jkanime.net/stella-no-mahou/7/",
         "https://jkanime.net/stella-no-mahou/8/",
         "https://jkanime.net/stella-no-mahou/9/"
@@ -97893,7 +97748,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 8
+        "mega": 9
       },
       "playbackVerified": false
     },
@@ -105304,20 +105159,16 @@
     {
       "series": "https://jkanime.net/haiyore-nyaruko-san-f/",
       "title": "Haiyore! Nyaruko-san F",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/haiyore-nyaruko-san-f/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -112836,20 +112687,16 @@
     {
       "series": "https://jkanime.net/harmonie/",
       "title": "Harmonie",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/harmonie/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -119380,20 +119227,16 @@
     {
       "series": "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/",
       "title": "Haiyore! Nyaruko-san: Yasashii Teki no Shitome-kata",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/haiyore-nyaruko-san-yasashii-teki-no-shitome-kata/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -129061,7 +128904,7 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 15,
+      "stored": 16,
       "missing": [
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
@@ -129071,14 +128914,13 @@
         "https://jkanime.net/07-ghost/23/",
         "https://jkanime.net/07-ghost/25/",
         "https://jkanime.net/07-ghost/3/",
-        "https://jkanime.net/07-ghost/4/",
         "https://jkanime.net/07-ghost/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
-        "mega": 15
+        "mega": 16
       },
       "playbackVerified": false
     },
@@ -143776,9 +143618,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 24,
+      "stored": 25,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/30/",
         "https://jkanime.net/taiho-shichau-zo/31/",
         "https://jkanime.net/taiho-shichau-zo/32/",
         "https://jkanime.net/taiho-shichau-zo/33/",
@@ -143814,7 +143655,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 23,
+        "mp4upload": 24,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -147640,7 +147481,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 518,
+      "renewalFailed": 818,
       "families": {
         "mega": 1216,
         "streamwish": 1216,
