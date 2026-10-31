@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T19:54:27.546154+00:00",
+  "checkedAt": "2026-10-31T20:11:16.114089+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73835,
-  "storedChapters": 72540,
-  "missingChapters": 1295,
+  "observedChapters": 73836,
+  "storedChapters": 72544,
+  "missingChapters": 1292,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -3481,8 +3481,8 @@
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
         "title": "Yozakura-san Chi no Daisakusen",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/20/",
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/21/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/21/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/22/"
         ]
       },
       {
@@ -21242,8 +21242,8 @@
         "series": "https://jkanime.net/dragon-ball-kai-2014/",
         "title": "Dragon Ball Kai (2014)",
         "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/18/",
-          "https://jkanime.net/dragon-ball-kai-2014/19/"
+          "https://jkanime.net/dragon-ball-kai-2014/19/",
+          "https://jkanime.net/dragon-ball-kai-2014/20/"
         ]
       },
       {
@@ -21322,8 +21322,8 @@
         "series": "https://jkanime.net/abarenbou-kishi-matsutarou/",
         "title": "Abarenbou Kishi!! Matsutarou",
         "samples": [
-          "https://jkanime.net/abarenbou-kishi-matsutarou/17/",
-          "https://jkanime.net/abarenbou-kishi-matsutarou/18/"
+          "https://jkanime.net/abarenbou-kishi-matsutarou/18/",
+          "https://jkanime.net/abarenbou-kishi-matsutarou/19/"
         ]
       },
       {
@@ -21378,8 +21378,8 @@
         "series": "https://jkanime.net/blade-and-soul/",
         "title": "Blade and Soul",
         "samples": [
-          "https://jkanime.net/blade-and-soul/11/",
-          "https://jkanime.net/blade-and-soul/12/"
+          "https://jkanime.net/blade-and-soul/12/",
+          "https://jkanime.net/blade-and-soul/13/"
         ]
       },
       {
@@ -22195,8 +22195,8 @@
         "series": "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/",
         "title": "Phi Brain: Kami no Puzzle 3rd Season",
         "samples": [
-          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/14/",
-          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/15/"
+          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/15/",
+          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/16/"
         ]
       },
       {
@@ -22748,13 +22748,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
-        "title": "Danganronpa: The Animation",
-        "samples": [
-          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/love-lab/",
         "title": "Love Lab",
         "samples": [
@@ -22775,13 +22768,6 @@
         "samples": [
           "https://jkanime.net/servant-x-service/1/",
           "https://jkanime.net/servant-x-service/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/",
-        "title": "Stella Jogakuin Koutou-ka C³-bu",
-        "samples": [
-          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/13/"
         ]
       },
       {
@@ -23828,8 +23814,8 @@
         "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
         "title": "Yu-Gi-Oh! Zexal Second",
         "samples": [
-          "https://jkanime.net/yu-gi-oh-zexal-second/11/",
-          "https://jkanime.net/yu-gi-oh-zexal-second/12/"
+          "https://jkanime.net/yu-gi-oh-zexal-second/12/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/13/"
         ]
       },
       {
@@ -24160,8 +24146,8 @@
         "series": "https://jkanime.net/kyoukai-senjou-no-horizon-2/",
         "title": "Kyoukai Senjou no Horizon II",
         "samples": [
-          "https://jkanime.net/kyoukai-senjou-no-horizon-2/11/",
-          "https://jkanime.net/kyoukai-senjou-no-horizon-2/12/"
+          "https://jkanime.net/kyoukai-senjou-no-horizon-2/12/",
+          "https://jkanime.net/kyoukai-senjou-no-horizon-2/13/"
         ]
       },
       {
@@ -24378,8 +24364,8 @@
         "series": "https://jkanime.net/eureka-seven-ao/",
         "title": "Eureka Seven AO",
         "samples": [
-          "https://jkanime.net/eureka-seven-ao/10/",
-          "https://jkanime.net/eureka-seven-ao/11/"
+          "https://jkanime.net/eureka-seven-ao/11/",
+          "https://jkanime.net/eureka-seven-ao/12/"
         ]
       },
       {
@@ -24649,13 +24635,6 @@
         "samples": [
           "https://jkanime.net/smile-precure/1/",
           "https://jkanime.net/smile-precure/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/black-rock-shooter/",
-        "title": "Black★Rock Shooter (TV)",
-        "samples": [
-          "https://jkanime.net/black-rock-shooter/8/"
         ]
       },
       {
@@ -27042,8 +27021,8 @@
         "series": "https://jkanime.net/to-love-ru-ovas/",
         "title": "To LOVE-Ru OVA",
         "samples": [
-          "https://jkanime.net/to-love-ru-ovas/2/",
-          "https://jkanime.net/to-love-ru-ovas/3/"
+          "https://jkanime.net/to-love-ru-ovas/3/",
+          "https://jkanime.net/to-love-ru-ovas/4/"
         ]
       },
       {
@@ -32899,7 +32878,8 @@
         "series": "https://jkanime.net/magical-explorer/",
         "title": "Magical★Explorer",
         "samples": [
-          "https://jkanime.net/magical-explorer/6/"
+          "https://jkanime.net/magical-explorer/1/",
+          "https://jkanime.net/magical-explorer/2/"
         ]
       },
       {
@@ -35750,8 +35730,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/40/",
-          "https://jkanime.net/tribe-cool-crew/41/"
+          "https://jkanime.net/tribe-cool-crew/41/",
+          "https://jkanime.net/tribe-cool-crew/42/"
         ]
       },
       {
@@ -38276,24 +38256,10 @@
         ]
       },
       {
-        "series": "https://jkanime.net/magical-explorer/",
-        "title": "Magical★Explorer",
-        "samples": [
-          "https://jkanime.net/magical-explorer/6/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kashita-maryoku-wa-revo-barai-de-kyousei-choushuu/",
         "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
         "samples": [
           "https://jkanime.net/kashita-maryoku-wa-revo-barai-de-kyousei-choushuu/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zombie-sagashitemasu/",
-        "title": "#Zombie Sagashitemasu",
-        "samples": [
-          "https://jkanime.net/zombie-sagashitemasu/5/"
         ]
       },
       {
@@ -57290,7 +57256,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -107234,9 +107200,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 34,
+      "stored": 35,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/40/",
         "https://jkanime.net/tribe-cool-crew/41/",
         "https://jkanime.net/tribe-cool-crew/42/",
         "https://jkanime.net/tribe-cool-crew/43/",
@@ -107257,7 +107222,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 34,
+        "streamwish": 35,
         "mega": 8
       },
       "playbackVerified": false
@@ -109705,7 +109670,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 44,
+      "renewalFailed": 43,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -109915,7 +109880,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -110062,13 +110027,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 13,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "streamwish": 2,
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -112600,7 +112565,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -114172,21 +114137,15 @@
     {
       "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
       "title": "Danganronpa: The Animation",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 13,
-        "streamwish": 1,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -114254,15 +114213,13 @@
     {
       "series": "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/",
       "title": "Stella Jogakuin Koutou-ka C³-bu",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -117517,7 +117474,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 63,
+      "renewalFailed": 62,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -118569,7 +118526,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119221,7 +119178,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -119390,7 +119347,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -119432,7 +119389,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119867,7 +119824,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -119979,15 +119936,13 @@
     {
       "series": "https://jkanime.net/black-rock-shooter/",
       "title": "Black★Rock Shooter (TV)",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 8,
       "stored": 8,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -120902,7 +120857,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121716,7 +121671,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -121825,7 +121780,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122326,7 +122281,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -122637,7 +122592,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -124180,7 +124135,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -124892,7 +124847,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -125170,7 +125125,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -126411,7 +126366,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 26,
@@ -126496,7 +126451,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 14,
         "streamwish": 14,
@@ -126811,7 +126766,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 24,
       "families": {
         "mega": 24,
         "streamwish": 26,
@@ -126895,7 +126850,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 6,
         "streamwish": 6,
@@ -127002,13 +126957,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 24,
       "families": {
         "mega": 26,
-        "streamwish": 25,
-        "vidhide": 25,
-        "mp4upload": 25,
-        "streamtape": 25
+        "streamwish": 24,
+        "vidhide": 24,
+        "mp4upload": 24,
+        "streamtape": 24
       },
       "playbackVerified": false
     },
@@ -143095,7 +143050,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 23,
       "families": {},
       "playbackVerified": false
     },
@@ -143879,15 +143834,16 @@
       "series": "https://jkanime.net/ranma-2024-3rd-season/",
       "title": "Ranma ½ (2024) 3rd Season",
       "causes": [],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 1
+        "mp4upload": 5,
+        "streamwish": 2,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
@@ -143932,23 +143888,20 @@
       "series": "https://jkanime.net/magical-explorer/",
       "title": "Magical★Explorer",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 6,
-      "stored": 5,
-      "missing": [
-        "https://jkanime.net/magical-explorer/6/"
-      ],
+      "stored": 6,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
         "mega": 4,
-        "streamwish": 5,
-        "vidhide": 4,
+        "streamwish": 6,
+        "vidhide": 5,
         "mixdrop": 4,
-        "mp4upload": 5,
+        "mp4upload": 6,
         "streamtape": 4
       },
       "playbackVerified": false
@@ -144402,21 +144355,17 @@
     {
       "series": "https://jkanime.net/zombie-sagashitemasu/",
       "title": "#Zombie Sagashitemasu",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 5,
-      "stored": 4,
-      "missing": [
-        "https://jkanime.net/zombie-sagashitemasu/5/"
-      ],
+      "stored": 5,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 2,
-        "vidhide": 1
+        "mp4upload": 5,
+        "streamwish": 3,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
