@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T15:20:31.254052+00:00",
+  "checkedAt": "2026-10-31T15:34:12.806980+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73827,
-  "storedChapters": 72487,
-  "missingChapters": 1340,
+  "observedChapters": 73829,
+  "storedChapters": 72491,
+  "missingChapters": 1338,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -2989,7 +2989,8 @@
         "series": "https://jkanime.net/shoushimin-series/",
         "title": "Shoushimin Series",
         "samples": [
-          "https://jkanime.net/shoushimin-series/22/"
+          "https://jkanime.net/shoushimin-series/10/",
+          "https://jkanime.net/shoushimin-series/6/"
         ]
       },
       {
@@ -3561,7 +3562,7 @@
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
           "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/24/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/27/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/28/"
         ]
       },
       {
@@ -8482,8 +8483,8 @@
         "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
         "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
         "samples": [
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/",
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/3/"
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/3/",
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/4/"
         ]
       },
       {
@@ -12846,7 +12847,6 @@
         "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
         "title": "Otona no Bouguya-san (Rimen)",
         "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-rimen/2/",
           "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
         ]
       },
@@ -16804,7 +16804,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/23/"
+          "https://jkanime.net/time-bokan-24/24/"
         ]
       },
       {
@@ -16827,7 +16827,6 @@
         "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
         "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Specials",
         "samples": [
-          "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/",
           "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/3/"
         ]
       },
@@ -16843,14 +16842,6 @@
         "title": "Sakamoto desu ga? Special",
         "samples": [
           "https://jkanime.net/sakamoto-desu-ga-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/",
-        "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
-        "samples": [
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/1/",
-          "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/6/"
         ]
       },
       {
@@ -20223,7 +20214,7 @@
         "title": "Mushishi Zoku Shou 2nd Season",
         "samples": [
           "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/",
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/2/"
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/3/"
         ]
       },
       {
@@ -21685,8 +21676,8 @@
         "series": "https://jkanime.net/pokemon-xy-mega-evolution/",
         "title": "Pokemon XY: Mega Evolution",
         "samples": [
-          "https://jkanime.net/pokemon-xy-mega-evolution/2/",
-          "https://jkanime.net/pokemon-xy-mega-evolution/3/"
+          "https://jkanime.net/pokemon-xy-mega-evolution/3/",
+          "https://jkanime.net/pokemon-xy-mega-evolution/4/"
         ]
       },
       {
@@ -22843,7 +22834,6 @@
         "series": "https://jkanime.net/kobayashi-ga-kawai-sugite-tsurai/",
         "title": "Kobayashi ga Kawai Sugite Tsurai!!",
         "samples": [
-          "https://jkanime.net/kobayashi-ga-kawai-sugite-tsurai/1/",
           "https://jkanime.net/kobayashi-ga-kawai-sugite-tsurai/2/"
         ]
       },
@@ -23105,8 +23095,8 @@
         "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
         "title": "Danganronpa: The Animation",
         "samples": [
-          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/1/",
-          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/10/"
+          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/10/",
+          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/11/"
         ]
       },
       {
@@ -23136,8 +23126,8 @@
         "series": "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/",
         "title": "Stella Jogakuin Koutou-ka C³-bu",
         "samples": [
-          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/1/",
-          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/10/"
+          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/10/",
+          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/11/"
         ]
       },
       {
@@ -23731,8 +23721,8 @@
         "series": "https://jkanime.net/sasami-san-ganbaranai/",
         "title": "Sasami-san@Ganbaranai",
         "samples": [
-          "https://jkanime.net/sasami-san-ganbaranai/1/",
-          "https://jkanime.net/sasami-san-ganbaranai/10/"
+          "https://jkanime.net/sasami-san-ganbaranai/10/",
+          "https://jkanime.net/sasami-san-ganbaranai/11/"
         ]
       },
       {
@@ -33986,13 +33976,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/shoushimin-series/",
-        "title": "Shoushimin Series",
-        "samples": [
-          "https://jkanime.net/shoushimin-series/22/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/oomuro-ke-dear-friends/",
         "title": "Oomuro-ke: Dear Friends",
         "samples": [
@@ -34018,7 +34001,7 @@
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
         "samples": [
           "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/24/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/27/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/28/"
         ]
       },
       {
@@ -35416,7 +35399,7 @@
         "title": "Time Bokan 24",
         "samples": [
           "https://jkanime.net/time-bokan-24/1/",
-          "https://jkanime.net/time-bokan-24/23/"
+          "https://jkanime.net/time-bokan-24/24/"
         ]
       },
       {
@@ -36208,8 +36191,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/24/",
-          "https://jkanime.net/tribe-cool-crew/25/"
+          "https://jkanime.net/tribe-cool-crew/25/",
+          "https://jkanime.net/tribe-cool-crew/26/"
         ]
       },
       {
@@ -38727,10 +38710,24 @@
         ]
       },
       {
+        "series": "https://jkanime.net/black-clover-2nd-season/",
+        "title": "Black Clover 2nd Season",
+        "samples": [
+          "https://jkanime.net/black-clover-2nd-season/5/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yasei-no-last-boss-ga-arawareta-2nd-season/",
         "title": "Yasei no Last Boss ga Arawareta! 2nd Season",
         "samples": [
           "https://jkanime.net/yasei-no-last-boss-ga-arawareta-2nd-season/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/",
+        "title": "Marronnier Oukoku no Shichinin no Kishi",
+        "samples": [
+          "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/5/"
         ]
       },
       {
@@ -43707,7 +43704,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50338,7 +50335,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51492,14 +51489,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13,
+        "mega": 12,
         "streamwish": 13,
-        "vidhide": 13,
-        "mixdrop": 13,
+        "vidhide": 12,
+        "mixdrop": 12,
         "mp4upload": 13,
-        "streamtape": 13
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -52436,7 +52433,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "vidhide": 12,
         "mega": 11,
@@ -54605,7 +54602,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54712,7 +54709,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 15,
         "streamwish": 15,
@@ -56101,22 +56098,19 @@
       "series": "https://jkanime.net/shoushimin-series/",
       "title": "Shoushimin Series",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 22,
-      "stored": 21,
-      "missing": [
-        "https://jkanime.net/shoushimin-series/22/"
-      ],
+      "stored": 22,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
         "streamwish": 19,
         "mega": 10,
-        "vidhide": 6,
-        "mp4upload": 17,
+        "vidhide": 7,
+        "mp4upload": 18,
         "streamtape": 5
       },
       "playbackVerified": false
@@ -56807,13 +56801,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 11,
-        "mp4upload": 10,
-        "streamtape": 11,
+        "vidhide": 10,
+        "mp4upload": 9,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -57759,7 +57753,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 25,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -57819,10 +57813,9 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 26,
+      "stored": 27,
       "missing": [
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/24/",
-        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/27/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/28/"
       ],
       "expired": [],
@@ -57830,9 +57823,9 @@
       "renewalFailed": 12,
       "families": {
         "mega": 12,
-        "streamwish": 23,
+        "streamwish": 24,
         "vidhide": 13,
-        "mp4upload": 20,
+        "mp4upload": 21,
         "streamtape": 12
       },
       "playbackVerified": false
@@ -61016,7 +61009,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -71690,7 +71683,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 24,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -72130,7 +72123,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 7,
         "streamwish": 7,
@@ -72249,7 +72242,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -73569,13 +73562,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 11,
+        "vidhide": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -76880,7 +76873,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -78729,14 +78722,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
-        "streamwish": 12,
-        "vidhide": 12,
-        "mixdrop": 12,
-        "mp4upload": 12,
-        "streamtape": 12
+        "streamwish": 11,
+        "vidhide": 11,
+        "mixdrop": 11,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
@@ -79132,7 +79125,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 44,
+      "renewalFailed": 45,
       "families": {
         "mega": 37,
         "streamwish": 37,
@@ -80354,7 +80347,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -84553,7 +84546,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -89466,7 +89459,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {},
       "playbackVerified": false
     },
@@ -89604,13 +89597,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "streamwish": 10,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -91808,7 +91801,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -93125,7 +93118,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 6,
         "mega": 3
@@ -93933,7 +93926,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96153,7 +96146,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -96333,10 +96326,9 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/time-bokan-24/1/",
-        "https://jkanime.net/time-bokan-24/23/",
         "https://jkanime.net/time-bokan-24/24/",
         "https://jkanime.net/time-bokan-24/3/",
         "https://jkanime.net/time-bokan-24/4/",
@@ -96350,9 +96342,9 @@
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
-        "mp4upload": 12,
-        "streamwish": 14,
-        "vidhide": 12
+        "mp4upload": 13,
+        "streamwish": 15,
+        "vidhide": 13
       },
       "playbackVerified": false
     },
@@ -96409,7 +96401,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 3,
         "streamwish": 3,
@@ -96476,8 +96468,7 @@
       "series": "https://jkanime.net/kaijuu-girls-ultra-kaijuu-gijinka-keikaku/",
       "title": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
       "stored": 10,
@@ -96487,7 +96478,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 9,
         "mega": 1
@@ -98616,7 +98607,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -103007,7 +102998,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103156,7 +103147,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103177,7 +103168,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -103362,13 +103353,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "streamwish": 10,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -103829,7 +103820,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -104350,7 +104341,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -106615,7 +106606,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 10,
         "streamwish": 10,
@@ -107788,9 +107779,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/24/",
         "https://jkanime.net/tribe-cool-crew/25/",
         "https://jkanime.net/tribe-cool-crew/26/",
         "https://jkanime.net/tribe-cool-crew/27/",
@@ -107829,8 +107819,8 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 16,
-        "mega": 4
+        "streamwish": 17,
+        "mega": 5
       },
       "playbackVerified": false
     },
@@ -109202,7 +109192,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110008,7 +109998,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -110281,7 +110271,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 60,
+      "renewalFailed": 59,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -110491,7 +110481,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 21,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -110659,7 +110649,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 4,
         "streamwish": 4,
@@ -111542,7 +111532,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -111626,13 +111616,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
-        "streamwish": 11,
-        "vidhide": 11,
-        "mp4upload": 11,
-        "streamtape": 11
+        "streamwish": 10,
+        "vidhide": 10,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -111668,7 +111658,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -111785,7 +111775,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -113190,7 +113180,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 23,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -114055,7 +114045,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 2,
         "streamwish": 2,
@@ -114773,13 +114763,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 13,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 12,
+        "vidhide": 12,
+        "mp4upload": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -114855,7 +114845,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -115573,7 +115563,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "families": {},
       "playbackVerified": false
     },
@@ -116703,7 +116693,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -144664,10 +144654,14 @@
     {
       "series": "https://jkanime.net/black-clover-2nd-season/",
       "title": "Black Clover 2nd Season",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/black-clover-2nd-season/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -144753,10 +144747,14 @@
     {
       "series": "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/",
       "title": "Marronnier Oukoku no Shichinin no Kishi",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
