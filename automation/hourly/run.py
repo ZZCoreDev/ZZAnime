@@ -16,6 +16,7 @@ APP_SERIES_LIMIT=5053
 APP_INDEX_BYTES=2*1024*1024-262144
 VOE_RECHECK_SECONDS=3600
 VOE_RECHECK_LIMIT=4
+REVIEW_FAMILIES=('mega','mixdrop')
 def sha(b):return hashlib.sha256(b).hexdigest()
 def raw(x):return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 def put(p,b):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
@@ -49,10 +50,12 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
   # link checker confirms dead are excluded. Renewal keeps refreshing them, oldest first.
   if not listing or url not in listing['episodes'] or not ep.get('complete') or age<0:continue
   options=[];seen=set()
-  review=[dict(p,review=True) for p in ep.get('reviewProviders',[]) if p.get('family')=='mega']
+  # AnimeFLV lists MEGA and MixDrop under reviewProviders; both count once the real validator approves them
+  # (MEGA also needs MEGA's API to read it alive). MixDrop from FLV approved by Robin 31/10/2026.
+  review=[dict(p,review=True) for p in ep.get('reviewProviders',[]) if p.get('family') in REVIEW_FAMILIES]
   for provider in ep['providers']+review:
    if provider.get('family')=='voe' and not allow_voe:continue
-   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega',*(['voe'] if allow_voe else [])]:continue
+   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega','mixdrop',*(['voe'] if allow_voe else [])]:continue
    for link in provider.get('links',[]):
     k=sha((provider['name']+'\0'+link).encode())
     # MEGA from TioAnime or from AnimeFLV's review list counts only once MEGA's API read it alive.
@@ -159,13 +162,10 @@ def main():
    for url in seed['recent']:
     if state.get('newsSeen',{}).get(url)==observed:state['newsSeen'].pop(url)
    state['recentSeedHash']='removed';save_observations(D,state,set())
- # In memory only, never saved: mixdroop.bz extras become regular MixDrop options on mxdrop.click.
- import extra_options
- state['episodes']={u:extra_options.promote(ep) for u,ep in state['episodes'].items()}
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
   for ep in state['episodes'].values():
-   for p in ep.get('providers',[])+[q for q in ep.get('reviewProviders',[]) if q.get('family')=='mega']:
+   for p in ep.get('providers',[])+[q for q in ep.get('reviewProviders',[]) if q.get('family') in REVIEW_FAMILIES]:
     for url in p.get('links',[]):queries[sha((p['name']+'\0'+url).encode())]={'name':p['name'],'url':url}
   output=command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
   approved={r['key']:r['approved'] for r in map(json.loads,output.splitlines())}

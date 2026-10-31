@@ -71,11 +71,12 @@ class RenewalTests(unittest.TestCase):
     def test_gone_in_both_sources_waits_longer_up_to_seven_days(self):
         now,_,url,state=self.fixture(6.9);failed={};t=now.timestamp();waits=[]
         gone={'flv':{'cause':'address-not-found','status':404},'tio':{'cause':'identity-mismatch'},'jk':{'cause':'access-denied'}}
+        unlisted={};record_failure(unlisted,url,'Source HTTP 404',t,'',{'flv':{'cause':'address-not-found'},'tio':{'cause':'unlisted-episode'}});self.assertEqual(unlisted[url]['retryAt']-t,6*3600);self.assertEqual(unlisted[url]['permanentAttempts'],1)
         for _ in range(8):record_failure(failed,url,'Source HTTP 404',t,state['episodes'][url]['observedAt'],gone);waits.append(failed[url]['retryAt']-t)
         self.assertEqual(waits,[h*3600 for h in (6,12,24,48,96)]+[7*DAY]*3);self.assertEqual(failed[url]['permanentAttempts'],8)
     def test_one_source_still_alive_keeps_short_backoff(self):
         now,_,url,state=self.fixture();failed={};t=now.timestamp()
-        for tio in ('no-approved-provider','unlisted-episode',None):
+        for tio in ('no-approved-provider','observed-options',None):
             diag={'flv':{'cause':'address-not-found'}};
             if tio:diag['tio']={'cause':tio}
             record_failure(failed,url,'Source HTTP 404',t,'',diag)

@@ -62,9 +62,9 @@ def select(state,failures,now,limit,include_missing=False):
     return [url for _,url in ordered]
 
 # Nothing expires any more: no retry is pulled forward by a 7-day deadline.
-# A chapter that both sources report as gone (404) or as another title waits
+# A chapter that both sources report as gone (404, or not listed) or as another title waits
 # longer each time, up to 7 days; anything else keeps the short network backoff.
-PERMANENT_CAUSES={'address-not-found','identity-mismatch'}
+PERMANENT_CAUSES={'address-not-found','identity-mismatch','unlisted-episode'}
 PERMANENT_SOURCES=('flv','tio')
 MAX_WAIT=7*DAY
 

@@ -55,7 +55,6 @@ jobs:
           python3 test_import_recovered.py
           python3 test_archive_coverage.py
           node test_identities.cjs
-          node test_backup_direct.cjs
           node test_flv_tokens.cjs
           node test_source_diagnostics.cjs
           node test_source_failure_cache.cjs

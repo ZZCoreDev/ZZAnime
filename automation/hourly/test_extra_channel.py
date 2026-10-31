@@ -41,13 +41,21 @@ class ExtraChannelTests(unittest.TestCase):
    row=json.loads(gzip.decompress(files['extra/'+next(iter(index['series'].values()))['path']]))
    self.assertEqual([(e['url'],e['options'],[o['url'] for o in e['extraOptions']]) for e in row['episodes']],[(ONLY,[],[YU]),(VOE,[],[YU])])
    self.assertEqual(extra_channel.render(d,self.now,key,{run.sha(('YourUpload\0'+YU).encode())}),{})  # all dead: nothing to publish
- def test_extra_channel_gives_mixdroop_as_mxdrop_click_option(self):
-  import datetime,extra_channel,gzip,json,run
-  now=datetime.datetime.now(datetime.timezone.utc);url='https://jkanime.net/heine/1/';parent='https://jkanime.net/heine/'
-  st={'episodes':{url:{'complete':True,'observedAt':now.isoformat(),'providers':[],'extraProviders':[{'name':'MixDrop','family':'mixdrop','links':['https://mixdroop.bz/e/abcd1234']}]}},'listings':{parent:{'complete':True,'observedAt':now.isoformat(),'episodes':[url]}}}
-  index,files=extra_channel.build(st,now,set(),run.sha,run.raw);e=json.loads(gzip.decompress(next(iter(files.values()))))['episodes'][0]
-  self.assertEqual(e['options'],[{'family':'mixdrop','name':'MixDrop','url':'https://mxdrop.click/e/abcd1234'}]);self.assertNotIn('extraOptions',e)
-  dead={run.sha(('MixDrop\0https://mxdrop.click/e/abcd1234').encode())}
-  self.assertEqual(extra_channel.build(st,now,dead,run.sha,run.raw)[0]['series'],{})
+ def test_render_removes_stored_mixdroop_links(self):
+  import datetime,extra_channel,tempfile
+  from pathlib import Path
+  from archive_state import load,save
+  from cryptography.hazmat.primitives.asymmetric import rsa
+  now=datetime.datetime.now(datetime.timezone.utc);yu='https://www.yourupload.com/embed/abc123'
+  a,b='https://jkanime.net/heine/1/','https://jkanime.net/solo/1/'
+  st={'episodes':{a:{'complete':True,'observedAt':now.isoformat(),'providers':[],'extraProviders':[{'name':'YourUpload','family':'yourupload','links':[yu]},{'name':'MixDrop','family':'mixdrop','links':['https://mixdroop.bz/e/7rv8q14ncq87w4']}]},
+   b:{'complete':True,'observedAt':now.isoformat(),'providers':[],'extraProviders':[{'name':'MixDrop','family':'mixdrop','links':['https://mixdroop.bz/e/abcd1234']}]}},
+   'listings':{'https://jkanime.net/heine/':{'complete':True,'observedAt':now.isoformat(),'episodes':[a]},'https://jkanime.net/solo/':{'complete':True,'observedAt':now.isoformat(),'episodes':[b]}},'pending':[]}
+  with tempfile.TemporaryDirectory() as d:
+   save(Path(d)/'extra-state',st);files=extra_channel.render(d,now,rsa.generate_private_key(public_exponent=65537,key_size=2048),set())
+   kept=load(Path(d)/'extra-state')['episodes']
+   self.assertEqual(kept[a]['extraProviders'],[{'name':'YourUpload','family':'yourupload','links':[yu]}]);self.assertEqual(kept[b]['extraProviders'],[])
+   self.assertFalse(any(b'mixdroop' in body for body in files.values()))
+   self.assertEqual(sum(n.startswith('extra/series/') for n in files),1)
 
 if __name__=='__main__':unittest.main()
