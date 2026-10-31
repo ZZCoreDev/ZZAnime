@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T00:37:35.466898+00:00",
+  "checkedAt": "2026-10-31T00:51:31.960972+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73753,
-  "storedChapters": 72147,
-  "missingChapters": 1606,
+  "storedChapters": 72166,
+  "missingChapters": 1587,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -16,8 +16,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/10/",
-          "https://jkanime.net/ao-ashi/11/"
+          "https://jkanime.net/ao-ashi/11/",
+          "https://jkanime.net/ao-ashi/12/"
         ]
       },
       {
@@ -344,7 +344,6 @@
         "series": "https://jkanime.net/sakamoto-days/",
         "title": "Sakamoto Days",
         "samples": [
-          "https://jkanime.net/sakamoto-days/21/",
           "https://jkanime.net/sakamoto-days/22/"
         ]
       },
@@ -366,7 +365,6 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/23/",
           "https://jkanime.net/puniru-wa-kawaii-slime/24/"
         ]
       },
@@ -577,13 +575,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gridman-universe/",
-        "title": "Gridman Universe",
-        "samples": [
-          "https://jkanime.net/gridman-universe/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-ver-30/",
         "title": "Iya na Kao sare nagara Opantsu Misete Moraitai ver 3.0",
         "samples": [
@@ -616,16 +607,16 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/19/",
-          "https://jkanime.net/sugar-apple-fairy-tale/20/"
+          "https://jkanime.net/sugar-apple-fairy-tale/20/",
+          "https://jkanime.net/sugar-apple-fairy-tale/21/"
         ]
       },
       {
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/19/",
-          "https://jkanime.net/spy-kyoushitsu/20/"
+          "https://jkanime.net/spy-kyoushitsu/20/",
+          "https://jkanime.net/spy-kyoushitsu/21/"
         ]
       },
       {
@@ -1305,13 +1296,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/goblin-slayer-goblins-crown/",
-        "title": "Goblin Slayer: Goblin's Crown",
-        "samples": [
-          "https://jkanime.net/goblin-slayer-goblins-crown/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii-ova/",
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
         "samples": [
@@ -1670,8 +1654,8 @@
         "series": "https://jkanime.net/sora-to-umi-no-aida/",
         "title": "Sora to Umi no Aida",
         "samples": [
-          "https://jkanime.net/sora-to-umi-no-aida/5/",
-          "https://jkanime.net/sora-to-umi-no-aida/6/"
+          "https://jkanime.net/sora-to-umi-no-aida/6/",
+          "https://jkanime.net/sora-to-umi-no-aida/7/"
         ]
       },
       {
@@ -2072,8 +2056,8 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
         ]
       },
       {
@@ -2126,8 +2110,8 @@
         "series": "https://jkanime.net/stella-no-mahou/",
         "title": "Stella no Mahou",
         "samples": [
-          "https://jkanime.net/stella-no-mahou/4/",
-          "https://jkanime.net/stella-no-mahou/5/"
+          "https://jkanime.net/stella-no-mahou/5/",
+          "https://jkanime.net/stella-no-mahou/6/"
         ]
       },
       {
@@ -4044,13 +4028,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/asura/",
-        "title": "Asura",
-        "samples": [
-          "https://jkanime.net/asura/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/code-geass-boukoku-no-akito/",
         "title": "Code Geass: Boukoku no Akito",
         "samples": [
@@ -4182,13 +4159,6 @@
         "title": "The iDOLM@STER: 765 Pro to Iu Monogatari",
         "samples": [
           "https://jkanime.net/the-idolmster-765-pro-to-iu-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/asa-made-jugyou-chu/",
-        "title": "Asa Made Jugyou Chu!",
-        "samples": [
-          "https://jkanime.net/asa-made-jugyou-chu/1/"
         ]
       },
       {
@@ -4762,8 +4732,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/1/",
-          "https://jkanime.net/asura-cryin/10/"
+          "https://jkanime.net/asura-cryin/10/",
+          "https://jkanime.net/asura-cryin/11/"
         ]
       },
       {
@@ -5498,8 +5468,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/28/",
-          "https://jkanime.net/taiho-shichau-zo/29/"
+          "https://jkanime.net/taiho-shichau-zo/29/",
+          "https://jkanime.net/taiho-shichau-zo/30/"
         ]
       },
       {
@@ -5847,8 +5817,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/10/",
-          "https://jkanime.net/ao-ashi/11/"
+          "https://jkanime.net/ao-ashi/11/",
+          "https://jkanime.net/ao-ashi/12/"
         ]
       },
       {
@@ -8167,7 +8137,6 @@
         "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
         "title": "Puniru wa Kawaii Slime",
         "samples": [
-          "https://jkanime.net/puniru-wa-kawaii-slime/23/",
           "https://jkanime.net/puniru-wa-kawaii-slime/24/"
         ]
       },
@@ -12206,8 +12175,8 @@
         "series": "https://jkanime.net/sugar-apple-fairy-tale/",
         "title": "Sugar Apple Fairy Tale",
         "samples": [
-          "https://jkanime.net/sugar-apple-fairy-tale/19/",
-          "https://jkanime.net/sugar-apple-fairy-tale/20/"
+          "https://jkanime.net/sugar-apple-fairy-tale/20/",
+          "https://jkanime.net/sugar-apple-fairy-tale/21/"
         ]
       },
       {
@@ -12246,8 +12215,8 @@
         "series": "https://jkanime.net/spy-kyoushitsu/",
         "title": "Spy Kyoushitsu",
         "samples": [
-          "https://jkanime.net/spy-kyoushitsu/19/",
-          "https://jkanime.net/spy-kyoushitsu/20/"
+          "https://jkanime.net/spy-kyoushitsu/20/",
+          "https://jkanime.net/spy-kyoushitsu/21/"
         ]
       },
       {
@@ -22415,8 +22384,8 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
         ]
       },
       {
@@ -30465,13 +30434,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/asura/",
-        "title": "Asura",
-        "samples": [
-          "https://jkanime.net/asura/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/shinsekai-yori/",
         "title": "Shinsekai yori",
         "samples": [
@@ -30834,13 +30796,6 @@
         "samples": [
           "https://jkanime.net/sword-art-online/1/",
           "https://jkanime.net/sword-art-online/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/asa-made-jugyou-chu/",
-        "title": "Asa Made Jugyou Chu!",
-        "samples": [
-          "https://jkanime.net/asa-made-jugyou-chu/1/"
         ]
       },
       {
@@ -33651,8 +33606,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/1/",
-          "https://jkanime.net/asura-cryin/10/"
+          "https://jkanime.net/asura-cryin/10/",
+          "https://jkanime.net/asura-cryin/11/"
         ]
       },
       {
@@ -38746,8 +38701,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/28/",
-          "https://jkanime.net/taiho-shichau-zo/29/"
+          "https://jkanime.net/taiho-shichau-zo/29/",
+          "https://jkanime.net/taiho-shichau-zo/30/"
         ]
       },
       {
@@ -40262,13 +40217,6 @@
         "title": "Princess Principal: Crown Handler Movie 3",
         "samples": [
           "https://jkanime.net/princess-principal-crown-handler-movie-3/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/gridman-universe/",
-        "title": "Gridman Universe",
-        "samples": [
-          "https://jkanime.net/gridman-universe/1/"
         ]
       },
       {
@@ -42981,13 +42929,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/asura/",
-        "title": "Asura",
-        "samples": [
-          "https://jkanime.net/asura/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/code-geass-boukoku-no-akito/",
         "title": "Code Geass: Boukoku no Akito",
         "samples": [
@@ -43104,13 +43045,6 @@
         "title": "The iDOLM@STER: 765 Pro to Iu Monogatari",
         "samples": [
           "https://jkanime.net/the-idolmster-765-pro-to-iu-monogatari/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/asa-made-jugyou-chu/",
-        "title": "Asa Made Jugyou Chu!",
-        "samples": [
-          "https://jkanime.net/asa-made-jugyou-chu/1/"
         ]
       },
       {
@@ -44753,9 +44687,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/ao-ashi/10/",
         "https://jkanime.net/ao-ashi/11/",
         "https://jkanime.net/ao-ashi/12/",
         "https://jkanime.net/ao-ashi/13/",
@@ -44771,9 +44704,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
-        "mega": 10,
+        "mega": 11,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -54039,9 +53972,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 22,
-      "stored": 20,
+      "stored": 21,
       "missing": [
-        "https://jkanime.net/sakamoto-days/21/",
         "https://jkanime.net/sakamoto-days/22/"
       ],
       "expired": [],
@@ -54049,8 +53981,8 @@
       "renewalFailed": 0,
       "families": {
         "vidhide": 9,
-        "mp4upload": 18,
-        "streamwish": 11
+        "mp4upload": 19,
+        "streamwish": 12
       },
       "playbackVerified": false
     },
@@ -55945,9 +55877,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/23/",
         "https://jkanime.net/puniru-wa-kawaii-slime/24/"
       ],
       "expired": [],
@@ -55957,7 +55888,7 @@
         "mega": 11,
         "streamwish": 19,
         "vidhide": 13,
-        "mp4upload": 21,
+        "mp4upload": 22,
         "streamtape": 11,
         "mixdrop": 1
       },
@@ -66756,19 +66687,17 @@
       "series": "https://jkanime.net/gridman-universe/",
       "title": "Gridman Universe",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/gridman-universe/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "families": {},
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -67723,9 +67652,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/sugar-apple-fairy-tale/19/",
         "https://jkanime.net/sugar-apple-fairy-tale/20/",
         "https://jkanime.net/sugar-apple-fairy-tale/21/",
         "https://jkanime.net/sugar-apple-fairy-tale/22/",
@@ -67736,7 +67664,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 16,
+        "mega": 17,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 12,
@@ -67836,9 +67764,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 18,
+      "stored": 19,
       "missing": [
-        "https://jkanime.net/spy-kyoushitsu/19/",
         "https://jkanime.net/spy-kyoushitsu/20/",
         "https://jkanime.net/spy-kyoushitsu/21/",
         "https://jkanime.net/spy-kyoushitsu/22/",
@@ -67849,7 +67776,7 @@
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
-        "mega": 15,
+        "mega": 16,
         "streamwish": 10,
         "vidhide": 10,
         "mp4upload": 13,
@@ -81329,19 +81256,18 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/1/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/2/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/3/",
-        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/",
-        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/7/"
+        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/4/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
-        "mega": 8,
+        "mega": 9,
         "streamwish": 6,
         "vidhide": 6,
         "mp4upload": 6,
@@ -81684,18 +81610,17 @@
       "series": "https://jkanime.net/goblin-slayer-goblins-crown/",
       "title": "Goblin Slayer: Goblin's Crown",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/goblin-slayer-goblins-crown/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "families": {},
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -88384,9 +88309,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
-        "https://jkanime.net/sora-to-umi-no-aida/5/",
         "https://jkanime.net/sora-to-umi-no-aida/6/",
         "https://jkanime.net/sora-to-umi-no-aida/7/",
         "https://jkanime.net/sora-to-umi-no-aida/8/",
@@ -88396,7 +88320,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 7
+        "mega": 8
       },
       "playbackVerified": false
     },
@@ -93815,19 +93739,18 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 8,
+      "stored": 9,
       "missing": [
         "https://jkanime.net/18if/12/",
         "https://jkanime.net/18if/13/",
-        "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/6/",
         "https://jkanime.net/18if/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
-        "mega": 8
+        "mega": 9
       },
       "playbackVerified": false
     },
@@ -94935,20 +94858,19 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 8,
       "missing": [
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/1/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/2/",
         "https://jkanime.net/kaitou-tenshi-twin-angel-tv/3/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/5/",
-        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/9/"
+        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 6,
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -97468,18 +97390,17 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 10,
       "missing": [
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/7/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/9/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 8,
-        "mega": 1
+        "mega": 2
       },
       "playbackVerified": false
     },
@@ -97491,22 +97412,21 @@
         "renewal-error"
       ],
       "observed": 12,
-      "stored": 4,
+      "stored": 5,
       "missing": [
         "https://jkanime.net/cheating-craft/1/",
         "https://jkanime.net/cheating-craft/10/",
         "https://jkanime.net/cheating-craft/11/",
         "https://jkanime.net/cheating-craft/12/",
-        "https://jkanime.net/cheating-craft/4/",
         "https://jkanime.net/cheating-craft/5/",
         "https://jkanime.net/cheating-craft/6/",
         "https://jkanime.net/cheating-craft/7/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
-        "mega": 4
+        "mega": 5
       },
       "playbackVerified": false
     },
@@ -98050,9 +97970,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/stella-no-mahou/4/",
         "https://jkanime.net/stella-no-mahou/5/",
         "https://jkanime.net/stella-no-mahou/6/",
         "https://jkanime.net/stella-no-mahou/7/",
@@ -98063,7 +97982,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 6
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -120529,20 +120448,16 @@
     {
       "series": "https://jkanime.net/asura/",
       "title": "Asura",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/asura/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -121612,20 +121527,16 @@
     {
       "series": "https://jkanime.net/asa-made-jugyou-chu/",
       "title": "Asa Made Jugyou Chu!",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/asa-made-jugyou-chu/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -129251,11 +129162,10 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 13,
+      "stored": 14,
       "missing": [
         "https://jkanime.net/07-ghost/12/",
         "https://jkanime.net/07-ghost/13/",
-        "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/18/",
         "https://jkanime.net/07-ghost/20/",
         "https://jkanime.net/07-ghost/21/",
@@ -129268,9 +129178,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
-        "mega": 13
+        "mega": 14
       },
       "playbackVerified": false
     },
@@ -129624,9 +129534,8 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 6,
+      "stored": 7,
       "missing": [
-        "https://jkanime.net/asura-cryin/1/",
         "https://jkanime.net/asura-cryin/10/",
         "https://jkanime.net/asura-cryin/11/",
         "https://jkanime.net/asura-cryin/12/",
@@ -129636,9 +129545,9 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "mega": 6
+        "mega": 7
       },
       "playbackVerified": false
     },
@@ -143970,9 +143879,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/28/",
         "https://jkanime.net/taiho-shichau-zo/29/",
         "https://jkanime.net/taiho-shichau-zo/30/",
         "https://jkanime.net/taiho-shichau-zo/31/",
@@ -144010,7 +143918,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 21,
+        "mp4upload": 22,
         "streamtape": 3
       },
       "playbackVerified": false
@@ -147795,12 +147703,11 @@
       "noIndependent": [],
       "renewalFailed": 14,
       "families": {
-        "mega": 1180,
-        "streamwish": 88,
-        "vidhide": 88,
-        "mp4upload": 73,
-        "streamtape": 87,
-        "mixdrop": 60
+        "mega": 1122,
+        "streamwish": 82,
+        "vidhide": 79,
+        "mp4upload": 91,
+        "streamtape": 14
       },
       "playbackVerified": false
     },
@@ -147837,7 +147744,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 218,
       "families": {
         "mega": 1216,
         "streamwish": 1216,
