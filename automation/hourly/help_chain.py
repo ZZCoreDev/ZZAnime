@@ -14,6 +14,10 @@ FAMILIES={'desu','magi','mega','streamwish','vidhide','mixdrop','mp4upload','str
 CHECKS={'name-match','quorum3'}
 MAX_WANTED=40
 MAX_RENEW=180
+# Held chapters (JK /1/ that redirects to /ova|ona|pelicula|especial/ of the same series; the cloud reads
+# JK as 403): apps 96+/TV 119+ follow that redirect and copy the table. Published in daily batches.
+MAX_HELD=100
+HELD_PROVENANCE='redirect-same-series'
 RENEW_AFTER=4*86400
 # Installed APKs read channel.json with a 64 KB limit; the wanted list stays far below it.
 WANTED_BYTES=24000
@@ -32,12 +36,15 @@ def policy(path=None):
  mode=x.get('mode','off');trial=[u for u in x.get('trial',[]) if isinstance(u,str) and EPISODE.fullmatch(u)]
  if mode not in ('off','trial','open'):raise ValueError('Help policy mode')
  if mode=='trial' and len(set(trial))!=2:raise ValueError('Help trial needs exactly two chapters')
- return {'mode':mode,'trial':trial,'max':max(0,min(int(x.get('maxWanted',MAX_WANTED)),MAX_WANTED)),'renew':max(0,min(int(x.get('maxRenew',MAX_RENEW)),MAX_RENEW))}
+ return {'mode':mode,'trial':trial,'max':max(0,min(int(x.get('maxWanted',MAX_WANTED)),MAX_WANTED)),'renew':max(0,min(int(x.get('maxRenew',MAX_RENEW)),MAX_RENEW)),'held':max(0,min(int(x.get('maxHeld',0)),MAX_HELD))}
+def held_chapters(path=None):
+ path=path or W/'help-held.json'
+ return [u for u in json.loads(path.read_bytes()).get('urls',[]) if isinstance(u,str) and EPISODE.fullmatch(u)] if path.exists() else []
 def available(files):
  return {ep['url'] for n,b in files.items() if n.startswith('series/') for ep in json.loads(gzip.decompress(b))['episodes']}
 def titles():
  return {r['url']:r.get('title','') for r in json.loads((W/'catalogue.json').read_bytes())}
-def wanted(state,files,now,rules,catalogue=None):
+def wanted(state,files,now,rules,catalogue=None,held_urls=None):
  # New chapters first (no root-channel option, no stored record); they drop out once they have options.
  if rules['mode']=='off':return None
  have=available(files);catalogue=titles() if catalogue is None else catalogue;rows={}
@@ -56,12 +63,20 @@ def wanted(state,files,now,rules,catalogue=None):
  if rules['mode']=='open' and rules.get('renew'):
   old=sorted((stamp(ep.get('observedAt')),url) for url,ep in state['episodes'].items() if url in have and url not in rows and EPISODE.fullmatch(url) and now.timestamp()-stamp(ep.get('observedAt'))>=RENEW_AFTER)
   for _,url in old[:rules['renew']]:out.append(entry(url,renew=True))
+ # Held chapters go after the news and before renewal (the byte cap trims renewal first). One batch per UTC
+ # day, rotating over those still without options; filled ones drop out by themselves.
+ if rules['mode']=='open' and rules.get('held'):
+  pool=[u for u in (held_chapters() if held_urls is None else held_urls) if open_(u) and u not in rows];size=rules['held']
+  if pool:
+   start=(int(now.timestamp()//86400)%(-(-len(pool)//size)))*size
+   at=next((i for i,w in enumerate(out) if w.get('renew')),len(out))
+   out[at:at]=[entry(u) for u in pool[start:start+size]]
  while out and len(json.dumps(out,ensure_ascii=False,separators=(',',':')).encode())>WANTED_BYTES:out.pop()
  return out
 def record_published(folder,wanted_rows,now):
  rows=wanted_rows or []
  (folder/'help-wanted.json').write_bytes(json.dumps({'publishedAt':iso(now),'urls':[w['url'] for w in rows],'renew':[w['url'] for w in rows if w.get('renew')]},sort_keys=True).encode())
-def accept(data,state,asked,now,renew=frozenset()):
+def accept(data,state,asked,now,renew=frozenset(),held_urls=frozenset()):
  # Only chapters this cloud published as wanted. A stored record is replaced only when the cloud asked
  # to renew it and the devices' observation is newer; otherwise records and dates are never touched.
  if data.get('schema')!=1 or not isinstance(data.get('episodes'),list):raise ValueError('Help answer schema')
@@ -88,10 +103,11 @@ def accept(data,state,asked,now,renew=frozenset()):
    if p['family']==family and link not in p['links']:p['links'].append(link)
   if not providers:held[url]='No option passed the help checks';continue
   parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
-  incoming['episodes'][url]={'archiveVersion':3,'episode':url,'observedAt':iso(at),'complete':True,'providers':list(providers.values()),'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain','renewed':url in renew}}
+  incoming['episodes'][url]={'archiveVersion':3,'episode':url,'observedAt':iso(at),'complete':True,'providers':list(providers.values()),'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain','renewed':url in renew,**({'provenance':HELD_PROVENANCE} if url in held_urls else {})}}
   # Keep the observed listing and its date; only a chapter without any listing gets a minimal one.
   incoming['listings'][parent]={**listing,'episodes':[url]} if listing else {'observedAt':iso(at),'complete':False,'helpListing':True,'episodes':[url]}
-  if url not in renew:seen[url]=row.get('firstSeenAt') or iso(at)
+  # Neither renewals nor held chapters (old OVAs and movies) are news.
+  if url not in renew and url not in held_urls:seen[url]=row.get('firstSeenAt') or iso(at)
  return incoming,seen,held
 def get(base,key,path,limit=4194305):
  req=urllib.request.Request(base.rstrip('/')+path,headers={'Authorization':'Bearer '+key,'User-Agent':'ZZAnime-Data/1'})
@@ -118,7 +134,7 @@ def pull(folder,state,now,fetch=None,observe_fetch=None):
   report={'state':'nothing-asked','checkedAt':iso(now),'imported':0,'worker':worker,'deadReports':reports}
   (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report
  data=fetch() if fetch else get(base,key,'/v1/accepted')
- incoming,seen,held=accept(data,state,asked,now,renew)
+ incoming,seen,held=accept(data,state,asked,now,renew,frozenset(held_chapters())&asked)
  for url,ep in incoming['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/';old=state['listings'].get(parent)
   state['episodes'][url]=ep

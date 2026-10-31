@@ -87,6 +87,15 @@ def candidates(folder,now,rules):
    for x in (ep or {}).get('downloads',[]):
     link,name=x.get('url',''),x.get('name','Mega')
     if x.get('family')=='mega' and target('mega',link,rules):out[sha((name+'\0'+link).encode())]={'family':'mega','name':name,'url':link,'episode':url,'download':True}
+ # Chapters imported from devices through the held redirect (old OVAs and movies, many Streamtape/VOE/MEGA
+ # already deleted) are checked first, like news, at any age.
+ if rules.get('enabled'):
+  import help_chain
+  held=[u for u in help_chain.held_chapters()];rows=load_parents(folder,{u.rsplit('/',2)[0]+'/' for u in held})
+  for url in held:
+   ep=rows['episodes'].get(url)
+   if (ep or {}).get('helpEvidence',{}).get('provenance')==help_chain.HELD_PROVENANCE:
+    for k,v in links_of(ep,url,rules).items():out.setdefault(k,v)['held']=True
  # extra-state holds few series (new families only) and their servers are the only ones those chapters have:
  # check all of them, any age, not just this week's news.
  extra_root=Path(folder)/'extra-state'
@@ -164,7 +173,7 @@ def check(folder,now=None,limit=20,pause=2.5,fetcher=fetch,sleep=time.sleep,budg
  # Archive links read dead or excluded keep being re-checked until confirmed (or revived), whatever the cursor.
  for k,e in links.items():
   if e.get('archive') and k not in found and (e.get('excluded') or e.get('state')=='dead'):found[k]={x:e[x] for x in ('family','name','url','episode','archive','download') if x in e}
- ordered=sorted((k for k in found if ready(k)),key=lambda k:(k in links,links.get(k,{}).get('checkedAt',0)))
+ ordered=sorted((k for k in found if ready(k)),key=lambda k:(not found[k].get('held'),k in links,links.get(k,{}).get('checkedAt',0)))
  news=[k for k in ordered if not found[k].get('reported')]
  archive=archive_candidates(folder,health,now,rules,found,max(0,limit-min(len(news),limit-limit//ARCHIVE_SHARE)));found.update(archive)
  queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+news[:limit-len(archive)]+list(archive)

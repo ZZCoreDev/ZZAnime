@@ -47,7 +47,7 @@ class WantedTests(unittest.TestCase):
    self.assertEqual(h.policy(Path(d,'missing.json'))['mode'],'off')
  def test_shipped_policy_asks_new_chapters_and_renewal(self):
   # Open with renewal (Robin, 31/10): every missing new chapter plus the oldest observations.
-  self.assertEqual(h.policy(),{'mode':'open','trial':TRIAL,'max':40,'renew':180})
+  self.assertEqual(h.policy(),{'mode':'open','trial':TRIAL,'max':40,'renew':180,'held':100})
  def test_open_mode_renews_oldest_published_chapters(self):
   a,b,c,d=self.urls;old=self.now-datetime.timedelta(days=30)
   for i in range(3):
@@ -65,12 +65,38 @@ class WantedTests(unittest.TestCase):
   w=h.wanted(self.state,files,self.now,{'mode':'open','trial':TRIAL,'max':40,'renew':180},{u.rsplit('/',2)[0]+'/':'T'*60 for u in self.state['episodes']})
   self.assertLessEqual(len(json.dumps(w,ensure_ascii=False,separators=(',',':')).encode()),h.WANTED_BYTES);self.assertGreater(len(w),100)
 
+ def test_held_batches_go_after_news_before_renewal_and_rotate_daily(self):
+  a,b,c,d=self.urls;old=self.now-datetime.timedelta(days=30)
+  u='https://jkanime.net/serie-a/10/';self.state['episodes'][u]={'episode':u,'complete':True,'observedAt':h.iso(old),'providers':[{'name':'Mp4upload','family':'mp4upload','links':['https://www.mp4upload.com/embed-a.html']}]};self.state['listings']['https://jkanime.net/serie-a/']['episodes'].append(u)
+  _,files=run.build(self.state,self.approved,self.now)
+  held=['https://jkanime.net/ova-%d/1/'%i for i in range(5)]+[a]
+  rules={'mode':'open','trial':TRIAL,'max':40,'renew':2,'held':2}
+  day=datetime.datetime(2026,11,1,12,tzinfo=datetime.timezone.utc)
+  w=h.wanted(self.state,files,day,rules,{},held)
+  first=[x['url'] for x in w if 'ova-' in x['url']];self.assertEqual(len(first),2)
+  self.assertEqual([x['url'] for x in w[:2]],[b,c]);self.assertTrue(w[-1].get('renew'));self.assertFalse(any(x.get('renew') for x in w[:4]))
+  self.assertNotIn(a,[x['url'] for x in w]);self.assertEqual(set(w[2]),{'url','number','title'})
+  days=[[x['url'] for x in h.wanted(self.state,files,day+datetime.timedelta(days=n),rules,{},held) if 'ova-' in x['url']] for n in range(3)]
+  self.assertEqual(sorted(sum(days,[])),sorted(held[:5]))
+  self.assertFalse(any('ova-' in x['url'] for x in h.wanted(self.state,files,day,{**rules,'held':0},{},held)))
+  self.assertFalse(any('ova-' in x['url'] for x in h.wanted(self.state,files,day,{**rules,'mode':'trial'},{},held)))
+ def test_shipped_held_list_is_466_chapter_ones_in_the_catalogue(self):
+  urls=h.held_chapters();cat=h.titles()
+  self.assertEqual(len(urls),466);self.assertEqual(len(set(urls)),466)
+  self.assertTrue(all(u.endswith('/1/') and u.rsplit('/',2)[0]+'/' in cat for u in urls))
+
 class AcceptTests(unittest.TestCase):
  def setUp(self):
   self.now=datetime.datetime.now(datetime.timezone.utc);self.state,_,self.urls=fixture(self.now)
  def test_only_asked_chapters(self):
   a,b,c,d=self.urls;incoming,_,held=h.accept(answer(self.now,c),self.state,{b},self.now)
   self.assertEqual(incoming['episodes'],{});self.assertIn(c,held)
+ def test_held_import_has_provenance_and_is_not_news(self):
+  url='https://jkanime.net/ova-1/1/'
+  incoming,seen,held=h.accept(answer(self.now,url),self.state,{url},self.now,frozenset(),frozenset({url}))
+  ev=incoming['episodes'][url]['helpEvidence'];self.assertEqual(ev['provenance'],'redirect-same-series');self.assertEqual(ev['acceptedAt'],h.iso(self.now))
+  self.assertEqual(seen,{});self.assertTrue(incoming['listings']['https://jkanime.net/ova-1/']['helpListing'])
+  weak=answer(self.now,url,asns=1,devices=1);self.assertEqual(h.accept(weak,self.state,{url},self.now,frozenset(),frozenset({url}))[2],{url:'No option passed the help checks'})
  def test_never_replaces_a_stored_record(self):
   a,b,c,d=self.urls;incoming,_,held=h.accept(answer(self.now,a),self.state,{a},self.now)
   self.assertEqual(held[a],'Already stored')

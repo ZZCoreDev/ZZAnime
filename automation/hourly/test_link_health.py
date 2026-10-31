@@ -190,4 +190,12 @@ class LinkHealthTests(unittest.TestCase):
    web=Web();s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=web,sleep=lambda s:None,limit=6)
    arch=[u for u in web.urls if '/embed-hot' in u or '/embed-old' in u]
    self.assertEqual(s['archive']['checked'],3);self.assertEqual(sum('/embed-hot' in u for u in arch),1)
+ def test_held_redirect_imports_are_checked_first(self):
+  with tempfile.TemporaryDirectory() as d:
+   world(d);url='https://jkanime.net/grave-of-the-fireflies/1/';held='https://www.mp4upload.com/embed-heldabcdefgh.html'
+   shard(d,url,[{'family':'mp4upload','name':'Mp4upload','links':[held]}])
+   p=Path(d)/'series-state'/(hashlib.sha256('https://jkanime.net/grave-of-the-fireflies/'.encode()).hexdigest()+'.json.gz')
+   row=json.loads(gzip.decompress(p.read_bytes()));row['episodes'][url]['helpEvidence']={'source':'help-chain','provenance':'redirect-same-series'};p.write_bytes(gzip.compress(json.dumps(row).encode()))
+   web=Web();link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),limit=1,fetcher=web,sleep=lambda s:None)
+   self.assertIn(held,web.urls);self.assertNotIn(DEAD_MP4,web.urls)
 if __name__=='__main__':unittest.main()
