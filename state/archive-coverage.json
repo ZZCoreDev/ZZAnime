@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T07:45:12.307300+00:00",
+  "checkedAt": "2026-10-31T07:59:06.542918+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
-  "storedChapters": 72384,
-  "missingChapters": 1410,
+  "storedChapters": 72386,
+  "missingChapters": 1408,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -10128,7 +10128,8 @@
         "series": "https://jkanime.net/idolls/",
         "title": "Idolls!",
         "samples": [
-          "https://jkanime.net/idolls/1/"
+          "https://jkanime.net/idolls/1/",
+          "https://jkanime.net/idolls/10/"
         ]
       },
       {
@@ -10152,7 +10153,7 @@
         "title": "Soukou Musume Senki",
         "samples": [
           "https://jkanime.net/soukou-musume-senki/1/",
-          "https://jkanime.net/soukou-musume-senki/7/"
+          "https://jkanime.net/soukou-musume-senki/2/"
         ]
       },
       {
@@ -27518,7 +27519,8 @@
         "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
         "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
         "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/10/",
+          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/7/"
         ]
       },
       {
@@ -37815,13 +37817,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/queens-blade-rebellion/",
-        "title": "Queen's Blade: Rebellion",
-        "samples": [
-          "https://jkanime.net/queens-blade-rebellion/18/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/sora-no-otoshimono-tokeijikake-no-angeloid/",
         "title": "Sora no Otoshimono: Tokeijikake no Angeloid",
         "samples": [
@@ -38273,13 +38268,6 @@
         "title": "God Eater Prologue",
         "samples": [
           "https://jkanime.net/god-eater-prologue/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
-        "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
-        "samples": [
-          "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
         ]
       },
       {
@@ -77133,7 +77121,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "families": {
         "mega": 5,
         "streamwish": 14,
@@ -77257,7 +77245,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 1,
         "streamwish": 10,
@@ -77320,7 +77308,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "mega": 2,
         "streamwish": 13,
@@ -102141,7 +102129,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {},
       "playbackVerified": false
     },
@@ -121057,19 +121045,15 @@
     {
       "series": "https://jkanime.net/queens-blade-rebellion/",
       "title": "Queen's Blade: Rebellion",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 18,
-      "stored": 17,
-      "missing": [
-        "https://jkanime.net/queens-blade-rebellion/18/"
-      ],
+      "stored": 18,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 17
+        "mega": 18
       },
       "playbackVerified": false
     },
@@ -125156,7 +125140,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 83,
+      "renewalFailed": 84,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -127424,19 +127408,16 @@
       "series": "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/",
       "title": "Queen's Blade: Gyokuza wo Tsugu Mono",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 18,
-      "stored": 17,
-      "missing": [
-        "https://jkanime.net/queens-blade-gyokuza-wo-tsugu-mono/18/"
-      ],
+      "stored": 18,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
-        "mp4upload": 17,
+        "mp4upload": 18,
         "mega": 2,
         "streamwish": 2,
         "vidhide": 2,
