@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T02:34:42.129804+00:00",
+  "checkedAt": "2026-10-31T02:48:31.009883+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73775,
-  "storedChapters": 72269,
-  "missingChapters": 1506,
+  "storedChapters": 72279,
+  "missingChapters": 1496,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -16,8 +16,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/13/",
-          "https://jkanime.net/ao-ashi/19/"
+          "https://jkanime.net/ao-ashi/19/",
+          "https://jkanime.net/ao-ashi/2/"
         ]
       },
       {
@@ -557,8 +557,8 @@
         "series": "https://jkanime.net/hikari-no-ou/",
         "title": "Hikari no Ou",
         "samples": [
-          "https://jkanime.net/hikari-no-ou/13/",
-          "https://jkanime.net/hikari-no-ou/17/"
+          "https://jkanime.net/hikari-no-ou/17/",
+          "https://jkanime.net/hikari-no-ou/18/"
         ]
       },
       {
@@ -1839,7 +1839,7 @@
         "title": "Cinderella Girls Gekijou",
         "samples": [
           "https://jkanime.net/cinderella-girls-gekijou/11/",
-          "https://jkanime.net/cinderella-girls-gekijou/4/"
+          "https://jkanime.net/cinderella-girls-gekijou/5/"
         ]
       },
       {
@@ -1897,13 +1897,6 @@
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
           "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/",
-        "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
-        "samples": [
-          "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/1/"
         ]
       },
       {
@@ -2323,8 +2316,8 @@
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
-          "https://jkanime.net/digimon-adventure-tri/11/",
-          "https://jkanime.net/digimon-adventure-tri/12/"
+          "https://jkanime.net/digimon-adventure-tri/12/",
+          "https://jkanime.net/digimon-adventure-tri/13/"
         ]
       },
       {
@@ -2634,13 +2627,6 @@
         "samples": [
           "https://jkanime.net/shirobako-ova/1/",
           "https://jkanime.net/shirobako-ova/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
-        "title": "Hoozuki no Reitetsu OVA",
-        "samples": [
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
         ]
       },
       {
@@ -4500,8 +4486,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/22/",
-          "https://jkanime.net/07-ghost/23/"
+          "https://jkanime.net/07-ghost/23/",
+          "https://jkanime.net/07-ghost/3/"
         ]
       },
       {
@@ -4515,7 +4501,6 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/12/",
           "https://jkanime.net/asura-cryin/13/"
         ]
       },
@@ -5079,13 +5064,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/inuyasha/",
-        "title": "InuYasha",
-        "samples": [
-          "https://jkanime.net/inuyasha/47/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/vampire-hunter-d-2000/",
         "title": "Vampire Hunter D (2000)",
         "samples": [
@@ -5209,8 +5187,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/37/",
-          "https://jkanime.net/taiho-shichau-zo/38/"
+          "https://jkanime.net/taiho-shichau-zo/38/",
+          "https://jkanime.net/taiho-shichau-zo/39/"
         ]
       },
       {
@@ -5551,8 +5529,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/13/",
-          "https://jkanime.net/ao-ashi/19/"
+          "https://jkanime.net/ao-ashi/19/",
+          "https://jkanime.net/ao-ashi/2/"
         ]
       },
       {
@@ -11755,8 +11733,8 @@
         "series": "https://jkanime.net/hikari-no-ou/",
         "title": "Hikari no Ou",
         "samples": [
-          "https://jkanime.net/hikari-no-ou/13/",
-          "https://jkanime.net/hikari-no-ou/17/"
+          "https://jkanime.net/hikari-no-ou/17/",
+          "https://jkanime.net/hikari-no-ou/18/"
         ]
       },
       {
@@ -21488,7 +21466,7 @@
         "title": "Cinderella Girls Gekijou",
         "samples": [
           "https://jkanime.net/cinderella-girls-gekijou/11/",
-          "https://jkanime.net/cinderella-girls-gekijou/4/"
+          "https://jkanime.net/cinderella-girls-gekijou/5/"
         ]
       },
       {
@@ -21977,13 +21955,6 @@
         "title": "Monster Strike: Zoku Saishuu-banashi - Pandora no Hako",
         "samples": [
           "https://jkanime.net/monster-strike-zoku-saishuu-banashi-pandora-no-hako/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/",
-        "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
-        "samples": [
-          "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/1/"
         ]
       },
       {
@@ -24035,8 +24006,8 @@
         "series": "https://jkanime.net/digimon-adventure-tri/",
         "title": "Digimon Adventure tri",
         "samples": [
-          "https://jkanime.net/digimon-adventure-tri/11/",
-          "https://jkanime.net/digimon-adventure-tri/12/"
+          "https://jkanime.net/digimon-adventure-tri/12/",
+          "https://jkanime.net/digimon-adventure-tri/13/"
         ]
       },
       {
@@ -25467,13 +25438,6 @@
         "samples": [
           "https://jkanime.net/shirobako-ova/1/",
           "https://jkanime.net/shirobako-ova/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
-        "title": "Hoozuki no Reitetsu OVA",
-        "samples": [
-          "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
         ]
       },
       {
@@ -33295,8 +33259,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/22/",
-          "https://jkanime.net/07-ghost/23/"
+          "https://jkanime.net/07-ghost/23/",
+          "https://jkanime.net/07-ghost/3/"
         ]
       },
       {
@@ -33430,7 +33394,6 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/12/",
           "https://jkanime.net/asura-cryin/13/"
         ]
       },
@@ -37763,7 +37726,8 @@
         "series": "https://jkanime.net/inuyasha/",
         "title": "InuYasha",
         "samples": [
-          "https://jkanime.net/inuyasha/47/"
+          "https://jkanime.net/inuyasha/1/",
+          "https://jkanime.net/inuyasha/10/"
         ]
       },
       {
@@ -38490,8 +38454,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/37/",
-          "https://jkanime.net/taiho-shichau-zo/38/"
+          "https://jkanime.net/taiho-shichau-zo/38/",
+          "https://jkanime.net/taiho-shichau-zo/39/"
         ]
       },
       {
@@ -41014,13 +40978,6 @@
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
           "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/",
-        "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
-        "samples": [
-          "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/1/"
         ]
       },
       {
@@ -44259,17 +44216,16 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 21,
+      "stored": 22,
       "missing": [
-        "https://jkanime.net/ao-ashi/13/",
         "https://jkanime.net/ao-ashi/19/",
         "https://jkanime.net/ao-ashi/2/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
-        "mega": 20,
+        "mega": 21,
         "mp4upload": 1,
         "vidhide": 1
       },
@@ -66531,18 +66487,17 @@
         "renewal-error"
       ],
       "observed": 20,
-      "stored": 16,
+      "stored": 17,
       "missing": [
-        "https://jkanime.net/hikari-no-ou/13/",
         "https://jkanime.net/hikari-no-ou/17/",
         "https://jkanime.net/hikari-no-ou/18/",
         "https://jkanime.net/hikari-no-ou/19/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
-        "mega": 15,
+        "mega": 16,
         "streamwish": 9,
         "vidhide": 9,
         "mp4upload": 10,
@@ -94679,17 +94634,16 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 10,
+      "stored": 11,
       "missing": [
         "https://jkanime.net/cinderella-girls-gekijou/11/",
-        "https://jkanime.net/cinderella-girls-gekijou/4/",
         "https://jkanime.net/cinderella-girls-gekijou/5/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -96135,20 +96089,16 @@
     {
       "series": "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/",
       "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -102062,9 +102012,8 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 5,
+      "stored": 6,
       "missing": [
-        "https://jkanime.net/digimon-adventure-tri/11/",
         "https://jkanime.net/digimon-adventure-tri/12/",
         "https://jkanime.net/digimon-adventure-tri/13/",
         "https://jkanime.net/digimon-adventure-tri/14/",
@@ -102090,7 +102039,7 @@
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
-        "mega": 5,
+        "mega": 6,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -106387,20 +106336,15 @@
     {
       "series": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
       "title": "Hoozuki no Reitetsu OVA",
-      "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 3,
-      "stored": 2,
-      "missing": [
-        "https://jkanime.net/hoozuki-no-reitetsu-ova/3/"
-      ],
+      "stored": 3,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 2
+        "mega": 3
       },
       "playbackVerified": false
     },
@@ -128669,17 +128613,16 @@
         "renewal-error"
       ],
       "observed": 25,
-      "stored": 22,
+      "stored": 23,
       "missing": [
-        "https://jkanime.net/07-ghost/22/",
         "https://jkanime.net/07-ghost/23/",
         "https://jkanime.net/07-ghost/3/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
-        "mega": 22
+        "mega": 23
       },
       "playbackVerified": false
     },
@@ -129033,16 +128976,15 @@
         "renewal-error"
       ],
       "observed": 13,
-      "stored": 11,
+      "stored": 12,
       "missing": [
-        "https://jkanime.net/asura-cryin/12/",
         "https://jkanime.net/asura-cryin/13/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 11
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -141162,19 +141104,16 @@
       "series": "https://jkanime.net/inuyasha/",
       "title": "InuYasha",
       "causes": [
-        "observed-chapters-without-options",
         "renewal-error"
       ],
       "observed": 167,
-      "stored": 166,
-      "missing": [
-        "https://jkanime.net/inuyasha/47/"
-      ],
+      "stored": 167,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 166,
+      "renewalFailed": 165,
       "families": {
-        "mega": 166,
+        "mega": 167,
         "streamwish": 165,
         "vidhide": 165,
         "mp4upload": 165,
@@ -143350,9 +143289,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 31,
+      "stored": 32,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/37/",
         "https://jkanime.net/taiho-shichau-zo/38/",
         "https://jkanime.net/taiho-shichau-zo/39/",
         "https://jkanime.net/taiho-shichau-zo/40/",
@@ -143381,7 +143319,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 30,
+        "mp4upload": 31,
         "streamtape": 3
       },
       "playbackVerified": false
