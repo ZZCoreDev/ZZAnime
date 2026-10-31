@@ -5,7 +5,7 @@ are kept in extra-state, never in the root state, so root records and their date
 /extra/channel.json mirrors the root channel (same key, index, immutable shards); each chapter carries
 `options: []` and `extraOptions`. Installed apps never read it."""
 from pathlib import Path
-import copy,gzip,json,time
+import copy,gzip,json,re,time
 from archive_state import load,save,merge,stamp
 import extra_options
 FOLDER='extra-state'
@@ -32,8 +32,14 @@ def build(state,now,dead,sha,raw,titles=None):
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
   if not listing or url not in listing.get('episodes',[]) or not ep.get('complete') or now.timestamp()-stamp(ep.get('observedAt'))<0:continue
-  extra=extra_options.build(ep,dead,set(),sha)
-  if extra:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':[],'extraOptions':extra})
+  # mxdrop.click MixDrop (from mixdroop.bz) is a regular option for every app; /extra/ readers get it in options.
+  ep=extra_options.promote(ep);seen=set();options=[]
+  for p in ep.get('providers',[]):
+   for link in p.get('links',[]):
+    k=sha((p['name']+'\0'+link).encode())
+    if p.get('family')=='mixdrop' and re.fullmatch(r'https://mxdrop\.click/e/[A-Za-z0-9]{4,40}',link) and k not in dead and k not in seen:seen.add(k);options.append({'family':'mixdrop','name':p['name'],'url':link})
+  extra=extra_options.build(ep,dead,seen,sha)
+  if extra or options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'extraOptions':extra} if extra else {})})
  index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'series':{},'feed':{'schema':1,'episodes':[]}};files={}
  for parent,eps in sorted(rows.items()):
   listing=state['listings'][parent]

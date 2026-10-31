@@ -12,7 +12,8 @@ DEAD={'mp4upload':lambda s,b:s==200 and b.strip()=='File was deleted',
  'voe':lambda s,b:s==404 and '<title>404 - Not found</title>' in b,
  # MEGA's public API: -9 no such file, -16 taken down; an existing file returns its size and attributes.
  'mega':lambda s,b:s==200 and b.strip() in ('[-9]','[-16]','-9','-16'),
- 'yourupload':lambda s,b:s==404}
+ # 31/10/2026: a deleted file can also answer 200 with «Content Invalid» / «File does not exist on backend».
+ 'yourupload':lambda s,b:s==404 or (s==200 and len(b)<20000 and 'File does not exist on backend' in b and 'Content Invalid' in b)}
 ALIVE={'mp4upload':lambda s,b:s==200 and 'player.src(' in b and 'video/mp4' in b,
  'streamwish':lambda s,b:s==200 and 'jwplayer' in b and 'eval(function(p,a,c,k,e,d)' in b,
  'vidhide':lambda s,b:s==200 and 'jwplayer' in b and 'eval(function(p,a,c,k,e,d)' in b,
@@ -80,6 +81,17 @@ def candidates(folder,now,rules):
    for x in (ep or {}).get('downloads',[]):
     link,name=x.get('url',''),x.get('name','Mega')
     if x.get('family')=='mega' and target('mega',link,rules):out[sha((name+'\0'+link).encode())]={'family':'mega','name':name,'url':link,'episode':url,'download':True}
+ # extra-state holds few series (new families only) and their servers are the only ones those chapters have:
+ # check all of them, any age, not just this week's news.
+ extra_root=Path(folder)/'extra-state'
+ if (extra_root/'observations.json').exists():
+  from archive_state import load as load_all
+  extra=load_all(extra_root)
+  for url,ep in extra['episodes'].items():
+   if not rules.get('enabled') and url not in rules['proof']:continue
+   for p in ep.get('extraProviders',[]):
+    for link in p.get('links',[]):
+     if target(p.get('family'),link,rules):out.setdefault(sha((p['name']+'\0'+link).encode()),{'family':p['family'],'name':p['name'],'url':link,'episode':url})
  # Links that two devices reported as not playing (help Worker), any age: checked first, judged as usual.
  reports=Path(folder)/'dead-reports.json'
  if rules.get('enabled') and reports.exists():

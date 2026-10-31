@@ -2,7 +2,7 @@ import base64,copy,datetime,gzip,json,os,tempfile,unittest,urllib.error
 from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
-from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_retry_deadlines,repair_verified_identities,health_report,DAY
+from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_verified_identities,health_report,DAY
 from incident_diagnostics import fair_retries,report as diagnostic_report
 
 class RenewalTests(unittest.TestCase):
@@ -51,10 +51,9 @@ class RenewalTests(unittest.TestCase):
             folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
             with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',side_effect=[Response([]),Response([{'status':'pending'}])]) as call:continue_if_due(folder)
             self.assertEqual(call.call_count,2);self.assertTrue(all(r.args[0].get_method()=='GET' for r in call.call_args_list))
-    def test_expired_retry_is_not_postponed_forever(self):
+    def test_old_chapter_retry_is_not_pulled_forward(self):
         now,_,url,state=self.fixture(8);failed={url:{'retryAt':now.timestamp()+900}}
-        self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),0)
-        self.assertEqual(select(state,failed,now.timestamp()+901,2),[url])
+        self.assertEqual(select(state,failed,now.timestamp()+899,2),[]);self.assertEqual(select(state,failed,now.timestamp()+901,2),[url])
     def test_health_measures_wall_time_and_excludes_proof(self):
         now,_,_,state=self.fixture();instant=now.timestamp()
         with self.temporary() as temp:
@@ -65,16 +64,22 @@ class RenewalTests(unittest.TestCase):
                 h=health_report(folder,state,{},dict(status,runId=str(i),checkedAt=started,proof=False,renewed=100),instant)
             self.assertEqual(h['successfulCyclesMeasured'],3);self.assertEqual(h['measuredWallClockPerHour'],150)
             self.assertTrue((folder/'renewal-health.json').exists())
-    def test_retries_never_jump_beyond_expiry(self):
-        now,_,url,state=self.fixture(6.9);failed={url:{'attempts':30}}
+    def test_network_retry_ignores_age_and_keeps_short_backoff(self):
+        now,_,url,state=self.fixture(6.9);failed={url:{'attempts':30,'permanentAttempts':4,'diagnostic':{'flv':{'cause':'address-not-found'},'tio':{'cause':'address-not-found'}}}}
         record_failure(failed,url,'Source unavailable',now.timestamp(),state['episodes'][url]['observedAt'])
-        self.assertLess(failed[url]['retryAt'],stamp(state['episodes'][url]['observedAt'])+7*DAY)
-        self.assertGreater(failed[url]['retryAt'],now.timestamp())
-    def test_legacy_retry_repaired_without_changing_source_dates(self):
-        now,_,url,state=self.fixture(2);original=copy.deepcopy(state);old=now.timestamp()+7*DAY;failed={url:{'retryAt':old}}
-        self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),1);self.assertEqual(state,original)
-        self.assertEqual(failed[url]['previousRetryAt'],old);self.assertLessEqual(failed[url]['retryAt'],now.timestamp()+3600)
-        self.assertEqual(repair_retry_deadlines(state,failed,now.timestamp()),0)
+        self.assertEqual(failed[url]['retryAt'],now.timestamp()+6*3600);self.assertNotIn('permanentAttempts',failed[url]);self.assertEqual(failed[url]['diagnostic']['tio']['cause'],'address-not-found')
+    def test_gone_in_both_sources_waits_longer_up_to_seven_days(self):
+        now,_,url,state=self.fixture(6.9);failed={};t=now.timestamp();waits=[]
+        gone={'flv':{'cause':'address-not-found','status':404},'tio':{'cause':'identity-mismatch'},'jk':{'cause':'access-denied'}}
+        for _ in range(8):record_failure(failed,url,'Source HTTP 404',t,state['episodes'][url]['observedAt'],gone);waits.append(failed[url]['retryAt']-t)
+        self.assertEqual(waits,[h*3600 for h in (6,12,24,48,96)]+[7*DAY]*3);self.assertEqual(failed[url]['permanentAttempts'],8)
+    def test_one_source_still_alive_keeps_short_backoff(self):
+        now,_,url,state=self.fixture();failed={};t=now.timestamp()
+        for tio in ('no-approved-provider','unlisted-episode',None):
+            diag={'flv':{'cause':'address-not-found'}};
+            if tio:diag['tio']={'cause':tio}
+            record_failure(failed,url,'Source HTTP 404',t,'',diag)
+            self.assertLessEqual(failed[url]['retryAt']-t,6*3600);self.assertNotIn('permanentAttempts',failed[url])
     def test_repeated_failures_do_not_starve_unchecked_chapters(self):
         now,parent,url,state=self.fixture();failed={}
         for n in range(1,17):

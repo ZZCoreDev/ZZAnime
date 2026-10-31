@@ -46,5 +46,25 @@ class ExtraOptionsTests(unittest.TestCase):
     for n,b in {**files,'channel.json':run.raw({'payload':payload.decode(),'signature':key_.sign(payload,padding.PKCS1v15(),hashes.SHA256()).hex()})}.items():run.put(site/n,b)
     results.append(json.loads(run.command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(site),str(public),str(root/('cache'+str(len(results))))])))
   self.assertEqual(results[0],results[1])
+ def test_mixdroop_becomes_regular_mixdrop_on_mxdrop_click(self):
+  ep=state(self.now)['episodes'][URL];before=json.dumps(ep,sort_keys=True);out=extra_options.promote(ep)
+  self.assertEqual(json.dumps(ep,sort_keys=True),before)
+  self.assertIn({'name':'MixDrop','family':'mixdrop','links':['https://mxdrop.click/e/abcd1234']},out['providers'])
+  self.assertEqual(out['extraProviders'],[{'name':'YourUpload','family':'yourupload','links':[YU]},{'name':'MixDrop','family':'mixdrop','links':['https://evil.example/e/abcd']}])
+  self.assertIsNone(extra_options.direct('https://mixdroop.bz/f/abcd1234'));self.assertIsNone(extra_options.direct('https://mixdroop.bz.evil.example/e/abcd1234'))
+  self.assertEqual(extra_options.direct('https://www.mixdroop.bz/e/abcd1234'),'https://mxdrop.click/e/abcd1234')
+  self.assertIs(extra_options.promote({'providers':[],'extraProviders':[{'name':'YourUpload','family':'yourupload','links':[YU]}]})['extraProviders'][0]['links'][0],YU)
+  # Once the collector already sends the mxdrop.click provider, nothing is duplicated.
+  again=extra_options.promote({**ep,'providers':out['providers']})
+  self.assertEqual(sum(l=='https://mxdrop.click/e/abcd1234' for p in again['providers'] for l in p['links']),1)
+ def test_promoted_mixdrop_passes_the_installed_validator_and_becomes_an_option(self):
+  ep=extra_options.promote(state(self.now)['episodes'][URL]);s={'episodes':{URL:ep},'listings':state(self.now)['listings']}
+  with tempfile.TemporaryDirectory() as t:
+   cp=run.compile_java(Path(t)/'c');q={key(p['name'],l):{'name':p['name'],'url':l} for p in ep['providers'] for l in p['links']}
+   approved={r['key']:r['approved'] for r in map(json.loads,run.command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in q.values())).splitlines())}
+  self.assertTrue(approved[key('MixDrop','https://mxdrop.click/e/abcd1234')])
+  index,files=run.build(s,approved,self.now);e=episodes(files)[0]
+  self.assertIn({'family':'mixdrop','name':'MixDrop','url':'https://mxdrop.click/e/abcd1234'},e['options'])
+  self.assertFalse(any('mixdroop.bz' in x['url'] for x in e.get('extraOptions',[])))
 
 if __name__=='__main__':unittest.main()

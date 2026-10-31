@@ -12,7 +12,7 @@ function record(detail,episode,row,number,policy,proof=false){
  for(const video of array(episode,'videos')){
   if(!Array.isArray(video)||typeof video[0]!=='string'||typeof video[1]!=='string')continue;
   const name=r.canonical(video[0]),family=r.family(name);if(!family){const x=r.extra(name,video[1]);if(x)extraProviders.push(x);held.push('unapproved-family');continue;}
-  const link=r.embed(video[1],policy[family]||[]);if(!link){const x=r.extra(name,video[1]);if(x)extraProviders.push(x);held.push('unapproved-origin');continue;}
+  const link=r.embed(r.direct(name,video[1]),policy[family]||[]);if(!link){const x=r.extra(name,video[1]);if(x)extraProviders.push(x);held.push('unapproved-origin');continue;}
   providers.push({name,family,links:[link],playbackVerified:false});
  }
  if(!providers.length)throw Error('No existing app-approved provider family');

@@ -159,6 +159,9 @@ def main():
    for url in seed['recent']:
     if state.get('newsSeen',{}).get(url)==observed:state['newsSeen'].pop(url)
    state['recentSeedHash']='removed';save_observations(D,state,set())
+ # In memory only, never saved: mixdroop.bz extras become regular MixDrop options on mxdrop.click.
+ import extra_options
+ state['episodes']={u:extra_options.promote(ep) for u,ep in state['episodes'].items()}
  with tempfile.TemporaryDirectory() as tmp:
   tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
   for ep in state['episodes'].values():

@@ -61,25 +61,25 @@ def select(state,failures,now,limit,include_missing=False):
         if repair_queue:ordered.append(repair_queue.popleft())
     return [url for _,url in ordered]
 
-def record_failure(failures,url,reason,now,observed,diagnostic=None):
-    count=failures.get(url,{}).get('attempts',0)+1
-    delay=min(6*3600,900*2**min(count,8));observed_stamp=stamp(observed)
-    if observed_stamp>=0:
-        remaining=observed_stamp+7*DAY-now;delay=min(delay,remaining/3) if remaining>0 else 900
-    previous=failures.get(url,{}).get('diagnostic')
-    failures[url]={'attempts':count,'lastAttempt':now,'retryAt':now+delay,'reason':str(reason)[:160]}
-    if diagnostic or previous:failures[url]['diagnostic']=diagnostic or previous
+# Nothing expires any more: no retry is pulled forward by a 7-day deadline.
+# A chapter that both sources report as gone (404) or as another title waits
+# longer each time, up to 7 days; anything else keeps the short network backoff.
+PERMANENT_CAUSES={'address-not-found','identity-mismatch'}
+PERMANENT_SOURCES=('flv','tio')
+MAX_WAIT=7*DAY
 
-def repair_retry_deadlines(state,failures,now):
-    repaired=0
-    for url,row in failures.items():
-        ep=state['episodes'].get(url)
-        if not ep:continue
-        deadline=stamp(ep.get('observedAt'))+7*DAY
-        if row.get('retryAt',0)>deadline and row.get('retryAt',0)>now and (deadline>now or row['retryAt']>now+3600):
-            row.setdefault('previousRetryAt',row['retryAt']);remaining=deadline-now
-            row['retryAt']=now+(min(3600,remaining/3) if remaining>0 else 900);repaired+=1
-    return repaired
+def permanent(diagnostic):
+    return isinstance(diagnostic,dict) and all(isinstance(diagnostic.get(s),dict) and diagnostic[s].get('cause') in PERMANENT_CAUSES for s in PERMANENT_SOURCES)
+
+def record_failure(failures,url,reason,now,observed,diagnostic=None):
+    previous_row=failures.get(url,{});count=previous_row.get('attempts',0)+1
+    # Only the diagnosis of this attempt counts: a network error keeps the old diagnosis but not the long wait.
+    streak=previous_row.get('permanentAttempts',0)+1 if permanent(diagnostic) else 0
+    delay=min(MAX_WAIT,6*3600*2**(streak-1)) if streak else min(6*3600,900*2**min(count,8))
+    previous=previous_row.get('diagnostic')
+    failures[url]={'attempts':count,'lastAttempt':now,'retryAt':now+delay,'reason':str(reason)[:160]}
+    if streak:failures[url]['permanentAttempts']=streak
+    if diagnostic or previous:failures[url]['diagnostic']=diagnostic or previous
 
 def health_report(folder,state,failures,status,now):
     ages={url:now-stamp(ep.get('observedAt')) for url,ep in state['episodes'].items()}
@@ -210,7 +210,6 @@ def main():
         return
     if not args.proof and args.publish:check_news(folder)
     state=load(folder);failure_path=folder/'renewal-failures.json';failures=json.loads(failure_path.read_bytes()) if failure_path.exists() else {};instant=time.time()
-    repaired=repair_retry_deadlines(state,failures,instant)
     identities_repaired=repair_verified_identities(state,failures,instant)
     proof_targets=json.loads(Path(__file__).with_name('observed-token-policy.json').read_bytes())['proof'] if args.sample_group=='observed-token' else INCIDENT_PROOF if args.sample_group=='verified-year' else PROOF
     targets=proof_targets if args.proof else select(state,failures,instant,MAX_EPISODES,include_missing=True)
@@ -219,7 +218,6 @@ def main():
         extras=due_targets(folder,failures,instant,MAX_EPISODES//4);targets=list(dict.fromkeys(extras+targets))[:MAX_EPISODES]
     if args.proof and any(url not in state['episodes'] for url in targets):raise ValueError('Proof requires two existing real observations')
     status={'state':'running','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requested':len(targets),'renewed':0,'attempted':0,'repairAttempts':0,'earlyRepairAttempts':0,'failed':len(failures),'datesInvented':False,'pcRequired':False,'aiCalls':0,'trigger':os.environ.get('GITHUB_EVENT_NAME','local'),'runId':os.environ.get('GITHUB_RUN_ID','')}
-    status['retryDeadlinesRepaired']=repaired
     status['proof']=args.proof
     status['identityRetriesReleased']=identities_repaired
     publish=False;runtime=None

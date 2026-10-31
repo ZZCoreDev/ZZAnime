@@ -41,5 +41,13 @@ class ExtraChannelTests(unittest.TestCase):
    row=json.loads(gzip.decompress(files['extra/'+next(iter(index['series'].values()))['path']]))
    self.assertEqual([(e['url'],e['options'],[o['url'] for o in e['extraOptions']]) for e in row['episodes']],[(ONLY,[],[YU]),(VOE,[],[YU])])
    self.assertEqual(extra_channel.render(d,self.now,key,{run.sha(('YourUpload\0'+YU).encode())}),{})  # all dead: nothing to publish
+ def test_extra_channel_gives_mixdroop_as_mxdrop_click_option(self):
+  import datetime,extra_channel,gzip,json,run
+  now=datetime.datetime.now(datetime.timezone.utc);url='https://jkanime.net/heine/1/';parent='https://jkanime.net/heine/'
+  st={'episodes':{url:{'complete':True,'observedAt':now.isoformat(),'providers':[],'extraProviders':[{'name':'MixDrop','family':'mixdrop','links':['https://mixdroop.bz/e/abcd1234']}]}},'listings':{parent:{'complete':True,'observedAt':now.isoformat(),'episodes':[url]}}}
+  index,files=extra_channel.build(st,now,set(),run.sha,run.raw);e=json.loads(gzip.decompress(next(iter(files.values()))))['episodes'][0]
+  self.assertEqual(e['options'],[{'family':'mixdrop','name':'MixDrop','url':'https://mxdrop.click/e/abcd1234'}]);self.assertNotIn('extraOptions',e)
+  dead={run.sha(('MixDrop\0https://mxdrop.click/e/abcd1234').encode())}
+  self.assertEqual(extra_channel.build(st,now,dead,run.sha,run.raw)[0]['series'],{})
 
 if __name__=='__main__':unittest.main()

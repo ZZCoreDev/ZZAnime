@@ -130,4 +130,18 @@ class LinkHealthTests(unittest.TestCase):
    approved={'a':True,'b':True}
    with patch.object(link_health,'policy',return_value={'enabled':False,'proof':[ROOT]}):link_health.exclude(d,approved)
    self.assertEqual(approved,{'a':True,'b':False})
+ def test_yourupload_backend_missing_page_reads_deleted(self):
+  # Shape reported 31/10/2026 for yourupload.com/embed/Ikj25M0P5DOF: 200 with an error page, no player.
+  body='<html><head><title>Content Invalid</title></head><body><h1>Content Invalid</h1><p>File does not exist on backend</p></body></html>'
+  self.assertEqual(link_health.classify('yourupload',200,body),'dead');self.assertEqual(link_health.classify('yourupload',404,''),'dead')
+  self.assertEqual(link_health.classify('yourupload',200,'<p>File does not exist on backend</p>'),'unknown')
+  self.assertEqual(link_health.classify('yourupload',503,body),'unknown')
+ def test_extra_state_links_are_candidates_at_any_age(self):
+  with tempfile.TemporaryDirectory() as d:
+   world(d);old='https://jkanime.net/oushitsu-kyoushi-heine-movie/1/';yu='https://www.yourupload.com/embed/Ikj25M0P5DOF'
+   side=Path(d)/'extra-state';side.mkdir()
+   (side/'observations.json').write_text(json.dumps({'schema':1,'episodes':{old:{'complete':True,'observedAt':iso(datetime.timedelta(days=40)),'providers':[],'extraProviders':[{'family':'yourupload','name':'YourUpload','links':[yu]},{'family':'mixdrop','name':'MixDrop','links':['https://mixdroop.bz/e/abcd1234']}]}},'listings':{old.rsplit('/',2)[0]+'/':{'complete':True,'observedAt':iso(datetime.timedelta(days=40)),'episodes':[old]}},'pending':[]}),encoding='utf-8')
+   found=link_health.candidates(d,datetime.datetime.now(datetime.timezone.utc).timestamp(),link_health.policy())
+   self.assertEqual(found[key('YourUpload',yu)],{'family':'yourupload','name':'YourUpload','url':yu,'episode':old})
+   self.assertTrue(any(v['url']==DEAD_MP4 for v in found.values()))
 if __name__=='__main__':unittest.main()
