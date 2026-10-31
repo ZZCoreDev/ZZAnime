@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-10-31T07:31:24.408069+00:00",
-  "episodes": 72381,
-  "oldestHours": 115.21,
-  "pending": 61298,
+  "checkedAt": "2026-10-31T07:45:12.307300+00:00",
+  "episodes": 72384,
+  "oldestHours": 115.44,
+  "pending": 61059,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 111,
-  "sampleMinutes": 1435.37,
-  "measuredWallClockPerHour": 419.52,
-  "estimatedSweepDays": 7.19,
+  "sampleMinutes": 1435.65,
+  "measuredWallClockPerHour": 429.0,
+  "estimatedSweepDays": 7.03,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 25,
+      "fresh": 26,
       "pendingFailures": 0,
-      "state": "pending"
+      "state": "complete"
     },
     "https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/": {
       "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
@@ -34,11 +34,11 @@
     "pendingSeries": 16
   },
   "coverage": {
-    "checkedAt": "2026-10-31T07:31:24.408069+00:00",
+    "checkedAt": "2026-10-31T07:45:12.307300+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73794,
-    "storedChapters": 72381,
-    "missingChapters": 1413,
+    "storedChapters": 72384,
+    "missingChapters": 1410,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
