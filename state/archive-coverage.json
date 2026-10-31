@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T19:38:14.591297+00:00",
+  "checkedAt": "2026-10-31T19:54:27.546154+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73834,
-  "storedChapters": 72538,
-  "missingChapters": 1296,
+  "observedChapters": 73835,
+  "storedChapters": 72540,
+  "missingChapters": 1295,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -3481,8 +3481,8 @@
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
         "title": "Yozakura-san Chi no Daisakusen",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/19/",
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/20/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/20/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/21/"
         ]
       },
       {
@@ -21242,8 +21242,8 @@
         "series": "https://jkanime.net/dragon-ball-kai-2014/",
         "title": "Dragon Ball Kai (2014)",
         "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/17/",
-          "https://jkanime.net/dragon-ball-kai-2014/18/"
+          "https://jkanime.net/dragon-ball-kai-2014/18/",
+          "https://jkanime.net/dragon-ball-kai-2014/19/"
         ]
       },
       {
@@ -21322,8 +21322,8 @@
         "series": "https://jkanime.net/abarenbou-kishi-matsutarou/",
         "title": "Abarenbou Kishi!! Matsutarou",
         "samples": [
-          "https://jkanime.net/abarenbou-kishi-matsutarou/16/",
-          "https://jkanime.net/abarenbou-kishi-matsutarou/17/"
+          "https://jkanime.net/abarenbou-kishi-matsutarou/17/",
+          "https://jkanime.net/abarenbou-kishi-matsutarou/18/"
         ]
       },
       {
@@ -21378,8 +21378,8 @@
         "series": "https://jkanime.net/blade-and-soul/",
         "title": "Blade and Soul",
         "samples": [
-          "https://jkanime.net/blade-and-soul/10/",
-          "https://jkanime.net/blade-and-soul/11/"
+          "https://jkanime.net/blade-and-soul/11/",
+          "https://jkanime.net/blade-and-soul/12/"
         ]
       },
       {
@@ -22195,8 +22195,8 @@
         "series": "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/",
         "title": "Phi Brain: Kami no Puzzle 3rd Season",
         "samples": [
-          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/13/",
-          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/14/"
+          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/14/",
+          "https://jkanime.net/phi-brain-kami-no-puzzle-3rd-season/15/"
         ]
       },
       {
@@ -22751,7 +22751,6 @@
         "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
         "title": "Danganronpa: The Animation",
         "samples": [
-          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/12/",
           "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/13/"
         ]
       },
@@ -22782,7 +22781,6 @@
         "series": "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/",
         "title": "Stella Jogakuin Koutou-ka C³-bu",
         "samples": [
-          "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/12/",
           "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/13/"
         ]
       },
@@ -23374,13 +23372,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sasami-san-ganbaranai/",
-        "title": "Sasami-san@Ganbaranai",
-        "samples": [
-          "https://jkanime.net/sasami-san-ganbaranai/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/vividred-operation/",
         "title": "Vividred Operation",
         "samples": [
@@ -23837,8 +23828,8 @@
         "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
         "title": "Yu-Gi-Oh! Zexal Second",
         "samples": [
-          "https://jkanime.net/yu-gi-oh-zexal-second/10/",
-          "https://jkanime.net/yu-gi-oh-zexal-second/11/"
+          "https://jkanime.net/yu-gi-oh-zexal-second/11/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/12/"
         ]
       },
       {
@@ -24169,8 +24160,8 @@
         "series": "https://jkanime.net/kyoukai-senjou-no-horizon-2/",
         "title": "Kyoukai Senjou no Horizon II",
         "samples": [
-          "https://jkanime.net/kyoukai-senjou-no-horizon-2/10/",
-          "https://jkanime.net/kyoukai-senjou-no-horizon-2/11/"
+          "https://jkanime.net/kyoukai-senjou-no-horizon-2/11/",
+          "https://jkanime.net/kyoukai-senjou-no-horizon-2/12/"
         ]
       },
       {
@@ -24664,7 +24655,6 @@
         "series": "https://jkanime.net/black-rock-shooter/",
         "title": "Black★Rock Shooter (TV)",
         "samples": [
-          "https://jkanime.net/black-rock-shooter/7/",
           "https://jkanime.net/black-rock-shooter/8/"
         ]
       },
@@ -35760,8 +35750,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/4/",
-          "https://jkanime.net/tribe-cool-crew/40/"
+          "https://jkanime.net/tribe-cool-crew/40/",
+          "https://jkanime.net/tribe-cool-crew/41/"
         ]
       },
       {
@@ -38279,6 +38269,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/seitokai-ni-mo-ana-wa-aru/",
+        "title": "Seitokai ni mo Ana wa Aru!",
+        "samples": [
+          "https://jkanime.net/seitokai-ni-mo-ana-wa-aru/5/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/magical-explorer/",
         "title": "Magical★Explorer",
         "samples": [
@@ -38290,13 +38287,6 @@
         "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
         "samples": [
           "https://jkanime.net/kashita-maryoku-wa-revo-barai-de-kyousei-choushuu/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/black-clover-2nd-season/",
-        "title": "Black Clover 2nd Season",
-        "samples": [
-          "https://jkanime.net/black-clover-2nd-season/5/"
         ]
       },
       {
@@ -57300,7 +57290,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -107244,9 +107234,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 33,
+      "stored": 34,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/4/",
         "https://jkanime.net/tribe-cool-crew/40/",
         "https://jkanime.net/tribe-cool-crew/41/",
         "https://jkanime.net/tribe-cool-crew/42/",
@@ -107268,7 +107257,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 33,
+        "streamwish": 34,
         "mega": 8
       },
       "playbackVerified": false
@@ -109716,7 +109705,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 45,
+      "renewalFailed": 44,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -109926,7 +109915,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 23,
         "streamwish": 23,
@@ -110073,13 +110062,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 13,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "streamwish": 3,
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -112611,7 +112600,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -114191,13 +114180,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 13,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "streamwish": 1,
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -114273,7 +114262,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -116113,21 +116102,19 @@
     {
       "series": "https://jkanime.net/sasami-san-ganbaranai/",
       "title": "Sasami-san@Ganbaranai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 8,
+        "mega": 7,
         "streamwish": 12,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -117530,7 +117517,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 64,
+      "renewalFailed": 63,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -118582,7 +118569,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -119234,7 +119221,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -119403,7 +119390,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -119445,7 +119432,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -119880,7 +119867,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 11,
         "streamwish": 11,
@@ -120000,7 +119987,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 8,
         "streamwish": 8,
@@ -120915,7 +120902,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -121729,7 +121716,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -121838,7 +121825,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -122339,7 +122326,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -122650,7 +122637,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -124193,7 +124180,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -143907,10 +143894,14 @@
     {
       "series": "https://jkanime.net/seitokai-ni-mo-ana-wa-aru/",
       "title": "Seitokai ni mo Ana wa Aru!",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/seitokai-ni-mo-ana-wa-aru/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -144072,20 +144063,17 @@
     {
       "series": "https://jkanime.net/black-clover-2nd-season/",
       "title": "Black Clover 2nd Season",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 5,
-      "stored": 4,
-      "missing": [
-        "https://jkanime.net/black-clover-2nd-season/5/"
-      ],
+      "stored": 5,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 1
+        "mp4upload": 5,
+        "streamwish": 2,
+        "vidhide": 1
       },
       "playbackVerified": false
     },
