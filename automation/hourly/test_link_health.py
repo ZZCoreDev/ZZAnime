@@ -67,6 +67,20 @@ class LinkHealthTests(unittest.TestCase):
    web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
    s=link_health.check(d,now=now,limit=1,fetcher=web,sleep=lambda s:None)
    self.assertEqual(sum(u in web.urls for u in reported),link_health.REPORTED_LIMIT);self.assertEqual(s['checked'],link_health.REPORTED_LIMIT+1)
+ def test_mega_downloads_are_checked_and_confirmed_deletions_leave_the_index(self):
+  mega='https://mega.nz/file/AbCd1234#'+'K'*43;now=datetime.datetime.now(datetime.timezone.utc)
+  with tempfile.TemporaryDirectory() as d:
+   world(d);p=Path(d)/'series-state'/(hashlib.sha256(ROOT.rsplit('/',2)[0].encode()+b'/').hexdigest()+'.json.gz');row=json.loads(gzip.decompress(p.read_bytes()))
+   row['episodes'][ROOT]['downloads']=[{'name':'Mega','family':'mega','url':mega}];p.write_bytes(gzip.compress(json.dumps(row).encode()))
+   found=link_health.candidates(d,now.timestamp(),link_health.policy());k=key('Mega',mega)
+   self.assertEqual((found[k]['family'],found[k].get('download')),('mega',True))
+   Path(d,'link-health.json').write_text(json.dumps({'schema':1,'links':{k:{'excluded':True,'episode':ROOT}},'controls':{},'canaries':{}}))
+   self.assertEqual(link_health.excluded_keys(d),{k})
+  link='https://www.mp4upload.com/embed-a.html';state={'episodes':{ROOT:{'episode':ROOT,'complete':True,'observedAt':now.isoformat(),'providers':[{'name':'Mp4upload','family':'mp4upload','links':[link]}],'downloads':[{'name':'Mega','family':'mega','url':mega}]}},'listings':{ROOT.rsplit('/',2)[0]+'/':{'complete':True,'observedAt':now.isoformat(),'episodes':[ROOT]}}}
+  approved={key('Mp4upload',link):True}
+  def downloads(dead):
+   _,files=run.build(state,approved,now,dead=dead);return json.loads(gzip.decompress(next(b for n,b in files.items() if n.startswith('series/'))))['episodes'][0].get('downloads')
+  self.assertEqual(downloads(set())[0]['url'],mega);self.assertIsNone(downloads({k}))
  def test_deletion_needs_two_checks_thirty_minutes_apart_then_leaves_both_channels(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
@@ -97,7 +111,7 @@ class LinkHealthTests(unittest.TestCase):
   def command(args,**kw):
    if args[0]=='javac':return ''
    return '\n'.join(json.dumps({'key':run.sha((q['name']+'\0'+q['url']).encode()),'approved':True}) for q in map(json.loads,kw['input'].splitlines()))
-  def build(state,approved,now,allow_voe=False,plays=None,marks=None):seen['voe' if allow_voe else 'root']=dict(approved);raise StopIteration
+  def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None):seen['voe' if allow_voe else 'root']=dict(approved);raise StopIteration
   with patch.object(run,'D',Path(folder)),patch.object(run,'command',side_effect=command),patch.object(run,'build',side_effect=build),patch('sys.argv',['run.py']):
    with self.assertRaises(StopIteration):run.main()
    with self.assertRaises(StopIteration):voe_channel.render(folder,datetime.datetime.now(datetime.timezone.utc),None,folder)

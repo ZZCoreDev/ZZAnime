@@ -39,7 +39,7 @@ def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
  command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java'),*([str(W/'VoeOverlayAudit.java')] if modern else [])])
  return str(runtime)+os.pathsep+cp
-def build(state,approved,now,allow_voe=False,plays=None,marks=None):
+def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None):
  rows={}
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/'
@@ -57,7 +57,7 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None):
     k=sha((provider['name']+'\0'+link).encode())
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
-  downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url',''))][:8]
+  downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url','')) and sha((x['name']+'\0'+x['url']).encode()) not in (dead or ())][:8]
   if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':options,**({'downloads':downloads} if downloads else {}),**{k:ep[k] for k in ['sourceEpisode','sourceSeries'] if k in ep}})
  recency={parent:max(e['observedAt'] for e in eps) for parent,eps in rows.items()}
  if len(rows)>APP_SERIES_LIMIT:
@@ -165,7 +165,8 @@ def main():
   exclude(D,approved)
   import plays as play_votes
   import skip_marks
-  index,files=build(state,approved,now,plays=play_votes.load(D),marks=skip_marks.load(D))
+  from link_health import excluded_keys
+  index,files=build(state,approved,now,plays=play_votes.load(D),marks=skip_marks.load(D),dead=excluded_keys(D))
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')

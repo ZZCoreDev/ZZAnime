@@ -71,6 +71,10 @@ def candidates(folder,now,rules):
    for p in (ep or {}).get('providers',[]):
     for link in p.get('links',[]):
      if target(p.get('family'),link,rules):out[sha((p['name']+'\0'+link).encode())]={'family':p['family'],'name':p['name'],'url':link,'episode':url}
+   # «Descargar en MEGA» links are checked like options; otherwise only renewal would ever refresh them.
+   for x in (ep or {}).get('downloads',[]):
+    link,name=x.get('url',''),x.get('name','Mega')
+    if x.get('family')=='mega' and target('mega',link,rules):out[sha((name+'\0'+link).encode())]={'family':'mega','name':name,'url':link,'episode':url,'download':True}
  # Links that two devices reported as not playing (help Worker), any age: checked first, judged as usual.
  reports=Path(folder)/'dead-reports.json'
  if rules.get('enabled') and reports.exists():
@@ -131,6 +135,12 @@ def check(folder,now=None,limit=6,pause=2.5,fetcher=fetch,sleep=time.sleep,budge
  summary.update(excluded=sum(1 for e in links.values() if e.get('excluded')),tracked=len(links),candidates=len(found),checkedAt=now,playbackVerified=False,aiCalls=0)
  health['last']=summary;path.write_text(json.dumps(health,sort_keys=True,separators=(',',':')),encoding='utf-8')
  return summary
+def excluded_keys(folder):
+ """Keys of confirmed deleted files (options or MEGA downloads), same policy scope as exclude()."""
+ path=Path(folder)/'link-health.json'
+ if not path.exists():return set()
+ rules=policy()
+ return {k for k,e in json.loads(path.read_bytes())['links'].items() if e.get('excluded') and (rules.get('enabled') or e.get('episode') in rules['proof'])}
 def exclude(folder,approved):
  """Withdraw confirmed deleted files from the signed channel; other options and records stay intact."""
  path=Path(folder)/'link-health.json'
