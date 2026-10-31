@@ -1,6 +1,6 @@
 {
   "renewal-error": {
-    "series": 4335,
+    "series": 4329,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -9,26 +9,6 @@
         "samples": [
           "https://jkanime.net/ao-ashi/21/",
           "https://jkanime.net/ao-ashi/22/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/megalo-box/",
-        "title": "Megalo Box",
-        "samples": [
-          "https://jkanime.net/megalo-box/12/"
-        ]
-      }
-    ]
-  },
-  "observed-chapters-without-options": {
-    "series": 741,
-    "twoSeriesProofRequired": true,
-    "samples": [
-      {
-        "series": "https://jkanime.net/megalo-box/",
-        "title": "Megalo Box",
-        "samples": [
-          "https://jkanime.net/megalo-box/12/"
         ]
       },
       {
@@ -41,8 +21,29 @@
       }
     ]
   },
+  "observed-chapters-without-options": {
+    "series": 737,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
+        "title": "Danmachi",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-ribbon-hero/",
+        "title": "The Ribbon Hero",
+        "samples": [
+          "https://jkanime.net/the-ribbon-hero/1/"
+        ]
+      }
+    ]
+  },
   "retained-redirect": {
-    "series": 607,
+    "series": 604,
     "twoSeriesProofRequired": true,
     "samples": [
       {
