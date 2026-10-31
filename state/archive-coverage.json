@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T05:02:48.107828+00:00",
+  "checkedAt": "2026-10-31T05:16:10.441064+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73776,
-  "storedChapters": 72352,
-  "missingChapters": 1424,
+  "storedChapters": 72354,
+  "missingChapters": 1422,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -597,7 +597,6 @@
         "series": "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru/",
         "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
         "samples": [
-          "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru/11/",
           "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru/12/"
         ]
       },
@@ -613,7 +612,6 @@
         "series": "https://jkanime.net/tensei-shitara-dragon-no-tamago-datta/",
         "title": "Tensei shitara Dragon no Tamago datta",
         "samples": [
-          "https://jkanime.net/tensei-shitara-dragon-no-tamago-datta/11/",
           "https://jkanime.net/tensei-shitara-dragon-no-tamago-datta/12/"
         ]
       },
@@ -18387,7 +18385,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/21/"
+          "https://jkanime.net/digimon-adventure-tri/22/"
         ]
       },
       {
@@ -32735,8 +32733,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/48/",
-          "https://jkanime.net/taiho-shichau-zo/49/"
+          "https://jkanime.net/taiho-shichau-zo/49/",
+          "https://jkanime.net/taiho-shichau-zo/5/"
         ]
       },
       {
@@ -35935,7 +35933,7 @@
         "title": "Digimon Adventure tri",
         "samples": [
           "https://jkanime.net/digimon-adventure-tri/16/",
-          "https://jkanime.net/digimon-adventure-tri/21/"
+          "https://jkanime.net/digimon-adventure-tri/22/"
         ]
       },
       {
@@ -38706,8 +38704,8 @@
         "series": "https://jkanime.net/taiho-shichau-zo/",
         "title": "Taiho Shichau zo",
         "samples": [
-          "https://jkanime.net/taiho-shichau-zo/48/",
-          "https://jkanime.net/taiho-shichau-zo/49/"
+          "https://jkanime.net/taiho-shichau-zo/49/",
+          "https://jkanime.net/taiho-shichau-zo/5/"
         ]
       },
       {
@@ -47046,7 +47044,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -47119,7 +47117,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 11,
         "streamwish": 11,
@@ -101231,10 +101229,9 @@
         "renewal-error"
       ],
       "observed": 26,
-      "stored": 14,
+      "stored": 15,
       "missing": [
         "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/21/",
         "https://jkanime.net/digimon-adventure-tri/22/",
         "https://jkanime.net/digimon-adventure-tri/23/",
         "https://jkanime.net/digimon-adventure-tri/24/",
@@ -101250,7 +101247,7 @@
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
-        "mega": 14,
+        "mega": 15,
         "streamwish": 3,
         "vidhide": 3,
         "mp4upload": 3,
@@ -140531,7 +140528,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "families": {
         "mega": 1
       },
@@ -142441,9 +142438,8 @@
         "renewal-error"
       ],
       "observed": 51,
-      "stored": 42,
+      "stored": 43,
       "missing": [
-        "https://jkanime.net/taiho-shichau-zo/48/",
         "https://jkanime.net/taiho-shichau-zo/49/",
         "https://jkanime.net/taiho-shichau-zo/5/",
         "https://jkanime.net/taiho-shichau-zo/50/",
@@ -142461,7 +142457,7 @@
         "streamwish": 4,
         "vidhide": 3,
         "mixdrop": 3,
-        "mp4upload": 41,
+        "mp4upload": 42,
         "streamtape": 3
       },
       "playbackVerified": false

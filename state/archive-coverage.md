@@ -1,6 +1,6 @@
 # Cobertura completa del respaldo
 
-{"checkedAt": "2026-10-31T05:02:48.107828+00:00", "catalogueSeries": 5053, "observedChapters": 73776, "storedChapters": 72352, "missingChapters": 1424, "expiredChapters": 0, "noIndependentChapters": 0, "seriesWithoutObservedListing": 51, "sourceRequests": 0, "aiCalls": 0, "playbackVerified": false}
+{"checkedAt": "2026-10-31T05:16:10.441064+00:00", "catalogueSeries": 5053, "observedChapters": 73776, "storedChapters": 72354, "missingChapters": 1422, "expiredChapters": 0, "noIndependentChapters": 0, "seriesWithoutObservedListing": 51, "sourceRequests": 0, "aiCalls": 0, "playbackVerified": false}
 
 Presencia de opciones no demuestra reproducción. Los títulos sin listado observado tienen disponibilidad desconocida; no se inventan capítulos.
 
