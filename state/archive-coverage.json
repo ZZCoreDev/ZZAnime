@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-31T17:47:57.053124+00:00",
+  "checkedAt": "2026-10-31T18:04:46.999268+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73833,
-  "storedChapters": 72526,
-  "missingChapters": 1307,
+  "storedChapters": 72529,
+  "missingChapters": 1304,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -92,13 +92,6 @@
         "title": "Sayonara Lara",
         "samples": [
           "https://jkanime.net/sayonara-lara/6/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
-        "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
-        "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/12/"
         ]
       },
       {
@@ -1253,13 +1246,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-        "title": "Tsuihousha Shokudou e Youkoso!",
-        "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ginga-tokkyuu-milkysubway/",
         "title": "Ginga Tokkyuu Milky☆Subway",
         "samples": [
@@ -1525,7 +1511,6 @@
         "series": "https://jkanime.net/classic-stars/",
         "title": "Classic★Stars",
         "samples": [
-          "https://jkanime.net/classic-stars/12/",
           "https://jkanime.net/classic-stars/13/"
         ]
       },
@@ -1767,13 +1752,6 @@
         "title": "Kinnikuman: Kanpeki Chоujin Shiso-hen Season 2",
         "samples": [
           "https://jkanime.net/kinnikuman-kanpeki-chujin-shiso-hen-season-2/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/bel-blatt/",
-        "title": "Übel Blatt",
-        "samples": [
-          "https://jkanime.net/bel-blatt/12/"
         ]
       },
       {
@@ -2466,13 +2444,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-        "title": "Kabushikigaisha Magi-Lumière",
-        "samples": [
-          "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/hamidashi-creative/",
         "title": "Hamidashi Creative",
         "samples": [
@@ -2507,8 +2478,8 @@
         "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
         "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
         "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/12/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/13/"
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/13/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/14/"
         ]
       },
       {
@@ -3220,13 +3191,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/code-geass-dakkan-no-roz/",
-        "title": "Code Geass: Dakkan no Rozé",
-        "samples": [
-          "https://jkanime.net/code-geass-dakkan-no-roz/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/suu-funkan-no-yell-wo/",
         "title": "Suu-funkan no Yell wo",
         "samples": [
@@ -3524,8 +3488,8 @@
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
         "title": "Yozakura-san Chi no Daisakusen",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/12/",
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/"
         ]
       },
       {
@@ -4630,13 +4594,6 @@
         "samples": [
           "https://jkanime.net/undead-unluck/1/",
           "https://jkanime.net/undead-unluck/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-        "title": "Kanojo mo Kanojo 2nd Season",
-        "samples": [
-          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/12/"
         ]
       },
       {
@@ -8489,13 +8446,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-        "title": "Komi-san wa, Comyushou desu.",
-        "samples": [
-          "https://jkanime.net/komi-san-wa-comyushou-desu/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/platinum-end/",
         "title": "Platinum End",
         "samples": [
@@ -8953,7 +8903,6 @@
         "series": "https://jkanime.net/d_cide-traumerei-the-animation/",
         "title": "D_Cide Traumerei the Animation",
         "samples": [
-          "https://jkanime.net/d_cide-traumerei-the-animation/12/",
           "https://jkanime.net/d_cide-traumerei-the-animation/13/"
         ]
       },
@@ -10128,13 +10077,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-        "title": "Otona no Bouguya-san II",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-ii/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
         "title": "Seitokai Yakuindomo Movie 2",
         "samples": [
@@ -10784,7 +10726,6 @@
         "series": "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/",
         "title": "Maou Gakuin no Futekigousha",
         "samples": [
-          "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/12/",
           "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/13/"
         ]
       },
@@ -14513,13 +14454,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mrchen-mdchen/",
-        "title": "Marchen Madchen",
-        "samples": [
-          "https://jkanime.net/mrchen-mdchen/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/violet-evergarden/",
         "title": "Violet Evergarden",
         "samples": [
@@ -15911,7 +15845,6 @@
         "series": "https://jkanime.net/granblue-fantasy-the-animation/",
         "title": "Granblue Fantasy The Animation",
         "samples": [
-          "https://jkanime.net/granblue-fantasy-the-animation/12/",
           "https://jkanime.net/granblue-fantasy-the-animation/13/"
         ]
       },
@@ -16647,7 +16580,6 @@
         "series": "https://jkanime.net/aooni-the-blue-monster/",
         "title": "Ao Oni The Animation",
         "samples": [
-          "https://jkanime.net/aooni-the-blue-monster/12/",
           "https://jkanime.net/aooni-the-blue-monster/13/"
         ]
       },
@@ -17494,7 +17426,6 @@
         "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
         "title": "Seisen Cerberus: Ryuukoku no Fatalités",
         "samples": [
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/12/",
           "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/13/"
         ]
       },
@@ -18899,13 +18830,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gatchamancrowds-insight/",
-        "title": "Gatchaman Crowds Insight",
-        "samples": [
-          "https://jkanime.net/gatchamancrowds-insight/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-super/",
         "title": "Dragon Ball Super",
         "samples": [
@@ -18951,20 +18875,6 @@
         "samples": [
           "https://jkanime.net/aquarion-logos/1/",
           "https://jkanime.net/aquarion-logos/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/gate/",
-        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
-        "samples": [
-          "https://jkanime.net/gate/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
-        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-        "samples": [
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/12/"
         ]
       },
       {
@@ -33684,13 +33594,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/uma-musume-cinderella-gray/",
-        "title": "Uma Musume: Cinderella Gray",
-        "samples": [
-          "https://jkanime.net/uma-musume-cinderella-gray/23/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/the-idolm-at-ster-shiny-colors-2nd-season-shhis/",
         "title": "The iDOLM@STER Shiny Colors 2nd Season: SHHis",
         "samples": [
@@ -34560,13 +34463,6 @@
         "title": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
         "samples": [
           "https://jkanime.net/made-in-abyss-movie-3-fukaki-tamashii-no-reimei/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
-        "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
-        "samples": [
-          "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/9/"
         ]
       },
       {
@@ -35994,8 +35890,8 @@
         "series": "https://jkanime.net/tribe-cool-crew/",
         "title": "Tribe Cool Crew",
         "samples": [
-          "https://jkanime.net/tribe-cool-crew/33/",
-          "https://jkanime.net/tribe-cool-crew/34/"
+          "https://jkanime.net/tribe-cool-crew/34/",
+          "https://jkanime.net/tribe-cool-crew/35/"
         ]
       },
       {
@@ -43520,15 +43416,13 @@
     {
       "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -50151,15 +50045,13 @@
     {
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -51236,20 +51128,16 @@
     {
       "series": "https://jkanime.net/uma-musume-cinderella-gray/",
       "title": "Uma Musume: Cinderella Gray",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 23,
-      "stored": 22,
-      "missing": [
-        "https://jkanime.net/uma-musume-cinderella-gray/23/"
-      ],
+      "stored": 23,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 22,
-        "streamwish": 14,
+        "mp4upload": 23,
+        "streamwish": 15,
         "vidhide": 8
       },
       "playbackVerified": false
@@ -51304,14 +51192,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mega": 3,
+        "mega": 2,
         "streamwish": 9,
-        "vidhide": 4,
-        "mixdrop": 3,
+        "vidhide": 3,
+        "mixdrop": 2,
         "mp4upload": 13,
-        "streamtape": 3
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -52240,22 +52128,20 @@
     {
       "series": "https://jkanime.net/bel-blatt/",
       "title": "Übel Blatt",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "vidhide": 7,
+        "vidhide": 6,
         "mp4upload": 8,
-        "mega": 2,
         "streamwish": 4,
-        "mixdrop": 2,
-        "streamtape": 2
+        "mega": 1,
+        "mixdrop": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -54409,15 +54295,13 @@
     {
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "title": "Kabushikigaisha Magi-Lumière",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54524,14 +54408,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
-        "mega": 13,
+        "mega": 12,
         "streamwish": 13,
         "vidhide": 13,
         "mp4upload": 15,
-        "streamtape": 13,
-        "mixdrop": 4
+        "streamtape": 12,
+        "mixdrop": 3
       },
       "playbackVerified": false
     },
@@ -56608,21 +56492,16 @@
     {
       "series": "https://jkanime.net/code-geass-dakkan-no-roz/",
       "title": "Code Geass: Dakkan no Rozé",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -57567,7 +57446,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
         "mega": 27,
         "streamwish": 27,
@@ -60814,15 +60693,13 @@
     {
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "title": "Kanojo mo Kanojo 2nd Season",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -72044,15 +71921,13 @@
     {
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
       "title": "Komi-san wa, Comyushou desu.",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -73372,13 +73247,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
-        "streamwish": 3,
-        "vidhide": 3,
-        "mp4upload": 3,
-        "streamtape": 2
+        "streamwish": 2,
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -76675,15 +76550,13 @@
     {
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -78532,14 +78405,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 13,
-        "streamwish": 2,
-        "vidhide": 2,
-        "mixdrop": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "streamwish": 1,
+        "vidhide": 1,
+        "mixdrop": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -80274,19 +80147,15 @@
     {
       "series": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
       "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 11,
-      "stored": 10,
-      "missing": [
-        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/9/"
-      ],
+      "stored": 11,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mega": 10
+        "mega": 11
       },
       "playbackVerified": false
     },
@@ -89385,21 +89254,15 @@
     {
       "series": "https://jkanime.net/mrchen-mdchen/",
       "title": "Marchen Madchen",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mega": 12,
-        "streamwish": 1,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -93720,7 +93583,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -95938,7 +95801,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -98390,7 +98253,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -102773,15 +102636,13 @@
     {
       "series": "https://jkanime.net/gatchamancrowds-insight/",
       "title": "Gatchaman Crowds Insight",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102922,15 +102783,13 @@
     {
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -102943,15 +102802,13 @@
     {
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -107559,9 +107416,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 50,
-      "stored": 26,
+      "stored": 27,
       "missing": [
-        "https://jkanime.net/tribe-cool-crew/33/",
         "https://jkanime.net/tribe-cool-crew/34/",
         "https://jkanime.net/tribe-cool-crew/35/",
         "https://jkanime.net/tribe-cool-crew/36/",
@@ -107590,7 +107446,7 @@
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 26,
+        "streamwish": 27,
         "mega": 6
       },
       "playbackVerified": false

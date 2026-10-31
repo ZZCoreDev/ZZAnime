@@ -1,22 +1,22 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-10-31T17:35:22.315086+00:00",
+  "checkedAt": "2026-10-31T17:51:52.579431+00:00",
   "requested": 400,
-  "renewed": 13,
-  "attempted": 256,
-  "repairAttempts": 64,
+  "renewed": 10,
+  "attempted": 166,
+  "repairAttempts": 41,
   "earlyRepairAttempts": 2,
-  "failed": 58557,
+  "failed": 58537,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
-  "trigger": "schedule",
-  "runId": "41224313339",
+  "trigger": "workflow_dispatch",
+  "runId": "41226282331",
   "proof": false,
-  "identityRetriesReleased": 0,
-  "extraRenewed": 213,
+  "identityRetriesReleased": 124,
+  "extraRenewed": 138,
   "expired": 0,
-  "voeRenewed": 8,
+  "voeRenewed": 7,
   "published": true,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
@@ -138,7 +138,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 16,
+      "pendingFailures": 15,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -264,7 +264,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 1,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -277,8 +277,8 @@
     "https://jkanime.net/d_cide-traumerei-the-animation/": {
       "title": "D_Cide Traumerei the Animation",
       "total": 13,
-      "fresh": 11,
-      "pendingFailures": 2,
+      "fresh": 12,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/": {
@@ -319,8 +319,8 @@
     "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/": {
       "title": "Maou Gakuin no Futekigousha",
       "total": 13,
-      "fresh": 11,
-      "pendingFailures": 2,
+      "fresh": 12,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-ougon-tamashii/": {
@@ -341,7 +341,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -369,7 +369,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -382,9 +382,9 @@
     "https://jkanime.net/code-geass-dakkan-no-roz/": {
       "title": "Code Geass: Dakkan no Roz\u00e9",
       "total": 12,
-      "fresh": 11,
-      "pendingFailures": 1,
-      "state": "pending"
+      "fresh": 12,
+      "pendingFailures": 0,
+      "state": "complete"
     },
     "https://jkanime.net/cuticle-tantei-inaba/": {
       "title": "Cuticle Tantei Inaba",
@@ -425,14 +425,14 @@
       "title": "Gatchaman Crowds Insight",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/gate/": {
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/h2o/": {
@@ -481,7 +481,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -495,7 +495,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -529,9 +529,9 @@
     "https://jkanime.net/mrchen-mdchen/": {
       "title": "Marchen Madchen",
       "total": 12,
-      "fresh": 11,
-      "pendingFailures": 1,
-      "state": "pending"
+      "fresh": 12,
+      "pendingFailures": 0,
+      "state": "complete"
     },
     "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/": {
       "title": "Ookami-san to Shichinin no Nakamatachi",
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -579,7 +579,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -593,7 +593,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -635,7 +635,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -690,15 +690,15 @@
     "https://jkanime.net/bel-blatt/": {
       "title": "\u00dcbel Blatt",
       "total": 12,
-      "fresh": 10,
-      "pendingFailures": 1,
+      "fresh": 11,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/classic-stars/": {
       "title": "Classic\u2605Stars",
       "total": 13,
-      "fresh": 10,
-      "pendingFailures": 2,
+      "fresh": 11,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -739,15 +739,15 @@
     "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/": {
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
-      "fresh": 2,
-      "pendingFailures": 4,
+      "fresh": 3,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -840,19 +840,61 @@
       "fresh": 3,
       "pendingFailures": 10,
       "state": "pending"
+    },
+    "https://jkanime.net/jojos-bizarre-adventure-2012/": {
+      "title": "JoJo's Bizarre Adventure The Animation",
+      "total": 26,
+      "fresh": 0,
+      "pendingFailures": 26,
+      "state": "pending"
+    },
+    "https://jkanime.net/majin-tantei-nougami-neuro/": {
+      "title": "Majin Tantei Nougami Neuro",
+      "total": 25,
+      "fresh": 0,
+      "pendingFailures": 25,
+      "state": "pending"
+    },
+    "https://jkanime.net/bonjour-koiaji-ptisserie/": {
+      "title": "Bonjour\u266a Koiaji P\u00e2tisserie",
+      "total": 24,
+      "fresh": 0,
+      "pendingFailures": 24,
+      "state": "pending"
+    },
+    "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/": {
+      "title": "JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc",
+      "total": 24,
+      "fresh": 0,
+      "pendingFailures": 24,
+      "state": "pending"
+    },
+    "https://jkanime.net/jojos-bizarre-adventures/": {
+      "title": "JoJo's Bizarre Adventure",
+      "total": 13,
+      "fresh": 0,
+      "pendingFailures": 13,
+      "state": "pending"
+    },
+    "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/": {
+      "title": "Shomin Sample",
+      "total": 12,
+      "fresh": 0,
+      "pendingFailures": 12,
+      "state": "pending"
     }
   },
   "incidentDiagnosis": {
-    "series": 4278,
-    "diagnosedSeries": 4231,
-    "pendingSeries": 47
+    "series": 4266,
+    "diagnosedSeries": 4221,
+    "pendingSeries": 45
   },
   "archiveCoverage": {
-    "checkedAt": "2026-10-31T17:47:57.053124+00:00",
+    "checkedAt": "2026-10-31T18:04:46.999268+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73833,
-    "storedChapters": 72526,
-    "missingChapters": 1307,
+    "storedChapters": 72529,
+    "missingChapters": 1304,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
