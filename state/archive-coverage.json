@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T09:07:03.996823+00:00",
+  "checkedAt": "2026-10-31T09:22:20.878105+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73794,
   "storedChapters": 72386,
@@ -15024,7 +15024,7 @@
         "title": "Kujira no Kora wa Sajou ni Utau",
         "samples": [
           "https://jkanime.net/kujira-no-kora-wa-sajou-ni-utau/1/",
-          "https://jkanime.net/kujira-no-kora-wa-sajou-ni-utau/2/"
+          "https://jkanime.net/kujira-no-kora-wa-sajou-ni-utau/11/"
         ]
       },
       {
@@ -87642,7 +87642,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "families": {
         "mp4upload": 23,
         "streamwish": 23,
@@ -91258,7 +91258,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "families": {
         "mega": 7,
         "streamwish": 12,
@@ -140742,7 +140742,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "families": {
         "mega": 1
       },
