@@ -17,8 +17,7 @@ class IdentityFilterTests(unittest.TestCase):
         self.assertEqual(f.review(row(base),CAT,{},12),[])
         cases={'show-2nd-season\t2019\t12\ttio=show-2|Show 2|12':'year','show-2nd-season\t2020\t12\ttio=show-2|Show 2|11':'tio-chapters',
                'show-2nd-season\t2020\t12\ttio=show|Show|12':'tio-marks','show-2nd-season\t2020\t12\ttio=show-2-latino|Show 2 Latino|12':'tio-dub',
-               'show-2nd-season\t2020\t12\ttio=show-movie-2|Show 2 Movie|12':'tio-marks','show-2nd-season\t2020\t12\ttio=show-2|Show 2|12\tflv=show-ii|Show II|12':'flv-not-tio-slug',
-               'show-2nd-season\t2020\t12\ttio=show-2|Show&amp;#039;s 2|12':'tio-entity','show-2nd-season\t2020\t12\tflv=show-2|Show 2|12':'no-tio'}
+               'show-2nd-season\t2020\t12\ttio=show-movie-2|Show 2 Movie|12':'tio-marks','show-2nd-season\t2020\t12\ttio=show-2|Show 2|12\tflv=show-ii|Show II|12':'flv-not-tio-slug','show-2nd-season\t2020\t12\tflv=show-2|Show 2|12':'no-tio'}
         for line,reason in cases.items():self.assertIn(reason,f.review(row(line),CAT,{},12),line)
         self.assertIn('jk-listing',f.review(row(base),CAT,{},11));self.assertIn('jk-listing',f.review(row(base),CAT,{},None))
         self.assertEqual(f.review(row('unknown\t2020\t1\ttio=x|X|1'),CAT,{},1),['not-in-catalogue'])

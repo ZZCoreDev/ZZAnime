@@ -1667,5 +1667,85 @@
       }
     },
     "collector": "da6adce2-deff-4022-b8dc-442e54515506"
+  },
+  "https://jkanime.net/jojos-bizarre-adventure-2012/": {
+    "title": "JoJo's Bizarre Adventure The Animation",
+    "year": 2012,
+    "approved": true,
+    "episodes": 26,
+    "sources": {
+      "tio": {
+        "slug": "jojos-bizarre-adventure-the-animation",
+        "title": "JoJo's Bizarre Adventure The Animation"
+      },
+      "flv": {
+        "slug": "jojos-bizarre-adventure-the-animation",
+        "title": "JoJo's Bizarre Adventure The Animation"
+      }
+    }
+  },
+  "https://jkanime.net/majin-tantei-nougami-neuro/": {
+    "title": "Majin Tantei Nougami Neuro",
+    "year": 2007,
+    "approved": true,
+    "episodes": 25,
+    "sources": {
+      "tio": {
+        "slug": "majin-tantei-nogami-neuro",
+        "title": "Majin Tantei Nōgami Neuro"
+      }
+    }
+  },
+  "https://jkanime.net/bonjour-koiaji-ptisserie/": {
+    "title": "Bonjour♪ Koiaji Pâtisserie",
+    "year": 2014,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "bonjour-koiaji-patisserie",
+        "title": "Bonjour♪ Koiaji Pâtisserie"
+      }
+    }
+  },
+  "https://jkanime.net/jojos-bizarre-adventure-stardust-crusaders-2nd-season/": {
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc",
+    "year": 2015,
+    "approved": true,
+    "episodes": 24,
+    "sources": {
+      "tio": {
+        "slug": "jojos-bizarre-adventure-stardust-crusaders-2",
+        "title": "Jojo's Bizarre Adventure: Stardust Crusaders 2nd Season"
+      }
+    }
+  },
+  "https://jkanime.net/jojos-bizarre-adventures/": {
+    "title": "JoJo's Bizarre Adventure",
+    "year": 1993,
+    "approved": true,
+    "episodes": 13,
+    "sources": {
+      "tio": {
+        "slug": "jojos-bizarre-adventure",
+        "title": "JoJo's Bizarre Adventure"
+      },
+      "flv": {
+        "slug": "jojos-bizarre-adventure",
+        "title": "JoJo's Bizarre Adventure"
+      }
+    }
+  },
+  "https://jkanime.net/ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-getssareta-ken/": {
+    "title": "Shomin Sample",
+    "year": 2015,
+    "approved": true,
+    "episodes": 12,
+    "sources": {
+      "tio": {
+        "slug": "ore-ga-ojousama-gakkou-ni-shomin-sample-toshite-gets-sareta",
+        "title": "Ore ga Ojousama Gakkou ni \"Shomin Sample\" Toshite Gets♥Sareta Ken"
+      }
+    }
   }
 }

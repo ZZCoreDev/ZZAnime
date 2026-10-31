@@ -2,8 +2,7 @@
 
 A candidate maps a JK series to TioAnime (required) and optionally AnimeFLV. It is approved only when the
 Tio year equals the catalogue year, both sources list exactly the chapters of the JK listing, no source is a
-dub, season/variant marks are equal on both sides, FLV uses Tio's slug, the titles have no HTML entity the
-collector's heading() leaves undecoded, and no other series already uses that source slug. Anything else
+dub, season/variant marks are equal on both sides, FLV uses Tio's slug, and no other series already uses that source slug. Anything else
 goes to review with its reasons; approved entries are added without "collector" (released after deploy).
 
 Input lines (tab separated, as sent by the local discoverer):
@@ -14,8 +13,7 @@ import argparse,gzip,hashlib,html,json,re,unicodedata
 W=Path(__file__).resolve().parent
 DUB={'latino','castellano','doblaje','dub','espanol'}
 MARK={'2':'s2','ii':'s2','2nd':'s2','second':'s2','3':'s3','iii':'s3','3rd':'s3','third':'s3','4':'s4','iv':'s4','4th':'s4','5':'s5','v':'s5','5th':'s5','zoku':'zoku','next':'next','returns':'returns','kakusei':'kakusei','ova':'extra','ovas':'extra','oav':'extra','special':'extra','specials':'extra','especiales':'extra','especial':'extra','movie':'movie','pelicula':'movie','gekijouban':'movie','mini':'mini','chibi':'mini','picture':'mini','drama':'mini','r2':'s2','s':'s2','lite':'mini','2wei':'s2','3rei':'s3','herz':'herz','drei':'drei','re':'re','do':'do','mi':'mi'}
-# tio-rules heading() decodes only these; any other entity in a source h1 breaks the identity check.
-DECODED=re.compile(r'&(?:amp|quot|apos|#39);',re.I)
+# Since collector 5760f134 (31/10/2026) heading() decodes every HTML entity, so titles with entities pass.
 def toks(s):return [t for t in re.split(r'[^a-z0-9]+',unicodedata.normalize('NFKD',s or '').encode('ascii','ignore').decode().lower()) if t]
 def marks(*texts):return {MARK[t] for x in texts for t in toks(x) if t in MARK}
 def decode(s):
@@ -46,7 +44,6 @@ def review(row,catalogue,identities,listed):
         if not re.fullmatch(r'[-a-zA-Z0-9_]+',src['slug']):why.append(name+'-slug')
         if src['chapters']!=row['chapters']:why.append(name+'-chapters')
         if DUB&set(toks(src['title'])+toks(src['slug'])):why.append(name+'-dub')
-        if re.search(r'&[#a-zA-Z0-9]+;',DECODED.sub('',html.unescape(src['raw']))):why.append(name+'-entity')
         if marks(src['title'],src['slug'].replace('-',' '))!=marks(item['title'],row['jk'].replace('-',' ')):why.append(name+'-marks')
         if any(other!=url and (s:=e.get('sources',{}).get(name)) and s.get('slug')==src['slug'] for other,e in identities.items()):why.append(name+'-slug-taken')
     if flv and flv['slug']!=tio['slug']:why.append('flv-not-tio-slug')
