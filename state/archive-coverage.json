@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T11:54:27.938317+00:00",
+  "checkedAt": "2026-11-01T12:09:17.425510+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73838,
   "storedChapters": 72643,
@@ -743,7 +743,6 @@
         "series": "https://jkanime.net/gnosia/",
         "title": "Gnosia",
         "samples": [
-          "https://jkanime.net/gnosia/12/",
           "https://jkanime.net/gnosia/16/"
         ]
       },
@@ -19336,13 +19335,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/naruto-shippuuden-movie-7-the-last/",
-        "title": "Naruto: Shippuuden Movie 7 - The Last",
-        "samples": [
-          "https://jkanime.net/naruto-shippuuden-movie-7-the-last/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/wake-up-girl-zoo/",
         "title": "Wake Up, Girl Zoo!",
         "samples": [
@@ -21327,13 +21319,6 @@
         "samples": [
           "https://jkanime.net/witch-craft-works/1/",
           "https://jkanime.net/witch-craft-works/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/neppuu-kairiku-bushi-road/",
-        "title": "Neppuu Kairiku Bushi Road",
-        "samples": [
-          "https://jkanime.net/neppuu-kairiku-bushi-road/1/"
         ]
       },
       {
@@ -30857,13 +30842,6 @@
         "samples": [
           "https://jkanime.net/btx-neo/1/",
           "https://jkanime.net/btx-neo/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mononoke-hime/",
-        "title": "Mononoke Hime",
-        "samples": [
-          "https://jkanime.net/mononoke-hime/1/"
         ]
       },
       {
@@ -46229,7 +46207,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -69786,7 +69764,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -87518,7 +87496,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },
@@ -92060,7 +92038,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -93758,7 +93736,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 6
       },
@@ -93810,7 +93788,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -97537,7 +97515,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 4,
         "mega": 2
@@ -97870,7 +97848,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -101689,7 +101667,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 18,
         "mega": 3
@@ -104124,8 +104102,7 @@
       "title": "Naruto: Shippuuden Movie 7 - The Last",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -104134,7 +104111,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -109985,8 +109962,7 @@
       "title": "Neppuu Kairiku Bushi Road",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -109995,7 +109971,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -125590,7 +125566,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 52,
+      "renewalFailed": 51,
       "families": {
         "mega": 50,
         "streamwish": 52,
@@ -135614,7 +135590,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 23,
       "families": {
         "mp4upload": 50,
         "streamwish": 48,
@@ -137681,7 +137657,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 1
       },
@@ -138755,8 +138731,7 @@
       "title": "Mononoke Hime",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -138765,7 +138740,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
