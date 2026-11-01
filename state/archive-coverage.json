@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-01T10:26:38.826266+00:00",
+  "checkedAt": "2026-11-01T10:40:33.882251+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73837,
+  "observedChapters": 73838,
   "storedChapters": 72643,
-  "missingChapters": 1194,
+  "missingChapters": 1195,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -19249,13 +19249,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/dramatical-murder-ova-data-xx-transitory/",
-        "title": "DRAMAtical Murder OVA: Data_xx_Transitory",
-        "samples": [
-          "https://jkanime.net/dramatical-murder-ova-data-xx-transitory/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ikkitousen-extravaganza-epoch/",
         "title": "Ikkitousen: Extravaganza Epoch",
         "samples": [
@@ -32220,6 +32213,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
+        "title": "Diamond no Ace: Act II Second Season",
+        "samples": [
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season/17/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/isekai-de-cheat-skill-wo-te-ni-shita-ore-wa-genjitsu-sekai-wo-mo-musou-suru-level-up-wa-jinsei-wo-kaeta-tv-special/",
         "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta (TV Special)",
         "samples": [
@@ -43749,10 +43749,14 @@
     {
       "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
       "title": "Diamond no Ace: Act II Second Season",
-      "causes": [],
-      "observed": 16,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 17,
       "stored": 16,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/diamond-no-ace-act-ii-second-season/17/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -69787,7 +69791,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -87521,7 +87525,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -93813,7 +93817,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -103914,8 +103918,7 @@
       "title": "DRAMAtical Murder OVA: Data_xx_Transitory",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -103924,7 +103927,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -137692,7 +137695,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 1
       },
@@ -140940,7 +140943,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 3
       },
