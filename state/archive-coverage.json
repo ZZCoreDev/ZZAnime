@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T06:46:56.762234+00:00",
+  "checkedAt": "2026-11-01T07:00:52.198599+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -33,7 +33,7 @@
         "title": "Cyberpunk: Edgerunners 2",
         "samples": [
           "https://jkanime.net/cyberpunk-edgerunners-2/10/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -2671,16 +2671,16 @@
         "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
         "title": "Kami no Tou: Ouji no Kikan",
         "samples": [
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/14/",
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/15/"
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/15/",
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/16/"
         ]
       },
       {
         "series": "https://jkanime.net/fairy-tail-100-nen-quest/",
         "title": "Fairy Tail: 100-nen Quest",
         "samples": [
-          "https://jkanime.net/fairy-tail-100-nen-quest/14/",
-          "https://jkanime.net/fairy-tail-100-nen-quest/15/"
+          "https://jkanime.net/fairy-tail-100-nen-quest/15/",
+          "https://jkanime.net/fairy-tail-100-nen-quest/16/"
         ]
       },
       {
@@ -2692,17 +2692,9 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tensui-no-sakuna-hime/",
-        "title": "Tensui no Sakuna-hime",
-        "samples": [
-          "https://jkanime.net/tensui-no-sakuna-hime/13/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/monogatari-series-off-monster-season/",
         "title": "Monogatari Series: Off & Monster Season",
         "samples": [
-          "https://jkanime.net/monogatari-series-off-monster-season/13/",
           "https://jkanime.net/monogatari-series-off-monster-season/14/"
         ]
       },
@@ -2718,15 +2710,8 @@
         "series": "https://jkanime.net/25-jigen-no-ririsa/",
         "title": "2.5-jigen no Ririsa",
         "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/13/",
-          "https://jkanime.net/25-jigen-no-ririsa/14/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/",
-        "title": "Kono Sekai wa Fukanzen Sugiru",
-        "samples": [
-          "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/13/"
+          "https://jkanime.net/25-jigen-no-ririsa/14/",
+          "https://jkanime.net/25-jigen-no-ririsa/15/"
         ]
       },
       {
@@ -17014,13 +16999,6 @@
         "samples": [
           "https://jkanime.net/kaitou-joker-3rd-season/1/",
           "https://jkanime.net/kaitou-joker-3rd-season/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
-        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
-        "samples": [
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/11/"
         ]
       },
       {
@@ -54286,13 +54264,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 13,
-        "mp4upload": 12,
-        "streamtape": 11,
+        "vidhide": 12,
+        "mp4upload": 11,
+        "streamtape": 10,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54308,13 +54286,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 23,
         "mega": 23,
-        "vidhide": 10,
-        "mp4upload": 12,
-        "streamtape": 10,
+        "vidhide": 9,
+        "mp4upload": 11,
+        "streamtape": 9,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54506,21 +54484,17 @@
     {
       "series": "https://jkanime.net/tensui-no-sakuna-hime/",
       "title": "Tensui no Sakuna-hime",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 15,
         "mega": 13,
-        "vidhide": 1,
-        "mp4upload": 3,
-        "streamtape": 1
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
@@ -54550,13 +54524,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 14,
         "mega": 14,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -54592,35 +54566,30 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 12,
-        "mp4upload": 12,
-        "streamtape": 12,
-        "mixdrop": 2
+        "vidhide": 11,
+        "mixdrop": 2,
+        "mp4upload": 11,
+        "streamtape": 11
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/",
       "title": "Kono Sekai wa Fukanzen Sugiru",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 13,
-        "mega": 13,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 13
       },
       "playbackVerified": false
     },
@@ -69910,7 +69879,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -96730,15 +96699,13 @@
     {
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 13,
         "streamwish": 13,
