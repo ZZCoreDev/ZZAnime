@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T03:37:44.858130+00:00",
+  "checkedAt": "2026-11-01T03:53:46.819611+00:00",
   "episodes": 72643,
-  "oldestHours": 135.32,
-  "pending": 63368,
+  "oldestHours": 135.59,
+  "pending": 63638,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 99,
-  "sampleMinutes": 1434.28,
-  "measuredWallClockPerHour": 379.84,
-  "estimatedSweepDays": 7.97,
+  "sampleMinutes": 1436.59,
+  "measuredWallClockPerHour": 369.88,
+  "estimatedSweepDays": 8.18,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -52,28 +52,28 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 128,
+      "pendingFailures": 123,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 10,
-      "pendingFailures": 61,
+      "fresh": 11,
+      "pendingFailures": 56,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
       "title": "Zoids",
       "total": 67,
       "fresh": 0,
-      "pendingFailures": 23,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/dragon-ball-kai-2014/": {
@@ -87,14 +87,14 @@
       "title": "Digimon Adventure",
       "total": 54,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/zenki/": {
       "title": "Kishin Douji Zenki",
       "total": 51,
-      "fresh": 39,
-      "pendingFailures": 12,
+      "fresh": 44,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kenichi/": {
@@ -107,15 +107,15 @@
     "https://jkanime.net/gundam-wing/": {
       "title": "Mobile Suit Gundam Wing",
       "total": 49,
-      "fresh": 40,
-      "pendingFailures": 9,
+      "fresh": 45,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/tekkaman-blade/": {
       "title": "Tekkaman Blade",
       "total": 49,
       "fresh": 0,
-      "pendingFailures": 13,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/gto/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4173,
-    "diagnosedSeries": 4127,
+    "series": 4172,
+    "diagnosedSeries": 4126,
     "pendingSeries": 46
   },
   "coverage": {
-    "checkedAt": "2026-11-01T03:37:44.858130+00:00",
+    "checkedAt": "2026-11-01T03:53:46.819611+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
