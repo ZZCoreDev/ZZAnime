@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T09:14:56.071110+00:00",
+  "checkedAt": "2026-11-01T09:29:46.306259+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -713,7 +713,6 @@
         "series": "https://jkanime.net/gnosia/",
         "title": "Gnosia",
         "samples": [
-          "https://jkanime.net/gnosia/12/",
           "https://jkanime.net/gnosia/16/"
         ]
       },
@@ -768,7 +767,7 @@
         "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
         "samples": [
           "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/17/",
-          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/2/"
+          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/21/"
         ]
       },
       {
@@ -2653,13 +2652,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
-        "title": "Kami no Tou: Ouji no Kikan",
-        "samples": [
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/24/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/0-saiji-start-dash-monogatari/",
         "title": "0-saiji Start Dash Monogatari",
         "samples": [
@@ -2679,7 +2671,6 @@
         "series": "https://jkanime.net/25-jigen-no-ririsa/",
         "title": "2.5-jigen no Ririsa",
         "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/23/",
           "https://jkanime.net/25-jigen-no-ririsa/24/"
         ]
       },
@@ -46266,7 +46257,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -46664,7 +46655,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mega": 5,
         "streamwish": 24,
@@ -54221,22 +54212,18 @@
     {
       "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
       "title": "Kami no Tou: Ouji no Kikan",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 3,
-        "mixdrop": 1,
-        "mp4upload": 2,
-        "streamtape": 1
+        "vidhide": 2,
+        "mp4upload": 1
       },
       "playbackVerified": false
     },
@@ -54521,13 +54508,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
