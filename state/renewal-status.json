@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T08:45:53.064326+00:00",
+  "checkedAt": "2026-11-01T09:00:50.966793+00:00",
   "requested": 400,
   "renewed": 3,
-  "attempted": 344,
-  "repairAttempts": 86,
+  "attempted": 300,
+  "repairAttempts": 75,
   "earlyRepairAttempts": 2,
-  "failed": 56680,
+  "failed": 56677,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41290168788",
+  "runId": "41291102582",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 260,
+  "extraRenewed": 225,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4122,
+    "series": 4121,
     "diagnosedSeries": 4110,
-    "pendingSeries": 12
+    "pendingSeries": 11
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T08:58:50.745576+00:00",
+    "checkedAt": "2026-11-01T09:14:56.071110+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
