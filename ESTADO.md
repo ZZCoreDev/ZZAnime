@@ -99,13 +99,13 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56555; capítulos vencidos pendientes: 0. Próximos a vencer: 19; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56555; capítulos vencidos pendientes: 0. Próximos a vencer: 22; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Prince of Tennis, 2/178 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Keroro Gunsou☆ 2026, 3/5 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Keroro Gunsou☆ 2026, 0/5 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kodomo no Omocha (TV), 32/102 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 0.
@@ -225,7 +225,7 @@ Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc,
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
 Diagnóstico por serie: 4067/4076; pendientes: 9. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 72643 capítulos con registros, 1195 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Cobertura de catálogo: 5053 títulos, 72644 capítulos con registros, 1195 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
