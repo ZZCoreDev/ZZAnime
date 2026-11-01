@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-01T12:55:28.571393+00:00",
+  "checkedAt": "2026-11-01T13:12:33.831734+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73838,
-  "storedChapters": 72643,
+  "observedChapters": 73839,
+  "storedChapters": 72644,
   "missingChapters": 1195,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
@@ -42903,16 +42903,16 @@
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season/",
       "title": "Yozakura-san Chi no Daisakusen 2nd Season",
       "causes": [],
-      "observed": 15,
-      "stored": 15,
+      "observed": 16,
+      "stored": 16,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 15,
-        "streamwish": 13,
-        "vidhide": 1
+        "mp4upload": 16,
+        "streamwish": 14,
+        "vidhide": 2
       },
       "playbackVerified": false
     },
@@ -51170,7 +51170,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -94953,7 +94953,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {},
       "playbackVerified": false
     },

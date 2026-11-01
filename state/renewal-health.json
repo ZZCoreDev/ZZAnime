@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T12:55:28.571393+00:00",
-  "episodes": 72643,
-  "oldestHours": 144.61,
-  "pending": 70607,
+  "checkedAt": "2026-11-01T13:12:33.831734+00:00",
+  "episodes": 72644,
+  "oldestHours": 144.9,
+  "pending": 70703,
   "expired": 0,
-  "expiresWithin24Hours": 19,
+  "expiresWithin24Hours": 22,
   "retryAfterExpiry": 0,
-  "successfulCyclesMeasured": 97,
-  "sampleMinutes": 1439.62,
-  "measuredWallClockPerHour": 46.18,
-  "estimatedSweepDays": 65.55,
+  "successfulCyclesMeasured": 96,
+  "sampleMinutes": 1426.67,
+  "measuredWallClockPerHour": 38.73,
+  "estimatedSweepDays": 78.15,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -44,7 +44,7 @@
     "https://jkanime.net/keroro-gunsou-2026/": {
       "title": "Keroro Gunsou\u2606 2026",
       "total": 5,
-      "fresh": 3,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -881,10 +881,10 @@
     "pendingSeries": 9
   },
   "coverage": {
-    "checkedAt": "2026-11-01T12:55:28.571393+00:00",
+    "checkedAt": "2026-11-01T13:12:33.831734+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73838,
-    "storedChapters": 72643,
+    "observedChapters": 73839,
+    "storedChapters": 72644,
     "missingChapters": 1195,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
