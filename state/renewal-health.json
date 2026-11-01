@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-11-01T07:00:52.198599+00:00",
+  "checkedAt": "2026-11-01T07:17:48.259104+00:00",
   "episodes": 72643,
-  "oldestHours": 138.7,
-  "pending": 66425,
+  "oldestHours": 138.99,
+  "pending": 66621,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 98,
-  "sampleMinutes": 1436.37,
-  "measuredWallClockPerHour": 249.34,
-  "estimatedSweepDays": 12.14,
+  "sampleMinutes": 1439.46,
+  "measuredWallClockPerHour": 239.01,
+  "estimatedSweepDays": 12.66,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 8,
+      "fresh": 3,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4125,
-    "diagnosedSeries": 4112,
-    "pendingSeries": 13
+    "series": 4124,
+    "diagnosedSeries": 4110,
+    "pendingSeries": 14
   },
   "coverage": {
-    "checkedAt": "2026-11-01T07:00:52.198599+00:00",
+    "checkedAt": "2026-11-01T07:17:48.259104+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,

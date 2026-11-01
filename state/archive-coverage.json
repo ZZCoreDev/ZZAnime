@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T07:00:52.198599+00:00",
+  "checkedAt": "2026-11-01T07:17:48.259104+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -32,7 +32,6 @@
         "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
         "title": "Cyberpunk: Edgerunners 2",
         "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/10/",
           "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
@@ -490,13 +489,6 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yuusha-no-kuzu/",
-        "title": "Yuusha no Kuzu",
-        "samples": [
-          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -2671,16 +2663,16 @@
         "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
         "title": "Kami no Tou: Ouji no Kikan",
         "samples": [
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/15/",
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/16/"
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/16/",
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/17/"
         ]
       },
       {
         "series": "https://jkanime.net/fairy-tail-100-nen-quest/",
         "title": "Fairy Tail: 100-nen Quest",
         "samples": [
-          "https://jkanime.net/fairy-tail-100-nen-quest/15/",
-          "https://jkanime.net/fairy-tail-100-nen-quest/16/"
+          "https://jkanime.net/fairy-tail-100-nen-quest/16/",
+          "https://jkanime.net/fairy-tail-100-nen-quest/17/"
         ]
       },
       {
@@ -2689,13 +2681,6 @@
         "samples": [
           "https://jkanime.net/0-saiji-start-dash-monogatari/1/",
           "https://jkanime.net/0-saiji-start-dash-monogatari/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/monogatari-series-off-monster-season/",
-        "title": "Monogatari Series: Off & Monster Season",
-        "samples": [
-          "https://jkanime.net/monogatari-series-off-monster-season/14/"
         ]
       },
       {
@@ -2710,8 +2695,8 @@
         "series": "https://jkanime.net/25-jigen-no-ririsa/",
         "title": "2.5-jigen no Ririsa",
         "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/14/",
-          "https://jkanime.net/25-jigen-no-ririsa/15/"
+          "https://jkanime.net/25-jigen-no-ririsa/15/",
+          "https://jkanime.net/25-jigen-no-ririsa/16/"
         ]
       },
       {
@@ -9718,6 +9703,13 @@
         "samples": [
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/1/",
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+        "title": "Otona no Bouguya-san II",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
         ]
       },
       {
@@ -41662,7 +41654,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -44956,15 +44948,13 @@
     {
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 21,
         "streamwish": 23,
@@ -54264,13 +54254,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 12,
-        "mp4upload": 11,
-        "streamtape": 10,
+        "vidhide": 11,
+        "mp4upload": 10,
+        "streamtape": 9,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54286,13 +54276,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "streamwish": 23,
         "mega": 23,
-        "vidhide": 9,
-        "mp4upload": 11,
-        "streamtape": 9,
+        "vidhide": 8,
+        "mp4upload": 10,
+        "streamtape": 8,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54516,21 +54506,16 @@
     {
       "series": "https://jkanime.net/monogatari-series-off-monster-season/",
       "title": "Monogatari Series: Off & Monster Season",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 14,
       "stored": 14,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 14,
-        "mega": 14,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 14
       },
       "playbackVerified": false
     },
@@ -54566,14 +54551,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 11,
-        "mixdrop": 2,
-        "mp4upload": 11,
-        "streamtape": 11
+        "vidhide": 10,
+        "mixdrop": 1,
+        "mp4upload": 10,
+        "streamtape": 10
       },
       "playbackVerified": false
     },
@@ -75054,13 +75039,15 @@
     {
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
