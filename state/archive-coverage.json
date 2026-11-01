@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-01T00:13:18.036373+00:00",
+  "checkedAt": "2026-11-01T00:31:02.731191+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
-  "storedChapters": 72587,
-  "missingChapters": 1249,
+  "storedChapters": 72598,
+  "missingChapters": 1238,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -653,8 +653,8 @@
         "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers/",
         "title": "Yoroi Shin Den Samurai Troopers",
         "samples": [
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers/14/",
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers/15/"
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers/15/",
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers/16/"
         ]
       },
       {
@@ -786,13 +786,6 @@
         "title": "Mahou Shoujo holoWitch! The Stage: Trick or Magic!",
         "samples": [
           "https://jkanime.net/mahou-shoujo-holowitch-the-stage-trick-or-magic/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zombieland-saga-movie-yumeginga-paradise/",
-        "title": "Zombieland Saga Movie: Yumeginga Paradise",
-        "samples": [
-          "https://jkanime.net/zombieland-saga-movie-yumeginga-paradise/1/"
         ]
       },
       {
@@ -1172,14 +1165,6 @@
         "samples": [
           "https://jkanime.net/xin-yichang-shengwu-jianwen-lu-xu/1/",
           "https://jkanime.net/xin-yichang-shengwu-jianwen-lu-xu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/",
-        "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)",
-        "samples": [
-          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/15/",
-          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/16/"
         ]
       },
       {
@@ -5292,7 +5277,7 @@
         "title": "Watashi no Shiawase na Kekkon",
         "samples": [
           "https://jkanime.net/watashi-no-shiawase-na-kekkon/14/",
-          "https://jkanime.net/watashi-no-shiawase-na-kekkon/15/"
+          "https://jkanime.net/watashi-no-shiawase-na-kekkon/16/"
         ]
       },
       {
@@ -6641,8 +6626,8 @@
         "series": "https://jkanime.net/urusei-yatsura-2022/",
         "title": "Urusei Yatsura (2022)",
         "samples": [
-          "https://jkanime.net/urusei-yatsura-2022/28/",
-          "https://jkanime.net/urusei-yatsura-2022/29/"
+          "https://jkanime.net/urusei-yatsura-2022/29/",
+          "https://jkanime.net/urusei-yatsura-2022/30/"
         ]
       },
       {
@@ -16411,13 +16396,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/",
-        "title": "Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai",
-        "samples": [
-          "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/12-sai-chicchana-mune-no-tokimeki-2nd-season/",
         "title": "12-sai.: Chicchana Mune no Tokimeki 2nd Season",
         "samples": [
@@ -21161,8 +21139,8 @@
         "series": "https://jkanime.net/dragon-ball-kai-2014/",
         "title": "Dragon Ball Kai (2014)",
         "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/35/",
-          "https://jkanime.net/dragon-ball-kai-2014/36/"
+          "https://jkanime.net/dragon-ball-kai-2014/36/",
+          "https://jkanime.net/dragon-ball-kai-2014/37/"
         ]
       },
       {
@@ -23695,8 +23673,8 @@
         "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
         "title": "Yu-Gi-Oh! Zexal Second",
         "samples": [
-          "https://jkanime.net/yu-gi-oh-zexal-second/28/",
-          "https://jkanime.net/yu-gi-oh-zexal-second/29/"
+          "https://jkanime.net/yu-gi-oh-zexal-second/29/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/30/"
         ]
       },
       {
@@ -25339,7 +25317,6 @@
         "series": "https://jkanime.net/steins-gate/",
         "title": "Steins;Gate",
         "samples": [
-          "https://jkanime.net/steins-gate/23/",
           "https://jkanime.net/steins-gate/24/"
         ]
       },
@@ -26624,8 +26601,8 @@
         "series": "https://jkanime.net/saint-seiya-lost-canvas/",
         "title": "Saint Seiya: The Lost Canvas",
         "samples": [
-          "https://jkanime.net/saint-seiya-lost-canvas/21/",
-          "https://jkanime.net/saint-seiya-lost-canvas/22/"
+          "https://jkanime.net/saint-seiya-lost-canvas/22/",
+          "https://jkanime.net/saint-seiya-lost-canvas/23/"
         ]
       },
       {
@@ -26759,8 +26736,8 @@
         "series": "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/",
         "title": "Senjou no Valkyria: Gallian Chronicles",
         "samples": [
-          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/19/",
-          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/20/"
+          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/20/",
+          "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/21/"
         ]
       },
       {
@@ -26815,8 +26792,8 @@
         "series": "https://jkanime.net/requiem-for-the-phantom/",
         "title": "Phantom: Requiem for the Phantom",
         "samples": [
-          "https://jkanime.net/requiem-for-the-phantom/19/",
-          "https://jkanime.net/requiem-for-the-phantom/20/"
+          "https://jkanime.net/requiem-for-the-phantom/20/",
+          "https://jkanime.net/requiem-for-the-phantom/21/"
         ]
       },
       {
@@ -27100,8 +27077,8 @@
         "series": "https://jkanime.net/mobile-suit-gundam-00-second-season/",
         "title": "Mobile Suit Gundam 00 S2",
         "samples": [
-          "https://jkanime.net/mobile-suit-gundam-00-second-season/17/",
-          "https://jkanime.net/mobile-suit-gundam-00-second-season/18/"
+          "https://jkanime.net/mobile-suit-gundam-00-second-season/18/",
+          "https://jkanime.net/mobile-suit-gundam-00-second-season/19/"
         ]
       },
       {
@@ -27383,8 +27360,8 @@
         "series": "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/",
         "title": "Code Geass: Hangyaku no Lelouch R2",
         "samples": [
-          "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/15/",
-          "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/16/"
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/16/",
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/17/"
         ]
       },
       {
@@ -27704,8 +27681,8 @@
         "series": "https://jkanime.net/shakugan-no-shana-ii/",
         "title": "Shakugan no Shana II",
         "samples": [
-          "https://jkanime.net/shakugan-no-shana-ii/15/",
-          "https://jkanime.net/shakugan-no-shana-ii/16/"
+          "https://jkanime.net/shakugan-no-shana-ii/16/",
+          "https://jkanime.net/shakugan-no-shana-ii/17/"
         ]
       },
       {
@@ -28230,8 +28207,8 @@
         "series": "https://jkanime.net/kenichi/",
         "title": "Shijou Saikyou no Deshi Kenichi",
         "samples": [
-          "https://jkanime.net/kenichi/14/",
-          "https://jkanime.net/kenichi/15/"
+          "https://jkanime.net/kenichi/15/",
+          "https://jkanime.net/kenichi/16/"
         ]
       },
       {
@@ -28254,8 +28231,8 @@
         "series": "https://jkanime.net/code-geass-hangyaku-no-lelouch/",
         "title": "Code Geass: Hangyaku no Lelouch",
         "samples": [
-          "https://jkanime.net/code-geass-hangyaku-no-lelouch/12/",
-          "https://jkanime.net/code-geass-hangyaku-no-lelouch/13/"
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch/13/",
+          "https://jkanime.net/code-geass-hangyaku-no-lelouch/14/"
         ]
       },
       {
@@ -28277,8 +28254,8 @@
         "series": "https://jkanime.net/kanon2006/",
         "title": "Kanon (2006)",
         "samples": [
-          "https://jkanime.net/kanon2006/12/",
-          "https://jkanime.net/kanon2006/13/"
+          "https://jkanime.net/kanon2006/13/",
+          "https://jkanime.net/kanon2006/14/"
         ]
       },
       {
@@ -28295,13 +28272,6 @@
         "samples": [
           "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/1/",
           "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yoake-mae-yori-ruriiro-na/",
-        "title": "Yoake Mae yori Ruriiro na",
-        "samples": [
-          "https://jkanime.net/yoake-mae-yori-ruriiro-na/12/"
         ]
       },
       {
@@ -28490,8 +28460,8 @@
         "series": "https://jkanime.net/ouran-high-school-host-club/",
         "title": "Ouran High School Host Club",
         "samples": [
-          "https://jkanime.net/ouran-high-school-host-club/11/",
-          "https://jkanime.net/ouran-high-school-host-club/12/"
+          "https://jkanime.net/ouran-high-school-host-club/12/",
+          "https://jkanime.net/ouran-high-school-host-club/13/"
         ]
       },
       {
@@ -28703,7 +28673,6 @@
         "series": "https://jkanime.net/saint-seiya-saga-de-hades/",
         "title": "Saint Seiya Saga de Hades Infierno",
         "samples": [
-          "https://jkanime.net/saint-seiya-saga-de-hades/11/",
           "https://jkanime.net/saint-seiya-saga-de-hades/12/"
         ]
       },
@@ -28888,8 +28857,8 @@
         "series": "https://jkanime.net/full-metal-panic-tsr/",
         "title": "Full Metal Panic! The Second Raid",
         "samples": [
-          "https://jkanime.net/full-metal-panic-tsr/11/",
-          "https://jkanime.net/full-metal-panic-tsr/12/"
+          "https://jkanime.net/full-metal-panic-tsr/12/",
+          "https://jkanime.net/full-metal-panic-tsr/13/"
         ]
       },
       {
@@ -29603,7 +29572,6 @@
         "series": "https://jkanime.net/hanaukyou-maid-tai-la-verite/",
         "title": "Hanaukyou Maid-tai: La Verite",
         "samples": [
-          "https://jkanime.net/hanaukyou-maid-tai-la-verite/11/",
           "https://jkanime.net/hanaukyou-maid-tai-la-verite/12/"
         ]
       },
@@ -29768,8 +29736,8 @@
         "series": "https://jkanime.net/choujuushin-gravion-zwei/",
         "title": "Choujuushin Gravion Zwei",
         "samples": [
-          "https://jkanime.net/choujuushin-gravion-zwei/10/",
-          "https://jkanime.net/choujuushin-gravion-zwei/11/"
+          "https://jkanime.net/choujuushin-gravion-zwei/11/",
+          "https://jkanime.net/choujuushin-gravion-zwei/12/"
         ]
       },
       {
@@ -31962,8 +31930,8 @@
         "series": "https://jkanime.net/tekkaman-blade/",
         "title": "Tekkaman Blade",
         "samples": [
-          "https://jkanime.net/tekkaman-blade/1/",
-          "https://jkanime.net/tekkaman-blade/10/"
+          "https://jkanime.net/tekkaman-blade/10/",
+          "https://jkanime.net/tekkaman-blade/11/"
         ]
       },
       {
@@ -32969,8 +32937,8 @@
         "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers/",
         "title": "Yoroi Shin Den Samurai Troopers",
         "samples": [
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers/14/",
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers/15/"
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers/15/",
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers/16/"
         ]
       },
       {
@@ -33068,8 +33036,8 @@
         "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/",
         "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)",
         "samples": [
-          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/15/",
-          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/16/"
+          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/16/",
+          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/17/"
         ]
       },
       {
@@ -33316,7 +33284,7 @@
         "title": "Watashi no Shiawase na Kekkon",
         "samples": [
           "https://jkanime.net/watashi-no-shiawase-na-kekkon/14/",
-          "https://jkanime.net/watashi-no-shiawase-na-kekkon/15/"
+          "https://jkanime.net/watashi-no-shiawase-na-kekkon/16/"
         ]
       },
       {
@@ -33407,8 +33375,8 @@
         "series": "https://jkanime.net/urusei-yatsura-2022/",
         "title": "Urusei Yatsura (2022)",
         "samples": [
-          "https://jkanime.net/urusei-yatsura-2022/28/",
-          "https://jkanime.net/urusei-yatsura-2022/29/"
+          "https://jkanime.net/urusei-yatsura-2022/29/",
+          "https://jkanime.net/urusei-yatsura-2022/30/"
         ]
       },
       {
@@ -34352,8 +34320,7 @@
         "series": "https://jkanime.net/urahara/",
         "title": "Urahara",
         "samples": [
-          "https://jkanime.net/urahara/7/",
-          "https://jkanime.net/urahara/8/"
+          "https://jkanime.net/urahara/9/"
         ]
       },
       {
@@ -34581,13 +34548,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/",
-        "title": "Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai",
-        "samples": [
-          "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/time-bokan-24/",
         "title": "Time Bokan 24",
         "samples": [
@@ -34720,8 +34680,8 @@
         "series": "https://jkanime.net/wagamama-high-spec/",
         "title": "Wagamama High Spec",
         "samples": [
-          "https://jkanime.net/wagamama-high-spec/5/",
-          "https://jkanime.net/wagamama-high-spec/6/"
+          "https://jkanime.net/wagamama-high-spec/7/",
+          "https://jkanime.net/wagamama-high-spec/8/"
         ]
       },
       {
@@ -34973,8 +34933,7 @@
         "series": "https://jkanime.net/venus-project-climax/",
         "title": "Venus Project: Climax",
         "samples": [
-          "https://jkanime.net/venus-project-climax/1/",
-          "https://jkanime.net/venus-project-climax/5/"
+          "https://jkanime.net/venus-project-climax/1/"
         ]
       },
       {
@@ -39251,13 +39210,6 @@
         "title": "Musaigen no Phantom World Special",
         "samples": [
           "https://jkanime.net/musaigen-no-phantom-world-special/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/",
-        "title": "Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai",
-        "samples": [
-          "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/1/"
         ]
       },
       {
@@ -46265,9 +46217,8 @@
         "renewal-error"
       ],
       "observed": 24,
-      "stored": 13,
+      "stored": 14,
       "missing": [
-        "https://jkanime.net/yoroi-shin-den-samurai-troopers/14/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers/15/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers/16/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers/17/",
@@ -46281,10 +46232,10 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
-        "mp4upload": 13,
-        "streamwish": 13
+        "mp4upload": 14,
+        "streamwish": 14
       },
       "playbackVerified": false
     },
@@ -46886,8 +46837,7 @@
       "title": "Zombieland Saga Movie: Yumeginga Paradise",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -46896,7 +46846,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -48827,23 +48777,21 @@
       "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/",
       "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?)",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 17,
-      "stored": 14,
+      "stored": 15,
       "missing": [
-        "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/15/",
         "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/16/",
         "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta/17/"
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
-        "mp4upload": 14,
+        "mp4upload": 15,
         "vidhide": 4,
-        "streamwish": 11
+        "streamwish": 12
       },
       "playbackVerified": false
     },
@@ -62059,10 +62007,9 @@
         "renewal-error"
       ],
       "observed": 29,
-      "stored": 16,
+      "stored": 17,
       "missing": [
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/14/",
-        "https://jkanime.net/watashi-no-shiawase-na-kekkon/15/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/16/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/17/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/18/",
@@ -62077,12 +62024,12 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 13,
         "streamwish": 13,
         "vidhide": 12,
-        "mp4upload": 14,
+        "mp4upload": 15,
         "streamtape": 12,
         "voe": 1
       },
@@ -65931,9 +65878,8 @@
         "renewal-error"
       ],
       "observed": 46,
-      "stored": 27,
+      "stored": 28,
       "missing": [
-        "https://jkanime.net/urusei-yatsura-2022/28/",
         "https://jkanime.net/urusei-yatsura-2022/29/",
         "https://jkanime.net/urusei-yatsura-2022/30/",
         "https://jkanime.net/urusei-yatsura-2022/31/",
@@ -65960,7 +65906,7 @@
         "mega": 19,
         "streamwish": 20,
         "vidhide": 19,
-        "mp4upload": 27,
+        "mp4upload": 28,
         "streamtape": 19
       },
       "playbackVerified": false
@@ -90049,19 +89995,17 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 9,
+      "stored": 11,
       "missing": [
-        "https://jkanime.net/urahara/7/",
-        "https://jkanime.net/urahara/8/",
         "https://jkanime.net/urahara/9/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 8,
-        "streamwish": 9,
-        "vidhide": 8
+        "mp4upload": 10,
+        "streamwish": 11,
+        "vidhide": 10
       },
       "playbackVerified": false
     },
@@ -94881,20 +94825,16 @@
     {
       "series": "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/",
       "title": "Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai",
-      "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/zutto-mae-kara-suki-deshita-kokuhaku-jikkou-iinkai/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
-      "families": {},
+      "renewalFailed": 0,
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -97075,10 +97015,8 @@
         "observed-chapters-without-options"
       ],
       "observed": 12,
-      "stored": 7,
+      "stored": 9,
       "missing": [
-        "https://jkanime.net/wagamama-high-spec/5/",
-        "https://jkanime.net/wagamama-high-spec/6/",
         "https://jkanime.net/wagamama-high-spec/7/",
         "https://jkanime.net/wagamama-high-spec/8/",
         "https://jkanime.net/wagamama-high-spec/9/"
@@ -97088,7 +97026,7 @@
       "renewalFailed": 0,
       "families": {
         "mega": 4,
-        "streamwish": 3
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -101502,17 +101440,15 @@
         "observed-chapters-without-options"
       ],
       "observed": 6,
-      "stored": 3,
+      "stored": 5,
       "missing": [
-        "https://jkanime.net/venus-project-climax/1/",
-        "https://jkanime.net/venus-project-climax/5/",
-        "https://jkanime.net/venus-project-climax/6/"
+        "https://jkanime.net/venus-project-climax/1/"
       ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "streamwish": 3
+        "streamwish": 5
       },
       "playbackVerified": false
     },
@@ -109187,7 +109123,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 27,
+      "renewalFailed": 26,
       "families": {
         "mega": 61,
         "streamwish": 61,
@@ -116979,7 +116915,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 46,
+      "renewalFailed": 45,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -122078,7 +122014,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -122868,7 +122804,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 12,
         "vidhide": 12,
@@ -125846,7 +125782,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 22,
         "streamwish": 26,
@@ -126244,7 +126180,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 23,
         "streamwish": 26,
@@ -126433,13 +126369,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "mega": 26,
-        "streamwish": 8,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "streamwish": 7,
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -127260,7 +127196,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -127990,7 +127926,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 23,
+      "renewalFailed": 22,
       "families": {
         "mega": 22,
         "streamwish": 51,
@@ -128032,7 +127968,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -128992,7 +128928,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 9,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -130539,7 +130475,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 37,
+      "renewalFailed": 36,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -130604,7 +130540,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "mega": 25,
         "streamwish": 25,
@@ -130671,13 +130607,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 24,
-        "streamwish": 13,
-        "vidhide": 13,
-        "mp4upload": 13,
-        "streamtape": 13
+        "streamwish": 12,
+        "vidhide": 12,
+        "mp4upload": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -130727,15 +130663,13 @@
     {
       "series": "https://jkanime.net/yoake-mae-yori-ruriiro-na/",
       "title": "Yoake Mae yori Ruriiro na",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -131271,7 +131205,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "families": {
         "mp4upload": 26,
         "streamwish": 26,
@@ -131435,7 +131369,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 21,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -131871,7 +131805,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -132405,7 +132339,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -134425,7 +134359,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -134875,14 +134809,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 12,
-        "mega": 3,
-        "vidhide": 3,
-        "mixdrop": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "mega": 2,
+        "vidhide": 2,
+        "mixdrop": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -135154,7 +135088,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -135624,7 +135558,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -135900,7 +135834,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136332,7 +136266,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -136603,7 +136537,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -136643,7 +136577,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 13,
         "streamwish": 13,
@@ -139114,7 +139048,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 62,
+      "renewalFailed": 61,
       "families": {
         "mega": 67,
         "streamwish": 67,
@@ -139234,13 +139168,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 38,
+      "renewalFailed": 37,
       "families": {
         "mega": 43,
-        "streamwish": 38,
-        "vidhide": 38,
-        "mp4upload": 38,
-        "streamtape": 38
+        "streamwish": 37,
+        "vidhide": 37,
+        "mp4upload": 37,
+        "streamtape": 37
       },
       "playbackVerified": false
     },
@@ -139277,7 +139211,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 49,
+      "renewalFailed": 48,
       "families": {
         "mega": 54,
         "streamwish": 54,
@@ -139457,7 +139391,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 19,
       "families": {
         "mega": 24,
         "streamwish": 24,
@@ -140134,7 +140068,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 99,
+      "renewalFailed": 98,
       "families": {
         "mega": 102,
         "streamwish": 102,
@@ -140267,7 +140201,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 23,
       "families": {
         "mega": 26,
         "streamwish": 26,
@@ -140385,13 +140319,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 47,
+      "renewalFailed": 46,
       "families": {
         "mega": 48,
-        "streamwish": 47,
-        "vidhide": 47,
-        "mp4upload": 47,
-        "streamtape": 47
+        "streamwish": 46,
+        "vidhide": 46,
+        "mp4upload": 46,
+        "streamtape": 46
       },
       "playbackVerified": false
     },
@@ -140510,13 +140444,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 50,
+      "renewalFailed": 49,
       "families": {
         "mega": 51,
-        "streamwish": 50,
-        "vidhide": 50,
-        "mp4upload": 50,
-        "streamtape": 50
+        "streamwish": 49,
+        "vidhide": 49,
+        "mp4upload": 49,
+        "streamtape": 49
       },
       "playbackVerified": false
     },
@@ -141190,7 +141124,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 49,
+      "renewalFailed": 48,
       "families": {
         "mega": 49,
         "streamwish": 49,
