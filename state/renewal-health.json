@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T06:01:18.768648+00:00",
+  "checkedAt": "2026-11-01T06:17:46.564270+00:00",
   "episodes": 72643,
-  "oldestHours": 137.71,
-  "pending": 65667,
+  "oldestHours": 137.99,
+  "pending": 65889,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 98,
-  "sampleMinutes": 1430.55,
-  "measuredWallClockPerHour": 280.47,
-  "estimatedSweepDays": 10.79,
+  "sampleMinutes": 1433.67,
+  "measuredWallClockPerHour": 275.34,
+  "estimatedSweepDays": 10.99,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 1,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4153,
-    "diagnosedSeries": 4115,
-    "pendingSeries": 38
+    "series": 4151,
+    "diagnosedSeries": 4116,
+    "pendingSeries": 35
   },
   "coverage": {
-    "checkedAt": "2026-11-01T06:01:18.768648+00:00",
+    "checkedAt": "2026-11-01T06:17:46.564270+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
