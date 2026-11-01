@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T06:19:38.959737+00:00",
+  "checkedAt": "2026-11-01T06:32:49.787704+00:00",
   "requested": 400,
-  "renewed": 24,
-  "attempted": 336,
-  "repairAttempts": 84,
+  "renewed": 12,
+  "attempted": 316,
+  "repairAttempts": 79,
   "earlyRepairAttempts": 2,
-  "failed": 56737,
+  "failed": 56718,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41280261316",
+  "runId": "41281224691",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 255,
+  "extraRenewed": 244,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -24,7 +24,7 @@
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 21,
+      "fresh": 15,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -340,7 +340,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4138,
-    "diagnosedSeries": 4116,
-    "pendingSeries": 22
+    "series": 4128,
+    "diagnosedSeries": 4112,
+    "pendingSeries": 16
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T06:31:57.285026+00:00",
+    "checkedAt": "2026-11-01T06:46:56.762234+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
