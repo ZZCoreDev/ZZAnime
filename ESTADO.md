@@ -99,26 +99,26 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 57406; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 57372; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 1/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Prince of Tennis, 2/178 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Keroro Gunsou☆ 2026, 5/5 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 143.
-Equivalencia comprobada: Kodomo no Omocha (TV), 8/102 capítulos recientes; incidencias pendientes: 78.
-Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 23.
-Equivalencia comprobada: Zoids, 0/67 capítulos recientes; incidencias pendientes: 41.
-Equivalencia comprobada: Dragon Ball Kai (2014), 0/61 capítulos recientes; incidencias pendientes: 3.
-Equivalencia comprobada: Digimon Adventure, 0/54 capítulos recientes; incidencias pendientes: 28.
-Equivalencia comprobada: Kishin Douji Zenki, 22/51 capítulos recientes; incidencias pendientes: 29.
-Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recientes; incidencias pendientes: 15.
-Equivalencia comprobada: Mobile Suit Gundam Wing, 23/49 capítulos recientes; incidencias pendientes: 26.
-Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 29.
-Equivalencia comprobada: Great Teacher Onizuka, 26/43 capítulos recientes; incidencias pendientes: 17.
+Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 141.
+Equivalencia comprobada: Kodomo no Omocha (TV), 8/102 capítulos recientes; incidencias pendientes: 75.
+Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 20.
+Equivalencia comprobada: Zoids, 0/67 capítulos recientes; incidencias pendientes: 38.
+Equivalencia comprobada: Dragon Ball Kai (2014), 0/61 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Digimon Adventure, 0/54 capítulos recientes; incidencias pendientes: 25.
+Equivalencia comprobada: Kishin Douji Zenki, 25/51 capítulos recientes; incidencias pendientes: 26.
+Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recientes; incidencias pendientes: 12.
+Equivalencia comprobada: Mobile Suit Gundam Wing, 26/49 capítulos recientes; incidencias pendientes: 23.
+Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 27.
+Equivalencia comprobada: Great Teacher Onizuka, 29/43 capítulos recientes; incidencias pendientes: 14.
 Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 2.
-Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 3.
+Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ouran High School Host Club, 1/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Phantom: Requiem for the Phantom, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Saint Seiya: The Lost Canvas, 0/26 capítulos recientes; incidencias pendientes: 0.
@@ -224,7 +224,7 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4131/4177; pendientes: 46. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4129/4175; pendientes: 46. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 72643 capítulos con registros, 1193 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
