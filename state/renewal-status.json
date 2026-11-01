@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T02:13:44.449426+00:00",
+  "checkedAt": "2026-11-01T02:27:26.569989+00:00",
   "requested": 400,
   "renewed": 14,
-  "attempted": 324,
-  "repairAttempts": 81,
+  "attempted": 304,
+  "repairAttempts": 76,
   "earlyRepairAttempts": 2,
-  "failed": 57455,
+  "failed": 57406,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41264190525",
+  "runId": "41265228956",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 282,
+  "extraRenewed": 263,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -60,77 +60,77 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 146,
+      "pendingFailures": 143,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 6,
-      "pendingFailures": 82,
+      "fresh": 8,
+      "pendingFailures": 78,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 27,
+      "pendingFailures": 23,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
       "title": "Zoids",
       "total": 67,
       "fresh": 0,
-      "pendingFailures": 45,
+      "pendingFailures": 41,
       "state": "pending"
     },
     "https://jkanime.net/dragon-ball-kai-2014/": {
       "title": "Dragon Ball Kai (2014)",
       "total": 61,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/digimon-digital-monsters/": {
       "title": "Digimon Adventure",
       "total": 54,
       "fresh": 0,
-      "pendingFailures": 32,
+      "pendingFailures": 28,
       "state": "pending"
     },
     "https://jkanime.net/zenki/": {
       "title": "Kishin Douji Zenki",
       "total": 51,
-      "fresh": 18,
-      "pendingFailures": 33,
+      "fresh": 22,
+      "pendingFailures": 29,
       "state": "pending"
     },
     "https://jkanime.net/kenichi/": {
       "title": "Shijou Saikyou no Deshi Kenichi",
       "total": 50,
       "fresh": 0,
-      "pendingFailures": 19,
+      "pendingFailures": 15,
       "state": "pending"
     },
     "https://jkanime.net/gundam-wing/": {
       "title": "Mobile Suit Gundam Wing",
       "total": 49,
-      "fresh": 19,
-      "pendingFailures": 30,
+      "fresh": 23,
+      "pendingFailures": 26,
       "state": "pending"
     },
     "https://jkanime.net/tekkaman-blade/": {
       "title": "Tekkaman Blade",
       "total": 49,
       "fresh": 0,
-      "pendingFailures": 32,
+      "pendingFailures": 29,
       "state": "pending"
     },
     "https://jkanime.net/gto/": {
       "title": "Great Teacher Onizuka",
       "total": 43,
-      "fresh": 22,
-      "pendingFailures": 21,
+      "fresh": 26,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/yozakura-san-chi-no-daisakusen/": {
@@ -144,7 +144,7 @@
       "title": "Neon Genesis Evangelion",
       "total": 26,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/ouran-high-school-host-club/": {
@@ -228,7 +228,7 @@
       "title": "Majutsushi Orphen",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/shakugan-no-shana-ii/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4178,
-    "diagnosedSeries": 4132,
+    "series": 4177,
+    "diagnosedSeries": 4131,
     "pendingSeries": 46
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T02:26:31.270016+00:00",
+    "checkedAt": "2026-11-01T02:41:00.704842+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
