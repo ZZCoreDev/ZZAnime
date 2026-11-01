@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T11:40:10.563761+00:00",
+  "checkedAt": "2026-11-01T11:54:27.938317+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73838,
   "storedChapters": 72643,
@@ -32,7 +32,8 @@
         "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
         "title": "Cyberpunk: Edgerunners 2",
         "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/5/"
+          "https://jkanime.net/cyberpunk-edgerunners-2/5/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/"
         ]
       },
       {
@@ -41581,7 +41582,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -69785,7 +69786,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -87517,7 +87518,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -92059,7 +92060,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -93809,7 +93810,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -97536,7 +97537,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 4,
         "mega": 2
@@ -97869,7 +97870,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {},
       "playbackVerified": false
     },
@@ -137680,7 +137681,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 1
       },
