@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T10:57:19.023423+00:00",
+  "checkedAt": "2026-11-01T11:12:01.687573+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73838,
   "storedChapters": 72643,
@@ -3901,13 +3901,6 @@
         "title": "Twi-Yaba",
         "samples": [
           "https://jkanime.net/twi-yaba/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-movie/",
-        "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta Movie",
-        "samples": [
-          "https://jkanime.net/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-movie/1/"
         ]
       },
       {
@@ -10149,13 +10142,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatestay-night-movie-heavens-feel-iii-spring-song/",
-        "title": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
-        "samples": [
-          "https://jkanime.net/fatestay-night-movie-heavens-feel-iii-spring-song/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/date-a-bullet-dead-or-bullet/",
         "title": "Date A Bullet: Dead or Bullet",
         "samples": [
@@ -11911,13 +11897,6 @@
         "title": "Cencoroll Connect",
         "samples": [
           "https://jkanime.net/cencoroll-connect/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fatestay-night-movie-heavens-feel-ii-lost-butterfly/",
-        "title": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
-        "samples": [
-          "https://jkanime.net/fatestay-night-movie-heavens-feel-ii-lost-butterfly/1/"
         ]
       },
       {
@@ -18096,13 +18075,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-ova/",
-        "title": "Fate/kaleid liner Prisma☆Illya 2wei! OVA",
-        "samples": [
-          "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-ova/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fatekaleid-liner-prismaillya-2wei-herz/",
         "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
         "samples": [
@@ -24157,13 +24129,6 @@
         "samples": [
           "https://jkanime.net/natsume-yuujinchou-shi/10/",
           "https://jkanime.net/natsume-yuujinchou-shi/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fate-prototype/",
-        "title": "Fate/Prototype",
-        "samples": [
-          "https://jkanime.net/fate-prototype/1/"
         ]
       },
       {
@@ -58285,8 +58250,7 @@
       "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta Movie",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -58295,7 +58259,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -76391,8 +76355,7 @@
       "series": "https://jkanime.net/fatestay-night-movie-heavens-feel-iii-spring-song/",
       "title": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 1,
       "stored": 0,
@@ -76401,7 +76364,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -81533,8 +81496,7 @@
       "series": "https://jkanime.net/fatestay-night-movie-heavens-feel-ii-lost-butterfly/",
       "title": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 1,
       "stored": 0,
@@ -81543,7 +81505,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -87497,7 +87459,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -92039,7 +92001,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -93737,7 +93699,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 6
       },
@@ -97516,7 +97478,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 4,
         "mega": 2
@@ -97849,7 +97811,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -100297,8 +100259,7 @@
       "title": "Fate/kaleid liner Prisma☆Illya 2wei! OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -100307,7 +100268,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -118794,8 +118755,7 @@
       "title": "Fate/Prototype",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -118804,7 +118764,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -128292,7 +128252,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "families": {
         "mega": 10,
         "streamwish": 12,
@@ -137663,7 +137623,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "mega": 1
       },
