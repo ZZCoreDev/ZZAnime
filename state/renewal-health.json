@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T11:26:24.332357+00:00",
+  "checkedAt": "2026-11-01T11:40:10.563761+00:00",
   "episodes": 72643,
-  "oldestHours": 143.13,
-  "pending": 69972,
+  "oldestHours": 143.36,
+  "pending": 70156,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 97,
-  "sampleMinutes": 1435.14,
-  "measuredWallClockPerHour": 76.05,
-  "estimatedSweepDays": 39.8,
+  "sampleMinutes": 1435.67,
+  "measuredWallClockPerHour": 66.49,
+  "estimatedSweepDays": 45.52,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4106,
+    "series": 4112,
     "diagnosedSeries": 4096,
-    "pendingSeries": 10
+    "pendingSeries": 16
   },
   "coverage": {
-    "checkedAt": "2026-11-01T11:26:24.332357+00:00",
+    "checkedAt": "2026-11-01T11:40:10.563761+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73838,
     "storedChapters": 72643,
