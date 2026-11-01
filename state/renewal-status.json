@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T04:08:36.543200+00:00",
+  "checkedAt": "2026-11-01T04:23:03.392279+00:00",
   "requested": 400,
-  "renewed": 15,
-  "attempted": 288,
-  "repairAttempts": 72,
+  "renewed": 5,
+  "attempted": 300,
+  "repairAttempts": 75,
   "earlyRepairAttempts": 2,
-  "failed": 57072,
+  "failed": 57012,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41271870693",
+  "runId": "41272774543",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 264,
+  "extraRenewed": 280,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -60,14 +60,14 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 85,
+      "pendingFailures": 41,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 27,
-      "pendingFailures": 16,
+      "fresh": 32,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4167,
-    "diagnosedSeries": 4121,
+    "series": 4166,
+    "diagnosedSeries": 4120,
     "pendingSeries": 46
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T04:21:10.166029+00:00",
+    "checkedAt": "2026-11-01T04:35:33.363261+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,

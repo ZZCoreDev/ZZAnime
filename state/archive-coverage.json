@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T04:21:10.166029+00:00",
+  "checkedAt": "2026-11-01T04:35:33.363261+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -31369,14 +31369,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kodomo-no-omocha-tv/",
-        "title": "Kodomo no Omocha (TV)",
-        "samples": [
-          "https://jkanime.net/kodomo-no-omocha-tv/100/",
-          "https://jkanime.net/kodomo-no-omocha-tv/101/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-gt/",
         "title": "Dragon Ball GT",
         "samples": [
@@ -31848,8 +31840,8 @@
         "series": "https://jkanime.net/ranma-/",
         "title": "Ranma ½",
         "samples": [
-          "https://jkanime.net/ranma-/100/",
-          "https://jkanime.net/ranma-/101/"
+          "https://jkanime.net/ranma-/121/",
+          "https://jkanime.net/ranma-/122/"
         ]
       },
       {
@@ -139650,22 +139642,20 @@
     {
       "series": "https://jkanime.net/kodomo-no-omocha-tv/",
       "title": "Kodomo no Omocha (TV)",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 102,
       "stored": 102,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 0,
       "families": {
-        "mega": 75,
-        "streamwish": 80,
-        "vidhide": 85,
-        "mixdrop": 75,
+        "mega": 70,
+        "streamwish": 75,
+        "vidhide": 80,
+        "mixdrop": 70,
         "mp4upload": 112,
-        "streamtape": 72
+        "streamtape": 67
       },
       "playbackVerified": false
     },
@@ -141169,7 +141159,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 85,
+      "renewalFailed": 41,
       "families": {
         "mega": 161,
         "streamwish": 161,
