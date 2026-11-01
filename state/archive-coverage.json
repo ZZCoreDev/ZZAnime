@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T03:09:05.051324+00:00",
+  "checkedAt": "2026-11-01T03:23:54.018248+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -23672,8 +23672,8 @@
         "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
         "title": "Yu-Gi-Oh! Zexal Second",
         "samples": [
-          "https://jkanime.net/yu-gi-oh-zexal-second/59/",
-          "https://jkanime.net/yu-gi-oh-zexal-second/60/"
+          "https://jkanime.net/yu-gi-oh-zexal-second/64/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/65/"
         ]
       },
       {
@@ -28151,8 +28151,8 @@
         "series": "https://jkanime.net/kenichi/",
         "title": "Shijou Saikyou no Deshi Kenichi",
         "samples": [
-          "https://jkanime.net/kenichi/44/",
-          "https://jkanime.net/kenichi/45/"
+          "https://jkanime.net/kenichi/49/",
+          "https://jkanime.net/kenichi/50/"
         ]
       },
       {
@@ -31066,8 +31066,8 @@
         "series": "https://jkanime.net/zoid/",
         "title": "Zoids",
         "samples": [
-          "https://jkanime.net/zoid/35/",
-          "https://jkanime.net/zoid/36/"
+          "https://jkanime.net/zoid/40/",
+          "https://jkanime.net/zoid/41/"
         ]
       },
       {
@@ -31111,8 +31111,8 @@
         "series": "https://jkanime.net/gto/",
         "title": "Great Teacher Onizuka",
         "samples": [
-          "https://jkanime.net/gto/34/",
-          "https://jkanime.net/gto/36/"
+          "https://jkanime.net/gto/40/",
+          "https://jkanime.net/gto/41/"
         ]
       },
       {
@@ -31127,8 +31127,8 @@
         "series": "https://jkanime.net/digimon-digital-monsters/",
         "title": "Digimon Adventure",
         "samples": [
-          "https://jkanime.net/digimon-digital-monsters/35/",
-          "https://jkanime.net/digimon-digital-monsters/36/"
+          "https://jkanime.net/digimon-digital-monsters/40/",
+          "https://jkanime.net/digimon-digital-monsters/41/"
         ]
       },
       {
@@ -31475,8 +31475,8 @@
         "series": "https://jkanime.net/gundam-wing/",
         "title": "Mobile Suit Gundam Wing",
         "samples": [
-          "https://jkanime.net/gundam-wing/32/",
-          "https://jkanime.net/gundam-wing/33/"
+          "https://jkanime.net/gundam-wing/36/",
+          "https://jkanime.net/gundam-wing/37/"
         ]
       },
       {
@@ -31522,8 +31522,8 @@
         "series": "https://jkanime.net/zenki/",
         "title": "Kishin Douji Zenki",
         "samples": [
-          "https://jkanime.net/zenki/31/",
-          "https://jkanime.net/zenki/32/"
+          "https://jkanime.net/zenki/35/",
+          "https://jkanime.net/zenki/36/"
         ]
       },
       {
@@ -31756,8 +31756,8 @@
         "series": "https://jkanime.net/tekkaman-blade/",
         "title": "Tekkaman Blade",
         "samples": [
-          "https://jkanime.net/tekkaman-blade/28/",
-          "https://jkanime.net/tekkaman-blade/29/"
+          "https://jkanime.net/tekkaman-blade/32/",
+          "https://jkanime.net/tekkaman-blade/33/"
         ]
       },
       {
@@ -116640,7 +116640,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 10,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -130182,7 +130182,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 2,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -138718,7 +138718,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 33,
+      "renewalFailed": 28,
       "families": {
         "mega": 67,
         "streamwish": 67,
@@ -138838,13 +138838,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 4,
       "families": {
         "mega": 43,
-        "streamwish": 9,
-        "vidhide": 9,
-        "mp4upload": 9,
-        "streamtape": 9
+        "streamwish": 4,
+        "vidhide": 4,
+        "mp4upload": 4,
+        "streamtape": 4
       },
       "playbackVerified": false
     },
@@ -138881,7 +138881,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 20,
+      "renewalFailed": 15,
       "families": {
         "mega": 54,
         "streamwish": 54,
@@ -139736,7 +139736,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 70,
+      "renewalFailed": 66,
       "families": {
         "mega": 93,
         "streamwish": 93,
@@ -139985,13 +139985,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 14,
       "families": {
         "mega": 48,
-        "streamwish": 18,
-        "vidhide": 18,
-        "mp4upload": 18,
-        "streamtape": 18
+        "streamwish": 14,
+        "vidhide": 14,
+        "mp4upload": 14,
+        "streamtape": 14
       },
       "playbackVerified": false
     },
@@ -140110,13 +140110,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 17,
       "families": {
         "mega": 50,
-        "mp4upload": 23,
-        "streamwish": 21,
-        "vidhide": 21,
-        "streamtape": 21
+        "mp4upload": 19,
+        "streamwish": 17,
+        "vidhide": 17,
+        "streamtape": 17
       },
       "playbackVerified": false
     },
@@ -140790,7 +140790,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 22,
+      "renewalFailed": 18,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -141260,7 +141260,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 136,
+      "renewalFailed": 132,
       "families": {
         "mega": 161,
         "streamwish": 161,
