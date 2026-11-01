@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T04:07:50.496968+00:00",
+  "checkedAt": "2026-11-01T04:21:10.166029+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -31044,14 +31044,6 @@
         "samples": [
           "https://jkanime.net/majutsushi-orphen-revenge/1/",
           "https://jkanime.net/majutsushi-orphen-revenge/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zoid/",
-        "title": "Zoids",
-        "samples": [
-          "https://jkanime.net/zoid/62/",
-          "https://jkanime.net/zoid/63/"
         ]
       },
       {
@@ -138650,15 +138642,13 @@
     {
       "series": "https://jkanime.net/zoid/",
       "title": "Zoids",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 67,
       "stored": 67,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 0,
       "families": {
         "mega": 67,
         "streamwish": 67,
@@ -139668,14 +139658,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 45,
+      "renewalFailed": 16,
       "families": {
-        "mega": 90,
-        "streamwish": 90,
-        "vidhide": 98,
-        "mixdrop": 90,
-        "mp4upload": 109,
-        "streamtape": 87
+        "mega": 75,
+        "streamwish": 80,
+        "vidhide": 85,
+        "mixdrop": 75,
+        "mp4upload": 112,
+        "streamtape": 72
       },
       "playbackVerified": false
     },
@@ -141179,7 +141169,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 113,
+      "renewalFailed": 85,
       "families": {
         "mega": 161,
         "streamwish": 161,

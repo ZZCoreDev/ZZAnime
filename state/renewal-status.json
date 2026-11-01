@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T03:55:31.827640+00:00",
+  "checkedAt": "2026-11-01T04:08:36.543200+00:00",
   "requested": 400,
-  "renewed": 12,
-  "attempted": 330,
-  "repairAttempts": 82,
+  "renewed": 15,
+  "attempted": 288,
+  "repairAttempts": 72,
   "earlyRepairAttempts": 2,
-  "failed": 57135,
+  "failed": 57072,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41270963290",
+  "runId": "41271870693",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 292,
+  "extraRenewed": 264,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -60,14 +60,14 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 113,
+      "pendingFailures": 85,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 12,
-      "pendingFailures": 45,
+      "fresh": 27,
+      "pendingFailures": 16,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
@@ -81,7 +81,7 @@
       "title": "Zoids",
       "total": 67,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/dragon-ball-kai-2014/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4168,
-    "diagnosedSeries": 4122,
+    "series": 4167,
+    "diagnosedSeries": 4121,
     "pendingSeries": 46
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T04:07:50.496968+00:00",
+    "checkedAt": "2026-11-01T04:21:10.166029+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
