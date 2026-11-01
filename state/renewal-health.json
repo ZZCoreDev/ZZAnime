@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T05:03:59.467656+00:00",
+  "checkedAt": "2026-11-01T05:18:57.394506+00:00",
   "episodes": 72643,
-  "oldestHours": 136.76,
-  "pending": 64803,
+  "oldestHours": 137.01,
+  "pending": 65016,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 98,
-  "sampleMinutes": 1427.02,
-  "measuredWallClockPerHour": 315.68,
-  "estimatedSweepDays": 9.59,
+  "sampleMinutes": 1428.25,
+  "measuredWallClockPerHour": 306.96,
+  "estimatedSweepDays": 9.86,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 1,
-      "pendingFailures": 0,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -766,7 +766,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4163,
+    "series": 4164,
     "diagnosedSeries": 4119,
-    "pendingSeries": 44
+    "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-01T05:03:59.467656+00:00",
+    "checkedAt": "2026-11-01T05:18:57.394506+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
