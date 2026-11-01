@@ -99,39 +99,39 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 57611; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 57571; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 1/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Prince of Tennis, 2/178 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Keroro Gunsou☆ 2026, 5/5 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 156.
-Equivalencia comprobada: Kodomo no Omocha (TV), 0/102 capítulos recientes; incidencias pendientes: 92.
-Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 38.
-Equivalencia comprobada: Zoids, 0/67 capítulos recientes; incidencias pendientes: 55.
-Equivalencia comprobada: Dragon Ball Kai (2014), 0/61 capítulos recientes; incidencias pendientes: 18.
-Equivalencia comprobada: Digimon Adventure, 0/54 capítulos recientes; incidencias pendientes: 42.
-Equivalencia comprobada: Kishin Douji Zenki, 8/51 capítulos recientes; incidencias pendientes: 43.
-Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recientes; incidencias pendientes: 29.
-Equivalencia comprobada: Mobile Suit Gundam Wing, 9/49 capítulos recientes; incidencias pendientes: 40.
-Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 42.
-Equivalencia comprobada: Great Teacher Onizuka, 12/43 capítulos recientes; incidencias pendientes: 31.
+Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 154.
+Equivalencia comprobada: Kodomo no Omocha (TV), 1/102 capítulos recientes; incidencias pendientes: 90.
+Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 35.
+Equivalencia comprobada: Zoids, 0/67 capítulos recientes; incidencias pendientes: 53.
+Equivalencia comprobada: Dragon Ball Kai (2014), 0/61 capítulos recientes; incidencias pendientes: 15.
+Equivalencia comprobada: Digimon Adventure, 0/54 capítulos recientes; incidencias pendientes: 40.
+Equivalencia comprobada: Kishin Douji Zenki, 10/51 capítulos recientes; incidencias pendientes: 41.
+Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recientes; incidencias pendientes: 27.
+Equivalencia comprobada: Mobile Suit Gundam Wing, 11/49 capítulos recientes; incidencias pendientes: 38.
+Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 40.
+Equivalencia comprobada: Great Teacher Onizuka, 14/43 capítulos recientes; incidencias pendientes: 29.
 Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 2.
-Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 17.
-Equivalencia comprobada: Ouran High School Host Club, 1/26 capítulos recientes; incidencias pendientes: 8.
+Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 15.
+Equivalencia comprobada: Ouran High School Host Club, 1/26 capítulos recientes; incidencias pendientes: 6.
 Equivalencia comprobada: Phantom: Requiem for the Phantom, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Saint Seiya: The Lost Canvas, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Senjou no Valkyria: Gallian Chronicles, 1/26 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Code Geass: Hangyaku no Lelouch R2, 0/25 capítulos recientes; incidencias pendientes: 3.
-Equivalencia comprobada: Code Geass: Hangyaku no Lelouch, 0/25 capítulos recientes; incidencias pendientes: 6.
-Equivalencia comprobada: Mobile Suit Gundam 00 S2, 0/25 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Code Geass: Hangyaku no Lelouch R2, 0/25 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Code Geass: Hangyaku no Lelouch, 0/25 capítulos recientes; incidencias pendientes: 4.
+Equivalencia comprobada: Mobile Suit Gundam 00 S2, 0/25 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Phi Brain: Kami no Puzzle 2nd Season, 0/25 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Phi Brain: Kami no Puzzle 3rd Season, 0/25 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Eureka Seven AO, 0/24 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Kanon (2006), 19/24 capítulos recientes; incidencias pendientes: 5.
-Equivalencia comprobada: Majutsushi Orphen, 0/24 capítulos recientes; incidencias pendientes: 13.
-Equivalencia comprobada: Shakugan no Shana II, 0/24 capítulos recientes; incidencias pendientes: 2.
+Equivalencia comprobada: Kanon (2006), 21/24 capítulos recientes; incidencias pendientes: 3.
+Equivalencia comprobada: Majutsushi Orphen, 0/24 capítulos recientes; incidencias pendientes: 11.
+Equivalencia comprobada: Shakugan no Shana II, 0/24 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Steins;Gate, 0/24 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Abarenbou Kishi!! Matsutarou, 0/23 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Suzumiya Haruhi no Yuuutsu (2009), 0/14 capítulos recientes; incidencias pendientes: 0.
@@ -215,7 +215,7 @@ Equivalencia comprobada: Kobayashi ga Kawai Sugite Tsurai!!, 0/2 capítulos reci
 Equivalencia comprobada: Koe de Oshigoto! The Animation, 2/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Rurouni Kenshin: Seisouhen, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tsubasa Chronicle: Shunraiki, 0/2 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 11/12 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 2/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen, 1/5 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Blade and Soul, 13/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: JoJo's Bizarre Adventure The Animation, 0/26 capítulos recientes; incidencias pendientes: 26.
@@ -224,7 +224,7 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4138/4184; pendientes: 46. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4135/4181; pendientes: 46. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 72643 capítulos con registros, 1193 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
