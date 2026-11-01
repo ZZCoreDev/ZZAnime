@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T06:17:46.564270+00:00",
+  "checkedAt": "2026-11-01T06:31:57.285026+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -33,7 +33,7 @@
         "title": "Cyberpunk: Edgerunners 2",
         "samples": [
           "https://jkanime.net/cyberpunk-edgerunners-2/10/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/7/"
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -2544,13 +2544,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/hitoribocchi-no-isekai-kouryaku/",
-        "title": "Hitoribocchi no Isekai Kouryaku",
-        "samples": [
-          "https://jkanime.net/hitoribocchi-no-isekai-kouryaku/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ai-no-yakusoku/",
         "title": "Ai no Yakusoku",
         "samples": [
@@ -2690,22 +2683,7 @@
         "series": "https://jkanime.net/atri-my-dear-moments/",
         "title": "Atri: My Dear Moments",
         "samples": [
-          "https://jkanime.net/atri-my-dear-moments/12/",
           "https://jkanime.net/atri-my-dear-moments/13/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka/",
-        "title": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
-        "samples": [
-          "https://jkanime.net/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/make-heroine-ga-oosugiru/",
-        "title": "Make Heroine ga Oosugiru!",
-        "samples": [
-          "https://jkanime.net/make-heroine-ga-oosugiru/12/"
         ]
       },
       {
@@ -2717,27 +2695,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/koi-wa-futago-de-warikirenai/",
-        "title": "Koi wa Futago de Warikirenai",
-        "samples": [
-          "https://jkanime.net/koi-wa-futago-de-warikirenai/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/isekai-shikkaku/",
-        "title": "Isekai Shikkaku",
-        "samples": [
-          "https://jkanime.net/isekai-shikkaku/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita/",
-        "title": "Katsute Mahou Shoujo to Aku wa Tekitai shiteita.",
-        "samples": [
-          "https://jkanime.net/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/egumi-legacy/",
         "title": "Egumi Legacy",
         "samples": [
@@ -2746,54 +2703,19 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mayonaka-punch/",
-        "title": "Mayonaka Punch",
-        "samples": [
-          "https://jkanime.net/mayonaka-punch/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
         "title": "Kami no Tou: Ouji no Kikan",
         "samples": [
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/12/",
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/13/"
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/13/",
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/14/"
         ]
       },
       {
         "series": "https://jkanime.net/fairy-tail-100-nen-quest/",
         "title": "Fairy Tail: 100-nen Quest",
         "samples": [
-          "https://jkanime.net/fairy-tail-100-nen-quest/12/",
-          "https://jkanime.net/fairy-tail-100-nen-quest/13/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/shikanoko-nokonoko-koshitantan/",
-        "title": "Shikanoko Nokonoko Koshitantan",
-        "samples": [
-          "https://jkanime.net/shikanoko-nokonoko-koshitantan/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsue-to-tsurugi-no-wistoria/",
-        "title": "Tsue to Tsurugi no Wistoria",
-        "samples": [
-          "https://jkanime.net/tsue-to-tsurugi-no-wistoria/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu/",
-        "title": "Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu",
-        "samples": [
-          "https://jkanime.net/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta/",
-        "title": "VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta",
-        "samples": [
-          "https://jkanime.net/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta/12/"
+          "https://jkanime.net/fairy-tail-100-nen-quest/13/",
+          "https://jkanime.net/fairy-tail-100-nen-quest/14/"
         ]
       },
       {
@@ -2805,17 +2727,9 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nige-jouzu-no-wakagimi/",
-        "title": "Nige Jouzu no Wakagimi",
-        "samples": [
-          "https://jkanime.net/nige-jouzu-no-wakagimi/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/madougushi-dahliya-wa-utsumukanai/",
         "title": "Madougushi Dahliya wa Utsumukanai",
         "samples": [
-          "https://jkanime.net/madougushi-dahliya-wa-utsumukanai/11/",
           "https://jkanime.net/madougushi-dahliya-wa-utsumukanai/12/"
         ]
       },
@@ -2823,7 +2737,6 @@
         "series": "https://jkanime.net/elf-san-wa-yaserarenai/",
         "title": "Elf-san wa Yaserarenai.",
         "samples": [
-          "https://jkanime.net/elf-san-wa-yaserarenai/11/",
           "https://jkanime.net/elf-san-wa-yaserarenai/12/"
         ]
       },
@@ -2831,7 +2744,6 @@
         "series": "https://jkanime.net/mob-kara-hajimaru-tansaku-eiyuutan/",
         "title": "Mob kara Hajimaru Tansaku Eiyuutan",
         "samples": [
-          "https://jkanime.net/mob-kara-hajimaru-tansaku-eiyuutan/11/",
           "https://jkanime.net/mob-kara-hajimaru-tansaku-eiyuutan/12/"
         ]
       },
@@ -2839,24 +2751,23 @@
         "series": "https://jkanime.net/na-nare-hana-nare/",
         "title": "Na Nare Hana Nare",
         "samples": [
-          "https://jkanime.net/na-nare-hana-nare/11/",
-          "https://jkanime.net/na-nare-hana-nare/12/"
+          "https://jkanime.net/na-nare-hana-nare/11/"
         ]
       },
       {
         "series": "https://jkanime.net/tensui-no-sakuna-hime/",
         "title": "Tensui no Sakuna-hime",
         "samples": [
-          "https://jkanime.net/tensui-no-sakuna-hime/11/",
-          "https://jkanime.net/tensui-no-sakuna-hime/12/"
+          "https://jkanime.net/tensui-no-sakuna-hime/12/",
+          "https://jkanime.net/tensui-no-sakuna-hime/13/"
         ]
       },
       {
         "series": "https://jkanime.net/monogatari-series-off-monster-season/",
         "title": "Monogatari Series: Off & Monster Season",
         "samples": [
-          "https://jkanime.net/monogatari-series-off-monster-season/11/",
-          "https://jkanime.net/monogatari-series-off-monster-season/12/"
+          "https://jkanime.net/monogatari-series-off-monster-season/12/",
+          "https://jkanime.net/monogatari-series-off-monster-season/13/"
         ]
       },
       {
@@ -2871,23 +2782,22 @@
         "series": "https://jkanime.net/25-jigen-no-ririsa/",
         "title": "2.5-jigen no Ririsa",
         "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/11/",
-          "https://jkanime.net/25-jigen-no-ririsa/12/"
+          "https://jkanime.net/25-jigen-no-ririsa/12/",
+          "https://jkanime.net/25-jigen-no-ririsa/13/"
         ]
       },
       {
         "series": "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/",
         "title": "Kono Sekai wa Fukanzen Sugiru",
         "samples": [
-          "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/10/",
-          "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/12/"
+          "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/12/",
+          "https://jkanime.net/kono-sekai-wa-fukanzen-sugiru/13/"
         ]
       },
       {
         "series": "https://jkanime.net/dungeon-no-naka-no-hito/",
         "title": "Dungeon no Naka no Hito",
         "samples": [
-          "https://jkanime.net/dungeon-no-naka-no-hito/11/",
           "https://jkanime.net/dungeon-no-naka-no-hito/12/"
         ]
       },
@@ -16348,13 +16258,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/aooni-the-blue-monster/",
-        "title": "Ao Oni The Animation",
-        "samples": [
-          "https://jkanime.net/aooni-the-blue-monster/12/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/idol-memories/",
         "title": "Idol Memories",
         "samples": [
@@ -17190,7 +17093,7 @@
         "title": "Seisen Cerberus: Ryuukoku no Fatalités",
         "samples": [
           "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/11/",
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/5/"
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/8/"
         ]
       },
       {
@@ -41854,7 +41757,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -53779,22 +53682,16 @@
     {
       "series": "https://jkanime.net/hitoribocchi-no-isekai-kouryaku/",
       "title": "Hitoribocchi no Isekai Kouryaku",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mixdrop": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -54277,55 +54174,45 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 13,
         "mega": 13,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka/",
       "title": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/make-heroine-ga-oosugiru/",
       "title": "Make Heroine ga Oosugiru!",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -54392,63 +54279,48 @@
     {
       "series": "https://jkanime.net/koi-wa-futago-de-warikirenai/",
       "title": "Koi wa Futago de Warikirenai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/isekai-shikkaku/",
       "title": "Isekai Shikkaku",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita/",
       "title": "Katsute Mahou Shoujo to Aku wa Tekitai shiteita.",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -54476,21 +54348,16 @@
     {
       "series": "https://jkanime.net/mayonaka-punch/",
       "title": "Mayonaka Punch",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -54505,13 +54372,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 15,
-        "mp4upload": 14,
-        "streamtape": 13,
+        "vidhide": 14,
+        "mp4upload": 13,
+        "streamtape": 12,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54527,13 +54394,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "families": {
         "streamwish": 23,
         "mega": 23,
-        "vidhide": 12,
-        "mp4upload": 14,
-        "streamtape": 12,
+        "vidhide": 11,
+        "mp4upload": 13,
+        "streamtape": 11,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54541,84 +54408,64 @@
     {
       "series": "https://jkanime.net/shikanoko-nokonoko-koshitantan/",
       "title": "Shikanoko Nokonoko Koshitantan",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/tsue-to-tsurugi-no-wistoria/",
       "title": "Tsue to Tsurugi no Wistoria",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu/",
       "title": "Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
     {
       "series": "https://jkanime.net/vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta/",
       "title": "VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -54665,20 +54512,16 @@
     {
       "series": "https://jkanime.net/nige-jouzu-no-wakagimi/",
       "title": "Nige Jouzu no Wakagimi",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 12,
-        "mega": 12,
-        "vidhide": 1,
-        "streamtape": 1
+        "mega": 12
       },
       "playbackVerified": false
     },
@@ -54693,13 +54536,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -54714,13 +54557,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 14,
         "mega": 14,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -54735,13 +54578,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -54756,13 +54599,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -54777,13 +54620,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 15,
         "mega": 13,
-        "vidhide": 3,
-        "mp4upload": 5,
-        "streamtape": 3
+        "vidhide": 2,
+        "mp4upload": 4,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -54813,13 +54656,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 14,
         "mega": 14,
-        "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "vidhide": 3,
+        "mp4upload": 3,
+        "streamtape": 3
       },
       "playbackVerified": false
     },
@@ -54855,13 +54698,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 14,
-        "mp4upload": 14,
-        "streamtape": 14,
+        "vidhide": 13,
+        "mp4upload": 13,
+        "streamtape": 13,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -54877,13 +54720,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 13,
         "mega": 13,
-        "vidhide": 3,
-        "mp4upload": 3,
-        "streamtape": 3
+        "vidhide": 2,
+        "mp4upload": 2,
+        "streamtape": 2
       },
       "playbackVerified": false
     },
@@ -54898,13 +54741,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 2,
-        "mp4upload": 2,
-        "streamtape": 2
+        "vidhide": 1,
+        "mp4upload": 1,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -94561,15 +94404,13 @@
     {
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 13,
@@ -97008,7 +96849,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 13,
         "streamwish": 13,

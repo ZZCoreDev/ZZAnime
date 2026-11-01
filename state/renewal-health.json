@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-11-01T06:17:46.564270+00:00",
+  "checkedAt": "2026-11-01T06:31:57.285026+00:00",
   "episodes": 72643,
-  "oldestHours": 137.99,
-  "pending": 65889,
+  "oldestHours": 138.22,
+  "pending": 65963,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 98,
-  "sampleMinutes": 1433.67,
-  "measuredWallClockPerHour": 275.34,
-  "estimatedSweepDays": 10.99,
+  "sampleMinutes": 1436.37,
+  "measuredWallClockPerHour": 269.6,
+  "estimatedSweepDays": 11.23,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 22,
+      "fresh": 21,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 1,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4151,
+    "series": 4138,
     "diagnosedSeries": 4116,
-    "pendingSeries": 35
+    "pendingSeries": 22
   },
   "coverage": {
-    "checkedAt": "2026-11-01T06:17:46.564270+00:00",
+    "checkedAt": "2026-11-01T06:31:57.285026+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
