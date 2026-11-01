@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T03:53:46.819611+00:00",
+  "checkedAt": "2026-11-01T04:07:50.496968+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -31050,8 +31050,8 @@
         "series": "https://jkanime.net/zoid/",
         "title": "Zoids",
         "samples": [
-          "https://jkanime.net/zoid/51/",
-          "https://jkanime.net/zoid/52/"
+          "https://jkanime.net/zoid/62/",
+          "https://jkanime.net/zoid/63/"
         ]
       },
       {
@@ -31097,14 +31097,6 @@
         "samples": [
           "https://jkanime.net/monster-farm-enbanseki-no-himitsu/1/",
           "https://jkanime.net/monster-farm-enbanseki-no-himitsu/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/digimon-digital-monsters/",
-        "title": "Digimon Adventure",
-        "samples": [
-          "https://jkanime.net/digimon-digital-monsters/50/",
-          "https://jkanime.net/digimon-digital-monsters/51/"
         ]
       },
       {
@@ -31448,14 +31440,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gundam-wing/",
-        "title": "Mobile Suit Gundam Wing",
-        "samples": [
-          "https://jkanime.net/gundam-wing/46/",
-          "https://jkanime.net/gundam-wing/47/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/fushigi-yuugi/",
         "title": "Fushigi Yuugi",
         "samples": [
@@ -31492,14 +31476,6 @@
         "samples": [
           "https://jkanime.net/dna-ova/1/",
           "https://jkanime.net/dna-ova/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zenki/",
-        "title": "Kishin Douji Zenki",
-        "samples": [
-          "https://jkanime.net/zenki/45/",
-          "https://jkanime.net/zenki/46/"
         ]
       },
       {
@@ -31726,14 +31702,6 @@
         "samples": [
           "https://jkanime.net/sailor-moon/100/",
           "https://jkanime.net/sailor-moon/101/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tekkaman-blade/",
-        "title": "Tekkaman Blade",
-        "samples": [
-          "https://jkanime.net/tekkaman-blade/42/",
-          "https://jkanime.net/tekkaman-blade/43/"
         ]
       },
       {
@@ -138690,7 +138658,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 6,
       "families": {
         "mega": 67,
         "streamwish": 67,
@@ -138839,15 +138807,13 @@
     {
       "series": "https://jkanime.net/digimon-digital-monsters/",
       "title": "Digimon Adventure",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 54,
       "stored": 54,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 0,
       "families": {
         "mega": 54,
         "streamwish": 54,
@@ -139702,14 +139668,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 56,
+      "renewalFailed": 45,
       "families": {
-        "mega": 91,
-        "streamwish": 91,
-        "vidhide": 99,
-        "mixdrop": 91,
-        "mp4upload": 107,
-        "streamtape": 88
+        "mega": 90,
+        "streamwish": 90,
+        "vidhide": 98,
+        "mixdrop": 90,
+        "mp4upload": 109,
+        "streamtape": 87
       },
       "playbackVerified": false
     },
@@ -139943,21 +139909,15 @@
     {
       "series": "https://jkanime.net/gundam-wing/",
       "title": "Mobile Suit Gundam Wing",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 0,
       "families": {
-        "mega": 48,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "mega": 49
       },
       "playbackVerified": false
     },
@@ -140068,21 +140028,16 @@
     {
       "series": "https://jkanime.net/zenki/",
       "title": "Kishin Douji Zenki",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 51,
       "stored": 51,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 0,
       "families": {
         "mega": 50,
-        "mp4upload": 9,
-        "streamwish": 7,
-        "vidhide": 7,
-        "streamtape": 7
+        "mp4upload": 2
       },
       "playbackVerified": false
     },
@@ -140748,15 +140703,13 @@
     {
       "series": "https://jkanime.net/tekkaman-blade/",
       "title": "Tekkaman Blade",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 49,
       "stored": 49,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 0,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -141226,7 +141179,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 123,
+      "renewalFailed": 113,
       "families": {
         "mega": 161,
         "streamwish": 161,
