@@ -99,23 +99,23 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 57232; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 57191; capítulos vencidos pendientes: 0. Próximos a vencer: 0; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 25/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 1/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Prince of Tennis, 2/178 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Keroro Gunsou☆ 2026, 5/5 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 128.
-Equivalencia comprobada: Kodomo no Omocha (TV), 10/102 capítulos recientes; incidencias pendientes: 61.
-Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 5.
-Equivalencia comprobada: Zoids, 0/67 capítulos recientes; incidencias pendientes: 23.
+Equivalencia comprobada: Ranma ½, 0/161 capítulos recientes; incidencias pendientes: 123.
+Equivalencia comprobada: Kodomo no Omocha (TV), 11/102 capítulos recientes; incidencias pendientes: 56.
+Equivalencia comprobada: Yu-Gi-Oh! Zexal Second, 0/73 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Zoids, 0/67 capítulos recientes; incidencias pendientes: 17.
 Equivalencia comprobada: Dragon Ball Kai (2014), 0/61 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Digimon Adventure, 0/54 capítulos recientes; incidencias pendientes: 10.
-Equivalencia comprobada: Kishin Douji Zenki, 39/51 capítulos recientes; incidencias pendientes: 12.
+Equivalencia comprobada: Digimon Adventure, 0/54 capítulos recientes; incidencias pendientes: 5.
+Equivalencia comprobada: Kishin Douji Zenki, 44/51 capítulos recientes; incidencias pendientes: 7.
 Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Mobile Suit Gundam Wing, 40/49 capítulos recientes; incidencias pendientes: 9.
-Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 13.
+Equivalencia comprobada: Mobile Suit Gundam Wing, 45/49 capítulos recientes; incidencias pendientes: 4.
+Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 8.
 Equivalencia comprobada: Great Teacher Onizuka, 43/43 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 2.
 Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 0.
@@ -224,7 +224,7 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4127/4173; pendientes: 46. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4126/4172; pendientes: 46. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 72643 capítulos con registros, 1193 capítulos observados sin opciones y 0 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
