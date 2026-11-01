@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T12:09:17.425510+00:00",
+  "checkedAt": "2026-11-01T12:22:32.188336+00:00",
   "episodes": 72643,
-  "oldestHours": 143.84,
-  "pending": 70361,
+  "oldestHours": 144.07,
+  "pending": 70412,
   "expired": 0,
-  "expiresWithin24Hours": 0,
+  "expiresWithin24Hours": 1,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 97,
-  "sampleMinutes": 1435.72,
-  "measuredWallClockPerHour": 57.92,
-  "estimatedSweepDays": 52.26,
+  "sampleMinutes": 1435.07,
+  "measuredWallClockPerHour": 53.47,
+  "estimatedSweepDays": 56.6,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -44,9 +44,9 @@
     "https://jkanime.net/keroro-gunsou-2026/": {
       "title": "Keroro Gunsou\u2606 2026",
       "total": 5,
-      "fresh": 5,
+      "fresh": 4,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/ranma-/": {
       "title": "Ranma \u00bd",
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4109,
-    "diagnosedSeries": 4093,
-    "pendingSeries": 16
+    "series": 4092,
+    "diagnosedSeries": 4081,
+    "pendingSeries": 11
   },
   "coverage": {
-    "checkedAt": "2026-11-01T12:09:17.425510+00:00",
+    "checkedAt": "2026-11-01T12:22:32.188336+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73838,
     "storedChapters": 72643,
