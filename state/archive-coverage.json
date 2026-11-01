@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T03:23:54.018248+00:00",
+  "checkedAt": "2026-11-01T03:37:44.858130+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -23672,8 +23672,8 @@
         "series": "https://jkanime.net/yu-gi-oh-zexal-second/",
         "title": "Yu-Gi-Oh! Zexal Second",
         "samples": [
-          "https://jkanime.net/yu-gi-oh-zexal-second/64/",
-          "https://jkanime.net/yu-gi-oh-zexal-second/65/"
+          "https://jkanime.net/yu-gi-oh-zexal-second/69/",
+          "https://jkanime.net/yu-gi-oh-zexal-second/70/"
         ]
       },
       {
@@ -28148,14 +28148,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kenichi/",
-        "title": "Shijou Saikyou no Deshi Kenichi",
-        "samples": [
-          "https://jkanime.net/kenichi/49/",
-          "https://jkanime.net/kenichi/50/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/katekyo-hitman-reborn/",
         "title": "Katekyo Hitman Reborn!",
         "samples": [
@@ -31066,8 +31058,8 @@
         "series": "https://jkanime.net/zoid/",
         "title": "Zoids",
         "samples": [
-          "https://jkanime.net/zoid/40/",
-          "https://jkanime.net/zoid/41/"
+          "https://jkanime.net/zoid/45/",
+          "https://jkanime.net/zoid/46/"
         ]
       },
       {
@@ -31108,14 +31100,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gto/",
-        "title": "Great Teacher Onizuka",
-        "samples": [
-          "https://jkanime.net/gto/40/",
-          "https://jkanime.net/gto/41/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/monster-farm-enbanseki-no-himitsu/",
         "title": "Monster Farm: Enbanseki no Himitsu",
         "samples": [
@@ -31127,8 +31111,8 @@
         "series": "https://jkanime.net/digimon-digital-monsters/",
         "title": "Digimon Adventure",
         "samples": [
-          "https://jkanime.net/digimon-digital-monsters/40/",
-          "https://jkanime.net/digimon-digital-monsters/41/"
+          "https://jkanime.net/digimon-digital-monsters/45/",
+          "https://jkanime.net/digimon-digital-monsters/46/"
         ]
       },
       {
@@ -31475,8 +31459,8 @@
         "series": "https://jkanime.net/gundam-wing/",
         "title": "Mobile Suit Gundam Wing",
         "samples": [
-          "https://jkanime.net/gundam-wing/36/",
-          "https://jkanime.net/gundam-wing/37/"
+          "https://jkanime.net/gundam-wing/41/",
+          "https://jkanime.net/gundam-wing/42/"
         ]
       },
       {
@@ -31522,8 +31506,8 @@
         "series": "https://jkanime.net/zenki/",
         "title": "Kishin Douji Zenki",
         "samples": [
-          "https://jkanime.net/zenki/35/",
-          "https://jkanime.net/zenki/36/"
+          "https://jkanime.net/zenki/40/",
+          "https://jkanime.net/zenki/41/"
         ]
       },
       {
@@ -31756,8 +31740,8 @@
         "series": "https://jkanime.net/tekkaman-blade/",
         "title": "Tekkaman Blade",
         "samples": [
-          "https://jkanime.net/tekkaman-blade/32/",
-          "https://jkanime.net/tekkaman-blade/33/"
+          "https://jkanime.net/tekkaman-blade/37/",
+          "https://jkanime.net/tekkaman-blade/38/"
         ]
       },
       {
@@ -116640,7 +116624,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 5,
       "families": {
         "mega": 73,
         "streamwish": 73,
@@ -130174,15 +130158,13 @@
     {
       "series": "https://jkanime.net/kenichi/",
       "title": "Shijou Saikyou no Deshi Kenichi",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 50,
       "stored": 50,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 0,
       "families": {
         "mega": 50,
         "streamwish": 50,
@@ -138718,7 +138700,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 28,
+      "renewalFailed": 23,
       "families": {
         "mega": 67,
         "streamwish": 67,
@@ -138830,21 +138812,15 @@
     {
       "series": "https://jkanime.net/gto/",
       "title": "Great Teacher Onizuka",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 43,
       "stored": 43,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 0,
       "families": {
-        "mega": 43,
-        "streamwish": 4,
-        "vidhide": 4,
-        "mp4upload": 4,
-        "streamtape": 4
+        "mega": 43
       },
       "playbackVerified": false
     },
@@ -138881,7 +138857,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 10,
       "families": {
         "mega": 54,
         "streamwish": 54,
@@ -139736,14 +139712,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 66,
+      "renewalFailed": 61,
       "families": {
-        "mega": 93,
-        "streamwish": 93,
-        "vidhide": 101,
-        "mixdrop": 93,
+        "mega": 92,
+        "streamwish": 92,
+        "vidhide": 100,
+        "mixdrop": 92,
         "mp4upload": 106,
-        "streamtape": 90
+        "streamtape": 89
       },
       "playbackVerified": false
     },
@@ -139985,13 +139961,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 9,
       "families": {
         "mega": 48,
-        "streamwish": 14,
-        "vidhide": 14,
-        "mp4upload": 14,
-        "streamtape": 14
+        "streamwish": 9,
+        "vidhide": 9,
+        "mp4upload": 9,
+        "streamtape": 9
       },
       "playbackVerified": false
     },
@@ -140110,13 +140086,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 12,
       "families": {
         "mega": 50,
-        "mp4upload": 19,
-        "streamwish": 17,
-        "vidhide": 17,
-        "streamtape": 17
+        "mp4upload": 14,
+        "streamwish": 12,
+        "vidhide": 12,
+        "streamtape": 12
       },
       "playbackVerified": false
     },
@@ -140790,7 +140766,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 13,
       "families": {
         "mega": 49,
         "streamwish": 49,
@@ -141260,7 +141236,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 132,
+      "renewalFailed": 128,
       "families": {
         "mega": 161,
         "streamwish": 161,

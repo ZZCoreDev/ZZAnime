@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-01T03:23:54.018248+00:00",
+  "checkedAt": "2026-11-01T03:37:44.858130+00:00",
   "episodes": 72643,
-  "oldestHours": 135.09,
-  "pending": 63139,
+  "oldestHours": 135.32,
+  "pending": 63368,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 99,
-  "sampleMinutes": 1433.98,
-  "measuredWallClockPerHour": 389.5,
-  "estimatedSweepDays": 7.77,
+  "sampleMinutes": 1434.28,
+  "measuredWallClockPerHour": 379.84,
+  "estimatedSweepDays": 7.97,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 26,
+      "fresh": 25,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/": {
       "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
@@ -52,28 +52,28 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 132,
+      "pendingFailures": 128,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 9,
-      "pendingFailures": 66,
+      "fresh": 10,
+      "pendingFailures": 61,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
       "title": "Zoids",
       "total": 67,
       "fresh": 0,
-      "pendingFailures": 28,
+      "pendingFailures": 23,
       "state": "pending"
     },
     "https://jkanime.net/dragon-ball-kai-2014/": {
@@ -87,43 +87,43 @@
       "title": "Digimon Adventure",
       "total": 54,
       "fresh": 0,
-      "pendingFailures": 15,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/zenki/": {
       "title": "Kishin Douji Zenki",
       "total": 51,
-      "fresh": 34,
-      "pendingFailures": 17,
+      "fresh": 39,
+      "pendingFailures": 12,
       "state": "pending"
     },
     "https://jkanime.net/kenichi/": {
       "title": "Shijou Saikyou no Deshi Kenichi",
       "total": 50,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/gundam-wing/": {
       "title": "Mobile Suit Gundam Wing",
       "total": 49,
-      "fresh": 35,
-      "pendingFailures": 14,
+      "fresh": 40,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/tekkaman-blade/": {
       "title": "Tekkaman Blade",
       "total": 49,
       "fresh": 0,
-      "pendingFailures": 18,
+      "pendingFailures": 13,
       "state": "pending"
     },
     "https://jkanime.net/gto/": {
       "title": "Great Teacher Onizuka",
       "total": 43,
-      "fresh": 39,
-      "pendingFailures": 4,
-      "state": "pending"
+      "fresh": 43,
+      "pendingFailures": 0,
+      "state": "complete"
     },
     "https://jkanime.net/yozakura-san-chi-no-daisakusen/": {
       "title": "Yozakura-san Chi no Daisakusen",
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4175,
-    "diagnosedSeries": 4129,
+    "series": 4173,
+    "diagnosedSeries": 4127,
     "pendingSeries": 46
   },
   "coverage": {
-    "checkedAt": "2026-11-01T03:23:54.018248+00:00",
+    "checkedAt": "2026-11-01T03:37:44.858130+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
