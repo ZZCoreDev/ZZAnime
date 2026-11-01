@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T01:58:35.577040+00:00",
+  "checkedAt": "2026-11-01T02:13:44.449426+00:00",
   "requested": 400,
-  "renewed": 18,
-  "attempted": 332,
-  "repairAttempts": 83,
+  "renewed": 14,
+  "attempted": 324,
+  "repairAttempts": 81,
   "earlyRepairAttempts": 2,
-  "failed": 57508,
+  "failed": 57455,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41263214551",
+  "runId": "41264190525",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 294,
+  "extraRenewed": 282,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -60,77 +60,77 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 150,
+      "pendingFailures": 146,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 4,
-      "pendingFailures": 86,
+      "fresh": 6,
+      "pendingFailures": 82,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 31,
+      "pendingFailures": 27,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
       "title": "Zoids",
       "total": 67,
       "fresh": 0,
-      "pendingFailures": 49,
+      "pendingFailures": 45,
       "state": "pending"
     },
     "https://jkanime.net/dragon-ball-kai-2014/": {
       "title": "Dragon Ball Kai (2014)",
       "total": 61,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/digimon-digital-monsters/": {
       "title": "Digimon Adventure",
       "total": 54,
       "fresh": 0,
-      "pendingFailures": 36,
+      "pendingFailures": 32,
       "state": "pending"
     },
     "https://jkanime.net/zenki/": {
       "title": "Kishin Douji Zenki",
       "total": 51,
-      "fresh": 14,
-      "pendingFailures": 37,
+      "fresh": 18,
+      "pendingFailures": 33,
       "state": "pending"
     },
     "https://jkanime.net/kenichi/": {
       "title": "Shijou Saikyou no Deshi Kenichi",
       "total": 50,
       "fresh": 0,
-      "pendingFailures": 23,
+      "pendingFailures": 19,
       "state": "pending"
     },
     "https://jkanime.net/gundam-wing/": {
       "title": "Mobile Suit Gundam Wing",
       "total": 49,
-      "fresh": 15,
-      "pendingFailures": 34,
+      "fresh": 19,
+      "pendingFailures": 30,
       "state": "pending"
     },
     "https://jkanime.net/tekkaman-blade/": {
       "title": "Tekkaman Blade",
       "total": 49,
       "fresh": 0,
-      "pendingFailures": 36,
+      "pendingFailures": 32,
       "state": "pending"
     },
     "https://jkanime.net/gto/": {
       "title": "Great Teacher Onizuka",
       "total": 43,
-      "fresh": 18,
-      "pendingFailures": 25,
+      "fresh": 22,
+      "pendingFailures": 21,
       "state": "pending"
     },
     "https://jkanime.net/yozakura-san-chi-no-daisakusen/": {
@@ -144,14 +144,14 @@
       "title": "Neon Genesis Evangelion",
       "total": 26,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/ouran-high-school-host-club/": {
       "title": "Ouran High School Host Club",
       "total": 26,
       "fresh": 1,
-      "pendingFailures": 2,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/requiem-for-the-phantom/": {
@@ -228,7 +228,7 @@
       "title": "Majutsushi Orphen",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/shakugan-no-shana-ii/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4179,
-    "diagnosedSeries": 4133,
+    "series": 4178,
+    "diagnosedSeries": 4132,
     "pendingSeries": 46
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T02:11:48.351732+00:00",
+    "checkedAt": "2026-11-01T02:26:31.270016+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
