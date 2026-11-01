@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T07:46:27.110296+00:00",
+  "checkedAt": "2026-11-01T08:00:39.325392+00:00",
   "episodes": 72643,
-  "oldestHours": 139.46,
-  "pending": 67004,
+  "oldestHours": 139.7,
+  "pending": 67189,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 97,
-  "sampleMinutes": 1426.66,
-  "measuredWallClockPerHour": 213.39,
-  "estimatedSweepDays": 14.18,
+  "sampleMinutes": 1427.57,
+  "measuredWallClockPerHour": 202.41,
+  "estimatedSweepDays": 14.95,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4124,
+    "series": 4123,
     "diagnosedSeries": 4110,
-    "pendingSeries": 14
+    "pendingSeries": 13
   },
   "coverage": {
-    "checkedAt": "2026-11-01T07:46:27.110296+00:00",
+    "checkedAt": "2026-11-01T08:00:39.325392+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,

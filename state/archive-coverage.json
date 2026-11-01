@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T07:46:27.110296+00:00",
+  "checkedAt": "2026-11-01T08:00:39.325392+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -2663,16 +2663,16 @@
         "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
         "title": "Kami no Tou: Ouji no Kikan",
         "samples": [
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/18/",
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/19/"
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/19/",
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/20/"
         ]
       },
       {
         "series": "https://jkanime.net/fairy-tail-100-nen-quest/",
         "title": "Fairy Tail: 100-nen Quest",
         "samples": [
-          "https://jkanime.net/fairy-tail-100-nen-quest/18/",
-          "https://jkanime.net/fairy-tail-100-nen-quest/19/"
+          "https://jkanime.net/fairy-tail-100-nen-quest/19/",
+          "https://jkanime.net/fairy-tail-100-nen-quest/20/"
         ]
       },
       {
@@ -2695,8 +2695,8 @@
         "series": "https://jkanime.net/25-jigen-no-ririsa/",
         "title": "2.5-jigen no Ririsa",
         "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/17/",
-          "https://jkanime.net/25-jigen-no-ririsa/18/"
+          "https://jkanime.net/25-jigen-no-ririsa/18/",
+          "https://jkanime.net/25-jigen-no-ririsa/19/"
         ]
       },
       {
@@ -9703,13 +9703,6 @@
         "samples": [
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/1/",
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-        "title": "Otona no Bouguya-san II",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
         ]
       },
       {
@@ -54254,13 +54247,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 9,
-        "mp4upload": 8,
-        "streamtape": 7,
+        "vidhide": 8,
+        "mp4upload": 7,
+        "streamtape": 6,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54276,13 +54269,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 23,
         "mega": 23,
-        "vidhide": 6,
-        "mp4upload": 8,
-        "streamtape": 6,
+        "vidhide": 5,
+        "mp4upload": 7,
+        "streamtape": 5,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54551,13 +54544,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 8,
-        "mp4upload": 8,
-        "streamtape": 8
+        "vidhide": 7,
+        "mp4upload": 7,
+        "streamtape": 7
       },
       "playbackVerified": false
     },
@@ -75038,15 +75031,13 @@
     {
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
