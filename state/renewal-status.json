@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T05:33:38.098213+00:00",
+  "checkedAt": "2026-11-01T05:48:02.099526+00:00",
   "requested": 400,
-  "renewed": 33,
-  "attempted": 308,
-  "repairAttempts": 77,
+  "renewed": 32,
+  "attempted": 290,
+  "repairAttempts": 72,
   "earlyRepairAttempts": 2,
-  "failed": 56827,
+  "failed": 56793,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41277372202",
+  "runId": "41278215198",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 232,
+  "extraRenewed": 220,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -24,7 +24,7 @@
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 25,
+      "fresh": 22,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -263,7 +263,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 1,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -774,7 +774,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -822,7 +822,7 @@
     "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/": {
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
-      "fresh": 2,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4160,
+    "series": 4153,
     "diagnosedSeries": 4115,
-    "pendingSeries": 45
+    "pendingSeries": 38
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T05:46:14.089774+00:00",
+    "checkedAt": "2026-11-01T06:01:18.768648+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,

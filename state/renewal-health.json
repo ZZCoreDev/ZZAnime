@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-11-01T05:46:14.089774+00:00",
+  "checkedAt": "2026-11-01T06:01:18.768648+00:00",
   "episodes": 72643,
-  "oldestHours": 137.46,
-  "pending": 65405,
+  "oldestHours": 137.71,
+  "pending": 65667,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 98,
-  "sampleMinutes": 1429.16,
-  "measuredWallClockPerHour": 288.72,
-  "estimatedSweepDays": 10.48,
+  "sampleMinutes": 1430.55,
+  "measuredWallClockPerHour": 280.47,
+  "estimatedSweepDays": 10.79,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
       "title": "Mao",
       "total": 26,
-      "fresh": 25,
+      "fresh": 22,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 1,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -766,7 +766,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -814,7 +814,7 @@
     "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/": {
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
-      "fresh": 2,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4160,
+    "series": 4153,
     "diagnosedSeries": 4115,
-    "pendingSeries": 45
+    "pendingSeries": 38
   },
   "coverage": {
-    "checkedAt": "2026-11-01T05:46:14.089774+00:00",
+    "checkedAt": "2026-11-01T06:01:18.768648+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
