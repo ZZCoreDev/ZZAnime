@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T09:29:46.306259+00:00",
+  "checkedAt": "2026-11-01T09:43:42.862155+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -707,13 +707,6 @@
         "samples": [
           "https://jkanime.net/monster-strike-deadverse-reloaded/1/",
           "https://jkanime.net/monster-strike-deadverse-reloaded/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/gnosia/",
-        "title": "Gnosia",
-        "samples": [
-          "https://jkanime.net/gnosia/16/"
         ]
       },
       {
@@ -2665,13 +2658,6 @@
         "samples": [
           "https://jkanime.net/nierautomata-ver11a-part-2/1/",
           "https://jkanime.net/nierautomata-ver11a-part-2/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/25-jigen-no-ririsa/",
-        "title": "2.5-jigen no Ririsa",
-        "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/24/"
         ]
       },
       {
@@ -46249,15 +46235,13 @@
     {
       "series": "https://jkanime.net/gnosia/",
       "title": "Gnosia",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -46655,7 +46639,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 5,
         "streamwish": 24,
@@ -54500,21 +54484,16 @@
     {
       "series": "https://jkanime.net/25-jigen-no-ririsa/",
       "title": "2.5-jigen no Ririsa",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 24,
-        "mega": 24,
-        "vidhide": 1,
-        "mp4upload": 1,
-        "streamtape": 1
+        "mega": 24
       },
       "playbackVerified": false
     },
