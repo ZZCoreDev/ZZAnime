@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T08:00:39.325392+00:00",
+  "checkedAt": "2026-11-01T08:15:27.085161+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -2663,16 +2663,16 @@
         "series": "https://jkanime.net/kami-no-tou-ouji-no-kikan/",
         "title": "Kami no Tou: Ouji no Kikan",
         "samples": [
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/19/",
-          "https://jkanime.net/kami-no-tou-ouji-no-kikan/20/"
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/20/",
+          "https://jkanime.net/kami-no-tou-ouji-no-kikan/21/"
         ]
       },
       {
         "series": "https://jkanime.net/fairy-tail-100-nen-quest/",
         "title": "Fairy Tail: 100-nen Quest",
         "samples": [
-          "https://jkanime.net/fairy-tail-100-nen-quest/19/",
-          "https://jkanime.net/fairy-tail-100-nen-quest/20/"
+          "https://jkanime.net/fairy-tail-100-nen-quest/20/",
+          "https://jkanime.net/fairy-tail-100-nen-quest/21/"
         ]
       },
       {
@@ -2695,8 +2695,8 @@
         "series": "https://jkanime.net/25-jigen-no-ririsa/",
         "title": "2.5-jigen no Ririsa",
         "samples": [
-          "https://jkanime.net/25-jigen-no-ririsa/18/",
-          "https://jkanime.net/25-jigen-no-ririsa/19/"
+          "https://jkanime.net/25-jigen-no-ririsa/19/",
+          "https://jkanime.net/25-jigen-no-ririsa/20/"
         ]
       },
       {
@@ -54247,13 +54247,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 25,
         "mega": 24,
-        "vidhide": 8,
-        "mp4upload": 7,
-        "streamtape": 6,
+        "vidhide": 7,
+        "mp4upload": 6,
+        "streamtape": 5,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54269,13 +54269,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 23,
         "mega": 23,
-        "vidhide": 5,
-        "mp4upload": 7,
-        "streamtape": 5,
+        "vidhide": 4,
+        "mp4upload": 6,
+        "streamtape": 4,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -54544,13 +54544,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 24,
         "mega": 24,
-        "vidhide": 7,
-        "mp4upload": 7,
-        "streamtape": 7
+        "vidhide": 6,
+        "mp4upload": 6,
+        "streamtape": 6
       },
       "playbackVerified": false
     },
