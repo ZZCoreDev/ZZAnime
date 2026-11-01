@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T09:57:35.188676+00:00",
+  "checkedAt": "2026-11-01T10:12:10.722810+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -753,13 +753,6 @@
         "samples": [
           "https://jkanime.net/ao-no-orchestra-season-2/1/",
           "https://jkanime.net/ao-no-orchestra-season-2/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
-        "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-        "samples": [
-          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/21/"
         ]
       },
       {
@@ -46623,15 +46616,13 @@
     {
       "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
       "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 5,
         "streamwish": 24,
