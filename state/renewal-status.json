@@ -1,20 +1,20 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-01T04:23:03.392279+00:00",
+  "checkedAt": "2026-11-01T04:36:26.430663+00:00",
   "requested": 400,
-  "renewed": 5,
-  "attempted": 300,
-  "repairAttempts": 75,
+  "renewed": 7,
+  "attempted": 294,
+  "repairAttempts": 73,
   "earlyRepairAttempts": 2,
-  "failed": 57012,
+  "failed": 56962,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41272774543",
+  "runId": "41273708480",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 280,
+  "extraRenewed": 264,
   "expired": 0,
   "published": true,
   "expiresWithin24Hours": 0,
@@ -60,7 +60,7 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 41,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
@@ -368,7 +368,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4166,
-    "diagnosedSeries": 4120,
-    "pendingSeries": 46
+    "series": 4164,
+    "diagnosedSeries": 4119,
+    "pendingSeries": 45
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-01T04:35:33.363261+00:00",
+    "checkedAt": "2026-11-01T04:50:24.465636+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,

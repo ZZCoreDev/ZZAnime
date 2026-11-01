@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T04:35:33.363261+00:00",
+  "checkedAt": "2026-11-01T04:50:24.465636+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73836,
   "storedChapters": 72643,
@@ -98,8 +98,8 @@
         "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
         "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
         "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/",
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/6/"
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/6/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/"
         ]
       },
       {
@@ -1228,13 +1228,6 @@
         "samples": [
           "https://jkanime.net/mizu-zokusei-no-mahoutsukai/1/",
           "https://jkanime.net/mizu-zokusei-no-mahoutsukai/6/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-        "title": "Tsuihousha Shokudou e Youkoso!",
-        "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/4/"
         ]
       },
       {
@@ -2552,7 +2545,6 @@
         "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/",
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
         "samples": [
-          "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/7/",
           "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-3rd-season/8/"
         ]
       },
@@ -31837,14 +31829,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/ranma-/",
-        "title": "Ranma ½",
-        "samples": [
-          "https://jkanime.net/ranma-/121/",
-          "https://jkanime.net/ranma-/122/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/midnight-eye-gokuu/",
         "title": "Midnight Eye: Gokuu",
         "samples": [
@@ -42476,7 +42460,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49074,15 +49058,13 @@
     {
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -53699,13 +53681,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 10,
         "mega": 8,
-        "mp4upload": 9,
-        "vidhide": 7,
-        "streamtape": 2
+        "mp4upload": 8,
+        "vidhide": 6,
+        "streamtape": 1
       },
       "playbackVerified": false
     },
@@ -53720,13 +53702,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 6,
-        "mp4upload": 6,
-        "streamtape": 6
+        "vidhide": 5,
+        "mp4upload": 5,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -53763,13 +53745,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 13,
         "mega": 12,
-        "vidhide": 6,
-        "mp4upload": 5,
-        "streamtape": 6,
+        "vidhide": 5,
+        "mp4upload": 4,
+        "streamtape": 5,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -53807,13 +53789,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "streamwish": 19,
         "mega": 13,
-        "vidhide": 7,
-        "mp4upload": 18,
-        "streamtape": 7,
+        "vidhide": 6,
+        "mp4upload": 17,
+        "streamtape": 6,
         "mixdrop": 2
       },
       "playbackVerified": false
@@ -53829,14 +53811,14 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 12,
         "mega": 12,
-        "vidhide": 6,
-        "mixdrop": 6,
-        "mp4upload": 7,
-        "streamtape": 6
+        "vidhide": 5,
+        "mixdrop": 5,
+        "mp4upload": 6,
+        "streamtape": 5
       },
       "playbackVerified": false
     },
@@ -53851,13 +53833,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 11,
         "mega": 11,
-        "vidhide": 6,
-        "mp4upload": 5,
-        "streamtape": 5,
+        "vidhide": 5,
+        "mp4upload": 4,
+        "streamtape": 4,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -53895,13 +53877,13 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {
         "streamwish": 21,
         "mega": 12,
-        "vidhide": 7,
-        "mp4upload": 17,
-        "streamtape": 6,
+        "vidhide": 6,
+        "mp4upload": 16,
+        "streamtape": 5,
         "mixdrop": 1
       },
       "playbackVerified": false
@@ -141151,15 +141133,13 @@
     {
       "series": "https://jkanime.net/ranma-/",
       "title": "Ranma ½",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 161,
       "stored": 161,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 41,
+      "renewalFailed": 0,
       "families": {
         "mega": 161,
         "streamwish": 161,
