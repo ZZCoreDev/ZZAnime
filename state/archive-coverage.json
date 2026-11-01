@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-01T10:12:10.722810+00:00",
+  "checkedAt": "2026-11-01T10:26:38.826266+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73836,
+  "observedChapters": 73837,
   "storedChapters": 72643,
-  "missingChapters": 1193,
+  "missingChapters": 1194,
   "expiredChapters": 0,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -37146,6 +37146,13 @@
         "title": "Uchuu Senkan Yamato (Movie)",
         "samples": [
           "https://jkanime.net/uchuu-senkan-yamato-movie/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ao-ashi-season-2/",
+        "title": "Ao Ashi Season 2",
+        "samples": [
+          "https://jkanime.net/ao-ashi-season-2/5/"
         ]
       },
       {
@@ -142181,10 +142188,14 @@
     {
       "series": "https://jkanime.net/ao-ashi-season-2/",
       "title": "Ao Ashi Season 2",
-      "causes": [],
-      "observed": 4,
+      "causes": [
+        "observed-chapters-without-options"
+      ],
+      "observed": 5,
       "stored": 4,
-      "missing": [],
+      "missing": [
+        "https://jkanime.net/ao-ashi-season-2/5/"
+      ],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
