@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T11:12:01.687573+00:00",
+  "checkedAt": "2026-11-01T11:26:24.332357+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73838,
   "storedChapters": 72643,
@@ -707,6 +707,13 @@
         "samples": [
           "https://jkanime.net/monster-strike-deadverse-reloaded/1/",
           "https://jkanime.net/monster-strike-deadverse-reloaded/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gnosia/",
+        "title": "Gnosia",
+        "samples": [
+          "https://jkanime.net/gnosia/12/"
         ]
       },
       {
@@ -23105,13 +23112,6 @@
         "samples": [
           "https://jkanime.net/the-idolmster-shiny-festa/1/",
           "https://jkanime.net/the-idolmster-shiny-festa/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fuse-teppou-musume-no-torimonochou/",
-        "title": "Fuse: Teppou Musume no Torimonochou",
-        "samples": [
-          "https://jkanime.net/fuse-teppou-musume-no-torimonochou/1/"
         ]
       },
       {
@@ -46168,13 +46168,15 @@
     {
       "series": "https://jkanime.net/gnosia/",
       "title": "Gnosia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -69727,7 +69729,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -87459,7 +87461,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {},
       "playbackVerified": false
     },
@@ -93751,7 +93753,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -97811,7 +97813,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "families": {},
       "playbackVerified": false
     },
@@ -115557,8 +115559,7 @@
       "title": "Fuse: Teppou Musume no Torimonochou",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -115567,7 +115568,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -131648,7 +131649,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "families": {
         "mega": 11,
         "streamwish": 12,
@@ -137623,7 +137624,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "mega": 1
       },
