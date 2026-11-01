@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T10:40:33.882251+00:00",
+  "checkedAt": "2026-11-01T10:57:19.023423+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73838,
   "storedChapters": 72643,
@@ -20970,13 +20970,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mitsuwano/",
-        "title": "Mitsuwano",
-        "samples": [
-          "https://jkanime.net/mitsuwano/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yuusha-ni-ova/",
         "title": "Yuushibu OVA",
         "samples": [
@@ -20988,13 +20981,6 @@
         "title": "Fate/kaleid liner Prisma☆Illya (2014)",
         "samples": [
           "https://jkanime.net/fate-kaleid-liner-prisma-illya-2014/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ookii-1-nensei-to-chiisana-2-nensei/",
-        "title": "Ookii 1 Nensei to Chiisana 2 Nensei",
-        "samples": [
-          "https://jkanime.net/ookii-1-nensei-to-chiisana-2-nensei/1/"
         ]
       },
       {
@@ -21354,13 +21340,6 @@
         "samples": [
           "https://jkanime.net/buddy-complex/1/",
           "https://jkanime.net/buddy-complex/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/majokko-shimai-no-yoyo-to-nene/",
-        "title": "Majokko Shimai no Yoyo to Nene",
-        "samples": [
-          "https://jkanime.net/majokko-shimai-no-yoyo-to-nene/1/"
         ]
       },
       {
@@ -21990,13 +21969,6 @@
         "title": "Sukitte Ii na yo. OVA",
         "samples": [
           "https://jkanime.net/sukitte-ii-na-yo-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mirai-nikki-redial/",
-        "title": "Mirai Nikki Redial",
-        "samples": [
-          "https://jkanime.net/mirai-nikki-redial/1/"
         ]
       },
       {
@@ -69791,7 +69763,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "families": {
         "streamwish": 14,
         "mega": 9,
@@ -87525,7 +87497,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -92067,7 +92039,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -93817,7 +93789,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {},
       "playbackVerified": false
     },
@@ -97544,7 +97516,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "families": {
         "streamwish": 4,
         "mega": 2
@@ -97877,7 +97849,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "families": {},
       "playbackVerified": false
     },
@@ -108892,8 +108864,7 @@
       "title": "Mitsuwano",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -108902,7 +108873,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -108979,8 +108950,7 @@
       "title": "Ookii 1 Nensei to Chiisana 2 Nensei",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -108989,7 +108959,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -110129,8 +110099,7 @@
       "title": "Majokko Shimai no Yoyo to Nene",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -110139,7 +110108,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -112008,8 +111977,7 @@
       "title": "Mirai Nikki Redial",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -112018,7 +111986,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -135628,7 +135596,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 25,
+      "renewalFailed": 24,
       "families": {
         "mp4upload": 50,
         "streamwish": 48,
@@ -137695,7 +137663,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "families": {
         "mega": 1
       },
