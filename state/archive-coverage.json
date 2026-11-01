@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T12:39:19.019335+00:00",
+  "checkedAt": "2026-11-01T12:55:28.571393+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73838,
   "storedChapters": 72643,
@@ -15348,14 +15348,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/",
-        "title": "Marginal#4: Kiss kara Tsukuru Big Bang",
-        "samples": [
-          "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/1/",
-          "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/super-lovers-2/",
         "title": "Super Lovers 2",
         "samples": [
@@ -15922,14 +15914,6 @@
         "samples": [
           "https://jkanime.net/nanbaka/1/",
           "https://jkanime.net/nanbaka/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/soul-buster/",
-        "title": "Soul Buster",
-        "samples": [
-          "https://jkanime.net/soul-buster/1/",
-          "https://jkanime.net/soul-buster/10/"
         ]
       },
       {
@@ -22052,13 +22036,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/seitokai-no-shukujitsu/",
-        "title": "Seitokai no Shukujitsu",
-        "samples": [
-          "https://jkanime.net/seitokai-no-shukujitsu/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/servant-x-service/",
         "title": "Servant x Service",
         "samples": [
@@ -24838,13 +24815,6 @@
         "samples": [
           "https://jkanime.net/gosick/1/",
           "https://jkanime.net/gosick/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-heaven-and-earth/",
-        "title": "Soukyuu no Fafner: Dead Aggressor - Heaven and Earth",
-        "samples": [
-          "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-heaven-and-earth/1/"
         ]
       },
       {
@@ -27631,13 +27601,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sky-girls-ova/",
-        "title": "Sky Girls OVA",
-        "samples": [
-          "https://jkanime.net/sky-girls-ova/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kujibiki-unbalance-tv/",
         "title": "Kujibiki♥Unbalance (TV)",
         "samples": [
@@ -27953,13 +27916,6 @@
         "title": "Konjiki no Gash Bell!!: Hashire Gash!! Ubawareta Umagon",
         "samples": [
           "https://jkanime.net/konjiki-no-gash-bell-hashire-gash-ubawareta-umagon/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/soukyuu-no-fafner-right-of-left/",
-        "title": "Soukyuu no Fafner: Right of Left",
-        "samples": [
-          "https://jkanime.net/soukyuu-no-fafner-right-of-left/1/"
         ]
       },
       {
@@ -91798,8 +91754,7 @@
       "series": "https://jkanime.net/marginal4-kiss-kara-tsukuru-big-bang/",
       "title": "Marginal#4: Kiss kara Tsukuru Big Bang",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
       "stored": 0,
@@ -91819,7 +91774,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -93596,8 +93551,7 @@
       "series": "https://jkanime.net/soul-buster/",
       "title": "Soul Buster",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
       "stored": 0,
@@ -93617,7 +93571,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -94999,7 +94953,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {},
       "playbackVerified": false
     },
@@ -109071,7 +109025,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "families": {
         "mp4upload": 18,
         "streamwish": 20,
@@ -112435,8 +112389,7 @@
       "title": "Seitokai no Shukujitsu",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -112445,7 +112398,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -121231,8 +121184,7 @@
       "title": "Soukyuu no Fafner: Dead Aggressor - Heaven and Earth",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -121241,7 +121193,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -121881,7 +121833,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 76,
+      "renewalFailed": 75,
       "families": {
         "mega": 75,
         "streamwish": 82,
@@ -129595,8 +129547,7 @@
       "title": "Sky Girls OVA",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -129605,7 +129556,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
@@ -130540,8 +130491,7 @@
       "title": "Soukyuu no Fafner: Right of Left",
       "causes": [
         "observed-chapters-without-options",
-        "retained-redirect",
-        "renewal-error"
+        "retained-redirect"
       ],
       "observed": 1,
       "stored": 0,
@@ -130550,7 +130500,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },

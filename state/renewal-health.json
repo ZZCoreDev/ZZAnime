@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T12:39:19.019335+00:00",
+  "checkedAt": "2026-11-01T12:55:28.571393+00:00",
   "episodes": 72643,
-  "oldestHours": 144.35,
-  "pending": 70524,
+  "oldestHours": 144.61,
+  "pending": 70607,
   "expired": 0,
-  "expiresWithin24Hours": 4,
+  "expiresWithin24Hours": 19,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 97,
-  "sampleMinutes": 1438.11,
-  "measuredWallClockPerHour": 49.98,
-  "estimatedSweepDays": 60.56,
+  "sampleMinutes": 1439.62,
+  "measuredWallClockPerHour": 46.18,
+  "estimatedSweepDays": 65.55,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -23,7 +23,7 @@
     "https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/": {
       "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
       "total": 4,
-      "fresh": 1,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -44,7 +44,7 @@
     "https://jkanime.net/keroro-gunsou-2026/": {
       "title": "Keroro Gunsou\u2606 2026",
       "total": 5,
-      "fresh": 4,
+      "fresh": 3,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4082,
-    "diagnosedSeries": 4073,
+    "series": 4076,
+    "diagnosedSeries": 4067,
     "pendingSeries": 9
   },
   "coverage": {
-    "checkedAt": "2026-11-01T12:39:19.019335+00:00",
+    "checkedAt": "2026-11-01T12:55:28.571393+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73838,
     "storedChapters": 72643,
