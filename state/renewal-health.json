@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T01:28:08.850658+00:00",
+  "checkedAt": "2026-11-01T01:42:42.925165+00:00",
   "episodes": 72643,
-  "oldestHours": 133.16,
-  "pending": 61438,
+  "oldestHours": 133.4,
+  "pending": 61582,
   "expired": 0,
   "expiresWithin24Hours": 0,
   "retryAfterExpiry": 0,
   "successfulCyclesMeasured": 99,
-  "sampleMinutes": 1428.15,
-  "measuredWallClockPerHour": 461.63,
-  "estimatedSweepDays": 6.56,
+  "sampleMinutes": 1428.92,
+  "measuredWallClockPerHour": 454.04,
+  "estimatedSweepDays": 6.67,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -52,77 +52,77 @@
       "title": "Ranma \u00bd",
       "total": 161,
       "fresh": 0,
-      "pendingFailures": 158,
+      "pendingFailures": 156,
       "state": "pending"
     },
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
       "fresh": 0,
-      "pendingFailures": 94,
+      "pendingFailures": 92,
       "state": "pending"
     },
     "https://jkanime.net/yu-gi-oh-zexal-second/": {
       "title": "Yu-Gi-Oh! Zexal Second",
       "total": 73,
       "fresh": 0,
-      "pendingFailures": 40,
+      "pendingFailures": 38,
       "state": "pending"
     },
     "https://jkanime.net/zoid/": {
       "title": "Zoids",
       "total": 67,
       "fresh": 0,
-      "pendingFailures": 57,
+      "pendingFailures": 55,
       "state": "pending"
     },
     "https://jkanime.net/dragon-ball-kai-2014/": {
       "title": "Dragon Ball Kai (2014)",
       "total": 61,
       "fresh": 0,
-      "pendingFailures": 20,
+      "pendingFailures": 18,
       "state": "pending"
     },
     "https://jkanime.net/digimon-digital-monsters/": {
       "title": "Digimon Adventure",
       "total": 54,
       "fresh": 0,
-      "pendingFailures": 44,
+      "pendingFailures": 42,
       "state": "pending"
     },
     "https://jkanime.net/zenki/": {
       "title": "Kishin Douji Zenki",
       "total": 51,
-      "fresh": 6,
-      "pendingFailures": 45,
+      "fresh": 8,
+      "pendingFailures": 43,
       "state": "pending"
     },
     "https://jkanime.net/kenichi/": {
       "title": "Shijou Saikyou no Deshi Kenichi",
       "total": 50,
       "fresh": 0,
-      "pendingFailures": 31,
+      "pendingFailures": 29,
       "state": "pending"
     },
     "https://jkanime.net/gundam-wing/": {
       "title": "Mobile Suit Gundam Wing",
       "total": 49,
-      "fresh": 7,
-      "pendingFailures": 42,
+      "fresh": 9,
+      "pendingFailures": 40,
       "state": "pending"
     },
     "https://jkanime.net/tekkaman-blade/": {
       "title": "Tekkaman Blade",
       "total": 49,
       "fresh": 0,
-      "pendingFailures": 44,
+      "pendingFailures": 42,
       "state": "pending"
     },
     "https://jkanime.net/gto/": {
       "title": "Great Teacher Onizuka",
       "total": 43,
-      "fresh": 10,
-      "pendingFailures": 33,
+      "fresh": 12,
+      "pendingFailures": 31,
       "state": "pending"
     },
     "https://jkanime.net/yozakura-san-chi-no-daisakusen/": {
@@ -136,22 +136,22 @@
       "title": "Neon Genesis Evangelion",
       "total": 26,
       "fresh": 0,
-      "pendingFailures": 19,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/ouran-high-school-host-club/": {
       "title": "Ouran High School Host Club",
       "total": 26,
       "fresh": 1,
-      "pendingFailures": 10,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/requiem-for-the-phantom/": {
       "title": "Phantom: Requiem for the Phantom",
       "total": 26,
-      "fresh": 24,
-      "pendingFailures": 2,
-      "state": "pending"
+      "fresh": 26,
+      "pendingFailures": 0,
+      "state": "complete"
     },
     "https://jkanime.net/saint-seiya-lost-canvas/": {
       "title": "Saint Seiya: The Lost Canvas",
@@ -164,28 +164,28 @@
       "title": "Senjou no Valkyria: Gallian Chronicles",
       "total": 26,
       "fresh": 1,
-      "pendingFailures": 2,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/": {
       "title": "Code Geass: Hangyaku no Lelouch R2",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/code-geass-hangyaku-no-lelouch/": {
       "title": "Code Geass: Hangyaku no Lelouch",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/mobile-suit-gundam-00-second-season/": {
       "title": "Mobile Suit Gundam 00 S2",
       "total": 25,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/phi-brain-kami-no-puzzle-2nd-season/": {
@@ -212,22 +212,22 @@
     "https://jkanime.net/kanon2006/": {
       "title": "Kanon (2006)",
       "total": 24,
-      "fresh": 17,
-      "pendingFailures": 7,
+      "fresh": 19,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/orphen/": {
       "title": "Majutsushi Orphen",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 15,
+      "pendingFailures": 13,
       "state": "pending"
     },
     "https://jkanime.net/shakugan-no-shana-ii/": {
       "title": "Shakugan no Shana II",
       "total": 24,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/steins-gate/": {
@@ -262,7 +262,7 @@
       "title": "Choujuushin Gravion",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/d_cide-traumerei-the-animation/": {
@@ -325,7 +325,7 @@
       "title": "Saint Seiya Saga de Hades Sanctuary",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/": {
@@ -507,7 +507,7 @@
       "title": "Mahoutsukai ni Taisetsu na Koto",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/mashiroiro-symphony/": {
@@ -744,9 +744,9 @@
     "https://jkanime.net/magical-explorer/": {
       "title": "Magical\u2605Explorer",
       "total": 6,
-      "fresh": 5,
-      "pendingFailures": 1,
-      "state": "pending"
+      "fresh": 6,
+      "pendingFailures": 0,
+      "state": "complete"
     },
     "https://jkanime.net/pokemon-xy-mega-evolution/": {
       "title": "Pokemon XY: Mega Evolution",
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4190,
-    "diagnosedSeries": 4144,
+    "series": 4184,
+    "diagnosedSeries": 4138,
     "pendingSeries": 46
   },
   "coverage": {
-    "checkedAt": "2026-11-01T01:28:08.850658+00:00",
+    "checkedAt": "2026-11-01T01:42:42.925165+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73836,
     "storedChapters": 72643,
