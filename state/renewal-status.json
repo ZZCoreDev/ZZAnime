@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-02T14:57:57.781653+00:00",
+  "checkedAt": "2026-11-02T15:15:02.206101+00:00",
   "requested": 400,
   "renewed": 0,
-  "attempted": 122,
-  "repairAttempts": 30,
+  "attempted": 264,
+  "repairAttempts": 66,
   "earlyRepairAttempts": 2,
-  "failed": 56557,
+  "failed": 56556,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41466257339",
+  "runId": "41469106768",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 93,
+  "extraRenewed": 199,
   "expired": 128,
   "published": true,
   "expiresWithin24Hours": 57190,
-  "retryAfterExpiry": 666,
+  "retryAfterExpiry": 697,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -368,7 +368,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 1,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4077,
+    "series": 4076,
     "diagnosedSeries": 4067,
-    "pendingSeries": 10
+    "pendingSeries": 9
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-02T15:11:00.248044+00:00",
+    "checkedAt": "2026-11-02T15:28:11.212137+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73852,
     "storedChapters": 72662,
