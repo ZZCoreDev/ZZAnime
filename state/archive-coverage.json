@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T14:53:18.461587+00:00",
+  "checkedAt": "2026-11-02T15:11:00.248044+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72662,
   "missingChapters": 1190,
-  "expiredChapters": 104,
+  "expiredChapters": 128,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -26,14 +26,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -37001,6 +36993,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/super-no-ura-de-yani-suu-futari/",
+        "title": "Super no Ura de Yani Suu Futari",
+        "samples": [
+          "https://jkanime.net/super-no-ura-de-yani-suu-futari/13/",
+          "https://jkanime.net/super-no-ura-de-yani-suu-futari/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/",
+        "title": "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken",
+        "samples": [
+          "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/1/",
+          "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -41420,8 +41428,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -41432,7 +41439,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -42572,12 +42579,26 @@
       "series": "https://jkanime.net/super-no-ura-de-yani-suu-futari/",
       "title": "Super no Ura de Yani Suu Futari",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/13/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/14/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/15/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/16/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/17/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/18/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/19/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/20/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/21/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/22/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/23/",
+        "https://jkanime.net/super-no-ura-de-yani-suu-futari/24/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -42628,12 +42649,26 @@
       "series": "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/",
       "title": "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/1/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/10/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/11/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/12/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/2/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/3/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/4/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/5/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/6/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/7/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/8/",
+        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
