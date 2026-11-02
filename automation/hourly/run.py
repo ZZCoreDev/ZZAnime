@@ -218,6 +218,7 @@ def main():
   except Exception as error:extra_only={};print(json.dumps({'extraChannelError':type(error).__name__+': '+str(error)[:120]}))
   files.update(extra_only);extra_digest=next((n for n in extra_only if n.startswith('extra/indexes/')),None)
   files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+  files['robots.txt']=b'# ZZAnime: canal privado de la app. No se permite indexar, recopilar en masa ni entrenar IA.\nUser-agent: *\nContent-Signal: search=no, ai-train=no, ai-input=no\nDisallow: /\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
   for n,b in files.items():put(assets/n,b)
   put(tmp/'key.der',public)
