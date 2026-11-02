@@ -15,6 +15,7 @@ export class HelpStore extends DurableObject{
  playStats(now){return this.store.playStats(now);}
  mark(items,limits,expires,day){return this.store.mark(items,limits,expires,day);}
  markStats(now){return this.store.markStats(now);}
+ renewEvidence(episodes){return this.store.renewEvidence(episodes);}
 }
 
 export default{

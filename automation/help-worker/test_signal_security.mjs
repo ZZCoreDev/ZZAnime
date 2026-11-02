@@ -87,4 +87,8 @@ await check('requests without a usable network address count nothing',async()=>{
 await check('summaries carry the evidence policy the cloud requires',async()=>{
  const t=setup();const a=(await get(t,'/v1/play-stats')).body,b=(await get(t,'/v1/marks-stats')).body;
  for(const x of [a,b]){assert.equal(x.evidencePolicy,'network-v2');assert.equal(x.basis,'independent-networks');assert.equal(x.minDeviceAgeHours,24);assert.equal(x.complete,true);assert.ok(x.generatedAt);}});
+await check('every store method the handler calls is exposed by the Durable Object wrapper',async()=>{
+ const fs=await import('node:fs');const logic=fs.readFileSync(new URL('./logic.js',import.meta.url),'utf8'),worker=fs.readFileSync(new URL('./worker.js',import.meta.url),'utf8');
+ const handler=logic.slice(logic.indexOf('export async function handle('));const used=[...new Set([...handler.matchAll(/store\.([a-zA-Z]+)\(/g)].map(m=>m[1]))];
+ assert.ok(used.length>5);for(const m of used)assert.ok(worker.includes('\n '+m+'('),'worker.js must expose '+m);});
 console.log(passed+' S2 signal controls PASS (one network = one voter, 24 h device age, 5 new devices per network and day, attested summaries)');
