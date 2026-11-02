@@ -1,6 +1,6 @@
 name: Copia de versiones en GitLab
 # Copia las APK y manifiestos actuales de la publicación v1.0 de GitHub al repositorio público de GitLab
-# (ZZCoreDev/ZZAnime, rama main). Solo sube si cambian; un único commit sin historial para no acumular APK viejas.
+# (ZZCoreDev/ZZAnime, rama descargas; main está protegida). Solo sube si cambian; un único commit sin historial para no acumular APK viejas.
 on:
   schedule:
     - cron: '7,37 * * * *'
@@ -29,6 +29,7 @@ jobs:
               if hashlib.sha256((d/apk).read_bytes()).hexdigest()!=m['sha256']:raise SystemExit('APK distinta del manifiesto: '+apk)
           PY
       - name: Subir a GitLab solo si cambió
+        shell: bash
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
@@ -38,7 +39,7 @@ jobs:
           T=$(python3 -c "import json;print(json.load(open('descargas/update.json'))['versionCode'])")
           STAMP=$(sha256sum descargas/update-mobile.json descargas/update.json | sha256sum | cut -c1-16)
           REMOTE="https://oauth2:${GITLAB_TOKEN}@gitlab.com/ZZCoreDev/ZZAnime.git"
-          if curl -fsS "https://gitlab.com/ZZCoreDev/ZZAnime/-/raw/main/descargas/version.txt" 2>/dev/null | grep -qx "$STAMP"; then echo "Sin cambios (móvil $M, TV $T)"; exit 0; fi
+          if curl -fsS "https://gitlab.com/ZZCoreDev/ZZAnime/-/raw/descargas/descargas/version.txt" 2>/dev/null | grep -qx "$STAMP"; then echo "Sin cambios (móvil $M, TV $T)"; exit 0; fi
           echo "$STAMP" > descargas/version.txt
           cat > README.md <<MD
           # ZZAnime
@@ -49,7 +50,7 @@ jobs:
           - Android TV: [ZZAnimeTV.apk](descargas/ZZAnimeTV.apk)
           MD
           sed -i 's/^          //' README.md
-          git init -q -b main && git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
+          git init -q -b descargas && git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
           git add -A && git commit -q -m "Versión móvil $M · TV $T"
-          git push -q -f "$REMOTE" main 2>&1 | sed "s/${GITLAB_TOKEN}/***/g"
+          git push -q -f "$REMOTE" descargas
           echo "Subida a GitLab: móvil $M, TV $T"
