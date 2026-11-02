@@ -66,12 +66,14 @@ class WantedTests(unittest.TestCase):
   self.assertLessEqual(len(json.dumps(w,ensure_ascii=False,separators=(',',':')).encode()),h.WANTED_BYTES);self.assertGreater(len(w),100)
 
  def test_held_batches_go_after_news_before_renewal_and_rotate_daily(self):
+  # Fixed day for the whole test (fixture included): the daily rotation must not depend on when CI runs.
+  self.now=datetime.datetime(2026,11,1,12,tzinfo=datetime.timezone.utc);self.state,self.approved,self.urls=fixture(self.now)
   a,b,c,d=self.urls;old=self.now-datetime.timedelta(days=30)
   u='https://jkanime.net/serie-a/10/';self.state['episodes'][u]={'episode':u,'complete':True,'observedAt':h.iso(old),'providers':[{'name':'Mp4upload','family':'mp4upload','links':['https://www.mp4upload.com/embed-a.html']}]};self.state['listings']['https://jkanime.net/serie-a/']['episodes'].append(u)
   _,files=run.build(self.state,self.approved,self.now)
   held=['https://jkanime.net/ova-%d/1/'%i for i in range(5)]+[a]
   rules={'mode':'open','trial':TRIAL,'max':40,'renew':2,'held':2}
-  day=datetime.datetime(2026,11,1,12,tzinfo=datetime.timezone.utc)
+  day=self.now
   w=h.wanted(self.state,files,day,rules,{},held)
   first=[x['url'] for x in w if 'ova-' in x['url']];self.assertEqual(len(first),2)
   self.assertEqual([x['url'] for x in w[:2]],[b,c]);self.assertTrue(w[-1].get('renew'));self.assertFalse(any(x.get('renew') for x in w[:4]))
