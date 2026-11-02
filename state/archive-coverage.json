@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T09:00:30.956905+00:00",
+  "checkedAt": "2026-11-02T09:17:29.037525+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
@@ -1119,13 +1119,6 @@
         "samples": [
           "https://jkanime.net/mizu-zokusei-no-mahoutsukai/1/",
           "https://jkanime.net/mizu-zokusei-no-mahoutsukai/6/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-        "title": "Tsuihousha Shokudou e Youkoso!",
-        "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
         ]
       },
       {
@@ -48316,15 +48309,13 @@
     {
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
