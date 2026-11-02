@@ -78,13 +78,13 @@ await check('valid MEGA link of another video is rejected even with quorum',asyn
  for(const asn of [1,2,3])await submit(t,[item(TR,f.url)],{asn});
  assert.deepEqual((await accepted(t)).body.episodes,[]);});
 await check('readable title of another video is rejected; unreadable or generic needs three networks',async()=>{
- const t=setup({pages:{'https://streamwish.to/e/other':'Tokyo Revengers Santen Sensou-hen 04','https://streamwish.to/e/wrong':'Steel Ball Run 08.mp4','https://vidhide.to/e/generic':'Watch video','https://vidhide.to/e/named':'Steel_Ball_Run_07.mp4'}});
- const urls=['https://streamwish.to/e/ok','https://streamwish.to/e/other','https://streamwish.to/e/wrong','https://vidhide.to/e/generic','https://vidhide.to/e/named'];
+ const t=setup({pages:{'https://streamwish.to/e/other':'Tokyo Revengers Santen Sensou-hen 04','https://streamwish.to/e/wrong':'Steel Ball Run 08.mp4','https://vidhide.com/e/generic':'Watch video','https://vidhide.com/e/named':'Steel_Ball_Run_07.mp4'}});
+ const urls=['https://streamwish.to/e/ok','https://streamwish.to/e/other','https://streamwish.to/e/wrong','https://vidhide.com/e/generic','https://vidhide.com/e/named'];
  for(const asn of [1,2])await submit(t,[item(SBR,...urls)],{asn});
- assert.deepEqual((await accepted(t)).body.episodes[0].options.map(o=>[o.url,o.check]),[['https://vidhide.to/e/named','name-match']]);
+ assert.deepEqual((await accepted(t)).body.episodes[0].options.map(o=>[o.url,o.check]),[['https://vidhide.com/e/named','name-match']]);
  await submit(t,[item(SBR,...urls)],{asn:3});
  const opts=(await accepted(t)).body.episodes[0].options.map(o=>[o.url,o.check]).sort();
- assert.deepEqual(opts,[['https://streamwish.to/e/ok','quorum3'],['https://vidhide.to/e/generic','quorum3'],['https://vidhide.to/e/named','name-match']]);});
+ assert.deepEqual(opts,[['https://streamwish.to/e/ok','quorum3'],['https://vidhide.com/e/generic','quorum3'],['https://vidhide.com/e/named','name-match']]);});
 await check('enough accepted options stop further work on that chapter',async()=>{
  const a=megaFile('Tokyo Revengers Santen Sensou-hen 05.mp4','AAAA1111'),b=megaFile('[HD] Tokyo Revengers Santen Sensouhen 05.mp4','BBBB2222'),t=setup({mega:[a,b]});
  for(const asn of [1,2])await submit(t,[item(TR,a.url,b.url)],{asn});

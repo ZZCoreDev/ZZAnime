@@ -2,6 +2,8 @@
 // devices answer only those, in batches. An option is offered to the cloud only after two devices on
 // two different networks (Cloudflare ASN) sent it and its real file name matches the chapter.
 // No IP, account or device identifier is stored in clear; everything expires after 8 days.
+import {SUBMIT_POLICY_VERSION,submitUrlAllowed} from './submit-policy.js';
+import {boundedText,InspectionPolicyError,MEGA_BYTES} from './bounded-fetch.js';
 export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
 const DAY=86400000,KEEP=8*DAY,RECHECK=6*3600000,MAX_ITEMS=20,MAX_OPTIONS=8,MAX_INSPECT=30,MAX_WANTED=400,WANTED_TTL=120000,ENOUGH_OPTIONS=2;
 const ACCEPTED=new Set(['name-match','quorum3']);
@@ -17,6 +19,8 @@ export function family(name){
  for(const f of ['desu','magi','mega','streamwish','vidhide','mixdrop','mp4upload'])if(new RegExp('^'+f+'(?:[\\s0-9:()_-].*)?$').test(n))return f;
  return '';
 }
+function optionAllowed(o){return typeof o?.name==='string'&&o.name.length<=70&&o.family===family(o.name)&&submitUrlAllowed(o.family,o.url);}
+function currentDecision(r){return r.policy===SUBMIT_POLICY_VERSION&&optionAllowed(r);}
 const norm=s=>String(s||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 // 'match' needs series words and the chapter number; 'mismatch' means series words with another number.
 // Held entries ("held":true: a JK /1/ that redirects to the series' OVA/movie page) need the series words
@@ -35,32 +39,36 @@ export function megaLink(url){
 // Decrypts the file attributes the same way mega.nz does (AES-CBC, zero IV, zero padding).
 // WebCrypto only accepts PKCS#7, so one crafted block is appended that decrypts to a full pad.
 export async function megaName(url,fetcher){
+ if(!submitUrlAllowed('mega',url))throw new InspectionPolicyError('destination');
  const link=megaLink(url);if(!link)return null;
  const k=b64url(link.key);if(k.length!==32)return null;const raw=new Uint8Array(16);for(let i=0;i<16;i++)raw[i]=k[i]^k[i+16];
- const r=await fetcher('https://g.api.mega.co.nz/cs?id='+Math.floor(Math.random()*1e9),{method:'POST',body:JSON.stringify([{a:'g',p:link.id}]),headers:{'content-type':'application/json'}});
- if(!r.ok)return undefined;const body=await r.json(),file=Array.isArray(body)?body[0]:body;
+ const api='https://g.api.mega.co.nz/cs?id='+Math.floor(Math.random()*1e9);
+ const text=await boundedText(api,{method:'POST',body:JSON.stringify([{a:'g',p:link.id}]),headers:{'content-type':'application/json'}},fetcher,u=>u===api,{maxBytes:MEGA_BYTES,maxRedirects:0});
+ if(text===null)return undefined;const body=JSON.parse(text),file=Array.isArray(body)?body[0]:body;
  if(typeof file==='number'||!file||typeof file.at!=='string')return null;
  const at=b64url(file.at);if(!at.length||at.length%16)return null;
  const key=await crypto.subtle.importKey('raw',raw,'AES-CBC',false,['encrypt','decrypt']);
  const pad=new Uint8Array(await crypto.subtle.encrypt({name:'AES-CBC',iv:at.slice(-16)},key,new Uint8Array(16).fill(16))).slice(0,16);
  const joined=new Uint8Array(at.length+16);joined.set(at);joined.set(pad,at.length);
- const text=new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-CBC',iv:new Uint8Array(16)},key,joined)).replace(/\0+$/,'');
- if(!text.startsWith('MEGA{'))return null;
- try{const n=JSON.parse(text.slice(4)).n;return typeof n==='string'?n:null;}catch{return null;}
+ const plain=new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-CBC',iv:new Uint8Array(16)},key,joined)).replace(/\0+$/,'');
+ if(!plain.startsWith('MEGA{'))return null;
+ try{const n=JSON.parse(plain.slice(4)).n;return typeof n==='string'?n:null;}catch{return null;}
 }
-async function pageTitle(url,fetcher){
- const r=await fetcher(url,{headers:{'user-agent':'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36'},redirect:'follow',signal:AbortSignal.timeout(8000)});
- if(!r.ok)return null;const html=(await r.text()).slice(0,262144);
+async function pageTitle(option,fetcher){
+ const html=await boundedText(option.url,{headers:{'user-agent':'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/124 Mobile Safari/537.36'}},fetcher,u=>submitUrlAllowed(option.family,u));
+ if(html===null)return null;
  const m=/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']{1,300})/i.exec(html)||/<title[^>]*>([^<]{1,300})<\/title>/i.exec(html);return m?m[1]:null;
 }
 // 'match' | 'mismatch' | 'dead' | 'unknown'. Only MEGA is decisive when the provider cannot be read.
 export async function inspect(option,entry,fetcher){
+ const result=verdict=>({verdict,policy:SUBMIT_POLICY_VERSION});
+ if(!optionAllowed(option))return result('policy-rejected');
  try{
-  if(option.family==='mega'){const name=await megaName(option.url,fetcher);if(name===null)return {verdict:'dead'};if(name===undefined)return {verdict:'unknown'};const v=nameVerdict(name,entry);return {verdict:v==='unknown'?'mismatch':v,detail:name.slice(0,200)};}
+  if(option.family==='mega'){const name=await megaName(option.url,fetcher);if(name===null)return result('dead');if(name===undefined)return result('unknown');const v=nameVerdict(name,entry);return {...result(v==='unknown'?'mismatch':v),detail:name.slice(0,200)};}
   // A readable title that names some numbered video other than this chapter is a mismatch, not unknown.
-  const title=await pageTitle(option.url,fetcher);if(!title)return {verdict:'unknown'};const v=nameVerdict(title,entry);
-  return {verdict:v==='unknown'&&/[0-9]/.test(title)?'mismatch':v,detail:title.slice(0,200)};
- }catch{return {verdict:'unknown'};}
+  const title=await pageTitle(option,fetcher);if(!title)return result('unknown');const v=nameVerdict(title,entry);
+  return {...result(v==='unknown'&&/[0-9]/.test(title)?'mismatch':v),detail:title.slice(0,200)};
+ }catch(error){return result(error instanceof InspectionPolicyError?'policy-rejected':'unknown');}
 }
 // Wanted list straight from the signed channel the apps read; stale or unsigned channels ask for nothing.
 let cached={at:0,map:null};
@@ -87,7 +95,7 @@ export async function zone(ip,salt){
 // Every method is synchronous, so each call is atomic.
 export class Store{
  constructor(sql){this.sql=sql;
-  sql.exec('DROP TABLE IF EXISTS submissions');sql.exec('DROP TABLE IF EXISTS checks');
+  // Schema changes are additive: keep legacy tables and their evidence intact.
   sql.exec('CREATE TABLE IF NOT EXISTS seen(episode TEXT,device TEXT,asn INTEGER,created INTEGER,options TEXT,PRIMARY KEY(episode,device))');
   sql.exec('CREATE TABLE IF NOT EXISTS decided(episode TEXT,okey TEXT,name TEXT,family TEXT,url TEXT,devices INTEGER,asns INTEGER,first INTEGER,verdict TEXT,checked INTEGER,PRIMARY KEY(episode,okey))');
   sql.exec('CREATE TABLE IF NOT EXISTS counters(k TEXT PRIMARY KEY,n INTEGER,expires INTEGER)');
@@ -97,7 +105,7 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS marks(episode TEXT,kind TEXT,device TEXT,day INTEGER,start INTEGER,stop INTEGER,PRIMARY KEY(episode,kind,device))');
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
-  for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER'])try{sql.exec(q);}catch{}}
+  for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}}
  rows(q,...p){return this.sql.exec(q,...p).toArray();}
  take(limits,expires){
   for(const [k,limit,w] of limits){const r=this.rows('SELECT n FROM counters WHERE k=?',k)[0];if((r?r.n:0)+w>limit)return false;}
@@ -111,6 +119,7 @@ export class Store{
  tally(episode){
   const out=new Map();
   for(const r of this.rows('SELECT device,asn,zone,created,options FROM seen WHERE episode=?',episode))for(const o of JSON.parse(r.options)){
+   if(!optionAllowed(o))continue;
    let t=out.get(o.okey);if(!t){t={...o,devices:new Set(),asns:new Set(),zones:new Set(),first:r.created};out.set(o.okey,t);}
    t.devices.add(r.device);t.asns.add(r.asn);if(r.zone)t.zones.add(r.zone);t.first=Math.min(t.first,r.created);
   }
@@ -125,16 +134,16 @@ export class Store{
   if(!this.take(limits,expires))return {limited:true};
   const status={},inspect=[];
   for(const it of items){
-   const decided=new Map(this.rows('SELECT okey,verdict,checked FROM decided WHERE episode=?',it.episode).map(r=>[r.okey,r]));
-   if([...decided.values()].filter(r=>ACCEPTED.has(r.verdict)).length>=ENOUGH_OPTIONS){status[it.episode]='enough';continue;}
+   const decided=new Map(this.rows('SELECT okey,verdict,checked,name,family,url,policy FROM decided WHERE episode=?',it.episode).map(r=>[r.okey,r]));
+   if([...decided.values()].filter(r=>currentDecision(r)&&ACCEPTED.has(r.verdict)).length>=ENOUGH_OPTIONS){status[it.episode]='enough';continue;}
    const known=this.rows('SELECT 1 AS x FROM seen WHERE episode=? AND device=?',it.episode,it.device).length>0;
-   if(!known)this.sql.exec('INSERT INTO seen(episode,device,asn,created,options,zone) VALUES(?,?,?,?,?,?)',it.episode,it.device,it.asn,now,JSON.stringify(it.options),it.zone||'');
+   if(!known)this.sql.exec('INSERT INTO seen(episode,device,asn,created,options,zone) VALUES(?,?,?,?,?,?)',it.episode,it.device,it.asn,now,JSON.stringify(it.options.filter(optionAllowed)),it.zone||'');
    status[it.episode]=known?'duplicate':'stored';
    for(const t of this.tally(it.episode).values()){
     if(!Store.quorum(t,sameAsnZones))continue;
-    const d=decided.get(t.okey),c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:t.devices.size,asns:t.asns.size,zones:t.zones.size,first:t.first};
+    const previous=decided.get(t.okey),d=previous&&currentDecision(previous)?previous:null,c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:t.devices.size,asns:t.asns.size,zones:t.zones.size,first:t.first};
     if(d&&d.verdict!=='unknown')continue;
-    if(d&&t.family!=='mega'&&c.asns>=3){this.decide([{...c,verdict:'unknown'}],now);continue;}
+    if(d&&t.family!=='mega'&&c.asns>=3){this.decide([{...c,verdict:'unknown',policy:SUBMIT_POLICY_VERSION}],now);continue;}
     if(d&&now-d.checked<RECHECK)continue;
     inspect.push(c);
    }
@@ -143,8 +152,9 @@ export class Store{
  }
  decide(results,now){
   for(const r of results){
-   const verdict=r.verdict==='match'?'name-match':r.verdict==='unknown'&&r.family!=='mega'&&r.asns>=3?'quorum3':r.verdict;
-   this.sql.exec('INSERT OR REPLACE INTO decided(episode,okey,name,family,url,devices,asns,first,verdict,checked,zones) VALUES(?,?,?,?,?,?,?,?,?,?,?)',r.episode,r.okey,r.name,r.family,r.url,r.devices,r.asns,r.first,verdict,now,r.zones||0);
+   const safe=optionAllowed(r)&&r.policy===SUBMIT_POLICY_VERSION;
+   const verdict=!safe?'policy-rejected':r.verdict==='match'?'name-match':r.verdict==='unknown'&&r.family!=='mega'&&r.asns>=3?'quorum3':r.verdict;
+   this.sql.exec('INSERT OR REPLACE INTO decided(episode,okey,name,family,url,devices,asns,first,verdict,checked,zones,policy) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',r.episode,r.okey,r.name,r.family,r.url,r.devices,r.asns,r.first,verdict,now,r.zones||0,safe?SUBMIT_POLICY_VERSION:'');
   }
   return results.length;
  }
@@ -154,7 +164,7 @@ export class Store{
   this.sql.exec('DELETE FROM seen WHERE created<? OR episode NOT IN (SELECT value FROM json_each(?))',now-KEEP,list);
   this.sql.exec('DELETE FROM decided WHERE first<? OR episode NOT IN (SELECT value FROM json_each(?))',now-KEEP,list);
   this.sql.exec('DELETE FROM counters WHERE expires<?',now);
-  return this.rows("SELECT episode,name,family,url,devices,asns,zones,first,verdict FROM decided WHERE verdict IN ('name-match','quorum3') ORDER BY episode,first");
+  return this.rows("SELECT episode,name,family,url,devices,asns,zones,first,verdict,policy FROM decided WHERE verdict IN ('name-match','quorum3') ORDER BY episode,first").filter(currentDecision);
  }
  dead(items,limits,expires,now){
   if(!this.take(limits,expires))return {limited:true};
@@ -245,7 +255,7 @@ async function options(list){
  const out=[],seen=new Set();
  for(const o of (Array.isArray(list)?list:[]).slice(0,MAX_OPTIONS)){
   const f=family(o?.name),link=String(o?.url||'');
-  if(!f||typeof o.name!=='string'||o.name.length>70||!LINK.test(link)||link.length>500)continue;
+  if(!optionAllowed({name:o?.name,family:f,url:link}))continue;
   const okey=await sha(o.name+'\0'+link);if(!seen.has(okey)){seen.add(okey);out.push({okey,name:o.name,family:f,url:link});}
  }
  return out;
@@ -307,7 +317,7 @@ export async function handle(request,env,store,deps={}){
    Object.assign(result,r.status);const done=[];
    for(const c of r.inspect.slice(0,MAX_INSPECT)){
     // A same-network quorum (asns<2) can only pass on a matching file name: decide() needs 3 networks for quorum3.
-    done.push({...c,verdict:(await inspect(c,wanted.get(c.episode),fetcher)).verdict});
+    done.push({...c,...await inspect(c,wanted.get(c.episode),fetcher)});
    }
    if(done.length)await store.decide(done,now);
   }
