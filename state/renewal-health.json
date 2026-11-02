@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-02T09:17:29.037525+00:00",
+  "checkedAt": "2026-11-02T09:33:25.649285+00:00",
   "episodes": 72662,
-  "oldestHours": 164.73,
-  "pending": 72505,
+  "oldestHours": 164.99,
+  "pending": 72476,
   "expired": 0,
-  "expiresWithin24Hours": 31551,
-  "retryAfterExpiry": 119,
+  "expiresWithin24Hours": 32866,
+  "retryAfterExpiry": 143,
   "successfulCyclesMeasured": 20,
-  "sampleMinutes": 1426.98,
-  "measuredWallClockPerHour": 0.04,
-  "estimatedSweepDays": 72004.79,
+  "sampleMinutes": 1428.83,
+  "measuredWallClockPerHour": 0.0,
+  "estimatedSweepDays": null,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -359,7 +359,7 @@
     "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/": {
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
-      "fresh": 0,
+      "fresh": 1,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -731,7 +731,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4077,
+    "series": 4076,
     "diagnosedSeries": 4067,
-    "pendingSeries": 10
+    "pendingSeries": 9
   },
   "coverage": {
-    "checkedAt": "2026-11-02T09:17:29.037525+00:00",
+    "checkedAt": "2026-11-02T09:33:25.649285+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73850,
     "storedChapters": 72662,

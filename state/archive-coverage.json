@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T09:17:29.037525+00:00",
+  "checkedAt": "2026-11-02T09:33:25.649285+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
@@ -2342,13 +2342,6 @@
         "title": "Fureru.",
         "samples": [
           "https://jkanime.net/fureru/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-        "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
-        "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/3/"
         ]
       },
       {
@@ -52660,15 +52653,13 @@
     {
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 15,
       "stored": 15,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 10,
         "streamwish": 13,
