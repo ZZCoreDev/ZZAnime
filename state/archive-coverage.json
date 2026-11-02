@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T23:22:22.783130+00:00",
+  "checkedAt": "2026-11-02T23:39:02.974066+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
   "storedChapters": 72664,
@@ -1300,13 +1300,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/compass-20-sentou-setsuri-kaiseki-system/",
-        "title": "#Compass 2.0: Sentou Setsuri Kaiseki System",
-        "samples": [
-          "https://jkanime.net/compass-20-sentou-setsuri-kaiseki-system/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/",
         "title": "Vigilante: Boku no Hero Academia Illegals",
         "samples": [
@@ -1327,20 +1320,6 @@
         "title": "Zatsu Tabi: That's Journey",
         "samples": [
           "https://jkanime.net/zatsu-tabi-thats-journey/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ore-wa-seikan-kokka-no-akutoku-ryoushu/",
-        "title": "Ore wa Seikan Kokka no Akutoku Ryoushu!",
-        "samples": [
-          "https://jkanime.net/ore-wa-seikan-kokka-no-akutoku-ryoushu/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/witch-watch/",
-        "title": "Witch Watch",
-        "samples": [
-          "https://jkanime.net/witch-watch/25/"
         ]
       },
       {
@@ -63083,7 +63062,7 @@
         "https://jkanime.net/teogonia/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 10,
         "vidhide": 10,
@@ -63295,8 +63274,7 @@
       "series": "https://jkanime.net/compass-20-sentou-setsuri-kaiseki-system/",
       "title": "#Compass 2.0: Sentou Setsuri Kaiseki System",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -63305,7 +63283,7 @@
         "https://jkanime.net/compass-20-sentou-setsuri-kaiseki-system/2/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 11,
         "streamwish": 7,
@@ -63331,7 +63309,7 @@
         "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 7,
         "vidhide": 12,
@@ -63375,7 +63353,7 @@
         "https://jkanime.net/summer-pockets/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "families": {
         "streamwish": 17,
         "vidhide": 21,
@@ -63446,8 +63424,7 @@
       "series": "https://jkanime.net/ore-wa-seikan-kokka-no-akutoku-ryoushu/",
       "title": "Ore wa Seikan Kokka no Akutoku Ryoushu!",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -63456,7 +63433,7 @@
         "https://jkanime.net/ore-wa-seikan-kokka-no-akutoku-ryoushu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 12,
         "streamwish": 10,
@@ -63488,8 +63465,7 @@
       "series": "https://jkanime.net/witch-watch/",
       "title": "Witch Watch",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 25,
       "stored": 25,
@@ -63498,7 +63474,7 @@
         "https://jkanime.net/witch-watch/25/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 22,
         "vidhide": 9,
