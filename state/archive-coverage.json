@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T13:01:22.836610+00:00",
+  "checkedAt": "2026-11-02T13:13:41.624636+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
   "missingChapters": 1188,
-  "expiredChapters": 9,
+  "expiredChapters": 12,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -31527,16 +31527,14 @@
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/1/",
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/2/"
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/3/"
         ]
       },
       {
         "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/",
         "title": "Diamond no Ace: Act II Second Season Part 2",
         "samples": [
-          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/1/",
-          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/2/"
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/3/"
         ]
       },
       {
@@ -36884,6 +36882,27 @@
         ]
       },
       {
+        "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
+        "title": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
+        "samples": [
+          "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
+        "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+        "samples": [
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/",
+        "title": "Diamond no Ace: Act II Second Season Part 2",
+        "samples": [
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
         "samples": [
@@ -41550,11 +41569,15 @@
     {
       "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
       "title": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
@@ -141339,12 +141362,15 @@
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
       "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 3,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
@@ -141361,12 +141387,15 @@
       "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/",
       "title": "Diamond no Ace: Act II Second Season Part 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 3,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
