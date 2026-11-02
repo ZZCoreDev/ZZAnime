@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T14:35:35.144179+00:00",
+  "checkedAt": "2026-11-02T14:53:18.461587+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72662,
   "missingChapters": 1190,
-  "expiredChapters": 79,
+  "expiredChapters": 104,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -81,6 +81,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
+        "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+        "samples": [
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/",
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
@@ -123,7 +131,8 @@
         "series": "https://jkanime.net/bai-ri-cheng-wang/",
         "title": "Bai Ri Cheng Wang",
         "samples": [
-          "https://jkanime.net/bai-ri-cheng-wang/1/"
+          "https://jkanime.net/bai-ri-cheng-wang/1/",
+          "https://jkanime.net/bai-ri-cheng-wang/10/"
         ]
       },
       {
@@ -36980,7 +36989,15 @@
         "series": "https://jkanime.net/bai-ri-cheng-wang/",
         "title": "Bai Ri Cheng Wang",
         "samples": [
-          "https://jkanime.net/bai-ri-cheng-wang/1/"
+          "https://jkanime.net/bai-ri-cheng-wang/1/",
+          "https://jkanime.net/bai-ri-cheng-wang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
+        "title": "Hanazakari no Kimitachi e 2nd Season",
+        "samples": [
+          "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
         ]
       },
       {
@@ -41925,7 +41942,8 @@
       "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -41942,7 +41960,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -42420,7 +42438,31 @@
       "stored": 25,
       "missing": [],
       "expired": [
-        "https://jkanime.net/bai-ri-cheng-wang/1/"
+        "https://jkanime.net/bai-ri-cheng-wang/1/",
+        "https://jkanime.net/bai-ri-cheng-wang/10/",
+        "https://jkanime.net/bai-ri-cheng-wang/11/",
+        "https://jkanime.net/bai-ri-cheng-wang/12/",
+        "https://jkanime.net/bai-ri-cheng-wang/13/",
+        "https://jkanime.net/bai-ri-cheng-wang/14/",
+        "https://jkanime.net/bai-ri-cheng-wang/15/",
+        "https://jkanime.net/bai-ri-cheng-wang/16/",
+        "https://jkanime.net/bai-ri-cheng-wang/17/",
+        "https://jkanime.net/bai-ri-cheng-wang/18/",
+        "https://jkanime.net/bai-ri-cheng-wang/19/",
+        "https://jkanime.net/bai-ri-cheng-wang/2/",
+        "https://jkanime.net/bai-ri-cheng-wang/20/",
+        "https://jkanime.net/bai-ri-cheng-wang/21/",
+        "https://jkanime.net/bai-ri-cheng-wang/22/",
+        "https://jkanime.net/bai-ri-cheng-wang/23/",
+        "https://jkanime.net/bai-ri-cheng-wang/24/",
+        "https://jkanime.net/bai-ri-cheng-wang/25/",
+        "https://jkanime.net/bai-ri-cheng-wang/3/",
+        "https://jkanime.net/bai-ri-cheng-wang/4/",
+        "https://jkanime.net/bai-ri-cheng-wang/5/",
+        "https://jkanime.net/bai-ri-cheng-wang/6/",
+        "https://jkanime.net/bai-ri-cheng-wang/7/",
+        "https://jkanime.net/bai-ri-cheng-wang/8/",
+        "https://jkanime.net/bai-ri-cheng-wang/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 25,
@@ -42471,11 +42513,15 @@
     {
       "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
       "title": "Hanazakari no Kimitachi e 2nd Season",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
