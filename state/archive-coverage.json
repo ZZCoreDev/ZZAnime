@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T12:36:35.054524+00:00",
+  "checkedAt": "2026-11-02T12:48:22.081629+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
   "missingChapters": 1188,
-  "expiredChapters": 1,
+  "expiredChapters": 9,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -33,7 +33,7 @@
         "title": "Jiyi Guanli Ju (2026)",
         "samples": [
           "https://jkanime.net/jiyi-guanli-ju-2026/1/",
-          "https://jkanime.net/jiyi-guanli-ju-2026/2/"
+          "https://jkanime.net/jiyi-guanli-ju-2026/4/"
         ]
       },
       {
@@ -3080,6 +3080,13 @@
         "samples": [
           "https://jkanime.net/sentai-daishikkaku/1/",
           "https://jkanime.net/sentai-daishikkaku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+        "title": "Yozakura-san Chi no Daisakusen",
+        "samples": [
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/22/"
         ]
       },
       {
@@ -36851,6 +36858,39 @@
         ]
       }
     ],
+    "expired-observation": [
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
+        "title": "Danmachi",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
+        "title": "Jiyi Guanli Ju (2026)",
+        "samples": [
+          "https://jkanime.net/jiyi-guanli-ju-2026/1/",
+          "https://jkanime.net/jiyi-guanli-ju-2026/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
+        "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+        "samples": [
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
+        ]
+      }
+    ],
     "retained-redirect": [
       {
         "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/",
@@ -41155,15 +41195,6 @@
         "title": "Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!!",
         "samples": []
       }
-    ],
-    "expired-observation": [
-      {
-        "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
-        "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
-        "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
-        ]
-      }
     ]
   },
   "series": [
@@ -41206,6 +41237,7 @@
       "title": "Danmachi",
       "causes": [
         "observed-chapters-without-options",
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
@@ -41224,7 +41256,9 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/8/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/9/"
       ],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -41240,11 +41274,17 @@
     {
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+        "https://jkanime.net/cyberpunk-edgerunners-2/8/",
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
@@ -41309,12 +41349,18 @@
       "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
       "title": "Jiyi Guanli Ju (2026)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/jiyi-guanli-ju-2026/1/",
+        "https://jkanime.net/jiyi-guanli-ju-2026/4/",
+        "https://jkanime.net/jiyi-guanli-ju-2026/5/",
+        "https://jkanime.net/jiyi-guanli-ju-2026/7/"
+      ],
       "noIndependent": [],
       "renewalFailed": 7,
       "families": {
@@ -55538,13 +55584,15 @@
     {
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
       "title": "Yozakura-san Chi no Daisakusen",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 27,
       "stored": 27,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 27,
         "streamwish": 27,

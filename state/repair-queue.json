@@ -1,6 +1,6 @@
 {
   "renewal-error": {
-    "series": 4076,
+    "series": 4077,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -42,6 +42,28 @@
       }
     ]
   },
+  "expired-observation": {
+    "series": 4,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
+        "title": "Danmachi",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
+        ]
+      }
+    ]
+  },
   "retained-redirect": {
     "series": 578,
     "twoSeriesProofRequired": true,
@@ -75,19 +97,6 @@
         "series": "https://jkanime.net/one-punch-man-3/",
         "title": "One Punch Man 3",
         "samples": []
-      }
-    ]
-  },
-  "expired-observation": {
-    "series": 1,
-    "twoSeriesProofRequired": true,
-    "samples": [
-      {
-        "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
-        "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
-        "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
-        ]
       }
     ]
   }
