@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T20:45:43.301620+00:00",
+  "checkedAt": "2026-11-02T21:02:35.619054+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72664,
@@ -16369,14 +16369,6 @@
         "samples": [
           "https://jkanime.net/tsukiuta-the-animation/1/",
           "https://jkanime.net/tsukiuta-the-animation/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/ozmafia/",
-        "title": "Ozmafia!!",
-        "samples": [
-          "https://jkanime.net/ozmafia/1/",
-          "https://jkanime.net/ozmafia/10/"
         ]
       },
       {
@@ -48826,7 +48818,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -114237,8 +114229,7 @@
       "series": "https://jkanime.net/ozmafia/",
       "title": "Ozmafia!!",
       "causes": [
-        "observed-chapters-without-options",
-        "renewal-error"
+        "observed-chapters-without-options"
       ],
       "observed": 12,
       "stored": 0,
@@ -114258,7 +114249,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {},
       "playbackVerified": false
     },
