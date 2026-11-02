@@ -163,6 +163,12 @@ def pull(folder,state,now,fetch=None,observe_fetch=None):
   report={'state':'nothing-asked','checkedAt':iso(now),'imported':0,'worker':worker,'deadReports':reports}
   (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report
  data=fetch() if fetch else get(base,key,'/v1/accepted')
+ if not fetch and isinstance(data,dict) and 'renewals' not in data:
+  # Single-device renewal evidence comes from its own endpoint; if it fails, the normal import goes on without it.
+  try:
+   extra=get(base,key,'/v1/renewals')
+   if isinstance(extra,dict) and isinstance(extra.get('renewals'),list):data['renewals']=extra['renewals']
+  except Exception as error:print(json.dumps({'renewalEvidenceError':type(error).__name__}),flush=True)
  incoming,seen,held=accept(data,state,asked,now,renew,frozenset(held_chapters())&asked)
  for url,ep in incoming['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/';old=state['listings'].get(parent)

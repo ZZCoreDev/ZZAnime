@@ -173,8 +173,9 @@ export class Store{
  // The cloud only uses it to re-confirm links it already approved; it never adds a link from it.
  renewEvidence(episodes){
   if(!episodes.length)return [];const out=new Map();
-  for(const r of this.rows('SELECT episode,created,options FROM seen WHERE episode IN (SELECT value FROM json_each(?)) ORDER BY created DESC',JSON.stringify(episodes))){
-   if(out.has(r.episode))continue;let options=[];try{options=JSON.parse(r.options).filter(optionAllowed).slice(0,MAX_OPTIONS).map(o=>({name:o.name,family:o.family,url:o.url}));}catch{}
+  // One row per chapter (its latest answer) and a hard cap keep this inside the free plan's CPU budget.
+  for(const r of this.rows('SELECT episode,MAX(created) AS created,options FROM seen WHERE episode IN (SELECT value FROM json_each(?)) GROUP BY episode LIMIT 200',JSON.stringify(episodes.slice(0,400)))){
+   let options=[];try{options=JSON.parse(r.options).filter(optionAllowed).slice(0,MAX_OPTIONS).map(o=>({name:o.name,family:o.family,url:o.url}));}catch{}
    if(options.length)out.set(r.episode,{url:r.episode,observedAt:iso(r.created),options});
   }
   return [...out.values()];
@@ -359,8 +360,12 @@ export async function handle(request,env,store,deps={}){
    if(r.first<Date.parse(row.acceptedAt))row.acceptedAt=iso(r.first);
    row.options.push({name:r.name,family:r.family,url:r.url,devices:r.devices,asns:r.asns,zones:r.zones||0,check:r.verdict});out.set(r.episode,row);
   }
-  const renewals=await store.renewEvidence([...wanted].filter(([,e])=>e.renew).map(([u])=>u));
-  return json({schema:1,generatedAt:iso(now),episodes:[...out.values()],renewals});
+  return json({schema:1,generatedAt:iso(now),episodes:[...out.values()]});
+ }
+ if(request.method==='GET'&&url.pathname==='/v1/renewals'){
+  if(!authorized(request,env))return json({error:'unauthorized'},401);
+  const wanted=await loadWanted(env,now,fetcher);
+  return json({schema:1,generatedAt:iso(now),renewals:await store.renewEvidence([...wanted].filter(([,e])=>e.renew).map(([u])=>u))});
  }
  if(request.method==='GET'&&url.pathname==='/v1/marks-stats'){
   if(!authorized(request,env))return json({error:'unauthorized'},401);

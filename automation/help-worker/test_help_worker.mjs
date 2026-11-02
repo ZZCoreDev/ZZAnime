@@ -205,7 +205,7 @@ await check('intro marks: two devices within 3 s agree, outliers and bad marks i
 await check('renewal evidence: one device is reported only for chapters the cloud asked to renew',async()=>{
  const t=setup(),link='https://www.mp4upload.com/embed-renew123.html';
  await submit(t,[item(OLD,link),item(TR,link)],{asn:3352,ip:'81.9.9.9'});
- const body=(await accepted(t)).body;
+ const body=(await get(t,'/v1/renewals')).body;assert.equal((await get(t,'/v1/renewals','wrong')).status,401);
  assert.deepEqual(body.renewals.map(r=>r.url),[OLD]);assert.deepEqual(body.renewals[0].options.map(o=>o.url),[link]);
- assert.ok(!body.episodes.some(e=>e.url===OLD));});
+ assert.ok(!(await accepted(t)).body.episodes.some(e=>e.url===OLD));assert.ok(!('renewals' in (await accepted(t)).body));});
 console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch, play votes, intro marks)');
