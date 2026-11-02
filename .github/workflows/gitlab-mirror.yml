@@ -1,0 +1,55 @@
+name: Copia de versiones en GitLab
+# Copia las APK y manifiestos actuales de la publicación v1.0 de GitHub al repositorio público de GitLab
+# (ZZCoreDev/ZZAnime, rama main). Solo sube si cambian; un único commit sin historial para no acumular APK viejas.
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: gitlab-mirror
+  cancel-in-progress: false
+jobs:
+  mirror:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Descargar la publicación actual de GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p out/descargas && cd out/descargas
+          gh release download v1.0 --repo "$GITHUB_REPOSITORY" --pattern 'ZZAnimeMobile.apk' --pattern 'ZZAnimeTV.apk' --pattern 'update-mobile.json' --pattern 'update.json'
+          python3 - <<'PY'
+          import json,hashlib,pathlib
+          d=pathlib.Path('.')
+          for apk,man in [('ZZAnimeMobile.apk','update-mobile.json'),('ZZAnimeTV.apk','update.json')]:
+              m=json.loads((d/man).read_text(encoding='utf-8'))
+              if hashlib.sha256((d/apk).read_bytes()).hexdigest()!=m['sha256']:raise SystemExit('APK distinta del manifiesto: '+apk)
+          PY
+      - name: Subir a GitLab solo si cambió
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          [ -n "$GITLAB_TOKEN" ] || { echo 'Falta GITLAB_TOKEN'; exit 1; }
+          cd out
+          M=$(python3 -c "import json;print(json.load(open('descargas/update-mobile.json'))['versionCode'])")
+          T=$(python3 -c "import json;print(json.load(open('descargas/update.json'))['versionCode'])")
+          STAMP=$(sha256sum descargas/update-mobile.json descargas/update.json | sha256sum | cut -c1-16)
+          REMOTE="https://oauth2:${GITLAB_TOKEN}@gitlab.com/ZZCoreDev/ZZAnime.git"
+          if curl -fsS "https://gitlab.com/ZZCoreDev/ZZAnime/-/raw/main/descargas/version.txt" 2>/dev/null | grep -qx "$STAMP"; then echo "Sin cambios (móvil $M, TV $T)"; exit 0; fi
+          echo "$STAMP" > descargas/version.txt
+          cat > README.md <<MD
+          # ZZAnime
+
+          Copia de la última versión publicada (móvil $M, TV $T). La firma es la habitual: se instala encima de la app actual.
+
+          - Móvil: [ZZAnimeMobile.apk](descargas/ZZAnimeMobile.apk)
+          - Android TV: [ZZAnimeTV.apk](descargas/ZZAnimeTV.apk)
+          MD
+          sed -i 's/^          //' README.md
+          git init -q -b main && git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
+          git add -A && git commit -q -m "Versión móvil $M · TV $T"
+          git push -q -f "$REMOTE" main 2>&1 | sed "s/${GITLAB_TOKEN}/***/g"
+          echo "Subida a GitLab: móvil $M, TV $T"
