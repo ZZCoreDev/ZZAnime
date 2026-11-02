@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T13:44:43.957626+00:00",
+  "checkedAt": "2026-11-02T14:02:15.939874+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
   "missingChapters": 1188,
-  "expiredChapters": 36,
+  "expiredChapters": 64,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -85,7 +85,7 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/"
         ]
       },
       {
@@ -295,13 +295,6 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yomi-no-tsugai/",
-        "title": "Yomi no Tsugai",
-        "samples": [
-          "https://jkanime.net/yomi-no-tsugai/12/"
         ]
       },
       {
@@ -725,13 +718,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gnosia/",
-        "title": "Gnosia",
-        "samples": [
-          "https://jkanime.net/gnosia/18/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/",
         "title": "Tondemo Skill de Isekai Hourou Meshi 2",
         "samples": [
@@ -775,13 +761,6 @@
         "samples": [
           "https://jkanime.net/ao-no-orchestra-season-2/1/",
           "https://jkanime.net/ao-no-orchestra-season-2/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
-        "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-        "samples": [
-          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/21/"
         ]
       },
       {
@@ -1154,7 +1133,6 @@
         "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
         "title": "Tsuihousha Shokudou e Youkoso!",
         "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/3/",
           "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
         ]
       },
@@ -31777,8 +31755,7 @@
         "series": "https://jkanime.net/onegai-aipri/",
         "title": "Onegai AiPri",
         "samples": [
-          "https://jkanime.net/onegai-aipri/1/",
-          "https://jkanime.net/onegai-aipri/10/"
+          "https://jkanime.net/onegai-aipri/29/"
         ]
       },
       {
@@ -36960,7 +36937,23 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/",
+        "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 3rd Season",
+        "samples": [
+          "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/1/",
+          "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/",
+        "title": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojousama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
+        "samples": [
+          "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/1/",
+          "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/10/"
         ]
       },
       {
@@ -36982,6 +36975,13 @@
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
         "samples": [
           "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/onegai-aipri/",
+        "title": "Onegai AiPri",
+        "samples": [
+          "https://jkanime.net/onegai-aipri/29/"
         ]
       }
     ],
@@ -41908,7 +41908,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -41948,6 +41948,9 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/12/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/3/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/4/",
@@ -41972,12 +41975,26 @@
       "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/",
       "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 3rd Season",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/1/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/10/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/11/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/12/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/2/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/3/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/4/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/5/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/6/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/7/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/8/",
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -42030,12 +42047,26 @@
       "series": "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/",
       "title": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojousama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/1/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/10/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/11/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/12/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/2/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/3/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/4/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/5/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/6/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/7/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/8/",
+        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -43710,15 +43741,13 @@
     {
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 23,
         "vidhide": 11,
@@ -46061,15 +46090,13 @@
     {
       "series": "https://jkanime.net/gnosia/",
       "title": "Gnosia",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -46459,15 +46486,13 @@
     {
       "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
       "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 5,
         "streamwish": 24,
@@ -48508,7 +48533,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -142846,12 +142871,15 @@
       "series": "https://jkanime.net/onegai-aipri/",
       "title": "Onegai AiPri",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 29,
       "stored": 29,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/onegai-aipri/29/"
+      ],
       "noIndependent": [],
       "renewalFailed": 29,
       "families": {
