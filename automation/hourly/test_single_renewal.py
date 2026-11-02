@@ -27,4 +27,9 @@ class SingleRenewalTests(unittest.TestCase):
   st=state();st['episodes'][URL]['observedAt']=iso(NOW-datetime.timedelta(minutes=10))
   incoming,_,held=help_chain.accept(answer(),st,{URL},NOW,frozenset({URL}))
   self.assertNotIn(URL,incoming['episodes']);self.assertEqual(held.get(URL),'Stored observation is newer')
+ def test_readings_are_counted(self):
+  # Rows, chapters not asked to renew and chapters without a stored observation are counted, nothing else changes.
+  data=answer();data['renewals'].append({'url':'https://jkanime.net/otra/1/','observedAt':data['renewals'][0]['observedAt'],'options':[]})
+  incoming,_,_=help_chain.accept(data,state(),{URL},NOW,frozenset({URL}))
+  self.assertEqual(incoming['singleRenewal'],{'rows':2,'notAskedOrDone':1,'noStored':0,'renewed':1})
 if __name__=='__main__':unittest.main()

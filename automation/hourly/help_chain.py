@@ -115,12 +115,15 @@ def renew_single(data,state,renew,now,incoming,held):
  """One device saw the JK page of a chapter the cloud asked to renew: keep, with the device's date, only the links the
  archive already approved that the page still lists. Nothing new is ever added this way (new links need the quorum)."""
  rows=data.get('renewals')
+ # Counted in help-status.json so a quiet day (no readings) can be told apart from readings that are all set aside.
+ stats=incoming.setdefault('singleRenewal',{'rows':0,'notAskedOrDone':0,'noStored':0,'renewed':0})
  if not isinstance(rows,list):return
+ stats['rows']=len(rows)
  for row in rows[:MAX_IMPORT]:
   url=row.get('url') if isinstance(row,dict) else None
-  if not isinstance(url,str) or url not in renew or url in incoming['episodes']:continue
+  if not isinstance(url,str) or url not in renew or url in incoming['episodes']:stats['notAskedOrDone']+=1;continue
   old=state['episodes'].get(url)
-  if not old or not old.get('providers'):continue
+  if not old or not old.get('providers'):stats['noStored']+=1;continue
   try:at=datetime.datetime.fromisoformat(str(row.get('observedAt')).replace('Z','+00:00'))
   except ValueError:held[url]='Invalid renewal date';continue
   if at.tzinfo is None or not 0<=(now-at).total_seconds()<=7*86400:held[url]='Stale or future renewal';continue
@@ -131,7 +134,7 @@ def renew_single(data,state,renew,now,incoming,held):
    links=[l for l in p.get('links',[]) if l in seen_links]
    if links:providers.append({**p,'links':links})
   if not providers:held[url]='Renewal saw none of the approved links';continue
-  incoming['episodes'][url]={**old,'observedAt':iso(at),'complete':True,'providers':providers,'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain-single-renewal','renewed':True}}
+  incoming['episodes'][url]={**old,'observedAt':iso(at),'complete':True,'providers':providers,'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain-single-renewal','renewed':True}};stats['renewed']+=1
   parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
   if listing:incoming['listings'][parent]={**listing,'episodes':[url]}
 def get(base,key,path,limit=4194305):
@@ -179,5 +182,5 @@ def pull(folder,state,now,fetch=None,observe_fetch=None):
  state['pending']=sorted(set(state.get('pending',[]))-set(incoming['episodes']))
  if incoming['episodes']:save_observations(folder,state,set(incoming['listings']))
  renewed=sum(1 for url in incoming['episodes'] if url in renew)
- report={'state':'imported' if incoming['episodes'] else 'unchanged','checkedAt':iso(now),'imported':len(incoming['episodes']),'renewed':renewed,'held':held,'asked':len(asked),'askedRenew':len(renew),'worker':worker,'deadReports':reports}
+ report={'state':'imported' if incoming['episodes'] else 'unchanged','checkedAt':iso(now),'imported':len(incoming['episodes']),'renewed':renewed,'held':held,'asked':len(asked),'askedRenew':len(renew),'worker':worker,'deadReports':reports,'singleRenewal':incoming.get('singleRenewal',{})}
  (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report
