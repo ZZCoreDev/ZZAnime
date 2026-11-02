@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T16:41:56.070009+00:00",
+  "checkedAt": "2026-11-02T17:00:02.851369+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72662,
   "missingChapters": 1190,
-  "expiredChapters": 128,
+  "expiredChapters": 152,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -37001,6 +37001,22 @@
         ]
       },
       {
+        "series": "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/",
+        "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+        "samples": [
+          "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/1/",
+          "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/perfect-addiction/",
+        "title": "Perfect Addiction",
+        "samples": [
+          "https://jkanime.net/perfect-addiction/1/",
+          "https://jkanime.net/perfect-addiction/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -42795,12 +42811,26 @@
       "series": "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/",
       "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/1/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/10/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/11/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/12/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/2/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/3/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/4/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/5/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/6/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/7/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/8/",
+        "https://jkanime.net/migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -42817,12 +42847,26 @@
       "series": "https://jkanime.net/perfect-addiction/",
       "title": "Perfect Addiction",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/perfect-addiction/1/",
+        "https://jkanime.net/perfect-addiction/10/",
+        "https://jkanime.net/perfect-addiction/11/",
+        "https://jkanime.net/perfect-addiction/12/",
+        "https://jkanime.net/perfect-addiction/2/",
+        "https://jkanime.net/perfect-addiction/3/",
+        "https://jkanime.net/perfect-addiction/4/",
+        "https://jkanime.net/perfect-addiction/5/",
+        "https://jkanime.net/perfect-addiction/6/",
+        "https://jkanime.net/perfect-addiction/7/",
+        "https://jkanime.net/perfect-addiction/8/",
+        "https://jkanime.net/perfect-addiction/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
