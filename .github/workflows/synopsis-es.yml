@@ -1,0 +1,49 @@
+name: Sinopsis en español (AniList + Workers AI gratis)
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Series por vuelta (prueba: 2)'
+        default: '2'
+permissions:
+  contents: write
+concurrency:
+  group: zzanime-synopsis-es
+  cancel-in-progress: false
+jobs:
+  translate:
+    if: github.repository == 'ZZCoreDev/ZZAnime'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          path: code
+      - name: Estado anterior (rama synopsis-es)
+        working-directory: code
+        run: |
+          mkdir -p "$RUNNER_TEMP/state"
+          if git fetch -q --depth 1 origin synopsis-es; then git show FETCH_HEAD:synopsis-es.json > "$RUNNER_TEMP/state/synopsis-es.json" || true; fi
+      - name: Pruebas sin red
+        working-directory: code/automation/synopsis
+        run: python3 test_synopsis_es.py
+      - name: Traducir las que faltan (dentro del cupo gratis diario)
+        working-directory: code/automation/synopsis
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
+          LIMIT: ${{ github.event.inputs.limit || '150' }}
+        run: python3 synopsis_es.py --state "$RUNNER_TEMP/state/synopsis-es.json" --limit "$LIMIT"
+      - name: Guardar el estado (un único commit, se reemplaza)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f "$RUNNER_TEMP/state/synopsis-es.json" ] || exit 0
+          cd "$RUNNER_TEMP/state"
+          git init -q && git checkout -q -b synopsis-es
+          git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
+          git add synopsis-es.json && git commit -q -m 'Sinopsis en español'
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:synopsis-es

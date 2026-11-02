@@ -1,0 +1,1788 @@
+{
+ "schema": 1,
+ "note": "JK series without a synopsis whose AniList identity passed a strict check (exact unique alias + format + year + studio or episode count). Built from catalog-lab poster associations, 2/11/2026.",
+ "items": [
+  {
+   "url": "https://jkanime.net/5-toubun-no-hanayome-2/",
+   "anilistId": 109261,
+   "title": "5-toubun no Hanayome ∬",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/5-toubun-no-hanayome/",
+   "anilistId": 163327,
+   "title": "5-toubun no Hanayome∽",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/accel-world-ex/",
+   "anilistId": 13939,
+   "title": "Accel World EX",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/alma-chan-wa-kazoku-ni-naritai/",
+   "anilistId": 186190,
+   "title": "Alma-chan wa Kazoku ni Naritai",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/amnesia-ova/",
+   "anilistId": 20734,
+   "title": "Amnesia OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/another-ova/",
+   "anilistId": 11701,
+   "title": "Another OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/another-world/",
+   "anilistId": 111733,
+   "title": "Another World",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/ansatsu-kyoushitsu-movie-minna-no-jikan/",
+   "anilistId": 198373,
+   "title": "Ansatsu Kyoushitsu Movie: Minna no Jikan",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/arakawa-under-the-bridge-x-bridge/",
+   "anilistId": 9074,
+   "title": "Arakawa Under the Bridge x Bridge",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/arifureta-shokugyou-de-sekai-saikyou-2nd-season-special/",
+   "anilistId": 143846,
+   "title": "Arifureta Shokugyou de Sekai Saikyou 2nd Season Special",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/arp-backstage-pass/",
+   "anilistId": 110615,
+   "title": "ARP Backstage Pass",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/arslan-senki-tv-ova/",
+   "anilistId": 21817,
+   "title": "Arslan Senki (TV) OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/baki-dou-part-2/",
+   "anilistId": 210032,
+   "title": "Baki-dou Part 2",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/bakuten-movie/",
+   "anilistId": 136064,
+   "title": "Bakuten!! Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/bang-dream-yumemita/",
+   "anilistId": 198376,
+   "title": "BanG Dream! Yume∞Mita",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/barakamon-mijikamon/",
+   "anilistId": 20782,
+   "title": "Barakamon: Mijikamon",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/beastars-final-season-part-2/",
+   "anilistId": 187267,
+   "title": "Beastars Final Season Part 2",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/binan-koukou-chikyuu-boueibu-happy-kiss/",
+   "anilistId": 101046,
+   "title": "Binan Koukou Chikyuu Boueibu Happy Kiss!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-1/",
+   "anilistId": 103713,
+   "title": "Bishoujo Senshi Sailor Moon Eternal Movie 1",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/bishoujo-senshi-sailor-moon-eternal-movie-2/",
+   "anilistId": 103712,
+   "title": "Bishoujo Senshi Sailor Moon Eternal Movie 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
+   "anilistId": 131680,
+   "title": "Black Clover: Mahou Tei no Ken",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/",
+   "anilistId": 185874,
+   "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/blood-lad-ova/",
+   "anilistId": 18441,
+   "title": "Blood Lad OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/boku-no-hero-academia-7th-season/",
+   "anilistId": 163139,
+   "title": "Boku no Hero Academia 7th Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/boku-no-hero-academia-the-movie-4-youre-next/",
+   "anilistId": 168013,
+   "title": "Boku no Hero Academia the Movie 4: You're Next",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/boku-no-hero-academia-training-of-the-dead/",
+   "anilistId": 130183,
+   "title": "Boku no Hero Academia: Training of the Dead",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/boku-to-roboko-movie/",
+   "anilistId": 166249,
+   "title": "Boku to Roboko Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/brotherhood-final-fantasy-xv/",
+   "anilistId": 21728,
+   "title": "Brotherhood: Final Fantasy XV",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/brothers-conflict-special/",
+   "anilistId": 20915,
+   "title": "Brothers Conflict Special",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/buddy-complex-kanketsu-hen-ano-sora-ni-kaeru-mirai-de/",
+   "anilistId": 20685,
+   "title": "Buddy Complex: Kanketsu-hen - Ano Sora ni Kaeru Mirai de",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/bukiyou-na-senpai/",
+   "anilistId": 185575,
+   "title": "Bukiyou na Senpai.",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/business-fish/",
+   "anilistId": 110124,
+   "title": "Business Fish",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/captain-tsubasa-season-2-junior-youth-hen/",
+   "anilistId": 163024,
+   "title": "Captain Tsubasa Season 2: Junior Youth-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/cardfight-vanguard-divinez-season-2/",
+   "anilistId": 165681,
+   "title": "Cardfight!! Vanguard: Divinez Season 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/cencoroll-connect/",
+   "anilistId": 9488,
+   "title": "Cencoroll Connect",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/chihayafuru-3/",
+   "anilistId": 101215,
+   "title": "Chihayafuru 3",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/",
+   "anilistId": 198727,
+   "title": "Chitose-kun wa Ramune Bin no Naka Part 2",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/choujigen-game-neptune-the-animation-ova/",
+   "anilistId": 20472,
+   "title": "Choujigen Game Neptune: The Animation OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/",
+   "anilistId": 20777,
+   "title": "Chuunibyou demo Koi ga Shitai! Ren Specials",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/cue/",
+   "anilistId": 125682,
+   "title": "Cue!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/da-capo-ii-second-season/",
+   "anilistId": 3627,
+   "title": "Da Capo II Second Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dakaretai-otoko-1-i-ni-odosarete-imasu-movie-spain-hen/",
+   "anilistId": 132545,
+   "title": "Dakaretai Otoko 1-i ni Odosarete Imasu. Movie: Spain-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/danganronpa-3-the-end-of-kibougamine-gakuen-kibou-hen/",
+   "anilistId": 97672,
+   "title": "Danganronpa 3: The End of Kibougamine Gakuen - Kibou-hen",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/date-a-bullet-nightmare-or-queen/",
+   "anilistId": 121034,
+   "title": "Date A Bullet: Nightmare or Queen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dead-mount-death-play-part-2/",
+   "anilistId": 162803,
+   "title": "Dead Mount Death Play Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/devils-line-anytime-anywhere/",
+   "anilistId": 102832,
+   "title": "Devils Line: Anytime Anywhere",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/diabolik-lovers-ova/",
+   "anilistId": 20844,
+   "title": "Diabolik Lovers OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/",
+   "anilistId": 213658,
+   "title": "Diamond no Ace: Act II Second Season Part 2",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/dog-days-3/",
+   "anilistId": 16385,
+   "title": "Dog Days'' S3",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dr-stone-new-world-part-2/",
+   "anilistId": 162670,
+   "title": "Dr. Stone: New World Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dr-stone-ryuusui/",
+   "anilistId": 142876,
+   "title": "Dr. Stone: Ryuusui",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/dr-stone-science-future-part-2/",
+   "anilistId": 189117,
+   "title": "Dr. Stone: Science Future Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dr-stone-science-future-part-3/",
+   "anilistId": 199221,
+   "title": "Dr. Stone: Science Future Part 3",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/",
+   "anilistId": 10017,
+   "title": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-ii-ova/",
+   "anilistId": 112125,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-fuka-shou-yakusai-hen/",
+   "anilistId": 155211,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Fuka Shou - Yakusai-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iv-shin-shou-meikyuu-hen/",
+   "anilistId": 129196,
+   "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/enen-no-shouboutai-san-no-shou-part-2/",
+   "anilistId": 179062,
+   "title": "Enen no Shouboutai: San no Shou Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/ensemble-stars-tsuioku-selection-element/",
+   "anilistId": 160829,
+   "title": "Ensemble Stars!! Tsuioku Selection Element",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/eromanga-sensei-ova/",
+   "anilistId": 100523,
+   "title": "Eromanga-sensei OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/fairy-tail-final-series/",
+   "anilistId": 99749,
+   "title": "Fairy Tail: Final Series",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/fate-kaleid-liner-prisma-illya-2wei-ova/",
+   "anilistId": 20862,
+   "title": "Fate/kaleid liner Prisma☆Illya 2wei! OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/fategrand-order-zettai-majuu-sensen-babylonia-initium-iter/",
+   "anilistId": 110851,
+   "title": "Fate/Grand Order: Zettai Majuu Sensen Babylonia - Initium Iter",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/fatestay-night-movie-heavens-feel-ii-lost-butterfly/",
+   "anilistId": 21718,
+   "title": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/fatestay-night/",
+   "anilistId": 356,
+   "title": "Fate/stay night",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/fruits-basket-the-final/",
+   "anilistId": 124194,
+   "title": "Fruits Basket: The Final",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/futari-wa-milky-holmes/",
+   "anilistId": 17267,
+   "title": "Futari wa Milky Holmes",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/gamera-rebirth/",
+   "anilistId": 160831,
+   "title": "Gamera: Rebirth",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/ginga-kikoutai-majestic-prince-mirai-e-no-tsubasa/",
+   "anilistId": 21752,
+   "title": "Ginga Kikoutai Majestic Prince: Mirai e no Tsubasa",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/ginga-tetsudou-monogatari-eien-e-no-bunkiten/",
+   "anilistId": 2717,
+   "title": "Ginga Tetsudou Monogatari: Eien e no Bunkiten",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/gintama-2011/",
+   "anilistId": 9969,
+   "title": "Gintama 2011",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/gintama-2015/",
+   "anilistId": 20996,
+   "title": "Gintama° 2015",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/gintama-2017/",
+   "anilistId": 97889,
+   "title": "Gintama (2017)",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/gintama-movie-3-yoshiwara-daienjou/",
+   "anilistId": 197474,
+   "title": "Gintama Movie 3: Yoshiwara Daienjou",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/girls-band-cry-movie/",
+   "anilistId": 186714,
+   "title": "Girls Band Cry Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/girls-und-panzer-kore-ga-hontou-no-anzio-sen-desu/",
+   "anilistId": 18619,
+   "title": "Girls und Panzer: Kore ga Hontou no Anzio-sen Desu!",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/girls-und-panzer/",
+   "anilistId": 14131,
+   "title": "Girls und Panzer",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/goblin-slayer-goblins-crown/",
+   "anilistId": 108623,
+   "title": "Goblin Slayer: Goblin's Crown",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/gochuumon-wa-usagi-desu-ka-2/",
+   "anilistId": 21034,
+   "title": "Gochuumon wa Usagi desu ka??",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/gochuumon-wa-usagi-desu-ka/",
+   "anilistId": 20517,
+   "title": "Gochuumon wa Usagi Desu ka?",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/goku-sayonara-zetsubou-sensei/",
+   "anilistId": 4872,
+   "title": "Goku Sayonara Zetsubou Sensei",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/gokushufudou-part-2/",
+   "anilistId": 132193,
+   "title": "Gokushufudou Part 2",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/golden-kamuy-saishuushou/",
+   "anilistId": 166521,
+   "title": "Golden Kamuy: Saishuushou",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/grisaia-no-meikyuu-special/",
+   "anilistId": 21312,
+   "title": "Grisaia no Meikyuu Special",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/haikyuu-to-the-top/",
+   "anilistId": 106625,
+   "title": "Haikyuu!!: To the Top",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/hajime-no-ippo-new-challenger/",
+   "anilistId": 5258,
+   "title": "Hajime no Ippo: New Challenger",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/hajime-no-ippo-rising/",
+   "anilistId": 19647,
+   "title": "Hajime no Ippo: Rising",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/hana-doll-reinterpretation-of-flowering/",
+   "anilistId": 166371,
+   "title": "Hana-Doll*: Reinterpretation of Flowering",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/hangyakusei-million-arthur/",
+   "anilistId": 101359,
+   "title": "Hangyakusei Million Arthur",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/hanma-baki-son-of-ogre/",
+   "anilistId": 124195,
+   "title": "Hanma Baki: Son of Ogre",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/hanma-baki-vs-kengan-ashura/",
+   "anilistId": 176287,
+   "title": "Hanma Baki vs. Kengan Ashura",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/hataraku-maou-sama-2/",
+   "anilistId": 130592,
+   "title": "Hataraku Maou-sama!!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/hataraku-maou-sama/",
+   "anilistId": 15809,
+   "title": "Hataraku Maou-sama!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/hibike-euphonium-specials/",
+   "anilistId": 21255,
+   "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/highschool-of-the-dead-drifters-of-the-dead/",
+   "anilistId": 9515,
+   "title": "Highschool of the Dead: Drifters of the Dead",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/hikari-no-ou-2nd-season/",
+   "anilistId": 162842,
+   "title": "Hikari no Ou 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/himouto-umaru-chan-ova/",
+   "anilistId": 21327,
+   "title": "Himouto! Umaru-chan OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/hitsugi-no-chaika-ova/",
+   "anilistId": 20724,
+   "title": "Hitsugi no Chaika OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/",
+   "anilistId": 195833,
+   "title": "Honoo no Toukyuujo: Dodge Danko",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/",
+   "anilistId": 171110,
+   "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/hoozuki-no-reitetsu-ova/",
+   "anilistId": 20732,
+   "title": "Hoozuki no Reitetsu OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/hyakka-ryouran-samurai-bride/",
+   "anilistId": 15377,
+   "title": "Hyakka Ryouran: Samurai Bride",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima-2/",
+   "anilistId": 163140,
+   "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima +",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/hypnosis-mic-division-rap-battle-rhyme-anima/",
+   "anilistId": 113652,
+   "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/ichu-halfway-through-the-idol/",
+   "anilistId": 109010,
+   "title": "I★Chu: Halfway Through the Idol",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/idolish7-third-beat-part-2/",
+   "anilistId": 128890,
+   "title": "IDOLiSH7: Third Beat! Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/idolish7-third-beat/",
+   "anilistId": 127721,
+   "title": "IDOLiSH7: Third Beat!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/ikkitousen-extravaganza-epoch/",
+   "anilistId": 87475,
+   "title": "Ikkitousen: Extravaganza Epoch",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/ikkitousen-western-wolves/",
+   "anilistId": 105391,
+   "title": "Ikkitousen: Western Wolves",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/is-infinite-stratos-2/",
+   "anilistId": 18247,
+   "title": "IS: Infinite Stratos 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/isekai-quartet-movie-another-world/",
+   "anilistId": 117074,
+   "title": "Isekai Quartet Movie: Another World",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-returns/",
+   "anilistId": 196840,
+   "title": "Iya na Kao sare nagara Opantsu Misete Moraitai Returns",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/iya-na-kao-sare-nagara-opantsu-misete-moraitai-ver-30/",
+   "anilistId": 166050,
+   "title": "Iya na Kao sare nagara Opantsu Misete Moraitai ver 3.0",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/jashin-chan-dropkick/",
+   "anilistId": 100714,
+   "title": "Jashin-chan Dropkick",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season/",
+   "anilistId": 198939,
+   "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/jigoku-sensei-nube-2025-part-2/",
+   "anilistId": 191967,
+   "title": "Jigoku Sensei Nube (2025) Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/junjou-romantica-2/",
+   "anilistId": 4814,
+   "title": "Junjou Romantica 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-ova/",
+   "anilistId": 125368,
+   "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kaitou-joker-3rd-season/",
+   "anilistId": 21427,
+   "title": "Kaitou Joker 3rd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kakegurui-xx/",
+   "anilistId": 100876,
+   "title": "Kakegurui××",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/kakegurui/",
+   "anilistId": 98314,
+   "title": "Kakegurui",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/kamisama-hajimemashita-kamisama-shiawase-ni-naru/",
+   "anilistId": 98033,
+   "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kamisama-hajimemashita-ova/",
+   "anilistId": 18661,
+   "title": "Kamisama Hajimemashita OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kanojo-okarishimasu-2nd-season/",
+   "anilistId": 124410,
+   "title": "Kanojo, Okarishimasu 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kekkai-sensen-ousama-no-restaurant-no-ousama/",
+   "anilistId": 21640,
+   "title": "Kekkai Sensen: Ousama no Restaurant no Ousama",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kengan-ashura-part-2/",
+   "anilistId": 111048,
+   "title": "Kengan Ashura Part 2",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kengan-ashura-season-2-part-2/",
+   "anilistId": 169692,
+   "title": "Kengan Ashura Season 2 Part 2",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kibou-no-chikara-otona-precure-23/",
+   "anilistId": 162720,
+   "title": "Kibou no Chikara: Otona Precure '23",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kidou-senshi-gundam-suisei-no-majo-season-2/",
+   "anilistId": 155158,
+   "title": "Kidou Senshi Gundam: Suisei no Majo Season 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kimetsu-gakuen-valentine-hen/",
+   "anilistId": 129627,
+   "title": "Kimetsu Gakuen: Valentine-hen",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kimetsu-no-yaiba-movie-1-mugenjou-hen-akaza-sairai/",
+   "anilistId": 178788,
+   "title": "Kimetsu no Yaiba Movie 1: Mugenjou-hen - Akaza Sairai",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kimi-to-idol-precure-movie-omatase-kimi-ni-todokeru-kirakki-live/",
+   "anilistId": 183414,
+   "title": "Kimi to Idol Precure♪ Movie: Omatase! Kimi ni Todokeru Kirakki Live!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kimi-to-idol-precure/",
+   "anilistId": 185073,
+   "title": "Kimi to Idol Precure♪",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kingdom-2/",
+   "anilistId": 17389,
+   "title": "Kingdom 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kobayashi-san-chi-no-maid-dragon-s/",
+   "anilistId": 107717,
+   "title": "Kobayashi-san Chi no Maid Dragon S",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/komekami-girls/",
+   "anilistId": 209940,
+   "title": "Komekami! Girls",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-ova/",
+   "anilistId": 21574,
+   "title": "Kono Subarashii Sekai ni Shukufuku wo! Kono Subarashii Choker ni Shukufuku wo!",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/koutetsujou-no-kabaneri-movie-3-unato-kessen/",
+   "anilistId": 97918,
+   "title": "Koutetsujou no Kabaneri Movie 3: Unato Kessen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/koyomimonogatari/",
+   "anilistId": 21520,
+   "title": "Koyomimonogatari",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kuma-kuma-kuma-bear-punch/",
+   "anilistId": 127550,
+   "title": "Kuma Kuma Kuma Bear Punch!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kuma-miko-specials/",
+   "anilistId": 21784,
+   "title": "Kuma Miko Specials",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kuroko-no-basket-movie-1/",
+   "anilistId": 102093,
+   "title": "Kuroko no Basket Movie 1: Winter Cup Soushuuhen - Kage to Hikari",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kyokou-suiri-season-2/",
+   "anilistId": 126529,
+   "title": "Kyokou Suiri Season 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kyoukai-no-kanata-idol-saiban-mayoi-nagara-mo-kimi-wo-sabaku-tami/",
+   "anilistId": 20524,
+   "title": "Kyoukai no Kanata: Idol Saiban! Mayoi Nagara mo Kimi wo Sabaku Tami",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/kyoukai-no-kanata-movie-ill-be-here-kako-hen/",
+   "anilistId": 20768,
+   "title": "Kyoukai no Kanata Movie: I´ll Be Here - Kako-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/kyoukai-senki-part-2/",
+   "anilistId": 143203,
+   "title": "Kyoukai Senki Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/little-busters-sekai-no-saitou-wa-ore-ga-mamoru/",
+   "anilistId": 17643,
+   "title": "Little Busters!: Sekai no Saitou wa Ore ga Mamoru!",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/little-witch-academia-mahou-shikake-no-parade/",
+   "anilistId": 19489,
+   "title": "Little Witch Academia Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/love-live-hasunosora-jogakuin-school-idol-club-movie-bloom-garden-party/",
+   "anilistId": 194167,
+   "title": "Love Live! Hasunosora Jogakuin School Idol Club Movie: Bloom Garden Party",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/love-live-nijigasaki-gakuen-school-idol-doukoukai-kanketsu-hen/",
+   "anilistId": 166476,
+   "title": "Love Live! Nijigasaki Gakuen School Idol Doukoukai: Kanketsu-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/love-live-school-idol-project-2nd-season/",
+   "anilistId": 19111,
+   "title": "Love Live! School Idol Project 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/love-live-school-idol-project-ova/",
+   "anilistId": 20554,
+   "title": "Love Live! School Idol Project OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/lycoris-recoil-friends-are-thieves-of-time/",
+   "anilistId": 179706,
+   "title": "Lycoris Recoil: Friends Are Thieves of Time.",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/made-in-abyss-retsujitsu-no-ougonkyou/",
+   "anilistId": 114745,
+   "title": "Made in Abyss: Retsujitsu no Ougonkyou",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-detonation/",
+   "anilistId": 99614,
+   "title": "Mahou Shoujo Lyrical Nanoha: Detonation",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-the-movie-1st/",
+   "anilistId": 4985,
+   "title": "Mahou Shoujo Lyrical Nanoha: The Movie 1st",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/mahou-shoujo-madokamagica-movie-1-hajimari-no-monogatari/",
+   "anilistId": 11977,
+   "title": "Mahou Shoujo Madoka★Magica Movie 1: Hajimari no Monogatari",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/mahou-shoujo-madokamagica-movie-2-eien-no-monogatari/",
+   "anilistId": 11979,
+   "title": "Mahou Shoujo Madoka★Magica Movie 2: Eien no Monogatari",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/mahoutsukai-no-yome-season-2-part-2/",
+   "anilistId": 166452,
+   "title": "Mahoutsukai no Yome Season 2 Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/majimoji-rurumo-kanketsu-hen/",
+   "anilistId": 104291,
+   "title": "Majimoji Rurumo: Kanketsu-hen",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/mangirl-asobu-henshuu-girl/",
+   "anilistId": 17351,
+   "title": "Mangirl!: Asobu Henshuu Girl",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e-kayou-ii-part-2/",
+   "anilistId": 130590,
+   "title": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/mariaholic-alive/",
+   "anilistId": 9712,
+   "title": "Maria†Holic Alive",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/masamune-kun-no-revenge-ova/",
+   "anilistId": 101213,
+   "title": "Masamune-kun no Revenge OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/meitantei-precure/",
+   "anilistId": 202957,
+   "title": "Meitantei Precure!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/minami-ke-natsuyasumi/",
+   "anilistId": 20221,
+   "title": "Minami-ke Natsuyasumi",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/minami-ke-omatase/",
+   "anilistId": 14575,
+   "title": "Minami-ke Omatase",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/mini-dragon/",
+   "anilistId": 132096,
+   "title": "Mini Dragon",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo-ova/",
+   "anilistId": 16444,
+   "title": "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo? OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/monster-strike-deadverse-reloaded/",
+   "anilistId": 196230,
+   "title": "Monster Strike: Deadverse Reloaded",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/musaigen-no-phantom-world-limitless-phantom-world/",
+   "anilistId": 97951,
+   "title": "Musaigen no Phantom World: Limitless Phantom World",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/musashino-bonus/",
+   "anilistId": 206888,
+   "title": "Musashino! Bonus",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2/",
+   "anilistId": 166873,
+   "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/nanatsu-no-bitoku-specials/",
+   "anilistId": 103717,
+   "title": "Nanatsu no Bitoku Specials",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/new-game-2/",
+   "anilistId": 98292,
+   "title": "New Game!!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/new-game-watashi-shain-ryokou-tte-hajimete-nano-de/",
+   "anilistId": 97637,
+   "title": "New Game!: Watashi, Shain Ryokou tte Hajimete nano de...",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/new-game/",
+   "anilistId": 21455,
+   "title": "New Game!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/nierautomata-ver11a-part-2/",
+   "anilistId": 167420,
+   "title": "NieR:Automata Ver1.1a Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/nisekoi-ova/",
+   "anilistId": 20728,
+   "title": "Nisekoi OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/no-game-no-life-specials/",
+   "anilistId": 20769,
+   "title": "No Game No Life Specials",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/nodame-cantabile-finale-special/",
+   "anilistId": 8038,
+   "title": "Nodame Cantabile Finale Special",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/nogizaka-haruka-no-himitsu-finale/",
+   "anilistId": 10928,
+   "title": "Nogizaka Haruka no Himitsu: Finale",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/non-non-biyori-nonstop-ova/",
+   "anilistId": 137337,
+   "title": "Non Non Biyori Nonstop OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/non-non-biyori-ova/",
+   "anilistId": 20497,
+   "title": "Non Non Biyori OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/non-non-biyori-repeat-ova/",
+   "anilistId": 21585,
+   "title": "Non Non Biyori Repeat OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/noragami-aragoto-ova/",
+   "anilistId": 119941,
+   "title": "Noragami Aragoto OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/noragami-ova/",
+   "anilistId": 20494,
+   "title": "Noragami OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/one-punch-man-road-to-hero/",
+   "anilistId": 21386,
+   "title": "One Punch Man: Road to Hero",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/ooi-tonbo-2nd-season/",
+   "anilistId": 178729,
+   "title": "Ooi! Tonbo 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/oomuro-ke-dear-sisters/",
+   "anilistId": 167984,
+   "title": "Oomuro-ke: Dear Sisters",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/",
+   "anilistId": 114195,
+   "title": "Ore wo Suki nano wa Omae dake ka yo: Oretachi no Game Set",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/osomatsu-san-2/",
+   "anilistId": 98565,
+   "title": "Osomatsu-san 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/osomatsu-san/",
+   "anilistId": 21261,
+   "title": "Osomatsu-san",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/otona-no-bouguya-san-rimen/",
+   "anilistId": 108355,
+   "title": "Otona no Bouguya-san (Rimen)",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/ousama-ranking-yuuki-no-takarabako/",
+   "anilistId": 153452,
+   "title": "Ousama Ranking: Yuuki no Takarabako",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/overlord-movie-3-sei-oukoku-hen/",
+   "anilistId": 133845,
+   "title": "Overlord Movie 3: Sei Oukoku-hen",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/planetarian-snow-globe/",
+   "anilistId": 113595,
+   "title": "Planetarian: Snow Globe",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/pokemon-2019/",
+   "anilistId": 112153,
+   "title": "Pokemon (2019)",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/pokemon-mezase-pokemon-master/",
+   "anilistId": 158870,
+   "title": "Pokemon: Mezase Pokemon Master",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/princess-principal-crown-handler-4/",
+   "anilistId": 186716,
+   "title": "Princess Principal: Crown Handler 4",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/prison-school-ova/",
+   "anilistId": 21565,
+   "title": "Prison School OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/punchline/",
+   "anilistId": 20964,
+   "title": "Punchline",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/puri-para/",
+   "anilistId": 20742,
+   "title": "Puri Para",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/quanzhi-gaoshou-zhi-dianfeng-rongyao/",
+   "anilistId": 108981,
+   "title": "Quanzhi Gaoshou zhi Dianfeng Rongyao",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/radiant-2nd-season/",
+   "anilistId": 108040,
+   "title": "Radiant 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/radiant/",
+   "anilistId": 101024,
+   "title": "Radiant",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2/",
+   "anilistId": 119661,
+   "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/robomasters-the-animated-series/",
+   "anilistId": 98526,
+   "title": "RoboMasters the Animated Series",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/rockman-exe-beast/",
+   "anilistId": 2110,
+   "title": "Rockman EXE Beast",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
+   "anilistId": 102077,
+   "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/sacred-seven-shirogane-no-tsubasa/",
+   "anilistId": 11635,
+   "title": "Sacred Seven: Shirogane no Tsubasa",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/saki-zenkoku-hen/",
+   "anilistId": 16123,
+   "title": "Saki: Zenkoku-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/sansha-sanyou-specials/",
+   "anilistId": 21789,
+   "title": "Sansha Sanyou Specials",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/sasaki-to-miyano-movie-sotsugyou-hen/",
+   "anilistId": 146743,
+   "title": "Sasaki to Miyano Movie: Sotsugyou-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
+   "anilistId": 113692,
+   "title": "Seitokai Yakuindomo Movie 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/seitokai-yakuindomo-movie/",
+   "anilistId": 98240,
+   "title": "Seitokai Yakuindomo Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/sengoku-youko-senma-konton-hen/",
+   "anilistId": 176660,
+   "title": "Sengoku Youko: Senma Konton-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/senki-zesshou-symphogear-xv/",
+   "anilistId": 21673,
+   "title": "Senki Zesshou Symphogear XV",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/senpai-wa-otokonoko-movie-ame-nochi-hare/",
+   "anilistId": 182158,
+   "title": "Senpai wa Otokonoko Movie: Ame Nochi Hare",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/shadowverse-flame-arc-hen/",
+   "anilistId": 172187,
+   "title": "Shadowverse Flame: Arc-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/shin-chuuka-ichiban-2nd-season/",
+   "anilistId": 114304,
+   "title": "Shin Chuuka Ichiban! 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/shin-shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei/",
+   "anilistId": 146954,
+   "title": "Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/shingeki-no-kyojin-ova/",
+   "anilistId": 18397,
+   "title": "Shingeki no Kyojin OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/shinmai-maou-no-testament-burst/",
+   "anilistId": 21110,
+   "title": "Shinmai Maou no Testament Burst",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/shokugeki-no-souma-ova/",
+   "anilistId": 21691,
+   "title": "Shokugeki no Souma OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/shokugeki-no-souma-san-no-sara-toutsuki-ressha-hen/",
+   "anilistId": 100773,
+   "title": "Shokugeki no Souma: San no Sara - Toutsuki Ressha-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/shounen-hollywood-holly-stage-for-50/",
+   "anilistId": 20868,
+   "title": "Shounen Hollywood: Holly Stage for 50",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/show-by-rock-2nd-season/",
+   "anilistId": 21476,
+   "title": "Show By Rock!! #",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/show-by-rock-mashumairesh/",
+   "anilistId": 113470,
+   "title": "Show By Rock!! Mashumairesh!!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/show-by-rock-stars/",
+   "anilistId": 113476,
+   "title": "Show by Rock!! Stars!!",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/show-by-rock/",
+   "anilistId": 20843,
+   "title": "Show By Rock!!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/sora-no-otoshimono-final-eternal-my-master/",
+   "anilistId": 12783,
+   "title": "Sora no Otoshimono Final: Eternal My Master",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/sora-yori-mo-tooi-basho/",
+   "anilistId": 99426,
+   "title": "Sora yori mo Tooi Basho",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-heaven-and-earth/",
+   "anilistId": 8098,
+   "title": "Soukyuu no Fafner: Dead Aggressor - Heaven and Earth",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/spiritpact-2/",
+   "anilistId": 100813,
+   "title": "Ling Qi 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/",
+   "anilistId": 20907,
+   "title": "Steins;Gate: Soumei Eichi no Cognitive Computing",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/strike-the-blood-kieta-seisou-hen/",
+   "anilistId": 112324,
+   "title": "Strike the Blood: Kieta Seisou-hen",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/sugar-apple-fairy-tale-part-2/",
+   "anilistId": 163079,
+   "title": "Sugar Apple Fairy Tale Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/super-lovers-ova/",
+   "anilistId": 98642,
+   "title": "Super Lovers OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/sword-art-online-alicization-war-of-underworld/",
+   "anilistId": 108759,
+   "title": "Sword Art Online: Alicization - War of Underworld",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/sword-gai-the-animation-part-ii/",
+   "anilistId": 101471,
+   "title": "Sword Gai The Animation Part II",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/synduality-noir-part-2/",
+   "anilistId": 169559,
+   "title": "Synduality: Noir Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/takanashi-rikka-kai-chuunibyou-demo-koi-ga-shitai-movie/",
+   "anilistId": 19021,
+   "title": "Takanashi Rikka Kai: Chuunibyou demo Koi ga Shitai! Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tamayura-hitotose-attakai-kaze-no-omoide-nanode/",
+   "anilistId": 11793,
+   "title": "Tamayura: Hitotose - Attakai Kaze no Omoide Nanode",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/tamayura-sotsugyou-shashin-part-1-kizashi/",
+   "anilistId": 20805,
+   "title": "Tamayura: Sotsugyou Shashin Part 1 - Kizashi",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tefuda-ga-oome-no-victoria/",
+   "anilistId": 198709,
+   "title": "Tefuda ga Oome no Victoria",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/tenchi-muyou-gxp-paradise-shidou-hen/",
+   "anilistId": 165749,
+   "title": "Tenchi Muyou! GXP: Paradise Shidou-hen",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/tensei-shitara-dragon-no-tamago-datta/",
+   "anilistId": 187941,
+   "title": "Tensei shitara Dragon no Tamago datta",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/tensei-shitara-slime-datta-ken-2nd-season-part-2/",
+   "anilistId": 116742,
+   "title": "Tensei shitara Slime Datta Ken 2nd Season Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tensei-shitara-slime-datta-ken-movie-2-soukai-no-namida-hen/",
+   "anilistId": 182206,
+   "title": "Tensei shitara Slime Datta Ken Movie 2: Soukai no Namida-hen",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tentai-kansoku/",
+   "anilistId": 159731,
+   "title": "Tentai Kansoku",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/",
+   "anilistId": 20988,
+   "title": "Tesagure! Bukatsumono Spin-off Purupurun Sharumu to Asobou",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/the-idolm-at-ster-million-live-itsuka-mannaka-de/",
+   "anilistId": 187375,
+   "title": "The iDOLM@STER Million Live! Itsuka, Mannaka de",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/the-idolmster-765-pro-to-iu-monogatari/",
+   "anilistId": 11889,
+   "title": "The iDOLM@STER: 765 Pro to Iu Monogatari",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/the-idolmster-shiny-festa/",
+   "anilistId": 14835,
+   "title": "The iDOLM@STER: Shiny Festa",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/to-love-ru-darkness-2nd-ova/",
+   "anilistId": 21853,
+   "title": "To LOVE-Ru Darkness 2nd OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/to-love-ru-darkness-2nd/",
+   "anilistId": 20995,
+   "title": "To LOVE-Ru Darkness 2nd",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/toku-touken-ranbu-hanamaru-setsugetsuka/",
+   "anilistId": 130305,
+   "title": "Toku: Touken Ranbu - Hanamaru - Setsugetsuka",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tokyo-ghoul-2/",
+   "anilistId": 20850,
+   "title": "Tokyo Ghoul √A",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tonari-no-kaibutsu-kun-tonari-no-gokudou-kun/",
+   "anilistId": 16866,
+   "title": "Tonari no Kaibutsu-kun: Tonari no Gokudou-kun",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/tonari-no-seki-kun-ova/",
+   "anilistId": 20600,
+   "title": "Tonari no Seki-kun OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/tonikaku-kawaii-seifuku/",
+   "anilistId": 141212,
+   "title": "Tonikaku Kawaii: Seifuku",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/totsukuni-no-shoujo-2022/",
+   "anilistId": 130550,
+   "title": "Totsukuni no Shoujo (2022)",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/touken-ranbu-kai-douden-chikashi-haberau-monora/",
+   "anilistId": 177680,
+   "title": "Touken Ranbu Kai: Douden Chikashi Haberau Monora",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/touken-ranbu-kai-kyoden-moyuru-honnouji/",
+   "anilistId": 150085,
+   "title": "Touken Ranbu Kai Kyoden Moyuru Honnouji",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/tsurune-tsunagari-no-issha/",
+   "anilistId": 153841,
+   "title": "Tsurune: Tsunagari no Issha",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/",
+   "anilistId": 109964,
+   "title": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/uma-musume-cinderella-gray-part-2/",
+   "anilistId": 195240,
+   "title": "Uma Musume: Cinderella Gray Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/uma-musume-pretty-derby-road-to-the-top/",
+   "anilistId": 148370,
+   "title": "Uma Musume: Pretty Derby - Road to the Top",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/umayuru-pretty-gray/",
+   "anilistId": 191689,
+   "title": "Umayuru: Pretty Gray",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/wakabagirl-onsen-tsukaritai/",
+   "anilistId": 21465,
+   "title": "Wakaba*Girl: Onsen Tsukaritai",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/wake-up-girls-shichinin-no-idol/",
+   "anilistId": 20512,
+   "title": "Wake Up, Girls! Shichinin no Idol",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/watashi-ga-motenai-no-wa-dou-kangaetemo-omaera-ga-warui-ova/",
+   "anilistId": 20453,
+   "title": "Watamote! OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/watashi-no-shiawase-na-kekkon-2nd-season/",
+   "anilistId": 169441,
+   "title": "Watashi no Shiawase na Kekkon 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/white-album-2nd-season/",
+   "anilistId": 6165,
+   "title": "White Album 2nd Season",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/witch-craft-works-ova/",
+   "anilistId": 20601,
+   "title": "Witch Craft Works OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/wonderful-precure/",
+   "anilistId": 171030,
+   "title": "Wonderful Precure!",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/wotaku-ni-koi-wa-muzukashii-youth/",
+   "anilistId": 104217,
+   "title": "Wotaku ni Koi wa Muzukashii: Youth",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-ova/",
+   "anilistId": 18753,
+   "title": "Oregairu OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yama-no-susume-kabette-kowakunai-no/",
+   "anilistId": 17341,
+   "title": "Yama no Susume: Kabette Kowakunai no?",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yami-shibai-16/",
+   "anilistId": 203939,
+   "title": "Yami Shibai 16",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yami-shibai-17/",
+   "anilistId": 213359,
+   "title": "Yami Shibai 17",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yami-shibai-5/",
+   "anilistId": 98978,
+   "title": "Yami Shibai 5",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yami-shibai-7/",
+   "anilistId": 109603,
+   "title": "Yami Shibai 7",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/youkai-watch/",
+   "anilistId": 19157,
+   "title": "Youkai Watch",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yowamushi-pedal-grande-road/",
+   "anilistId": 20723,
+   "title": "Yowamushi Pedal: Grande Road",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yowamushi-pedal-movie/",
+   "anilistId": 21114,
+   "title": "Yowamushi Pedal Movie",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yowamushi-pedal-new-generation/",
+   "anilistId": 21407,
+   "title": "Yowamushi Pedal: New Generation",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
+   "anilistId": 213657,
+   "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+   "method": "exact_alias_unique_format_year_studio"
+  },
+  {
+   "url": "https://jkanime.net/yu-gi-oh-arc-v/",
+   "anilistId": 20552,
+   "title": "Yu-Gi-Oh! Arc-V",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yuragi-sou-no-yuuna-san-ova/",
+   "anilistId": 101581,
+   "title": "Yuragi-sou no Yuuna-san OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yuru-camp-season-3/",
+   "anilistId": 155908,
+   "title": "Yuru Camp△ Season 3",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yuru-yuri-nachuyachumi/",
+   "anilistId": 20625,
+   "title": "Yuru Yuri Nachuyachumi!",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yuukoku-no-moriarty-ova/",
+   "anilistId": 138700,
+   "title": "Yuukoku no Moriarty OVA",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/yuukoku-no-moriarty-part-2/",
+   "anilistId": 124858,
+   "title": "Yuukoku no Moriarty Part 2",
+   "method": "exact_saved_alias_unique_id_format_year_episode_count_finished"
+  },
+  {
+   "url": "https://jkanime.net/yuyushiki-specials/",
+   "anilistId": 19029,
+   "title": "Yuyushiki: Nyanyashiki",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  },
+  {
+   "url": "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/",
+   "anilistId": 7044,
+   "title": "Zan Sayonara Zetsubou Sensei Bangaichi",
+   "method": "saved_unique_alias_format_year_studio_plus_live_anilist_identity_and_image_hash"
+  }
+ ]
+}
