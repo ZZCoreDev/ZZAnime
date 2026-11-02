@@ -87,12 +87,17 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
  if not rows:raise ValueError('No approved observations; previous channel retained')
  import schedule,help_chain
  titles=help_chain.titles();index['schedule']=schedule.build(state,available,now,titles)
- if plays:
+ # S2: device summaries only count when attested (network-v2) and fresh for this run's clock; otherwise they are left out.
+ import signal_policy
+ if plays and signal_policy.fresh(plays,now):
   import plays as play_votes
-  index['ranking']=play_votes.ranking(plays,set(rows),titles);index['playScores']=play_votes.scores(plays)
- if marks:
+  ranking,scores=play_votes.ranking(plays,set(rows),titles),play_votes.scores(plays)
+  if ranking is not None:index['ranking']=ranking
+  if scores is not None:index['playScores']=scores
+ if marks and signal_policy.fresh(marks,now):
   import skip_marks
-  index['skipMarks']=skip_marks.build(marks,available)
+  built=skip_marks.build(marks,available)
+  if built is not None:index['skipMarks']=built
  while len(raw(index))>APP_INDEX_BYTES:
   # Over the app limit: intro marks and option scores go first, then the least recently observed series.
   if index.pop('skipMarks',None) is not None or index.pop('playScores',None) is not None:continue
@@ -179,7 +184,7 @@ def main():
   if '--publish' in sys.argv and not proof:
    try:print(json.dumps({'megaCheck':mega_check.check(D,state)}))
    except Exception as error:print(json.dumps({'megaCheckError':type(error).__name__+': '+str(error)[:120]}))
-  index,files=build(state,approved,now,plays=play_votes.load(D),marks=skip_marks.load(D),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
+  index,files=build(state,approved,now,plays=play_votes.load(D,now=now),marks=skip_marks.load(D,now=now),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')

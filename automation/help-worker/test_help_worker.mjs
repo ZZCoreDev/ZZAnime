@@ -2,9 +2,9 @@
 // No network: every provider, MEGA and channel request goes to local fakes.
 import assert from 'node:assert/strict';
 import {createCipheriv,generateKeyPairSync,randomBytes,sign} from 'node:crypto';
-// node:sqlite needs Node >= 22.5; GitHub's ubuntu-24.04 default Node is older, so skip instead of breaking the chain.
+// node:sqlite needs Node >= 22.5 (workflows pin Node 22). C1: a missing requirement fails instead of passing as SKIPPED.
 let DatabaseSync;
-try{({DatabaseSync}=await import('node:sqlite'));}catch{console.log('help Worker controls SKIPPED: node:sqlite needs Node >= 22.5 (found '+process.version+')');process.exit(0);}
+try{({DatabaseSync}=await import('node:sqlite'));}catch{console.error('help Worker controls FAILED: node:sqlite needs Node >= 22.5 (found '+process.version+')');process.exit(1);}
 import {handle,Store,family,nameVerdict,megaName,resetWanted,sha} from './logic.js';
 
 const TR='https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/',SBR='https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/',OLD='https://jkanime.net/ao-ashi/3/';
@@ -157,10 +157,13 @@ await check('dead-link reports need two devices and stay private to the cloud',a
  assert.equal((await dead(t,[{episode:TR,name:'Rarovideo',url:'https://raro.example/x'}])).of('https://raro.example/x'),'unsupported');
  assert.equal((await get(t,'/v1/dead-reports','wrong')).status,401);
  assert.equal((await get(t,'/v1/stats')).body.deadCandidates,1);});
+// S2: each test device sits on its own /24 network unless the test says otherwise.
+const nets=new Map(),netFor=d=>{if(!nets.has(d))nets.set(d,'10.'+(nets.size+1)+'.0.1');return nets.get(d);};
+const MATURE=25*3600000;
 async function play(t,items,{device,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/play',{method:'POST',body:JSON.stringify({schema:1,device,items})});
- Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||device);
+ Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
  const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
 }
 await check('play votes: one per device and day, popularity by distinct devices, private to the cloud',async()=>{
@@ -172,17 +175,17 @@ await check('play votes: one per device and day, popularity by distinct devices,
  await play(t,[ep(bad,false),ep(bad,true)],{device:'device-play-device-4'});
  assert.equal((await play(t,[{episode:TR,name:'Raro',url:'https://raro.example/x',ok:true}])).of('https://raro.example/x'),'unsupported');
  assert.equal((await play(t,[{episode:TR,name:'Mp4upload',url:good}])).of(good),'unsupported');
- assert.equal((await get(t,'/v1/play-stats','wrong')).status,401);
+ assert.equal((await get(t,'/v1/play-stats','wrong')).status,401);t.now+=MATURE;
  const st=(await get(t,'/v1/play-stats')).body,by=Object.fromEntries(st.options.map(o=>[o.family,[o.ok,o.fail]]));
- assert.deepEqual(by,{mp4upload:[3,0],streamwish:[1,3]});assert.deepEqual(st.families.voe,[2,0]);
+ assert.deepEqual(by,{mp4upload:[3,0],streamwish:[1,2]});assert.equal(st.evidencePolicy,'network-v2');assert.equal(st.complete,true);assert.deepEqual(st.families.voe,[2,0]);
  assert.deepEqual(st.popular.map(x=>[x.series,x.devices]),[['https://jkanime.net/tokyo-revengers-santen-sensou-hen/',4],['https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/',2]]);
  assert.ok(!JSON.stringify(t.store.rows('SELECT * FROM plays')).includes('device-play-device-1'));
  // 8 rows: device 4 voted the same option twice in one day and keeps a single row.
- assert.equal((await get(t,'/v1/stats')).body.today.plays,8);});
+ t.now-=MATURE;assert.equal((await get(t,'/v1/stats')).body.today.plays,8);});
 async function mark(t,items,{device,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/marks',{method:'POST',body:JSON.stringify({schema:1,device,items})});
- Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||device);
+ Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
  const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});return {status:r.status,body:await r.json()};
 }
 await check('intro marks: two devices within 3 s agree, outliers and bad marks ignored',async()=>{
@@ -194,8 +197,8 @@ await check('intro marks: two devices within 3 s agree, outliers and bad marks i
  const r=await mark(t,[m(90,400),m(1900,1950),{episode:TR,kind:'ending',start:1,end:2},m(10.5,90)],{device:'device-mark-device-4'});
  // Answers are per chapter and kind: the three bad intros collapse into one, the unknown kind is another.
  assert.deepEqual(r.body.items.map(i=>[i.kind,i.status]),[['intro','unsupported'],['ending','unsupported']]);
- assert.equal((await get(t,'/v1/marks-stats','wrong')).status,401);
- assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[{episode:TR,kind:'intro',start:91,stop:181,devices:2}]);
+ assert.equal((await get(t,'/v1/marks-stats','wrong')).status,401);t.now+=MATURE;
+ assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[{episode:TR,kind:'intro',start:91,stop:181,devices:2,independentNetworks:2}]);
  await mark(t,[m(91,181)],{device:'device-mark-device-1'});
  assert.equal((await get(t,'/v1/marks-stats')).body.marks[0].devices,2);
  assert.ok(!JSON.stringify(t.store.rows('SELECT * FROM marks')).includes('device-mark-device-1'));});

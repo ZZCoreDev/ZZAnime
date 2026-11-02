@@ -5,6 +5,8 @@
 import {SUBMIT_POLICY_VERSION,submitUrlAllowed} from './submit-policy.js';
 import {boundedText,InspectionPolicyError,MEGA_BYTES} from './bounded-fetch.js';
 export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
+// S2: a device counts only after MIN_DEVICE_AGE; a network can introduce at most NEW_DEVICES_PER_NET devices a day.
+const MIN_DEVICE_AGE=24*3600000,NEW_DEVICES_PER_NET=5,SIGNAL_POLICY={evidencePolicy:'network-v2',basis:'independent-networks',minDeviceAgeHours:24};
 const DAY=86400000,KEEP=8*DAY,RECHECK=6*3600000,MAX_ITEMS=20,MAX_OPTIONS=8,MAX_INSPECT=30,MAX_WANTED=400,WANTED_TTL=120000,ENOUGH_OPTIONS=2;
 const ACCEPTED=new Set(['name-match','quorum3']);
 const STOP=new Set(['the','and','season','temporada','part','movie','hen']);
@@ -105,7 +107,8 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS marks(episode TEXT,kind TEXT,device TEXT,day INTEGER,start INTEGER,stop INTEGER,PRIMARY KEY(episode,kind,device))');
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
-  for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}}
+  for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}
+  sql.exec('CREATE TABLE IF NOT EXISTS devices(device TEXT PRIMARY KEY,net TEXT,first INTEGER)');for(const q of ['ALTER TABLE plays ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN net TEXT'])try{sql.exec(q);}catch{}}
  rows(q,...p){return this.sql.exec(q,...p).toArray();}
  take(limits,expires){
   for(const [k,limit,w] of limits){const r=this.rows('SELECT n FROM counters WHERE k=?',k)[0];if((r?r.n:0)+w>limit)return false;}
@@ -181,47 +184,60 @@ export class Store{
   if(!this.take(limits,expires))return {limited:true};
   const status={};
   for(const it of items){
+   if(!this.admitDevice(it.device,it.net,it.now)){status[it.url]='new-device-limit';continue;}
    const r=this.rows('SELECT ok,fail FROM plays WHERE okey=? AND device=? AND day=?',it.okey,it.device,day)[0],ok=it.ok?1:0,fail=it.ok?0:1;
-   if(!r)this.sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail);
-   else if((ok&&!r.ok)||(fail&&!r.fail))this.sql.exec('UPDATE plays SET ok=MAX(ok,?),fail=MAX(fail,?) WHERE okey=? AND device=? AND day=?',ok,fail,it.okey,it.device,day);
+   if(!r)this.sql.exec('INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net) VALUES(?,?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail,it.net);
+   else if((ok&&!r.ok)||(fail&&!r.fail))this.sql.exec('UPDATE plays SET ok=MAX(ok,?),fail=MAX(fail,?),net=? WHERE okey=? AND device=? AND day=?',ok,fail,it.net,it.okey,it.device,day);
    status[it.url]=r?'duplicate':'stored';
   }
   return {status};
  }
- // Option and family success counts (devices, 14 days) and series popularity (distinct devices, 7 days).
+ // S2: a device can join a network's signals once known; new devices need a network and stay under that network's daily limit.
+ admitDevice(device,net,now){
+  if(!net)return false;if(this.rows('SELECT 1 AS x FROM devices WHERE device=?',device).length)return true;
+  const today=Math.floor(now/DAY)*DAY;if(this.rows('SELECT COUNT(*) AS n FROM devices WHERE net=? AND first>=?',net,today)[0].n>=NEW_DEVICES_PER_NET)return false;
+  this.sql.exec('INSERT INTO devices(device,net,first) VALUES(?,?,?)',device,net,now);return true;
+ }
+ // Option and family success counts (one verdict per network, 14 days) and series popularity (distinct networks, 7 days).
+ // Only devices older than MIN_DEVICE_AGE count; rows without a network (stored before S2) never count.
  playStats(now){
-  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM plays WHERE day<?',day-13);
-  const options=this.rows('SELECT okey,family,SUM(ok) AS oks,SUM(fail) AS fails FROM plays GROUP BY okey HAVING SUM(ok)+SUM(fail)>=3 ORDER BY SUM(ok)+SUM(fail) DESC,okey LIMIT 3000');
-  const families=Object.fromEntries(this.rows('SELECT family,SUM(ok) AS oks,SUM(fail) AS fails FROM plays GROUP BY family').map(r=>[r.family,[r.oks,r.fails]]));
-  const viewers=new Map();
-  for(const r of this.rows('SELECT DISTINCT episode,device FROM plays WHERE day>=? LIMIT 200000',day-6)){const series=r.episode.replace(/[0-9]+\/$/,'');let set=viewers.get(series);if(!set)viewers.set(series,set=new Set());set.add(r.device);}
-  const popular=[...viewers].map(([series,set])=>({series,devices:set.size})).filter(x=>x.devices>=2).sort((a,b)=>b.devices-a.devices||(a.series<b.series?-1:1)).slice(0,100);
-  return {options:options.map(r=>({key:r.okey,family:r.family,ok:r.oks,fail:r.fails})),families,popular};
+  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM plays WHERE day<?',day-13);const mature=now-MIN_DEVICE_AGE,LIMIT=200000;
+  const votes=this.rows("SELECT p.okey AS okey,p.family AS family,p.net AS net,MAX(p.ok) AS ok FROM plays p JOIN devices d ON d.device=p.device WHERE p.net IS NOT NULL AND p.net<>'' AND d.first<=? GROUP BY p.okey,p.net LIMIT ?",mature,LIMIT+1);
+  const seen=this.rows("SELECT DISTINCT p.episode AS episode,p.net AS net FROM plays p JOIN devices d ON d.device=p.device WHERE p.day>=? AND p.net IS NOT NULL AND p.net<>'' AND d.first<=? LIMIT ?",day-6,mature,LIMIT+1);
+  const byOption=new Map(),families={};
+  for(const v of votes.slice(0,LIMIT)){let o=byOption.get(v.okey);if(!o)byOption.set(v.okey,o={key:v.okey,family:v.family,ok:0,fail:0});if(v.ok)o.ok++;else o.fail++;const fam=families[v.family]||(families[v.family]=[0,0]);fam[v.ok?0:1]++;}
+  const options=[...byOption.values()].map(o=>({...o,independentNetworks:o.ok+o.fail})).filter(o=>o.independentNetworks>=3).sort((a,b)=>b.independentNetworks-a.independentNetworks||(a.key<b.key?-1:1)).slice(0,3000);
+  const viewers=new Map();for(const r of seen.slice(0,LIMIT)){const series=r.episode.replace(/[0-9]+\/$/,'');let set=viewers.get(series);if(!set)viewers.set(series,set=new Set());set.add(r.net);}
+  const popular=[...viewers].map(([series,set])=>({series,devices:set.size,independentNetworks:set.size})).filter(x=>x.independentNetworks>=2).sort((a,b)=>b.independentNetworks-a.independentNetworks||(a.series<b.series?-1:1)).slice(0,100);
+  return {...SIGNAL_POLICY,complete:votes.length<=LIMIT&&seen.length<=LIMIT,options,families,popular};
  }
  mark(items,limits,expires,day){
   if(!this.take(limits,expires))return {limited:true};
   const status={};
   for(const it of items){
+   if(!this.admitDevice(it.device,it.net,it.now)){status[it.episode+'|'+it.kind]='new-device-limit';continue;}
    const r=this.rows('SELECT start,stop FROM marks WHERE episode=? AND kind=? AND device=?',it.episode,it.kind,it.device)[0];
-   if(!r)this.sql.exec('INSERT INTO marks VALUES(?,?,?,?,?,?)',it.episode,it.kind,it.device,day,it.start,it.stop);
-   else if(r.start!==it.start||r.stop!==it.stop)this.sql.exec('UPDATE marks SET start=?,stop=?,day=? WHERE episode=? AND kind=? AND device=?',it.start,it.stop,day,it.episode,it.kind,it.device);
+   if(!r)this.sql.exec('INSERT INTO marks(episode,kind,device,day,start,stop,net) VALUES(?,?,?,?,?,?,?)',it.episode,it.kind,it.device,day,it.start,it.stop,it.net);
+   else if(r.start!==it.start||r.stop!==it.stop)this.sql.exec('UPDATE marks SET start=?,stop=?,day=?,net=? WHERE episode=? AND kind=? AND device=?',it.start,it.stop,day,it.net,it.episode,it.kind,it.device);
    status[it.episode+'|'+it.kind]=r?'updated':'stored';
   }
   return {status};
  }
- // Median start/end per chapter and kind; accepted when two or more devices fall within 3 s of both.
+ // Median start/end per chapter and kind; accepted when two or more networks fall within 3 s of both.
+ // Each network gives one mark (its most recent); only devices older than MIN_DEVICE_AGE count (S2).
  markStats(now){
-  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM marks WHERE day<?',day-59);
-  const groups=new Map(),out=[];
-  for(const r of this.rows('SELECT episode,kind,start,stop FROM marks ORDER BY episode,kind LIMIT 200000')){const k=r.episode+'|'+r.kind;let g=groups.get(k);if(!g)groups.set(k,g=[]);g.push(r);}
+  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM marks WHERE day<?',day-59);const LIMIT=200000;
+  const groups=new Map(),out=[],taken=new Set();
+  const rows=this.rows("SELECT m.episode AS episode,m.kind AS kind,m.start AS start,m.stop AS stop,m.net AS net FROM marks m JOIN devices d ON d.device=m.device WHERE m.net IS NOT NULL AND m.net<>'' AND d.first<=? ORDER BY m.episode,m.kind,m.day DESC LIMIT ?",now-MIN_DEVICE_AGE,LIMIT+1);
+  for(const r of rows.slice(0,LIMIT)){const k=r.episode+'|'+r.kind;if(taken.has(k+'|'+r.net))continue;taken.add(k+'|'+r.net);let g=groups.get(k);if(!g)groups.set(k,g=[]);g.push(r);}
   const median=a=>{const b=[...a].sort((x,y)=>x-y);return b[Math.floor((b.length-1)/2)];};
   for(const [k,g] of groups){
    if(g.length<2)continue;
    const s=median(g.map(r=>r.start)),e=median(g.map(r=>r.stop)),agree=g.filter(r=>Math.abs(r.start-s)<=3&&Math.abs(r.stop-e)<=3);
-   if(agree.length>=2){const [episode,kind]=k.split('|');out.push({episode,kind,start:Math.round(agree.reduce((a,r)=>a+r.start,0)/agree.length),stop:Math.round(agree.reduce((a,r)=>a+r.stop,0)/agree.length),devices:agree.length});}
+   if(agree.length>=2){const [episode,kind]=k.split('|');out.push({episode,kind,start:Math.round(agree.reduce((a,r)=>a+r.start,0)/agree.length),stop:Math.round(agree.reduce((a,r)=>a+r.stop,0)/agree.length),devices:agree.length,independentNetworks:agree.length});}
   }
   out.sort((a,b)=>b.devices-a.devices||(a.episode<b.episode?-1:1));
-  return {marks:out.slice(0,5000)};
+  return {...SIGNAL_POLICY,complete:rows.length<=LIMIT,marks:out.slice(0,5000)};
  }
  // Two devices are enough here: a report only moves the link to the front of the cloud link checker,
  // which decides on its own reading and controls.
@@ -271,7 +287,7 @@ export async function handle(request,env,store,deps={}){
   let x;try{x=await body(request,32768);}catch{return json({accepted:false,reason:'bad-request'},400);}
   if(x?.schema!==1||!/^[A-Za-z0-9_-]{16,64}$/.test(x.device||'')||!Array.isArray(x.items)||!x.items.length||x.items.length>MAX_ITEMS)return json({accepted:false,reason:'bad-request'},400);
   const asn=Number(request.cf?.asn)||0;if(!asn)return json({accepted:false,reason:'no-network'},400);
-  const ip=request.headers.get('cf-connecting-ip')||'',device=await sha(env.SALT+'|device|'+x.device);
+  const ip=request.headers.get('cf-connecting-ip')||'',device=await sha(env.SALT+'|device|'+x.device),net=await zone(ip,env.SALT);
   const ipKey='ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),result={},valid=[];
   const limits=n=>[[ipKey,Number(env.IP_LIMIT||200),1],[(url.pathname==='/v1/dead'?'deadday:':'day:')+day,Number(env.DAILY_CAP||40000),n]];
   if(url.pathname==='/v1/marks'){
@@ -280,7 +296,7 @@ export async function handle(request,env,store,deps={}){
    for(const it of x.items){
     const s=it?.start,e=it?.end,ok=EPISODE.test(it?.episode||'')&&['intro','outro'].includes(it?.kind)&&Number.isInteger(s)&&Number.isInteger(e)&&s>=0&&e>s&&e-s<=240&&e<=21600&&(it.kind!=='intro'||s<=1800);
     if(!ok){if(it?.episode)result[String(it.episode).slice(0,300)+'|'+String(it?.kind).slice(0,10)]='unsupported';continue;}
-    valid.push({episode:it.episode,kind:it.kind,device,start:s,stop:e});
+    valid.push({episode:it.episode,kind:it.kind,device,start:s,stop:e,net,now});
    }
    if(valid.length){const r=await store.mark(valid,[[ipKey,Number(env.IP_LIMIT||200),1],['markday:'+day,Number(env.MARK_CAP||10000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([k,status])=>({episode:k.split('|')[0],kind:k.split('|')[1],status}))});
@@ -290,7 +306,7 @@ export async function handle(request,env,store,deps={}){
    for(const it of x.items){
     const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
     if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
-    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,ok:it.ok});
+    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,ok:it.ok,net,now});
    }
    if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],['playday:'+day,Number(env.PLAY_CAP||20000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([u,status])=>({url:u,status}))});

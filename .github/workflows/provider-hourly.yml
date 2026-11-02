@@ -34,6 +34,9 @@ jobs:
         working-directory: code
         run: |
           if git fetch -q --depth 1 origin playback-probe; then git show FETCH_HEAD:playback-probe.json > "$RUNNER_TEMP/playback-probe.json" || true; fi
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
       - name: Dependencias fijadas, sin caché ni artefactos de pago
         working-directory: code/automation/hourly
         run: |
@@ -55,11 +58,13 @@ jobs:
           python3 test_schedule.py
           python3 test_plays.py
           python3 test_skip_marks.py
+          python3 test_signal_security.py
           python3 test_mega_check.py
           python3 test_extra_options.py
           python3 test_extra_channel.py
           python3 test_identity_filter.py
           node --no-warnings ../help-worker/test_help_worker.mjs
+          node --no-warnings ../help-worker/test_signal_security.mjs
       - name: Prueba aislada con lector real de la app
         if: inputs.proof == true
         working-directory: code/automation/hourly

@@ -6,8 +6,8 @@ import help_chain,plays,run
 
 A='https://jkanime.net/serie-a/';B='https://jkanime.net/serie-b/'
 def key(name,url):return hashlib.sha256((name+'\0'+url).encode()).hexdigest()
-STATS={'options':[{'key':key('Mega','https://mega.nz/file/x'),'family':'mega','ok':5,'fail':1},{'key':'not-a-hash','ok':9,'fail':0}],
- 'families':{'mega':[5,1],'streamwish':[1,4]},'popular':[{'series':A,'devices':7},{'series':'https://jkanime.net/no-publicada/','devices':5},{'series':B,'devices':1}]}
+STATS={'schema':1,'evidencePolicy':'network-v2','basis':'independent-networks','minDeviceAgeHours':24,'complete':True,'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'options':[{'key':key('Mega','https://mega.nz/file/x'),'family':'mega','ok':5,'fail':1,'independentNetworks':6},{'key':'not-a-hash','ok':9,'fail':0,'independentNetworks':9}],
+ 'families':{'mega':[5,1],'streamwish':[1,4]},'popular':[{'series':A,'devices':7,'independentNetworks':7},{'series':'https://jkanime.net/no-publicada/','devices':5,'independentNetworks':5},{'series':B,'devices':1,'independentNetworks':1}]}
 def state(now):
  link='https://www.mp4upload.com/embed-a.html';st={'episodes':{},'listings':{}}
  for parent in (A,B):
@@ -18,7 +18,7 @@ def state(now):
 class PlaysTests(unittest.TestCase):
  def test_ranking_lists_published_series_with_two_devices_or_more(self):
   r=plays.ranking(STATS,{A,B},{A:'Serie A'})
-  self.assertEqual(r['items'],[{'series':A,'title':'Serie A','devices':7}]);self.assertEqual((r['days'],r['basis']),(7,'distinct-devices'))
+  self.assertEqual(r['items'],[{'series':A,'title':'Serie A','devices':7}]);self.assertEqual((r['days'],r['basis']),(7,'independent-networks'))
  def test_scores_keep_valid_keys_by_prefix(self):
   s=plays.scores(STATS)
   self.assertEqual(s['options'],{key('Mega','https://mega.nz/file/x')[:16]:[5,1]});self.assertEqual(s['families'],{'mega':[5,1],'streamwish':[1,4]})
