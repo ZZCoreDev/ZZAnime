@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T12:21:35.149622+00:00",
+  "checkedAt": "2026-11-02T12:36:35.054524+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
   "missingChapters": 1188,
-  "expiredChapters": 0,
+  "expiredChapters": 1,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -31664,8 +31664,7 @@
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
         "samples": [
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/1/",
-          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/2/"
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
         ]
       },
       {
@@ -41155,6 +41154,15 @@
         "series": "https://jkanime.net/naruto-honoo-no-chuunin-shiken-naruto-vs.-konohamaru/",
         "title": "Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!!",
         "samples": []
+      }
+    ],
+    "expired-observation": [
+      {
+        "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
+        "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+        "samples": [
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
+        ]
       }
     ]
   },
@@ -142370,12 +142378,15 @@
       "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
       "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
+      ],
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {

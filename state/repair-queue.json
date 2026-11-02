@@ -77,5 +77,18 @@
         "samples": []
       }
     ]
+  },
+  "expired-observation": {
+    "series": 1,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
+        "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+        "samples": [
+          "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
+        ]
+      }
+    ]
   }
 }
