@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T17:16:10.071133+00:00",
+  "checkedAt": "2026-11-02T17:33:32.239956+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72662,
   "missingChapters": 1190,
-  "expiredChapters": 555,
+  "expiredChapters": 763,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -37345,6 +37345,124 @@
         ]
       },
       {
+        "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/",
+        "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
+        "samples": [
+          "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/9/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/golden-kamuy-saishuushou/",
+        "title": "Golden Kamuy: Saishuushou",
+        "samples": [
+          "https://jkanime.net/golden-kamuy-saishuushou/1/",
+          "https://jkanime.net/golden-kamuy-saishuushou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/",
+        "title": "Hokuto no Ken: Kenougun Zako-tachi no Banka",
+        "samples": [
+          "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/1/",
+          "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mf-ghost-3rd-season/",
+        "title": "MF Ghost 3rd Season",
+        "samples": [
+          "https://jkanime.net/mf-ghost-3rd-season/1/",
+          "https://jkanime.net/mf-ghost-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yi-ren-zhi-xia-6/",
+        "title": "Yi Ren Zhi Xia 6",
+        "samples": [
+          "https://jkanime.net/yi-ren-zhi-xia-6/1/",
+          "https://jkanime.net/yi-ren-zhi-xia-6/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/xian-wang-de-richang-shenghuo-5/",
+        "title": "Xian Wang de Richang Shenghuo 5",
+        "samples": [
+          "https://jkanime.net/xian-wang-de-richang-shenghuo-5/1/",
+          "https://jkanime.net/xian-wang-de-richang-shenghuo-5/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shuumatsu-no-walkure-iii/",
+        "title": "Shuumatsu no Walkure III",
+        "samples": [
+          "https://jkanime.net/shuumatsu-no-walkure-iii/1/",
+          "https://jkanime.net/shuumatsu-no-walkure-iii/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sanxian-lun-hui/",
+        "title": "Sanxian Lun Hui",
+        "samples": [
+          "https://jkanime.net/sanxian-lun-hui/1/",
+          "https://jkanime.net/sanxian-lun-hui/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nukitashi-the-animation-specials/",
+        "title": "Nukitashi the Animation Specials",
+        "samples": [
+          "https://jkanime.net/nukitashi-the-animation-specials/1/",
+          "https://jkanime.net/nukitashi-the-animation-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-2026/",
+        "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?) (2026)",
+        "samples": [
+          "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-2026/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wei-miao-rensheng/",
+        "title": "Wei Miao Rensheng",
+        "samples": [
+          "https://jkanime.net/wei-miao-rensheng/1/",
+          "https://jkanime.net/wei-miao-rensheng/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fujimoto-tatsuki-17-26/",
+        "title": "Fujimoto Tatsuki 17-26",
+        "samples": [
+          "https://jkanime.net/fujimoto-tatsuki-17-26/1/",
+          "https://jkanime.net/fujimoto-tatsuki-17-26/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/",
+        "title": "Jian Wang 3: Shen Jianxin de 365 Tian",
+        "samples": [
+          "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/1/",
+          "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cengjing-you-yongshi/",
+        "title": "Cengjing You Yongshi",
+        "samples": [
+          "https://jkanime.net/cengjing-you-yongshi/1/",
+          "https://jkanime.net/cengjing-you-yongshi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/monster-strike-deadverse-reloaded/",
+        "title": "Monster Strike: Deadverse Reloaded",
+        "samples": [
+          "https://jkanime.net/monster-strike-deadverse-reloaded/1/",
+          "https://jkanime.net/monster-strike-deadverse-reloaded/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -46402,11 +46520,15 @@
     {
       "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/",
       "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
@@ -46423,12 +46545,27 @@
       "series": "https://jkanime.net/golden-kamuy-saishuushou/",
       "title": "Golden Kamuy: Saishuushou",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/golden-kamuy-saishuushou/1/",
+        "https://jkanime.net/golden-kamuy-saishuushou/10/",
+        "https://jkanime.net/golden-kamuy-saishuushou/11/",
+        "https://jkanime.net/golden-kamuy-saishuushou/12/",
+        "https://jkanime.net/golden-kamuy-saishuushou/13/",
+        "https://jkanime.net/golden-kamuy-saishuushou/2/",
+        "https://jkanime.net/golden-kamuy-saishuushou/3/",
+        "https://jkanime.net/golden-kamuy-saishuushou/4/",
+        "https://jkanime.net/golden-kamuy-saishuushou/5/",
+        "https://jkanime.net/golden-kamuy-saishuushou/6/",
+        "https://jkanime.net/golden-kamuy-saishuushou/7/",
+        "https://jkanime.net/golden-kamuy-saishuushou/8/",
+        "https://jkanime.net/golden-kamuy-saishuushou/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -46477,12 +46614,18 @@
       "series": "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/",
       "title": "Hokuto no Ken: Kenougun Zako-tachi no Banka",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/1/",
+        "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/2/",
+        "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/3/",
+        "https://jkanime.net/hokuto-no-ken-kenougun-zako-tachi-no-banka/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
@@ -46499,12 +46642,27 @@
       "series": "https://jkanime.net/mf-ghost-3rd-season/",
       "title": "MF Ghost 3rd Season",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mf-ghost-3rd-season/1/",
+        "https://jkanime.net/mf-ghost-3rd-season/10/",
+        "https://jkanime.net/mf-ghost-3rd-season/11/",
+        "https://jkanime.net/mf-ghost-3rd-season/12/",
+        "https://jkanime.net/mf-ghost-3rd-season/13/",
+        "https://jkanime.net/mf-ghost-3rd-season/2/",
+        "https://jkanime.net/mf-ghost-3rd-season/3/",
+        "https://jkanime.net/mf-ghost-3rd-season/4/",
+        "https://jkanime.net/mf-ghost-3rd-season/5/",
+        "https://jkanime.net/mf-ghost-3rd-season/6/",
+        "https://jkanime.net/mf-ghost-3rd-season/7/",
+        "https://jkanime.net/mf-ghost-3rd-season/8/",
+        "https://jkanime.net/mf-ghost-3rd-season/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -46604,12 +46762,40 @@
       "series": "https://jkanime.net/yi-ren-zhi-xia-6/",
       "title": "Yi Ren Zhi Xia 6",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 26,
       "stored": 26,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yi-ren-zhi-xia-6/1/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/10/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/11/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/12/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/13/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/14/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/15/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/16/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/17/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/18/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/19/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/2/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/20/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/21/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/22/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/23/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/24/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/25/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/26/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/3/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/4/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/5/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/6/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/7/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/8/",
+        "https://jkanime.net/yi-ren-zhi-xia-6/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 26,
       "families": {
@@ -46728,12 +46914,26 @@
       "series": "https://jkanime.net/xian-wang-de-richang-shenghuo-5/",
       "title": "Xian Wang de Richang Shenghuo 5",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/1/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/10/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/11/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/12/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/2/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/3/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/4/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/5/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/6/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/7/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/8/",
+        "https://jkanime.net/xian-wang-de-richang-shenghuo-5/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -46750,12 +46950,29 @@
       "series": "https://jkanime.net/shuumatsu-no-walkure-iii/",
       "title": "Shuumatsu no Walkure III",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 15,
       "stored": 15,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shuumatsu-no-walkure-iii/1/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/10/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/11/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/12/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/13/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/14/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/15/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/2/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/3/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/4/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/5/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/6/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/7/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/8/",
+        "https://jkanime.net/shuumatsu-no-walkure-iii/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 15,
       "families": {
@@ -46772,12 +46989,32 @@
       "series": "https://jkanime.net/sanxian-lun-hui/",
       "title": "Sanxian Lun Hui",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 18,
       "stored": 18,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sanxian-lun-hui/1/",
+        "https://jkanime.net/sanxian-lun-hui/10/",
+        "https://jkanime.net/sanxian-lun-hui/11/",
+        "https://jkanime.net/sanxian-lun-hui/12/",
+        "https://jkanime.net/sanxian-lun-hui/13/",
+        "https://jkanime.net/sanxian-lun-hui/14/",
+        "https://jkanime.net/sanxian-lun-hui/15/",
+        "https://jkanime.net/sanxian-lun-hui/16/",
+        "https://jkanime.net/sanxian-lun-hui/17/",
+        "https://jkanime.net/sanxian-lun-hui/18/",
+        "https://jkanime.net/sanxian-lun-hui/2/",
+        "https://jkanime.net/sanxian-lun-hui/3/",
+        "https://jkanime.net/sanxian-lun-hui/4/",
+        "https://jkanime.net/sanxian-lun-hui/5/",
+        "https://jkanime.net/sanxian-lun-hui/6/",
+        "https://jkanime.net/sanxian-lun-hui/7/",
+        "https://jkanime.net/sanxian-lun-hui/8/",
+        "https://jkanime.net/sanxian-lun-hui/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 18,
       "families": {
@@ -46794,12 +47031,18 @@
       "series": "https://jkanime.net/nukitashi-the-animation-specials/",
       "title": "Nukitashi the Animation Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/nukitashi-the-animation-specials/1/",
+        "https://jkanime.net/nukitashi-the-animation-specials/2/",
+        "https://jkanime.net/nukitashi-the-animation-specials/3/",
+        "https://jkanime.net/nukitashi-the-animation-specials/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
@@ -46835,12 +47078,15 @@
       "series": "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-2026/",
       "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (※Muri ja Nakatta!?) (2026)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-2026/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
@@ -46856,12 +47102,50 @@
       "series": "https://jkanime.net/wei-miao-rensheng/",
       "title": "Wei Miao Rensheng",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 36,
       "stored": 36,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/wei-miao-rensheng/1/",
+        "https://jkanime.net/wei-miao-rensheng/10/",
+        "https://jkanime.net/wei-miao-rensheng/11/",
+        "https://jkanime.net/wei-miao-rensheng/12/",
+        "https://jkanime.net/wei-miao-rensheng/13/",
+        "https://jkanime.net/wei-miao-rensheng/14/",
+        "https://jkanime.net/wei-miao-rensheng/15/",
+        "https://jkanime.net/wei-miao-rensheng/16/",
+        "https://jkanime.net/wei-miao-rensheng/17/",
+        "https://jkanime.net/wei-miao-rensheng/18/",
+        "https://jkanime.net/wei-miao-rensheng/19/",
+        "https://jkanime.net/wei-miao-rensheng/2/",
+        "https://jkanime.net/wei-miao-rensheng/20/",
+        "https://jkanime.net/wei-miao-rensheng/21/",
+        "https://jkanime.net/wei-miao-rensheng/22/",
+        "https://jkanime.net/wei-miao-rensheng/23/",
+        "https://jkanime.net/wei-miao-rensheng/24/",
+        "https://jkanime.net/wei-miao-rensheng/25/",
+        "https://jkanime.net/wei-miao-rensheng/26/",
+        "https://jkanime.net/wei-miao-rensheng/27/",
+        "https://jkanime.net/wei-miao-rensheng/28/",
+        "https://jkanime.net/wei-miao-rensheng/29/",
+        "https://jkanime.net/wei-miao-rensheng/3/",
+        "https://jkanime.net/wei-miao-rensheng/30/",
+        "https://jkanime.net/wei-miao-rensheng/31/",
+        "https://jkanime.net/wei-miao-rensheng/32/",
+        "https://jkanime.net/wei-miao-rensheng/33/",
+        "https://jkanime.net/wei-miao-rensheng/34/",
+        "https://jkanime.net/wei-miao-rensheng/35/",
+        "https://jkanime.net/wei-miao-rensheng/36/",
+        "https://jkanime.net/wei-miao-rensheng/4/",
+        "https://jkanime.net/wei-miao-rensheng/5/",
+        "https://jkanime.net/wei-miao-rensheng/6/",
+        "https://jkanime.net/wei-miao-rensheng/7/",
+        "https://jkanime.net/wei-miao-rensheng/8/",
+        "https://jkanime.net/wei-miao-rensheng/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 36,
       "families": {
@@ -46878,12 +47162,22 @@
       "series": "https://jkanime.net/fujimoto-tatsuki-17-26/",
       "title": "Fujimoto Tatsuki 17-26",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 8,
       "stored": 8,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fujimoto-tatsuki-17-26/1/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/2/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/3/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/4/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/5/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/6/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/7/",
+        "https://jkanime.net/fujimoto-tatsuki-17-26/8/"
+      ],
       "noIndependent": [],
       "renewalFailed": 8,
       "families": {
@@ -46900,12 +47194,49 @@
       "series": "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/",
       "title": "Jian Wang 3: Shen Jianxin de 365 Tian",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 35,
       "stored": 35,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/1/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/10/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/11/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/12/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/13/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/14/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/15/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/16/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/17/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/18/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/19/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/2/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/20/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/21/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/22/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/23/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/24/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/25/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/26/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/27/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/28/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/29/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/3/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/30/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/31/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/32/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/33/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/34/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/35/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/4/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/5/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/6/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/7/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/8/",
+        "https://jkanime.net/jian-wang-3-shen-jianxin-de-365-tian/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 35,
       "families": {
@@ -46922,12 +47253,26 @@
       "series": "https://jkanime.net/cengjing-you-yongshi/",
       "title": "Cengjing You Yongshi",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/cengjing-you-yongshi/1/",
+        "https://jkanime.net/cengjing-you-yongshi/10/",
+        "https://jkanime.net/cengjing-you-yongshi/11/",
+        "https://jkanime.net/cengjing-you-yongshi/12/",
+        "https://jkanime.net/cengjing-you-yongshi/2/",
+        "https://jkanime.net/cengjing-you-yongshi/3/",
+        "https://jkanime.net/cengjing-you-yongshi/4/",
+        "https://jkanime.net/cengjing-you-yongshi/5/",
+        "https://jkanime.net/cengjing-you-yongshi/6/",
+        "https://jkanime.net/cengjing-you-yongshi/7/",
+        "https://jkanime.net/cengjing-you-yongshi/8/",
+        "https://jkanime.net/cengjing-you-yongshi/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -46997,12 +47342,24 @@
       "series": "https://jkanime.net/monster-strike-deadverse-reloaded/",
       "title": "Monster Strike: Deadverse Reloaded",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/monster-strike-deadverse-reloaded/1/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/10/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/2/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/3/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/4/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/5/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/6/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/7/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/8/",
+        "https://jkanime.net/monster-strike-deadverse-reloaded/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {

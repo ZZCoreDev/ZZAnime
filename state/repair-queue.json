@@ -43,7 +43,7 @@
     ]
   },
   "expired-observation": {
-    "series": 67,
+    "series": 82,
     "twoSeriesProofRequired": true,
     "samples": [
       {
