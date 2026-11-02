@@ -1,24 +1,24 @@
 {
-  "state": "failed",
-  "checkedAt": "2026-11-02T13:02:19.490582+00:00",
+  "state": "complete-with-failures",
+  "checkedAt": "2026-11-02T13:14:41.893882+00:00",
   "requested": 400,
   "renewed": 0,
-  "attempted": 364,
-  "repairAttempts": 91,
+  "attempted": 286,
+  "repairAttempts": 71,
   "earlyRepairAttempts": 2,
-  "failed": 56556,
+  "failed": 56563,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41449453485",
+  "runId": "41451184865",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 281,
-  "expired": 12,
-  "error": "CalledProcessError",
-  "expiresWithin24Hours": 52078,
-  "retryAfterExpiry": 534,
+  "extraRenewed": 225,
+  "expired": 17,
+  "published": true,
+  "expiresWithin24Hours": 52720,
+  "retryAfterExpiry": 563,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -137,7 +137,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -368,7 +368,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 1,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -884,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4077,
+    "series": 4081,
     "diagnosedSeries": 4067,
-    "pendingSeries": 10
+    "pendingSeries": 14
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-02T13:13:41.624636+00:00",
+    "checkedAt": "2026-11-02T13:27:26.355901+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73850,
     "storedChapters": 72662,
     "missingChapters": 1188,
-    "expiredChapters": 12,
+    "expiredChapters": 17,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sourceRequests": 0,

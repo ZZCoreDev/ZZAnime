@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T13:13:41.624636+00:00",
+  "checkedAt": "2026-11-02T13:27:26.355901+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
   "missingChapters": 1188,
-  "expiredChapters": 12,
+  "expiredChapters": 17,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -68,8 +68,16 @@
         "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/",
         "title": "Yoroi Shin Den Samurai Troopers Part 2",
         "samples": [
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/1/",
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/10/"
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
+        "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+        "samples": [
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/12/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/"
         ]
       },
       {
@@ -287,6 +295,13 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yomi-no-tsugai/",
+        "title": "Yomi no Tsugai",
+        "samples": [
+          "https://jkanime.net/yomi-no-tsugai/12/"
         ]
       },
       {
@@ -710,6 +725,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gnosia/",
+        "title": "Gnosia",
+        "samples": [
+          "https://jkanime.net/gnosia/18/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/",
         "title": "Tondemo Skill de Isekai Hourou Meshi 2",
         "samples": [
@@ -753,6 +775,13 @@
         "samples": [
           "https://jkanime.net/ao-no-orchestra-season-2/1/",
           "https://jkanime.net/ao-no-orchestra-season-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
+        "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
+        "samples": [
+          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/21/"
         ]
       },
       {
@@ -1122,6 +1151,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+        "title": "Tsuihousha Shokudou e Youkoso!",
+        "samples": [
+          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/3/",
+          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ginga-tokkyuu-milkysubway/",
         "title": "Ginga Tokkyuu Milky☆Subway",
         "samples": [
@@ -1335,7 +1372,7 @@
         "title": "Summer Pockets",
         "samples": [
           "https://jkanime.net/summer-pockets/23/",
-          "https://jkanime.net/summer-pockets/8/"
+          "https://jkanime.net/summer-pockets/26/"
         ]
       },
       {
@@ -3080,13 +3117,6 @@
         "samples": [
           "https://jkanime.net/sentai-daishikkaku/1/",
           "https://jkanime.net/sentai-daishikkaku/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-        "title": "Yozakura-san Chi no Daisakusen",
-        "samples": [
-          "https://jkanime.net/yozakura-san-chi-no-daisakusen/22/"
         ]
       },
       {
@@ -36889,6 +36919,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/koukaku-kidoutai-tv/",
+        "title": "Koukaku Kidoutai (TV)",
+        "samples": [
+          "https://jkanime.net/koukaku-kidoutai-tv/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/",
+        "title": "Yoroi Shin Den Samurai Troopers Part 2",
+        "samples": [
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -41647,12 +41692,15 @@
       "series": "https://jkanime.net/koukaku-kidoutai-tv/",
       "title": "Koukaku Kidoutai (TV)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/koukaku-kidoutai-tv/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
@@ -41686,12 +41734,18 @@
       "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/",
       "title": "Yoroi Shin Den Samurai Troopers Part 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
+        "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
+        "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/",
+        "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -41797,13 +41851,15 @@
     {
       "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -43595,13 +43651,15 @@
     {
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 23,
         "vidhide": 11,
@@ -45944,13 +46002,15 @@
     {
       "series": "https://jkanime.net/gnosia/",
       "title": "Gnosia",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 21,
       "stored": 21,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -46340,13 +46400,15 @@
     {
       "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
       "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mega": 5,
         "streamwish": 24,
@@ -48379,13 +48441,15 @@
     {
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -49268,7 +49332,7 @@
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "families": {
         "streamwish": 17,
         "vidhide": 21,
@@ -55607,15 +55671,13 @@
     {
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
       "title": "Yozakura-san Chi no Daisakusen",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 27,
       "stored": 27,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 27,
         "streamwish": 27,
