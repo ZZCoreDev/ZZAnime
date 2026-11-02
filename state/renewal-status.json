@@ -1,9 +1,9 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-02T11:01:42.123850+00:00",
+  "checkedAt": "2026-11-02T11:18:57.050211+00:00",
   "requested": 400,
   "renewed": 0,
-  "attempted": 152,
+  "attempted": 154,
   "repairAttempts": 38,
   "earlyRepairAttempts": 2,
   "failed": 56555,
@@ -11,14 +11,14 @@
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41432967195",
+  "runId": "41435311530",
   "proof": false,
   "identityRetriesReleased": 0,
   "extraRenewed": 130,
   "expired": 0,
   "published": true,
-  "expiresWithin24Hours": 42138,
-  "retryAfterExpiry": 274,
+  "expiresWithin24Hours": 43740,
+  "retryAfterExpiry": 293,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -889,7 +889,7 @@
     "pendingSeries": 9
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-02T11:14:52.241504+00:00",
+    "checkedAt": "2026-11-02T11:31:56.434105+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73850,
     "storedChapters": 72662,
