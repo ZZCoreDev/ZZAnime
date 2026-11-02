@@ -1,6 +1,6 @@
 {
   "renewal-error": {
-    "series": 4073,
+    "series": 4069,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -43,7 +43,7 @@
     ]
   },
   "expired-observation": {
-    "series": 1172,
+    "series": 1281,
     "twoSeriesProofRequired": true,
     "samples": [
       {
