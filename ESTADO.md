@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: failed. Fallos pendientes: 56555; capítulos vencidos pendientes: 1. Próximos a vencer: 49610; capacidad: behind.
+Estado: failed. Fallos pendientes: 56556; capítulos vencidos pendientes: 9. Próximos a vencer: 50735; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 1/5 capítulos recientes; incidencias pendientes: 0.
@@ -117,7 +117,7 @@ Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recien
 Equivalencia comprobada: Mobile Suit Gundam Wing, 0/49 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Great Teacher Onizuka, 0/43 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ouran High School Host Club, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Phantom: Requiem for the Phantom, 0/26 capítulos recientes; incidencias pendientes: 0.
@@ -224,8 +224,8 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4067/4076; pendientes: 9. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 72662 capítulos con registros, 1188 capítulos observados sin opciones y 1 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Diagnóstico por serie: 4067/4077; pendientes: 10. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Cobertura de catálogo: 5053 títulos, 72662 capítulos con registros, 1188 capítulos observados sin opciones y 9 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
