@@ -1,0 +1,4 @@
+# ZZAnime: canal privado de la app. No se permite indexar, recopilar en masa ni entrenar IA.
+User-agent: *
+Content-Signal: search=no, ai-train=no, ai-input=no
+Disallow: /
