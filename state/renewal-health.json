@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-01T13:12:33.831734+00:00",
-  "episodes": 72644,
-  "oldestHours": 144.9,
-  "pending": 70703,
+  "checkedAt": "2026-11-02T07:17:05.823806+00:00",
+  "episodes": 72660,
+  "oldestHours": 162.97,
+  "pending": 72590,
   "expired": 0,
-  "expiresWithin24Hours": 22,
-  "retryAfterExpiry": 0,
-  "successfulCyclesMeasured": 96,
-  "sampleMinutes": 1426.67,
-  "measuredWallClockPerHour": 38.73,
-  "estimatedSweepDays": 78.15,
+  "expiresWithin24Hours": 24117,
+  "retryAfterExpiry": 10,
+  "successfulCyclesMeasured": 25,
+  "sampleMinutes": 1437.51,
+  "measuredWallClockPerHour": 1.13,
+  "estimatedSweepDays": 2686.46,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -22,8 +22,8 @@
     },
     "https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/": {
       "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
-      "total": 4,
-      "fresh": 0,
+      "total": 5,
+      "fresh": 1,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -37,7 +37,7 @@
     "https://jkanime.net/prince-of-tennis/": {
       "title": "Prince of Tennis",
       "total": 178,
-      "fresh": 2,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -58,7 +58,7 @@
     "https://jkanime.net/kodomo-no-omocha-tv/": {
       "title": "Kodomo no Omocha (TV)",
       "total": 102,
-      "fresh": 32,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -93,9 +93,9 @@
     "https://jkanime.net/zenki/": {
       "title": "Kishin Douji Zenki",
       "total": 51,
-      "fresh": 51,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/kenichi/": {
       "title": "Shijou Saikyou no Deshi Kenichi",
@@ -107,9 +107,9 @@
     "https://jkanime.net/gundam-wing/": {
       "title": "Mobile Suit Gundam Wing",
       "total": 49,
-      "fresh": 49,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/tekkaman-blade/": {
       "title": "Tekkaman Blade",
@@ -121,9 +121,9 @@
     "https://jkanime.net/gto/": {
       "title": "Great Teacher Onizuka",
       "total": 43,
-      "fresh": 43,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/yozakura-san-chi-no-daisakusen/": {
       "title": "Yozakura-san Chi no Daisakusen",
@@ -142,16 +142,16 @@
     "https://jkanime.net/ouran-high-school-host-club/": {
       "title": "Ouran High School Host Club",
       "total": 26,
-      "fresh": 1,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/requiem-for-the-phantom/": {
       "title": "Phantom: Requiem for the Phantom",
       "total": 26,
-      "fresh": 26,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/saint-seiya-lost-canvas/": {
       "title": "Saint Seiya: The Lost Canvas",
@@ -163,7 +163,7 @@
     "https://jkanime.net/senjou-no-valkyria-gallian-chronicles/": {
       "title": "Senjou no Valkyria: Gallian Chronicles",
       "total": 26,
-      "fresh": 1,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -212,9 +212,9 @@
     "https://jkanime.net/kanon2006/": {
       "title": "Kanon (2006)",
       "total": 24,
-      "fresh": 24,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/orphen/": {
       "title": "Majutsushi Orphen",
@@ -254,7 +254,7 @@
     "https://jkanime.net/aooni-the-blue-monster/": {
       "title": "Ao Oni The Animation",
       "total": 13,
-      "fresh": 1,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -268,16 +268,16 @@
     "https://jkanime.net/d_cide-traumerei-the-animation/": {
       "title": "D_Cide Traumerei the Animation",
       "total": 13,
-      "fresh": 13,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/": {
       "title": "Danganronpa: The Animation",
       "total": 13,
-      "fresh": 13,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/": {
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
@@ -310,9 +310,9 @@
     "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/": {
       "title": "Maou Gakuin no Futekigousha",
       "total": 13,
-      "fresh": 13,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/saint-seiya-ougon-tamashii/": {
       "title": "Saint Seiya: Soul of Gold",
@@ -360,22 +360,22 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
       "title": "Choujuushin Gravion Zwei",
       "total": 12,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/code-geass-dakkan-no-roz/": {
       "title": "Code Geass: Dakkan no Roz\u00e9",
       "total": 12,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/cuticle-tantei-inaba/": {
       "title": "Cuticle Tantei Inaba",
@@ -408,9 +408,9 @@
     "https://jkanime.net/gangsta-/": {
       "title": "Gangsta.",
       "total": 12,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/gatchamancrowds-insight/": {
       "title": "Gatchaman Crowds Insight",
@@ -499,7 +499,7 @@
     "https://jkanime.net/mahoutsukai-ni-taisetsu-na-koto-natsu-no-sora/": {
       "title": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
       "total": 12,
-      "fresh": 3,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -520,9 +520,9 @@
     "https://jkanime.net/mrchen-mdchen/": {
       "title": "Marchen Madchen",
       "total": 12,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/ookami-san-to-shichinin-no-nakamatachi/": {
       "title": "Ookami-san to Shichinin no Nakamatachi",
@@ -548,16 +548,16 @@
     "https://jkanime.net/sasami-san-ganbaranai/": {
       "title": "Sasami-san@Ganbaranai",
       "total": 12,
-      "fresh": 5,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/school-daysdays/": {
       "title": "School Days",
       "total": 12,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/shigetsutan-tsukihime/": {
       "title": "Shingetsutan Tsukihime",
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -604,9 +604,9 @@
     "https://jkanime.net/z-x-ignition/": {
       "title": "Z/X: Ignition",
       "total": 12,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/break-blade-tv/": {
       "title": "Break Blade (TV)",
@@ -681,21 +681,21 @@
     "https://jkanime.net/bel-blatt/": {
       "title": "\u00dcbel Blatt",
       "total": 12,
-      "fresh": 11,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/classic-stars/": {
       "title": "Classic\u2605Stars",
       "total": 13,
-      "fresh": 12,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
       "title": "FLCL",
       "total": 6,
-      "fresh": 5,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -730,7 +730,7 @@
     "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/": {
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
-      "fresh": 5,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -744,9 +744,9 @@
     "https://jkanime.net/magical-explorer/": {
       "title": "Magical\u2605Explorer",
       "total": 6,
-      "fresh": 6,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/pokemon-xy-mega-evolution/": {
       "title": "Pokemon XY: Mega Evolution",
@@ -793,9 +793,9 @@
     "https://jkanime.net/koe-de-oshigoto-the-animation/": {
       "title": "Koe de Oshigoto! The Animation",
       "total": 2,
-      "fresh": 2,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/rurouni-kenshin-seisouhen/": {
       "title": "Rurouni Kenshin: Seisouhen",
@@ -828,9 +828,9 @@
     "https://jkanime.net/blade-and-soul/": {
       "title": "Blade and Soul",
       "total": 13,
-      "fresh": 13,
+      "fresh": 0,
       "pendingFailures": 0,
-      "state": "complete"
+      "state": "pending"
     },
     "https://jkanime.net/jojos-bizarre-adventure-2012/": {
       "title": "JoJo's Bizarre Adventure The Animation",
@@ -876,16 +876,16 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4076,
+    "series": 4083,
     "diagnosedSeries": 4067,
-    "pendingSeries": 9
+    "pendingSeries": 16
   },
   "coverage": {
-    "checkedAt": "2026-11-01T13:12:33.831734+00:00",
+    "checkedAt": "2026-11-02T07:17:05.823806+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73839,
-    "storedChapters": 72644,
-    "missingChapters": 1195,
+    "observedChapters": 73850,
+    "storedChapters": 72660,
+    "missingChapters": 1190,
     "expiredChapters": 0,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
