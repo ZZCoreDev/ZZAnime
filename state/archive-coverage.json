@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T14:18:55.991003+00:00",
+  "checkedAt": "2026-11-02T14:35:35.144179+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72662,
   "missingChapters": 1190,
-  "expiredChapters": 66,
+  "expiredChapters": 79,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -26,6 +26,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -115,8 +123,7 @@
         "series": "https://jkanime.net/bai-ri-cheng-wang/",
         "title": "Bai Ri Cheng Wang",
         "samples": [
-          "https://jkanime.net/bai-ri-cheng-wang/1/",
-          "https://jkanime.net/bai-ri-cheng-wang/10/"
+          "https://jkanime.net/bai-ri-cheng-wang/1/"
         ]
       },
       {
@@ -36962,6 +36969,21 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ushiro-no-shoumen-kamui-san/",
+        "title": "Ushiro no Shoumen Kamui-san",
+        "samples": [
+          "https://jkanime.net/ushiro-no-shoumen-kamui-san/1/",
+          "https://jkanime.net/ushiro-no-shoumen-kamui-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bai-ri-cheng-wang/",
+        "title": "Bai Ri Cheng Wang",
+        "samples": [
+          "https://jkanime.net/bai-ri-cheng-wang/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -41381,7 +41403,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -41392,7 +41415,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -42303,12 +42326,26 @@
       "series": "https://jkanime.net/ushiro-no-shoumen-kamui-san/",
       "title": "Ushiro no Shoumen Kamui-san",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/1/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/10/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/11/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/12/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/2/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/3/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/4/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/5/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/6/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/7/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/8/",
+        "https://jkanime.net/ushiro-no-shoumen-kamui-san/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -42376,12 +42413,15 @@
       "series": "https://jkanime.net/bai-ri-cheng-wang/",
       "title": "Bai Ri Cheng Wang",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 25,
       "stored": 25,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/bai-ri-cheng-wang/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 25,
       "families": {
