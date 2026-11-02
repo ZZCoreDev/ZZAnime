@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T11:48:57.999834+00:00",
+  "checkedAt": "2026-11-02T12:04:34.008833+00:00",
   "failedChapters": 56555,
   "series": 4076,
   "diagnosedSeries": 4067,
@@ -4329,7 +4329,7 @@
         "https://jkanime.net/akage-no-anne/1/",
         "https://jkanime.net/akage-no-anne/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/akage-no-anne/20/",
+      "diagnosedSample": "https://jkanime.net/akage-no-anne/3/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -4337,7 +4337,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619480081
+          "retryAt": 1793620694997
         },
         "tio": {
           "stage": "detail",
@@ -7708,7 +7708,7 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/1/",
         "https://jkanime.net/bleach-sennen-kessen-hen/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/bleach-sennen-kessen-hen/23/",
+      "diagnosedSample": "https://jkanime.net/bleach-sennen-kessen-hen/24/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -7716,7 +7716,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619716736
+          "retryAt": 1793620736939
         },
         "tio": {
           "stage": "detail",
@@ -12558,7 +12558,7 @@
         "https://jkanime.net/bai-ri-cheng-wang/1/",
         "https://jkanime.net/bai-ri-cheng-wang/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/bai-ri-cheng-wang/13/",
+      "diagnosedSample": "https://jkanime.net/bai-ri-cheng-wang/14/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -12566,7 +12566,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619419315
+          "retryAt": 1793620389089
         },
         "tio": {
           "stage": "detail",
@@ -17864,7 +17864,7 @@
         "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
         "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/11/",
+      "diagnosedSample": "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/12/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -17872,7 +17872,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619498950
+          "retryAt": 1793620411680
         },
         "tio": {
           "stage": "detail",
@@ -23503,7 +23503,7 @@
         "https://jkanime.net/ansatsu-kyoushitsu/10/",
         "https://jkanime.net/ansatsu-kyoushitsu/11/"
       ],
-      "diagnosedSample": "https://jkanime.net/ansatsu-kyoushitsu/2/",
+      "diagnosedSample": "https://jkanime.net/ansatsu-kyoushitsu/20/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -23511,7 +23511,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619718979
+          "retryAt": 1793620694997
         },
         "tio": {
           "stage": "detail",
@@ -23921,7 +23921,7 @@
         "https://jkanime.net/prism-rondo/1/",
         "https://jkanime.net/prism-rondo/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/prism-rondo/2/",
+      "diagnosedSample": "https://jkanime.net/prism-rondo/3/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -23929,7 +23929,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793620025431
+          "retryAt": 1793620759070
         },
         "tio": {
           "stage": "detail",
@@ -23946,7 +23946,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793540586.0551486
+      "nextRetryAt": 1793544678.26131
     },
     {
       "series": "https://jkanime.net/wangpai-yushi/",
@@ -24587,7 +24587,7 @@
         "https://jkanime.net/yu-ling-shi/1/",
         "https://jkanime.net/yu-ling-shi/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/yu-ling-shi/4/",
+      "diagnosedSample": "https://jkanime.net/yu-ling-shi/5/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -24595,7 +24595,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619779679
+          "retryAt": 1793620689348
         },
         "tio": {
           "stage": "detail",
@@ -24612,7 +24612,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793540536.0811625
+      "nextRetryAt": 1793543919.2145963
     },
     {
       "series": "https://jkanime.net/boku-to-roboko/",
@@ -26125,7 +26125,7 @@
         "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki/1/",
         "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki/9/",
+      "diagnosedSample": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki/10/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -26133,7 +26133,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619498950
+          "retryAt": 1793620490439
         },
         "tio": {
           "stage": "detail",
@@ -28386,7 +28386,7 @@
         "https://jkanime.net/baki-dou/1/",
         "https://jkanime.net/baki-dou/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/baki-dou/4/",
+      "diagnosedSample": "https://jkanime.net/baki-dou/5/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -28394,7 +28394,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619775493
+          "retryAt": 1793620689348
         },
         "tio": {
           "stage": "detail",
@@ -28411,7 +28411,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793540525.9263973
+      "nextRetryAt": 1793543911.3160317
     },
     {
       "series": "https://jkanime.net/bang-dream-3rd-season/",
@@ -29622,7 +29622,7 @@
         "https://jkanime.net/dr-stone-science-future-part-3/1/",
         "https://jkanime.net/dr-stone-science-future-part-3/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/dr-stone-science-future-part-3/10/",
+      "diagnosedSample": "https://jkanime.net/dr-stone-science-future-part-3/11/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -29630,7 +29630,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619516804
+          "retryAt": 1793620416009
         },
         "tio": {
           "stage": "detail",
@@ -29798,27 +29798,27 @@
         "https://jkanime.net/enen-no-shouboutai-san-no-shou-part-2/1/",
         "https://jkanime.net/enen-no-shouboutai-san-no-shou-part-2/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/enen-no-shouboutai-san-no-shou-part-2/1/",
+      "diagnosedSample": "https://jkanime.net/enen-no-shouboutai-san-no-shou-part-2/2/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793608968298,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620763867
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -32448,27 +32448,27 @@
         "https://jkanime.net/jigoku-sensei-nube-2025-part-2/1/",
         "https://jkanime.net/jigoku-sensei-nube-2025-part-2/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/jigoku-sensei-nube-2025-part-2/13/",
+      "diagnosedSample": "https://jkanime.net/jigoku-sensei-nube-2025-part-2/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793530812049,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621022699
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -40329,25 +40329,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/wan-ren-zhi-shang/13/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619422580
+          "retryAt": 1793619422580,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -40940,7 +40940,7 @@
         "https://jkanime.net/yami-shibai-16/1/",
         "https://jkanime.net/yami-shibai-16/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/yami-shibai-16/2/",
+      "diagnosedSample": "https://jkanime.net/yami-shibai-16/3/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -40948,7 +40948,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793620023191
+          "retryAt": 1793620759070
         },
         "tio": {
           "stage": "detail",
@@ -40965,7 +40965,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793541410.698103
+      "nextRetryAt": 1793545592.0787761
     },
     {
       "series": "https://jkanime.net/yami-shibai-2nd-season/",
@@ -45008,7 +45008,7 @@
         "https://jkanime.net/beastars-final-season-part-2/1/",
         "https://jkanime.net/beastars-final-season-part-2/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/beastars-final-season-part-2/5/",
+      "diagnosedSample": "https://jkanime.net/beastars-final-season-part-2/6/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -45016,7 +45016,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619718979
+          "retryAt": 1793620514244
         },
         "tio": {
           "stage": "detail",
@@ -46990,27 +46990,27 @@
         "https://jkanime.net/cardfight-vanguard-divinez-genma-seisen-hen/1/",
         "https://jkanime.net/cardfight-vanguard-divinez-genma-seisen-hen/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/cardfight-vanguard-divinez-genma-seisen-hen/12/",
+      "diagnosedSample": "https://jkanime.net/cardfight-vanguard-divinez-genma-seisen-hen/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528317609,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620819950
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -48170,7 +48170,7 @@
         "https://jkanime.net/daikenja-riddle-no-jikan-gyakkou/1/",
         "https://jkanime.net/daikenja-riddle-no-jikan-gyakkou/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/daikenja-riddle-no-jikan-gyakkou/8/",
+      "diagnosedSample": "https://jkanime.net/daikenja-riddle-no-jikan-gyakkou/9/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -48178,7 +48178,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619718979
+          "retryAt": 1793620493262
         },
         "tio": {
           "stage": "detail",
@@ -48195,7 +48195,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793543893.2411704
+      "nextRetryAt": 1793544614.0196738
     },
     {
       "series": "https://jkanime.net/daitoshokan-no-hitsujikai/",
@@ -49874,27 +49874,27 @@
         "https://jkanime.net/douse-koishite-shimaunda-2nd-season/1/",
         "https://jkanime.net/douse-koishite-shimaunda-2nd-season/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/douse-koishite-shimaunda-2nd-season/12/",
+      "diagnosedSample": "https://jkanime.net/douse-koishite-shimaunda-2nd-season/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793529046279,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621020602
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -54604,7 +54604,7 @@
         "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2/1/",
         "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2/11/",
+      "diagnosedSample": "https://jkanime.net/higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2/12/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -54612,7 +54612,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619415834
+          "retryAt": 1793620407262
         },
         "tio": {
           "stage": "detail",
@@ -54629,7 +54629,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793567884.6358266
+      "nextRetryAt": 1793651859.2018151
     },
     {
       "series": "https://jkanime.net/high-school-dxd-born/",
@@ -54704,27 +54704,27 @@
         "https://jkanime.net/high-school-kimengumi-2026/1/",
         "https://jkanime.net/high-school-kimengumi-2026/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/high-school-kimengumi-2026/12/",
+      "diagnosedSample": "https://jkanime.net/high-school-kimengumi-2026/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528317609,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621022699
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -55658,7 +55658,7 @@
         "https://jkanime.net/hyakki-yakoushou/1/",
         "https://jkanime.net/hyakki-yakoushou/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/hyakki-yakoushou/11/",
+      "diagnosedSample": "https://jkanime.net/hyakki-yakoushou/12/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -55666,7 +55666,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619422580
+          "retryAt": 1793620389089
         },
         "tio": {
           "stage": "detail",
@@ -55683,7 +55683,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793567897.9216208
+      "nextRetryAt": 1793651937.6639974
     },
     {
       "series": "https://jkanime.net/hyakuren-no-haou-to-seiyaku-no-valkyria/",
@@ -62828,7 +62828,7 @@
         "https://jkanime.net/mahou-no-shimai-lulutto-lilly/1/",
         "https://jkanime.net/mahou-no-shimai-lulutto-lilly/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/mahou-no-shimai-lulutto-lilly/11/",
+      "diagnosedSample": "https://jkanime.net/mahou-no-shimai-lulutto-lilly/12/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -62836,7 +62836,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619480081
+          "retryAt": 1793620416009
         },
         "tio": {
           "stage": "detail",
@@ -62853,7 +62853,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793567906.628306
+      "nextRetryAt": 1793651948.185563
     },
     {
       "series": "https://jkanime.net/mahou-sensou/",
@@ -66668,27 +66668,27 @@
         "https://jkanime.net/okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni/1/",
         "https://jkanime.net/okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni/1/",
+      "diagnosedSample": "https://jkanime.net/okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni/2/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793608968298,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620781241
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -66774,27 +66774,27 @@
         "https://jkanime.net/omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai/1/",
         "https://jkanime.net/omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai/12/",
+      "diagnosedSample": "https://jkanime.net/omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528325522,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620781241
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -70784,27 +70784,27 @@
         "https://jkanime.net/saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu/1/",
         "https://jkanime.net/saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu/12/",
+      "diagnosedSample": "https://jkanime.net/saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793529989768,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621025628
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -85423,7 +85423,7 @@
         "https://jkanime.net/oshi-no-ko-3rd-season/1/",
         "https://jkanime.net/oshi-no-ko-3rd-season/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/oshi-no-ko-3rd-season/2/",
+      "diagnosedSample": "https://jkanime.net/oshi-no-ko-3rd-season/3/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -85431,7 +85431,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793620023191
+          "retryAt": 1793620759070
         },
         "tio": {
           "stage": "detail",
@@ -85448,7 +85448,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793541395.9809837
+      "nextRetryAt": 1793545583.2710671
     },
     {
       "series": "https://jkanime.net/oshi-no-ko/",
@@ -94031,7 +94031,7 @@
         "https://jkanime.net/fangkai-nage-nuwu/1/",
         "https://jkanime.net/fangkai-nage-nuwu/2/"
       ],
-      "diagnosedSample": "https://jkanime.net/fangkai-nage-nuwu/4/",
+      "diagnosedSample": "https://jkanime.net/fangkai-nage-nuwu/5/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -94039,7 +94039,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619718979
+          "retryAt": 1793620493262
         },
         "tio": {
           "stage": "detail",
@@ -94056,7 +94056,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793540515.156645
+      "nextRetryAt": 1793562921.2810483
     },
     {
       "series": "https://jkanime.net/fujimoto-tatsuki-17-26/",
@@ -95643,7 +95643,7 @@
         "https://jkanime.net/terror-man/1/",
         "https://jkanime.net/terror-man/2/"
       ],
-      "diagnosedSample": "https://jkanime.net/terror-man/2/",
+      "diagnosedSample": "https://jkanime.net/terror-man/3/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -95651,7 +95651,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793620025431
+          "retryAt": 1793620703266
         },
         "tio": {
           "stage": "detail",
@@ -95668,7 +95668,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793540567.4156153
+      "nextRetryAt": 1793562964.733731
     },
     {
       "series": "https://jkanime.net/the-soultaker-tamashii-gari/",
@@ -97510,7 +97510,7 @@
         "https://jkanime.net/you-shou-yan-5th-season/1/",
         "https://jkanime.net/you-shou-yan-5th-season/2/"
       ],
-      "diagnosedSample": "https://jkanime.net/you-shou-yan-5th-season/4/",
+      "diagnosedSample": "https://jkanime.net/you-shou-yan-5th-season/5/",
       "sources": {
         "jk": {
           "stage": "listing",
@@ -97518,7 +97518,7 @@
           "cause": "access-denied",
           "message": "Source HTTP 403",
           "cachedFailure": true,
-          "retryAt": 1793619779679
+          "retryAt": 1793620694997
         },
         "tio": {
           "stage": "detail",
@@ -97535,7 +97535,7 @@
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793541349.5430155
+      "nextRetryAt": 1793563889.685003
     },
     {
       "series": "https://jkanime.net/youkoso-japari-park/",
@@ -98094,15 +98094,13 @@
         "https://jkanime.net/double-circle/1/",
         "https://jkanime.net/double-circle/2/"
       ],
-      "diagnosedSample": "https://jkanime.net/double-circle/1/",
+      "diagnosedSample": "https://jkanime.net/double-circle/2/",
       "sources": {
         "jk": {
           "stage": "listing",
           "status": 403,
           "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619722593
+          "message": "Source HTTP 403"
         },
         "tio": {
           "stage": "detail",
@@ -115278,25 +115276,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/tensui-no-sakuna-hime-kokorowa-inasaku-nisshi/2/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619775493
+          "retryAt": 1793619775493,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120490,25 +120488,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dounika-naru-hibi/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619716736
+          "retryAt": 1793619716736,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120553,25 +120551,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-kai-special/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619742126
+          "retryAt": 1793619742126,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120586,25 +120584,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-super-broly/1/",
       "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619799316
+          "retryAt": 1793619799316,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
-          "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider"
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120619,25 +120617,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-super-saiya-jin-zetsumetsu-keikaku/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619818170
+          "retryAt": 1793619818170,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120652,25 +120650,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-super-super-hero/1/",
       "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793619803710
+          "retryAt": 1793619803710,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
-          "stage": "parse",
-          "status": null,
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider"
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120685,25 +120683,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-atsumare-gokuu-world/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793620030408
+          "retryAt": 1793620030408,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120718,25 +120716,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-01-the-deadzone/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793620028261
+          "retryAt": 1793620028261,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120751,25 +120749,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-02-the-worlds-strongest/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793620025431
+          "retryAt": 1793620025431,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120784,25 +120782,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-03-the-tree-of-might/1/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793620025431
+          "retryAt": 1793620025431,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
@@ -120817,30 +120815,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-04-lord-slug/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528568825,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620716459
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793614930.0407515
+      "nextRetryAt": 1793793508.5661685
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/",
@@ -120850,30 +120848,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528568825,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620763867
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793614943.8809795
+      "nextRetryAt": 1793793516.1048093
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-06-return-of-cooler/",
@@ -120883,30 +120881,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-06-return-of-cooler/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528582161,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620759070
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793614959.6257203
+      "nextRetryAt": 1793793529.2413855
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-07-super-android-13/",
@@ -120916,30 +120914,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-07-super-android-13/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528632150,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620757470
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793614975.8621573
+      "nextRetryAt": 1793793545.048783
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-08-broly-the-legendary-super-saiyan/",
@@ -120949,30 +120947,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-08-broly-the-legendary-super-saiyan/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528632150,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620814350
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793614989.0190063
+      "nextRetryAt": 1793793556.8317049
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-09-bojack-unbound/",
@@ -120982,30 +120980,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-09-bojack-unbound/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793528644923,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620823486
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793614997.3598144
+      "nextRetryAt": 1793793566.2700047
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-10-broly-second-coming/",
@@ -121015,28 +121013,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-10-broly-second-coming/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620781241
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793615316.8905907
+      "nextRetryAt": 1793793574.433187
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-11-bio-broly/",
@@ -121046,30 +121046,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-11-bio-broly/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793529055149,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793620830447
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793615398.870764
+      "nextRetryAt": 1793793583.1333983
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-12-fusion-reborn/",
@@ -121079,30 +121079,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-12-fusion-reborn/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793529055149,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621027869
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793615415.9676094
+      "nextRetryAt": 1793793770.3462708
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-13-wrath-of-the-dragon/",
@@ -121112,30 +121112,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-13-wrath-of-the-dragon/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793529059358,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621027869
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793615426.3899493
+      "nextRetryAt": 1793793778.215943
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-14-kami-to-kami/",
@@ -121145,30 +121145,30 @@
       ],
       "diagnosedSample": "https://jkanime.net/dragon-ball-z-movie-14-kami-to-kami/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793529928248,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793621027869
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793616286.4324603
+      "nextRetryAt": 1793793785.9773314
     },
     {
       "series": "https://jkanime.net/dragon-ball-z-movie-15-fukkatsu-no-f/",
@@ -131258,30 +131258,28 @@
       ],
       "diagnosedSample": "https://jkanime.net/omae-wa-mada-gunma-wo-shiranai-reiwa-ban/1/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793517383032,
           "stage": "listing",
-          "status": 403
+          "status": 403,
+          "cause": "access-denied",
+          "message": "Source HTTP 403"
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793560535.6442804
+      "nextRetryAt": 1793707161.428627
     },
     {
       "series": "https://jkanime.net/omae-wa-mada-gunma-wo-shiranai/",
