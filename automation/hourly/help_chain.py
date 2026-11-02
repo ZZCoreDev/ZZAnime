@@ -109,7 +109,31 @@ def accept(data,state,asked,now,renew=frozenset(),held_urls=frozenset()):
   incoming['listings'][parent]={**listing,'episodes':[url]} if listing else {'observedAt':iso(at),'complete':False,'helpListing':True,'episodes':[url]}
   # Neither renewals nor held chapters (old OVAs and movies) are news.
   if url not in renew and url not in held_urls:seen[url]=row.get('firstSeenAt') or iso(at)
+ renew_single(data,state,renew,now,incoming,held)
  return incoming,seen,held
+def renew_single(data,state,renew,now,incoming,held):
+ """One device saw the JK page of a chapter the cloud asked to renew: keep, with the device's date, only the links the
+ archive already approved that the page still lists. Nothing new is ever added this way (new links need the quorum)."""
+ rows=data.get('renewals')
+ if not isinstance(rows,list):return
+ for row in rows[:MAX_IMPORT]:
+  url=row.get('url') if isinstance(row,dict) else None
+  if not isinstance(url,str) or url not in renew or url in incoming['episodes']:continue
+  old=state['episodes'].get(url)
+  if not old or not old.get('providers'):continue
+  try:at=datetime.datetime.fromisoformat(str(row.get('observedAt')).replace('Z','+00:00'))
+  except ValueError:held[url]='Invalid renewal date';continue
+  if at.tzinfo is None or not 0<=(now-at).total_seconds()<=7*86400:held[url]='Stale or future renewal';continue
+  if stamp(old.get('observedAt'))>=at.timestamp():held[url]='Stored observation is newer';continue
+  seen_links={o.get('url') for o in row.get('options',[]) if isinstance(o,dict) and isinstance(o.get('url'),str)}
+  providers=[]
+  for p in old['providers']:
+   links=[l for l in p.get('links',[]) if l in seen_links]
+   if links:providers.append({**p,'links':links})
+  if not providers:held[url]='Renewal saw none of the approved links';continue
+  incoming['episodes'][url]={**old,'observedAt':iso(at),'complete':True,'providers':providers,'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain-single-renewal','renewed':True}}
+  parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
+  if listing:incoming['listings'][parent]={**listing,'episodes':[url]}
 def get(base,key,path,limit=4194305):
  req=urllib.request.Request(base.rstrip('/')+path,headers={'Authorization':'Bearer '+key,'User-Agent':'ZZAnime-Data/1'})
  with urllib.request.urlopen(req,timeout=60) as response:return json.loads(response.read(limit))

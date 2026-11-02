@@ -202,4 +202,10 @@ await check('intro marks: two devices within 3 s agree, outliers and bad marks i
  await mark(t,[m(91,181)],{device:'device-mark-device-1'});
  assert.equal((await get(t,'/v1/marks-stats')).body.marks[0].devices,2);
  assert.ok(!JSON.stringify(t.store.rows('SELECT * FROM marks')).includes('device-mark-device-1'));});
+await check('renewal evidence: one device is reported only for chapters the cloud asked to renew',async()=>{
+ const t=setup(),link='https://www.mp4upload.com/embed-renew123.html';
+ await submit(t,[item(OLD,link),item(TR,link)],{asn:3352,ip:'81.9.9.9'});
+ const body=(await accepted(t)).body;
+ assert.deepEqual(body.renewals.map(r=>r.url),[OLD]);assert.deepEqual(body.renewals[0].options.map(o=>o.url),[link]);
+ assert.ok(!body.episodes.some(e=>e.url===OLD));});
 console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch, play votes, intro marks)');

@@ -2,7 +2,7 @@ name: Ayuda entre dispositivos (Worker)
 on:
   push:
     branches: [main, claude/tarea10-cadena-ayuda]
-    paths: ['automation/help-worker/**', 'automation/hourly/plays.py', 'automation/hourly/skip_marks.py', 'automation/hourly/signal_policy.py', '.github/workflows/help-worker.yml']
+    paths: ['automation/help-worker/**', 'automation/hourly/plays.py', 'automation/hourly/skip_marks.py', 'automation/hourly/signal_policy.py', 'automation/hourly/help_chain.py', '.github/workflows/help-worker.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
         working-directory: automation/hourly
         run: |
           python3 -m pip install cryptography==46.0.3
-          python3 -m unittest test_signal_security test_plays test_skip_marks
+          python3 -m unittest test_signal_security test_plays test_skip_marks test_single_renewal
       - name: Desplegar en Cloudflare (plan gratuito, Durable Object SQLite)
         working-directory: automation/help-worker
         env:
