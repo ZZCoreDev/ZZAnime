@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-02T13:27:26.355901+00:00",
+  "checkedAt": "2026-11-02T13:44:43.957626+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73850,
   "storedChapters": 72662,
   "missingChapters": 1188,
-  "expiredChapters": 17,
+  "expiredChapters": 36,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -76,8 +76,8 @@
         "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
         "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
         "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/12/",
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/"
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
         ]
       },
       {
@@ -85,7 +85,7 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/"
         ]
       },
       {
@@ -36934,6 +36934,36 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
+        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+        "samples": [
+          "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
+        "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+        "samples": [
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/",
+        "title": "Honoo no Toukyuujo: Dodge Danko",
+        "samples": [
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -41794,11 +41824,15 @@
     {
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
@@ -41831,11 +41865,15 @@
     {
       "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
@@ -41852,12 +41890,23 @@
       "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/11/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/12/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -41891,12 +41940,22 @@
       "series": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/",
       "title": "Honoo no Toukyuujo: Dodge Danko",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/3/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/4/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/5/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/7/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/8/",
+        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
