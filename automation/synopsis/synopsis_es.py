@@ -12,9 +12,9 @@ from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
 ACCOUNT='3407d07c06229321d34863cf0fdac02d'
-MODEL='@cf/meta/llama-3.1-8b-instruct'
+MODEL='@cf/meta/llama-3.3-70b-instruct-fp8-fast'
 # Workers AI price list for this model, in neurons per million tokens; the free allowance is 10,000 neurons a day.
-NEURONS_IN,NEURONS_OUT,DAILY_BUDGET=25608,75147,7000
+NEURONS_IN,NEURONS_OUT,DAILY_BUDGET=26668,204805,7000
 ANILIST='https://graphql.anilist.co'
 QUERY='query($ids:[Int]){Page(perPage:50){media(id_in:$ids,type:ANIME){id description(asHtml:false)}}}'
 PROMPT=('Traduce al español de España la sinopsis de anime que te dará el usuario. Devuelve solo la traducción, '
