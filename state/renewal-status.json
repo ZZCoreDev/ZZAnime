@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-02T13:49:16.528487+00:00",
+  "checkedAt": "2026-11-02T14:05:53.079445+00:00",
   "requested": 400,
   "renewed": 0,
-  "attempted": 166,
-  "repairAttempts": 41,
+  "attempted": 188,
+  "repairAttempts": 47,
   "earlyRepairAttempts": 2,
-  "failed": 56558,
+  "failed": 56556,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41455652762",
+  "runId": "41458214869",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 132,
-  "expired": 64,
+  "extraRenewed": 145,
+  "expired": 66,
   "published": true,
-  "expiresWithin24Hours": 55630,
-  "retryAfterExpiry": 594,
+  "expiresWithin24Hours": 56269,
+  "retryAfterExpiry": 615,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -368,7 +368,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 1,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -884,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4078,
+    "series": 4076,
     "diagnosedSeries": 4067,
-    "pendingSeries": 11
+    "pendingSeries": 9
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-02T14:02:15.939874+00:00",
+    "checkedAt": "2026-11-02T14:18:55.991003+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73850,
+    "observedChapters": 73852,
     "storedChapters": 72662,
-    "missingChapters": 1188,
-    "expiredChapters": 64,
+    "missingChapters": 1190,
+    "expiredChapters": 66,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sourceRequests": 0,
