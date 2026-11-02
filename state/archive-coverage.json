@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T21:02:35.619054+00:00",
+  "checkedAt": "2026-11-02T21:21:28.375533+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73852,
   "storedChapters": 72664,
@@ -587,13 +587,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/",
-        "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
-        "samples": [
-          "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/golden-kamuy-saishuushou/",
         "title": "Golden Kamuy: Saishuushou",
         "samples": [
@@ -730,14 +723,6 @@
         "samples": [
           "https://jkanime.net/monster-strike-deadverse-reloaded/1/",
           "https://jkanime.net/monster-strike-deadverse-reloaded/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/gnosia/",
-        "title": "Gnosia",
-        "samples": [
-          "https://jkanime.net/gnosia/12/",
-          "https://jkanime.net/gnosia/16/"
         ]
       },
       {
@@ -48290,7 +48275,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -48818,7 +48803,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -52919,8 +52904,7 @@
       "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/",
       "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -52929,7 +52913,7 @@
         "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 13,
         "vidhide": 2,
@@ -53838,8 +53822,7 @@
       "series": "https://jkanime.net/gnosia/",
       "title": "Gnosia",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 21,
       "stored": 21,
@@ -53852,7 +53835,7 @@
         "https://jkanime.net/gnosia/2/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 21,
         "mega": 5,
@@ -134955,7 +134938,7 @@
       ],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "families": {
         "streamwish": 13,
         "vidhide": 13,
