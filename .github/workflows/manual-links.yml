@@ -1,0 +1,43 @@
+name: Enlaces de tus fichas (comprobación diaria)
+# Comprueba una vez al día los enlaces de las fichas del editor y avisa con un único issue si alguno lleva dos días caído.
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: zzanime-manual-links
+  cancel-in-progress: false
+jobs:
+  check:
+    if: github.repository == 'ZZCoreDev/ZZAnime'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Memoria (rama manual-links)
+        run: |
+          mkdir -p "$RUNNER_TEMP/memory"
+          if git fetch -q --depth 1 origin manual-links; then git show FETCH_HEAD:state.json > "$RUNNER_TEMP/memory/state.json" || true; fi
+      - name: Pruebas sin red
+        working-directory: automation/manual-links
+        run: python3 test_manual_links.py
+      - name: Comprobar enlaces y actualizar el aviso
+        working-directory: automation/manual-links
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 manual_links.py --memory "$RUNNER_TEMP/memory/state.json"
+      - name: Guardar la memoria (un único commit, se reemplaza)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f "$RUNNER_TEMP/memory/state.json" ] || exit 0
+          cd "$RUNNER_TEMP/memory"
+          git init -q && git checkout -q -b manual-links
+          git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
+          git add state.json && git commit -q -m 'Memoria de enlaces de fichas'
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:manual-links
