@@ -208,4 +208,10 @@ await check('renewal evidence: one device is reported only for chapters the clou
  const body=(await get(t,'/v1/renewals')).body;assert.equal((await get(t,'/v1/renewals','wrong')).status,401);
  assert.deepEqual(body.renewals.map(r=>r.url),[OLD]);assert.deepEqual(body.renewals[0].options.map(o=>o.url),[link]);
  assert.ok(!(await accepted(t)).body.episodes.some(e=>e.url===OLD));assert.ok(!('renewals' in (await accepted(t)).body));});
+await check('renewal evidence keeps the latest reading of the same device',async()=>{
+ const t=setup(),a='https://www.mp4upload.com/embed-renewold1.html',b='https://www.mp4upload.com/embed-renewnew2.html';
+ await submit(t,[item(OLD,a)],{device:'device-renew-000001',asn:3352,ip:'81.9.9.9'});const first=t.now;t.now+=3600000;
+ await submit(t,[item(OLD,b)],{device:'device-renew-000001',asn:3352,ip:'81.9.9.9'});
+ const row=(await get(t,'/v1/renewals')).body.renewals.find(r=>r.url===OLD);
+ assert.deepEqual(row.options.map(o=>o.url),[b]);assert.ok(Date.parse(row.observedAt)>first);});
 console.log(passed+' help Worker controls PASS (signed wanted list, batches, two networks, MEGA name, enough, renewal, limits, privacy, stop when filled, stats, dead reports, same-network switch, play votes, intro marks)');
