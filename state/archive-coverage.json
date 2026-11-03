@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T19:48:50.243498+00:00",
+  "checkedAt": "2026-11-03T20:07:32.459730+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73039,
@@ -9,7 +9,7 @@
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
   "voeOnlyChapters": 48,
-  "extraOnlyChapters": 307,
+  "extraOnlyChapters": 308,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,

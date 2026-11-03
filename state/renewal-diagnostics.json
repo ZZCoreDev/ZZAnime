@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T19:48:50.243498+00:00",
+  "checkedAt": "2026-11-03T20:07:32.459730+00:00",
   "failedChapters": 56561,
   "series": 4101,
   "diagnosedSeries": 4047,
@@ -120080,6 +120080,18 @@
       "nextRetryAt": 1793398185.7687573
     },
     {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793736965.810011
+    },
+    {
       "series": "https://jkanime.net/d-frag-ova/",
       "failedChapters": 1,
       "samples": [
@@ -126575,6 +126587,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793801549.1133268
+    },
+    {
+      "series": "https://jkanime.net/kami-no-shizuku/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kami-no-shizuku/18/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793736978.647476
     },
     {
       "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
@@ -139082,30 +139106,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793736965.810011
-    },
-    {
-      "series": "https://jkanime.net/kami-no-shizuku/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kami-no-shizuku/18/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793736978.647476
     }
   ]
 }
