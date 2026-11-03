@@ -182,7 +182,7 @@ Equivalencia comprobada: School Days, 0/12 capítulos recientes; incidencias pen
 Equivalencia comprobada: Shingetsutan Tsukihime, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Strange+, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 4.
+Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 5.
 Equivalencia comprobada: Venus Versus Virus, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yoake Mae yori Ruriiro na, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Z/X: Ignition, 0/12 capítulos recientes; incidencias pendientes: 0.
@@ -215,7 +215,7 @@ Equivalencia comprobada: Kobayashi ga Kawai Sugite Tsurai!!, 0/2 capítulos reci
 Equivalencia comprobada: Koe de Oshigoto! The Animation, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Rurouni Kenshin: Seisouhen, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tsubasa Chronicle: Shunraiki, 0/2 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 0/12 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen, 0/5 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Blade and Soul, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: JoJo's Bizarre Adventure The Animation, 0/26 capítulos recientes; incidencias pendientes: 26.
@@ -224,7 +224,7 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4047/4098; pendientes: 51. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4047/4097; pendientes: 50. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 73035 capítulos con registros, 514 capítulos observados sin opciones, 305 publicados solo en /voe/ o /extra/ y 57091 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
