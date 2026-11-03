@@ -22,7 +22,7 @@
     ]
   },
   "observed-chapters-without-options": {
-    "series": 577,
+    "series": 207,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -34,16 +34,16 @@
         ]
       },
       {
-        "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/",
-        "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
+        "series": "https://jkanime.net/meitantei-conan-hanamaru-na-answer/",
+        "title": "Meitantei Conan: Hanamaru na Answer",
         "samples": [
-          "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/1/"
+          "https://jkanime.net/meitantei-conan-hanamaru-na-answer/1/"
         ]
       }
     ]
   },
   "expired-observation": {
-    "series": 3258,
+    "series": 3394,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -65,21 +65,21 @@
     ]
   },
   "retained-redirect": {
-    "series": 499,
+    "series": 129,
     "twoSeriesProofRequired": true,
     "samples": [
       {
-        "series": "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/",
-        "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
+        "series": "https://jkanime.net/meitantei-conan-hanamaru-na-answer/",
+        "title": "Meitantei Conan: Hanamaru na Answer",
         "samples": [
-          "https://jkanime.net/shibou-yuugi-de-meshi-wo-kuu-44-cloudy-beach/1/"
+          "https://jkanime.net/meitantei-conan-hanamaru-na-answer/1/"
         ]
       },
       {
-        "series": "https://jkanime.net/sword-art-online-unansweredbutterfly/",
-        "title": "Sword Art Online: Unanswered//butterfly",
+        "series": "https://jkanime.net/isekai-no-sata-wa-shachiku-shidai-omoi-wo-hasemashita/",
+        "title": "Isekai no Sata wa Shachiku Shidai: Omoi wo Hasemashita",
         "samples": [
-          "https://jkanime.net/sword-art-online-unansweredbutterfly/1/"
+          "https://jkanime.net/isekai-no-sata-wa-shachiku-shidai-omoi-wo-hasemashita/1/"
         ]
       }
     ]
