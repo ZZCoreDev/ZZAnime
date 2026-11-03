@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T18:53:10.053004+00:00",
+  "checkedAt": "2026-11-03T19:11:16.197730+00:00",
   "failedChapters": 56556,
   "series": 4099,
   "diagnosedSeries": 4047,
@@ -101039,7 +101039,7 @@
       "failedChapters": 6,
       "samples": [
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/3/"
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/15/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -126742,6 +126742,18 @@
       "nextRetryAt": 1793801761.074908
     },
     {
+      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733665.9286785
+    },
+    {
       "series": "https://jkanime.net/kanpekisugite-kawaige-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru/",
       "failedChapters": 1,
       "samples": [
@@ -127508,6 +127520,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793317860.4329665
+    },
+    {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733676.1361086
     },
     {
       "series": "https://jkanime.net/kimi-ga-shinu-made-koi-wo-shitai/",
@@ -139058,30 +139082,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733665.9286785
-    },
-    {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733676.1361086
     }
   ]
 }
