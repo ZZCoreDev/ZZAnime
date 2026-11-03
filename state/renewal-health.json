@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T13:47:02.890734+00:00",
+  "checkedAt": "2026-11-03T14:03:03.105596+00:00",
   "episodes": 73035,
-  "oldestHours": 193.22,
-  "pending": 71652,
-  "expired": 54472,
+  "oldestHours": 193.48,
+  "pending": 71672,
+  "expired": 55624,
   "expiresWithin24Hours": 57131,
-  "retryAfterExpiry": 1393,
+  "retryAfterExpiry": 1395,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1437.77,
-  "measuredWallClockPerHour": 81.63,
-  "estimatedSweepDays": 37.28,
+  "sampleMinutes": 1437.17,
+  "measuredWallClockPerHour": 85.84,
+  "estimatedSweepDays": 35.45,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 6,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -815,7 +815,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4095,
+    "series": 4096,
     "diagnosedSeries": 4047,
-    "pendingSeries": 48
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-03T13:47:02.890734+00:00",
+    "checkedAt": "2026-11-03T14:03:03.105596+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73854,
     "storedChapters": 73035,
     "missingChapters": 514,
-    "expiredChapters": 54472,
+    "expiredChapters": 55624,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
