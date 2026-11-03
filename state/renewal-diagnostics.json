@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T14:19:36.946681+00:00",
-  "failedChapters": 56528,
-  "series": 4096,
+  "checkedAt": "2026-11-03T14:37:10.722782+00:00",
+  "failedChapters": 56531,
+  "series": 4098,
   "diagnosedSeries": 4047,
-  "pendingSeries": 49,
+  "pendingSeries": 51,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 134,
+    "ValueError: No approved observations; previous channel retained": 137,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -90965,8 +90965,8 @@
       "series": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/",
       "failedChapters": 10,
       "samples": [
-        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/10/",
-        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/11/"
+        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/1/",
+        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/10/"
       ],
       "diagnosedSample": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/5/",
       "sources": {
@@ -102987,7 +102987,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714099.309962
+      "nextRetryAt": 1793714104.692977
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -103958,8 +103958,8 @@
       "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
       "failedChapters": 4,
       "samples": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/"
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -106526,6 +106526,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793403585.0032098
+    },
+    {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 4,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/4/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793714143.717503
     },
     {
       "series": "https://jkanime.net/tsukimonogatari/",
@@ -110609,19 +110622,6 @@
       "nextRetryAt": 1793357190.3788824
     },
     {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/4/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714143.717503
-    },
-    {
       "series": "https://jkanime.net/uma-musume-pretty-derby-bnw-no-chikai/",
       "failedChapters": 3,
       "samples": [
@@ -113698,6 +113698,19 @@
       "nextRetryAt": 1793293492.7688267
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/7/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717010.3162668
+    },
+    {
       "series": "https://jkanime.net/kagewani/",
       "failedChapters": 2,
       "samples": [
@@ -116280,19 +116293,6 @@
       "nextRetryAt": 1793346798.4119914
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/7/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717010.3162668
-    },
-    {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
       "failedChapters": 1,
       "samples": [
@@ -118845,7 +118845,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714114.4754412
+      "nextRetryAt": 1793720103.6498866
     },
     {
       "series": "https://jkanime.net/busou-shinki-moon-angel/",
@@ -125272,6 +125272,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793798336.0079074
+    },
+    {
+      "series": "https://jkanime.net/hula-fulla-dance/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/hula-fulla-dance/1/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717041.0730875
     },
     {
       "series": "https://jkanime.net/human-lost-ningen-shikkaku/",
@@ -139035,16 +139047,28 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/hula-fulla-dance/",
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/hula-fulla-dance/1/"
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793717041.0730875
+      "nextRetryAt": 1793718274.269984
+    },
+    {
+      "series": "https://jkanime.net/yomi-no-tsugai/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yomi-no-tsugai/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793718290.125905
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T14:19:36.946681+00:00",
+  "checkedAt": "2026-11-03T14:37:10.722782+00:00",
   "episodes": 73035,
-  "oldestHours": 193.76,
-  "pending": 71686,
-  "expired": 56252,
+  "oldestHours": 194.05,
+  "pending": 71689,
+  "expired": 57091,
   "expiresWithin24Hours": 57131,
-  "retryAfterExpiry": 1401,
+  "retryAfterExpiry": 1404,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1436.64,
-  "measuredWallClockPerHour": 90.04,
-  "estimatedSweepDays": 33.8,
+  "sampleMinutes": 1437.35,
+  "measuredWallClockPerHour": 94.17,
+  "estimatedSweepDays": 32.31,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4098,
     "diagnosedSeries": 4047,
-    "pendingSeries": 49
+    "pendingSeries": 51
   },
   "coverage": {
-    "checkedAt": "2026-11-03T14:19:36.946681+00:00",
+    "checkedAt": "2026-11-03T14:37:10.722782+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73854,
     "storedChapters": 73035,
     "missingChapters": 514,
-    "expiredChapters": 56252,
+    "expiredChapters": 57091,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
