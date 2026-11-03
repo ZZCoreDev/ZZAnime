@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T05:31:13.808861+00:00",
+  "checkedAt": "2026-11-03T05:47:14.974773+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
   "storedChapters": 72665,
@@ -1297,14 +1297,6 @@
         "samples": [
           "https://jkanime.net/chuuzenji-sensei-mononoke-kougiroku-sensei-ga-nazo-wo-hodoite-shimau-kara/1/",
           "https://jkanime.net/chuuzenji-sensei-mononoke-kougiroku-sensei-ga-nazo-wo-hodoite-shimau-kara/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/summer-pockets/",
-        "title": "Summer Pockets",
-        "samples": [
-          "https://jkanime.net/summer-pockets/23/",
-          "https://jkanime.net/summer-pockets/26/"
         ]
       },
       {
@@ -63291,8 +63283,7 @@
       "series": "https://jkanime.net/summer-pockets/",
       "title": "Summer Pockets",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 26,
       "stored": 26,
@@ -63303,7 +63294,7 @@
         "https://jkanime.net/summer-pockets/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 17,
         "vidhide": 21,
