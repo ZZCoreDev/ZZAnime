@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-03T01:56:26.873077+00:00",
+  "checkedAt": "2026-11-03T02:12:54.011547+00:00",
   "requested": 400,
   "renewed": 0,
-  "attempted": 148,
-  "repairAttempts": 37,
+  "attempted": 172,
+  "repairAttempts": 43,
   "earlyRepairAttempts": 2,
-  "failed": 56547,
+  "failed": 56539,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41562526249",
+  "runId": "41564348274",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 111,
+  "extraRenewed": 137,
   "expired": 19338,
   "published": true,
   "expiresWithin24Hours": 57223,
-  "retryAfterExpiry": 1293,
+  "retryAfterExpiry": 1285,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -368,7 +368,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 3,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -823,7 +823,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -884,16 +884,16 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4072,
+    "series": 4065,
     "diagnosedSeries": 4055,
-    "pendingSeries": 17
+    "pendingSeries": 10
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-03T02:09:20.087158+00:00",
+    "checkedAt": "2026-11-03T02:25:31.629669+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73853,
-    "storedChapters": 72664,
-    "missingChapters": 1189,
+    "storedChapters": 72665,
+    "missingChapters": 1188,
     "expiredChapters": 19338,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,

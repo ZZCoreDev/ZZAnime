@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T02:09:20.087158+00:00",
+  "checkedAt": "2026-11-03T02:25:31.629669+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
-  "storedChapters": 72664,
-  "missingChapters": 1189,
+  "storedChapters": 72665,
+  "missingChapters": 1188,
   "expiredChapters": 19338,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -26,14 +26,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -81,21 +73,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
-        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
-        "samples": [
-          "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
-        "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
-        "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/",
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
@@ -140,13 +117,6 @@
         "samples": [
           "https://jkanime.net/bai-ri-cheng-wang/1/",
           "https://jkanime.net/bai-ri-cheng-wang/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
-        "title": "Hanazakari no Kimitachi e 2nd Season",
-        "samples": [
-          "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
         ]
       },
       {
@@ -601,13 +571,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/",
-        "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
-        "samples": [
-          "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/9/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/golden-kamuy-saishuushou/",
         "title": "Golden Kamuy: Saishuushou",
         "samples": [
@@ -790,14 +753,6 @@
         "samples": [
           "https://jkanime.net/ao-no-orchestra-season-2/1/",
           "https://jkanime.net/ao-no-orchestra-season-2/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
-        "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-        "samples": [
-          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/1/",
-          "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/17/"
         ]
       },
       {
@@ -1132,13 +1087,6 @@
         "samples": [
           "https://jkanime.net/jibaku-shounen-hanako-kun-2-part-2/1/",
           "https://jkanime.net/jibaku-shounen-hanako-kun-2-part-2/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/busamen-gachi-fighter/",
-        "title": "Busamen Gachi Fighter",
-        "samples": [
-          "https://jkanime.net/busamen-gachi-fighter/10/"
         ]
       },
       {
@@ -36805,13 +36753,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/mahou-shoujo-ikusei-keikaku-restart/",
-        "title": "Mahou Shoujo Ikusei Keikaku: Restart",
-        "samples": [
-          "https://jkanime.net/mahou-shoujo-ikusei-keikaku-restart/5/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/meikyuu-no-shiori/",
         "title": "Meikyuu no Shiori",
         "samples": [
@@ -53663,8 +53604,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -53675,7 +53615,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 10,
         "streamwish": 10,
@@ -54161,8 +54101,7 @@
       "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -54171,7 +54110,7 @@
         "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
@@ -54186,8 +54125,7 @@
       "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -54202,7 +54140,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -54753,8 +54691,7 @@
       "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
       "title": "Hanazakari no Kimitachi e 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -54763,7 +54700,7 @@
         "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 13,
         "vidhide": 6,
@@ -58301,8 +58238,7 @@
       "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/",
       "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -58311,7 +58247,7 @@
         "https://jkanime.net/vigilante-boku-no-hero-academia-illegals-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 13,
         "vidhide": 2,
@@ -59691,8 +59627,7 @@
       "series": "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/",
       "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -59705,7 +59640,7 @@
         "https://jkanime.net/toujima-tanzaburou-wa-kamen-rider-ni-naritai/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 5,
         "streamwish": 24,
@@ -61915,8 +61850,7 @@
       "series": "https://jkanime.net/busamen-gachi-fighter/",
       "title": "Busamen Gachi Fighter",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -61925,7 +61859,7 @@
         "https://jkanime.net/busamen-gachi-fighter/10/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 8,
         "vidhide": 10,
@@ -62285,7 +62219,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "mega": 12,
         "streamwish": 12,
@@ -176526,21 +176460,17 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-ikusei-keikaku-restart/",
       "title": "Mahou Shoujo Ikusei Keikaku: Restart",
-      "causes": [
-        "observed-chapters-without-options"
-      ],
+      "causes": [],
       "observed": 5,
-      "stored": 4,
-      "missing": [
-        "https://jkanime.net/mahou-shoujo-ikusei-keikaku-restart/5/"
-      ],
+      "stored": 5,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 2,
-        "vidhide": 2
+        "mp4upload": 5,
+        "streamwish": 3,
+        "vidhide": 3
       },
       "playbackVerified": false
     },
