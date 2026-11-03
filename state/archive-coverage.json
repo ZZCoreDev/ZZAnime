@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-03T16:47:45.185214+00:00",
+  "checkedAt": "2026-11-03T17:05:20.402512+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73856,
   "storedChapters": 73036,
   "missingChapters": 514,
-  "expiredChapters": 57093,
+  "expiredChapters": 57120,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -33761,6 +33761,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/the-bloody-mary/",
+        "title": "The Bloody Mary",
+        "samples": [
+          "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kami-no-shizuku/",
         "title": "Kami no Shizuku",
         "samples": [
@@ -33915,6 +33922,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/luca/",
+        "title": "Luca",
+        "samples": [
+          "https://jkanime.net/luca/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/terror-man/",
         "title": "Terror Man",
         "samples": [
@@ -34061,6 +34075,13 @@
         "samples": [
           "https://jkanime.net/yi-ren-zhi-xia-6/1/",
           "https://jkanime.net/yi-ren-zhi-xia-6/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/",
+        "title": "Tomoni Kagayaku Ashita no Tameni.",
+        "samples": [
+          "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/1/"
         ]
       },
       {
@@ -34306,6 +34327,13 @@
         "samples": [
           "https://jkanime.net/chainsaw-man-recap/1/",
           "https://jkanime.net/chainsaw-man-recap/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/musashino-bonus/",
+        "title": "Musashino! Bonus",
+        "samples": [
+          "https://jkanime.net/musashino-bonus/1/"
         ]
       },
       {
@@ -35803,6 +35831,27 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ai-no-yakusoku/",
+        "title": "Ai no Yakusoku",
+        "samples": [
+          "https://jkanime.net/ai-no-yakusoku/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/himitsu-doushi/",
+        "title": "Himitsu Doushi",
+        "samples": [
+          "https://jkanime.net/himitsu-doushi/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mirai-kara-yattekita-mori/",
+        "title": "Mirai kara Yattekita Mori",
+        "samples": [
+          "https://jkanime.net/mirai-kara-yattekita-mori/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/xi-jing-sushe/",
         "title": "Xi Jing Sushe",
         "samples": [
@@ -36656,6 +36705,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/aishang-ta-de-liyou-extra/",
+        "title": "Aishang Ta de Liyou Extra",
+        "samples": [
+          "https://jkanime.net/aishang-ta-de-liyou-extra/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ninja-kamui/",
         "title": "Ninja Kamui",
         "samples": [
@@ -37130,6 +37186,13 @@
         "samples": [
           "https://jkanime.net/the-daily-life-of-the-inmortal-king-4nd-season/1/",
           "https://jkanime.net/the-daily-life-of-the-inmortal-king-4nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/twi-yaba/",
+        "title": "Twi-Yaba",
+        "samples": [
+          "https://jkanime.net/twi-yaba/1/"
         ]
       },
       {
@@ -37796,6 +37859,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chronoir-episode0/",
+        "title": "ChroNoiR Episode.0",
+        "samples": [
+          "https://jkanime.net/chronoir-episode0/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/hanma-baki-son-of-ogre-2nd-season/",
         "title": "Hanma Baki: Son of Ogre 2nd Season",
         "samples": [
@@ -37945,6 +38015,13 @@
         "samples": [
           "https://jkanime.net/temple/1/",
           "https://jkanime.net/temple/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ahiru-kun-no-chiisana-bouken/",
+        "title": "Ahiru-kun no Chiisana Bouken",
+        "samples": [
+          "https://jkanime.net/ahiru-kun-no-chiisana-bouken/1/"
         ]
       },
       {
@@ -38777,6 +38854,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tentai-kansoku/",
+        "title": "Tentai Kansoku",
+        "samples": [
+          "https://jkanime.net/tentai-kansoku/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shingeki-no-kyojin-the-final-season-kanketsu-hen/",
         "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
         "samples": [
@@ -38822,6 +38906,13 @@
         "samples": [
           "https://jkanime.net/wu-liuqi-anying-suming/1/",
           "https://jkanime.net/wu-liuqi-anying-suming/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/watashi-no-hashtag-ga-haenakute/",
+        "title": "Watashi no Hashtag ga Haenakute.",
+        "samples": [
+          "https://jkanime.net/watashi-no-hashtag-ga-haenakute/1/"
         ]
       },
       {
@@ -39230,6 +39321,13 @@
         "samples": [
           "https://jkanime.net/cang-lan-jue-part-2/1/",
           "https://jkanime.net/cang-lan-jue-part-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/pole-princess-prologue/",
+        "title": "Pole Princess!! Prologue",
+        "samples": [
+          "https://jkanime.net/pole-princess-prologue/1/"
         ]
       },
       {
@@ -40110,6 +40208,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/dead-or-arrive/",
+        "title": "Dead or Arrive",
+        "samples": [
+          "https://jkanime.net/dead-or-arrive/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/zanting-rang-wo-cha-gonglue/",
         "title": "Zanting! Rang Wo Cha Gonglue",
         "samples": [
@@ -40486,6 +40591,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kirakira-kirari/",
+        "title": "Kirakira Kirari",
+        "samples": [
+          "https://jkanime.net/kirakira-kirari/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/estab-life-great-escape/",
         "title": "Estab-Life: Great Escape",
         "samples": [
@@ -40513,6 +40625,20 @@
         "title": "Totsukuni no Shoujo (2022)",
         "samples": [
           "https://jkanime.net/totsukuni-no-shoujo-2022/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/",
+        "title": "Ryuukyuu Timeline 2: Tedako no Machi Tanbou",
+        "samples": [
+          "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shiyakusho/",
+        "title": "Shiyakusho",
+        "samples": [
+          "https://jkanime.net/shiyakusho/1/"
         ]
       },
       {
@@ -41543,6 +41669,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/",
+        "title": "Youjo Senki: Sabaku no Pasta Daisakusen",
+        "samples": [
+          "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/sonny-boy/",
         "title": "Sonny Boy",
         "samples": [
@@ -41966,6 +42099,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/home/",
+        "title": "Home!",
+        "samples": [
+          "https://jkanime.net/home/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/cardfight-vanguard-overdress/",
         "title": "Cardfight!! Vanguard: overDress",
         "samples": [
@@ -41978,6 +42118,13 @@
         "title": "B: The Beginning - Succession",
         "samples": [
           "https://jkanime.net/b-the-beginning-succession/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/",
+        "title": "Ryuukyuu Timeline: Mirai Shoujo to Inishie no Ou",
+        "samples": [
+          "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/1/"
         ]
       },
       {
@@ -42002,6 +42149,13 @@
         "samples": [
           "https://jkanime.net/maiko-san-chi-no-makanai-san/1/",
           "https://jkanime.net/maiko-san-chi-no-makanai-san/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tian-guan-cifu-special/",
+        "title": "Tian Guan Cifu Special",
+        "samples": [
+          "https://jkanime.net/tian-guan-cifu-special/1/"
         ]
       },
       {
@@ -42550,6 +42704,13 @@
         "samples": [
           "https://jkanime.net/gochuumon-wa-usagi-desu-ka-bloom/1/",
           "https://jkanime.net/gochuumon-wa-usagi-desu-ka-bloom/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/boukyaku-battery/",
+        "title": "Boukyaku Battery",
+        "samples": [
+          "https://jkanime.net/boukyaku-battery/1/"
         ]
       },
       {
@@ -44081,6 +44242,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zenonzard-the-animation/",
+        "title": "Zenonzard: The Animation",
+        "samples": [
+          "https://jkanime.net/zenonzard-the-animation/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mo-dao-zu-shi-xian-yun-pian/",
         "title": "Mo Dao Zu Shi: Xian Yun Pian",
         "samples": [
@@ -45394,6 +45562,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/jashin-chan-dropkick-episode-12/",
+        "title": "Jashin-chan Dropkick Episode 12",
+        "samples": [
+          "https://jkanime.net/jashin-chan-dropkick-episode-12/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/double-decker-doug-kirill/",
         "title": "Double Decker! Doug & Kirill",
         "samples": [
@@ -45692,6 +45867,13 @@
         "samples": [
           "https://jkanime.net/yuragi-sou-no-yuuna-san-ova/1/",
           "https://jkanime.net/yuragi-sou-no-yuuna-san-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/",
+        "title": "Aru Zombie Shoujo no Sainan (ONA)",
+        "samples": [
+          "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/1/"
         ]
       },
       {
@@ -47121,6 +47303,13 @@
         "samples": [
           "https://jkanime.net/huyao-xiao-hongniang/1/",
           "https://jkanime.net/huyao-xiao-hongniang/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/demi-chan-wa-kataritai-special/",
+        "title": "Demi-chan wa Kataritai Special",
+        "samples": [
+          "https://jkanime.net/demi-chan-wa-kataritai-special/1/"
         ]
       },
       {
@@ -65132,12 +65321,15 @@
       "series": "https://jkanime.net/the-bloody-mary/",
       "title": "The Bloody Mary",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/the-bloody-mary/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -66746,12 +66938,15 @@
       "series": "https://jkanime.net/luca/",
       "title": "Luca",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/luca/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -68267,12 +68462,15 @@
       "series": "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/",
       "title": "Tomoni Kagayaku Ashita no Tameni.",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tomoni-kagayaku-ashita-no-tameni/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -70463,12 +70661,15 @@
       "series": "https://jkanime.net/musashino-bonus/",
       "title": "Musashino! Bonus",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/musashino-bonus/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -79183,12 +79384,15 @@
       "series": "https://jkanime.net/ai-no-yakusoku/",
       "title": "Ai no Yakusoku",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ai-no-yakusoku/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -79201,12 +79405,15 @@
       "series": "https://jkanime.net/himitsu-doushi/",
       "title": "Himitsu Doushi",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/himitsu-doushi/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -79273,12 +79480,15 @@
       "series": "https://jkanime.net/mirai-kara-yattekita-mori/",
       "title": "Mirai kara Yattekita Mori",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mirai-kara-yattekita-mori/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -84223,12 +84433,15 @@
       "series": "https://jkanime.net/aishang-ta-de-liyou-extra/",
       "title": "Aishang Ta de Liyou Extra",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/aishang-ta-de-liyou-extra/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -86630,12 +86843,15 @@
       "series": "https://jkanime.net/twi-yaba/",
       "title": "Twi-Yaba",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/twi-yaba/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -90020,12 +90236,15 @@
       "series": "https://jkanime.net/chronoir-episode0/",
       "title": "ChroNoiR Episode.0",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/chronoir-episode0/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -90781,12 +91000,15 @@
       "series": "https://jkanime.net/ahiru-kun-no-chiisana-bouken/",
       "title": "Ahiru-kun no Chiisana Bouken",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ahiru-kun-no-chiisana-bouken/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -94971,12 +95193,15 @@
       "series": "https://jkanime.net/tentai-kansoku/",
       "title": "Tentai Kansoku",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tentai-kansoku/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -95264,12 +95489,15 @@
       "series": "https://jkanime.net/watashi-no-hashtag-ga-haenakute/",
       "title": "Watashi no Hashtag ga Haenakute.",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/watashi-no-hashtag-ga-haenakute/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -97098,12 +97326,15 @@
       "series": "https://jkanime.net/pole-princess-prologue/",
       "title": "Pole Princess!! Prologue",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/pole-princess-prologue/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -101718,12 +101949,15 @@
       "series": "https://jkanime.net/dead-or-arrive/",
       "title": "Dead or Arrive",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/dead-or-arrive/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -103714,12 +103948,15 @@
       "series": "https://jkanime.net/kirakira-kirari/",
       "title": "Kirakira Kirari",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kirakira-kirari/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -103899,12 +104136,15 @@
       "series": "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/",
       "title": "Ryuukyuu Timeline 2: Tedako no Machi Tanbou",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ryuukyuu-timeline-2-tedako-no-machi-tanbou/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -103935,12 +104175,15 @@
       "series": "https://jkanime.net/shiyakusho/",
       "title": "Shiyakusho",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shiyakusho/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -109445,12 +109688,15 @@
       "series": "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/",
       "title": "Youjo Senki: Sabaku no Pasta Daisakusen",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/youjo-senki-sabaku-no-pasta-daisakusen/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -111627,12 +111873,15 @@
       "series": "https://jkanime.net/home/",
       "title": "Home!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/home/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -111718,12 +111967,15 @@
       "series": "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/",
       "title": "Ryuukyuu Timeline: Mirai Shoujo to Inishie no Ou",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ryuukyuu-timeline-mirai-shoujo-to-inishie-no-ou/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -111831,12 +112083,15 @@
       "series": "https://jkanime.net/tian-guan-cifu-special/",
       "title": "Tian Guan Cifu Special",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tian-guan-cifu-special/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -114610,12 +114865,15 @@
       "series": "https://jkanime.net/boukyaku-battery/",
       "title": "Boukyaku Battery",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/boukyaku-battery/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -122678,12 +122936,15 @@
       "series": "https://jkanime.net/zenonzard-the-animation/",
       "title": "Zenonzard: The Animation",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/zenonzard-the-animation/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -129735,12 +129996,15 @@
       "series": "https://jkanime.net/jashin-chan-dropkick-episode-12/",
       "title": "Jashin-chan Dropkick Episode 12",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/jashin-chan-dropkick-episode-12/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -131335,12 +131599,15 @@
       "series": "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/",
       "title": "Aru Zombie Shoujo no Sainan (ONA)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/aru-zombie-shoujo-no-sainan-ona/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -139122,12 +139389,15 @@
       "series": "https://jkanime.net/demi-chan-wa-kataritai-special/",
       "title": "Demi-chan wa Kataritai Special",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/demi-chan-wa-kataritai-special/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
