@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-03T04:08:10.137482+00:00",
+  "checkedAt": "2026-11-03T04:25:43.013903+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
   "storedChapters": 72665,
   "missingChapters": 1188,
-  "expiredChapters": 19338,
+  "expiredChapters": 19325,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -93,7 +93,7 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/"
         ]
       },
       {
@@ -36856,7 +36856,7 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/"
         ]
       },
       {
@@ -54143,11 +54143,7 @@
       "expired": [
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/5/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/9/"
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 2,
@@ -54190,14 +54186,11 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/10/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/",
-        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/12/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/3/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/4/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/5/",
-        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/7/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/8/"
       ],
       "noIndependent": [],
@@ -54226,14 +54219,10 @@
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/1/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/10/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/11/",
-        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/12/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/2/",
-        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/3/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/4/",
-        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/5/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/6/",
-        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/8/",
-        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/9/"
+        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 12,
@@ -54300,9 +54289,7 @@
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/2/",
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/3/",
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/4/",
-        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/5/",
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/6/",
-        "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/7/",
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/8/",
         "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/9/"
       ],
