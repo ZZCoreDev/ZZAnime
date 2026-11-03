@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T10:00:33.389739+00:00",
-  "failedChapters": 56453,
-  "series": 4060,
+  "checkedAt": "2026-11-03T10:17:15.169687+00:00",
+  "failedChapters": 56451,
+  "series": 4058,
   "diagnosedSeries": 4047,
-  "pendingSeries": 13,
+  "pendingSeries": 11,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -23,7 +23,7 @@
   },
   "knownFinalReasons": {
     "Source HTTP 404": 16617,
-    "ValueError: VOE provider scope": 129,
+    "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3143,
     "ValueError: No approved observations; previous channel retained": 36,
@@ -119379,18 +119379,6 @@
       "nextRetryAt": 1793455635.8770013
     },
     {
-      "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793699618.2420862
-    },
-    {
       "series": "https://jkanime.net/cluster-edge/",
       "failedChapters": 1,
       "samples": [
@@ -124081,18 +124069,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793797804.464473
-    },
-    {
-      "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793699633.0454853
     },
     {
       "series": "https://jkanime.net/hand-maid-mai/",

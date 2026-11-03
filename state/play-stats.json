@@ -1,1 +1,1 @@
-{"basis": "independent-networks", "checkedAt": "2026-11-03T09:54:49.094531Z", "complete": true, "evidencePolicy": "network-v2", "families": {}, "generatedAt": "2026-11-03T09:54:50.909Z", "minDeviceAgeHours": 24, "options": [], "popular": [], "schema": 1}
+{"basis": "independent-networks", "checkedAt": "2026-11-03T10:11:34.230562Z", "complete": true, "evidencePolicy": "network-v2", "families": {"mp4upload": [1, 0], "streamwish": [1, 0]}, "generatedAt": "2026-11-03T10:11:35.471Z", "minDeviceAgeHours": 24, "options": [], "popular": [], "schema": 1}
