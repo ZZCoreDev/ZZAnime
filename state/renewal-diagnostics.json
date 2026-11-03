@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T15:48:33.650400+00:00",
-  "failedChapters": 56540,
-  "series": 4097,
+  "checkedAt": "2026-11-03T16:05:30.656142+00:00",
+  "failedChapters": 56546,
+  "series": 4099,
   "diagnosedSeries": 4047,
-  "pendingSeries": 50,
+  "pendingSeries": 52,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 146,
+    "ValueError: No approved observations; previous channel retained": 152,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -82354,6 +82354,39 @@
       "nextRetryAt": 1793219667.982192
     },
     {
+      "series": "https://jkanime.net/akuyaku-reijou-tensei-ojisan/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/akuyaku-reijou-tensei-ojisan/1/",
+        "https://jkanime.net/akuyaku-reijou-tensei-ojisan/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/akuyaku-reijou-tensei-ojisan/1/",
+      "sources": {
+        "flv": {
+          "cause": "identity-mismatch",
+          "message": "Ambiguous AnimeFLV listing identity",
+          "stage": "listing",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793448359993,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "voe-only",
+          "stage": "complete",
+          "status": 200
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793192437.1061478
+    },
+    {
       "series": "https://jkanime.net/anime-de-wakaru-shinryounaika/",
       "failedChapters": 11,
       "samples": [
@@ -87550,39 +87583,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793262737.2234385
-    },
-    {
-      "series": "https://jkanime.net/akuyaku-reijou-tensei-ojisan/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/akuyaku-reijou-tensei-ojisan/1/",
-        "https://jkanime.net/akuyaku-reijou-tensei-ojisan/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/akuyaku-reijou-tensei-ojisan/1/",
-      "sources": {
-        "flv": {
-          "cause": "identity-mismatch",
-          "message": "Ambiguous AnimeFLV listing identity",
-          "stage": "listing",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793448359993,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "voe-only",
-          "stage": "complete",
-          "status": 200
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793192437.1061478
     },
     {
       "series": "https://jkanime.net/ao-no-exorcist-yuki-no-hate-hen/",
@@ -96759,6 +96759,19 @@
       "nextRetryAt": 1793247574.5968046
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717010.3162668
+    },
+    {
       "series": "https://jkanime.net/kancolle-itsuka-ano-umi-de/",
       "failedChapters": 7,
       "samples": [
@@ -99085,19 +99098,6 @@
       "nextRetryAt": 1793260111.232594
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717010.3162668
-    },
-    {
       "series": "https://jkanime.net/kaitou-joker-4th-season/",
       "failedChapters": 6,
       "samples": [
@@ -100911,8 +100911,8 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "failedChapters": 6,
       "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -101474,6 +101474,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793261405.1617115
+    },
+    {
+      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/",
@@ -103979,19 +103992,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793349369.62702
-    },
-    {
-      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/ex-arm/",
@@ -109055,7 +109055,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714120.103433
+      "nextRetryAt": 1793714125.2850087
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -110310,14 +110310,14 @@
       "series": "https://jkanime.net/takopii-no-genzai/",
       "failedChapters": 3,
       "samples": [
-        "https://jkanime.net/takopii-no-genzai/5/",
-        "https://jkanime.net/takopii-no-genzai/6/"
+        "https://jkanime.net/takopii-no-genzai/4/",
+        "https://jkanime.net/takopii-no-genzai/5/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714153.7348998
+      "nextRetryAt": 1793714153.73491
     },
     {
       "series": "https://jkanime.net/tamayomi/",
@@ -110467,7 +110467,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714157.5480716
+      "nextRetryAt": 1793714161.8587835
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -116293,6 +116293,19 @@
       "nextRetryAt": 1793346798.4119914
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/8/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
       "failedChapters": 1,
       "samples": [
@@ -118845,7 +118858,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793720103.6498866
+      "nextRetryAt": 1793728981.8500328
     },
     {
       "series": "https://jkanime.net/busou-shinki-moon-angel/",
@@ -120065,6 +120078,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793722491.6529276
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -130312,7 +130337,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793719058.1609313
+      "nextRetryAt": 1793728967.372975
     },
     {
       "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-special/",
@@ -139047,16 +139072,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793722491.6529276
+      "nextRetryAt": 1793723498.33277
     }
   ]
 }

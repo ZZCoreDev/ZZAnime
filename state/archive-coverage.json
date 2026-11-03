@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T15:48:33.650400+00:00",
+  "checkedAt": "2026-11-03T16:05:30.656142+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73855,
   "storedChapters": 73035,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -3231,6 +3238,14 @@
         "samples": [
           "https://jkanime.net/sentai-daishikkaku/1/",
           "https://jkanime.net/sentai-daishikkaku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+        "title": "Yozakura-san Chi no Daisakusen",
+        "samples": [
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
+          "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
         ]
       },
       {
@@ -63542,7 +63557,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -63551,7 +63567,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -75307,7 +75323,7 @@
         "https://jkanime.net/akuyaku-reijou-tensei-ojisan/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78332,7 +78348,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78499,7 +78515,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -82625,7 +82641,8 @@
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
       "title": "Yozakura-san Chi no Daisakusen",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 27,
       "stored": 27,
@@ -82660,7 +82677,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 27,
