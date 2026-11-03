@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-03T08:13:24.047116+00:00",
+  "checkedAt": "2026-11-03T08:35:10.801098+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73854,
   "storedChapters": 72665,
   "missingChapters": 1189,
-  "expiredChapters": 27069,
+  "expiredChapters": 27880,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sourceRequests": 0,
@@ -18517,7 +18517,7 @@
         "title": "High School DxD BorN",
         "samples": [
           "https://jkanime.net/high-school-dxd-born/1/",
-          "https://jkanime.net/high-school-dxd-born/2/"
+          "https://jkanime.net/high-school-dxd-born/10/"
         ]
       },
       {
@@ -31458,8 +31458,8 @@
         "series": "https://jkanime.net/kanojo-no-tomodachi/",
         "title": "Kanojo no Tomodachi",
         "samples": [
-          "https://jkanime.net/kanojo-no-tomodachi/1/",
-          "https://jkanime.net/kanojo-no-tomodachi/2/"
+          "https://jkanime.net/kanojo-no-tomodachi/2/",
+          "https://jkanime.net/kanojo-no-tomodachi/3/"
         ]
       },
       {
@@ -31550,8 +31550,8 @@
         "series": "https://jkanime.net/umayuru-full-gate/",
         "title": "Umayuru: Full Gate!",
         "samples": [
-          "https://jkanime.net/umayuru-full-gate/1/",
-          "https://jkanime.net/umayuru-full-gate/2/"
+          "https://jkanime.net/umayuru-full-gate/3/",
+          "https://jkanime.net/umayuru-full-gate/4/"
         ]
       },
       {
@@ -31590,7 +31590,6 @@
         "series": "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/",
         "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
         "samples": [
-          "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/1/",
           "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/10/"
         ]
       },
@@ -53631,7 +53630,635 @@
         "title": "High School DxD BorN",
         "samples": [
           "https://jkanime.net/high-school-dxd-born/1/",
-          "https://jkanime.net/high-school-dxd-born/2/"
+          "https://jkanime.net/high-school-dxd-born/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kyoukai-no-rinne-tv/",
+        "title": "Kyoukai no Rinne",
+        "samples": [
+          "https://jkanime.net/kyoukai-no-rinne-tv/1/",
+          "https://jkanime.net/kyoukai-no-rinne-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/",
+        "title": "Uta no☆Prince-sama♪ Maji Love Revolutions",
+        "samples": [
+          "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/1/",
+          "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/",
+        "title": "Mahou Shoujo Lyrical Nanoha ViVid",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/1/",
+          "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shokugeki-no-souma/",
+        "title": "Food Wars: Shokugeki no Soma",
+        "samples": [
+          "https://jkanime.net/shokugeki-no-souma/1/",
+          "https://jkanime.net/shokugeki-no-souma/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/",
+        "title": "Nagato Yuki-chan no Shoushitsu",
+        "samples": [
+          "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/1/",
+          "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kekkai-sensen/",
+        "title": "Kekkai Sensen",
+        "samples": [
+          "https://jkanime.net/kekkai-sensen/1/",
+          "https://jkanime.net/kekkai-sensen/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/vampire-holmes/",
+        "title": "Vampire Holmes",
+        "samples": [
+          "https://jkanime.net/vampire-holmes/1/",
+          "https://jkanime.net/vampire-holmes/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gintama-ova/",
+        "title": "Gintama 2015",
+        "samples": [
+          "https://jkanime.net/gintama-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/re-kan/",
+        "title": "Re-Kan!",
+        "samples": [
+          "https://jkanime.net/re-kan/1/",
+          "https://jkanime.net/re-kan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/",
+        "title": "Oregairu 2",
+        "samples": [
+          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/1/",
+          "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/",
+        "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken 2 Sure-me",
+        "samples": [
+          "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/1/",
+          "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinmai-maou-no-testament-specials/",
+        "title": "Shinmai Maou no Testament Specials",
+        "samples": [
+          "https://jkanime.net/shinmai-maou-no-testament-specials/1/",
+          "https://jkanime.net/shinmai-maou-no-testament-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/etotama/",
+        "title": "Etotama",
+        "samples": [
+          "https://jkanime.net/etotama/1/",
+          "https://jkanime.net/etotama/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/haikyuu-oad/",
+        "title": "Haikyuu!! OAD",
+        "samples": [
+          "https://jkanime.net/haikyuu-oad/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam-the-origin/",
+        "title": "Mobile Suit Gundam: The Origin",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam-the-origin/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/anime-de-wakaru-shinryounaika/",
+        "title": "Anime de Wakaru Shinryounaika",
+        "samples": [
+          "https://jkanime.net/anime-de-wakaru-shinryounaika/1/",
+          "https://jkanime.net/anime-de-wakaru-shinryounaika/15/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/go-princess-precure/",
+        "title": "Go! Princess Precure",
+        "samples": [
+          "https://jkanime.net/go-princess-precure/1/",
+          "https://jkanime.net/go-princess-precure/13/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/isuca/",
+        "title": "Isuca",
+        "samples": [
+          "https://jkanime.net/isuca/1/",
+          "https://jkanime.net/isuca/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-after/",
+        "title": "Hyakka Ryouran: Samurai After",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-after/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-after/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hyakka-ryouran-samurai-after-specials/",
+        "title": "Hyakka Ryouran: Samurai After Specials",
+        "samples": [
+          "https://jkanime.net/hyakka-ryouran-samurai-after-specials/1/",
+          "https://jkanime.net/hyakka-ryouran-samurai-after-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sengoku-musou/",
+        "title": "Sengoku Musou",
+        "samples": [
+          "https://jkanime.net/sengoku-musou/1/",
+          "https://jkanime.net/sengoku-musou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seiken-tsukai-no-world-break/",
+        "title": "Seiken Tsukai no World Break",
+        "samples": [
+          "https://jkanime.net/seiken-tsukai-no-world-break/1/",
+          "https://jkanime.net/seiken-tsukai-no-world-break/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yoru-no-yatterman/",
+        "title": "Yoru no Yatterman",
+        "samples": [
+          "https://jkanime.net/yoru-no-yatterman/1/",
+          "https://jkanime.net/yoru-no-yatterman/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shounen-hollywood-holly-stage-for-50/",
+        "title": "Shounen Hollywood: Holly Stage for 50",
+        "samples": [
+          "https://jkanime.net/shounen-hollywood-holly-stage-for-50/2/",
+          "https://jkanime.net/shounen-hollywood-holly-stage-for-50/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rolling-girls/",
+        "title": "Rolling☆Girls",
+        "samples": [
+          "https://jkanime.net/rolling-girls/1/",
+          "https://jkanime.net/rolling-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroko-no-basket-3/",
+        "title": "Kuroko no Basket 3",
+        "samples": [
+          "https://jkanime.net/kuroko-no-basket-3/1/",
+          "https://jkanime.net/kuroko-no-basket-3/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/durarara-x2-shou/",
+        "title": "Durarara!!x2 Shou",
+        "samples": [
+          "https://jkanime.net/durarara-x2-shou/11/",
+          "https://jkanime.net/durarara-x2-shou/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/",
+        "title": "Soukyuu no Fafner: Dead Aggressor - Exodus",
+        "samples": [
+          "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/1/",
+          "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/death-parade/",
+        "title": "Death Parade",
+        "samples": [
+          "https://jkanime.net/death-parade/1/",
+          "https://jkanime.net/death-parade/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ansatsu-kyoushitsu-tv/",
+        "title": "Ansatsu Kyoushitsu (TV)",
+        "samples": [
+          "https://jkanime.net/ansatsu-kyoushitsu-tv/1/",
+          "https://jkanime.net/ansatsu-kyoushitsu-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/the-idolmster-cinderella-girls/",
+        "title": "The iDOLM@STER Cinderella Girls",
+        "samples": [
+          "https://jkanime.net/the-idolmster-cinderella-girls/1/",
+          "https://jkanime.net/the-idolmster-cinderella-girls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tokyo-ghoul-2/",
+        "title": "Tokyo Ghoul √A",
+        "samples": [
+          "https://jkanime.net/tokyo-ghoul-2/1/",
+          "https://jkanime.net/tokyo-ghoul-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koufuku-graffiti/",
+        "title": "Koufuku Graffiti",
+        "samples": [
+          "https://jkanime.net/koufuku-graffiti/1/",
+          "https://jkanime.net/koufuku-graffiti/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/juuou-mujin-no-fafnir/",
+        "title": "Juuou Mujin no Fafnir",
+        "samples": [
+          "https://jkanime.net/juuou-mujin-no-fafnir/1/",
+          "https://jkanime.net/juuou-mujin-no-fafnir/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kantai-collection-kancolle/",
+        "title": "Kantai Collection: KanColle",
+        "samples": [
+          "https://jkanime.net/kantai-collection-kancolle/1/",
+          "https://jkanime.net/kantai-collection-kancolle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shinmai-maou-no-testament/",
+        "title": "Shinmai Maou no Testament",
+        "samples": [
+          "https://jkanime.net/shinmai-maou-no-testament/1/",
+          "https://jkanime.net/shinmai-maou-no-testament/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/military/",
+        "title": "Military!",
+        "samples": [
+          "https://jkanime.net/military/1/",
+          "https://jkanime.net/military/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/",
+        "title": "Binan Koukou Chikyuu Bouei-bu Love!",
+        "samples": [
+          "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/1/",
+          "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuri-kuma-arashi/",
+        "title": "Yuri Kuma Arashi",
+        "samples": [
+          "https://jkanime.net/yuri-kuma-arashi/1/",
+          "https://jkanime.net/yuri-kuma-arashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kamisama-hajimemashita-2/",
+        "title": "Kamisama Hajimemashita◎ S2",
+        "samples": [
+          "https://jkanime.net/kamisama-hajimemashita-2/1/",
+          "https://jkanime.net/kamisama-hajimemashita-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/absolute-duo/",
+        "title": "Absolute Duo",
+        "samples": [
+          "https://jkanime.net/absolute-duo/1/",
+          "https://jkanime.net/absolute-duo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/junketsu-no-maria/",
+        "title": "Junketsu no Maria",
+        "samples": [
+          "https://jkanime.net/junketsu-no-maria/1/",
+          "https://jkanime.net/junketsu-no-maria/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aishen-qiaokeli-ing/",
+        "title": "Aishen Qiaokeli-ing...",
+        "samples": [
+          "https://jkanime.net/aishen-qiaokeli-ing/1/",
+          "https://jkanime.net/aishen-qiaokeli-ing/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tantei-kageki-milky-holmes-td/",
+        "title": "Tantei Kageki Milky Holmes TD",
+        "samples": [
+          "https://jkanime.net/tantei-kageki-milky-holmes-td/1/",
+          "https://jkanime.net/tantei-kageki-milky-holmes-td/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsukimonogatari/",
+        "title": "Tsukimonogatari",
+        "samples": [
+          "https://jkanime.net/tsukimonogatari/1/",
+          "https://jkanime.net/tsukimonogatari/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/amagi-brilliant-park-specials/",
+        "title": "Amagi Brilliant Park Specials",
+        "samples": [
+          "https://jkanime.net/amagi-brilliant-park-specials/1/",
+          "https://jkanime.net/amagi-brilliant-park-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yama-no-susume-2nd-season-special/",
+        "title": "Yama no Susume 2nd Season Special",
+        "samples": [
+          "https://jkanime.net/yama-no-susume-2nd-season-special/1/",
+          "https://jkanime.net/yama-no-susume-2nd-season-special/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/grisaia-no-kajitsu-specials/",
+        "title": "Grisaia no Kajitsu Specials",
+        "samples": [
+          "https://jkanime.net/grisaia-no-kajitsu-specials/1/",
+          "https://jkanime.net/grisaia-no-kajitsu-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ikkitousen-extravaganza-epoch/",
+        "title": "Ikkitousen: Extravaganza Epoch",
+        "samples": [
+          "https://jkanime.net/ikkitousen-extravaganza-epoch/1/",
+          "https://jkanime.net/ikkitousen-extravaganza-epoch/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/strike-witches-operation-victory-arrow/",
+        "title": "Strike Witches: Operation Victory Arrow",
+        "samples": [
+          "https://jkanime.net/strike-witches-operation-victory-arrow/1/",
+          "https://jkanime.net/strike-witches-operation-victory-arrow/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/",
+        "title": "Chuunibyou demo Koi ga Shitai! Ren Specials",
+        "samples": [
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/1/",
+          "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/brothers-conflict-ova/",
+        "title": "Brothers Conflict OVA",
+        "samples": [
+          "https://jkanime.net/brothers-conflict-ova/1/",
+          "https://jkanime.net/brothers-conflict-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yamada-kun-to-7-nin-no-majo-ova/",
+        "title": "Yamada-kun to 7-nin no Majo (OVA)",
+        "samples": [
+          "https://jkanime.net/yamada-kun-to-7-nin-no-majo-ova/1/",
+          "https://jkanime.net/yamada-kun-to-7-nin-no-majo-ova/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/itsudatte-my-santa/",
+        "title": "Itsudatte My Santa!",
+        "samples": [
+          "https://jkanime.net/itsudatte-my-santa/1/",
+          "https://jkanime.net/itsudatte-my-santa/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/",
+        "title": "Shingeki no Kyojin: Kuinaki Sentaku",
+        "samples": [
+          "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/1/",
+          "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wake-up-girl-zoo/",
+        "title": "Wake Up, Girl Zoo!",
+        "samples": [
+          "https://jkanime.net/wake-up-girl-zoo/1/",
+          "https://jkanime.net/wake-up-girl-zoo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/diamond-no-ace-ova/",
+        "title": "Diamond no Ace OVA",
+        "samples": [
+          "https://jkanime.net/diamond-no-ace-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nihon-animator-mihonichi/",
+        "title": "Expo de Animadores de Japón",
+        "samples": [
+          "https://jkanime.net/nihon-animator-mihonichi/1/",
+          "https://jkanime.net/nihon-animator-mihonichi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hybrid-child/",
+        "title": "Hybrid Child",
+        "samples": [
+          "https://jkanime.net/hybrid-child/1/",
+          "https://jkanime.net/hybrid-child/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/new-prince-of-tennis-ova/",
+        "title": "New Prince of Tennis OVA vs. Genius 10",
+        "samples": [
+          "https://jkanime.net/new-prince-of-tennis-ova/1/",
+          "https://jkanime.net/new-prince-of-tennis-ova/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/",
+        "title": "Seirei Tsukai no Blade Dance Specials",
+        "samples": [
+          "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/1/",
+          "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kuroshitsuji-book-of-murder/",
+        "title": "Kuroshitsuji: Book of Murder",
+        "samples": [
+          "https://jkanime.net/kuroshitsuji-book-of-murder/1/",
+          "https://jkanime.net/kuroshitsuji-book-of-murder/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sabagebu-special-mission/",
+        "title": "Sabagebu! SPECIAL MISSION",
+        "samples": [
+          "https://jkanime.net/sabagebu-special-mission/1/",
+          "https://jkanime.net/sabagebu-special-mission/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sword-art-offline-ii/",
+        "title": "Sword Art Offline II",
+        "samples": [
+          "https://jkanime.net/sword-art-offline-ii/1/",
+          "https://jkanime.net/sword-art-offline-ii/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
+        "title": "Mushishi Zoku Shou 2nd Season",
+        "samples": [
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/imawa-no-kuni-no-alice/",
+        "title": "Imawa no Kuni no Alice",
+        "samples": [
+          "https://jkanime.net/imawa-no-kuni-no-alice/2/",
+          "https://jkanime.net/imawa-no-kuni-no-alice/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/",
+        "title": "Yuuki Yuuna wa Yuusha de Aru",
+        "samples": [
+          "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/1/",
+          "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/",
+        "title": "Steins;Gate: Soumei Eichi no Cognitive Computing",
+        "samples": [
+          "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/1/",
+          "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girlfriend-kari/",
+        "title": "Girlfriend (Kari)",
+        "samples": [
+          "https://jkanime.net/girlfriend-kari/1/",
+          "https://jkanime.net/girlfriend-kari/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sanzoku-no-musume-ronja/",
+        "title": "Sanzoku no Musume Ronja",
+        "samples": [
+          "https://jkanime.net/sanzoku-no-musume-ronja/1/",
+          "https://jkanime.net/sanzoku-no-musume-ronja/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bonjour-koiaji-ptisserie/",
+        "title": "Bonjour♪ Koiaji Pâtisserie",
+        "samples": [
+          "https://jkanime.net/bonjour-koiaji-ptisserie/1/",
+          "https://jkanime.net/bonjour-koiaji-ptisserie/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futari-ecchi-2014/",
+        "title": "Futari Ecchi 2014",
+        "samples": [
+          "https://jkanime.net/futari-ecchi-2014/1/",
+          "https://jkanime.net/futari-ecchi-2014/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/psycho-pass-2/",
+        "title": "Psycho-Pass 2",
+        "samples": [
+          "https://jkanime.net/psycho-pass-2/1/",
+          "https://jkanime.net/psycho-pass-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ore-twintails-ni-narimasu/",
+        "title": "Ore, Twintails ni Narimasu.",
+        "samples": [
+          "https://jkanime.net/ore-twintails-ni-narimasu/1/",
+          "https://jkanime.net/ore-twintails-ni-narimasu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shigatsu-wa-kimi-no-uso/",
+        "title": "Shigatsu wa Kimi no Uso",
+        "samples": [
+          "https://jkanime.net/shigatsu-wa-kimi-no-uso/1/",
+          "https://jkanime.net/shigatsu-wa-kimi-no-uso/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shirobako/",
+        "title": "Shirobako",
+        "samples": [
+          "https://jkanime.net/shirobako/1/",
+          "https://jkanime.net/shirobako/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kiseijuu-sei-no-kakuritsu/",
+        "title": "Parasyte - Kiseijuu Sei no Kakuritsu",
+        "samples": [
+          "https://jkanime.net/kiseijuu-sei-no-kakuritsu/1/",
+          "https://jkanime.net/kiseijuu-sei-no-kakuritsu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hitsugi-no-chaika-avenging-battle/",
+        "title": "Hitsugi no Chaika: Avenging Battle",
+        "samples": [
+          "https://jkanime.net/hitsugi-no-chaika-avenging-battle/1/",
+          "https://jkanime.net/hitsugi-no-chaika-avenging-battle/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hiscoool-seha-girls/",
+        "title": "Hi☆sCoool! SeHa Girls",
+        "samples": [
+          "https://jkanime.net/hiscoool-seha-girls/1/",
+          "https://jkanime.net/hiscoool-seha-girls/10/"
         ]
       },
       {
@@ -53657,10 +54284,26 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kanojo-no-tomodachi/",
+        "title": "Kanojo no Tomodachi",
+        "samples": [
+          "https://jkanime.net/kanojo-no-tomodachi/2/",
+          "https://jkanime.net/kanojo-no-tomodachi/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/",
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
         "samples": [
           "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-3rd-season/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/umayuru-full-gate/",
+        "title": "Umayuru: Full Gate!",
+        "samples": [
+          "https://jkanime.net/umayuru-full-gate/3/",
+          "https://jkanime.net/umayuru-full-gate/4/"
         ]
       },
       {
@@ -53680,10 +54323,25 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/",
+        "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
+        "samples": [
+          "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/onegai-aipri/",
         "title": "Onegai AiPri",
         "samples": [
           "https://jkanime.net/onegai-aipri/29/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
+        "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
+        "samples": [
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/5/",
+          "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/6/"
         ]
       },
       {
@@ -150140,9 +150798,17 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/high-school-dxd-born/1/",
+        "https://jkanime.net/high-school-dxd-born/10/",
+        "https://jkanime.net/high-school-dxd-born/11/",
+        "https://jkanime.net/high-school-dxd-born/12/",
         "https://jkanime.net/high-school-dxd-born/2/",
         "https://jkanime.net/high-school-dxd-born/3/",
-        "https://jkanime.net/high-school-dxd-born/4/"
+        "https://jkanime.net/high-school-dxd-born/4/",
+        "https://jkanime.net/high-school-dxd-born/5/",
+        "https://jkanime.net/high-school-dxd-born/6/",
+        "https://jkanime.net/high-school-dxd-born/7/",
+        "https://jkanime.net/high-school-dxd-born/8/",
+        "https://jkanime.net/high-school-dxd-born/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 12,
@@ -150160,12 +150826,39 @@
       "series": "https://jkanime.net/kyoukai-no-rinne-tv/",
       "title": "Kyoukai no Rinne",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 25,
       "stored": 25,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kyoukai-no-rinne-tv/1/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/10/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/11/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/12/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/13/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/14/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/15/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/16/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/17/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/18/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/19/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/2/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/20/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/21/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/22/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/23/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/24/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/25/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/3/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/4/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/5/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/6/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/7/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/8/",
+        "https://jkanime.net/kyoukai-no-rinne-tv/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 25,
       "families": {
@@ -150181,12 +150874,27 @@
       "series": "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/",
       "title": "Uta no☆Prince-sama♪ Maji Love Revolutions",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/1/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/10/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/11/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/12/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/13/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/2/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/3/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/4/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/5/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/6/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/7/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/8/",
+        "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -150238,12 +150946,26 @@
       "series": "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/",
       "title": "Mahou Shoujo Lyrical Nanoha ViVid",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/1/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/10/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/11/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/12/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/2/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/3/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/4/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/5/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/6/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/7/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/8/",
+        "https://jkanime.net/mahou-shoujo-lyrical-nanoha-vivid/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -150259,12 +150981,38 @@
       "series": "https://jkanime.net/shokugeki-no-souma/",
       "title": "Food Wars: Shokugeki no Soma",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shokugeki-no-souma/1/",
+        "https://jkanime.net/shokugeki-no-souma/10/",
+        "https://jkanime.net/shokugeki-no-souma/11/",
+        "https://jkanime.net/shokugeki-no-souma/12/",
+        "https://jkanime.net/shokugeki-no-souma/13/",
+        "https://jkanime.net/shokugeki-no-souma/14/",
+        "https://jkanime.net/shokugeki-no-souma/15/",
+        "https://jkanime.net/shokugeki-no-souma/16/",
+        "https://jkanime.net/shokugeki-no-souma/17/",
+        "https://jkanime.net/shokugeki-no-souma/18/",
+        "https://jkanime.net/shokugeki-no-souma/19/",
+        "https://jkanime.net/shokugeki-no-souma/2/",
+        "https://jkanime.net/shokugeki-no-souma/20/",
+        "https://jkanime.net/shokugeki-no-souma/21/",
+        "https://jkanime.net/shokugeki-no-souma/22/",
+        "https://jkanime.net/shokugeki-no-souma/23/",
+        "https://jkanime.net/shokugeki-no-souma/24/",
+        "https://jkanime.net/shokugeki-no-souma/3/",
+        "https://jkanime.net/shokugeki-no-souma/4/",
+        "https://jkanime.net/shokugeki-no-souma/5/",
+        "https://jkanime.net/shokugeki-no-souma/6/",
+        "https://jkanime.net/shokugeki-no-souma/7/",
+        "https://jkanime.net/shokugeki-no-souma/8/",
+        "https://jkanime.net/shokugeki-no-souma/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 24,
       "families": {
@@ -150280,12 +151028,30 @@
       "series": "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/",
       "title": "Nagato Yuki-chan no Shoushitsu",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 16,
       "stored": 16,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/1/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/10/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/11/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/12/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/13/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/14/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/15/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/16/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/2/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/3/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/4/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/5/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/6/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/7/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/8/",
+        "https://jkanime.net/nagato-yuki-chan-no-shoushitsu/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 16,
       "families": {
@@ -150301,12 +151067,26 @@
       "series": "https://jkanime.net/kekkai-sensen/",
       "title": "Kekkai Sensen",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kekkai-sensen/1/",
+        "https://jkanime.net/kekkai-sensen/10/",
+        "https://jkanime.net/kekkai-sensen/11/",
+        "https://jkanime.net/kekkai-sensen/12/",
+        "https://jkanime.net/kekkai-sensen/2/",
+        "https://jkanime.net/kekkai-sensen/3/",
+        "https://jkanime.net/kekkai-sensen/4/",
+        "https://jkanime.net/kekkai-sensen/5/",
+        "https://jkanime.net/kekkai-sensen/6/",
+        "https://jkanime.net/kekkai-sensen/7/",
+        "https://jkanime.net/kekkai-sensen/8/",
+        "https://jkanime.net/kekkai-sensen/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -150337,12 +151117,20 @@
       "series": "https://jkanime.net/vampire-holmes/",
       "title": "Vampire Holmes",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/vampire-holmes/1/",
+        "https://jkanime.net/vampire-holmes/11/",
+        "https://jkanime.net/vampire-holmes/12/",
+        "https://jkanime.net/vampire-holmes/2/",
+        "https://jkanime.net/vampire-holmes/6/",
+        "https://jkanime.net/vampire-holmes/8/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -150358,12 +151146,15 @@
       "series": "https://jkanime.net/gintama-ova/",
       "title": "Gintama 2015",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/gintama-ova/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
@@ -150379,12 +151170,27 @@
       "series": "https://jkanime.net/re-kan/",
       "title": "Re-Kan!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/re-kan/1/",
+        "https://jkanime.net/re-kan/10/",
+        "https://jkanime.net/re-kan/11/",
+        "https://jkanime.net/re-kan/12/",
+        "https://jkanime.net/re-kan/13/",
+        "https://jkanime.net/re-kan/2/",
+        "https://jkanime.net/re-kan/3/",
+        "https://jkanime.net/re-kan/4/",
+        "https://jkanime.net/re-kan/5/",
+        "https://jkanime.net/re-kan/6/",
+        "https://jkanime.net/re-kan/7/",
+        "https://jkanime.net/re-kan/8/",
+        "https://jkanime.net/re-kan/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -150400,12 +151206,27 @@
       "series": "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/",
       "title": "Oregairu 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/1/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/10/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/11/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/12/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/13/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/2/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/3/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/4/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/5/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/6/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/7/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/8/",
+        "https://jkanime.net/yahari-ore-no-seishun-love-comedy-wa-machigatteiru-zoku/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -150421,12 +151242,27 @@
       "series": "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/",
       "title": "Danna ga Nani wo Itteiru ka Wakaranai Ken 2 Sure-me",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/1/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/10/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/11/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/12/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/13/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/2/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/3/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/4/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/5/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/6/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/7/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/8/",
+        "https://jkanime.net/danna-ga-nani-wo-itteiru-ka-wakaranai-ken-2-sure-me/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -150442,12 +151278,20 @@
       "series": "https://jkanime.net/shinmai-maou-no-testament-specials/",
       "title": "Shinmai Maou no Testament Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shinmai-maou-no-testament-specials/1/",
+        "https://jkanime.net/shinmai-maou-no-testament-specials/2/",
+        "https://jkanime.net/shinmai-maou-no-testament-specials/3/",
+        "https://jkanime.net/shinmai-maou-no-testament-specials/4/",
+        "https://jkanime.net/shinmai-maou-no-testament-specials/5/",
+        "https://jkanime.net/shinmai-maou-no-testament-specials/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -150639,12 +151483,26 @@
       "series": "https://jkanime.net/etotama/",
       "title": "Etotama",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/etotama/1/",
+        "https://jkanime.net/etotama/10/",
+        "https://jkanime.net/etotama/11/",
+        "https://jkanime.net/etotama/12/",
+        "https://jkanime.net/etotama/2/",
+        "https://jkanime.net/etotama/3/",
+        "https://jkanime.net/etotama/4/",
+        "https://jkanime.net/etotama/5/",
+        "https://jkanime.net/etotama/6/",
+        "https://jkanime.net/etotama/7/",
+        "https://jkanime.net/etotama/8/",
+        "https://jkanime.net/etotama/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -150660,12 +151518,15 @@
       "series": "https://jkanime.net/haikyuu-oad/",
       "title": "Haikyuu!! OAD",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/haikyuu-oad/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
@@ -150696,12 +151557,15 @@
       "series": "https://jkanime.net/mobile-suit-gundam-the-origin/",
       "title": "Mobile Suit Gundam: The Origin",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mobile-suit-gundam-the-origin/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
@@ -150785,12 +151649,25 @@
       "series": "https://jkanime.net/anime-de-wakaru-shinryounaika/",
       "title": "Anime de Wakaru Shinryounaika",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 20,
       "stored": 20,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/1/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/15/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/16/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/17/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/18/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/19/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/2/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/20/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/3/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/4/",
+        "https://jkanime.net/anime-de-wakaru-shinryounaika/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
@@ -150806,12 +151683,18 @@
       "series": "https://jkanime.net/go-princess-precure/",
       "title": "Go! Princess Precure",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 50,
       "stored": 50,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/go-princess-precure/1/",
+        "https://jkanime.net/go-princess-precure/13/",
+        "https://jkanime.net/go-princess-precure/2/",
+        "https://jkanime.net/go-princess-precure/47/"
+      ],
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
@@ -150845,12 +151728,24 @@
       "series": "https://jkanime.net/isuca/",
       "title": "Isuca",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/isuca/1/",
+        "https://jkanime.net/isuca/10/",
+        "https://jkanime.net/isuca/2/",
+        "https://jkanime.net/isuca/3/",
+        "https://jkanime.net/isuca/4/",
+        "https://jkanime.net/isuca/5/",
+        "https://jkanime.net/isuca/6/",
+        "https://jkanime.net/isuca/7/",
+        "https://jkanime.net/isuca/8/",
+        "https://jkanime.net/isuca/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
@@ -150866,12 +151761,16 @@
       "series": "https://jkanime.net/hyakka-ryouran-samurai-after/",
       "title": "Hyakka Ryouran: Samurai After",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hyakka-ryouran-samurai-after/1/",
+        "https://jkanime.net/hyakka-ryouran-samurai-after/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -150887,12 +151786,16 @@
       "series": "https://jkanime.net/hyakka-ryouran-samurai-after-specials/",
       "title": "Hyakka Ryouran: Samurai After Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hyakka-ryouran-samurai-after-specials/1/",
+        "https://jkanime.net/hyakka-ryouran-samurai-after-specials/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -150927,12 +151830,21 @@
       "series": "https://jkanime.net/sengoku-musou/",
       "title": "Sengoku Musou",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sengoku-musou/1/",
+        "https://jkanime.net/sengoku-musou/10/",
+        "https://jkanime.net/sengoku-musou/2/",
+        "https://jkanime.net/sengoku-musou/3/",
+        "https://jkanime.net/sengoku-musou/4/",
+        "https://jkanime.net/sengoku-musou/5/",
+        "https://jkanime.net/sengoku-musou/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 7,
       "families": {
@@ -150948,12 +151860,26 @@
       "series": "https://jkanime.net/seiken-tsukai-no-world-break/",
       "title": "Seiken Tsukai no World Break",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/seiken-tsukai-no-world-break/1/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/10/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/11/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/12/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/2/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/3/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/4/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/5/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/6/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/7/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/8/",
+        "https://jkanime.net/seiken-tsukai-no-world-break/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -150969,12 +151895,26 @@
       "series": "https://jkanime.net/yoru-no-yatterman/",
       "title": "Yoru no Yatterman",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yoru-no-yatterman/1/",
+        "https://jkanime.net/yoru-no-yatterman/10/",
+        "https://jkanime.net/yoru-no-yatterman/11/",
+        "https://jkanime.net/yoru-no-yatterman/12/",
+        "https://jkanime.net/yoru-no-yatterman/2/",
+        "https://jkanime.net/yoru-no-yatterman/3/",
+        "https://jkanime.net/yoru-no-yatterman/4/",
+        "https://jkanime.net/yoru-no-yatterman/5/",
+        "https://jkanime.net/yoru-no-yatterman/6/",
+        "https://jkanime.net/yoru-no-yatterman/7/",
+        "https://jkanime.net/yoru-no-yatterman/8/",
+        "https://jkanime.net/yoru-no-yatterman/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151005,12 +151945,17 @@
       "series": "https://jkanime.net/shounen-hollywood-holly-stage-for-50/",
       "title": "Shounen Hollywood: Holly Stage for 50",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shounen-hollywood-holly-stage-for-50/2/",
+        "https://jkanime.net/shounen-hollywood-holly-stage-for-50/5/",
+        "https://jkanime.net/shounen-hollywood-holly-stage-for-50/7/"
+      ],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
@@ -151026,12 +151971,26 @@
       "series": "https://jkanime.net/rolling-girls/",
       "title": "Rolling☆Girls",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/rolling-girls/1/",
+        "https://jkanime.net/rolling-girls/10/",
+        "https://jkanime.net/rolling-girls/11/",
+        "https://jkanime.net/rolling-girls/12/",
+        "https://jkanime.net/rolling-girls/2/",
+        "https://jkanime.net/rolling-girls/3/",
+        "https://jkanime.net/rolling-girls/4/",
+        "https://jkanime.net/rolling-girls/5/",
+        "https://jkanime.net/rolling-girls/6/",
+        "https://jkanime.net/rolling-girls/7/",
+        "https://jkanime.net/rolling-girls/8/",
+        "https://jkanime.net/rolling-girls/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151068,12 +152027,39 @@
       "series": "https://jkanime.net/kuroko-no-basket-3/",
       "title": "Kuroko no Basket 3",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 25,
       "stored": 25,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kuroko-no-basket-3/1/",
+        "https://jkanime.net/kuroko-no-basket-3/10/",
+        "https://jkanime.net/kuroko-no-basket-3/11/",
+        "https://jkanime.net/kuroko-no-basket-3/12/",
+        "https://jkanime.net/kuroko-no-basket-3/13/",
+        "https://jkanime.net/kuroko-no-basket-3/14/",
+        "https://jkanime.net/kuroko-no-basket-3/15/",
+        "https://jkanime.net/kuroko-no-basket-3/16/",
+        "https://jkanime.net/kuroko-no-basket-3/17/",
+        "https://jkanime.net/kuroko-no-basket-3/18/",
+        "https://jkanime.net/kuroko-no-basket-3/19/",
+        "https://jkanime.net/kuroko-no-basket-3/2/",
+        "https://jkanime.net/kuroko-no-basket-3/20/",
+        "https://jkanime.net/kuroko-no-basket-3/21/",
+        "https://jkanime.net/kuroko-no-basket-3/22/",
+        "https://jkanime.net/kuroko-no-basket-3/23/",
+        "https://jkanime.net/kuroko-no-basket-3/24/",
+        "https://jkanime.net/kuroko-no-basket-3/25/",
+        "https://jkanime.net/kuroko-no-basket-3/3/",
+        "https://jkanime.net/kuroko-no-basket-3/4/",
+        "https://jkanime.net/kuroko-no-basket-3/5/",
+        "https://jkanime.net/kuroko-no-basket-3/6/",
+        "https://jkanime.net/kuroko-no-basket-3/7/",
+        "https://jkanime.net/kuroko-no-basket-3/8/",
+        "https://jkanime.net/kuroko-no-basket-3/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 25,
       "families": {
@@ -151089,12 +152075,20 @@
       "series": "https://jkanime.net/durarara-x2-shou/",
       "title": "Durarara!!x2 Shou",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/durarara-x2-shou/11/",
+        "https://jkanime.net/durarara-x2-shou/2/",
+        "https://jkanime.net/durarara-x2-shou/3/",
+        "https://jkanime.net/durarara-x2-shou/7/",
+        "https://jkanime.net/durarara-x2-shou/8/",
+        "https://jkanime.net/durarara-x2-shou/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -151110,12 +152104,27 @@
       "series": "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/",
       "title": "Soukyuu no Fafner: Dead Aggressor - Exodus",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/1/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/10/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/11/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/12/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/13/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/2/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/3/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/4/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/5/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/6/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/7/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/8/",
+        "https://jkanime.net/soukyuu-no-fafner-dead-aggressor-exodus/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -151131,12 +152140,26 @@
       "series": "https://jkanime.net/death-parade/",
       "title": "Death Parade",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/death-parade/1/",
+        "https://jkanime.net/death-parade/10/",
+        "https://jkanime.net/death-parade/11/",
+        "https://jkanime.net/death-parade/12/",
+        "https://jkanime.net/death-parade/2/",
+        "https://jkanime.net/death-parade/3/",
+        "https://jkanime.net/death-parade/4/",
+        "https://jkanime.net/death-parade/5/",
+        "https://jkanime.net/death-parade/6/",
+        "https://jkanime.net/death-parade/7/",
+        "https://jkanime.net/death-parade/8/",
+        "https://jkanime.net/death-parade/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151152,12 +152175,36 @@
       "series": "https://jkanime.net/ansatsu-kyoushitsu-tv/",
       "title": "Ansatsu Kyoushitsu (TV)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 22,
       "stored": 22,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/1/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/10/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/11/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/12/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/13/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/14/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/15/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/16/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/17/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/18/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/19/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/2/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/20/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/21/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/22/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/3/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/4/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/5/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/6/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/7/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/8/",
+        "https://jkanime.net/ansatsu-kyoushitsu-tv/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 22,
       "families": {
@@ -151173,12 +152220,27 @@
       "series": "https://jkanime.net/the-idolmster-cinderella-girls/",
       "title": "The iDOLM@STER Cinderella Girls",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/the-idolmster-cinderella-girls/1/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/10/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/11/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/12/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/13/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/2/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/3/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/4/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/5/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/6/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/7/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/8/",
+        "https://jkanime.net/the-idolmster-cinderella-girls/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -151230,12 +152292,26 @@
       "series": "https://jkanime.net/tokyo-ghoul-2/",
       "title": "Tokyo Ghoul √A",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tokyo-ghoul-2/1/",
+        "https://jkanime.net/tokyo-ghoul-2/10/",
+        "https://jkanime.net/tokyo-ghoul-2/11/",
+        "https://jkanime.net/tokyo-ghoul-2/12/",
+        "https://jkanime.net/tokyo-ghoul-2/2/",
+        "https://jkanime.net/tokyo-ghoul-2/3/",
+        "https://jkanime.net/tokyo-ghoul-2/4/",
+        "https://jkanime.net/tokyo-ghoul-2/5/",
+        "https://jkanime.net/tokyo-ghoul-2/6/",
+        "https://jkanime.net/tokyo-ghoul-2/7/",
+        "https://jkanime.net/tokyo-ghoul-2/8/",
+        "https://jkanime.net/tokyo-ghoul-2/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151251,12 +152327,26 @@
       "series": "https://jkanime.net/koufuku-graffiti/",
       "title": "Koufuku Graffiti",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/koufuku-graffiti/1/",
+        "https://jkanime.net/koufuku-graffiti/10/",
+        "https://jkanime.net/koufuku-graffiti/11/",
+        "https://jkanime.net/koufuku-graffiti/12/",
+        "https://jkanime.net/koufuku-graffiti/2/",
+        "https://jkanime.net/koufuku-graffiti/3/",
+        "https://jkanime.net/koufuku-graffiti/4/",
+        "https://jkanime.net/koufuku-graffiti/5/",
+        "https://jkanime.net/koufuku-graffiti/6/",
+        "https://jkanime.net/koufuku-graffiti/7/",
+        "https://jkanime.net/koufuku-graffiti/8/",
+        "https://jkanime.net/koufuku-graffiti/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151272,12 +152362,26 @@
       "series": "https://jkanime.net/juuou-mujin-no-fafnir/",
       "title": "Juuou Mujin no Fafnir",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/juuou-mujin-no-fafnir/1/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/10/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/11/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/12/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/2/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/3/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/4/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/5/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/6/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/7/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/8/",
+        "https://jkanime.net/juuou-mujin-no-fafnir/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151293,12 +152397,26 @@
       "series": "https://jkanime.net/kantai-collection-kancolle/",
       "title": "Kantai Collection: KanColle",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kantai-collection-kancolle/1/",
+        "https://jkanime.net/kantai-collection-kancolle/10/",
+        "https://jkanime.net/kantai-collection-kancolle/11/",
+        "https://jkanime.net/kantai-collection-kancolle/12/",
+        "https://jkanime.net/kantai-collection-kancolle/2/",
+        "https://jkanime.net/kantai-collection-kancolle/3/",
+        "https://jkanime.net/kantai-collection-kancolle/4/",
+        "https://jkanime.net/kantai-collection-kancolle/5/",
+        "https://jkanime.net/kantai-collection-kancolle/6/",
+        "https://jkanime.net/kantai-collection-kancolle/7/",
+        "https://jkanime.net/kantai-collection-kancolle/8/",
+        "https://jkanime.net/kantai-collection-kancolle/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151314,12 +152432,26 @@
       "series": "https://jkanime.net/shinmai-maou-no-testament/",
       "title": "Shinmai Maou no Testament",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shinmai-maou-no-testament/1/",
+        "https://jkanime.net/shinmai-maou-no-testament/10/",
+        "https://jkanime.net/shinmai-maou-no-testament/11/",
+        "https://jkanime.net/shinmai-maou-no-testament/12/",
+        "https://jkanime.net/shinmai-maou-no-testament/2/",
+        "https://jkanime.net/shinmai-maou-no-testament/3/",
+        "https://jkanime.net/shinmai-maou-no-testament/4/",
+        "https://jkanime.net/shinmai-maou-no-testament/5/",
+        "https://jkanime.net/shinmai-maou-no-testament/6/",
+        "https://jkanime.net/shinmai-maou-no-testament/7/",
+        "https://jkanime.net/shinmai-maou-no-testament/8/",
+        "https://jkanime.net/shinmai-maou-no-testament/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151335,12 +152467,26 @@
       "series": "https://jkanime.net/military/",
       "title": "Military!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/military/1/",
+        "https://jkanime.net/military/10/",
+        "https://jkanime.net/military/11/",
+        "https://jkanime.net/military/12/",
+        "https://jkanime.net/military/2/",
+        "https://jkanime.net/military/3/",
+        "https://jkanime.net/military/4/",
+        "https://jkanime.net/military/5/",
+        "https://jkanime.net/military/6/",
+        "https://jkanime.net/military/7/",
+        "https://jkanime.net/military/8/",
+        "https://jkanime.net/military/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151356,12 +152502,17 @@
       "series": "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/",
       "title": "Binan Koukou Chikyuu Bouei-bu Love!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/1/",
+        "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/2/",
+        "https://jkanime.net/binan-koukou-chikyuu-bouei-bu-love/5/"
+      ],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
@@ -151396,12 +152547,26 @@
       "series": "https://jkanime.net/yuri-kuma-arashi/",
       "title": "Yuri Kuma Arashi",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yuri-kuma-arashi/1/",
+        "https://jkanime.net/yuri-kuma-arashi/10/",
+        "https://jkanime.net/yuri-kuma-arashi/11/",
+        "https://jkanime.net/yuri-kuma-arashi/12/",
+        "https://jkanime.net/yuri-kuma-arashi/2/",
+        "https://jkanime.net/yuri-kuma-arashi/3/",
+        "https://jkanime.net/yuri-kuma-arashi/4/",
+        "https://jkanime.net/yuri-kuma-arashi/5/",
+        "https://jkanime.net/yuri-kuma-arashi/6/",
+        "https://jkanime.net/yuri-kuma-arashi/7/",
+        "https://jkanime.net/yuri-kuma-arashi/8/",
+        "https://jkanime.net/yuri-kuma-arashi/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151417,12 +152582,26 @@
       "series": "https://jkanime.net/kamisama-hajimemashita-2/",
       "title": "Kamisama Hajimemashita◎ S2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kamisama-hajimemashita-2/1/",
+        "https://jkanime.net/kamisama-hajimemashita-2/10/",
+        "https://jkanime.net/kamisama-hajimemashita-2/11/",
+        "https://jkanime.net/kamisama-hajimemashita-2/12/",
+        "https://jkanime.net/kamisama-hajimemashita-2/2/",
+        "https://jkanime.net/kamisama-hajimemashita-2/3/",
+        "https://jkanime.net/kamisama-hajimemashita-2/4/",
+        "https://jkanime.net/kamisama-hajimemashita-2/5/",
+        "https://jkanime.net/kamisama-hajimemashita-2/6/",
+        "https://jkanime.net/kamisama-hajimemashita-2/7/",
+        "https://jkanime.net/kamisama-hajimemashita-2/8/",
+        "https://jkanime.net/kamisama-hajimemashita-2/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151438,12 +152617,26 @@
       "series": "https://jkanime.net/absolute-duo/",
       "title": "Absolute Duo",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/absolute-duo/1/",
+        "https://jkanime.net/absolute-duo/10/",
+        "https://jkanime.net/absolute-duo/11/",
+        "https://jkanime.net/absolute-duo/12/",
+        "https://jkanime.net/absolute-duo/2/",
+        "https://jkanime.net/absolute-duo/3/",
+        "https://jkanime.net/absolute-duo/4/",
+        "https://jkanime.net/absolute-duo/5/",
+        "https://jkanime.net/absolute-duo/6/",
+        "https://jkanime.net/absolute-duo/7/",
+        "https://jkanime.net/absolute-duo/8/",
+        "https://jkanime.net/absolute-duo/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151459,12 +152652,26 @@
       "series": "https://jkanime.net/junketsu-no-maria/",
       "title": "Junketsu no Maria",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/junketsu-no-maria/1/",
+        "https://jkanime.net/junketsu-no-maria/10/",
+        "https://jkanime.net/junketsu-no-maria/11/",
+        "https://jkanime.net/junketsu-no-maria/12/",
+        "https://jkanime.net/junketsu-no-maria/2/",
+        "https://jkanime.net/junketsu-no-maria/3/",
+        "https://jkanime.net/junketsu-no-maria/4/",
+        "https://jkanime.net/junketsu-no-maria/5/",
+        "https://jkanime.net/junketsu-no-maria/6/",
+        "https://jkanime.net/junketsu-no-maria/7/",
+        "https://jkanime.net/junketsu-no-maria/8/",
+        "https://jkanime.net/junketsu-no-maria/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151480,12 +152687,29 @@
       "series": "https://jkanime.net/aishen-qiaokeli-ing/",
       "title": "Aishen Qiaokeli-ing...",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 15,
       "stored": 15,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/aishen-qiaokeli-ing/1/",
+        "https://jkanime.net/aishen-qiaokeli-ing/10/",
+        "https://jkanime.net/aishen-qiaokeli-ing/11/",
+        "https://jkanime.net/aishen-qiaokeli-ing/12/",
+        "https://jkanime.net/aishen-qiaokeli-ing/13/",
+        "https://jkanime.net/aishen-qiaokeli-ing/14/",
+        "https://jkanime.net/aishen-qiaokeli-ing/15/",
+        "https://jkanime.net/aishen-qiaokeli-ing/2/",
+        "https://jkanime.net/aishen-qiaokeli-ing/3/",
+        "https://jkanime.net/aishen-qiaokeli-ing/4/",
+        "https://jkanime.net/aishen-qiaokeli-ing/5/",
+        "https://jkanime.net/aishen-qiaokeli-ing/6/",
+        "https://jkanime.net/aishen-qiaokeli-ing/7/",
+        "https://jkanime.net/aishen-qiaokeli-ing/8/",
+        "https://jkanime.net/aishen-qiaokeli-ing/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 15,
       "families": {
@@ -151501,12 +152725,26 @@
       "series": "https://jkanime.net/tantei-kageki-milky-holmes-td/",
       "title": "Tantei Kageki Milky Holmes TD",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/1/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/10/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/11/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/12/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/2/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/3/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/4/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/5/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/6/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/7/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/8/",
+        "https://jkanime.net/tantei-kageki-milky-holmes-td/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -151522,12 +152760,18 @@
       "series": "https://jkanime.net/tsukimonogatari/",
       "title": "Tsukimonogatari",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tsukimonogatari/1/",
+        "https://jkanime.net/tsukimonogatari/2/",
+        "https://jkanime.net/tsukimonogatari/3/",
+        "https://jkanime.net/tsukimonogatari/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
@@ -151633,12 +152877,21 @@
       "series": "https://jkanime.net/amagi-brilliant-park-specials/",
       "title": "Amagi Brilliant Park Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/amagi-brilliant-park-specials/1/",
+        "https://jkanime.net/amagi-brilliant-park-specials/2/",
+        "https://jkanime.net/amagi-brilliant-park-specials/3/",
+        "https://jkanime.net/amagi-brilliant-park-specials/4/",
+        "https://jkanime.net/amagi-brilliant-park-specials/5/",
+        "https://jkanime.net/amagi-brilliant-park-specials/6/",
+        "https://jkanime.net/amagi-brilliant-park-specials/7/"
+      ],
       "noIndependent": [],
       "renewalFailed": 7,
       "families": {
@@ -151671,12 +152924,16 @@
       "series": "https://jkanime.net/yama-no-susume-2nd-season-special/",
       "title": "Yama no Susume 2nd Season Special",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yama-no-susume-2nd-season-special/1/",
+        "https://jkanime.net/yama-no-susume-2nd-season-special/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -151692,12 +152949,20 @@
       "series": "https://jkanime.net/grisaia-no-kajitsu-specials/",
       "title": "Grisaia no Kajitsu Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/grisaia-no-kajitsu-specials/1/",
+        "https://jkanime.net/grisaia-no-kajitsu-specials/2/",
+        "https://jkanime.net/grisaia-no-kajitsu-specials/3/",
+        "https://jkanime.net/grisaia-no-kajitsu-specials/4/",
+        "https://jkanime.net/grisaia-no-kajitsu-specials/5/",
+        "https://jkanime.net/grisaia-no-kajitsu-specials/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -151731,12 +152996,16 @@
       "series": "https://jkanime.net/ikkitousen-extravaganza-epoch/",
       "title": "Ikkitousen: Extravaganza Epoch",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ikkitousen-extravaganza-epoch/1/",
+        "https://jkanime.net/ikkitousen-extravaganza-epoch/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -151752,12 +153021,17 @@
       "series": "https://jkanime.net/strike-witches-operation-victory-arrow/",
       "title": "Strike Witches: Operation Victory Arrow",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 3,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/strike-witches-operation-victory-arrow/1/",
+        "https://jkanime.net/strike-witches-operation-victory-arrow/2/",
+        "https://jkanime.net/strike-witches-operation-victory-arrow/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
@@ -151773,12 +153047,21 @@
       "series": "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/",
       "title": "Chuunibyou demo Koi ga Shitai! Ren Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/1/",
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/2/",
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/3/",
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/4/",
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/5/",
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/6/",
+        "https://jkanime.net/chuunibyou-demo-koi-ga-shitai-ren-specials/7/"
+      ],
       "noIndependent": [],
       "renewalFailed": 7,
       "families": {
@@ -151794,12 +153077,16 @@
       "series": "https://jkanime.net/brothers-conflict-ova/",
       "title": "Brothers Conflict OVA",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/brothers-conflict-ova/1/",
+        "https://jkanime.net/brothers-conflict-ova/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -151815,12 +153102,16 @@
       "series": "https://jkanime.net/yamada-kun-to-7-nin-no-majo-ova/",
       "title": "Yamada-kun to 7-nin no Majo (OVA)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yamada-kun-to-7-nin-no-majo-ova/1/",
+        "https://jkanime.net/yamada-kun-to-7-nin-no-majo-ova/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -151836,12 +153127,16 @@
       "series": "https://jkanime.net/itsudatte-my-santa/",
       "title": "Itsudatte My Santa!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/itsudatte-my-santa/1/",
+        "https://jkanime.net/itsudatte-my-santa/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -151872,12 +153167,16 @@
       "series": "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/",
       "title": "Shingeki no Kyojin: Kuinaki Sentaku",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/1/",
+        "https://jkanime.net/shingeki-no-kyojin-kuinaki-sentaku/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -151945,12 +153244,24 @@
       "series": "https://jkanime.net/wake-up-girl-zoo/",
       "title": "Wake Up, Girl Zoo!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/wake-up-girl-zoo/1/",
+        "https://jkanime.net/wake-up-girl-zoo/10/",
+        "https://jkanime.net/wake-up-girl-zoo/2/",
+        "https://jkanime.net/wake-up-girl-zoo/3/",
+        "https://jkanime.net/wake-up-girl-zoo/4/",
+        "https://jkanime.net/wake-up-girl-zoo/5/",
+        "https://jkanime.net/wake-up-girl-zoo/6/",
+        "https://jkanime.net/wake-up-girl-zoo/7/",
+        "https://jkanime.net/wake-up-girl-zoo/8/",
+        "https://jkanime.net/wake-up-girl-zoo/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
@@ -152075,12 +153386,15 @@
       "series": "https://jkanime.net/diamond-no-ace-ova/",
       "title": "Diamond no Ace OVA",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/diamond-no-ace-ova/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "families": {
@@ -152114,12 +153428,49 @@
       "series": "https://jkanime.net/nihon-animator-mihonichi/",
       "title": "Expo de Animadores de Japón",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 35,
       "stored": 35,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/nihon-animator-mihonichi/1/",
+        "https://jkanime.net/nihon-animator-mihonichi/10/",
+        "https://jkanime.net/nihon-animator-mihonichi/11/",
+        "https://jkanime.net/nihon-animator-mihonichi/12/",
+        "https://jkanime.net/nihon-animator-mihonichi/13/",
+        "https://jkanime.net/nihon-animator-mihonichi/14/",
+        "https://jkanime.net/nihon-animator-mihonichi/15/",
+        "https://jkanime.net/nihon-animator-mihonichi/16/",
+        "https://jkanime.net/nihon-animator-mihonichi/17/",
+        "https://jkanime.net/nihon-animator-mihonichi/18/",
+        "https://jkanime.net/nihon-animator-mihonichi/19/",
+        "https://jkanime.net/nihon-animator-mihonichi/2/",
+        "https://jkanime.net/nihon-animator-mihonichi/20/",
+        "https://jkanime.net/nihon-animator-mihonichi/21/",
+        "https://jkanime.net/nihon-animator-mihonichi/22/",
+        "https://jkanime.net/nihon-animator-mihonichi/23/",
+        "https://jkanime.net/nihon-animator-mihonichi/24/",
+        "https://jkanime.net/nihon-animator-mihonichi/25/",
+        "https://jkanime.net/nihon-animator-mihonichi/26/",
+        "https://jkanime.net/nihon-animator-mihonichi/27/",
+        "https://jkanime.net/nihon-animator-mihonichi/28/",
+        "https://jkanime.net/nihon-animator-mihonichi/29/",
+        "https://jkanime.net/nihon-animator-mihonichi/3/",
+        "https://jkanime.net/nihon-animator-mihonichi/30/",
+        "https://jkanime.net/nihon-animator-mihonichi/31/",
+        "https://jkanime.net/nihon-animator-mihonichi/32/",
+        "https://jkanime.net/nihon-animator-mihonichi/33/",
+        "https://jkanime.net/nihon-animator-mihonichi/34/",
+        "https://jkanime.net/nihon-animator-mihonichi/35/",
+        "https://jkanime.net/nihon-animator-mihonichi/4/",
+        "https://jkanime.net/nihon-animator-mihonichi/5/",
+        "https://jkanime.net/nihon-animator-mihonichi/6/",
+        "https://jkanime.net/nihon-animator-mihonichi/7/",
+        "https://jkanime.net/nihon-animator-mihonichi/8/",
+        "https://jkanime.net/nihon-animator-mihonichi/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 35,
       "families": {
@@ -152190,12 +153541,18 @@
       "series": "https://jkanime.net/hybrid-child/",
       "title": "Hybrid Child",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hybrid-child/1/",
+        "https://jkanime.net/hybrid-child/2/",
+        "https://jkanime.net/hybrid-child/3/",
+        "https://jkanime.net/hybrid-child/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
@@ -152211,12 +153568,24 @@
       "series": "https://jkanime.net/new-prince-of-tennis-ova/",
       "title": "New Prince of Tennis OVA vs. Genius 10",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/new-prince-of-tennis-ova/1/",
+        "https://jkanime.net/new-prince-of-tennis-ova/10/",
+        "https://jkanime.net/new-prince-of-tennis-ova/2/",
+        "https://jkanime.net/new-prince-of-tennis-ova/3/",
+        "https://jkanime.net/new-prince-of-tennis-ova/4/",
+        "https://jkanime.net/new-prince-of-tennis-ova/5/",
+        "https://jkanime.net/new-prince-of-tennis-ova/6/",
+        "https://jkanime.net/new-prince-of-tennis-ova/7/",
+        "https://jkanime.net/new-prince-of-tennis-ova/8/",
+        "https://jkanime.net/new-prince-of-tennis-ova/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
@@ -152232,12 +153601,20 @@
       "series": "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/",
       "title": "Seirei Tsukai no Blade Dance Specials",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/1/",
+        "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/2/",
+        "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/3/",
+        "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/4/",
+        "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/5/",
+        "https://jkanime.net/seirei-tsukai-no-blade-dance-specials/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -152271,12 +153648,16 @@
       "series": "https://jkanime.net/kuroshitsuji-book-of-murder/",
       "title": "Kuroshitsuji: Book of Murder",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kuroshitsuji-book-of-murder/1/",
+        "https://jkanime.net/kuroshitsuji-book-of-murder/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -152292,12 +153673,20 @@
       "series": "https://jkanime.net/sabagebu-special-mission/",
       "title": "Sabagebu! SPECIAL MISSION",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sabagebu-special-mission/1/",
+        "https://jkanime.net/sabagebu-special-mission/2/",
+        "https://jkanime.net/sabagebu-special-mission/3/",
+        "https://jkanime.net/sabagebu-special-mission/4/",
+        "https://jkanime.net/sabagebu-special-mission/5/",
+        "https://jkanime.net/sabagebu-special-mission/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -152332,12 +153721,23 @@
       "series": "https://jkanime.net/sword-art-offline-ii/",
       "title": "Sword Art Offline II",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 9,
       "stored": 9,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sword-art-offline-ii/1/",
+        "https://jkanime.net/sword-art-offline-ii/2/",
+        "https://jkanime.net/sword-art-offline-ii/3/",
+        "https://jkanime.net/sword-art-offline-ii/4/",
+        "https://jkanime.net/sword-art-offline-ii/5/",
+        "https://jkanime.net/sword-art-offline-ii/6/",
+        "https://jkanime.net/sword-art-offline-ii/7/",
+        "https://jkanime.net/sword-art-offline-ii/8/",
+        "https://jkanime.net/sword-art-offline-ii/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 9,
       "families": {
@@ -152372,11 +153772,24 @@
     {
       "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
       "title": "Mushishi Zoku Shou 2nd Season",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/2/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/3/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/4/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/5/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/6/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/7/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/8/",
+        "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "families": {
@@ -152392,12 +153805,16 @@
       "series": "https://jkanime.net/imawa-no-kuni-no-alice/",
       "title": "Imawa no Kuni no Alice",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 3,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/imawa-no-kuni-no-alice/2/",
+        "https://jkanime.net/imawa-no-kuni-no-alice/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {
@@ -152413,12 +153830,26 @@
       "series": "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/",
       "title": "Yuuki Yuuna wa Yuusha de Aru",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/1/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/10/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/11/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/12/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/2/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/3/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/4/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/5/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/6/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/7/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/8/",
+        "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -152434,12 +153865,18 @@
       "series": "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/",
       "title": "Steins;Gate: Soumei Eichi no Cognitive Computing",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/1/",
+        "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/2/",
+        "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/3/",
+        "https://jkanime.net/steins-gate-soumei-eichi-no-cognitive-computing/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
@@ -152489,12 +153926,20 @@
       "series": "https://jkanime.net/girlfriend-kari/",
       "title": "Girlfriend (Kari)",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/girlfriend-kari/1/",
+        "https://jkanime.net/girlfriend-kari/2/",
+        "https://jkanime.net/girlfriend-kari/3/",
+        "https://jkanime.net/girlfriend-kari/4/",
+        "https://jkanime.net/girlfriend-kari/6/",
+        "https://jkanime.net/girlfriend-kari/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 6,
       "families": {
@@ -152529,12 +153974,27 @@
       "series": "https://jkanime.net/sanzoku-no-musume-ronja/",
       "title": "Sanzoku no Musume Ronja",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 26,
       "stored": 26,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sanzoku-no-musume-ronja/1/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/10/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/13/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/14/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/17/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/2/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/25/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/3/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/4/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/5/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/6/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/7/",
+        "https://jkanime.net/sanzoku-no-musume-ronja/8/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -152550,12 +154010,38 @@
       "series": "https://jkanime.net/bonjour-koiaji-ptisserie/",
       "title": "Bonjour♪ Koiaji Pâtisserie",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/bonjour-koiaji-ptisserie/1/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/10/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/11/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/12/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/13/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/14/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/15/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/16/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/17/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/18/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/19/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/2/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/20/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/21/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/22/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/23/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/24/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/3/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/4/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/5/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/6/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/7/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/8/",
+        "https://jkanime.net/bonjour-koiaji-ptisserie/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 24,
       "families": {
@@ -152586,12 +154072,17 @@
       "series": "https://jkanime.net/futari-ecchi-2014/",
       "title": "Futari Ecchi 2014",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 3,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/futari-ecchi-2014/1/",
+        "https://jkanime.net/futari-ecchi-2014/2/",
+        "https://jkanime.net/futari-ecchi-2014/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 3,
       "families": {
@@ -152607,12 +154098,25 @@
       "series": "https://jkanime.net/psycho-pass-2/",
       "title": "Psycho-Pass 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 11,
       "stored": 11,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/psycho-pass-2/1/",
+        "https://jkanime.net/psycho-pass-2/10/",
+        "https://jkanime.net/psycho-pass-2/11/",
+        "https://jkanime.net/psycho-pass-2/2/",
+        "https://jkanime.net/psycho-pass-2/3/",
+        "https://jkanime.net/psycho-pass-2/4/",
+        "https://jkanime.net/psycho-pass-2/5/",
+        "https://jkanime.net/psycho-pass-2/6/",
+        "https://jkanime.net/psycho-pass-2/7/",
+        "https://jkanime.net/psycho-pass-2/8/",
+        "https://jkanime.net/psycho-pass-2/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 11,
       "families": {
@@ -152628,12 +154132,26 @@
       "series": "https://jkanime.net/ore-twintails-ni-narimasu/",
       "title": "Ore, Twintails ni Narimasu.",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ore-twintails-ni-narimasu/1/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/10/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/11/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/12/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/2/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/3/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/4/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/5/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/6/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/7/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/8/",
+        "https://jkanime.net/ore-twintails-ni-narimasu/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 12,
       "families": {
@@ -152649,12 +154167,36 @@
       "series": "https://jkanime.net/shigatsu-wa-kimi-no-uso/",
       "title": "Shigatsu wa Kimi no Uso",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 22,
       "stored": 22,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/1/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/10/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/11/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/12/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/13/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/14/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/15/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/16/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/17/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/18/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/19/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/2/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/20/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/21/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/22/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/3/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/4/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/5/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/6/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/7/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/8/",
+        "https://jkanime.net/shigatsu-wa-kimi-no-uso/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 22,
       "families": {
@@ -152671,12 +154213,38 @@
       "series": "https://jkanime.net/shirobako/",
       "title": "Shirobako",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/shirobako/1/",
+        "https://jkanime.net/shirobako/10/",
+        "https://jkanime.net/shirobako/11/",
+        "https://jkanime.net/shirobako/12/",
+        "https://jkanime.net/shirobako/13/",
+        "https://jkanime.net/shirobako/14/",
+        "https://jkanime.net/shirobako/15/",
+        "https://jkanime.net/shirobako/16/",
+        "https://jkanime.net/shirobako/17/",
+        "https://jkanime.net/shirobako/18/",
+        "https://jkanime.net/shirobako/19/",
+        "https://jkanime.net/shirobako/2/",
+        "https://jkanime.net/shirobako/20/",
+        "https://jkanime.net/shirobako/21/",
+        "https://jkanime.net/shirobako/22/",
+        "https://jkanime.net/shirobako/23/",
+        "https://jkanime.net/shirobako/24/",
+        "https://jkanime.net/shirobako/3/",
+        "https://jkanime.net/shirobako/4/",
+        "https://jkanime.net/shirobako/5/",
+        "https://jkanime.net/shirobako/6/",
+        "https://jkanime.net/shirobako/7/",
+        "https://jkanime.net/shirobako/8/",
+        "https://jkanime.net/shirobako/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 24,
       "families": {
@@ -152692,12 +154260,38 @@
       "series": "https://jkanime.net/kiseijuu-sei-no-kakuritsu/",
       "title": "Parasyte - Kiseijuu Sei no Kakuritsu",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/1/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/10/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/11/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/12/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/13/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/14/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/15/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/16/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/17/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/18/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/19/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/2/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/20/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/21/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/22/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/23/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/24/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/3/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/4/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/5/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/6/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/7/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/8/",
+        "https://jkanime.net/kiseijuu-sei-no-kakuritsu/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 24,
       "families": {
@@ -152713,12 +154307,24 @@
       "series": "https://jkanime.net/hitsugi-no-chaika-avenging-battle/",
       "title": "Hitsugi no Chaika: Avenging Battle",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/1/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/10/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/2/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/3/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/4/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/5/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/6/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/7/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/8/",
+        "https://jkanime.net/hitsugi-no-chaika-avenging-battle/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
@@ -152734,12 +154340,27 @@
       "series": "https://jkanime.net/hiscoool-seha-girls/",
       "title": "Hi☆sCoool! SeHa Girls",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hiscoool-seha-girls/1/",
+        "https://jkanime.net/hiscoool-seha-girls/10/",
+        "https://jkanime.net/hiscoool-seha-girls/11/",
+        "https://jkanime.net/hiscoool-seha-girls/12/",
+        "https://jkanime.net/hiscoool-seha-girls/13/",
+        "https://jkanime.net/hiscoool-seha-girls/2/",
+        "https://jkanime.net/hiscoool-seha-girls/3/",
+        "https://jkanime.net/hiscoool-seha-girls/4/",
+        "https://jkanime.net/hiscoool-seha-girls/5/",
+        "https://jkanime.net/hiscoool-seha-girls/6/",
+        "https://jkanime.net/hiscoool-seha-girls/7/",
+        "https://jkanime.net/hiscoool-seha-girls/8/",
+        "https://jkanime.net/hiscoool-seha-girls/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 13,
       "families": {
@@ -189934,12 +191555,16 @@
       "series": "https://jkanime.net/kanojo-no-tomodachi/",
       "title": "Kanojo no Tomodachi",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kanojo-no-tomodachi/2/",
+        "https://jkanime.net/kanojo-no-tomodachi/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "families": {
@@ -190606,12 +192231,16 @@
       "series": "https://jkanime.net/umayuru-full-gate/",
       "title": "Umayuru: Full Gate!",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/umayuru-full-gate/3/",
+        "https://jkanime.net/umayuru-full-gate/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 5,
       "families": {
@@ -190727,12 +192356,15 @@
       "series": "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/",
       "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/bleach-sennen-kessen-hen-kashin-tan/10/"
+      ],
       "noIndependent": [],
       "renewalFailed": 10,
       "families": {
@@ -190886,12 +192518,16 @@
       "series": "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/",
       "title": "Steel Ball Run: JoJo no Kimyou na Bouken",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/5/",
+        "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 2,
       "families": {

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T08:13:24.047116+00:00",
+  "checkedAt": "2026-11-03T08:35:10.801098+00:00",
   "failedChapters": 56478,
   "series": 4058,
   "diagnosedSeries": 4048,
@@ -119385,6 +119385,18 @@
       "nextRetryAt": 1793455635.8770013
     },
     {
+      "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793695306.1254735
+    },
+    {
       "series": "https://jkanime.net/cluster-edge/",
       "failedChapters": 1,
       "samples": [
@@ -138552,18 +138564,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793695306.1254735
     }
   ]
 }
