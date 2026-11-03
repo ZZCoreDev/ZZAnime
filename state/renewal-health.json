@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T20:26:25.443336+00:00",
+  "checkedAt": "2026-11-03T20:44:58.301658+00:00",
   "episodes": 73039,
-  "oldestHours": 199.87,
-  "pending": 71806,
+  "oldestHours": 200.18,
+  "pending": 71800,
   "expired": 57127,
-  "expiresWithin24Hours": 57469,
-  "retryAfterExpiry": 1434,
+  "expiresWithin24Hours": 57470,
+  "retryAfterExpiry": 1435,
   "successfulCyclesMeasured": 81,
-  "sampleMinutes": 1433.46,
-  "measuredWallClockPerHour": 166.59,
-  "estimatedSweepDays": 18.27,
+  "sampleMinutes": 1438.17,
+  "measuredWallClockPerHour": 170.22,
+  "estimatedSweepDays": 17.88,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -731,7 +731,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4101,
+    "series": 4098,
     "diagnosedSeries": 4047,
-    "pendingSeries": 54
+    "pendingSeries": 51
   },
   "coverage": {
-    "checkedAt": "2026-11-03T20:26:25.443336+00:00",
+    "checkedAt": "2026-11-03T20:44:58.301658+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73039,

@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T20:26:25.443336+00:00",
-  "failedChapters": 56561,
-  "series": 4101,
+  "checkedAt": "2026-11-03T20:44:58.301658+00:00",
+  "failedChapters": 56562,
+  "series": 4098,
   "diagnosedSeries": 4047,
-  "pendingSeries": 54,
+  "pendingSeries": 51,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 167,
+    "ValueError: No approved observations; previous channel retained": 168,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -91800,6 +91800,19 @@
       "nextRetryAt": 1793753882.5137358
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 10,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/yuusha-ga-shinda/",
       "failedChapters": 10,
       "samples": [
@@ -92238,6 +92251,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793195282.2182956
+    },
+    {
+      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
+      "failedChapters": 9,
+      "samples": [
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/fairy-tail-ova/",
@@ -94112,19 +94138,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793375929.4872897
-    },
-    {
-      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-      "failedChapters": 8,
-      "samples": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/fangkai-nage-nuwu/",
@@ -97685,19 +97698,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793749755.0453506
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 7,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/2x2-shinobuden/",
@@ -101748,7 +101748,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714093.49938
+      "nextRetryAt": 1793738765.8100264
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -109036,7 +109036,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793737590.4530032
+      "nextRetryAt": 1793738791.9462292
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -120080,18 +120080,6 @@
       "nextRetryAt": 1793398185.7687573
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793736965.810011
-    },
-    {
       "series": "https://jkanime.net/d-frag-ova/",
       "failedChapters": 1,
       "samples": [
@@ -126587,18 +126575,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793801549.1133268
-    },
-    {
-      "series": "https://jkanime.net/kami-no-shizuku/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kami-no-shizuku/18/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793736978.647476
     },
     {
       "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
@@ -138537,18 +138513,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793749006.1057208
-    },
-    {
-      "series": "https://jkanime.net/yomi-no-tsugai/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yomi-no-tsugai/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793735762.0665758
     },
     {
       "series": "https://jkanime.net/youjo-senki-movie-manner-eizou/",

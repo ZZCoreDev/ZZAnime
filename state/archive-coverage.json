@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T20:26:25.443336+00:00",
+  "checkedAt": "2026-11-03T20:44:58.301658+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73039,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -298,13 +290,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kami-no-shizuku/",
-        "title": "Kami no Shizuku",
-        "samples": [
-          "https://jkanime.net/kami-no-shizuku/18/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-4th-season/",
         "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
         "samples": [
@@ -348,13 +333,6 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yomi-no-tsugai/",
-        "title": "Yomi no Tsugai",
-        "samples": [
-          "https://jkanime.net/yomi-no-tsugai/12/"
         ]
       },
       {
@@ -63327,8 +63305,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63339,7 +63316,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -65440,8 +65417,7 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -65450,7 +65426,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -66097,8 +66073,7 @@
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -66107,7 +66082,7 @@
         "https://jkanime.net/yomi-no-tsugai/12/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "streamwish": 23,
@@ -78782,7 +78757,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -82953,7 +82928,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 10,
       "sideOnly": 0,
       "families": {
         "mega": 27,
