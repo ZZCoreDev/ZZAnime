@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T14:37:10.722782+00:00",
+  "checkedAt": "2026-11-03T14:54:08.296891+00:00",
   "episodes": 73035,
-  "oldestHours": 194.05,
-  "pending": 71689,
+  "oldestHours": 194.34,
+  "pending": 71705,
   "expired": 57091,
   "expiresWithin24Hours": 57131,
   "retryAfterExpiry": 1404,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1437.35,
-  "measuredWallClockPerHour": 94.17,
-  "estimatedSweepDays": 32.31,
+  "sampleMinutes": 1436.18,
+  "measuredWallClockPerHour": 98.43,
+  "estimatedSweepDays": 30.92,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -815,7 +815,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4098,
+    "series": 4097,
     "diagnosedSeries": 4047,
-    "pendingSeries": 51
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-03T14:37:10.722782+00:00",
+    "checkedAt": "2026-11-03T14:54:08.296891+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73854,
     "storedChapters": 73035,
