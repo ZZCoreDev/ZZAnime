@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T00:29:54.191452+00:00",
+  "checkedAt": "2026-11-03T00:47:01.122543+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
   "storedChapters": 72664,
@@ -70,13 +70,6 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
-        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
-        "samples": [
-          "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
         ]
       },
       {
@@ -54107,8 +54100,7 @@
       "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -54117,7 +54109,7 @@
         "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mp4upload": 12,
         "streamwish": 12,
