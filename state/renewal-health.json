@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T17:40:00.426017+00:00",
+  "checkedAt": "2026-11-03T17:57:52.927575+00:00",
   "episodes": 73038,
-  "oldestHours": 197.1,
-  "pending": 71758,
+  "oldestHours": 197.4,
+  "pending": 71765,
   "expired": 57127,
-  "expiresWithin24Hours": 57465,
-  "retryAfterExpiry": 1417,
+  "expiresWithin24Hours": 57467,
+  "retryAfterExpiry": 1422,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1425.02,
-  "measuredWallClockPerHour": 133.47,
-  "estimatedSweepDays": 22.8,
+  "sampleMinutes": 1401.82,
+  "measuredWallClockPerHour": 139.96,
+  "estimatedSweepDays": 21.74,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -731,14 +731,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4097,
+    "series": 4098,
     "diagnosedSeries": 4047,
-    "pendingSeries": 50
+    "pendingSeries": 51
   },
   "coverage": {
-    "checkedAt": "2026-11-03T17:40:00.426017+00:00",
+    "checkedAt": "2026-11-03T17:57:52.927575+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73857,
     "storedChapters": 73038,

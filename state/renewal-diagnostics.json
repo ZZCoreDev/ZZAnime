@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T17:40:00.426017+00:00",
-  "failedChapters": 56544,
-  "series": 4097,
+  "checkedAt": "2026-11-03T17:57:52.927575+00:00",
+  "failedChapters": 56549,
+  "series": 4098,
   "diagnosedSeries": 4047,
-  "pendingSeries": 50,
+  "pendingSeries": 51,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 150,
+    "ValueError: No approved observations; previous channel retained": 155,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -86803,6 +86803,40 @@
       "nextRetryAt": 1793351640.3818023
     },
     {
+      "series": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/1/",
+        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/5/",
+      "sources": {
+        "flv": {
+          "cause": "identity-mismatch",
+          "message": "Ambiguous AnimeFLV listing identity",
+          "stage": "listing",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793220727567,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793196716.771461
+    },
+    {
       "series": "https://jkanime.net/the-legend-of-heroes-sen-no-kiseki-northern-war/",
       "failedChapters": 11,
       "samples": [
@@ -90995,40 +91029,6 @@
       "nextRetryAt": 1793219081.0528889
     },
     {
-      "series": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/1/",
-        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/5/",
-      "sources": {
-        "flv": {
-          "cause": "identity-mismatch",
-          "message": "Ambiguous AnimeFLV listing identity",
-          "stage": "listing",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793220727567,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793196716.771461
-    },
-    {
       "series": "https://jkanime.net/tokyo-mew-mew-new-2nd-season/",
       "failedChapters": 10,
       "samples": [
@@ -94651,6 +94651,19 @@
       "nextRetryAt": 1793251166.7276876
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 8,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717010.3162668
+    },
+    {
       "series": "https://jkanime.net/kaitou-joker-3rd-season/",
       "failedChapters": 8,
       "samples": [
@@ -96759,19 +96772,6 @@
       "nextRetryAt": 1793247574.5968046
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 7,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717010.3162668
-    },
-    {
       "series": "https://jkanime.net/kancolle-itsuka-ano-umi-de/",
       "failedChapters": 7,
       "samples": [
@@ -97559,6 +97559,19 @@
       "nextRetryAt": 1793342922.724113
     },
     {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793714143.717503
+    },
+    {
       "series": "https://jkanime.net/xin-yichang-shengwu-jianwen-lu-xu/",
       "failedChapters": 7,
       "samples": [
@@ -98240,6 +98253,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793353342.3621037
+    },
+    {
+      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/durarara-x2-shou/",
@@ -100908,19 +100934,6 @@
       "nextRetryAt": 1793333067.1855137
     },
     {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714143.717503
-    },
-    {
       "series": "https://jkanime.net/uniteup-unibirth/",
       "failedChapters": 6,
       "samples": [
@@ -101474,19 +101487,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793261405.1617115
-    },
-    {
-      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/ebiten-kouritsu-ebisugawa-koukou-tenmonbu-specials/",
@@ -107316,8 +107316,8 @@
       "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
       "failedChapters": 3,
       "samples": [
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/"
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/"
       ],
       "diagnosedSample": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/",
       "sources": {
@@ -118936,7 +118936,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793726830.5715942
+      "nextRetryAt": 1793742904.5511608
     },
     {
       "series": "https://jkanime.net/c3-special/",
@@ -119817,7 +119817,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793726839.697698
+      "nextRetryAt": 1793742895.2855392
     },
     {
       "series": "https://jkanime.net/cluster-edge/",
@@ -124577,7 +124577,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793726866.3517046
+      "nextRetryAt": 1793742938.43995
     },
     {
       "series": "https://jkanime.net/hand-maid-mai/",
@@ -124721,7 +124721,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793726850.612057
+      "nextRetryAt": 1793742923.049594
     },
     {
       "series": "https://jkanime.net/hello-world/",
@@ -133783,7 +133783,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793726879.1807609
+      "nextRetryAt": 1793742955.4415176
     },
     {
       "series": "https://jkanime.net/rozen-maiden-ouvertre/",
@@ -139058,6 +139058,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793730295.2855248
     }
   ]
 }
