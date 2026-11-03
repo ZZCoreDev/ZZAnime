@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-03T19:11:16.197730+00:00",
-  "failedChapters": 56556,
+  "checkedAt": "2026-11-03T19:29:10.087493+00:00",
+  "failedChapters": 56558,
   "series": 4099,
   "diagnosedSeries": 4047,
   "pendingSeries": 52,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 162,
+    "ValueError: No approved observations; previous channel retained": 164,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -77316,6 +77316,40 @@
       "nextRetryAt": 1793210734.4206233
     },
     {
+      "series": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/1/",
+        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/5/",
+      "sources": {
+        "flv": {
+          "cause": "identity-mismatch",
+          "message": "Ambiguous AnimeFLV listing identity",
+          "stage": "listing",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793220727567,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793196716.771461
+    },
+    {
       "series": "https://jkanime.net/the-idolmster-shiny-colors/",
       "failedChapters": 12,
       "samples": [
@@ -86801,40 +86835,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793351640.3818023
-    },
-    {
-      "series": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/",
-      "failedChapters": 11,
-      "samples": [
-        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/1/",
-        "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/5/",
-      "sources": {
-        "flv": {
-          "cause": "identity-mismatch",
-          "message": "Ambiguous AnimeFLV listing identity",
-          "stage": "listing",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793220727567,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793196716.771461
     },
     {
       "series": "https://jkanime.net/the-legend-of-heroes-sen-no-kiseki-northern-war/",
@@ -97674,6 +97674,19 @@
       "nextRetryAt": 1793749755.0453506
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/15/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/2x2-shinobuden/",
       "failedChapters": 6,
       "samples": [
@@ -101035,19 +101048,6 @@
       "nextRetryAt": 1793313430.5032241
     },
     {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/15/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
-    },
-    {
       "series": "https://jkanime.net/yuuki-yuuna-wa-yuusha-de-aru-washio-sumi-no-shou/",
       "failedChapters": 6,
       "samples": [
@@ -103039,7 +103039,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714104.692977
+      "nextRetryAt": 1793714104.6929882
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -109036,7 +109036,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714125.2850087
+      "nextRetryAt": 1793714125.2850187
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -134337,18 +134337,6 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793732526.0938659
-    },
-    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139082,6 +139070,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/yomi-no-tsugai/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yomi-no-tsugai/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793735762.0665758
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T19:11:16.197730+00:00",
+  "checkedAt": "2026-11-03T19:29:10.087493+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73039,
@@ -80,13 +80,6 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sayonara-lara/",
-        "title": "Sayonara Lara",
-        "samples": [
-          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -340,6 +333,13 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yomi-no-tsugai/",
+        "title": "Yomi no Tsugai",
+        "samples": [
+          "https://jkanime.net/yomi-no-tsugai/12/"
         ]
       },
       {
@@ -63795,8 +63795,7 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -63805,7 +63804,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -66081,7 +66080,8 @@
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -66090,7 +66090,7 @@
         "https://jkanime.net/yomi-no-tsugai/12/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "streamwish": 23,
@@ -78672,7 +78672,7 @@
         "https://jkanime.net/the-idolmster-shiny-colors-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -82936,7 +82936,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 27,

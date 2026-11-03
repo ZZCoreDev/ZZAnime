@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T19:11:16.197730+00:00",
+  "checkedAt": "2026-11-03T19:29:10.087493+00:00",
   "episodes": 73039,
-  "oldestHours": 198.62,
-  "pending": 71784,
+  "oldestHours": 198.92,
+  "pending": 71794,
   "expired": 57127,
   "expiresWithin24Hours": 57469,
-  "retryAfterExpiry": 1429,
+  "retryAfterExpiry": 1431,
   "successfulCyclesMeasured": 81,
-  "sampleMinutes": 1426.18,
-  "measuredWallClockPerHour": 152.3,
-  "estimatedSweepDays": 19.98,
+  "sampleMinutes": 1427.26,
+  "measuredWallClockPerHour": 156.38,
+  "estimatedSweepDays": 19.46,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 52
   },
   "coverage": {
-    "checkedAt": "2026-11-03T19:11:16.197730+00:00",
+    "checkedAt": "2026-11-03T19:29:10.087493+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73039,
