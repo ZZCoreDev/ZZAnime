@@ -1,23 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-03T18:03:13.047045+00:00",
+  "checkedAt": "2026-11-03T18:22:06.123485+00:00",
   "requested": 400,
-  "renewed": 76,
-  "attempted": 76,
-  "repairAttempts": 0,
+  "renewed": 100,
+  "attempted": 136,
+  "repairAttempts": 9,
   "earlyRepairAttempts": 0,
-  "failed": 56549,
+  "failed": 56553,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41689310923",
+  "runId": "41692329685",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57127,
+  "extraRenewed": 31,
   "published": true,
   "expiresWithin24Hours": 57468,
-  "retryAfterExpiry": 1422,
+  "retryAfterExpiry": 1426,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -136,7 +137,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -738,14 +739,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -888,16 +889,16 @@
     "pendingSeries": 51
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-03T18:16:50.947381+00:00",
+    "checkedAt": "2026-11-03T18:34:54.531147+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73858,
+    "observedChapters": 73860,
     "storedChapters": 73039,
     "missingChapters": 514,
     "expiredChapters": 57127,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 305,
-    "voeOnlyChapters": 45,
+    "sideOnlyChapters": 307,
+    "voeOnlyChapters": 47,
     "extraOnlyChapters": 305,
     "sourceRequests": 0,
     "aiCalls": 0,

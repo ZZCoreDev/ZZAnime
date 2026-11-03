@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T18:16:50.947381+00:00",
+  "checkedAt": "2026-11-03T18:34:54.531147+00:00",
   "episodes": 73039,
-  "oldestHours": 197.71,
-  "pending": 71775,
+  "oldestHours": 198.02,
+  "pending": 71784,
   "expired": 57127,
   "expiresWithin24Hours": 57468,
-  "retryAfterExpiry": 1422,
-  "successfulCyclesMeasured": 81,
-  "sampleMinutes": 1420.79,
-  "measuredWallClockPerHour": 141.3,
-  "estimatedSweepDays": 21.54,
+  "retryAfterExpiry": 1426,
+  "successfulCyclesMeasured": 82,
+  "sampleMinutes": 1438.85,
+  "measuredWallClockPerHour": 143.7,
+  "estimatedSweepDays": 21.18,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -731,14 +731,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,16 +881,16 @@
     "pendingSeries": 51
   },
   "coverage": {
-    "checkedAt": "2026-11-03T18:16:50.947381+00:00",
+    "checkedAt": "2026-11-03T18:34:54.531147+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73858,
+    "observedChapters": 73860,
     "storedChapters": 73039,
     "missingChapters": 514,
     "expiredChapters": 57127,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 305,
-    "voeOnlyChapters": 45,
+    "sideOnlyChapters": 307,
+    "voeOnlyChapters": 47,
     "extraOnlyChapters": 305,
     "sourceRequests": 0,
     "aiCalls": 0,

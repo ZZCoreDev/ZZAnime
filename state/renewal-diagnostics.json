@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-03T18:16:50.947381+00:00",
-  "failedChapters": 56549,
+  "checkedAt": "2026-11-03T18:34:54.531147+00:00",
+  "failedChapters": 56553,
   "series": 4098,
   "diagnosedSeries": 4047,
   "pendingSeries": 51,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 155,
+    "ValueError: No approved observations; previous channel retained": 159,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -89937,6 +89937,38 @@
       "nextRetryAt": 1793264280.6974452
     },
     {
+      "series": "https://jkanime.net/natsume-yuujinchou-shichi/",
+      "failedChapters": 10,
+      "samples": [
+        "https://jkanime.net/natsume-yuujinchou-shichi/10/",
+        "https://jkanime.net/natsume-yuujinchou-shichi/11/"
+      ],
+      "diagnosedSample": "https://jkanime.net/natsume-yuujinchou-shichi/6/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793195555.838443
+    },
+    {
       "series": "https://jkanime.net/natsume-yuujinchou/",
       "failedChapters": 10,
       "samples": [
@@ -92633,6 +92665,19 @@
       "nextRetryAt": 1793228504.7903683
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 9,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717010.3162668
+    },
+    {
       "series": "https://jkanime.net/kekkon-suru-tte-hontou-desu-ka/",
       "failedChapters": 9,
       "samples": [
@@ -92937,38 +92982,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793252636.20281
-    },
-    {
-      "series": "https://jkanime.net/natsume-yuujinchou-shichi/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/natsume-yuujinchou-shichi/10/",
-        "https://jkanime.net/natsume-yuujinchou-shichi/11/"
-      ],
-      "diagnosedSample": "https://jkanime.net/natsume-yuujinchou-shichi/6/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793195555.838443
     },
     {
       "series": "https://jkanime.net/negaposi-angler/",
@@ -94649,19 +94662,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793251166.7276876
-    },
-    {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 8,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717010.3162668
     },
     {
       "series": "https://jkanime.net/kaitou-joker-3rd-season/",
@@ -96420,6 +96420,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793358548.3155775
+    },
+    {
+      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/",
@@ -98253,19 +98266,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793353342.3621037
-    },
-    {
-      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793715282.2943246
     },
     {
       "series": "https://jkanime.net/durarara-x2-shou/",
@@ -111136,6 +111136,19 @@
       "nextRetryAt": 1793403472.7340615
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/8/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/yuru-camp-season-3-specials/",
       "failedChapters": 3,
       "samples": [
@@ -116259,19 +116272,6 @@
       "nextRetryAt": 1793382862.3015778
     },
     {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/14/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/8/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
-    },
-    {
       "series": "https://jkanime.net/zan-sayonara-zetsubou-sensei-bangaichi/",
       "failedChapters": 2,
       "samples": [
@@ -120661,7 +120661,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793727891.652941
+      "nextRetryAt": 1793745126.0938818
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-ova/",
@@ -125308,7 +125308,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793724327.208517
+      "nextRetryAt": 1793737961.370669
     },
     {
       "series": "https://jkanime.net/human-lost-ningen-shikkaku/",
@@ -137630,7 +137630,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793727919.222761
+      "nextRetryAt": 1793745155.8157043
     },
     {
       "series": "https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/",
@@ -138896,18 +138896,6 @@
       "nextRetryAt": 1793749998.9934447
     },
     {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793721439.6976862
-    },
-    {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
       "failedChapters": 1,
       "samples": [
@@ -139070,6 +139058,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793732526.0938659
     }
   ]
 }
