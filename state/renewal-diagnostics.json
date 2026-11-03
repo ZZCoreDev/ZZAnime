@@ -1,19 +1,19 @@
 {
-  "checkedAt": "2026-11-03T09:43:47.107271+00:00",
-  "failedChapters": 56461,
-  "series": 4062,
+  "checkedAt": "2026-11-03T10:00:33.389739+00:00",
+  "failedChapters": 56453,
+  "series": 4060,
   "diagnosedSeries": 4047,
-  "pendingSeries": 15,
+  "pendingSeries": 13,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
     "tio:unlisted-episode": 49,
-    "flv:no-approved-provider": 2588,
+    "flv:no-approved-provider": 2589,
     "tio:address-not-found": 1894,
     "tio:identity-mismatch": 108,
-    "tio:no-approved-provider": 1943,
+    "tio:no-approved-provider": 1944,
     "flv:identity-mismatch": 214,
-    "tio:observed-options": 11,
+    "tio:observed-options": 10,
     "flv:parser-or-network": 14,
     "tio:source-http": 2,
     "tio:parser-or-network": 4,
@@ -23,13 +23,13 @@
   },
   "knownFinalReasons": {
     "Source HTTP 404": 16617,
-    "ValueError: VOE provider scope": 131,
+    "ValueError: VOE provider scope": 129,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3143,
     "ValueError: No approved observations; previous channel retained": 36,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
-    "Source did not return a verified observation": 278,
+    "Source did not return a verified observation": 272,
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
@@ -2957,33 +2957,6 @@
       "nextRetryAt": 1793370694.8754427
     },
     {
-      "series": "https://jkanime.net/captain-tsubasa-2018/",
-      "failedChapters": 52,
-      "samples": [
-        "https://jkanime.net/captain-tsubasa-2018/1/",
-        "https://jkanime.net/captain-tsubasa-2018/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/captain-tsubasa-2018/52/",
-      "sources": {
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793261291943,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "observed-options",
-          "stage": "complete",
-          "status": 200
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793262958.256455
-    },
-    {
       "series": "https://jkanime.net/fushigi-yuugi/",
       "failedChapters": 52,
       "samples": [
@@ -5588,6 +5561,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793430070.3290994
+    },
+    {
+      "series": "https://jkanime.net/captain-tsubasa-2018/",
+      "failedChapters": 46,
+      "samples": [
+        "https://jkanime.net/captain-tsubasa-2018/1/",
+        "https://jkanime.net/captain-tsubasa-2018/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/captain-tsubasa-2018/46/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793261328982,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793262958.256455
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-act-ii/",
@@ -119584,18 +119591,6 @@
       "nextRetryAt": 1793398185.7687573
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793697588.1102757
-    },
-    {
       "series": "https://jkanime.net/d-frag-ova/",
       "failedChapters": 1,
       "samples": [
@@ -124230,18 +124225,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793797838.9803162
-    },
-    {
-      "series": "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793697601.200036
     },
     {
       "series": "https://jkanime.net/hello-world/",
