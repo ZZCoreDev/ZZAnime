@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-03T10:34:02.771461+00:00",
-  "failedChapters": 56451,
+  "checkedAt": "2026-11-03T10:51:36.264366+00:00",
+  "failedChapters": 56440,
   "series": 4058,
   "diagnosedSeries": 4047,
   "pendingSeries": 11,
@@ -29,7 +29,7 @@
     "ValueError: No approved observations; previous channel retained": 36,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
-    "Source did not return a verified observation": 272,
+    "Source did not return a verified observation": 261,
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
@@ -1508,33 +1508,6 @@
       "nextRetryAt": 1793349787.7858784
     },
     {
-      "series": "https://jkanime.net/gegege-no-kitarou-2018/",
-      "failedChapters": 97,
-      "samples": [
-        "https://jkanime.net/gegege-no-kitarou-2018/1/",
-        "https://jkanime.net/gegege-no-kitarou-2018/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/gegege-no-kitarou-2018/97/",
-      "sources": {
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793262073281,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "observed-options",
-          "stage": "complete",
-          "status": 200
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793263651.1034975
-    },
-    {
       "series": "https://jkanime.net/rurouni-kenshin/",
       "failedChapters": 94,
       "samples": [
@@ -1713,6 +1686,33 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793244026.8878305
+    },
+    {
+      "series": "https://jkanime.net/gegege-no-kitarou-2018/",
+      "failedChapters": 86,
+      "samples": [
+        "https://jkanime.net/gegege-no-kitarou-2018/1/",
+        "https://jkanime.net/gegege-no-kitarou-2018/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/gegege-no-kitarou-2018/97/",
+      "sources": {
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793262073281,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "observed-options",
+          "stage": "complete",
+          "status": 200
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793263651.1034975
     },
     {
       "series": "https://jkanime.net/koupen-chan/",
