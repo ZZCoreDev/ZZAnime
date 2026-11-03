@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T08:35:10.801098+00:00",
-  "failedChapters": 56478,
-  "series": 4058,
+  "checkedAt": "2026-11-03T08:51:43.471136+00:00",
+  "failedChapters": 56462,
+  "series": 4060,
   "diagnosedSeries": 4048,
-  "pendingSeries": 10,
+  "pendingSeries": 12,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4048,
@@ -23,13 +23,13 @@
   },
   "knownFinalReasons": {
     "Source HTTP 404": 16617,
-    "ValueError: VOE provider scope": 126,
+    "ValueError: VOE provider scope": 128,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3143,
     "ValueError: No approved observations; previous channel retained": 36,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
-    "Source did not return a verified observation": 300,
+    "Source did not return a verified observation": 282,
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
@@ -2651,40 +2651,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793383901.864617
-    },
-    {
-      "series": "https://jkanime.net/dragon-ball-heroes/",
-      "failedChapters": 55,
-      "samples": [
-        "https://jkanime.net/dragon-ball-heroes/10/",
-        "https://jkanime.net/dragon-ball-heroes/11/"
-      ],
-      "diagnosedSample": "https://jkanime.net/dragon-ball-heroes/56/",
-      "sources": {
-        "flv": {
-          "cause": "identity-mismatch",
-          "message": "Ambiguous AnimeFLV listing identity",
-          "stage": "listing",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793259643577,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "episode",
-          "status": 404
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793261313.9532793
     },
     {
       "series": "https://jkanime.net/ryuusei-no-rockman/",
@@ -6606,6 +6572,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793194050.2746847
+    },
+    {
+      "series": "https://jkanime.net/dragon-ball-heroes/",
+      "failedChapters": 38,
+      "samples": [
+        "https://jkanime.net/dragon-ball-heroes/2/",
+        "https://jkanime.net/dragon-ball-heroes/25/"
+      ],
+      "diagnosedSample": "https://jkanime.net/dragon-ball-heroes/56/",
+      "sources": {
+        "flv": {
+          "cause": "identity-mismatch",
+          "message": "Ambiguous AnimeFLV listing identity",
+          "stage": "listing",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793259643577,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "episode",
+          "status": 404
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793261313.9532793
     },
     {
       "series": "https://jkanime.net/fei-ren-zai/",
@@ -110772,33 +110772,6 @@
       "nextRetryAt": 1793200314.4127312
     },
     {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/4/",
-        "https://jkanime.net/zoku-owarimonogatari/5/"
-      ],
-      "diagnosedSample": "https://jkanime.net/zoku-owarimonogatari/6/",
-      "sources": {
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793260914124,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "observed-options",
-          "stage": "complete",
-          "status": 200
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793263242.4647026
-    },
-    {
       "series": "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/",
       "failedChapters": 2,
       "samples": [
@@ -115871,6 +115844,33 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793346798.4119914
+    },
+    {
+      "series": "https://jkanime.net/zoku-owarimonogatari/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/zoku-owarimonogatari/5/",
+        "https://jkanime.net/zoku-owarimonogatari/6/"
+      ],
+      "diagnosedSample": "https://jkanime.net/zoku-owarimonogatari/6/",
+      "sources": {
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793260914124,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "observed-options",
+          "stage": "complete",
+          "status": 200
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793264090.0897222
     },
     {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
@@ -127044,7 +127044,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793691570.156308
+      "nextRetryAt": 1793717388.1102908
     },
     {
       "series": "https://jkanime.net/kimi-no-iro/",
@@ -133865,7 +133865,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793691584.073126
+      "nextRetryAt": 1793717401.2000453
     },
     {
       "series": "https://jkanime.net/seishun-buta-yarou-wa-odekake-sister-no-yume-wo-minai/",
@@ -138564,6 +138564,30 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793697588.1102757
+    },
+    {
+      "series": "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793697601.200036
     }
   ]
 }
