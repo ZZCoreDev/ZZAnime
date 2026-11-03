@@ -18,14 +18,24 @@ def missing_targets(state,failures,now,side=None):
     side=side or {}
     return sorted(url for urls in observed.values() for url in urls if url not in state['episodes'] and failures.get(url,{}).get('retryAt',0)<=now and not (url in side and now-side[url]<86400))
 
-def audit(catalogue,baseline,state,failures,now):
+def side_channels(folder):
+    """{url: {'voe','extra'}} of chapters published in the /voe/ or /extra/ complement."""
+    from archive_state import load
+    out={}
+    for name in ('voe','extra'):
+        for url in load(Path(folder)/(name+'-state'))['episodes']:out.setdefault(url,set()).add(name)
+    return out
+
+def audit(catalogue,baseline,state,failures,now,side=None):
+    # side: chapters published only in /voe/ or /extra/ have options; they are counted apart, never as missing.
+    side=side or {}
     by_parent=defaultdict(dict);failed_by_parent=defaultdict(list)
     for url,ep in state.get('episodes',{}).items():by_parent[url.rsplit('/',2)[0]+'/'][url]=ep
     for url in failures:failed_by_parent[url.rsplit('/',2)[0]+'/'].append(url)
     groups=defaultdict(list);rows=[];totals=Counter()
     for item in catalogue:
         parent=item['url'];old=baseline.get('series',{}).get(parent,{});current=state.get('listings',{}).get(parent,{})
-        observed=set(old.get('episodes',[]))|set(current.get('episodes',[]));saved=by_parent[parent];missing=sorted(observed-set(saved));expired=[];empty=[];families=Counter()
+        observed=set(old.get('episodes',[]))|set(current.get('episodes',[]));saved=by_parent[parent];unsaved=observed-set(saved);published=sorted(url for url in unsaved if url in side);missing=sorted(unsaved-set(published));expired=[];empty=[];families=Counter()
         for url,ep in saved.items():
             if not 0<=now-stamp(ep.get('observedAt'))<=7*86400:expired.append(url)
             providers=[p for p in ep.get('providers',[]) if p.get('links')]
@@ -39,10 +49,10 @@ def audit(catalogue,baseline,state,failures,now):
         if expired:causes.append('expired-observation')
         if empty:causes.append('no-independent-option')
         if failed:causes.append('renewal-error')
-        row={'series':parent,'title':item['title'],'causes':causes,'observed':len(observed),'stored':len(saved),'missing':missing,'expired':expired,'noIndependent':empty,'renewalFailed':len(failed),'families':dict(families),'playbackVerified':False}
+        row={'series':parent,'title':item['title'],'causes':causes,'observed':len(observed),'stored':len(saved),'missing':missing,'expired':expired,'noIndependent':empty,'renewalFailed':len(failed),'sideOnly':len(published),'families':dict(families),'playbackVerified':False}
         rows.append(row)
         for cause in causes:groups[cause].append({'series':parent,'title':item['title'],'samples':(redirects if cause=='retained-redirect' else missing or expired or empty or failed)[:2]})
-        totals.update(observedChapters=len(observed),storedChapters=len(saved),missingChapters=len(missing),expiredChapters=len(expired),noIndependentChapters=len(empty),seriesWithoutObservedListing=int(not observed))
+        totals.update(observedChapters=len(observed),storedChapters=len(saved),missingChapters=len(missing),expiredChapters=len(expired),noIndependentChapters=len(empty),seriesWithoutObservedListing=int(not observed),sideOnlyChapters=len(published),voeOnlyChapters=sum('voe' in side[url] for url in published),extraOnlyChapters=sum('extra' in side[url] for url in published))
     return {'checkedAt':datetime.datetime.fromtimestamp(now,datetime.timezone.utc).isoformat(),'catalogueSeries':len(catalogue),**dict(totals),'sourceRequests':0,'aiCalls':0,'playbackVerified':False,'groups':dict(groups),'series':rows}
 
 def write(folder,report):
@@ -51,8 +61,8 @@ def write(folder,report):
     queue={cause:{'series':len(rows),'twoSeriesProofRequired':True,'samples':rows[:2]} for cause,rows in report['groups'].items()}
     (folder/'repair-queue.json').write_text(json.dumps(queue,indent=2,ensure_ascii=False),encoding='utf-8')
     with (folder/'archive-coverage.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        out=csv.writer(f);out.writerow(['title','series','causes','observed','stored','missing','expired','renewalFailed'])
-        for row in report['series']:out.writerow([row['title'],row['series'],' | '.join(row['causes']),row['observed'],row['stored'],len(row['missing']),len(row['expired']),row['renewalFailed']])
+        out=csv.writer(f);out.writerow(['title','series','causes','observed','stored','missing','expired','renewalFailed','sideOnly'])
+        for row in report['series']:out.writerow([row['title'],row['series'],' | '.join(row['causes']),row['observed'],row['stored'],len(row['missing']),len(row['expired']),row['renewalFailed'],row['sideOnly']])
     summary={k:v for k,v in report.items() if k not in ['groups','series']}
     lines=['# Cobertura completa del respaldo','',json.dumps(summary,ensure_ascii=False),'','Presencia de opciones no demuestra reproducción. Los títulos sin listado observado tienen disponibilidad desconocida; no se inventan capítulos.','']
     lines.extend('- '+cause+': '+str(len(rows))+' series.' for cause,rows in report['groups'].items())
@@ -62,4 +72,4 @@ def write(folder,report):
 def cloud_report(folder,state,failures,now):
     root=Path(__file__).parent;path=root/'coverage-baseline.json.gz'
     if not path.exists():return {'state':'baseline-not-installed'}
-    return write(folder,audit(json.loads((root/'catalogue.json').read_bytes()),json.loads(gzip.decompress(path.read_bytes())),state,failures,now))
+    return write(folder,audit(json.loads((root/'catalogue.json').read_bytes()),json.loads(gzip.decompress(path.read_bytes())),state,failures,now,side_channels(folder)))

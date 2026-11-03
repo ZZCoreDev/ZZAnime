@@ -144,7 +144,7 @@ def status_text(current,status):
     diagnosis=status.get('incidentDiagnosis',{})
     if diagnosis:text+=f'Diagnóstico por serie: {diagnosis["diagnosedSeries"]}/{diagnosis["series"]}; pendientes: {diagnosis["pendingSeries"]}. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.\n'
     coverage=status.get('archiveCoverage',{})
-    if 'catalogueSeries' in coverage:text+=f'Cobertura de catálogo: {coverage["catalogueSeries"]} títulos, {coverage["storedChapters"]} capítulos con registros, {coverage["missingChapters"]} capítulos observados sin opciones y {coverage["expiredChapters"]} vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.\n'
+    if 'catalogueSeries' in coverage:text+=f'Cobertura de catálogo: {coverage["catalogueSeries"]} títulos, {coverage["storedChapters"]} capítulos con registros, {coverage["missingChapters"]} capítulos observados sin opciones, {coverage.get("sideOnlyChapters",0)} publicados solo en /voe/ o /extra/ y {coverage["expiredChapters"]} vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.\n'
     text+=end
     if start in current and end in current:
         a=current.index(start);b=current.index(end,a)+len(end);updated=current[:a]+text+current[b:]

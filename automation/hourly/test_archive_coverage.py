@@ -28,4 +28,20 @@ class CoverageTests(unittest.TestCase):
  def test_failed_missing_chapter_is_reported_not_hidden_until_saved(self):
   now,a,b,c=self.fixture();report=audit(c,{'series':{a:{'episodes':[a+'1/']}}},{'episodes':{},'listings':{}},{a+'1/':{'reason':'Source HTTP 404'}},now.timestamp())
   self.assertEqual(report['series'][0]['renewalFailed'],1);self.assertEqual(report['groups']['renewal-error'][0]['samples'],[a+'1/']);self.assertEqual(report['missingChapters'],1)
+ def test_chapters_published_in_voe_or_extra_are_counted_apart_not_missing(self):
+  import tempfile
+  from pathlib import Path
+  from archive_state import save
+  from archive_coverage import side_channels
+  now,a,b,c=self.fixture();ep={'observedAt':now.isoformat(),'providers':[]}
+  with tempfile.TemporaryDirectory() as temp:
+   save(Path(temp)/'voe-state',{'episodes':{a+'1/':ep,a+'2/':ep},'listings':{a:{'episodes':[a+'1/',a+'2/']}}})
+   save(Path(temp)/'extra-state',{'episodes':{a+'2/':ep,b+'1/':ep},'listings':{a:{'episodes':[a+'2/']},b:{'episodes':[b+'1/']}}})
+   side=side_channels(temp)
+  self.assertEqual(side,{a+'1/':{'voe'},a+'2/':{'voe','extra'},b+'1/':{'extra'}})
+  baseline={'series':{a:{'episodes':[a+'1/',a+'2/',a+'3/']},b:{'episodes':[b+'1/',b+'2/']}}}
+  report=audit(c,baseline,{'episodes':{},'listings':{}},{},now.timestamp(),side)
+  self.assertEqual(report['missingChapters'],2);self.assertEqual(report['sideOnlyChapters'],3);self.assertEqual(report['voeOnlyChapters'],2);self.assertEqual(report['extraOnlyChapters'],2)
+  self.assertEqual([row['missing'] for row in report['series']],[[a+'3/'],[b+'2/']]);self.assertEqual([row['sideOnly'] for row in report['series']],[2,1])
+  self.assertEqual(audit(c,baseline,{'episodes':{},'listings':{}},{},now.timestamp())['missingChapters'],5)
 if __name__=='__main__':unittest.main()
