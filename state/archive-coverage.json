@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T20:44:58.301658+00:00",
+  "checkedAt": "2026-11-03T21:02:46.473262+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73039,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -287,6 +295,13 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-shizuku/",
+        "title": "Kami no Shizuku",
+        "samples": [
+          "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
       {
@@ -63305,7 +63320,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -63316,7 +63332,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -65417,7 +65433,8 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -65426,7 +65443,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -75565,7 +75582,7 @@
         "https://jkanime.net/akuyaku-reijou-tensei-ojisan/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -82928,7 +82945,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -87421,7 +87438,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "sideOnly": 2,
       "families": {
         "mega": 24,
@@ -88261,7 +88278,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106479,7 +106496,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106661,7 +106678,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -107073,7 +107090,7 @@
         "https://jkanime.net/kyoukai-senki/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "sideOnly": 1,
       "families": {
         "mega": 22,
