@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T21:20:43.427419+00:00",
+  "checkedAt": "2026-11-03T21:38:58.253855+00:00",
   "episodes": 73040,
-  "oldestHours": 200.78,
-  "pending": 71790,
+  "oldestHours": 201.08,
+  "pending": 71796,
   "expired": 57127,
   "expiresWithin24Hours": 57471,
-  "retryAfterExpiry": 1451,
+  "retryAfterExpiry": 1454,
   "successfulCyclesMeasured": 81,
-  "sampleMinutes": 1435.4,
-  "measuredWallClockPerHour": 178.9,
-  "estimatedSweepDays": 17.01,
+  "sampleMinutes": 1435.87,
+  "measuredWallClockPerHour": 183.03,
+  "estimatedSweepDays": 16.63,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 15,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4101,
+    "series": 4102,
     "diagnosedSeries": 4047,
-    "pendingSeries": 54
+    "pendingSeries": 55
   },
   "coverage": {
-    "checkedAt": "2026-11-03T21:20:43.427419+00:00",
+    "checkedAt": "2026-11-03T21:38:58.253855+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73040,

@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T21:20:43.427419+00:00",
-  "failedChapters": 56580,
-  "series": 4101,
+  "checkedAt": "2026-11-03T21:38:58.253855+00:00",
+  "failedChapters": 56583,
+  "series": 4102,
   "diagnosedSeries": 4047,
-  "pendingSeries": 54,
+  "pendingSeries": 55,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 186,
+    "ValueError: No approved observations; previous channel retained": 189,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -24961,6 +24961,19 @@
       "nextRetryAt": 1793246400.9652288
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 17,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/bu-shi-bu-mie/",
       "failedChapters": 16,
       "samples": [
@@ -27103,19 +27116,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793212491.5300503
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 15,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/anhe-zhuan-part-2/",
@@ -110324,7 +110324,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714290.0556526
+      "nextRetryAt": 1793743239.3773532
     },
     {
       "series": "https://jkanime.net/tamayomi/",
@@ -110474,7 +110474,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714161.8587947
+      "nextRetryAt": 1793743202.106892
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -124341,7 +124341,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714319.4579153
+      "nextRetryAt": 1793745407.012929
     },
     {
       "series": "https://jkanime.net/hachigatsu-no-cinderella-nine-episode-13/",
@@ -127165,7 +127165,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793714310.1818304
+      "nextRetryAt": 1793745393.5666819
     },
     {
       "series": "https://jkanime.net/katekyo-hitman-reborn-special/",
@@ -134352,6 +134352,18 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793742423.913279
+    },
+    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -138923,6 +138935,18 @@
       "nextRetryAt": 1793749998.9934447
     },
     {
+      "series": "https://jkanime.net/yuusha-no-kuzu/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuusha-no-kuzu/20/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793742440.430951
+    },
+    {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
       "failedChapters": 1,
       "samples": [
@@ -139087,28 +139111,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
+      "series": "https://jkanime.net/classic-stars/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
+        "https://jkanime.net/classic-stars/1/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793742423.913279
-    },
-    {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793742440.430951
+      "nextRetryAt": 1793743577.1737025
     }
   ]
 }
