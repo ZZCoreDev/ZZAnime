@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T13:31:02.618321+00:00",
+  "checkedAt": "2026-11-03T13:47:02.890734+00:00",
   "episodes": 73035,
-  "oldestHours": 192.95,
-  "pending": 71680,
-  "expired": 52991,
+  "oldestHours": 193.22,
+  "pending": 71652,
+  "expired": 54472,
   "expiresWithin24Hours": 57131,
-  "retryAfterExpiry": 1371,
+  "retryAfterExpiry": 1393,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1439.21,
-  "measuredWallClockPerHour": 77.38,
-  "estimatedSweepDays": 39.33,
+  "sampleMinutes": 1437.77,
+  "measuredWallClockPerHour": 81.63,
+  "estimatedSweepDays": 37.28,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -731,7 +731,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4091,
+    "series": 4095,
     "diagnosedSeries": 4047,
-    "pendingSeries": 44
+    "pendingSeries": 48
   },
   "coverage": {
-    "checkedAt": "2026-11-03T13:31:02.618321+00:00",
+    "checkedAt": "2026-11-03T13:47:02.890734+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73854,
     "storedChapters": 73035,
     "missingChapters": 514,
-    "expiredChapters": 52991,
+    "expiredChapters": 54472,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
