@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T15:12:12.518450+00:00",
+  "checkedAt": "2026-11-03T15:30:11.090030+00:00",
   "episodes": 73035,
-  "oldestHours": 194.64,
-  "pending": 71719,
+  "oldestHours": 194.94,
+  "pending": 71733,
   "expired": 57091,
-  "expiresWithin24Hours": 57131,
-  "retryAfterExpiry": 1404,
+  "expiresWithin24Hours": 57463,
+  "retryAfterExpiry": 1409,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1437.17,
-  "measuredWallClockPerHour": 101.12,
-  "estimatedSweepDays": 30.1,
+  "sampleMinutes": 1437.8,
+  "measuredWallClockPerHour": 105.24,
+  "estimatedSweepDays": 28.91,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 6,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,16 +881,16 @@
     "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-03T15:12:12.518450+00:00",
+    "checkedAt": "2026-11-03T15:30:11.090030+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73854,
+    "observedChapters": 73855,
     "storedChapters": 73035,
     "missingChapters": 514,
     "expiredChapters": 57091,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 305,
-    "voeOnlyChapters": 45,
+    "sideOnlyChapters": 306,
+    "voeOnlyChapters": 46,
     "extraOnlyChapters": 305,
     "sourceRequests": 0,
     "aiCalls": 0,
