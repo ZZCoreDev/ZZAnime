@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56556; capítulos vencidos pendientes: 57127. Próximos a vencer: 57468; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56556; capítulos vencidos pendientes: 57127. Próximos a vencer: 57469; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/5 capítulos recientes; incidencias pendientes: 0.
@@ -225,7 +225,7 @@ Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc,
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
 Diagnóstico por serie: 4047/4099; pendientes: 52. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 73039 capítulos con registros, 514 capítulos observados sin opciones, 307 publicados solo en /voe/ o /extra/ y 57127 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Cobertura de catálogo: 5053 títulos, 73039 capítulos con registros, 514 capítulos observados sin opciones, 308 publicados solo en /voe/ o /extra/ y 57127 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
