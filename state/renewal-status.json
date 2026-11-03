@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-03T04:58:38.862817+00:00",
+  "checkedAt": "2026-11-03T05:18:13.553767+00:00",
   "requested": 400,
   "renewed": 0,
-  "attempted": 144,
-  "repairAttempts": 36,
+  "attempted": 328,
+  "repairAttempts": 82,
   "earlyRepairAttempts": 2,
-  "failed": 56540,
+  "failed": 56533,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41581102178",
+  "runId": "41582729421",
   "proof": false,
   "identityRetriesReleased": 0,
-  "extraRenewed": 108,
+  "extraRenewed": 253,
   "expired": 19325,
   "published": true,
   "expiresWithin24Hours": 57210,
-  "retryAfterExpiry": 1283,
+  "retryAfterExpiry": 1309,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4065,
-    "diagnosedSeries": 4056,
-    "pendingSeries": 9
+    "series": 4060,
+    "diagnosedSeries": 4050,
+    "pendingSeries": 10
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-03T05:14:05.176744+00:00",
+    "checkedAt": "2026-11-03T05:31:13.808861+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73853,
     "storedChapters": 72665,

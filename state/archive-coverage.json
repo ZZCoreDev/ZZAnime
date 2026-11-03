@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T05:14:05.176744+00:00",
+  "checkedAt": "2026-11-03T05:31:13.808861+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
   "storedChapters": 72665,
@@ -1277,14 +1277,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/teogonia/",
-        "title": "Teogonia",
-        "samples": [
-          "https://jkanime.net/teogonia/3/",
-          "https://jkanime.net/teogonia/4/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kanpekisugite-kawaige-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru/",
         "title": "Kanpekisugite Kawaige ga Nai to Konyaku Haki sareta Seijo wa Ringoku ni Urareru",
         "samples": [
@@ -1305,14 +1297,6 @@
         "samples": [
           "https://jkanime.net/chuuzenji-sensei-mononoke-kougiroku-sensei-ga-nazo-wo-hodoite-shimau-kara/1/",
           "https://jkanime.net/chuuzenji-sensei-mononoke-kougiroku-sensei-ga-nazo-wo-hodoite-shimau-kara/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/",
-        "title": "Vigilante: Boku no Hero Academia Illegals",
-        "samples": [
-          "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/2/",
-          "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/8/"
         ]
       },
       {
@@ -1378,24 +1362,10 @@
         ]
       },
       {
-        "series": "https://jkanime.net/enen-no-shouboutai-san-no-shou/",
-        "title": "Enen no Shouboutai: San no Shou",
-        "samples": [
-          "https://jkanime.net/enen-no-shouboutai-san-no-shou/3/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni/",
         "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita: Sono Ni",
         "samples": [
           "https://jkanime.net/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/katainaka-no-ossan-kensei-ni-naru/",
-        "title": "Katainaka no Ossan, Kensei ni Naru",
-        "samples": [
-          "https://jkanime.net/katainaka-no-ossan-kensei-ni-naru/2/"
         ]
       },
       {
@@ -1404,13 +1374,6 @@
         "samples": [
           "https://jkanime.net/anne-shirley/16/",
           "https://jkanime.net/anne-shirley/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/guilty-gear-strive-dual-rulers/",
-        "title": "Guilty Gear Strive: Dual Rulers",
-        "samples": [
-          "https://jkanime.net/guilty-gear-strive-dual-rulers/2/"
         ]
       },
       {
@@ -63039,8 +63002,7 @@
       "series": "https://jkanime.net/teogonia/",
       "title": "Teogonia",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -63051,7 +63013,7 @@
         "https://jkanime.net/teogonia/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 10,
         "vidhide": 10,
@@ -63287,8 +63249,7 @@
       "series": "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/",
       "title": "Vigilante: Boku no Hero Academia Illegals",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -63298,7 +63259,7 @@
         "https://jkanime.net/vigilante-boku-no-hero-academia-illegals/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 7,
         "vidhide": 12,
@@ -63342,7 +63303,7 @@
         "https://jkanime.net/summer-pockets/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "streamwish": 17,
         "vidhide": 21,
@@ -63838,8 +63799,7 @@
       "series": "https://jkanime.net/enen-no-shouboutai-san-no-shou/",
       "title": "Enen no Shouboutai: San no Shou",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 25,
       "stored": 25,
@@ -63848,7 +63808,7 @@
         "https://jkanime.net/enen-no-shouboutai-san-no-shou/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "vidhide": 13,
         "mp4upload": 24,
@@ -63888,8 +63848,7 @@
       "series": "https://jkanime.net/katainaka-no-ossan-kensei-ni-naru/",
       "title": "Katainaka no Ossan, Kensei ni Naru",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -63898,7 +63857,7 @@
         "https://jkanime.net/katainaka-no-ossan-kensei-ni-naru/2/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 8,
         "mp4upload": 11,
@@ -63960,7 +63919,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "families": {
         "vidhide": 18,
         "streamwish": 22,
@@ -63975,8 +63934,7 @@
       "series": "https://jkanime.net/guilty-gear-strive-dual-rulers/",
       "title": "Guilty Gear Strive: Dual Rulers",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 8,
       "stored": 8,
@@ -63985,7 +63943,7 @@
         "https://jkanime.net/guilty-gear-strive-dual-rulers/2/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "streamwish": 8,
         "vidhide": 4,
