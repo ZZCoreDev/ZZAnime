@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T23:12:50.232962+00:00",
+  "checkedAt": "2026-11-03T23:29:35.580013+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73041,
@@ -536,6 +536,13 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-no-kuzu/",
+        "title": "Yuusha no Kuzu",
+        "samples": [
+          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -63885,7 +63892,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -67351,7 +67358,8 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -67360,7 +67368,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
