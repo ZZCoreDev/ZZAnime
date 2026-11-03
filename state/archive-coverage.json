@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T02:25:31.629669+00:00",
+  "checkedAt": "2026-11-03T02:42:34.391192+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73853,
   "storedChapters": 72665,
@@ -1111,14 +1111,6 @@
         "samples": [
           "https://jkanime.net/cardfight-vanguard-divinez-deluxe-kesshou-hen/1/",
           "https://jkanime.net/cardfight-vanguard-divinez-deluxe-kesshou-hen/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-        "title": "Tsuihousha Shokudou e Youkoso!",
-        "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
         ]
       },
       {
@@ -62198,8 +62190,7 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -62219,7 +62210,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "families": {
         "mega": 12,
         "streamwish": 12,
