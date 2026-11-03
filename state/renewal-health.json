@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-03T06:55:24.129726+00:00",
+  "checkedAt": "2026-11-03T07:22:09.894378+00:00",
   "episodes": 72665,
-  "oldestHours": 186.36,
-  "pending": 71374,
-  "expired": 23016,
-  "expiresWithin24Hours": 57210,
+  "oldestHours": 186.8,
+  "pending": 71349,
+  "expired": 24198,
+  "expiresWithin24Hours": 57171,
   "retryAfterExpiry": 1323,
   "successfulCyclesMeasured": 76,
-  "sampleMinutes": 1431.37,
-  "measuredWallClockPerHour": 0.08,
-  "estimatedSweepDays": 36114.72,
+  "sampleMinutes": 1388.88,
+  "measuredWallClockPerHour": 2.64,
+  "estimatedSweepDays": 1148.94,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -23,7 +23,7 @@
     "https://jkanime.net/mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai/": {
       "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
       "total": 5,
-      "fresh": 1,
+      "fresh": 0,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -881,12 +881,12 @@
     "pendingSeries": 9
   },
   "coverage": {
-    "checkedAt": "2026-11-03T06:55:24.129726+00:00",
+    "checkedAt": "2026-11-03T07:22:09.894378+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73853,
     "storedChapters": 72665,
     "missingChapters": 1188,
-    "expiredChapters": 23016,
+    "expiredChapters": 24198,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sourceRequests": 0,
