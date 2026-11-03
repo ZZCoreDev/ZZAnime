@@ -169,6 +169,26 @@ class LinkHealthTests(unittest.TestCase):
    link_health.check(d,now=now+25*3600,fetcher=Old(),sleep=lambda s:None,limit=0)
    kept=json.loads(Path(d,'link-health.json').read_text())['links']
    self.assertIn(key('Mp4upload',gone),kept);self.assertFalse(any(key('Mp4upload',u) in kept for u in arch))
+ def test_each_provider_is_one_lane_with_its_own_pause(self):
+  # 3/11/2026: providers are checked side by side, but each server still gets one request at a time with the pause between.
+  import threading
+  with tempfile.TemporaryDirectory() as d:
+   world(d)
+   mp4=['https://www.mp4upload.com/embed-lane%04dabcd.html'%i for i in range(5)];voe=['https://voe.sx/e/lane%04dabcdefg'%i for i in range(5)]
+   shard(d,ROOT,[{'family':'mp4upload','name':'Mp4upload','links':mp4},{'family':'voe','name':'VOE','links':voe}])
+   web=Web();lock=threading.Lock();active={};overlap=[];pauses=[]
+   def fetcher(url):
+    host='voe' if 'voe.sx' in url else 'mp4' if 'mp4upload' in url else 'other'
+    with lock:
+     if active.get(host):overlap.append(host)
+     active[host]=True
+    try:return web(url)
+    finally:
+     with lock:active[host]=False
+   link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=fetcher,sleep=lambda s:pauses.append(s))
+   self.assertEqual(overlap,[],'a server never gets two requests at once')
+   self.assertTrue(pauses and all(p==2.5 for p in pauses),'every pause keeps the approved 2.5 s')
+   self.assertTrue(all(u in web.urls for u in mp4) and any('voe.sx/e/lane' in u for u in web.urls),'both providers are checked in the same run')
  def test_news_keep_all_but_two_slots(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);many=['https://www.mp4upload.com/embed-news%04dabcd.html'%i for i in range(8)]
@@ -176,11 +196,11 @@ class LinkHealthTests(unittest.TestCase):
    for i in range(3):shard(d,'https://jkanime.net/old-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-old%dabcdefg.html'%i]}])
    s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp(),fetcher=Web(),sleep=lambda s:None,limit=6)
    self.assertEqual((s['checked'],s['archive']['checked']),(6,3))
-   # Production: 20 regular slots, at least 10 for the archive even with 8+ news links due.
+   # Production since 3/11/2026: 100 regular slots (one lane per provider, same pause): all 33 due links fit, the 12 archived included.
    many2=['https://www.mp4upload.com/embed-more%04dabcd.html'%i for i in range(20)];shard(d,ROOT,[{'family':'mp4upload','name':'Mp4upload','links':many2}])
    for i in range(12):shard(d,'https://jkanime.net/older-%d/1/'%i,[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-older%dabcd.html'%i]}])
    s=link_health.check(d,now=datetime.datetime.now(datetime.timezone.utc).timestamp()+60,fetcher=Web(),sleep=lambda s:None)
-   self.assertEqual((s['checked'],s['archive']['checked']),(20,10))
+   self.assertEqual((s['checked'],s['archive']['checked']),(33,12))
  def test_most_watched_series_get_half_of_the_archive_slots(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);hot='https://jkanime.net/hot/1/'

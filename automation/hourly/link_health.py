@@ -1,6 +1,6 @@
 """Provider-page liveness of stored options: only positive deletion markers exclude, never a playback claim."""
 from pathlib import Path
-import gzip,hashlib,json,re,time,urllib.request,urllib.error
+import gzip,hashlib,json,re,threading,time,urllib.request,urllib.error
 from archive_state import stamp
 W=Path(__file__).resolve().parent
 FAKE='zzzzzzzzzzzz'
@@ -37,7 +37,7 @@ CONFIRM_GAP=1800
 # gets half of the regular slots (20 per run since 31/10/2026, approved by Robin; same 2.5 s pause) (more when news leave them free), reading at most ARCHIVE_SHARDS
 # series shards per run from a cursor stored in link-health.json.
 ARCHIVE_SHARE=2  # the archive is guaranteed limit//ARCHIVE_SHARE of the regular slots: 10 of 20
-ARCHIVE_SHARDS=40
+ARCHIVE_SHARDS=160  # 3/11/2026: more series per run so the 100-link runs keep the cursor moving
 POPULAR_SERIES=10
 def sha(b):return hashlib.sha256(b).hexdigest()
 def policy():return json.loads((W/'link-health-policy.json').read_bytes())
@@ -162,7 +162,7 @@ def due(entry,now):
  if not entry or 'checkedAt' not in entry:return True
  kind='excluded' if entry.get('excluded') else entry.get('state','unknown')
  return now-entry['checkedAt']>=INTERVAL.get(kind,INTERVAL['unknown'])
-def check(folder,now=None,limit=20,pause=2.5,fetcher=fetch,sleep=time.sleep,budget=75):
+def check(folder,now=None,limit=100,pause=2.5,fetcher=fetch,sleep=time.sleep,budget=100):
  """Check a few due links; deletion counts only when a fake id reads deleted and a real link reads alive."""
  folder=Path(folder);now=time.time() if now is None else now;rules=policy();started=time.time()
  path=folder/'link-health.json';health=json.loads(path.read_bytes()) if path.exists() else {'schema':1,'links':{},'controls':{},'canaries':{}}
@@ -179,20 +179,34 @@ def check(folder,now=None,limit=20,pause=2.5,fetcher=fetch,sleep=time.sleep,budg
  queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+news[:limit-len(archive)]+list(archive)
  families=sorted({found[k]['family'] for k in queue});results={};summary={'checked':0,'alive':0,'dead':0,'unknown':0,'suspended':[]};sent=[0]
  def get(url):
-  # One request at a time with a fixed pause; no parallel servers, no retries inside a run.
+  # One request at a time with a fixed pause; no retries inside a run.
   if sent[0]:sleep(pause)
   sent[0]+=1
   try:return fetcher(url)
   except Exception as error:return None,type(error).__name__
+ def lane(keys):
+  # 3/11/2026: one sequential lane per provider, each with its own fixed pause; lanes run side by side so a
+  # server never sees more than one request every `pause` seconds, while the archive sweep moves ~5x faster.
+  first=True
+  for key in keys:
+   if time.time()-started>budget:break
+   if not first:sleep(pause)
+   first=False
+   entry=links.get(key) or dict(found.get(key,{}))
+   try:s,b=fetcher(target(entry['family'],entry['url'],rules))
+   except Exception as error:s,b=None,type(error).__name__
+   results[key]=(classify(entry['family'],s,b),s);links[key]=entry
  for family in families:
   canary=health['canaries'].get(family,{})
   if now-canary.get('at',0)>=(6*3600 if canary.get('ok') else 3600):
    s,b=get(target(family,{'mp4upload':'https://www.mp4upload.com/embed-%s.html','streamwish':'https://hgcloud.to/e/%s','vidhide':'https://vidhidevip.com/embed/%s','voe':'https://voe.sx/e/%s','mega':'https://mega.nz/file/%s#'+'z'*43,'yourupload':'https://www.yourupload.com/embed/%s'}[family]%(FAKE[:8] if family=='mega' else FAKE),rules))
    health['canaries'][family]=canary={'at':now,'ok':classify(family,s,b)=='dead','status':s}
- for key in queue:
-  if time.time()-started>budget:break
-  entry=links.get(key) or dict(found.get(key,{}))
-  s,b=get(target(entry['family'],entry['url'],rules));results[key]=(classify(entry['family'],s,b),s);links[key]=entry
+ lanes={}
+ for key in queue:lanes.setdefault((links.get(key) or found.get(key,{})).get('family',''),[]).append(key)
+ if sent[0]:sleep(pause)
+ workers=[threading.Thread(target=lane,args=(keys,)) for keys in lanes.values()]
+ for w in workers:w.start()
+ for w in workers:w.join()
  alive={links[k]['family'] for k,(kind,_) in results.items() if kind=='alive'}
  for family in sorted({links[k]['family'] for k,(kind,_) in results.items() if kind=='dead'}-alive):
   # Positive control only when a deletion is about to count: last link seen alive, else the fixed policy sample.

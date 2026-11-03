@@ -101,7 +101,7 @@ def record_failure(failures,url,reason,now,observed,diagnostic=None):
 def health_report(folder,state,failures,status,now):
     ages={url:now-stamp(ep.get('observedAt')) for url,ep in state['episodes'].items()}
     path=folder/'renewal-history.json';history=json.loads(path.read_bytes()) if path.exists() else []
-    start=stamp(status['checkedAt']);row={'runId':status.get('runId',''),'start':start,'finish':now,'renewed':status.get('renewed',0),'proof':status.get('proof',False),'published':status.get('published',False)}
+    start=stamp(status['checkedAt']);row={'runId':status.get('runId',''),'start':start,'finish':now,'renewed':status.get('renewed',0),'extraRenewed':status.get('extraRenewed',0),'voeRenewed':status.get('voeRenewed',0),'proof':status.get('proof',False),'published':status.get('published',False)}
     history=[r for r in history if r['start']>=now-14*DAY and not (row['runId'] and r.get('runId')==row['runId'])]+[row]
     path.write_text(json.dumps(history[-5000:]),encoding='utf-8')
     usable=[r for r in history if not r.get('proof') and r.get('published') and r['start']>=now-DAY]

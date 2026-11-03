@@ -59,8 +59,8 @@ def check(folder,now,memory):
         +(f'Capítulos vistos hace más de 3 h, con opciones guardadas y fuera del canal ({len(late)}):\n'+'\n'.join('- '+u for u in late[:30]) if late else ''))
     history=[r for r in (read(folder,'renewal-history.json',[]) or []) if not r.get('proof') and r.get('published')]
     last=history[-ZERO_RUNS:];status=read(folder,'renewal-status.json',{}) or {}
-    alarm('renovacion',len(last)==ZERO_RUNS and all(r.get('renewed',0)==0 for r in last),'Renovación sin capítulos renovados en 3 vueltas seguidas',
-        'Últimas vueltas: '+', '.join(f'{iso(r["start"])}: {r.get("renewed",0)}' for r in last)+f'. Estado: {status.get("state","?")}.')
+    alarm('renovacion',len(last)==ZERO_RUNS and all(r.get('renewed',0)+r.get('extraRenewed',0)+r.get('voeRenewed',0)==0 for r in last),'Renovación sin capítulos renovados en 3 vueltas seguidas',
+        'Últimas vueltas: '+', '.join(f'{iso(r["start"])}: {r.get("renewed",0)+r.get("extraRenewed",0)+r.get("voeRenewed",0)}' for r in last)+f'. Estado: {status.get("state","?")}.')
     failed=status.get('failed')
     samples=[s for s in memory.get('failed',[]) if now-s[0]<=3*DAY]
     if isinstance(failed,int):samples.append([now,failed])
