@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-03T09:08:22.661743+00:00",
-  "failedChapters": 56459,
-  "series": 4060,
+  "checkedAt": "2026-11-03T09:25:52.143138+00:00",
+  "failedChapters": 56461,
+  "series": 4062,
   "diagnosedSeries": 4047,
-  "pendingSeries": 13,
+  "pendingSeries": 15,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -23,7 +23,7 @@
   },
   "knownFinalReasons": {
     "Source HTTP 404": 16617,
-    "ValueError: VOE provider scope": 129,
+    "ValueError: VOE provider scope": 131,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3143,
     "ValueError: No approved observations; previous channel retained": 36,
@@ -111956,7 +111956,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793691644.788147
+      "nextRetryAt": 1793695585.059924
     },
     {
       "series": "https://jkanime.net/da-capo-if/",
@@ -123375,6 +123375,18 @@
       "nextRetryAt": 1793797665.6661022
     },
     {
+      "series": "https://jkanime.net/gnosia/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/gnosia/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793698608.7686386
+    },
+    {
       "series": "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/",
       "failedChapters": 1,
       "samples": [
@@ -126113,6 +126125,18 @@
       "nextRetryAt": 1793801549.1133268
     },
     {
+      "series": "https://jkanime.net/kami-no-shizuku/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kami-no-shizuku/18/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793698587.205305
+    },
+    {
       "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
       "failedChapters": 1,
       "samples": [
@@ -127187,7 +127211,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793691659.498361
+      "nextRetryAt": 1793719433.0454938
     },
     {
       "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-nanika-wo-suru-tame-ni-life-goes-on/",
@@ -138565,28 +138589,28 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/kami-no-shizuku/",
+      "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/kami-no-shizuku/18/"
+        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793698587.205305
+      "nextRetryAt": 1793699618.2420862
     },
     {
-      "series": "https://jkanime.net/gnosia/",
+      "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/gnosia/2/"
+        "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793698608.7686386
+      "nextRetryAt": 1793699633.0454853
     }
   ]
 }
