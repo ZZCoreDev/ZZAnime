@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-03T16:05:30.656142+00:00",
+  "checkedAt": "2026-11-03T16:23:59.890019+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73855,
-  "storedChapters": 73035,
+  "observedChapters": 73856,
+  "storedChapters": 73036,
   "missingChapters": 514,
-  "expiredChapters": 57091,
+  "expiredChapters": 57093,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -229846,7 +229846,8 @@
       "expired": [
         "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/1/",
         "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/2/",
-        "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/3/"
+        "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/3/",
+        "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -229891,7 +229892,8 @@
       "expired": [
         "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/1/",
         "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/2/",
-        "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/3/"
+        "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/3/",
+        "https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -230659,8 +230661,8 @@
         "expired-observation",
         "renewal-error"
       ],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [
         "https://jkanime.net/shiotaiou-no-satou-san-ga-ore-ni-dake-amai/3/"
@@ -230669,12 +230671,13 @@
       "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 3,
-        "vidhide": 3,
+        "mp4upload": 5,
+        "streamwish": 4,
+        "vidhide": 4,
         "mega": 1,
         "mixdrop": 1,
-        "streamtape": 1
+        "streamtape": 1,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
