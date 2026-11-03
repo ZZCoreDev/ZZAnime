@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T09:25:52.143138+00:00",
+  "checkedAt": "2026-11-03T09:43:47.107271+00:00",
   "failedChapters": 56461,
   "series": 4062,
   "diagnosedSeries": 4047,
@@ -119372,6 +119372,18 @@
       "nextRetryAt": 1793455635.8770013
     },
     {
+      "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793699618.2420862
+    },
+    {
       "series": "https://jkanime.net/cluster-edge/",
       "failedChapters": 1,
       "samples": [
@@ -124074,6 +124086,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793797804.464473
+    },
+    {
+      "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793699633.0454853
     },
     {
       "series": "https://jkanime.net/hand-maid-mai/",
@@ -138587,30 +138611,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/13/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793699618.2420862
-    },
-    {
-      "series": "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/hanazakari-no-kimitachi-e-2nd-season/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793699633.0454853
     }
   ]
 }
