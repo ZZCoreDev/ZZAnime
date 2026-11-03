@@ -22,7 +22,7 @@
     ]
   },
   "observed-chapters-without-options": {
-    "series": 702,
+    "series": 703,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -43,7 +43,7 @@
     ]
   },
   "expired-observation": {
-    "series": 1917,
+    "series": 1950,
     "twoSeriesProofRequired": true,
     "samples": [
       {
