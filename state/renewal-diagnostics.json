@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-03T07:38:53.664267+00:00",
-  "failedChapters": 56479,
+  "checkedAt": "2026-11-03T07:56:28.794680+00:00",
+  "failedChapters": 56478,
   "series": 4057,
   "diagnosedSeries": 4048,
   "pendingSeries": 9,
@@ -29,7 +29,7 @@
     "ValueError: No approved observations; previous channel retained": 36,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
-    "Source did not return a verified observation": 302,
+    "Source did not return a verified observation": 301,
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
@@ -103114,33 +103114,6 @@
       "nextRetryAt": 1793233456.5043144
     },
     {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/2/",
-        "https://jkanime.net/zoku-owarimonogatari/3/"
-      ],
-      "diagnosedSample": "https://jkanime.net/zoku-owarimonogatari/6/",
-      "sources": {
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793260914124,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "observed-options",
-          "stage": "complete",
-          "status": 200
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793261663.6269138
-    },
-    {
       "series": "https://jkanime.net/actors-songs-connection/",
       "failedChapters": 4,
       "samples": [
@@ -106567,6 +106540,33 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793260876.1232176
+    },
+    {
+      "series": "https://jkanime.net/zoku-owarimonogatari/",
+      "failedChapters": 4,
+      "samples": [
+        "https://jkanime.net/zoku-owarimonogatari/3/",
+        "https://jkanime.net/zoku-owarimonogatari/4/"
+      ],
+      "diagnosedSample": "https://jkanime.net/zoku-owarimonogatari/6/",
+      "sources": {
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793260914124,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "observed-options",
+          "stage": "complete",
+          "status": 200
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793262500.1518614
     },
     {
       "series": "https://jkanime.net/009-1/",
