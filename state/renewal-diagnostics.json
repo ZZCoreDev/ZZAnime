@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T01:45:50.103775+00:00",
+  "checkedAt": "2026-11-04T02:07:38.126467+00:00",
   "failedChapters": 56600,
   "series": 4101,
   "diagnosedSeries": 4047,
@@ -96904,7 +96904,7 @@
       "failedChapters": 7,
       "samples": [
         "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
-        "https://jkanime.net/komi-san-wa-comyushou-desu/12/"
+        "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -105649,8 +105649,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "failedChapters": 4,
       "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/3/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/4/"
+        "https://jkanime.net/otona-no-bouguya-san-ii/10/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/3/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -109193,6 +109193,19 @@
       "nextRetryAt": 1793456434.9755497
     },
     {
+      "series": "https://jkanime.net/nekopara/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/nekopara/1/",
+        "https://jkanime.net/nekopara/5/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793758415.9256496
+    },
+    {
       "series": "https://jkanime.net/new-game/",
       "failedChapters": 3,
       "samples": [
@@ -111190,19 +111203,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793200314.4127312
-    },
-    {
-      "series": "https://jkanime.net/nekopara/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/nekopara/1/",
-        "https://jkanime.net/nekopara/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793758415.9256496
     },
     {
       "series": "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/",
@@ -126642,6 +126642,18 @@
       "nextRetryAt": 1793801549.1133268
     },
     {
+      "series": "https://jkanime.net/kami-no-shizuku/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kami-no-shizuku/18/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793758331.4497836
+    },
+    {
       "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
       "failedChapters": 1,
       "samples": [
@@ -139099,18 +139111,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/kami-no-shizuku/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kami-no-shizuku/18/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793758331.4497836
     }
   ]
 }
