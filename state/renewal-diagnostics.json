@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T12:50:40.914519+00:00",
+  "checkedAt": "2026-11-04T13:06:33.043772+00:00",
   "failedChapters": 56644,
   "series": 4107,
   "diagnosedSeries": 4047,
@@ -84335,8 +84335,8 @@
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "failedChapters": 11,
       "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/"
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -114775,8 +114775,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-rimen/3/",
-        "https://jkanime.net/otona-no-bouguya-san-rimen/2/"
+        "https://jkanime.net/otona-no-bouguya-san-rimen/2/",
+        "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -134429,6 +134429,18 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793798149.8931499
+    },
+    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139174,18 +139186,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793798149.8931499
     }
   ]
 }
