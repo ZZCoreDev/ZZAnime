@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T23:45:06.581656+00:00",
+  "checkedAt": "2026-11-04T00:01:51.388070+00:00",
   "failedChapters": 56593,
   "series": 4101,
   "diagnosedSeries": 4047,
@@ -110330,8 +110330,8 @@
       "series": "https://jkanime.net/takopii-no-genzai/",
       "failedChapters": 3,
       "samples": [
-        "https://jkanime.net/takopii-no-genzai/5/",
-        "https://jkanime.net/takopii-no-genzai/6/"
+        "https://jkanime.net/takopii-no-genzai/4/",
+        "https://jkanime.net/takopii-no-genzai/5/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -114723,8 +114723,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/4/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/3/"
+        "https://jkanime.net/otona-no-bouguya-san-ii/3/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/4/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -138531,6 +138531,18 @@
       "nextRetryAt": 1793749006.1057208
     },
     {
+      "series": "https://jkanime.net/yomi-no-tsugai/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yomi-no-tsugai/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793750982.938743
+    },
+    {
       "series": "https://jkanime.net/youjo-senki-movie-manner-eizou/",
       "failedChapters": 1,
       "samples": [
@@ -139098,18 +139110,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/yomi-no-tsugai/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yomi-no-tsugai/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793750982.938743
     }
   ]
 }
