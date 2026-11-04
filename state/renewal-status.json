@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T20:14:34.057914+00:00",
+  "checkedAt": "2026-11-04T20:30:44.397672+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 112,
-  "repairAttempts": 3,
+  "attempted": 368,
+  "repairAttempts": 67,
   "earlyRepairAttempts": 0,
-  "failed": 56549,
+  "failed": 56547,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41904605690",
+  "runId": "41907196830",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 57449,
-  "extraRenewed": 12,
+  "expired": 57450,
+  "extraRenewed": 211,
   "published": true,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1428,
+  "retryAfterExpiry": 1426,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -326,7 +326,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -494,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -543,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -578,7 +578,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -634,7 +634,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -683,7 +683,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -884,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
+    "series": 4092,
     "diagnosedSeries": 4047,
-    "pendingSeries": 47
+    "pendingSeries": 45
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T20:29:53.643558+00:00",
+    "checkedAt": "2026-11-04T20:43:11.214612+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,
     "missingChapters": 513,
-    "expiredChapters": 57449,
+    "expiredChapters": 57450,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 308,

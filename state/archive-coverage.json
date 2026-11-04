@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-04T20:29:53.643558+00:00",
+  "checkedAt": "2026-11-04T20:43:11.214612+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73046,
   "missingChapters": 513,
-  "expiredChapters": 57449,
+  "expiredChapters": 57450,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -536,6 +543,13 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-no-kuzu/",
+        "title": "Yuusha no Kuzu",
+        "samples": [
+          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -8184,14 +8198,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-        "title": "Komi-san wa, Comyushou desu.",
-        "samples": [
-          "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
-          "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/platinum-end/",
         "title": "Platinum End",
         "samples": [
@@ -15515,14 +15521,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-        "title": "Granblue Fantasy The Animation",
-        "samples": [
-          "https://jkanime.net/granblue-fantasy-the-animation/1/",
-          "https://jkanime.net/granblue-fantasy-the-animation/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/yami-shibai-4th-season/",
         "title": "Yami Shibai 4th Season",
         "samples": [
@@ -18428,14 +18426,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
-        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-        "samples": [
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
         "title": "Miss Monochrome: The Animation 2",
         "samples": [
@@ -18608,14 +18598,6 @@
         "samples": [
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/1/",
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
-        "title": "Saint Seiya: Soul of Gold",
-        "samples": [
-          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
-          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
         ]
       },
       {
@@ -58167,6 +58149,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/",
+        "title": "Kino no Tabi: The Beautiful World - Byouki no Kuni - For You",
+        "samples": [
+          "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/",
         "title": "Eikoku Koi Monogatari Emma: Molders-hen",
         "samples": [
@@ -64022,7 +64011,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64031,7 +64021,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -67560,7 +67550,8 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -67569,7 +67560,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -106745,7 +106736,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106906,8 +106897,7 @@
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
       "title": "Komi-san wa, Comyushou desu.",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -106927,7 +106917,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114387,7 +114377,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -142447,8 +142437,7 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -142469,7 +142458,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156607,8 +156596,7 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156628,7 +156616,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157443,8 +157431,7 @@
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -157465,7 +157452,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -201669,12 +201656,15 @@
       "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/",
       "title": "Kino no Tabi: The Beautiful World - Byouki no Kuni - For You",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,

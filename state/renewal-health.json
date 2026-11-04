@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T20:29:53.643558+00:00",
+  "checkedAt": "2026-11-04T20:43:11.214612+00:00",
   "episodes": 73046,
-  "oldestHours": 223.93,
-  "pending": 72658,
-  "expired": 57449,
+  "oldestHours": 224.15,
+  "pending": 72635,
+  "expired": 57450,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1428,
+  "retryAfterExpiry": 1426,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1438.32,
-  "measuredWallClockPerHour": 306.73,
-  "estimatedSweepDays": 9.92,
+  "sampleMinutes": 1433.08,
+  "measuredWallClockPerHour": 307.86,
+  "estimatedSweepDays": 9.89,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
+    "series": 4092,
     "diagnosedSeries": 4047,
-    "pendingSeries": 47
+    "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-04T20:29:53.643558+00:00",
+    "checkedAt": "2026-11-04T20:43:11.214612+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,
     "missingChapters": 513,
-    "expiredChapters": 57449,
+    "expiredChapters": 57450,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 308,
