@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T16:28:25.366394+00:00",
-  "episodes": 73044,
-  "oldestHours": 219.91,
-  "pending": 72779,
-  "expired": 57443,
+  "checkedAt": "2026-11-04T16:51:58.035442+00:00",
+  "episodes": 73045,
+  "oldestHours": 220.3,
+  "pending": 72778,
+  "expired": 57444,
   "expiresWithin24Hours": 57491,
-  "retryAfterExpiry": 1515,
+  "retryAfterExpiry": 1520,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1434.13,
-  "measuredWallClockPerHour": 297.88,
-  "estimatedSweepDays": 10.22,
+  "sampleMinutes": 1439.44,
+  "measuredWallClockPerHour": 296.78,
+  "estimatedSweepDays": 10.26,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 12,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,22 +876,22 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4097,
     "diagnosedSeries": 4047,
-    "pendingSeries": 49
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-04T16:28:25.366394+00:00",
+    "checkedAt": "2026-11-04T16:51:58.035442+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73865,
-    "storedChapters": 73044,
+    "storedChapters": 73045,
     "missingChapters": 514,
-    "expiredChapters": 57443,
+    "expiredChapters": 57444,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 307,
-    "voeOnlyChapters": 47,
-    "extraOnlyChapters": 306,
+    "sideOnlyChapters": 306,
+    "voeOnlyChapters": 46,
+    "extraOnlyChapters": 305,
     "sourceRequests": 0,
     "aiCalls": 0,
     "playbackVerified": false

@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T16:28:25.366394+00:00",
+  "checkedAt": "2026-11-04T16:51:58.035442+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73865,
-  "storedChapters": 73044,
+  "storedChapters": 73045,
   "missingChapters": 514,
-  "expiredChapters": 57443,
+  "expiredChapters": 57444,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
-  "extraOnlyChapters": 306,
+  "sideOnlyChapters": 306,
+  "voeOnlyChapters": 46,
+  "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -287,6 +287,13 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-shizuku/",
+        "title": "Kami no Shizuku",
+        "samples": [
+          "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
       {
@@ -65651,7 +65658,8 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -65660,7 +65668,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -78861,7 +78869,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -84837,6 +84845,7 @@
         "https://jkanime.net/wonderful-precure/28/",
         "https://jkanime.net/wonderful-precure/29/",
         "https://jkanime.net/wonderful-precure/30/",
+        "https://jkanime.net/wonderful-precure/38/",
         "https://jkanime.net/wonderful-precure/45/",
         "https://jkanime.net/wonderful-precure/46/",
         "https://jkanime.net/wonderful-precure/47/",
@@ -129217,7 +129226,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -142481,7 +142490,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -145894,7 +145903,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -230820,15 +230829,17 @@
       "title": "Sekai Saikyou no Majo, Hajimemashita",
       "causes": [],
       "observed": 5,
-      "stored": 4,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 1
+        "mp4upload": 5,
+        "streamwish": 2,
+        "vidhide": 1,
+        "filemoon": 1
       },
       "playbackVerified": false
     },

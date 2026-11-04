@@ -97,7 +97,7 @@ Kill Ao,https://jkanime.net/kill-ao/,,12,12,0,0,0,0
 Hokuto no Ken: Fist of the North Star,https://jkanime.net/hokuto-no-ken-fist-of-the-north-star/,,14,14,0,0,0,0
 The Bloody Mary,https://jkanime.net/the-bloody-mary/,expired-observation | renewal-error,1,1,0,1,1,0
 Awajima Hyakkei,https://jkanime.net/awajima-hyakkei/,,12,12,0,0,0,0
-Kami no Shizuku,https://jkanime.net/kami-no-shizuku/,expired-observation,24,24,0,1,0,0
+Kami no Shizuku,https://jkanime.net/kami-no-shizuku/,expired-observation | renewal-error,24,24,0,1,1,0
 Himekishi wa Barbaroi no Yome,https://jkanime.net/himekishi-wa-barbaroi-no-yome/,,12,12,0,0,0,0
 Kujima Utaeba Ie Hororo,https://jkanime.net/kujima-utaeba-ie-hororo/,,12,12,0,0,0,0
 Re:Zero kara Hajimeru Isekai Seikatsu 4th Season,https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-4th-season/,expired-observation | renewal-error,19,19,0,1,1,0
@@ -593,7 +593,7 @@ Ooi! Tonbo 2nd Season,https://jkanime.net/ooi-tonbo-2nd-season/,expired-observat
 Hu He Yao Shi Lu,https://jkanime.net/hu-he-yao-shi-lu/,expired-observation | renewal-error,24,24,0,24,24,0
 Sword Art Online Alternative: Gun Gale Online II,https://jkanime.net/sword-art-online-alternative-gun-gale-online-ii/,expired-observation | renewal-error,12,12,0,9,9,0
 Goukon ni Ittara Onna ga Inakatta Hanashi,https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/,expired-observation | renewal-error,12,12,0,9,9,0
-Kabushikigaisha Magi-Lumière,https://jkanime.net/kabushikigaisha-magi-lumire/,expired-observation | renewal-error,12,12,0,12,11,0
+Kabushikigaisha Magi-Lumière,https://jkanime.net/kabushikigaisha-magi-lumire/,expired-observation | renewal-error,12,12,0,12,12,0
 Hamidashi Creative,https://jkanime.net/hamidashi-creative/,expired-observation | renewal-error,12,12,0,12,12,0
 The iDOLM@STER Shiny Colors 2nd Season,https://jkanime.net/the-idolmster-shiny-colors-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Ya She,https://jkanime.net/ya-she/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -794,7 +794,7 @@ Yishi Zhi Zun,https://jkanime.net/yishi-zhi-zun/,expired-observation | renewal-e
 Haikyuu!! Movie: Gomisuteba no Kessen,https://jkanime.net/haikyuu-movie-gomisuteba-no-kessen/,,1,1,0,0,0,0
 Aishang Ta de Liyou Extra,https://jkanime.net/aishang-ta-de-liyou-extra/,expired-observation | renewal-error,1,1,0,1,1,0
 Ninja Kamui,https://jkanime.net/ninja-kamui/,expired-observation | renewal-error,13,13,0,10,10,0
-Wonderful Precure!,https://jkanime.net/wonderful-precure/,expired-observation | renewal-error,50,50,0,23,24,0
+Wonderful Precure!,https://jkanime.net/wonderful-precure/,expired-observation | renewal-error,50,50,0,24,24,0
 Kui Cheng Shoufu Cong Youxi Kaishi,https://jkanime.net/kui-cheng-shoufu-cong-youxi-kaishi/,expired-observation | renewal-error,16,16,0,16,16,0
 Oomuro-ke: Dear Sisters,https://jkanime.net/oomuro-ke-dear-sisters/,,2,2,0,0,0,0
 Given Movie 2: Hiiragi Mix,https://jkanime.net/given-movie-2-hiiragi-mix/,,1,1,0,0,0,0
@@ -2132,7 +2132,7 @@ Mahou Shoujo Lyrical Nanoha: Detonation,https://jkanime.net/mahou-shoujo-lyrical
 The iDOLM@STER SideM: Wake Atte Mini!,https://jkanime.net/the-idolmster-sidem-wake-atte-mini/,expired-observation | renewal-error,12,12,0,3,3,0
 Golden Kamuy 2nd Season,https://jkanime.net/golden-kamuy-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Mahou Shoujo Lyrical Nanoha: Reflection,https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/,renewal-error,1,1,0,0,1,0
-Zoku Owarimonogatari,https://jkanime.net/zoku-owarimonogatari/,expired-observation | renewal-error,6,6,0,6,5,0
+Zoku Owarimonogatari,https://jkanime.net/zoku-owarimonogatari/,expired-observation | renewal-error,6,6,0,6,6,0
 Anima Yell!,https://jkanime.net/anima-yell/,expired-observation | renewal-error,12,12,0,12,12,0
 Ulysses: Jehanne Darc to Renkin no Kishi,https://jkanime.net/ulysses-jehanne-darc-to-renkin-no-kishi/,expired-observation | renewal-error,12,12,0,2,2,0
 Gaikotsu Shotenin Honda-san,https://jkanime.net/gaikotsu-shotenin-honda-san/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -2517,7 +2517,7 @@ ViVid Strike! Specials,https://jkanime.net/vivid-strike-specials/,,1,0,0,0,0,1
 Oshiete! Galko-chan: Natsuyasumi tte Hontou desu ka?,https://jkanime.net/oshiete-galko-chan-natsuyasumi-tte-hontou-desu-ka/,renewal-error,1,1,0,0,1,0
 Kuroshitsuji Movie: Book of the Atlantic,https://jkanime.net/kuroshitsuji-movie-book-of-the-atlantic/,,1,1,0,0,0,0
 BanG Dream!,https://jkanime.net/bang-dream/,expired-observation | renewal-error,13,13,0,13,13,0
-Granblue Fantasy The Animation,https://jkanime.net/granblue-fantasy-the-animation/,expired-observation | renewal-error,13,13,0,13,6,0
+Granblue Fantasy The Animation,https://jkanime.net/granblue-fantasy-the-animation/,expired-observation | renewal-error,13,13,0,13,7,0
 Yami Shibai 4th Season,https://jkanime.net/yami-shibai-4th-season/,expired-observation | renewal-error,13,13,0,13,13,0
 Rewrite: Moon and Terra,https://jkanime.net/rewrite-moon-and-terra/,expired-observation | renewal-error,11,11,0,11,11,0
 Chou Yuu Sekai: Being the Reality,https://jkanime.net/chou-yuu-sekai-being-the-reality/,expired-observation | renewal-error,20,20,0,20,20,0
@@ -2625,7 +2625,7 @@ Oku-sama ga Seito Kaichou! 2nd Season,https://jkanime.net/okusama-ga-seitokaicho
 Show By Rock!! #,https://jkanime.net/show-by-rock-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Ame-iro Cocoa in Hawaii,https://jkanime.net/ame-iro-cocoa-in-hawaii/,no-observed-listing,0,0,0,0,0,0
 Uta no☆Prince-sama♪ Maji Love Legend Star,https://jkanime.net/uta-noprince-sama-maji-love-legend-star/,expired-observation | renewal-error,13,13,0,13,13,0
-Ao Oni The Animation,https://jkanime.net/aooni-the-blue-monster/,expired-observation | renewal-error,13,13,0,12,4,0
+Ao Oni The Animation,https://jkanime.net/aooni-the-blue-monster/,expired-observation | renewal-error,13,13,0,12,5,0
 Idol Memories,https://jkanime.net/idol-memories/,expired-observation | renewal-error,12,12,0,2,2,0
 Stella no Mahou,https://jkanime.net/stella-no-mahou/,,12,12,0,0,0,0
 Touken Ranbu: Hanamaru,https://jkanime.net/touken-ranbu-hanamaru/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -4975,7 +4975,7 @@ Juuou Mujin Dandivine,https://jkanime.net/juuou-mujin-dandivine/,,4,4,0,0,0,0
 Sasaki to Pii-chan Season 2,https://jkanime.net/sasaki-to-pii-chan-season-2/,,5,5,0,0,0,0
 Magic Knight Rayearth (2026),https://jkanime.net/magic-knight-rayearth-2026/,,5,4,0,0,0,1
 "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru. Ore wa Buki dake ja Naku, Arayuru Mono ni ""Kyouka Point"" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/,expired-observation | renewal-error,4,4,0,4,4,0
-"Sekai Saikyou no Majo, Hajimemashita",https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/,,5,4,0,0,0,1
+"Sekai Saikyou no Majo, Hajimemashita",https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/,,5,5,0,0,0,0
 Kyouran Reijou Nia Liston: Byoujaku Reijou ni Tensei shita Kamigoroshi no Bujin no Karei Naru Musouroku,https://jkanime.net/kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku/,expired-observation | renewal-error,4,4,0,4,4,0
 Mahou Shoujo Ikusei Keikaku: Restart,https://jkanime.net/mahou-shoujo-ikusei-keikaku-restart/,,5,5,0,0,0,0
 Choujun! Choujou-senpai,https://jkanime.net/choujun-choujou-senpai/,,5,5,0,0,0,0

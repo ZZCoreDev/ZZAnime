@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T16:28:25.366394+00:00",
-  "failedChapters": 56641,
-  "series": 4096,
+  "checkedAt": "2026-11-04T16:51:58.035442+00:00",
+  "failedChapters": 56646,
+  "series": 4097,
   "diagnosedSeries": 4047,
-  "pendingSeries": 49,
+  "pendingSeries": 50,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 253,
+    "ValueError: No approved observations; previous channel retained": 258,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -57971,6 +57971,19 @@
       "nextRetryAt": 1793314486.2870336
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 12,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717022.1000535
+    },
+    {
       "series": "https://jkanime.net/kage-no-jitsuryokusha-ni-naritakute-2nd-season/",
       "failedChapters": 12,
       "samples": [
@@ -84249,19 +84262,6 @@
       "nextRetryAt": 1793355169.0239263
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 11,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717022.1000535
-    },
-    {
       "series": "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/",
       "failedChapters": 11,
       "samples": [
@@ -96651,6 +96651,19 @@
       "nextRetryAt": 1793296688.5345376
     },
     {
+      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/granblue-fantasy-the-animation/1/",
+        "https://jkanime.net/granblue-fantasy-the-animation/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793775328.4584656
+    },
+    {
       "series": "https://jkanime.net/hibike-euphonium-specials/",
       "failedChapters": 7,
       "samples": [
@@ -98786,19 +98799,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793395073.010583
-    },
-    {
-      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/granblue-fantasy-the-animation/1/",
-        "https://jkanime.net/granblue-fantasy-the-animation/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793775328.4584656
     },
     {
       "series": "https://jkanime.net/grisaia-no-kajitsu-specials/",
@@ -101198,6 +101198,19 @@
       "nextRetryAt": 1793328616.493825
     },
     {
+      "series": "https://jkanime.net/zoku-owarimonogatari/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/zoku-owarimonogatari/1/",
+        "https://jkanime.net/zoku-owarimonogatari/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793766048.6278555
+    },
+    {
       "series": "https://jkanime.net/zuoshou-shanglan/",
       "failedChapters": 6,
       "samples": [
@@ -101300,6 +101313,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793362129.2834167
+    },
+    {
+      "series": "https://jkanime.net/aooni-the-blue-monster/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/aooni-the-blue-monster/1/",
+        "https://jkanime.net/aooni-the-blue-monster/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793779404.297862
     },
     {
       "series": "https://jkanime.net/appare-ranman/",
@@ -103360,19 +103386,6 @@
       "nextRetryAt": 1793233456.5043144
     },
     {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/1/",
-        "https://jkanime.net/zoku-owarimonogatari/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793766048.6278555
-    },
-    {
       "series": "https://jkanime.net/actors-songs-connection/",
       "failedChapters": 4,
       "samples": [
@@ -103509,19 +103522,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793404007.6191423
-    },
-    {
-      "series": "https://jkanime.net/aooni-the-blue-monster/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/aooni-the-blue-monster/1/",
-        "https://jkanime.net/aooni-the-blue-monster/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793779404.297862
     },
     {
       "series": "https://jkanime.net/azumanga-daioh/",
@@ -117958,7 +117958,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793809461.44547
+      "nextRetryAt": 1793832271.5848327
     },
     {
       "series": "https://jkanime.net/bang-dream-2nd-season/",
@@ -122117,7 +122117,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793791985.2955964
+      "nextRetryAt": 1793832537.7511888
     },
     {
       "series": "https://jkanime.net/evangelion-1-11-you-are-not-alone/",
@@ -124324,7 +124324,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793801589.428722
+      "nextRetryAt": 1793832580.4722958
     },
     {
       "series": "https://jkanime.net/hachigatsu-no-cinderella-nine-episode-13/",
@@ -127136,7 +127136,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793792004.2978735
+      "nextRetryAt": 1793832558.9726148
     },
     {
       "series": "https://jkanime.net/katekyo-hitman-reborn-special/",
@@ -138102,7 +138102,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793791965.6270149
+      "nextRetryAt": 1793832296.984652
     },
     {
       "series": "https://jkanime.net/wonder-egg-priority-special/",
@@ -139056,6 +139056,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/kami-no-shizuku/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kami-no-shizuku/18/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793812471.5848167
     }
   ]
 }
