@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T21:26:12.063605+00:00",
+  "checkedAt": "2026-11-04T21:40:20.082958+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 270,
-  "repairAttempts": 42,
+  "attempted": 396,
+  "repairAttempts": 74,
   "earlyRepairAttempts": 0,
-  "failed": 56559,
+  "failed": 56556,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41915956944",
+  "runId": "41918153284",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57451,
-  "extraRenewed": 139,
-  "voeRenewed": 2,
+  "extraRenewed": 234,
+  "voeRenewed": 1,
   "published": true,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1438,
+  "retryAfterExpiry": 1435,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -411,7 +411,7 @@
       "title": "Fuuun Ishin Dai\u2606Shogun",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/gangsta-/": {
@@ -593,7 +593,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -747,7 +747,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -890,7 +890,7 @@
     "pendingSeries": 48
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T21:39:23.743087+00:00",
+    "checkedAt": "2026-11-04T21:53:43.107925+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73047,

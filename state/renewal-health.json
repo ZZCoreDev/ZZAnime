@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T21:39:23.743087+00:00",
+  "checkedAt": "2026-11-04T21:53:43.107925+00:00",
   "episodes": 73047,
-  "oldestHours": 225.09,
-  "pending": 72551,
+  "oldestHours": 225.33,
+  "pending": 72528,
   "expired": 57451,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1438,
+  "retryAfterExpiry": 1435,
   "successfulCyclesMeasured": 81,
-  "sampleMinutes": 1434.89,
-  "measuredWallClockPerHour": 311.65,
-  "estimatedSweepDays": 9.77,
+  "sampleMinutes": 1429.87,
+  "measuredWallClockPerHour": 313.16,
+  "estimatedSweepDays": 9.72,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -402,7 +402,7 @@
       "title": "Fuuun Ishin Dai\u2606Shogun",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/gangsta-/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 48
   },
   "coverage": {
-    "checkedAt": "2026-11-04T21:39:23.743087+00:00",
+    "checkedAt": "2026-11-04T21:53:43.107925+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73047,

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T21:39:23.743087+00:00",
+  "checkedAt": "2026-11-04T21:53:43.107925+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73047,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -20691,6 +20683,14 @@
         "samples": [
           "https://jkanime.net/no-game-no-life/1/",
           "https://jkanime.net/no-game-no-life/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fuuun-ishin-daishogun/",
+        "title": "Fuuun Ishin Dai☆Shogun",
+        "samples": [
+          "https://jkanime.net/fuuun-ishin-daishogun/1/",
+          "https://jkanime.net/fuuun-ishin-daishogun/10/"
         ]
       },
       {
@@ -63549,8 +63549,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63561,7 +63560,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -72602,7 +72601,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72915,7 +72914,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -78865,7 +78864,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167029,7 +167028,8 @@
       "series": "https://jkanime.net/fuuun-ishin-daishogun/",
       "title": "Fuuun Ishin Dai☆Shogun",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -167049,7 +167049,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
