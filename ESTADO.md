@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56547; capítulos vencidos pendientes: 57450. Próximos a vencer: 57493; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56548; capítulos vencidos pendientes: 57450. Próximos a vencer: 57493; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/5 capítulos recientes; incidencias pendientes: 0.
@@ -166,7 +166,7 @@ Equivalencia comprobada: Hanamaru Youchien, 0/12 capítulos recientes; incidenci
 Equivalencia comprobada: Hanaukyou Maid-tai: La Verite, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!!, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kamisama no Memochou, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Kanojo mo Kanojo 2nd Season, 0/12 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Kanojo mo Kanojo 2nd Season, 0/12 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Kiss x Sis (TV), 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Komi-san wa, Comyushou desu., 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kure-nai, 0/12 capítulos recientes; incidencias pendientes: 0.
@@ -175,14 +175,14 @@ Equivalencia comprobada: Mahoutsukai ni Taisetsu na Koto, 0/12 capítulos recien
 Equivalencia comprobada: Mashiro-iro Symphony: The Color of Lovers, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Marchen Madchen, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ookami-san to Shichinin no Nakamatachi, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Otona no Bouguya-san II, 0/12 capítulos recientes; incidencias pendientes: 2.
+Equivalencia comprobada: Otona no Bouguya-san II, 0/12 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Saint Seiya Saga de Hades Infierno, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Sasami-san@Ganbaranai, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: School Days, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shingetsutan Tsukihime, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Strange+, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 3.
 Equivalencia comprobada: Venus Versus Virus, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yoake Mae yori Ruriiro na, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Z/X: Ignition, 0/12 capítulos recientes; incidencias pendientes: 0.
@@ -195,7 +195,7 @@ Equivalencia comprobada: Nekopara, 0/12 capítulos recientes; incidencias pendie
 Equivalencia comprobada: Yondemasu yo, Azazel-san, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Black★Rock Shooter (TV), 0/8 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo, 0/7 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Kimetsu no Yaiba: Mugen Ressha-hen, 0/7 capítulos recientes; incidencias pendientes: 2.
+Equivalencia comprobada: Kimetsu no Yaiba: Mugen Ressha-hen, 0/7 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Übel Blatt, 0/12 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Classic★Stars, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: FLCL, 0/6 capítulos recientes; incidencias pendientes: 0.
@@ -204,7 +204,7 @@ Equivalencia comprobada: Saint Seiya Saga de Hades Elysion, 0/6 capítulos recie
 Equivalencia comprobada: To LOVE-Ru OVA, 0/6 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Code Geass: Boukoku no Akito, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen, 0/15 capítulos recientes; incidencias pendientes: 2.
-Equivalencia comprobada: Kabushikigaisha Magi-Lumière, 0/12 capítulos recientes; incidencias pendientes: 2.
+Equivalencia comprobada: Kabushikigaisha Magi-Lumière, 0/12 capítulos recientes; incidencias pendientes: 3.
 Equivalencia comprobada: Magical★Explorer, 0/6 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Pokemon XY: Mega Evolution, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tales of Symphonia, 0/4 capítulos recientes; incidencias pendientes: 0.
