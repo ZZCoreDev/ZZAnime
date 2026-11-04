@@ -135,7 +135,7 @@ Equivalencia comprobada: Shakugan no Shana II, 0/24 capítulos recientes; incide
 Equivalencia comprobada: Steins;Gate, 0/24 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Abarenbou Kishi!! Matsutarou, 0/23 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Suzumiya Haruhi no Yuuutsu (2009), 0/14 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Ao Oni The Animation, 0/13 capítulos recientes; incidencias pendientes: 3.
+Equivalencia comprobada: Ao Oni The Animation, 0/13 capítulos recientes; incidencias pendientes: 4.
 Equivalencia comprobada: Choujuushin Gravion, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: D_Cide Traumerei the Animation, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Danganronpa: The Animation, 0/13 capítulos recientes; incidencias pendientes: 0.
@@ -188,7 +188,7 @@ Equivalencia comprobada: Yoake Mae yori Ruriiro na, 0/12 capítulos recientes; i
 Equivalencia comprobada: Z/X: Ignition, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Break Blade (TV), 0/12 capítulos recientes; incidencias pendientes: 12.
 Equivalencia comprobada: Gin no Saji 2nd Season, 0/11 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Granblue Fantasy The Animation, 0/13 capítulos recientes; incidencias pendientes: 5.
+Equivalencia comprobada: Granblue Fantasy The Animation, 0/13 capítulos recientes; incidencias pendientes: 6.
 Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi OVA, 0/11 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mushishi Zoku Shou 2nd Season, 0/10 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Nekopara, 0/12 capítulos recientes; incidencias pendientes: 10.
@@ -215,7 +215,7 @@ Equivalencia comprobada: Kobayashi ga Kawai Sugite Tsurai!!, 0/2 capítulos reci
 Equivalencia comprobada: Koe de Oshigoto! The Animation, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Rurouni Kenshin: Seisouhen, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tsubasa Chronicle: Shunraiki, 0/2 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 0/12 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen, 0/5 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Blade and Soul, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: JoJo's Bizarre Adventure The Animation, 0/26 capítulos recientes; incidencias pendientes: 26.
@@ -224,7 +224,7 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4047/4097; pendientes: 50. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4047/4096; pendientes: 49. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 73044 capítulos con registros, 514 capítulos observados sin opciones, 307 publicados solo en /voe/ o /extra/ y 57443 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
