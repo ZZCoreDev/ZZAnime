@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T12:30:27.908826+00:00",
-  "failedChapters": 56640,
-  "series": 4106,
+  "checkedAt": "2026-11-04T12:50:40.914519+00:00",
+  "failedChapters": 56644,
+  "series": 4107,
   "diagnosedSeries": 4047,
-  "pendingSeries": 59,
+  "pendingSeries": 60,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 252,
+    "ValueError: No approved observations; previous channel retained": 256,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -84252,8 +84252,8 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "failedChapters": 11,
       "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -84330,6 +84330,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248282.5051012
+    },
+    {
+      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/",
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733665.9286785
     },
     {
       "series": "https://jkanime.net/kimetsu-no-yaiba-katanakaji-no-sato-hen/",
@@ -89165,19 +89178,6 @@
       "nextRetryAt": 1793216670.5652702
     },
     {
-      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733665.9286785
-    },
-    {
       "series": "https://jkanime.net/kaoru-hana-wa-rin-to-saku/",
       "failedChapters": 10,
       "samples": [
@@ -91226,6 +91226,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793197153.746857
+    },
+    {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 10,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793714143.717503
     },
     {
       "series": "https://jkanime.net/tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san/",
@@ -93638,19 +93651,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793210464.2759056
-    },
-    {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714143.717503
     },
     {
       "series": "https://jkanime.net/tsuma-shougakusei-ni-naru/",
@@ -101813,7 +101813,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793791939.2791283
+      "nextRetryAt": 1793795025.5154867
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -106907,8 +106907,8 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "failedChapters": 4,
       "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/2/",
-        "https://jkanime.net/zoku-owarimonogatari/5/"
+        "https://jkanime.net/zoku-owarimonogatari/1/",
+        "https://jkanime.net/zoku-owarimonogatari/2/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -114772,6 +114772,19 @@
       "nextRetryAt": 1793373524.9449258
     },
     {
+      "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-rimen/3/",
+        "https://jkanime.net/otona-no-bouguya-san-rimen/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793766029.0898387
+    },
+    {
       "series": "https://jkanime.net/papa-datte-shitai/",
       "failedChapters": 2,
       "samples": [
@@ -120181,6 +120194,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793796838.6745439
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -130416,7 +130441,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793795052.6609857
+      "nextRetryAt": 1793817992.8855543
     },
     {
       "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-special/",
@@ -132417,18 +132442,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793815541.93227
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793766029.0898387
     },
     {
       "series": "https://jkanime.net/owari-no-seraph-the-beginning-of-the-end/",
@@ -137721,7 +137734,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793791924.6535485
+      "nextRetryAt": 1793817949.8931637
     },
     {
       "series": "https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/",
@@ -138987,6 +139000,18 @@
       "nextRetryAt": 1793749998.9934447
     },
     {
+      "series": "https://jkanime.net/yuusha-no-kuzu/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuusha-no-kuzu/20/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793796856.4966536
+    },
+    {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
       "failedChapters": 1,
       "samples": [
@@ -139151,28 +139176,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793796838.6745439
-    },
-    {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793796856.4966536
+      "nextRetryAt": 1793798149.8931499
     }
   ]
 }

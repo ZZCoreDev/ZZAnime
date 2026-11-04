@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T12:30:27.908826+00:00",
+  "checkedAt": "2026-11-04T12:50:40.914519+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73042,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -63883,7 +63890,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -63892,7 +63900,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -72431,7 +72439,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -88362,7 +88370,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -126528,7 +126536,7 @@
         "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 3,
