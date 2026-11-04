@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T03:52:33.837020+00:00",
+  "checkedAt": "2026-11-04T04:09:21.909788+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73042,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -63846,7 +63853,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -63855,7 +63863,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -82987,7 +82995,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 24,
+      "renewalFailed": 25,
       "sideOnly": 0,
       "families": {
         "mega": 27,

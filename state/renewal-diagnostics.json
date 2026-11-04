@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T03:52:33.837020+00:00",
-  "failedChapters": 56611,
-  "series": 4103,
+  "checkedAt": "2026-11-04T04:09:21.909788+00:00",
+  "failedChapters": 56613,
+  "series": 4104,
   "diagnosedSeries": 4047,
-  "pendingSeries": 56,
+  "pendingSeries": 57,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 217,
+    "ValueError: No approved observations; previous channel retained": 219,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -16237,6 +16237,19 @@
       "nextRetryAt": 1793296268.6158514
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 25,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/accel-world/",
       "failedChapters": 24,
       "samples": [
@@ -20993,19 +21006,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793316149.4759207
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 24,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/zetsuen-no-tempest/",
@@ -109101,7 +109101,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793763634.792392
+      "nextRetryAt": 1793777576.720537
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -115667,7 +115667,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793763829.7722948
+      "nextRetryAt": 1793770398.534225
     },
     {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
@@ -116128,7 +116128,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793763815.9256597
+      "nextRetryAt": 1793770422.1105597
     },
     {
       "series": "https://jkanime.net/witch-craft-works-specials/",
@@ -120131,6 +120131,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793765928.9328706
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -132369,6 +132381,18 @@
       "nextRetryAt": 1793815541.93227
     },
     {
+      "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793766029.0898387
+    },
+    {
       "series": "https://jkanime.net/owari-no-seraph-the-beginning-of-the-end/",
       "failedChapters": 1,
       "samples": [
@@ -139068,6 +139092,18 @@
       "nextRetryAt": 1793324649.3407533
     },
     {
+      "series": "https://jkanime.net/zoku-owarimonogatari/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/zoku-owarimonogatari/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793766048.6278555
+    },
+    {
       "series": "https://jkanime.net/zx-code-reunion/",
       "failedChapters": 1,
       "samples": [
@@ -139101,40 +139137,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793765928.9328706
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793766029.0898387
-    },
-    {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793766048.6278555
+      "nextRetryAt": 1793767017.068235
     }
   ]
 }
