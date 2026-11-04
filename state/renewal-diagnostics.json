@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T00:36:13.034733+00:00",
-  "failedChapters": 56593,
-  "series": 4101,
+  "checkedAt": "2026-11-04T00:53:00.796557+00:00",
+  "failedChapters": 56592,
+  "series": 4100,
   "diagnosedSeries": 4047,
-  "pendingSeries": 54,
+  "pendingSeries": 53,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 199,
+    "ValueError: No approved observations; previous channel retained": 198,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -138529,18 +138529,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793749006.1057208
-    },
-    {
-      "series": "https://jkanime.net/yomi-no-tsugai/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yomi-no-tsugai/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793750982.938743
     },
     {
       "series": "https://jkanime.net/youjo-senki-movie-manner-eizou/",
