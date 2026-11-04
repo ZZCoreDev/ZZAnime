@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-04T08:35:31.381928+00:00",
-  "failedChapters": 56635,
+  "checkedAt": "2026-11-04T08:53:26.417127+00:00",
+  "failedChapters": 56631,
   "series": 4104,
   "diagnosedSeries": 4047,
   "pendingSeries": 57,
@@ -33,7 +33,7 @@
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
-    "TimeoutError: The read operation timed out": 16,
+    "TimeoutError: The read operation timed out": 12,
     "Unverified source mapping": 123,
     "Source HTTP 520": 11,
     "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>": 2,
@@ -23204,40 +23204,6 @@
       "nextRetryAt": 1793249286.8088284
     },
     {
-      "series": "https://jkanime.net/radiant/",
-      "failedChapters": 21,
-      "samples": [
-        "https://jkanime.net/radiant/1/",
-        "https://jkanime.net/radiant/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/radiant/20/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793257097920,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793258804.8568108
-    },
-    {
       "series": "https://jkanime.net/ryuusei-no-rockman-tribe/",
       "failedChapters": 21,
       "samples": [
@@ -23274,40 +23240,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793357194.0789425
-    },
-    {
-      "series": "https://jkanime.net/sword-art-online-alicization/",
-      "failedChapters": 21,
-      "samples": [
-        "https://jkanime.net/sword-art-online-alicization/1/",
-        "https://jkanime.net/sword-art-online-alicization/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/sword-art-online-alicization/18/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793257131227,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793258870.994951
     },
     {
       "series": "https://jkanime.net/taigu-zhan-hun/",
@@ -23860,6 +23792,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793695286.6728837
+    },
+    {
+      "series": "https://jkanime.net/radiant/",
+      "failedChapters": 20,
+      "samples": [
+        "https://jkanime.net/radiant/1/",
+        "https://jkanime.net/radiant/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/radiant/20/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793257097920,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793258804.8568108
     },
     {
       "series": "https://jkanime.net/tensei-shitara-slime-datta-ken/",
@@ -24624,6 +24590,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793707543.2889967
+    },
+    {
+      "series": "https://jkanime.net/sword-art-online-alicization/",
+      "failedChapters": 18,
+      "samples": [
+        "https://jkanime.net/sword-art-online-alicization/1/",
+        "https://jkanime.net/sword-art-online-alicization/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/sword-art-online-alicization/18/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793257131227,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793258870.994951
     },
     {
       "series": "https://jkanime.net/xiehou-ta-de-shaonu-shidai/",
@@ -84239,8 +84239,8 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "failedChapters": 11,
       "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -103663,7 +103663,7 @@
       "failedChapters": 4,
       "samples": [
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/"
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "diagnosedSample": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/",
       "sources": {
