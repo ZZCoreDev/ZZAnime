@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T03:36:03.770803+00:00",
+  "checkedAt": "2026-11-04T03:52:33.837020+00:00",
   "episodes": 73042,
-  "oldestHours": 207.03,
-  "pending": 72070,
+  "oldestHours": 207.31,
+  "pending": 72067,
   "expired": 57127,
   "expiresWithin24Hours": 57498,
-  "retryAfterExpiry": 1474,
+  "retryAfterExpiry": 1480,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1439.04,
-  "measuredWallClockPerHour": 259.59,
-  "estimatedSweepDays": 11.72,
+  "sampleMinutes": 1437.52,
+  "measuredWallClockPerHour": 264.04,
+  "estimatedSweepDays": 11.53,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 23,
+      "pendingFailures": 24,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -773,7 +773,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4101,
+    "series": 4103,
     "diagnosedSeries": 4047,
-    "pendingSeries": 54
+    "pendingSeries": 56
   },
   "coverage": {
-    "checkedAt": "2026-11-04T03:36:03.770803+00:00",
+    "checkedAt": "2026-11-04T03:52:33.837020+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
