@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T07:39:16.668207+00:00",
+  "checkedAt": "2026-11-04T08:02:43.453099+00:00",
   "failedChapters": 56632,
   "series": 4106,
   "diagnosedSeries": 4047,
@@ -107982,8 +107982,8 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "failedChapters": 3,
       "samples": [
-        "https://jkanime.net/granblue-fantasy-the-animation/2/",
-        "https://jkanime.net/granblue-fantasy-the-animation/1/"
+        "https://jkanime.net/granblue-fantasy-the-animation/1/",
+        "https://jkanime.net/granblue-fantasy-the-animation/2/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -111254,7 +111254,7 @@
       "failedChapters": 3,
       "samples": [
         "https://jkanime.net/zoku-owarimonogatari/2/",
-        "https://jkanime.net/zoku-owarimonogatari/6/"
+        "https://jkanime.net/zoku-owarimonogatari/5/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -117374,6 +117374,18 @@
       "nextRetryAt": 1793714099.3099747
     },
     {
+      "series": "https://jkanime.net/aooni-the-blue-monster/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/aooni-the-blue-monster/1/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793779404.297862
+    },
+    {
       "series": "https://jkanime.net/aragne-no-mushikago/",
       "failedChapters": 1,
       "samples": [
@@ -117944,6 +117956,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793305491.3182852
+    },
+    {
+      "series": "https://jkanime.net/bakuten-movie/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/bakuten-movie/1/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793779321.7385466
     },
     {
       "series": "https://jkanime.net/bang-dream-2nd-season/",
@@ -139149,30 +139173,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/bakuten-movie/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/bakuten-movie/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793779321.7385466
-    },
-    {
-      "series": "https://jkanime.net/aooni-the-blue-monster/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/aooni-the-blue-monster/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793779404.297862
     }
   ]
 }
