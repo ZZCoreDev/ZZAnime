@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T04:09:21.909788+00:00",
+  "checkedAt": "2026-11-04T04:25:40.557717+00:00",
   "episodes": 73042,
-  "oldestHours": 207.59,
-  "pending": 72085,
+  "oldestHours": 207.86,
+  "pending": 72097,
   "expired": 57127,
   "expiresWithin24Hours": 57498,
-  "retryAfterExpiry": 1482,
+  "retryAfterExpiry": 1483,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1437.0,
-  "measuredWallClockPerHour": 268.31,
-  "estimatedSweepDays": 11.34,
+  "sampleMinutes": 1435.5,
+  "measuredWallClockPerHour": 272.77,
+  "estimatedSweepDays": 11.16,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4104,
+    "series": 4103,
     "diagnosedSeries": 4047,
-    "pendingSeries": 57
+    "pendingSeries": 56
   },
   "coverage": {
-    "checkedAt": "2026-11-04T04:09:21.909788+00:00",
+    "checkedAt": "2026-11-04T04:25:40.557717+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,

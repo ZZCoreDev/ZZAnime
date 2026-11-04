@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T03:56:44.936425+00:00",
+  "checkedAt": "2026-11-04T04:13:03.705840+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 134,
-  "repairAttempts": 8,
+  "attempted": 140,
+  "repairAttempts": 10,
   "earlyRepairAttempts": 0,
-  "failed": 56613,
+  "failed": 56614,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41769791273",
+  "runId": "41771484450",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57127,
-  "extraRenewed": 31,
+  "extraRenewed": 36,
   "published": true,
   "expiresWithin24Hours": 57498,
-  "retryAfterExpiry": 1482,
+  "retryAfterExpiry": 1483,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -480,7 +480,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -494,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -746,7 +746,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4104,
+    "series": 4103,
     "diagnosedSeries": 4047,
-    "pendingSeries": 57
+    "pendingSeries": 56
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T04:09:21.909788+00:00",
+    "checkedAt": "2026-11-04T04:25:40.557717+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
