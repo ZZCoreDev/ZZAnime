@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T05:00:17.958664+00:00",
+  "checkedAt": "2026-11-04T05:18:01.825332+00:00",
   "episodes": 73042,
-  "oldestHours": 208.44,
-  "pending": 72159,
+  "oldestHours": 208.73,
+  "pending": 72181,
   "expired": 57127,
-  "expiresWithin24Hours": 57498,
+  "expiresWithin24Hours": 57500,
   "retryAfterExpiry": 1483,
-  "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1422.07,
-  "measuredWallClockPerHour": 282.94,
-  "estimatedSweepDays": 10.76,
+  "successfulCyclesMeasured": 80,
+  "sampleMinutes": 1439.8,
+  "measuredWallClockPerHour": 283.12,
+  "estimatedSweepDays": 10.75,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -881,7 +881,7 @@
     "pendingSeries": 55
   },
   "coverage": {
-    "checkedAt": "2026-11-04T05:00:17.958664+00:00",
+    "checkedAt": "2026-11-04T05:18:01.825332+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
