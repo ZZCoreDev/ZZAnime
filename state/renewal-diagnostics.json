@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-04T16:51:58.035442+00:00",
-  "failedChapters": 56646,
+  "checkedAt": "2026-11-04T17:09:50.495526+00:00",
+  "failedChapters": 56642,
   "series": 4097,
   "diagnosedSeries": 4047,
   "pendingSeries": 50,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 258,
+    "ValueError: No approved observations; previous channel retained": 254,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -8219,19 +8219,6 @@
       "nextRetryAt": 1793360160.3652864
     },
     {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 27,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
-    },
-    {
       "series": "https://jkanime.net/ah-my-goddess/",
       "failedChapters": 26,
       "samples": [
@@ -12190,6 +12177,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793690838.1460934
+    },
+    {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 26,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/zhen-hun-jie-4th-season/",
@@ -57971,19 +57971,6 @@
       "nextRetryAt": 1793314486.2870336
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 12,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717022.1000535
-    },
-    {
       "series": "https://jkanime.net/kage-no-jitsuryokusha-ni-naritakute-2nd-season/",
       "failedChapters": 12,
       "samples": [
@@ -84262,6 +84249,19 @@
       "nextRetryAt": 1793355169.0239263
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717022.1000535
+    },
+    {
       "series": "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/",
       "failedChapters": 11,
       "samples": [
@@ -84335,8 +84335,8 @@
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "failedChapters": 11,
       "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/",
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -92305,19 +92305,6 @@
       "nextRetryAt": 1793195282.2182956
     },
     {
-      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/",
-        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793715282.2943246
-    },
-    {
       "series": "https://jkanime.net/fairy-tail-ova/",
       "failedChapters": 9,
       "samples": [
@@ -94192,6 +94179,19 @@
       "nextRetryAt": 1793375929.4872897
     },
     {
+      "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/",
+      "failedChapters": 8,
+      "samples": [
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793715282.2943246
+    },
+    {
       "series": "https://jkanime.net/fangkai-nage-nuwu/",
       "failedChapters": 8,
       "samples": [
@@ -95979,8 +95979,8 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "failedChapters": 8,
       "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -96908,19 +96908,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793219575.5556462
-    },
-    {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 7,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733676.1361086
     },
     {
       "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-2nd-season/",
@@ -99353,6 +99340,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793317910.7232962
+    },
+    {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/",
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/3/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733676.1361086
     },
     {
       "series": "https://jkanime.net/ladies-versus-butlers-specials/",
@@ -110421,7 +110421,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793771369.797594
+      "nextRetryAt": 1793826327.8131416
     },
     {
       "series": "https://jkanime.net/tamayomi/",
@@ -118165,7 +118165,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793794403.29927
+      "nextRetryAt": 1793826345.201665
     },
     {
       "series": "https://jkanime.net/bem-movie-become-human/",
@@ -126597,6 +126597,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793801549.1133268
+    },
+    {
+      "series": "https://jkanime.net/kami-no-shizuku/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kami-no-shizuku/18/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793812471.5848167
     },
     {
       "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
@@ -139056,18 +139068,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/kami-no-shizuku/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kami-no-shizuku/18/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793812471.5848167
     }
   ]
 }

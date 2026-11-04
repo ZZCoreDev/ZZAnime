@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T16:51:58.035442+00:00",
+  "checkedAt": "2026-11-04T17:09:50.495526+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73865,
   "storedChapters": 73045,
@@ -9,7 +9,7 @@
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
   "voeOnlyChapters": 46,
-  "extraOnlyChapters": 305,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -78869,7 +78869,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79036,7 +79036,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 8,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83207,7 +83207,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 27,
+      "renewalFailed": 26,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106761,7 +106761,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 7,
