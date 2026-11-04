@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T15:14:23.493297+00:00",
-  "failedChapters": 56642,
-  "series": 4098,
+  "checkedAt": "2026-11-04T15:29:44.190362+00:00",
+  "failedChapters": 56641,
+  "series": 4097,
   "diagnosedSeries": 4047,
-  "pendingSeries": 51,
+  "pendingSeries": 50,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 252,
+    "ValueError: No approved observations; previous channel retained": 251,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -103117,7 +103117,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793791888.586011
+      "nextRetryAt": 1793817980.4831045
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -107108,7 +107108,7 @@
       "failedChapters": 3,
       "samples": [
         "https://jkanime.net/aooni-the-blue-monster/1/",
-        "https://jkanime.net/aooni-the-blue-monster/3/"
+        "https://jkanime.net/aooni-the-blue-monster/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -115103,6 +115103,19 @@
       "nextRetryAt": 1793250785.867827
     },
     {
+      "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/12/",
+        "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793806970.8016286
+    },
+    {
       "series": "https://jkanime.net/shiguang-dailiren-yingdu-pian/",
       "failedChapters": 2,
       "samples": [
@@ -116421,19 +116434,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793346798.4119914
-    },
-    {
-      "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/6/",
-        "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793806970.8016286
     },
     {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
@@ -122611,6 +122611,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793796391.464416
+    },
+    {
+      "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/3/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793806956.223942
     },
     {
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-licht-namae-no-nai-shoujo/",
@@ -134323,18 +134335,6 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793804643.3040178
-    },
-    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139068,18 +139068,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/3/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793806956.223942
     }
   ]
 }
