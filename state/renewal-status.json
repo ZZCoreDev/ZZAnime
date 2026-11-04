@@ -1,24 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T20:57:58.718449+00:00",
+  "checkedAt": "2026-11-04T21:12:40.749220+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 388,
-  "repairAttempts": 72,
+  "attempted": 398,
+  "repairAttempts": 74,
   "earlyRepairAttempts": 0,
-  "failed": 56551,
+  "failed": 56556,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41911463935",
+  "runId": "41913793823",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57451,
-  "extraRenewed": 220,
+  "extraRenewed": 239,
+  "voeRenewed": 1,
   "published": true,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1430,
+  "retryAfterExpiry": 1435,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -137,7 +138,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 17,
+      "pendingFailures": 18,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -480,7 +481,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -494,7 +495,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -648,14 +649,14 @@
       "title": "Mushishi Zoku Shou 2nd Season",
       "total": 10,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/nekopara/": {
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -884,12 +885,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4092,
+    "series": 4093,
     "diagnosedSeries": 4047,
-    "pendingSeries": 45
+    "pendingSeries": 46
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T21:11:33.556259+00:00",
+    "checkedAt": "2026-11-04T21:25:10.630291+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,
