@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56641; capítulos vencidos pendientes: 57454. Próximos a vencer: 57502; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56641; capítulos vencidos pendientes: 57443. Próximos a vencer: 57491; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/5 capítulos recientes; incidencias pendientes: 0.
@@ -150,7 +150,7 @@ Equivalencia comprobada: Seisen Cerberus: Ryuukoku no Fatalités, 0/13 capítulo
 Equivalencia comprobada: Stella Jogakuin Koutou-ka C³-bu, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Takahashi Rumiko Gekijou, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Uta no Prince-sama Maji Love 1000, 0/13 capítulos recientes; incidencias pendientes: 12.
-Equivalencia comprobada: Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu, 0/12 capítulos recientes; incidencias pendientes: 4.
+Equivalencia comprobada: Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu, 1/12 capítulos recientes; incidencias pendientes: 4.
 Equivalencia comprobada: Choujuushin Gravion Zwei, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Code Geass: Dakkan no Rozé, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Cuticle Tantei Inaba, 0/12 capítulos recientes; incidencias pendientes: 12.
@@ -225,7 +225,7 @@ Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc,
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
 Diagnóstico por serie: 4047/4097; pendientes: 50. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 73042 capítulos con registros, 514 capítulos observados sin opciones, 307 publicados solo en /voe/ o /extra/ y 57454 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Cobertura de catálogo: 5053 títulos, 73044 capítulos con registros, 514 capítulos observados sin opciones, 307 publicados solo en /voe/ o /extra/ y 57443 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
