@@ -1,25 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T13:47:42.897151+00:00",
+  "checkedAt": "2026-11-04T14:06:09.778881+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 132,
+  "attempted": 134,
   "repairAttempts": 8,
   "earlyRepairAttempts": 0,
-  "failed": 56640,
+  "failed": 56639,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41840625426",
+  "runId": "41843493470",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57122,
   "extraRenewed": 31,
-  "voeRenewed": 1,
   "published": true,
   "expiresWithin24Hours": 57502,
-  "retryAfterExpiry": 1515,
+  "retryAfterExpiry": 1517,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -138,7 +137,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 26,
+      "pendingFailures": 27,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -593,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -885,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4102,
+    "series": 4101,
     "diagnosedSeries": 4047,
-    "pendingSeries": 55
+    "pendingSeries": 54
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T14:01:18.609496+00:00",
+    "checkedAt": "2026-11-04T14:19:35.628870+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73863,
     "storedChapters": 73042,

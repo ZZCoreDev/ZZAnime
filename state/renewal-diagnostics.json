@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T14:01:18.609496+00:00",
-  "failedChapters": 56640,
-  "series": 4102,
+  "checkedAt": "2026-11-04T14:19:35.628870+00:00",
+  "failedChapters": 56639,
+  "series": 4101,
   "diagnosedSeries": 4047,
-  "pendingSeries": 55,
+  "pendingSeries": 54,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 252,
+    "ValueError: No approved observations; previous channel retained": 251,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -8219,6 +8219,19 @@
       "nextRetryAt": 1793360160.3652864
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 27,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/ah-my-goddess/",
       "failedChapters": 26,
       "samples": [
@@ -12177,19 +12190,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793690838.1460934
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 26,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/zhen-hun-jie-4th-season/",
@@ -91228,19 +91228,6 @@
       "nextRetryAt": 1793197153.746857
     },
     {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714143.717503
-    },
-    {
       "series": "https://jkanime.net/tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san/",
       "failedChapters": 10,
       "samples": [
@@ -93651,6 +93638,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793210464.2759056
+    },
+    {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 9,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793714143.717503
     },
     {
       "series": "https://jkanime.net/tsuma-shougakusei-ni-naru/",
@@ -117441,18 +117441,6 @@
       "nextRetryAt": 1793783478.5199363
     },
     {
-      "series": "https://jkanime.net/arata-naru-sekai-mirai-hen/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/arata-naru-sekai-mirai-hen/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714120.1034436
-    },
-    {
       "series": "https://jkanime.net/arcana-famiglia-capriccio-stile-arcana-famiglia/",
       "failedChapters": 1,
       "samples": [
@@ -118962,7 +118950,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793795065.0816238
+      "nextRetryAt": 1793823402.7777452
     },
     {
       "series": "https://jkanime.net/busou-shinki-moon-angel/",
@@ -119978,18 +119966,6 @@
       "nextRetryAt": 1793469320.4743073
     },
     {
-      "series": "https://jkanime.net/code-geass-boukoku-no-akito/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/code-geass-boukoku-no-akito/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714157.548084
-    },
-    {
       "series": "https://jkanime.net/code-geass-fukkatsu-no-lelouch/",
       "failedChapters": 1,
       "samples": [
@@ -120021,18 +119997,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793703764.7172627
-    },
-    {
-      "series": "https://jkanime.net/code-geass-nunnally-in-wonderland/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/code-geass-nunnally-in-wonderland/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714285.7380207
     },
     {
       "series": "https://jkanime.net/colorful-movie/",
@@ -139126,6 +139090,30 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793803569.893827
+    },
+    {
+      "series": "https://jkanime.net/yuusha-no-kuzu/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuusha-no-kuzu/20/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793803586.348762
     }
   ]
 }
