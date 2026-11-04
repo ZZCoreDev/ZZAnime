@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T08:18:03.752318+00:00",
+  "checkedAt": "2026-11-04T08:35:31.381928+00:00",
   "episodes": 73042,
-  "oldestHours": 211.73,
-  "pending": 72390,
-  "expired": 57124,
-  "expiresWithin24Hours": 57504,
-  "retryAfterExpiry": 1501,
+  "oldestHours": 212.03,
+  "pending": 72391,
+  "expired": 57120,
+  "expiresWithin24Hours": 57500,
+  "retryAfterExpiry": 1504,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1439.15,
-  "measuredWallClockPerHour": 306.52,
-  "estimatedSweepDays": 9.93,
+  "sampleMinutes": 1436.39,
+  "measuredWallClockPerHour": 308.19,
+  "estimatedSweepDays": 9.88,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4106,
+    "series": 4104,
     "diagnosedSeries": 4047,
-    "pendingSeries": 59
+    "pendingSeries": 57
   },
   "coverage": {
-    "checkedAt": "2026-11-04T08:18:03.752318+00:00",
+    "checkedAt": "2026-11-04T08:35:31.381928+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
     "missingChapters": 514,
-    "expiredChapters": 57124,
+    "expiredChapters": 57120,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,

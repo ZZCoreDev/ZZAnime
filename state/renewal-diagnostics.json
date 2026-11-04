@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T08:18:03.752318+00:00",
-  "failedChapters": 56636,
-  "series": 4106,
+  "checkedAt": "2026-11-04T08:35:31.381928+00:00",
+  "failedChapters": 56635,
+  "series": 4104,
   "diagnosedSeries": 4047,
-  "pendingSeries": 59,
+  "pendingSeries": 57,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,10 +26,10 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 240,
+    "ValueError: No approved observations; previous channel retained": 243,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
-    "Source did not return a verified observation": 257,
+    "Source did not return a verified observation": 253,
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
@@ -1688,33 +1688,6 @@
       "nextRetryAt": 1793244026.8878305
     },
     {
-      "series": "https://jkanime.net/gegege-no-kitarou-2018/",
-      "failedChapters": 82,
-      "samples": [
-        "https://jkanime.net/gegege-no-kitarou-2018/1/",
-        "https://jkanime.net/gegege-no-kitarou-2018/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/gegege-no-kitarou-2018/97/",
-      "sources": {
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793262073281,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "observed-options",
-          "stage": "complete",
-          "status": 200
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793263651.1034975
-    },
-    {
       "series": "https://jkanime.net/koupen-chan/",
       "failedChapters": 82,
       "samples": [
@@ -1747,6 +1720,33 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793404426.2547672
+    },
+    {
+      "series": "https://jkanime.net/gegege-no-kitarou-2018/",
+      "failedChapters": 78,
+      "samples": [
+        "https://jkanime.net/gegege-no-kitarou-2018/1/",
+        "https://jkanime.net/gegege-no-kitarou-2018/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/gegege-no-kitarou-2018/97/",
+      "sources": {
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793262073281,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "observed-options",
+          "stage": "complete",
+          "status": 200
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793263651.1034975
     },
     {
       "series": "https://jkanime.net/pokemon-2019/",
@@ -84236,6 +84236,19 @@
       "nextRetryAt": 1793355169.0239263
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793717022.1000535
+    },
+    {
       "series": "https://jkanime.net/kaijin-kaihatsu-bu-no-kuroitsu-san/",
       "failedChapters": 11,
       "samples": [
@@ -89018,19 +89031,6 @@
       "nextRetryAt": 1793313828.49304
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793717022.1000535
-    },
-    {
       "series": "https://jkanime.net/kagewani-shou/",
       "failedChapters": 10,
       "samples": [
@@ -89163,6 +89163,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793216670.5652702
+    },
+    {
+      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
+      "failedChapters": 10,
+      "samples": [
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733665.9286785
     },
     {
       "series": "https://jkanime.net/kaoru-hana-wa-rin-to-saku/",
@@ -90357,6 +90370,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793233605.2732196
+    },
+    {
+      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+      "failedChapters": 10,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793748196.7077808
     },
     {
       "series": "https://jkanime.net/ousama-ranking-yuuki-no-takarabako/",
@@ -92717,19 +92743,6 @@
       "nextRetryAt": 1793228504.7903683
     },
     {
-      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733665.9286785
-    },
-    {
       "series": "https://jkanime.net/kekkon-suru-tte-hontou-desu-ka/",
       "failedChapters": 9,
       "samples": [
@@ -93136,19 +93149,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793304351.0446095
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/1/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793748196.7077808
     },
     {
       "series": "https://jkanime.net/owari-no-seraph-owaranai-seraph/",
@@ -100999,6 +100999,19 @@
       "nextRetryAt": 1793333067.1855137
     },
     {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793714143.717503
+    },
+    {
       "series": "https://jkanime.net/uniteup-unibirth/",
       "failedChapters": 6,
       "samples": [
@@ -101800,7 +101813,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793770347.7228613
+      "nextRetryAt": 1793791939.2791283
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -103091,20 +103104,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793777561.1036682
-    },
-    {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714143.717503
+      "nextRetryAt": 1793791888.586011
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -103657,6 +103657,38 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793369796.8637087
+    },
+    {
+      "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
+      "failedChapters": 4,
+      "samples": [
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
+        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/"
+      ],
+      "diagnosedSample": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/",
+      "sources": {
+        "flv": {
+          "cause": "parser-or-network",
+          "message": "Unverified source mapping",
+          "stage": "detail",
+          "status": null
+        },
+        "jk": {
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "parser-or-network",
+          "message": "Missing observed anime_info",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793680284.8229022
     },
     {
       "series": "https://jkanime.net/burn-up-w/",
@@ -107389,38 +107421,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793470845.023462
-    },
-    {
-      "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/7/"
-      ],
-      "diagnosedSample": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/8/",
-      "sources": {
-        "flv": {
-          "cause": "parser-or-network",
-          "message": "Unverified source mapping",
-          "stage": "detail",
-          "status": null
-        },
-        "jk": {
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "parser-or-network",
-          "message": "Missing observed anime_info",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793680284.8229022
     },
     {
       "series": "https://jkanime.net/burn-the-witch/",
@@ -117967,7 +117967,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793779321.7385466
+      "nextRetryAt": 1793784779.3862438
     },
     {
       "series": "https://jkanime.net/bang-dream-2nd-season/",
@@ -120181,18 +120181,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
-    },
-    {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793777441.0683517
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -125411,7 +125399,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793778165.4754748
+      "nextRetryAt": 1793802806.224449
     },
     {
       "series": "https://jkanime.net/human-lost-ningen-shikkaku/",
@@ -138604,18 +138592,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793749006.1057208
-    },
-    {
-      "series": "https://jkanime.net/yomi-no-tsugai/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yomi-no-tsugai/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793777455.4408069
     },
     {
       "series": "https://jkanime.net/youjo-senki-movie-manner-eizou/",
