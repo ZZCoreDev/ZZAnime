@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T14:37:15.174515+00:00",
-  "failedChapters": 56638,
-  "series": 4100,
+  "checkedAt": "2026-11-04T14:57:58.892003+00:00",
+  "failedChapters": 56639,
+  "series": 4101,
   "diagnosedSeries": 4047,
-  "pendingSeries": 53,
+  "pendingSeries": 54,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 250,
+    "ValueError: No approved observations; previous channel retained": 251,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -101813,7 +101813,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793795598.057842
+      "nextRetryAt": 1793817964.939338
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -101926,7 +101926,7 @@
       "failedChapters": 5,
       "samples": [
         "https://jkanime.net/granblue-fantasy-the-animation/1/",
-        "https://jkanime.net/granblue-fantasy-the-animation/2/"
+        "https://jkanime.net/granblue-fantasy-the-animation/12/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -134345,6 +134345,18 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793804643.3040178
+    },
+    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139092,16 +139104,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
+      "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
+        "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793804643.3040178
+      "nextRetryAt": 1793805802.1190367
     }
   ]
 }

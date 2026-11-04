@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T14:37:15.174515+00:00",
+  "checkedAt": "2026-11-04T14:57:58.892003+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73863,
   "storedChapters": 73042,
@@ -9,7 +9,7 @@
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 307,
   "voeOnlyChapters": 47,
-  "extraOnlyChapters": 305,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -95,6 +95,13 @@
         "title": "Sayonara Lara",
         "samples": [
           "https://jkanime.net/sayonara-lara/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
+        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+        "samples": [
+          "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
         ]
       },
       {
@@ -63884,7 +63891,8 @@
       "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -63893,7 +63901,7 @@
         "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
