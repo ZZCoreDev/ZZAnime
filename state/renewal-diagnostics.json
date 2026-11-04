@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T10:54:01.223230+00:00",
+  "checkedAt": "2026-11-04T11:33:27.745141+00:00",
   "failedChapters": 56634,
-  "series": 4105,
+  "series": 4104,
   "diagnosedSeries": 4047,
-  "pendingSeries": 58,
+  "pendingSeries": 57,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -95976,6 +95976,19 @@
       "nextRetryAt": 1793236167.5833461
     },
     {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 8,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793714143.717503
+    },
+    {
       "series": "https://jkanime.net/tsurune-kazemai-koukou-kyuudoubu/",
       "failedChapters": 8,
       "samples": [
@@ -97648,19 +97661,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793342922.724113
-    },
-    {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 7,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714143.717503
     },
     {
       "series": "https://jkanime.net/xin-yichang-shengwu-jianwen-lu-xu/",
@@ -109146,7 +109146,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793786817.0682511
+      "nextRetryAt": 1793802823.3206296
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -119051,7 +119051,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793788862.7187896
+      "nextRetryAt": 1793813240.747698
     },
     {
       "series": "https://jkanime.net/c3-special/",
@@ -120181,18 +120181,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
-    },
-    {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793786946.820934
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
