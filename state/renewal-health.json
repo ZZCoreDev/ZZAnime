@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T20:00:04.942003+00:00",
+  "checkedAt": "2026-11-04T20:13:38.321926+00:00",
   "episodes": 73046,
-  "oldestHours": 223.44,
-  "pending": 72675,
+  "oldestHours": 223.66,
+  "pending": 72651,
   "expired": 57449,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1435,
+  "retryAfterExpiry": 1430,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1426.75,
-  "measuredWallClockPerHour": 304.34,
-  "estimatedSweepDays": 10.0,
+  "sampleMinutes": 1422.06,
+  "measuredWallClockPerHour": 306.02,
+  "estimatedSweepDays": 9.95,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4095,
+    "series": 4094,
     "diagnosedSeries": 4047,
-    "pendingSeries": 48
+    "pendingSeries": 47
   },
   "coverage": {
-    "checkedAt": "2026-11-04T20:00:04.942003+00:00",
+    "checkedAt": "2026-11-04T20:13:38.321926+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,
