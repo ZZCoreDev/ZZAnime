@@ -1,24 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T18:19:37.306976+00:00",
+  "checkedAt": "2026-11-04T18:36:18.661948+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 400,
-  "repairAttempts": 75,
+  "attempted": 380,
+  "repairAttempts": 70,
   "earlyRepairAttempts": 0,
-  "failed": 56605,
+  "failed": 56596,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41885899572",
+  "runId": "41888653936",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57448,
-  "extraRenewed": 249,
+  "extraRenewed": 233,
+  "voeRenewed": 1,
   "published": true,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1484,
+  "retryAfterExpiry": 1475,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -137,7 +138,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 22,
+      "pendingFailures": 21,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -263,7 +264,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -403,7 +404,7 @@
       "title": "[Locodol]",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/fuuun-ishin-daishogun/": {
@@ -431,7 +432,7 @@
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/h2o/": {
@@ -480,7 +481,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -494,7 +495,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -543,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -578,7 +579,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -592,7 +593,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -634,7 +635,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -683,7 +684,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -884,12 +885,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4102,
+    "series": 4101,
     "diagnosedSeries": 4047,
-    "pendingSeries": 55
+    "pendingSeries": 54
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T18:35:10.236906+00:00",
+    "checkedAt": "2026-11-04T18:50:08.201225+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,
