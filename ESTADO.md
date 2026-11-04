@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56626; capítulos vencidos pendientes: 57126. Próximos a vencer: 57506; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56632; capítulos vencidos pendientes: 57124. Próximos a vencer: 57504; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/5 capítulos recientes; incidencias pendientes: 0.
@@ -135,7 +135,7 @@ Equivalencia comprobada: Shakugan no Shana II, 0/24 capítulos recientes; incide
 Equivalencia comprobada: Steins;Gate, 0/24 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Abarenbou Kishi!! Matsutarou, 0/23 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Suzumiya Haruhi no Yuuutsu (2009), 0/14 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Ao Oni The Animation, 0/13 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Ao Oni The Animation, 0/13 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Choujuushin Gravion, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: D_Cide Traumerei the Animation, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Danganronpa: The Animation, 0/13 capítulos recientes; incidencias pendientes: 0.
@@ -175,23 +175,23 @@ Equivalencia comprobada: Mahoutsukai ni Taisetsu na Koto, 0/12 capítulos recien
 Equivalencia comprobada: Mashiro-iro Symphony: The Color of Lovers, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Marchen Madchen, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ookami-san to Shichinin no Nakamatachi, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Otona no Bouguya-san II, 0/12 capítulos recientes; incidencias pendientes: 8.
+Equivalencia comprobada: Otona no Bouguya-san II, 0/12 capítulos recientes; incidencias pendientes: 9.
 Equivalencia comprobada: Saint Seiya Saga de Hades Infierno, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Sasami-san@Ganbaranai, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: School Days, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shingetsutan Tsukihime, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Strange+, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 4.
+Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 5.
 Equivalencia comprobada: Venus Versus Virus, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yoake Mae yori Ruriiro na, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Z/X: Ignition, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Break Blade (TV), 0/12 capítulos recientes; incidencias pendientes: 12.
 Equivalencia comprobada: Gin no Saji 2nd Season, 0/11 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Granblue Fantasy The Animation, 0/13 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Granblue Fantasy The Animation, 0/13 capítulos recientes; incidencias pendientes: 3.
 Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi OVA, 0/11 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mushishi Zoku Shou 2nd Season, 0/10 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Nekopara, 0/12 capítulos recientes; incidencias pendientes: 6.
+Equivalencia comprobada: Nekopara, 0/12 capítulos recientes; incidencias pendientes: 8.
 Equivalencia comprobada: Yondemasu yo, Azazel-san, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Black★Rock Shooter (TV), 0/8 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo, 0/7 capítulos recientes; incidencias pendientes: 0.
@@ -224,8 +224,8 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4047/4105; pendientes: 58. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 73042 capítulos con registros, 514 capítulos observados sin opciones, 305 publicados solo en /voe/ o /extra/ y 57126 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Diagnóstico por serie: 4047/4106; pendientes: 59. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Cobertura de catálogo: 5053 títulos, 73042 capítulos con registros, 514 capítulos observados sin opciones, 305 publicados solo en /voe/ o /extra/ y 57124 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
