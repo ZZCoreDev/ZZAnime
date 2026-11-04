@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-04T20:56:59.885359+00:00",
+  "checkedAt": "2026-11-04T21:11:33.556259+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73046,
   "missingChapters": 513,
-  "expiredChapters": 57450,
+  "expiredChapters": 57451,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -11032,14 +11040,6 @@
         "samples": [
           "https://jkanime.net/haikyuu-riku-vs-kuu/1/",
           "https://jkanime.net/haikyuu-riku-vs-kuu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/nekopara/",
-        "title": "Nekopara",
-        "samples": [
-          "https://jkanime.net/nekopara/1/",
-          "https://jkanime.net/nekopara/10/"
         ]
       },
       {
@@ -63524,7 +63524,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -63535,7 +63536,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -72577,7 +72578,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72890,7 +72891,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -79007,7 +79008,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83178,7 +83179,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -101466,6 +101467,7 @@
         "https://jkanime.net/cardfight-vanguard-willdress/3/",
         "https://jkanime.net/cardfight-vanguard-willdress/4/",
         "https://jkanime.net/cardfight-vanguard-willdress/5/",
+        "https://jkanime.net/cardfight-vanguard-willdress/6/",
         "https://jkanime.net/cardfight-vanguard-willdress/7/",
         "https://jkanime.net/cardfight-vanguard-willdress/8/",
         "https://jkanime.net/cardfight-vanguard-willdress/9/"
@@ -106736,7 +106738,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -120038,8 +120040,7 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -120058,7 +120059,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 11,
