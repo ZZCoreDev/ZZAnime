@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-04T19:04:25.866683+00:00",
+  "checkedAt": "2026-11-04T19:18:09.631932+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73046,
   "missingChapters": 513,
-  "expiredChapters": 57448,
+  "expiredChapters": 57449,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -15936,7 +15936,8 @@
         "series": "https://jkanime.net/classicaloid/",
         "title": "ClassicaLoid",
         "samples": [
-          "https://jkanime.net/classicaloid/1/"
+          "https://jkanime.net/classicaloid/1/",
+          "https://jkanime.net/classicaloid/15/"
         ]
       },
       {
@@ -16216,14 +16217,6 @@
         "samples": [
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/1/",
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aooni-the-blue-monster/",
-        "title": "Ao Oni The Animation",
-        "samples": [
-          "https://jkanime.net/aooni-the-blue-monster/1/",
-          "https://jkanime.net/aooni-the-blue-monster/10/"
         ]
       },
       {
@@ -18402,14 +18395,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gatchamancrowds-insight/",
-        "title": "Gatchaman Crowds Insight",
-        "samples": [
-          "https://jkanime.net/gatchamancrowds-insight/1/",
-          "https://jkanime.net/gatchamancrowds-insight/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-super/",
         "title": "Dragon Ball Super",
         "samples": [
@@ -20439,14 +20424,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
-        "title": "[Locodol]",
-        "samples": [
-          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/1/",
-          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/rail-wars/",
         "title": "Rail Wars!",
         "samples": [
@@ -20826,14 +20803,6 @@
         "samples": [
           "https://jkanime.net/break-blade-tv/1/",
           "https://jkanime.net/break-blade-tv/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dragon-ball-kai-2014/",
-        "title": "Dragon Ball Kai (2014)",
-        "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/1/",
-          "https://jkanime.net/dragon-ball-kai-2014/10/"
         ]
       },
       {
@@ -48190,7 +48159,8 @@
         "series": "https://jkanime.net/classicaloid/",
         "title": "ClassicaLoid",
         "samples": [
-          "https://jkanime.net/classicaloid/1/"
+          "https://jkanime.net/classicaloid/1/",
+          "https://jkanime.net/classicaloid/15/"
         ]
       },
       {
@@ -72640,7 +72610,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78903,7 +78873,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79070,7 +79040,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83241,7 +83211,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 20,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88577,7 +88547,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106981,7 +106951,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114441,7 +114411,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120122,7 +120092,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -144523,7 +144493,8 @@
       "stored": 24,
       "missing": [],
       "expired": [
-        "https://jkanime.net/classicaloid/1/"
+        "https://jkanime.net/classicaloid/1/",
+        "https://jkanime.net/classicaloid/15/"
       ],
       "noIndependent": [],
       "renewalFailed": 2,
@@ -145918,8 +145889,7 @@
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -145939,7 +145909,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156225,8 +156195,7 @@
       "series": "https://jkanime.net/gatchamancrowds-insight/",
       "title": "Gatchaman Crowds Insight",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156246,7 +156215,7 @@
         "https://jkanime.net/gatchamancrowds-insight/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -165749,8 +165718,7 @@
       "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
       "title": "[Locodol]",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -165770,7 +165738,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167600,8 +167568,7 @@
       "series": "https://jkanime.net/dragon-ball-kai-2014/",
       "title": "Dragon Ball Kai (2014)",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 61,
       "stored": 61,
@@ -167670,7 +167637,7 @@
         "https://jkanime.net/dragon-ball-kai-2014/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 61,
