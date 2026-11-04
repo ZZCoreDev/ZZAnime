@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T12:08:50.695693+00:00",
+  "checkedAt": "2026-11-04T12:30:27.908826+00:00",
   "episodes": 73042,
-  "oldestHours": 215.58,
-  "pending": 72696,
+  "oldestHours": 215.94,
+  "pending": 72693,
   "expired": 57122,
   "expiresWithin24Hours": 57502,
-  "retryAfterExpiry": 1507,
+  "retryAfterExpiry": 1513,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1423.44,
-  "measuredWallClockPerHour": 303.83,
-  "estimatedSweepDays": 10.02,
+  "sampleMinutes": 1427.04,
+  "measuredWallClockPerHour": 304.24,
+  "estimatedSweepDays": 10.0,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4104,
+    "series": 4106,
     "diagnosedSeries": 4047,
-    "pendingSeries": 57
+    "pendingSeries": 59
   },
   "coverage": {
-    "checkedAt": "2026-11-04T12:08:50.695693+00:00",
+    "checkedAt": "2026-11-04T12:30:27.908826+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
