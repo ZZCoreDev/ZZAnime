@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T05:34:50.731089+00:00",
+  "checkedAt": "2026-11-04T05:52:34.054986+00:00",
   "failedChapters": 56620,
   "series": 4102,
   "diagnosedSeries": 4047,
@@ -12182,8 +12182,8 @@
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
       "failedChapters": 26,
       "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -116374,8 +116374,8 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/6/",
-        "https://jkanime.net/zoku-owarimonogatari/2/"
+        "https://jkanime.net/zoku-owarimonogatari/2/",
+        "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -120144,6 +120144,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793772040.2850125
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -139112,18 +139124,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793772040.2850125
     }
   ]
 }
