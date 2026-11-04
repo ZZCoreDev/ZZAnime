@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T16:10:15.013983+00:00",
+  "checkedAt": "2026-11-04T16:28:25.366394+00:00",
   "failedChapters": 56641,
-  "series": 4097,
+  "series": 4096,
   "diagnosedSeries": 4047,
-  "pendingSeries": 50,
+  "pendingSeries": 49,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,13 +26,13 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 251,
+    "ValueError: No approved observations; previous channel retained": 253,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
     "Source HTTP 522": 12,
-    "URLError: <urlopen error [Errno 104] Connection reset by peer>": 4,
     "Source HTTP 302": 89,
+    "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
     "TimeoutError: The read operation timed out": 12,
     "Unverified source mapping": 123,
     "Source HTTP 520": 11,
@@ -5351,40 +5351,6 @@
       "nextRetryAt": 1793379959.2025073
     },
     {
-      "series": "https://jkanime.net/captain-tsubasa-2018/",
-      "failedChapters": 47,
-      "samples": [
-        "https://jkanime.net/captain-tsubasa-2018/1/",
-        "https://jkanime.net/captain-tsubasa-2018/10/"
-      ],
-      "diagnosedSample": "https://jkanime.net/captain-tsubasa-2018/46/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793261328982,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793262958.256455
-    },
-    {
       "series": "https://jkanime.net/inazuma-eleven-go/",
       "failedChapters": 47,
       "samples": [
@@ -5595,6 +5561,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793430070.3290994
+    },
+    {
+      "series": "https://jkanime.net/captain-tsubasa-2018/",
+      "failedChapters": 46,
+      "samples": [
+        "https://jkanime.net/captain-tsubasa-2018/1/",
+        "https://jkanime.net/captain-tsubasa-2018/10/"
+      ],
+      "diagnosedSample": "https://jkanime.net/captain-tsubasa-2018/46/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793261328982,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793262958.256455
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-act-ii/",
@@ -93198,40 +93198,6 @@
       "nextRetryAt": 1793309761.9922574
     },
     {
-      "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/puniru-wa-kawaii-slime/10/",
-        "https://jkanime.net/puniru-wa-kawaii-slime/11/"
-      ],
-      "diagnosedSample": "https://jkanime.net/puniru-wa-kawaii-slime/5/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793219205404,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793196012.7245288
-    },
-    {
       "series": "https://jkanime.net/rec/",
       "failedChapters": 9,
       "samples": [
@@ -95358,6 +95324,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793196183.2161198
+    },
+    {
+      "series": "https://jkanime.net/puniru-wa-kawaii-slime/",
+      "failedChapters": 8,
+      "samples": [
+        "https://jkanime.net/puniru-wa-kawaii-slime/10/",
+        "https://jkanime.net/puniru-wa-kawaii-slime/11/"
+      ],
+      "diagnosedSample": "https://jkanime.net/puniru-wa-kawaii-slime/5/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793219205404,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793196012.7245288
     },
     {
       "series": "https://jkanime.net/raise-wa-tanin-ga-ii/",
@@ -98788,6 +98788,19 @@
       "nextRetryAt": 1793395073.010583
     },
     {
+      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/granblue-fantasy-the-animation/1/",
+        "https://jkanime.net/granblue-fantasy-the-animation/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793775328.4584656
+    },
+    {
       "series": "https://jkanime.net/grisaia-no-kajitsu-specials/",
       "failedChapters": 6,
       "samples": [
@@ -101922,19 +101935,6 @@
       "nextRetryAt": 1793234612.1904976
     },
     {
-      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/granblue-fantasy-the-animation/1/",
-        "https://jkanime.net/granblue-fantasy-the-animation/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793775328.4584656
-    },
-    {
       "series": "https://jkanime.net/hacka-doll-the-animation/",
       "failedChapters": 5,
       "samples": [
@@ -103360,6 +103360,19 @@
       "nextRetryAt": 1793233456.5043144
     },
     {
+      "series": "https://jkanime.net/zoku-owarimonogatari/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/zoku-owarimonogatari/1/",
+        "https://jkanime.net/zoku-owarimonogatari/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793766048.6278555
+    },
+    {
       "series": "https://jkanime.net/actors-songs-connection/",
       "failedChapters": 4,
       "samples": [
@@ -103496,6 +103509,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793404007.6191423
+    },
+    {
+      "series": "https://jkanime.net/aooni-the-blue-monster/",
+      "failedChapters": 4,
+      "samples": [
+        "https://jkanime.net/aooni-the-blue-monster/1/",
+        "https://jkanime.net/aooni-the-blue-monster/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793779404.297862
     },
     {
       "series": "https://jkanime.net/azumanga-daioh/",
@@ -106883,19 +106909,6 @@
       "nextRetryAt": 1793260876.1232176
     },
     {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/1/",
-        "https://jkanime.net/zoku-owarimonogatari/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793766048.6278555
-    },
-    {
       "series": "https://jkanime.net/009-1/",
       "failedChapters": 3,
       "samples": [
@@ -107102,19 +107115,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793331313.7796757
-    },
-    {
-      "series": "https://jkanime.net/aooni-the-blue-monster/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/aooni-the-blue-monster/1/",
-        "https://jkanime.net/aooni-the-blue-monster/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793779404.297862
     },
     {
       "series": "https://jkanime.net/armitage-iii/",
@@ -109172,7 +109172,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793806746.8209498
+      "nextRetryAt": 1793813234.7290754
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -110571,7 +110571,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793806772.4327378
+      "nextRetryAt": 1793824505.9785519
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -115732,7 +115732,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793790081.4555218
+      "nextRetryAt": 1793826716.0423295
     },
     {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
@@ -116193,7 +116193,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793806787.058302
+      "nextRetryAt": 1793826756.2239547
     },
     {
       "series": "https://jkanime.net/witch-craft-works-specials/",
@@ -127917,18 +127917,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793804925.1580975
-    },
-    {
-      "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793805802.1190367
     },
     {
       "series": "https://jkanime.net/komada-jouryuujo-e-youkoso/",

@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T16:10:15.013983+00:00",
+  "checkedAt": "2026-11-04T16:28:25.366394+00:00",
   "episodes": 73044,
-  "oldestHours": 219.6,
-  "pending": 72784,
+  "oldestHours": 219.91,
+  "pending": 72779,
   "expired": 57443,
   "expiresWithin24Hours": 57491,
-  "retryAfterExpiry": 1513,
+  "retryAfterExpiry": 1515,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1439.84,
-  "measuredWallClockPerHour": 296.28,
-  "estimatedSweepDays": 10.27,
+  "sampleMinutes": 1434.13,
+  "measuredWallClockPerHour": 297.88,
+  "estimatedSweepDays": 10.22,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -815,7 +815,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4097,
+    "series": 4096,
     "diagnosedSeries": 4047,
-    "pendingSeries": 50
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-04T16:10:15.013983+00:00",
+    "checkedAt": "2026-11-04T16:28:25.366394+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73865,
     "storedChapters": 73044,
