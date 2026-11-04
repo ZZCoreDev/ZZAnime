@@ -1,6 +1,6 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T02:12:17.252664+00:00",
+  "checkedAt": "2026-11-04T02:29:49.183042+00:00",
   "requested": 400,
   "renewed": 88,
   "attempted": 88,
@@ -11,7 +11,7 @@
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41758692602",
+  "runId": "41760714186",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57127,
@@ -888,7 +888,7 @@
     "pendingSeries": 54
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T02:25:49.390884+00:00",
+    "checkedAt": "2026-11-04T02:42:29.773187+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
