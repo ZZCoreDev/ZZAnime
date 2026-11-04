@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T21:53:43.107925+00:00",
+  "checkedAt": "2026-11-04T22:07:20.880518+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73047,
@@ -11036,14 +11036,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nekopara/",
-        "title": "Nekopara",
-        "samples": [
-          "https://jkanime.net/nekopara/1/",
-          "https://jkanime.net/nekopara/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/show-by-rock-mashumairesh/",
         "title": "Show By Rock!! Mashumairesh!!",
         "samples": [
@@ -18435,6 +18427,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gate/",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "samples": [
+          "https://jkanime.net/gate/1/",
+          "https://jkanime.net/gate/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
         "title": "Miss Monochrome: The Animation 2",
         "samples": [
@@ -19490,14 +19490,6 @@
         "title": "Go! Go! 575: Meippai ni, Hajiketeru?",
         "samples": [
           "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
-        "title": "Mushishi Zoku Shou 2nd Season",
-        "samples": [
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/"
         ]
       },
       {
@@ -72601,7 +72593,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78864,7 +78856,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79031,7 +79023,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83202,7 +83194,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 17,
+      "renewalFailed": 16,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88538,7 +88530,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106761,7 +106753,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106943,7 +106935,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120064,8 +120056,7 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -120084,7 +120075,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -156588,7 +156579,8 @@
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156608,7 +156600,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -161572,8 +161564,7 @@
       "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
       "title": "Mushishi Zoku Shou 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -161591,7 +161582,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 10,
