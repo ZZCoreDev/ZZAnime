@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T18:50:08.201225+00:00",
+  "checkedAt": "2026-11-04T19:04:25.866683+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73046,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -12961,14 +12953,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/zoku-owarimonogatari/",
-        "title": "Zoku Owarimonogatari",
-        "samples": [
-          "https://jkanime.net/zoku-owarimonogatari/1/",
-          "https://jkanime.net/zoku-owarimonogatari/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/anima-yell/",
         "title": "Anima Yell!",
         "samples": [
@@ -17046,6 +17030,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
+        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
+        "samples": [
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/1/",
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
         "title": "Sailor Moon Crystal: Death Busters-hen",
         "samples": [
@@ -18463,6 +18455,14 @@
         "samples": [
           "https://jkanime.net/aquarion-logos/1/",
           "https://jkanime.net/aquarion-logos/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+        "samples": [
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
         ]
       },
       {
@@ -63588,8 +63588,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63600,7 +63599,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -64155,7 +64154,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72954,7 +72953,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -79071,7 +79070,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -88578,7 +88577,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106800,7 +106799,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106982,7 +106981,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114442,7 +114441,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120123,7 +120122,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -129249,8 +129248,7 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 6,
       "stored": 6,
@@ -129264,7 +129262,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -142525,7 +142523,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -145941,7 +145939,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -149651,7 +149649,8 @@
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -149672,7 +149671,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156664,7 +156663,8 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156684,7 +156684,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -165770,7 +165770,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
