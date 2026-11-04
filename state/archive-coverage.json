@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T15:47:47.849113+00:00",
+  "checkedAt": "2026-11-04T16:10:15.013983+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73863,
-  "storedChapters": 73042,
+  "observedChapters": 73865,
+  "storedChapters": 73044,
   "missingChapters": 514,
-  "expiredChapters": 57454,
+  "expiredChapters": 57443,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 307,
   "voeOnlyChapters": 47,
-  "extraOnlyChapters": 307,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -93,8 +93,8 @@
         "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
         "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
         "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
         ]
       },
       {
@@ -140,15 +140,15 @@
         "title": "Ushiro no Shoumen Kamui-san",
         "samples": [
           "https://jkanime.net/ushiro-no-shoumen-kamui-san/1/",
-          "https://jkanime.net/ushiro-no-shoumen-kamui-san/10/"
+          "https://jkanime.net/ushiro-no-shoumen-kamui-san/11/"
         ]
       },
       {
         "series": "https://jkanime.net/bai-ri-cheng-wang/",
         "title": "Bai Ri Cheng Wang",
         "samples": [
-          "https://jkanime.net/bai-ri-cheng-wang/1/",
-          "https://jkanime.net/bai-ri-cheng-wang/10/"
+          "https://jkanime.net/bai-ri-cheng-wang/10/",
+          "https://jkanime.net/bai-ri-cheng-wang/11/"
         ]
       },
       {
@@ -33622,8 +33622,8 @@
         "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
         "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
         "samples": [
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
-          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/"
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
+          "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
         ]
       },
       {
@@ -33669,15 +33669,15 @@
         "title": "Ushiro no Shoumen Kamui-san",
         "samples": [
           "https://jkanime.net/ushiro-no-shoumen-kamui-san/1/",
-          "https://jkanime.net/ushiro-no-shoumen-kamui-san/10/"
+          "https://jkanime.net/ushiro-no-shoumen-kamui-san/11/"
         ]
       },
       {
         "series": "https://jkanime.net/bai-ri-cheng-wang/",
         "title": "Bai Ri Cheng Wang",
         "samples": [
-          "https://jkanime.net/bai-ri-cheng-wang/1/",
-          "https://jkanime.net/bai-ri-cheng-wang/10/"
+          "https://jkanime.net/bai-ri-cheng-wang/10/",
+          "https://jkanime.net/bai-ri-cheng-wang/11/"
         ]
       },
       {
@@ -64116,7 +64116,6 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/1/",
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/10/",
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
@@ -64523,16 +64522,10 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/1/",
-        "https://jkanime.net/ushiro-no-shoumen-kamui-san/10/",
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/11/",
-        "https://jkanime.net/ushiro-no-shoumen-kamui-san/12/",
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/2/",
-        "https://jkanime.net/ushiro-no-shoumen-kamui-san/3/",
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/4/",
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/5/",
-        "https://jkanime.net/ushiro-no-shoumen-kamui-san/6/",
-        "https://jkanime.net/ushiro-no-shoumen-kamui-san/7/",
-        "https://jkanime.net/ushiro-no-shoumen-kamui-san/8/",
         "https://jkanime.net/ushiro-no-shoumen-kamui-san/9/"
       ],
       "noIndependent": [],
@@ -64613,7 +64606,6 @@
       "stored": 25,
       "missing": [],
       "expired": [
-        "https://jkanime.net/bai-ri-cheng-wang/1/",
         "https://jkanime.net/bai-ri-cheng-wang/10/",
         "https://jkanime.net/bai-ri-cheng-wang/11/",
         "https://jkanime.net/bai-ri-cheng-wang/12/",
@@ -64630,11 +64622,8 @@
         "https://jkanime.net/bai-ri-cheng-wang/22/",
         "https://jkanime.net/bai-ri-cheng-wang/23/",
         "https://jkanime.net/bai-ri-cheng-wang/24/",
-        "https://jkanime.net/bai-ri-cheng-wang/3/",
         "https://jkanime.net/bai-ri-cheng-wang/4/",
         "https://jkanime.net/bai-ri-cheng-wang/5/",
-        "https://jkanime.net/bai-ri-cheng-wang/7/",
-        "https://jkanime.net/bai-ri-cheng-wang/8/",
         "https://jkanime.net/bai-ri-cheng-wang/9/"
       ],
       "noIndependent": [],
@@ -230754,16 +230743,17 @@
       "title": "Tantei wa Mou, Shindeiru. Season 2",
       "causes": [],
       "observed": 5,
-      "stored": 4,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 2,
-        "vidhide": 3
+        "mp4upload": 5,
+        "streamwish": 3,
+        "vidhide": 4,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
@@ -230771,15 +230761,18 @@
       "series": "https://jkanime.net/sasaki-to-pii-chan-season-2/",
       "title": "Sasaki to Pii-chan Season 2",
       "causes": [],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
-        "mp4upload": 4
+        "mp4upload": 5,
+        "streamwish": 1,
+        "vidhide": 1,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
@@ -230787,13 +230780,13 @@
       "series": "https://jkanime.net/magic-knight-rayearth-2026/",
       "title": "Magic Knight Rayearth (2026)",
       "causes": [],
-      "observed": 4,
+      "observed": 5,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 4,
         "streamwish": 3,
