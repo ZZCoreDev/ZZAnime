@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T07:09:01.929346+00:00",
+  "checkedAt": "2026-11-04T07:25:06.966067+00:00",
   "requested": 400,
-  "renewed": 32,
-  "attempted": 34,
-  "repairAttempts": 0,
+  "renewed": 100,
+  "attempted": 180,
+  "repairAttempts": 22,
   "earlyRepairAttempts": 0,
-  "failed": 56626,
+  "failed": 56632,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41789695672",
+  "runId": "41791848102",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 57126,
-  "extraRenewed": 2,
-  "voeRenewed": 2,
+  "expired": 57124,
+  "extraRenewed": 71,
+  "voeRenewed": 1,
   "published": true,
-  "expiresWithin24Hours": 57506,
-  "retryAfterExpiry": 1494,
+  "expiresWithin24Hours": 57504,
+  "retryAfterExpiry": 1501,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -264,7 +264,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -593,7 +593,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -635,7 +635,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -656,7 +656,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -885,17 +885,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4105,
+    "series": 4106,
     "diagnosedSeries": 4047,
-    "pendingSeries": 58
+    "pendingSeries": 59
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T07:22:31.440889+00:00",
+    "checkedAt": "2026-11-04T07:39:16.668207+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
     "missingChapters": 514,
-    "expiredChapters": 57126,
+    "expiredChapters": 57124,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,

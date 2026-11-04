@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-04T07:22:31.440889+00:00",
+  "checkedAt": "2026-11-04T07:39:16.668207+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73042,
   "missingChapters": 514,
-  "expiredChapters": 57126,
+  "expiredChapters": 57124,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -543,13 +543,6 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yuusha-no-kuzu/",
-        "title": "Yuusha no Kuzu",
-        "samples": [
-          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -7143,6 +7136,13 @@
         "samples": [
           "https://jkanime.net/musashino/1/",
           "https://jkanime.net/musashino/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakuten-movie/",
+        "title": "Bakuten!! Movie",
+        "samples": [
+          "https://jkanime.net/bakuten-movie/1/"
         ]
       },
       {
@@ -16240,6 +16240,14 @@
         "samples": [
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/1/",
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aooni-the-blue-monster/",
+        "title": "Ao Oni The Animation",
+        "samples": [
+          "https://jkanime.net/aooni-the-blue-monster/1/",
+          "https://jkanime.net/aooni-the-blue-monster/10/"
         ]
       },
       {
@@ -67408,8 +67416,7 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -67418,7 +67425,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -72404,7 +72411,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -101744,13 +101751,15 @@
     {
       "series": "https://jkanime.net/bakuten-movie/",
       "title": "Bakuten!! Movie",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 1,
       "stored": 0,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 1,
       "families": {},
       "playbackVerified": false
@@ -114195,7 +114204,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 9,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -119862,7 +119871,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 8,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -129004,7 +129013,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -134006,8 +134015,6 @@
         "https://jkanime.net/gegege-no-kitarou-2018/43/",
         "https://jkanime.net/gegege-no-kitarou-2018/44/",
         "https://jkanime.net/gegege-no-kitarou-2018/5/",
-        "https://jkanime.net/gegege-no-kitarou-2018/58/",
-        "https://jkanime.net/gegege-no-kitarou-2018/59/",
         "https://jkanime.net/gegege-no-kitarou-2018/6/",
         "https://jkanime.net/gegege-no-kitarou-2018/60/",
         "https://jkanime.net/gegege-no-kitarou-2018/61/",
@@ -134052,14 +134059,14 @@
         "https://jkanime.net/gegege-no-kitarou-2018/97/"
       ],
       "noIndependent": [],
-      "renewalFailed": 84,
+      "renewalFailed": 82,
       "sideOnly": 0,
       "families": {
         "mega": 97,
-        "streamwish": 84,
-        "vidhide": 84,
-        "mp4upload": 84,
-        "streamtape": 84
+        "streamwish": 82,
+        "vidhide": 82,
+        "mp4upload": 82,
+        "streamtape": 82
       },
       "playbackVerified": false
     },
@@ -142274,7 +142281,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -145666,7 +145673,8 @@
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -145686,7 +145694,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,

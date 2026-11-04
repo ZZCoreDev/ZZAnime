@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T07:22:31.440889+00:00",
+  "checkedAt": "2026-11-04T07:39:16.668207+00:00",
   "episodes": 73042,
-  "oldestHours": 210.81,
-  "pending": 72313,
-  "expired": 57126,
-  "expiresWithin24Hours": 57506,
-  "retryAfterExpiry": 1494,
+  "oldestHours": 211.09,
+  "pending": 72301,
+  "expired": 57124,
+  "expiresWithin24Hours": 57504,
+  "retryAfterExpiry": 1501,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1436.2,
-  "measuredWallClockPerHour": 306.68,
-  "estimatedSweepDays": 9.92,
+  "sampleMinutes": 1435.72,
+  "measuredWallClockPerHour": 308.88,
+  "estimatedSweepDays": 9.85,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4105,
+    "series": 4106,
     "diagnosedSeries": 4047,
-    "pendingSeries": 58
+    "pendingSeries": 59
   },
   "coverage": {
-    "checkedAt": "2026-11-04T07:22:31.440889+00:00",
+    "checkedAt": "2026-11-04T07:39:16.668207+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
     "missingChapters": 514,
-    "expiredChapters": 57126,
+    "expiredChapters": 57124,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
