@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T09:29:01.935584+00:00",
-  "failedChapters": 56631,
-  "series": 4104,
+  "checkedAt": "2026-11-04T09:44:32.933455+00:00",
+  "failedChapters": 56634,
+  "series": 4105,
   "diagnosedSeries": 4047,
-  "pendingSeries": 57,
+  "pendingSeries": 58,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 243,
+    "ValueError: No approved observations; previous channel retained": 246,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -85700,6 +85700,19 @@
       "nextRetryAt": 1793232970.96508
     },
     {
+      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793748196.7077808
+    },
+    {
       "series": "https://jkanime.net/otona-no-bouguya-san/",
       "failedChapters": 11,
       "samples": [
@@ -90370,19 +90383,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793233605.2732196
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/1/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793748196.7077808
     },
     {
       "series": "https://jkanime.net/ousama-ranking-yuuki-no-takarabako/",
@@ -96884,6 +96884,19 @@
       "nextRetryAt": 1793219575.5556462
     },
     {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733676.1361086
+    },
+    {
       "series": "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-2nd-season/",
       "failedChapters": 7,
       "samples": [
@@ -99314,19 +99327,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793317910.7232962
-    },
-    {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733676.1361086
     },
     {
       "series": "https://jkanime.net/ladies-versus-butlers-specials/",
@@ -109146,7 +109146,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793777576.720537
+      "nextRetryAt": 1793786817.0682511
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -110545,7 +110545,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793778192.292032
+      "nextRetryAt": 1793787908.9168484
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -116154,7 +116154,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793779656.8544934
+      "nextRetryAt": 1793791915.6806688
     },
     {
       "series": "https://jkanime.net/witch-craft-works-specials/",
@@ -139149,6 +139149,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793786946.820934
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T09:29:01.935584+00:00",
+  "checkedAt": "2026-11-04T09:44:32.933455+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73042,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -63374,7 +63382,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -63385,7 +63394,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -106555,7 +106564,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -114197,7 +114206,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "sideOnly": 0,
       "families": {
         "mega": 12,

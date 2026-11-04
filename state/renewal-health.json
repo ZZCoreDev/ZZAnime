@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T09:29:01.935584+00:00",
+  "checkedAt": "2026-11-04T09:44:32.933455+00:00",
   "episodes": 73042,
-  "oldestHours": 212.92,
-  "pending": 72473,
+  "oldestHours": 213.18,
+  "pending": 72467,
   "expired": 57121,
   "expiresWithin24Hours": 57502,
-  "retryAfterExpiry": 1504,
+  "retryAfterExpiry": 1507,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1438.31,
-  "measuredWallClockPerHour": 306.15,
-  "estimatedSweepDays": 9.94,
+  "sampleMinutes": 1436.57,
+  "measuredWallClockPerHour": 307.69,
+  "estimatedSweepDays": 9.89,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4104,
+    "series": 4105,
     "diagnosedSeries": 4047,
-    "pendingSeries": 57
+    "pendingSeries": 58
   },
   "coverage": {
-    "checkedAt": "2026-11-04T09:29:01.935584+00:00",
+    "checkedAt": "2026-11-04T09:44:32.933455+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
