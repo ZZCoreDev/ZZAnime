@@ -1,11 +1,11 @@
 # Cobertura completa del respaldo
 
-{"checkedAt": "2026-11-04T17:24:42.312247+00:00", "catalogueSeries": 5053, "observedChapters": 73865, "storedChapters": 73045, "missingChapters": 514, "expiredChapters": 57444, "noIndependentChapters": 0, "seriesWithoutObservedListing": 51, "sideOnlyChapters": 306, "voeOnlyChapters": 46, "extraOnlyChapters": 306, "sourceRequests": 0, "aiCalls": 0, "playbackVerified": false}
+{"checkedAt": "2026-11-04T17:38:23.883989+00:00", "catalogueSeries": 5053, "observedChapters": 73865, "storedChapters": 73046, "missingChapters": 513, "expiredChapters": 57445, "noIndependentChapters": 0, "seriesWithoutObservedListing": 51, "sideOnlyChapters": 306, "voeOnlyChapters": 46, "extraOnlyChapters": 306, "sourceRequests": 0, "aiCalls": 0, "playbackVerified": false}
 
 Presencia de opciones no demuestra reproducción. Los títulos sin listado observado tienen disponibilidad desconocida; no se inventan capítulos.
 
-- renewal-error: 4103 series.
-- observed-chapters-without-options: 207 series.
+- renewal-error: 4101 series.
+- observed-chapters-without-options: 206 series.
 - expired-observation: 3621 series.
 - retained-redirect: 129 series.
 - no-observed-listing: 51 series.
