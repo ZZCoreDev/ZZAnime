@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-04T05:18:01.825332+00:00",
-  "failedChapters": 56614,
+  "checkedAt": "2026-11-04T05:34:50.731089+00:00",
+  "failedChapters": 56620,
   "series": 4102,
   "diagnosedSeries": 4047,
   "pendingSeries": 55,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 220,
+    "ValueError: No approved observations; previous channel retained": 226,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -12179,6 +12179,19 @@
       "nextRetryAt": 1793690838.1460934
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 26,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/zhen-hun-jie-4th-season/",
       "failedChapters": 26,
       "samples": [
@@ -16235,19 +16248,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793296268.6158514
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 25,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/accel-world/",
@@ -24490,6 +24490,40 @@
       "nextRetryAt": 1793233643.2386544
     },
     {
+      "series": "https://jkanime.net/hinomaruzumou/",
+      "failedChapters": 18,
+      "samples": [
+        "https://jkanime.net/hinomaruzumou/10/",
+        "https://jkanime.net/hinomaruzumou/11/"
+      ],
+      "diagnosedSample": "https://jkanime.net/hinomaruzumou/18/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793257268322,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793259012.4721897
+    },
+    {
       "series": "https://jkanime.net/kaze-ga-tsuyoku-fuiteiru/",
       "failedChapters": 18,
       "samples": [
@@ -24732,40 +24766,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793286920.7892418
-    },
-    {
-      "series": "https://jkanime.net/hinomaruzumou/",
-      "failedChapters": 17,
-      "samples": [
-        "https://jkanime.net/hinomaruzumou/10/",
-        "https://jkanime.net/hinomaruzumou/11/"
-      ],
-      "diagnosedSample": "https://jkanime.net/hinomaruzumou/18/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793257268322,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793259012.4721897
     },
     {
       "series": "https://jkanime.net/idolish7-third-beat-part-2/",
@@ -97333,6 +97333,19 @@
       "nextRetryAt": 1793404106.2494886
     },
     {
+      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-ii/10/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793748196.7077808
+    },
+    {
       "series": "https://jkanime.net/penguin-musume-heart/",
       "failedChapters": 7,
       "samples": [
@@ -99290,6 +99303,19 @@
       "nextRetryAt": 1793317910.7232962
     },
     {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733676.1361086
+    },
+    {
       "series": "https://jkanime.net/ladies-versus-butlers-specials/",
       "failedChapters": 6,
       "samples": [
@@ -99812,6 +99838,19 @@
       "nextRetryAt": 1793360441.8402789
     },
     {
+      "series": "https://jkanime.net/nekopara/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/nekopara/1/",
+        "https://jkanime.net/nekopara/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793758415.9256496
+    },
+    {
       "series": "https://jkanime.net/no-game-no-life-specials/",
       "failedChapters": 6,
       "samples": [
@@ -99984,19 +100023,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793245517.1388185
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/10/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793748196.7077808
     },
     {
       "series": "https://jkanime.net/pet/",
@@ -101774,7 +101800,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767984.9883702
+      "nextRetryAt": 1793770069.907576
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -102263,19 +102289,6 @@
       "nextRetryAt": 1793383948.0646546
     },
     {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733676.1361086
-    },
-    {
       "series": "https://jkanime.net/kuroko-no-basket-ng-shuu/",
       "failedChapters": 5,
       "samples": [
@@ -102724,19 +102737,6 @@
       "nextRetryAt": 1793210599.8787992
     },
     {
-      "series": "https://jkanime.net/nekopara/",
-      "failedChapters": 5,
-      "samples": [
-        "https://jkanime.net/nekopara/1/",
-        "https://jkanime.net/nekopara/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793758415.9256496
-    },
-    {
       "series": "https://jkanime.net/ninja-collection/",
       "failedChapters": 5,
       "samples": [
@@ -103091,7 +103091,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767996.7077947
+      "nextRetryAt": 1793770795.227033
     },
     {
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
@@ -116371,6 +116371,19 @@
       "nextRetryAt": 1793346798.4119914
     },
     {
+      "series": "https://jkanime.net/zoku-owarimonogatari/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/zoku-owarimonogatari/6/",
+        "https://jkanime.net/zoku-owarimonogatari/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793766048.6278555
+    },
+    {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
       "failedChapters": 1,
       "samples": [
@@ -119870,7 +119883,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793765635.1207252
+      "nextRetryAt": 1793791840.285041
     },
     {
       "series": "https://jkanime.net/cluster-edge/",
@@ -120702,7 +120715,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767950.4824247
+      "nextRetryAt": 1793791914.0868826
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-ova/",
@@ -124630,7 +124643,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767913.9992738
+      "nextRetryAt": 1793791886.8320954
     },
     {
       "series": "https://jkanime.net/hand-maid-mai/",
@@ -124774,7 +124787,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767898.710315
+      "nextRetryAt": 1793791871.233789
     },
     {
       "series": "https://jkanime.net/hello-world/",
@@ -133836,7 +133849,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767939.6773515
+      "nextRetryAt": 1793791898.5772064
     },
     {
       "series": "https://jkanime.net/rozen-maiden-ouvertre/",
@@ -134364,18 +134377,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793692897.0071576
-    },
-    {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793767017.068235
     },
     {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
@@ -137683,7 +137684,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793767973.573116
+      "nextRetryAt": 1793791924.6535485
     },
     {
       "series": "https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/",
@@ -139080,18 +139081,6 @@
       "nextRetryAt": 1793324649.3407533
     },
     {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793766048.6278555
-    },
-    {
       "series": "https://jkanime.net/zx-code-reunion/",
       "failedChapters": 1,
       "samples": [
@@ -139123,6 +139112,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793772040.2850125
     }
   ]
 }
