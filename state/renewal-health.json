@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T06:10:08.743735+00:00",
+  "checkedAt": "2026-11-04T06:27:41.020277+00:00",
   "episodes": 73042,
-  "oldestHours": 209.6,
-  "pending": 72257,
+  "oldestHours": 209.9,
+  "pending": 72270,
   "expired": 57127,
-  "expiresWithin24Hours": 57504,
-  "retryAfterExpiry": 1489,
+  "expiresWithin24Hours": 57507,
+  "retryAfterExpiry": 1492,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1424.73,
-  "measuredWallClockPerHour": 297.74,
-  "estimatedSweepDays": 10.22,
+  "sampleMinutes": 1425.38,
+  "measuredWallClockPerHour": 301.73,
+  "estimatedSweepDays": 10.09,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 26,
+      "pendingFailures": 27,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4102,
+    "series": 4103,
     "diagnosedSeries": 4047,
-    "pendingSeries": 55
+    "pendingSeries": 56
   },
   "coverage": {
-    "checkedAt": "2026-11-04T06:10:08.743735+00:00",
+    "checkedAt": "2026-11-04T06:27:41.020277+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,

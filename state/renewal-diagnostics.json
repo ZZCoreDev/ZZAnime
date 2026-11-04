@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T06:10:08.743735+00:00",
-  "failedChapters": 56620,
-  "series": 4102,
+  "checkedAt": "2026-11-04T06:27:41.020277+00:00",
+  "failedChapters": 56623,
+  "series": 4103,
   "diagnosedSeries": 4047,
-  "pendingSeries": 55,
+  "pendingSeries": 56,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 226,
+    "ValueError: No approved observations; previous channel retained": 229,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 259,
@@ -8219,6 +8219,19 @@
       "nextRetryAt": 1793360160.3652864
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 27,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793723627.0672648
+    },
+    {
       "series": "https://jkanime.net/ah-my-goddess/",
       "failedChapters": 26,
       "samples": [
@@ -12177,19 +12190,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793690838.1460934
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 26,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793723627.0672648
     },
     {
       "series": "https://jkanime.net/zhen-hun-jie-4th-season/",
@@ -24078,6 +24078,40 @@
       "nextRetryAt": 1793399355.4172335
     },
     {
+      "series": "https://jkanime.net/hinomaruzumou/",
+      "failedChapters": 19,
+      "samples": [
+        "https://jkanime.net/hinomaruzumou/10/",
+        "https://jkanime.net/hinomaruzumou/11/"
+      ],
+      "diagnosedSample": "https://jkanime.net/hinomaruzumou/18/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793257268322,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793259012.4721897
+    },
+    {
       "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-ougon-no-kaze/",
       "failedChapters": 19,
       "samples": [
@@ -24488,40 +24522,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793233643.2386544
-    },
-    {
-      "series": "https://jkanime.net/hinomaruzumou/",
-      "failedChapters": 18,
-      "samples": [
-        "https://jkanime.net/hinomaruzumou/10/",
-        "https://jkanime.net/hinomaruzumou/11/"
-      ],
-      "diagnosedSample": "https://jkanime.net/hinomaruzumou/18/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793257268322,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793259012.4721897
     },
     {
       "series": "https://jkanime.net/kaze-ga-tsuyoku-fuiteiru/",
@@ -84514,6 +84514,19 @@
       "nextRetryAt": 1793250445.0897613
     },
     {
+      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
+      "failedChapters": 11,
+      "samples": [
+        "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
+        "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793716210.865582
+    },
+    {
       "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-3/",
       "failedChapters": 11,
       "samples": [
@@ -89239,19 +89252,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793328080.3849466
-    },
-    {
-      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-      "failedChapters": 10,
-      "samples": [
-        "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
-        "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793716210.865582
     },
     {
       "series": "https://jkanime.net/kono-subarashii-sekai-ni-shukufuku-wo-2/",
@@ -101800,7 +101800,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793770069.907576
+      "nextRetryAt": 1793770347.7228613
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -103091,7 +103091,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793770795.227033
+      "nextRetryAt": 1793770945.281562
     },
     {
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
@@ -110385,19 +110385,6 @@
       "nextRetryAt": 1793770432.9542508
     },
     {
-      "series": "https://jkanime.net/takopii-no-genzai/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/takopii-no-genzai/4/",
-        "https://jkanime.net/takopii-no-genzai/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793768015.8978822
-    },
-    {
       "series": "https://jkanime.net/tamayomi/",
       "failedChapters": 3,
       "samples": [
@@ -110545,7 +110532,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793770410.4310336
+      "nextRetryAt": 1793771355.18185
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -115670,6 +115657,19 @@
       "nextRetryAt": 1793374093.7767894
     },
     {
+      "series": "https://jkanime.net/takopii-no-genzai/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/takopii-no-genzai/5/",
+        "https://jkanime.net/takopii-no-genzai/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793770398.534225
+    },
+    {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
       "failedChapters": 2,
       "samples": [
@@ -118936,7 +118936,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793770823.6862228
+      "nextRetryAt": 1793795065.0816238
     },
     {
       "series": "https://jkanime.net/busou-shinki-moon-angel/",
@@ -120030,7 +120030,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793771004.1109152
+      "nextRetryAt": 1793795128.4584763
     },
     {
       "series": "https://jkanime.net/concrete-revolutio-choujin-gensou/",
@@ -120144,18 +120144,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
-    },
-    {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793772040.2850125
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -130391,7 +130379,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793770810.7873657
+      "nextRetryAt": 1793795052.6609857
     },
     {
       "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-special/",
@@ -139124,6 +139112,30 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/yuusha-no-kuzu/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuusha-no-kuzu/20/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793775225.5154712
+    },
+    {
+      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/granblue-fantasy-the-animation/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793775328.4584656
     }
   ]
 }
