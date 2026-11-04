@@ -1,23 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-04T06:32:13.039963+00:00",
+  "checkedAt": "2026-11-04T06:50:36.517839+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 100,
-  "repairAttempts": 0,
+  "attempted": 138,
+  "repairAttempts": 9,
   "earlyRepairAttempts": 0,
-  "failed": 56623,
+  "failed": 56626,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41785690423",
+  "runId": "41787699498",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57127,
+  "extraRenewed": 34,
   "published": true,
   "expiresWithin24Hours": 57507,
-  "retryAfterExpiry": 1492,
+  "retryAfterExpiry": 1495,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -542,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -591,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +739,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -883,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4103,
+    "series": 4105,
     "diagnosedSeries": 4047,
-    "pendingSeries": 56
+    "pendingSeries": 58
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-04T06:45:42.222278+00:00",
+    "checkedAt": "2026-11-04T07:03:53.834066+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,

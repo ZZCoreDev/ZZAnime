@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T06:45:42.222278+00:00",
+  "checkedAt": "2026-11-04T07:03:53.834066+00:00",
   "episodes": 73042,
-  "oldestHours": 210.2,
-  "pending": 72283,
+  "oldestHours": 210.5,
+  "pending": 72292,
   "expired": 57127,
   "expiresWithin24Hours": 57507,
-  "retryAfterExpiry": 1492,
-  "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1416.02,
-  "measuredWallClockPerHour": 307.96,
-  "estimatedSweepDays": 9.88,
+  "retryAfterExpiry": 1495,
+  "successfulCyclesMeasured": 80,
+  "sampleMinutes": 1434.21,
+  "measuredWallClockPerHour": 308.24,
+  "estimatedSweepDays": 9.87,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -731,7 +731,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4103,
+    "series": 4105,
     "diagnosedSeries": 4047,
-    "pendingSeries": 56
+    "pendingSeries": 58
   },
   "coverage": {
-    "checkedAt": "2026-11-04T06:45:42.222278+00:00",
+    "checkedAt": "2026-11-04T07:03:53.834066+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
