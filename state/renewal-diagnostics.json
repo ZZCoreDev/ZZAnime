@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T13:42:43.402418+00:00",
-  "failedChapters": 56644,
-  "series": 4107,
+  "checkedAt": "2026-11-04T14:01:18.609496+00:00",
+  "failedChapters": 56640,
+  "series": 4102,
   "diagnosedSeries": 4047,
-  "pendingSeries": 60,
+  "pendingSeries": 55,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 256,
+    "ValueError: No approved observations; previous channel retained": 252,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -23556,6 +23556,40 @@
       "nextRetryAt": 1793330015.857481
     },
     {
+      "series": "https://jkanime.net/hinomaruzumou/",
+      "failedChapters": 20,
+      "samples": [
+        "https://jkanime.net/hinomaruzumou/10/",
+        "https://jkanime.net/hinomaruzumou/11/"
+      ],
+      "diagnosedSample": "https://jkanime.net/hinomaruzumou/18/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793257268322,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793259012.4721897
+    },
+    {
       "series": "https://jkanime.net/jahy-sama-wa-kujikenai/",
       "failedChapters": 20,
       "samples": [
@@ -24076,40 +24110,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793399355.4172335
-    },
-    {
-      "series": "https://jkanime.net/hinomaruzumou/",
-      "failedChapters": 19,
-      "samples": [
-        "https://jkanime.net/hinomaruzumou/10/",
-        "https://jkanime.net/hinomaruzumou/11/"
-      ],
-      "diagnosedSample": "https://jkanime.net/hinomaruzumou/18/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793257268322,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793259012.4721897
     },
     {
       "series": "https://jkanime.net/jojo-no-kimyou-na-bouken-ougon-no-kaze/",
@@ -101813,7 +101813,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793795025.5154867
+      "nextRetryAt": 1793795598.057842
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -116802,18 +116802,6 @@
       "nextRetryAt": 1793411962.8796394
     },
     {
-      "series": "https://jkanime.net/aki-no-kanade/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/aki-no-kanade/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714080.04553
-    },
-    {
       "series": "https://jkanime.net/akuma-no-riddle-shousha-wa-dare-nukiuchi-test/",
       "failedChapters": 1,
       "samples": [
@@ -117373,18 +117361,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793292399.9455566
-    },
-    {
-      "series": "https://jkanime.net/aoharu-x-kikanjuu-special/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/aoharu-x-kikanjuu-special/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714099.3099747
     },
     {
       "series": "https://jkanime.net/aooni-the-blue-monster/",
@@ -120194,18 +120170,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
-    },
-    {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793796838.6745439
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -134429,18 +134393,6 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793798149.8931499
-    },
-    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139010,18 +138962,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793749998.9934447
-    },
-    {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793796856.4966536
     },
     {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",

@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-04T13:42:43.402418+00:00",
+  "checkedAt": "2026-11-04T14:01:18.609496+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73862,
+  "observedChapters": 73863,
   "storedChapters": 73042,
   "missingChapters": 514,
   "expiredChapters": 57122,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 306,
-  "voeOnlyChapters": 46,
+  "sideOnlyChapters": 307,
+  "voeOnlyChapters": 47,
   "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -88,13 +80,6 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sayonara-lara/",
-        "title": "Sayonara Lara",
-        "samples": [
-          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -543,13 +528,6 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yuusha-no-kuzu/",
-        "title": "Yuusha no Kuzu",
-        "samples": [
-          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -17634,13 +17612,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/aoharu-x-kikanjuu-special/",
-        "title": "Aoharu x Kikanjuu Special",
-        "samples": [
-          "https://jkanime.net/aoharu-x-kikanjuu-special/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/aria-the-avvenire/",
         "title": "Aria The Avvenire",
         "samples": [
@@ -18950,13 +18921,6 @@
         "title": "Trinity Seven OVA",
         "samples": [
           "https://jkanime.net/trinity-seven-ova/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aki-no-kanade/",
-        "title": "Aki no Kanade",
-        "samples": [
-          "https://jkanime.net/aki-no-kanade/1/"
         ]
       },
       {
@@ -63403,8 +63367,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63415,7 +63378,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -63890,8 +63853,7 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -63900,7 +63862,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -67440,8 +67402,7 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -67450,7 +67411,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -129675,7 +129636,7 @@
         "https://jkanime.net/hinomaruzumou/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -152114,15 +152075,13 @@
     {
       "series": "https://jkanime.net/aoharu-x-kikanjuu-special/",
       "title": "Aoharu x Kikanjuu Special",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
       "stored": 0,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 1,
       "families": {},
       "playbackVerified": false
@@ -158916,15 +158875,13 @@
     {
       "series": "https://jkanime.net/aki-no-kanade/",
       "title": "Aki no Kanade",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
       "stored": 0,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 1,
       "families": {},
       "playbackVerified": false
@@ -230233,13 +230190,13 @@
       "series": "https://jkanime.net/tantei-wa-mou-shindeiru-season-2/",
       "title": "Tantei wa Mou, Shindeiru. Season 2",
       "causes": [],
-      "observed": 4,
+      "observed": 5,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 4,
         "streamwish": 2,
