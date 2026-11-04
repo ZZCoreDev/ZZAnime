@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-04T14:19:35.628870+00:00",
+  "checkedAt": "2026-11-04T14:37:15.174515+00:00",
   "episodes": 73042,
-  "oldestHours": 217.76,
-  "pending": 72764,
+  "oldestHours": 218.05,
+  "pending": 72768,
   "expired": 57122,
   "expiresWithin24Hours": 57502,
-  "retryAfterExpiry": 1517,
+  "retryAfterExpiry": 1519,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1435.39,
-  "measuredWallClockPerHour": 298.46,
+  "sampleMinutes": 1435.64,
+  "measuredWallClockPerHour": 298.4,
   "estimatedSweepDays": 10.2,
   "capacityStatus": "behind",
   "datesInvented": false,
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4101,
+    "series": 4100,
     "diagnosedSeries": 4047,
-    "pendingSeries": 54
+    "pendingSeries": 53
   },
   "coverage": {
-    "checkedAt": "2026-11-04T14:19:35.628870+00:00",
+    "checkedAt": "2026-11-04T14:37:15.174515+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73863,
     "storedChapters": 73042,

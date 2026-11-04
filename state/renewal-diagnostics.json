@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-04T14:19:35.628870+00:00",
-  "failedChapters": 56639,
-  "series": 4101,
+  "checkedAt": "2026-11-04T14:37:15.174515+00:00",
+  "failedChapters": 56638,
+  "series": 4100,
   "diagnosedSeries": 4047,
-  "pendingSeries": 54,
+  "pendingSeries": 53,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4047,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 125,
     "No existing approved provider": 35853,
     "Ambiguous AnimeFLV listing identity": 3141,
-    "ValueError: No approved observations; previous channel retained": 251,
+    "ValueError: No approved observations; previous channel retained": 250,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 253,
@@ -8222,8 +8222,8 @@
       "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
       "failedChapters": 27,
       "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -101922,6 +101922,19 @@
       "nextRetryAt": 1793234612.1904976
     },
     {
+      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/granblue-fantasy-the-animation/1/",
+        "https://jkanime.net/granblue-fantasy-the-animation/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793775328.4584656
+    },
+    {
       "series": "https://jkanime.net/hacka-doll-the-animation/",
       "failedChapters": 5,
       "samples": [
@@ -103996,40 +104009,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793287180.4598348
-    },
-    {
-      "series": "https://jkanime.net/digimon-adventure-tri/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/digimon-adventure-tri/16/",
-        "https://jkanime.net/digimon-adventure-tri/2/"
-      ],
-      "diagnosedSample": "https://jkanime.net/digimon-adventure-tri/4/",
-      "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793305425261,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "no-approved-provider",
-          "message": "No independent approved provider",
-          "stage": "parse",
-          "status": null
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793307197.6508558
     },
     {
       "series": "https://jkanime.net/digimon-xros-wars/",
@@ -107642,6 +107621,40 @@
       "nextRetryAt": 1793403474.7332816
     },
     {
+      "series": "https://jkanime.net/digimon-adventure-tri/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/digimon-adventure-tri/2/",
+        "https://jkanime.net/digimon-adventure-tri/3/"
+      ],
+      "diagnosedSample": "https://jkanime.net/digimon-adventure-tri/4/",
+      "sources": {
+        "flv": {
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider",
+          "stage": "parse",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793305425261,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "no-approved-provider",
+          "message": "No independent approved provider",
+          "stage": "parse",
+          "status": null
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793307197.6508558
+    },
+    {
       "series": "https://jkanime.net/dna-ova/",
       "failedChapters": 3,
       "samples": [
@@ -107990,19 +108003,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793352490.668916
-    },
-    {
-      "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/granblue-fantasy-the-animation/1/",
-        "https://jkanime.net/granblue-fantasy-the-animation/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793775328.4584656
     },
     {
       "series": "https://jkanime.net/grimm-kumikyoku/",
@@ -110411,19 +110411,6 @@
       "nextRetryAt": 1793771369.797594
     },
     {
-      "series": "https://jkanime.net/takopii-no-genzai/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/takopii-no-genzai/4/",
-        "https://jkanime.net/takopii-no-genzai/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793786839.9340122
-    },
-    {
       "series": "https://jkanime.net/tamayomi/",
       "failedChapters": 3,
       "samples": [
@@ -110571,7 +110558,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793787908.9168484
+      "nextRetryAt": 1793790094.295568
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -115709,6 +115696,19 @@
       "nextRetryAt": 1793374093.7767894
     },
     {
+      "series": "https://jkanime.net/takopii-no-genzai/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/takopii-no-genzai/5/",
+        "https://jkanime.net/takopii-no-genzai/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793786839.9340122
+    },
+    {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
       "failedChapters": 2,
       "samples": [
@@ -119999,18 +119999,6 @@
       "nextRetryAt": 1793703764.7172627
     },
     {
-      "series": "https://jkanime.net/colorful-movie/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/colorful-movie/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714304.6804466
-    },
-    {
       "series": "https://jkanime.net/compass-20-sentou-setsuri-kaiseki-system/",
       "failedChapters": 1,
       "samples": [
@@ -120020,7 +120008,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793795128.4584763
+      "nextRetryAt": 1793824525.62263
     },
     {
       "series": "https://jkanime.net/concrete-revolutio-choujin-gensou/",
@@ -120089,18 +120077,6 @@
       "nextRetryAt": 1793788440.6214354
     },
     {
-      "series": "https://jkanime.net/corpse-party-missing-footage/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/corpse-party-missing-footage/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793714325.090794
-    },
-    {
       "series": "https://jkanime.net/cyber-city-oedo-808/",
       "failedChapters": 1,
       "samples": [
@@ -120134,6 +120110,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793803569.893827
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -138928,6 +138916,18 @@
       "nextRetryAt": 1793749998.9934447
     },
     {
+      "series": "https://jkanime.net/yuusha-no-kuzu/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yuusha-no-kuzu/20/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793803586.348762
+    },
+    {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
       "failedChapters": 1,
       "samples": [
@@ -139092,28 +139092,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793803569.893827
-    },
-    {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793803586.348762
+      "nextRetryAt": 1793804643.3040178
     }
   ]
 }

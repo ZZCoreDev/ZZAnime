@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T14:19:35.628870+00:00",
+  "checkedAt": "2026-11-04T14:37:15.174515+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73863,
   "storedChapters": 73042,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -23523,13 +23530,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/corpse-party-missing-footage/",
-        "title": "Corpse Party: Missing Footage",
-        "samples": [
-          "https://jkanime.net/corpse-party-missing-footage/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/naruto-shippuuden-movie-6-road-to-ninja/",
         "title": "Naruto: Shippuuden Movie 6 - Road to Ninja",
         "samples": [
@@ -25306,13 +25306,6 @@
         "samples": [
           "https://jkanime.net/durarara-specials/1/",
           "https://jkanime.net/durarara-specials/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/colorful-movie/",
-        "title": "Colorful (Movie)",
-        "samples": [
-          "https://jkanime.net/colorful-movie/1/"
         ]
       },
       {
@@ -63847,7 +63840,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -63856,7 +63850,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -72708,7 +72702,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -142261,7 +142255,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -152496,7 +152490,7 @@
         "https://jkanime.net/digimon-adventure-tri/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 1,
       "families": {
         "mega": 25,
@@ -180476,15 +180470,13 @@
     {
       "series": "https://jkanime.net/corpse-party-missing-footage/",
       "title": "Corpse Party: Missing Footage",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
       "stored": 0,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 1,
       "families": {},
       "playbackVerified": false
@@ -189805,15 +189797,13 @@
     {
       "series": "https://jkanime.net/colorful-movie/",
       "title": "Colorful (Movie)",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 1,
       "stored": 0,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 1,
       "families": {},
       "playbackVerified": false
