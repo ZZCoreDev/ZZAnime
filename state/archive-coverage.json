@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T21:25:10.630291+00:00",
+  "checkedAt": "2026-11-04T21:39:23.743087+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
-  "storedChapters": 73046,
+  "storedChapters": 73047,
   "missingChapters": 513,
   "expiredChapters": 57451,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 308,
-  "voeOnlyChapters": 48,
-  "extraOnlyChapters": 308,
+  "sideOnlyChapters": 307,
+  "voeOnlyChapters": 47,
+  "extraOnlyChapters": 307,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -12951,6 +12958,14 @@
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/zoku-owarimonogatari/",
+        "title": "Zoku Owarimonogatari",
+        "samples": [
+          "https://jkanime.net/zoku-owarimonogatari/1/",
+          "https://jkanime.net/zoku-owarimonogatari/2/"
         ]
       },
       {
@@ -64021,7 +64036,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64030,7 +64046,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -83187,7 +83203,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106928,7 +106944,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -129195,7 +129211,8 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
@@ -129209,7 +129226,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -230711,16 +230728,17 @@
       "title": "Juuou Mujin Dandivine",
       "causes": [],
       "observed": 5,
-      "stored": 4,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 3,
-        "vidhide": 2
+        "mp4upload": 5,
+        "streamwish": 4,
+        "vidhide": 3,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
