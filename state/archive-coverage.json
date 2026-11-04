@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-04T09:44:32.933455+00:00",
+  "checkedAt": "2026-11-04T10:02:25.220007+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73861,
   "storedChapters": 73042,
   "missingChapters": 514,
-  "expiredChapters": 57121,
+  "expiredChapters": 57122,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -34255,6 +34255,13 @@
         "samples": [
           "https://jkanime.net/gnosia/12/",
           "https://jkanime.net/gnosia/16/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/",
+        "title": "Tondemo Skill de Isekai Hourou Meshi 2",
+        "samples": [
+          "https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/1/"
         ]
       },
       {
@@ -69249,12 +69256,15 @@
       "series": "https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/",
       "title": "Tondemo Skill de Isekai Hourou Meshi 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tondemo-skill-de-isekai-hourou-meshi-2/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
