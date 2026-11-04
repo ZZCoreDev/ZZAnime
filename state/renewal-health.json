@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T20:43:11.214612+00:00",
+  "checkedAt": "2026-11-04T20:56:59.885359+00:00",
   "episodes": 73046,
-  "oldestHours": 224.15,
-  "pending": 72635,
+  "oldestHours": 224.38,
+  "pending": 72626,
   "expired": 57450,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1426,
+  "retryAfterExpiry": 1427,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1433.08,
-  "measuredWallClockPerHour": 307.86,
-  "estimatedSweepDays": 9.89,
+  "sampleMinutes": 1429.41,
+  "measuredWallClockPerHour": 308.64,
+  "estimatedSweepDays": 9.86,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-04T20:43:11.214612+00:00",
+    "checkedAt": "2026-11-04T20:56:59.885359+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,

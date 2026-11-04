@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T20:43:11.214612+00:00",
+  "checkedAt": "2026-11-04T20:56:59.885359+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73046,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -4344,6 +4336,14 @@
         "samples": [
           "https://jkanime.net/undead-unluck/1/",
           "https://jkanime.net/undead-unluck/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
+        "title": "Kanojo mo Kanojo 2nd Season",
+        "samples": [
+          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
+          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
         ]
       },
       {
@@ -63524,8 +63524,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63536,7 +63535,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -72578,7 +72577,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78841,7 +78840,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -88494,7 +88493,8 @@
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "title": "Kanojo mo Kanojo 2nd Season",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -88514,7 +88514,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106736,7 +106736,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -114377,7 +114377,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
