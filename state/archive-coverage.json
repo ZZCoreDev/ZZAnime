@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T19:32:00.051709+00:00",
+  "checkedAt": "2026-11-04T19:45:44.936959+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73867,
   "storedChapters": 73046,
@@ -17024,14 +17024,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
-        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
-        "samples": [
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/1/",
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
         "title": "Sailor Moon Crystal: Death Busters-hen",
         "samples": [
@@ -18444,14 +18436,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
-        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-        "samples": [
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
         "title": "Miss Monochrome: The Animation 2",
         "samples": [
@@ -18624,6 +18608,14 @@
         "samples": [
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/1/",
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
+        "title": "Saint Seiya: Soul of Gold",
+        "samples": [
+          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
+          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
         ]
       },
       {
@@ -72594,7 +72586,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72907,7 +72899,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -83195,7 +83187,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88531,7 +88523,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120076,7 +120068,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -142478,7 +142470,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -149604,8 +149596,7 @@
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -149626,7 +149617,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156617,8 +156608,7 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156638,7 +156628,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157453,7 +157443,8 @@
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -157474,7 +157465,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,

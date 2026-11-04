@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T19:32:00.051709+00:00",
+  "checkedAt": "2026-11-04T19:45:44.936959+00:00",
   "episodes": 73046,
-  "oldestHours": 222.97,
-  "pending": 72720,
+  "oldestHours": 223.2,
+  "pending": 72699,
   "expired": 57449,
   "expiresWithin24Hours": 57493,
-  "retryAfterExpiry": 1445,
+  "retryAfterExpiry": 1440,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1436.32,
-  "measuredWallClockPerHour": 301.31,
-  "estimatedSweepDays": 10.1,
+  "sampleMinutes": 1431.41,
+  "measuredWallClockPerHour": 302.35,
+  "estimatedSweepDays": 10.07,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 19,
+      "pendingFailures": 18,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4095,
+    "series": 4094,
     "diagnosedSeries": 4047,
-    "pendingSeries": 48
+    "pendingSeries": 47
   },
   "coverage": {
-    "checkedAt": "2026-11-04T19:32:00.051709+00:00",
+    "checkedAt": "2026-11-04T19:45:44.936959+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73867,
     "storedChapters": 73046,
