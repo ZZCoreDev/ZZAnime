@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T03:18:16.717017+00:00",
+  "checkedAt": "2026-11-04T03:36:03.770803+00:00",
   "episodes": 73042,
-  "oldestHours": 206.74,
-  "pending": 72067,
+  "oldestHours": 207.03,
+  "pending": 72070,
   "expired": 57127,
   "expiresWithin24Hours": 57498,
-  "retryAfterExpiry": 1469,
+  "retryAfterExpiry": 1474,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1438.65,
-  "measuredWallClockPerHour": 255.49,
-  "estimatedSweepDays": 11.91,
+  "sampleMinutes": 1439.04,
+  "measuredWallClockPerHour": 259.59,
+  "estimatedSweepDays": 11.72,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 22,
+      "pendingFailures": 23,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 54
   },
   "coverage": {
-    "checkedAt": "2026-11-04T03:18:16.717017+00:00",
+    "checkedAt": "2026-11-04T03:36:03.770803+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73861,
     "storedChapters": 73042,
