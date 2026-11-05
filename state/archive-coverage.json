@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T23:29:09.296161+00:00",
+  "checkedAt": "2026-11-05T23:47:09.846431+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57482,
+  "expiredChapters": 57483,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -64064,7 +64064,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78812,7 +78812,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83150,7 +83150,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 13,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106913,7 +106913,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114379,7 +114379,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -165121,6 +165121,7 @@
         "https://jkanime.net/puri-para/33/",
         "https://jkanime.net/puri-para/34/",
         "https://jkanime.net/puri-para/35/",
+        "https://jkanime.net/puri-para/36/",
         "https://jkanime.net/puri-para/37/",
         "https://jkanime.net/puri-para/38/",
         "https://jkanime.net/puri-para/39/",

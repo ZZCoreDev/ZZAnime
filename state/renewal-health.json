@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T23:29:09.296161+00:00",
+  "checkedAt": "2026-11-05T23:47:09.846431+00:00",
   "episodes": 73057,
-  "oldestHours": 250.92,
-  "pending": 71627,
-  "expired": 57482,
-  "expiresWithin24Hours": 59645,
-  "retryAfterExpiry": 1534,
-  "successfulCyclesMeasured": 60,
-  "sampleMinutes": 1410.02,
-  "measuredWallClockPerHour": 250.21,
-  "estimatedSweepDays": 12.17,
+  "oldestHours": 251.22,
+  "pending": 71626,
+  "expired": 57483,
+  "expiresWithin24Hours": 59727,
+  "retryAfterExpiry": 1533,
+  "successfulCyclesMeasured": 61,
+  "sampleMinutes": 1428.03,
+  "measuredWallClockPerHour": 251.26,
+  "estimatedSweepDays": 12.12,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 12,
+      "pendingFailures": 13,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,12 +881,12 @@
     "pendingSeries": 46
   },
   "coverage": {
-    "checkedAt": "2026-11-05T23:29:09.296161+00:00",
+    "checkedAt": "2026-11-05T23:47:09.846431+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
     "missingChapters": 511,
-    "expiredChapters": 57482,
+    "expiredChapters": 57483,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,
