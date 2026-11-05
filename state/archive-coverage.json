@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T13:20:20.983335+00:00",
+  "checkedAt": "2026-11-05T13:36:34.674640+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73869,
   "storedChapters": 73050,
@@ -1233,6 +1233,13 @@
         "samples": [
           "https://jkanime.net/ginga-tokkyuu-milkysubway/1/",
           "https://jkanime.net/ginga-tokkyuu-milkysubway/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
+        "title": "Jigoku Sensei Nube (2025)",
+        "samples": [
+          "https://jkanime.net/jigoku-sensei-nube-2025/20/"
         ]
       },
       {
@@ -72794,13 +72801,15 @@
     {
       "series": "https://jkanime.net/jigoku-sensei-nube-2025/",
       "title": "Jigoku Sensei Nube (2025)",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 25,
@@ -96369,7 +96378,7 @@
         "https://jkanime.net/high-card/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 10,
+      "renewalFailed": 11,
       "sideOnly": 1,
       "families": {
         "mega": 8,
@@ -130099,7 +130108,7 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-ougon-no-kaze/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 25,
       "sideOnly": 0,
       "families": {
         "mega": 39,
@@ -130266,7 +130275,7 @@
         "https://jkanime.net/kaze-ga-tsuyoku-fuiteiru/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 20,
       "sideOnly": 0,
       "families": {
         "mega": 23,
