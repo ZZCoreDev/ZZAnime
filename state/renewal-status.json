@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T16:58:14.508353+00:00",
+  "checkedAt": "2026-11-05T17:15:35.123740+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 164,
-  "repairAttempts": 16,
+  "attempted": 178,
+  "repairAttempts": 19,
   "earlyRepairAttempts": 0,
-  "failed": 56529,
+  "failed": 56524,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42069481352",
+  "runId": "42072405164",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57479,
-  "extraRenewed": 61,
-  "voeRenewed": 5,
+  "extraRenewed": 73,
+  "voeRenewed": 7,
   "published": true,
-  "expiresWithin24Hours": 58149,
-  "retryAfterExpiry": 1524,
+  "expiresWithin24Hours": 58184,
+  "retryAfterExpiry": 1519,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -292,7 +292,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -369,7 +369,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -495,7 +495,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -649,7 +649,7 @@
       "title": "Mushishi Zoku Shou 2nd Season",
       "total": 10,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/nekopara/": {
@@ -885,12 +885,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4090,
+    "series": 4087,
     "diagnosedSeries": 4044,
-    "pendingSeries": 46
+    "pendingSeries": 43
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T17:12:41.864207+00:00",
+    "checkedAt": "2026-11-05T17:30:36.435850+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73872,
     "storedChapters": 73053,

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T17:12:41.864207+00:00",
+  "checkedAt": "2026-11-05T17:30:36.435850+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73872,
   "storedChapters": 73053,
@@ -8158,14 +8158,6 @@
         "samples": [
           "https://jkanime.net/taishou-otome-otogibanashi/1/",
           "https://jkanime.net/taishou-otome-otogibanashi/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-        "title": "Komi-san wa, Comyushou desu.",
-        "samples": [
-          "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
-          "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
         ]
       },
       {
@@ -18755,14 +18747,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
-        "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
-        "samples": [
-          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/1/",
-          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/high-school-dxd-born/",
         "title": "High School DxD BorN",
         "samples": [
@@ -19461,14 +19445,6 @@
         "title": "Go! Go! 575: Meippai ni, Hajiketeru?",
         "samples": [
           "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
-        "title": "Mushishi Zoku Shou 2nd Season",
-        "samples": [
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/"
         ]
       },
       {
@@ -64064,7 +64040,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106890,8 +106866,7 @@
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
       "title": "Komi-san wa, Comyushou desu.",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -106911,7 +106886,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114377,7 +114352,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -158405,8 +158380,7 @@
       "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -158427,7 +158401,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -161543,8 +161517,7 @@
       "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
       "title": "Mushishi Zoku Shou 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -161562,7 +161535,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 10,
