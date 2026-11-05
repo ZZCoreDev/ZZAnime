@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-05T16:55:22.977583+00:00",
+  "checkedAt": "2026-11-05T17:12:41.864207+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73872,
-  "storedChapters": 73052,
-  "missingChapters": 512,
+  "storedChapters": 73053,
+  "missingChapters": 511,
   "expiredChapters": 57479,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
@@ -1202,14 +1202,6 @@
         "samples": [
           "https://jkanime.net/mizu-zokusei-no-mahoutsukai/1/",
           "https://jkanime.net/mizu-zokusei-no-mahoutsukai/6/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-        "title": "Tsuihousha Shokudou e Youkoso!",
-        "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
         ]
       },
       {
@@ -32990,13 +32982,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/carnival-phantasm-hibichika/",
-        "title": "Carnival Phantasm: HibiChika Special",
-        "samples": [
-          "https://jkanime.net/carnival-phantasm-hibichika/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/da-capo-iii-episode-0/",
         "title": "Da Capo III Episode 0",
         "samples": [
@@ -62874,13 +62859,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/carnival-phantasm-hibichika/",
-        "title": "Carnival Phantasm: HibiChika Special",
-        "samples": [
-          "https://jkanime.net/carnival-phantasm-hibichika/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/da-capo-iii-episode-0/",
         "title": "Da Capo III Episode 0",
         "samples": [
@@ -72551,8 +72529,7 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -72572,7 +72549,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83171,7 +83148,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88507,7 +88484,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106752,7 +106729,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106934,7 +106911,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114400,7 +114377,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -158450,7 +158427,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -176729,20 +176706,18 @@
       "series": "https://jkanime.net/carnival-phantasm-hibichika/",
       "title": "Carnival Phantasm: HibiChika Special",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/carnival-phantasm-hibichika/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
-      "families": {},
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
