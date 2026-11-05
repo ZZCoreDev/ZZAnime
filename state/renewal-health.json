@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T20:38:48.068053+00:00",
+  "checkedAt": "2026-11-05T20:55:25.782598+00:00",
   "episodes": 73055,
-  "oldestHours": 248.08,
+  "oldestHours": 248.36,
   "pending": 71647,
   "expired": 57481,
-  "expiresWithin24Hours": 58792,
-  "retryAfterExpiry": 1540,
+  "expiresWithin24Hours": 58798,
+  "retryAfterExpiry": 1532,
   "successfulCyclesMeasured": 56,
-  "sampleMinutes": 1434.73,
-  "measuredWallClockPerHour": 229.84,
-  "estimatedSweepDays": 13.24,
+  "sampleMinutes": 1437.45,
+  "measuredWallClockPerHour": 229.41,
+  "estimatedSweepDays": 13.27,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -731,14 +731,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -773,7 +773,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4093,
+    "series": 4091,
     "diagnosedSeries": 4044,
-    "pendingSeries": 49
+    "pendingSeries": 47
   },
   "coverage": {
-    "checkedAt": "2026-11-05T20:38:48.068053+00:00",
+    "checkedAt": "2026-11-05T20:55:25.782598+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73055,
