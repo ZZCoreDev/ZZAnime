@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T15:19:04.846873+00:00",
+  "checkedAt": "2026-11-05T15:35:09.292037+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 224,
-  "repairAttempts": 31,
+  "attempted": 228,
+  "repairAttempts": 32,
   "earlyRepairAttempts": 0,
-  "failed": 56542,
+  "failed": 56544,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42053293875",
+  "runId": "42056036808",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57479,
-  "extraRenewed": 114,
-  "voeRenewed": 9,
+  "extraRenewed": 106,
+  "voeRenewed": 11,
   "published": true,
-  "expiresWithin24Hours": 57855,
-  "retryAfterExpiry": 1537,
+  "expiresWithin24Hours": 57879,
+  "retryAfterExpiry": 1539,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -138,7 +138,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 17,
+      "pendingFailures": 16,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -292,7 +292,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -327,7 +327,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -481,7 +481,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -579,7 +579,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -593,7 +593,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -649,14 +649,14 @@
       "title": "Mushishi Zoku Shou 2nd Season",
       "total": 10,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/nekopara/": {
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -684,7 +684,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -740,14 +740,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -782,7 +782,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -885,12 +885,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4095,
     "diagnosedSeries": 4044,
-    "pendingSeries": 52
+    "pendingSeries": 51
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T15:32:19.807951+00:00",
+    "checkedAt": "2026-11-05T15:48:44.973112+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73869,
     "storedChapters": 73050,
