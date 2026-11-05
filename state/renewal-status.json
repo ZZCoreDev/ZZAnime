@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T16:25:08.654868+00:00",
+  "checkedAt": "2026-11-05T16:42:14.300396+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 114,
-  "repairAttempts": 3,
+  "attempted": 244,
+  "repairAttempts": 36,
   "earlyRepairAttempts": 0,
-  "failed": 56542,
+  "failed": 56536,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42063445718",
+  "runId": "42066427601",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57479,
-  "extraRenewed": 14,
-  "voeRenewed": 1,
+  "extraRenewed": 126,
+  "voeRenewed": 34,
   "published": true,
-  "expiresWithin24Hours": 58103,
-  "retryAfterExpiry": 1537,
+  "expiresWithin24Hours": 58139,
+  "retryAfterExpiry": 1531,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -292,7 +292,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -495,7 +495,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -593,7 +593,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -649,14 +649,14 @@
       "title": "Mushishi Zoku Shou 2nd Season",
       "total": 10,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/nekopara/": {
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -698,7 +698,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -747,7 +747,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -782,7 +782,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -885,16 +885,16 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4093,
+    "series": 4091,
     "diagnosedSeries": 4044,
-    "pendingSeries": 49
+    "pendingSeries": 47
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T16:37:41.148706+00:00",
+    "checkedAt": "2026-11-05T16:55:22.977583+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73872,
-    "storedChapters": 73051,
-    "missingChapters": 513,
+    "storedChapters": 73052,
+    "missingChapters": 512,
     "expiredChapters": 57479,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,

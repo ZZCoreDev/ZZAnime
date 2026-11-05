@@ -1,6 +1,6 @@
 {
   "renewal-error": {
-    "series": 4093,
+    "series": 4091,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -22,7 +22,7 @@
     ]
   },
   "observed-chapters-without-options": {
-    "series": 206,
+    "series": 205,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -65,7 +65,7 @@
     ]
   },
   "retained-redirect": {
-    "series": 129,
+    "series": 128,
     "twoSeriesProofRequired": true,
     "samples": [
       {
