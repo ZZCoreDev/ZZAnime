@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T09:10:05.065717+00:00",
+  "checkedAt": "2026-11-05T09:23:28.476804+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -8111,14 +8111,6 @@
         "samples": [
           "https://jkanime.net/shikizakura/1/",
           "https://jkanime.net/shikizakura/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-        "samples": [
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
         ]
       },
       {
@@ -18395,6 +18387,14 @@
         "samples": [
           "https://jkanime.net/gate/1/",
           "https://jkanime.net/gate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+        "samples": [
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
         ]
       },
       {
@@ -74434,7 +74434,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -83200,7 +83200,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 12,
+      "renewalFailed": 11,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106764,8 +106764,7 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 7,
       "stored": 7,
@@ -106780,7 +106779,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -142515,7 +142514,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -149663,7 +149662,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156241,7 +156240,7 @@
         "https://jkanime.net/gatchamancrowds-insight/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156659,7 +156658,8 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156679,7 +156679,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157516,7 +157516,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -161629,7 +161629,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -165766,7 +165766,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
