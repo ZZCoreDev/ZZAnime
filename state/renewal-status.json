@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T06:35:54.142158+00:00",
+  "checkedAt": "2026-11-05T06:49:57.867849+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 350,
-  "repairAttempts": 62,
+  "attempted": 358,
+  "repairAttempts": 64,
   "earlyRepairAttempts": 0,
-  "failed": 56572,
+  "failed": 56582,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
-  "trigger": "schedule",
-  "runId": "41981399167",
+  "trigger": "workflow_dispatch",
+  "runId": "41982981070",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57489,
-  "extraRenewed": 218,
+  "extraRenewed": 211,
   "voeRenewed": 1,
   "published": true,
   "expiresWithin24Hours": 57535,
-  "retryAfterExpiry": 1452,
+  "retryAfterExpiry": 1462,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -264,7 +264,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -341,7 +341,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -369,7 +369,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 1,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -404,7 +404,7 @@
       "title": "[Locodol]",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/fuuun-ishin-daishogun/": {
@@ -425,7 +425,7 @@
       "title": "Gatchaman Crowds Insight",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/gate/": {
@@ -481,7 +481,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -495,7 +495,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -635,7 +635,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -698,7 +698,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -740,7 +740,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -775,7 +775,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -885,12 +885,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4099,
+    "series": 4102,
     "diagnosedSeries": 4047,
-    "pendingSeries": 52
+    "pendingSeries": 55
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T06:49:00.845302+00:00",
+    "checkedAt": "2026-11-05T07:03:09.324634+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,
