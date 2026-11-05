@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T22:03:36.792274+00:00",
+  "checkedAt": "2026-11-05T22:19:37.473065+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57481,
+  "expiredChapters": 57482,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -2402,14 +2402,6 @@
         "samples": [
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/10/",
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-        "title": "Kabushikigaisha Magi-Lumière",
-        "samples": [
-          "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-          "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
         ]
       },
       {
@@ -12439,14 +12431,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
-        "title": "Otona no Bouguya-san (Rimen)",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-rimen/1/",
-          "https://jkanime.net/otona-no-bouguya-san-rimen/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/code-geass-fukkatsu-no-lelouch/",
         "title": "Code Geass: Fukkatsu no Lelouch",
         "samples": [
@@ -12937,14 +12921,6 @@
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zoku-owarimonogatari/",
-        "title": "Zoku Owarimonogatari",
-        "samples": [
-          "https://jkanime.net/zoku-owarimonogatari/1/",
-          "https://jkanime.net/zoku-owarimonogatari/2/"
         ]
       },
       {
@@ -15514,14 +15490,6 @@
         "samples": [
           "https://jkanime.net/bang-dream/1/",
           "https://jkanime.net/bang-dream/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-        "title": "Granblue Fantasy The Animation",
-        "samples": [
-          "https://jkanime.net/granblue-fantasy-the-animation/1/",
-          "https://jkanime.net/granblue-fantasy-the-animation/10/"
         ]
       },
       {
@@ -72567,7 +72535,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78807,8 +78775,7 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "title": "Kabushikigaisha Magi-Lumière",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -78828,7 +78795,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78995,7 +78962,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -106929,7 +106896,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120079,7 +120046,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -126705,8 +126672,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
       "title": "Otona no Bouguya-san (Rimen)",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 3,
       "stored": 3,
@@ -126717,7 +126683,7 @@
         "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 3,
@@ -129209,8 +129175,7 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 6,
       "stored": 6,
@@ -129224,7 +129189,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -142453,8 +142418,7 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -142475,7 +142439,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -159391,6 +159355,7 @@
       "expired": [
         "https://jkanime.net/go-princess-precure/1/",
         "https://jkanime.net/go-princess-precure/13/",
+        "https://jkanime.net/go-princess-precure/15/",
         "https://jkanime.net/go-princess-precure/2/",
         "https://jkanime.net/go-princess-precure/47/"
       ],
