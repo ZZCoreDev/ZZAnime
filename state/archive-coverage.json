@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T13:52:32.017300+00:00",
+  "checkedAt": "2026-11-05T14:08:34.936979+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73869,
   "storedChapters": 73050,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -543,13 +535,6 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yuusha-no-kuzu/",
-        "title": "Yuusha no Kuzu",
-        "samples": [
-          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -1803,6 +1788,14 @@
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/farmagia/",
+        "title": "Farmagia",
+        "samples": [
+          "https://jkanime.net/farmagia/2/",
+          "https://jkanime.net/farmagia/4/"
         ]
       },
       {
@@ -12958,14 +12951,6 @@
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zoku-owarimonogatari/",
-        "title": "Zoku Owarimonogatari",
-        "samples": [
-          "https://jkanime.net/zoku-owarimonogatari/1/",
-          "https://jkanime.net/zoku-owarimonogatari/2/"
         ]
       },
       {
@@ -63636,8 +63621,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63648,7 +63632,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -67662,8 +67646,7 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -67672,7 +67655,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -72690,7 +72673,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -75854,7 +75837,8 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -75864,7 +75848,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -88627,7 +88611,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106872,7 +106856,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -114520,7 +114504,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120204,7 +120188,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -129333,8 +129317,7 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 6,
       "stored": 6,
@@ -129348,7 +129331,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -142599,7 +142582,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -146016,7 +145999,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,

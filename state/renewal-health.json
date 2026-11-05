@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T13:52:32.017300+00:00",
+  "checkedAt": "2026-11-05T14:08:34.936979+00:00",
   "episodes": 73050,
-  "oldestHours": 241.31,
-  "pending": 71655,
+  "oldestHours": 241.58,
+  "pending": 71661,
   "expired": 57479,
-  "expiresWithin24Hours": 57626,
-  "retryAfterExpiry": 1588,
+  "expiresWithin24Hours": 57657,
+  "retryAfterExpiry": 1582,
   "successfulCyclesMeasured": 57,
-  "sampleMinutes": 1426.37,
-  "measuredWallClockPerHour": 233.92,
-  "estimatedSweepDays": 13.01,
+  "sampleMinutes": 1423.99,
+  "measuredWallClockPerHour": 234.31,
+  "estimatedSweepDays": 12.99,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4104,
+    "series": 4102,
     "diagnosedSeries": 4044,
-    "pendingSeries": 60
+    "pendingSeries": 58
   },
   "coverage": {
-    "checkedAt": "2026-11-05T13:52:32.017300+00:00",
+    "checkedAt": "2026-11-05T14:08:34.936979+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73869,
     "storedChapters": 73050,
