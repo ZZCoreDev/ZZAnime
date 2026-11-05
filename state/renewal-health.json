@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T14:08:34.936979+00:00",
+  "checkedAt": "2026-11-05T14:24:53.022845+00:00",
   "episodes": 73050,
-  "oldestHours": 241.58,
-  "pending": 71661,
+  "oldestHours": 241.85,
+  "pending": 71681,
   "expired": 57479,
-  "expiresWithin24Hours": 57657,
-  "retryAfterExpiry": 1582,
+  "expiresWithin24Hours": 57659,
+  "retryAfterExpiry": 1575,
   "successfulCyclesMeasured": 57,
-  "sampleMinutes": 1423.99,
-  "measuredWallClockPerHour": 234.31,
-  "estimatedSweepDays": 12.99,
+  "sampleMinutes": 1422.2,
+  "measuredWallClockPerHour": 234.61,
+  "estimatedSweepDays": 12.97,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -416,14 +416,14 @@
       "title": "Gatchaman Crowds Insight",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/gate/": {
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/h2o/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -731,14 +731,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -773,7 +773,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4102,
+    "series": 4101,
     "diagnosedSeries": 4044,
-    "pendingSeries": 58
+    "pendingSeries": 57
   },
   "coverage": {
-    "checkedAt": "2026-11-05T14:08:34.936979+00:00",
+    "checkedAt": "2026-11-05T14:24:53.022845+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73869,
     "storedChapters": 73050,
