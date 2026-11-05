@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T19:00:49.441408+00:00",
+  "checkedAt": "2026-11-05T19:16:41.685282+00:00",
   "episodes": 73053,
-  "oldestHours": 246.45,
-  "pending": 71670,
+  "oldestHours": 246.71,
+  "pending": 71663,
   "expired": 57481,
-  "expiresWithin24Hours": 58431,
-  "retryAfterExpiry": 1510,
+  "expiresWithin24Hours": 58519,
+  "retryAfterExpiry": 1520,
   "successfulCyclesMeasured": 57,
-  "sampleMinutes": 1434.99,
-  "measuredWallClockPerHour": 234.06,
-  "estimatedSweepDays": 13.0,
+  "sampleMinutes": 1437.55,
+  "measuredWallClockPerHour": 233.65,
+  "estimatedSweepDays": 13.03,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4084,
+    "series": 4088,
     "diagnosedSeries": 4044,
-    "pendingSeries": 40
+    "pendingSeries": 44
   },
   "coverage": {
-    "checkedAt": "2026-11-05T19:00:49.441408+00:00",
+    "checkedAt": "2026-11-05T19:16:41.685282+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73053,
