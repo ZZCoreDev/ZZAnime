@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T22:19:37.473065+00:00",
+  "checkedAt": "2026-11-05T22:35:14.620727+00:00",
   "episodes": 73057,
-  "oldestHours": 249.76,
-  "pending": 71683,
+  "oldestHours": 250.02,
+  "pending": 71672,
   "expired": 57482,
-  "expiresWithin24Hours": 59087,
-  "retryAfterExpiry": 1523,
-  "successfulCyclesMeasured": 56,
-  "sampleMinutes": 1340.49,
-  "measuredWallClockPerHour": 245.28,
-  "estimatedSweepDays": 12.41,
+  "expiresWithin24Hours": 59112,
+  "retryAfterExpiry": 1526,
+  "successfulCyclesMeasured": 57,
+  "sampleMinutes": 1356.11,
+  "measuredWallClockPerHour": 246.88,
+  "estimatedSweepDays": 12.33,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -731,7 +731,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4088,
+    "series": 4089,
     "diagnosedSeries": 4044,
-    "pendingSeries": 44
+    "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-05T22:19:37.473065+00:00",
+    "checkedAt": "2026-11-05T22:35:14.620727+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
