@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T21:47:18.201323+00:00",
+  "checkedAt": "2026-11-05T22:03:36.792274+00:00",
   "failedChapters": 56534,
   "series": 4092,
   "diagnosedSeries": 4044,
@@ -23,10 +23,10 @@
   },
   "knownFinalReasons": {
     "Source HTTP 404": 16617,
-    "ValueError: VOE provider scope": 127,
+    "ValueError: VOE provider scope": 133,
     "No existing approved provider": 35743,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 270,
+    "ValueError: No approved observations; previous channel retained": 264,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -7175,27 +7175,27 @@
         "https://jkanime.net/wei-miao-rensheng/1/",
         "https://jkanime.net/wei-miao-rensheng/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/wei-miao-rensheng/26/",
+      "diagnosedSample": "https://jkanime.net/wei-miao-rensheng/27/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793913871597,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793916073883
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
@@ -7685,27 +7685,27 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/1/",
         "https://jkanime.net/bleach-sennen-kessen-hen/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/bleach-sennen-kessen-hen/17/",
+      "diagnosedSample": "https://jkanime.net/bleach-sennen-kessen-hen/18/",
       "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793913810766,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793916065218
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
         }
       },
       "sampleOnly": true,
@@ -18827,27 +18827,27 @@
         "https://jkanime.net/lupin-iii-2015/1/",
         "https://jkanime.net/lupin-iii-2015/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/lupin-iii-2015/25/",
+      "diagnosedSample": "https://jkanime.net/lupin-iii-2015/26/",
       "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793913871597,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793916112194
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
         }
       },
       "sampleOnly": true,
@@ -23361,7 +23361,7 @@
         "https://jkanime.net/ansatsu-kyoushitsu/10/",
         "https://jkanime.net/ansatsu-kyoushitsu/11/"
       ],
-      "diagnosedSample": "https://jkanime.net/ansatsu-kyoushitsu/14/",
+      "diagnosedSample": "https://jkanime.net/ansatsu-kyoushitsu/15/",
       "sources": {
         "flv": {
           "cause": "no-approved-provider",
@@ -23373,7 +23373,7 @@
           "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793680275728,
+          "retryAt": 1793681160735,
           "stage": "listing",
           "status": 403
         },
@@ -27099,19 +27099,6 @@
       "nextRetryAt": 1793212491.5300503
     },
     {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 15,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/12/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733633.289727
-    },
-    {
       "series": "https://jkanime.net/anhe-zhuan-part-2/",
       "failedChapters": 14,
       "samples": [
@@ -27224,7 +27211,7 @@
         "https://jkanime.net/fight-league-gear-gadget-generators/1/",
         "https://jkanime.net/fight-league-gear-gadget-generators/12/"
       ],
-      "diagnosedSample": "https://jkanime.net/fight-league-gear-gadget-generators/13/",
+      "diagnosedSample": "https://jkanime.net/fight-league-gear-gadget-generators/14/",
       "sources": {
         "flv": {
           "cause": "no-approved-provider",
@@ -27236,7 +27223,7 @@
           "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793670012290,
+          "retryAt": 1793671046941,
           "stage": "listing",
           "status": 403
         },
@@ -27736,6 +27723,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793195585.9301126
+    },
+    {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 14,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/12/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733633.289727
     },
     {
       "series": "https://jkanime.net/16bit-sensation-another-layer/",
@@ -83876,27 +83876,27 @@
         "https://jkanime.net/id-0/1/",
         "https://jkanime.net/id-0/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/id-0/11/",
+      "diagnosedSample": "https://jkanime.net/id-0/12/",
       "sources": {
-        "flv": {
-          "cause": "no-approved-provider",
-          "message": "No existing approved provider",
-          "stage": "parse",
-          "status": null
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793913871597,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793916093466
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "parse",
+          "status": null,
+          "cause": "no-approved-provider",
+          "message": "No existing approved provider"
         }
       },
       "sampleOnly": true,
@@ -107566,7 +107566,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793913958.3558028
+      "nextRetryAt": 1793914873.8717132
     },
     {
       "series": "https://jkanime.net/free-specials/",
@@ -109115,19 +109115,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793456434.9755497
-    },
-    {
-      "series": "https://jkanime.net/nekopara/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/nekopara/12/",
-        "https://jkanime.net/nekopara/3/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793914860.2313292
     },
     {
       "series": "https://jkanime.net/new-game/",
@@ -111129,6 +111116,32 @@
       "nextRetryAt": 1793200314.4127312
     },
     {
+      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/komi-san-wa-comyushou-desu/3/",
+        "https://jkanime.net/komi-san-wa-comyushou-desu/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793917693.4855826
+    },
+    {
+      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-ii/4/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/7/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793917827.0791135
+    },
+    {
       "series": "https://jkanime.net/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka/",
       "failedChapters": 2,
       "samples": [
@@ -112332,7 +112345,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793914993.0129094
+      "nextRetryAt": 1793919142.3692577
     },
     {
       "series": "https://jkanime.net/da-capo-if/",
@@ -113680,19 +113693,6 @@
       "nextRetryAt": 1793293492.7688267
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793907666.2398787
-    },
-    {
       "series": "https://jkanime.net/kagewani/",
       "failedChapters": 2,
       "samples": [
@@ -114367,6 +114367,19 @@
       "nextRetryAt": 1793261413.1743364
     },
     {
+      "series": "https://jkanime.net/nekopara/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/nekopara/3/",
+        "https://jkanime.net/nekopara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793915683.513199
+    },
+    {
       "series": "https://jkanime.net/nihon-e-youkoso-elf-san/",
       "failedChapters": 2,
       "samples": [
@@ -114633,19 +114646,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793373524.9449258
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-rimen/1/",
-        "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793914866.2086635
     },
     {
       "series": "https://jkanime.net/papa-datte-shitai/",
@@ -115898,14 +115898,14 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/5/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793907616.3316488
+      "nextRetryAt": 1793911570.1633887
     },
     {
       "series": "https://jkanime.net/ulysses-jehanne-darc-to-renkin-no-kishi/",
@@ -122859,7 +122859,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793915125.7091098
+      "nextRetryAt": 1793937638.8457117
     },
     {
       "series": "https://jkanime.net/fushigi-no-kuni-de-alice-to-dive-in-wonderland/",
@@ -126410,6 +126410,18 @@
       "nextRetryAt": 1794166179.2482994
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793911592.1635227
+    },
+    {
       "series": "https://jkanime.net/kagami-no-kojou/",
       "failedChapters": 1,
       "samples": [
@@ -127377,18 +127389,6 @@
       "nextRetryAt": 1793317860.4329665
     },
     {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793913745.3280048
-    },
-    {
       "series": "https://jkanime.net/kimi-ga-shinu-made-koi-wo-shitai/",
       "failedChapters": 1,
       "samples": [
@@ -127542,7 +127542,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793915004.2495873
+      "nextRetryAt": 1793937627.0791245
     },
     {
       "series": "https://jkanime.net/kino-no-tabi-the-beautiful-world-nanika-wo-suru-tame-ni-life-goes-on/",
@@ -127840,18 +127840,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793993347.0375178
-    },
-    {
-      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/komi-san-wa-comyushou-desu/8/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793914819.7211833
     },
     {
       "series": "https://jkanime.net/konjiki-no-gash-bell-101-banme-no-mamono/",
@@ -131208,7 +131196,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793914195.3481877
+      "nextRetryAt": 1793937481.92751
     },
     {
       "series": "https://jkanime.net/nodame-cantabile-finale-special/",
@@ -132225,16 +132213,16 @@
       "nextRetryAt": 1793931392.1635349
     },
     {
-      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+      "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/8/"
+        "https://jkanime.net/otona-no-bouguya-san-rimen/1/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793910858.4803128
+      "nextRetryAt": 1793915775.254321
     },
     {
       "series": "https://jkanime.net/owari-no-seraph-the-beginning-of-the-end/",
@@ -134262,7 +134250,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793914183.1688457
+      "nextRetryAt": 1793937471.1458752
     },
     {
       "series": "https://jkanime.net/seishun-buta-yarou-wa-odekake-sister-no-yume-wo-minai/",
@@ -136795,7 +136783,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793914207.2773817
+      "nextRetryAt": 1793937493.4855928
     },
     {
       "series": "https://jkanime.net/totsukuni-no-shoujo-2022/",
@@ -138967,6 +138955,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/3/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793917681.9275007
     }
   ]
 }
