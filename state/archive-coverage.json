@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T02:16:53.595718+00:00",
+  "checkedAt": "2026-11-05T06:49:00.845302+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
   "missingChapters": 513,
-  "expiredChapters": 57477,
+  "expiredChapters": 57489,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -287,6 +295,13 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-shizuku/",
+        "title": "Kami no Shizuku",
+        "samples": [
+          "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
       {
@@ -8145,6 +8160,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -9810,6 +9833,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+        "title": "Otona no Bouguya-san II",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
         "title": "Seitokai Yakuindomo Movie 2",
         "samples": [
@@ -10474,8 +10505,8 @@
         "series": "https://jkanime.net/baki-2nd-season/",
         "title": "Baki 2nd Season",
         "samples": [
-          "https://jkanime.net/baki-2nd-season/11/",
-          "https://jkanime.net/baki-2nd-season/13/"
+          "https://jkanime.net/baki-2nd-season/1/",
+          "https://jkanime.net/baki-2nd-season/11/"
         ]
       },
       {
@@ -11011,6 +11042,14 @@
         "samples": [
           "https://jkanime.net/haikyuu-riku-vs-kuu/1/",
           "https://jkanime.net/haikyuu-riku-vs-kuu/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nekopara/",
+        "title": "Nekopara",
+        "samples": [
+          "https://jkanime.net/nekopara/1/",
+          "https://jkanime.net/nekopara/10/"
         ]
       },
       {
@@ -16182,6 +16221,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/aooni-the-blue-monster/",
+        "title": "Ao Oni The Animation",
+        "samples": [
+          "https://jkanime.net/aooni-the-blue-monster/1/",
+          "https://jkanime.net/aooni-the-blue-monster/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/idol-memories/",
         "title": "Idol Memories",
         "samples": [
@@ -18357,6 +18404,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gatchamancrowds-insight/",
+        "title": "Gatchaman Crowds Insight",
+        "samples": [
+          "https://jkanime.net/gatchamancrowds-insight/1/",
+          "https://jkanime.net/gatchamancrowds-insight/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-super/",
         "title": "Dragon Ball Super",
         "samples": [
@@ -18402,6 +18457,22 @@
         "samples": [
           "https://jkanime.net/aquarion-logos/1/",
           "https://jkanime.net/aquarion-logos/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gate/",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "samples": [
+          "https://jkanime.net/gate/1/",
+          "https://jkanime.net/gate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+        "samples": [
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
         ]
       },
       {
@@ -19460,14 +19531,6 @@
         "title": "Go! Go! 575: Meippai ni, Hajiketeru?",
         "samples": [
           "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
-        "title": "Mushishi Zoku Shou 2nd Season",
-        "samples": [
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
-          "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/"
         ]
       },
       {
@@ -43141,8 +43204,8 @@
         "series": "https://jkanime.net/baki-2nd-season/",
         "title": "Baki 2nd Season",
         "samples": [
-          "https://jkanime.net/baki-2nd-season/11/",
-          "https://jkanime.net/baki-2nd-season/13/"
+          "https://jkanime.net/baki-2nd-season/1/",
+          "https://jkanime.net/baki-2nd-season/11/"
         ]
       },
       {
@@ -49782,6 +49845,13 @@
         "samples": [
           "https://jkanime.net/subete-ga-f-ni-naru-the-perfect-insider/1/",
           "https://jkanime.net/subete-ga-f-ni-naru-the-perfect-insider/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fushigi-na-somera-chan/",
+        "title": "Fushigi na Somera-chan",
+        "samples": [
+          "https://jkanime.net/fushigi-na-somera-chan/8/"
         ]
       },
       {
@@ -61984,6 +62054,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/",
+        "title": "Chitose-kun wa Ramune Bin no Naka Part 2",
+        "samples": [
+          "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/3/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen-2nd-season-part-2/",
         "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
         "samples": [
@@ -63520,7 +63597,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -63531,7 +63609,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -65624,7 +65702,8 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -65633,7 +65712,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -72571,7 +72650,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72884,7 +72963,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -83172,7 +83251,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 16,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88508,7 +88587,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -91893,6 +91972,7 @@
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/11/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/12/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/2/",
+        "https://jkanime.net/watashi-no-shiawase-na-kekkon/29/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/3/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/4/",
         "https://jkanime.net/watashi-no-shiawase-na-kekkon/5/",
@@ -96241,6 +96321,7 @@
         "https://jkanime.net/high-card/1/",
         "https://jkanime.net/high-card/11/",
         "https://jkanime.net/high-card/12/",
+        "https://jkanime.net/high-card/18/",
         "https://jkanime.net/high-card/2/",
         "https://jkanime.net/high-card/3/",
         "https://jkanime.net/high-card/4/",
@@ -106735,7 +106816,8 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
@@ -106750,7 +106832,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106932,7 +107014,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114377,7 +114459,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -114397,7 +114480,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -117439,6 +117522,7 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/baki-2nd-season/1/",
         "https://jkanime.net/baki-2nd-season/11/",
         "https://jkanime.net/baki-2nd-season/13/",
         "https://jkanime.net/baki-2nd-season/2/",
@@ -118307,6 +118391,7 @@
         "https://jkanime.net/digimon-adventure-2020/12/",
         "https://jkanime.net/digimon-adventure-2020/13/",
         "https://jkanime.net/digimon-adventure-2020/14/",
+        "https://jkanime.net/digimon-adventure-2020/15/",
         "https://jkanime.net/digimon-adventure-2020/16/",
         "https://jkanime.net/digimon-adventure-2020/17/",
         "https://jkanime.net/digimon-adventure-2020/18/",
@@ -118329,6 +118414,7 @@
         "https://jkanime.net/digimon-adventure-2020/33/",
         "https://jkanime.net/digimon-adventure-2020/34/",
         "https://jkanime.net/digimon-adventure-2020/35/",
+        "https://jkanime.net/digimon-adventure-2020/36/",
         "https://jkanime.net/digimon-adventure-2020/37/",
         "https://jkanime.net/digimon-adventure-2020/38/",
         "https://jkanime.net/digimon-adventure-2020/39/",
@@ -120058,7 +120144,8 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -120077,7 +120164,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -125578,7 +125665,8 @@
         "https://jkanime.net/mayonaka-no-occult-koumuin/14/",
         "https://jkanime.net/mayonaka-no-occult-koumuin/15/",
         "https://jkanime.net/mayonaka-no-occult-koumuin/6/",
-        "https://jkanime.net/mayonaka-no-occult-koumuin/7/"
+        "https://jkanime.net/mayonaka-no-occult-koumuin/7/",
+        "https://jkanime.net/mayonaka-no-occult-koumuin/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 8,
@@ -128924,8 +129012,10 @@
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/1/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/11/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/12/",
+        "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/2/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/3/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/4/",
+        "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/5/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/6/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/8/",
         "https://jkanime.net/merc-storia-mukiryoku-no-shounen-to-bin-no-naka-no-shoujo/9/"
@@ -145873,7 +145963,8 @@
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -145893,7 +145984,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -149625,7 +149716,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -153258,12 +153349,15 @@
       "series": "https://jkanime.net/fushigi-na-somera-chan/",
       "title": "Fushigi na Somera-chan",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fushigi-na-somera-chan/8/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -156179,7 +156273,8 @@
       "series": "https://jkanime.net/gatchamancrowds-insight/",
       "title": "Gatchaman Crowds Insight",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156199,7 +156294,7 @@
         "https://jkanime.net/gatchamancrowds-insight/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156581,7 +156676,8 @@
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156601,7 +156697,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156616,7 +156712,8 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156636,7 +156733,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -161565,8 +161662,7 @@
       "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
       "title": "Mushishi Zoku Shou 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -161584,7 +161680,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -165721,7 +165817,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -230473,12 +230569,15 @@
       "series": "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/",
       "title": "Chitose-kun wa Ramune Bin no Naka Part 2",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/chitose-kun-wa-ramune-bin-no-naka-part-2/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -231255,7 +231354,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/1/",
-        "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/2/"
+        "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/2/",
+        "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -232470,6 +232570,7 @@
         "https://jkanime.net/koupen-chan/8/",
         "https://jkanime.net/koupen-chan/80/",
         "https://jkanime.net/koupen-chan/81/",
+        "https://jkanime.net/koupen-chan/82/",
         "https://jkanime.net/koupen-chan/9/"
       ],
       "noIndependent": [],
