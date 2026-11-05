@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T08:41:02.580768+00:00",
+  "checkedAt": "2026-11-05T08:55:40.232308+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -2417,14 +2417,6 @@
         "samples": [
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/10/",
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-        "title": "Kabushikigaisha Magi-Lumière",
-        "samples": [
-          "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-          "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
         ]
       },
       {
@@ -17001,6 +16993,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
+        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
+        "samples": [
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/1/",
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
         "title": "Sailor Moon Crystal: Death Busters-hen",
         "samples": [
@@ -18418,6 +18418,14 @@
         "samples": [
           "https://jkanime.net/aquarion-logos/1/",
           "https://jkanime.net/aquarion-logos/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gate/",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "samples": [
+          "https://jkanime.net/gate/1/",
+          "https://jkanime.net/gate/10/"
         ]
       },
       {
@@ -64147,7 +64155,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72633,7 +72641,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78875,8 +78883,7 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "title": "Kabushikigaisha Magi-Lumière",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -78896,7 +78903,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83234,7 +83241,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106997,7 +107004,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -145965,7 +145972,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -149675,7 +149682,8 @@
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -149696,7 +149704,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156656,7 +156664,8 @@
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156676,7 +156685,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157549,7 +157558,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -161662,7 +161671,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -165799,7 +165808,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
