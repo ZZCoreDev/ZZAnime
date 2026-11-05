@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T19:32:04.919212+00:00",
+  "checkedAt": "2026-11-05T19:49:06.010800+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
-  "storedChapters": 73053,
+  "storedChapters": 73055,
   "missingChapters": 511,
   "expiredChapters": 57481,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 310,
-  "voeOnlyChapters": 50,
-  "extraOnlyChapters": 309,
+  "sideOnlyChapters": 308,
+  "voeOnlyChapters": 48,
+  "extraOnlyChapters": 307,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -230648,16 +230648,17 @@
         "renewal-error"
       ],
       "observed": 5,
-      "stored": 4,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
         "mp4upload": 4,
         "streamwish": 2,
-        "vidhide": 3
+        "vidhide": 3,
+        "mega": 1
       },
       "playbackVerified": false
     },
@@ -232103,16 +232104,17 @@
         "renewal-error"
       ],
       "observed": 19,
-      "stored": 18,
+      "stored": 19,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
         "mp4upload": 17,
         "streamwish": 15,
-        "vidhide": 7
+        "vidhide": 7,
+        "mega": 1
       },
       "playbackVerified": false
     },
