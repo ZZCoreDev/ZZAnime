@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T15:48:44.973112+00:00",
-  "episodes": 73050,
-  "oldestHours": 243.25,
-  "pending": 71693,
+  "checkedAt": "2026-11-05T16:37:41.148706+00:00",
+  "episodes": 73051,
+  "oldestHours": 244.06,
+  "pending": 71724,
   "expired": 57479,
-  "expiresWithin24Hours": 57879,
-  "retryAfterExpiry": 1539,
-  "successfulCyclesMeasured": 58,
-  "sampleMinutes": 1435.67,
-  "measuredWallClockPerHour": 238.17,
-  "estimatedSweepDays": 12.78,
+  "expiresWithin24Hours": 58103,
+  "retryAfterExpiry": 1537,
+  "successfulCyclesMeasured": 57,
+  "sampleMinutes": 1438.91,
+  "measuredWallClockPerHour": 234.55,
+  "estimatedSweepDays": 12.98,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -359,7 +359,7 @@
     "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/": {
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
-      "fresh": 1,
+      "fresh": 0,
       "pendingFailures": 3,
       "state": "pending"
     },
@@ -876,21 +876,21 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4095,
+    "series": 4093,
     "diagnosedSeries": 4044,
-    "pendingSeries": 51
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-05T15:48:44.973112+00:00",
+    "checkedAt": "2026-11-05T16:37:41.148706+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73869,
-    "storedChapters": 73050,
+    "observedChapters": 73872,
+    "storedChapters": 73051,
     "missingChapters": 513,
     "expiredChapters": 57479,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 306,
-    "voeOnlyChapters": 46,
+    "sideOnlyChapters": 308,
+    "voeOnlyChapters": 48,
     "extraOnlyChapters": 306,
     "sourceRequests": 0,
     "aiCalls": 0,
