@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T15:16:13.871312+00:00",
+  "checkedAt": "2026-11-05T15:32:19.807951+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73869,
   "storedChapters": 73050,
@@ -528,6 +528,13 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-no-kuzu/",
+        "title": "Yuusha no Kuzu",
+        "samples": [
+          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -1472,6 +1479,13 @@
         "samples": [
           "https://jkanime.net/princession-orchestra/1/",
           "https://jkanime.net/princession-orchestra/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/classic-stars/",
+        "title": "Classic★Stars",
+        "samples": [
+          "https://jkanime.net/classic-stars/1/"
         ]
       },
       {
@@ -9810,6 +9824,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+        "title": "Otona no Bouguya-san II",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
         "title": "Seitokai Yakuindomo Movie 2",
         "samples": [
@@ -12928,14 +12950,6 @@
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zoku-owarimonogatari/",
-        "title": "Zoku Owarimonogatari",
-        "samples": [
-          "https://jkanime.net/zoku-owarimonogatari/1/",
-          "https://jkanime.net/zoku-owarimonogatari/2/"
         ]
       },
       {
@@ -16195,14 +16209,6 @@
         "samples": [
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/1/",
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/aooni-the-blue-monster/",
-        "title": "Ao Oni The Animation",
-        "samples": [
-          "https://jkanime.net/aooni-the-blue-monster/1/",
-          "https://jkanime.net/aooni-the-blue-monster/10/"
         ]
       },
       {
@@ -20407,14 +20413,6 @@
         "samples": [
           "https://jkanime.net/tokyo-ghoul/1/",
           "https://jkanime.net/tokyo-ghoul/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
-        "title": "[Locodol]",
-        "samples": [
-          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/1/",
-          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/10/"
         ]
       },
       {
@@ -67598,7 +67596,8 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -67607,7 +67606,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -72625,7 +72624,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -74156,7 +74155,8 @@
       "series": "https://jkanime.net/classic-stars/",
       "title": "Classic★Stars",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -74165,7 +74165,7 @@
         "https://jkanime.net/classic-stars/1/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 1,
@@ -78887,7 +78887,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83225,7 +83225,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106988,7 +106988,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114433,7 +114433,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -114453,7 +114454,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -129266,8 +129267,7 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 6,
       "stored": 6,
@@ -129281,7 +129281,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -145927,8 +145927,7 @@
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -145948,7 +145947,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156694,7 +156693,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157531,7 +157530,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -158509,7 +158508,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -161644,7 +161643,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -165760,8 +165759,7 @@
       "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
       "title": "[Locodol]",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -165781,7 +165779,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
