@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56514; capítulos vencidos pendientes: 57481. Próximos a vencer: 58342; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56515; capítulos vencidos pendientes: 57481. Próximos a vencer: 58431; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/5 capítulos recientes; incidencias pendientes: 0.
@@ -117,7 +117,7 @@ Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recien
 Equivalencia comprobada: Mobile Suit Gundam Wing, 0/49 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Great Teacher Onizuka, 0/43 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 12.
+Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 11.
 Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ouran High School Host Club, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Phantom: Requiem for the Phantom, 0/26 capítulos recientes; incidencias pendientes: 0.
@@ -195,7 +195,7 @@ Equivalencia comprobada: Nekopara, 0/12 capítulos recientes; incidencias pendie
 Equivalencia comprobada: Yondemasu yo, Azazel-san, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Black★Rock Shooter (TV), 0/8 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Chuu-ni Byou!: Depth of Field - Ai to Nikushimi Gekijyo, 0/7 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Kimetsu no Yaiba: Mugen Ressha-hen, 0/7 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Kimetsu no Yaiba: Mugen Ressha-hen, 0/7 capítulos recientes; incidencias pendientes: 2.
 Equivalencia comprobada: Übel Blatt, 0/12 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Classic★Stars, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: FLCL, 0/6 capítulos recientes; incidencias pendientes: 0.
@@ -204,7 +204,7 @@ Equivalencia comprobada: Saint Seiya Saga de Hades Elysion, 0/6 capítulos recie
 Equivalencia comprobada: To LOVE-Ru OVA, 0/6 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Code Geass: Boukoku no Akito, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen, 0/15 capítulos recientes; incidencias pendientes: 2.
-Equivalencia comprobada: Kabushikigaisha Magi-Lumière, 0/12 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Kabushikigaisha Magi-Lumière, 0/12 capítulos recientes; incidencias pendientes: 1.
 Equivalencia comprobada: Magical★Explorer, 0/6 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Pokemon XY: Mega Evolution, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tales of Symphonia, 0/4 capítulos recientes; incidencias pendientes: 0.
@@ -224,7 +224,7 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4044/4083; pendientes: 39. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Diagnóstico por serie: 4044/4084; pendientes: 40. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
 Cobertura de catálogo: 5053 títulos, 73053 capítulos con registros, 511 capítulos observados sin opciones, 310 publicados solo en /voe/ o /extra/ y 57481 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
