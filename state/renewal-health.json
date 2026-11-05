@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T20:07:02.609674+00:00",
+  "checkedAt": "2026-11-05T20:22:18.836013+00:00",
   "episodes": 73055,
-  "oldestHours": 247.55,
-  "pending": 71659,
+  "oldestHours": 247.81,
+  "pending": 71649,
   "expired": 57481,
-  "expiresWithin24Hours": 58589,
-  "retryAfterExpiry": 1545,
+  "expiresWithin24Hours": 58699,
+  "retryAfterExpiry": 1540,
   "successfulCyclesMeasured": 56,
-  "sampleMinutes": 1432.48,
-  "measuredWallClockPerHour": 230.2,
-  "estimatedSweepDays": 13.22,
+  "sampleMinutes": 1431.57,
+  "measuredWallClockPerHour": 230.35,
+  "estimatedSweepDays": 13.21,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
+    "series": 4091,
     "diagnosedSeries": 4044,
-    "pendingSeries": 50
+    "pendingSeries": 47
   },
   "coverage": {
-    "checkedAt": "2026-11-05T20:07:02.609674+00:00",
+    "checkedAt": "2026-11-05T20:22:18.836013+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73055,
