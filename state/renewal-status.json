@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T20:42:48.280735+00:00",
+  "checkedAt": "2026-11-05T21:00:08.024485+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 238,
-  "repairAttempts": 34,
+  "attempted": 234,
+  "repairAttempts": 33,
   "earlyRepairAttempts": 0,
-  "failed": 56537,
+  "failed": 56535,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42105348075",
+  "runId": "42107885666",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57481,
-  "extraRenewed": 119,
+  "extraRenewed": 115,
   "published": true,
-  "expiresWithin24Hours": 58798,
-  "retryAfterExpiry": 1532,
+  "expiresWithin24Hours": 58830,
+  "retryAfterExpiry": 1530,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -494,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -543,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -634,7 +634,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -655,7 +655,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -739,14 +739,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -781,7 +781,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -884,22 +884,22 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4091,
+    "series": 4092,
     "diagnosedSeries": 4044,
-    "pendingSeries": 47
+    "pendingSeries": 48
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T20:55:25.782598+00:00",
+    "checkedAt": "2026-11-05T21:13:44.134868+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
-    "storedChapters": 73055,
+    "storedChapters": 73056,
     "missingChapters": 511,
     "expiredChapters": 57481,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 308,
-    "voeOnlyChapters": 48,
-    "extraOnlyChapters": 308,
+    "sideOnlyChapters": 307,
+    "voeOnlyChapters": 47,
+    "extraOnlyChapters": 307,
     "sourceRequests": 0,
     "aiCalls": 0,
     "playbackVerified": false
