@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-04T22:07:20.880518+00:00",
+  "checkedAt": "2026-11-05T00:12:26.395516+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73867,
-  "storedChapters": 73047,
+  "observedChapters": 73868,
+  "storedChapters": 73049,
   "missingChapters": 513,
-  "expiredChapters": 57451,
+  "expiredChapters": 57473,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
-  "extraOnlyChapters": 307,
+  "sideOnlyChapters": 306,
+  "voeOnlyChapters": 46,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -80,13 +80,6 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sayonara-lara/",
-        "title": "Sayonara Lara",
-        "samples": [
-          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -535,6 +528,13 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yuusha-no-kuzu/",
+        "title": "Yuusha no Kuzu",
+        "samples": [
+          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -7781,7 +7781,7 @@
         "title": "Gensou Sangokushi: Tengen Reishinki",
         "samples": [
           "https://jkanime.net/gensou-sangokushi-tengen-reishinki/1/",
-          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/2/"
+          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/10/"
         ]
       },
       {
@@ -7853,7 +7853,7 @@
         "title": "Sabiiro no Armor: Reimei",
         "samples": [
           "https://jkanime.net/sabiiro-no-armor-reimei/1/",
-          "https://jkanime.net/sabiiro-no-armor-reimei/12/"
+          "https://jkanime.net/sabiiro-no-armor-reimei/11/"
         ]
       },
       {
@@ -7885,7 +7885,7 @@
         "title": "Cue!",
         "samples": [
           "https://jkanime.net/cue/1/",
-          "https://jkanime.net/cue/15/"
+          "https://jkanime.net/cue/10/"
         ]
       },
       {
@@ -9824,14 +9824,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-        "title": "Otona no Bouguya-san II",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
-          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
         "title": "Seitokai Yakuindomo Movie 2",
         "samples": [
@@ -11033,6 +11025,14 @@
         "samples": [
           "https://jkanime.net/haikyuu-riku-vs-kuu/1/",
           "https://jkanime.net/haikyuu-riku-vs-kuu/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nekopara/",
+        "title": "Nekopara",
+        "samples": [
+          "https://jkanime.net/nekopara/1/",
+          "https://jkanime.net/nekopara/10/"
         ]
       },
       {
@@ -15522,6 +15522,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+        "title": "Granblue Fantasy The Animation",
+        "samples": [
+          "https://jkanime.net/granblue-fantasy-the-animation/1/",
+          "https://jkanime.net/granblue-fantasy-the-animation/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yami-shibai-4th-season/",
         "title": "Yami Shibai 4th Season",
         "samples": [
@@ -17015,6 +17023,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
+        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
+        "samples": [
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/1/",
+          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
         "title": "Sailor Moon Crystal: Death Busters-hen",
         "samples": [
@@ -18376,6 +18392,14 @@
         "samples": [
           "https://jkanime.net/rokka-no-yuusha/1/",
           "https://jkanime.net/rokka-no-yuusha/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gatchamancrowds-insight/",
+        "title": "Gatchaman Crowds Insight",
+        "samples": [
+          "https://jkanime.net/gatchamancrowds-insight/1/",
+          "https://jkanime.net/gatchamancrowds-insight/10/"
         ]
       },
       {
@@ -20675,14 +20699,6 @@
         "samples": [
           "https://jkanime.net/no-game-no-life/1/",
           "https://jkanime.net/no-game-no-life/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fuuun-ishin-daishogun/",
-        "title": "Fuuun Ishin Dai☆Shogun",
-        "samples": [
-          "https://jkanime.net/fuuun-ishin-daishogun/1/",
-          "https://jkanime.net/fuuun-ishin-daishogun/10/"
         ]
       },
       {
@@ -40755,7 +40771,7 @@
         "title": "Gensou Sangokushi: Tengen Reishinki",
         "samples": [
           "https://jkanime.net/gensou-sangokushi-tengen-reishinki/1/",
-          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/2/"
+          "https://jkanime.net/gensou-sangokushi-tengen-reishinki/10/"
         ]
       },
       {
@@ -40827,7 +40843,7 @@
         "title": "Sabiiro no Armor: Reimei",
         "samples": [
           "https://jkanime.net/sabiiro-no-armor-reimei/1/",
-          "https://jkanime.net/sabiiro-no-armor-reimei/12/"
+          "https://jkanime.net/sabiiro-no-armor-reimei/11/"
         ]
       },
       {
@@ -40859,7 +40875,7 @@
         "title": "Cue!",
         "samples": [
           "https://jkanime.net/cue/1/",
-          "https://jkanime.net/cue/15/"
+          "https://jkanime.net/cue/10/"
         ]
       },
       {
@@ -64027,8 +64043,7 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -64037,7 +64052,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -64107,7 +64122,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -67566,7 +67581,8 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -67575,7 +67591,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -72593,7 +72609,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78856,7 +78872,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83194,7 +83210,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88530,7 +88546,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -104935,6 +104951,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/gensou-sangokushi-tengen-reishinki/1/",
+        "https://jkanime.net/gensou-sangokushi-tengen-reishinki/10/",
+        "https://jkanime.net/gensou-sangokushi-tengen-reishinki/12/",
         "https://jkanime.net/gensou-sangokushi-tengen-reishinki/2/",
         "https://jkanime.net/gensou-sangokushi-tengen-reishinki/3/",
         "https://jkanime.net/gensou-sangokushi-tengen-reishinki/4/",
@@ -105216,6 +105234,7 @@
         "https://jkanime.net/futsal-boys/10/",
         "https://jkanime.net/futsal-boys/11/",
         "https://jkanime.net/futsal-boys/12/",
+        "https://jkanime.net/futsal-boys/2/",
         "https://jkanime.net/futsal-boys/3/",
         "https://jkanime.net/futsal-boys/4/",
         "https://jkanime.net/futsal-boys/5/",
@@ -105283,7 +105302,14 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/sabiiro-no-armor-reimei/1/",
-        "https://jkanime.net/sabiiro-no-armor-reimei/12/"
+        "https://jkanime.net/sabiiro-no-armor-reimei/11/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/12/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/2/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/3/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/5/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/6/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/7/",
+        "https://jkanime.net/sabiiro-no-armor-reimei/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 9,
@@ -105432,15 +105458,24 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/cue/1/",
+        "https://jkanime.net/cue/10/",
+        "https://jkanime.net/cue/11/",
+        "https://jkanime.net/cue/13/",
+        "https://jkanime.net/cue/14/",
         "https://jkanime.net/cue/15/",
         "https://jkanime.net/cue/16/",
         "https://jkanime.net/cue/17/",
         "https://jkanime.net/cue/18/",
         "https://jkanime.net/cue/19/",
+        "https://jkanime.net/cue/2/",
         "https://jkanime.net/cue/20/",
         "https://jkanime.net/cue/21/",
         "https://jkanime.net/cue/22/",
-        "https://jkanime.net/cue/23/"
+        "https://jkanime.net/cue/23/",
+        "https://jkanime.net/cue/4/",
+        "https://jkanime.net/cue/5/",
+        "https://jkanime.net/cue/7/",
+        "https://jkanime.net/cue/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 19,
@@ -106286,7 +106321,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/gundam-breaker-battlogue/2/",
-        "https://jkanime.net/gundam-breaker-battlogue/3/"
+        "https://jkanime.net/gundam-breaker-battlogue/3/",
+        "https://jkanime.net/gundam-breaker-battlogue/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -106753,7 +106789,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106935,7 +106971,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -107906,6 +107942,7 @@
         "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/23/",
         "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/24/",
         "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/3/",
+        "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/4/",
         "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/5/",
         "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/6/",
         "https://jkanime.net/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou/7/",
@@ -111148,6 +111185,7 @@
       "expired": [
         "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/1/",
         "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/10/",
+        "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/12/",
         "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/2/",
         "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/3/",
         "https://jkanime.net/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu/4/",
@@ -114374,8 +114412,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -114395,7 +114432,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120056,7 +120093,8 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -120075,7 +120113,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -142455,7 +142493,8 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -142476,7 +142515,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -149602,7 +149641,8 @@
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -149623,7 +149663,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156177,7 +156217,8 @@
       "series": "https://jkanime.net/gatchamancrowds-insight/",
       "title": "Gatchaman Crowds Insight",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156197,7 +156238,7 @@
         "https://jkanime.net/gatchamancrowds-insight/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156600,7 +156641,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167019,8 +167060,7 @@
       "series": "https://jkanime.net/fuuun-ishin-daishogun/",
       "title": "Fuuun Ishin Dai☆Shogun",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -167040,7 +167080,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -230701,16 +230741,17 @@
       "title": "Tensei shitara Ken deshita II",
       "causes": [],
       "observed": 6,
-      "stored": 5,
+      "stored": 6,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 5,
-        "streamwish": 4,
-        "vidhide": 3
+        "mp4upload": 6,
+        "streamwish": 5,
+        "vidhide": 4,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
@@ -231533,17 +231574,18 @@
       "series": "https://jkanime.net/kikansha-no-mahou-wa-tokubetsu-desu-2nd-season/",
       "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
       "causes": [],
-      "observed": 4,
-      "stored": 4,
+      "observed": 5,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 3,
-        "vidhide": 2
+        "mp4upload": 5,
+        "streamwish": 4,
+        "vidhide": 3,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
