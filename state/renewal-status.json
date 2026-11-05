@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T00:41:08.055166+00:00",
+  "checkedAt": "2026-11-05T00:55:16.227213+00:00",
   "requested": 400,
   "renewed": 100,
   "attempted": 400,
   "repairAttempts": 75,
   "earlyRepairAttempts": 0,
-  "failed": 56556,
+  "failed": 56555,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "41943058322",
+  "runId": "41944785753",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 57474,
-  "extraRenewed": 238,
+  "expired": 57475,
+  "extraRenewed": 232,
   "published": true,
   "expiresWithin24Hours": 57495,
-  "retryAfterExpiry": 1436,
+  "retryAfterExpiry": 1435,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -326,7 +326,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -340,7 +340,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -424,7 +424,7 @@
       "title": "Gatchaman Crowds Insight",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/gate/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -683,7 +683,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -823,7 +823,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -884,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
+    "series": 4091,
     "diagnosedSeries": 4047,
-    "pendingSeries": 47
+    "pendingSeries": 44
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T00:54:15.905999+00:00",
+    "checkedAt": "2026-11-05T01:07:49.398108+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,
     "missingChapters": 513,
-    "expiredChapters": 57474,
+    "expiredChapters": 57475,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,

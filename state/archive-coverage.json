@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T00:54:15.905999+00:00",
+  "checkedAt": "2026-11-05T01:07:49.398108+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
   "missingChapters": 513,
-  "expiredChapters": 57474,
+  "expiredChapters": 57475,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -95,6 +95,13 @@
         "title": "Sayonara Lara",
         "samples": [
           "https://jkanime.net/sayonara-lara/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
+        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+        "samples": [
+          "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
         ]
       },
       {
@@ -8164,14 +8171,6 @@
         "samples": [
           "https://jkanime.net/shikizakura/1/",
           "https://jkanime.net/shikizakura/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-        "samples": [
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
         ]
       },
       {
@@ -17006,14 +17005,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
-        "title": "Seisen Cerberus: Ryuukoku no Fatalités",
-        "samples": [
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/1/",
-          "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/bishoujo-senshi-sailor-moon-crystal-death-busters-hen/",
         "title": "Sailor Moon Crystal: Death Busters-hen",
         "samples": [
@@ -18378,14 +18369,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gatchamancrowds-insight/",
-        "title": "Gatchaman Crowds Insight",
-        "samples": [
-          "https://jkanime.net/gatchamancrowds-insight/1/",
-          "https://jkanime.net/gatchamancrowds-insight/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dragon-ball-super/",
         "title": "Dragon Ball Super",
         "samples": [
@@ -18606,14 +18589,6 @@
         "samples": [
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/1/",
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
-        "title": "Saint Seiya: Soul of Gold",
-        "samples": [
-          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
-          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
         ]
       },
       {
@@ -64071,7 +64046,8 @@
       "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64080,7 +64056,7 @@
         "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -72594,7 +72570,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106758,8 +106734,7 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 7,
       "stored": 7,
@@ -106774,7 +106749,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -113635,6 +113610,7 @@
         "https://jkanime.net/project-scard-praeter-no-kizu/10/",
         "https://jkanime.net/project-scard-praeter-no-kizu/2/",
         "https://jkanime.net/project-scard-praeter-no-kizu/3/",
+        "https://jkanime.net/project-scard-praeter-no-kizu/4/",
         "https://jkanime.net/project-scard-praeter-no-kizu/8/"
       ],
       "noIndependent": [],
@@ -149623,8 +149599,7 @@
       "series": "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/",
       "title": "Seisen Cerberus: Ryuukoku no Fatalités",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -149645,7 +149620,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156199,8 +156174,7 @@
       "series": "https://jkanime.net/gatchamancrowds-insight/",
       "title": "Gatchaman Crowds Insight",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156220,7 +156194,7 @@
         "https://jkanime.net/gatchamancrowds-insight/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157472,8 +157446,7 @@
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -157494,7 +157467,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
