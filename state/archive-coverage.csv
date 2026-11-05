@@ -2,7 +2,7 @@
 Ao Ashi,https://jkanime.net/ao-ashi/,renewal-error,24,24,0,0,4,0
 Megalo Box,https://jkanime.net/megalo-box/,,13,13,0,0,0,0
 Danmachi,https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/,observed-chapters-without-options | expired-observation | renewal-error,13,1,12,1,13,0
-Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,expired-observation,10,10,0,3,0,0
+Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,expired-observation | renewal-error,10,10,0,3,1,0
 Kaijuu 8-gou: Narumi no Heijitsu,https://jkanime.net/kaijuu-8-gou-narumi-no-heijitsu/,,4,4,0,0,0,0
 The Ribbon Hero,https://jkanime.net/the-ribbon-hero/,,1,1,0,0,0,0
 Boku no Hero Academia: I Am a Hero Too,https://jkanime.net/boku-no-hero-academia-i-am-a-hero-too/,,1,1,0,0,0,0
@@ -128,7 +128,7 @@ Maid-san wa Taberu dake,https://jkanime.net/maid-san-wa-taberu-dake/,,12,12,0,0,
 Mahou no Shimai Lulutto Lilly,https://jkanime.net/mahou-no-shimai-lulutto-lilly/,expired-observation | renewal-error,12,12,0,12,12,0
 Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Ryoushu no Youjo,https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/,expired-observation | renewal-error,24,24,0,24,24,0
 Mairimashita! Iruma-kun 4th Season,https://jkanime.net/mairimashita-iruma-kun-4th-season/,,24,24,0,0,0,0
-Yomi no Tsugai,https://jkanime.net/yomi-no-tsugai/,expired-observation,24,24,0,1,0,0
+Yomi no Tsugai,https://jkanime.net/yomi-no-tsugai/,expired-observation | renewal-error,24,24,0,1,1,0
 Akane-banashi,https://jkanime.net/akane-banashi/,,12,12,0,0,0,0
 Mao,https://jkanime.net/mao/,,26,26,0,0,0,0
 Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?,https://jkanime.net/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo/,,12,12,0,0,0,0
@@ -386,7 +386,7 @@ Mizu Zokusei no Mahoutsukai,https://jkanime.net/mizu-zokusei-no-mahoutsukai/,exp
 Arknights: Rise from Ember,https://jkanime.net/arknights-rise-from-ember/,,10,10,0,0,0,0
 Busu ni Hanataba wo.,https://jkanime.net/busu-ni-hanataba-wo/,,13,13,0,0,0,0
 Tsuyokute New Saga,https://jkanime.net/tsuyokute-new-saga/,,12,12,0,0,0,0
-Tsuihousha Shokudou e Youkoso!,https://jkanime.net/tsuihousha-shokudou-e-youkoso/,expired-observation | renewal-error,12,12,0,12,6,0
+Tsuihousha Shokudou e Youkoso!,https://jkanime.net/tsuihousha-shokudou-e-youkoso/,expired-observation | renewal-error,12,12,0,12,5,0
 Onmyou Kaiten Re:Birth,https://jkanime.net/onmyou-kaiten-rebirth/,,12,12,0,0,0,0
 Kamitsubaki-shi Kensetsuchuu.,https://jkanime.net/kamitsubaki-shi-kensetsuchuu/,no-observed-listing,0,0,0,0,0,0
 Ginga Tokkyuu Milky☆Subway,https://jkanime.net/ginga-tokkyuu-milkysubway/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -593,7 +593,7 @@ Ooi! Tonbo 2nd Season,https://jkanime.net/ooi-tonbo-2nd-season/,expired-observat
 Hu He Yao Shi Lu,https://jkanime.net/hu-he-yao-shi-lu/,expired-observation | renewal-error,24,24,0,24,24,0
 Sword Art Online Alternative: Gun Gale Online II,https://jkanime.net/sword-art-online-alternative-gun-gale-online-ii/,expired-observation | renewal-error,12,12,0,9,9,0
 Goukon ni Ittara Onna ga Inakatta Hanashi,https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/,expired-observation | renewal-error,12,12,0,9,9,0
-Kabushikigaisha Magi-Lumière,https://jkanime.net/kabushikigaisha-magi-lumire/,expired-observation | renewal-error,12,12,0,12,6,0
+Kabushikigaisha Magi-Lumière,https://jkanime.net/kabushikigaisha-magi-lumire/,expired-observation | renewal-error,12,12,0,12,5,0
 Hamidashi Creative,https://jkanime.net/hamidashi-creative/,expired-observation | renewal-error,12,12,0,12,12,0
 The iDOLM@STER Shiny Colors 2nd Season,https://jkanime.net/the-idolmster-shiny-colors-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Ya She,https://jkanime.net/ya-she/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -1451,7 +1451,7 @@ Build Divide: Code Black,https://jkanime.net/build-divide-code-black/,expired-ob
 Senpai ga Uzai Kouhai no Hanashi,https://jkanime.net/senpai-ga-uzai-kouhai-no-hanashi/,expired-observation | renewal-error,12,12,0,12,12,0
 World Trigger 3rd Season,https://jkanime.net/world-trigger-3rd-season/,expired-observation | renewal-error,14,14,0,14,14,0
 Shikizakura,https://jkanime.net/shikizakura/,expired-observation | renewal-error,12,12,0,12,12,0
-Kimetsu no Yaiba: Mugen Ressha-hen,https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/,expired-observation | renewal-error,7,7,0,7,2,0
+Kimetsu no Yaiba: Mugen Ressha-hen,https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/,expired-observation | renewal-error,7,7,0,7,1,0
 Kamiarizuki no Kodomo,https://jkanime.net/kamiarizuki-no-kodomo/,renewal-error,1,1,0,0,1,0
 Dakaretai Otoko 1-i ni Odosarete Imasu. Movie: Spain-hen,https://jkanime.net/dakaretai-otoko-1-i-ni-odosarete-imasu-movie-spain-hen/,,1,1,0,0,0,0
 Saihate no Paladin,https://jkanime.net/saihate-no-paladin/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -1683,7 +1683,7 @@ Gekidol,https://jkanime.net/gekidol/,expired-observation | renewal-error,12,12,0
 Urasekai Picnic,https://jkanime.net/urasekai-picnic/,expired-observation | renewal-error,12,12,0,12,12,0
 Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari,https://jkanime.net/tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari/,expired-observation | renewal-error,12,12,0,12,12,0
 Jimihen!!: Jimiko wo Kaechau Jun Isei Kouyuu!!,https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/,expired-observation | renewal-error,8,8,0,8,8,0
-Otona no Bouguya-san II,https://jkanime.net/otona-no-bouguya-san-ii/,expired-observation | renewal-error,12,12,0,12,3,0
+Otona no Bouguya-san II,https://jkanime.net/otona-no-bouguya-san-ii/,expired-observation | renewal-error,12,12,0,12,4,0
 Seitokai Yakuindomo Movie 2,https://jkanime.net/seitokai-yakuindomo-movie-2/,renewal-error,1,1,0,0,1,0
 Vlad Love,https://jkanime.net/vlad-love/,expired-observation | renewal-error,12,12,0,10,10,0
 Fate/Grand Carnival,https://jkanime.net/fategrand-carnival/,,2,2,0,0,0,0

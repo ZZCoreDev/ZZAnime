@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T20:22:18.836013+00:00",
+  "checkedAt": "2026-11-05T20:38:48.068053+00:00",
   "episodes": 73055,
-  "oldestHours": 247.81,
-  "pending": 71649,
+  "oldestHours": 248.08,
+  "pending": 71647,
   "expired": 57481,
-  "expiresWithin24Hours": 58699,
+  "expiresWithin24Hours": 58792,
   "retryAfterExpiry": 1540,
   "successfulCyclesMeasured": 56,
-  "sampleMinutes": 1431.57,
-  "measuredWallClockPerHour": 230.35,
-  "estimatedSweepDays": 13.21,
+  "sampleMinutes": 1434.73,
+  "measuredWallClockPerHour": 229.84,
+  "estimatedSweepDays": 13.24,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4091,
+    "series": 4093,
     "diagnosedSeries": 4044,
-    "pendingSeries": 47
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-05T20:22:18.836013+00:00",
+    "checkedAt": "2026-11-05T20:38:48.068053+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73055,
