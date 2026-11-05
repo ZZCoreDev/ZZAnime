@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T07:45:22.917275+00:00",
+  "checkedAt": "2026-11-05T07:59:50.067663+00:00",
   "episodes": 73049,
-  "oldestHours": 235.19,
-  "pending": 72062,
+  "oldestHours": 235.43,
+  "pending": 72045,
   "expired": 57489,
   "expiresWithin24Hours": 57535,
-  "retryAfterExpiry": 1471,
-  "successfulCyclesMeasured": 63,
-  "sampleMinutes": 1419.97,
-  "measuredWallClockPerHour": 252.22,
-  "estimatedSweepDays": 12.07,
+  "retryAfterExpiry": 1462,
+  "successfulCyclesMeasured": 64,
+  "sampleMinutes": 1434.42,
+  "measuredWallClockPerHour": 253.86,
+  "estimatedSweepDays": 11.99,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -283,7 +283,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -402,7 +402,7 @@
       "title": "Fuuun Ishin Dai\u2606Shogun",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/gangsta-/": {
@@ -423,7 +423,7 @@
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/h2o/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -815,7 +815,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4105,
+    "series": 4103,
     "diagnosedSeries": 4047,
-    "pendingSeries": 58
+    "pendingSeries": 56
   },
   "coverage": {
-    "checkedAt": "2026-11-05T07:45:22.917275+00:00",
+    "checkedAt": "2026-11-05T07:59:50.067663+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,

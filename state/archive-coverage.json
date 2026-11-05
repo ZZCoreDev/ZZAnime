@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T07:45:22.917275+00:00",
+  "checkedAt": "2026-11-05T07:59:50.067663+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -80,13 +80,6 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
-        "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
-        "samples": [
-          "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
         ]
       },
       {
@@ -18656,14 +18649,6 @@
         "samples": [
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/1/",
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
-        "title": "Saint Seiya: Soul of Gold",
-        "samples": [
-          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
-          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
         ]
       },
       {
@@ -64174,8 +64159,7 @@
       "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -64184,7 +64168,7 @@
         "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -72697,7 +72681,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78960,7 +78944,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -88634,7 +88618,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -107061,7 +107045,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114527,7 +114511,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -129355,7 +129339,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -146033,7 +146017,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156746,7 +156730,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156782,7 +156766,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157597,8 +157581,7 @@
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -157619,7 +157602,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -158597,7 +158580,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -167191,7 +167174,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
