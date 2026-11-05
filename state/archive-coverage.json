@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T01:20:53.373646+00:00",
+  "checkedAt": "2026-11-05T01:34:59.142062+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -80,13 +80,6 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/sayonara-lara/",
-        "title": "Sayonara Lara",
-        "samples": [
-          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -347,13 +340,6 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yomi-no-tsugai/",
-        "title": "Yomi no Tsugai",
-        "samples": [
-          "https://jkanime.net/yomi-no-tsugai/12/"
         ]
       },
       {
@@ -16274,6 +16260,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
+        "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Specials",
+        "samples": [
+          "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/1/",
+          "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ginga-kikoutai-majestic-prince-mirai-e-no-tsubasa/",
         "title": "Ginga Kikoutai Majestic Prince: Mirai e no Tsubasa",
         "samples": [
@@ -18593,6 +18587,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
+        "title": "Saint Seiya: Soul of Gold",
+        "samples": [
+          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
+          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/punchline/",
         "title": "Punchline",
         "samples": [
@@ -18772,6 +18774,14 @@
         "samples": [
           "https://jkanime.net/plastic-memories/1/",
           "https://jkanime.net/plastic-memories/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
+        "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
+        "samples": [
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/1/",
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/10/"
         ]
       },
       {
@@ -19473,6 +19483,14 @@
         "title": "Go! Go! 575: Meippai ni, Hajiketeru?",
         "samples": [
           "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
+        "title": "Mushishi Zoku Shou 2nd Season",
+        "samples": [
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/"
         ]
       },
       {
@@ -20372,6 +20390,14 @@
         "samples": [
           "https://jkanime.net/tokyo-ghoul/1/",
           "https://jkanime.net/tokyo-ghoul/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
+        "title": "[Locodol]",
+        "samples": [
+          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/1/",
+          "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/10/"
         ]
       },
       {
@@ -64011,8 +64037,7 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -64021,7 +64046,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -66287,8 +66312,7 @@
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -66297,7 +66321,7 @@
         "https://jkanime.net/yomi-no-tsugai/12/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "streamwish": 23,
@@ -78842,7 +78866,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -88516,7 +88540,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -146287,7 +146311,8 @@
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
       "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Specials",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 3,
       "stored": 3,
@@ -146298,7 +146323,7 @@
         "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 3,
@@ -157458,7 +157483,8 @@
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -157479,7 +157505,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -158435,7 +158461,8 @@
       "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -158456,7 +158483,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -161572,7 +161599,8 @@
       "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
       "title": "Mushishi Zoku Shou 2nd Season",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -161590,7 +161618,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -165706,7 +165734,8 @@
       "series": "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/",
       "title": "[Locodol]",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -165726,7 +165755,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,

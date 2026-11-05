@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T01:20:53.373646+00:00",
+  "checkedAt": "2026-11-05T01:34:59.142062+00:00",
   "episodes": 73049,
-  "oldestHours": 228.78,
-  "pending": 72355,
+  "oldestHours": 229.02,
+  "pending": 72295,
   "expired": 57477,
   "expiresWithin24Hours": 57495,
-  "retryAfterExpiry": 1436,
+  "retryAfterExpiry": 1437,
   "successfulCyclesMeasured": 76,
-  "sampleMinutes": 1428.09,
-  "measuredWallClockPerHour": 296.07,
-  "estimatedSweepDays": 10.28,
+  "sampleMinutes": 1424.03,
+  "measuredWallClockPerHour": 296.92,
+  "estimatedSweepDays": 10.25,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -283,7 +283,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -395,7 +395,7 @@
       "title": "[Locodol]",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/fuuun-ishin-daishogun/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -640,7 +640,7 @@
       "title": "Mushishi Zoku Shou 2nd Season",
       "total": 10,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/nekopara/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -766,7 +766,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4092,
+    "series": 4095,
     "diagnosedSeries": 4047,
-    "pendingSeries": 45
+    "pendingSeries": 48
   },
   "coverage": {
-    "checkedAt": "2026-11-05T01:20:53.373646+00:00",
+    "checkedAt": "2026-11-05T01:34:59.142062+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,
