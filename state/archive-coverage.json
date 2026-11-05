@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T09:23:28.476804+00:00",
+  "checkedAt": "2026-11-05T09:37:14.778227+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -12884,6 +12884,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zoku-owarimonogatari/",
+        "title": "Zoku Owarimonogatari",
+        "samples": [
+          "https://jkanime.net/zoku-owarimonogatari/1/",
+          "https://jkanime.net/zoku-owarimonogatari/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/anima-yell/",
         "title": "Anima Yell!",
         "samples": [
@@ -16148,6 +16156,14 @@
         "samples": [
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/1/",
           "https://jkanime.net/uta-noprince-sama-maji-love-legend-star/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/aooni-the-blue-monster/",
+        "title": "Ao Oni The Animation",
+        "samples": [
+          "https://jkanime.net/aooni-the-blue-monster/1/",
+          "https://jkanime.net/aooni-the-blue-monster/10/"
         ]
       },
       {
@@ -20670,14 +20686,6 @@
         "samples": [
           "https://jkanime.net/no-game-no-life/1/",
           "https://jkanime.net/no-game-no-life/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fuuun-ishin-daishogun/",
-        "title": "Fuuun Ishin Dai☆Shogun",
-        "samples": [
-          "https://jkanime.net/fuuun-ishin-daishogun/1/",
-          "https://jkanime.net/fuuun-ishin-daishogun/10/"
         ]
       },
       {
@@ -74434,7 +74442,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -83200,7 +83208,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -129237,7 +129245,8 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
@@ -129251,7 +129260,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -145910,7 +145919,8 @@
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -145930,7 +145940,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -149662,7 +149672,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156643,7 +156653,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156679,7 +156689,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157516,7 +157526,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -158494,7 +158504,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -165766,7 +165776,7 @@
         "https://jkanime.net/futsuu-no-joshikousei-ga-locodol-yatte-mita/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167067,8 +167077,7 @@
       "series": "https://jkanime.net/fuuun-ishin-daishogun/",
       "title": "Fuuun Ishin Dai☆Shogun",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -167088,7 +167097,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,

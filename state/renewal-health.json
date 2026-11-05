@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T09:23:28.476804+00:00",
+  "checkedAt": "2026-11-05T09:37:14.778227+00:00",
   "episodes": 73049,
-  "oldestHours": 236.82,
-  "pending": 71706,
+  "oldestHours": 237.05,
+  "pending": 71640,
   "expired": 57491,
   "expiresWithin24Hours": 57549,
-  "retryAfterExpiry": 1482,
+  "retryAfterExpiry": 1510,
   "successfulCyclesMeasured": 65,
-  "sampleMinutes": 1431.92,
-  "measuredWallClockPerHour": 261.09,
-  "estimatedSweepDays": 11.66,
+  "sampleMinutes": 1427.97,
+  "measuredWallClockPerHour": 261.81,
+  "estimatedSweepDays": 11.63,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -283,7 +283,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -395,14 +395,14 @@
       "title": "[Locodol]",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/fuuun-ishin-daishogun/": {
       "title": "Fuuun Ishin Dai\u2606Shogun",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/gangsta-/": {
@@ -423,7 +423,7 @@
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/h2o/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4093,
+    "series": 4094,
     "diagnosedSeries": 4045,
-    "pendingSeries": 48
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-05T09:23:28.476804+00:00",
+    "checkedAt": "2026-11-05T09:37:14.778227+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,
