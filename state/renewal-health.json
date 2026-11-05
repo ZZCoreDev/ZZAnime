@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T07:17:07.127432+00:00",
+  "checkedAt": "2026-11-05T07:31:11.313706+00:00",
   "episodes": 73049,
-  "oldestHours": 234.72,
-  "pending": 72087,
+  "oldestHours": 234.95,
+  "pending": 72073,
   "expired": 57489,
   "expiresWithin24Hours": 57535,
-  "retryAfterExpiry": 1473,
+  "retryAfterExpiry": 1472,
   "successfulCyclesMeasured": 63,
-  "sampleMinutes": 1432.0,
-  "measuredWallClockPerHour": 248.51,
-  "estimatedSweepDays": 12.25,
+  "sampleMinutes": 1426.69,
+  "measuredWallClockPerHour": 249.43,
+  "estimatedSweepDays": 12.2,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -80,7 +80,7 @@
       "title": "Dragon Ball Kai (2014)",
       "total": 61,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/digimon-digital-monsters/": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 16,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -255,7 +255,7 @@
       "title": "Ao Oni The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion/": {
@@ -283,7 +283,7 @@
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/full-metal-panic-tsr/": {
@@ -332,7 +332,7 @@
       "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/stella-jogakuin-koutou-ka-c3-bu/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -640,7 +640,7 @@
       "title": "Mushishi Zoku Shou 2nd Season",
       "total": 10,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/nekopara/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4107,
+    "series": 4108,
     "diagnosedSeries": 4047,
-    "pendingSeries": 60
+    "pendingSeries": 61
   },
   "coverage": {
-    "checkedAt": "2026-11-05T07:17:07.127432+00:00",
+    "checkedAt": "2026-11-05T07:31:11.313706+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T07:17:07.127432+00:00",
+  "checkedAt": "2026-11-05T07:31:11.313706+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -309,13 +301,6 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kami-no-shizuku/",
-        "title": "Kami no Shizuku",
-        "samples": [
-          "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
       {
@@ -18886,6 +18871,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
+        "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
+        "samples": [
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/1/",
+          "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/high-school-dxd-born/",
         "title": "High School DxD BorN",
         "samples": [
@@ -19584,6 +19577,14 @@
         "title": "Go! Go! 575: Meippai ni, Hajiketeru?",
         "samples": [
           "https://jkanime.net/go-go-575-meippai-ni-hajiketeru/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
+        "title": "Mushishi Zoku Shou 2nd Season",
+        "samples": [
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/1/",
+          "https://jkanime.net/mushishi-zoku-shou-2nd-season/10/"
         ]
       },
       {
@@ -20881,6 +20882,14 @@
         "samples": [
           "https://jkanime.net/break-blade-tv/1/",
           "https://jkanime.net/break-blade-tv/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dragon-ball-kai-2014/",
+        "title": "Dragon Ball Kai (2014)",
+        "samples": [
+          "https://jkanime.net/dragon-ball-kai-2014/1/",
+          "https://jkanime.net/dragon-ball-kai-2014/10/"
         ]
       },
       {
@@ -63658,8 +63667,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63670,7 +63678,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -65765,8 +65773,7 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -65775,7 +65782,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -72713,7 +72720,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78977,7 +78984,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83315,7 +83322,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88651,7 +88658,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106896,7 +106903,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -114544,7 +114551,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -129372,7 +129379,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -146050,7 +146057,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -149783,7 +149790,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156800,7 +156807,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -158593,7 +158600,8 @@
       "series": "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/",
       "title": "Fate/stay night: Unlimited Blade Works (TV) 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -158614,7 +158622,7 @@
         "https://jkanime.net/fatestay-night-unlimited-blade-works-tv-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -161730,7 +161738,8 @@
       "series": "https://jkanime.net/mushishi-zoku-shou-2nd-season/",
       "title": "Mushishi Zoku Shou 2nd Season",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -161748,7 +161757,7 @@
         "https://jkanime.net/mushishi-zoku-shou-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -167716,7 +167725,8 @@
       "series": "https://jkanime.net/dragon-ball-kai-2014/",
       "title": "Dragon Ball Kai (2014)",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 61,
       "stored": 61,
@@ -167785,7 +167795,7 @@
         "https://jkanime.net/dragon-ball-kai-2014/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 61,
