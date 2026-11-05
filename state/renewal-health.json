@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T17:51:14.004006+00:00",
+  "checkedAt": "2026-11-05T18:11:08.011718+00:00",
   "episodes": 73053,
-  "oldestHours": 245.29,
-  "pending": 71708,
+  "oldestHours": 245.62,
+  "pending": 71700,
   "expired": 57481,
-  "expiresWithin24Hours": 58259,
-  "retryAfterExpiry": 1513,
+  "expiresWithin24Hours": 58315,
+  "retryAfterExpiry": 1510,
   "successfulCyclesMeasured": 57,
-  "sampleMinutes": 1425.82,
-  "measuredWallClockPerHour": 236.66,
-  "estimatedSweepDays": 12.86,
+  "sampleMinutes": 1431.51,
+  "measuredWallClockPerHour": 235.72,
+  "estimatedSweepDays": 12.91,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 14,
+      "pendingFailures": 13,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4084,
+    "series": 4083,
     "diagnosedSeries": 4044,
-    "pendingSeries": 40
+    "pendingSeries": 39
   },
   "coverage": {
-    "checkedAt": "2026-11-05T17:51:14.004006+00:00",
+    "checkedAt": "2026-11-05T18:11:08.011718+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73873,
     "storedChapters": 73053,

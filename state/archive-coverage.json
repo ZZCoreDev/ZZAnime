@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T17:51:14.004006+00:00",
+  "checkedAt": "2026-11-05T18:11:08.011718+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73873,
   "storedChapters": 73053,
@@ -2394,14 +2394,6 @@
         "samples": [
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/10/",
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-        "title": "Kabushikigaisha Magi-Lumière",
-        "samples": [
-          "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-          "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
         ]
       },
       {
@@ -78741,8 +78733,7 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "title": "Kabushikigaisha Magi-Lumière",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -78762,7 +78753,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83100,7 +83091,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -114326,7 +114317,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,

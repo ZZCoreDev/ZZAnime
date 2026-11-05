@@ -1,25 +1,25 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-05T17:35:50.097707+00:00",
+  "checkedAt": "2026-11-05T17:56:29.379372+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 212,
-  "repairAttempts": 28,
+  "attempted": 198,
+  "repairAttempts": 24,
   "earlyRepairAttempts": 0,
-  "failed": 56518,
+  "failed": 56515,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
-  "trigger": "workflow_dispatch",
-  "runId": "42075356335",
+  "trigger": "workflow_run",
+  "runId": "42079369159",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57481,
-  "extraRenewed": 104,
-  "voeRenewed": 12,
+  "extraRenewed": 89,
+  "voeRenewed": 4,
   "published": true,
-  "expiresWithin24Hours": 58259,
-  "retryAfterExpiry": 1513,
+  "expiresWithin24Hours": 58315,
+  "retryAfterExpiry": 1510,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -138,7 +138,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 14,
+      "pendingFailures": 13,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -544,7 +544,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -747,7 +747,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -885,12 +885,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4084,
+    "series": 4083,
     "diagnosedSeries": 4044,
-    "pendingSeries": 40
+    "pendingSeries": 39
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-05T17:51:14.004006+00:00",
+    "checkedAt": "2026-11-05T18:11:08.011718+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73873,
     "storedChapters": 73053,
