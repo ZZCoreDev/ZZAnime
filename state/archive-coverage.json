@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T08:13:29.106068+00:00",
+  "checkedAt": "2026-11-05T08:27:24.247305+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -9818,14 +9818,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-        "title": "Otona no Bouguya-san II",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
-          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
         "title": "Seitokai Yakuindomo Movie 2",
         "samples": [
@@ -11027,14 +11019,6 @@
         "samples": [
           "https://jkanime.net/haikyuu-riku-vs-kuu/1/",
           "https://jkanime.net/haikyuu-riku-vs-kuu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/nekopara/",
-        "title": "Nekopara",
-        "samples": [
-          "https://jkanime.net/nekopara/1/",
-          "https://jkanime.net/nekopara/10/"
         ]
       },
       {
@@ -18453,14 +18437,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gate/",
-        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
-        "samples": [
-          "https://jkanime.net/gate/1/",
-          "https://jkanime.net/gate/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
         "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
         "samples": [
@@ -20845,14 +20821,6 @@
         "samples": [
           "https://jkanime.net/break-blade-tv/1/",
           "https://jkanime.net/break-blade-tv/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/dragon-ball-kai-2014/",
-        "title": "Dragon Ball Kai (2014)",
-        "samples": [
-          "https://jkanime.net/dragon-ball-kai-2014/1/",
-          "https://jkanime.net/dragon-ball-kai-2014/10/"
         ]
       },
       {
@@ -64195,7 +64163,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72681,7 +72649,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72994,7 +72962,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -78944,7 +78912,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83282,7 +83250,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 15,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -107045,7 +107013,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114490,8 +114458,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -114511,7 +114478,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120175,8 +120142,7 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -120195,7 +120161,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -142599,7 +142565,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -149748,7 +149714,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156708,8 +156674,7 @@
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156729,7 +156694,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167174,7 +167139,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167683,8 +167648,7 @@
       "series": "https://jkanime.net/dragon-ball-kai-2014/",
       "title": "Dragon Ball Kai (2014)",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 61,
       "stored": 61,
@@ -167753,7 +167717,7 @@
         "https://jkanime.net/dragon-ball-kai-2014/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 61,
