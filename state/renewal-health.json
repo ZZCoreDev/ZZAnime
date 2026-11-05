@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T01:07:49.398108+00:00",
+  "checkedAt": "2026-11-05T01:20:53.373646+00:00",
   "episodes": 73049,
-  "oldestHours": 228.56,
-  "pending": 72415,
-  "expired": 57475,
+  "oldestHours": 228.78,
+  "pending": 72355,
+  "expired": 57477,
   "expiresWithin24Hours": 57495,
-  "retryAfterExpiry": 1435,
+  "retryAfterExpiry": 1436,
   "successfulCyclesMeasured": 76,
-  "sampleMinutes": 1432.52,
-  "measuredWallClockPerHour": 294.74,
-  "estimatedSweepDays": 10.33,
+  "sampleMinutes": 1428.09,
+  "measuredWallClockPerHour": 296.07,
+  "estimatedSweepDays": 10.28,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 1,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -402,7 +402,7 @@
       "title": "Fuuun Ishin Dai\u2606Shogun",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/gangsta-/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -570,7 +570,7 @@
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/strange-plus/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4091,
+    "series": 4092,
     "diagnosedSeries": 4047,
-    "pendingSeries": 44
+    "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-05T01:07:49.398108+00:00",
+    "checkedAt": "2026-11-05T01:20:53.373646+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,
     "missingChapters": 513,
-    "expiredChapters": 57475,
+    "expiredChapters": 57477,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,

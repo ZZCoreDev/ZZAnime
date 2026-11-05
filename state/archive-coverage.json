@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T01:07:49.398108+00:00",
+  "checkedAt": "2026-11-05T01:20:53.373646+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
   "missingChapters": 513,
-  "expiredChapters": 57475,
+  "expiredChapters": 57477,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -9698,7 +9690,8 @@
         "series": "https://jkanime.net/idolls/",
         "title": "Idolls!",
         "samples": [
-          "https://jkanime.net/idolls/1/"
+          "https://jkanime.net/idolls/1/",
+          "https://jkanime.net/idolls/10/"
         ]
       },
       {
@@ -9722,7 +9715,7 @@
         "title": "Soukou Musume Senki",
         "samples": [
           "https://jkanime.net/soukou-musume-senki/1/",
-          "https://jkanime.net/soukou-musume-senki/7/"
+          "https://jkanime.net/soukou-musume-senki/2/"
         ]
       },
       {
@@ -18417,6 +18410,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+        "samples": [
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
         "title": "Miss Monochrome: The Animation 2",
         "samples": [
@@ -20657,6 +20658,14 @@
         "samples": [
           "https://jkanime.net/no-game-no-life/1/",
           "https://jkanime.net/no-game-no-life/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fuuun-ishin-daishogun/",
+        "title": "Fuuun Ishin Dai☆Shogun",
+        "samples": [
+          "https://jkanime.net/fuuun-ishin-daishogun/1/",
+          "https://jkanime.net/fuuun-ishin-daishogun/10/"
         ]
       },
       {
@@ -42437,7 +42446,8 @@
         "series": "https://jkanime.net/idolls/",
         "title": "Idolls!",
         "samples": [
-          "https://jkanime.net/idolls/1/"
+          "https://jkanime.net/idolls/1/",
+          "https://jkanime.net/idolls/10/"
         ]
       },
       {
@@ -42461,7 +42471,7 @@
         "title": "Soukou Musume Senki",
         "samples": [
           "https://jkanime.net/soukou-musume-senki/1/",
-          "https://jkanime.net/soukou-musume-senki/7/"
+          "https://jkanime.net/soukou-musume-senki/2/"
         ]
       },
       {
@@ -63515,8 +63525,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63527,7 +63536,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -64083,7 +64092,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72570,7 +72579,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78833,7 +78842,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -88507,7 +88516,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -113812,7 +113821,8 @@
       "stored": 10,
       "missing": [],
       "expired": [
-        "https://jkanime.net/idolls/1/"
+        "https://jkanime.net/idolls/1/",
+        "https://jkanime.net/idolls/10/"
       ],
       "noIndependent": [],
       "renewalFailed": 2,
@@ -113910,6 +113920,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/soukou-musume-senki/1/",
+        "https://jkanime.net/soukou-musume-senki/2/",
         "https://jkanime.net/soukou-musume-senki/7/"
       ],
       "noIndependent": [],
@@ -156611,7 +156622,8 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156631,7 +156643,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167015,7 +167027,8 @@
       "series": "https://jkanime.net/fuuun-ishin-daishogun/",
       "title": "Fuuun Ishin Dai☆Shogun",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -167035,7 +167048,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
