@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T00:12:26.395516+00:00",
+  "checkedAt": "2026-11-05T00:25:38.085956+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
   "missingChapters": 513,
-  "expiredChapters": 57473,
+  "expiredChapters": 57474,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -8191,14 +8191,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-        "title": "Komi-san wa, Comyushou desu.",
-        "samples": [
-          "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
-          "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/platinum-end/",
         "title": "Platinum End",
         "samples": [
@@ -9127,8 +9119,8 @@
         "series": "https://jkanime.net/super-cub/",
         "title": "Super Cub",
         "samples": [
-          "https://jkanime.net/super-cub/10/",
-          "https://jkanime.net/super-cub/11/"
+          "https://jkanime.net/super-cub/1/",
+          "https://jkanime.net/super-cub/10/"
         ]
       },
       {
@@ -18451,14 +18443,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/gate/",
-        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
-        "samples": [
-          "https://jkanime.net/gate/1/",
-          "https://jkanime.net/gate/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
         "title": "Miss Monochrome: The Animation 2",
         "samples": [
@@ -18631,6 +18615,14 @@
         "samples": [
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/1/",
           "https://jkanime.net/sidonia-no-kishi-daikyuu-wakusei-seneki/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
+        "title": "Saint Seiya: Soul of Gold",
+        "samples": [
+          "https://jkanime.net/saint-seiya-ougon-tamashii/1/",
+          "https://jkanime.net/saint-seiya-ougon-tamashii/10/"
         ]
       },
       {
@@ -41956,8 +41948,8 @@
         "series": "https://jkanime.net/super-cub/",
         "title": "Super Cub",
         "samples": [
-          "https://jkanime.net/super-cub/10/",
-          "https://jkanime.net/super-cub/11/"
+          "https://jkanime.net/super-cub/1/",
+          "https://jkanime.net/super-cub/10/"
         ]
       },
       {
@@ -72609,7 +72601,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79039,7 +79031,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -88546,7 +88538,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106950,8 +106942,7 @@
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
       "title": "Komi-san wa, Comyushou desu.",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -106971,7 +106962,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -111290,6 +111281,7 @@
       "stored": 12,
       "missing": [],
       "expired": [
+        "https://jkanime.net/super-cub/1/",
         "https://jkanime.net/super-cub/10/",
         "https://jkanime.net/super-cub/11/",
         "https://jkanime.net/super-cub/12/",
@@ -156620,8 +156612,7 @@
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156641,7 +156632,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -157491,7 +157482,8 @@
       "series": "https://jkanime.net/saint-seiya-ougon-tamashii/",
       "title": "Saint Seiya: Soul of Gold",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -157512,7 +157504,7 @@
         "https://jkanime.net/saint-seiya-ougon-tamashii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,

@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-05T00:12:26.395516+00:00",
+  "checkedAt": "2026-11-05T00:25:38.085956+00:00",
   "episodes": 73049,
-  "oldestHours": 227.64,
-  "pending": 72517,
-  "expired": 57473,
+  "oldestHours": 227.86,
+  "pending": 72483,
+  "expired": 57474,
   "expiresWithin24Hours": 57495,
   "retryAfterExpiry": 1441,
   "successfulCyclesMeasured": 75,
-  "sampleMinutes": 1429.17,
-  "measuredWallClockPerHour": 290.64,
-  "estimatedSweepDays": 10.47,
+  "sampleMinutes": 1425.38,
+  "measuredWallClockPerHour": 291.42,
+  "estimatedSweepDays": 10.44,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -318,7 +318,7 @@
       "title": "Saint Seiya: Soul of Gold",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades-sanctuary/": {
@@ -423,7 +423,7 @@
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/h2o/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -731,7 +731,7 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4095,
     "diagnosedSeries": 4047,
-    "pendingSeries": 49
+    "pendingSeries": 48
   },
   "coverage": {
-    "checkedAt": "2026-11-05T00:12:26.395516+00:00",
+    "checkedAt": "2026-11-05T00:25:38.085956+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73868,
     "storedChapters": 73049,
     "missingChapters": 513,
-    "expiredChapters": 57473,
+    "expiredChapters": 57474,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,
