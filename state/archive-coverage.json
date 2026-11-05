@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-05T13:36:34.674640+00:00",
+  "checkedAt": "2026-11-05T13:52:32.017300+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73869,
   "storedChapters": 73050,
   "missingChapters": 513,
-  "expiredChapters": 57491,
+  "expiredChapters": 57479,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -1497,13 +1504,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/classic-stars/",
-        "title": "Classic★Stars",
-        "samples": [
-          "https://jkanime.net/classic-stars/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/himitsu-no-aipri-ring-hen/",
         "title": "Himitsu no AiPri: Ring-hen",
         "samples": [
@@ -1803,14 +1803,6 @@
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/farmagia/",
-        "title": "Farmagia",
-        "samples": [
-          "https://jkanime.net/farmagia/2/",
-          "https://jkanime.net/farmagia/4/"
         ]
       },
       {
@@ -64131,7 +64123,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64140,7 +64133,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -73012,7 +73005,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -74230,8 +74223,7 @@
       "series": "https://jkanime.net/classic-stars/",
       "title": "Classic★Stars",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -74240,7 +74232,7 @@
         "https://jkanime.net/classic-stars/1/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 1,
@@ -75862,8 +75854,7 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -75873,7 +75864,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -79129,7 +79120,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83300,7 +83291,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 16,
+      "renewalFailed": 19,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88636,7 +88627,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106881,7 +106872,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -107063,7 +107054,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114529,7 +114520,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120213,7 +120204,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -134358,19 +134349,7 @@
         "https://jkanime.net/gegege-no-kitarou-2018/44/",
         "https://jkanime.net/gegege-no-kitarou-2018/5/",
         "https://jkanime.net/gegege-no-kitarou-2018/6/",
-        "https://jkanime.net/gegege-no-kitarou-2018/64/",
-        "https://jkanime.net/gegege-no-kitarou-2018/65/",
-        "https://jkanime.net/gegege-no-kitarou-2018/66/",
-        "https://jkanime.net/gegege-no-kitarou-2018/67/",
-        "https://jkanime.net/gegege-no-kitarou-2018/68/",
-        "https://jkanime.net/gegege-no-kitarou-2018/69/",
         "https://jkanime.net/gegege-no-kitarou-2018/7/",
-        "https://jkanime.net/gegege-no-kitarou-2018/70/",
-        "https://jkanime.net/gegege-no-kitarou-2018/71/",
-        "https://jkanime.net/gegege-no-kitarou-2018/72/",
-        "https://jkanime.net/gegege-no-kitarou-2018/73/",
-        "https://jkanime.net/gegege-no-kitarou-2018/74/",
-        "https://jkanime.net/gegege-no-kitarou-2018/75/",
         "https://jkanime.net/gegege-no-kitarou-2018/76/",
         "https://jkanime.net/gegege-no-kitarou-2018/77/",
         "https://jkanime.net/gegege-no-kitarou-2018/78/",
@@ -134397,14 +134376,14 @@
         "https://jkanime.net/gegege-no-kitarou-2018/97/"
       ],
       "noIndependent": [],
-      "renewalFailed": 78,
+      "renewalFailed": 66,
       "sideOnly": 0,
       "families": {
         "mega": 97,
-        "streamwish": 78,
-        "vidhide": 78,
-        "mp4upload": 78,
-        "streamtape": 78
+        "streamwish": 66,
+        "vidhide": 66,
+        "mp4upload": 66,
+        "streamtape": 66
       },
       "playbackVerified": false
     },

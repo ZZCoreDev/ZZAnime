@@ -1,8 +1,7 @@
 {
-  "attemptedAt": "2026-11-05T13:21:31.112627+00:00",
-  "state": "failed",
+  "attemptedAt": "2026-11-05T13:47:43.712188+00:00",
+  "state": "complete",
   "aiCalls": 0,
   "pcRequired": false,
-  "error": "CalledProcessError",
-  "retryAt": 1793885853.411525
+  "retryAt": 0
 }
