@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T22:35:14.620727+00:00",
+  "checkedAt": "2026-11-05T22:55:14.102149+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -2410,6 +2410,14 @@
         "samples": [
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/10/",
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+        "title": "Kabushikigaisha Magi-Lumière",
+        "samples": [
+          "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+          "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
         ]
       },
       {
@@ -78784,7 +78792,8 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "title": "Kabushikigaisha Magi-Lumière",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -78804,7 +78813,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78971,7 +78980,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83142,7 +83151,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 13,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88478,7 +88487,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106905,7 +106914,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114371,7 +114380,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
