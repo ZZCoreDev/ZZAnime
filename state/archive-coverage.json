@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T18:11:08.011718+00:00",
+  "checkedAt": "2026-11-05T18:27:14.458206+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73873,
   "storedChapters": 73053,
@@ -8106,6 +8106,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -9760,14 +9768,6 @@
         "samples": [
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/1/",
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-        "title": "Otona no Bouguya-san II",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
-          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
         ]
       },
       {
@@ -83091,7 +83091,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106655,7 +106655,8 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
@@ -106670,7 +106671,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -114296,8 +114297,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -114317,7 +114317,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
