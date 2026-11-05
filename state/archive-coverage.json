@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T01:49:05.721089+00:00",
+  "checkedAt": "2026-11-05T02:02:41.580540+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73868,
   "storedChapters": 73049,
@@ -8173,6 +8173,14 @@
         "samples": [
           "https://jkanime.net/taishou-otome-otogibanashi/1/",
           "https://jkanime.net/taishou-otome-otogibanashi/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
+        "title": "Komi-san wa, Comyushou desu.",
+        "samples": [
+          "https://jkanime.net/komi-san-wa-comyushou-desu/1/",
+          "https://jkanime.net/komi-san-wa-comyushou-desu/10/"
         ]
       },
       {
@@ -18405,14 +18413,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
-        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-        "samples": [
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/miss-monochrome-the-animation-2/",
         "title": "Miss Monochrome: The Animation 2",
         "samples": [
@@ -20685,14 +20685,6 @@
         "samples": [
           "https://jkanime.net/no-game-no-life/1/",
           "https://jkanime.net/no-game-no-life/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/fuuun-ishin-daishogun/",
-        "title": "Fuuun Ishin Dai☆Shogun",
-        "samples": [
-          "https://jkanime.net/fuuun-ishin-daishogun/1/",
-          "https://jkanime.net/fuuun-ishin-daishogun/10/"
         ]
       },
       {
@@ -72603,7 +72595,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78866,7 +78858,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79033,7 +79025,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83204,7 +83196,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -106943,7 +106935,8 @@
       "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
       "title": "Komi-san wa, Comyushou desu.",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -106963,7 +106956,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -149657,7 +149650,7 @@
         "https://jkanime.net/seisen-cerberus-ryuukoku-no-fatalits/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -156648,8 +156641,7 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -156669,7 +156661,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -167057,8 +167049,7 @@
       "series": "https://jkanime.net/fuuun-ishin-daishogun/",
       "title": "Fuuun Ishin Dai☆Shogun",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -167078,7 +167069,7 @@
         "https://jkanime.net/fuuun-ishin-daishogun/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
