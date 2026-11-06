@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T20:31:01.414438+00:00",
+  "checkedAt": "2026-11-06T20:48:27.230587+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 58758,
+  "expiredChapters": 58785,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -62153,6 +62161,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/tenkuu-no-escaflowne/",
+        "title": "Tenkuu no Escaflowne",
+        "samples": [
+          "https://jkanime.net/tenkuu-no-escaflowne/1/",
+          "https://jkanime.net/tenkuu-no-escaflowne/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/dragon-ball-gt/",
         "title": "Dragon Ball GT",
         "samples": [
@@ -64341,7 +64357,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -64352,7 +64369,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -73401,7 +73418,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -226820,11 +226837,40 @@
     {
       "series": "https://jkanime.net/tenkuu-no-escaflowne/",
       "title": "Tenkuu no Escaflowne",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 26,
       "stored": 26,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tenkuu-no-escaflowne/1/",
+        "https://jkanime.net/tenkuu-no-escaflowne/10/",
+        "https://jkanime.net/tenkuu-no-escaflowne/11/",
+        "https://jkanime.net/tenkuu-no-escaflowne/12/",
+        "https://jkanime.net/tenkuu-no-escaflowne/13/",
+        "https://jkanime.net/tenkuu-no-escaflowne/14/",
+        "https://jkanime.net/tenkuu-no-escaflowne/15/",
+        "https://jkanime.net/tenkuu-no-escaflowne/16/",
+        "https://jkanime.net/tenkuu-no-escaflowne/17/",
+        "https://jkanime.net/tenkuu-no-escaflowne/18/",
+        "https://jkanime.net/tenkuu-no-escaflowne/19/",
+        "https://jkanime.net/tenkuu-no-escaflowne/2/",
+        "https://jkanime.net/tenkuu-no-escaflowne/20/",
+        "https://jkanime.net/tenkuu-no-escaflowne/21/",
+        "https://jkanime.net/tenkuu-no-escaflowne/22/",
+        "https://jkanime.net/tenkuu-no-escaflowne/23/",
+        "https://jkanime.net/tenkuu-no-escaflowne/24/",
+        "https://jkanime.net/tenkuu-no-escaflowne/25/",
+        "https://jkanime.net/tenkuu-no-escaflowne/26/",
+        "https://jkanime.net/tenkuu-no-escaflowne/3/",
+        "https://jkanime.net/tenkuu-no-escaflowne/4/",
+        "https://jkanime.net/tenkuu-no-escaflowne/5/",
+        "https://jkanime.net/tenkuu-no-escaflowne/6/",
+        "https://jkanime.net/tenkuu-no-escaflowne/7/",
+        "https://jkanime.net/tenkuu-no-escaflowne/8/",
+        "https://jkanime.net/tenkuu-no-escaflowne/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -226944,6 +226990,7 @@
         "https://jkanime.net/rurouni-kenshin/18/",
         "https://jkanime.net/rurouni-kenshin/19/",
         "https://jkanime.net/rurouni-kenshin/2/",
+        "https://jkanime.net/rurouni-kenshin/20/",
         "https://jkanime.net/rurouni-kenshin/21/",
         "https://jkanime.net/rurouni-kenshin/22/",
         "https://jkanime.net/rurouni-kenshin/23/",
