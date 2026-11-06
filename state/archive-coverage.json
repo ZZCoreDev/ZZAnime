@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T20:48:27.230587+00:00",
+  "checkedAt": "2026-11-06T21:05:58.255147+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 58785,
+  "expiredChapters": 58807,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -31001,7 +31001,7 @@
         "title": "Armitage III",
         "samples": [
           "https://jkanime.net/armitage-iii/1/",
-          "https://jkanime.net/armitage-iii/3/"
+          "https://jkanime.net/armitage-iii/2/"
         ]
       },
       {
@@ -62245,7 +62245,7 @@
         "title": "Armitage III",
         "samples": [
           "https://jkanime.net/armitage-iii/1/",
-          "https://jkanime.net/armitage-iii/3/"
+          "https://jkanime.net/armitage-iii/2/"
         ]
       },
       {
@@ -88539,6 +88539,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/40/",
         "https://jkanime.net/kusuriya-no-hitorigoto/41/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/43/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -227563,6 +227564,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/armitage-iii/1/",
+        "https://jkanime.net/armitage-iii/2/",
         "https://jkanime.net/armitage-iii/3/",
         "https://jkanime.net/armitage-iii/4/"
       ],
@@ -227872,6 +227874,7 @@
       "expired": [
         "https://jkanime.net/taiho-shichau-zo/1/",
         "https://jkanime.net/taiho-shichau-zo/2/",
+        "https://jkanime.net/taiho-shichau-zo/3/",
         "https://jkanime.net/taiho-shichau-zo/4/"
       ],
       "noIndependent": [],
@@ -227978,10 +227981,12 @@
         "https://jkanime.net/red-baron/27/",
         "https://jkanime.net/red-baron/28/",
         "https://jkanime.net/red-baron/29/",
+        "https://jkanime.net/red-baron/3/",
         "https://jkanime.net/red-baron/30/",
         "https://jkanime.net/red-baron/31/",
         "https://jkanime.net/red-baron/32/",
         "https://jkanime.net/red-baron/33/",
+        "https://jkanime.net/red-baron/34/",
         "https://jkanime.net/red-baron/35/",
         "https://jkanime.net/red-baron/36/",
         "https://jkanime.net/red-baron/37/",
@@ -227992,11 +227997,16 @@
         "https://jkanime.net/red-baron/41/",
         "https://jkanime.net/red-baron/42/",
         "https://jkanime.net/red-baron/43/",
+        "https://jkanime.net/red-baron/44/",
+        "https://jkanime.net/red-baron/45/",
+        "https://jkanime.net/red-baron/46/",
+        "https://jkanime.net/red-baron/47/",
         "https://jkanime.net/red-baron/48/",
         "https://jkanime.net/red-baron/49/",
         "https://jkanime.net/red-baron/5/",
         "https://jkanime.net/red-baron/6/",
         "https://jkanime.net/red-baron/7/",
+        "https://jkanime.net/red-baron/8/",
         "https://jkanime.net/red-baron/9/"
       ],
       "noIndependent": [],
@@ -228042,17 +228052,29 @@
         "https://jkanime.net/kidou-butouden-g-gundam/25/",
         "https://jkanime.net/kidou-butouden-g-gundam/26/",
         "https://jkanime.net/kidou-butouden-g-gundam/27/",
+        "https://jkanime.net/kidou-butouden-g-gundam/28/",
         "https://jkanime.net/kidou-butouden-g-gundam/29/",
         "https://jkanime.net/kidou-butouden-g-gundam/3/",
+        "https://jkanime.net/kidou-butouden-g-gundam/30/",
         "https://jkanime.net/kidou-butouden-g-gundam/31/",
         "https://jkanime.net/kidou-butouden-g-gundam/32/",
         "https://jkanime.net/kidou-butouden-g-gundam/33/",
+        "https://jkanime.net/kidou-butouden-g-gundam/34/",
+        "https://jkanime.net/kidou-butouden-g-gundam/35/",
+        "https://jkanime.net/kidou-butouden-g-gundam/36/",
         "https://jkanime.net/kidou-butouden-g-gundam/37/",
+        "https://jkanime.net/kidou-butouden-g-gundam/38/",
+        "https://jkanime.net/kidou-butouden-g-gundam/39/",
         "https://jkanime.net/kidou-butouden-g-gundam/4/",
+        "https://jkanime.net/kidou-butouden-g-gundam/40/",
+        "https://jkanime.net/kidou-butouden-g-gundam/41/",
         "https://jkanime.net/kidou-butouden-g-gundam/42/",
+        "https://jkanime.net/kidou-butouden-g-gundam/43/",
+        "https://jkanime.net/kidou-butouden-g-gundam/44/",
         "https://jkanime.net/kidou-butouden-g-gundam/45/",
         "https://jkanime.net/kidou-butouden-g-gundam/46/",
         "https://jkanime.net/kidou-butouden-g-gundam/47/",
+        "https://jkanime.net/kidou-butouden-g-gundam/48/",
         "https://jkanime.net/kidou-butouden-g-gundam/49/",
         "https://jkanime.net/kidou-butouden-g-gundam/5/",
         "https://jkanime.net/kidou-butouden-g-gundam/6/",
