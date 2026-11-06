@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T14:46:57.906462+00:00",
+  "checkedAt": "2026-11-06T15:05:01.093747+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73059,
   "missingChapters": 510,
-  "expiredChapters": 57727,
+  "expiredChapters": 57802,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -28818,7 +28818,7 @@
         "title": "2x2=Shinobuden",
         "samples": [
           "https://jkanime.net/2x2-shinobuden/1/",
-          "https://jkanime.net/2x2-shinobuden/11/"
+          "https://jkanime.net/2x2-shinobuden/10/"
         ]
       },
       {
@@ -28826,7 +28826,7 @@
         "title": "Otogizoushi",
         "samples": [
           "https://jkanime.net/otogizoushi/1/",
-          "https://jkanime.net/otogizoushi/12/"
+          "https://jkanime.net/otogizoushi/10/"
         ]
       },
       {
@@ -28897,7 +28897,7 @@
         "title": "Bakuretsu Tenshi",
         "samples": [
           "https://jkanime.net/bakuretsu-tenshi/1/",
-          "https://jkanime.net/bakuretsu-tenshi/2/"
+          "https://jkanime.net/bakuretsu-tenshi/10/"
         ]
       },
       {
@@ -59547,7 +59547,7 @@
         "title": "2x2=Shinobuden",
         "samples": [
           "https://jkanime.net/2x2-shinobuden/1/",
-          "https://jkanime.net/2x2-shinobuden/11/"
+          "https://jkanime.net/2x2-shinobuden/10/"
         ]
       },
       {
@@ -59555,7 +59555,7 @@
         "title": "Otogizoushi",
         "samples": [
           "https://jkanime.net/otogizoushi/1/",
-          "https://jkanime.net/otogizoushi/12/"
+          "https://jkanime.net/otogizoushi/10/"
         ]
       },
       {
@@ -59619,7 +59619,7 @@
         "title": "Bakuretsu Tenshi",
         "samples": [
           "https://jkanime.net/bakuretsu-tenshi/1/",
-          "https://jkanime.net/bakuretsu-tenshi/2/"
+          "https://jkanime.net/bakuretsu-tenshi/10/"
         ]
       },
       {
@@ -59652,6 +59652,14 @@
         "samples": [
           "https://jkanime.net/gantz/1/",
           "https://jkanime.net/gantz/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-tai-arusu/",
+        "title": "Mahou Shoujo-tai Arusu",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-tai-arusu/1/",
+          "https://jkanime.net/mahou-shoujo-tai-arusu/11/"
         ]
       },
       {
@@ -208700,6 +208708,7 @@
         "https://jkanime.net/tsubasa-chronicle/30/",
         "https://jkanime.net/tsubasa-chronicle/31/",
         "https://jkanime.net/tsubasa-chronicle/32/",
+        "https://jkanime.net/tsubasa-chronicle/33/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
@@ -211569,6 +211578,7 @@
         "https://jkanime.net/bouken-ou-beet/49/",
         "https://jkanime.net/bouken-ou-beet/5/",
         "https://jkanime.net/bouken-ou-beet/50/",
+        "https://jkanime.net/bouken-ou-beet/51/",
         "https://jkanime.net/bouken-ou-beet/52/",
         "https://jkanime.net/bouken-ou-beet/6/",
         "https://jkanime.net/bouken-ou-beet/7/",
@@ -211750,11 +211760,17 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/2x2-shinobuden/1/",
+        "https://jkanime.net/2x2-shinobuden/10/",
         "https://jkanime.net/2x2-shinobuden/11/",
+        "https://jkanime.net/2x2-shinobuden/12/",
         "https://jkanime.net/2x2-shinobuden/2/",
         "https://jkanime.net/2x2-shinobuden/3/",
+        "https://jkanime.net/2x2-shinobuden/4/",
         "https://jkanime.net/2x2-shinobuden/5/",
-        "https://jkanime.net/2x2-shinobuden/6/"
+        "https://jkanime.net/2x2-shinobuden/6/",
+        "https://jkanime.net/2x2-shinobuden/7/",
+        "https://jkanime.net/2x2-shinobuden/8/",
+        "https://jkanime.net/2x2-shinobuden/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 6,
@@ -211780,7 +211796,31 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/otogizoushi/1/",
-        "https://jkanime.net/otogizoushi/12/"
+        "https://jkanime.net/otogizoushi/10/",
+        "https://jkanime.net/otogizoushi/11/",
+        "https://jkanime.net/otogizoushi/12/",
+        "https://jkanime.net/otogizoushi/13/",
+        "https://jkanime.net/otogizoushi/14/",
+        "https://jkanime.net/otogizoushi/15/",
+        "https://jkanime.net/otogizoushi/16/",
+        "https://jkanime.net/otogizoushi/17/",
+        "https://jkanime.net/otogizoushi/18/",
+        "https://jkanime.net/otogizoushi/19/",
+        "https://jkanime.net/otogizoushi/2/",
+        "https://jkanime.net/otogizoushi/20/",
+        "https://jkanime.net/otogizoushi/21/",
+        "https://jkanime.net/otogizoushi/22/",
+        "https://jkanime.net/otogizoushi/23/",
+        "https://jkanime.net/otogizoushi/24/",
+        "https://jkanime.net/otogizoushi/25/",
+        "https://jkanime.net/otogizoushi/26/",
+        "https://jkanime.net/otogizoushi/3/",
+        "https://jkanime.net/otogizoushi/4/",
+        "https://jkanime.net/otogizoushi/5/",
+        "https://jkanime.net/otogizoushi/6/",
+        "https://jkanime.net/otogizoushi/7/",
+        "https://jkanime.net/otogizoushi/8/",
+        "https://jkanime.net/otogizoushi/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 2,
@@ -211809,8 +211849,10 @@
         "https://jkanime.net/girls-bravo-first-season/1/",
         "https://jkanime.net/girls-bravo-first-season/10/",
         "https://jkanime.net/girls-bravo-first-season/11/",
+        "https://jkanime.net/girls-bravo-first-season/2/",
         "https://jkanime.net/girls-bravo-first-season/3/",
         "https://jkanime.net/girls-bravo-first-season/4/",
+        "https://jkanime.net/girls-bravo-first-season/5/",
         "https://jkanime.net/girls-bravo-first-season/6/",
         "https://jkanime.net/girls-bravo-first-season/7/",
         "https://jkanime.net/girls-bravo-first-season/8/",
@@ -212110,8 +212152,29 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/bakuretsu-tenshi/1/",
+        "https://jkanime.net/bakuretsu-tenshi/10/",
+        "https://jkanime.net/bakuretsu-tenshi/11/",
+        "https://jkanime.net/bakuretsu-tenshi/12/",
+        "https://jkanime.net/bakuretsu-tenshi/13/",
+        "https://jkanime.net/bakuretsu-tenshi/14/",
+        "https://jkanime.net/bakuretsu-tenshi/15/",
+        "https://jkanime.net/bakuretsu-tenshi/16/",
+        "https://jkanime.net/bakuretsu-tenshi/17/",
+        "https://jkanime.net/bakuretsu-tenshi/18/",
+        "https://jkanime.net/bakuretsu-tenshi/19/",
         "https://jkanime.net/bakuretsu-tenshi/2/",
-        "https://jkanime.net/bakuretsu-tenshi/4/"
+        "https://jkanime.net/bakuretsu-tenshi/20/",
+        "https://jkanime.net/bakuretsu-tenshi/21/",
+        "https://jkanime.net/bakuretsu-tenshi/22/",
+        "https://jkanime.net/bakuretsu-tenshi/23/",
+        "https://jkanime.net/bakuretsu-tenshi/24/",
+        "https://jkanime.net/bakuretsu-tenshi/3/",
+        "https://jkanime.net/bakuretsu-tenshi/4/",
+        "https://jkanime.net/bakuretsu-tenshi/5/",
+        "https://jkanime.net/bakuretsu-tenshi/6/",
+        "https://jkanime.net/bakuretsu-tenshi/7/",
+        "https://jkanime.net/bakuretsu-tenshi/8/",
+        "https://jkanime.net/bakuretsu-tenshi/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -212320,11 +212383,34 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-tai-arusu/",
       "title": "Mahou Shoujo-tai Arusu",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 20,
       "stored": 20,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mahou-shoujo-tai-arusu/1/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/11/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/13/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/15/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/17/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/19/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/21/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/23/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/25/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/27/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/29/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/3/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/31/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/33/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/35/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/37/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/39/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/5/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/7/",
+        "https://jkanime.net/mahou-shoujo-tai-arusu/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
