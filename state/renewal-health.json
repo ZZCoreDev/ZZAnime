@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T12:23:33.270009+00:00",
+  "checkedAt": "2026-11-06T12:41:02.606516+00:00",
   "episodes": 73059,
-  "oldestHours": 263.83,
-  "pending": 71889,
+  "oldestHours": 264.12,
+  "pending": 71897,
   "expired": 57526,
-  "expiresWithin24Hours": 71026,
-  "retryAfterExpiry": 1612,
-  "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1411.35,
-  "measuredWallClockPerHour": 311.62,
-  "estimatedSweepDays": 9.77,
+  "expiresWithin24Hours": 71129,
+  "retryAfterExpiry": 1609,
+  "successfulCyclesMeasured": 80,
+  "sampleMinutes": 1428.84,
+  "measuredWallClockPerHour": 312.0,
+  "estimatedSweepDays": 9.76,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4095,
     "diagnosedSeries": 4046,
-    "pendingSeries": 50
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-06T12:23:33.270009+00:00",
+    "checkedAt": "2026-11-06T12:41:02.606516+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73059,
