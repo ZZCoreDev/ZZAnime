@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T10:36:31.843693+00:00",
+  "checkedAt": "2026-11-06T10:53:53.182315+00:00",
   "failedChapters": 56580,
   "series": 4095,
   "diagnosedSeries": 4045,
@@ -96879,7 +96879,7 @@
       "failedChapters": 7,
       "samples": [
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/4/"
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/12/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -99324,7 +99324,7 @@
       "failedChapters": 6,
       "samples": [
         "https://jkanime.net/komi-san-wa-comyushou-desu/12/",
-        "https://jkanime.net/komi-san-wa-comyushou-desu/3/"
+        "https://jkanime.net/komi-san-wa-comyushou-desu/2/"
       ],
       "diagnosedSample": null,
       "sources": {},
