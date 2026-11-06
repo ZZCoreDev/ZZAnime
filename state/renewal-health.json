@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T00:33:32.113789+00:00",
+  "checkedAt": "2026-11-06T00:51:11.451054+00:00",
   "episodes": 73057,
-  "oldestHours": 251.99,
-  "pending": 71567,
+  "oldestHours": 252.29,
+  "pending": 71548,
   "expired": 57483,
-  "expiresWithin24Hours": 60795,
-  "retryAfterExpiry": 1527,
+  "expiresWithin24Hours": 60946,
+  "retryAfterExpiry": 1531,
   "successfulCyclesMeasured": 61,
-  "sampleMinutes": 1432.4,
-  "measuredWallClockPerHour": 250.49,
-  "estimatedSweepDays": 12.15,
+  "sampleMinutes": 1435.92,
+  "measuredWallClockPerHour": 249.87,
+  "estimatedSweepDays": 12.18,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-06T00:33:32.113789+00:00",
+    "checkedAt": "2026-11-06T00:51:11.451054+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
