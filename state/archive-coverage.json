@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T13:52:15.169714+00:00",
+  "checkedAt": "2026-11-06T14:10:30.036285+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73059,
   "missingChapters": 510,
-  "expiredChapters": 57615,
+  "expiredChapters": 57646,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
   "voeOnlyChapters": 46,
-  "extraOnlyChapters": 305,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -28525,8 +28525,8 @@
         "series": "https://jkanime.net/peach-girl/",
         "title": "Peach Girl",
         "samples": [
-          "https://jkanime.net/peach-girl/10/",
-          "https://jkanime.net/peach-girl/11/"
+          "https://jkanime.net/peach-girl/1/",
+          "https://jkanime.net/peach-girl/10/"
         ]
       },
       {
@@ -28579,7 +28579,8 @@
         "series": "https://jkanime.net/kujibiki-unbalance/",
         "title": "Kujibiki Unbalance",
         "samples": [
-          "https://jkanime.net/kujibiki-unbalance/1/"
+          "https://jkanime.net/kujibiki-unbalance/1/",
+          "https://jkanime.net/kujibiki-unbalance/2/"
         ]
       },
       {
@@ -28634,8 +28635,8 @@
         "series": "https://jkanime.net/mobile-suit-gundam-seed-destiny/",
         "title": "Mobile Suit Gundam Seed Destiny",
         "samples": [
-          "https://jkanime.net/mobile-suit-gundam-seed-destiny/27/",
-          "https://jkanime.net/mobile-suit-gundam-seed-destiny/28/"
+          "https://jkanime.net/mobile-suit-gundam-seed-destiny/1/",
+          "https://jkanime.net/mobile-suit-gundam-seed-destiny/10/"
         ]
       },
       {
@@ -59279,8 +59280,8 @@
         "series": "https://jkanime.net/peach-girl/",
         "title": "Peach Girl",
         "samples": [
-          "https://jkanime.net/peach-girl/10/",
-          "https://jkanime.net/peach-girl/11/"
+          "https://jkanime.net/peach-girl/1/",
+          "https://jkanime.net/peach-girl/10/"
         ]
       },
       {
@@ -59319,7 +59320,8 @@
         "series": "https://jkanime.net/kujibiki-unbalance/",
         "title": "Kujibiki Unbalance",
         "samples": [
-          "https://jkanime.net/kujibiki-unbalance/1/"
+          "https://jkanime.net/kujibiki-unbalance/1/",
+          "https://jkanime.net/kujibiki-unbalance/2/"
         ]
       },
       {
@@ -59374,8 +59376,8 @@
         "series": "https://jkanime.net/mobile-suit-gundam-seed-destiny/",
         "title": "Mobile Suit Gundam Seed Destiny",
         "samples": [
-          "https://jkanime.net/mobile-suit-gundam-seed-destiny/27/",
-          "https://jkanime.net/mobile-suit-gundam-seed-destiny/28/"
+          "https://jkanime.net/mobile-suit-gundam-seed-destiny/1/",
+          "https://jkanime.net/mobile-suit-gundam-seed-destiny/10/"
         ]
       },
       {
@@ -106052,6 +106054,7 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/10/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/11/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/12/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/26/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/3/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/4/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/6/",
@@ -208650,6 +208653,8 @@
         "https://jkanime.net/tsubasa-chronicle/25/",
         "https://jkanime.net/tsubasa-chronicle/26/",
         "https://jkanime.net/tsubasa-chronicle/27/",
+        "https://jkanime.net/tsubasa-chronicle/28/",
+        "https://jkanime.net/tsubasa-chronicle/29/",
         "https://jkanime.net/tsubasa-chronicle/3/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
@@ -209483,6 +209488,7 @@
       "stored": 25,
       "missing": [],
       "expired": [
+        "https://jkanime.net/peach-girl/1/",
         "https://jkanime.net/peach-girl/10/",
         "https://jkanime.net/peach-girl/11/",
         "https://jkanime.net/peach-girl/12/",
@@ -209747,7 +209753,9 @@
       "stored": 3,
       "missing": [],
       "expired": [
-        "https://jkanime.net/kujibiki-unbalance/1/"
+        "https://jkanime.net/kujibiki-unbalance/1/",
+        "https://jkanime.net/kujibiki-unbalance/2/",
+        "https://jkanime.net/kujibiki-unbalance/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -210105,9 +210113,29 @@
       "stored": 50,
       "missing": [],
       "expired": [
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/1/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/10/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/11/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/12/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/13/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/14/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/15/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/16/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/17/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/18/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/19/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/2/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/20/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/21/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/22/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/23/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/24/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/25/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/26/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/27/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/28/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/29/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/3/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/30/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/31/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/32/",
@@ -210118,6 +210146,7 @@
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/37/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/38/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/39/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/4/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/40/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/41/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/42/",
@@ -210128,8 +210157,12 @@
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/47/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/48/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/49/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/5/",
         "https://jkanime.net/mobile-suit-gundam-seed-destiny/50/",
-        "https://jkanime.net/mobile-suit-gundam-seed-destiny/6/"
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/6/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/7/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/8/",
+        "https://jkanime.net/mobile-suit-gundam-seed-destiny/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 25,
