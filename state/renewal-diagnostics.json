@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-06T12:58:52.191944+00:00",
-  "failedChapters": 56568,
-  "series": 4095,
+  "checkedAt": "2026-11-06T13:16:52.932051+00:00",
+  "failedChapters": 56566,
+  "series": 4094,
   "diagnosedSeries": 4046,
-  "pendingSeries": 49,
+  "pendingSeries": 48,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -32,8 +32,8 @@
     "Source did not return a verified observation": 231,
     "Source HTTP 522": 12,
     "Source HTTP 302": 89,
-    "TimeoutError: The read operation timed out": 14,
     "URLError: <urlopen error [Errno 104] Connection reset by peer>": 2,
+    "TimeoutError: The read operation timed out": 12,
     "Unverified source mapping": 123,
     "Source HTTP 520": 11,
     "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>": 2,
@@ -6201,40 +6201,6 @@
       "nextRetryAt": 1793212252.624283
     },
     {
-      "series": "https://jkanime.net/dragon-ball-heroes/",
-      "failedChapters": 39,
-      "samples": [
-        "https://jkanime.net/dragon-ball-heroes/2/",
-        "https://jkanime.net/dragon-ball-heroes/25/"
-      ],
-      "diagnosedSample": "https://jkanime.net/dragon-ball-heroes/56/",
-      "sources": {
-        "flv": {
-          "cause": "identity-mismatch",
-          "message": "Ambiguous AnimeFLV listing identity",
-          "stage": "listing",
-          "status": null
-        },
-        "jk": {
-          "cachedFailure": true,
-          "cause": "access-denied",
-          "message": "Source HTTP 403",
-          "retryAt": 1793259643577,
-          "stage": "listing",
-          "status": 403
-        },
-        "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "episode",
-          "status": 404
-        }
-      },
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793261313.9532793
-    },
-    {
       "series": "https://jkanime.net/ginga-e-kickoff/",
       "failedChapters": 39,
       "samples": [
@@ -6613,6 +6579,40 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793194050.2746847
+    },
+    {
+      "series": "https://jkanime.net/dragon-ball-heroes/",
+      "failedChapters": 38,
+      "samples": [
+        "https://jkanime.net/dragon-ball-heroes/2/",
+        "https://jkanime.net/dragon-ball-heroes/25/"
+      ],
+      "diagnosedSample": "https://jkanime.net/dragon-ball-heroes/56/",
+      "sources": {
+        "flv": {
+          "cause": "identity-mismatch",
+          "message": "Ambiguous AnimeFLV listing identity",
+          "stage": "listing",
+          "status": null
+        },
+        "jk": {
+          "cachedFailure": true,
+          "cause": "access-denied",
+          "message": "Source HTTP 403",
+          "retryAt": 1793259643577,
+          "stage": "listing",
+          "status": 403
+        },
+        "tio": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "episode",
+          "status": 404
+        }
+      },
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793261313.9532793
     },
     {
       "series": "https://jkanime.net/fei-ren-zai/",
@@ -130394,18 +130394,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793810123.0608346
-    },
-    {
-      "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793969208.7024088
     },
     {
       "series": "https://jkanime.net/nakitai-watashi-wa-neko-wo-kaburu/",

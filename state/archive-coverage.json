@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T12:58:52.191944+00:00",
+  "checkedAt": "2026-11-06T13:16:52.932051+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73059,
@@ -2568,13 +2568,6 @@
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
         "samples": [
           "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/12/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
-        "title": "Nageki no Bourei wa Intai shitai",
-        "samples": [
-          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
         ]
       },
       {
@@ -79637,15 +79630,13 @@
     {
       "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
       "title": "Nageki no Bourei wa Intai shitai",
-      "causes": [
-        "renewal-error"
-      ],
+      "causes": [],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "streamwish": 21,
@@ -132345,7 +132336,7 @@
         "https://jkanime.net/dragon-ball-heroes/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 39,
+      "renewalFailed": 38,
       "sideOnly": 0,
       "families": {
         "mp4upload": 46,
