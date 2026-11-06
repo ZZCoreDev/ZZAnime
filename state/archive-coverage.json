@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T16:48:42.014832+00:00",
+  "checkedAt": "2026-11-06T17:06:49.339463+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73878,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 58103,
+  "expiredChapters": 58135,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -29752,8 +29752,8 @@
         "series": "https://jkanime.net/mobile-suit-gundam-seed/",
         "title": "Mobile Suit Gundam Seed",
         "samples": [
-          "https://jkanime.net/mobile-suit-gundam-seed/22/",
-          "https://jkanime.net/mobile-suit-gundam-seed/27/"
+          "https://jkanime.net/mobile-suit-gundam-seed/1/",
+          "https://jkanime.net/mobile-suit-gundam-seed/10/"
         ]
       },
       {
@@ -60465,8 +60465,8 @@
         "series": "https://jkanime.net/mobile-suit-gundam-seed/",
         "title": "Mobile Suit Gundam Seed",
         "samples": [
-          "https://jkanime.net/mobile-suit-gundam-seed/22/",
-          "https://jkanime.net/mobile-suit-gundam-seed/27/"
+          "https://jkanime.net/mobile-suit-gundam-seed/1/",
+          "https://jkanime.net/mobile-suit-gundam-seed/10/"
         ]
       },
       {
@@ -130879,6 +130879,7 @@
       "expired": [
         "https://jkanime.net/piano-no-mori-tv/10/",
         "https://jkanime.net/piano-no-mori-tv/19/",
+        "https://jkanime.net/piano-no-mori-tv/20/",
         "https://jkanime.net/piano-no-mori-tv/8/"
       ],
       "noIndependent": [],
@@ -208787,6 +208788,7 @@
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/40/",
         "https://jkanime.net/tsubasa-chronicle/41/",
+        "https://jkanime.net/tsubasa-chronicle/42/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
         "https://jkanime.net/tsubasa-chronicle/7/",
@@ -217505,10 +217507,29 @@
       "stored": 48,
       "missing": [],
       "expired": [
+        "https://jkanime.net/mobile-suit-gundam-seed/1/",
+        "https://jkanime.net/mobile-suit-gundam-seed/10/",
+        "https://jkanime.net/mobile-suit-gundam-seed/11/",
+        "https://jkanime.net/mobile-suit-gundam-seed/12/",
+        "https://jkanime.net/mobile-suit-gundam-seed/13/",
+        "https://jkanime.net/mobile-suit-gundam-seed/14/",
+        "https://jkanime.net/mobile-suit-gundam-seed/15/",
+        "https://jkanime.net/mobile-suit-gundam-seed/16/",
+        "https://jkanime.net/mobile-suit-gundam-seed/17/",
+        "https://jkanime.net/mobile-suit-gundam-seed/18/",
+        "https://jkanime.net/mobile-suit-gundam-seed/19/",
+        "https://jkanime.net/mobile-suit-gundam-seed/2/",
+        "https://jkanime.net/mobile-suit-gundam-seed/20/",
+        "https://jkanime.net/mobile-suit-gundam-seed/21/",
         "https://jkanime.net/mobile-suit-gundam-seed/22/",
+        "https://jkanime.net/mobile-suit-gundam-seed/23/",
+        "https://jkanime.net/mobile-suit-gundam-seed/24/",
+        "https://jkanime.net/mobile-suit-gundam-seed/25/",
+        "https://jkanime.net/mobile-suit-gundam-seed/26/",
         "https://jkanime.net/mobile-suit-gundam-seed/27/",
         "https://jkanime.net/mobile-suit-gundam-seed/28/",
         "https://jkanime.net/mobile-suit-gundam-seed/29/",
+        "https://jkanime.net/mobile-suit-gundam-seed/3/",
         "https://jkanime.net/mobile-suit-gundam-seed/30/",
         "https://jkanime.net/mobile-suit-gundam-seed/31/",
         "https://jkanime.net/mobile-suit-gundam-seed/32/",
@@ -217519,14 +217540,21 @@
         "https://jkanime.net/mobile-suit-gundam-seed/37/",
         "https://jkanime.net/mobile-suit-gundam-seed/38/",
         "https://jkanime.net/mobile-suit-gundam-seed/39/",
+        "https://jkanime.net/mobile-suit-gundam-seed/4/",
         "https://jkanime.net/mobile-suit-gundam-seed/40/",
         "https://jkanime.net/mobile-suit-gundam-seed/41/",
         "https://jkanime.net/mobile-suit-gundam-seed/42/",
         "https://jkanime.net/mobile-suit-gundam-seed/43/",
         "https://jkanime.net/mobile-suit-gundam-seed/44/",
+        "https://jkanime.net/mobile-suit-gundam-seed/45/",
         "https://jkanime.net/mobile-suit-gundam-seed/46/",
         "https://jkanime.net/mobile-suit-gundam-seed/47/",
-        "https://jkanime.net/mobile-suit-gundam-seed/48/"
+        "https://jkanime.net/mobile-suit-gundam-seed/48/",
+        "https://jkanime.net/mobile-suit-gundam-seed/5/",
+        "https://jkanime.net/mobile-suit-gundam-seed/6/",
+        "https://jkanime.net/mobile-suit-gundam-seed/7/",
+        "https://jkanime.net/mobile-suit-gundam-seed/8/",
+        "https://jkanime.net/mobile-suit-gundam-seed/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 22,
@@ -217567,7 +217595,9 @@
         "https://jkanime.net/get-backers/20/",
         "https://jkanime.net/get-backers/21/",
         "https://jkanime.net/get-backers/22/",
+        "https://jkanime.net/get-backers/23/",
         "https://jkanime.net/get-backers/24/",
+        "https://jkanime.net/get-backers/25/",
         "https://jkanime.net/get-backers/26/",
         "https://jkanime.net/get-backers/27/",
         "https://jkanime.net/get-backers/28/",
@@ -217588,8 +217618,10 @@
         "https://jkanime.net/get-backers/41/",
         "https://jkanime.net/get-backers/42/",
         "https://jkanime.net/get-backers/43/",
+        "https://jkanime.net/get-backers/44/",
         "https://jkanime.net/get-backers/45/",
         "https://jkanime.net/get-backers/46/",
+        "https://jkanime.net/get-backers/47/",
         "https://jkanime.net/get-backers/48/",
         "https://jkanime.net/get-backers/49/",
         "https://jkanime.net/get-backers/5/",
