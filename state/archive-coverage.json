@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T01:39:01.290943+00:00",
+  "checkedAt": "2026-11-06T01:54:39.789593+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -295,6 +302,13 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-shizuku/",
+        "title": "Kami no Shizuku",
+        "samples": [
+          "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
       {
@@ -1803,6 +1817,14 @@
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/farmagia/",
+        "title": "Farmagia",
+        "samples": [
+          "https://jkanime.net/farmagia/2/",
+          "https://jkanime.net/farmagia/4/"
         ]
       },
       {
@@ -64023,7 +64045,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64032,7 +64055,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -65641,7 +65664,8 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -65650,7 +65674,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -72590,7 +72614,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -74424,7 +74448,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -75754,7 +75778,8 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -75764,7 +75789,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -78853,7 +78878,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79020,7 +79045,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 10,

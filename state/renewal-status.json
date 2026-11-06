@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-06T01:24:05.011052+00:00",
+  "checkedAt": "2026-11-06T01:41:45.336305+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 220,
-  "repairAttempts": 30,
+  "attempted": 154,
+  "repairAttempts": 13,
   "earlyRepairAttempts": 0,
-  "failed": 56548,
+  "failed": 56558,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42143358338",
+  "runId": "42145263387",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57483,
-  "extraRenewed": 93,
+  "extraRenewed": 41,
   "published": true,
-  "expiresWithin24Hours": 61137,
-  "retryAfterExpiry": 1573,
+  "expiresWithin24Hours": 61344,
+  "retryAfterExpiry": 1586,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -739,14 +739,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4095,
+    "series": 4098,
     "diagnosedSeries": 4045,
-    "pendingSeries": 50
+    "pendingSeries": 53
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-06T01:39:01.290943+00:00",
+    "checkedAt": "2026-11-06T01:54:39.789593+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
