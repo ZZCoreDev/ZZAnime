@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T18:24:57.755986+00:00",
+  "checkedAt": "2026-11-06T18:42:55.521046+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73878,
-  "storedChapters": 73060,
+  "observedChapters": 73879,
+  "storedChapters": 73061,
   "missingChapters": 510,
-  "expiredChapters": 58313,
+  "expiredChapters": 58330,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -30304,7 +30304,7 @@
         "title": "The SoulTaker: Tamashii-gari",
         "samples": [
           "https://jkanime.net/the-soultaker-tamashii-gari/1/",
-          "https://jkanime.net/the-soultaker-tamashii-gari/11/"
+          "https://jkanime.net/the-soultaker-tamashii-gari/10/"
         ]
       },
       {
@@ -60978,7 +60978,7 @@
         "title": "The SoulTaker: Tamashii-gari",
         "samples": [
           "https://jkanime.net/the-soultaker-tamashii-gari/1/",
-          "https://jkanime.net/the-soultaker-tamashii-gari/11/"
+          "https://jkanime.net/the-soultaker-tamashii-gari/10/"
         ]
       },
       {
@@ -87811,6 +87811,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/31/",
         "https://jkanime.net/kusuriya-no-hitorigoto/32/",
         "https://jkanime.net/kusuriya-no-hitorigoto/33/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/34/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
@@ -208824,6 +208825,7 @@
         "https://jkanime.net/tsubasa-chronicle/46/",
         "https://jkanime.net/tsubasa-chronicle/47/",
         "https://jkanime.net/tsubasa-chronicle/48/",
+        "https://jkanime.net/tsubasa-chronicle/49/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
         "https://jkanime.net/tsubasa-chronicle/7/",
@@ -220984,6 +220986,7 @@
         "https://jkanime.net/project-arms/20/",
         "https://jkanime.net/project-arms/21/",
         "https://jkanime.net/project-arms/22/",
+        "https://jkanime.net/project-arms/23/",
         "https://jkanime.net/project-arms/24/",
         "https://jkanime.net/project-arms/25/",
         "https://jkanime.net/project-arms/26/",
@@ -221083,8 +221086,11 @@
         "https://jkanime.net/noir/19/",
         "https://jkanime.net/noir/2/",
         "https://jkanime.net/noir/20/",
+        "https://jkanime.net/noir/21/",
         "https://jkanime.net/noir/22/",
+        "https://jkanime.net/noir/23/",
         "https://jkanime.net/noir/24/",
+        "https://jkanime.net/noir/25/",
         "https://jkanime.net/noir/26/",
         "https://jkanime.net/noir/3/",
         "https://jkanime.net/noir/4/",
@@ -221156,13 +221162,18 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/the-soultaker-tamashii-gari/1/",
+        "https://jkanime.net/the-soultaker-tamashii-gari/10/",
         "https://jkanime.net/the-soultaker-tamashii-gari/11/",
         "https://jkanime.net/the-soultaker-tamashii-gari/12/",
+        "https://jkanime.net/the-soultaker-tamashii-gari/13/",
         "https://jkanime.net/the-soultaker-tamashii-gari/2/",
         "https://jkanime.net/the-soultaker-tamashii-gari/3/",
         "https://jkanime.net/the-soultaker-tamashii-gari/4/",
         "https://jkanime.net/the-soultaker-tamashii-gari/5/",
-        "https://jkanime.net/the-soultaker-tamashii-gari/6/"
+        "https://jkanime.net/the-soultaker-tamashii-gari/6/",
+        "https://jkanime.net/the-soultaker-tamashii-gari/7/",
+        "https://jkanime.net/the-soultaker-tamashii-gari/8/",
+        "https://jkanime.net/the-soultaker-tamashii-gari/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 8,
@@ -221275,6 +221286,7 @@
         "https://jkanime.net/angelic-layer/21/",
         "https://jkanime.net/angelic-layer/22/",
         "https://jkanime.net/angelic-layer/23/",
+        "https://jkanime.net/angelic-layer/24/",
         "https://jkanime.net/angelic-layer/25/",
         "https://jkanime.net/angelic-layer/26/",
         "https://jkanime.net/angelic-layer/3/",
@@ -221313,16 +221325,20 @@
         "https://jkanime.net/digimon-tamers/11/",
         "https://jkanime.net/digimon-tamers/12/",
         "https://jkanime.net/digimon-tamers/13/",
+        "https://jkanime.net/digimon-tamers/14/",
         "https://jkanime.net/digimon-tamers/15/",
         "https://jkanime.net/digimon-tamers/16/",
         "https://jkanime.net/digimon-tamers/17/",
         "https://jkanime.net/digimon-tamers/18/",
         "https://jkanime.net/digimon-tamers/19/",
+        "https://jkanime.net/digimon-tamers/2/",
         "https://jkanime.net/digimon-tamers/20/",
         "https://jkanime.net/digimon-tamers/21/",
         "https://jkanime.net/digimon-tamers/22/",
         "https://jkanime.net/digimon-tamers/23/",
+        "https://jkanime.net/digimon-tamers/24/",
         "https://jkanime.net/digimon-tamers/25/",
+        "https://jkanime.net/digimon-tamers/26/",
         "https://jkanime.net/digimon-tamers/27/",
         "https://jkanime.net/digimon-tamers/28/",
         "https://jkanime.net/digimon-tamers/29/",
@@ -221348,6 +221364,7 @@
         "https://jkanime.net/digimon-tamers/47/",
         "https://jkanime.net/digimon-tamers/48/",
         "https://jkanime.net/digimon-tamers/49/",
+        "https://jkanime.net/digimon-tamers/5/",
         "https://jkanime.net/digimon-tamers/50/",
         "https://jkanime.net/digimon-tamers/51/",
         "https://jkanime.net/digimon-tamers/6/",
@@ -233096,18 +233113,19 @@
       "series": "https://jkanime.net/uchi-no-otouto-domo-ga-sumimasen/",
       "title": "Uchi no Otouto-domo ga Sumimasen",
       "causes": [],
-      "observed": 17,
-      "stored": 17,
+      "observed": 18,
+      "stored": 18,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
-        "streamwish": 11,
-        "vidhide": 4,
-        "mp4upload": 6,
-        "mega": 1
+        "streamwish": 12,
+        "vidhide": 5,
+        "mp4upload": 7,
+        "mega": 1,
+        "filemoon": 1
       },
       "playbackVerified": false
     },

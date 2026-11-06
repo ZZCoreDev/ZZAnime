@@ -1,1 +1,1 @@
-{"batch":2,"checkedAt":"2026-11-06T18:18:16.182072Z","collected":0,"coverage":"partial","held":7,"incidents":1,"pending":1,"primary":"unavailable","retryMinutes":15,"state":"complete","voeOnly":3,"voeRecheckPending":3}
+{"batch":2,"checkedAt":"2026-11-06T18:35:59.732734Z","collected":3,"coverage":"collected-candidates","held":7,"incidents":0,"pending":0,"primary":"unavailable","retryMinutes":15,"state":"complete","voeOnly":3,"voeRecheckPending":3}
