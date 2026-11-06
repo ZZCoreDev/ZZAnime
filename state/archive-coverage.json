@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T07:22:14.770601+00:00",
+  "checkedAt": "2026-11-06T07:44:18.293895+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57519,
+  "expiredChapters": 57515,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -78,8 +78,8 @@
         "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/",
         "title": "Yoroi Shin Den Samurai Troopers Part 2",
         "samples": [
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
         ]
       },
       {
@@ -95,7 +95,7 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/"
         ]
       },
       {
@@ -33535,8 +33535,8 @@
         "series": "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/",
         "title": "Yoroi Shin Den Samurai Troopers Part 2",
         "samples": [
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
-          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/"
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
+          "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
         ]
       },
       {
@@ -33566,7 +33566,7 @@
         "title": "Honoo no Toukyuujo: Dodge Danko",
         "samples": [
           "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/"
+          "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/"
         ]
       },
       {
@@ -63930,7 +63930,6 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/2/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/",
         "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/9/"
@@ -64108,7 +64107,6 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/1/",
-        "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/11/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/2/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/3/",
         "https://jkanime.net/honoo-no-toukyuujo-dodge-danko/4/",
@@ -64144,7 +64142,6 @@
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/11/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/2/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/4/",
-        "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/6/",
         "https://jkanime.net/kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season/8/"
       ],
       "noIndependent": [],
@@ -232170,7 +232167,6 @@
         "https://jkanime.net/onegai-aipri/26/",
         "https://jkanime.net/onegai-aipri/27/",
         "https://jkanime.net/onegai-aipri/28/",
-        "https://jkanime.net/onegai-aipri/29/",
         "https://jkanime.net/onegai-aipri/3/",
         "https://jkanime.net/onegai-aipri/4/",
         "https://jkanime.net/onegai-aipri/5/",
