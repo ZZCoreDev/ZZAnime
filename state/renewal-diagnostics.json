@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T04:32:24.932786+00:00",
+  "checkedAt": "2026-11-06T04:49:38.671878+00:00",
   "failedChapters": 56553,
   "series": 4091,
   "diagnosedSeries": 4045,
@@ -3041,25 +3041,25 @@
       ],
       "diagnosedSample": "https://jkanime.net/ganzo-bandori-chan/40/",
       "sources": {
+        "flv": {
+          "cause": "address-not-found",
+          "message": "Source HTTP 404",
+          "stage": "detail",
+          "status": 404
+        },
         "jk": {
-          "stage": "listing",
-          "status": 403,
+          "cachedFailure": true,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "cachedFailure": true,
-          "retryAt": 1793939459267
+          "retryAt": 1793939459267,
+          "stage": "listing",
+          "status": 403
         },
         "tio": {
-          "stage": "detail",
-          "status": 404,
           "cause": "address-not-found",
-          "message": "Source HTTP 404"
-        },
-        "flv": {
+          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404,
-          "cause": "address-not-found",
-          "message": "Source HTTP 404"
+          "status": 404
         }
       },
       "sampleOnly": true,
