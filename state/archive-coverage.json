@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T13:16:52.932051+00:00",
+  "checkedAt": "2026-11-06T13:34:40.364852+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73059,
   "missingChapters": 510,
-  "expiredChapters": 57526,
+  "expiredChapters": 57588,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -28226,7 +28226,8 @@
         "series": "https://jkanime.net/cluster-edge/",
         "title": "Cluster Edge",
         "samples": [
-          "https://jkanime.net/cluster-edge/2/"
+          "https://jkanime.net/cluster-edge/10/",
+          "https://jkanime.net/cluster-edge/11/"
         ]
       },
       {
@@ -28382,14 +28383,15 @@
         "title": "Basilisk: Kouga Ninpou Chou",
         "samples": [
           "https://jkanime.net/basilisk-kouga-ninpou-chou/1/",
-          "https://jkanime.net/basilisk-kouga-ninpou-chou/16/"
+          "https://jkanime.net/basilisk-kouga-ninpou-chou/10/"
         ]
       },
       {
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/9/"
+          "https://jkanime.net/tsubasa-chronicle/1/",
+          "https://jkanime.net/tsubasa-chronicle/10/"
         ]
       },
       {
@@ -58998,7 +59000,8 @@
         "series": "https://jkanime.net/cluster-edge/",
         "title": "Cluster Edge",
         "samples": [
-          "https://jkanime.net/cluster-edge/2/"
+          "https://jkanime.net/cluster-edge/10/",
+          "https://jkanime.net/cluster-edge/11/"
         ]
       },
       {
@@ -59141,14 +59144,15 @@
         "title": "Basilisk: Kouga Ninpou Chou",
         "samples": [
           "https://jkanime.net/basilisk-kouga-ninpou-chou/1/",
-          "https://jkanime.net/basilisk-kouga-ninpou-chou/16/"
+          "https://jkanime.net/basilisk-kouga-ninpou-chou/10/"
         ]
       },
       {
         "series": "https://jkanime.net/tsubasa-chronicle/",
         "title": "Tsubasa Chronicle",
         "samples": [
-          "https://jkanime.net/tsubasa-chronicle/9/"
+          "https://jkanime.net/tsubasa-chronicle/1/",
+          "https://jkanime.net/tsubasa-chronicle/10/"
         ]
       },
       {
@@ -72593,7 +72597,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -207686,7 +207690,25 @@
       "stored": 25,
       "missing": [],
       "expired": [
-        "https://jkanime.net/cluster-edge/2/"
+        "https://jkanime.net/cluster-edge/10/",
+        "https://jkanime.net/cluster-edge/11/",
+        "https://jkanime.net/cluster-edge/12/",
+        "https://jkanime.net/cluster-edge/13/",
+        "https://jkanime.net/cluster-edge/14/",
+        "https://jkanime.net/cluster-edge/15/",
+        "https://jkanime.net/cluster-edge/16/",
+        "https://jkanime.net/cluster-edge/17/",
+        "https://jkanime.net/cluster-edge/18/",
+        "https://jkanime.net/cluster-edge/19/",
+        "https://jkanime.net/cluster-edge/2/",
+        "https://jkanime.net/cluster-edge/20/",
+        "https://jkanime.net/cluster-edge/21/",
+        "https://jkanime.net/cluster-edge/22/",
+        "https://jkanime.net/cluster-edge/23/",
+        "https://jkanime.net/cluster-edge/24/",
+        "https://jkanime.net/cluster-edge/25/",
+        "https://jkanime.net/cluster-edge/8/",
+        "https://jkanime.net/cluster-edge/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -207972,9 +207994,15 @@
       ],
       "expired": [
         "https://jkanime.net/ichigo-mashimaro/1/",
+        "https://jkanime.net/ichigo-mashimaro/10/",
+        "https://jkanime.net/ichigo-mashimaro/11/",
         "https://jkanime.net/ichigo-mashimaro/12/",
+        "https://jkanime.net/ichigo-mashimaro/2/",
+        "https://jkanime.net/ichigo-mashimaro/3/",
+        "https://jkanime.net/ichigo-mashimaro/4/",
         "https://jkanime.net/ichigo-mashimaro/5/",
         "https://jkanime.net/ichigo-mashimaro/6/",
+        "https://jkanime.net/ichigo-mashimaro/7/",
         "https://jkanime.net/ichigo-mashimaro/8/",
         "https://jkanime.net/ichigo-mashimaro/9/"
       ],
@@ -208555,15 +208583,28 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/basilisk-kouga-ninpou-chou/1/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/10/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/11/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/12/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/13/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/14/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/15/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/16/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/17/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/18/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/19/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/2/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/20/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/21/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/22/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/23/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/24/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/3/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/4/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/5/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/6/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/7/",
+        "https://jkanime.net/basilisk-kouga-ninpou-chou/8/",
         "https://jkanime.net/basilisk-kouga-ninpou-chou/9/"
       ],
       "noIndependent": [],
@@ -208589,6 +208630,31 @@
       "stored": 52,
       "missing": [],
       "expired": [
+        "https://jkanime.net/tsubasa-chronicle/1/",
+        "https://jkanime.net/tsubasa-chronicle/10/",
+        "https://jkanime.net/tsubasa-chronicle/11/",
+        "https://jkanime.net/tsubasa-chronicle/12/",
+        "https://jkanime.net/tsubasa-chronicle/13/",
+        "https://jkanime.net/tsubasa-chronicle/14/",
+        "https://jkanime.net/tsubasa-chronicle/15/",
+        "https://jkanime.net/tsubasa-chronicle/16/",
+        "https://jkanime.net/tsubasa-chronicle/17/",
+        "https://jkanime.net/tsubasa-chronicle/18/",
+        "https://jkanime.net/tsubasa-chronicle/19/",
+        "https://jkanime.net/tsubasa-chronicle/2/",
+        "https://jkanime.net/tsubasa-chronicle/20/",
+        "https://jkanime.net/tsubasa-chronicle/21/",
+        "https://jkanime.net/tsubasa-chronicle/22/",
+        "https://jkanime.net/tsubasa-chronicle/23/",
+        "https://jkanime.net/tsubasa-chronicle/24/",
+        "https://jkanime.net/tsubasa-chronicle/25/",
+        "https://jkanime.net/tsubasa-chronicle/26/",
+        "https://jkanime.net/tsubasa-chronicle/3/",
+        "https://jkanime.net/tsubasa-chronicle/4/",
+        "https://jkanime.net/tsubasa-chronicle/5/",
+        "https://jkanime.net/tsubasa-chronicle/6/",
+        "https://jkanime.net/tsubasa-chronicle/7/",
+        "https://jkanime.net/tsubasa-chronicle/8/",
         "https://jkanime.net/tsubasa-chronicle/9/"
       ],
       "noIndependent": [],
