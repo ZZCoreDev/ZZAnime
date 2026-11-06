@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T13:34:40.364852+00:00",
+  "checkedAt": "2026-11-06T13:52:15.169714+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73059,
   "missingChapters": 510,
-  "expiredChapters": 57588,
+  "expiredChapters": 57615,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -28454,8 +28454,8 @@
         "series": "https://jkanime.net/eikoku-koi-monogatari-emma/",
         "title": "Eikoku Koi Monogatari Emma",
         "samples": [
-          "https://jkanime.net/eikoku-koi-monogatari-emma/11/",
-          "https://jkanime.net/eikoku-koi-monogatari-emma/2/"
+          "https://jkanime.net/eikoku-koi-monogatari-emma/1/",
+          "https://jkanime.net/eikoku-koi-monogatari-emma/10/"
         ]
       },
       {
@@ -28493,8 +28493,8 @@
         "series": "https://jkanime.net/buzzer-beater/",
         "title": "Buzzer Beater",
         "samples": [
-          "https://jkanime.net/buzzer-beater/2/",
-          "https://jkanime.net/buzzer-beater/3/"
+          "https://jkanime.net/buzzer-beater/1/",
+          "https://jkanime.net/buzzer-beater/10/"
         ]
       },
       {
@@ -59215,8 +59215,8 @@
         "series": "https://jkanime.net/eikoku-koi-monogatari-emma/",
         "title": "Eikoku Koi Monogatari Emma",
         "samples": [
-          "https://jkanime.net/eikoku-koi-monogatari-emma/11/",
-          "https://jkanime.net/eikoku-koi-monogatari-emma/2/"
+          "https://jkanime.net/eikoku-koi-monogatari-emma/1/",
+          "https://jkanime.net/eikoku-koi-monogatari-emma/10/"
         ]
       },
       {
@@ -59247,8 +59247,8 @@
         "series": "https://jkanime.net/buzzer-beater/",
         "title": "Buzzer Beater",
         "samples": [
-          "https://jkanime.net/buzzer-beater/2/",
-          "https://jkanime.net/buzzer-beater/3/"
+          "https://jkanime.net/buzzer-beater/1/",
+          "https://jkanime.net/buzzer-beater/10/"
         ]
       },
       {
@@ -208649,6 +208649,7 @@
         "https://jkanime.net/tsubasa-chronicle/24/",
         "https://jkanime.net/tsubasa-chronicle/25/",
         "https://jkanime.net/tsubasa-chronicle/26/",
+        "https://jkanime.net/tsubasa-chronicle/27/",
         "https://jkanime.net/tsubasa-chronicle/3/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
@@ -208690,7 +208691,8 @@
         "https://jkanime.net/loveless/5/",
         "https://jkanime.net/loveless/6/",
         "https://jkanime.net/loveless/7/",
-        "https://jkanime.net/loveless/8/"
+        "https://jkanime.net/loveless/8/",
+        "https://jkanime.net/loveless/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 11,
@@ -209133,12 +209135,18 @@
       "stored": 12,
       "missing": [],
       "expired": [
+        "https://jkanime.net/eikoku-koi-monogatari-emma/1/",
+        "https://jkanime.net/eikoku-koi-monogatari-emma/10/",
         "https://jkanime.net/eikoku-koi-monogatari-emma/11/",
+        "https://jkanime.net/eikoku-koi-monogatari-emma/12/",
         "https://jkanime.net/eikoku-koi-monogatari-emma/2/",
         "https://jkanime.net/eikoku-koi-monogatari-emma/3/",
         "https://jkanime.net/eikoku-koi-monogatari-emma/4/",
+        "https://jkanime.net/eikoku-koi-monogatari-emma/5/",
         "https://jkanime.net/eikoku-koi-monogatari-emma/6/",
-        "https://jkanime.net/eikoku-koi-monogatari-emma/8/"
+        "https://jkanime.net/eikoku-koi-monogatari-emma/7/",
+        "https://jkanime.net/eikoku-koi-monogatari-emma/8/",
+        "https://jkanime.net/eikoku-koi-monogatari-emma/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 6,
@@ -209168,7 +209176,8 @@
         "https://jkanime.net/karas/2/",
         "https://jkanime.net/karas/3/",
         "https://jkanime.net/karas/4/",
-        "https://jkanime.net/karas/5/"
+        "https://jkanime.net/karas/5/",
+        "https://jkanime.net/karas/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 5,
@@ -209242,10 +209251,13 @@
         "https://jkanime.net/futari-wa-precure-max-heart/1/",
         "https://jkanime.net/futari-wa-precure-max-heart/10/",
         "https://jkanime.net/futari-wa-precure-max-heart/11/",
+        "https://jkanime.net/futari-wa-precure-max-heart/12/",
         "https://jkanime.net/futari-wa-precure-max-heart/13/",
         "https://jkanime.net/futari-wa-precure-max-heart/14/",
+        "https://jkanime.net/futari-wa-precure-max-heart/15/",
         "https://jkanime.net/futari-wa-precure-max-heart/16/",
         "https://jkanime.net/futari-wa-precure-max-heart/17/",
+        "https://jkanime.net/futari-wa-precure-max-heart/18/",
         "https://jkanime.net/futari-wa-precure-max-heart/19/",
         "https://jkanime.net/futari-wa-precure-max-heart/2/",
         "https://jkanime.net/futari-wa-precure-max-heart/20/",
@@ -209254,21 +209266,27 @@
         "https://jkanime.net/futari-wa-precure-max-heart/23/",
         "https://jkanime.net/futari-wa-precure-max-heart/24/",
         "https://jkanime.net/futari-wa-precure-max-heart/25/",
+        "https://jkanime.net/futari-wa-precure-max-heart/26/",
         "https://jkanime.net/futari-wa-precure-max-heart/27/",
         "https://jkanime.net/futari-wa-precure-max-heart/28/",
         "https://jkanime.net/futari-wa-precure-max-heart/29/",
         "https://jkanime.net/futari-wa-precure-max-heart/3/",
+        "https://jkanime.net/futari-wa-precure-max-heart/30/",
         "https://jkanime.net/futari-wa-precure-max-heart/31/",
         "https://jkanime.net/futari-wa-precure-max-heart/32/",
         "https://jkanime.net/futari-wa-precure-max-heart/33/",
         "https://jkanime.net/futari-wa-precure-max-heart/34/",
+        "https://jkanime.net/futari-wa-precure-max-heart/35/",
         "https://jkanime.net/futari-wa-precure-max-heart/36/",
         "https://jkanime.net/futari-wa-precure-max-heart/37/",
+        "https://jkanime.net/futari-wa-precure-max-heart/38/",
         "https://jkanime.net/futari-wa-precure-max-heart/39/",
         "https://jkanime.net/futari-wa-precure-max-heart/4/",
         "https://jkanime.net/futari-wa-precure-max-heart/40/",
         "https://jkanime.net/futari-wa-precure-max-heart/41/",
         "https://jkanime.net/futari-wa-precure-max-heart/42/",
+        "https://jkanime.net/futari-wa-precure-max-heart/43/",
+        "https://jkanime.net/futari-wa-precure-max-heart/44/",
         "https://jkanime.net/futari-wa-precure-max-heart/45/",
         "https://jkanime.net/futari-wa-precure-max-heart/46/",
         "https://jkanime.net/futari-wa-precure-max-heart/47/",
@@ -209302,10 +209320,19 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/buzzer-beater/1/",
+        "https://jkanime.net/buzzer-beater/10/",
+        "https://jkanime.net/buzzer-beater/11/",
+        "https://jkanime.net/buzzer-beater/12/",
+        "https://jkanime.net/buzzer-beater/13/",
         "https://jkanime.net/buzzer-beater/2/",
         "https://jkanime.net/buzzer-beater/3/",
+        "https://jkanime.net/buzzer-beater/4/",
+        "https://jkanime.net/buzzer-beater/5/",
+        "https://jkanime.net/buzzer-beater/6/",
         "https://jkanime.net/buzzer-beater/7/",
-        "https://jkanime.net/buzzer-beater/8/"
+        "https://jkanime.net/buzzer-beater/8/",
+        "https://jkanime.net/buzzer-beater/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
