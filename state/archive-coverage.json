@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T15:41:13.424013+00:00",
+  "checkedAt": "2026-11-06T15:58:01.429599+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 57866,
+  "expiredChapters": 57884,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -29330,8 +29337,8 @@
         "series": "https://jkanime.net/sakigake-cromartie-koukou/",
         "title": "Sakigake!! Cromartie Koukou",
         "samples": [
-          "https://jkanime.net/sakigake-cromartie-koukou/10/",
-          "https://jkanime.net/sakigake-cromartie-koukou/11/"
+          "https://jkanime.net/sakigake-cromartie-koukou/1/",
+          "https://jkanime.net/sakigake-cromartie-koukou/10/"
         ]
       },
       {
@@ -29392,7 +29399,7 @@
         "title": "Popotan",
         "samples": [
           "https://jkanime.net/popotan/1/",
-          "https://jkanime.net/popotan/3/"
+          "https://jkanime.net/popotan/10/"
         ]
       },
       {
@@ -29407,8 +29414,8 @@
         "series": "https://jkanime.net/green-green/",
         "title": "Green Green",
         "samples": [
-          "https://jkanime.net/green-green/10/",
-          "https://jkanime.net/green-green/11/"
+          "https://jkanime.net/green-green/1/",
+          "https://jkanime.net/green-green/10/"
         ]
       },
       {
@@ -29439,8 +29446,8 @@
         "series": "https://jkanime.net/divergence-eve/",
         "title": "Divergence Eve",
         "samples": [
-          "https://jkanime.net/divergence-eve/11/",
-          "https://jkanime.net/divergence-eve/12/"
+          "https://jkanime.net/divergence-eve/1/",
+          "https://jkanime.net/divergence-eve/11/"
         ]
       },
       {
@@ -33621,6 +33628,13 @@
         "samples": [
           "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/10/",
           "https://jkanime.net/saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/one-piece-heroines/",
+        "title": "One Piece: Heroines",
+        "samples": [
+          "https://jkanime.net/one-piece-heroines/1/"
         ]
       },
       {
@@ -60049,8 +60063,8 @@
         "series": "https://jkanime.net/sakigake-cromartie-koukou/",
         "title": "Sakigake!! Cromartie Koukou",
         "samples": [
-          "https://jkanime.net/sakigake-cromartie-koukou/10/",
-          "https://jkanime.net/sakigake-cromartie-koukou/11/"
+          "https://jkanime.net/sakigake-cromartie-koukou/1/",
+          "https://jkanime.net/sakigake-cromartie-koukou/10/"
         ]
       },
       {
@@ -60090,7 +60104,7 @@
         "title": "Popotan",
         "samples": [
           "https://jkanime.net/popotan/1/",
-          "https://jkanime.net/popotan/3/"
+          "https://jkanime.net/popotan/10/"
         ]
       },
       {
@@ -60105,8 +60119,8 @@
         "series": "https://jkanime.net/green-green/",
         "title": "Green Green",
         "samples": [
-          "https://jkanime.net/green-green/10/",
-          "https://jkanime.net/green-green/11/"
+          "https://jkanime.net/green-green/1/",
+          "https://jkanime.net/green-green/10/"
         ]
       },
       {
@@ -60145,8 +60159,8 @@
         "series": "https://jkanime.net/divergence-eve/",
         "title": "Divergence Eve",
         "samples": [
-          "https://jkanime.net/divergence-eve/11/",
-          "https://jkanime.net/divergence-eve/12/"
+          "https://jkanime.net/divergence-eve/1/",
+          "https://jkanime.net/divergence-eve/11/"
         ]
       },
       {
@@ -64103,7 +64117,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64112,7 +64127,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -64457,11 +64472,15 @@
     {
       "series": "https://jkanime.net/one-piece-heroines/",
       "title": "One Piece: Heroines",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/one-piece-heroines/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -72663,7 +72682,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -108158,6 +108177,7 @@
       ],
       "expired": [
         "https://jkanime.net/megaton-kyuu-musashi/2/",
+        "https://jkanime.net/megaton-kyuu-musashi/23/",
         "https://jkanime.net/megaton-kyuu-musashi/4/",
         "https://jkanime.net/megaton-kyuu-musashi/5/",
         "https://jkanime.net/megaton-kyuu-musashi/6/",
@@ -208734,6 +208754,7 @@
         "https://jkanime.net/tsubasa-chronicle/34/",
         "https://jkanime.net/tsubasa-chronicle/35/",
         "https://jkanime.net/tsubasa-chronicle/36/",
+        "https://jkanime.net/tsubasa-chronicle/37/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
@@ -213215,6 +213236,7 @@
         "https://jkanime.net/hit-wo-nerae/1/",
         "https://jkanime.net/hit-wo-nerae/10/",
         "https://jkanime.net/hit-wo-nerae/11/",
+        "https://jkanime.net/hit-wo-nerae/12/",
         "https://jkanime.net/hit-wo-nerae/2/",
         "https://jkanime.net/hit-wo-nerae/3/",
         "https://jkanime.net/hit-wo-nerae/4/",
@@ -214633,6 +214655,7 @@
       "stored": 26,
       "missing": [],
       "expired": [
+        "https://jkanime.net/sakigake-cromartie-koukou/1/",
         "https://jkanime.net/sakigake-cromartie-koukou/10/",
         "https://jkanime.net/sakigake-cromartie-koukou/11/",
         "https://jkanime.net/sakigake-cromartie-koukou/12/",
@@ -214904,9 +214927,17 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/popotan/1/",
+        "https://jkanime.net/popotan/10/",
+        "https://jkanime.net/popotan/11/",
+        "https://jkanime.net/popotan/12/",
+        "https://jkanime.net/popotan/2/",
         "https://jkanime.net/popotan/3/",
+        "https://jkanime.net/popotan/4/",
         "https://jkanime.net/popotan/5/",
-        "https://jkanime.net/popotan/7/"
+        "https://jkanime.net/popotan/6/",
+        "https://jkanime.net/popotan/7/",
+        "https://jkanime.net/popotan/8/",
+        "https://jkanime.net/popotan/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -214968,6 +214999,7 @@
       "stored": 12,
       "missing": [],
       "expired": [
+        "https://jkanime.net/green-green/1/",
         "https://jkanime.net/green-green/10/",
         "https://jkanime.net/green-green/11/",
         "https://jkanime.net/green-green/12/",
@@ -215166,11 +215198,15 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/divergence-eve/1/",
         "https://jkanime.net/divergence-eve/11/",
         "https://jkanime.net/divergence-eve/12/",
         "https://jkanime.net/divergence-eve/2/",
+        "https://jkanime.net/divergence-eve/3/",
+        "https://jkanime.net/divergence-eve/4/",
         "https://jkanime.net/divergence-eve/5/",
         "https://jkanime.net/divergence-eve/6/",
+        "https://jkanime.net/divergence-eve/7/",
         "https://jkanime.net/divergence-eve/8/",
         "https://jkanime.net/divergence-eve/9/"
       ],
