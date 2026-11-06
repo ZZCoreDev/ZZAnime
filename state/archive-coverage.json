@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T00:18:20.717378+00:00",
+  "checkedAt": "2026-11-06T00:33:32.113789+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -1212,14 +1212,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-        "title": "Tsuihousha Shokudou e Youkoso!",
-        "samples": [
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-          "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ginga-tokkyuu-milkysubway/",
         "title": "Ginga Tokkyuu Milky☆Subway",
         "samples": [
@@ -2409,14 +2401,6 @@
         "samples": [
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/10/",
           "https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-        "title": "Kabushikigaisha Magi-Lumière",
-        "samples": [
-          "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-          "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
         ]
       },
       {
@@ -8137,14 +8121,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-        "samples": [
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -9807,6 +9783,14 @@
         "samples": [
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/1/",
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+        "title": "Otona no Bouguya-san II",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
         ]
       },
       {
@@ -64079,7 +64063,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -72546,8 +72530,7 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "title": "Tsuihousha Shokudou e Youkoso!",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -72567,7 +72550,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78807,8 +78790,7 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "title": "Kabushikigaisha Magi-Lumière",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -78828,7 +78810,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78995,7 +78977,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83166,7 +83148,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 10,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88502,7 +88484,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106731,8 +106713,7 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 7,
       "stored": 7,
@@ -106747,7 +106728,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106929,7 +106910,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114374,7 +114355,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -114394,7 +114376,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -129223,7 +129205,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 6,
