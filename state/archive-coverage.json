@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T18:02:04.283411+00:00",
+  "checkedAt": "2026-11-06T18:24:57.755986+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73878,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 58259,
+  "expiredChapters": 58313,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -30130,7 +30130,7 @@
         "title": "Project ARMS: The 2nd Chapter",
         "samples": [
           "https://jkanime.net/project-arms-the-2nd-chapter/1/",
-          "https://jkanime.net/project-arms-the-2nd-chapter/2/"
+          "https://jkanime.net/project-arms-the-2nd-chapter/10/"
         ]
       },
       {
@@ -30154,7 +30154,7 @@
         "title": "Chicchana Yukitsukai Sugar",
         "samples": [
           "https://jkanime.net/chicchana-yukitsukai-sugar/1/",
-          "https://jkanime.net/chicchana-yukitsukai-sugar/14/"
+          "https://jkanime.net/chicchana-yukitsukai-sugar/10/"
         ]
       },
       {
@@ -30191,8 +30191,8 @@
         "series": "https://jkanime.net/cosmo-warrior-zero/",
         "title": "Cosmo Warrior Zero",
         "samples": [
-          "https://jkanime.net/cosmo-warrior-zero/10/",
-          "https://jkanime.net/cosmo-warrior-zero/4/"
+          "https://jkanime.net/cosmo-warrior-zero/1/",
+          "https://jkanime.net/cosmo-warrior-zero/10/"
         ]
       },
       {
@@ -60818,7 +60818,7 @@
         "title": "Project ARMS: The 2nd Chapter",
         "samples": [
           "https://jkanime.net/project-arms-the-2nd-chapter/1/",
-          "https://jkanime.net/project-arms-the-2nd-chapter/2/"
+          "https://jkanime.net/project-arms-the-2nd-chapter/10/"
         ]
       },
       {
@@ -60842,7 +60842,7 @@
         "title": "Chicchana Yukitsukai Sugar",
         "samples": [
           "https://jkanime.net/chicchana-yukitsukai-sugar/1/",
-          "https://jkanime.net/chicchana-yukitsukai-sugar/14/"
+          "https://jkanime.net/chicchana-yukitsukai-sugar/10/"
         ]
       },
       {
@@ -60865,8 +60865,8 @@
         "series": "https://jkanime.net/cosmo-warrior-zero/",
         "title": "Cosmo Warrior Zero",
         "samples": [
-          "https://jkanime.net/cosmo-warrior-zero/10/",
-          "https://jkanime.net/cosmo-warrior-zero/4/"
+          "https://jkanime.net/cosmo-warrior-zero/1/",
+          "https://jkanime.net/cosmo-warrior-zero/10/"
         ]
       },
       {
@@ -87810,6 +87810,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/30/",
         "https://jkanime.net/kusuriya-no-hitorigoto/31/",
         "https://jkanime.net/kusuriya-no-hitorigoto/32/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/33/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
@@ -157518,7 +157519,9 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/ninja-slayer-from-animation/18/",
-        "https://jkanime.net/ninja-slayer-from-animation/19/"
+        "https://jkanime.net/ninja-slayer-from-animation/19/",
+        "https://jkanime.net/ninja-slayer-from-animation/20/",
+        "https://jkanime.net/ninja-slayer-from-animation/21/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -208819,6 +208822,8 @@
         "https://jkanime.net/tsubasa-chronicle/44/",
         "https://jkanime.net/tsubasa-chronicle/45/",
         "https://jkanime.net/tsubasa-chronicle/46/",
+        "https://jkanime.net/tsubasa-chronicle/47/",
+        "https://jkanime.net/tsubasa-chronicle/48/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
         "https://jkanime.net/tsubasa-chronicle/7/",
@@ -220173,8 +220178,31 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/project-arms-the-2nd-chapter/1/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/10/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/11/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/12/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/13/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/14/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/15/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/16/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/17/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/18/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/19/",
         "https://jkanime.net/project-arms-the-2nd-chapter/2/",
-        "https://jkanime.net/project-arms-the-2nd-chapter/3/"
+        "https://jkanime.net/project-arms-the-2nd-chapter/20/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/21/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/22/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/23/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/24/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/25/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/26/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/3/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/4/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/5/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/6/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/7/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/8/",
+        "https://jkanime.net/project-arms-the-2nd-chapter/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -220287,14 +220315,29 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/chicchana-yukitsukai-sugar/1/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/10/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/11/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/12/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/13/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/14/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/15/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/16/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/17/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/18/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/19/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/2/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/20/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/21/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/22/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/23/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/24/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/3/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/4/",
         "https://jkanime.net/chicchana-yukitsukai-sugar/5/",
-        "https://jkanime.net/chicchana-yukitsukai-sugar/7/"
+        "https://jkanime.net/chicchana-yukitsukai-sugar/6/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/7/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/8/",
+        "https://jkanime.net/chicchana-yukitsukai-sugar/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 9,
@@ -220437,9 +220480,19 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/cosmo-warrior-zero/1/",
         "https://jkanime.net/cosmo-warrior-zero/10/",
+        "https://jkanime.net/cosmo-warrior-zero/11/",
+        "https://jkanime.net/cosmo-warrior-zero/12/",
+        "https://jkanime.net/cosmo-warrior-zero/13/",
+        "https://jkanime.net/cosmo-warrior-zero/2/",
+        "https://jkanime.net/cosmo-warrior-zero/3/",
         "https://jkanime.net/cosmo-warrior-zero/4/",
-        "https://jkanime.net/cosmo-warrior-zero/6/"
+        "https://jkanime.net/cosmo-warrior-zero/5/",
+        "https://jkanime.net/cosmo-warrior-zero/6/",
+        "https://jkanime.net/cosmo-warrior-zero/7/",
+        "https://jkanime.net/cosmo-warrior-zero/8/",
+        "https://jkanime.net/cosmo-warrior-zero/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -220485,6 +220538,7 @@
         "https://jkanime.net/fruits-basket/25/",
         "https://jkanime.net/fruits-basket/26/",
         "https://jkanime.net/fruits-basket/3/",
+        "https://jkanime.net/fruits-basket/4/",
         "https://jkanime.net/fruits-basket/5/",
         "https://jkanime.net/fruits-basket/6/",
         "https://jkanime.net/fruits-basket/7/",
