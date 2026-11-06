@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T10:53:53.182315+00:00",
+  "checkedAt": "2026-11-06T11:11:19.251054+00:00",
   "episodes": 73057,
-  "oldestHours": 262.33,
-  "pending": 71841,
+  "oldestHours": 262.62,
+  "pending": 71850,
   "expired": 57526,
-  "expiresWithin24Hours": 69952,
-  "retryAfterExpiry": 1624,
-  "successfulCyclesMeasured": 74,
-  "sampleMinutes": 1321.68,
-  "measuredWallClockPerHour": 312.6,
-  "estimatedSweepDays": 9.74,
+  "expiresWithin24Hours": 70227,
+  "retryAfterExpiry": 1625,
+  "successfulCyclesMeasured": 75,
+  "sampleMinutes": 1339.12,
+  "measuredWallClockPerHour": 313.01,
+  "estimatedSweepDays": 9.72,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -815,7 +815,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-06T10:53:53.182315+00:00",
+    "checkedAt": "2026-11-06T11:11:19.251054+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
