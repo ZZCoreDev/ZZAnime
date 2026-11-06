@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-06T23:40:56.510495+00:00",
-  "failedChapters": 56591,
-  "series": 4096,
+  "checkedAt": "2026-11-06T23:57:11.589000+00:00",
+  "failedChapters": 56592,
+  "series": 4097,
   "diagnosedSeries": 4046,
-  "pendingSeries": 50,
+  "pendingSeries": 51,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 328,
+    "ValueError: No approved observations; previous channel retained": 329,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -101832,7 +101832,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794008284.0076804
+      "nextRetryAt": 1794013031.5149865
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -139068,6 +139068,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794010916.8836515
     }
   ]
 }
