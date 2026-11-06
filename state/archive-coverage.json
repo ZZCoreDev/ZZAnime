@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T14:29:07.931801+00:00",
+  "checkedAt": "2026-11-06T14:46:57.906462+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73059,
   "missingChapters": 510,
-  "expiredChapters": 57649,
+  "expiredChapters": 57727,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -316,6 +316,7 @@
         "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
         "title": "Diamond no Ace: Act II Second Season",
         "samples": [
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season/16/",
           "https://jkanime.net/diamond-no-ace-act-ii-second-season/3/"
         ]
       },
@@ -28716,7 +28717,7 @@
         "title": "Fantastic Children",
         "samples": [
           "https://jkanime.net/fantastic-children/1/",
-          "https://jkanime.net/fantastic-children/11/"
+          "https://jkanime.net/fantastic-children/10/"
         ]
       },
       {
@@ -28771,8 +28772,8 @@
         "series": "https://jkanime.net/bouken-ou-beet/",
         "title": "Bouken Ou Beet",
         "samples": [
-          "https://jkanime.net/bouken-ou-beet/3/",
-          "https://jkanime.net/bouken-ou-beet/5/"
+          "https://jkanime.net/bouken-ou-beet/1/",
+          "https://jkanime.net/bouken-ou-beet/10/"
         ]
       },
       {
@@ -33773,6 +33774,7 @@
         "series": "https://jkanime.net/diamond-no-ace-act-ii-second-season/",
         "title": "Diamond no Ace: Act II Second Season",
         "samples": [
+          "https://jkanime.net/diamond-no-ace-act-ii-second-season/16/",
           "https://jkanime.net/diamond-no-ace-act-ii-second-season/3/"
         ]
       },
@@ -59465,7 +59467,7 @@
         "title": "Fantastic Children",
         "samples": [
           "https://jkanime.net/fantastic-children/1/",
-          "https://jkanime.net/fantastic-children/11/"
+          "https://jkanime.net/fantastic-children/10/"
         ]
       },
       {
@@ -59520,8 +59522,8 @@
         "series": "https://jkanime.net/bouken-ou-beet/",
         "title": "Bouken Ou Beet",
         "samples": [
-          "https://jkanime.net/bouken-ou-beet/3/",
-          "https://jkanime.net/bouken-ou-beet/5/"
+          "https://jkanime.net/bouken-ou-beet/1/",
+          "https://jkanime.net/bouken-ou-beet/10/"
         ]
       },
       {
@@ -62073,6 +62075,34 @@
         ]
       },
       {
+        "series": "https://jkanime.net/ao-ashi-season-2/",
+        "title": "Ao Ashi Season 2",
+        "samples": [
+          "https://jkanime.net/ao-ashi-season-2/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tank-chair/",
+        "title": "Tank Chair",
+        "samples": [
+          "https://jkanime.net/tank-chair/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hotel-inhumans-2nd-season/",
+        "title": "Hotel Inhumans 2nd Season",
+        "samples": [
+          "https://jkanime.net/hotel-inhumans-2nd-season/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ojisan-wa-kawaii-mono-ga-osuki/",
+        "title": "Ojisan wa Kawaii Mono ga Osuki.",
+        "samples": [
+          "https://jkanime.net/ojisan-wa-kawaii-mono-ga-osuki/4/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mahou-no-shimai-lulutto-lilly-part-2/",
         "title": "Mahou no Shimai Lulutto Lilly Part 2",
         "samples": [
@@ -62094,6 +62124,13 @@
         "samples": [
           "https://jkanime.net/kusuriya-no-hitorigoto-3rd-season/1/",
           "https://jkanime.net/kusuriya-no-hitorigoto-3rd-season/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tempal-item-no-chikara/",
+        "title": "Tempal: Item no Chikara",
+        "samples": [
+          "https://jkanime.net/tempal-item-no-chikara/5/"
         ]
       },
       {
@@ -66130,6 +66167,7 @@
       "stored": 17,
       "missing": [],
       "expired": [
+        "https://jkanime.net/diamond-no-ace-act-ii-second-season/16/",
         "https://jkanime.net/diamond-no-ace-act-ii-second-season/3/"
       ],
       "noIndependent": [],
@@ -83301,6 +83339,7 @@
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/11/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/12/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/2/",
+        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/29/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/3/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/4/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/5/",
@@ -98454,6 +98493,7 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/3/",
         "https://jkanime.net/bleach-sennen-kessen-hen/4/",
         "https://jkanime.net/bleach-sennen-kessen-hen/48/",
+        "https://jkanime.net/bleach-sennen-kessen-hen/49/",
         "https://jkanime.net/bleach-sennen-kessen-hen/5/",
         "https://jkanime.net/bleach-sennen-kessen-hen/6/",
         "https://jkanime.net/bleach-sennen-kessen-hen/7/",
@@ -208658,6 +208698,8 @@
         "https://jkanime.net/tsubasa-chronicle/29/",
         "https://jkanime.net/tsubasa-chronicle/3/",
         "https://jkanime.net/tsubasa-chronicle/30/",
+        "https://jkanime.net/tsubasa-chronicle/31/",
+        "https://jkanime.net/tsubasa-chronicle/32/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
@@ -211156,9 +211198,31 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/fantastic-children/1/",
+        "https://jkanime.net/fantastic-children/10/",
         "https://jkanime.net/fantastic-children/11/",
+        "https://jkanime.net/fantastic-children/12/",
+        "https://jkanime.net/fantastic-children/13/",
+        "https://jkanime.net/fantastic-children/14/",
+        "https://jkanime.net/fantastic-children/15/",
+        "https://jkanime.net/fantastic-children/16/",
         "https://jkanime.net/fantastic-children/17/",
-        "https://jkanime.net/fantastic-children/4/"
+        "https://jkanime.net/fantastic-children/18/",
+        "https://jkanime.net/fantastic-children/19/",
+        "https://jkanime.net/fantastic-children/2/",
+        "https://jkanime.net/fantastic-children/20/",
+        "https://jkanime.net/fantastic-children/21/",
+        "https://jkanime.net/fantastic-children/22/",
+        "https://jkanime.net/fantastic-children/23/",
+        "https://jkanime.net/fantastic-children/24/",
+        "https://jkanime.net/fantastic-children/25/",
+        "https://jkanime.net/fantastic-children/26/",
+        "https://jkanime.net/fantastic-children/3/",
+        "https://jkanime.net/fantastic-children/4/",
+        "https://jkanime.net/fantastic-children/5/",
+        "https://jkanime.net/fantastic-children/6/",
+        "https://jkanime.net/fantastic-children/7/",
+        "https://jkanime.net/fantastic-children/8/",
+        "https://jkanime.net/fantastic-children/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -211459,11 +211523,57 @@
       "stored": 52,
       "missing": [],
       "expired": [
+        "https://jkanime.net/bouken-ou-beet/1/",
+        "https://jkanime.net/bouken-ou-beet/10/",
+        "https://jkanime.net/bouken-ou-beet/11/",
+        "https://jkanime.net/bouken-ou-beet/12/",
+        "https://jkanime.net/bouken-ou-beet/13/",
+        "https://jkanime.net/bouken-ou-beet/14/",
+        "https://jkanime.net/bouken-ou-beet/15/",
+        "https://jkanime.net/bouken-ou-beet/16/",
+        "https://jkanime.net/bouken-ou-beet/17/",
+        "https://jkanime.net/bouken-ou-beet/18/",
+        "https://jkanime.net/bouken-ou-beet/19/",
+        "https://jkanime.net/bouken-ou-beet/2/",
+        "https://jkanime.net/bouken-ou-beet/20/",
+        "https://jkanime.net/bouken-ou-beet/21/",
+        "https://jkanime.net/bouken-ou-beet/22/",
+        "https://jkanime.net/bouken-ou-beet/23/",
+        "https://jkanime.net/bouken-ou-beet/24/",
+        "https://jkanime.net/bouken-ou-beet/25/",
+        "https://jkanime.net/bouken-ou-beet/26/",
+        "https://jkanime.net/bouken-ou-beet/27/",
+        "https://jkanime.net/bouken-ou-beet/28/",
+        "https://jkanime.net/bouken-ou-beet/29/",
         "https://jkanime.net/bouken-ou-beet/3/",
+        "https://jkanime.net/bouken-ou-beet/30/",
+        "https://jkanime.net/bouken-ou-beet/31/",
+        "https://jkanime.net/bouken-ou-beet/32/",
+        "https://jkanime.net/bouken-ou-beet/33/",
+        "https://jkanime.net/bouken-ou-beet/34/",
+        "https://jkanime.net/bouken-ou-beet/35/",
+        "https://jkanime.net/bouken-ou-beet/36/",
+        "https://jkanime.net/bouken-ou-beet/37/",
+        "https://jkanime.net/bouken-ou-beet/38/",
+        "https://jkanime.net/bouken-ou-beet/39/",
+        "https://jkanime.net/bouken-ou-beet/4/",
+        "https://jkanime.net/bouken-ou-beet/40/",
+        "https://jkanime.net/bouken-ou-beet/41/",
+        "https://jkanime.net/bouken-ou-beet/42/",
+        "https://jkanime.net/bouken-ou-beet/43/",
+        "https://jkanime.net/bouken-ou-beet/44/",
+        "https://jkanime.net/bouken-ou-beet/45/",
+        "https://jkanime.net/bouken-ou-beet/46/",
+        "https://jkanime.net/bouken-ou-beet/47/",
+        "https://jkanime.net/bouken-ou-beet/48/",
+        "https://jkanime.net/bouken-ou-beet/49/",
         "https://jkanime.net/bouken-ou-beet/5/",
+        "https://jkanime.net/bouken-ou-beet/50/",
         "https://jkanime.net/bouken-ou-beet/52/",
         "https://jkanime.net/bouken-ou-beet/6/",
-        "https://jkanime.net/bouken-ou-beet/7/"
+        "https://jkanime.net/bouken-ou-beet/7/",
+        "https://jkanime.net/bouken-ou-beet/8/",
+        "https://jkanime.net/bouken-ou-beet/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 5,
@@ -231284,11 +231394,15 @@
     {
       "series": "https://jkanime.net/ao-ashi-season-2/",
       "title": "Ao Ashi Season 2",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ao-ashi-season-2/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -231392,11 +231506,15 @@
     {
       "series": "https://jkanime.net/tank-chair/",
       "title": "Tank Chair",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tank-chair/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -231429,11 +231547,15 @@
     {
       "series": "https://jkanime.net/hotel-inhumans-2nd-season/",
       "title": "Hotel Inhumans 2nd Season",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hotel-inhumans-2nd-season/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -231447,11 +231569,15 @@
     {
       "series": "https://jkanime.net/ojisan-wa-kawaii-mono-ga-osuki/",
       "title": "Ojisan wa Kawaii Mono ga Osuki.",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ojisan-wa-kawaii-mono-ga-osuki/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -231679,11 +231805,15 @@
     {
       "series": "https://jkanime.net/tempal-item-no-chikara/",
       "title": "Tempal: Item no Chikara",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tempal-item-no-chikara/5/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
