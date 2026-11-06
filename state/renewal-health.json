@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T22:30:32.067934+00:00",
+  "checkedAt": "2026-11-06T22:47:04.219063+00:00",
   "episodes": 73066,
-  "oldestHours": 273.94,
-  "pending": 72288,
-  "expired": 59090,
-  "expiresWithin24Hours": 71741,
-  "retryAfterExpiry": 1632,
+  "oldestHours": 274.22,
+  "pending": 72281,
+  "expired": 59196,
+  "expiresWithin24Hours": 71748,
+  "retryAfterExpiry": 1635,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1430.04,
-  "measuredWallClockPerHour": 298.82,
-  "estimatedSweepDays": 10.19,
+  "sampleMinutes": 1427.25,
+  "measuredWallClockPerHour": 299.4,
+  "estimatedSweepDays": 10.17,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,12 +881,12 @@
     "pendingSeries": 52
   },
   "coverage": {
-    "checkedAt": "2026-11-06T22:30:32.067934+00:00",
+    "checkedAt": "2026-11-06T22:47:04.219063+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73881,
     "storedChapters": 73066,
     "missingChapters": 510,
-    "expiredChapters": 59090,
+    "expiredChapters": 59196,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,

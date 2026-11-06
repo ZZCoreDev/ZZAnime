@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T22:30:32.067934+00:00",
+  "checkedAt": "2026-11-06T22:47:04.219063+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 59090,
+  "expiredChapters": 59196,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -4814,6 +4814,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fatestrange-fake-whispers-of-dawn/",
+        "title": "Fate/strange Fake: Whispers of Dawn",
+        "samples": [
+          "https://jkanime.net/fatestrange-fake-whispers-of-dawn/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ququ-bucai-zaixia-yeguai-2nd-season/",
         "title": "Ququ Bucai, Zaixia Yeguai 2nd Season",
         "samples": [
@@ -8038,6 +8045,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/",
+        "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
+        "samples": [
+          "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/quanzhi-fashi-v/",
         "title": "Quanzhi Fashi V",
         "samples": [
@@ -8765,6 +8779,13 @@
         "title": "B: The Beginning - Succession",
         "samples": [
           "https://jkanime.net/b-the-beginning-succession/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
+        "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+        "samples": [
+          "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
         ]
       },
       {
@@ -10503,6 +10524,13 @@
         "samples": [
           "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/10/",
           "https://jkanime.net/rezero-kara-hajimeru-isekai-seikatsu-shin-henshuuban/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fategrand-order-moonlightlostroom/",
+        "title": "Fate/Grand Order: Moonlight/Lostroom",
+        "samples": [
+          "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
         ]
       },
       {
@@ -13748,6 +13776,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/",
+        "title": "Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai",
+        "samples": [
+          "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/owarimonogatari-2nd-season/",
         "title": "Owarimonogatari 2nd Season",
         "samples": [
@@ -13909,8 +13944,8 @@
         "series": "https://jkanime.net/18if/",
         "title": "18if",
         "samples": [
-          "https://jkanime.net/18if/7/",
-          "https://jkanime.net/18if/8/"
+          "https://jkanime.net/18if/2/",
+          "https://jkanime.net/18if/7/"
         ]
       },
       {
@@ -14091,6 +14126,13 @@
         "samples": [
           "https://jkanime.net/yao-shen-ji/1/",
           "https://jkanime.net/yao-shen-ji/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/fairy-tail-movie-2-dragon-cry/",
+        "title": "Fairy Tail Movie 2: Dragon Cry",
+        "samples": [
+          "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
         ]
       },
       {
@@ -14777,6 +14819,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/fategrand-order-first-order/",
+        "title": "Fate/Grand Order: First Order",
+        "samples": [
+          "https://jkanime.net/fategrand-order-first-order/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/chain-chronicle-haecceitas-no-hikari/",
         "title": "Chain Chronicle: Haecceitas no Hikari",
         "samples": [
@@ -15041,7 +15090,8 @@
         "series": "https://jkanime.net/cheating-craft/",
         "title": "Cheating Craft",
         "samples": [
-          "https://jkanime.net/cheating-craft/2/"
+          "https://jkanime.net/cheating-craft/2/",
+          "https://jkanime.net/cheating-craft/8/"
         ]
       },
       {
@@ -15058,6 +15108,13 @@
         "samples": [
           "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/5/",
           "https://jkanime.net/bishoujo-yuugi-unit-crane-game-girls-galaxy/7/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nazotokine/",
+        "title": "Nazotokine",
+        "samples": [
+          "https://jkanime.net/nazotokine/7/"
         ]
       },
       {
@@ -15274,6 +15331,13 @@
         "samples": [
           "https://jkanime.net/digimon-adventure-tri-3-kokuhaku/2/",
           "https://jkanime.net/digimon-adventure-tri-3-kokuhaku/3/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/persona-5-the-animation-the-day-breakers/",
+        "title": "Persona 5 the Animation: The Day Breakers",
+        "samples": [
+          "https://jkanime.net/persona-5-the-animation-the-day-breakers/1/"
         ]
       },
       {
@@ -24122,8 +24186,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/19/",
-          "https://jkanime.net/07-ghost/2/"
+          "https://jkanime.net/07-ghost/14/",
+          "https://jkanime.net/07-ghost/19/"
         ]
       },
       {
@@ -29279,6 +29343,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/area-88/",
+        "title": "Area 88",
+        "samples": [
+          "https://jkanime.net/area-88/1/",
+          "https://jkanime.net/area-88/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kikou-kai-galient/",
         "title": "Kikou Kai Galient",
         "samples": [
@@ -29303,6 +29375,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/space-cobra/",
+        "title": "Space Cobra",
+        "samples": [
+          "https://jkanime.net/space-cobra/1/",
+          "https://jkanime.net/space-cobra/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/macross/",
         "title": "Macross",
         "samples": [
@@ -29314,8 +29394,8 @@
         "series": "https://jkanime.net/mahou-no-princess-minky-momo/",
         "title": "Mahou no Princess Minky Momo",
         "samples": [
-          "https://jkanime.net/mahou-no-princess-minky-momo/10/",
-          "https://jkanime.net/mahou-no-princess-minky-momo/11/"
+          "https://jkanime.net/mahou-no-princess-minky-momo/1/",
+          "https://jkanime.net/mahou-no-princess-minky-momo/10/"
         ]
       },
       {
@@ -29347,6 +29427,14 @@
         "samples": [
           "https://jkanime.net/rose-of-versailles/1/",
           "https://jkanime.net/rose-of-versailles/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mobile-suit-gundam/",
+        "title": "Mobile Suit Gundam",
+        "samples": [
+          "https://jkanime.net/mobile-suit-gundam/1/",
+          "https://jkanime.net/mobile-suit-gundam/10/"
         ]
       },
       {
@@ -29894,6 +29982,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -31589,14 +31684,6 @@
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/farmagia/",
-        "title": "Farmagia",
-        "samples": [
-          "https://jkanime.net/farmagia/2/",
-          "https://jkanime.net/farmagia/4/"
         ]
       },
       {
@@ -61373,8 +61460,8 @@
         "series": "https://jkanime.net/mahou-no-princess-minky-momo/",
         "title": "Mahou no Princess Minky Momo",
         "samples": [
-          "https://jkanime.net/mahou-no-princess-minky-momo/10/",
-          "https://jkanime.net/mahou-no-princess-minky-momo/11/"
+          "https://jkanime.net/mahou-no-princess-minky-momo/1/",
+          "https://jkanime.net/mahou-no-princess-minky-momo/10/"
         ]
       },
       {
@@ -64532,7 +64619,9 @@
         "https://jkanime.net/megalo-box/1/",
         "https://jkanime.net/megalo-box/13/",
         "https://jkanime.net/megalo-box/2/",
-        "https://jkanime.net/megalo-box/3/"
+        "https://jkanime.net/megalo-box/3/",
+        "https://jkanime.net/megalo-box/4/",
+        "https://jkanime.net/megalo-box/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -65072,7 +65161,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -65081,7 +65171,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -75480,7 +75570,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -76809,8 +76899,7 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -76820,7 +76909,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -79914,7 +80003,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -88775,6 +88864,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/48/",
         "https://jkanime.net/kusuriya-no-hitorigoto/49/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/50/",
         "https://jkanime.net/kusuriya-no-hitorigoto/53/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -89623,7 +89713,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 9,
+      "renewalFailed": 10,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -93335,11 +93425,15 @@
     {
       "series": "https://jkanime.net/fatestrange-fake-whispers-of-dawn/",
       "title": "Fate/strange Fake: Whispers of Dawn",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fatestrange-fake-whispers-of-dawn/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -106643,6 +106737,8 @@
         "https://jkanime.net/orient/11/",
         "https://jkanime.net/orient/12/",
         "https://jkanime.net/orient/13/",
+        "https://jkanime.net/orient/14/",
+        "https://jkanime.net/orient/15/",
         "https://jkanime.net/orient/2/",
         "https://jkanime.net/orient/4/",
         "https://jkanime.net/orient/5/",
@@ -108080,7 +108176,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -108489,6 +108585,8 @@
         "https://jkanime.net/kyoukai-senki/21/",
         "https://jkanime.net/kyoukai-senki/22/",
         "https://jkanime.net/kyoukai-senki/23/",
+        "https://jkanime.net/kyoukai-senki/24/",
+        "https://jkanime.net/kyoukai-senki/25/",
         "https://jkanime.net/kyoukai-senki/3/",
         "https://jkanime.net/kyoukai-senki/5/",
         "https://jkanime.net/kyoukai-senki/6/",
@@ -109754,11 +109852,15 @@
     {
       "series": "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/",
       "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fategrand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -113444,11 +113546,15 @@
     {
       "series": "https://jkanime.net/evangelion-3010-thrice-upon-a-time/",
       "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/evangelion-3010-thrice-upon-a-time/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -115561,7 +115667,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -122238,11 +122344,15 @@
     {
       "series": "https://jkanime.net/fategrand-order-moonlightlostroom/",
       "title": "Fate/Grand Order: Moonlight/Lostroom",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fategrand-order-moonlightlostroom/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -131931,6 +132041,7 @@
         "https://jkanime.net/piano-no-mori-tv/21/",
         "https://jkanime.net/piano-no-mori-tv/22/",
         "https://jkanime.net/piano-no-mori-tv/23/",
+        "https://jkanime.net/piano-no-mori-tv/24/",
         "https://jkanime.net/piano-no-mori-tv/8/"
       ],
       "noIndependent": [],
@@ -139392,11 +139503,15 @@
     {
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/",
       "title": "Fate/kaleid liner Prisma☆Illya Movie: Sekka no Chikai",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fatekaleid-liner-prismaillya-movie-sekka-no-chikai/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -140256,6 +140371,7 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/18if/2/",
         "https://jkanime.net/18if/7/",
         "https://jkanime.net/18if/8/"
       ],
@@ -141338,11 +141454,15 @@
     {
       "series": "https://jkanime.net/fairy-tail-movie-2-dragon-cry/",
       "title": "Fairy Tail Movie 2: Dragon Cry",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fairy-tail-movie-2-dragon-cry/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -142523,7 +142643,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/cinderella-girls-gekijou/12/",
-        "https://jkanime.net/cinderella-girls-gekijou/6/"
+        "https://jkanime.net/cinderella-girls-gekijou/6/",
+        "https://jkanime.net/cinderella-girls-gekijou/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -145104,11 +145225,15 @@
     {
       "series": "https://jkanime.net/fategrand-order-first-order/",
       "title": "Fate/Grand Order: First Order",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/fategrand-order-first-order/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -146397,7 +146522,8 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/cheating-craft/2/"
+        "https://jkanime.net/cheating-craft/2/",
+        "https://jkanime.net/cheating-craft/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -146493,11 +146619,15 @@
     {
       "series": "https://jkanime.net/nazotokine/",
       "title": "Nazotokine",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/nazotokine/7/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 6,
@@ -147719,11 +147849,15 @@
     {
       "series": "https://jkanime.net/persona-5-the-animation-the-day-breakers/",
       "title": "Persona 5 the Animation: The Day Breakers",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/persona-5-the-animation-the-day-breakers/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -158615,7 +158749,9 @@
         "https://jkanime.net/ninja-slayer-from-animation/19/",
         "https://jkanime.net/ninja-slayer-from-animation/20/",
         "https://jkanime.net/ninja-slayer-from-animation/21/",
-        "https://jkanime.net/ninja-slayer-from-animation/22/"
+        "https://jkanime.net/ninja-slayer-from-animation/22/",
+        "https://jkanime.net/ninja-slayer-from-animation/23/",
+        "https://jkanime.net/ninja-slayer-from-animation/24/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -196316,11 +196452,13 @@
       "stored": 25,
       "missing": [],
       "expired": [
+        "https://jkanime.net/07-ghost/14/",
         "https://jkanime.net/07-ghost/19/",
         "https://jkanime.net/07-ghost/2/",
         "https://jkanime.net/07-ghost/6/",
         "https://jkanime.net/07-ghost/7/",
-        "https://jkanime.net/07-ghost/8/"
+        "https://jkanime.net/07-ghost/8/",
+        "https://jkanime.net/07-ghost/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -228228,6 +228366,8 @@
         "https://jkanime.net/taiho-shichau-zo/14/",
         "https://jkanime.net/taiho-shichau-zo/15/",
         "https://jkanime.net/taiho-shichau-zo/16/",
+        "https://jkanime.net/taiho-shichau-zo/17/",
+        "https://jkanime.net/taiho-shichau-zo/18/",
         "https://jkanime.net/taiho-shichau-zo/2/",
         "https://jkanime.net/taiho-shichau-zo/3/",
         "https://jkanime.net/taiho-shichau-zo/4/"
@@ -231622,11 +231762,17 @@
     {
       "series": "https://jkanime.net/area-88/",
       "title": "Area 88",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 15,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/area-88/1/",
+        "https://jkanime.net/area-88/2/",
+        "https://jkanime.net/area-88/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 12,
@@ -232015,11 +232161,45 @@
     {
       "series": "https://jkanime.net/space-cobra/",
       "title": "Space Cobra",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 31,
       "stored": 31,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/space-cobra/1/",
+        "https://jkanime.net/space-cobra/10/",
+        "https://jkanime.net/space-cobra/11/",
+        "https://jkanime.net/space-cobra/12/",
+        "https://jkanime.net/space-cobra/13/",
+        "https://jkanime.net/space-cobra/14/",
+        "https://jkanime.net/space-cobra/15/",
+        "https://jkanime.net/space-cobra/16/",
+        "https://jkanime.net/space-cobra/17/",
+        "https://jkanime.net/space-cobra/18/",
+        "https://jkanime.net/space-cobra/19/",
+        "https://jkanime.net/space-cobra/2/",
+        "https://jkanime.net/space-cobra/20/",
+        "https://jkanime.net/space-cobra/21/",
+        "https://jkanime.net/space-cobra/22/",
+        "https://jkanime.net/space-cobra/23/",
+        "https://jkanime.net/space-cobra/24/",
+        "https://jkanime.net/space-cobra/25/",
+        "https://jkanime.net/space-cobra/26/",
+        "https://jkanime.net/space-cobra/27/",
+        "https://jkanime.net/space-cobra/28/",
+        "https://jkanime.net/space-cobra/29/",
+        "https://jkanime.net/space-cobra/3/",
+        "https://jkanime.net/space-cobra/30/",
+        "https://jkanime.net/space-cobra/31/",
+        "https://jkanime.net/space-cobra/4/",
+        "https://jkanime.net/space-cobra/5/",
+        "https://jkanime.net/space-cobra/6/",
+        "https://jkanime.net/space-cobra/7/",
+        "https://jkanime.net/space-cobra/8/",
+        "https://jkanime.net/space-cobra/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -232120,19 +232300,24 @@
       "stored": 63,
       "missing": [],
       "expired": [
+        "https://jkanime.net/mahou-no-princess-minky-momo/1/",
         "https://jkanime.net/mahou-no-princess-minky-momo/10/",
         "https://jkanime.net/mahou-no-princess-minky-momo/11/",
         "https://jkanime.net/mahou-no-princess-minky-momo/12/",
         "https://jkanime.net/mahou-no-princess-minky-momo/13/",
         "https://jkanime.net/mahou-no-princess-minky-momo/14/",
+        "https://jkanime.net/mahou-no-princess-minky-momo/15/",
         "https://jkanime.net/mahou-no-princess-minky-momo/16/",
         "https://jkanime.net/mahou-no-princess-minky-momo/17/",
         "https://jkanime.net/mahou-no-princess-minky-momo/18/",
         "https://jkanime.net/mahou-no-princess-minky-momo/19/",
+        "https://jkanime.net/mahou-no-princess-minky-momo/2/",
         "https://jkanime.net/mahou-no-princess-minky-momo/20/",
         "https://jkanime.net/mahou-no-princess-minky-momo/21/",
         "https://jkanime.net/mahou-no-princess-minky-momo/22/",
         "https://jkanime.net/mahou-no-princess-minky-momo/23/",
+        "https://jkanime.net/mahou-no-princess-minky-momo/24/",
+        "https://jkanime.net/mahou-no-princess-minky-momo/25/",
         "https://jkanime.net/mahou-no-princess-minky-momo/26/",
         "https://jkanime.net/mahou-no-princess-minky-momo/27/",
         "https://jkanime.net/mahou-no-princess-minky-momo/28/",
@@ -232512,11 +232697,55 @@
     {
       "series": "https://jkanime.net/mobile-suit-gundam/",
       "title": "Mobile Suit Gundam",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 43,
       "stored": 43,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mobile-suit-gundam/1/",
+        "https://jkanime.net/mobile-suit-gundam/10/",
+        "https://jkanime.net/mobile-suit-gundam/11/",
+        "https://jkanime.net/mobile-suit-gundam/12/",
+        "https://jkanime.net/mobile-suit-gundam/13/",
+        "https://jkanime.net/mobile-suit-gundam/14/",
+        "https://jkanime.net/mobile-suit-gundam/15/",
+        "https://jkanime.net/mobile-suit-gundam/16/",
+        "https://jkanime.net/mobile-suit-gundam/17/",
+        "https://jkanime.net/mobile-suit-gundam/18/",
+        "https://jkanime.net/mobile-suit-gundam/19/",
+        "https://jkanime.net/mobile-suit-gundam/2/",
+        "https://jkanime.net/mobile-suit-gundam/20/",
+        "https://jkanime.net/mobile-suit-gundam/21/",
+        "https://jkanime.net/mobile-suit-gundam/22/",
+        "https://jkanime.net/mobile-suit-gundam/23/",
+        "https://jkanime.net/mobile-suit-gundam/24/",
+        "https://jkanime.net/mobile-suit-gundam/25/",
+        "https://jkanime.net/mobile-suit-gundam/26/",
+        "https://jkanime.net/mobile-suit-gundam/27/",
+        "https://jkanime.net/mobile-suit-gundam/28/",
+        "https://jkanime.net/mobile-suit-gundam/29/",
+        "https://jkanime.net/mobile-suit-gundam/3/",
+        "https://jkanime.net/mobile-suit-gundam/30/",
+        "https://jkanime.net/mobile-suit-gundam/31/",
+        "https://jkanime.net/mobile-suit-gundam/32/",
+        "https://jkanime.net/mobile-suit-gundam/33/",
+        "https://jkanime.net/mobile-suit-gundam/34/",
+        "https://jkanime.net/mobile-suit-gundam/35/",
+        "https://jkanime.net/mobile-suit-gundam/36/",
+        "https://jkanime.net/mobile-suit-gundam/37/",
+        "https://jkanime.net/mobile-suit-gundam/38/",
+        "https://jkanime.net/mobile-suit-gundam/39/",
+        "https://jkanime.net/mobile-suit-gundam/4/",
+        "https://jkanime.net/mobile-suit-gundam/40/",
+        "https://jkanime.net/mobile-suit-gundam/41/",
+        "https://jkanime.net/mobile-suit-gundam/5/",
+        "https://jkanime.net/mobile-suit-gundam/6/",
+        "https://jkanime.net/mobile-suit-gundam/7/",
+        "https://jkanime.net/mobile-suit-gundam/8/",
+        "https://jkanime.net/mobile-suit-gundam/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
