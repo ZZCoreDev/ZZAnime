@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T09:32:15.030562+00:00",
+  "checkedAt": "2026-11-06T09:46:05.595466+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -1483,13 +1490,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/classic-stars/",
-        "title": "Classic★Stars",
-        "samples": [
-          "https://jkanime.net/classic-stars/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/himitsu-no-aipri-ring-hen/",
         "title": "Himitsu no AiPri: Ring-hen",
         "samples": [
@@ -1789,14 +1789,6 @@
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/farmagia/",
-        "title": "Farmagia",
-        "samples": [
-          "https://jkanime.net/farmagia/2/",
-          "https://jkanime.net/farmagia/4/"
         ]
       },
       {
@@ -16231,6 +16223,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/aooni-the-blue-monster/",
+        "title": "Ao Oni The Animation",
+        "samples": [
+          "https://jkanime.net/aooni-the-blue-monster/1/",
+          "https://jkanime.net/aooni-the-blue-monster/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/idol-memories/",
         "title": "Idol Memories",
         "samples": [
@@ -18443,6 +18443,22 @@
         "samples": [
           "https://jkanime.net/aquarion-logos/1/",
           "https://jkanime.net/aquarion-logos/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/gate/",
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "samples": [
+          "https://jkanime.net/gate/1/",
+          "https://jkanime.net/gate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+        "samples": [
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
+          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
         ]
       },
       {
@@ -64049,7 +64065,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64058,7 +64075,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -74139,8 +74156,7 @@
       "series": "https://jkanime.net/classic-stars/",
       "title": "Classic★Stars",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -74149,7 +74165,7 @@
         "https://jkanime.net/classic-stars/1/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 1,
@@ -74442,7 +74458,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -75771,8 +75787,7 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -75782,7 +75797,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -78876,7 +78891,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83214,7 +83229,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 19,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88550,7 +88565,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106798,7 +106813,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -120130,7 +120145,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -142531,7 +142546,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -145927,7 +145942,8 @@
       "series": "https://jkanime.net/aooni-the-blue-monster/",
       "title": "Ao Oni The Animation",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -145947,7 +145963,7 @@
         "https://jkanime.net/aooni-the-blue-monster/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156637,7 +156653,8 @@
       "series": "https://jkanime.net/gate/",
       "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156657,7 +156674,7 @@
         "https://jkanime.net/gate/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -156672,7 +156689,8 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -156692,7 +156710,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
