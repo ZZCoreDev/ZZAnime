@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-06T12:41:02.606516+00:00",
+  "checkedAt": "2026-11-06T12:58:52.191944+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73874,
+  "observedChapters": 73875,
   "storedChapters": 73059,
   "missingChapters": 510,
   "expiredChapters": 57526,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 305,
-  "voeOnlyChapters": 45,
+  "sideOnlyChapters": 306,
+  "voeOnlyChapters": 46,
   "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -232328,7 +232328,7 @@
         "expired-observation",
         "renewal-error"
       ],
-      "observed": 7,
+      "observed": 8,
       "stored": 7,
       "missing": [],
       "expired": [
@@ -232337,7 +232337,7 @@
       ],
       "noIndependent": [],
       "renewalFailed": 2,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "streamwish": 6,
         "mp4upload": 4,
