@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T17:06:49.339463+00:00",
+  "checkedAt": "2026-11-06T17:23:18.131128+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73878,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 58135,
+  "expiredChapters": 58138,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
   "voeOnlyChapters": 48,
-  "extraOnlyChapters": 305,
+  "extraOnlyChapters": 307,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -63642,7 +63650,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -63653,7 +63662,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -72691,7 +72700,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -87787,6 +87796,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/25/",
         "https://jkanime.net/kusuriya-no-hitorigoto/27/",
         "https://jkanime.net/kusuriya-no-hitorigoto/28/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/29/",
         "https://jkanime.net/kusuriya-no-hitorigoto/3/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
@@ -130880,6 +130890,7 @@
         "https://jkanime.net/piano-no-mori-tv/10/",
         "https://jkanime.net/piano-no-mori-tv/19/",
         "https://jkanime.net/piano-no-mori-tv/20/",
+        "https://jkanime.net/piano-no-mori-tv/21/",
         "https://jkanime.net/piano-no-mori-tv/8/"
       ],
       "noIndependent": [],
@@ -208789,6 +208800,7 @@
         "https://jkanime.net/tsubasa-chronicle/40/",
         "https://jkanime.net/tsubasa-chronicle/41/",
         "https://jkanime.net/tsubasa-chronicle/42/",
+        "https://jkanime.net/tsubasa-chronicle/43/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
         "https://jkanime.net/tsubasa-chronicle/7/",
