@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T15:24:10.483243+00:00",
+  "checkedAt": "2026-11-06T15:41:13.424013+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 57839,
+  "expiredChapters": 57866,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -29,6 +29,14 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -29064,7 +29072,7 @@
         "title": "Hit wo Nerae!",
         "samples": [
           "https://jkanime.net/hit-wo-nerae/1/",
-          "https://jkanime.net/hit-wo-nerae/2/"
+          "https://jkanime.net/hit-wo-nerae/10/"
         ]
       },
       {
@@ -29181,7 +29189,7 @@
         "title": "Mezzo DSA",
         "samples": [
           "https://jkanime.net/mezzo-dsa/1/",
-          "https://jkanime.net/mezzo-dsa/13/"
+          "https://jkanime.net/mezzo-dsa/10/"
         ]
       },
       {
@@ -29218,8 +29226,8 @@
         "series": "https://jkanime.net/chrno-crusade/",
         "title": "Chrno Crusade",
         "samples": [
-          "https://jkanime.net/chrno-crusade/14/",
-          "https://jkanime.net/chrno-crusade/15/"
+          "https://jkanime.net/chrno-crusade/1/",
+          "https://jkanime.net/chrno-crusade/10/"
         ]
       },
       {
@@ -49415,6 +49423,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/",
+        "title": "Mahou Shoujo Nante Mou Ii Desukara.",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/9/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/teekyuu-7/",
         "title": "Teekyuu 7",
         "samples": [
@@ -59796,7 +59811,7 @@
         "title": "Hit wo Nerae!",
         "samples": [
           "https://jkanime.net/hit-wo-nerae/1/",
-          "https://jkanime.net/hit-wo-nerae/2/"
+          "https://jkanime.net/hit-wo-nerae/10/"
         ]
       },
       {
@@ -59899,7 +59914,7 @@
         "title": "Mezzo DSA",
         "samples": [
           "https://jkanime.net/mezzo-dsa/1/",
-          "https://jkanime.net/mezzo-dsa/13/"
+          "https://jkanime.net/mezzo-dsa/10/"
         ]
       },
       {
@@ -59922,8 +59937,8 @@
         "series": "https://jkanime.net/chrno-crusade/",
         "title": "Chrno Crusade",
         "samples": [
-          "https://jkanime.net/chrno-crusade/14/",
-          "https://jkanime.net/chrno-crusade/15/"
+          "https://jkanime.net/chrno-crusade/1/",
+          "https://jkanime.net/chrno-crusade/10/"
         ]
       },
       {
@@ -63602,7 +63617,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -63613,7 +63629,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -151175,11 +151191,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/",
       "title": "Mahou Shoujo Nante Mou Ii Desukara.",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 6,
@@ -208712,6 +208732,8 @@
         "https://jkanime.net/tsubasa-chronicle/32/",
         "https://jkanime.net/tsubasa-chronicle/33/",
         "https://jkanime.net/tsubasa-chronicle/34/",
+        "https://jkanime.net/tsubasa-chronicle/35/",
+        "https://jkanime.net/tsubasa-chronicle/36/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
@@ -213191,6 +213213,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/hit-wo-nerae/1/",
+        "https://jkanime.net/hit-wo-nerae/10/",
+        "https://jkanime.net/hit-wo-nerae/11/",
         "https://jkanime.net/hit-wo-nerae/2/",
         "https://jkanime.net/hit-wo-nerae/3/",
         "https://jkanime.net/hit-wo-nerae/4/",
@@ -213393,6 +213417,7 @@
         "https://jkanime.net/futari-wa-precure/4/",
         "https://jkanime.net/futari-wa-precure/40/",
         "https://jkanime.net/futari-wa-precure/41/",
+        "https://jkanime.net/futari-wa-precure/42/",
         "https://jkanime.net/futari-wa-precure/43/",
         "https://jkanime.net/futari-wa-precure/44/",
         "https://jkanime.net/futari-wa-precure/45/",
@@ -213777,9 +213802,18 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/mezzo-dsa/1/",
+        "https://jkanime.net/mezzo-dsa/10/",
+        "https://jkanime.net/mezzo-dsa/11/",
+        "https://jkanime.net/mezzo-dsa/12/",
         "https://jkanime.net/mezzo-dsa/13/",
         "https://jkanime.net/mezzo-dsa/2/",
-        "https://jkanime.net/mezzo-dsa/3/"
+        "https://jkanime.net/mezzo-dsa/3/",
+        "https://jkanime.net/mezzo-dsa/4/",
+        "https://jkanime.net/mezzo-dsa/5/",
+        "https://jkanime.net/mezzo-dsa/6/",
+        "https://jkanime.net/mezzo-dsa/7/",
+        "https://jkanime.net/mezzo-dsa/8/",
+        "https://jkanime.net/mezzo-dsa/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -213935,18 +213969,30 @@
       "stored": 24,
       "missing": [],
       "expired": [
+        "https://jkanime.net/chrno-crusade/1/",
+        "https://jkanime.net/chrno-crusade/10/",
+        "https://jkanime.net/chrno-crusade/11/",
+        "https://jkanime.net/chrno-crusade/12/",
+        "https://jkanime.net/chrno-crusade/13/",
         "https://jkanime.net/chrno-crusade/14/",
         "https://jkanime.net/chrno-crusade/15/",
         "https://jkanime.net/chrno-crusade/16/",
         "https://jkanime.net/chrno-crusade/17/",
         "https://jkanime.net/chrno-crusade/18/",
         "https://jkanime.net/chrno-crusade/19/",
+        "https://jkanime.net/chrno-crusade/2/",
         "https://jkanime.net/chrno-crusade/20/",
         "https://jkanime.net/chrno-crusade/21/",
         "https://jkanime.net/chrno-crusade/22/",
         "https://jkanime.net/chrno-crusade/23/",
         "https://jkanime.net/chrno-crusade/24/",
-        "https://jkanime.net/chrno-crusade/8/"
+        "https://jkanime.net/chrno-crusade/3/",
+        "https://jkanime.net/chrno-crusade/4/",
+        "https://jkanime.net/chrno-crusade/5/",
+        "https://jkanime.net/chrno-crusade/6/",
+        "https://jkanime.net/chrno-crusade/7/",
+        "https://jkanime.net/chrno-crusade/8/",
+        "https://jkanime.net/chrno-crusade/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 12,

@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-06T15:24:10.483243+00:00",
-  "failedChapters": 56565,
-  "series": 4094,
+  "checkedAt": "2026-11-06T15:41:13.424013+00:00",
+  "failedChapters": 56566,
+  "series": 4095,
   "diagnosedSeries": 4046,
-  "pendingSeries": 48,
+  "pendingSeries": 49,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 302,
+    "ValueError: No approved observations; previous channel retained": 303,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -119863,7 +119863,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793978819.2296653
+      "nextRetryAt": 1794001172.8709419
     },
     {
       "series": "https://jkanime.net/cluster-edge/",
@@ -139043,6 +139043,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793981372.870927
     }
   ]
 }

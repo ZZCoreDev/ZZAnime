@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T15:24:10.483243+00:00",
+  "checkedAt": "2026-11-06T15:41:13.424013+00:00",
   "episodes": 73060,
-  "oldestHours": 266.84,
-  "pending": 71925,
-  "expired": 57839,
-  "expiresWithin24Hours": 71523,
-  "retryAfterExpiry": 1608,
+  "oldestHours": 267.12,
+  "pending": 71952,
+  "expired": 57866,
+  "expiresWithin24Hours": 71539,
+  "retryAfterExpiry": 1609,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1429.02,
-  "measuredWallClockPerHour": 300.21,
-  "estimatedSweepDays": 10.14,
+  "sampleMinutes": 1396.08,
+  "measuredWallClockPerHour": 307.29,
+  "estimatedSweepDays": 9.91,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
+    "series": 4095,
     "diagnosedSeries": 4046,
-    "pendingSeries": 48
+    "pendingSeries": 49
   },
   "coverage": {
-    "checkedAt": "2026-11-06T15:24:10.483243+00:00",
+    "checkedAt": "2026-11-06T15:41:13.424013+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73875,
     "storedChapters": 73060,
     "missingChapters": 510,
-    "expiredChapters": 57839,
+    "expiredChapters": 57866,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
