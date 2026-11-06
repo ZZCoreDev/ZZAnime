@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T19:40:07.200526+00:00",
+  "checkedAt": "2026-11-06T19:56:57.946556+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
-  "storedChapters": 73064,
+  "storedChapters": 73065,
   "missingChapters": 510,
-  "expiredChapters": 58528,
+  "expiredChapters": 58567,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
-  "extraOnlyChapters": 307,
+  "sideOnlyChapters": 306,
+  "voeOnlyChapters": 46,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -30652,8 +30652,8 @@
         "series": "https://jkanime.net/rurouni-kenshin-tsuiokuhen/",
         "title": "Rurouni Kenshin: Tsuiokuhen",
         "samples": [
-          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/2/",
-          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/3/"
+          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/1/",
+          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/2/"
         ]
       },
       {
@@ -30668,8 +30668,8 @@
         "series": "https://jkanime.net/yoiko/",
         "title": "Yoiko",
         "samples": [
-          "https://jkanime.net/yoiko/12/",
-          "https://jkanime.net/yoiko/13/"
+          "https://jkanime.net/yoiko/1/",
+          "https://jkanime.net/yoiko/10/"
         ]
       },
       {
@@ -61866,11 +61866,19 @@
         ]
       },
       {
+        "series": "https://jkanime.net/petshop-of-horrors/",
+        "title": "Petshop of Horrors",
+        "samples": [
+          "https://jkanime.net/petshop-of-horrors/1/",
+          "https://jkanime.net/petshop-of-horrors/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/rurouni-kenshin-tsuiokuhen/",
         "title": "Rurouni Kenshin: Tsuiokuhen",
         "samples": [
-          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/2/",
-          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/3/"
+          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/1/",
+          "https://jkanime.net/rurouni-kenshin-tsuiokuhen/2/"
         ]
       },
       {
@@ -61885,8 +61893,8 @@
         "series": "https://jkanime.net/yoiko/",
         "title": "Yoiko",
         "samples": [
-          "https://jkanime.net/yoiko/12/",
-          "https://jkanime.net/yoiko/13/"
+          "https://jkanime.net/yoiko/1/",
+          "https://jkanime.net/yoiko/10/"
         ]
       },
       {
@@ -88511,7 +88519,9 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/36/",
         "https://jkanime.net/kusuriya-no-hitorigoto/37/",
         "https://jkanime.net/kusuriya-no-hitorigoto/38/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/39/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/40/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -224781,11 +224791,18 @@
     {
       "series": "https://jkanime.net/petshop-of-horrors/",
       "title": "Petshop of Horrors",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 4,
       "stored": 4,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/petshop-of-horrors/1/",
+        "https://jkanime.net/petshop-of-horrors/2/",
+        "https://jkanime.net/petshop-of-horrors/3/",
+        "https://jkanime.net/petshop-of-horrors/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -224805,6 +224822,7 @@
       "stored": 4,
       "missing": [],
       "expired": [
+        "https://jkanime.net/rurouni-kenshin-tsuiokuhen/1/",
         "https://jkanime.net/rurouni-kenshin-tsuiokuhen/2/",
         "https://jkanime.net/rurouni-kenshin-tsuiokuhen/3/",
         "https://jkanime.net/rurouni-kenshin-tsuiokuhen/4/"
@@ -224872,9 +224890,26 @@
       "stored": 20,
       "missing": [],
       "expired": [
+        "https://jkanime.net/yoiko/1/",
+        "https://jkanime.net/yoiko/10/",
+        "https://jkanime.net/yoiko/11/",
         "https://jkanime.net/yoiko/12/",
         "https://jkanime.net/yoiko/13/",
-        "https://jkanime.net/yoiko/19/"
+        "https://jkanime.net/yoiko/14/",
+        "https://jkanime.net/yoiko/15/",
+        "https://jkanime.net/yoiko/16/",
+        "https://jkanime.net/yoiko/17/",
+        "https://jkanime.net/yoiko/18/",
+        "https://jkanime.net/yoiko/19/",
+        "https://jkanime.net/yoiko/2/",
+        "https://jkanime.net/yoiko/20/",
+        "https://jkanime.net/yoiko/3/",
+        "https://jkanime.net/yoiko/4/",
+        "https://jkanime.net/yoiko/5/",
+        "https://jkanime.net/yoiko/6/",
+        "https://jkanime.net/yoiko/7/",
+        "https://jkanime.net/yoiko/8/",
+        "https://jkanime.net/yoiko/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -224903,14 +224938,29 @@
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/1/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/10/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/11/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/12/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/13/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/14/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/15/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/16/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/17/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/18/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/19/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/2/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/20/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/21/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/22/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/23/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/24/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/25/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/26/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/3/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/4/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/5/",
         "https://jkanime.net/bubblegum-crisis-tokyo-2040/6/",
-        "https://jkanime.net/bubblegum-crisis-tokyo-2040/7/"
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/7/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/8/",
+        "https://jkanime.net/bubblegum-crisis-tokyo-2040/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 11,
@@ -232696,16 +232746,18 @@
       "title": "Hotaru no Yomeiri",
       "causes": [],
       "observed": 5,
-      "stored": 4,
+      "stored": 5,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 3,
-        "streamwish": 1,
-        "mega": 1
+        "mp4upload": 4,
+        "streamwish": 2,
+        "mega": 1,
+        "vidhide": 1,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
