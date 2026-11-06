@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T23:47:09.846431+00:00",
+  "checkedAt": "2026-11-06T00:03:04.913666+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -287,6 +287,13 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-shizuku/",
+        "title": "Kami no Shizuku",
+        "samples": [
+          "https://jkanime.net/kami-no-shizuku/18/"
         ]
       },
       {
@@ -4307,14 +4314,6 @@
         "samples": [
           "https://jkanime.net/undead-unluck/1/",
           "https://jkanime.net/undead-unluck/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-        "title": "Kanojo mo Kanojo 2nd Season",
-        "samples": [
-          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
-          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
         ]
       },
       {
@@ -15506,6 +15505,14 @@
         "samples": [
           "https://jkanime.net/bang-dream/1/",
           "https://jkanime.net/bang-dream/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
+        "title": "Granblue Fantasy The Animation",
+        "samples": [
+          "https://jkanime.net/granblue-fantasy-the-animation/1/",
+          "https://jkanime.net/granblue-fantasy-the-animation/10/"
         ]
       },
       {
@@ -65603,7 +65610,8 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -65612,7 +65620,7 @@
         "https://jkanime.net/kami-no-shizuku/18/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -72551,7 +72559,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -74384,7 +74392,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -78812,7 +78820,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78979,7 +78987,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83150,7 +83158,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88465,8 +88473,7 @@
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "title": "Kanojo mo Kanojo 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -88486,7 +88493,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106731,7 +106738,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -114379,7 +114386,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120063,7 +120070,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -129207,7 +129214,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -142436,7 +142443,8 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -142457,7 +142465,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
