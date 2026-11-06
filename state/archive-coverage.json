@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T06:06:53.547947+00:00",
+  "checkedAt": "2026-11-06T06:23:49.120307+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57522,
+  "expiredChapters": 57523,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -188674,6 +188674,7 @@
       "expired": [
         "https://jkanime.net/cardfight-vanguard/1/",
         "https://jkanime.net/cardfight-vanguard/10/",
+        "https://jkanime.net/cardfight-vanguard/15/",
         "https://jkanime.net/cardfight-vanguard/2/",
         "https://jkanime.net/cardfight-vanguard/20/",
         "https://jkanime.net/cardfight-vanguard/3/",
