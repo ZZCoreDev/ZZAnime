@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T01:54:39.789593+00:00",
+  "checkedAt": "2026-11-06T02:10:16.522971+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57483,
+  "expiredChapters": 57484,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -74448,7 +74448,7 @@
         "https://jkanime.net/anne-shirley/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -78878,7 +78878,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -79045,7 +79045,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/8/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 10,
@@ -83216,7 +83216,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 11,
+      "renewalFailed": 13,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88552,7 +88552,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106798,7 +106798,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106980,7 +106980,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -110158,7 +110158,7 @@
         "https://jkanime.net/scarlet-nexus/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 26,
+      "renewalFailed": 25,
       "sideOnly": 0,
       "families": {
         "mega": 26,
@@ -114446,7 +114446,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120130,7 +120130,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -129274,7 +129274,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -133751,7 +133751,7 @@
         "https://jkanime.net/captain-tsubasa-2018/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 47,
+      "renewalFailed": 46,
       "sideOnly": 0,
       "families": {
         "mega": 52,
@@ -142525,7 +142525,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -174036,6 +174036,7 @@
         "https://jkanime.net/fantasista-doll/2/",
         "https://jkanime.net/fantasista-doll/3/",
         "https://jkanime.net/fantasista-doll/6/",
+        "https://jkanime.net/fantasista-doll/7/",
         "https://jkanime.net/fantasista-doll/8/"
       ],
       "noIndependent": [],
