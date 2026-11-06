@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-06T11:35:49.936128+00:00",
+  "checkedAt": "2026-11-06T11:54:35.164358+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 212,
-  "repairAttempts": 28,
+  "attempted": 124,
+  "repairAttempts": 6,
   "earlyRepairAttempts": 0,
-  "failed": 56571,
+  "failed": 56569,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42211168205",
+  "runId": "42213226800",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57526,
-  "extraRenewed": 103,
+  "extraRenewed": 23,
   "published": true,
-  "expiresWithin24Hours": 70863,
-  "retryAfterExpiry": 1615,
+  "expiresWithin24Hours": 70925,
+  "retryAfterExpiry": 1612,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -137,7 +137,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 18,
+      "pendingFailures": 17,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -746,7 +746,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
-    "diagnosedSeries": 4045,
+    "series": 4095,
+    "diagnosedSeries": 4046,
     "pendingSeries": 49
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-06T11:50:29.857960+00:00",
+    "checkedAt": "2026-11-06T12:07:04.358431+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,

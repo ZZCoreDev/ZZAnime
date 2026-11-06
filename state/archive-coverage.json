@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T11:50:29.857960+00:00",
+  "checkedAt": "2026-11-06T12:07:04.358431+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -17430,6 +17430,13 @@
         "samples": [
           "https://jkanime.net/divine-gate/1/",
           "https://jkanime.net/divine-gate/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/koukaku-no-pandora/",
+        "title": "Koukaku no Pandora",
+        "samples": [
+          "https://jkanime.net/koukaku-no-pandora/7/"
         ]
       },
       {
@@ -72609,7 +72616,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -78875,7 +78882,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83213,7 +83220,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -151627,13 +151634,15 @@
     {
       "series": "https://jkanime.net/koukaku-no-pandora/",
       "title": "Koukaku no Pandora",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 12,
       "stored": 0,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 12,
       "families": {},
       "playbackVerified": false
