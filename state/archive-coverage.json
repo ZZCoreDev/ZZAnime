@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T15:05:01.093747+00:00",
+  "checkedAt": "2026-11-06T15:24:10.483243+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73875,
-  "storedChapters": 73059,
+  "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 57802,
+  "expiredChapters": 57839,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 306,
-  "voeOnlyChapters": 46,
-  "extraOnlyChapters": 306,
+  "sideOnlyChapters": 305,
+  "voeOnlyChapters": 45,
+  "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -28984,7 +28984,7 @@
         "title": "Shinkon Gattai Godannar!! 2nd Season",
         "samples": [
           "https://jkanime.net/shinkon-gattai-godannar-2nd-season/1/",
-          "https://jkanime.net/shinkon-gattai-godannar-2nd-season/13/"
+          "https://jkanime.net/shinkon-gattai-godannar-2nd-season/10/"
         ]
       },
       {
@@ -29063,7 +29063,8 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/4/"
+          "https://jkanime.net/hit-wo-nerae/1/",
+          "https://jkanime.net/hit-wo-nerae/2/"
         ]
       },
       {
@@ -59707,7 +59708,7 @@
         "title": "Shinkon Gattai Godannar!! 2nd Season",
         "samples": [
           "https://jkanime.net/shinkon-gattai-godannar-2nd-season/1/",
-          "https://jkanime.net/shinkon-gattai-godannar-2nd-season/13/"
+          "https://jkanime.net/shinkon-gattai-godannar-2nd-season/10/"
         ]
       },
       {
@@ -59794,7 +59795,8 @@
         "series": "https://jkanime.net/hit-wo-nerae/",
         "title": "Hit wo Nerae!",
         "samples": [
-          "https://jkanime.net/hit-wo-nerae/4/"
+          "https://jkanime.net/hit-wo-nerae/1/",
+          "https://jkanime.net/hit-wo-nerae/2/"
         ]
       },
       {
@@ -208709,6 +208711,7 @@
         "https://jkanime.net/tsubasa-chronicle/31/",
         "https://jkanime.net/tsubasa-chronicle/32/",
         "https://jkanime.net/tsubasa-chronicle/33/",
+        "https://jkanime.net/tsubasa-chronicle/34/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
@@ -212168,6 +212171,7 @@
         "https://jkanime.net/bakuretsu-tenshi/22/",
         "https://jkanime.net/bakuretsu-tenshi/23/",
         "https://jkanime.net/bakuretsu-tenshi/24/",
+        "https://jkanime.net/bakuretsu-tenshi/25/",
         "https://jkanime.net/bakuretsu-tenshi/3/",
         "https://jkanime.net/bakuretsu-tenshi/4/",
         "https://jkanime.net/bakuretsu-tenshi/5/",
@@ -212489,43 +212493,59 @@
         "https://jkanime.net/monster/24/",
         "https://jkanime.net/monster/25/",
         "https://jkanime.net/monster/26/",
+        "https://jkanime.net/monster/27/",
         "https://jkanime.net/monster/28/",
+        "https://jkanime.net/monster/29/",
         "https://jkanime.net/monster/3/",
         "https://jkanime.net/monster/30/",
         "https://jkanime.net/monster/31/",
+        "https://jkanime.net/monster/32/",
         "https://jkanime.net/monster/33/",
         "https://jkanime.net/monster/34/",
         "https://jkanime.net/monster/35/",
         "https://jkanime.net/monster/36/",
+        "https://jkanime.net/monster/37/",
         "https://jkanime.net/monster/38/",
         "https://jkanime.net/monster/39/",
         "https://jkanime.net/monster/4/",
+        "https://jkanime.net/monster/40/",
         "https://jkanime.net/monster/41/",
+        "https://jkanime.net/monster/42/",
+        "https://jkanime.net/monster/43/",
         "https://jkanime.net/monster/44/",
+        "https://jkanime.net/monster/45/",
+        "https://jkanime.net/monster/46/",
         "https://jkanime.net/monster/47/",
         "https://jkanime.net/monster/48/",
         "https://jkanime.net/monster/49/",
         "https://jkanime.net/monster/5/",
         "https://jkanime.net/monster/50/",
         "https://jkanime.net/monster/51/",
+        "https://jkanime.net/monster/52/",
         "https://jkanime.net/monster/53/",
         "https://jkanime.net/monster/54/",
         "https://jkanime.net/monster/55/",
         "https://jkanime.net/monster/56/",
+        "https://jkanime.net/monster/57/",
         "https://jkanime.net/monster/58/",
+        "https://jkanime.net/monster/59/",
         "https://jkanime.net/monster/6/",
         "https://jkanime.net/monster/60/",
+        "https://jkanime.net/monster/61/",
         "https://jkanime.net/monster/62/",
         "https://jkanime.net/monster/63/",
         "https://jkanime.net/monster/64/",
         "https://jkanime.net/monster/65/",
         "https://jkanime.net/monster/66/",
+        "https://jkanime.net/monster/67/",
         "https://jkanime.net/monster/68/",
+        "https://jkanime.net/monster/69/",
         "https://jkanime.net/monster/7/",
         "https://jkanime.net/monster/70/",
         "https://jkanime.net/monster/71/",
         "https://jkanime.net/monster/72/",
         "https://jkanime.net/monster/73/",
+        "https://jkanime.net/monster/74/",
         "https://jkanime.net/monster/8/",
         "https://jkanime.net/monster/9/"
       ],
@@ -212652,8 +212672,12 @@
       "expired": [
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/1/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/10/",
+        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/11/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/12/",
+        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/13/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/14/",
+        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/15/",
+        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/16/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/17/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/18/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/19/",
@@ -212670,7 +212694,8 @@
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/5/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/6/",
         "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/7/",
-        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/8/"
+        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/8/",
+        "https://jkanime.net/mutsu-enmei-ryuu-gaiden-shura-no-toki/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 21,
@@ -212697,11 +212722,18 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/shinkon-gattai-godannar-2nd-season/1/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/10/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/11/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/12/",
         "https://jkanime.net/shinkon-gattai-godannar-2nd-season/13/",
         "https://jkanime.net/shinkon-gattai-godannar-2nd-season/2/",
         "https://jkanime.net/shinkon-gattai-godannar-2nd-season/3/",
         "https://jkanime.net/shinkon-gattai-godannar-2nd-season/4/",
-        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/8/"
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/5/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/6/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/7/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/8/",
+        "https://jkanime.net/shinkon-gattai-godannar-2nd-season/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 6,
@@ -213158,7 +213190,14 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/hit-wo-nerae/4/"
+        "https://jkanime.net/hit-wo-nerae/1/",
+        "https://jkanime.net/hit-wo-nerae/2/",
+        "https://jkanime.net/hit-wo-nerae/3/",
+        "https://jkanime.net/hit-wo-nerae/4/",
+        "https://jkanime.net/hit-wo-nerae/5/",
+        "https://jkanime.net/hit-wo-nerae/6/",
+        "https://jkanime.net/hit-wo-nerae/7/",
+        "https://jkanime.net/hit-wo-nerae/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -232665,7 +232704,7 @@
         "renewal-error"
       ],
       "observed": 8,
-      "stored": 7,
+      "stored": 8,
       "missing": [],
       "expired": [
         "https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/5/",
@@ -232673,12 +232712,12 @@
       ],
       "noIndependent": [],
       "renewalFailed": 2,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
         "streamwish": 6,
         "mp4upload": 4,
         "vidhide": 3,
-        "mega": 3,
+        "mega": 4,
         "mixdrop": 2,
         "streamtape": 2
       },
