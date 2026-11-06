@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T22:47:04.219063+00:00",
+  "checkedAt": "2026-11-06T23:05:25.573482+00:00",
   "failedChapters": 56593,
   "series": 4098,
   "diagnosedSeries": 4046,
@@ -134333,6 +134333,18 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794006556.8550754
+    },
+    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139080,18 +139092,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794006556.8550754
     }
   ]
 }

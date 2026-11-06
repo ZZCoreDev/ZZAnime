@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T22:47:04.219063+00:00",
+  "checkedAt": "2026-11-06T23:05:25.573482+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 59196,
+  "expiredChapters": 59372,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -4961,6 +4961,13 @@
         "samples": [
           "https://jkanime.net/idolish7-movie-live-4bit-beyond-the-period/1/",
           "https://jkanime.net/idolish7-movie-live-4bit-beyond-the-period/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/psycho-pass-movie-providence/",
+        "title": "Psycho-Pass Movie: Providence",
+        "samples": [
+          "https://jkanime.net/psycho-pass-movie-providence/1/"
         ]
       },
       {
@@ -13945,7 +13952,7 @@
         "title": "18if",
         "samples": [
           "https://jkanime.net/18if/2/",
-          "https://jkanime.net/18if/7/"
+          "https://jkanime.net/18if/3/"
         ]
       },
       {
@@ -15114,7 +15121,8 @@
         "series": "https://jkanime.net/nazotokine/",
         "title": "Nazotokine",
         "samples": [
-          "https://jkanime.net/nazotokine/7/"
+          "https://jkanime.net/nazotokine/7/",
+          "https://jkanime.net/nazotokine/8/"
         ]
       },
       {
@@ -15481,6 +15489,14 @@
         "samples": [
           "https://jkanime.net/mahou-shoujo-nariagirls/1/",
           "https://jkanime.net/mahou-shoujo-nariagirls/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
+        "title": "Regalia: The Three Sacred Stars",
+        "samples": [
+          "https://jkanime.net/regalia-the-three-sacred-stars/1/",
+          "https://jkanime.net/regalia-the-three-sacred-stars/13/"
         ]
       },
       {
@@ -17021,6 +17037,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/psycho-pass-movie/",
+        "title": "Psycho-Pass Movie",
+        "samples": [
+          "https://jkanime.net/psycho-pass-movie/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/fatekaleid-liner-prismaillya-2wei-herz/",
         "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
         "samples": [
@@ -17639,6 +17662,14 @@
         "samples": [
           "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/1/",
           "https://jkanime.net/uta-noprince-sama-maji-love-revolutions/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
+        "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
+        "samples": [
+          "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/3/",
+          "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
         ]
       },
       {
@@ -19928,6 +19959,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/sakasama-no-patema/",
+        "title": "Sakasama no Patema",
+        "samples": [
+          "https://jkanime.net/sakasama-no-patema/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tokyo-ravens-specials/",
         "title": "Tokyo Ravens Specials",
         "samples": [
@@ -20962,6 +21000,13 @@
         "samples": [
           "https://jkanime.net/cyclops-shoujo-saipu/1/",
           "https://jkanime.net/cyclops-shoujo-saipu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/ryo/",
+        "title": "Ryo",
+        "samples": [
+          "https://jkanime.net/ryo/1/"
         ]
       },
       {
@@ -24187,7 +24232,7 @@
         "title": "07-Ghost",
         "samples": [
           "https://jkanime.net/07-ghost/14/",
-          "https://jkanime.net/07-ghost/19/"
+          "https://jkanime.net/07-ghost/15/"
         ]
       },
       {
@@ -29465,15 +29510,16 @@
         "series": "https://jkanime.net/uchuu-kaizoku-captain-herlock/",
         "title": "Uchuu Kaizoku Captain Herlock",
         "samples": [
-          "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/"
+          "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/",
+          "https://jkanime.net/uchuu-kaizoku-captain-herlock/10/"
         ]
       },
       {
         "series": "https://jkanime.net/candy-candy/",
         "title": "Candy Candy",
         "samples": [
-          "https://jkanime.net/candy-candy/108/",
-          "https://jkanime.net/candy-candy/83/"
+          "https://jkanime.net/candy-candy/1/",
+          "https://jkanime.net/candy-candy/10/"
         ]
       },
       {
@@ -61559,7 +61605,8 @@
         "series": "https://jkanime.net/uchuu-kaizoku-captain-herlock/",
         "title": "Uchuu Kaizoku Captain Herlock",
         "samples": [
-          "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/"
+          "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/",
+          "https://jkanime.net/uchuu-kaizoku-captain-herlock/10/"
         ]
       },
       {
@@ -61573,8 +61620,8 @@
         "series": "https://jkanime.net/candy-candy/",
         "title": "Candy Candy",
         "samples": [
-          "https://jkanime.net/candy-candy/108/",
-          "https://jkanime.net/candy-candy/83/"
+          "https://jkanime.net/candy-candy/1/",
+          "https://jkanime.net/candy-candy/10/"
         ]
       },
       {
@@ -64621,7 +64668,9 @@
         "https://jkanime.net/megalo-box/2/",
         "https://jkanime.net/megalo-box/3/",
         "https://jkanime.net/megalo-box/4/",
-        "https://jkanime.net/megalo-box/5/"
+        "https://jkanime.net/megalo-box/5/",
+        "https://jkanime.net/megalo-box/6/",
+        "https://jkanime.net/megalo-box/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -88865,6 +88914,8 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/49/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/50/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/51/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/52/",
         "https://jkanime.net/kusuriya-no-hitorigoto/53/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -94164,11 +94215,15 @@
     {
       "series": "https://jkanime.net/psycho-pass-movie-providence/",
       "title": "Psycho-Pass Movie: Providence",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/psycho-pass-movie-providence/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -106739,6 +106794,8 @@
         "https://jkanime.net/orient/13/",
         "https://jkanime.net/orient/14/",
         "https://jkanime.net/orient/15/",
+        "https://jkanime.net/orient/16/",
+        "https://jkanime.net/orient/17/",
         "https://jkanime.net/orient/2/",
         "https://jkanime.net/orient/4/",
         "https://jkanime.net/orient/5/",
@@ -140372,6 +140429,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/18if/2/",
+        "https://jkanime.net/18if/3/",
         "https://jkanime.net/18if/7/",
         "https://jkanime.net/18if/8/"
       ],
@@ -146626,7 +146684,9 @@
       "stored": 6,
       "missing": [],
       "expired": [
-        "https://jkanime.net/nazotokine/7/"
+        "https://jkanime.net/nazotokine/7/",
+        "https://jkanime.net/nazotokine/8/",
+        "https://jkanime.net/nazotokine/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -148580,11 +148640,17 @@
     {
       "series": "https://jkanime.net/regalia-the-three-sacred-stars/",
       "title": "Regalia: The Three Sacred Stars",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/regalia-the-three-sacred-stars/1/",
+        "https://jkanime.net/regalia-the-three-sacred-stars/13/",
+        "https://jkanime.net/regalia-the-three-sacred-stars/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -154200,6 +154266,7 @@
         "https://jkanime.net/pokemon-xyz/42/",
         "https://jkanime.net/pokemon-xyz/43/",
         "https://jkanime.net/pokemon-xyz/47/",
+        "https://jkanime.net/pokemon-xyz/48/",
         "https://jkanime.net/pokemon-xyz/5/",
         "https://jkanime.net/pokemon-xyz/6/",
         "https://jkanime.net/pokemon-xyz/7/",
@@ -156539,11 +156606,15 @@
     {
       "series": "https://jkanime.net/psycho-pass-movie/",
       "title": "Psycho-Pass Movie",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/psycho-pass-movie/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -158751,7 +158822,9 @@
         "https://jkanime.net/ninja-slayer-from-animation/21/",
         "https://jkanime.net/ninja-slayer-from-animation/22/",
         "https://jkanime.net/ninja-slayer-from-animation/23/",
-        "https://jkanime.net/ninja-slayer-from-animation/24/"
+        "https://jkanime.net/ninja-slayer-from-animation/24/",
+        "https://jkanime.net/ninja-slayer-from-animation/25/",
+        "https://jkanime.net/ninja-slayer-from-animation/26/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -160031,11 +160104,16 @@
     {
       "series": "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/",
       "title": "Rolling☆Girls: Chibi☆Rolling☆Girls Korokoro Gekijou",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 6,
       "stored": 6,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/3/",
+        "https://jkanime.net/rollinggirls-chibirollinggirls-korokoro-gekijou/6/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -172622,11 +172700,15 @@
     {
       "series": "https://jkanime.net/sakasama-no-patema/",
       "title": "Sakasama no Patema",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/sakasama-no-patema/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -178382,11 +178464,15 @@
     {
       "series": "https://jkanime.net/ryo/",
       "title": "Ryo",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/ryo/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -196453,6 +196539,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/07-ghost/14/",
+        "https://jkanime.net/07-ghost/15/",
         "https://jkanime.net/07-ghost/19/",
         "https://jkanime.net/07-ghost/2/",
         "https://jkanime.net/07-ghost/6/",
@@ -223340,6 +223427,7 @@
         "https://jkanime.net/inuyasha/74/",
         "https://jkanime.net/inuyasha/75/",
         "https://jkanime.net/inuyasha/76/",
+        "https://jkanime.net/inuyasha/77/",
         "https://jkanime.net/inuyasha/78/",
         "https://jkanime.net/inuyasha/79/",
         "https://jkanime.net/inuyasha/8/",
@@ -228368,6 +228456,7 @@
         "https://jkanime.net/taiho-shichau-zo/16/",
         "https://jkanime.net/taiho-shichau-zo/17/",
         "https://jkanime.net/taiho-shichau-zo/18/",
+        "https://jkanime.net/taiho-shichau-zo/19/",
         "https://jkanime.net/taiho-shichau-zo/2/",
         "https://jkanime.net/taiho-shichau-zo/3/",
         "https://jkanime.net/taiho-shichau-zo/4/"
@@ -232740,6 +232829,8 @@
         "https://jkanime.net/mobile-suit-gundam/4/",
         "https://jkanime.net/mobile-suit-gundam/40/",
         "https://jkanime.net/mobile-suit-gundam/41/",
+        "https://jkanime.net/mobile-suit-gundam/42/",
+        "https://jkanime.net/mobile-suit-gundam/43/",
         "https://jkanime.net/mobile-suit-gundam/5/",
         "https://jkanime.net/mobile-suit-gundam/6/",
         "https://jkanime.net/mobile-suit-gundam/7/",
@@ -233099,7 +233190,48 @@
       "stored": 42,
       "missing": [],
       "expired": [
-        "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/"
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/1/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/10/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/11/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/12/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/13/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/14/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/15/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/16/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/17/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/18/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/19/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/2/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/20/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/21/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/22/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/23/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/24/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/25/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/26/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/27/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/28/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/29/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/3/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/30/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/31/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/32/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/33/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/34/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/35/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/36/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/37/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/38/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/39/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/4/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/40/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/41/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/42/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/5/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/6/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/7/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/8/",
+        "https://jkanime.net/uchuu-kaizoku-captain-herlock/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -233145,12 +233277,121 @@
       "stored": 115,
       "missing": [],
       "expired": [
+        "https://jkanime.net/candy-candy/1/",
+        "https://jkanime.net/candy-candy/10/",
+        "https://jkanime.net/candy-candy/100/",
+        "https://jkanime.net/candy-candy/101/",
+        "https://jkanime.net/candy-candy/102/",
+        "https://jkanime.net/candy-candy/103/",
+        "https://jkanime.net/candy-candy/104/",
+        "https://jkanime.net/candy-candy/105/",
+        "https://jkanime.net/candy-candy/106/",
+        "https://jkanime.net/candy-candy/107/",
         "https://jkanime.net/candy-candy/108/",
+        "https://jkanime.net/candy-candy/109/",
+        "https://jkanime.net/candy-candy/11/",
+        "https://jkanime.net/candy-candy/110/",
+        "https://jkanime.net/candy-candy/111/",
+        "https://jkanime.net/candy-candy/112/",
+        "https://jkanime.net/candy-candy/113/",
+        "https://jkanime.net/candy-candy/114/",
+        "https://jkanime.net/candy-candy/115/",
+        "https://jkanime.net/candy-candy/12/",
+        "https://jkanime.net/candy-candy/13/",
+        "https://jkanime.net/candy-candy/14/",
+        "https://jkanime.net/candy-candy/15/",
+        "https://jkanime.net/candy-candy/16/",
+        "https://jkanime.net/candy-candy/17/",
+        "https://jkanime.net/candy-candy/18/",
+        "https://jkanime.net/candy-candy/19/",
+        "https://jkanime.net/candy-candy/2/",
+        "https://jkanime.net/candy-candy/20/",
+        "https://jkanime.net/candy-candy/21/",
+        "https://jkanime.net/candy-candy/22/",
+        "https://jkanime.net/candy-candy/23/",
+        "https://jkanime.net/candy-candy/24/",
+        "https://jkanime.net/candy-candy/25/",
+        "https://jkanime.net/candy-candy/26/",
+        "https://jkanime.net/candy-candy/27/",
+        "https://jkanime.net/candy-candy/28/",
+        "https://jkanime.net/candy-candy/29/",
+        "https://jkanime.net/candy-candy/3/",
+        "https://jkanime.net/candy-candy/30/",
+        "https://jkanime.net/candy-candy/31/",
+        "https://jkanime.net/candy-candy/32/",
+        "https://jkanime.net/candy-candy/33/",
+        "https://jkanime.net/candy-candy/34/",
+        "https://jkanime.net/candy-candy/35/",
+        "https://jkanime.net/candy-candy/36/",
+        "https://jkanime.net/candy-candy/37/",
+        "https://jkanime.net/candy-candy/38/",
+        "https://jkanime.net/candy-candy/39/",
+        "https://jkanime.net/candy-candy/4/",
+        "https://jkanime.net/candy-candy/40/",
+        "https://jkanime.net/candy-candy/41/",
+        "https://jkanime.net/candy-candy/42/",
+        "https://jkanime.net/candy-candy/43/",
+        "https://jkanime.net/candy-candy/44/",
+        "https://jkanime.net/candy-candy/45/",
+        "https://jkanime.net/candy-candy/46/",
+        "https://jkanime.net/candy-candy/47/",
+        "https://jkanime.net/candy-candy/48/",
+        "https://jkanime.net/candy-candy/49/",
+        "https://jkanime.net/candy-candy/5/",
+        "https://jkanime.net/candy-candy/50/",
+        "https://jkanime.net/candy-candy/51/",
+        "https://jkanime.net/candy-candy/52/",
+        "https://jkanime.net/candy-candy/53/",
+        "https://jkanime.net/candy-candy/54/",
+        "https://jkanime.net/candy-candy/55/",
+        "https://jkanime.net/candy-candy/56/",
+        "https://jkanime.net/candy-candy/57/",
+        "https://jkanime.net/candy-candy/58/",
+        "https://jkanime.net/candy-candy/59/",
+        "https://jkanime.net/candy-candy/6/",
+        "https://jkanime.net/candy-candy/60/",
+        "https://jkanime.net/candy-candy/61/",
+        "https://jkanime.net/candy-candy/62/",
+        "https://jkanime.net/candy-candy/63/",
+        "https://jkanime.net/candy-candy/64/",
+        "https://jkanime.net/candy-candy/65/",
+        "https://jkanime.net/candy-candy/66/",
+        "https://jkanime.net/candy-candy/67/",
+        "https://jkanime.net/candy-candy/68/",
+        "https://jkanime.net/candy-candy/69/",
+        "https://jkanime.net/candy-candy/7/",
+        "https://jkanime.net/candy-candy/70/",
+        "https://jkanime.net/candy-candy/71/",
+        "https://jkanime.net/candy-candy/72/",
+        "https://jkanime.net/candy-candy/73/",
+        "https://jkanime.net/candy-candy/74/",
+        "https://jkanime.net/candy-candy/75/",
+        "https://jkanime.net/candy-candy/76/",
+        "https://jkanime.net/candy-candy/77/",
+        "https://jkanime.net/candy-candy/78/",
+        "https://jkanime.net/candy-candy/79/",
+        "https://jkanime.net/candy-candy/8/",
+        "https://jkanime.net/candy-candy/80/",
+        "https://jkanime.net/candy-candy/81/",
+        "https://jkanime.net/candy-candy/82/",
         "https://jkanime.net/candy-candy/83/",
         "https://jkanime.net/candy-candy/84/",
         "https://jkanime.net/candy-candy/85/",
         "https://jkanime.net/candy-candy/86/",
-        "https://jkanime.net/candy-candy/92/"
+        "https://jkanime.net/candy-candy/87/",
+        "https://jkanime.net/candy-candy/88/",
+        "https://jkanime.net/candy-candy/89/",
+        "https://jkanime.net/candy-candy/9/",
+        "https://jkanime.net/candy-candy/90/",
+        "https://jkanime.net/candy-candy/91/",
+        "https://jkanime.net/candy-candy/92/",
+        "https://jkanime.net/candy-candy/93/",
+        "https://jkanime.net/candy-candy/94/",
+        "https://jkanime.net/candy-candy/95/",
+        "https://jkanime.net/candy-candy/96/",
+        "https://jkanime.net/candy-candy/97/",
+        "https://jkanime.net/candy-candy/98/",
+        "https://jkanime.net/candy-candy/99/"
       ],
       "noIndependent": [],
       "renewalFailed": 6,
