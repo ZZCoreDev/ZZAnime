@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-06T16:15:19.454159+00:00",
+  "checkedAt": "2026-11-06T16:32:04.576391+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73877,
+  "observedChapters": 73878,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 57951,
+  "expiredChapters": 58066,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
+  "sideOnlyChapters": 308,
+  "voeOnlyChapters": 48,
   "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -1790,6 +1782,14 @@
         "title": "Douse, Koishite Shimaunda.",
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/farmagia/",
+        "title": "Farmagia",
+        "samples": [
+          "https://jkanime.net/farmagia/2/",
+          "https://jkanime.net/farmagia/4/"
         ]
       },
       {
@@ -29557,7 +29557,7 @@
         "title": "Sonic X",
         "samples": [
           "https://jkanime.net/sonic-x/1/",
-          "https://jkanime.net/sonic-x/15/"
+          "https://jkanime.net/sonic-x/10/"
         ]
       },
       {
@@ -29596,8 +29596,8 @@
         "series": "https://jkanime.net/dnangel/",
         "title": "D.N.Angel",
         "samples": [
-          "https://jkanime.net/dnangel/15/",
-          "https://jkanime.net/dnangel/17/"
+          "https://jkanime.net/dnangel/1/",
+          "https://jkanime.net/dnangel/10/"
         ]
       },
       {
@@ -50553,7 +50553,8 @@
         "series": "https://jkanime.net/ninja-slayer-from-animation/",
         "title": "Ninja Slayer From Animation",
         "samples": [
-          "https://jkanime.net/ninja-slayer-from-animation/18/"
+          "https://jkanime.net/ninja-slayer-from-animation/18/",
+          "https://jkanime.net/ninja-slayer-from-animation/19/"
         ]
       },
       {
@@ -60280,7 +60281,7 @@
         "title": "Sonic X",
         "samples": [
           "https://jkanime.net/sonic-x/1/",
-          "https://jkanime.net/sonic-x/15/"
+          "https://jkanime.net/sonic-x/10/"
         ]
       },
       {
@@ -60319,8 +60320,8 @@
         "series": "https://jkanime.net/dnangel/",
         "title": "D.N.Angel",
         "samples": [
-          "https://jkanime.net/dnangel/15/",
-          "https://jkanime.net/dnangel/17/"
+          "https://jkanime.net/dnangel/1/",
+          "https://jkanime.net/dnangel/10/"
         ]
       },
       {
@@ -63648,8 +63649,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63660,7 +63660,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -72699,7 +72699,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -73012,7 +73012,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -75861,7 +75861,8 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -75871,7 +75872,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -87792,6 +87793,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/23/",
         "https://jkanime.net/kusuriya-no-hitorigoto/24/",
         "https://jkanime.net/kusuriya-no-hitorigoto/25/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/27/",
         "https://jkanime.net/kusuriya-no-hitorigoto/3/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
@@ -106160,6 +106162,7 @@
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/12/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/26/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/3/",
+        "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/30/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/4/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/6/",
         "https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/7/",
@@ -108197,6 +108200,7 @@
         "https://jkanime.net/megaton-kyuu-musashi/2/",
         "https://jkanime.net/megaton-kyuu-musashi/23/",
         "https://jkanime.net/megaton-kyuu-musashi/24/",
+        "https://jkanime.net/megaton-kyuu-musashi/26/",
         "https://jkanime.net/megaton-kyuu-musashi/4/",
         "https://jkanime.net/megaton-kyuu-musashi/5/",
         "https://jkanime.net/megaton-kyuu-musashi/6/",
@@ -157490,7 +157494,8 @@
       "stored": 21,
       "missing": [],
       "expired": [
-        "https://jkanime.net/ninja-slayer-from-animation/18/"
+        "https://jkanime.net/ninja-slayer-from-animation/18/",
+        "https://jkanime.net/ninja-slayer-from-animation/19/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -208782,6 +208787,7 @@
         "https://jkanime.net/tsubasa-chronicle/36/",
         "https://jkanime.net/tsubasa-chronicle/37/",
         "https://jkanime.net/tsubasa-chronicle/38/",
+        "https://jkanime.net/tsubasa-chronicle/39/",
         "https://jkanime.net/tsubasa-chronicle/4/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
@@ -215850,6 +215856,8 @@
         "https://jkanime.net/astro-boy-tetsuwan-atom/49/",
         "https://jkanime.net/astro-boy-tetsuwan-atom/5/",
         "https://jkanime.net/astro-boy-tetsuwan-atom/50/",
+        "https://jkanime.net/astro-boy-tetsuwan-atom/51/",
+        "https://jkanime.net/astro-boy-tetsuwan-atom/52/",
         "https://jkanime.net/astro-boy-tetsuwan-atom/6/",
         "https://jkanime.net/astro-boy-tetsuwan-atom/7/",
         "https://jkanime.net/astro-boy-tetsuwan-atom/8/",
@@ -215880,24 +215888,83 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/sonic-x/1/",
+        "https://jkanime.net/sonic-x/10/",
+        "https://jkanime.net/sonic-x/11/",
+        "https://jkanime.net/sonic-x/12/",
+        "https://jkanime.net/sonic-x/13/",
+        "https://jkanime.net/sonic-x/14/",
         "https://jkanime.net/sonic-x/15/",
         "https://jkanime.net/sonic-x/16/",
+        "https://jkanime.net/sonic-x/17/",
         "https://jkanime.net/sonic-x/18/",
+        "https://jkanime.net/sonic-x/19/",
         "https://jkanime.net/sonic-x/2/",
+        "https://jkanime.net/sonic-x/20/",
+        "https://jkanime.net/sonic-x/21/",
+        "https://jkanime.net/sonic-x/22/",
+        "https://jkanime.net/sonic-x/23/",
+        "https://jkanime.net/sonic-x/24/",
         "https://jkanime.net/sonic-x/25/",
         "https://jkanime.net/sonic-x/26/",
+        "https://jkanime.net/sonic-x/27/",
+        "https://jkanime.net/sonic-x/28/",
+        "https://jkanime.net/sonic-x/29/",
         "https://jkanime.net/sonic-x/3/",
+        "https://jkanime.net/sonic-x/30/",
+        "https://jkanime.net/sonic-x/31/",
         "https://jkanime.net/sonic-x/32/",
+        "https://jkanime.net/sonic-x/33/",
+        "https://jkanime.net/sonic-x/34/",
+        "https://jkanime.net/sonic-x/35/",
+        "https://jkanime.net/sonic-x/36/",
         "https://jkanime.net/sonic-x/37/",
         "https://jkanime.net/sonic-x/38/",
+        "https://jkanime.net/sonic-x/39/",
         "https://jkanime.net/sonic-x/4/",
+        "https://jkanime.net/sonic-x/40/",
+        "https://jkanime.net/sonic-x/41/",
+        "https://jkanime.net/sonic-x/42/",
+        "https://jkanime.net/sonic-x/43/",
+        "https://jkanime.net/sonic-x/44/",
+        "https://jkanime.net/sonic-x/45/",
+        "https://jkanime.net/sonic-x/46/",
         "https://jkanime.net/sonic-x/47/",
         "https://jkanime.net/sonic-x/48/",
+        "https://jkanime.net/sonic-x/49/",
         "https://jkanime.net/sonic-x/5/",
+        "https://jkanime.net/sonic-x/50/",
         "https://jkanime.net/sonic-x/51/",
+        "https://jkanime.net/sonic-x/52/",
+        "https://jkanime.net/sonic-x/53/",
+        "https://jkanime.net/sonic-x/54/",
+        "https://jkanime.net/sonic-x/55/",
+        "https://jkanime.net/sonic-x/56/",
+        "https://jkanime.net/sonic-x/57/",
+        "https://jkanime.net/sonic-x/58/",
+        "https://jkanime.net/sonic-x/59/",
+        "https://jkanime.net/sonic-x/6/",
+        "https://jkanime.net/sonic-x/60/",
+        "https://jkanime.net/sonic-x/61/",
+        "https://jkanime.net/sonic-x/62/",
+        "https://jkanime.net/sonic-x/63/",
         "https://jkanime.net/sonic-x/64/",
+        "https://jkanime.net/sonic-x/65/",
+        "https://jkanime.net/sonic-x/66/",
         "https://jkanime.net/sonic-x/67/",
-        "https://jkanime.net/sonic-x/75/"
+        "https://jkanime.net/sonic-x/68/",
+        "https://jkanime.net/sonic-x/69/",
+        "https://jkanime.net/sonic-x/7/",
+        "https://jkanime.net/sonic-x/70/",
+        "https://jkanime.net/sonic-x/71/",
+        "https://jkanime.net/sonic-x/72/",
+        "https://jkanime.net/sonic-x/73/",
+        "https://jkanime.net/sonic-x/74/",
+        "https://jkanime.net/sonic-x/75/",
+        "https://jkanime.net/sonic-x/76/",
+        "https://jkanime.net/sonic-x/77/",
+        "https://jkanime.net/sonic-x/78/",
+        "https://jkanime.net/sonic-x/8/",
+        "https://jkanime.net/sonic-x/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 19,
@@ -216226,8 +216293,23 @@
       "expired": [
         "https://jkanime.net/kaleido-star/1/",
         "https://jkanime.net/kaleido-star/10/",
+        "https://jkanime.net/kaleido-star/11/",
+        "https://jkanime.net/kaleido-star/12/",
+        "https://jkanime.net/kaleido-star/13/",
+        "https://jkanime.net/kaleido-star/14/",
+        "https://jkanime.net/kaleido-star/15/",
+        "https://jkanime.net/kaleido-star/16/",
+        "https://jkanime.net/kaleido-star/17/",
+        "https://jkanime.net/kaleido-star/18/",
+        "https://jkanime.net/kaleido-star/19/",
         "https://jkanime.net/kaleido-star/2/",
+        "https://jkanime.net/kaleido-star/20/",
         "https://jkanime.net/kaleido-star/21/",
+        "https://jkanime.net/kaleido-star/22/",
+        "https://jkanime.net/kaleido-star/23/",
+        "https://jkanime.net/kaleido-star/24/",
+        "https://jkanime.net/kaleido-star/25/",
+        "https://jkanime.net/kaleido-star/26/",
         "https://jkanime.net/kaleido-star/27/",
         "https://jkanime.net/kaleido-star/28/",
         "https://jkanime.net/kaleido-star/29/",
@@ -216242,6 +216324,7 @@
         "https://jkanime.net/kaleido-star/37/",
         "https://jkanime.net/kaleido-star/38/",
         "https://jkanime.net/kaleido-star/39/",
+        "https://jkanime.net/kaleido-star/4/",
         "https://jkanime.net/kaleido-star/40/",
         "https://jkanime.net/kaleido-star/41/",
         "https://jkanime.net/kaleido-star/42/",
@@ -216252,8 +216335,12 @@
         "https://jkanime.net/kaleido-star/47/",
         "https://jkanime.net/kaleido-star/48/",
         "https://jkanime.net/kaleido-star/49/",
+        "https://jkanime.net/kaleido-star/5/",
         "https://jkanime.net/kaleido-star/50/",
         "https://jkanime.net/kaleido-star/51/",
+        "https://jkanime.net/kaleido-star/6/",
+        "https://jkanime.net/kaleido-star/7/",
+        "https://jkanime.net/kaleido-star/8/",
         "https://jkanime.net/kaleido-star/9/"
       ],
       "noIndependent": [],
@@ -216279,8 +216366,32 @@
       "stored": 26,
       "missing": [],
       "expired": [
+        "https://jkanime.net/dnangel/1/",
+        "https://jkanime.net/dnangel/10/",
+        "https://jkanime.net/dnangel/11/",
+        "https://jkanime.net/dnangel/12/",
+        "https://jkanime.net/dnangel/13/",
+        "https://jkanime.net/dnangel/14/",
         "https://jkanime.net/dnangel/15/",
-        "https://jkanime.net/dnangel/17/"
+        "https://jkanime.net/dnangel/16/",
+        "https://jkanime.net/dnangel/17/",
+        "https://jkanime.net/dnangel/18/",
+        "https://jkanime.net/dnangel/19/",
+        "https://jkanime.net/dnangel/2/",
+        "https://jkanime.net/dnangel/20/",
+        "https://jkanime.net/dnangel/21/",
+        "https://jkanime.net/dnangel/22/",
+        "https://jkanime.net/dnangel/23/",
+        "https://jkanime.net/dnangel/24/",
+        "https://jkanime.net/dnangel/25/",
+        "https://jkanime.net/dnangel/26/",
+        "https://jkanime.net/dnangel/3/",
+        "https://jkanime.net/dnangel/4/",
+        "https://jkanime.net/dnangel/5/",
+        "https://jkanime.net/dnangel/6/",
+        "https://jkanime.net/dnangel/7/",
+        "https://jkanime.net/dnangel/8/",
+        "https://jkanime.net/dnangel/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 2,
@@ -216308,7 +216419,12 @@
         "https://jkanime.net/uchuu-no-stellvia/1/",
         "https://jkanime.net/uchuu-no-stellvia/12/",
         "https://jkanime.net/uchuu-no-stellvia/13/",
-        "https://jkanime.net/uchuu-no-stellvia/3/"
+        "https://jkanime.net/uchuu-no-stellvia/2/",
+        "https://jkanime.net/uchuu-no-stellvia/3/",
+        "https://jkanime.net/uchuu-no-stellvia/4/",
+        "https://jkanime.net/uchuu-no-stellvia/5/",
+        "https://jkanime.net/uchuu-no-stellvia/6/",
+        "https://jkanime.net/uchuu-no-stellvia/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -231240,13 +231356,13 @@
       "series": "https://jkanime.net/hotaru-no-yomeiri/",
       "title": "Hotaru no Yomeiri",
       "causes": [],
-      "observed": 4,
+      "observed": 5,
       "stored": 4,
       "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 3,
         "streamwish": 1,

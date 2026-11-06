@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-06T16:15:19.454159+00:00",
-  "failedChapters": 56568,
+  "checkedAt": "2026-11-06T16:32:04.576391+00:00",
+  "failedChapters": 56570,
   "series": 4096,
   "diagnosedSeries": 4046,
   "pendingSeries": 50,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 305,
+    "ValueError: No approved observations; previous channel retained": 307,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -101780,7 +101780,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793978897.5995042
+      "nextRetryAt": 1793979429.4031413
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -103098,6 +103098,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793978908.6745646
+    },
+    {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793930448.6680424
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -106616,19 +106629,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793403585.0032098
-    },
-    {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793930448.6680424
     },
     {
       "series": "https://jkanime.net/tsukimonogatari/",
@@ -110410,6 +110410,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793979027.2429824
+    },
+    {
+      "series": "https://jkanime.net/takopii-no-genzai/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/takopii-no-genzai/5/",
+        "https://jkanime.net/takopii-no-genzai/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793978968.1933668
     },
     {
       "series": "https://jkanime.net/tamayomi/",
@@ -115662,19 +115675,6 @@
       "nextRetryAt": 1793374093.7767894
     },
     {
-      "series": "https://jkanime.net/takopii-no-genzai/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/takopii-no-genzai/5/",
-        "https://jkanime.net/takopii-no-genzai/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793978968.1933668
-    },
-    {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
       "failedChapters": 2,
       "samples": [
@@ -120078,18 +120078,6 @@
       "nextRetryAt": 1793398185.7687573
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793981372.870927
-    },
-    {
       "series": "https://jkanime.net/d-frag-ova/",
       "failedChapters": 1,
       "samples": [
@@ -120659,7 +120647,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793978868.7369437
+      "nextRetryAt": 1794004194.6140754
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-ova/",
@@ -137625,7 +137613,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793978884.502671
+      "nextRetryAt": 1794004211.042582
     },
     {
       "series": "https://jkanime.net/violet-evergarden-gaiden-eien-to-jidou-shuki-ningyou/",
@@ -139067,6 +139055,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/farmagia/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/farmagia/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793984435.1887836
     }
   ]
 }
