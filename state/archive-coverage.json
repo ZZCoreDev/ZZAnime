@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T03:35:19.946941+00:00",
+  "checkedAt": "2026-11-06T03:53:03.318249+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57491,
+  "expiredChapters": 57492,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -536,13 +528,6 @@
         "samples": [
           "https://jkanime.net/oshi-no-ko-3rd-season/1/",
           "https://jkanime.net/oshi-no-ko-3rd-season/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yuusha-no-kuzu/",
-        "title": "Yuusha no Kuzu",
-        "samples": [
-          "https://jkanime.net/yuusha-no-kuzu/20/"
         ]
       },
       {
@@ -63523,8 +63508,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63535,7 +63519,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -67549,8 +67533,7 @@
       "series": "https://jkanime.net/yuusha-no-kuzu/",
       "title": "Yuusha no Kuzu",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -67559,7 +67542,7 @@
         "https://jkanime.net/yuusha-no-kuzu/20/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 21,
@@ -98425,6 +98408,7 @@
         "https://jkanime.net/bleach-sennen-kessen-hen/13/",
         "https://jkanime.net/bleach-sennen-kessen-hen/2/",
         "https://jkanime.net/bleach-sennen-kessen-hen/27/",
+        "https://jkanime.net/bleach-sennen-kessen-hen/28/",
         "https://jkanime.net/bleach-sennen-kessen-hen/3/",
         "https://jkanime.net/bleach-sennen-kessen-hen/4/",
         "https://jkanime.net/bleach-sennen-kessen-hen/5/",
