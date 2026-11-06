@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T10:20:07.447919+00:00",
+  "checkedAt": "2026-11-06T10:36:31.843693+00:00",
   "episodes": 73057,
-  "oldestHours": 261.77,
-  "pending": 71837,
+  "oldestHours": 262.04,
+  "pending": 71834,
   "expired": 57526,
-  "expiresWithin24Hours": 69427,
+  "expiresWithin24Hours": 69661,
   "retryAfterExpiry": 1624,
-  "successfulCyclesMeasured": 72,
-  "sampleMinutes": 1287.92,
-  "measuredWallClockPerHour": 311.48,
-  "estimatedSweepDays": 9.77,
+  "successfulCyclesMeasured": 73,
+  "sampleMinutes": 1304.33,
+  "measuredWallClockPerHour": 312.16,
+  "estimatedSweepDays": 9.75,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -876,12 +876,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4095,
     "diagnosedSeries": 4045,
-    "pendingSeries": 51
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-06T10:20:07.447919+00:00",
+    "checkedAt": "2026-11-06T10:36:31.843693+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
