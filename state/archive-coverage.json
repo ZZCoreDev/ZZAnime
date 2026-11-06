@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T19:56:57.946556+00:00",
+  "checkedAt": "2026-11-06T20:14:09.620639+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73065,
   "missingChapters": 510,
-  "expiredChapters": 58567,
+  "expiredChapters": 58621,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -30770,8 +30770,8 @@
         "series": "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/",
         "title": "Lodoss-tou Senki: Eiyuu Kishi Den",
         "samples": [
-          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/10/",
-          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/11/"
+          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/1/",
+          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/10/"
         ]
       },
       {
@@ -30834,8 +30834,8 @@
         "series": "https://jkanime.net/pokemon/",
         "title": "Pokemon",
         "samples": [
-          "https://jkanime.net/pokemon/106/",
-          "https://jkanime.net/pokemon/110/"
+          "https://jkanime.net/pokemon/1/",
+          "https://jkanime.net/pokemon/10/"
         ]
       },
       {
@@ -61996,8 +61996,8 @@
         "series": "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/",
         "title": "Lodoss-tou Senki: Eiyuu Kishi Den",
         "samples": [
-          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/10/",
-          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/11/"
+          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/1/",
+          "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/10/"
         ]
       },
       {
@@ -62049,6 +62049,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/buttobi-cpu/",
+        "title": "Buttobi!! CPU",
+        "samples": [
+          "https://jkanime.net/buttobi-cpu/1/",
+          "https://jkanime.net/buttobi-cpu/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shoujo-kakumei-utena/",
         "title": "Shoujo Kakumei Utena",
         "samples": [
@@ -62060,8 +62068,8 @@
         "series": "https://jkanime.net/pokemon/",
         "title": "Pokemon",
         "samples": [
-          "https://jkanime.net/pokemon/106/",
-          "https://jkanime.net/pokemon/110/"
+          "https://jkanime.net/pokemon/1/",
+          "https://jkanime.net/pokemon/10/"
         ]
       },
       {
@@ -88522,6 +88530,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/39/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/40/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/41/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -225507,19 +225516,26 @@
       "stored": 27,
       "missing": [],
       "expired": [
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/1/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/10/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/11/",
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/12/",
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/13/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/14/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/15/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/16/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/17/",
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/18/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/19/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/2/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/20/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/21/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/22/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/23/",
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/24/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/25/",
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/26/",
+        "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/27/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/3/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/4/",
         "https://jkanime.net/lodoss-tou-senki-eiyuu-kishi-den/5/",
@@ -225830,11 +225846,17 @@
     {
       "series": "https://jkanime.net/buttobi-cpu/",
       "title": "Buttobi!! CPU",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 3,
       "stored": 3,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/buttobi-cpu/1/",
+        "https://jkanime.net/buttobi-cpu/2/",
+        "https://jkanime.net/buttobi-cpu/3/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -225918,7 +225940,10 @@
       "stored": 276,
       "missing": [],
       "expired": [
+        "https://jkanime.net/pokemon/1/",
+        "https://jkanime.net/pokemon/10/",
         "https://jkanime.net/pokemon/106/",
+        "https://jkanime.net/pokemon/11/",
         "https://jkanime.net/pokemon/110/",
         "https://jkanime.net/pokemon/112/",
         "https://jkanime.net/pokemon/116/",
@@ -225931,13 +225956,16 @@
         "https://jkanime.net/pokemon/124/",
         "https://jkanime.net/pokemon/126/",
         "https://jkanime.net/pokemon/129/",
+        "https://jkanime.net/pokemon/13/",
         "https://jkanime.net/pokemon/138/",
+        "https://jkanime.net/pokemon/14/",
         "https://jkanime.net/pokemon/140/",
         "https://jkanime.net/pokemon/141/",
         "https://jkanime.net/pokemon/143/",
         "https://jkanime.net/pokemon/144/",
         "https://jkanime.net/pokemon/145/",
         "https://jkanime.net/pokemon/146/",
+        "https://jkanime.net/pokemon/15/",
         "https://jkanime.net/pokemon/150/",
         "https://jkanime.net/pokemon/151/",
         "https://jkanime.net/pokemon/152/",
@@ -225947,6 +225975,7 @@
         "https://jkanime.net/pokemon/156/",
         "https://jkanime.net/pokemon/157/",
         "https://jkanime.net/pokemon/158/",
+        "https://jkanime.net/pokemon/16/",
         "https://jkanime.net/pokemon/160/",
         "https://jkanime.net/pokemon/161/",
         "https://jkanime.net/pokemon/162/",
@@ -225956,6 +225985,7 @@
         "https://jkanime.net/pokemon/167/",
         "https://jkanime.net/pokemon/168/",
         "https://jkanime.net/pokemon/169/",
+        "https://jkanime.net/pokemon/17/",
         "https://jkanime.net/pokemon/170/",
         "https://jkanime.net/pokemon/171/",
         "https://jkanime.net/pokemon/172/",
@@ -225965,6 +225995,7 @@
         "https://jkanime.net/pokemon/177/",
         "https://jkanime.net/pokemon/178/",
         "https://jkanime.net/pokemon/179/",
+        "https://jkanime.net/pokemon/18/",
         "https://jkanime.net/pokemon/180/",
         "https://jkanime.net/pokemon/185/",
         "https://jkanime.net/pokemon/187/",
@@ -225975,7 +226006,9 @@
         "https://jkanime.net/pokemon/198/",
         "https://jkanime.net/pokemon/199/",
         "https://jkanime.net/pokemon/2/",
+        "https://jkanime.net/pokemon/20/",
         "https://jkanime.net/pokemon/209/",
+        "https://jkanime.net/pokemon/21/",
         "https://jkanime.net/pokemon/212/",
         "https://jkanime.net/pokemon/213/",
         "https://jkanime.net/pokemon/214/",
@@ -225983,6 +226016,7 @@
         "https://jkanime.net/pokemon/216/",
         "https://jkanime.net/pokemon/218/",
         "https://jkanime.net/pokemon/219/",
+        "https://jkanime.net/pokemon/22/",
         "https://jkanime.net/pokemon/220/",
         "https://jkanime.net/pokemon/223/",
         "https://jkanime.net/pokemon/224/",
@@ -225990,11 +226024,13 @@
         "https://jkanime.net/pokemon/226/",
         "https://jkanime.net/pokemon/227/",
         "https://jkanime.net/pokemon/229/",
+        "https://jkanime.net/pokemon/23/",
         "https://jkanime.net/pokemon/230/",
         "https://jkanime.net/pokemon/232/",
         "https://jkanime.net/pokemon/237/",
         "https://jkanime.net/pokemon/238/",
         "https://jkanime.net/pokemon/239/",
+        "https://jkanime.net/pokemon/24/",
         "https://jkanime.net/pokemon/240/",
         "https://jkanime.net/pokemon/241/",
         "https://jkanime.net/pokemon/242/",
@@ -226002,6 +226038,7 @@
         "https://jkanime.net/pokemon/245/",
         "https://jkanime.net/pokemon/246/",
         "https://jkanime.net/pokemon/249/",
+        "https://jkanime.net/pokemon/25/",
         "https://jkanime.net/pokemon/250/",
         "https://jkanime.net/pokemon/251/",
         "https://jkanime.net/pokemon/256/",
@@ -226014,6 +226051,7 @@
         "https://jkanime.net/pokemon/265/",
         "https://jkanime.net/pokemon/268/",
         "https://jkanime.net/pokemon/269/",
+        "https://jkanime.net/pokemon/27/",
         "https://jkanime.net/pokemon/270/",
         "https://jkanime.net/pokemon/271/",
         "https://jkanime.net/pokemon/272/",
@@ -226021,20 +226059,47 @@
         "https://jkanime.net/pokemon/274/",
         "https://jkanime.net/pokemon/275/",
         "https://jkanime.net/pokemon/276/",
+        "https://jkanime.net/pokemon/28/",
+        "https://jkanime.net/pokemon/29/",
+        "https://jkanime.net/pokemon/3/",
+        "https://jkanime.net/pokemon/30/",
+        "https://jkanime.net/pokemon/31/",
         "https://jkanime.net/pokemon/32/",
+        "https://jkanime.net/pokemon/33/",
         "https://jkanime.net/pokemon/34/",
+        "https://jkanime.net/pokemon/35/",
+        "https://jkanime.net/pokemon/36/",
+        "https://jkanime.net/pokemon/37/",
         "https://jkanime.net/pokemon/38/",
+        "https://jkanime.net/pokemon/39/",
+        "https://jkanime.net/pokemon/4/",
         "https://jkanime.net/pokemon/40/",
         "https://jkanime.net/pokemon/41/",
         "https://jkanime.net/pokemon/42/",
+        "https://jkanime.net/pokemon/43/",
+        "https://jkanime.net/pokemon/44/",
+        "https://jkanime.net/pokemon/45/",
+        "https://jkanime.net/pokemon/46/",
         "https://jkanime.net/pokemon/47/",
+        "https://jkanime.net/pokemon/48/",
+        "https://jkanime.net/pokemon/49/",
+        "https://jkanime.net/pokemon/5/",
+        "https://jkanime.net/pokemon/50/",
         "https://jkanime.net/pokemon/51/",
+        "https://jkanime.net/pokemon/52/",
+        "https://jkanime.net/pokemon/53/",
+        "https://jkanime.net/pokemon/54/",
+        "https://jkanime.net/pokemon/55/",
+        "https://jkanime.net/pokemon/6/",
         "https://jkanime.net/pokemon/68/",
+        "https://jkanime.net/pokemon/7/",
         "https://jkanime.net/pokemon/76/",
         "https://jkanime.net/pokemon/77/",
+        "https://jkanime.net/pokemon/8/",
         "https://jkanime.net/pokemon/80/",
         "https://jkanime.net/pokemon/83/",
         "https://jkanime.net/pokemon/88/",
+        "https://jkanime.net/pokemon/9/",
         "https://jkanime.net/pokemon/90/",
         "https://jkanime.net/pokemon/93/",
         "https://jkanime.net/pokemon/96/",
