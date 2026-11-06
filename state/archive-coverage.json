@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T17:23:18.131128+00:00",
+  "checkedAt": "2026-11-06T17:39:46.606908+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73878,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 58138,
+  "expiredChapters": 58238,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
   "voeOnlyChapters": 48,
-  "extraOnlyChapters": 307,
+  "extraOnlyChapters": 308,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -29900,16 +29907,16 @@
         "series": "https://jkanime.net/juuni-kokuki/",
         "title": "Juuni Kokuki",
         "samples": [
-          "https://jkanime.net/juuni-kokuki/10/",
-          "https://jkanime.net/juuni-kokuki/12/"
+          "https://jkanime.net/juuni-kokuki/1/",
+          "https://jkanime.net/juuni-kokuki/10/"
         ]
       },
       {
         "series": "https://jkanime.net/azumanga-daioh/",
         "title": "Azumanga Daioh",
         "samples": [
-          "https://jkanime.net/azumanga-daioh/16/",
-          "https://jkanime.net/azumanga-daioh/19/"
+          "https://jkanime.net/azumanga-daioh/1/",
+          "https://jkanime.net/azumanga-daioh/10/"
         ]
       },
       {
@@ -29932,8 +29939,8 @@
         "series": "https://jkanime.net/full-moon-wo-sagashite/",
         "title": "Full Moon wo Sagashite",
         "samples": [
-          "https://jkanime.net/full-moon-wo-sagashite/30/",
-          "https://jkanime.net/full-moon-wo-sagashite/35/"
+          "https://jkanime.net/full-moon-wo-sagashite/1/",
+          "https://jkanime.net/full-moon-wo-sagashite/10/"
         ]
       },
       {
@@ -29941,7 +29948,7 @@
         "title": ".hack//Sign",
         "samples": [
           "https://jkanime.net/hack-sign/1/",
-          "https://jkanime.net/hack-sign/15/"
+          "https://jkanime.net/hack-sign/10/"
         ]
       },
       {
@@ -60585,16 +60592,16 @@
         "series": "https://jkanime.net/juuni-kokuki/",
         "title": "Juuni Kokuki",
         "samples": [
-          "https://jkanime.net/juuni-kokuki/10/",
-          "https://jkanime.net/juuni-kokuki/12/"
+          "https://jkanime.net/juuni-kokuki/1/",
+          "https://jkanime.net/juuni-kokuki/10/"
         ]
       },
       {
         "series": "https://jkanime.net/azumanga-daioh/",
         "title": "Azumanga Daioh",
         "samples": [
-          "https://jkanime.net/azumanga-daioh/16/",
-          "https://jkanime.net/azumanga-daioh/19/"
+          "https://jkanime.net/azumanga-daioh/1/",
+          "https://jkanime.net/azumanga-daioh/10/"
         ]
       },
       {
@@ -60617,8 +60624,8 @@
         "series": "https://jkanime.net/full-moon-wo-sagashite/",
         "title": "Full Moon wo Sagashite",
         "samples": [
-          "https://jkanime.net/full-moon-wo-sagashite/30/",
-          "https://jkanime.net/full-moon-wo-sagashite/35/"
+          "https://jkanime.net/full-moon-wo-sagashite/1/",
+          "https://jkanime.net/full-moon-wo-sagashite/10/"
         ]
       },
       {
@@ -60626,7 +60633,7 @@
         "title": ".hack//Sign",
         "samples": [
           "https://jkanime.net/hack-sign/1/",
-          "https://jkanime.net/hack-sign/15/"
+          "https://jkanime.net/hack-sign/10/"
         ]
       },
       {
@@ -64136,7 +64143,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64145,7 +64153,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -72700,7 +72708,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -87798,6 +87806,8 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/28/",
         "https://jkanime.net/kusuriya-no-hitorigoto/29/",
         "https://jkanime.net/kusuriya-no-hitorigoto/3/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/30/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/31/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
@@ -108204,6 +108214,7 @@
         "https://jkanime.net/megaton-kyuu-musashi/23/",
         "https://jkanime.net/megaton-kyuu-musashi/24/",
         "https://jkanime.net/megaton-kyuu-musashi/26/",
+        "https://jkanime.net/megaton-kyuu-musashi/27/",
         "https://jkanime.net/megaton-kyuu-musashi/4/",
         "https://jkanime.net/megaton-kyuu-musashi/5/",
         "https://jkanime.net/megaton-kyuu-musashi/6/",
@@ -130891,6 +130902,7 @@
         "https://jkanime.net/piano-no-mori-tv/19/",
         "https://jkanime.net/piano-no-mori-tv/20/",
         "https://jkanime.net/piano-no-mori-tv/21/",
+        "https://jkanime.net/piano-no-mori-tv/22/",
         "https://jkanime.net/piano-no-mori-tv/8/"
       ],
       "noIndependent": [],
@@ -208801,6 +208813,7 @@
         "https://jkanime.net/tsubasa-chronicle/41/",
         "https://jkanime.net/tsubasa-chronicle/42/",
         "https://jkanime.net/tsubasa-chronicle/43/",
+        "https://jkanime.net/tsubasa-chronicle/44/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
         "https://jkanime.net/tsubasa-chronicle/7/",
@@ -218512,14 +218525,18 @@
       "stored": 45,
       "missing": [],
       "expired": [
+        "https://jkanime.net/juuni-kokuki/1/",
         "https://jkanime.net/juuni-kokuki/10/",
+        "https://jkanime.net/juuni-kokuki/11/",
         "https://jkanime.net/juuni-kokuki/12/",
         "https://jkanime.net/juuni-kokuki/13/",
         "https://jkanime.net/juuni-kokuki/14/",
         "https://jkanime.net/juuni-kokuki/15/",
         "https://jkanime.net/juuni-kokuki/16/",
+        "https://jkanime.net/juuni-kokuki/17/",
         "https://jkanime.net/juuni-kokuki/18/",
         "https://jkanime.net/juuni-kokuki/19/",
+        "https://jkanime.net/juuni-kokuki/2/",
         "https://jkanime.net/juuni-kokuki/20/",
         "https://jkanime.net/juuni-kokuki/21/",
         "https://jkanime.net/juuni-kokuki/22/",
@@ -218530,15 +218547,18 @@
         "https://jkanime.net/juuni-kokuki/27/",
         "https://jkanime.net/juuni-kokuki/28/",
         "https://jkanime.net/juuni-kokuki/29/",
+        "https://jkanime.net/juuni-kokuki/3/",
         "https://jkanime.net/juuni-kokuki/30/",
         "https://jkanime.net/juuni-kokuki/31/",
         "https://jkanime.net/juuni-kokuki/32/",
         "https://jkanime.net/juuni-kokuki/33/",
         "https://jkanime.net/juuni-kokuki/34/",
         "https://jkanime.net/juuni-kokuki/35/",
+        "https://jkanime.net/juuni-kokuki/36/",
         "https://jkanime.net/juuni-kokuki/37/",
         "https://jkanime.net/juuni-kokuki/38/",
         "https://jkanime.net/juuni-kokuki/39/",
+        "https://jkanime.net/juuni-kokuki/4/",
         "https://jkanime.net/juuni-kokuki/40/",
         "https://jkanime.net/juuni-kokuki/41/",
         "https://jkanime.net/juuni-kokuki/42/",
@@ -218546,7 +218566,10 @@
         "https://jkanime.net/juuni-kokuki/44/",
         "https://jkanime.net/juuni-kokuki/45/",
         "https://jkanime.net/juuni-kokuki/5/",
-        "https://jkanime.net/juuni-kokuki/6/"
+        "https://jkanime.net/juuni-kokuki/6/",
+        "https://jkanime.net/juuni-kokuki/7/",
+        "https://jkanime.net/juuni-kokuki/8/",
+        "https://jkanime.net/juuni-kokuki/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 35,
@@ -218571,10 +218594,32 @@
       "stored": 26,
       "missing": [],
       "expired": [
+        "https://jkanime.net/azumanga-daioh/1/",
+        "https://jkanime.net/azumanga-daioh/10/",
+        "https://jkanime.net/azumanga-daioh/11/",
+        "https://jkanime.net/azumanga-daioh/12/",
+        "https://jkanime.net/azumanga-daioh/13/",
+        "https://jkanime.net/azumanga-daioh/14/",
+        "https://jkanime.net/azumanga-daioh/15/",
         "https://jkanime.net/azumanga-daioh/16/",
+        "https://jkanime.net/azumanga-daioh/17/",
+        "https://jkanime.net/azumanga-daioh/18/",
         "https://jkanime.net/azumanga-daioh/19/",
+        "https://jkanime.net/azumanga-daioh/2/",
+        "https://jkanime.net/azumanga-daioh/20/",
+        "https://jkanime.net/azumanga-daioh/21/",
+        "https://jkanime.net/azumanga-daioh/22/",
+        "https://jkanime.net/azumanga-daioh/23/",
+        "https://jkanime.net/azumanga-daioh/24/",
+        "https://jkanime.net/azumanga-daioh/25/",
         "https://jkanime.net/azumanga-daioh/26/",
-        "https://jkanime.net/azumanga-daioh/6/"
+        "https://jkanime.net/azumanga-daioh/3/",
+        "https://jkanime.net/azumanga-daioh/4/",
+        "https://jkanime.net/azumanga-daioh/5/",
+        "https://jkanime.net/azumanga-daioh/6/",
+        "https://jkanime.net/azumanga-daioh/7/",
+        "https://jkanime.net/azumanga-daioh/8/",
+        "https://jkanime.net/azumanga-daioh/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -218747,11 +218792,58 @@
       "stored": 52,
       "missing": [],
       "expired": [
+        "https://jkanime.net/full-moon-wo-sagashite/1/",
+        "https://jkanime.net/full-moon-wo-sagashite/10/",
+        "https://jkanime.net/full-moon-wo-sagashite/11/",
+        "https://jkanime.net/full-moon-wo-sagashite/12/",
+        "https://jkanime.net/full-moon-wo-sagashite/13/",
+        "https://jkanime.net/full-moon-wo-sagashite/14/",
+        "https://jkanime.net/full-moon-wo-sagashite/15/",
+        "https://jkanime.net/full-moon-wo-sagashite/16/",
+        "https://jkanime.net/full-moon-wo-sagashite/17/",
+        "https://jkanime.net/full-moon-wo-sagashite/18/",
+        "https://jkanime.net/full-moon-wo-sagashite/19/",
+        "https://jkanime.net/full-moon-wo-sagashite/2/",
+        "https://jkanime.net/full-moon-wo-sagashite/20/",
+        "https://jkanime.net/full-moon-wo-sagashite/21/",
+        "https://jkanime.net/full-moon-wo-sagashite/22/",
+        "https://jkanime.net/full-moon-wo-sagashite/23/",
+        "https://jkanime.net/full-moon-wo-sagashite/24/",
+        "https://jkanime.net/full-moon-wo-sagashite/25/",
+        "https://jkanime.net/full-moon-wo-sagashite/26/",
+        "https://jkanime.net/full-moon-wo-sagashite/27/",
+        "https://jkanime.net/full-moon-wo-sagashite/28/",
+        "https://jkanime.net/full-moon-wo-sagashite/29/",
+        "https://jkanime.net/full-moon-wo-sagashite/3/",
         "https://jkanime.net/full-moon-wo-sagashite/30/",
+        "https://jkanime.net/full-moon-wo-sagashite/31/",
+        "https://jkanime.net/full-moon-wo-sagashite/32/",
+        "https://jkanime.net/full-moon-wo-sagashite/33/",
+        "https://jkanime.net/full-moon-wo-sagashite/34/",
         "https://jkanime.net/full-moon-wo-sagashite/35/",
+        "https://jkanime.net/full-moon-wo-sagashite/36/",
+        "https://jkanime.net/full-moon-wo-sagashite/37/",
+        "https://jkanime.net/full-moon-wo-sagashite/38/",
+        "https://jkanime.net/full-moon-wo-sagashite/39/",
         "https://jkanime.net/full-moon-wo-sagashite/4/",
+        "https://jkanime.net/full-moon-wo-sagashite/40/",
+        "https://jkanime.net/full-moon-wo-sagashite/41/",
+        "https://jkanime.net/full-moon-wo-sagashite/42/",
+        "https://jkanime.net/full-moon-wo-sagashite/43/",
+        "https://jkanime.net/full-moon-wo-sagashite/44/",
         "https://jkanime.net/full-moon-wo-sagashite/45/",
-        "https://jkanime.net/full-moon-wo-sagashite/50/"
+        "https://jkanime.net/full-moon-wo-sagashite/46/",
+        "https://jkanime.net/full-moon-wo-sagashite/47/",
+        "https://jkanime.net/full-moon-wo-sagashite/48/",
+        "https://jkanime.net/full-moon-wo-sagashite/49/",
+        "https://jkanime.net/full-moon-wo-sagashite/5/",
+        "https://jkanime.net/full-moon-wo-sagashite/50/",
+        "https://jkanime.net/full-moon-wo-sagashite/51/",
+        "https://jkanime.net/full-moon-wo-sagashite/52/",
+        "https://jkanime.net/full-moon-wo-sagashite/6/",
+        "https://jkanime.net/full-moon-wo-sagashite/7/",
+        "https://jkanime.net/full-moon-wo-sagashite/8/",
+        "https://jkanime.net/full-moon-wo-sagashite/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 5,
@@ -218778,15 +218870,31 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/hack-sign/1/",
+        "https://jkanime.net/hack-sign/10/",
+        "https://jkanime.net/hack-sign/11/",
+        "https://jkanime.net/hack-sign/12/",
+        "https://jkanime.net/hack-sign/13/",
+        "https://jkanime.net/hack-sign/14/",
         "https://jkanime.net/hack-sign/15/",
+        "https://jkanime.net/hack-sign/16/",
+        "https://jkanime.net/hack-sign/17/",
+        "https://jkanime.net/hack-sign/18/",
         "https://jkanime.net/hack-sign/19/",
         "https://jkanime.net/hack-sign/2/",
+        "https://jkanime.net/hack-sign/20/",
+        "https://jkanime.net/hack-sign/21/",
         "https://jkanime.net/hack-sign/22/",
+        "https://jkanime.net/hack-sign/23/",
         "https://jkanime.net/hack-sign/24/",
+        "https://jkanime.net/hack-sign/25/",
+        "https://jkanime.net/hack-sign/26/",
         "https://jkanime.net/hack-sign/3/",
         "https://jkanime.net/hack-sign/4/",
+        "https://jkanime.net/hack-sign/5/",
+        "https://jkanime.net/hack-sign/6/",
         "https://jkanime.net/hack-sign/7/",
-        "https://jkanime.net/hack-sign/8/"
+        "https://jkanime.net/hack-sign/8/",
+        "https://jkanime.net/hack-sign/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 10,
