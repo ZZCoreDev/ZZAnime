@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T12:07:04.358431+00:00",
+  "checkedAt": "2026-11-06T12:23:33.270009+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
-  "storedChapters": 73057,
-  "missingChapters": 511,
+  "storedChapters": 73059,
+  "missingChapters": 510,
   "expiredChapters": 57526,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 306,
-  "voeOnlyChapters": 46,
-  "extraOnlyChapters": 306,
+  "sideOnlyChapters": 305,
+  "voeOnlyChapters": 45,
+  "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -2576,6 +2576,13 @@
         "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
         "samples": [
           "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/12/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
+        "title": "Nageki no Bourei wa Intai shitai",
+        "samples": [
+          "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/16/"
         ]
       },
       {
@@ -33060,13 +33067,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-piece-episode-of-nami/",
-        "title": "One Piece: Episode of Nami",
-        "samples": [
-          "https://jkanime.net/one-piece-episode-of-nami/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dakara-boku-wa-h-ga-dekinai-recap/",
         "title": "Dakara Boku wa, H ga Dekinai Recap",
         "samples": [
@@ -62952,13 +62952,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/one-piece-episode-of-nami/",
-        "title": "One Piece: Episode of Nami",
-        "samples": [
-          "https://jkanime.net/one-piece-episode-of-nami/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/dakara-boku-wa-h-ga-dekinai-recap/",
         "title": "Dakara Boku wa, H ga Dekinai Recap",
         "samples": [
@@ -79653,13 +79646,15 @@
     {
       "series": "https://jkanime.net/nageki-no-bourei-wa-intai-shitai/",
       "title": "Nageki no Bourei wa Intai shitai",
-      "causes": [],
+      "causes": [
+        "renewal-error"
+      ],
       "observed": 24,
       "stored": 24,
       "missing": [],
       "expired": [],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "streamwish": 21,
@@ -132359,7 +132354,7 @@
         "https://jkanime.net/dragon-ball-heroes/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 38,
+      "renewalFailed": 39,
       "sideOnly": 0,
       "families": {
         "mp4upload": 46,
@@ -180651,20 +180646,18 @@
       "series": "https://jkanime.net/one-piece-episode-of-nami/",
       "title": "One Piece: Episode of Nami",
       "causes": [
-        "observed-chapters-without-options",
-        "retained-redirect",
         "renewal-error"
       ],
       "observed": 1,
-      "stored": 0,
-      "missing": [
-        "https://jkanime.net/one-piece-episode-of-nami/1/"
-      ],
+      "stored": 1,
+      "missing": [],
       "expired": [],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
-      "families": {},
+      "families": {
+        "mega": 1
+      },
       "playbackVerified": false
     },
     {
@@ -231824,7 +231817,7 @@
         "expired-observation"
       ],
       "observed": 6,
-      "stored": 5,
+      "stored": 6,
       "missing": [],
       "expired": [
         "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/1/",
@@ -231832,9 +231825,9 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mega": 2,
+        "mega": 3,
         "streamwish": 4,
         "vidhide": 4,
         "mixdrop": 2,

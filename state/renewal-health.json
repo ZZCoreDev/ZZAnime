@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T12:07:04.358431+00:00",
-  "episodes": 73057,
-  "oldestHours": 263.55,
-  "pending": 71875,
+  "checkedAt": "2026-11-06T12:23:33.270009+00:00",
+  "episodes": 73059,
+  "oldestHours": 263.83,
+  "pending": 71889,
   "expired": 57526,
-  "expiresWithin24Hours": 70925,
+  "expiresWithin24Hours": 71026,
   "retryAfterExpiry": 1612,
-  "successfulCyclesMeasured": 78,
-  "sampleMinutes": 1394.87,
-  "measuredWallClockPerHour": 312.03,
-  "estimatedSweepDays": 9.76,
+  "successfulCyclesMeasured": 79,
+  "sampleMinutes": 1411.35,
+  "measuredWallClockPerHour": 311.62,
+  "estimatedSweepDays": 9.77,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -820,8 +820,8 @@
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
       "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
-      "total": 5,
-      "fresh": 0,
+      "total": 6,
+      "fresh": 1,
       "pendingFailures": 0,
       "state": "pending"
     },
@@ -876,22 +876,22 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4095,
+    "series": 4096,
     "diagnosedSeries": 4046,
-    "pendingSeries": 49
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-06T12:07:04.358431+00:00",
+    "checkedAt": "2026-11-06T12:23:33.270009+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
-    "storedChapters": 73057,
-    "missingChapters": 511,
+    "storedChapters": 73059,
+    "missingChapters": 510,
     "expiredChapters": 57526,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 306,
-    "voeOnlyChapters": 46,
-    "extraOnlyChapters": 306,
+    "sideOnlyChapters": 305,
+    "voeOnlyChapters": 45,
+    "extraOnlyChapters": 305,
     "sourceRequests": 0,
     "aiCalls": 0,
     "playbackVerified": false
