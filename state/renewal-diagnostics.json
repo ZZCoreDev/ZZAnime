@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-06T23:23:01.240625+00:00",
-  "failedChapters": 56593,
-  "series": 4098,
+  "checkedAt": "2026-11-06T23:40:56.510495+00:00",
+  "failedChapters": 56591,
+  "series": 4096,
   "diagnosedSeries": 4046,
-  "pendingSeries": 52,
+  "pendingSeries": 50,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 330,
+    "ValueError: No approved observations; previous channel retained": 328,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -97643,19 +97643,6 @@
       "nextRetryAt": 1793342922.724113
     },
     {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 7,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793930448.6680424
-    },
-    {
       "series": "https://jkanime.net/xin-yichang-shengwu-jianwen-lu-xu/",
       "failedChapters": 7,
       "samples": [
@@ -101031,6 +101018,19 @@
       "nextRetryAt": 1793333067.1855137
     },
     {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 6,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793930448.6680424
+    },
+    {
       "series": "https://jkanime.net/uniteup-unibirth/",
       "failedChapters": 6,
       "samples": [
@@ -101832,7 +101832,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794007293.4437468
+      "nextRetryAt": 1794008284.0076804
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -102899,6 +102899,19 @@
       "nextRetryAt": 1793307136.7775776
     },
     {
+      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/otona-no-bouguya-san-ii/10/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793933482.097728
+    },
+    {
       "series": "https://jkanime.net/planetarian-chiisana-hoshi-no-yume/",
       "failedChapters": 5,
       "samples": [
@@ -103149,7 +103162,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794007309.7422733
+      "nextRetryAt": 1794008299.8911283
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -105680,19 +105693,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793341770.089772
-    },
-    {
-      "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/10/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793933482.097728
     },
     {
       "series": "https://jkanime.net/overlord-ii/",
@@ -111583,13 +111583,13 @@
       "failedChapters": 2,
       "samples": [
         "https://jkanime.net/anne-shirley/16/",
-        "https://jkanime.net/anne-shirley/2/"
+        "https://jkanime.net/anne-shirley/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794006591.01977
+      "nextRetryAt": 1794010061.9235485
     },
     {
       "series": "https://jkanime.net/another-world/",
@@ -120091,18 +120091,6 @@
       "nextRetryAt": 1793398185.7687573
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794005609.5436254
-    },
-    {
       "series": "https://jkanime.net/d-frag-ova/",
       "failedChapters": 1,
       "samples": [
@@ -125295,7 +125283,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793978985.3509974
+      "nextRetryAt": 1794029919.0041842
     },
     {
       "series": "https://jkanime.net/human-lost-ningen-shikkaku/",
@@ -134331,18 +134319,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793692897.0071576
-    },
-    {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794006556.8550754
     },
     {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",

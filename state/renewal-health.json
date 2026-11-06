@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-06T23:23:01.240625+00:00",
+  "checkedAt": "2026-11-06T23:40:56.510495+00:00",
   "episodes": 73066,
-  "oldestHours": 274.82,
+  "oldestHours": 275.12,
   "pending": 72306,
-  "expired": 59613,
-  "expiresWithin24Hours": 71771,
-  "retryAfterExpiry": 1635,
+  "expired": 59680,
+  "expiresWithin24Hours": 71781,
+  "retryAfterExpiry": 1633,
   "successfulCyclesMeasured": 80,
-  "sampleMinutes": 1430.84,
-  "measuredWallClockPerHour": 297.89,
+  "sampleMinutes": 1430.97,
+  "measuredWallClockPerHour": 297.87,
   "estimatedSweepDays": 10.22,
   "capacityStatus": "behind",
   "datesInvented": false,
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4098,
+    "series": 4096,
     "diagnosedSeries": 4046,
-    "pendingSeries": 52
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-06T23:23:01.240625+00:00",
+    "checkedAt": "2026-11-06T23:40:56.510495+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73881,
     "storedChapters": 73066,
     "missingChapters": 510,
-    "expiredChapters": 59613,
+    "expiredChapters": 59680,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
