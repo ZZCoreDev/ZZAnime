@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T03:17:30.763620+00:00",
+  "checkedAt": "2026-11-06T03:35:19.946941+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57488,
+  "expiredChapters": 57491,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -23226,8 +23226,8 @@
         "series": "https://jkanime.net/sukitte-iinayo/",
         "title": "Sukitte Ii na yo.",
         "samples": [
-          "https://jkanime.net/sukitte-iinayo/10/",
-          "https://jkanime.net/sukitte-iinayo/11/"
+          "https://jkanime.net/sukitte-iinayo/1/",
+          "https://jkanime.net/sukitte-iinayo/10/"
         ]
       },
       {
@@ -23329,8 +23329,8 @@
         "series": "https://jkanime.net/kamisama-hajimemashita/",
         "title": "Kamisama Hajimemashita",
         "samples": [
-          "https://jkanime.net/kamisama-hajimemashita/10/",
-          "https://jkanime.net/kamisama-hajimemashita/11/"
+          "https://jkanime.net/kamisama-hajimemashita/1/",
+          "https://jkanime.net/kamisama-hajimemashita/10/"
         ]
       },
       {
@@ -23459,7 +23459,8 @@
         "series": "https://jkanime.net/tantei-opera-milky-holmes-alternative/",
         "title": "Tantei Opera Milky Holmes: Alternative",
         "samples": [
-          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/"
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/",
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/2/"
         ]
       },
       {
@@ -54361,8 +54362,8 @@
         "series": "https://jkanime.net/sukitte-iinayo/",
         "title": "Sukitte Ii na yo.",
         "samples": [
-          "https://jkanime.net/sukitte-iinayo/10/",
-          "https://jkanime.net/sukitte-iinayo/11/"
+          "https://jkanime.net/sukitte-iinayo/1/",
+          "https://jkanime.net/sukitte-iinayo/10/"
         ]
       },
       {
@@ -54465,8 +54466,8 @@
         "series": "https://jkanime.net/kamisama-hajimemashita/",
         "title": "Kamisama Hajimemashita",
         "samples": [
-          "https://jkanime.net/kamisama-hajimemashita/10/",
-          "https://jkanime.net/kamisama-hajimemashita/11/"
+          "https://jkanime.net/kamisama-hajimemashita/1/",
+          "https://jkanime.net/kamisama-hajimemashita/10/"
         ]
       },
       {
@@ -54569,7 +54570,8 @@
         "series": "https://jkanime.net/tantei-opera-milky-holmes-alternative/",
         "title": "Tantei Opera Milky Holmes: Alternative",
         "samples": [
-          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/"
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/",
+          "https://jkanime.net/tantei-opera-milky-holmes-alternative/2/"
         ]
       },
       {
@@ -83176,7 +83178,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 14,
+      "renewalFailed": 15,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -179488,6 +179490,7 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/sukitte-iinayo/1/",
         "https://jkanime.net/sukitte-iinayo/10/",
         "https://jkanime.net/sukitte-iinayo/11/",
         "https://jkanime.net/sukitte-iinayo/12/",
@@ -180119,6 +180122,7 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/kamisama-hajimemashita/1/",
         "https://jkanime.net/kamisama-hajimemashita/10/",
         "https://jkanime.net/kamisama-hajimemashita/11/",
         "https://jkanime.net/kamisama-hajimemashita/12/",
@@ -180721,7 +180725,8 @@
       "stored": 2,
       "missing": [],
       "expired": [
-        "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/"
+        "https://jkanime.net/tantei-opera-milky-holmes-alternative/1/",
+        "https://jkanime.net/tantei-opera-milky-holmes-alternative/2/"
       ],
       "noIndependent": [],
       "renewalFailed": 2,
