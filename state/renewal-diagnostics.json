@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T04:15:19.401188+00:00",
+  "checkedAt": "2026-11-06T04:32:24.932786+00:00",
   "failedChapters": 56553,
   "series": 4091,
   "diagnosedSeries": 4045,
@@ -3039,32 +3039,32 @@
         "https://jkanime.net/ganzo-bandori-chan/1/",
         "https://jkanime.net/ganzo-bandori-chan/10/"
       ],
-      "diagnosedSample": "https://jkanime.net/ganzo-bandori-chan/39/",
+      "diagnosedSample": "https://jkanime.net/ganzo-bandori-chan/40/",
       "sources": {
-        "flv": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
-          "stage": "detail",
-          "status": 404
-        },
         "jk": {
-          "cachedFailure": true,
+          "stage": "listing",
+          "status": 403,
           "cause": "access-denied",
           "message": "Source HTTP 403",
-          "retryAt": 1793937089191,
-          "stage": "listing",
-          "status": 403
+          "cachedFailure": true,
+          "retryAt": 1793939459267
         },
         "tio": {
-          "cause": "address-not-found",
-          "message": "Source HTTP 404",
           "stage": "detail",
-          "status": 404
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
+        },
+        "flv": {
+          "stage": "detail",
+          "status": 404,
+          "cause": "address-not-found",
+          "message": "Source HTTP 404"
         }
       },
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793185208.8032634
+      "nextRetryAt": 1793185213.2069707
     },
     {
       "series": "https://jkanime.net/hayate-no-gotoku/",
