@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T08:59:58.759929+00:00",
+  "checkedAt": "2026-11-06T09:17:34.662806+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57520,
+  "expiredChapters": 57528,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -156,7 +156,7 @@
         "title": "Super no Ura de Yani Suu Futari",
         "samples": [
           "https://jkanime.net/super-no-ura-de-yani-suu-futari/13/",
-          "https://jkanime.net/super-no-ura-de-yani-suu-futari/14/"
+          "https://jkanime.net/super-no-ura-de-yani-suu-futari/15/"
         ]
       },
       {
@@ -1795,7 +1795,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/2/"
+          "https://jkanime.net/dr-stone-science-future/2/",
+          "https://jkanime.net/dr-stone-science-future/33/"
         ]
       },
       {
@@ -33620,7 +33621,7 @@
         "title": "Super no Ura de Yani Suu Futari",
         "samples": [
           "https://jkanime.net/super-no-ura-de-yani-suu-futari/13/",
-          "https://jkanime.net/super-no-ura-de-yani-suu-futari/14/"
+          "https://jkanime.net/super-no-ura-de-yani-suu-futari/15/"
         ]
       },
       {
@@ -35042,7 +35043,8 @@
         "series": "https://jkanime.net/dr-stone-science-future/",
         "title": "Dr. Stone: Science Future",
         "samples": [
-          "https://jkanime.net/dr-stone-science-future/2/"
+          "https://jkanime.net/dr-stone-science-future/2/",
+          "https://jkanime.net/dr-stone-science-future/33/"
         ]
       },
       {
@@ -44155,6 +44157,14 @@
         "samples": [
           "https://jkanime.net/null-peta/1/",
           "https://jkanime.net/null-peta/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
+        "title": "Chuubyou Gekihatsu Boy",
+        "samples": [
+          "https://jkanime.net/chuubyou-gekihatsu-boy/6/",
+          "https://jkanime.net/chuubyou-gekihatsu-boy/7/"
         ]
       },
       {
@@ -64716,7 +64726,6 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/super-no-ura-de-yani-suu-futari/13/",
-        "https://jkanime.net/super-no-ura-de-yani-suu-futari/14/",
         "https://jkanime.net/super-no-ura-de-yani-suu-futari/15/",
         "https://jkanime.net/super-no-ura-de-yani-suu-futari/16/",
         "https://jkanime.net/super-no-ura-de-yani-suu-futari/17/",
@@ -75773,7 +75782,12 @@
       "stored": 37,
       "missing": [],
       "expired": [
-        "https://jkanime.net/dr-stone-science-future/2/"
+        "https://jkanime.net/dr-stone-science-future/2/",
+        "https://jkanime.net/dr-stone-science-future/33/",
+        "https://jkanime.net/dr-stone-science-future/34/",
+        "https://jkanime.net/dr-stone-science-future/35/",
+        "https://jkanime.net/dr-stone-science-future/36/",
+        "https://jkanime.net/dr-stone-science-future/37/"
       ],
       "noIndependent": [],
       "renewalFailed": 6,
@@ -122781,12 +122795,18 @@
       "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
       "title": "Chuubyou Gekihatsu Boy",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 11,
       "stored": 11,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/chuubyou-gekihatsu-boy/6/",
+        "https://jkanime.net/chuubyou-gekihatsu-boy/7/",
+        "https://jkanime.net/chuubyou-gekihatsu-boy/8/",
+        "https://jkanime.net/chuubyou-gekihatsu-boy/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 4,
       "sideOnly": 0,
