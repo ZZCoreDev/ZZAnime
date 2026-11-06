@@ -3951,6 +3951,7 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/sakamoto-desu-ga-special/: 1 capítulos. flv: address-not-found / detail; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: voe-only / complete
 - https://jkanime.net/sasaki-to-miyano-koi-ni-kizuku-mae-no-chotto-shita-hanashi/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
+- https://jkanime.net/sayonara-lara/: 1 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
 - https://jkanime.net/seihantai-na-kimi-to-boku-2nd-season/: 1 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/seishun-buta-yarou-wa-odekake-sister-no-yume-wo-minai/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: address-not-found / detail
@@ -4099,4 +4100,3 @@ La muestra clasifica la causa; no demuestra que todos sus capítulos fallen igua
 - https://jkanime.net/zetsumetsu-kigu-shoujo-amazing-twins/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
 - https://jkanime.net/zoku-owarimonogatari/: 1 capítulos. pendiente del próximo reintento permitido
 - https://jkanime.net/zx-code-reunion/: 1 capítulos. flv: no-approved-provider / parse; jk: access-denied / listing; tio: no-approved-provider / parse
-- https://jkanime.net/sayonara-lara/: 1 capítulos. pendiente del próximo reintento permitido

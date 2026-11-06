@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T17:39:46.606908+00:00",
+  "checkedAt": "2026-11-06T18:02:04.283411+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73878,
   "storedChapters": 73060,
   "missingChapters": 510,
-  "expiredChapters": 58238,
+  "expiredChapters": 58259,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 308,
@@ -30018,14 +30018,15 @@
         "series": "https://jkanime.net/galaxy-angel-z/",
         "title": "Galaxy Angel Z",
         "samples": [
-          "https://jkanime.net/galaxy-angel-z/3/",
-          "https://jkanime.net/galaxy-angel-z/5/"
+          "https://jkanime.net/galaxy-angel-z/1/",
+          "https://jkanime.net/galaxy-angel-z/2/"
         ]
       },
       {
         "series": "https://jkanime.net/love-hina-again/",
         "title": "Love Hina Again",
         "samples": [
+          "https://jkanime.net/love-hina-again/1/",
           "https://jkanime.net/love-hina-again/2/"
         ]
       },
@@ -60696,14 +60697,15 @@
         "series": "https://jkanime.net/galaxy-angel-z/",
         "title": "Galaxy Angel Z",
         "samples": [
-          "https://jkanime.net/galaxy-angel-z/3/",
-          "https://jkanime.net/galaxy-angel-z/5/"
+          "https://jkanime.net/galaxy-angel-z/1/",
+          "https://jkanime.net/galaxy-angel-z/2/"
         ]
       },
       {
         "series": "https://jkanime.net/love-hina-again/",
         "title": "Love Hina Again",
         "samples": [
+          "https://jkanime.net/love-hina-again/1/",
           "https://jkanime.net/love-hina-again/2/"
         ]
       },
@@ -64927,7 +64929,6 @@
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/2/",
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/3/",
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/5/",
-        "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/7/",
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/8/",
         "https://jkanime.net/tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken/9/"
       ],
@@ -87808,6 +87809,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/3/",
         "https://jkanime.net/kusuriya-no-hitorigoto/30/",
         "https://jkanime.net/kusuriya-no-hitorigoto/31/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/32/",
         "https://jkanime.net/kusuriya-no-hitorigoto/4/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
@@ -130903,6 +130905,7 @@
         "https://jkanime.net/piano-no-mori-tv/20/",
         "https://jkanime.net/piano-no-mori-tv/21/",
         "https://jkanime.net/piano-no-mori-tv/22/",
+        "https://jkanime.net/piano-no-mori-tv/23/",
         "https://jkanime.net/piano-no-mori-tv/8/"
       ],
       "noIndependent": [],
@@ -208814,6 +208817,8 @@
         "https://jkanime.net/tsubasa-chronicle/42/",
         "https://jkanime.net/tsubasa-chronicle/43/",
         "https://jkanime.net/tsubasa-chronicle/44/",
+        "https://jkanime.net/tsubasa-chronicle/45/",
+        "https://jkanime.net/tsubasa-chronicle/46/",
         "https://jkanime.net/tsubasa-chronicle/5/",
         "https://jkanime.net/tsubasa-chronicle/6/",
         "https://jkanime.net/tsubasa-chronicle/7/",
@@ -218888,6 +218893,7 @@
         "https://jkanime.net/hack-sign/24/",
         "https://jkanime.net/hack-sign/25/",
         "https://jkanime.net/hack-sign/26/",
+        "https://jkanime.net/hack-sign/28/",
         "https://jkanime.net/hack-sign/3/",
         "https://jkanime.net/hack-sign/4/",
         "https://jkanime.net/hack-sign/5/",
@@ -219262,9 +219268,15 @@
       "stored": 9,
       "missing": [],
       "expired": [
+        "https://jkanime.net/galaxy-angel-z/1/",
+        "https://jkanime.net/galaxy-angel-z/2/",
         "https://jkanime.net/galaxy-angel-z/3/",
+        "https://jkanime.net/galaxy-angel-z/4/",
         "https://jkanime.net/galaxy-angel-z/5/",
-        "https://jkanime.net/galaxy-angel-z/6/"
+        "https://jkanime.net/galaxy-angel-z/6/",
+        "https://jkanime.net/galaxy-angel-z/7/",
+        "https://jkanime.net/galaxy-angel-z/8/",
+        "https://jkanime.net/galaxy-angel-z/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 3,
@@ -219290,7 +219302,9 @@
       "stored": 3,
       "missing": [],
       "expired": [
-        "https://jkanime.net/love-hina-again/2/"
+        "https://jkanime.net/love-hina-again/1/",
+        "https://jkanime.net/love-hina-again/2/",
+        "https://jkanime.net/love-hina-again/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -219748,11 +219762,19 @@
       "expired": [
         "https://jkanime.net/groove-adventure-rave/1/",
         "https://jkanime.net/groove-adventure-rave/10/",
+        "https://jkanime.net/groove-adventure-rave/11/",
+        "https://jkanime.net/groove-adventure-rave/12/",
         "https://jkanime.net/groove-adventure-rave/13/",
+        "https://jkanime.net/groove-adventure-rave/14/",
         "https://jkanime.net/groove-adventure-rave/15/",
+        "https://jkanime.net/groove-adventure-rave/16/",
         "https://jkanime.net/groove-adventure-rave/17/",
+        "https://jkanime.net/groove-adventure-rave/18/",
+        "https://jkanime.net/groove-adventure-rave/19/",
+        "https://jkanime.net/groove-adventure-rave/2/",
         "https://jkanime.net/groove-adventure-rave/20/",
         "https://jkanime.net/groove-adventure-rave/21/",
+        "https://jkanime.net/groove-adventure-rave/22/",
         "https://jkanime.net/groove-adventure-rave/23/",
         "https://jkanime.net/groove-adventure-rave/24/",
         "https://jkanime.net/groove-adventure-rave/25/",
@@ -219787,7 +219809,8 @@
         "https://jkanime.net/groove-adventure-rave/51/",
         "https://jkanime.net/groove-adventure-rave/6/",
         "https://jkanime.net/groove-adventure-rave/7/",
-        "https://jkanime.net/groove-adventure-rave/8/"
+        "https://jkanime.net/groove-adventure-rave/8/",
+        "https://jkanime.net/groove-adventure-rave/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 42,
