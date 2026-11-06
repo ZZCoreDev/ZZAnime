@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T21:05:58.255147+00:00",
+  "checkedAt": "2026-11-06T21:21:09.712653+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 58807,
+  "expiredChapters": 58847,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -88,6 +88,13 @@
         "samples": [
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/3/",
           "https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/5/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/sayonara-lara/",
+        "title": "Sayonara Lara",
+        "samples": [
+          "https://jkanime.net/sayonara-lara/6/"
         ]
       },
       {
@@ -64843,7 +64850,8 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -64852,7 +64860,7 @@
         "https://jkanime.net/sayonara-lara/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -73418,7 +73426,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -73731,7 +73739,7 @@
         "https://jkanime.net/takopii-no-genzai/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 6,
@@ -79686,7 +79694,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -84030,7 +84038,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 20,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -88540,6 +88548,7 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/40/",
         "https://jkanime.net/kusuriya-no-hitorigoto/41/",
         "https://jkanime.net/kusuriya-no-hitorigoto/43/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/44/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -89388,7 +89397,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 7,
+      "renewalFailed": 8,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -107655,7 +107664,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -107837,7 +107846,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -227873,6 +227882,7 @@
       ],
       "expired": [
         "https://jkanime.net/taiho-shichau-zo/1/",
+        "https://jkanime.net/taiho-shichau-zo/10/",
         "https://jkanime.net/taiho-shichau-zo/2/",
         "https://jkanime.net/taiho-shichau-zo/3/",
         "https://jkanime.net/taiho-shichau-zo/4/"
@@ -228465,17 +228475,55 @@
       "expired": [
         "https://jkanime.net/mobile-suit-victory-gundam/1/",
         "https://jkanime.net/mobile-suit-victory-gundam/10/",
+        "https://jkanime.net/mobile-suit-victory-gundam/11/",
+        "https://jkanime.net/mobile-suit-victory-gundam/12/",
         "https://jkanime.net/mobile-suit-victory-gundam/13/",
+        "https://jkanime.net/mobile-suit-victory-gundam/14/",
         "https://jkanime.net/mobile-suit-victory-gundam/15/",
         "https://jkanime.net/mobile-suit-victory-gundam/16/",
         "https://jkanime.net/mobile-suit-victory-gundam/17/",
         "https://jkanime.net/mobile-suit-victory-gundam/18/",
+        "https://jkanime.net/mobile-suit-victory-gundam/19/",
         "https://jkanime.net/mobile-suit-victory-gundam/2/",
         "https://jkanime.net/mobile-suit-victory-gundam/20/",
         "https://jkanime.net/mobile-suit-victory-gundam/21/",
         "https://jkanime.net/mobile-suit-victory-gundam/22/",
+        "https://jkanime.net/mobile-suit-victory-gundam/23/",
+        "https://jkanime.net/mobile-suit-victory-gundam/24/",
+        "https://jkanime.net/mobile-suit-victory-gundam/25/",
+        "https://jkanime.net/mobile-suit-victory-gundam/26/",
         "https://jkanime.net/mobile-suit-victory-gundam/27/",
-        "https://jkanime.net/mobile-suit-victory-gundam/48/"
+        "https://jkanime.net/mobile-suit-victory-gundam/28/",
+        "https://jkanime.net/mobile-suit-victory-gundam/29/",
+        "https://jkanime.net/mobile-suit-victory-gundam/3/",
+        "https://jkanime.net/mobile-suit-victory-gundam/30/",
+        "https://jkanime.net/mobile-suit-victory-gundam/31/",
+        "https://jkanime.net/mobile-suit-victory-gundam/32/",
+        "https://jkanime.net/mobile-suit-victory-gundam/33/",
+        "https://jkanime.net/mobile-suit-victory-gundam/34/",
+        "https://jkanime.net/mobile-suit-victory-gundam/35/",
+        "https://jkanime.net/mobile-suit-victory-gundam/36/",
+        "https://jkanime.net/mobile-suit-victory-gundam/37/",
+        "https://jkanime.net/mobile-suit-victory-gundam/38/",
+        "https://jkanime.net/mobile-suit-victory-gundam/39/",
+        "https://jkanime.net/mobile-suit-victory-gundam/4/",
+        "https://jkanime.net/mobile-suit-victory-gundam/40/",
+        "https://jkanime.net/mobile-suit-victory-gundam/41/",
+        "https://jkanime.net/mobile-suit-victory-gundam/42/",
+        "https://jkanime.net/mobile-suit-victory-gundam/43/",
+        "https://jkanime.net/mobile-suit-victory-gundam/44/",
+        "https://jkanime.net/mobile-suit-victory-gundam/45/",
+        "https://jkanime.net/mobile-suit-victory-gundam/46/",
+        "https://jkanime.net/mobile-suit-victory-gundam/47/",
+        "https://jkanime.net/mobile-suit-victory-gundam/48/",
+        "https://jkanime.net/mobile-suit-victory-gundam/49/",
+        "https://jkanime.net/mobile-suit-victory-gundam/5/",
+        "https://jkanime.net/mobile-suit-victory-gundam/50/",
+        "https://jkanime.net/mobile-suit-victory-gundam/51/",
+        "https://jkanime.net/mobile-suit-victory-gundam/6/",
+        "https://jkanime.net/mobile-suit-victory-gundam/7/",
+        "https://jkanime.net/mobile-suit-victory-gundam/8/",
+        "https://jkanime.net/mobile-suit-victory-gundam/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 13,
