@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T01:06:48.389506+00:00",
+  "checkedAt": "2026-11-06T01:21:51.267036+00:00",
   "episodes": 73057,
-  "oldestHours": 252.55,
-  "pending": 71512,
+  "oldestHours": 252.8,
+  "pending": 71478,
   "expired": 57483,
-  "expiresWithin24Hours": 60969,
-  "retryAfterExpiry": 1540,
+  "expiresWithin24Hours": 60992,
+  "retryAfterExpiry": 1553,
   "successfulCyclesMeasured": 61,
-  "sampleMinutes": 1438.17,
-  "measuredWallClockPerHour": 249.48,
-  "estimatedSweepDays": 12.2,
+  "sampleMinutes": 1439.87,
+  "measuredWallClockPerHour": 249.11,
+  "estimatedSweepDays": 12.22,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -731,14 +731,14 @@
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen",
       "total": 15,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kabushikigaisha-magi-lumire/": {
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-06T01:06:48.389506+00:00",
+    "checkedAt": "2026-11-06T01:21:51.267036+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
