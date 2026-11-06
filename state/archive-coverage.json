@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T21:39:22.714421+00:00",
+  "checkedAt": "2026-11-06T21:57:48.085740+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 58887,
+  "expiredChapters": 58915,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -19,7 +19,16 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/14/"
+          "https://jkanime.net/ao-ashi/14/",
+          "https://jkanime.net/ao-ashi/6/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/megalo-box/",
+        "title": "Megalo Box",
+        "samples": [
+          "https://jkanime.net/megalo-box/1/",
+          "https://jkanime.net/megalo-box/13/"
         ]
       },
       {
@@ -10825,8 +10834,8 @@
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
         "title": "Chuubyou Gekihatsu Boy",
         "samples": [
-          "https://jkanime.net/chuubyou-gekihatsu-boy/6/",
-          "https://jkanime.net/chuubyou-gekihatsu-boy/7/"
+          "https://jkanime.net/chuubyou-gekihatsu-boy/3/",
+          "https://jkanime.net/chuubyou-gekihatsu-boy/6/"
         ]
       },
       {
@@ -13733,6 +13742,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/no-game-no-life-zero/",
+        "title": "No Game No Life: Zero",
+        "samples": [
+          "https://jkanime.net/no-game-no-life-zero/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/jigoku-shoujo-yoi-no-togi/",
         "title": "Jigoku Shoujo: Yoi no Togi",
         "samples": [
@@ -13879,7 +13895,8 @@
         "series": "https://jkanime.net/18if/",
         "title": "18if",
         "samples": [
-          "https://jkanime.net/18if/7/"
+          "https://jkanime.net/18if/7/",
+          "https://jkanime.net/18if/8/"
         ]
       },
       {
@@ -14030,6 +14047,13 @@
         "samples": [
           "https://jkanime.net/hina-logi-from-luck-logic/1/",
           "https://jkanime.net/hina-logi-from-luck-logic/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
+        "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
+        "samples": [
+          "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
         ]
       },
       {
@@ -14275,6 +14299,13 @@
         "samples": [
           "https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/1/",
           "https://jkanime.net/rokudenashi-majutsu-koushi-to-akashic-records/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/cinderella-girls-gekijou/",
+        "title": "Cinderella Girls Gekijou",
+        "samples": [
+          "https://jkanime.net/cinderella-girls-gekijou/12/"
         ]
       },
       {
@@ -14982,6 +15013,13 @@
         "samples": [
           "https://jkanime.net/hibike-euphonium-2/1/",
           "https://jkanime.net/hibike-euphonium-2/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
+        "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
+        "samples": [
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/"
         ]
       },
       {
@@ -16141,6 +16179,7 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara.",
         "samples": [
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/7/",
           "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/9/"
         ]
       },
@@ -21182,6 +21221,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/nerawareta-gakuen/",
+        "title": "Nerawareta Gakuen",
+        "samples": [
+          "https://jkanime.net/nerawareta-gakuen/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kami-nomi-zo-shiru-sekai-tenri-hen/",
         "title": "Kami nomi zo Shiru Sekai: Tenri-hen",
         "samples": [
@@ -21411,6 +21457,13 @@
         "samples": [
           "https://jkanime.net/hiiro-no-kakera-dai-ni-shou/1/",
           "https://jkanime.net/hiiro-no-kakera-dai-ni-shou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
+        "title": "Mardock Scramble: The Third Exhaust",
+        "samples": [
+          "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
         ]
       },
       {
@@ -22372,6 +22425,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
+        "title": "Mardock Scramble: The Second Combustion",
+        "samples": [
+          "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/working-2/",
         "title": "Working'!! Season 2",
         "samples": [
@@ -22975,6 +23035,13 @@
         "samples": [
           "https://jkanime.net/yozakura-quartet-hoshi-no-umi/1/",
           "https://jkanime.net/yozakura-quartet-hoshi-no-umi/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
+        "title": "Mardock Scramble: The First Compression",
+        "samples": [
+          "https://jkanime.net/mardock-scramble-the-first-compression/1/"
         ]
       },
       {
@@ -24005,7 +24072,8 @@
         "series": "https://jkanime.net/07-ghost/",
         "title": "07-Ghost",
         "samples": [
-          "https://jkanime.net/07-ghost/19/"
+          "https://jkanime.net/07-ghost/19/",
+          "https://jkanime.net/07-ghost/2/"
         ]
       },
       {
@@ -28551,6 +28619,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
+        "samples": [
+          "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/buttobi-cpu/",
         "title": "Buttobi!! CPU",
         "samples": [
@@ -28588,6 +28663,13 @@
         "samples": [
           "https://jkanime.net/jungle-de-ikou/1/",
           "https://jkanime.net/jungle-de-ikou/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
+        "title": "Neon Genesis Evangelion: Death & Rebirth",
+        "samples": [
+          "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
         ]
       },
       {
@@ -28987,7 +29069,8 @@
         "series": "https://jkanime.net/cyber-city-oedo-808/",
         "title": "Cyber City Oedo 808",
         "samples": [
-          "https://jkanime.net/cyber-city-oedo-808/3/"
+          "https://jkanime.net/cyber-city-oedo-808/1/",
+          "https://jkanime.net/cyber-city-oedo-808/2/"
         ]
       },
       {
@@ -29302,6 +29385,13 @@
         "samples": [
           "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/1/",
           "https://jkanime.net/diamond-no-ace-act-ii-second-season-part-2/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/hotaru-no-yomeiri/",
+        "title": "Hotaru no Yomeiri",
+        "samples": [
+          "https://jkanime.net/hotaru-no-yomeiri/4/"
         ]
       },
       {
@@ -29649,7 +29739,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/14/"
+          "https://jkanime.net/ao-ashi/14/",
+          "https://jkanime.net/ao-ashi/6/"
         ]
       },
       {
@@ -41261,8 +41352,8 @@
         "series": "https://jkanime.net/chuubyou-gekihatsu-boy/",
         "title": "Chuubyou Gekihatsu Boy",
         "samples": [
-          "https://jkanime.net/chuubyou-gekihatsu-boy/6/",
-          "https://jkanime.net/chuubyou-gekihatsu-boy/7/"
+          "https://jkanime.net/chuubyou-gekihatsu-boy/3/",
+          "https://jkanime.net/chuubyou-gekihatsu-boy/6/"
         ]
       },
       {
@@ -60952,7 +61043,8 @@
         "series": "https://jkanime.net/cyber-city-oedo-808/",
         "title": "Cyber City Oedo 808",
         "samples": [
-          "https://jkanime.net/cyber-city-oedo-808/3/"
+          "https://jkanime.net/cyber-city-oedo-808/1/",
+          "https://jkanime.net/cyber-city-oedo-808/2/"
         ]
       },
       {
@@ -64323,7 +64415,9 @@
       "stored": 24,
       "missing": [],
       "expired": [
-        "https://jkanime.net/ao-ashi/14/"
+        "https://jkanime.net/ao-ashi/14/",
+        "https://jkanime.net/ao-ashi/6/",
+        "https://jkanime.net/ao-ashi/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
@@ -64338,11 +64432,16 @@
     {
       "series": "https://jkanime.net/megalo-box/",
       "title": "Megalo Box",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/megalo-box/1/",
+        "https://jkanime.net/megalo-box/13/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -88581,6 +88680,8 @@
         "https://jkanime.net/kusuriya-no-hitorigoto/43/",
         "https://jkanime.net/kusuriya-no-hitorigoto/44/",
         "https://jkanime.net/kusuriya-no-hitorigoto/45/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/46/",
+        "https://jkanime.net/kusuriya-no-hitorigoto/47/",
         "https://jkanime.net/kusuriya-no-hitorigoto/5/",
         "https://jkanime.net/kusuriya-no-hitorigoto/6/",
         "https://jkanime.net/kusuriya-no-hitorigoto/7/",
@@ -96788,6 +96889,7 @@
       "expired": [
         "https://jkanime.net/hikari-no-ou/1/",
         "https://jkanime.net/hikari-no-ou/10/",
+        "https://jkanime.net/hikari-no-ou/14/",
         "https://jkanime.net/hikari-no-ou/2/",
         "https://jkanime.net/hikari-no-ou/3/",
         "https://jkanime.net/hikari-no-ou/4/",
@@ -108283,6 +108385,7 @@
         "https://jkanime.net/kyoukai-senki/11/",
         "https://jkanime.net/kyoukai-senki/12/",
         "https://jkanime.net/kyoukai-senki/13/",
+        "https://jkanime.net/kyoukai-senki/16/",
         "https://jkanime.net/kyoukai-senki/2/",
         "https://jkanime.net/kyoukai-senki/21/",
         "https://jkanime.net/kyoukai-senki/3/",
@@ -123746,6 +123849,7 @@
       "stored": 11,
       "missing": [],
       "expired": [
+        "https://jkanime.net/chuubyou-gekihatsu-boy/3/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/6/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/7/",
         "https://jkanime.net/chuubyou-gekihatsu-boy/8/",
@@ -139295,11 +139399,15 @@
     {
       "series": "https://jkanime.net/no-game-no-life-zero/",
       "title": "No Game No Life: Zero",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/no-game-no-life-zero/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -140040,7 +140148,8 @@
       "stored": 13,
       "missing": [],
       "expired": [
-        "https://jkanime.net/18if/7/"
+        "https://jkanime.net/18if/7/",
+        "https://jkanime.net/18if/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -140781,11 +140890,15 @@
     {
       "series": "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/",
       "title": "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mahouka-koukou-no-rettousei-movie-hoshi-wo-yobu-shoujo/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -142294,11 +142407,15 @@
     {
       "series": "https://jkanime.net/cinderella-girls-gekijou/",
       "title": "Cinderella Girls Gekijou",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/cinderella-girls-gekijou/12/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -146143,11 +146260,15 @@
     {
       "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
       "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -152104,6 +152225,7 @@
       "stored": 6,
       "missing": [],
       "expired": [
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/7/",
         "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara/9/"
       ],
       "noIndependent": [],
@@ -179941,11 +180063,15 @@
     {
       "series": "https://jkanime.net/nerawareta-gakuen/",
       "title": "Nerawareta Gakuen",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/nerawareta-gakuen/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -181397,11 +181523,15 @@
     {
       "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
       "title": "Mardock Scramble: The Third Exhaust",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mardock-scramble-the-third-exhaust/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -186898,11 +187028,15 @@
     {
       "series": "https://jkanime.net/mardock-scramble-the-second-combustion/",
       "title": "Mardock Scramble: The Second Combustion",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mardock-scramble-the-second-combustion/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -190363,11 +190497,15 @@
     {
       "series": "https://jkanime.net/mardock-scramble-the-first-compression/",
       "title": "Mardock Scramble: The First Compression",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mardock-scramble-the-first-compression/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -196044,7 +196182,9 @@
       "stored": 25,
       "missing": [],
       "expired": [
-        "https://jkanime.net/07-ghost/19/"
+        "https://jkanime.net/07-ghost/19/",
+        "https://jkanime.net/07-ghost/2/",
+        "https://jkanime.net/07-ghost/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -225876,11 +226016,15 @@
     {
       "series": "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/",
       "title": "Neon Genesis Evangelion: The End of Evangelion",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/neon-genesis-evangelion-the-end-of-evangelion/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -226370,11 +226514,15 @@
     {
       "series": "https://jkanime.net/neon-genesis-evangelion-death-rebirth/",
       "title": "Neon Genesis Evangelion: Death & Rebirth",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/neon-genesis-evangelion-death-rebirth/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -227927,6 +228075,8 @@
         "https://jkanime.net/taiho-shichau-zo/10/",
         "https://jkanime.net/taiho-shichau-zo/11/",
         "https://jkanime.net/taiho-shichau-zo/12/",
+        "https://jkanime.net/taiho-shichau-zo/13/",
+        "https://jkanime.net/taiho-shichau-zo/14/",
         "https://jkanime.net/taiho-shichau-zo/2/",
         "https://jkanime.net/taiho-shichau-zo/3/",
         "https://jkanime.net/taiho-shichau-zo/4/"
@@ -229581,6 +229731,8 @@
       "stored": 3,
       "missing": [],
       "expired": [
+        "https://jkanime.net/cyber-city-oedo-808/1/",
+        "https://jkanime.net/cyber-city-oedo-808/2/",
         "https://jkanime.net/cyber-city-oedo-808/3/"
       ],
       "noIndependent": [],
@@ -233133,11 +233285,15 @@
     {
       "series": "https://jkanime.net/hotaru-no-yomeiri/",
       "title": "Hotaru no Yomeiri",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hotaru-no-yomeiri/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
