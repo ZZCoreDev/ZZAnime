@@ -1,4 +1,25 @@
 {
+  "expired-observation": {
+    "series": 3742,
+    "twoSeriesProofRequired": true,
+    "samples": [
+      {
+        "series": "https://jkanime.net/ao-ashi/",
+        "title": "Ao Ashi",
+        "samples": [
+          "https://jkanime.net/ao-ashi/14/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
+        "title": "Danmachi",
+        "samples": [
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
+          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
+        ]
+      }
+    ]
+  },
   "renewal-error": {
     "series": 4098,
     "twoSeriesProofRequired": true,
@@ -7,8 +28,7 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/21/",
-          "https://jkanime.net/ao-ashi/22/"
+          "https://jkanime.net/ao-ashi/14/"
         ]
       },
       {
@@ -38,28 +58,6 @@
         "title": "Meitantei Conan: Hanamaru na Answer",
         "samples": [
           "https://jkanime.net/meitantei-conan-hanamaru-na-answer/1/"
-        ]
-      }
-    ]
-  },
-  "expired-observation": {
-    "series": 3738,
-    "twoSeriesProofRequired": true,
-    "samples": [
-      {
-        "series": "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/",
-        "title": "Danmachi",
-        "samples": [
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
-          "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       }
     ]

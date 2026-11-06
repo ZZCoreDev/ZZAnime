@@ -1,5 +1,5 @@
 ﻿title,series,causes,observed,stored,missing,expired,renewalFailed,sideOnly
-Ao Ashi,https://jkanime.net/ao-ashi/,renewal-error,24,24,0,0,4,0
+Ao Ashi,https://jkanime.net/ao-ashi/,expired-observation | renewal-error,24,24,0,1,4,0
 Megalo Box,https://jkanime.net/megalo-box/,,13,13,0,0,0,0
 Danmachi,https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/,observed-chapters-without-options | expired-observation | renewal-error,13,1,12,1,13,0
 Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,expired-observation | renewal-error,10,10,0,3,1,0
@@ -882,7 +882,7 @@ Pluto,https://jkanime.net/pluto/,expired-observation | renewal-error,8,8,0,3,3,0
 The iDOLM@STER Cinderella Girls: U149 Special,https://jkanime.net/the-idolmster-cinderella-girls-u149-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
 Temple Specials,https://jkanime.net/temple-specials/,expired-observation | renewal-error,1,1,0,1,1,0
 Shaonian Ge Xing: Haiwai Xianshan Pian,https://jkanime.net/shaonian-ge-xing-haiwai-xianshan-pian/,expired-observation | renewal-error,26,26,0,26,26,0
-Kusuriya no Hitorigoto,https://jkanime.net/kusuriya-no-hitorigoto/,expired-observation | renewal-error,54,52,0,42,25,2
+Kusuriya no Hitorigoto,https://jkanime.net/kusuriya-no-hitorigoto/,expired-observation | renewal-error,54,52,0,43,25,2
 Dog Signal,https://jkanime.net/dog-signal/,no-observed-listing,0,0,0,0,0,0
 Zhengjing Shao Zhu de Xingfu Shenghuo,https://jkanime.net/zhengjing-shao-zhu-de-xingfu-shenghuo/,expired-observation | renewal-error,12,12,0,12,12,0
 Hokkyoku Hyakkaten no Concierge-san,https://jkanime.net/hokkyoku-hyakkaten-no-concierge-san/,,1,1,0,0,0,0
@@ -1429,7 +1429,7 @@ Kanashiki Debu Neko-chan,https://jkanime.net/kanashiki-debu-neko-chan/,expired-o
 Kimetsu no Yaiba: Yuukaku-hen,https://jkanime.net/kimetsu-no-yaiba-yuukaku-hen/,expired-observation | renewal-error,11,11,0,11,11,0
 Da Wang Rao Ming,https://jkanime.net/da-wang-rao-ming/,expired-observation | renewal-error,12,12,0,12,12,0
 Hula Fulla Dance,https://jkanime.net/hula-fulla-dance/,renewal-error,1,0,0,0,1,1
-JoJo no Kimyou na Bouken Part 6: Stone Ocean,https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/,expired-observation | renewal-error,38,19,0,11,9,19
+JoJo no Kimyou na Bouken Part 6: Stone Ocean,https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/,expired-observation | renewal-error,38,19,0,12,9,19
 Given: Uragawa no Sonzai,https://jkanime.net/given-uragawa-no-sonzai/,renewal-error,1,1,0,0,1,0
 Jian Yu Feng Yun,https://jkanime.net/jian-yu-feng-yun/,expired-observation | renewal-error,40,40,0,40,40,0
 Summer Ghost,https://jkanime.net/summer-ghost/,expired-observation | renewal-error,1,1,0,1,1,0
@@ -1469,7 +1469,7 @@ Takt Op. Destiny,https://jkanime.net/takt-op-destiny/,expired-observation | rene
 Puraore! Pride of Orange,https://jkanime.net/puraore-pride-of-orange/,expired-observation | renewal-error,12,12,0,11,11,0
 Cardfight!! Vanguard: overDress Season 2,https://jkanime.net/cardfight-vanguard-overdress-season-2/,expired-observation | renewal-error,12,12,0,12,12,0
 Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei,https://jkanime.net/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei/,expired-observation | renewal-error,12,12,0,12,12,0
-Kyoukai Senki,https://jkanime.net/kyoukai-senki/,expired-observation | renewal-error,25,24,0,11,12,1
+Kyoukai Senki,https://jkanime.net/kyoukai-senki/,expired-observation | renewal-error,25,24,0,12,12,1
 Tsuki to Laika to Nosferatu,https://jkanime.net/tsuki-to-laika-to-nosferatu/,expired-observation | renewal-error,12,12,0,12,12,0
 Mushoku Tensei: Isekai Ittara Honki Dasu 2nd Season,https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Kyuuketsuki Sugu Shinu,https://jkanime.net/kyuuketsuki-sugu-shinu/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -2421,7 +2421,7 @@ Made in Abyss,https://jkanime.net/made-in-abyss/,expired-observation | renewal-e
 Vatican Kiseki Chousakan,https://jkanime.net/vatican-kiseki-chousakan/,expired-observation | renewal-error,12,12,0,12,12,0
 Jikan no Shihaisha,https://jkanime.net/jikan-no-shihaisha/,expired-observation | renewal-error,13,13,0,13,13,0
 Shoukoku no Altair,https://jkanime.net/shoukoku-no-altair/,expired-observation | renewal-error,24,24,0,24,24,0
-18if,https://jkanime.net/18if/,,13,13,0,0,0,0
+18if,https://jkanime.net/18if/,expired-observation,13,13,0,1,0,0
 Konbini Kareshi,https://jkanime.net/konbini-kareshi/,expired-observation | renewal-error,12,12,0,2,2,0
 Dive!!,https://jkanime.net/dive/,expired-observation | renewal-error,12,12,0,12,12,0
 Saiyuuki Reload Blast,https://jkanime.net/saiyuuki-reload-blast/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -4155,7 +4155,7 @@ Suzumiya Haruhi no Yuuutsu (2009),https://jkanime.net/suzumiya-haruhi-no-yuuutsu
 Dogs: Bullets & Carnage,https://jkanime.net/dogs-bullets-carnage/,expired-observation | renewal-error,4,4,0,4,4,0
 Hatsukoi Limited,https://jkanime.net/hatsukoi-limited/,expired-observation | renewal-error,12,12,0,12,12,0
 Higashi no Eden,https://jkanime.net/higashi-no-eden/,expired-observation | renewal-error,11,11,0,11,11,0
-07-Ghost,https://jkanime.net/07-ghost/,,25,25,0,0,0,0
+07-Ghost,https://jkanime.net/07-ghost/,expired-observation,25,25,0,1,0,0
 Cross Game,https://jkanime.net/cross-game/,expired-observation | renewal-error,50,50,0,50,50,0
 Natsu no Arashi!,https://jkanime.net/natsu-no-arashi/,expired-observation | renewal-error,13,13,0,13,13,0
 Shangri-La,https://jkanime.net/shangri-la/,expired-observation | renewal-error,24,24,0,6,6,0
@@ -4856,7 +4856,7 @@ Magic Knight Rayearth,https://jkanime.net/magic-knight-rayearth/,expired-observa
 Darkside Blues,https://jkanime.net/darkside-blues/,renewal-error,1,1,0,0,1,0
 DNA²,https://jkanime.net/dna2/,expired-observation | renewal-error,12,12,0,12,12,0
 Gatchaman,https://jkanime.net/gatchaman/,expired-observation | renewal-error,3,3,0,3,3,0
-Taiho Shichau zo,https://jkanime.net/taiho-shichau-zo/,observed-chapters-without-options | expired-observation | renewal-error,51,50,1,5,4,0
+Taiho Shichau zo,https://jkanime.net/taiho-shichau-zo/,observed-chapters-without-options | expired-observation | renewal-error,51,50,1,7,4,0
 Go! Go! Ackman,https://jkanime.net/go-go-ackman/,expired-observation | renewal-error,1,1,0,1,1,0
 Dragon Ball Z Movie 11: Bio-Broly,https://jkanime.net/dragon-ball-z-movie-11-bio-broly/,renewal-error,1,1,0,0,1,0
 Heisei Tanuki Gassen Ponpoko,https://jkanime.net/heisei-tanuki-gassen-ponpoko/,,1,1,0,0,0,0
@@ -4882,15 +4882,15 @@ Mobile Suit Gundam 0083: The Fading Light of Zeon,https://jkanime.net/mobile-sui
 Kurenai no Buta,https://jkanime.net/kurenai-no-buta/,,1,0,0,0,0,1
 Dragon Ball Z Movie 07: Super Android 13,https://jkanime.net/dragon-ball-z-movie-07-super-android-13/,renewal-error,1,1,0,0,1,0
 Dragon Ball Z Movie 06: Return of Cooler,https://jkanime.net/dragon-ball-z-movie-06-return-of-cooler/,expired-observation | renewal-error,1,1,0,1,1,0
-Sailor Moon,https://jkanime.net/sailor-moon/,expired-observation | renewal-error,200,200,0,182,182,0
+Sailor Moon,https://jkanime.net/sailor-moon/,expired-observation | renewal-error,200,200,0,200,182,0
 Tekkaman Blade,https://jkanime.net/tekkaman-blade/,expired-observation,49,49,0,49,0,0
 Dragon Ball Z: Atsumare! Gokuu World,https://jkanime.net/dragon-ball-z-atsumare-gokuu-world/,expired-observation | renewal-error,1,1,0,1,1,0
 Dragon Quest: Dai no Daibouken (TV),https://jkanime.net/dragon-quest-dai-no-daibouken-tv/,expired-observation | renewal-error,46,46,0,46,46,0
 Arslan Senki: The Heroic Legend of Arslan,https://jkanime.net/the-heroic-legend-of-arslan/,expired-observation | renewal-error,4,4,0,4,4,0
 Omoide Poroporo,https://jkanime.net/omoide-poroporo/,renewal-error,1,1,0,0,1,0
 Dragon Ball Z Movie 05: Cooler's Revenge,https://jkanime.net/dragon-ball-z-movie-05-coolers-revenge/,observed-chapters-without-options | renewal-error,1,0,1,0,1,0
-Bubblegum Crash,https://jkanime.net/bubblegum-crash/,expired-observation | renewal-error,3,3,0,2,2,0
-Mobile Suit Gundam 0083: Stardust Memory,https://jkanime.net/mobile-suit-gundam-0083-stardust-memory/,,13,13,0,0,0,0
+Bubblegum Crash,https://jkanime.net/bubblegum-crash/,expired-observation | renewal-error,3,3,0,3,2,0
+Mobile Suit Gundam 0083: Stardust Memory,https://jkanime.net/mobile-suit-gundam-0083-stardust-memory/,expired-observation,13,13,0,13,0,0
 Burn Up!,https://jkanime.net/burn-up/,,1,0,0,0,0,1
 Dragon Ball Z Movie 04: Lord Slug,https://jkanime.net/dragon-ball-z-movie-04-lord-slug/,expired-observation | renewal-error,1,1,0,1,1,0
 Dragon Ball Z Special 1: Tatta Hitori no Saishuu Kessen,https://jkanime.net/dragon-ball-z-special-1-tatta-hitori-no-saishuu-kessen/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
