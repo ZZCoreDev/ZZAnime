@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T08:37:02.972271+00:00",
+  "checkedAt": "2026-11-06T08:59:58.759929+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57515,
+  "expiredChapters": 57520,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -33809,6 +33809,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/koori-no-jouheki/",
+        "title": "Koori no Jouheki",
+        "samples": [
+          "https://jkanime.net/koori-no-jouheki/19/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-1-gakki/",
         "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4th Season: 2-nensei-hen 1 Gakki",
         "samples": [
@@ -61995,6 +62002,20 @@
         ]
       },
       {
+        "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
+        "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
+        "samples": [
+          "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
+        "title": "Tetsuryou! Meet with Tetsudou Musume",
+        "samples": [
+          "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-dai/",
         "title": "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru. Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
         "samples": [
@@ -62151,6 +62172,13 @@
         "samples": [
           "https://jkanime.net/wangu-zhizun-li-yunxiao-zhuan/1/",
           "https://jkanime.net/wangu-zhizun-li-yunxiao-zhuan/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
+        "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
+        "samples": [
+          "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
         ]
       },
       {
@@ -66593,12 +66621,15 @@
       "series": "https://jkanime.net/koori-no-jouheki/",
       "title": "Koori no Jouheki",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 20,
       "stored": 20,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/koori-no-jouheki/19/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -196098,6 +196129,7 @@
         "https://jkanime.net/fresh-precure/30/",
         "https://jkanime.net/fresh-precure/32/",
         "https://jkanime.net/fresh-precure/4/",
+        "https://jkanime.net/fresh-precure/42/",
         "https://jkanime.net/fresh-precure/44/",
         "https://jkanime.net/fresh-precure/45/",
         "https://jkanime.net/fresh-precure/46/",
@@ -230661,12 +230693,15 @@
       "series": "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/",
       "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -230702,12 +230737,15 @@
       "series": "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/",
       "title": "Tetsuryou! Meet with Tetsudou Musume",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 5,
       "stored": 5,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -232118,12 +232156,15 @@
       "series": "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/",
       "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 19,
       "stored": 19,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/18/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
