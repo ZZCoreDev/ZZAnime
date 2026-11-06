@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T02:10:16.522971+00:00",
+  "checkedAt": "2026-11-06T02:26:05.098893+00:00",
   "episodes": 73057,
-  "oldestHours": 253.6,
-  "pending": 71480,
-  "expired": 57484,
-  "expiresWithin24Hours": 61614,
-  "retryAfterExpiry": 1590,
-  "successfulCyclesMeasured": 60,
-  "sampleMinutes": 1174.37,
-  "measuredWallClockPerHour": 300.31,
-  "estimatedSweepDays": 10.14,
+  "oldestHours": 253.87,
+  "pending": 71474,
+  "expired": 57487,
+  "expiresWithin24Hours": 61885,
+  "retryAfterExpiry": 1593,
+  "successfulCyclesMeasured": 61,
+  "sampleMinutes": 1190.18,
+  "measuredWallClockPerHour": 301.37,
+  "estimatedSweepDays": 10.1,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 13,
+      "pendingFailures": 15,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4098,
+    "series": 4091,
     "diagnosedSeries": 4045,
-    "pendingSeries": 53
+    "pendingSeries": 46
   },
   "coverage": {
-    "checkedAt": "2026-11-06T02:10:16.522971+00:00",
+    "checkedAt": "2026-11-06T02:26:05.098893+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
     "missingChapters": 511,
-    "expiredChapters": 57484,
+    "expiredChapters": 57487,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,

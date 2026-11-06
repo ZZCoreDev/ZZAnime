@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T02:10:16.522971+00:00",
+  "checkedAt": "2026-11-06T02:26:05.098893+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57484,
+  "expiredChapters": 57487,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -29,14 +29,6 @@
         "samples": [
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/10/",
           "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/11/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/6/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/8/"
         ]
       },
       {
@@ -355,13 +347,6 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/yomi-no-tsugai/",
-        "title": "Yomi no Tsugai",
-        "samples": [
-          "https://jkanime.net/yomi-no-tsugai/12/"
         ]
       },
       {
@@ -1504,13 +1489,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/classic-stars/",
-        "title": "Classic★Stars",
-        "samples": [
-          "https://jkanime.net/classic-stars/1/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/himitsu-no-aipri-ring-hen/",
         "title": "Himitsu no AiPri: Ring-hen",
         "samples": [
@@ -1637,13 +1615,6 @@
         "samples": [
           "https://jkanime.net/wo-de-shixiong-tai-qiang-le/1/",
           "https://jkanime.net/wo-de-shixiong-tai-qiang-le/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kijin-gentoushou/",
-        "title": "Kijin Gentoushou",
-        "samples": [
-          "https://jkanime.net/kijin-gentoushou/3/"
         ]
       },
       {
@@ -11066,14 +11037,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/nekopara/",
-        "title": "Nekopara",
-        "samples": [
-          "https://jkanime.net/nekopara/1/",
-          "https://jkanime.net/nekopara/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/show-by-rock-mashumairesh/",
         "title": "Show By Rock!! Mashumairesh!!",
         "samples": [
@@ -12980,14 +12943,6 @@
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zoku-owarimonogatari/",
-        "title": "Zoku Owarimonogatari",
-        "samples": [
-          "https://jkanime.net/zoku-owarimonogatari/1/",
-          "https://jkanime.net/zoku-owarimonogatari/2/"
         ]
       },
       {
@@ -15557,14 +15512,6 @@
         "samples": [
           "https://jkanime.net/bang-dream/1/",
           "https://jkanime.net/bang-dream/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-        "title": "Granblue Fantasy The Animation",
-        "samples": [
-          "https://jkanime.net/granblue-fantasy-the-animation/1/",
-          "https://jkanime.net/granblue-fantasy-the-animation/10/"
         ]
       },
       {
@@ -22283,7 +22230,7 @@
         "title": "Kitakubu Katsudou Kiroku",
         "samples": [
           "https://jkanime.net/kitakubu-katsudou-kiroku/1/",
-          "https://jkanime.net/kitakubu-katsudou-kiroku/2/"
+          "https://jkanime.net/kitakubu-katsudou-kiroku/10/"
         ]
       },
       {
@@ -22481,8 +22428,8 @@
         "series": "https://jkanime.net/kakumeiki-valvrave/",
         "title": "Kakumeiki Valvrave",
         "samples": [
-          "https://jkanime.net/kakumeiki-valvrave/10/",
-          "https://jkanime.net/kakumeiki-valvrave/11/"
+          "https://jkanime.net/kakumeiki-valvrave/1/",
+          "https://jkanime.net/kakumeiki-valvrave/10/"
         ]
       },
       {
@@ -53594,7 +53541,7 @@
         "title": "Kitakubu Katsudou Kiroku",
         "samples": [
           "https://jkanime.net/kitakubu-katsudou-kiroku/1/",
-          "https://jkanime.net/kitakubu-katsudou-kiroku/2/"
+          "https://jkanime.net/kitakubu-katsudou-kiroku/10/"
         ]
       },
       {
@@ -53736,8 +53683,8 @@
         "series": "https://jkanime.net/kakumeiki-valvrave/",
         "title": "Kakumeiki Valvrave",
         "samples": [
-          "https://jkanime.net/kakumeiki-valvrave/10/",
-          "https://jkanime.net/kakumeiki-valvrave/11/"
+          "https://jkanime.net/kakumeiki-valvrave/1/",
+          "https://jkanime.net/kakumeiki-valvrave/10/"
         ]
       },
       {
@@ -63558,8 +63505,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -63570,7 +63516,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -64125,7 +64071,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -66321,8 +66267,7 @@
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -66331,7 +66276,7 @@
         "https://jkanime.net/yomi-no-tsugai/12/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "streamwish": 23,
@@ -72614,7 +72559,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -74145,8 +74090,7 @@
       "series": "https://jkanime.net/classic-stars/",
       "title": "Classic★Stars",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -74155,7 +74099,7 @@
         "https://jkanime.net/classic-stars/1/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 1,
@@ -74940,8 +74884,7 @@
       "series": "https://jkanime.net/kijin-gentoushou/",
       "title": "Kijin Gentoushou",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -74950,7 +74893,7 @@
         "https://jkanime.net/kijin-gentoushou/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "vidhide": 16,
@@ -75789,7 +75732,7 @@
         "https://jkanime.net/farmagia/4/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -78878,7 +78821,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 6,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -83216,7 +83159,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 15,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -114446,7 +114389,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120110,8 +120053,7 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -120130,7 +120072,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -129259,8 +129201,7 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 6,
       "stored": 6,
@@ -129274,7 +129215,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -142503,8 +142444,7 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -142525,7 +142465,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -174763,6 +174703,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/kitakubu-katsudou-kiroku/1/",
+        "https://jkanime.net/kitakubu-katsudou-kiroku/10/",
         "https://jkanime.net/kitakubu-katsudou-kiroku/2/",
         "https://jkanime.net/kitakubu-katsudou-kiroku/3/",
         "https://jkanime.net/kitakubu-katsudou-kiroku/4/",
@@ -175653,6 +175594,7 @@
       "stored": 12,
       "missing": [],
       "expired": [
+        "https://jkanime.net/kakumeiki-valvrave/1/",
         "https://jkanime.net/kakumeiki-valvrave/10/",
         "https://jkanime.net/kakumeiki-valvrave/11/",
         "https://jkanime.net/kakumeiki-valvrave/12/",
@@ -175795,6 +175737,7 @@
         "https://jkanime.net/arata-kangatari/10/",
         "https://jkanime.net/arata-kangatari/11/",
         "https://jkanime.net/arata-kangatari/12/",
+        "https://jkanime.net/arata-kangatari/2/",
         "https://jkanime.net/arata-kangatari/3/",
         "https://jkanime.net/arata-kangatari/5/",
         "https://jkanime.net/arata-kangatari/6/",
