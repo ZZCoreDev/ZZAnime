@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-06T03:53:03.318249+00:00",
+  "checkedAt": "2026-11-06T04:15:19.401188+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
   "missingChapters": 511,
-  "expiredChapters": 57492,
+  "expiredChapters": 57510,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -23898,8 +23898,8 @@
         "series": "https://jkanime.net/uchuu-kyoudai/",
         "title": "Uchuu Kyoudai",
         "samples": [
-          "https://jkanime.net/uchuu-kyoudai/50/",
-          "https://jkanime.net/uchuu-kyoudai/51/"
+          "https://jkanime.net/uchuu-kyoudai/1/",
+          "https://jkanime.net/uchuu-kyoudai/10/"
         ]
       },
       {
@@ -54963,8 +54963,8 @@
         "series": "https://jkanime.net/uchuu-kyoudai/",
         "title": "Uchuu Kyoudai",
         "samples": [
-          "https://jkanime.net/uchuu-kyoudai/50/",
-          "https://jkanime.net/uchuu-kyoudai/51/"
+          "https://jkanime.net/uchuu-kyoudai/1/",
+          "https://jkanime.net/uchuu-kyoudai/10/"
         ]
       },
       {
@@ -182757,6 +182757,7 @@
         "https://jkanime.net/shirokuma-cafe/43/",
         "https://jkanime.net/shirokuma-cafe/45/",
         "https://jkanime.net/shirokuma-cafe/5/",
+        "https://jkanime.net/shirokuma-cafe/50/",
         "https://jkanime.net/shirokuma-cafe/6/",
         "https://jkanime.net/shirokuma-cafe/7/",
         "https://jkanime.net/shirokuma-cafe/8/",
@@ -183034,6 +183035,7 @@
         "https://jkanime.net/saint-seiya-omega/2/",
         "https://jkanime.net/saint-seiya-omega/20/",
         "https://jkanime.net/saint-seiya-omega/21/",
+        "https://jkanime.net/saint-seiya-omega/22/",
         "https://jkanime.net/saint-seiya-omega/24/",
         "https://jkanime.net/saint-seiya-omega/25/",
         "https://jkanime.net/saint-seiya-omega/26/",
@@ -183108,6 +183110,7 @@
         "https://jkanime.net/saint-seiya-omega/91/",
         "https://jkanime.net/saint-seiya-omega/92/",
         "https://jkanime.net/saint-seiya-omega/93/",
+        "https://jkanime.net/saint-seiya-omega/94/",
         "https://jkanime.net/saint-seiya-omega/95/",
         "https://jkanime.net/saint-seiya-omega/96/",
         "https://jkanime.net/saint-seiya-omega/97/"
@@ -183135,6 +183138,19 @@
       "stored": 99,
       "missing": [],
       "expired": [
+        "https://jkanime.net/uchuu-kyoudai/1/",
+        "https://jkanime.net/uchuu-kyoudai/10/",
+        "https://jkanime.net/uchuu-kyoudai/11/",
+        "https://jkanime.net/uchuu-kyoudai/13/",
+        "https://jkanime.net/uchuu-kyoudai/14/",
+        "https://jkanime.net/uchuu-kyoudai/16/",
+        "https://jkanime.net/uchuu-kyoudai/17/",
+        "https://jkanime.net/uchuu-kyoudai/22/",
+        "https://jkanime.net/uchuu-kyoudai/23/",
+        "https://jkanime.net/uchuu-kyoudai/25/",
+        "https://jkanime.net/uchuu-kyoudai/26/",
+        "https://jkanime.net/uchuu-kyoudai/31/",
+        "https://jkanime.net/uchuu-kyoudai/32/",
         "https://jkanime.net/uchuu-kyoudai/50/",
         "https://jkanime.net/uchuu-kyoudai/51/",
         "https://jkanime.net/uchuu-kyoudai/52/",
@@ -183145,11 +183161,13 @@
         "https://jkanime.net/uchuu-kyoudai/57/",
         "https://jkanime.net/uchuu-kyoudai/58/",
         "https://jkanime.net/uchuu-kyoudai/59/",
+        "https://jkanime.net/uchuu-kyoudai/6/",
         "https://jkanime.net/uchuu-kyoudai/60/",
         "https://jkanime.net/uchuu-kyoudai/61/",
         "https://jkanime.net/uchuu-kyoudai/64/",
         "https://jkanime.net/uchuu-kyoudai/68/",
         "https://jkanime.net/uchuu-kyoudai/69/",
+        "https://jkanime.net/uchuu-kyoudai/7/",
         "https://jkanime.net/uchuu-kyoudai/72/",
         "https://jkanime.net/uchuu-kyoudai/74/",
         "https://jkanime.net/uchuu-kyoudai/8/",
