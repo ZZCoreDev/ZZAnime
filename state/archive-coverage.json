@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T00:51:11.451054+00:00",
+  "checkedAt": "2026-11-06T01:06:48.389506+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73874,
   "storedChapters": 73057,
@@ -8122,6 +8122,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -12420,14 +12428,6 @@
         "title": "Psycho-Pass: Sinners of the System Case.3 - Onshuu no Kanata ni",
         "samples": [
           "https://jkanime.net/psycho-pass-sinners-of-the-system-case3-onshuu-no-kanata-ni/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
-        "title": "Otona no Bouguya-san (Rimen)",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-rimen/1/",
-          "https://jkanime.net/otona-no-bouguya-san-rimen/2/"
         ]
       },
       {
@@ -78811,7 +78811,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -106714,7 +106714,8 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
@@ -106729,7 +106730,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -106911,7 +106912,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -114377,7 +114378,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -126687,8 +126688,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
       "title": "Otona no Bouguya-san (Rimen)",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 3,
       "stored": 3,
@@ -126699,7 +126699,7 @@
         "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 3,
@@ -142457,7 +142457,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 13,

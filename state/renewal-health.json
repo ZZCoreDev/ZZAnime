@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-06T00:51:11.451054+00:00",
+  "checkedAt": "2026-11-06T01:06:48.389506+00:00",
   "episodes": 73057,
-  "oldestHours": 252.29,
-  "pending": 71548,
+  "oldestHours": 252.55,
+  "pending": 71512,
   "expired": 57483,
-  "expiresWithin24Hours": 60946,
-  "retryAfterExpiry": 1531,
+  "expiresWithin24Hours": 60969,
+  "retryAfterExpiry": 1540,
   "successfulCyclesMeasured": 61,
-  "sampleMinutes": 1435.92,
-  "measuredWallClockPerHour": 249.87,
-  "estimatedSweepDays": 12.18,
+  "sampleMinutes": 1438.17,
+  "measuredWallClockPerHour": 249.48,
+  "estimatedSweepDays": 12.2,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -773,7 +773,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -881,7 +881,7 @@
     "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-06T00:51:11.451054+00:00",
+    "checkedAt": "2026-11-06T01:06:48.389506+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
