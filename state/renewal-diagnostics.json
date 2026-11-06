@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-06T09:46:05.595466+00:00",
-  "failedChapters": 56580,
-  "series": 4096,
+  "checkedAt": "2026-11-06T10:02:44.925226+00:00",
+  "failedChapters": 56581,
+  "series": 4097,
   "diagnosedSeries": 4045,
-  "pendingSeries": 51,
+  "pendingSeries": 52,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4045,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35741,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 318,
+    "ValueError: No approved observations; previous channel retained": 319,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -99272,8 +99272,8 @@
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "failedChapters": 6,
       "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/6/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/7/"
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/",
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/4/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -101804,7 +101804,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793951521.642346
+      "nextRetryAt": 1793954080.1519718
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -101917,7 +101917,7 @@
       "failedChapters": 5,
       "samples": [
         "https://jkanime.net/granblue-fantasy-the-animation/10/",
-        "https://jkanime.net/granblue-fantasy-the-animation/13/"
+        "https://jkanime.net/granblue-fantasy-the-animation/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -105670,8 +105670,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "failedChapters": 4,
       "samples": [
-        "https://jkanime.net/otona-no-bouguya-san-ii/10/",
-        "https://jkanime.net/otona-no-bouguya-san-ii/11/"
+        "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+        "https://jkanime.net/otona-no-bouguya-san-ii/10/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -115101,6 +115101,19 @@
       "nextRetryAt": 1793455665.9670677
     },
     {
+      "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/4/",
+        "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/7/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793960040.6531138
+    },
+    {
       "series": "https://jkanime.net/shin-chuuka-ichiban/",
       "failedChapters": 2,
       "samples": [
@@ -116377,27 +116390,14 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/3/",
-        "https://jkanime.net/zoku-owarimonogatari/1/"
+        "https://jkanime.net/zoku-owarimonogatari/1/",
+        "https://jkanime.net/zoku-owarimonogatari/3/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793959208.3114758
-    },
-    {
-      "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/4/",
-        "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/7/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793960040.6531138
     },
     {
       "series": "https://jkanime.net/100-nichikan-ikita-wani/",
@@ -117351,6 +117351,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793292399.9455566
+    },
+    {
+      "series": "https://jkanime.net/aooni-the-blue-monster/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/aooni-the-blue-monster/5/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793959826.018124
     },
     {
       "series": "https://jkanime.net/aragne-no-mushikago/",
@@ -123357,6 +123369,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1794163637.4319453
+    },
+    {
+      "series": "https://jkanime.net/gate/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/gate/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793960029.9113321
     },
     {
       "series": "https://jkanime.net/genshiken-nidaime-ova/",
@@ -134275,6 +134299,18 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793959629.403127
+    },
+    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139012,40 +139048,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
+      "series": "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
+        "https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/5/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793959629.403127
-    },
-    {
-      "series": "https://jkanime.net/aooni-the-blue-monster/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/aooni-the-blue-monster/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793959826.018124
-    },
-    {
-      "series": "https://jkanime.net/gate/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/gate/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793960029.9113321
+      "nextRetryAt": 1793961073.8735447
     }
   ]
 }

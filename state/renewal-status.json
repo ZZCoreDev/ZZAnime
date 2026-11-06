@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-06T09:33:05.086402+00:00",
+  "checkedAt": "2026-11-06T09:50:23.221176+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 288,
-  "repairAttempts": 47,
+  "attempted": 108,
+  "repairAttempts": 2,
   "earlyRepairAttempts": 0,
-  "failed": 56580,
+  "failed": 56581,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42195830768",
+  "runId": "42197548324",
   "proof": false,
   "identityRetriesReleased": 0,
   "expired": 57526,
-  "extraRenewed": 170,
+  "extraRenewed": 7,
   "published": true,
-  "expiresWithin24Hours": 68889,
-  "retryAfterExpiry": 1624,
+  "expiresWithin24Hours": 69133,
+  "retryAfterExpiry": 1625,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -823,7 +823,7 @@
       "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen/": {
@@ -884,12 +884,12 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4097,
     "diagnosedSeries": 4045,
-    "pendingSeries": 51
+    "pendingSeries": 52
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-06T09:46:05.595466+00:00",
+    "checkedAt": "2026-11-06T10:02:44.925226+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73874,
     "storedChapters": 73057,
