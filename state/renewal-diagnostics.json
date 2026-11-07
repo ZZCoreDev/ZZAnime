@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-07T13:15:14.983526+00:00",
+  "checkedAt": "2026-11-07T13:32:40.121425+00:00",
   "failedChapters": 56586,
   "series": 4098,
   "diagnosedSeries": 4046,
@@ -105487,8 +105487,8 @@
       "series": "https://jkanime.net/nekopara/",
       "failedChapters": 4,
       "samples": [
-        "https://jkanime.net/nekopara/12/",
-        "https://jkanime.net/nekopara/8/"
+        "https://jkanime.net/nekopara/1/",
+        "https://jkanime.net/nekopara/12/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -111589,7 +111589,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794055957.1953785
+      "nextRetryAt": 1794057999.9512522
     },
     {
       "series": "https://jkanime.net/another-world/",
@@ -112764,8 +112764,8 @@
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/",
-        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/1/"
+        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/1/",
+        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -134346,6 +134346,18 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794058675.3568943
+    },
+    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139081,18 +139093,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794058675.3568943
     }
   ]
 }
