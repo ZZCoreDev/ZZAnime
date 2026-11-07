@@ -1,0 +1,166 @@
+{
+ "schema": 1,
+ "checkedAt": "2026-11-07T12:20:02.926Z",
+ "aiCalls": 0,
+ "maxEmbedsPerDay": 12,
+ "families": {
+  "streamwish": {
+   "day": "2026-11-07",
+   "state": "ok",
+   "failingDays": 0,
+   "lastOkAt": "2026-11-07T12:20:02.926Z",
+   "results": [
+    {
+     "episode": "https://jkanime.net/saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka/13/",
+     "observedAt": "2026-11-07T11:30:18.400Z",
+     "name": "streamwish",
+     "url": "https://streamwish.to/e/ud2vyedssp48",
+     "embed": "https://hanerix.com/e/ud2vyedssp48",
+     "status": 200,
+     "advanced": 5.5,
+     "state": "played"
+    }
+   ]
+  },
+  "vidhide": {
+   "day": "2026-11-07",
+   "state": "ok",
+   "failingDays": 0,
+   "lastOkAt": "2026-11-07T12:20:02.926Z",
+   "results": [
+    {
+     "episode": "https://jkanime.net/sakamoto-days/12/",
+     "observedAt": "2026-11-07T11:30:42.721Z",
+     "name": "vidhide",
+     "url": "https://filelions.top/v/wwr6ueocu6o5",
+     "embed": "https://filelions.top/v/wwr6ueocu6o5",
+     "status": 200,
+     "advanced": 0,
+     "state": "not-advancing"
+    },
+    {
+     "episode": "https://jkanime.net/puniru-wa-kawaii-slime/13/",
+     "observedAt": "2026-11-07T11:30:06.963Z",
+     "name": "vidhide",
+     "url": "https://filelions.top/v/put5jkv1e70a",
+     "embed": "https://filelions.top/v/put5jkv1e70a",
+     "status": 200,
+     "advanced": 0,
+     "state": "not-advancing"
+    },
+    {
+     "episode": "https://jkanime.net/dr-stone-science-future/31/",
+     "observedAt": "2026-11-07T11:25:38.380Z",
+     "name": "vidhide",
+     "url": "https://filelions.top/v/odrl8ybdzvq3",
+     "embed": "https://filelions.top/v/odrl8ybdzvq3",
+     "status": 200,
+     "advanced": 5.5,
+     "state": "played"
+    }
+   ]
+  },
+  "mp4upload": {
+   "day": "2026-11-07",
+   "state": "ok",
+   "failingDays": 0,
+   "lastOkAt": "2026-11-07T12:20:02.926Z",
+   "results": [
+    {
+     "episode": "https://jkanime.net/sakamoto-days/12/",
+     "observedAt": "2026-11-07T11:30:42.721Z",
+     "name": "mp4upload",
+     "url": "https://mp4upload.com/embed-s4i4lwpd3j34.html",
+     "embed": "https://mp4upload.com/embed-s4i4lwpd3j34.html",
+     "status": 301,
+     "advanced": 5.5,
+     "state": "played"
+    }
+   ]
+  },
+  "yourupload": {
+   "day": "2026-11-07",
+   "state": "ok",
+   "failingDays": 0,
+   "lastOkAt": "2026-11-07T12:20:02.926Z",
+   "results": [
+    {
+     "episode": "https://jkanime.net/gegege-no-kitarou-2018/62/",
+     "observedAt": "2026-11-07T11:30:58.400Z",
+     "name": "YourUpload",
+     "url": "https://www.yourupload.com/embed/d1TF43RvUJ5o",
+     "embed": "https://www.yourupload.com/embed/d1TF43RvUJ5o",
+     "status": 200,
+     "advanced": 8.9,
+     "state": "played"
+    }
+   ]
+  },
+  "mega": {
+   "day": "2026-11-07",
+   "state": "ok",
+   "failingDays": 0,
+   "lastOkAt": "2026-11-07T12:20:02.926Z",
+   "results": [
+    {
+     "episode": "https://jkanime.net/gegege-no-kitarou-2018/62/",
+     "observedAt": "2026-11-07T11:30:58.400Z",
+     "name": "MEGA",
+     "url": "https://mega.nz/embed/q2BxnKia#1cjeDXg4olsZhWVFNRrzrkGXprjgZ3beMsHx-UH5BbU",
+     "embed": "https://mega.nz/embed/q2BxnKia#1cjeDXg4olsZhWVFNRrzrkGXprjgZ3beMsHx-UH5BbU",
+     "status": 200,
+     "advanced": 4.2,
+     "state": "played"
+    }
+   ]
+  },
+  "voe": {
+   "day": "2026-11-07",
+   "state": "unknown",
+   "failingDays": 0,
+   "lastOkAt": "2026-11-05T13:32:14.153Z",
+   "results": [
+    {
+     "episode": "https://jkanime.net/scarlet-nexus/11/",
+     "observedAt": "2026-11-07T11:26:16.348Z",
+     "name": "Voe",
+     "url": "https://voe.sx/e/ftawkzjnpqpy",
+     "embed": "https://voe.sx/e/ftawkzjnpqpy",
+     "status": 200,
+     "advanced": 0,
+     "state": "not-advancing"
+    },
+    {
+     "episode": "https://jkanime.net/sonny-boy/2/",
+     "observedAt": "2026-11-07T11:26:13.707Z",
+     "name": "Voe",
+     "url": "https://voe.sx/e/nrs4pkzqa76q",
+     "embed": "https://voe.sx/e/nrs4pkzqa76q",
+     "status": 200,
+     "advanced": 0,
+     "state": "not-advancing"
+    },
+    {
+     "episode": "https://jkanime.net/phantasy-star-online-2-episode-oracle/9/",
+     "observedAt": "2026-11-07T11:26:12.212Z",
+     "name": "Voe",
+     "url": "https://voe.sx/e/hwufaehg0oog",
+     "embed": "https://voe.sx/e/hwufaehg0oog",
+     "status": 404,
+     "advanced": 0,
+     "state": "gone"
+    },
+    {
+     "episode": "https://jkanime.net/ore-wo-suki-nano-wa-omae-dake-ka-yo-oretachi-no-game-set/1/",
+     "observedAt": "2026-11-07T11:26:10.575Z",
+     "name": "Voe",
+     "url": "https://voe.sx/e/hto93urc6xaw",
+     "embed": "https://voe.sx/e/hto93urc6xaw",
+     "status": 200,
+     "advanced": 0,
+     "state": "not-advancing"
+    }
+   ]
+  }
+ }
+}
