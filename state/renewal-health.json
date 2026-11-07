@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T10:06:41.373878+00:00",
+  "checkedAt": "2026-11-07T10:24:27.350135+00:00",
   "episodes": 73067,
-  "oldestHours": 285.55,
+  "oldestHours": 285.84,
   "pending": 72869,
-  "expired": 69207,
+  "expired": 69481,
   "expiresWithin24Hours": 72335,
-  "retryAfterExpiry": 1633,
-  "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1439.8,
-  "measuredWallClockPerHour": 309.04,
-  "estimatedSweepDays": 9.85,
+  "retryAfterExpiry": 1626,
+  "successfulCyclesMeasured": 81,
+  "sampleMinutes": 1423.46,
+  "measuredWallClockPerHour": 308.38,
+  "estimatedSweepDays": 9.87,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,12 +881,12 @@
     "pendingSeries": 51
   },
   "coverage": {
-    "checkedAt": "2026-11-07T10:06:41.373878+00:00",
+    "checkedAt": "2026-11-07T10:24:27.350135+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 69207,
+    "expiredChapters": 69481,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,

@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-07T09:53:39.525265+00:00",
+  "checkedAt": "2026-11-07T10:11:27.241349+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 174,
-  "repairAttempts": 18,
+  "attempted": 160,
+  "repairAttempts": 15,
   "earlyRepairAttempts": 0,
-  "failed": 56591,
+  "failed": 56584,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42361320487",
+  "runId": "42362561860",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 69207,
-  "extraRenewed": 71,
+  "expired": 69481,
+  "extraRenewed": 59,
   "published": true,
   "expiresWithin24Hours": 72335,
-  "retryAfterExpiry": 1633,
+  "retryAfterExpiry": 1626,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -480,7 +480,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 10,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -494,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -543,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -592,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -655,7 +655,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -683,7 +683,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -746,7 +746,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -889,12 +889,12 @@
     "pendingSeries": 51
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-07T10:06:41.373878+00:00",
+    "checkedAt": "2026-11-07T10:24:27.350135+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 69207,
+    "expiredChapters": 69481,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
