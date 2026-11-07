@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T16:57:08.187774+00:00",
+  "checkedAt": "2026-11-07T17:13:06.745759+00:00",
   "episodes": 73073,
-  "oldestHours": 292.39,
-  "pending": 72836,
-  "expired": 71597,
+  "oldestHours": 292.65,
+  "pending": 72813,
+  "expired": 71614,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1573,
+  "retryAfterExpiry": 1577,
   "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1426.35,
-  "measuredWallClockPerHour": 323.69,
-  "estimatedSweepDays": 9.41,
+  "sampleMinutes": 1425.76,
+  "measuredWallClockPerHour": 323.83,
+  "estimatedSweepDays": 9.4,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 12,
+      "pendingFailures": 11,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4089,
+    "series": 4091,
     "diagnosedSeries": 4046,
-    "pendingSeries": 43
+    "pendingSeries": 45
   },
   "coverage": {
-    "checkedAt": "2026-11-07T16:57:08.187774+00:00",
+    "checkedAt": "2026-11-07T17:13:06.745759+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73890,
     "storedChapters": 73073,
     "missingChapters": 510,
-    "expiredChapters": 71597,
+    "expiredChapters": 71614,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 307,
