@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T00:49:01.233405+00:00",
+  "checkedAt": "2026-11-07T01:06:21.482799+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 60933,
+  "expiredChapters": 60957,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -4936,6 +4936,13 @@
         "samples": [
           "https://jkanime.net/cang-yuan-tu/1/",
           "https://jkanime.net/cang-yuan-tu/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
+        "title": "Black Clover: Mahou Tei no Ken",
+        "samples": [
+          "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
         ]
       },
       {
@@ -15171,7 +15178,8 @@
         "series": "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/",
         "title": "Mahou Shoujo Nante Mou Ii Desukara. 2nd Season",
         "samples": [
-          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/"
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
+          "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/"
         ]
       },
       {
@@ -16462,6 +16470,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
+        "title": "Glass no Hana to Kowasu Sekai",
+        "samples": [
+          "https://jkanime.net/glass-no-hana-to-kowasu-sekai/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/divine-gate/",
         "title": "Divine Gate",
         "samples": [
@@ -17207,6 +17222,13 @@
         "samples": [
           "https://jkanime.net/prison-school/1/",
           "https://jkanime.net/prison-school/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bakemono-no-ko/",
+        "title": "Bakemono no Ko",
+        "samples": [
+          "https://jkanime.net/bakemono-no-ko/1/"
         ]
       },
       {
@@ -20092,6 +20114,13 @@
         "title": "Kuroko no Basket OVA",
         "samples": [
           "https://jkanime.net/kuroko-no-basket-ova/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/bayonetta-bloody-fate/",
+        "title": "Bayonetta: Bloody Fate",
+        "samples": [
+          "https://jkanime.net/bayonetta-bloody-fate/1/"
         ]
       },
       {
@@ -24576,7 +24605,7 @@
         "title": "Asura Cryin'",
         "samples": [
           "https://jkanime.net/asura-cryin/1/",
-          "https://jkanime.net/asura-cryin/2/"
+          "https://jkanime.net/asura-cryin/10/"
         ]
       },
       {
@@ -65177,11 +65206,13 @@
       "expired": [
         "https://jkanime.net/ao-ashi/1/",
         "https://jkanime.net/ao-ashi/10/",
+        "https://jkanime.net/ao-ashi/11/",
         "https://jkanime.net/ao-ashi/14/",
         "https://jkanime.net/ao-ashi/16/",
         "https://jkanime.net/ao-ashi/20/",
         "https://jkanime.net/ao-ashi/21/",
         "https://jkanime.net/ao-ashi/22/",
+        "https://jkanime.net/ao-ashi/4/",
         "https://jkanime.net/ao-ashi/6/",
         "https://jkanime.net/ao-ashi/7/",
         "https://jkanime.net/ao-ashi/8/",
@@ -77216,7 +77247,8 @@
         "https://jkanime.net/sakamoto-days/18/",
         "https://jkanime.net/sakamoto-days/19/",
         "https://jkanime.net/sakamoto-days/20/",
-        "https://jkanime.net/sakamoto-days/21/"
+        "https://jkanime.net/sakamoto-days/21/",
+        "https://jkanime.net/sakamoto-days/22/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -80166,6 +80198,7 @@
         "https://jkanime.net/puniru-wa-kawaii-slime/21/",
         "https://jkanime.net/puniru-wa-kawaii-slime/22/",
         "https://jkanime.net/puniru-wa-kawaii-slime/23/",
+        "https://jkanime.net/puniru-wa-kawaii-slime/24/",
         "https://jkanime.net/puniru-wa-kawaii-slime/4/",
         "https://jkanime.net/puniru-wa-kawaii-slime/5/",
         "https://jkanime.net/puniru-wa-kawaii-slime/6/",
@@ -94560,11 +94593,15 @@
     {
       "series": "https://jkanime.net/black-clover-mahou-tei-no-ken/",
       "title": "Black Clover: Mahou Tei no Ken",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/black-clover-mahou-tei-no-ken/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -98857,6 +98894,8 @@
         "https://jkanime.net/sugar-apple-fairy-tale/18/",
         "https://jkanime.net/sugar-apple-fairy-tale/19/",
         "https://jkanime.net/sugar-apple-fairy-tale/2/",
+        "https://jkanime.net/sugar-apple-fairy-tale/20/",
+        "https://jkanime.net/sugar-apple-fairy-tale/21/",
         "https://jkanime.net/sugar-apple-fairy-tale/3/",
         "https://jkanime.net/sugar-apple-fairy-tale/4/",
         "https://jkanime.net/sugar-apple-fairy-tale/5/",
@@ -99041,6 +99080,8 @@
         "https://jkanime.net/spy-kyoushitsu/18/",
         "https://jkanime.net/spy-kyoushitsu/19/",
         "https://jkanime.net/spy-kyoushitsu/2/",
+        "https://jkanime.net/spy-kyoushitsu/20/",
+        "https://jkanime.net/spy-kyoushitsu/21/",
         "https://jkanime.net/spy-kyoushitsu/3/",
         "https://jkanime.net/spy-kyoushitsu/4/",
         "https://jkanime.net/spy-kyoushitsu/5/",
@@ -132158,7 +132199,9 @@
         "https://jkanime.net/sora-to-umi-no-aida/2/",
         "https://jkanime.net/sora-to-umi-no-aida/3/",
         "https://jkanime.net/sora-to-umi-no-aida/4/",
-        "https://jkanime.net/sora-to-umi-no-aida/5/"
+        "https://jkanime.net/sora-to-umi-no-aida/5/",
+        "https://jkanime.net/sora-to-umi-no-aida/6/",
+        "https://jkanime.net/sora-to-umi-no-aida/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -141070,7 +141113,8 @@
         "https://jkanime.net/18if/4/",
         "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/7/",
-        "https://jkanime.net/18if/8/"
+        "https://jkanime.net/18if/8/",
+        "https://jkanime.net/18if/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -143350,7 +143394,8 @@
         "https://jkanime.net/cinderella-girls-gekijou/3/",
         "https://jkanime.net/cinderella-girls-gekijou/6/",
         "https://jkanime.net/cinderella-girls-gekijou/7/",
-        "https://jkanime.net/cinderella-girls-gekijou/8/"
+        "https://jkanime.net/cinderella-girls-gekijou/8/",
+        "https://jkanime.net/cinderella-girls-gekijou/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -147207,7 +147252,8 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/"
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/11/",
+        "https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -148029,7 +148075,9 @@
         "https://jkanime.net/stella-no-mahou/12/",
         "https://jkanime.net/stella-no-mahou/2/",
         "https://jkanime.net/stella-no-mahou/3/",
-        "https://jkanime.net/stella-no-mahou/4/"
+        "https://jkanime.net/stella-no-mahou/4/",
+        "https://jkanime.net/stella-no-mahou/5/",
+        "https://jkanime.net/stella-no-mahou/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -153632,11 +153680,15 @@
     {
       "series": "https://jkanime.net/glass-no-hana-to-kowasu-sekai/",
       "title": "Glass no Hana to Kowasu Sekai",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/glass-no-hana-to-kowasu-sekai/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -157628,11 +157680,15 @@
     {
       "series": "https://jkanime.net/bakemono-no-ko/",
       "title": "Bakemono no Ko",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/bakemono-no-ko/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -173301,11 +173357,15 @@
     {
       "series": "https://jkanime.net/bayonetta-bloody-fate/",
       "title": "Bayonetta: Bloody Fate",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/bayonetta-bloody-fate/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -197286,7 +197346,9 @@
         "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/19/",
         "https://jkanime.net/07-ghost/2/",
+        "https://jkanime.net/07-ghost/20/",
         "https://jkanime.net/07-ghost/24/",
+        "https://jkanime.net/07-ghost/4/",
         "https://jkanime.net/07-ghost/6/",
         "https://jkanime.net/07-ghost/7/",
         "https://jkanime.net/07-ghost/8/",
@@ -198211,6 +198273,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/asura-cryin/1/",
+        "https://jkanime.net/asura-cryin/10/",
         "https://jkanime.net/asura-cryin/2/",
         "https://jkanime.net/asura-cryin/3/",
         "https://jkanime.net/asura-cryin/4/",
@@ -229217,7 +229280,9 @@
         "https://jkanime.net/taiho-shichau-zo/26/",
         "https://jkanime.net/taiho-shichau-zo/27/",
         "https://jkanime.net/taiho-shichau-zo/28/",
+        "https://jkanime.net/taiho-shichau-zo/29/",
         "https://jkanime.net/taiho-shichau-zo/3/",
+        "https://jkanime.net/taiho-shichau-zo/30/",
         "https://jkanime.net/taiho-shichau-zo/4/"
       ],
       "noIndependent": [],
