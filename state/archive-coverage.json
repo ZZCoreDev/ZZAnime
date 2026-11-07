@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-07T17:28:07.937190+00:00",
+  "checkedAt": "2026-11-07T17:42:35.301339+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73890,
-  "storedChapters": 73073,
+  "storedChapters": 73074,
   "missingChapters": 510,
-  "expiredChapters": 71628,
+  "expiredChapters": 71638,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
+  "sideOnlyChapters": 306,
+  "voeOnlyChapters": 46,
   "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -21464,7 +21464,7 @@
         "title": "Gangsta.",
         "samples": [
           "https://jkanime.net/gangsta-/1/",
-          "https://jkanime.net/gangsta-/2/"
+          "https://jkanime.net/gangsta-/10/"
         ]
       },
       {
@@ -84745,6 +84745,7 @@
         "https://jkanime.net/uma-musume-cinderella-gray/2/",
         "https://jkanime.net/uma-musume-cinderella-gray/20/",
         "https://jkanime.net/uma-musume-cinderella-gray/21/",
+        "https://jkanime.net/uma-musume-cinderella-gray/22/",
         "https://jkanime.net/uma-musume-cinderella-gray/3/",
         "https://jkanime.net/uma-musume-cinderella-gray/4/",
         "https://jkanime.net/uma-musume-cinderella-gray/5/",
@@ -84882,6 +84883,7 @@
       "expired": [
         "https://jkanime.net/classic-stars/1/",
         "https://jkanime.net/classic-stars/10/",
+        "https://jkanime.net/classic-stars/11/",
         "https://jkanime.net/classic-stars/2/",
         "https://jkanime.net/classic-stars/3/",
         "https://jkanime.net/classic-stars/4/",
@@ -86620,6 +86622,7 @@
       "expired": [
         "https://jkanime.net/bel-blatt/1/",
         "https://jkanime.net/bel-blatt/10/",
+        "https://jkanime.net/bel-blatt/11/",
         "https://jkanime.net/bel-blatt/2/",
         "https://jkanime.net/bel-blatt/3/",
         "https://jkanime.net/bel-blatt/4/",
@@ -90855,6 +90858,7 @@
       "expired": [
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/1/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/11/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/2/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/3/",
@@ -94056,6 +94060,7 @@
       "expired": [
         "https://jkanime.net/code-geass-dakkan-no-roz/1/",
         "https://jkanime.net/code-geass-dakkan-no-roz/10/",
+        "https://jkanime.net/code-geass-dakkan-no-roz/11/",
         "https://jkanime.net/code-geass-dakkan-no-roz/2/",
         "https://jkanime.net/code-geass-dakkan-no-roz/3/",
         "https://jkanime.net/code-geass-dakkan-no-roz/4/",
@@ -123013,6 +123018,7 @@
       "expired": [
         "https://jkanime.net/d_cide-traumerei-the-animation/1/",
         "https://jkanime.net/d_cide-traumerei-the-animation/10/",
+        "https://jkanime.net/d_cide-traumerei-the-animation/11/",
         "https://jkanime.net/d_cide-traumerei-the-animation/2/",
         "https://jkanime.net/d_cide-traumerei-the-animation/3/",
         "https://jkanime.net/d_cide-traumerei-the-animation/4/",
@@ -131773,6 +131779,7 @@
       "expired": [
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/1/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/10/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/11/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/2/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/3/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/4/",
@@ -134932,7 +134939,8 @@
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/4/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/5/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/6/",
-        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/7/"
+        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/7/",
+        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -173992,6 +174000,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/gangsta-/1/",
+        "https://jkanime.net/gangsta-/10/",
         "https://jkanime.net/gangsta-/2/",
         "https://jkanime.net/gangsta-/3/",
         "https://jkanime.net/gangsta-/4/",
@@ -181062,7 +181071,8 @@
         "https://jkanime.net/tribe-cool-crew/29/",
         "https://jkanime.net/tribe-cool-crew/3/",
         "https://jkanime.net/tribe-cool-crew/30/",
-        "https://jkanime.net/tribe-cool-crew/31/"
+        "https://jkanime.net/tribe-cool-crew/31/",
+        "https://jkanime.net/tribe-cool-crew/32/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -253017,7 +253027,7 @@
         "expired-observation"
       ],
       "observed": 6,
-      "stored": 5,
+      "stored": 6,
       "missing": [],
       "expired": [
         "https://jkanime.net/vertex-force/1/",
@@ -253027,11 +253037,12 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 5,
-        "streamwish": 2,
-        "vidhide": 1
+        "mp4upload": 6,
+        "streamwish": 3,
+        "vidhide": 2,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
