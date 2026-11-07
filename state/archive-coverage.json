@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-07T15:42:39.300911+00:00",
+  "checkedAt": "2026-11-07T16:04:34.156773+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73887,
+  "observedChapters": 73888,
   "storedChapters": 73070,
   "missingChapters": 510,
-  "expiredChapters": 71538,
+  "expiredChapters": 71554,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
+  "sideOnlyChapters": 308,
+  "voeOnlyChapters": 48,
   "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -24932,7 +24932,8 @@
         "series": "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/",
         "title": "Danganronpa: The Animation",
         "samples": [
-          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/1/"
+          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/1/",
+          "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/2/"
         ]
       },
       {
@@ -35257,14 +35258,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/sayonara-lara/",
-        "title": "Sayonara Lara",
-        "samples": [
-          "https://jkanime.net/sayonara-lara/1/",
-          "https://jkanime.net/sayonara-lara/10/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/",
         "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
         "samples": [
@@ -39536,14 +39529,6 @@
         "samples": [
           "https://jkanime.net/undead-unluck/1/",
           "https://jkanime.net/undead-unluck/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-        "title": "Kanojo mo Kanojo 2nd Season",
-        "samples": [
-          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/1/",
-          "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/"
         ]
       },
       {
@@ -45034,6 +45019,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
+        "title": "Otona no Bouguya-san II",
+        "samples": [
+          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
+          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/seitokai-yakuindomo-movie-2/",
         "title": "Seitokai Yakuindomo Movie 2",
         "samples": [
@@ -46238,14 +46231,6 @@
         "samples": [
           "https://jkanime.net/haikyuu-riku-vs-kuu/1/",
           "https://jkanime.net/haikyuu-riku-vs-kuu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/nekopara/",
-        "title": "Nekopara",
-        "samples": [
-          "https://jkanime.net/nekopara/1/",
-          "https://jkanime.net/nekopara/10/"
         ]
       },
       {
@@ -47666,14 +47651,6 @@
         "title": "Psycho-Pass: Sinners of the System Case.3 - Onshuu no Kanata ni",
         "samples": [
           "https://jkanime.net/psycho-pass-sinners-of-the-system-case3-onshuu-no-kanata-ni/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
-        "title": "Otona no Bouguya-san (Rimen)",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-rimen/1/",
-          "https://jkanime.net/otona-no-bouguya-san-rimen/2/"
         ]
       },
       {
@@ -50748,14 +50725,6 @@
         "samples": [
           "https://jkanime.net/bang-dream/1/",
           "https://jkanime.net/bang-dream/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/granblue-fantasy-the-animation/",
-        "title": "Granblue Fantasy The Animation",
-        "samples": [
-          "https://jkanime.net/granblue-fantasy-the-animation/1/",
-          "https://jkanime.net/granblue-fantasy-the-animation/10/"
         ]
       },
       {
@@ -70757,8 +70726,7 @@
       "series": "https://jkanime.net/sayonara-lara/",
       "title": "Sayonara Lara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -70778,7 +70746,7 @@
         "https://jkanime.net/sayonara-lara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 12,
@@ -82847,7 +82815,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -84718,6 +84686,7 @@
         "https://jkanime.net/uma-musume-cinderella-gray/12/",
         "https://jkanime.net/uma-musume-cinderella-gray/13/",
         "https://jkanime.net/uma-musume-cinderella-gray/14/",
+        "https://jkanime.net/uma-musume-cinderella-gray/15/",
         "https://jkanime.net/uma-musume-cinderella-gray/2/",
         "https://jkanime.net/uma-musume-cinderella-gray/3/",
         "https://jkanime.net/uma-musume-cinderella-gray/4/",
@@ -84855,7 +84824,9 @@
       "expired": [
         "https://jkanime.net/classic-stars/1/",
         "https://jkanime.net/classic-stars/2/",
-        "https://jkanime.net/classic-stars/3/"
+        "https://jkanime.net/classic-stars/3/",
+        "https://jkanime.net/classic-stars/4/",
+        "https://jkanime.net/classic-stars/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -86586,7 +86557,9 @@
       "expired": [
         "https://jkanime.net/bel-blatt/1/",
         "https://jkanime.net/bel-blatt/2/",
-        "https://jkanime.net/bel-blatt/3/"
+        "https://jkanime.net/bel-blatt/3/",
+        "https://jkanime.net/bel-blatt/4/",
+        "https://jkanime.net/bel-blatt/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -90657,7 +90630,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -94014,7 +93987,8 @@
       "expired": [
         "https://jkanime.net/code-geass-dakkan-no-roz/1/",
         "https://jkanime.net/code-geass-dakkan-no-roz/2/",
-        "https://jkanime.net/code-geass-dakkan-no-roz/3/"
+        "https://jkanime.net/code-geass-dakkan-no-roz/3/",
+        "https://jkanime.net/code-geass-dakkan-no-roz/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -101331,8 +101305,7 @@
       "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
       "title": "Kanojo mo Kanojo 2nd Season",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -101352,7 +101325,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120704,7 +120677,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -122963,7 +122936,8 @@
       "expired": [
         "https://jkanime.net/d_cide-traumerei-the-animation/1/",
         "https://jkanime.net/d_cide-traumerei-the-animation/2/",
-        "https://jkanime.net/d_cide-traumerei-the-animation/3/"
+        "https://jkanime.net/d_cide-traumerei-the-animation/3/",
+        "https://jkanime.net/d_cide-traumerei-the-animation/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -128611,7 +128585,8 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -128631,7 +128606,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -131716,7 +131691,8 @@
       "expired": [
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/1/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/2/",
-        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/3/"
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/3/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -134636,8 +134612,7 @@
       "series": "https://jkanime.net/nekopara/",
       "title": "Nekopara",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -134657,7 +134632,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -134862,7 +134837,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/1/",
-        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/10/"
+        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/10/",
+        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -141750,8 +141726,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-rimen/",
       "title": "Otona no Bouguya-san (Rimen)",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 3,
       "stored": 3,
@@ -141762,7 +141737,7 @@
         "https://jkanime.net/otona-no-bouguya-san-rimen/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 3,
@@ -150545,7 +150520,8 @@
       "expired": [
         "https://jkanime.net/mrchen-mdchen/1/",
         "https://jkanime.net/mrchen-mdchen/2/",
-        "https://jkanime.net/mrchen-mdchen/3/"
+        "https://jkanime.net/mrchen-mdchen/3/",
+        "https://jkanime.net/mrchen-mdchen/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -158450,8 +158426,7 @@
       "series": "https://jkanime.net/granblue-fantasy-the-animation/",
       "title": "Granblue Fantasy The Animation",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
@@ -158472,7 +158447,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -162529,7 +162504,8 @@
         "https://jkanime.net/time-bokan-24/21/",
         "https://jkanime.net/time-bokan-24/22/",
         "https://jkanime.net/time-bokan-24/23/",
-        "https://jkanime.net/time-bokan-24/24/"
+        "https://jkanime.net/time-bokan-24/24/",
+        "https://jkanime.net/time-bokan-24/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -173909,7 +173885,9 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/gangsta-/1/",
-        "https://jkanime.net/gangsta-/2/"
+        "https://jkanime.net/gangsta-/2/",
+        "https://jkanime.net/gangsta-/3/",
+        "https://jkanime.net/gangsta-/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -180965,7 +180943,8 @@
         "https://jkanime.net/tribe-cool-crew/22/",
         "https://jkanime.net/tribe-cool-crew/23/",
         "https://jkanime.net/tribe-cool-crew/24/",
-        "https://jkanime.net/tribe-cool-crew/25/"
+        "https://jkanime.net/tribe-cool-crew/25/",
+        "https://jkanime.net/tribe-cool-crew/26/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -187406,7 +187385,8 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/z-x-ignition/1/",
-        "https://jkanime.net/z-x-ignition/2/"
+        "https://jkanime.net/z-x-ignition/2/",
+        "https://jkanime.net/z-x-ignition/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -192255,7 +192235,8 @@
       "stored": 13,
       "missing": [],
       "expired": [
-        "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/1/"
+        "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/1/",
+        "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/2/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -252928,7 +252909,7 @@
       "causes": [
         "expired-observation"
       ],
-      "observed": 5,
+      "observed": 6,
       "stored": 5,
       "missing": [],
       "expired": [
@@ -252939,7 +252920,7 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 5,
         "streamwish": 1,
