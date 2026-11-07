@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-07T01:45:45.889152+00:00",
-  "failedChapters": 56580,
-  "series": 4098,
+  "checkedAt": "2026-11-07T02:02:23.851178+00:00",
+  "failedChapters": 56579,
+  "series": 4097,
   "diagnosedSeries": 4046,
-  "pendingSeries": 52,
+  "pendingSeries": 51,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 317,
+    "ValueError: No approved observations; previous channel retained": 316,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -138915,18 +138915,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793749998.9934447
-    },
-    {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794015998.712193
     },
     {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
