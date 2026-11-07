@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T13:32:40.121425+00:00",
-  "episodes": 73067,
-  "oldestHours": 288.98,
-  "pending": 72860,
-  "expired": 71409,
+  "checkedAt": "2026-11-07T13:49:31.030882+00:00",
+  "episodes": 73068,
+  "oldestHours": 289.26,
+  "pending": 72867,
+  "expired": 71423,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1628,
+  "retryAfterExpiry": 1620,
   "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1433.27,
-  "measuredWallClockPerHour": 312.84,
-  "estimatedSweepDays": 9.73,
+  "sampleMinutes": 1432.27,
+  "measuredWallClockPerHour": 313.98,
+  "estimatedSweepDays": 9.7,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 21,
+      "pendingFailures": 20,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,21 +876,21 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4098,
+    "series": 4096,
     "diagnosedSeries": 4046,
-    "pendingSeries": 52
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-07T13:32:40.121425+00:00",
+    "checkedAt": "2026-11-07T13:49:31.030882+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73885,
-    "storedChapters": 73067,
+    "storedChapters": 73068,
     "missingChapters": 510,
-    "expiredChapters": 71409,
+    "expiredChapters": 71423,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 308,
-    "voeOnlyChapters": 48,
+    "sideOnlyChapters": 307,
+    "voeOnlyChapters": 47,
     "extraOnlyChapters": 305,
     "sourceRequests": 0,
     "aiCalls": 0,

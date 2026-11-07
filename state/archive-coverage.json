@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-07T13:32:40.121425+00:00",
+  "checkedAt": "2026-11-07T13:49:31.030882+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73885,
-  "storedChapters": 73067,
+  "storedChapters": 73068,
   "missingChapters": 510,
-  "expiredChapters": 71409,
+  "expiredChapters": 71423,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 308,
-  "voeOnlyChapters": 48,
+  "sideOnlyChapters": 307,
+  "voeOnlyChapters": 47,
   "extraOnlyChapters": 305,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -31033,7 +31033,7 @@
         "title": "Solty Rei",
         "samples": [
           "https://jkanime.net/solty-rei/1/",
-          "https://jkanime.net/solty-rei/13/"
+          "https://jkanime.net/solty-rei/10/"
         ]
       },
       {
@@ -35139,14 +35139,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/1/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
         "title": "Jiyi Guanli Ju (2026)",
         "samples": [
@@ -36927,14 +36919,6 @@
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/1/",
           "https://jkanime.net/douse-koishite-shimaunda/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/farmagia/",
-        "title": "Farmagia",
-        "samples": [
-          "https://jkanime.net/farmagia/1/",
-          "https://jkanime.net/farmagia/10/"
         ]
       },
       {
@@ -63444,7 +63428,7 @@
         "title": "Solty Rei",
         "samples": [
           "https://jkanime.net/solty-rei/1/",
-          "https://jkanime.net/solty-rei/13/"
+          "https://jkanime.net/solty-rei/10/"
         ]
       },
       {
@@ -70017,8 +70001,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -70031,7 +70014,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -85239,7 +85222,7 @@
         "https://jkanime.net/anne-shirley/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -86926,8 +86909,7 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -86947,7 +86929,7 @@
         "https://jkanime.net/farmagia/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -90646,7 +90628,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -92497,6 +92479,7 @@
         "https://jkanime.net/bye-bye-earth/12/",
         "https://jkanime.net/bye-bye-earth/14/",
         "https://jkanime.net/bye-bye-earth/15/",
+        "https://jkanime.net/bye-bye-earth/16/",
         "https://jkanime.net/bye-bye-earth/2/",
         "https://jkanime.net/bye-bye-earth/3/",
         "https://jkanime.net/bye-bye-earth/4/"
@@ -92880,6 +92863,7 @@
         "https://jkanime.net/shoushimin-series/12/",
         "https://jkanime.net/shoushimin-series/13/",
         "https://jkanime.net/shoushimin-series/14/",
+        "https://jkanime.net/shoushimin-series/15/",
         "https://jkanime.net/shoushimin-series/2/",
         "https://jkanime.net/shoushimin-series/3/",
         "https://jkanime.net/shoushimin-series/4/"
@@ -95579,7 +95563,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 21,
+      "renewalFailed": 20,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -95684,6 +95668,7 @@
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/18/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/19/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/2/",
+        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/29/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/3/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/4/",
@@ -101280,7 +101265,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 8,
+      "renewalFailed": 7,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120447,7 +120432,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -120633,7 +120618,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -162433,7 +162418,8 @@
         "https://jkanime.net/time-bokan-24/14/",
         "https://jkanime.net/time-bokan-24/15/",
         "https://jkanime.net/time-bokan-24/16/",
-        "https://jkanime.net/time-bokan-24/17/"
+        "https://jkanime.net/time-bokan-24/17/",
+        "https://jkanime.net/time-bokan-24/18/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -175581,7 +175567,8 @@
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/2/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/3/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/4/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/"
+        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/",
+        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -180854,7 +180841,8 @@
         "https://jkanime.net/tribe-cool-crew/14/",
         "https://jkanime.net/tribe-cool-crew/15/",
         "https://jkanime.net/tribe-cool-crew/16/",
-        "https://jkanime.net/tribe-cool-crew/17/"
+        "https://jkanime.net/tribe-cool-crew/17/",
+        "https://jkanime.net/tribe-cool-crew/18/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -226790,11 +226778,19 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/solty-rei/1/",
+        "https://jkanime.net/solty-rei/10/",
+        "https://jkanime.net/solty-rei/11/",
+        "https://jkanime.net/solty-rei/12/",
         "https://jkanime.net/solty-rei/13/",
+        "https://jkanime.net/solty-rei/14/",
+        "https://jkanime.net/solty-rei/15/",
         "https://jkanime.net/solty-rei/17/",
+        "https://jkanime.net/solty-rei/2/",
         "https://jkanime.net/solty-rei/3/",
         "https://jkanime.net/solty-rei/4/",
+        "https://jkanime.net/solty-rei/5/",
         "https://jkanime.net/solty-rei/6/",
+        "https://jkanime.net/solty-rei/7/",
         "https://jkanime.net/solty-rei/8/",
         "https://jkanime.net/solty-rei/9/"
       ],
@@ -251741,7 +251737,7 @@
         "expired-observation"
       ],
       "observed": 5,
-      "stored": 4,
+      "stored": 5,
       "missing": [],
       "expired": [
         "https://jkanime.net/shuiro-no-kamen/1/",
@@ -251750,11 +251746,12 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 4,
-        "streamwish": 2,
-        "vidhide": 2
+        "mp4upload": 5,
+        "streamwish": 3,
+        "vidhide": 3,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
