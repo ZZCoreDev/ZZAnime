@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-07T15:11:14.738717+00:00",
+  "checkedAt": "2026-11-07T15:26:57.308122+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73886,
+  "observedChapters": 73887,
   "storedChapters": 73068,
   "missingChapters": 510,
-  "expiredChapters": 71512,
+  "expiredChapters": 71526,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 308,
-  "voeOnlyChapters": 48,
+  "sideOnlyChapters": 309,
+  "voeOnlyChapters": 49,
   "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
@@ -3279,7 +3279,8 @@
         "series": "https://jkanime.net/classic-stars/",
         "title": "Classic★Stars",
         "samples": [
-          "https://jkanime.net/classic-stars/1/"
+          "https://jkanime.net/classic-stars/1/",
+          "https://jkanime.net/classic-stars/2/"
         ]
       },
       {
@@ -5225,7 +5226,8 @@
         "series": "https://jkanime.net/code-geass-dakkan-no-roz/",
         "title": "Code Geass: Dakkan no Rozé",
         "samples": [
-          "https://jkanime.net/code-geass-dakkan-no-roz/1/"
+          "https://jkanime.net/code-geass-dakkan-no-roz/1/",
+          "https://jkanime.net/code-geass-dakkan-no-roz/2/"
         ]
       },
       {
@@ -11258,6 +11260,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/d_cide-traumerei-the-animation/",
+        "title": "D_Cide Traumerei the Animation",
+        "samples": [
+          "https://jkanime.net/d_cide-traumerei-the-animation/1/",
+          "https://jkanime.net/d_cide-traumerei-the-animation/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/shiroi-suna-no-aquatope/",
         "title": "Shiroi Suna no Aquatope",
         "samples": [
@@ -13047,6 +13057,14 @@
         "samples": [
           "https://jkanime.net/lapis-relights/1/",
           "https://jkanime.net/lapis-relights/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/",
+        "title": "Maou Gakuin no Futekigousha",
+        "samples": [
+          "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/1/",
+          "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/2/"
         ]
       },
       {
@@ -16712,6 +16730,14 @@
         "samples": [
           "https://jkanime.net/death-march-kara-hajimaru-isekai-kyousoukyoku/1/",
           "https://jkanime.net/death-march-kara-hajimaru-isekai-kyousoukyoku/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/mrchen-mdchen/",
+        "title": "Marchen Madchen",
+        "samples": [
+          "https://jkanime.net/mrchen-mdchen/1/",
+          "https://jkanime.net/mrchen-mdchen/2/"
         ]
       },
       {
@@ -21434,6 +21460,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gangsta-/",
+        "title": "Gangsta.",
+        "samples": [
+          "https://jkanime.net/gangsta-/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/okusama-ga-seitokaichou/",
         "title": "Okusama ga Seitokaichou!",
         "samples": [
@@ -23964,6 +23997,13 @@
         "samples": [
           "https://jkanime.net/mahou-sensou/1/",
           "https://jkanime.net/mahou-sensou/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/z-x-ignition/",
+        "title": "Z/X: Ignition",
+        "samples": [
+          "https://jkanime.net/z-x-ignition/1/"
         ]
       },
       {
@@ -35154,14 +35194,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
-        "title": "Cyberpunk: Edgerunners 2",
-        "samples": [
-          "https://jkanime.net/cyberpunk-edgerunners-2/1/",
-          "https://jkanime.net/cyberpunk-edgerunners-2/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
         "title": "Jiyi Guanli Ju (2026)",
         "samples": [
@@ -35431,14 +35463,6 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/kami-no-shizuku/",
-        "title": "Kami no Shizuku",
-        "samples": [
-          "https://jkanime.net/kami-no-shizuku/1/",
-          "https://jkanime.net/kami-no-shizuku/10/"
         ]
       },
       {
@@ -36639,13 +36663,6 @@
         "samples": [
           "https://jkanime.net/princession-orchestra/1/",
           "https://jkanime.net/princession-orchestra/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/classic-stars/",
-        "title": "Classic★Stars",
-        "samples": [
-          "https://jkanime.net/classic-stars/1/"
         ]
       },
       {
@@ -48153,14 +48170,6 @@
         "title": "Mahou Shoujo Lyrical Nanoha: Reflection",
         "samples": [
           "https://jkanime.net/mahou-shoujo-lyrical-nanoha-reflection/1/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/zoku-owarimonogatari/",
-        "title": "Zoku Owarimonogatari",
-        "samples": [
-          "https://jkanime.net/zoku-owarimonogatari/1/",
-          "https://jkanime.net/zoku-owarimonogatari/2/"
         ]
       },
       {
@@ -70016,8 +70025,7 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 10,
       "stored": 10,
@@ -70030,7 +70038,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -70867,7 +70875,7 @@
         "https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -73058,8 +73066,7 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 24,
       "stored": 24,
@@ -73091,7 +73098,7 @@
         "https://jkanime.net/kami-no-shizuku/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -82839,7 +82846,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -84839,17 +84846,17 @@
       "series": "https://jkanime.net/classic-stars/",
       "title": "Classic★Stars",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 13,
       "stored": 13,
       "missing": [],
       "expired": [
-        "https://jkanime.net/classic-stars/1/"
+        "https://jkanime.net/classic-stars/1/",
+        "https://jkanime.net/classic-stars/2/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 1,
@@ -85240,7 +85247,7 @@
         "https://jkanime.net/anne-shirley/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -92926,6 +92933,7 @@
         "https://jkanime.net/shoushimin-series/2/",
         "https://jkanime.net/shoushimin-series/20/",
         "https://jkanime.net/shoushimin-series/21/",
+        "https://jkanime.net/shoushimin-series/22/",
         "https://jkanime.net/shoushimin-series/3/",
         "https://jkanime.net/shoushimin-series/4/",
         "https://jkanime.net/shoushimin-series/5/"
@@ -94001,7 +94009,8 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/code-geass-dakkan-no-roz/1/"
+        "https://jkanime.net/code-geass-dakkan-no-roz/1/",
+        "https://jkanime.net/code-geass-dakkan-no-roz/2/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -95630,7 +95639,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 15,
+      "renewalFailed": 14,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -95741,6 +95750,7 @@
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/23/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/25/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/26/",
+        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/27/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/29/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/3/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/4/",
@@ -101337,7 +101347,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120689,7 +120699,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -122939,11 +122949,16 @@
     {
       "series": "https://jkanime.net/d_cide-traumerei-the-animation/",
       "title": "D_Cide Traumerei the Animation",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/d_cide-traumerei-the-animation/1/",
+        "https://jkanime.net/d_cide-traumerei-the-animation/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -128611,7 +128626,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -131687,11 +131702,16 @@
     {
       "series": "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/",
       "title": "Maou Gakuin no Futekigousha",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/1/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -134631,7 +134651,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -144406,8 +144426,7 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 6,
       "stored": 6,
@@ -144421,7 +144440,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -150511,11 +150530,16 @@
     {
       "series": "https://jkanime.net/mrchen-mdchen/",
       "title": "Marchen Madchen",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/mrchen-mdchen/1/",
+        "https://jkanime.net/mrchen-mdchen/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -158441,7 +158465,7 @@
         "https://jkanime.net/granblue-fantasy-the-animation/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 13,
@@ -162496,7 +162520,8 @@
         "https://jkanime.net/time-bokan-24/2/",
         "https://jkanime.net/time-bokan-24/20/",
         "https://jkanime.net/time-bokan-24/21/",
-        "https://jkanime.net/time-bokan-24/22/"
+        "https://jkanime.net/time-bokan-24/22/",
+        "https://jkanime.net/time-bokan-24/23/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -173868,11 +173893,15 @@
     {
       "series": "https://jkanime.net/gangsta-/",
       "title": "Gangsta.",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/gangsta-/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -180925,7 +180954,8 @@
         "https://jkanime.net/tribe-cool-crew/20/",
         "https://jkanime.net/tribe-cool-crew/21/",
         "https://jkanime.net/tribe-cool-crew/22/",
-        "https://jkanime.net/tribe-cool-crew/23/"
+        "https://jkanime.net/tribe-cool-crew/23/",
+        "https://jkanime.net/tribe-cool-crew/24/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -187358,11 +187388,15 @@
     {
       "series": "https://jkanime.net/z-x-ignition/",
       "title": "Z/X: Ignition",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/z-x-ignition/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -252745,7 +252779,7 @@
       "causes": [
         "expired-observation"
       ],
-      "observed": 5,
+      "observed": 6,
       "stored": 5,
       "missing": [],
       "expired": [
@@ -252756,7 +252790,7 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 5,
         "streamwish": 2,

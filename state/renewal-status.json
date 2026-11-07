@@ -1,25 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-07T14:58:07.010541+00:00",
+  "checkedAt": "2026-11-07T15:13:51.104935+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 226,
-  "repairAttempts": 31,
+  "attempted": 212,
+  "repairAttempts": 28,
   "earlyRepairAttempts": 0,
-  "failed": 56552,
+  "failed": 56542,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42383876112",
+  "runId": "42385174185",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 71512,
-  "extraRenewed": 109,
-  "voeRenewed": 1,
+  "expired": 71526,
+  "extraRenewed": 100,
   "published": true,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1594,
+  "retryAfterExpiry": 1584,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -138,7 +137,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 15,
+      "pendingFailures": 14,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -369,7 +368,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -481,7 +480,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -495,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -544,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -593,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -635,7 +634,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -656,7 +655,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -698,7 +697,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -885,21 +884,21 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4092,
     "diagnosedSeries": 4046,
-    "pendingSeries": 50
+    "pendingSeries": 46
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-07T15:11:14.738717+00:00",
+    "checkedAt": "2026-11-07T15:26:57.308122+00:00",
     "catalogueSeries": 5053,
-    "observedChapters": 73886,
+    "observedChapters": 73887,
     "storedChapters": 73068,
     "missingChapters": 510,
-    "expiredChapters": 71512,
+    "expiredChapters": 71526,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
-    "sideOnlyChapters": 308,
-    "voeOnlyChapters": 48,
+    "sideOnlyChapters": 309,
+    "voeOnlyChapters": 49,
     "extraOnlyChapters": 306,
     "sourceRequests": 0,
     "aiCalls": 0,
