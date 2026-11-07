@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-07T05:28:53.235193+00:00",
-  "failedChapters": 56579,
-  "series": 4097,
+  "checkedAt": "2026-11-07T05:45:16.184335+00:00",
+  "failedChapters": 56578,
+  "series": 4096,
   "diagnosedSeries": 4046,
-  "pendingSeries": 51,
+  "pendingSeries": 50,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 316,
+    "ValueError: No approved observations; previous channel retained": 315,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -100979,19 +100979,6 @@
       "nextRetryAt": 1793333067.1855137
     },
     {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793930448.6680424
-    },
-    {
       "series": "https://jkanime.net/uniteup-unibirth/",
       "failedChapters": 6,
       "samples": [
@@ -103124,6 +103111,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1794029879.4226992
+    },
+    {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793930448.6680424
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -111579,6 +111579,19 @@
       "nextRetryAt": 1793342908.4532363
     },
     {
+      "series": "https://jkanime.net/anne-shirley/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/anne-shirley/16/",
+        "https://jkanime.net/anne-shirley/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794026458.9120193
+    },
+    {
       "series": "https://jkanime.net/another-world/",
       "failedChapters": 2,
       "samples": [
@@ -115672,7 +115685,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794026421.410551
+      "nextRetryAt": 1794047784.647587
     },
     {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
@@ -117129,18 +117142,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1794162386.0428953
-    },
-    {
-      "series": "https://jkanime.net/anne-shirley/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/anne-shirley/16/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794026458.9120193
     },
     {
       "series": "https://jkanime.net/ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai-movie/",
@@ -119864,6 +119865,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793455635.8770013
+    },
+    {
+      "series": "https://jkanime.net/classic-stars/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/classic-stars/1/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794031037.7290893
     },
     {
       "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
@@ -134320,18 +134333,6 @@
       "nextRetryAt": 1793692897.0071576
     },
     {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794028759.9167113
-    },
-    {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
       "failedChapters": 1,
       "samples": [
@@ -139067,18 +139068,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/classic-stars/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/classic-stars/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794031037.7290893
     }
   ]
 }
