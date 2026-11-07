@@ -1,14 +1,14 @@
 {
   "expired-observation": {
-    "series": 3842,
+    "series": 3848,
     "twoSeriesProofRequired": true,
     "samples": [
       {
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/14/",
-          "https://jkanime.net/ao-ashi/16/"
+          "https://jkanime.net/ao-ashi/1/",
+          "https://jkanime.net/ao-ashi/14/"
         ]
       },
       {
@@ -29,8 +29,8 @@
         "series": "https://jkanime.net/ao-ashi/",
         "title": "Ao Ashi",
         "samples": [
-          "https://jkanime.net/ao-ashi/14/",
-          "https://jkanime.net/ao-ashi/16/"
+          "https://jkanime.net/ao-ashi/1/",
+          "https://jkanime.net/ao-ashi/14/"
         ]
       },
       {
