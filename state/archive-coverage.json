@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T14:23:29.167170+00:00",
+  "checkedAt": "2026-11-07T14:39:56.608354+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73885,
+  "observedChapters": 73886,
   "storedChapters": 73068,
   "missingChapters": 510,
-  "expiredChapters": 71455,
+  "expiredChapters": 71464,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
-  "sideOnlyChapters": 307,
-  "voeOnlyChapters": 47,
-  "extraOnlyChapters": 305,
+  "sideOnlyChapters": 308,
+  "voeOnlyChapters": 48,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -35139,6 +35139,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/1/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
         "title": "Jiyi Guanli Ju (2026)",
         "samples": [
@@ -35400,6 +35408,14 @@
         "title": "The Bloody Mary",
         "samples": [
           "https://jkanime.net/the-bloody-mary/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kami-no-shizuku/",
+        "title": "Kami no Shizuku",
+        "samples": [
+          "https://jkanime.net/kami-no-shizuku/1/",
+          "https://jkanime.net/kami-no-shizuku/10/"
         ]
       },
       {
@@ -36600,6 +36616,13 @@
         "samples": [
           "https://jkanime.net/princession-orchestra/1/",
           "https://jkanime.net/princession-orchestra/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/classic-stars/",
+        "title": "Classic★Stars",
+        "samples": [
+          "https://jkanime.net/classic-stars/1/"
         ]
       },
       {
@@ -69977,7 +70000,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -69990,7 +70014,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -73017,7 +73041,8 @@
       "series": "https://jkanime.net/kami-no-shizuku/",
       "title": "Kami no Shizuku",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -73049,7 +73074,7 @@
         "https://jkanime.net/kami-no-shizuku/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 24,
@@ -82797,7 +82822,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -84797,7 +84822,8 @@
       "series": "https://jkanime.net/classic-stars/",
       "title": "Classic★Stars",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 13,
       "stored": 13,
@@ -84806,7 +84832,7 @@
         "https://jkanime.net/classic-stars/1/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 1,
@@ -85197,7 +85223,7 @@
         "https://jkanime.net/anne-shirley/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -92457,7 +92483,9 @@
         "https://jkanime.net/bye-bye-earth/16/",
         "https://jkanime.net/bye-bye-earth/17/",
         "https://jkanime.net/bye-bye-earth/18/",
+        "https://jkanime.net/bye-bye-earth/19/",
         "https://jkanime.net/bye-bye-earth/2/",
+        "https://jkanime.net/bye-bye-earth/20/",
         "https://jkanime.net/bye-bye-earth/3/",
         "https://jkanime.net/bye-bye-earth/4/"
       ],
@@ -92843,6 +92871,7 @@
         "https://jkanime.net/shoushimin-series/15/",
         "https://jkanime.net/shoushimin-series/16/",
         "https://jkanime.net/shoushimin-series/17/",
+        "https://jkanime.net/shoushimin-series/18/",
         "https://jkanime.net/shoushimin-series/2/",
         "https://jkanime.net/shoushimin-series/3/",
         "https://jkanime.net/shoushimin-series/4/"
@@ -95542,7 +95571,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 18,
+      "renewalFailed": 17,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -95650,6 +95679,7 @@
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
+        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/23/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/29/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/3/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/4/",
@@ -101246,7 +101276,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120598,7 +120628,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -162401,7 +162431,8 @@
         "https://jkanime.net/time-bokan-24/16/",
         "https://jkanime.net/time-bokan-24/17/",
         "https://jkanime.net/time-bokan-24/18/",
-        "https://jkanime.net/time-bokan-24/19/"
+        "https://jkanime.net/time-bokan-24/19/",
+        "https://jkanime.net/time-bokan-24/2/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -175550,7 +175581,8 @@
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/"
+        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/",
+        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -180826,7 +180858,8 @@
         "https://jkanime.net/tribe-cool-crew/17/",
         "https://jkanime.net/tribe-cool-crew/18/",
         "https://jkanime.net/tribe-cool-crew/19/",
-        "https://jkanime.net/tribe-cool-crew/2/"
+        "https://jkanime.net/tribe-cool-crew/2/",
+        "https://jkanime.net/tribe-cool-crew/20/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -252221,7 +252254,8 @@
         "https://jkanime.net/romelia-senki/1/",
         "https://jkanime.net/romelia-senki/2/",
         "https://jkanime.net/romelia-senki/3/",
-        "https://jkanime.net/romelia-senki/4/"
+        "https://jkanime.net/romelia-senki/4/",
+        "https://jkanime.net/romelia-senki/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -252695,7 +252729,7 @@
       "causes": [
         "expired-observation"
       ],
-      "observed": 6,
+      "observed": 7,
       "stored": 6,
       "missing": [],
       "expired": [
@@ -252707,7 +252741,7 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 6,
         "streamwish": 3,
@@ -252729,7 +252763,8 @@
         "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/2/",
         "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/3/",
         "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/4/",
-        "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/5/"
+        "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/5/",
+        "https://jkanime.net/tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
