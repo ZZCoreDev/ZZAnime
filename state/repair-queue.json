@@ -1,6 +1,6 @@
 {
   "expired-observation": {
-    "series": 3848,
+    "series": 3853,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -8,7 +8,7 @@
         "title": "Ao Ashi",
         "samples": [
           "https://jkanime.net/ao-ashi/1/",
-          "https://jkanime.net/ao-ashi/14/"
+          "https://jkanime.net/ao-ashi/10/"
         ]
       },
       {
@@ -30,7 +30,7 @@
         "title": "Ao Ashi",
         "samples": [
           "https://jkanime.net/ao-ashi/1/",
-          "https://jkanime.net/ao-ashi/14/"
+          "https://jkanime.net/ao-ashi/10/"
         ]
       },
       {

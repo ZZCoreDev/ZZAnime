@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T00:30:59.753407+00:00",
+  "checkedAt": "2026-11-07T00:49:01.233405+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73881,
   "storedChapters": 73066,
   "missingChapters": 510,
-  "expiredChapters": 60710,
+  "expiredChapters": 60933,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -20,7 +20,7 @@
         "title": "Ao Ashi",
         "samples": [
           "https://jkanime.net/ao-ashi/1/",
-          "https://jkanime.net/ao-ashi/14/"
+          "https://jkanime.net/ao-ashi/10/"
         ]
       },
       {
@@ -5495,6 +5495,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/gridman-universe/",
+        "title": "Gridman Universe",
+        "samples": [
+          "https://jkanime.net/gridman-universe/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tentai-kansoku/",
         "title": "Tentai Kansoku",
         "samples": [
@@ -10243,6 +10250,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/goblin-slayer-goblins-crown/",
+        "title": "Goblin Slayer: Goblin's Crown",
+        "samples": [
+          "https://jkanime.net/goblin-slayer-goblins-crown/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/strike-the-blood-kieta-seisou-hen/",
         "title": "Strike the Blood: Kieta Seisou-hen",
         "samples": [
@@ -14334,6 +14348,14 @@
         "samples": [
           "https://jkanime.net/hinako-note/1/",
           "https://jkanime.net/hinako-note/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/kaitou-tenshi-twin-angel-tv/",
+        "title": "Kaitou Tenshi Twin Angel (TV)",
+        "samples": [
+          "https://jkanime.net/kaitou-tenshi-twin-angel-tv/6/",
+          "https://jkanime.net/kaitou-tenshi-twin-angel-tv/9/"
         ]
       },
       {
@@ -21763,6 +21785,13 @@
         ]
       },
       {
+        "series": "https://jkanime.net/asura/",
+        "title": "Asura",
+        "samples": [
+          "https://jkanime.net/asura/1/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/mardock-scramble-the-third-exhaust/",
         "title": "Mardock Scramble: The Third Exhaust",
         "samples": [
@@ -22051,6 +22080,13 @@
         "samples": [
           "https://jkanime.net/sword-art-online/1/",
           "https://jkanime.net/sword-art-online/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/asa-made-jugyou-chu/",
+        "title": "Asa Made Jugyou Chu!",
+        "samples": [
+          "https://jkanime.net/asa-made-jugyou-chu/1/"
         ]
       },
       {
@@ -24539,8 +24575,8 @@
         "series": "https://jkanime.net/asura-cryin/",
         "title": "Asura Cryin'",
         "samples": [
-          "https://jkanime.net/asura-cryin/2/",
-          "https://jkanime.net/asura-cryin/3/"
+          "https://jkanime.net/asura-cryin/1/",
+          "https://jkanime.net/asura-cryin/2/"
         ]
       },
       {
@@ -30463,7 +30499,7 @@
         "title": "Ao Ashi",
         "samples": [
           "https://jkanime.net/ao-ashi/1/",
-          "https://jkanime.net/ao-ashi/14/"
+          "https://jkanime.net/ao-ashi/10/"
         ]
       },
       {
@@ -65140,6 +65176,7 @@
       "missing": [],
       "expired": [
         "https://jkanime.net/ao-ashi/1/",
+        "https://jkanime.net/ao-ashi/10/",
         "https://jkanime.net/ao-ashi/14/",
         "https://jkanime.net/ao-ashi/16/",
         "https://jkanime.net/ao-ashi/20/",
@@ -77178,7 +77215,8 @@
         "https://jkanime.net/sakamoto-days/17/",
         "https://jkanime.net/sakamoto-days/18/",
         "https://jkanime.net/sakamoto-days/19/",
-        "https://jkanime.net/sakamoto-days/20/"
+        "https://jkanime.net/sakamoto-days/20/",
+        "https://jkanime.net/sakamoto-days/21/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -80127,6 +80165,7 @@
         "https://jkanime.net/puniru-wa-kawaii-slime/20/",
         "https://jkanime.net/puniru-wa-kawaii-slime/21/",
         "https://jkanime.net/puniru-wa-kawaii-slime/22/",
+        "https://jkanime.net/puniru-wa-kawaii-slime/23/",
         "https://jkanime.net/puniru-wa-kawaii-slime/4/",
         "https://jkanime.net/puniru-wa-kawaii-slime/5/",
         "https://jkanime.net/puniru-wa-kawaii-slime/6/",
@@ -97288,12 +97327,15 @@
       "series": "https://jkanime.net/gridman-universe/",
       "title": "Gridman Universe",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/gridman-universe/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -98813,6 +98855,7 @@
         "https://jkanime.net/sugar-apple-fairy-tale/16/",
         "https://jkanime.net/sugar-apple-fairy-tale/17/",
         "https://jkanime.net/sugar-apple-fairy-tale/18/",
+        "https://jkanime.net/sugar-apple-fairy-tale/19/",
         "https://jkanime.net/sugar-apple-fairy-tale/2/",
         "https://jkanime.net/sugar-apple-fairy-tale/3/",
         "https://jkanime.net/sugar-apple-fairy-tale/4/",
@@ -98996,6 +99039,7 @@
         "https://jkanime.net/spy-kyoushitsu/16/",
         "https://jkanime.net/spy-kyoushitsu/17/",
         "https://jkanime.net/spy-kyoushitsu/18/",
+        "https://jkanime.net/spy-kyoushitsu/19/",
         "https://jkanime.net/spy-kyoushitsu/2/",
         "https://jkanime.net/spy-kyoushitsu/3/",
         "https://jkanime.net/spy-kyoushitsu/4/",
@@ -120811,6 +120855,7 @@
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/13/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/5/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/6/",
+        "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/7/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/8/",
         "https://jkanime.net/bungou-to-alchemist-shinpan-no-haguruma/9/"
       ],
@@ -121324,12 +121369,15 @@
       "series": "https://jkanime.net/goblin-slayer-goblins-crown/",
       "title": "Goblin Slayer: Goblin's Crown",
       "causes": [
+        "expired-observation",
         "renewal-error"
       ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/goblin-slayer-goblins-crown/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 1,
       "sideOnly": 0,
@@ -132109,7 +132157,8 @@
         "https://jkanime.net/sora-to-umi-no-aida/12/",
         "https://jkanime.net/sora-to-umi-no-aida/2/",
         "https://jkanime.net/sora-to-umi-no-aida/3/",
-        "https://jkanime.net/sora-to-umi-no-aida/4/"
+        "https://jkanime.net/sora-to-umi-no-aida/4/",
+        "https://jkanime.net/sora-to-umi-no-aida/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -141019,6 +141068,7 @@
         "https://jkanime.net/18if/2/",
         "https://jkanime.net/18if/3/",
         "https://jkanime.net/18if/4/",
+        "https://jkanime.net/18if/5/",
         "https://jkanime.net/18if/7/",
         "https://jkanime.net/18if/8/"
       ],
@@ -142835,11 +142885,16 @@
     {
       "series": "https://jkanime.net/kaitou-tenshi-twin-angel-tv/",
       "title": "Kaitou Tenshi Twin Angel (TV)",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 9,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/6/",
+        "https://jkanime.net/kaitou-tenshi-twin-angel-tv/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 3,
@@ -147175,7 +147230,9 @@
       "expired": [
         "https://jkanime.net/cheating-craft/2/",
         "https://jkanime.net/cheating-craft/3/",
-        "https://jkanime.net/cheating-craft/8/"
+        "https://jkanime.net/cheating-craft/4/",
+        "https://jkanime.net/cheating-craft/8/",
+        "https://jkanime.net/cheating-craft/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -147971,7 +148028,8 @@
         "https://jkanime.net/stella-no-mahou/11/",
         "https://jkanime.net/stella-no-mahou/12/",
         "https://jkanime.net/stella-no-mahou/2/",
-        "https://jkanime.net/stella-no-mahou/3/"
+        "https://jkanime.net/stella-no-mahou/3/",
+        "https://jkanime.net/stella-no-mahou/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -182520,11 +182578,15 @@
     {
       "series": "https://jkanime.net/asura/",
       "title": "Asura",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/asura/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -184064,11 +184126,15 @@
     {
       "series": "https://jkanime.net/asa-made-jugyou-chu/",
       "title": "Asa Made Jugyou Chu!",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 1,
       "stored": 1,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/asa-made-jugyou-chu/1/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -197217,6 +197283,7 @@
         "https://jkanime.net/07-ghost/14/",
         "https://jkanime.net/07-ghost/15/",
         "https://jkanime.net/07-ghost/16/",
+        "https://jkanime.net/07-ghost/17/",
         "https://jkanime.net/07-ghost/19/",
         "https://jkanime.net/07-ghost/2/",
         "https://jkanime.net/07-ghost/24/",
@@ -198143,6 +198210,7 @@
       "stored": 13,
       "missing": [],
       "expired": [
+        "https://jkanime.net/asura-cryin/1/",
         "https://jkanime.net/asura-cryin/2/",
         "https://jkanime.net/asura-cryin/3/",
         "https://jkanime.net/asura-cryin/4/",
@@ -229148,6 +229216,7 @@
         "https://jkanime.net/taiho-shichau-zo/25/",
         "https://jkanime.net/taiho-shichau-zo/26/",
         "https://jkanime.net/taiho-shichau-zo/27/",
+        "https://jkanime.net/taiho-shichau-zo/28/",
         "https://jkanime.net/taiho-shichau-zo/3/",
         "https://jkanime.net/taiho-shichau-zo/4/"
       ],
@@ -237770,25 +237839,206 @@
         "https://jkanime.net/one-piece/1/",
         "https://jkanime.net/one-piece/10/",
         "https://jkanime.net/one-piece/100/",
+        "https://jkanime.net/one-piece/1000/",
+        "https://jkanime.net/one-piece/1001/",
+        "https://jkanime.net/one-piece/1002/",
+        "https://jkanime.net/one-piece/1003/",
+        "https://jkanime.net/one-piece/1004/",
+        "https://jkanime.net/one-piece/1005/",
+        "https://jkanime.net/one-piece/1006/",
+        "https://jkanime.net/one-piece/1007/",
+        "https://jkanime.net/one-piece/1008/",
+        "https://jkanime.net/one-piece/1009/",
         "https://jkanime.net/one-piece/101/",
+        "https://jkanime.net/one-piece/1010/",
+        "https://jkanime.net/one-piece/1011/",
+        "https://jkanime.net/one-piece/1012/",
+        "https://jkanime.net/one-piece/1013/",
+        "https://jkanime.net/one-piece/1014/",
+        "https://jkanime.net/one-piece/1015/",
+        "https://jkanime.net/one-piece/1016/",
+        "https://jkanime.net/one-piece/1017/",
+        "https://jkanime.net/one-piece/1018/",
+        "https://jkanime.net/one-piece/1019/",
         "https://jkanime.net/one-piece/102/",
+        "https://jkanime.net/one-piece/1020/",
+        "https://jkanime.net/one-piece/1021/",
+        "https://jkanime.net/one-piece/1022/",
+        "https://jkanime.net/one-piece/1023/",
+        "https://jkanime.net/one-piece/1024/",
+        "https://jkanime.net/one-piece/1025/",
+        "https://jkanime.net/one-piece/1026/",
+        "https://jkanime.net/one-piece/1027/",
+        "https://jkanime.net/one-piece/1028/",
+        "https://jkanime.net/one-piece/1029/",
         "https://jkanime.net/one-piece/103/",
+        "https://jkanime.net/one-piece/1030/",
+        "https://jkanime.net/one-piece/1031/",
+        "https://jkanime.net/one-piece/1032/",
+        "https://jkanime.net/one-piece/1033/",
+        "https://jkanime.net/one-piece/1034/",
+        "https://jkanime.net/one-piece/1035/",
+        "https://jkanime.net/one-piece/1036/",
+        "https://jkanime.net/one-piece/1037/",
+        "https://jkanime.net/one-piece/1038/",
+        "https://jkanime.net/one-piece/1039/",
         "https://jkanime.net/one-piece/104/",
+        "https://jkanime.net/one-piece/1040/",
+        "https://jkanime.net/one-piece/1041/",
+        "https://jkanime.net/one-piece/1042/",
+        "https://jkanime.net/one-piece/1043/",
+        "https://jkanime.net/one-piece/1044/",
+        "https://jkanime.net/one-piece/1045/",
+        "https://jkanime.net/one-piece/1046/",
+        "https://jkanime.net/one-piece/1047/",
+        "https://jkanime.net/one-piece/1048/",
+        "https://jkanime.net/one-piece/1049/",
         "https://jkanime.net/one-piece/105/",
+        "https://jkanime.net/one-piece/1050/",
+        "https://jkanime.net/one-piece/1051/",
+        "https://jkanime.net/one-piece/1052/",
+        "https://jkanime.net/one-piece/1053/",
+        "https://jkanime.net/one-piece/1054/",
+        "https://jkanime.net/one-piece/1055/",
+        "https://jkanime.net/one-piece/1056/",
+        "https://jkanime.net/one-piece/1057/",
+        "https://jkanime.net/one-piece/1058/",
+        "https://jkanime.net/one-piece/1059/",
         "https://jkanime.net/one-piece/106/",
+        "https://jkanime.net/one-piece/1060/",
+        "https://jkanime.net/one-piece/1061/",
+        "https://jkanime.net/one-piece/1062/",
+        "https://jkanime.net/one-piece/1063/",
+        "https://jkanime.net/one-piece/1064/",
+        "https://jkanime.net/one-piece/1065/",
+        "https://jkanime.net/one-piece/1066/",
+        "https://jkanime.net/one-piece/1067/",
+        "https://jkanime.net/one-piece/1068/",
+        "https://jkanime.net/one-piece/1069/",
         "https://jkanime.net/one-piece/107/",
+        "https://jkanime.net/one-piece/1070/",
+        "https://jkanime.net/one-piece/1071/",
+        "https://jkanime.net/one-piece/1072/",
+        "https://jkanime.net/one-piece/1073/",
+        "https://jkanime.net/one-piece/1074/",
+        "https://jkanime.net/one-piece/1075/",
+        "https://jkanime.net/one-piece/1076/",
+        "https://jkanime.net/one-piece/1077/",
+        "https://jkanime.net/one-piece/1078/",
+        "https://jkanime.net/one-piece/1079/",
         "https://jkanime.net/one-piece/108/",
+        "https://jkanime.net/one-piece/1080/",
+        "https://jkanime.net/one-piece/1081/",
+        "https://jkanime.net/one-piece/1082/",
+        "https://jkanime.net/one-piece/1083/",
+        "https://jkanime.net/one-piece/1084/",
+        "https://jkanime.net/one-piece/1085/",
+        "https://jkanime.net/one-piece/1086/",
+        "https://jkanime.net/one-piece/1087/",
+        "https://jkanime.net/one-piece/1088/",
+        "https://jkanime.net/one-piece/1089/",
         "https://jkanime.net/one-piece/109/",
+        "https://jkanime.net/one-piece/1090/",
+        "https://jkanime.net/one-piece/1091/",
+        "https://jkanime.net/one-piece/1092/",
+        "https://jkanime.net/one-piece/1093/",
+        "https://jkanime.net/one-piece/1094/",
+        "https://jkanime.net/one-piece/1095/",
+        "https://jkanime.net/one-piece/1096/",
+        "https://jkanime.net/one-piece/1097/",
+        "https://jkanime.net/one-piece/1098/",
+        "https://jkanime.net/one-piece/1099/",
         "https://jkanime.net/one-piece/11/",
         "https://jkanime.net/one-piece/110/",
+        "https://jkanime.net/one-piece/1100/",
+        "https://jkanime.net/one-piece/1101/",
+        "https://jkanime.net/one-piece/1102/",
+        "https://jkanime.net/one-piece/1103/",
+        "https://jkanime.net/one-piece/1104/",
+        "https://jkanime.net/one-piece/1105/",
+        "https://jkanime.net/one-piece/1106/",
+        "https://jkanime.net/one-piece/1107/",
+        "https://jkanime.net/one-piece/1108/",
+        "https://jkanime.net/one-piece/1109/",
         "https://jkanime.net/one-piece/111/",
+        "https://jkanime.net/one-piece/1110/",
+        "https://jkanime.net/one-piece/1111/",
+        "https://jkanime.net/one-piece/1112/",
+        "https://jkanime.net/one-piece/1113/",
+        "https://jkanime.net/one-piece/1114/",
+        "https://jkanime.net/one-piece/1115/",
+        "https://jkanime.net/one-piece/1116/",
+        "https://jkanime.net/one-piece/1117/",
+        "https://jkanime.net/one-piece/1118/",
+        "https://jkanime.net/one-piece/1119/",
         "https://jkanime.net/one-piece/112/",
+        "https://jkanime.net/one-piece/1120/",
+        "https://jkanime.net/one-piece/1121/",
+        "https://jkanime.net/one-piece/1122/",
+        "https://jkanime.net/one-piece/1123/",
+        "https://jkanime.net/one-piece/1124/",
+        "https://jkanime.net/one-piece/1125/",
+        "https://jkanime.net/one-piece/1126/",
+        "https://jkanime.net/one-piece/1127/",
+        "https://jkanime.net/one-piece/1128/",
+        "https://jkanime.net/one-piece/1129/",
         "https://jkanime.net/one-piece/113/",
+        "https://jkanime.net/one-piece/1130/",
+        "https://jkanime.net/one-piece/1131/",
+        "https://jkanime.net/one-piece/1132/",
+        "https://jkanime.net/one-piece/1133/",
+        "https://jkanime.net/one-piece/1134/",
+        "https://jkanime.net/one-piece/1135/",
+        "https://jkanime.net/one-piece/1136/",
+        "https://jkanime.net/one-piece/1137/",
+        "https://jkanime.net/one-piece/1138/",
+        "https://jkanime.net/one-piece/1139/",
         "https://jkanime.net/one-piece/114/",
+        "https://jkanime.net/one-piece/1140/",
+        "https://jkanime.net/one-piece/1141/",
+        "https://jkanime.net/one-piece/1142/",
+        "https://jkanime.net/one-piece/1143/",
+        "https://jkanime.net/one-piece/1144/",
+        "https://jkanime.net/one-piece/1145/",
+        "https://jkanime.net/one-piece/1146/",
+        "https://jkanime.net/one-piece/1147/",
+        "https://jkanime.net/one-piece/1148/",
+        "https://jkanime.net/one-piece/1149/",
         "https://jkanime.net/one-piece/115/",
+        "https://jkanime.net/one-piece/1150/",
+        "https://jkanime.net/one-piece/1151/",
+        "https://jkanime.net/one-piece/1152/",
+        "https://jkanime.net/one-piece/1153/",
+        "https://jkanime.net/one-piece/1154/",
+        "https://jkanime.net/one-piece/1155/",
+        "https://jkanime.net/one-piece/1156/",
+        "https://jkanime.net/one-piece/1157/",
+        "https://jkanime.net/one-piece/1158/",
+        "https://jkanime.net/one-piece/1159/",
         "https://jkanime.net/one-piece/116/",
+        "https://jkanime.net/one-piece/1160/",
+        "https://jkanime.net/one-piece/1161/",
+        "https://jkanime.net/one-piece/1162/",
+        "https://jkanime.net/one-piece/1163/",
+        "https://jkanime.net/one-piece/1164/",
+        "https://jkanime.net/one-piece/1165/",
+        "https://jkanime.net/one-piece/1166/",
+        "https://jkanime.net/one-piece/1167/",
+        "https://jkanime.net/one-piece/1168/",
+        "https://jkanime.net/one-piece/1169/",
         "https://jkanime.net/one-piece/117/",
+        "https://jkanime.net/one-piece/1170/",
+        "https://jkanime.net/one-piece/1171/",
+        "https://jkanime.net/one-piece/1172/",
+        "https://jkanime.net/one-piece/1173/",
+        "https://jkanime.net/one-piece/1174/",
+        "https://jkanime.net/one-piece/1175/",
+        "https://jkanime.net/one-piece/1176/",
+        "https://jkanime.net/one-piece/1177/",
+        "https://jkanime.net/one-piece/1178/",
+        "https://jkanime.net/one-piece/1179/",
         "https://jkanime.net/one-piece/118/",
+        "https://jkanime.net/one-piece/1180/",
         "https://jkanime.net/one-piece/119/",
         "https://jkanime.net/one-piece/12/",
         "https://jkanime.net/one-piece/120/",
@@ -238742,8 +238992,30 @@
         "https://jkanime.net/one-piece/975/",
         "https://jkanime.net/one-piece/976/",
         "https://jkanime.net/one-piece/977/",
+        "https://jkanime.net/one-piece/978/",
+        "https://jkanime.net/one-piece/979/",
         "https://jkanime.net/one-piece/98/",
-        "https://jkanime.net/one-piece/99/"
+        "https://jkanime.net/one-piece/980/",
+        "https://jkanime.net/one-piece/981/",
+        "https://jkanime.net/one-piece/982/",
+        "https://jkanime.net/one-piece/983/",
+        "https://jkanime.net/one-piece/984/",
+        "https://jkanime.net/one-piece/985/",
+        "https://jkanime.net/one-piece/986/",
+        "https://jkanime.net/one-piece/987/",
+        "https://jkanime.net/one-piece/988/",
+        "https://jkanime.net/one-piece/989/",
+        "https://jkanime.net/one-piece/99/",
+        "https://jkanime.net/one-piece/990/",
+        "https://jkanime.net/one-piece/991/",
+        "https://jkanime.net/one-piece/992/",
+        "https://jkanime.net/one-piece/993/",
+        "https://jkanime.net/one-piece/994/",
+        "https://jkanime.net/one-piece/995/",
+        "https://jkanime.net/one-piece/996/",
+        "https://jkanime.net/one-piece/997/",
+        "https://jkanime.net/one-piece/998/",
+        "https://jkanime.net/one-piece/999/"
       ],
       "noIndependent": [],
       "renewalFailed": 14,
