@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-07T02:36:11.101613+00:00",
-  "failedChapters": 56579,
+  "checkedAt": "2026-11-07T02:54:00.458306+00:00",
+  "failedChapters": 56578,
   "series": 4098,
   "diagnosedSeries": 4046,
   "pendingSeries": 52,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 316,
+    "ValueError: No approved observations; previous channel retained": 315,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -103110,7 +103110,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794018557.692008
+      "nextRetryAt": 1794029879.4226992
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -106616,19 +106616,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793403585.0032098
-    },
-    {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793930448.6680424
     },
     {
       "series": "https://jkanime.net/tsukimonogatari/",
@@ -110770,6 +110757,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793357190.3788824
+    },
+    {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793930448.6680424
     },
     {
       "series": "https://jkanime.net/uma-musume-pretty-derby-bnw-no-chikai/",
@@ -119864,18 +119864,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793455635.8770013
-    },
-    {
-      "series": "https://jkanime.net/classic-stars/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/classic-stars/1/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794016017.8361247
     },
     {
       "series": "https://jkanime.net/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou/",
@@ -139091,6 +139079,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/sayonara-lara/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/sayonara-lara/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794021709.4572453
     }
   ]
 }

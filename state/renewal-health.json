@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-07T02:36:11.101613+00:00",
+  "checkedAt": "2026-11-07T02:54:00.458306+00:00",
   "episodes": 73066,
-  "oldestHours": 278.04,
-  "pending": 72683,
-  "expired": 62013,
-  "expiresWithin24Hours": 71965,
-  "retryAfterExpiry": 1621,
+  "oldestHours": 278.33,
+  "pending": 72684,
+  "expired": 62353,
+  "expiresWithin24Hours": 71978,
+  "retryAfterExpiry": 1620,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1429.8,
-  "measuredWallClockPerHour": 291.65,
+  "sampleMinutes": 1429.67,
+  "measuredWallClockPerHour": 291.68,
   "estimatedSweepDays": 10.44,
   "capacityStatus": "behind",
   "datesInvented": false,
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -881,12 +881,12 @@
     "pendingSeries": 52
   },
   "coverage": {
-    "checkedAt": "2026-11-07T02:36:11.101613+00:00",
+    "checkedAt": "2026-11-07T02:54:00.458306+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73066,
     "missingChapters": 510,
-    "expiredChapters": 62013,
+    "expiredChapters": 62353,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,
