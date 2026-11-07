@@ -1,8 +1,8 @@
 ﻿title,series,causes,observed,stored,missing,expired,renewalFailed,sideOnly
-Ao Ashi,https://jkanime.net/ao-ashi/,expired-observation | renewal-error,24,24,0,23,4,0
+Ao Ashi,https://jkanime.net/ao-ashi/,expired-observation | renewal-error,24,24,0,24,4,0
 Megalo Box,https://jkanime.net/megalo-box/,expired-observation,13,13,0,13,0,0
 Danmachi,https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka/,observed-chapters-without-options | expired-observation | renewal-error,13,1,12,1,13,0
-Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,expired-observation | renewal-error,10,10,0,5,1,0
+Cyberpunk: Edgerunners 2,https://jkanime.net/cyberpunk-edgerunners-2/,expired-observation,10,10,0,5,0,0
 Kaijuu 8-gou: Narumi no Heijitsu,https://jkanime.net/kaijuu-8-gou-narumi-no-heijitsu/,expired-observation,4,4,0,4,0,0
 The Ribbon Hero,https://jkanime.net/the-ribbon-hero/,,1,1,0,0,0,0
 Boku no Hero Academia: I Am a Hero Too,https://jkanime.net/boku-no-hero-academia-i-am-a-hero-too/,expired-observation,1,1,0,1,0,0
@@ -26,7 +26,7 @@ Tai-Ari deshita.: Ojousama wa Kakutou Game nante Shinai,https://jkanime.net/tai-
 Yoroi Shin Den Samurai Troopers Part 2,https://jkanime.net/yoroi-shin-den-samurai-troopers-part-2/,expired-observation | renewal-error,12,12,0,6,12,0
 Mushoku Tensei III: Isekai Ittara Honki Dasu,https://jkanime.net/mushoku-tensei-iii-isekai-ittara-honki-dasu/,expired-observation,14,14,0,14,0,0
 "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",https://jkanime.net/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii/,expired-observation,12,12,0,12,0,0
-Sayonara Lara,https://jkanime.net/sayonara-lara/,expired-observation | renewal-error,12,12,0,12,1,0
+Sayonara Lara,https://jkanime.net/sayonara-lara/,expired-observation,12,12,0,12,0,0
 "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",https://jkanime.net/toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita/,expired-observation,12,12,0,12,0,0
 Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.,https://jkanime.net/koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita/,expired-observation,12,12,0,12,0,0
 Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu,https://jkanime.net/buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu/,expired-observation | renewal-error,12,12,0,4,4,0
@@ -386,12 +386,12 @@ Mizu Zokusei no Mahoutsukai,https://jkanime.net/mizu-zokusei-no-mahoutsukai/,exp
 Arknights: Rise from Ember,https://jkanime.net/arknights-rise-from-ember/,expired-observation,10,10,0,10,0,0
 Busu ni Hanataba wo.,https://jkanime.net/busu-ni-hanataba-wo/,expired-observation,13,13,0,13,0,0
 Tsuyokute New Saga,https://jkanime.net/tsuyokute-new-saga/,expired-observation,12,12,0,12,0,0
-Tsuihousha Shokudou e Youkoso!,https://jkanime.net/tsuihousha-shokudou-e-youkoso/,expired-observation | renewal-error,12,12,0,12,5,0
+Tsuihousha Shokudou e Youkoso!,https://jkanime.net/tsuihousha-shokudou-e-youkoso/,expired-observation | renewal-error,12,12,0,12,4,0
 Onmyou Kaiten Re:Birth,https://jkanime.net/onmyou-kaiten-rebirth/,expired-observation,12,12,0,12,0,0
 Kamitsubaki-shi Kensetsuchuu.,https://jkanime.net/kamitsubaki-shi-kensetsuchuu/,no-observed-listing,0,0,0,0,0,0
 Ginga Tokkyuu Milky☆Subway,https://jkanime.net/ginga-tokkyuu-milkysubway/,expired-observation | renewal-error,12,12,0,12,12,0
 Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha,https://jkanime.net/clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha/,expired-observation,12,12,0,12,0,0
-Jigoku Sensei Nube (2025),https://jkanime.net/jigoku-sensei-nube-2025/,expired-observation,26,26,0,19,0,0
+Jigoku Sensei Nube (2025),https://jkanime.net/jigoku-sensei-nube-2025/,expired-observation,26,26,0,22,0,0
 Hitozuma no Kuchibiru wa Kan Chuuhai no Aji ga Shite,https://jkanime.net/hitozuma-no-kuchibiru-wa-kan-chuuhai-no-aji-ga-shite/,expired-observation | renewal-error,8,8,0,8,8,0
 Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 2nd Season,https://jkanime.net/jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season/,expired-observation,12,12,0,12,0,0
 "Kanojo, Okarishimasu 4th Season",https://jkanime.net/kanojo-okarishimasu-4th-season/,expired-observation,12,12,0,12,0,0
@@ -453,7 +453,7 @@ Enen no Shouboutai: San no Shou,https://jkanime.net/enen-no-shouboutai-san-no-sh
 "Katainaka no Ossan, Kensei ni Naru",https://jkanime.net/katainaka-no-ossan-kensei-ni-naru/,expired-observation | renewal-error,12,12,0,12,1,0
 Kuroshitsuji: Midori no Majo-hen,https://jkanime.net/kuroshitsuji-midori-no-majo-hen/,expired-observation,13,13,0,13,0,0
 Kowloon Generic Romance,https://jkanime.net/kowloon-generic-romance/,expired-observation,13,13,0,13,0,0
-Anne Shirley,https://jkanime.net/anne-shirley/,expired-observation | renewal-error,24,24,0,24,1,0
+Anne Shirley,https://jkanime.net/anne-shirley/,expired-observation | renewal-error,24,24,0,24,2,0
 Guilty Gear Strive: Dual Rulers,https://jkanime.net/guilty-gear-strive-dual-rulers/,expired-observation | renewal-error,8,8,0,8,1,0
 Shin Samurai-den Yaiba,https://jkanime.net/shin-samurai-den-yaiba/,expired-observation | renewal-error,24,24,0,24,6,0
 Everyday Host,https://jkanime.net/everyday-host/,expired-observation | renewal-error,24,24,0,24,24,0
@@ -501,7 +501,7 @@ Kusuriya no Hitorigoto 2nd Season,https://jkanime.net/kusuriya-no-hitorigoto-2nd
 Nihon e Youkoso Elf-san.,https://jkanime.net/nihon-e-youkoso-elf-san/,expired-observation | renewal-error,12,12,0,12,2,0
 "Douse, Koishite Shimaunda.",https://jkanime.net/douse-koishite-shimaunda/,expired-observation | renewal-error,24,24,0,23,1,0
 Farmagia,https://jkanime.net/farmagia/,expired-observation,12,12,0,12,0,0
-Dr. Stone: Science Future,https://jkanime.net/dr-stone-science-future/,expired-observation | renewal-error,37,37,0,32,6,0
+Dr. Stone: Science Future,https://jkanime.net/dr-stone-science-future/,expired-observation | renewal-error,37,37,0,33,6,0
 Akuyaku Reijou Tensei Ojisan,https://jkanime.net/akuyaku-reijou-tensei-ojisan/,expired-observation | renewal-error,12,12,0,12,12,0
 "Fuguushoku ""Kanteishi"" ga Jitsu wa Saikyou Datta",https://jkanime.net/fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta/,expired-observation | renewal-error,12,12,0,12,1,0
 Around 40 Otoko no Isekai Tsuuhan,https://jkanime.net/around-40-otoko-no-isekai-tsuuhan/,expired-observation | renewal-error,13,13,0,13,1,0
@@ -593,7 +593,7 @@ Ooi! Tonbo 2nd Season,https://jkanime.net/ooi-tonbo-2nd-season/,expired-observat
 Hu He Yao Shi Lu,https://jkanime.net/hu-he-yao-shi-lu/,expired-observation | renewal-error,24,24,0,24,24,0
 Sword Art Online Alternative: Gun Gale Online II,https://jkanime.net/sword-art-online-alternative-gun-gale-online-ii/,expired-observation | renewal-error,12,12,0,9,9,0
 Goukon ni Ittara Onna ga Inakatta Hanashi,https://jkanime.net/goukon-ni-ittara-onna-ga-inakatta-hanashi/,expired-observation | renewal-error,12,12,0,9,9,0
-Kabushikigaisha Magi-Lumière,https://jkanime.net/kabushikigaisha-magi-lumire/,expired-observation | renewal-error,12,12,0,12,4,0
+Kabushikigaisha Magi-Lumière,https://jkanime.net/kabushikigaisha-magi-lumire/,expired-observation | renewal-error,12,12,0,12,6,0
 Hamidashi Creative,https://jkanime.net/hamidashi-creative/,expired-observation | renewal-error,12,12,0,12,12,0
 The iDOLM@STER Shiny Colors 2nd Season,https://jkanime.net/the-idolmster-shiny-colors-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Ya She,https://jkanime.net/ya-she/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -619,7 +619,7 @@ Amagami-san Chi no Enmusubi,https://jkanime.net/amagami-san-chi-no-enmusubi/,exp
 Rekishi ni Nokoru Akujo ni Naru zo,https://jkanime.net/rekishi-ni-nokoru-akujo-ni-naru-zo/,expired-observation,13,13,0,1,0,0
 "Saikyou no Shienshoku ""Wajutsushi"" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",https://jkanime.net/saikyou-no-shienshoku-wajutsushi-de-aru-ore-wa-sekai-saikyou-clan-wo-shitagaeru/,expired-observation,12,12,0,1,0,0
 "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru-2nd-season/,expired-observation | renewal-error,12,12,0,11,1,0
-Nageki no Bourei wa Intai shitai,https://jkanime.net/nageki-no-bourei-wa-intai-shitai/,expired-observation,24,24,0,1,0,0
+Nageki no Bourei wa Intai shitai,https://jkanime.net/nageki-no-bourei-wa-intai-shitai/,expired-observation,24,24,0,4,0,0
 "Maou-sama, Retry! R",https://jkanime.net/maou-sama-retry-r/,,12,12,0,0,0,0
 Uzumaki,https://jkanime.net/uzumaki/,expired-observation | renewal-error,4,4,0,4,2,0
 Hitoribocchi no Isekai Kouryaku,https://jkanime.net/hitoribocchi-no-isekai-kouryaku/,,12,12,0,0,0,0
@@ -1131,7 +1131,7 @@ Vinland Saga Season 2,https://jkanime.net/vinland-saga-season-2/,expired-observa
 "Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",https://jkanime.net/eiyuuou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi/,expired-observation | renewal-error,12,12,0,12,12,0
 Ayakashi Triangle,https://jkanime.net/ayakashi-triangle/,expired-observation | renewal-error,12,12,0,12,12,0
 Kyuuketsuki Sugu Shinu 2,https://jkanime.net/kyuuketsuki-sugu-shinu-2/,expired-observation | renewal-error,12,12,0,12,12,0
-High Card,https://jkanime.net/high-card/,expired-observation | renewal-error,25,24,0,19,10,1
+High Card,https://jkanime.net/high-card/,expired-observation | renewal-error,25,24,0,20,10,1
 Mononogatari,https://jkanime.net/mononogatari/,expired-observation,12,12,0,12,0,0
 Kyokou Suiri Season 2,https://jkanime.net/kyokou-suiri-season-2/,expired-observation | renewal-error,12,12,0,12,12,0
 Kami-tachi ni Hirowareta Otoko 2nd Season,https://jkanime.net/kami-tachi-ni-hirowareta-otoko-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -1197,7 +1197,7 @@ Urusei Yatsura (2022),https://jkanime.net/urusei-yatsura-2022/,expired-observati
 Aru Asa Dummy Head Mic ni Natteita Ore-kun no Jinsei,https://jkanime.net/aru-asa-dummy-head-mic-ni-natteita-ore-kun-no-jinsei/,expired-observation,12,12,0,12,0,0
 Chainsaw Man,https://jkanime.net/chainsaw-man/,expired-observation | renewal-error,12,12,0,12,12,0
 Renai Flops,https://jkanime.net/renai-flops/,expired-observation | renewal-error,12,12,0,12,12,0
-Bleach: Sennen Kessen-hen,https://jkanime.net/bleach-sennen-kessen-hen/,observed-chapters-without-options | expired-observation | renewal-error,50,36,14,29,29,0
+Bleach: Sennen Kessen-hen,https://jkanime.net/bleach-sennen-kessen-hen/,observed-chapters-without-options | expired-observation | renewal-error,50,36,14,34,29,0
 Cool Doji Danshi,https://jkanime.net/cool-doji-danshi/,expired-observation | renewal-error,24,24,0,24,15,0
 Eternal Boys,https://jkanime.net/eternal-boys/,expired-observation | renewal-error,24,24,0,24,24,0
 Peter Grill to Kenja no Jikan: Super Extra,https://jkanime.net/peter-grill-to-kenja-no-jikan-super-extra/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -1429,7 +1429,7 @@ Kanashiki Debu Neko-chan,https://jkanime.net/kanashiki-debu-neko-chan/,expired-o
 Kimetsu no Yaiba: Yuukaku-hen,https://jkanime.net/kimetsu-no-yaiba-yuukaku-hen/,expired-observation | renewal-error,11,11,0,11,11,0
 Da Wang Rao Ming,https://jkanime.net/da-wang-rao-ming/,expired-observation | renewal-error,12,12,0,12,12,0
 Hula Fulla Dance,https://jkanime.net/hula-fulla-dance/,renewal-error,1,0,0,0,1,1
-JoJo no Kimyou na Bouken Part 6: Stone Ocean,https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/,expired-observation | renewal-error,38,19,0,17,9,19
+JoJo no Kimyou na Bouken Part 6: Stone Ocean,https://jkanime.net/jojo-no-kimyou-na-bouken-part-6-stone-ocean/,expired-observation | renewal-error,38,19,0,18,9,19
 Given: Uragawa no Sonzai,https://jkanime.net/given-uragawa-no-sonzai/,expired-observation | renewal-error,1,1,0,1,1,0
 Jian Yu Feng Yun,https://jkanime.net/jian-yu-feng-yun/,expired-observation | renewal-error,40,40,0,40,40,0
 Summer Ghost,https://jkanime.net/summer-ghost/,expired-observation | renewal-error,1,1,0,1,1,0
@@ -1451,7 +1451,7 @@ Build Divide: Code Black,https://jkanime.net/build-divide-code-black/,expired-ob
 Senpai ga Uzai Kouhai no Hanashi,https://jkanime.net/senpai-ga-uzai-kouhai-no-hanashi/,expired-observation | renewal-error,12,12,0,12,12,0
 World Trigger 3rd Season,https://jkanime.net/world-trigger-3rd-season/,expired-observation | renewal-error,14,14,0,14,14,0
 Shikizakura,https://jkanime.net/shikizakura/,expired-observation | renewal-error,12,12,0,12,12,0
-Kimetsu no Yaiba: Mugen Ressha-hen,https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/,expired-observation | renewal-error,7,7,0,7,4,0
+Kimetsu no Yaiba: Mugen Ressha-hen,https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/,expired-observation | renewal-error,7,7,0,7,5,0
 Kamiarizuki no Kodomo,https://jkanime.net/kamiarizuki-no-kodomo/,renewal-error,1,1,0,0,1,0
 Dakaretai Otoko 1-i ni Odosarete Imasu. Movie: Spain-hen,https://jkanime.net/dakaretai-otoko-1-i-ni-odosarete-imasu-movie-spain-hen/,expired-observation,1,1,0,1,0,0
 Saihate no Paladin,https://jkanime.net/saihate-no-paladin/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -2061,7 +2061,7 @@ Otona no Bouguya-san (Rimen),https://jkanime.net/otona-no-bouguya-san-rimen/,exp
 Code Geass: Fukkatsu no Lelouch,https://jkanime.net/code-geass-fukkatsu-no-lelouch/,renewal-error,1,1,0,0,1,0
 Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Movie: Orion no Ya,https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-movie-orion-no-ya/,expired-observation,1,1,0,1,0,0
 Psycho-Pass: Sinners of the System Case.2 - First Guardian,https://jkanime.net/psycho-pass-sinners-of-the-system-case2-first-guardian/,expired-observation | renewal-error,1,1,0,1,1,0
-Fight League: Gear Gadget Generators,https://jkanime.net/fight-league-gear-gadget-generators/,observed-chapters-without-options | expired-observation | renewal-error,26,12,14,9,14,0
+Fight League: Gear Gadget Generators,https://jkanime.net/fight-league-gear-gadget-generators/,observed-chapters-without-options | expired-observation | renewal-error,26,12,14,11,14,0
 Oushitsu Kyoushi Heine Movie,https://jkanime.net/oushitsu-kyoushi-heine-movie/,,1,0,0,0,0,1
 Piano no Mori (TV) 2nd Season,https://jkanime.net/piano-no-mori-tv-2nd-season/,expired-observation | renewal-error,12,12,0,12,12,0
 Youjo Senki Movie: Manner Eizou,https://jkanime.net/youjo-senki-movie-manner-eizou/,renewal-error,1,1,0,0,1,0
@@ -2469,7 +2469,7 @@ Fukumenkei Noise,https://jkanime.net/fukumenkei-noise/,expired-observation | ren
 Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?,https://jkanime.net/shuumatsu-nani-shitemasu-ka-isogashii-desu-ka-sukutte-moratte-ii-desu-ka/,expired-observation | renewal-error,12,12,0,12,12,0
 Natsume Yuujinchou Roku,https://jkanime.net/natsume-yuujinchou-roku/,expired-observation | renewal-error,11,11,0,11,11,0
 Zero kara Hajimeru Mahou no Sho,https://jkanime.net/zero-kara-hajimeru-mahou-no-sho/,expired-observation | renewal-error,12,12,0,12,12,0
-ID-0,https://jkanime.net/id-0/,observed-chapters-without-options | renewal-error,12,1,11,0,11,0
+ID-0,https://jkanime.net/id-0/,observed-chapters-without-options | expired-observation | renewal-error,12,1,11,1,11,0
 Kyoukai no Rinne (TV) 3rd Season,https://jkanime.net/kyoukai-no-rinne-tv-3rd-season/,expired-observation | renewal-error,25,25,0,25,25,0
 Re:Creators,https://jkanime.net/recreators/,expired-observation | renewal-error,22,22,0,22,22,0
 Eromanga-sensei,https://jkanime.net/eromanga-sensei/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -2600,7 +2600,7 @@ Bungou Stray Dogs 2nd Season,https://jkanime.net/bungou-stray-dogs-2nd-season/,e
 Anitore! XX,https://jkanime.net/anitore-xx/,expired-observation | renewal-error,12,12,0,12,3,0
 Yuri!!! on Ice,https://jkanime.net/yuri-on-ice/,expired-observation | renewal-error,12,12,0,12,12,0
 Hibike! Euphonium 2,https://jkanime.net/hibike-euphonium-2/,expired-observation | renewal-error,13,13,0,13,13,0
-Mahou Shoujo Nante Mou Ii Desukara. 2nd Season,https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/,expired-observation,12,12,0,11,0,0
+Mahou Shoujo Nante Mou Ii Desukara. 2nd Season,https://jkanime.net/mahou-shoujo-nante-mou-ii-desukara-2nd-season/,expired-observation,12,12,0,12,0,0
 Cheating Craft,https://jkanime.net/cheating-craft/,expired-observation,12,12,0,12,0,0
 To Be Hero,https://jkanime.net/to-be-hero/,expired-observation | renewal-error,12,12,0,12,12,0
 Musaigen no Phantom World Special,https://jkanime.net/musaigen-no-phantom-world-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
@@ -2812,7 +2812,7 @@ Reikenzan: Hoshikuzu-tachi no Utage,https://jkanime.net/reikenzan-hoshikuzu-tach
 "Gate: Jieitai Kanochi nite, Kaku Tatakaeri - Enryuu-hen",https://jkanime.net/gate-jieitai-kanochi-nite-kaku-tatakaeri-enryuu-hen/,expired-observation | renewal-error,12,12,0,12,12,0
 Shouwa Genroku Rakugo Shinjuu,https://jkanime.net/shouwa-genroku-rakugo-shinjuu/,expired-observation | renewal-error,13,13,0,13,13,0
 Active Raid: Kidou Kyoushuushitsu Dai Hakkei,https://jkanime.net/active-raid-kidou-kyoushuushitsu-dai-hakkei/,expired-observation | renewal-error,12,12,0,12,2,0
-Norn9: Norn+Nonet,https://jkanime.net/norn9-nornnonet/,observed-chapters-without-options | expired-observation | renewal-error,12,8,4,4,4,0
+Norn9: Norn+Nonet,https://jkanime.net/norn9-nornnonet/,observed-chapters-without-options | expired-observation | renewal-error,12,8,4,5,4,0
 Shoujo-tachi wa Kouya wo Mezasu,https://jkanime.net/shoujo-tachi-wa-kouya-wo-mezasu/,expired-observation | renewal-error,12,12,0,12,12,0
 Boku dake ga Inai Machi,https://jkanime.net/boku-dake-ga-inai-machi/,expired-observation | renewal-error,12,12,0,12,12,0
 Ansatsu Kyoushitsu (TV) 2nd Season,https://jkanime.net/ansatsu-kyoushitsu-tv-2nd-season/,expired-observation | renewal-error,25,25,0,25,18,0
@@ -2997,7 +2997,7 @@ Etotama Specials,https://jkanime.net/etotama-specials/,observed-chapters-without
 Ansatsu Kyoushitsu (TV): Deai no Jikan,https://jkanime.net/ansatsu-kyoushitsu-tv-deai-no-jikan/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
 Grisaia no Rakuen,https://jkanime.net/grisaia-no-rakuen/,expired-observation | renewal-error,10,10,0,10,10,0
 Dragon Ball Z Movie 15: Fukkatsu no F,https://jkanime.net/dragon-ball-z-movie-15-fukkatsu-no-f/,renewal-error,1,1,0,0,1,0
-Ninja Slayer From Animation,https://jkanime.net/ninja-slayer-from-animation/,expired-observation,26,21,0,17,0,5
+Ninja Slayer From Animation,https://jkanime.net/ninja-slayer-from-animation/,expired-observation,26,21,0,19,0,5
 K: Missing Kings,https://jkanime.net/k-missing-kings/,expired-observation,1,1,0,1,0,0
 Kyoukai no Kanata Movie: I´ll Be Here - Kako-hen,https://jkanime.net/kyoukai-no-kanata-movie-ill-be-here-kako-hen/,renewal-error,1,1,0,0,1,0
 Yamada-kun to 7-nin no Majo (TV),https://jkanime.net/yamada-kun-to-7-nin-no-majo-tv/,expired-observation | renewal-error,12,12,0,12,2,0
@@ -3411,7 +3411,7 @@ Witch Craft Works,https://jkanime.net/witch-craft-works/,expired-observation | r
 Neppuu Kairiku Bushi Road,https://jkanime.net/neppuu-kairiku-bushi-road/,,1,0,0,0,0,1
 Pokemon XY: New Year Special,https://jkanime.net/pokemon-xy-new-year-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
 Sword Art Online: Extra Edition,https://jkanime.net/sword-art-online-extra-edition/,expired-observation,1,1,0,1,0,0
-Ansatsu Kyoushitsu,https://jkanime.net/ansatsu-kyoushitsu/,observed-chapters-without-options | expired-observation | renewal-error,22,2,20,1,20,0
+Ansatsu Kyoushitsu,https://jkanime.net/ansatsu-kyoushitsu/,observed-chapters-without-options | expired-observation | renewal-error,22,2,20,2,20,0
 Zetsumetsu Kigu Shoujo: Amazing Twins,https://jkanime.net/zetsumetsu-kigu-shoujo-amazing-twins/,expired-observation | renewal-error,2,2,0,2,1,0
 Buddy Complex,https://jkanime.net/buddy-complex/,expired-observation | renewal-error,13,13,0,13,13,0
 Majokko Shimai no Yoyo to Nene,https://jkanime.net/majokko-shimai-no-yoyo-to-nene/,,1,0,0,0,0,1
@@ -4217,7 +4217,7 @@ Kyou no Go no Ni (2008),https://jkanime.net/kyou-no-go-no-ni-2008/,expired-obser
 Ga-Rei: Zero,https://jkanime.net/ga-rei-zero/,expired-observation | renewal-error,12,12,0,12,12,0
 Mobile Suit Gundam 00 S2,https://jkanime.net/mobile-suit-gundam-00-second-season/,expired-observation,25,25,0,25,0,0
 Inazuma Eleven,https://jkanime.net/inazuma-eleven/,expired-observation | renewal-error,127,127,0,127,126,0
-Shugo Chara!! Doki,https://jkanime.net/shugo-chara-doki/,expired-observation | renewal-error,51,51,0,11,8,0
+Shugo Chara!! Doki,https://jkanime.net/shugo-chara-doki/,expired-observation | renewal-error,51,51,0,51,8,0
 Jigoku Shoujo Mitsuganae,https://jkanime.net/jigoku-shoujo-mitsuganae/,expired-observation | renewal-error,26,26,0,26,26,0
 Toaru Majutsu no Index,https://jkanime.net/toaru-majutsu-no-index/,expired-observation | renewal-error,24,24,0,24,24,0
 Kannagi,https://jkanime.net/kannagi/,expired-observation | renewal-error,13,13,0,13,13,0
@@ -4235,8 +4235,8 @@ Detroit Metal City,https://jkanime.net/detroit-metal-city/,expired-observation |
 Naruto: Shippuuden Movie 2 - Kizuna,https://jkanime.net/naruto-shippuuden-movie-2-kizuna/,renewal-error,1,1,0,0,1,0
 Gake no Ue no Ponyo,https://jkanime.net/gake-no-ue-no-ponyo/,renewal-error,1,1,0,0,1,0
 "Clannad: Another World, Tomoyo Chapter",https://jkanime.net/clannad-another-world-tomoyo-chapter/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
-Blade of the Immortal,https://jkanime.net/blade-of-the-immortal/,expired-observation | renewal-error,13,13,0,4,4,0
-Natsume Yuujinchou,https://jkanime.net/natsume-yuujinchou/,expired-observation | renewal-error,13,13,0,10,10,0
+Blade of the Immortal,https://jkanime.net/blade-of-the-immortal/,expired-observation | renewal-error,13,13,0,13,4,0
+Natsume Yuujinchou,https://jkanime.net/natsume-yuujinchou/,expired-observation | renewal-error,13,13,0,13,10,0
 Zero no Tsukaima: Princesses no Rondo,https://jkanime.net/zero-no-tsukaima-princesses-no-rondo/,expired-observation | renewal-error,12,12,0,12,12,0
 Tetsuwan Birdy Decode,https://jkanime.net/tetsuwan-birdy-decode/,expired-observation | renewal-error,13,13,0,13,13,0
 Strike Witches,https://jkanime.net/strike-witches/,expired-observation | renewal-error,12,12,0,12,12,0
@@ -4245,18 +4245,18 @@ Mahoutsukai ni Taisetsu na Koto: Natsu no Sora,https://jkanime.net/mahoutsukai-n
 Sekirei,https://jkanime.net/sekirei/,expired-observation | renewal-error,12,12,0,12,12,0
 Ikkitousen: Great Guardians,https://jkanime.net/ikkitousen-great-guardians/,expired-observation | renewal-error,12,12,0,12,12,0
 Prince of Tennis: The National Tournament Finals,https://jkanime.net/prince-of-tennis-the-national-tournament-finals/,expired-observation | renewal-error,6,6,0,6,6,0
-Penguin Musume Heart,https://jkanime.net/penguin-musume-heart/,expired-observation | renewal-error,22,22,0,7,7,0
-Junjou Romantica,https://jkanime.net/junjou-romantica/,expired-observation | renewal-error,12,12,0,11,11,0
-Vampire Knight,https://jkanime.net/vampire-knight/,expired-observation | renewal-error,13,13,0,11,11,0
+Penguin Musume Heart,https://jkanime.net/penguin-musume-heart/,expired-observation | renewal-error,22,22,0,22,7,0
+Junjou Romantica,https://jkanime.net/junjou-romantica/,expired-observation | renewal-error,12,12,0,12,11,0
+Vampire Knight,https://jkanime.net/vampire-knight/,expired-observation | renewal-error,13,13,0,13,11,0
 Soul Eater,https://jkanime.net/soul-eater/,expired-observation | renewal-error,51,51,0,51,51,0
 Nabari no Ou,https://jkanime.net/nabari-no-ou/,expired-observation | renewal-error,26,26,0,26,26,0
-Zettai Karen Children,https://jkanime.net/zettai-karen-children/,expired-observation | renewal-error,52,51,0,22,22,1
+Zettai Karen Children,https://jkanime.net/zettai-karen-children/,expired-observation | renewal-error,52,51,0,51,22,1
 Neo Angelique Abyss,https://jkanime.net/neo-angelique-abyss/,expired-observation | renewal-error,13,13,0,13,13,0
 Code Geass: Hangyaku no Lelouch R2,https://jkanime.net/code-geass-hangyaku-no-lelouch-r2/,expired-observation,25,25,0,25,0,0
-Da Capo II Second Season,https://jkanime.net/da-capo-ii-second-season/,expired-observation | renewal-error,13,13,0,7,7,0
+Da Capo II Second Season,https://jkanime.net/da-capo-ii-second-season/,expired-observation | renewal-error,13,13,0,13,7,0
 Special A,https://jkanime.net/special-a/,expired-observation | renewal-error,24,24,0,24,24,0
 Kanokon,https://jkanime.net/kanokon/,expired-observation | renewal-error,12,12,0,12,12,0
-Kamen no Maid Guy,https://jkanime.net/kamen-no-maid-guy/,expired-observation | renewal-error,13,13,0,10,10,0
+Kamen no Maid Guy,https://jkanime.net/kamen-no-maid-guy/,expired-observation | renewal-error,13,13,0,13,10,0
 Itazura na Kiss,https://jkanime.net/itazura-na-kiss/,expired-observation | renewal-error,25,25,0,25,25,0
 Amatsuki,https://jkanime.net/amatsuki/,expired-observation | renewal-error,13,13,0,13,13,0
 xxxHOLiC Kei,https://jkanime.net/xxxholic-kei/,expired-observation | renewal-error,13,13,0,13,13,0
@@ -4271,7 +4271,7 @@ Baccano! Specials,https://jkanime.net/baccano-specials/,expired-observation | re
 Nodame Cantabile Special,https://jkanime.net/nodame-cantabile-special/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
 Kaibutsu Oujo: Konsui Oujo,https://jkanime.net/kaibutsu-oujo-konsui-oujo/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
 "Naruto: Shippuuden - Shippuu! ""Konoha Gakuen"" Den",https://jkanime.net/naruto-shippuuden-shippuu-konoha-gakuen-den/,observed-chapters-without-options | retained-redirect | renewal-error,1,0,1,0,1,0
-Yes! Precure 5 GoGo!,https://jkanime.net/yes-precure-5-gogo/,expired-observation | renewal-error,48,48,0,12,12,0
+Yes! Precure 5 GoGo!,https://jkanime.net/yes-precure-5-gogo/,expired-observation | renewal-error,48,48,0,48,12,0
 School Days: Valentine Days,https://jkanime.net/school-days-valentine-days/,expired-observation,1,1,0,1,0,0
 Yatterman,https://jkanime.net/yatterman/,expired-observation | renewal-error,60,60,0,60,60,0
 Spice and Wolf,https://jkanime.net/spice-and-wolf/,expired-observation | renewal-error,13,13,0,13,13,0
@@ -4295,7 +4295,7 @@ Kodomo no Jikan,https://jkanime.net/kodomo-no-jikan/,expired-observation | renew
 Genshiken 2,https://jkanime.net/genshiken-2/,expired-observation | renewal-error,12,12,0,12,12,0
 Prism Ark,https://jkanime.net/prism-ark/,expired-observation | renewal-error,12,12,0,12,12,0
 Minami-ke,https://jkanime.net/minami-ke/,expired-observation | renewal-error,13,13,0,13,13,0
-Mobile Suit Gundam 00,https://jkanime.net/mobile-suit-gundam-00/,expired-observation | renewal-error,25,25,0,24,24,0
+Mobile Suit Gundam 00,https://jkanime.net/mobile-suit-gundam-00/,expired-observation | renewal-error,25,25,0,25,24,0
 Shugo Chara!,https://jkanime.net/shugo-chara/,expired-observation | renewal-error,51,51,0,51,51,0
 ef - a tale of memories.,https://jkanime.net/ef-a-tale-of-memories/,expired-observation | renewal-error,12,12,0,12,12,0
 Clannad,https://jkanime.net/clannad/,expired-observation | renewal-error,23,23,0,23,23,0
@@ -4315,13 +4315,13 @@ Baccano!,https://jkanime.net/baccano/,expired-observation | renewal-error,13,13,
 Shigurui,https://jkanime.net/shigurui/,expired-observation | renewal-error,12,12,0,12,12,0
 Mononoke,https://jkanime.net/mononoke/,expired-observation | renewal-error,12,12,0,12,12,0
 Zero no Tsukaima: Futatsuki no Kishi,https://jkanime.net/zero-no-tsukaima-futatsuki-no-kishi/,expired-observation | renewal-error,12,12,0,12,12,0
-Moetan,https://jkanime.net/moetan/,expired-observation | renewal-error,13,12,0,10,10,1
-Potemayo,https://jkanime.net/potemayo/,expired-observation | renewal-error,12,12,0,4,4,0
+Moetan,https://jkanime.net/moetan/,expired-observation | renewal-error,13,12,0,12,10,1
+Potemayo,https://jkanime.net/potemayo/,expired-observation | renewal-error,12,12,0,12,4,0
 Sayonara Zetsubou Sensei,https://jkanime.net/sayonara-zetsubou-sensei/,expired-observation | renewal-error,12,12,0,12,12,0
-Sky Girls,https://jkanime.net/sky-girls/,expired-observation | renewal-error,26,26,0,25,25,0
-Higurashi no Naku Koro ni Kai,https://jkanime.net/higurashi-no-naku-koro-ni-kai/,expired-observation | renewal-error,24,24,0,4,4,0
+Sky Girls,https://jkanime.net/sky-girls/,expired-observation | renewal-error,26,26,0,26,25,0
+Higurashi no Naku Koro ni Kai,https://jkanime.net/higurashi-no-naku-koro-ni-kai/,expired-observation | renewal-error,24,24,0,24,4,0
 Zombie-Loan,https://jkanime.net/zombie-loan/,expired-observation | renewal-error,13,13,0,13,13,0
-Doujin Work,https://jkanime.net/doujin-work/,expired-observation | renewal-error,12,12,0,7,7,0
+Doujin Work,https://jkanime.net/doujin-work/,expired-observation | renewal-error,12,12,0,12,7,0
 School Days,https://jkanime.net/school-daysdays/,,12,12,0,0,0,0
 Kenkou Zenrakei Suiei-bu Umishou,https://jkanime.net/kenkou-zenrakei-suiei-bu-umishou/,expired-observation | renewal-error,13,13,0,13,13,0
 Prince of Tennis: The National Tournament Semifinals,https://jkanime.net/prince-of-tennis-the-national-tournament-semifinals/,expired-observation | renewal-error,6,6,0,6,6,0
@@ -4332,26 +4332,26 @@ Ice,https://jkanime.net/ice/,expired-observation | renewal-error,3,3,0,3,3,0
 The Skull Man,https://jkanime.net/the-skull-man/,expired-observation | renewal-error,13,13,0,13,13,0
 Shakugan no Shana Movie,https://jkanime.net/shakugan-no-shana-movie/,renewal-error,1,1,0,0,1,0
 Kino no Tabi: The Beautiful World - Byouki no Kuni - For You,https://jkanime.net/kino-no-tabi-the-beautiful-world-byouki-no-kuni-for-you/,expired-observation | renewal-error,1,1,0,1,1,0
-Eikoku Koi Monogatari Emma: Molders-hen,https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/,expired-observation | renewal-error,12,12,0,7,7,0
+Eikoku Koi Monogatari Emma: Molders-hen,https://jkanime.net/eikoku-koi-monogatari-emma-molders-hen/,expired-observation | renewal-error,12,12,0,12,7,0
 Kaze no Stigma,https://jkanime.net/kaze-no-stigma/,expired-observation | renewal-error,24,24,0,24,24,0
 Kaibutsu Oujo,https://jkanime.net/kaibutsu-oujo/,expired-observation | renewal-error,25,25,0,25,25,0
 Ookiku Furikabutte,https://jkanime.net/ookiku-furikabutte/,expired-observation | renewal-error,25,25,0,25,25,0
 Bokura no,https://jkanime.net/bokura-no/,expired-observation | renewal-error,24,24,0,24,24,0
 Lucky☆Star,https://jkanime.net/lucky-star/,expired-observation | renewal-error,24,24,0,24,24,0
 Lovely Complex,https://jkanime.net/lovely-complex/,expired-observation | renewal-error,24,24,0,24,24,0
-Blue Dragon,https://jkanime.net/blue-dragon/,expired-observation | renewal-error,51,51,0,14,14,0
+Blue Dragon,https://jkanime.net/blue-dragon/,expired-observation | renewal-error,51,51,0,51,14,0
 Saiunkoku Monogatari 2nd Season,https://jkanime.net/saiunkoku-monogatari-2nd-season/,expired-observation | renewal-error,39,39,0,39,39,0
 sola,https://jkanime.net/sola/,expired-observation | renewal-error,13,13,0,13,13,0
 Shining Tears X Wind,https://jkanime.net/shining-tears-x-wind/,expired-observation | renewal-error,13,13,0,13,13,0
 Bakugan Battle Brawlers,https://jkanime.net/bakugan-battle-brawlers/,expired-observation | renewal-error,52,52,0,52,52,0
 Nagasarete Airantou,https://jkanime.net/nagasarete-airantou/,expired-observation | renewal-error,26,26,0,26,26,0
-Darker than Black: Kuro no Keiyakusha,https://jkanime.net/darker-than-black-kuro-no-keiyakusha/,observed-chapters-without-options | expired-observation | renewal-error,26,25,1,22,23,0
+Darker than Black: Kuro no Keiyakusha,https://jkanime.net/darker-than-black-kuro-no-keiyakusha/,observed-chapters-without-options | expired-observation | renewal-error,26,25,1,25,23,0
 Koutetsushin Jeeg,https://jkanime.net/koutetsushin-jeeg/,expired-observation | renewal-error,13,13,0,13,13,0
 Claymore,https://jkanime.net/claymore/,expired-observation | renewal-error,26,26,0,26,26,0
 Shinkyoku Soukai Polyphonica,https://jkanime.net/shinkyoku-soukai-polyphonica/,expired-observation | renewal-error,12,12,0,12,12,0
 Romeo x Juliet,https://jkanime.net/romeo-x-juliet/,expired-observation | renewal-error,24,24,0,24,24,0
 iDOLM@STER Xenoglossia,https://jkanime.net/idolmster-xenoglossia/,expired-observation | renewal-error,26,26,0,26,26,0
-Mahou Shoujo Lyrical Nanoha StrikerS,https://jkanime.net/mahou-shoujo-lyrical-nanoha-strikers/,,26,26,0,0,0,0
+Mahou Shoujo Lyrical Nanoha StrikerS,https://jkanime.net/mahou-shoujo-lyrical-nanoha-strikers/,expired-observation,26,26,0,26,0,0
 Tengen Toppa Gurren Lagann,https://jkanime.net/tengen-toppa/,expired-observation | renewal-error,27,27,0,27,27,0
 Hayate no Gotoku!,https://jkanime.net/hayate-no-gotoku/,expired-observation | renewal-error,52,52,0,52,52,0
 Heroic Age,https://jkanime.net/heroic-age/,expired-observation | renewal-error,26,26,0,26,26,0
@@ -4360,12 +4360,12 @@ Murder Princess,https://jkanime.net/murder-princess/,expired-observation | renew
 Hitohira,https://jkanime.net/hitohira/,expired-observation | renewal-error,12,12,0,12,12,0
 Evangelion@School,https://jkanime.net/petit-eva-evangelion-school/,expired-observation | renewal-error,24,24,0,24,24,0
 Ikkitousen: Dragon Destiny,https://jkanime.net/ikkitousen-dragon-destiny/,expired-observation | renewal-error,12,12,0,12,12,0
-Ichigo Mashimaro OVA,https://jkanime.net/ichigo-mashimaro-ova/,,3,3,0,0,0,0
+Ichigo Mashimaro OVA,https://jkanime.net/ichigo-mashimaro-ova/,expired-observation,3,3,0,3,0,0
 Naruto Shippuden,https://jkanime.net/naruto-shippuden/,expired-observation | renewal-error,500,500,0,500,500,0
-Yes! Precure 5,https://jkanime.net/yes-precure-5/,expired-observation | renewal-error,49,49,0,19,19,0
+Yes! Precure 5,https://jkanime.net/yes-precure-5/,expired-observation | renewal-error,49,49,0,49,19,0
 Venus Versus Virus,https://jkanime.net/venus-versus-virus/,expired-observation,12,12,0,12,0,0
 Nodame Cantabile,https://jkanime.net/nodame-cantabile/,expired-observation | renewal-error,23,23,0,23,23,0
-Les Misérables: Shoujo Cosette,https://jkanime.net/les-miserables-shoujo-cosette/,,52,52,0,0,0,0
+Les Misérables: Shoujo Cosette,https://jkanime.net/les-miserables-shoujo-cosette/,expired-observation,52,52,0,24,0,0
 Afro Samurai,https://jkanime.net/afro-samurai/,expired-observation | renewal-error,5,5,0,5,5,0
 Maria-sama ga Miteru 3rd,https://jkanime.net/maria-sama-ga-miteru-3rd/,expired-observation | renewal-error,5,5,0,5,5,0
 Rozen Maiden: Ouvertüre,https://jkanime.net/rozen-maiden-ouvertre/,expired-observation | renewal-error,2,2,0,1,1,0
