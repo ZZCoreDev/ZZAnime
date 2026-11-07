@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T11:50:55.211234+00:00",
+  "checkedAt": "2026-11-07T12:07:56.542491+00:00",
   "episodes": 73067,
-  "oldestHours": 287.28,
-  "pending": 72868,
-  "expired": 70875,
+  "oldestHours": 287.57,
+  "pending": 72862,
+  "expired": 70930,
   "expiresWithin24Hours": 72337,
-  "retryAfterExpiry": 1625,
+  "retryAfterExpiry": 1621,
   "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1436.33,
-  "measuredWallClockPerHour": 310.58,
-  "estimatedSweepDays": 9.8,
+  "sampleMinutes": 1436.96,
+  "measuredWallClockPerHour": 310.45,
+  "estimatedSweepDays": 9.81,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 21,
+      "pendingFailures": 20,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 7,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -881,12 +881,12 @@
     "pendingSeries": 51
   },
   "coverage": {
-    "checkedAt": "2026-11-07T11:50:55.211234+00:00",
+    "checkedAt": "2026-11-07T12:07:56.542491+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 70875,
+    "expiredChapters": 70930,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
