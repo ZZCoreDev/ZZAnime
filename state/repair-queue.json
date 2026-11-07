@@ -22,7 +22,7 @@
     ]
   },
   "renewal-error": {
-    "series": 4096,
+    "series": 4094,
     "twoSeriesProofRequired": true,
     "samples": [
       {
