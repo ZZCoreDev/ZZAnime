@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-07T08:04:55.309446+00:00",
-  "failedChapters": 56588,
-  "series": 4099,
+  "checkedAt": "2026-11-07T08:22:11.112994+00:00",
+  "failedChapters": 56593,
+  "series": 4098,
   "diagnosedSeries": 4046,
-  "pendingSeries": 53,
+  "pendingSeries": 52,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 325,
+    "ValueError: No approved observations; previous channel retained": 330,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -22983,6 +22983,19 @@
       "nextRetryAt": 1793377932.158493
     },
     {
+      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
+      "failedChapters": 22,
+      "samples": [
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793733633.289727
+    },
+    {
       "series": "https://jkanime.net/zettai-karen-children/",
       "failedChapters": 22,
       "samples": [
@@ -23327,19 +23340,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793324293.9226997
-    },
-    {
-      "series": "https://jkanime.net/yozakura-san-chi-no-daisakusen/",
-      "failedChapters": 21,
-      "samples": [
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/1/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793733633.289727
     },
     {
       "series": "https://jkanime.net/zoids-shinseikizero/",
@@ -89180,6 +89180,19 @@
       "nextRetryAt": 1793216670.5652702
     },
     {
+      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
+      "failedChapters": 10,
+      "samples": [
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/",
+        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793932481.758778
+    },
+    {
       "series": "https://jkanime.net/kaoru-hana-wa-rin-to-saku/",
       "failedChapters": 10,
       "samples": [
@@ -92734,19 +92747,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793228504.7903683
-    },
-    {
-      "series": "https://jkanime.net/kanojo-mo-kanojo-2nd-season/",
-      "failedChapters": 9,
-      "samples": [
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/10/",
-        "https://jkanime.net/kanojo-mo-kanojo-2nd-season/11/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793932481.758778
     },
     {
       "series": "https://jkanime.net/kekkon-suru-tte-hontou-desu-ka/",
@@ -96843,6 +96843,19 @@
       "nextRetryAt": 1793247574.5968046
     },
     {
+      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793930488.1022317
+    },
+    {
       "series": "https://jkanime.net/kancolle-itsuka-ano-umi-de/",
       "failedChapters": 7,
       "samples": [
@@ -96943,6 +96956,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793196118.1492503
+    },
+    {
+      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
+      "failedChapters": 7,
+      "samples": [
+        "https://jkanime.net/komi-san-wa-comyushou-desu/11/",
+        "https://jkanime.net/komi-san-wa-comyushou-desu/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793934368.788301
     },
     {
       "series": "https://jkanime.net/koori-zokusei-danshi-to-cool-na-douryou-joshi/",
@@ -99182,19 +99208,6 @@
       "nextRetryAt": 1793260111.232594
     },
     {
-      "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793930488.1022317
-    },
-    {
       "series": "https://jkanime.net/kaitou-joker-4th-season/",
       "failedChapters": 6,
       "samples": [
@@ -99333,19 +99346,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793317910.7232962
-    },
-    {
-      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/komi-san-wa-comyushou-desu/11/",
-        "https://jkanime.net/komi-san-wa-comyushou-desu/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793934368.788301
     },
     {
       "series": "https://jkanime.net/ladies-versus-butlers-specials/",
@@ -101819,7 +101819,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794035817.8361375
+      "nextRetryAt": 1794039423.1265068
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -102306,6 +102306,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793383948.0646546
+    },
+    {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/",
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/4/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793932499.2815285
     },
     {
       "series": "https://jkanime.net/kuroko-no-basket-ng-shuu/",
@@ -103123,7 +103136,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794035839.1927533
+      "nextRetryAt": 1794039438.9604661
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -104906,19 +104919,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793236251.1382644
-    },
-    {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/",
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/4/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793932499.2815285
     },
     {
       "series": "https://jkanime.net/king-of-prism-shiny-seven-stars/",
@@ -109160,7 +109160,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794035977.5183926
+      "nextRetryAt": 1794043515.3656638
     },
     {
       "series": "https://jkanime.net/mou-hitotsu-no-mirai-wo/",
@@ -110410,6 +110410,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1794026448.1017318
+    },
+    {
+      "series": "https://jkanime.net/takopii-no-genzai/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/takopii-no-genzai/5/",
+        "https://jkanime.net/takopii-no-genzai/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794041359.4169717
     },
     {
       "series": "https://jkanime.net/tamayomi/",
@@ -115675,19 +115688,6 @@
       "nextRetryAt": 1793374093.7767894
     },
     {
-      "series": "https://jkanime.net/takopii-no-genzai/",
-      "failedChapters": 2,
-      "samples": [
-        "https://jkanime.net/takopii-no-genzai/5/",
-        "https://jkanime.net/takopii-no-genzai/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794047784.647587
-    },
-    {
       "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
       "failedChapters": 2,
       "samples": [
@@ -118929,7 +118929,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794035966.0896883
+      "nextRetryAt": 1794061204.9455314
     },
     {
       "series": "https://jkanime.net/busou-shinki-moon-angel/",
@@ -119007,7 +119007,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794035808.963477
+      "nextRetryAt": 1794061140.8160367
     },
     {
       "series": "https://jkanime.net/c3-special/",
@@ -130331,7 +130331,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794035951.5883164
+      "nextRetryAt": 1794061191.7591505
     },
     {
       "series": "https://jkanime.net/mushoku-tensei-isekai-ittara-honki-dasu-special/",
@@ -134331,18 +134331,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793692897.0071576
-    },
-    {
-      "series": "https://jkanime.net/sayonara-lara/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/sayonara-lara/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794036074.4838097
     },
     {
       "series": "https://jkanime.net/sayonara-watashi-no-cramer-movie-first-touch/",
@@ -138918,18 +138906,6 @@
       "nextRetryAt": 1793749998.9934447
     },
     {
-      "series": "https://jkanime.net/yuusha-no-kuzu/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/yuusha-no-kuzu/20/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794038272.7717268
-    },
-    {
       "series": "https://jkanime.net/yuusha-yamemasu-kenshuu-ryokou-wa-mokuteki-wo-miushinau-na/",
       "failedChapters": 1,
       "samples": [
@@ -139104,6 +139080,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
+    },
+    {
+      "series": "https://jkanime.net/yomi-no-tsugai/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/yomi-no-tsugai/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794041340.816022
     }
   ]
 }
