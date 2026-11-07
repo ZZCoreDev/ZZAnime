@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-07T04:38:26.285743+00:00",
-  "failedChapters": 56577,
-  "series": 4096,
+  "checkedAt": "2026-11-07T04:55:02.049603+00:00",
+  "failedChapters": 56578,
+  "series": 4097,
   "diagnosedSeries": 4046,
-  "pendingSeries": 50,
+  "pendingSeries": 51,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 314,
+    "ValueError: No approved observations; previous channel retained": 315,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -23995,7 +23995,7 @@
       "failedChapters": 20,
       "samples": [
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/10/",
-        "https://jkanime.net/yozakura-san-chi-no-daisakusen/13/"
+        "https://jkanime.net/yozakura-san-chi-no-daisakusen/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -103116,8 +103116,8 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "failedChapters": 5,
       "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -120090,6 +120090,18 @@
       "nextRetryAt": 1793398185.7687573
     },
     {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794027919.7413774
+    },
+    {
       "series": "https://jkanime.net/d-frag-ova/",
       "failedChapters": 1,
       "samples": [
@@ -120659,7 +120671,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794026356.8550885
+      "nextRetryAt": 1794048559.9167252
     },
     {
       "series": "https://jkanime.net/diamond-no-ace-ova/",
@@ -139057,16 +139069,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794027919.7413774
+      "nextRetryAt": 1794028759.9167113
     }
   ]
 }
