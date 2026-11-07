@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-07T10:41:10.257573+00:00",
-  "failedChapters": 56579,
-  "series": 4098,
+  "checkedAt": "2026-11-07T10:57:48.260925+00:00",
+  "failedChapters": 56582,
+  "series": 4099,
   "diagnosedSeries": 4046,
-  "pendingSeries": 52,
+  "pendingSeries": 53,
   "causes": {
     "flv:address-not-found": 1215,
     "jk:access-denied": 4046,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 316,
+    "ValueError: No approved observations; previous channel retained": 319,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -103100,6 +103100,19 @@
       "nextRetryAt": 1794054658.1289701
     },
     {
+      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793930448.6680424
+    },
+    {
       "series": "https://jkanime.net/umayuru-full-gate/",
       "failedChapters": 5,
       "samples": [
@@ -110757,19 +110770,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793357190.3788824
-    },
-    {
-      "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793930448.6680424
     },
     {
       "series": "https://jkanime.net/uma-musume-pretty-derby-bnw-no-chikai/",
@@ -119887,7 +119887,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794047719.7413926
+      "nextRetryAt": 1794070552.9611254
     },
     {
       "series": "https://jkanime.net/cluster-edge/",
@@ -120100,6 +120100,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794049697.809172
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -124587,7 +124599,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794047738.5048776
+      "nextRetryAt": 1794070567.9421873
     },
     {
       "series": "https://jkanime.net/hand-maid-mai/",
@@ -133802,7 +133814,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794047750.0315373
+      "nextRetryAt": 1794070580.0799742
     },
     {
       "series": "https://jkanime.net/rozen-maiden-ouvertre/",
@@ -139081,16 +139093,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794049697.809172
+      "nextRetryAt": 1794050752.9611104
     }
   ]
 }
