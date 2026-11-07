@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T18:13:10.440608+00:00",
+  "checkedAt": "2026-11-07T18:28:25.149233+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73890,
   "storedChapters": 73074,
   "missingChapters": 510,
-  "expiredChapters": 71658,
+  "expiredChapters": 71664,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
@@ -82849,7 +82849,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -90848,6 +90848,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/11/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/12/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/13/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/14/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/2/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/3/",
@@ -181072,7 +181073,8 @@
         "https://jkanime.net/tribe-cool-crew/31/",
         "https://jkanime.net/tribe-cool-crew/32/",
         "https://jkanime.net/tribe-cool-crew/33/",
-        "https://jkanime.net/tribe-cool-crew/34/"
+        "https://jkanime.net/tribe-cool-crew/34/",
+        "https://jkanime.net/tribe-cool-crew/35/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -186069,7 +186071,8 @@
       "expired": [
         "https://jkanime.net/blade-and-soul/1/",
         "https://jkanime.net/blade-and-soul/2/",
-        "https://jkanime.net/blade-and-soul/3/"
+        "https://jkanime.net/blade-and-soul/3/",
+        "https://jkanime.net/blade-and-soul/4/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -187524,7 +187527,8 @@
         "https://jkanime.net/z-x-ignition/4/",
         "https://jkanime.net/z-x-ignition/5/",
         "https://jkanime.net/z-x-ignition/6/",
-        "https://jkanime.net/z-x-ignition/7/"
+        "https://jkanime.net/z-x-ignition/7/",
+        "https://jkanime.net/z-x-ignition/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -192377,7 +192381,8 @@
         "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/2/",
         "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/3/",
         "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/4/",
-        "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/5/"
+        "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/5/",
+        "https://jkanime.net/danganronpa-kibou-no-gakuen-to-zetsubou-no-koukousei-the-animation/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -195326,6 +195331,7 @@
         "https://jkanime.net/sasami-san-ganbaranai/3/",
         "https://jkanime.net/sasami-san-ganbaranai/4/",
         "https://jkanime.net/sasami-san-ganbaranai/5/",
+        "https://jkanime.net/sasami-san-ganbaranai/6/",
         "https://jkanime.net/sasami-san-ganbaranai/7/",
         "https://jkanime.net/sasami-san-ganbaranai/8/"
       ],
