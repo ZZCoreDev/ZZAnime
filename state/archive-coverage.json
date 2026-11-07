@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T06:02:56.906105+00:00",
+  "checkedAt": "2026-11-07T06:20:26.057812+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73882,
   "storedChapters": 73067,
   "missingChapters": 510,
-  "expiredChapters": 65665,
+  "expiredChapters": 65894,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 305,
@@ -2254,6 +2254,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/lets-play-quest-darake-no-my-life/",
+        "title": "Let's Play: Quest-darake no My Life",
+        "samples": [
+          "https://jkanime.net/lets-play-quest-darake-no-my-life/1/",
+          "https://jkanime.net/lets-play-quest-darake-no-my-life/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/ganzo-bandori-chan/",
         "title": "Ganzo! Bandori-chan",
         "samples": [
@@ -3134,7 +3142,8 @@
         "series": "https://jkanime.net/zatsu-tabi-thats-journey/",
         "title": "Zatsu Tabi: That's Journey",
         "samples": [
-          "https://jkanime.net/zatsu-tabi-thats-journey/2/"
+          "https://jkanime.net/zatsu-tabi-thats-journey/1/",
+          "https://jkanime.net/zatsu-tabi-thats-journey/10/"
         ]
       },
       {
@@ -4585,6 +4594,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/delicos-nursery/",
+        "title": "Delico's Nursery",
+        "samples": [
+          "https://jkanime.net/delicos-nursery/1/",
+          "https://jkanime.net/delicos-nursery/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yeosin-gangnim/",
         "title": "Yeosin Gangnim",
         "samples": [
@@ -5308,6 +5325,14 @@
         "samples": [
           "https://jkanime.net/mahouka-koukou-no-rettousei-3rd-season/1/",
           "https://jkanime.net/mahouka-koukou-no-rettousei-3rd-season/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/girls-band-cry/",
+        "title": "Girls Band Cry",
+        "samples": [
+          "https://jkanime.net/girls-band-cry/1/",
+          "https://jkanime.net/girls-band-cry/10/"
         ]
       },
       {
@@ -6316,6 +6341,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kibou-no-chikara-otona-precure-23/",
+        "title": "Kibou no Chikara: Otona Precure '23",
+        "samples": [
+          "https://jkanime.net/kibou-no-chikara-otona-precure-23/1/",
+          "https://jkanime.net/kibou-no-chikara-otona-precure-23/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tate-no-yuusha-no-nariagari-season-3/",
         "title": "Tate no Yuusha no Nariagari Season 3",
         "samples": [
@@ -6680,6 +6713,14 @@
         "title": "ChroNoiR Episode.0",
         "samples": [
           "https://jkanime.net/chronoir-episode0/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/azur-lane-queens-orders/",
+        "title": "Azur Lane: Queen's Orders",
+        "samples": [
+          "https://jkanime.net/azur-lane-queens-orders/1/",
+          "https://jkanime.net/azur-lane-queens-orders/2/"
         ]
       },
       {
@@ -7120,6 +7161,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/bang-dream-its-mygo/",
+        "title": "BanG Dream! It's MyGO!!!!!",
+        "samples": [
+          "https://jkanime.net/bang-dream-its-mygo/1/",
+          "https://jkanime.net/bang-dream-its-mygo/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/genjitsu-no-yohane-sunshine-in-the-mirror/",
         "title": "Genjitsu no Yohane: Sunshine in the Mirror",
         "samples": [
@@ -7480,6 +7529,14 @@
         "samples": [
           "https://jkanime.net/megami-no-caf-terrace/1/",
           "https://jkanime.net/megami-no-caf-terrace/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/birdie-wing-golf-girls-story-season-2/",
+        "title": "Birdie Wing: Golf Girls' Story Season 2",
+        "samples": [
+          "https://jkanime.net/birdie-wing-golf-girls-story-season-2/1/",
+          "https://jkanime.net/birdie-wing-golf-girls-story-season-2/10/"
         ]
       },
       {
@@ -9365,6 +9422,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/birdie-wing-golf-girls-story/",
+        "title": "Birdie Wing: Golf Girls' Story",
+        "samples": [
+          "https://jkanime.net/birdie-wing-golf-girls-story/1/",
+          "https://jkanime.net/birdie-wing-golf-girls-story/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/yuusha-yamemasu/",
         "title": "Yuusha, Yamemasu",
         "samples": [
@@ -9551,6 +9616,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/rymans-club/",
+        "title": "Ryman's Club",
+        "samples": [
+          "https://jkanime.net/rymans-club/1/",
+          "https://jkanime.net/rymans-club/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/tales-of-luminaria-the-fateful-crossroad/",
         "title": "Tales of Luminaria: The Fateful Crossroad",
         "samples": [
@@ -9723,6 +9796,14 @@
         "samples": [
           "https://jkanime.net/shikkakumon-no-saikyou-kenja/1/",
           "https://jkanime.net/shikkakumon-no-saikyou-kenja/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/dolls-frontline/",
+        "title": "Dolls' Frontline",
+        "samples": [
+          "https://jkanime.net/dolls-frontline/1/",
+          "https://jkanime.net/dolls-frontline/10/"
         ]
       },
       {
@@ -12507,8 +12588,8 @@
         "series": "https://jkanime.net/healin-good-precure/",
         "title": "Healin' Good♡Precure",
         "samples": [
-          "https://jkanime.net/healin-good-precure/13/",
-          "https://jkanime.net/healin-good-precure/14/"
+          "https://jkanime.net/healin-good-precure/1/",
+          "https://jkanime.net/healin-good-precure/10/"
         ]
       },
       {
@@ -12849,6 +12930,14 @@
         "samples": [
           "https://jkanime.net/koisuru-asteroid/1/",
           "https://jkanime.net/koisuru-asteroid/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/darwins-game/",
+        "title": "Darwin's Game",
+        "samples": [
+          "https://jkanime.net/darwins-game/1/",
+          "https://jkanime.net/darwins-game/10/"
         ]
       },
       {
@@ -14256,6 +14345,14 @@
         "samples": [
           "https://jkanime.net/fukigen-na-mononokean-tsuzuki/12/",
           "https://jkanime.net/fukigen-na-mononokean-tsuzuki/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/wz/",
+        "title": "W'z",
+        "samples": [
+          "https://jkanime.net/wz/1/",
+          "https://jkanime.net/wz/10/"
         ]
       },
       {
@@ -16426,6 +16523,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/knights-magic/",
+        "title": "Knight's & Magic",
+        "samples": [
+          "https://jkanime.net/knights-magic/1/",
+          "https://jkanime.net/knights-magic/10/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/keppeki-danshi-aoyama-kun/",
         "title": "Keppeki Danshi! Aoyama-kun",
         "samples": [
@@ -17198,6 +17303,14 @@
         "title": "Kizumonogatari III: Reiketsu-hen",
         "samples": [
           "https://jkanime.net/kizumonogatari-iii-reiketsu-hen/1/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/akibas-trip-the-animation/",
+        "title": "Akiba's Trip The Animation",
+        "samples": [
+          "https://jkanime.net/akibas-trip-the-animation/1/",
+          "https://jkanime.net/akibas-trip-the-animation/10/"
         ]
       },
       {
@@ -19411,6 +19524,14 @@
         "samples": [
           "https://jkanime.net/kagewani/1/",
           "https://jkanime.net/kagewani/2/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/lance-n-masques/",
+        "title": "Lance N' Masques",
+        "samples": [
+          "https://jkanime.net/lance-n-masques/1/",
+          "https://jkanime.net/lance-n-masques/10/"
         ]
       },
       {
@@ -34546,7 +34667,8 @@
         "series": "https://jkanime.net/zatsu-tabi-thats-journey/",
         "title": "Zatsu Tabi: That's Journey",
         "samples": [
-          "https://jkanime.net/zatsu-tabi-thats-journey/2/"
+          "https://jkanime.net/zatsu-tabi-thats-journey/1/",
+          "https://jkanime.net/zatsu-tabi-thats-journey/10/"
         ]
       },
       {
@@ -44008,8 +44130,8 @@
         "series": "https://jkanime.net/healin-good-precure/",
         "title": "Healin' Good♡Precure",
         "samples": [
-          "https://jkanime.net/healin-good-precure/13/",
-          "https://jkanime.net/healin-good-precure/14/"
+          "https://jkanime.net/healin-good-precure/1/",
+          "https://jkanime.net/healin-good-precure/10/"
         ]
       },
       {
@@ -72150,7 +72272,8 @@
         "https://jkanime.net/mao/1/",
         "https://jkanime.net/mao/2/",
         "https://jkanime.net/mao/3/",
-        "https://jkanime.net/mao/4/"
+        "https://jkanime.net/mao/4/",
+        "https://jkanime.net/mao/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -77924,11 +78047,26 @@
     {
       "series": "https://jkanime.net/lets-play-quest-darake-no-my-life/",
       "title": "Let's Play: Quest-darake no My Life",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/1/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/10/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/11/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/12/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/2/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/3/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/4/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/5/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/6/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/7/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/8/",
+        "https://jkanime.net/lets-play-quest-darake-no-my-life/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -82230,7 +82368,18 @@
       "stored": 12,
       "missing": [],
       "expired": [
-        "https://jkanime.net/zatsu-tabi-thats-journey/2/"
+        "https://jkanime.net/zatsu-tabi-thats-journey/1/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/10/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/11/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/12/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/2/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/3/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/4/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/5/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/6/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/7/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/8/",
+        "https://jkanime.net/zatsu-tabi-thats-journey/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -85415,7 +85564,8 @@
         "https://jkanime.net/zenshuu/5/",
         "https://jkanime.net/zenshuu/6/",
         "https://jkanime.net/zenshuu/7/",
-        "https://jkanime.net/zenshuu/8/"
+        "https://jkanime.net/zenshuu/8/",
+        "https://jkanime.net/zenshuu/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -85442,6 +85592,7 @@
         "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/11/",
         "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/12/",
         "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/2/",
+        "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/3/",
         "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/4/",
         "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/5/",
         "https://jkanime.net/kisaki-kyouiku-kara-nigetai-watashi/6/",
@@ -89574,11 +89725,27 @@
     {
       "series": "https://jkanime.net/delicos-nursery/",
       "title": "Delico's Nursery",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/delicos-nursery/1/",
+        "https://jkanime.net/delicos-nursery/10/",
+        "https://jkanime.net/delicos-nursery/11/",
+        "https://jkanime.net/delicos-nursery/12/",
+        "https://jkanime.net/delicos-nursery/13/",
+        "https://jkanime.net/delicos-nursery/2/",
+        "https://jkanime.net/delicos-nursery/3/",
+        "https://jkanime.net/delicos-nursery/4/",
+        "https://jkanime.net/delicos-nursery/5/",
+        "https://jkanime.net/delicos-nursery/6/",
+        "https://jkanime.net/delicos-nursery/7/",
+        "https://jkanime.net/delicos-nursery/8/",
+        "https://jkanime.net/delicos-nursery/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -93579,11 +93746,27 @@
     {
       "series": "https://jkanime.net/girls-band-cry/",
       "title": "Girls Band Cry",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/girls-band-cry/1/",
+        "https://jkanime.net/girls-band-cry/10/",
+        "https://jkanime.net/girls-band-cry/11/",
+        "https://jkanime.net/girls-band-cry/12/",
+        "https://jkanime.net/girls-band-cry/13/",
+        "https://jkanime.net/girls-band-cry/2/",
+        "https://jkanime.net/girls-band-cry/3/",
+        "https://jkanime.net/girls-band-cry/4/",
+        "https://jkanime.net/girls-band-cry/5/",
+        "https://jkanime.net/girls-band-cry/6/",
+        "https://jkanime.net/girls-band-cry/7/",
+        "https://jkanime.net/girls-band-cry/8/",
+        "https://jkanime.net/girls-band-cry/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -93686,6 +93869,7 @@
         "https://jkanime.net/nijiyon-animation-2/5/",
         "https://jkanime.net/nijiyon-animation-2/6/",
         "https://jkanime.net/nijiyon-animation-2/7/",
+        "https://jkanime.net/nijiyon-animation-2/8/",
         "https://jkanime.net/nijiyon-animation-2/9/"
       ],
       "noIndependent": [],
@@ -98486,11 +98670,26 @@
     {
       "series": "https://jkanime.net/kibou-no-chikara-otona-precure-23/",
       "title": "Kibou no Chikara: Otona Precure '23",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/1/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/10/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/11/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/12/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/2/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/3/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/4/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/5/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/6/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/7/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/8/",
+        "https://jkanime.net/kibou-no-chikara-otona-precure-23/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -100351,11 +100550,16 @@
     {
       "series": "https://jkanime.net/azur-lane-queens-orders/",
       "title": "Azur Lane: Queen's Orders",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 2,
       "stored": 2,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/azur-lane-queens-orders/1/",
+        "https://jkanime.net/azur-lane-queens-orders/2/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -102393,11 +102597,27 @@
     {
       "series": "https://jkanime.net/bang-dream-its-mygo/",
       "title": "BanG Dream! It's MyGO!!!!!",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/bang-dream-its-mygo/1/",
+        "https://jkanime.net/bang-dream-its-mygo/10/",
+        "https://jkanime.net/bang-dream-its-mygo/11/",
+        "https://jkanime.net/bang-dream-its-mygo/12/",
+        "https://jkanime.net/bang-dream-its-mygo/13/",
+        "https://jkanime.net/bang-dream-its-mygo/2/",
+        "https://jkanime.net/bang-dream-its-mygo/3/",
+        "https://jkanime.net/bang-dream-its-mygo/4/",
+        "https://jkanime.net/bang-dream-its-mygo/5/",
+        "https://jkanime.net/bang-dream-its-mygo/6/",
+        "https://jkanime.net/bang-dream-its-mygo/7/",
+        "https://jkanime.net/bang-dream-its-mygo/8/",
+        "https://jkanime.net/bang-dream-its-mygo/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -104244,11 +104464,26 @@
     {
       "series": "https://jkanime.net/birdie-wing-golf-girls-story-season-2/",
       "title": "Birdie Wing: Golf Girls' Story Season 2",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/1/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/10/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/11/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/12/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/2/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/3/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/4/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/5/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/6/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/7/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/8/",
+        "https://jkanime.net/birdie-wing-golf-girls-story-season-2/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -113475,11 +113710,27 @@
     {
       "series": "https://jkanime.net/birdie-wing-golf-girls-story/",
       "title": "Birdie Wing: Golf Girls' Story",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/birdie-wing-golf-girls-story/1/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/10/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/11/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/12/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/13/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/2/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/3/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/4/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/5/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/6/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/7/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/8/",
+        "https://jkanime.net/birdie-wing-golf-girls-story/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -114438,11 +114689,26 @@
     {
       "series": "https://jkanime.net/rymans-club/",
       "title": "Ryman's Club",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/rymans-club/1/",
+        "https://jkanime.net/rymans-club/10/",
+        "https://jkanime.net/rymans-club/11/",
+        "https://jkanime.net/rymans-club/12/",
+        "https://jkanime.net/rymans-club/2/",
+        "https://jkanime.net/rymans-club/3/",
+        "https://jkanime.net/rymans-club/4/",
+        "https://jkanime.net/rymans-club/5/",
+        "https://jkanime.net/rymans-club/6/",
+        "https://jkanime.net/rymans-club/7/",
+        "https://jkanime.net/rymans-club/8/",
+        "https://jkanime.net/rymans-club/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -115269,11 +115535,26 @@
     {
       "series": "https://jkanime.net/dolls-frontline/",
       "title": "Dolls' Frontline",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/dolls-frontline/1/",
+        "https://jkanime.net/dolls-frontline/10/",
+        "https://jkanime.net/dolls-frontline/11/",
+        "https://jkanime.net/dolls-frontline/12/",
+        "https://jkanime.net/dolls-frontline/2/",
+        "https://jkanime.net/dolls-frontline/3/",
+        "https://jkanime.net/dolls-frontline/4/",
+        "https://jkanime.net/dolls-frontline/5/",
+        "https://jkanime.net/dolls-frontline/6/",
+        "https://jkanime.net/dolls-frontline/7/",
+        "https://jkanime.net/dolls-frontline/8/",
+        "https://jkanime.net/dolls-frontline/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -125780,6 +126061,11 @@
         "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/2/",
         "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/20/",
         "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/21/",
+        "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/22/",
+        "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/23/",
+        "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/24/",
+        "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/25/",
+        "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/26/",
         "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/3/",
         "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/4/",
         "https://jkanime.net/kings-raid-ishi-wo-tsugumono-tachi/5/",
@@ -129388,20 +129674,51 @@
       "stored": 45,
       "missing": [],
       "expired": [
+        "https://jkanime.net/healin-good-precure/1/",
+        "https://jkanime.net/healin-good-precure/10/",
+        "https://jkanime.net/healin-good-precure/11/",
+        "https://jkanime.net/healin-good-precure/12/",
         "https://jkanime.net/healin-good-precure/13/",
         "https://jkanime.net/healin-good-precure/14/",
         "https://jkanime.net/healin-good-precure/15/",
         "https://jkanime.net/healin-good-precure/16/",
         "https://jkanime.net/healin-good-precure/17/",
+        "https://jkanime.net/healin-good-precure/18/",
         "https://jkanime.net/healin-good-precure/19/",
+        "https://jkanime.net/healin-good-precure/2/",
         "https://jkanime.net/healin-good-precure/20/",
+        "https://jkanime.net/healin-good-precure/21/",
+        "https://jkanime.net/healin-good-precure/22/",
         "https://jkanime.net/healin-good-precure/23/",
+        "https://jkanime.net/healin-good-precure/24/",
+        "https://jkanime.net/healin-good-precure/25/",
         "https://jkanime.net/healin-good-precure/26/",
+        "https://jkanime.net/healin-good-precure/27/",
+        "https://jkanime.net/healin-good-precure/28/",
+        "https://jkanime.net/healin-good-precure/29/",
+        "https://jkanime.net/healin-good-precure/3/",
+        "https://jkanime.net/healin-good-precure/30/",
+        "https://jkanime.net/healin-good-precure/31/",
+        "https://jkanime.net/healin-good-precure/32/",
+        "https://jkanime.net/healin-good-precure/33/",
         "https://jkanime.net/healin-good-precure/34/",
+        "https://jkanime.net/healin-good-precure/35/",
+        "https://jkanime.net/healin-good-precure/36/",
         "https://jkanime.net/healin-good-precure/37/",
         "https://jkanime.net/healin-good-precure/38/",
+        "https://jkanime.net/healin-good-precure/39/",
+        "https://jkanime.net/healin-good-precure/4/",
+        "https://jkanime.net/healin-good-precure/40/",
         "https://jkanime.net/healin-good-precure/41/",
-        "https://jkanime.net/healin-good-precure/8/"
+        "https://jkanime.net/healin-good-precure/42/",
+        "https://jkanime.net/healin-good-precure/43/",
+        "https://jkanime.net/healin-good-precure/44/",
+        "https://jkanime.net/healin-good-precure/45/",
+        "https://jkanime.net/healin-good-precure/5/",
+        "https://jkanime.net/healin-good-precure/6/",
+        "https://jkanime.net/healin-good-precure/7/",
+        "https://jkanime.net/healin-good-precure/8/",
+        "https://jkanime.net/healin-good-precure/9/"
       ],
       "noIndependent": [],
       "renewalFailed": 14,
@@ -130991,11 +131308,25 @@
     {
       "series": "https://jkanime.net/darwins-game/",
       "title": "Darwin's Game",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 11,
       "stored": 11,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/darwins-game/1/",
+        "https://jkanime.net/darwins-game/10/",
+        "https://jkanime.net/darwins-game/11/",
+        "https://jkanime.net/darwins-game/2/",
+        "https://jkanime.net/darwins-game/3/",
+        "https://jkanime.net/darwins-game/4/",
+        "https://jkanime.net/darwins-game/5/",
+        "https://jkanime.net/darwins-game/6/",
+        "https://jkanime.net/darwins-game/7/",
+        "https://jkanime.net/darwins-game/8/",
+        "https://jkanime.net/darwins-game/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -138043,11 +138374,27 @@
     {
       "series": "https://jkanime.net/wz/",
       "title": "W'z",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/wz/1/",
+        "https://jkanime.net/wz/10/",
+        "https://jkanime.net/wz/11/",
+        "https://jkanime.net/wz/12/",
+        "https://jkanime.net/wz/13/",
+        "https://jkanime.net/wz/2/",
+        "https://jkanime.net/wz/3/",
+        "https://jkanime.net/wz/4/",
+        "https://jkanime.net/wz/5/",
+        "https://jkanime.net/wz/6/",
+        "https://jkanime.net/wz/7/",
+        "https://jkanime.net/wz/8/",
+        "https://jkanime.net/wz/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -149531,11 +149878,27 @@
     {
       "series": "https://jkanime.net/knights-magic/",
       "title": "Knight's & Magic",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/knights-magic/1/",
+        "https://jkanime.net/knights-magic/10/",
+        "https://jkanime.net/knights-magic/11/",
+        "https://jkanime.net/knights-magic/12/",
+        "https://jkanime.net/knights-magic/13/",
+        "https://jkanime.net/knights-magic/2/",
+        "https://jkanime.net/knights-magic/3/",
+        "https://jkanime.net/knights-magic/4/",
+        "https://jkanime.net/knights-magic/5/",
+        "https://jkanime.net/knights-magic/6/",
+        "https://jkanime.net/knights-magic/7/",
+        "https://jkanime.net/knights-magic/8/",
+        "https://jkanime.net/knights-magic/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -153882,11 +154245,27 @@
     {
       "series": "https://jkanime.net/akibas-trip-the-animation/",
       "title": "Akiba's Trip The Animation",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 13,
       "stored": 13,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/akibas-trip-the-animation/1/",
+        "https://jkanime.net/akibas-trip-the-animation/10/",
+        "https://jkanime.net/akibas-trip-the-animation/11/",
+        "https://jkanime.net/akibas-trip-the-animation/12/",
+        "https://jkanime.net/akibas-trip-the-animation/13/",
+        "https://jkanime.net/akibas-trip-the-animation/2/",
+        "https://jkanime.net/akibas-trip-the-animation/3/",
+        "https://jkanime.net/akibas-trip-the-animation/4/",
+        "https://jkanime.net/akibas-trip-the-animation/5/",
+        "https://jkanime.net/akibas-trip-the-animation/6/",
+        "https://jkanime.net/akibas-trip-the-animation/7/",
+        "https://jkanime.net/akibas-trip-the-animation/8/",
+        "https://jkanime.net/akibas-trip-the-animation/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -163025,6 +163404,7 @@
         "https://jkanime.net/digimon-adventure-tri/22/",
         "https://jkanime.net/digimon-adventure-tri/23/",
         "https://jkanime.net/digimon-adventure-tri/24/",
+        "https://jkanime.net/digimon-adventure-tri/25/",
         "https://jkanime.net/digimon-adventure-tri/3/",
         "https://jkanime.net/digimon-adventure-tri/4/"
       ],
@@ -164855,11 +165235,26 @@
     {
       "series": "https://jkanime.net/lance-n-masques/",
       "title": "Lance N' Masques",
-      "causes": [],
+      "causes": [
+        "expired-observation"
+      ],
       "observed": 12,
       "stored": 12,
       "missing": [],
-      "expired": [],
+      "expired": [
+        "https://jkanime.net/lance-n-masques/1/",
+        "https://jkanime.net/lance-n-masques/10/",
+        "https://jkanime.net/lance-n-masques/11/",
+        "https://jkanime.net/lance-n-masques/12/",
+        "https://jkanime.net/lance-n-masques/2/",
+        "https://jkanime.net/lance-n-masques/3/",
+        "https://jkanime.net/lance-n-masques/4/",
+        "https://jkanime.net/lance-n-masques/5/",
+        "https://jkanime.net/lance-n-masques/6/",
+        "https://jkanime.net/lance-n-masques/7/",
+        "https://jkanime.net/lance-n-masques/8/",
+        "https://jkanime.net/lance-n-masques/9/"
+      ],
       "noIndependent": [],
       "renewalFailed": 0,
       "sideOnly": 0,
@@ -237556,7 +237951,8 @@
         "https://jkanime.net/taiho-shichau-zo/49/",
         "https://jkanime.net/taiho-shichau-zo/5/",
         "https://jkanime.net/taiho-shichau-zo/50/",
-        "https://jkanime.net/taiho-shichau-zo/51/"
+        "https://jkanime.net/taiho-shichau-zo/51/",
+        "https://jkanime.net/taiho-shichau-zo/6/"
       ],
       "noIndependent": [],
       "renewalFailed": 4,
