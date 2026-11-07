@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T14:05:05.010944+00:00",
+  "checkedAt": "2026-11-07T14:23:29.167170+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73885,
   "storedChapters": 73068,
   "missingChapters": 510,
-  "expiredChapters": 71450,
+  "expiredChapters": 71455,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 307,
@@ -43292,14 +43292,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
-        "samples": [
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -48109,6 +48101,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/zoku-owarimonogatari/",
+        "title": "Zoku Owarimonogatari",
+        "samples": [
+          "https://jkanime.net/zoku-owarimonogatari/1/",
+          "https://jkanime.net/zoku-owarimonogatari/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/anima-yell/",
         "title": "Anima Yell!",
         "samples": [
@@ -51472,14 +51472,6 @@
         ]
       },
       {
-        "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
-        "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Specials",
-        "samples": [
-          "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/1/",
-          "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/"
-        ]
-      },
-      {
         "series": "https://jkanime.net/ginga-kikoutai-majestic-prince-mirai-e-no-tsubasa/",
         "title": "Ginga Kikoutai Majestic Prince: Mirai e no Tsubasa",
         "samples": [
@@ -53633,14 +53625,6 @@
         "samples": [
           "https://jkanime.net/aquarion-logos/1/",
           "https://jkanime.net/aquarion-logos/10/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
-        "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
-        "samples": [
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/1/",
-          "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/10/"
         ]
       },
       {
@@ -82813,7 +82797,7 @@
         "https://jkanime.net/tsuihousha-shokudou-e-youkoso/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 5,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -90619,7 +90603,7 @@
         "https://jkanime.net/kabushikigaisha-magi-lumire/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -92472,6 +92456,7 @@
         "https://jkanime.net/bye-bye-earth/15/",
         "https://jkanime.net/bye-bye-earth/16/",
         "https://jkanime.net/bye-bye-earth/17/",
+        "https://jkanime.net/bye-bye-earth/18/",
         "https://jkanime.net/bye-bye-earth/2/",
         "https://jkanime.net/bye-bye-earth/3/",
         "https://jkanime.net/bye-bye-earth/4/"
@@ -92857,6 +92842,7 @@
         "https://jkanime.net/shoushimin-series/14/",
         "https://jkanime.net/shoushimin-series/15/",
         "https://jkanime.net/shoushimin-series/16/",
+        "https://jkanime.net/shoushimin-series/17/",
         "https://jkanime.net/shoushimin-series/2/",
         "https://jkanime.net/shoushimin-series/3/",
         "https://jkanime.net/shoushimin-series/4/"
@@ -95556,7 +95542,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 19,
+      "renewalFailed": 18,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -95663,6 +95649,7 @@
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/2/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/20/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/21/",
+        "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/22/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/29/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/3/",
         "https://jkanime.net/tensei-kizoku-kantei-skill-de-nariagaru/4/",
@@ -101259,7 +101246,7 @@
         "https://jkanime.net/kanojo-mo-kanojo-2nd-season/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 6,
+      "renewalFailed": 5,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -120410,8 +120397,7 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 7,
       "stored": 7,
@@ -120426,7 +120412,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -120612,7 +120598,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -128534,7 +128520,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 4,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -134554,7 +134540,7 @@
         "https://jkanime.net/nekopara/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 3,
+      "renewalFailed": 4,
       "sideOnly": 0,
       "families": {
         "mega": 11,
@@ -144328,7 +144314,8 @@
       "series": "https://jkanime.net/zoku-owarimonogatari/",
       "title": "Zoku Owarimonogatari",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 6,
       "stored": 6,
@@ -144342,7 +144329,7 @@
         "https://jkanime.net/zoku-owarimonogatari/6/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 2,
       "sideOnly": 0,
       "families": {
         "mega": 6,
@@ -162503,8 +162490,7 @@
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
       "title": "Fate/kaleid liner Prisma☆Illya 3rei!! Specials",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 3,
       "stored": 3,
@@ -162515,7 +162501,7 @@
         "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/3/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 3,
@@ -173500,8 +173486,7 @@
       "series": "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/",
       "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -173521,7 +173506,7 @@
         "https://jkanime.net/shimoneta-gainen-sonzai-shinai-taikutsu-sekai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -175564,7 +175549,8 @@
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/4/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/5/",
         "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/6/",
-        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/"
+        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/7/",
+        "https://jkanime.net/tesagure-bukatsumono-spin-off-purupurun-sharumu-to-asobou/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -180839,7 +180825,8 @@
         "https://jkanime.net/tribe-cool-crew/16/",
         "https://jkanime.net/tribe-cool-crew/17/",
         "https://jkanime.net/tribe-cool-crew/18/",
-        "https://jkanime.net/tribe-cool-crew/19/"
+        "https://jkanime.net/tribe-cool-crew/19/",
+        "https://jkanime.net/tribe-cool-crew/2/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
