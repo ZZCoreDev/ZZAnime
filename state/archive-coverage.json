@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T17:58:10.868526+00:00",
+  "checkedAt": "2026-11-07T18:13:10.440608+00:00",
   "catalogueSeries": 5053,
   "observedChapters": 73890,
   "storedChapters": 73074,
   "missingChapters": 510,
-  "expiredChapters": 71650,
+  "expiredChapters": 71658,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 306,
   "voeOnlyChapters": 46,
-  "extraOnlyChapters": 305,
+  "extraOnlyChapters": 306,
   "sourceRequests": 0,
   "aiCalls": 0,
   "playbackVerified": false,
@@ -35212,6 +35212,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/1/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
         "title": "Jiyi Guanli Ju (2026)",
         "samples": [
@@ -35521,6 +35529,14 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yomi-no-tsugai/",
+        "title": "Yomi no Tsugai",
+        "samples": [
+          "https://jkanime.net/yomi-no-tsugai/1/",
+          "https://jkanime.net/yomi-no-tsugai/10/"
         ]
       },
       {
@@ -36985,6 +37001,14 @@
         "samples": [
           "https://jkanime.net/douse-koishite-shimaunda/1/",
           "https://jkanime.net/douse-koishite-shimaunda/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/farmagia/",
+        "title": "Farmagia",
+        "samples": [
+          "https://jkanime.net/farmagia/1/",
+          "https://jkanime.net/farmagia/10/"
         ]
       },
       {
@@ -70003,7 +70027,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -70016,7 +70041,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -74142,7 +74167,8 @@
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -74174,7 +74200,7 @@
         "https://jkanime.net/yomi-no-tsugai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "streamwish": 23,
@@ -84842,6 +84868,7 @@
         "https://jkanime.net/classic-stars/10/",
         "https://jkanime.net/classic-stars/11/",
         "https://jkanime.net/classic-stars/12/",
+        "https://jkanime.net/classic-stars/13/",
         "https://jkanime.net/classic-stars/2/",
         "https://jkanime.net/classic-stars/3/",
         "https://jkanime.net/classic-stars/4/",
@@ -85243,7 +85270,7 @@
         "https://jkanime.net/anne-shirley/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 3,
       "sideOnly": 0,
       "families": {
         "vidhide": 18,
@@ -86941,7 +86968,8 @@
       "series": "https://jkanime.net/farmagia/",
       "title": "Farmagia",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 12,
       "stored": 12,
@@ -86961,7 +86989,7 @@
         "https://jkanime.net/farmagia/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "vidhide": 3,
@@ -90819,6 +90847,7 @@
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/10/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/11/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/12/",
+        "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/13/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/15/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/2/",
         "https://jkanime.net/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/3/",
@@ -122979,6 +123008,7 @@
         "https://jkanime.net/d_cide-traumerei-the-animation/10/",
         "https://jkanime.net/d_cide-traumerei-the-animation/11/",
         "https://jkanime.net/d_cide-traumerei-the-animation/12/",
+        "https://jkanime.net/d_cide-traumerei-the-animation/13/",
         "https://jkanime.net/d_cide-traumerei-the-animation/2/",
         "https://jkanime.net/d_cide-traumerei-the-animation/3/",
         "https://jkanime.net/d_cide-traumerei-the-animation/4/",
@@ -131740,6 +131770,8 @@
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/1/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/10/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/11/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/12/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/13/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/2/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/3/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/4/",
@@ -150584,6 +150616,7 @@
         "https://jkanime.net/mrchen-mdchen/1/",
         "https://jkanime.net/mrchen-mdchen/10/",
         "https://jkanime.net/mrchen-mdchen/11/",
+        "https://jkanime.net/mrchen-mdchen/12/",
         "https://jkanime.net/mrchen-mdchen/2/",
         "https://jkanime.net/mrchen-mdchen/3/",
         "https://jkanime.net/mrchen-mdchen/4/",
@@ -173965,6 +173998,7 @@
         "https://jkanime.net/gangsta-/1/",
         "https://jkanime.net/gangsta-/10/",
         "https://jkanime.net/gangsta-/11/",
+        "https://jkanime.net/gangsta-/12/",
         "https://jkanime.net/gangsta-/2/",
         "https://jkanime.net/gangsta-/3/",
         "https://jkanime.net/gangsta-/4/",
@@ -181037,7 +181071,8 @@
         "https://jkanime.net/tribe-cool-crew/30/",
         "https://jkanime.net/tribe-cool-crew/31/",
         "https://jkanime.net/tribe-cool-crew/32/",
-        "https://jkanime.net/tribe-cool-crew/33/"
+        "https://jkanime.net/tribe-cool-crew/33/",
+        "https://jkanime.net/tribe-cool-crew/34/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
