@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T14:55:21.829022+00:00",
+  "checkedAt": "2026-11-07T15:11:14.738717+00:00",
   "episodes": 73068,
-  "oldestHours": 290.36,
-  "pending": 72848,
-  "expired": 71477,
+  "oldestHours": 290.62,
+  "pending": 72845,
+  "expired": 71512,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1599,
+  "retryAfterExpiry": 1594,
   "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1424.9,
-  "measuredWallClockPerHour": 320.74,
-  "estimatedSweepDays": 9.49,
+  "sampleMinutes": 1422.68,
+  "measuredWallClockPerHour": 324.02,
+  "estimatedSweepDays": 9.4,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 16,
+      "pendingFailures": 15,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -360,7 +360,7 @@
       "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/choujuushin-gravion-zwei/": {
@@ -535,7 +535,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -647,7 +647,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 2,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -773,7 +773,7 @@
       "title": "Otona no Bouguya-san (Rimen)",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/highschool-dxd-ova/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4094,
+    "series": 4096,
     "diagnosedSeries": 4046,
-    "pendingSeries": 48
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-07T14:55:21.829022+00:00",
+    "checkedAt": "2026-11-07T15:11:14.738717+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73886,
     "storedChapters": 73068,
     "missingChapters": 510,
-    "expiredChapters": 71477,
+    "expiredChapters": 71512,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 308,
