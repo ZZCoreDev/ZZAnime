@@ -1,23 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-07T00:53:22.324216+00:00",
+  "checkedAt": "2026-11-07T01:10:52.711718+00:00",
   "requested": 400,
-  "renewed": 96,
-  "attempted": 96,
-  "repairAttempts": 0,
+  "renewed": 100,
+  "attempted": 226,
+  "repairAttempts": 31,
   "earlyRepairAttempts": 0,
-  "failed": 56583,
+  "failed": 56580,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42320544016",
+  "runId": "42322208765",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 60957,
+  "expired": 60981,
+  "extraRenewed": 118,
   "published": true,
-  "expiresWithin24Hours": 71884,
-  "retryAfterExpiry": 1625,
+  "expiresWithin24Hours": 71901,
+  "retryAfterExpiry": 1622,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -493,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 7,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -542,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -654,7 +655,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -682,7 +683,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -696,7 +697,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -773,7 +774,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -883,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4097,
+    "series": 4098,
     "diagnosedSeries": 4046,
-    "pendingSeries": 51
+    "pendingSeries": 52
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-07T01:06:21.482799+00:00",
+    "checkedAt": "2026-11-07T01:23:40.253246+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73881,
     "storedChapters": 73066,
     "missingChapters": 510,
-    "expiredChapters": 60957,
+    "expiredChapters": 60981,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
