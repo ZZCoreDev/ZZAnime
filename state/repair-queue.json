@@ -1,6 +1,6 @@
 {
   "expired-observation": {
-    "series": 4081,
+    "series": 4103,
     "twoSeriesProofRequired": true,
     "samples": [
       {
@@ -16,13 +16,13 @@
         "title": "Megalo Box",
         "samples": [
           "https://jkanime.net/megalo-box/1/",
-          "https://jkanime.net/megalo-box/13/"
+          "https://jkanime.net/megalo-box/10/"
         ]
       }
     ]
   },
   "renewal-error": {
-    "series": 4096,
+    "series": 4095,
     "twoSeriesProofRequired": true,
     "samples": [
       {
