@@ -1,23 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-07T06:07:23.191967+00:00",
+  "checkedAt": "2026-11-07T06:24:52.606543+00:00",
   "requested": 400,
-  "renewed": 82,
-  "attempted": 82,
-  "repairAttempts": 0,
+  "renewed": 100,
+  "attempted": 226,
+  "repairAttempts": 31,
   "earlyRepairAttempts": 0,
-  "failed": 56578,
+  "failed": 56586,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42345283887",
+  "runId": "42346584220",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 65894,
+  "expired": 66106,
+  "extraRenewed": 113,
   "published": true,
-  "expiresWithin24Hours": 72262,
-  "retryAfterExpiry": 1620,
+  "expiresWithin24Hours": 72298,
+  "retryAfterExpiry": 1628,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -479,7 +480,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 8,
+      "pendingFailures": 9,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -493,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -542,7 +543,7 @@
       "title": "Otona no Bouguya-san II",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/saint-seiya-saga-de-hades/": {
@@ -633,7 +634,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -654,7 +655,7 @@
       "title": "Nekopara",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/yondemasu-yo-azazel-san/": {
@@ -696,7 +697,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -745,7 +746,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 6,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -883,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4096,
+    "series": 4098,
     "diagnosedSeries": 4046,
-    "pendingSeries": 50
+    "pendingSeries": 52
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-07T06:20:26.057812+00:00",
+    "checkedAt": "2026-11-07T06:38:00.547066+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 65894,
+    "expiredChapters": 66106,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
