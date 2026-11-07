@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T17:13:06.745759+00:00",
+  "checkedAt": "2026-11-07T17:28:07.937190+00:00",
   "episodes": 73073,
-  "oldestHours": 292.65,
-  "pending": 72813,
-  "expired": 71614,
+  "oldestHours": 292.9,
+  "pending": 72798,
+  "expired": 71628,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1577,
+  "retryAfterExpiry": 1578,
   "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1425.76,
-  "measuredWallClockPerHour": 323.83,
-  "estimatedSweepDays": 9.4,
+  "sampleMinutes": 1423.13,
+  "measuredWallClockPerHour": 324.43,
+  "estimatedSweepDays": 9.38,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 11,
+      "pendingFailures": 10,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4091,
+    "series": 4092,
     "diagnosedSeries": 4046,
-    "pendingSeries": 45
+    "pendingSeries": 46
   },
   "coverage": {
-    "checkedAt": "2026-11-07T17:13:06.745759+00:00",
+    "checkedAt": "2026-11-07T17:28:07.937190+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73890,
     "storedChapters": 73073,
     "missingChapters": 510,
-    "expiredChapters": 71614,
+    "expiredChapters": 71628,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 307,
