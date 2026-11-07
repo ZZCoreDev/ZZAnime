@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-07T12:07:56.542491+00:00",
+  "checkedAt": "2026-11-07T12:25:24.368531+00:00",
   "failedChapters": 56579,
   "series": 4097,
   "diagnosedSeries": 4046,
@@ -103103,8 +103103,8 @@
       "series": "https://jkanime.net/tsuihousha-shokudou-e-youkoso/",
       "failedChapters": 5,
       "samples": [
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/",
-        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/12/"
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/1/",
+        "https://jkanime.net/tsuihousha-shokudou-e-youkoso/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -122314,6 +122314,18 @@
       "nextRetryAt": 1793796331.2777708
     },
     {
+      "series": "https://jkanime.net/farmagia/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/farmagia/2/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794054901.6482432
+    },
+    {
       "series": "https://jkanime.net/fastening-days-2/",
       "failedChapters": 1,
       "samples": [
@@ -139068,18 +139080,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793248266.580553
-    },
-    {
-      "series": "https://jkanime.net/farmagia/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/farmagia/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794054901.6482432
     }
   ]
 }
