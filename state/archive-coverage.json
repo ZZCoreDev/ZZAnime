@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T16:40:14.709203+00:00",
+  "checkedAt": "2026-11-07T16:57:08.187774+00:00",
   "catalogueSeries": 5053,
-  "observedChapters": 73889,
-  "storedChapters": 73072,
+  "observedChapters": 73890,
+  "storedChapters": 73073,
   "missingChapters": 510,
-  "expiredChapters": 71585,
+  "expiredChapters": 71597,
   "noIndependentChapters": 0,
   "seriesWithoutObservedListing": 51,
   "sideOnlyChapters": 307,
@@ -35204,6 +35204,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+        "title": "Cyberpunk: Edgerunners 2",
+        "samples": [
+          "https://jkanime.net/cyberpunk-edgerunners-2/1/",
+          "https://jkanime.net/cyberpunk-edgerunners-2/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/jiyi-guanli-ju-2026/",
         "title": "Jiyi Guanli Ju (2026)",
         "samples": [
@@ -35513,6 +35521,14 @@
         "samples": [
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/1/",
           "https://jkanime.net/honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo/10/"
+        ]
+      },
+      {
+        "series": "https://jkanime.net/yomi-no-tsugai/",
+        "title": "Yomi no Tsugai",
+        "samples": [
+          "https://jkanime.net/yomi-no-tsugai/1/",
+          "https://jkanime.net/yomi-no-tsugai/10/"
         ]
       },
       {
@@ -43350,6 +43366,14 @@
         ]
       },
       {
+        "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "samples": [
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
+          "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/2/"
+        ]
+      },
+      {
         "series": "https://jkanime.net/kamiarizuki-no-kodomo/",
         "title": "Kamiarizuki no Kodomo",
         "samples": [
@@ -45016,14 +45040,6 @@
         "samples": [
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/1/",
           "https://jkanime.net/jimihen-jimiko-wo-kaechau-jun-isei-kouyuu/2/"
-        ]
-      },
-      {
-        "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
-        "title": "Otona no Bouguya-san II",
-        "samples": [
-          "https://jkanime.net/otona-no-bouguya-san-ii/1/",
-          "https://jkanime.net/otona-no-bouguya-san-ii/10/"
         ]
       },
       {
@@ -69995,7 +70011,8 @@
       "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
       "title": "Cyberpunk: Edgerunners 2",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 10,
       "stored": 10,
@@ -70008,7 +70025,7 @@
         "https://jkanime.net/cyberpunk-edgerunners-2/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mp4upload": 10,
@@ -74134,7 +74151,8 @@
       "series": "https://jkanime.net/yomi-no-tsugai/",
       "title": "Yomi no Tsugai",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 24,
       "stored": 24,
@@ -74166,7 +74184,7 @@
         "https://jkanime.net/yomi-no-tsugai/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "streamwish": 23,
@@ -84690,6 +84708,7 @@
         "https://jkanime.net/uma-musume-cinderella-gray/16/",
         "https://jkanime.net/uma-musume-cinderella-gray/17/",
         "https://jkanime.net/uma-musume-cinderella-gray/18/",
+        "https://jkanime.net/uma-musume-cinderella-gray/19/",
         "https://jkanime.net/uma-musume-cinderella-gray/2/",
         "https://jkanime.net/uma-musume-cinderella-gray/3/",
         "https://jkanime.net/uma-musume-cinderella-gray/4/",
@@ -84831,6 +84850,7 @@
         "https://jkanime.net/classic-stars/4/",
         "https://jkanime.net/classic-stars/5/",
         "https://jkanime.net/classic-stars/6/",
+        "https://jkanime.net/classic-stars/7/",
         "https://jkanime.net/classic-stars/8/"
       ],
       "noIndependent": [],
@@ -86566,7 +86586,8 @@
         "https://jkanime.net/bel-blatt/4/",
         "https://jkanime.net/bel-blatt/5/",
         "https://jkanime.net/bel-blatt/6/",
-        "https://jkanime.net/bel-blatt/7/"
+        "https://jkanime.net/bel-blatt/7/",
+        "https://jkanime.net/bel-blatt/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -93998,7 +94019,8 @@
         "https://jkanime.net/code-geass-dakkan-no-roz/4/",
         "https://jkanime.net/code-geass-dakkan-no-roz/5/",
         "https://jkanime.net/code-geass-dakkan-no-roz/6/",
-        "https://jkanime.net/code-geass-dakkan-no-roz/7/"
+        "https://jkanime.net/code-geass-dakkan-no-roz/7/",
+        "https://jkanime.net/code-geass-dakkan-no-roz/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -95627,7 +95649,7 @@
         "https://jkanime.net/yozakura-san-chi-no-daisakusen/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 13,
+      "renewalFailed": 12,
       "sideOnly": 0,
       "families": {
         "mega": 27,
@@ -120486,7 +120508,8 @@
       "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "causes": [
-        "expired-observation"
+        "expired-observation",
+        "renewal-error"
       ],
       "observed": 7,
       "stored": 7,
@@ -120501,7 +120524,7 @@
         "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/7/"
       ],
       "noIndependent": [],
-      "renewalFailed": 0,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 7,
@@ -120687,7 +120710,7 @@
         "https://jkanime.net/komi-san-wa-comyushou-desu/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 2,
+      "renewalFailed": 1,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -122950,7 +122973,8 @@
         "https://jkanime.net/d_cide-traumerei-the-animation/4/",
         "https://jkanime.net/d_cide-traumerei-the-animation/5/",
         "https://jkanime.net/d_cide-traumerei-the-animation/6/",
-        "https://jkanime.net/d_cide-traumerei-the-animation/7/"
+        "https://jkanime.net/d_cide-traumerei-the-animation/7/",
+        "https://jkanime.net/d_cide-traumerei-the-animation/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -128598,8 +128622,7 @@
       "series": "https://jkanime.net/otona-no-bouguya-san-ii/",
       "title": "Otona no Bouguya-san II",
       "causes": [
-        "expired-observation",
-        "renewal-error"
+        "expired-observation"
       ],
       "observed": 12,
       "stored": 12,
@@ -128619,7 +128642,7 @@
         "https://jkanime.net/otona-no-bouguya-san-ii/9/"
       ],
       "noIndependent": [],
-      "renewalFailed": 1,
+      "renewalFailed": 0,
       "sideOnly": 0,
       "families": {
         "mega": 12,
@@ -131707,7 +131730,9 @@
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/3/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/4/",
         "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/5/",
-        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/6/"
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/6/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/7/",
+        "https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/8/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -134856,7 +134881,8 @@
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/11/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/2/",
         "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/3/",
-        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/4/"
+        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/4/",
+        "https://jkanime.net/uchi-tama-uchi-no-tama-shirimasen-ka/5/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -150541,7 +150567,8 @@
         "https://jkanime.net/mrchen-mdchen/3/",
         "https://jkanime.net/mrchen-mdchen/4/",
         "https://jkanime.net/mrchen-mdchen/5/",
-        "https://jkanime.net/mrchen-mdchen/6/"
+        "https://jkanime.net/mrchen-mdchen/6/",
+        "https://jkanime.net/mrchen-mdchen/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -162528,7 +162555,8 @@
         "https://jkanime.net/time-bokan-24/3/",
         "https://jkanime.net/time-bokan-24/4/",
         "https://jkanime.net/time-bokan-24/5/",
-        "https://jkanime.net/time-bokan-24/6/"
+        "https://jkanime.net/time-bokan-24/6/",
+        "https://jkanime.net/time-bokan-24/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 1,
@@ -173912,7 +173940,8 @@
         "https://jkanime.net/gangsta-/3/",
         "https://jkanime.net/gangsta-/4/",
         "https://jkanime.net/gangsta-/5/",
-        "https://jkanime.net/gangsta-/6/"
+        "https://jkanime.net/gangsta-/6/",
+        "https://jkanime.net/gangsta-/7/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -180972,7 +181001,8 @@
         "https://jkanime.net/tribe-cool-crew/26/",
         "https://jkanime.net/tribe-cool-crew/27/",
         "https://jkanime.net/tribe-cool-crew/28/",
-        "https://jkanime.net/tribe-cool-crew/29/"
+        "https://jkanime.net/tribe-cool-crew/29/",
+        "https://jkanime.net/tribe-cool-crew/3/"
       ],
       "noIndependent": [],
       "renewalFailed": 0,
@@ -252630,7 +252660,7 @@
       "causes": [
         "expired-observation"
       ],
-      "observed": 6,
+      "observed": 7,
       "stored": 6,
       "missing": [],
       "expired": [
@@ -252638,7 +252668,7 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 0,
+      "sideOnly": 1,
       "families": {
         "mp4upload": 6,
         "streamwish": 2,
@@ -252943,7 +252973,7 @@
         "expired-observation"
       ],
       "observed": 6,
-      "stored": 5,
+      "stored": 6,
       "missing": [],
       "expired": [
         "https://jkanime.net/marronnier-oukoku-no-shichinin-no-kishi/1/",
@@ -252953,11 +252983,12 @@
       ],
       "noIndependent": [],
       "renewalFailed": 0,
-      "sideOnly": 1,
+      "sideOnly": 0,
       "families": {
-        "mp4upload": 5,
-        "streamwish": 1,
-        "vidhide": 1
+        "mp4upload": 6,
+        "streamwish": 2,
+        "vidhide": 2,
+        "filemoon": 1
       },
       "playbackVerified": false
     },
