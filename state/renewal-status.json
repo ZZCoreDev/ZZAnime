@@ -1,24 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-07T12:47:10.685549+00:00",
+  "checkedAt": "2026-11-07T13:02:10.205182+00:00",
   "requested": 400,
   "renewed": 100,
-  "attempted": 180,
-  "repairAttempts": 20,
+  "attempted": 242,
+  "repairAttempts": 35,
   "earlyRepairAttempts": 0,
-  "failed": 56589,
+  "failed": 56586,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42373730046",
+  "runId": "42374917329",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 71267,
-  "extraRenewed": 69,
+  "expired": 71396,
+  "extraRenewed": 134,
   "published": true,
-  "expiresWithin24Hours": 72337,
-  "retryAfterExpiry": 1631,
+  "expiresWithin24Hours": 72341,
+  "retryAfterExpiry": 1628,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -494,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -683,7 +683,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -774,7 +774,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -889,12 +889,12 @@
     "pendingSeries": 52
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-07T12:59:46.124789+00:00",
+    "checkedAt": "2026-11-07T13:15:14.983526+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73883,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 71267,
+    "expiredChapters": 71396,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,

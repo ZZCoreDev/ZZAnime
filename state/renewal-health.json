@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T12:59:46.124789+00:00",
+  "checkedAt": "2026-11-07T13:15:14.983526+00:00",
   "episodes": 73067,
-  "oldestHours": 288.43,
-  "pending": 72866,
-  "expired": 71267,
-  "expiresWithin24Hours": 72337,
-  "retryAfterExpiry": 1631,
+  "oldestHours": 288.69,
+  "pending": 72851,
+  "expired": 71396,
+  "expiresWithin24Hours": 72341,
+  "retryAfterExpiry": 1628,
   "successfulCyclesMeasured": 82,
-  "sampleMinutes": 1436.01,
-  "measuredWallClockPerHour": 311.49,
-  "estimatedSweepDays": 9.77,
+  "sampleMinutes": 1435.47,
+  "measuredWallClockPerHour": 312.36,
+  "estimatedSweepDays": 9.75,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -766,7 +766,7 @@
       "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!! Specials",
       "total": 3,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/otona-no-bouguya-san-rimen/": {
@@ -881,12 +881,12 @@
     "pendingSeries": 52
   },
   "coverage": {
-    "checkedAt": "2026-11-07T12:59:46.124789+00:00",
+    "checkedAt": "2026-11-07T13:15:14.983526+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73883,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 71267,
+    "expiredChapters": 71396,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,

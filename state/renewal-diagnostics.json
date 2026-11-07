@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-07T12:59:46.124789+00:00",
-  "failedChapters": 56589,
+  "checkedAt": "2026-11-07T13:15:14.983526+00:00",
+  "failedChapters": 56586,
   "series": 4098,
   "diagnosedSeries": 4046,
   "pendingSeries": 52,
@@ -26,7 +26,7 @@
     "ValueError: VOE provider scope": 127,
     "No existing approved provider": 35742,
     "Ambiguous AnimeFLV listing identity": 3143,
-    "ValueError: No approved observations; previous channel retained": 326,
+    "ValueError: No approved observations; previous channel retained": 323,
     "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>": 27,
     "ValueError: VOE observation date": 67,
     "Source did not return a verified observation": 231,
@@ -94766,7 +94766,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793932481.758778
+      "nextRetryAt": 1793932486.9784048
     },
     {
       "series": "https://jkanime.net/kimetsu-no-yaiba-hashira-geiko-hen/",
@@ -99185,8 +99185,8 @@
       "series": "https://jkanime.net/kabushikigaisha-magi-lumire/",
       "failedChapters": 6,
       "samples": [
-        "https://jkanime.net/kabushikigaisha-magi-lumire/1/",
-        "https://jkanime.net/kabushikigaisha-magi-lumire/10/"
+        "https://jkanime.net/kabushikigaisha-magi-lumire/10/",
+        "https://jkanime.net/kabushikigaisha-magi-lumire/11/"
       ],
       "diagnosedSample": null,
       "sources": {},
@@ -99333,19 +99333,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793317910.7232962
-    },
-    {
-      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
-      "failedChapters": 6,
-      "samples": [
-        "https://jkanime.net/komi-san-wa-comyushou-desu/11/",
-        "https://jkanime.net/komi-san-wa-comyushou-desu/12/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793934368.788301
     },
     {
       "series": "https://jkanime.net/ladies-versus-butlers-specials/",
@@ -101832,7 +101819,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794055874.4838254
+      "nextRetryAt": 1794061159.4169822
     },
     {
       "series": "https://jkanime.net/go-princess-precure/",
@@ -102319,6 +102306,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793383948.0646546
+    },
+    {
+      "series": "https://jkanime.net/komi-san-wa-comyushou-desu/",
+      "failedChapters": 5,
+      "samples": [
+        "https://jkanime.net/komi-san-wa-comyushou-desu/10/",
+        "https://jkanime.net/komi-san-wa-comyushou-desu/11/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793934368.788301
     },
     {
       "series": "https://jkanime.net/kuroko-no-basket-ng-shuu/",
@@ -103123,7 +103123,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794055890.927944
+      "nextRetryAt": 1794061180.230981
     },
     {
       "series": "https://jkanime.net/umayuru-full-gate/",
@@ -104908,19 +104908,6 @@
       "nextRetryAt": 1793236251.1382644
     },
     {
-      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
-      "failedChapters": 4,
-      "samples": [
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/1/",
-        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/5/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1793932499.2815285
-    },
-    {
       "series": "https://jkanime.net/king-of-prism-shiny-seven-stars/",
       "failedChapters": 4,
       "samples": [
@@ -105501,13 +105488,13 @@
       "failedChapters": 4,
       "samples": [
         "https://jkanime.net/nekopara/12/",
-        "https://jkanime.net/nekopara/6/"
+        "https://jkanime.net/nekopara/8/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793959179.8515568
+      "nextRetryAt": 1793959185.3509862
     },
     {
       "series": "https://jkanime.net/nogizaka-haruka-no-himitsu-finale/",
@@ -107069,19 +107056,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793299748.8539646
-    },
-    {
-      "series": "https://jkanime.net/anne-shirley/",
-      "failedChapters": 3,
-      "samples": [
-        "https://jkanime.net/anne-shirley/16/",
-        "https://jkanime.net/anne-shirley/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794053868.6310706
     },
     {
       "series": "https://jkanime.net/aoi-sekai-no-chuushin-de/",
@@ -108749,6 +108723,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793317768.1846716
+    },
+    {
+      "series": "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/",
+      "failedChapters": 3,
+      "samples": [
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/5/",
+        "https://jkanime.net/kimetsu-no-yaiba-mugen-ressha-hen/6/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1793932499.2815285
     },
     {
       "series": "https://jkanime.net/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu/",
@@ -110422,7 +110409,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794055946.1305296
+      "nextRetryAt": 1794067435.5205705
     },
     {
       "series": "https://jkanime.net/tamayomi/",
@@ -110572,7 +110559,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794055923.1677287
+      "nextRetryAt": 1794074681.8718665
     },
     {
       "series": "https://jkanime.net/the-idolmster-shiny-festa/",
@@ -111590,6 +111577,19 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793342908.4532363
+    },
+    {
+      "series": "https://jkanime.net/anne-shirley/",
+      "failedChapters": 2,
+      "samples": [
+        "https://jkanime.net/anne-shirley/16/",
+        "https://jkanime.net/anne-shirley/3/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794055957.1953785
     },
     {
       "series": "https://jkanime.net/another-world/",
@@ -112761,17 +112761,17 @@
       "nextRetryAt": 1793317864.1558075
     },
     {
-      "series": "https://jkanime.net/farmagia/",
+      "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
       "failedChapters": 2,
       "samples": [
-        "https://jkanime.net/farmagia/2/",
-        "https://jkanime.net/farmagia/4/"
+        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/",
+        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/1/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794054901.6482432
+      "nextRetryAt": 1794016300.159851
     },
     {
       "series": "https://jkanime.net/feng-ling-yu-xiu-2nd-season-tebie-pian/",
@@ -116159,7 +116159,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794055934.764041
+      "nextRetryAt": 1794077823.1903436
     },
     {
       "series": "https://jkanime.net/witch-craft-works-specials/",
@@ -118143,7 +118143,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794054910.9036891
+      "nextRetryAt": 1794078580.6370265
     },
     {
       "series": "https://jkanime.net/bem-movie-become-human/",
@@ -120102,6 +120102,18 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1793398185.7687573
+    },
+    {
+      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794057964.760921
     },
     {
       "series": "https://jkanime.net/d-frag-ova/",
@@ -122327,6 +122339,18 @@
       "nextRetryAt": 1793796331.2777708
     },
     {
+      "series": "https://jkanime.net/farmagia/",
+      "failedChapters": 1,
+      "samples": [
+        "https://jkanime.net/farmagia/4/"
+      ],
+      "diagnosedSample": null,
+      "sources": {},
+      "sampleOnly": true,
+      "automaticApproval": false,
+      "nextRetryAt": 1794058011.3219564
+    },
+    {
       "series": "https://jkanime.net/fastening-days-2/",
       "failedChapters": 1,
       "samples": [
@@ -122589,18 +122613,6 @@
       "sampleOnly": true,
       "automaticApproval": false,
       "nextRetryAt": 1794163590.477806
-    },
-    {
-      "series": "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/fatekaleid-liner-prismaillya-3rei-specials/2/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794016300.159851
     },
     {
       "series": "https://jkanime.net/fatekaleid-liner-prismaillya-movie-licht-namae-no-nai-shoujo/",
@@ -124314,7 +124326,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794054891.5719771
+      "nextRetryAt": 1794078568.7644343
     },
     {
       "series": "https://jkanime.net/hachigatsu-no-cinderella-nine-episode-13/",
@@ -132346,7 +132358,7 @@
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1793979829.9113443
+      "nextRetryAt": 1794078751.5702977
     },
     {
       "series": "https://jkanime.net/owari-no-seraph-the-beginning-of-the-end/",
@@ -139038,18 +139050,6 @@
       "nextRetryAt": 1793324649.3407533
     },
     {
-      "series": "https://jkanime.net/zoku-owarimonogatari/",
-      "failedChapters": 1,
-      "samples": [
-        "https://jkanime.net/zoku-owarimonogatari/6/"
-      ],
-      "diagnosedSample": null,
-      "sources": {},
-      "sampleOnly": true,
-      "automaticApproval": false,
-      "nextRetryAt": 1794035091.5719633
-    },
-    {
       "series": "https://jkanime.net/zx-code-reunion/",
       "failedChapters": 1,
       "samples": [
@@ -139083,16 +139083,16 @@
       "nextRetryAt": 1793248266.580553
     },
     {
-      "series": "https://jkanime.net/cyberpunk-edgerunners-2/",
+      "series": "https://jkanime.net/sayonara-lara/",
       "failedChapters": 1,
       "samples": [
-        "https://jkanime.net/cyberpunk-edgerunners-2/9/"
+        "https://jkanime.net/sayonara-lara/6/"
       ],
       "diagnosedSample": null,
       "sources": {},
       "sampleOnly": true,
       "automaticApproval": false,
-      "nextRetryAt": 1794057964.760921
+      "nextRetryAt": 1794058675.3568943
     }
   ]
 }
