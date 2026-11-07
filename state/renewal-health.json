@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T10:24:27.350135+00:00",
+  "checkedAt": "2026-11-07T10:41:10.257573+00:00",
   "episodes": 73067,
-  "oldestHours": 285.84,
-  "pending": 72869,
-  "expired": 69481,
-  "expiresWithin24Hours": 72335,
-  "retryAfterExpiry": 1626,
+  "oldestHours": 286.12,
+  "pending": 72876,
+  "expired": 69749,
+  "expiresWithin24Hours": 72337,
+  "retryAfterExpiry": 1621,
   "successfulCyclesMeasured": 81,
-  "sampleMinutes": 1423.46,
-  "measuredWallClockPerHour": 308.38,
-  "estimatedSweepDays": 9.87,
+  "sampleMinutes": 1424.52,
+  "measuredWallClockPerHour": 308.15,
+  "estimatedSweepDays": 9.88,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 22,
+      "pendingFailures": 21,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 4,
+      "pendingFailures": 3,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4097,
+    "series": 4098,
     "diagnosedSeries": 4046,
-    "pendingSeries": 51
+    "pendingSeries": 52
   },
   "coverage": {
-    "checkedAt": "2026-11-07T10:24:27.350135+00:00",
+    "checkedAt": "2026-11-07T10:41:10.257573+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73067,
     "missingChapters": 510,
-    "expiredChapters": 69481,
+    "expiredChapters": 69749,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 305,
