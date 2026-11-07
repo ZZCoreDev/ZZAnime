@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T03:11:45.448013+00:00",
+  "checkedAt": "2026-11-07T03:28:09.567913+00:00",
   "episodes": 73066,
-  "oldestHours": 278.63,
-  "pending": 72684,
-  "expired": 62644,
-  "expiresWithin24Hours": 71994,
-  "retryAfterExpiry": 1620,
+  "oldestHours": 278.9,
+  "pending": 72688,
+  "expired": 62910,
+  "expiresWithin24Hours": 72008,
+  "retryAfterExpiry": 1614,
   "successfulCyclesMeasured": 79,
-  "sampleMinutes": 1429.54,
-  "measuredWallClockPerHour": 290.7,
-  "estimatedSweepDays": 10.47,
+  "sampleMinutes": 1428.17,
+  "measuredWallClockPerHour": 290.97,
+  "estimatedSweepDays": 10.46,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -129,7 +129,7 @@
       "title": "Yozakura-san Chi no Daisakusen",
       "total": 27,
       "fresh": 0,
-      "pendingFailures": 20,
+      "pendingFailures": 19,
       "state": "pending"
     },
     "https://jkanime.net/evangelion/": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 9,
+      "pendingFailures": 8,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 6,
+      "pendingFailures": 5,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -738,7 +738,7 @@
       "title": "Kabushikigaisha Magi-Lumi\u00e8re",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 5,
+      "pendingFailures": 4,
       "state": "pending"
     },
     "https://jkanime.net/magical-explorer/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4098,
+    "series": 4096,
     "diagnosedSeries": 4046,
-    "pendingSeries": 52
+    "pendingSeries": 50
   },
   "coverage": {
-    "checkedAt": "2026-11-07T03:11:45.448013+00:00",
+    "checkedAt": "2026-11-07T03:28:09.567913+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73882,
     "storedChapters": 73066,
     "missingChapters": 510,
-    "expiredChapters": 62644,
+    "expiredChapters": 62910,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,
