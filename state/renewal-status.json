@@ -1,23 +1,24 @@
 {
   "state": "complete-with-failures",
-  "checkedAt": "2026-11-07T17:28:58.223637+00:00",
+  "checkedAt": "2026-11-07T17:43:31.567142+00:00",
   "requested": 400,
-  "renewed": 94,
-  "attempted": 94,
-  "repairAttempts": 0,
+  "renewed": 100,
+  "attempted": 244,
+  "repairAttempts": 36,
   "earlyRepairAttempts": 0,
-  "failed": 56536,
+  "failed": 56530,
   "datesInvented": false,
   "pcRequired": false,
   "aiCalls": 0,
   "trigger": "workflow_dispatch",
-  "runId": "42396471274",
+  "runId": "42397657015",
   "proof": false,
   "identityRetriesReleased": 0,
-  "expired": 71638,
+  "expired": 71650,
+  "extraRenewed": 122,
   "published": true,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1578,
+  "retryAfterExpiry": 1572,
   "capacityStatus": "behind",
   "verifiedIdentityRecovery": {
     "https://jkanime.net/mao/": {
@@ -479,7 +480,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -493,7 +494,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -591,7 +592,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -633,7 +634,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -682,7 +683,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -696,7 +697,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -883,17 +884,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4092,
+    "series": 4087,
     "diagnosedSeries": 4046,
-    "pendingSeries": 46
+    "pendingSeries": 41
   },
   "archiveCoverage": {
-    "checkedAt": "2026-11-07T17:42:35.301339+00:00",
+    "checkedAt": "2026-11-07T17:58:10.868526+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73890,
     "storedChapters": 73074,
     "missingChapters": 510,
-    "expiredChapters": 71638,
+    "expiredChapters": 71650,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,

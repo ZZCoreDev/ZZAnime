@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-11-07T17:42:35.301339+00:00",
+  "checkedAt": "2026-11-07T17:58:10.868526+00:00",
   "episodes": 73074,
-  "oldestHours": 293.14,
-  "pending": 72805,
-  "expired": 71638,
+  "oldestHours": 293.4,
+  "pending": 72801,
+  "expired": 71650,
   "expiresWithin24Hours": 72341,
-  "retryAfterExpiry": 1578,
+  "retryAfterExpiry": 1572,
   "successfulCyclesMeasured": 83,
-  "sampleMinutes": 1437.58,
-  "measuredWallClockPerHour": 325.09,
-  "estimatedSweepDays": 9.37,
+  "sampleMinutes": 1426.29,
+  "measuredWallClockPerHour": 329.01,
+  "estimatedSweepDays": 9.25,
   "capacityStatus": "behind",
   "datesInvented": false,
   "verifiedIdentityRecovery": {
@@ -472,7 +472,7 @@
       "title": "Kanojo mo Kanojo 2nd Season",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/kiss-x-sis-tv/": {
@@ -486,7 +486,7 @@
       "title": "Komi-san wa, Comyushou desu.",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/kurenai/": {
@@ -584,7 +584,7 @@
       "title": "Tsuihousha Shokudou e Youkoso!",
       "total": 12,
       "fresh": 0,
-      "pendingFailures": 3,
+      "pendingFailures": 2,
       "state": "pending"
     },
     "https://jkanime.net/venus-versus-virus/": {
@@ -626,7 +626,7 @@
       "title": "Granblue Fantasy The Animation",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 0,
+      "pendingFailures": 1,
       "state": "pending"
     },
     "https://jkanime.net/historys-strongest-disciple-kenichi-ova/": {
@@ -675,7 +675,7 @@
       "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
       "total": 7,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/bel-blatt/": {
@@ -689,7 +689,7 @@
       "title": "Classic\u2605Stars",
       "total": 13,
       "fresh": 0,
-      "pendingFailures": 1,
+      "pendingFailures": 0,
       "state": "pending"
     },
     "https://jkanime.net/furi-kuri-flcl/": {
@@ -876,17 +876,17 @@
     }
   },
   "incidentDiagnosis": {
-    "series": 4092,
+    "series": 4087,
     "diagnosedSeries": 4046,
-    "pendingSeries": 46
+    "pendingSeries": 41
   },
   "coverage": {
-    "checkedAt": "2026-11-07T17:42:35.301339+00:00",
+    "checkedAt": "2026-11-07T17:58:10.868526+00:00",
     "catalogueSeries": 5053,
     "observedChapters": 73890,
     "storedChapters": 73074,
     "missingChapters": 510,
-    "expiredChapters": 71638,
+    "expiredChapters": 71650,
     "noIndependentChapters": 0,
     "seriesWithoutObservedListing": 51,
     "sideOnlyChapters": 306,
