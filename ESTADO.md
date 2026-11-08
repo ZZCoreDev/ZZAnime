@@ -99,7 +99,7 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56526; capítulos vencidos pendientes: 71835. Próximos a vencer: 72341; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56528; capítulos vencidos pendientes: 71849. Próximos a vencer: 72341; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
 Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 0/5 capítulos recientes; incidencias pendientes: 0.
@@ -117,7 +117,7 @@ Equivalencia comprobada: Shijou Saikyou no Deshi Kenichi, 0/50 capítulos recien
 Equivalencia comprobada: Mobile Suit Gundam Wing, 0/49 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tekkaman Blade, 0/49 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Great Teacher Onizuka, 0/43 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 6.
+Equivalencia comprobada: Yozakura-san Chi no Daisakusen, 0/27 capítulos recientes; incidencias pendientes: 5.
 Equivalencia comprobada: Neon Genesis Evangelion, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Ouran High School Host Club, 0/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Phantom: Requiem for the Phantom, 0/26 capítulos recientes; incidencias pendientes: 0.
@@ -166,7 +166,7 @@ Equivalencia comprobada: Hanamaru Youchien, 0/12 capítulos recientes; incidenci
 Equivalencia comprobada: Hanaukyou Maid-tai: La Verite, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kaitou Tenshi Twin Angel: Kyun Kyun☆Tokimeki Paradise!!, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kamisama no Memochou, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Kanojo mo Kanojo 2nd Season, 0/12 capítulos recientes; incidencias pendientes: 1.
+Equivalencia comprobada: Kanojo mo Kanojo 2nd Season, 0/12 capítulos recientes; incidencias pendientes: 2.
 Equivalencia comprobada: Kiss x Sis (TV), 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Komi-san wa, Comyushou desu., 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Kure-nai, 0/12 capítulos recientes; incidencias pendientes: 0.
@@ -182,7 +182,7 @@ Equivalencia comprobada: School Days, 0/12 capítulos recientes; incidencias pen
 Equivalencia comprobada: Shingetsutan Tsukihime, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Strange+, 0/12 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 4.
+Equivalencia comprobada: Tsuihousha Shokudou e Youkoso!, 0/12 capítulos recientes; incidencias pendientes: 5.
 Equivalencia comprobada: Venus Versus Virus, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yoake Mae yori Ruriiro na, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Z/X: Ignition, 0/12 capítulos recientes; incidencias pendientes: 0.
@@ -224,8 +224,8 @@ Equivalencia comprobada: Bonjour♪ Koiaji Pâtisserie, 0/24 capítulos reciente
 Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc, 0/24 capítulos recientes; incidencias pendientes: 24.
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
-Diagnóstico por serie: 4046/4087; pendientes: 41. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 73078 capítulos con registros, 509 capítulos observados sin opciones, 307 publicados solo en /voe/ o /extra/ y 71835 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Diagnóstico por serie: 4046/4088; pendientes: 42. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
+Cobertura de catálogo: 5053 títulos, 73079 capítulos con registros, 509 capítulos observados sin opciones, 306 publicados solo en /voe/ o /extra/ y 71849 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
