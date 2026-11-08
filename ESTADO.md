@@ -205,7 +205,7 @@ Equivalencia comprobada: To LOVE-Ru OVA, 0/6 capítulos recientes; incidencias p
 Equivalencia comprobada: Code Geass: Boukoku no Akito, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka V: Houjou no Megami-hen, 0/15 capítulos recientes; incidencias pendientes: 10.
 Equivalencia comprobada: Kabushikigaisha Magi-Lumière, 0/12 capítulos recientes; incidencias pendientes: 1.
-Equivalencia comprobada: Magical★Explorer, 1/7 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Magical★Explorer, 0/7 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Pokemon XY: Mega Evolution, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tales of Symphonia, 0/4 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Fate/kaleid liner Prisma☆Illya 3rei!! Specials, 0/3 capítulos recientes; incidencias pendientes: 0.
