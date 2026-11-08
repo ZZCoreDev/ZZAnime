@@ -225,7 +225,7 @@ Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc,
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
 Diagnóstico por serie: 4046/4088; pendientes: 42. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 73092 capítulos con registros, 509 capítulos observados sin opciones, 308 publicados solo en /voe/ o /extra/ y 72340 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Cobertura de catálogo: 5053 títulos, 73093 capítulos con registros, 509 capítulos observados sin opciones, 307 publicados solo en /voe/ o /extra/ y 72340 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
