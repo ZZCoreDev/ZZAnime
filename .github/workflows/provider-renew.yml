@@ -35,7 +35,9 @@ jobs:
           path: code
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
+          repository: ZZCoreDev/ZZAnime-datos
           ref: provider-data
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
           path: data
       - name: Estado del probador de reproduccion (rama playback-probe)
         working-directory: code
@@ -96,10 +98,10 @@ jobs:
           ZZ_RENEW_SAMPLE_GROUP: ${{ inputs.sample_group }}
           ZZ_NEWS_WATCHDOG_ENABLED: 'true'
         run: |
-          # pc-import: the PC's continuous JK copy, one batch in branch pc-import (replaced on each send, no history).
+          # pc-import: the PC's continuous JK copy, one batch in branch pc-import of the private data repo (replaced on each send, no history).
           if [ "$ZZ_RENEW_SAMPLE_GROUP" = "pc-import" ]; then
-            git -C .. fetch -q --depth 1 origin pc-import
-            git -C .. show FETCH_HEAD:batch.json.gz > "$RUNNER_TEMP/pc-batch.json.gz"
+            git -C "$GITHUB_WORKSPACE/data" fetch -q --depth 1 origin pc-import
+            git -C "$GITHUB_WORKSPACE/data" show FETCH_HEAD:batch.json.gz > "$RUNNER_TEMP/pc-batch.json.gz"
             export ZZ_PC_BATCH="$RUNNER_TEMP/pc-batch.json.gz"
           fi
           if [ "$ZZ_RENEW_PROOF" = "true" ]; then

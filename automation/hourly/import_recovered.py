@@ -25,7 +25,7 @@ def prepare(batch,current,approved,now,replace=False):
 
 def main(publish=False,pc=False):
     # pc: the PC's continuous JK copy (outputs/catalog-lab/provider-refresh), fetched by the workflow from branch pc-import.
-    folder=Path(os.environ['ZZ_DATA']);path=Path(os.environ['ZZ_PC_BATCH']) if pc else Path(__file__).with_name('recovered-batch.json');raw_batch=path.read_bytes();batch=json.loads(gzip.decompress(raw_batch) if pc else raw_batch);current=load(folder)
+    folder=Path(os.environ['ZZ_DATA']);path=Path(os.environ['ZZ_PC_BATCH']) if pc else next((c for c in (folder.parent/'recovered-batch.json',Path(__file__).with_name('recovered-batch.json')) if c.exists()),Path(__file__).with_name('recovered-batch.json'));raw_batch=path.read_bytes();batch=json.loads(gzip.decompress(raw_batch) if pc else raw_batch);current=load(folder)
     before={url:ep['observedAt'] for url,ep in current['episodes'].items()};now=datetime.datetime.now(datetime.timezone.utc)
     with tempfile.TemporaryDirectory(dir=folder.parent) as temp:
         cp=pipeline.compile_java(Path(temp)/'classes');queries={pipeline.sha((p['name']+'\0'+u).encode()):{'name':p['name'],'url':u} for ep in batch['state']['episodes'].values() for p in ep.get('providers',[]) for u in p.get('links',[])}
