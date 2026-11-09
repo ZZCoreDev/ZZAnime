@@ -90,6 +90,8 @@ jobs:
           ZZ_HELP_KEY: ${{ secrets.ZZ_HELP_KEY }}
           ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
+          ZZ_CHANNEL_KEY: ${{ secrets.ZZ_CHANNEL_KEY }}
+          ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
           ZZ_RENEW_PROOF: ${{ inputs.proof }}
           ZZ_RENEW_SAMPLE_GROUP: ${{ inputs.sample_group }}
           ZZ_NEWS_WATCHDOG_ENABLED: 'true'

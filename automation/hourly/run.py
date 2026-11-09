@@ -239,7 +239,10 @@ def main():
      n=p.relative_to(old).as_posix()
      if re.fullmatch(r'(?:voe/|extra/)?(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
    if len(list(assets.rglob('*')))>18000 or any(p.stat().st_size>2097152 for p in assets.rglob('*') if p.is_file()):raise ValueError('Static/app limits; paid upgrade forbidden')
-   config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','assets':{'directory':'./assets','not_found_handling':'none'},'send_metrics':False,'observability':{'enabled':False}}
+   # 169: channel_gate.mjs keeps channel.json public and asks a session (or the cloud key) for the link files once
+   # ZZ_CHANNEL_REQUIRE is "true"; until then it only checks. ZZ_CHANNEL_KEY is a GitHub secret, never printed.
+   shutil.copyfile(W/'channel_gate.mjs',site/'channel_gate.mjs')
+   config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','main':'channel_gate.mjs','assets':{'directory':'./assets','binding':'ASSETS','run_worker_first':True,'not_found_handling':'none'},'vars':{'REQUIRE_SESSION':os.environ.get('ZZ_CHANNEL_REQUIRE','false'),'CLOUD_KEY':os.environ.get('ZZ_CHANNEL_KEY','')},'ratelimits':[{'name':'CHANNEL_LIMIT','namespace_id':'1170','simple':{'limit':240,'period':60}}],'send_metrics':False,'observability':{'enabled':False}}
    put(site/'wrangler.json',raw(config));cli=W/'node_modules/wrangler/bin/wrangler.js'
    command(['node',str(cli),'deploy','--config',str(site/'wrangler.json')],env=dict(os.environ,WRANGLER_SEND_METRICS='false'))
    for verification_attempt in range(13):
