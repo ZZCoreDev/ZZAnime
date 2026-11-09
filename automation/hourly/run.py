@@ -247,9 +247,12 @@ def main():
    # 169: channel_gate.mjs keeps channel.json public and asks a session (or the cloud key) for the link files once
    # ZZ_CHANNEL_REQUIRE is "true"; until then it only checks. ZZ_CHANNEL_KEY is a GitHub secret, never printed.
    shutil.copyfile(W/'channel_gate.mjs',site/'channel_gate.mjs');shutil.copyfile(W/'quota.mjs',site/'quota.mjs')
-   config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','main':'channel_gate.mjs','assets':{'directory':'./assets','binding':'ASSETS','run_worker_first':True,'not_found_handling':'none'},'vars':{'REQUIRE_SESSION':os.environ.get('ZZ_CHANNEL_REQUIRE','false'),'CLOUD_KEY':os.environ.get('ZZ_CHANNEL_KEY',''),'QUOTA_MODE':os.environ.get('ZZ_QUOTA_MODE') or 'count','QUOTA_DAY':os.environ.get('ZZ_QUOTA_DAY') or '300'},'durable_objects':{'bindings':[{'name':'QUOTA','class_name':'Quota'}]},'migrations':[{'tag':'quota-v1','new_sqlite_classes':['Quota']}],'ratelimits':[{'name':'CHANNEL_LIMIT','namespace_id':'1170','simple':{'limit':240,'period':60}}],'send_metrics':False,'observability':{'enabled':False}}
+   config={'name':'zzanime-respaldo','account_id':'3407d07c06229321d34863cf0fdac02d','compatibility_date':'2026-10-26','main':'channel_gate.mjs','assets':{'directory':'./assets','binding':'ASSETS','run_worker_first':True,'not_found_handling':'none'},'vars':{'REQUIRE_SESSION':os.environ.get('ZZ_CHANNEL_REQUIRE','false'),'QUOTA_MODE':os.environ.get('ZZ_QUOTA_MODE') or 'count','QUOTA_DAY':os.environ.get('ZZ_QUOTA_DAY') or '300'},'durable_objects':{'bindings':[{'name':'QUOTA','class_name':'Quota'}]},'migrations':[{'tag':'quota-v1','new_sqlite_classes':['Quota']}],'ratelimits':[{'name':'CHANNEL_LIMIT','namespace_id':'1170','simple':{'limit':240,'period':60}}],'send_metrics':False,'observability':{'enabled':False}}
    put(site/'wrangler.json',raw(config));cli=W/'node_modules/wrangler/bin/wrangler.js'
-   command(['node',str(cli),'deploy','--config',str(site/'wrangler.json')],env=dict(os.environ,WRANGLER_SEND_METRICS='false'))
+   # 9/11: the cloud key is a Cloudflare SECRET (not a plain variable visible in the dashboard); file outside site/, never published.
+   secrets=[]
+   if os.environ.get('ZZ_CHANNEL_KEY'):put(tmp/'channel-secrets.json',raw({'CLOUD_KEY':os.environ['ZZ_CHANNEL_KEY']}));secrets=['--secrets-file',str(tmp/'channel-secrets.json')]
+   command(['node',str(cli),'deploy','--config',str(site/'wrangler.json'),*secrets],env=dict(os.environ,WRANGLER_SEND_METRICS='false'))
    for verification_attempt in range(13):
     try:
      remote=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/('remote-cache-'+str(verification_attempt))),BASE,str(old)]))
