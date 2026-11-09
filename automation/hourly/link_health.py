@@ -33,6 +33,7 @@ REPORTED_RECHECK=3600
 REPORTED_LIMIT=10
 INTERVAL={'alive':24*3600,'unknown':6*3600,'dead':1800,'excluded':48*3600}
 CONFIRM_GAP=1800
+PENDING_FIRST=30
 # The whole archive is swept in turns inside the same per-run request budget: news keep priority, the archive
 # gets half of the regular slots (20 per run since 31/10/2026, approved by Robin; same 2.5 s pause) (more when news leave them free), reading at most ARCHIVE_SHARDS
 # series shards per run from a cursor stored in link-health.json.
@@ -174,7 +175,10 @@ def check(folder,now=None,limit=100,pause=2.5,fetcher=fetch,sleep=time.sleep,bud
  for k,e in links.items():
   if e.get('archive') and k not in found and (e.get('excluded') or e.get('state')=='dead'):found[k]={x:e[x] for x in ('family','name','url','episode','archive','download') if x in e}
  ordered=sorted((k for k in found if ready(k)),key=lambda k:(not found[k].get('held'),k in links,links.get(k,{}).get('checkedAt',0)))
- news=[k for k in ordered if not found[k].get('reported')]
+ # 10/11/2026: links seen dead once wait for the second look that withdraws them; up to PENDING_FIRST of them go first
+ # (3710 were waiting behind new links in the editor), the rest keep their usual order.
+ pending=[k for k in ordered if not found[k].get('reported') and links.get(k,{}).get('state')=='dead' and not links.get(k,{}).get('excluded')][:PENDING_FIRST]
+ news=pending+[k for k in ordered if not found[k].get('reported') and k not in set(pending)]
  archive=archive_candidates(folder,health,now,rules,found,max(0,limit-min(len(news),limit-limit//ARCHIVE_SHARE)));found.update(archive)
  queue=[k for k in ordered if found[k].get('reported')][:REPORTED_LIMIT]+news[:limit-len(archive)]+list(archive)
  families=sorted({found[k]['family'] for k in queue});results={};summary={'checked':0,'alive':0,'dead':0,'unknown':0,'suspended':[]};sent=[0]
