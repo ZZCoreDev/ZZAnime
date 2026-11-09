@@ -261,7 +261,9 @@ def main():
       remote_voe=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/('voe-remote-'+str(verification_attempt))),BASE+'/voe',str(old/'voe')]))
       if remote_voe!=voe_proof:raise ValueError('Remote VOE reader differs')
      break
-    except (subprocess.CalledProcessError,ValueError):
+    except (subprocess.CalledProcessError,ValueError) as error:
+     # 9/11: show why the remote check failed (Java message only; no keys are ever in it).
+     print(json.dumps({'remoteVerify':verification_attempt,'error':str(getattr(error,'stderr','') or error)[-500:]}),flush=True)
      if verification_attempt==12:raise
      time.sleep(25)
    # Retain only current generation in state. The next deployment adds it as its prior generation.
