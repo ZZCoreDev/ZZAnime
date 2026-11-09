@@ -2,6 +2,8 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
+import {quotaAllows,quotaReport} from './quota.mjs';
+export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
 // 9/11: the editor's link-health view (owner_files.py), only for the editor owner with authenticator (zz_editor_access).
@@ -35,11 +37,14 @@ async function owner(request,fetcher){
 }
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
  const path=new URL(request.url).pathname;
+ if(path==='/owner/quota.json'){if(!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
  const user=await sessionUser(request,fetcher);
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
+ // 9/11: daily cap per account on the series files (quota.mjs; counts only unless QUOTA_MODE is "enforce").
+ if(user&&/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,user))return deny(429,'daily_limit');
  return env.ASSETS.fetch(request);
 }
 export default {fetch:(request,env)=>handle(request,env)};
