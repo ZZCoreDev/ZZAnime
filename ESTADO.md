@@ -99,9 +99,9 @@ no ignorar código de app ni ampliar la lista indiscriminadamente para obtener v
 
 <!-- ZZ-RENEW-STATUS -->
 ## Refresco automático del respaldo
-Estado: complete-with-failures. Fallos pendientes: 56559; capítulos vencidos pendientes: 72315. Próximos a vencer: 72501; capacidad: behind.
+Estado: complete-with-failures. Fallos pendientes: 56559; capítulos vencidos pendientes: 69408. Próximos a vencer: 69605; capacidad: behind.
 Deuda: conservar observaciones originales; reintentar fuentes verificadas. No se han cambiado fechas para ocultar fallos.
-Equivalencia comprobada: Mao, 0/26 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Mao, 26/26 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai, 1/6 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Yu Gi Oh!: Duel Monsters GX, 0/180 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Prince of Tennis, 0/178 capítulos recientes; incidencias pendientes: 0.
@@ -150,7 +150,7 @@ Equivalencia comprobada: Seisen Cerberus: Ryuukoku no Fatalités, 0/13 capítulo
 Equivalencia comprobada: Stella Jogakuin Koutou-ka C³-bu, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Takahashi Rumiko Gekijou, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Uta no Prince-sama Maji Love 1000, 0/13 capítulos recientes; incidencias pendientes: 12.
-Equivalencia comprobada: Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu, 0/12 capítulos recientes; incidencias pendientes: 3.
+Equivalencia comprobada: Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu, 12/12 capítulos recientes; incidencias pendientes: 3.
 Equivalencia comprobada: Choujuushin Gravion Zwei, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Code Geass: Dakkan no Rozé, 0/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Cuticle Tantei Inaba, 0/12 capítulos recientes; incidencias pendientes: 12.
@@ -215,7 +215,7 @@ Equivalencia comprobada: Kobayashi ga Kawai Sugite Tsurai!!, 0/2 capítulos reci
 Equivalencia comprobada: Koe de Oshigoto! The Animation, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Rurouni Kenshin: Seisouhen, 0/2 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Tsubasa Chronicle: Shunraiki, 0/2 capítulos recientes; incidencias pendientes: 0.
-Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 0/12 capítulos recientes; incidencias pendientes: 0.
+Equivalencia comprobada: Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita., 12/12 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen, 0/6 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: Blade and Soul, 0/13 capítulos recientes; incidencias pendientes: 0.
 Equivalencia comprobada: JoJo's Bizarre Adventure The Animation, 0/26 capítulos recientes; incidencias pendientes: 26.
@@ -225,7 +225,7 @@ Equivalencia comprobada: JoJo's Bizarre Adventure: Stardust Crusaders Egypt Arc,
 Equivalencia comprobada: JoJo's Bizarre Adventure, 0/13 capítulos recientes; incidencias pendientes: 13.
 Equivalencia comprobada: Shomin Sample, 0/12 capítulos recientes; incidencias pendientes: 12.
 Diagnóstico por serie: 4048/4091; pendientes: 43. Sin consultas adicionales ni aprobación automática. Detalle: provider-data/state/renewal-diagnostics.md.
-Cobertura de catálogo: 5053 títulos, 73095 capítulos con registros, 509 capítulos observados sin opciones, 305 publicados solo en /voe/ o /extra/ y 72315 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
+Cobertura de catálogo: 5053 títulos, 73108 capítulos con registros, 497 capítulos observados sin opciones, 305 publicados solo en /voe/ o /extra/ y 69408 vencidos. Presencia no equivale a reproducción. Detalle: state/archive-coverage.md.
 <!-- /ZZ-RENEW-STATUS -->
 
 <!-- OBSERVED-TOKEN-RECOVERY -->
