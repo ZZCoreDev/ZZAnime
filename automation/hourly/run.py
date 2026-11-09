@@ -55,7 +55,7 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
   review=[dict(p,review=True) for p in ep.get('reviewProviders',[]) if p.get('family') in REVIEW_FAMILIES]
   for provider in ep['providers']+review:
    if provider.get('family')=='voe' and not allow_voe:continue
-   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega','mixdrop',*(['voe'] if allow_voe else [])]:continue
+   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega','mixdrop','filemoon',*(['voe'] if allow_voe else [])]:continue
    for link in provider.get('links',[]):
     k=sha((provider['name']+'\0'+link).encode())
     # MEGA from TioAnime or from AnimeFLV's review list counts only once MEGA's API read it alive.
