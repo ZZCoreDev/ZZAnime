@@ -1,7 +1,7 @@
 import tempfile,unittest
 from pathlib import Path
 import new_series
-TIO='<title>Demons&#039; Crest - TioAnime</title>';FLV='<title>Ver Demons\' Crest Online \u2714 AnimeFLV</title>'
+TIO='<title>Demons&#039; Crest - TioAnime</title><script>var episodes = [2,1];</script>';FLV='<title>Ver Demons\' Crest Online \u2714 AnimeFLV</title>'
 def fake(pages):
     return lambda url:(200,url,pages[url]) if url in pages else (404,url,'')
 class NewSeriesTests(unittest.TestCase):
@@ -10,6 +10,7 @@ class NewSeriesTests(unittest.TestCase):
     def test_same_slug_and_title_on_both_sources_is_accepted(self):
         d=self.run_verify({'https://tioanime.com/anime/demons-crest':TIO,'https://vww.animeflv.one/anime/demons-crest':FLV},['demons-crest'])
         self.assertEqual(new_series.rows(d),[{'url':'https://jkanime.net/demons-crest/','title':"Demons' Crest",'year':None}])
+        self.assertEqual(new_series.verify(tempfile.mkdtemp(),['demons-crest'],[],now=1,fetcher=fake({'https://tioanime.com/anime/demons-crest':TIO,'https://vww.animeflv.one/anime/demons-crest':FLV}),sleep=lambda s:None),['https://jkanime.net/demons-crest/1/','https://jkanime.net/demons-crest/2/'])
     def test_missing_source_or_other_title_is_rejected_and_waits(self):
         d=self.run_verify({'https://tioanime.com/anime/x-y':TIO,'https://vww.animeflv.one/anime/x-y':'<title>Ver Otra Online \u2714 AnimeFLV</title>','https://tioanime.com/anime/solo':TIO},['x-y','solo'])
         data=new_series.load(d);self.assertEqual(new_series.rows(d),[]);self.assertEqual(data['rejected']['https://jkanime.net/x-y/']['reason'],'titles differ');self.assertEqual(data['rejected']['https://jkanime.net/solo/']['retryAt'],1000+7*86400)
@@ -19,5 +20,5 @@ class NewSeriesTests(unittest.TestCase):
     def test_bounded_and_catalogue_slugs_skipped(self):
         calls=[];d=tempfile.mkdtemp()
         n=new_series.verify(d,['a1','a2','a3','a4','known'],[{'url':'https://jkanime.net/known/','title':'K'}],now=1,fetcher=lambda u:(calls.append(u),(404,u,''))[1],sleep=lambda s:None)
-        self.assertEqual(n,3);self.assertEqual(len(calls),6)
+        self.assertEqual(n,[]);self.assertEqual(len(calls),6)
 if __name__=='__main__':unittest.main()

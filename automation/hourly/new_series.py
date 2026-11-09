@@ -28,9 +28,14 @@ def titles(tio,flv):
     a=re.search(r'<title>\s*(.+?)\s*-\s*TioAnime\s*</title>',tio,re.S|re.I);b=re.search(r'<title>\s*Ver\s+(.+?)\s+Online\s*\S*\s*AnimeFLV\s*</title>',flv,re.S|re.I)
     return (html.unescape(a.group(1)).strip() if a else None),(html.unescape(b.group(1)).strip() if b else None)
 
+def episodes(tio):
+    m=re.search(r'var\s+episodes\s*=\s*\[([0-9,\s]*)\]',tio)
+    return sorted({int(n) for n in re.findall(r'[0-9]+',m.group(1)) if 0<int(n)<=5000}) if m else []
+
 def verify(folder,slugs,catalogue,now=None,fetcher=fetch,sleep=time.sleep):
+    """Returns the chapter URLs of newly accepted series (TioAnime's episode list), for the collector's retry queue."""
     now=now or time.time();folder=Path(folder);data=load(folder);known={r['url'] for r in catalogue};taken={norm(r['title']) for r in catalogue}
-    checked=0
+    checked=0;chapters=[]
     for slug in slugs:
         url='https://jkanime.net/'+slug+'/'
         if checked>=LIMIT or not re.fullmatch(r'[a-z0-9-]{2,120}',slug) or url in known or url in data['accepted'] or data['rejected'].get(url,{}).get('retryAt',0)>now:continue
@@ -42,7 +47,8 @@ def verify(folder,slugs,catalogue,now=None,fetcher=fetch,sleep=time.sleep):
         elif not t1 or not t2 or norm(t1)!=norm(t2):reason='titles differ'
         elif norm(t1) in taken:reason='title already in catalogue'
         else:
-            data['accepted'][url]={'title':t1,'tio':tio_url,'flv':flv_url,'verifiedAt':now};data['rejected'].pop(url,None);continue
+            numbers=episodes(tio);data['accepted'][url]={'title':t1,'tio':tio_url,'flv':flv_url,'verifiedAt':now,'episodes':len(numbers)};data['rejected'].pop(url,None)
+            chapters+=[url+str(n)+'/' for n in numbers];continue
         data['rejected'][url]={'reason':reason,'retryAt':now+WAIT}
     if checked:(folder/FILE).write_text(json.dumps(data,ensure_ascii=False,indent=1,sort_keys=True),encoding='utf-8')
-    return checked
+    return chapters

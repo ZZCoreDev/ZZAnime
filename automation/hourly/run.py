@@ -134,7 +134,7 @@ def main():
     with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
-    if not proof and result.get('unknownSeries'):new_series.verify(D,result['unknownSeries'],json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))
+    if not proof and result.get('unknownSeries'):state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result['unknownSeries'],json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))
     received=set(result['state']['episodes']);extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in);voe_captured+=extra_captured;collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
     for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
