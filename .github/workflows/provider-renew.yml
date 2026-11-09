@@ -39,10 +39,19 @@ jobs:
           ref: provider-data
           ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
           path: data
-      - name: Estado del probador de reproduccion (rama playback-probe)
-        working-directory: code
+      - name: Resultado del probador de reproducción (rama playback-probe del repositorio privado)
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        continue-on-error: true
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ref: playback-probe
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: branch-playback-probe
+          persist-credentials: false
+      - name: Copiar playback-probe.json de la rama playback-probe
         run: |
-          if git fetch -q --depth 1 origin playback-probe; then git show FETCH_HEAD:playback-probe.json > "$RUNNER_TEMP/playback-probe.json" || true; fi
+          mkdir -p "$(dirname "$RUNNER_TEMP/playback-probe.json")"
+          if [ -f "$GITHUB_WORKSPACE/branch-playback-probe/playback-probe.json" ]; then cp "$GITHUB_WORKSPACE/branch-playback-probe/playback-probe.json" "$RUNNER_TEMP/playback-probe.json"; fi
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0 (node24)
         with:
           node-version: '22'

@@ -4,7 +4,7 @@ on:
     - cron: '23 5 * * *'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: zzanime-playback-probe
   cancel-in-progress: false
@@ -28,11 +28,19 @@ jobs:
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0 (node24)
         with:
           node-version: '22'
-      - name: Resultado anterior (rama playback-probe)
-        working-directory: code
+      - name: Resultado anterior (rama playback-probe del repositorio privado)
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        continue-on-error: true
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ref: playback-probe
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: branch-playback-probe
+          persist-credentials: false
+      - name: Copiar playback-probe.json de la rama playback-probe
         run: |
-          mkdir -p "$RUNNER_TEMP/probe"
-          if git fetch -q --depth 1 origin playback-probe; then git show FETCH_HEAD:playback-probe.json > "$RUNNER_TEMP/probe/previous.json" || true; fi
+          mkdir -p "$(dirname "$RUNNER_TEMP/probe/previous.json")"
+          if [ -f "$GITHUB_WORKSPACE/branch-playback-probe/playback-probe.json" ]; then cp "$GITHUB_WORKSPACE/branch-playback-probe/playback-probe.json" "$RUNNER_TEMP/probe/previous.json"; fi
       - name: Chromium headless y pruebas locales
         working-directory: code/automation/playback-probe
         run: |
@@ -44,14 +52,21 @@ jobs:
         env:
           PROBE_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: node probe.mjs "$GITHUB_WORKSPACE/data/state/published-assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
-      - name: Guardar el resultado (un único commit, se reemplaza)
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Llave del repositorio privado (solo para guardar)
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ref: provider-data
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: data-key
+          sparse-checkout: state/pc-import-status.json
+          sparse-checkout-cone-mode: false
+      - name: Guardar el resultado en el repositorio privado (un único commit, se reemplaza)
         run: |
           [ -f "$RUNNER_TEMP/probe/playback-probe.json" ] || exit 0
           mkdir -p "$RUNNER_TEMP/out" && cp "$RUNNER_TEMP/probe/playback-probe.json" "$RUNNER_TEMP/out/" && cd "$RUNNER_TEMP/out"
           git init -q && git checkout -q -b playback-probe
           git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
           git add playback-probe.json && git commit -q -m 'Resultado del probador de reproducción'
-          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
-          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:playback-probe
+          ssh=$(git -C "$GITHUB_WORKSPACE/data-key" config --get core.sshCommand)
+          git -c core.sshCommand="$ssh" push -q -f git@github.com:ZZCoreDev/ZZAnime-datos.git HEAD:playback-probe

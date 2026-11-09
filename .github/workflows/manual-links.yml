@@ -5,7 +5,7 @@ on:
     - cron: '23 5 * * *'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
   issues: write
 concurrency:
   group: zzanime-manual-links
@@ -17,10 +17,19 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
-      - name: Memoria (rama manual-links)
+      - name: Memoria (rama manual-links del repositorio privado)
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        continue-on-error: true
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ref: manual-links
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: branch-manual-links
+          persist-credentials: false
+      - name: Copiar state.json de la rama manual-links
         run: |
-          mkdir -p "$RUNNER_TEMP/memory"
-          if git fetch -q --depth 1 origin manual-links; then git show FETCH_HEAD:state.json > "$RUNNER_TEMP/memory/state.json" || true; fi
+          mkdir -p "$(dirname "$RUNNER_TEMP/memory/state.json")"
+          if [ -f "$GITHUB_WORKSPACE/branch-manual-links/state.json" ]; then cp "$GITHUB_WORKSPACE/branch-manual-links/state.json" "$RUNNER_TEMP/memory/state.json"; fi
       - name: Pruebas sin red
         working-directory: automation/manual-links
         run: python3 test_manual_links.py
@@ -29,15 +38,23 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 manual_links.py --memory "$RUNNER_TEMP/memory/state.json"
-      - name: Guardar la memoria (un único commit, se reemplaza)
+      - name: Llave del repositorio privado (solo para guardar)
         if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ref: provider-data
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: data-key
+          sparse-checkout: state/pc-import-status.json
+          sparse-checkout-cone-mode: false
+      - name: Guardar la memoria en el repositorio privado (un único commit, se reemplaza)
+        if: always()
         run: |
           [ -f "$RUNNER_TEMP/memory/state.json" ] || exit 0
           cd "$RUNNER_TEMP/memory"
           git init -q && git checkout -q -b manual-links
           git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
           git add state.json && git commit -q -m 'Memoria de enlaces de fichas'
-          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
-          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:manual-links
+          ssh=$(git -C "$GITHUB_WORKSPACE/data-key" config --get core.sshCommand)
+          git -c core.sshCommand="$ssh" push -q -f git@github.com:ZZCoreDev/ZZAnime-datos.git HEAD:manual-links
