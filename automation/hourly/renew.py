@@ -5,6 +5,7 @@ import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urlli
 from archive_state import load,save,merge,stamp
 from incident_diagnostics import fair_retries,report as diagnostic_report
 from news_watchdog import check as check_news
+import new_series
 
 DAY=86400
 LEAD_AGE=DAY
@@ -250,7 +251,7 @@ def main():
             if status['attempted']<8:status['earlyRepairAttempts']+=len(repair)
             status['attempted']+=len(pair)
             try:
-                body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof}).encode()
+                body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof,**({} if args.proof else {'newSeries':new_series.rows(folder)})}).encode()
                 req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
                 with urllib.request.urlopen(req,timeout=90) as response:
                     raw=response.read(2097153)
