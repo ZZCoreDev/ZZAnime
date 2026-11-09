@@ -17,4 +17,14 @@ assert.equal((await get('/series/x.bin',{'X-ZZ-Cloud':'wrong'})).status,401);
 assert.equal((await get('/series/x.bin',{},{...on,REQUIRE_SESSION:'false'})).status,200);
 assert.equal((await get('/series/x.bin',{'X-ZZ-Cloud':''},{...on,CLOUD_KEY:''})).status,401);
 assert.equal((await get('/series/x.bin',{Authorization:'Bearer '+t},{...on,CHANNEL_LIMIT:{limit:async()=>({success:false})}})).status,429);
+// 9/11: anonymous sessions are not accounts; /owner/ only for the editor owner with authenticator.
+const anon=await token({iss:ISS,role:'authenticated',sub:'u2',is_anonymous:true,exp:Math.floor(Date.now()/1000)+600});
+assert.equal((await get('/series/x.bin',{Authorization:'Bearer '+anon})).status,401);
+const ownerToken='o'.repeat(40),plainToken='p'.repeat(40);
+const ownerFetch=async(url,init)=>String(url).endsWith('/rpc/zz_editor_access')?(init.headers.Authorization==='Bearer '+ownerToken?new Response('{"allowed":true,"aal2":true}'):init.headers.Authorization==='Bearer '+plainToken?new Response('{"allowed":true,"aal2":false}'):new Response('{}',{status:400})):fetcher(url,init);
+const own=(path,auth)=>handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev'+path,{headers:auth?{Authorization:'Bearer '+auth}:{}}),on,ownerFetch);
+assert.equal((await own('/owner/link-health.json',ownerToken)).status,200);assert.equal((await own('/owner/link-health-3.json',ownerToken)).status,200);assert.equal((await own('/owner/help-status.json',ownerToken)).status,200);
+assert.equal((await own('/owner/link-health.json',plainToken)).status,403);assert.equal((await own('/owner/link-health.json')).status,403);assert.equal((await own('/owner/link-health.json',t)).status,403);
+assert.equal((await own('/owner/other.json',ownerToken)).status,404);
+assert.equal((await handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev/owner/link-health.json',{headers:{'X-ZZ-Cloud':'cloud-secret-123'}}),on,ownerFetch)).status,403);
 console.log('channel gate PASS');

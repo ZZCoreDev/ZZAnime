@@ -4,6 +4,10 @@
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
+// 9/11: the editor's link-health view (owner_files.py), only for the editor owner with authenticator (zz_editor_access).
+const OWNER=/^\/owner\/(?:help-status|link-health(?:-[0-9]{1,2})?)\.json$/;
+// Public project key of the app (also inside the APK): lets the owner check run as the caller.
+const SUPABASE_KEY='sb_publishable_33FCU_W4f4gR3a69SygtDQ_j3sG1A-m';
 let keys=null,keysAt=0;
 const b64url=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')+'==='.slice((s.length+3)%4)),c=>c.charCodeAt(0));
 export function resetKeys(){keys=null;keysAt=0;}
@@ -19,13 +23,19 @@ export async function sessionUser(request,fetcher=(...a)=>globalThis.fetch(...a)
   const key=await publicKey(header.kid,fetcher,now);if(!key)return '';
   if(!await crypto.subtle.verify({name:'ECDSA',hash:'SHA-256'},key,b64url(m[3]),new TextEncoder().encode(m[1]+'.'+m[2])))return '';
   // 2 h grace: a phone back from sleep sends its last token before refreshing it.
-  return claims.iss===ISSUER&&claims.role==='authenticated'&&typeof claims.sub==='string'&&claims.exp*1000>now-2*3600000?claims.sub:'';
+  return claims.iss===ISSUER&&claims.role==='authenticated'&&claims.is_anonymous!==true&&typeof claims.sub==='string'&&claims.exp*1000>now-2*3600000?claims.sub:'';
  }catch{return '';}
 }
 function same(a,b){if(!a||!b||a.length!==b.length)return false;let d=0;for(let i=0;i<a.length;i++)d|=a.charCodeAt(i)^b.charCodeAt(i);return d===0;}
 const deny=(status,error)=>new Response(JSON.stringify({error}),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
+async function owner(request,fetcher){
+ const auth=request.headers.get('Authorization')||'';if(!/^Bearer [A-Za-z0-9._-]{20,4096}$/.test(auth))return false;
+ try{const r=await fetcher(ISSUER.replace('/auth/v1','/rest/v1/rpc/zz_editor_access'),{method:'POST',headers:{apikey:SUPABASE_KEY,Authorization:auth,'Content-Type':'application/json'},body:'{}',redirect:'manual',signal:AbortSignal.timeout(10000)});
+  if(r.status!==200)return false;const x=await r.json();return x?.allowed===true&&x?.aal2===true;}catch{return false;}
+}
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
  const path=new URL(request.url).pathname;
+ if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
  const user=await sessionUser(request,fetcher);
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');

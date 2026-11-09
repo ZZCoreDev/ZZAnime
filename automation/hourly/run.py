@@ -238,6 +238,11 @@ def main():
     for p in old.rglob('*.bin'):
      n=p.relative_to(old).as_posix()
      if re.fullmatch(r'(?:voe/|extra/)?(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
+   # 9/11: owner-only editor view (dead links, help status) under /owner/, never in the public GitHub repo (owner_files.py, channel_gate.mjs).
+   try:
+    import owner_files
+    for n,b in owner_files.build(D).items():put(assets/n,b)
+   except Exception as error:print(json.dumps({'ownerFilesError':type(error).__name__+': '+str(error)[:120]}))
    if len(list(assets.rglob('*')))>18000 or any(p.stat().st_size>2097152 for p in assets.rglob('*') if p.is_file()):raise ValueError('Static/app limits; paid upgrade forbidden')
    # 169: channel_gate.mjs keeps channel.json public and asks a session (or the cloud key) for the link files once
    # ZZ_CHANNEL_REQUIRE is "true"; until then it only checks. ZZ_CHANNEL_KEY is a GitHub secret, never printed.
