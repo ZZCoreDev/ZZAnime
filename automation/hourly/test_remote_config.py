@@ -16,7 +16,7 @@ class RemoteConfigTests(unittest.TestCase):
  def test_shipped_file_matches_the_published_apps(self):
   c=rc.load(NOW)
   self.assertEqual(c['deviceHelp'],{'enabled':True,'tvShare':0.35,'mobileShare':0.12,'tvPages':24,'mobilePages':8,'renewFraction':0.67})
-  self.assertEqual(c['deadReports'],{'enabled':True,'perDay':20});self.assertNotIn('notice',c);self.assertEqual(c['minVersion'],{'mobile':169,'tv':169})  # 9/11: required update to 169 (session required)
+  self.assertEqual(c['deadReports'],{'enabled':True,'perDay':20});self.assertNotIn('notice',c);self.assertEqual(c['minVersion'],{'mobile':170,'tv':170})  # 9/11: required update to 170 (session + device)
  def test_missing_file_publishes_no_config(self):
   self.assertIsNone(rc.load(NOW,Path('/nonexistent/remote-config.json')))
  def test_rejects_anything_outside_the_known_knobs(self):
