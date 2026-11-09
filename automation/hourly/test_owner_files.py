@@ -16,4 +16,13 @@ class OwnerFiles(unittest.TestCase):
             self.assertIn('owner/help-status.json',out)
     def test_absent(self):
         with tempfile.TemporaryDirectory() as d:self.assertEqual(owner_files.build(d),{})
+    def test_cloud_runs_with_the_cloud_token_only(self):
+        import tempfile
+        data={'workflow_runs':[{'name':'Capítulos nuevos cada 5 minutos','status':'completed','conclusion':'success','updated_at':'2026-11-10T08:00:00Z','workflow_id':7,'html_url':'https://github.com/x','actor':{'login':'secret-ish'}}]}
+        with tempfile.TemporaryDirectory() as d:
+            out=owner_files.build(d,token='t',fetch=lambda url:data)
+            runs=json.loads(out['owner/cloud-runs.json'])['workflow_runs'];self.assertEqual(runs[0]['name'],'Capítulos nuevos cada 5 minutos');self.assertNotIn('actor',runs[0])
+            self.assertNotIn('owner/cloud-runs.json',owner_files.build(d,token=''))
+            def boom(url):raise OSError('offline')
+            self.assertNotIn('owner/cloud-runs.json',owner_files.build(d,token='t',fetch=boom))
 if __name__=='__main__':unittest.main()

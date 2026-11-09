@@ -102,6 +102,8 @@ jobs:
           ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
           ZZ_CHANNEL_KEY: ${{ secrets.ZZ_CHANNEL_KEY }}
+          # Read-only list of this repo's runs for the editor's «Nube» card (owner_files.py).
+          GH_TOKEN: ${{ github.token }}
           ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
           ZZ_RENEW_PROOF: ${{ inputs.proof }}

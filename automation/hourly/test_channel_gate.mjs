@@ -25,7 +25,7 @@ const ownerFetch=async(url,init)=>String(url).endsWith('/rpc/zz_editor_access')?
 const own=(path,auth)=>handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev'+path,{headers:auth?{Authorization:'Bearer '+auth}:{}}),on,ownerFetch);
 assert.equal((await own('/owner/link-health.json',ownerToken)).status,200);assert.equal((await own('/owner/link-health-3.json',ownerToken)).status,200);assert.equal((await own('/owner/help-status.json',ownerToken)).status,200);
 assert.equal((await own('/owner/link-health.json',plainToken)).status,403);assert.equal((await own('/owner/link-health.json')).status,403);assert.equal((await own('/owner/link-health.json',t)).status,403);
-assert.equal((await own('/owner/other.json',ownerToken)).status,404);
+assert.equal((await own('/owner/other.json',ownerToken)).status,404);assert.equal((await own('/owner/cloud-runs.json',ownerToken)).status,200);assert.equal((await own('/owner/cloud-runs.json')).status,403);
 assert.equal((await handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev/owner/link-health.json',{headers:{'X-ZZ-Cloud':'cloud-secret-123'}}),on,ownerFetch)).status,403);
 // 9/11: the daily-cap report answers the owner or the cloud key (health_watch.py); a wrong key or none is refused.
 {const qon={...on,QUOTA:{idFromName:()=>'g',get:()=>({fetch:async()=>new Response('{"schema":1,"bans":[]}')})}};

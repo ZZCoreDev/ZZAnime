@@ -4,7 +4,7 @@ These files used to be read from the public provider-data branch. The links now 
 ZZAnime-datos, so the editor gets them from zzanime-respaldo under /owner/, which channel_gate.mjs answers only
 for the editor owner (Supabase zz_editor_access with authenticator). Only what the editor shows is kept: dead
 links (episode, provider, url, date, excluded) and the summary of the last check. Parts stay under 1.5 MB."""
-import json
+import json,os,urllib.request
 from pathlib import Path
 
 PART = 1_500_000
@@ -15,10 +15,32 @@ def raw(value):
     return json.dumps(value, ensure_ascii=False, separators=(',', ':'), sort_keys=True).encode()
 
 
-def build(folder):
+def cloud_runs(token, fetch=None):
+    """10/11/2026: the latest cloud tasks for the editor's «Nube» card. The editor asked GitHub directly and ran out of
+    the 60 anonymous requests per hour shared by the owner's connection; the cloud asks with its own token instead.
+    Only name, state and dates are kept. None when GitHub cannot be read."""
+    url = 'https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/runs?per_page=60'
+    try:
+        if fetch:
+            data = fetch(url)
+        else:
+            req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'User-Agent': 'ZZAnime-Nube/1'})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                data = json.loads(r.read())
+        keep = ('name', 'status', 'conclusion', 'updated_at', 'workflow_id', 'html_url')
+        return {'workflow_runs': [{k: run.get(k) for k in keep} for run in data.get('workflow_runs', [])]}
+    except Exception:
+        return None
+
+
+def build(folder, token=None, fetch=None):
     """{published name: bytes} for the owner; empty when the state files are absent."""
     folder = Path(folder)
     out = {}
+    token = token if token is not None else os.environ.get('GH_TOKEN', '')
+    runs = cloud_runs(token, fetch) if token else None
+    if runs is not None:
+        out['owner/cloud-runs.json'] = raw(runs)
     help_status = folder / 'help-status.json'
     if help_status.exists():
         out['owner/help-status.json'] = raw(json.loads(help_status.read_bytes()))
