@@ -44,7 +44,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
- if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,{user,ip:request.headers.get('CF-Connecting-IP')||'',ban:user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null}))return deny(429,'daily_limit');
+ if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,{user,ip:request.headers.get('CF-Connecting-IP')||'',device:(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban:user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null}))return deny(429,'daily_limit');
  return env.ASSETS.fetch(request);
 }
 export default {fetch:(request,env)=>handle(request,env)};

@@ -43,4 +43,14 @@ assert.deepEqual([(await ask('/series/a.bin',tok)).status,(await ask('/voe/serie
 assert.deepEqual(banCalls,['Bearer '+tok],'banned with its own session');
 assert.deepEqual([(await ask('/series/a.bin',null,'198.51.100.7')).status,(await ask('/series/a.bin',null,'198.51.100.7')).status],[200,429]);
 assert.equal((await handle(new Request('https://x/series/a.bin',{headers:{'X-ZZ-Cloud':'k'}}),{...qenv,CLOUD_KEY:'k'},net)).status,200,'cloud check never counted');
+// 170: the device of a banned account is banned too (a new account on the same phone gets nothing); other devices unaffected.
+{const e={QUOTA:namespace(),QUOTA_DAY:'1',QUOTA_BAN:'2',QUOTA_MODE:'enforce'},dev='ab'.repeat(16),other='cd'.repeat(16),b=async()=>({banned:true});
+ for(let i=0;i<3;i++)await quotaAllows(e,{user:'bad-1',device:dev,ban:b});
+ assert.equal(await quotaAllows(e,{user:'new-account',device:dev,ban:b}),false,'same device, new account: refused');
+ assert.equal(await quotaAllows(e,{user:'new-account',device:other,ban:b}),true,'other device fine');
+ assert.equal(await quotaAllows(e,{ip:'192.0.2.5',device:dev}),false,'banned device without session refused too');
+ assert.equal(await quotaAllows(e,{user:'x',device:'NOT-A-HASH'}),true,'malformed device ignored');
+ assert.equal((await (await e.QUOTA.get().fetch('https://quota/report')).json()).bannedDevices,1);
+ const ex={QUOTA:namespace(),QUOTA_DAY:'1',QUOTA_BAN:'2',QUOTA_MODE:'enforce'};for(let i=0;i<3;i++)await quotaAllows(ex,{user:'owner',device:dev,ban:async()=>({banned:false})});
+ assert.equal(await quotaAllows(ex,{user:'someone',device:dev}),true,'exempt owner: device not banned');}
 console.log('quota PASS');

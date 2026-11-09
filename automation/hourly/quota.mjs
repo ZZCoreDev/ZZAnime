@@ -5,9 +5,11 @@
 //    that account and close its sessions, and refuses it here for 6 h (its last session cannot outlive that);
 //    if Supabase answers that the account is the owner or exempt, it is let through instead;
 //  · an anonymous IP over QUOTA_IP_DAY (3000) is refused for the rest of the day (IPs are shared: never banned).
+//  · app 170+ sends X-ZZ-Device (a hash of the Android id): when an account is banned its device is banned for a year,
+//    so a new account on the same phone or TV gets nothing either.
 // Counts live in memory and are saved every 10 requests (Workers Free write budget); a restart can lose a few.
 // Any failure lets the request through: a counting problem must never leave the app without links.
-const KEY=/^(?:u:[A-Za-z0-9-]{1,64}|ip:[0-9A-Fa-f:.]{2,45})$/;
+const KEY=/^(?:u:[A-Za-z0-9-]{1,64}|ip:[0-9A-Fa-f:.]{2,45}|d:[a-f0-9]{32})$/,DEVICE=/^[a-f0-9]{32}$/;
 export class Quota{
  constructor(state){this.sql=state.storage.sql;
   this.sql.exec('create table if not exists q(day text not null,user text not null,n integer not null,primary key(day,user))');
@@ -22,6 +24,8 @@ export class Quota{
   const key=u.searchParams.get('k')||'';
   if(u.pathname==='/hit'){
    if(!KEY.test(key))return Response.json({n:0});
+   const device=u.searchParams.get('d')||'';
+   if(DEVICE.test(device)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'d:'+device,now).toArray().length)return Response.json({n:0,banned:true});
    const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
    if(mark)return Response.json({n:0,[mark.kind==='ban'?'banned':'exempt']:true});
    const cap=Number(u.searchParams.get('cap'))||300,ban=Number(u.searchParams.get('ban'))||0,k=day+'|'+key;
@@ -31,7 +35,7 @@ export class Quota{
   }
   if(u.pathname==='/mark'){
    const kind=u.searchParams.get('kind');if(!KEY.test(key)||!['ban','exempt'].includes(kind))return new Response('{}',{status:400});
-   const until=now+(kind==='ban'?6*3600000:30*86400000);
+   const until=now+(key.startsWith('d:')?365*86400000:kind==='ban'?6*3600000:30*86400000);
    this.sql.exec('insert into marks(key,kind,until,at) values(?,?,?,?) on conflict(key) do update set kind=excluded.kind,until=excluded.until,at=excluded.at',key,kind,until,now);
    return Response.json({ok:true});
   }
@@ -41,8 +45,9 @@ export class Quota{
    const days={};for(const r of rows){const ip=r.user.startsWith('ip:'),d=days[r.day]||={accounts:0,ips:0,over:[],top:0,topIp:0};
     if(ip){d.ips++;d.topIp=Math.max(d.topIp,r.n);if(r.n>ipCap&&d.over.length<40)d.over.push({user:r.user,n:r.n});}
     else{d.accounts++;d.top=Math.max(d.top,r.n);if(r.n>cap&&d.over.length<40)d.over.push({user:r.user.replace(/^u:/,''),n:r.n});}}
-   const bans=this.sql.exec("select key,until,at from marks where kind='ban' and until>? order by at desc limit 50",now).toArray().map(b=>({user:b.key.replace(/^u:/,''),at:new Date(b.at).toISOString()}));
-   return Response.json({schema:1,cap,ipCap,days,bans});
+   const bans=this.sql.exec("select key,until,at from marks where kind='ban' and key like 'u:%' and until>? order by at desc limit 50",now).toArray().map(b=>({user:b.key.replace(/^u:/,''),at:new Date(b.at).toISOString()}));
+   const devices=this.sql.exec("select count(*) as n from marks where kind='ban' and key like 'd:%' and until>?",now).toArray()[0]?.n||0;
+   return Response.json({schema:1,cap,ipCap,days,bans,bannedDevices:devices});
   }
   return new Response('{}',{status:404});
  }
@@ -54,16 +59,17 @@ export async function banSelf(supabase,key,authorization,fetcher){
   return r.status===200?await r.json():null;}catch{return null;}
 }
 /** true when the request may go on. user: verified account id or ''; ip: CF-Connecting-IP; ban(): banSelf for that account. */
-export async function quotaAllows(env,{user='',ip='',ban=null}={}){
+export async function quotaAllows(env,{user='',ip='',ban=null,device=''}={}){
  if(!env.QUOTA)return true;
- const key=user?'u:'+user:ip?'ip:'+ip:'';if(!KEY.test(key))return true;
+ const key=user?'u:'+user:ip?'ip:'+ip:'',dev=DEVICE.test(device)?device:'';if(!KEY.test(key))return true;
  try{
   const stub=quotaStub(env),enforce=env.QUOTA_MODE==='enforce',cap=user?Number(env.QUOTA_DAY)||300:Number(env.QUOTA_IP_DAY)||3000,banAt=user?Number(env.QUOTA_BAN)||2*cap:0;
-  const x=await (await stub.fetch('https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt)).json();
+  const x=await (await stub.fetch('https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:''))).json();
   if(x.exempt)return true;
   if(x.banned)return !enforce;
   if(x.ban&&enforce&&ban){const r=await ban();
    await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind='+(r&&r.banned===false?'exempt':'ban'));
+   if(dev&&r?.banned!==false)await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');
    return r?.banned===false;}
   return !(x.over&&enforce);
  }catch{return true;}
