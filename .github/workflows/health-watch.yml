@@ -55,6 +55,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           # Cloud key of zzanime-respaldo: reads the daily-cap report to warn of new bans. Never printed.
           ZZ_CHANNEL_KEY: ${{ secrets.ZZ_CHANNEL_KEY }}
+          # Cloud key of zzanime-editor: reads the editor's own daily-cap report (fichas). Never printed.
+          ZZ_EDITOR_CLOUD_KEY: ${{ secrets.ZZ_EDITOR_CLOUD_KEY }}
         run: python3 health_watch.py --data "$GITHUB_WORKSPACE/data/state" --memory "$RUNNER_TEMP/memory/state.json"
       - name: Guardar la memoria (un único commit, se reemplaza)
         if: always()

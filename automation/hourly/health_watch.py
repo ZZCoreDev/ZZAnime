@@ -13,9 +13,13 @@ INDEX_LIMIT=int(1.8*1024*1024)
 SECRETS={'GH_DISPATCH_TOKEN':'2027-01-28','ZZ_CLOUDFLARE_TOKEN':'2027-10-27'}
 SECRET_NOTICE=30*DAY
 LABEL='vigia'
-# 9/11/2026: the channel's daily-cap report (quota.mjs), read with the cloud key X-ZZ-Cloud (secret ZZ_CHANNEL_KEY,
-# never printed). A new ban of an account or device keeps the «bloqueos» issue open for 24 h; each new one comments.
+# 9/11/2026: the daily-cap reports (quota.mjs) of the channel (series; cloud key X-ZZ-Cloud = secret ZZ_CHANNEL_KEY)
+# and of the editor (fichas; its own cloud key = secret ZZ_EDITOR_CLOUD_KEY), keys never printed. A new ban of an
+# account or device keeps the «bloqueos» issue open for 24 h; each new one comments.
 QUOTA_URL='https://zzanime-respaldo.zzcoredev.workers.dev/owner/quota.json'
+EDITOR_QUOTA_URL='https://zzanime-editor.zzcoredev.workers.dev/api/cloud/quota.json'
+# source: (memory key of the last good read, what it counts, label added to each ban)
+QUOTA_SOURCES={'canal':('quotaReadAt','series',' (series)'),'editor':('editorQuotaReadAt','fichas',' (fichas del editor)')}
 QUOTA_REPORT_HOURS=6;BAN_NOTICE=DAY;BAN_MEMORY=7*DAY
 NOTIFY_UPDATES={'bloqueos'}
 def stamp(value):
@@ -50,37 +54,48 @@ def news_without_publication(folder,now,urls):
         if ep and any(hashlib.sha256((p['name']+'\0'+l).encode()).hexdigest() not in excluded for p in ep.get('providers',[]) if p.get('family')!='voe' for l in p.get('links',[])):late.append(url)
     return sorted(late)
 def fetch_quota(key,url=QUOTA_URL):
-    """The channel's daily-cap report, or None when it cannot be read."""
+    """A daily-cap report (channel by default), or None when it cannot be read."""
     req=urllib.request.Request(url,headers={'X-ZZ-Cloud':key,'User-Agent':'ZZAnime-Vigia/1','Cache-Control':'no-cache'})
     try:
         with urllib.request.urlopen(req,timeout=30) as r:return json.loads(r.read())
     except (urllib.error.URLError,OSError,ValueError):return None
-def quota_bans(alarm,quota,now,memory):
-    """Alarms «informe-tope» (report unreadable for 6 h) and «bloqueos» (an account or device banned in the last 24 h)."""
-    ok=isinstance(quota,dict) and quota.get('schema')==1
-    if ok:memory['quotaReadAt']=now
-    memory.setdefault('quotaWatchSince',now);since=memory.get('quotaReadAt',memory['quotaWatchSince'])
-    alarm('informe-tope',now-since>QUOTA_REPORT_HOURS*HOUR,'No se puede leer el informe del tope diario del canal',
-        f'Última lectura correcta: {iso(memory["quotaReadAt"]) if "quotaReadAt" in memory else "nunca"}. Sin el informe no se avisa de los bloqueos.')
-    if not ok:return
+def quota_bans(alarm,reports,now,memory):
+    """Alarms «informe-tope» (a report unreadable for 6 h) and «bloqueos» (an account or device banned in the last 24 h).
+    reports: {source: report dict, or None if unreadable}; sources not checked are left out."""
+    memory.setdefault('quotaWatchSince',now);late=[];good={}
+    for source,report in reports.items():
+        mark=QUOTA_SOURCES[source][0]
+        if isinstance(report,dict) and report.get('schema')==1:memory[mark]=now;good[source]=report
+        if now-memory.get(mark,memory['quotaWatchSince'])>QUOTA_REPORT_HOURS*HOUR:
+            late.append(f'- {source}: última lectura correcta {iso(memory[mark]) if mark in memory else "nunca"}')
+    alarm('informe-tope',late,'No se puede leer el informe del tope diario',
+        'Sin el informe no se avisa de los bloqueos.\n'+'\n'.join(late))
+    if not good:return
     # Account ids are cut to 8 characters: the issue is public. Enough to find the account in Supabase → Users.
-    current={f'Cuenta {str(b.get("user",""))[:8]}…|{b.get("at","")}' for b in quota.get('bans') or []}
-    current|={f'Aparato|{d.get("at","")}' for d in quota.get('deviceBans') or []}
+    current=set()
+    for source,report in good.items():
+        tag=QUOTA_SOURCES[source][2]
+        current|={f'Cuenta {str(b.get("user",""))[:8]}…{tag}|{b.get("at","")}' for b in report.get('bans') or []}
+        current|={f'Aparato{tag}|{d.get("at","")}' for d in report.get('deviceBans') or []}
     seen=dict(memory.get('bans') or {})
     for key in current:seen.setdefault(key,now)
     # Forget only what left the report long ago (device bans stay in it for a year and must not count as new again).
-    memory['bans']={k:t for k,t in seen.items() if k in current or now-t<=BAN_MEMORY}
+    # A source unread this time keeps its known bans (they must not come back as new on the next good read).
+    unread=[QUOTA_SOURCES[s][2] for s in reports if s not in good]
+    memory['bans']={k:t for k,t in seen.items() if k in current or now-t<=BAN_MEMORY or any(tag in k.split('|',1)[0] for tag in unread)}
     recent=sorted((k for k,t in memory['bans'].items() if now-t<=BAN_NOTICE),key=lambda k:k.split('|',1)[1],reverse=True)
     lines=[f'- {k.split("|",1)[0]} bloqueado el {iso(stamp(k.split("|",1)[1]))}' for k in recent[:40]]
     alarm('bloqueos',recent,'Cuentas o aparatos bloqueados por el tope diario',
         f'Bloqueos nuevos en las últimas 24 h ({len(recent)}):\n'+'\n'.join(lines)
-        +f'\n\nActivos ahora en el canal: {len(quota.get("bans") or [])} cuentas (6 h en el canal; en Supabase quedan bloqueadas) y {quota.get("bannedDevices",0)} aparatos (1 año).'
-        +f' Tope: {quota.get("cap","?")} series al día por cuenta. El aviso se cierra solo 24 h después del último bloqueo.')
-def check(folder,now,memory,quota=False):
-    """{kind: (failing, title, body)} and the updated memory. quota: report dict, None if unreadable, False if not checked."""
+        +'\n\nActivos ahora: '+'; '.join(f'{source}: {len(r.get("bans") or [])} cuentas y {r.get("bannedDevices",0)} aparatos (tope {r.get("cap","?")} {QUOTA_SOURCES[source][1]} al día)' for source,r in good.items())
+        +'. Las cuentas quedan bloqueadas en Supabase; los aparatos, un año. El aviso se cierra solo 24 h después del último bloqueo.')
+def check(folder,now,memory,quota=False,editor_quota=False):
+    """{kind: (failing, title, body)} and the updated memory. quota / editor_quota (channel / editor daily-cap reports):
+    report dict, None if unreadable, False if not checked."""
     out={};memory=dict(memory or {})
     def alarm(kind,failing,title,body=''):out[kind]=(bool(failing),title,body)
-    if quota is not False:quota_bans(alarm,quota,now,memory)
+    reports={s:r for s,r in (('canal',quota),('editor',editor_quota)) if r is not False}
+    if reports:quota_bans(alarm,reports,now,memory)
     publication=read(folder,'publication.json',{}) or {};payload,urls=published_urls(folder)
     if payload is None:
         alarm('datos',True,'No se puede leer el canal publicado de provider-data','Falta state/published-assets/channel.json o no es válido.');return out,memory
@@ -159,7 +174,8 @@ def main():
     now=datetime.datetime.now(datetime.timezone.utc).timestamp();memory_path=Path(args.memory)
     memory=json.loads(memory_path.read_bytes()) if memory_path.exists() else {}
     key=os.environ.get('ZZ_CHANNEL_KEY','')
-    results,memory=check(args.data,now,memory,fetch_quota(key) if key else False)
+    editor_key=os.environ.get('ZZ_EDITOR_CLOUD_KEY','')
+    results,memory=check(args.data,now,memory,fetch_quota(key) if key else False,fetch_quota(editor_key,EDITOR_QUOTA_URL) if editor_key else False)
     memory_path.parent.mkdir(parents=True,exist_ok=True);memory_path.write_text(json.dumps(memory,sort_keys=True),encoding='utf-8')
     failing=sorted(k for k,(f,_,_) in results.items() if f);print(json.dumps({'failing':failing,'checked':len(results),'aiCalls':0}))
     if not args.dry_run:print(json.dumps({'issues':sync(GitHub(os.environ['GITHUB_REPOSITORY'],os.environ['GH_TOKEN']),results,now)}))

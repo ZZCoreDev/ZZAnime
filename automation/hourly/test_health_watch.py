@@ -62,7 +62,7 @@ class HealthWatchTests(unittest.TestCase):
             noacc={**ban,'bans':[]}
             r,m=h.check(d,NOW+23*HOUR,m,noacc);self.assertTrue(r['bloqueos'][0])
             r,m=h.check(d,NOW+26*HOUR,m,noacc);self.assertFalse(r['bloqueos'][0])
-            r,m=h.check(d,NOW+9*86400,m,noacc);self.assertFalse(r['bloqueos'][0]);self.assertEqual(list(m['bans']),['Aparato|'+iso(NOW-60)])
+            r,m=h.check(d,NOW+9*86400,m,noacc);self.assertFalse(r['bloqueos'][0]);self.assertEqual(list(m['bans']),['Aparato (series)|'+iso(NOW-60)])
             # A second account later reopens it with only the new one.
             r,m=h.check(d,NOW+10*86400,m,{**noacc,'bans':[{'user':'fedcba98-x','at':iso(NOW+10*86400-30)}]})
             self.assertTrue(r['bloqueos'][0]);self.assertIn('(1)',r['bloqueos'][2]);self.assertIn('fedcba98',r['bloqueos'][2])
@@ -70,6 +70,19 @@ class HealthWatchTests(unittest.TestCase):
             r,m=h.check(d,NOW+10*86400+5*HOUR,m,None);self.assertFalse(r['informe-tope'][0]);self.assertNotIn('bloqueos',r)
             r,m=h.check(d,NOW+10*86400+7*HOUR,m,{'error':'owner'});self.assertTrue(r['informe-tope'][0])
             r,_=h.check(d,NOW,{});self.assertNotIn('bloqueos',r);self.assertNotIn('informe-tope',r)
+    def test_editor_bans_join_channel_bans(self):
+        with tempfile.TemporaryDirectory() as d:
+            healthy(d);HOUR=3600
+            empty={'schema':1,'cap':300,'bans':[],'bannedDevices':0,'deviceBans':[]}
+            ed={**empty,'bans':[{'user':'abcdef0123-uuid','at':iso(NOW-30)}],'bannedDevices':1,'deviceBans':[{'at':iso(NOW-30)}]}
+            r,m=h.check(d,NOW,{},empty,ed);body=r['bloqueos'][2]
+            self.assertTrue(r['bloqueos'][0]);self.assertIn('Cuenta abcdef01… (fichas del editor)',body);self.assertIn('Aparato (fichas del editor)',body)
+            self.assertIn('editor: 1 cuentas y 1 aparatos (tope 300 fichas',body);self.assertIn('canal: 0 cuentas',body)
+            # Editor report unreadable for a while: its known bans are kept, so they are not new again when it comes back.
+            r,m=h.check(d,NOW+8*86400,m,empty,None);self.assertTrue(r['informe-tope'][0]);self.assertIn('- editor:',r['informe-tope'][2]);self.assertNotIn('- canal:',r['informe-tope'][2])
+            r,m=h.check(d,NOW+8*86400+HOUR,m,empty,ed);self.assertFalse(r['bloqueos'][0]);self.assertFalse(r['informe-tope'][0])
+            # Only the editor checked (no channel key): fine too.
+            r,_=h.check(d,NOW,{},False,ed);self.assertTrue(r['bloqueos'][0]);self.assertNotIn('canal:',r['bloqueos'][2])
     def test_fetch_quota_sends_cloud_key_and_survives_errors(self):
         import io,urllib.error,urllib.request
         seen=[];real=urllib.request.urlopen
