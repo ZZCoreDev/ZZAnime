@@ -46,8 +46,8 @@ export class Quota{
     if(ip){d.ips++;d.topIp=Math.max(d.topIp,r.n);if(r.n>ipCap&&d.over.length<40)d.over.push({user:r.user,n:r.n});}
     else{d.accounts++;d.top=Math.max(d.top,r.n);if(r.n>cap&&d.over.length<40)d.over.push({user:r.user.replace(/^u:/,''),n:r.n});}}
    const bans=this.sql.exec("select key,until,at from marks where kind='ban' and key like 'u:%' and until>? order by at desc limit 50",now).toArray().map(b=>({user:b.key.replace(/^u:/,''),at:new Date(b.at).toISOString()}));
-   const devices=this.sql.exec("select count(*) as n from marks where kind='ban' and key like 'd:%' and until>?",now).toArray()[0]?.n||0;
-   return Response.json({schema:1,cap,ipCap,days,bans,bannedDevices:devices});
+   const deviceBans=this.sql.exec("select at from marks where kind='ban' and key like 'd:%' and until>? order by at desc",now).toArray().map(b=>({at:new Date(b.at).toISOString()}));
+   return Response.json({schema:1,cap,ipCap,days,bans,bannedDevices:deviceBans.length,deviceBans:deviceBans.slice(0,50)});
   }
   return new Response('{}',{status:404});
  }

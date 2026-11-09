@@ -13,6 +13,11 @@ INDEX_LIMIT=int(1.8*1024*1024)
 SECRETS={'GH_DISPATCH_TOKEN':'2027-01-28','ZZ_CLOUDFLARE_TOKEN':'2027-10-27'}
 SECRET_NOTICE=30*DAY
 LABEL='vigia'
+# 9/11/2026: the channel's daily-cap report (quota.mjs), read with the cloud key X-ZZ-Cloud (secret ZZ_CHANNEL_KEY,
+# never printed). A new ban of an account or device keeps the «bloqueos» issue open for 24 h; each new one comments.
+QUOTA_URL='https://zzanime-respaldo.zzcoredev.workers.dev/owner/quota.json'
+QUOTA_REPORT_HOURS=6;BAN_NOTICE=DAY;BAN_MEMORY=7*DAY
+NOTIFY_UPDATES={'bloqueos'}
 def stamp(value):
     if isinstance(value,(int,float)):return float(value)
     try:return datetime.datetime.fromisoformat(str(value).replace('Z','+00:00')).timestamp()
@@ -44,10 +49,38 @@ def news_without_publication(folder,now,urls):
         # VOE-only chapters go to the /voe/ complement; confirmed-deleted links are withdrawn on purpose.
         if ep and any(hashlib.sha256((p['name']+'\0'+l).encode()).hexdigest() not in excluded for p in ep.get('providers',[]) if p.get('family')!='voe' for l in p.get('links',[])):late.append(url)
     return sorted(late)
-def check(folder,now,memory):
-    """{kind: (failing, title, body)} and the updated memory."""
+def fetch_quota(key,url=QUOTA_URL):
+    """The channel's daily-cap report, or None when it cannot be read."""
+    req=urllib.request.Request(url,headers={'X-ZZ-Cloud':key,'User-Agent':'ZZAnime-Vigia/1','Cache-Control':'no-cache'})
+    try:
+        with urllib.request.urlopen(req,timeout=30) as r:return json.loads(r.read())
+    except (urllib.error.URLError,OSError,ValueError):return None
+def quota_bans(alarm,quota,now,memory):
+    """Alarms «informe-tope» (report unreadable for 6 h) and «bloqueos» (an account or device banned in the last 24 h)."""
+    ok=isinstance(quota,dict) and quota.get('schema')==1
+    if ok:memory['quotaReadAt']=now
+    memory.setdefault('quotaWatchSince',now);since=memory.get('quotaReadAt',memory['quotaWatchSince'])
+    alarm('informe-tope',now-since>QUOTA_REPORT_HOURS*HOUR,'No se puede leer el informe del tope diario del canal',
+        f'Última lectura correcta: {iso(memory["quotaReadAt"]) if "quotaReadAt" in memory else "nunca"}. Sin el informe no se avisa de los bloqueos.')
+    if not ok:return
+    # Account ids are cut to 8 characters: the issue is public. Enough to find the account in Supabase → Users.
+    current={f'Cuenta {str(b.get("user",""))[:8]}…|{b.get("at","")}' for b in quota.get('bans') or []}
+    current|={f'Aparato|{d.get("at","")}' for d in quota.get('deviceBans') or []}
+    seen=dict(memory.get('bans') or {})
+    for key in current:seen.setdefault(key,now)
+    # Forget only what left the report long ago (device bans stay in it for a year and must not count as new again).
+    memory['bans']={k:t for k,t in seen.items() if k in current or now-t<=BAN_MEMORY}
+    recent=sorted((k for k,t in memory['bans'].items() if now-t<=BAN_NOTICE),key=lambda k:k.split('|',1)[1],reverse=True)
+    lines=[f'- {k.split("|",1)[0]} bloqueado el {iso(stamp(k.split("|",1)[1]))}' for k in recent[:40]]
+    alarm('bloqueos',recent,'Cuentas o aparatos bloqueados por el tope diario',
+        f'Bloqueos nuevos en las últimas 24 h ({len(recent)}):\n'+'\n'.join(lines)
+        +f'\n\nActivos ahora en el canal: {len(quota.get("bans") or [])} cuentas (6 h en el canal; en Supabase quedan bloqueadas) y {quota.get("bannedDevices",0)} aparatos (1 año).'
+        +f' Tope: {quota.get("cap","?")} series al día por cuenta. El aviso se cierra solo 24 h después del último bloqueo.')
+def check(folder,now,memory,quota=False):
+    """{kind: (failing, title, body)} and the updated memory. quota: report dict, None if unreadable, False if not checked."""
     out={};memory=dict(memory or {})
     def alarm(kind,failing,title,body=''):out[kind]=(bool(failing),title,body)
+    if quota is not False:quota_bans(alarm,quota,now,memory)
     publication=read(folder,'publication.json',{}) or {};payload,urls=published_urls(folder)
     if payload is None:
         alarm('datos',True,'No se puede leer el canal publicado de provider-data','Falta state/published-assets/channel.json o no es válido.');return out,memory
@@ -115,6 +148,8 @@ def sync(github,results,now):
         if failing and not issue:github.call('POST','/issues',{'title':'[Vigía] '+title,'body':text,'labels':[LABEL]});actions.append(('open',kind))
         elif failing and issue and (issue.get('body') or '').split('\n\nComprobado:')[0]!=text.split('\n\nComprobado:')[0]:
             github.call('PATCH',f'/issues/{issue["number"]}',{'title':'[Vigía] '+title,'body':text});actions.append(('update',kind))
+            # Editing an issue sends no mail: kinds that are news (a new ban) also comment.
+            if kind in NOTIFY_UPDATES:github.call('POST',f'/issues/{issue["number"]}/comments',{'body':body})
         elif not failing and issue:
             github.call('POST',f'/issues/{issue["number"]}/comments',{'body':f'Resuelto: la comprobación vuelve a pasar ({iso(now)}). Cerrada por el vigía.'})
             github.call('PATCH',f'/issues/{issue["number"]}',{'state':'closed','state_reason':'completed'});actions.append(('close',kind))
@@ -123,7 +158,8 @@ def main():
     a=argparse.ArgumentParser();a.add_argument('--data',required=True);a.add_argument('--memory',required=True);a.add_argument('--dry-run',action='store_true');args=a.parse_args()
     now=datetime.datetime.now(datetime.timezone.utc).timestamp();memory_path=Path(args.memory)
     memory=json.loads(memory_path.read_bytes()) if memory_path.exists() else {}
-    results,memory=check(args.data,now,memory)
+    key=os.environ.get('ZZ_CHANNEL_KEY','')
+    results,memory=check(args.data,now,memory,fetch_quota(key) if key else False)
     memory_path.parent.mkdir(parents=True,exist_ok=True);memory_path.write_text(json.dumps(memory,sort_keys=True),encoding='utf-8')
     failing=sorted(k for k,(f,_,_) in results.items() if f);print(json.dumps({'failing':failing,'checked':len(results),'aiCalls':0}))
     if not args.dry_run:print(json.dumps({'issues':sync(GitHub(os.environ['GITHUB_REPOSITORY'],os.environ['GH_TOKEN']),results,now)}))

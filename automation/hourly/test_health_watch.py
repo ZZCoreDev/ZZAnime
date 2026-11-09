@@ -49,6 +49,40 @@ class HealthWatchTests(unittest.TestCase):
             put(d,'help-status.json',{'worker':{'today':{'requests':0}}})
             f,m=self.failing(d,{'workerRequestsAt':NOW-25*3600});self.assertIn('worker',f)
             f,m=self.failing(d,{});self.assertNotIn('worker',f);self.assertIn('worker',self.failing(d,m,NOW+25*3600)[0])
+    def test_new_bans_warn_for_24h_and_unreadable_report(self):
+        with tempfile.TemporaryDirectory() as d:
+            healthy(d);HOUR=3600
+            r,m=h.check(d,NOW,{},{'schema':1,'cap':300,'bans':[],'bannedDevices':0,'deviceBans':[]})
+            self.assertFalse(r['bloqueos'][0]);self.assertFalse(r['informe-tope'][0])
+            ban={'schema':1,'cap':300,'bans':[{'user':'0123456789abcdef-uuid','at':iso(NOW-60)}],'bannedDevices':1,'deviceBans':[{'at':iso(NOW-60)}]}
+            r,m=h.check(d,NOW+HOUR,m,ban);self.assertTrue(r['bloqueos'][0]);body=r['bloqueos'][2]
+            self.assertIn('Cuenta 01234567…',body);self.assertNotIn('89abcdef',body,'public issue: id cut');self.assertIn('Aparato',body);self.assertIn('(2)',body)
+            # Same bans seen again are not new; listed for 24 h; the device ban stays in the report a year and never counts again.
+            r,m=h.check(d,NOW+2*HOUR,m,ban);self.assertIn('(2)',r['bloqueos'][2])
+            noacc={**ban,'bans':[]}
+            r,m=h.check(d,NOW+23*HOUR,m,noacc);self.assertTrue(r['bloqueos'][0])
+            r,m=h.check(d,NOW+26*HOUR,m,noacc);self.assertFalse(r['bloqueos'][0])
+            r,m=h.check(d,NOW+9*86400,m,noacc);self.assertFalse(r['bloqueos'][0]);self.assertEqual(list(m['bans']),['Aparato|'+iso(NOW-60)])
+            # A second account later reopens it with only the new one.
+            r,m=h.check(d,NOW+10*86400,m,{**noacc,'bans':[{'user':'fedcba98-x','at':iso(NOW+10*86400-30)}]})
+            self.assertTrue(r['bloqueos'][0]);self.assertIn('(1)',r['bloqueos'][2]);self.assertIn('fedcba98',r['bloqueos'][2])
+            # Report unreadable (Worker down, wrong key): warned after 6 h; without the key nothing is checked.
+            r,m=h.check(d,NOW+10*86400+5*HOUR,m,None);self.assertFalse(r['informe-tope'][0]);self.assertNotIn('bloqueos',r)
+            r,m=h.check(d,NOW+10*86400+7*HOUR,m,{'error':'owner'});self.assertTrue(r['informe-tope'][0])
+            r,_=h.check(d,NOW,{});self.assertNotIn('bloqueos',r);self.assertNotIn('informe-tope',r)
+    def test_fetch_quota_sends_cloud_key_and_survives_errors(self):
+        import io,urllib.error,urllib.request
+        seen=[];real=urllib.request.urlopen
+        class Answer(io.BytesIO):
+            def __enter__(self):return self
+            def __exit__(self,*a):return False
+        try:
+            urllib.request.urlopen=lambda req,timeout:(seen.append(req),Answer(b'{"schema":1,"bans":[]}'))[1]
+            self.assertEqual(h.fetch_quota('k-123'),{'schema':1,'bans':[]})
+            self.assertEqual(seen[0].get_header('X-zz-cloud'),'k-123');self.assertEqual(seen[0].full_url,h.QUOTA_URL)
+            def fail(req,timeout):raise urllib.error.HTTPError(h.QUOTA_URL,403,'Forbidden',{},None)
+            urllib.request.urlopen=fail;self.assertIsNone(h.fetch_quota('k-123'))
+        finally:urllib.request.urlopen=real
     def test_one_issue_per_kind_updated_and_closed(self):
         class Fake:
             def __init__(self):self.issues=[];self.calls=[]
@@ -66,4 +100,8 @@ class HealthWatchTests(unittest.TestCase):
         self.assertEqual(h.sync(g,{'indice':(True,'Índice grande','indexBytes=1950000')},NOW),[('update','indice')])
         self.assertEqual(h.sync(g,{'indice':(False,'ok','')},NOW),[('close','indice')]);self.assertEqual(g.issues[0]['state'],'closed')
         self.assertEqual(h.sync(g,{'indice':(False,'ok','')},NOW),[])
+        self.assertEqual(g.calls.count(('POST','/issues/1/comments')),1,'only the closing comment: plain updates send none')
+        # A new ban updates the open «bloqueos» issue and also comments, so GitHub mails it.
+        h.sync(g,{'bloqueos':(True,'Bloqueos','- Cuenta a')},NOW);h.sync(g,{'bloqueos':(True,'Bloqueos','- Cuenta a\n- Cuenta b')},NOW)
+        self.assertEqual(g.calls[-1],('POST','/issues/2/comments'))
 if __name__=='__main__':unittest.main()

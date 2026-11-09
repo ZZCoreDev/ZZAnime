@@ -50,7 +50,8 @@ assert.equal((await handle(new Request('https://x/series/a.bin',{headers:{'X-ZZ-
  assert.equal(await quotaAllows(e,{user:'new-account',device:other,ban:b}),true,'other device fine');
  assert.equal(await quotaAllows(e,{ip:'192.0.2.5',device:dev}),false,'banned device without session refused too');
  assert.equal(await quotaAllows(e,{user:'x',device:'NOT-A-HASH'}),true,'malformed device ignored');
- assert.equal((await (await e.QUOTA.get().fetch('https://quota/report')).json()).bannedDevices,1);
+ const dr=await (await e.QUOTA.get().fetch('https://quota/report')).json();assert.equal(dr.bannedDevices,1);
+ assert.equal(dr.deviceBans.length,1);assert.match(dr.deviceBans[0].at,/^\d{4}-\d\d-\d\dT/);assert.ok(!JSON.stringify(dr.deviceBans).includes(dev),'device hash not in the report');
  const ex={QUOTA:namespace(),QUOTA_DAY:'1',QUOTA_BAN:'2',QUOTA_MODE:'enforce'};for(let i=0;i<3;i++)await quotaAllows(ex,{user:'owner',device:dev,ban:async()=>({banned:false})});
  assert.equal(await quotaAllows(ex,{user:'someone',device:dev}),true,'exempt owner: device not banned');}
 console.log('quota PASS');

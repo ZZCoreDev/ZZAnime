@@ -27,4 +27,11 @@ assert.equal((await own('/owner/link-health.json',ownerToken)).status,200);asser
 assert.equal((await own('/owner/link-health.json',plainToken)).status,403);assert.equal((await own('/owner/link-health.json')).status,403);assert.equal((await own('/owner/link-health.json',t)).status,403);
 assert.equal((await own('/owner/other.json',ownerToken)).status,404);
 assert.equal((await handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev/owner/link-health.json',{headers:{'X-ZZ-Cloud':'cloud-secret-123'}}),on,ownerFetch)).status,403);
+// 9/11: the daily-cap report answers the owner or the cloud key (health_watch.py); a wrong key or none is refused.
+{const qon={...on,QUOTA:{idFromName:()=>'g',get:()=>({fetch:async()=>new Response('{"schema":1,"bans":[]}')})}};
+ const q=headers=>handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev/owner/quota.json',{headers}),qon,ownerFetch);
+ const ok=await q({'X-ZZ-Cloud':'cloud-secret-123'});assert.equal(ok.status,200);assert.equal((await ok.json()).schema,1);assert.equal(ok.headers.get('Cache-Control'),'no-store');
+ assert.equal((await q({Authorization:'Bearer '+ownerToken})).status,200);
+ assert.equal((await q({'X-ZZ-Cloud':'wrong'})).status,403);assert.equal((await q({})).status,403);assert.equal((await q({Authorization:'Bearer '+plainToken})).status,403);
+ assert.equal((await handle(new Request('https://x/owner/quota.json',{headers:{'X-ZZ-Cloud':''}}),{...qon,CLOUD_KEY:''},ownerFetch)).status,403,'empty key never matches');}
 console.log('channel gate PASS');
