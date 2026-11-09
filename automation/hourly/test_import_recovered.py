@@ -30,4 +30,9 @@ class ImportTests(unittest.TestCase):
   now,url,batch,state,a=self.fixture();batch['state']['episodes'][url]['episode']=url.replace('/1/','/2/')
   with self.assertRaises(ValueError):prepare(batch,state,a,now)
 
+ def test_pc_refresh_replaces_only_with_a_newer_real_observation(self):
+  now,url,batch,state,a=self.fixture();state['episodes'][url]={'observedAt':(now-datetime.timedelta(days=9)).isoformat(),'old':True}
+  incoming,held,reused=prepare(batch,state,a,now,replace=True);self.assertIn(url,incoming['episodes']);self.assertEqual(reused,0)
+  state['episodes'][url]={'observedAt':(now+datetime.timedelta(minutes=1)).isoformat(),'newer':True}
+  incoming,held,reused=prepare(batch,state,a,now,replace=True);self.assertFalse(incoming['episodes']);self.assertEqual(reused,1)
 if __name__=='__main__':unittest.main()
