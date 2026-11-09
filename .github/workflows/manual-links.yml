@@ -37,6 +37,8 @@ jobs:
         working-directory: automation/manual-links
         env:
           GH_TOKEN: ${{ github.token }}
+          # Cloud key for the editor fichas (the editor requires a session since 9/11). Never printed.
+          ZZ_EDITOR_CLOUD_KEY: ${{ secrets.ZZ_EDITOR_CLOUD_KEY }}
         run: python3 manual_links.py --memory "$RUNNER_TEMP/memory/state.json"
       - name: Llave del repositorio privado (solo para guardar)
         if: always()
