@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
@@ -43,8 +43,8 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  const user=await sessionUser(request,fetcher);
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
- // 9/11: daily cap per account on the series files (quota.mjs; counts only unless QUOTA_MODE is "enforce").
- if(user&&/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,user))return deny(429,'daily_limit');
+ // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
+ if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,{user,ip:request.headers.get('CF-Connecting-IP')||'',ban:user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null}))return deny(429,'daily_limit');
  return env.ASSETS.fetch(request);
 }
 export default {fetch:(request,env)=>handle(request,env)};
