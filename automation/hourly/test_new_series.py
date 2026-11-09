@@ -1,4 +1,4 @@
-import tempfile,unittest
+import json,tempfile,unittest
 from pathlib import Path
 import new_series
 TIO='<title>Demons&#039; Crest - TioAnime</title><script>var episodes = [2,1];</script>';FLV='<title>Ver Demons\' Crest Online \u2714 AnimeFLV</title>'
@@ -21,4 +21,9 @@ class NewSeriesTests(unittest.TestCase):
         calls=[];d=tempfile.mkdtemp()
         n=new_series.verify(d,['a1','a2','a3','a4','known'],[{'url':'https://jkanime.net/known/','title':'K'}],now=1,fetcher=lambda u:(calls.append(u),(404,u,''))[1],sleep=lambda s:None)
         self.assertEqual(n,[]);self.assertEqual(len(calls),6)
+    def test_series_accepted_without_chapters_queues_them_once(self):
+        d=tempfile.mkdtemp();Path(d,'new-series.json').write_text(json.dumps({'accepted':{'https://jkanime.net/demons-crest/':{'title':"Demons' Crest",'tio':'https://tioanime.com/anime/demons-crest'}},'rejected':{}}))
+        f=fake({'https://tioanime.com/anime/demons-crest':TIO})
+        self.assertEqual(new_series.verify(d,[],[],now=1,fetcher=f,sleep=lambda s:None),['https://jkanime.net/demons-crest/1/','https://jkanime.net/demons-crest/2/'])
+        self.assertEqual(new_series.verify(d,[],[],now=1,fetcher=f,sleep=lambda s:None),[])
 if __name__=='__main__':unittest.main()

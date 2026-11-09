@@ -36,6 +36,11 @@ def verify(folder,slugs,catalogue,now=None,fetcher=fetch,sleep=time.sleep):
     """Returns the chapter URLs of newly accepted series (TioAnime's episode list), for the collector's retry queue."""
     now=now or time.time();folder=Path(folder);data=load(folder);known={r['url'] for r in catalogue};taken={norm(r['title']) for r in catalogue}
     checked=0;chapters=[]
+    # Accepted before chapters were queued (9/11/2026): read TioAnime's episode list once.
+    for url,r in data['accepted'].items():
+        if 'episodes' in r or checked>=LIMIT:continue
+        checked+=1;status,final,tio=fetcher(r['tio']);sleep(3)
+        if status==200 and final==r['tio']:numbers=episodes(tio);r['episodes']=len(numbers);chapters+=[url+str(n)+'/' for n in numbers]
     for slug in slugs:
         url='https://jkanime.net/'+slug+'/'
         if checked>=LIMIT or not re.fullmatch(r'[a-z0-9-]{2,120}',slug) or url in known or url in data['accepted'] or data['rejected'].get(url,{}).get('retryAt',0)>now:continue
