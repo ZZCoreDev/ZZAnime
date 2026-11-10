@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport,banSelf} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf,quotaTally} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
@@ -43,6 +43,8 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  // The daily-cap report also answers the cloud's own key (health_watch.py warns of new bans); never the other /owner/ files.
  if(path==='/owner/quota.json'){if(!same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')&&!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
+ // 10/11: how many apps still reach the channel by the old address (decides when to close it).
+ if(path==='/channel.json'&&!(request.headers.get('X-ZZ-Cloud'))){const h=new URL(request.url).hostname;if(h.endsWith('.workers.dev'))await quotaTally(env,'old');else if(h.endsWith('zzanime.uk'))await quotaTally(env,'new');}
  if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
  // 10/11 (app 177): the old workers.dev address only shows old apps the signed pointer (with the required update)
  // and serves the cloud's own check; links go only through zzanime.uk, where Cloudflare's rate limit applies.

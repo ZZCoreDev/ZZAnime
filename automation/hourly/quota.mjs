@@ -33,6 +33,8 @@ export class Quota{
    n++;this.mem.set(k,n);if(n%10===0||n===cap+1||n===ban+1)this.save(day,key,n);
    return Response.json({n,over:n>cap,ban:ban>0&&n>ban});
   }
+  // 10/11: which address apps use (old workers.dev vs zzanime.uk), counted on the signed pointer only.
+  if(u.pathname==='/tally'){if(!/^h:(old|new)$/.test(key))return new Response('{}',{status:400});const k=day+'|'+key;let n=this.mem.get(k);if(n===undefined){const row=this.sql.exec('select n from q where day=? and user=?',day,key).toArray()[0];n=row?row.n:0;}n++;this.mem.set(k,n);if(n%10===0)this.save(day,key,n);return Response.json({n});}
   if(u.pathname==='/mark'){
    const kind=u.searchParams.get('kind');if(!KEY.test(key)||!['ban','exempt'].includes(kind))return new Response('{}',{status:400});
    const until=now+(key.startsWith('d:')?365*86400000:kind==='ban'?6*3600000:30*86400000);
@@ -42,7 +44,8 @@ export class Quota{
   if(u.pathname==='/report'){
    const cap=Number(u.searchParams.get('cap'))||300,ipCap=Number(u.searchParams.get('ipcap'))||3000;this.flush();
    const rows=this.sql.exec('select day,user,n from q order by day desc,n desc limit 600').toArray();
-   const days={};for(const r of rows){const ip=r.user.startsWith('ip:'),d=days[r.day]||={accounts:0,ips:0,over:[],top:0,topIp:0};
+   const days={};for(const r of rows){const ip=r.user.startsWith('ip:'),d=days[r.day]||={accounts:0,ips:0,over:[],top:0,topIp:0,hosts:{old:0,new:0}};
+    if(r.user.startsWith('h:')){d.hosts[r.user.slice(2)]=r.n;continue;}
     if(ip){d.ips++;d.topIp=Math.max(d.topIp,r.n);if(r.n>ipCap&&d.over.length<40)d.over.push({user:r.user,n:r.n});}
     else{d.accounts++;d.top=Math.max(d.top,r.n);if(r.n>cap&&d.over.length<40)d.over.push({user:r.user.replace(/^u:/,''),n:r.n});}}
    const bans=this.sql.exec("select key,until,at from marks where kind='ban' and key like 'u:%' and until>? order by at desc limit 50",now).toArray().map(b=>({user:b.key.replace(/^u:/,''),at:new Date(b.at).toISOString()}));
@@ -85,4 +88,6 @@ export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=fa
   return !(x.over&&enforce);
  }catch{return true;}
 }
+/** Counts one signed-pointer request by address kind ('old' | 'new'); failures are ignored. */
+export async function quotaTally(env,kind){if(!env.QUOTA)return;try{await quotaStub(env).fetch('https://quota/tally?k=h:'+kind);}catch{}}
 export async function quotaReport(env){return quotaStub(env).fetch('https://quota/report?cap='+(Number(env.QUOTA_DAY)||300)+'&ipcap='+(Number(env.QUOTA_IP_DAY)||3000));}

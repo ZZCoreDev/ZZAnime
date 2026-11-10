@@ -61,4 +61,5 @@ forgetBans();{let hits=0;const ns=namespace(),e={QUOTA:{idFromName:()=>1,get:()=
  for(let i=0;i<3;i++)await quotaAllows(e,{user:'n1',fresh:true,ban:async()=>({banned:true})});
  const before=hits;for(let i=0;i<50;i++)assert.equal(await quotaAllows(e,{user:'n1',fresh:true,ban:async()=>({banned:true})}),false);
  assert.equal(hits,before,'banned account: no more counter calls');}
+{const ns=namespace(),e={QUOTA:ns};const {quotaTally}=await import('./quota.mjs');await quotaTally(e,'old');await quotaTally(e,'new');await quotaTally(e,'new');const r=await (await ns.get().fetch('https://quota/report')).json();const d=Object.values(r.days)[0];assert.deepEqual(d.hosts,{old:1,new:2});assert.equal(d.accounts,0,'host tallies are not accounts');}
 console.log('quota PASS');
