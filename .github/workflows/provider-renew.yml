@@ -106,6 +106,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
+          ZZ_LINK_RULES: ${{ vars.ZZ_LINK_RULES || 'off' }}
           ZZ_RENEW_PROOF: ${{ inputs.proof }}
           ZZ_RENEW_SAMPLE_GROUP: ${{ inputs.sample_group }}
           ZZ_NEWS_WATCHDOG_ENABLED: 'true'

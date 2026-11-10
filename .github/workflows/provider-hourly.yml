@@ -95,6 +95,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
+          ZZ_LINK_RULES: ${{ vars.ZZ_LINK_RULES || 'off' }}
           ZZ_PUBLISH_PROOF: ${{ inputs.publish_proof }}
         run: |
           if [ "$ZZ_PUBLISH_PROOF" = "true" ]; then
@@ -118,6 +119,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
+          ZZ_LINK_RULES: ${{ vars.ZZ_LINK_RULES || 'off' }}
         run: python3 run.py --collect --publish
       - name: Guardar avances y reintentos sin repetir capítulos
         if: always() && inputs.proof != true && vars.ZZ_HOURLY_ENABLED == 'true'

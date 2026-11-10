@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport,banSelf,quotaTally} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
@@ -53,7 +53,19 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
- if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,{user,fresh,ip:request.headers.get('CF-Connecting-IP')||'',device:(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban:user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null}))return deny(429,'daily_limit');
+ if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)){
+  const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban=user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null;
+  // 10/11 (app 180): LINK_RULES "enforce" counts distinct series/films opened (reopening is free), asks "soy humano" (428)
+  // from 50 a day or 5 in 10 minutes, caps at 150 (60 new accounts), bans at 300 attempts. Episode lists (/lista/) stay free.
+  // Off until 180 is the required version: old apps download these files when opening a ficha.
+  const main=path.startsWith('/series/');
+  // voe/ and extra/ hold the same series' extra servers: they keep the request cap (quotaAllows) so one tap is not counted 3 times.
+  if(env.LINK_RULES==='enforce'&&user&&main){const token=request.headers.get('X-ZZ-Human')||'';
+   const r=await linkAllows(env,{user,fresh,device,ban,item:path,human:!!token&&await humanOk(env,token,ip,fetcher)});
+   if(r==='human')return deny(428,'human');if(r==='limit')return deny(429,'daily_limit');}
+  else{if(!await quotaAllows(env,{user,fresh,ip,device,ban}))return deny(429,'daily_limit');
+   if(env.LINK_RULES==='count'&&user&&main)await linkAllows(env,{user,fresh,device,item:path});}
+ }
  return env.ASSETS.fetch(request);
 }
 export default {fetch:(request,env)=>handle(request,env)};
