@@ -74,7 +74,7 @@ class HealthWatchTests(unittest.TestCase):
             r,m=h.check(d,NOW+9*86400,m,noacc);self.assertFalse(r['bloqueos'][0]);self.assertEqual(list(m['bans']),['Aparato (series)|'+iso(NOW-60)])
             # A second account later reopens it with only the new one.
             r,m=h.check(d,NOW+10*86400,m,{**noacc,'bans':[{'user':'fedcba98-x','at':iso(NOW+10*86400-30)}]})
-            self.assertTrue(r['bloqueos'][0]);self.assertIn('(1)',r['bloqueos'][2]);self.assertIn('fedcba98',r['bloqueos'][2])
+            self.assertTrue(r['bloqueos'][0]);self.assertIn('(1)',r['bloqueos'][2]);self.assertIn('Cuenta (series)',r['bloqueos'][2]);self.assertNotIn('fedcba98',r['bloqueos'][2])
             # Report unreadable (Worker down, wrong key): warned after 6 h; without the key nothing is checked.
             r,m=h.check(d,NOW+10*86400+5*HOUR,m,None);self.assertFalse(r['informe-tope'][0]);self.assertNotIn('bloqueos',r)
             r,m=h.check(d,NOW+10*86400+7*HOUR,m,{'error':'owner'});self.assertTrue(r['informe-tope'][0])
