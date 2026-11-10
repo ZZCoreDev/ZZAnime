@@ -96,7 +96,7 @@ jobs:
           ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
           ZZ_LINK_RULES: ${{ vars.ZZ_LINK_RULES || 'off' }}
-          ZZ_PUBLISH_PROOF: ${{ inputs.publish_proof }}
+          ZZ_PUBLISH_PROOF: 'false'  # 11/11 auditoría S-01: la prueba nunca se publica en el Worker real
         run: |
           if [ "$ZZ_PUBLISH_PROOF" = "true" ]; then
             python3 run.py --collect --publish

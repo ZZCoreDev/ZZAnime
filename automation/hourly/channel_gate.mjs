@@ -50,7 +50,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  // and serves the cloud's own check; links go only through zzanime.uk, where Cloudflare's rate limit applies.
  // 10/11 (179): the old address stays open: some networks block the brand-new zzanime.uk domain (app falls back here).
  const {sub:user,fresh}=await sessionInfo(request,fetcher);
- if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
+ if(!user&&env.REQUIRE_SESSION!=='false')return deny(401,'login'); // 11/11 A-03: cerrado salvo «false» explícito
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
  if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)){

@@ -1,7 +1,7 @@
 name: Ayuda entre dispositivos (Worker)
 on:
   push:
-    branches: [main, claude/tarea10-cadena-ayuda]
+    branches: [main]  # 11/11 auditoría M-06
     paths: ['automation/help-worker/**', 'automation/hourly/plays.py', 'automation/hourly/skip_marks.py', 'automation/hourly/signal_policy.py', 'automation/hourly/help_chain.py', '.github/workflows/help-worker.yml']
   workflow_dispatch:
 permissions:
