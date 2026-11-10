@@ -84,6 +84,16 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
   body=raw(row);packed=gzip.compress(body,mtime=0);h=sha(packed);name='series/'+h+'.bin'
   if max(len(body),len(packed))>2097152:raise ValueError('App shard limit')
   files[name]=packed;index['series'][sha(parent.encode())]={'path':name,'sha256':h,'bytes':len(packed),'expandedBytes':len(body),'episodes':len(eps)}
+ # 10/11 (app 180): episode lists WITHOUT links, free to read when a ficha opens (channel_gate.mjs only counts series/).
+ # 256 buckets by the first two hex digits of the series key keep the file count low; the app reads index['lists'].
+ buckets={}
+ for parent,eps in rows.items():
+  listing=state['listings'][parent]
+  buckets.setdefault(sha(parent.encode())[:2],{})[sha(parent.encode())]={'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':[{'url':e['url'],'observedAt':e['observedAt'],'families':sorted({o['family'] for o in e['options']})} for e in sorted(eps,key=lambda e:e['url'])]}
+ index['lists']={}
+ for bucket,series in sorted(buckets.items()):
+  body=raw({'schema':1,'series':series});packed=gzip.compress(body,mtime=0);h=sha(packed);name='lista/'+h+'.bin'
+  files[name]=packed;index['lists'][bucket]={'path':name,'sha256':h,'bytes':len(packed)}
  if not rows:raise ValueError('No approved observations; previous channel retained')
  import schedule,help_chain
  titles=help_chain.titles();index['schedule']=schedule.build(state,available,now,titles)
@@ -219,7 +229,7 @@ def main():
   try:extra_only={} if proof else extra_channel.render(D,now,key,excluded_keys(D))
   except Exception as error:extra_only={};print(json.dumps({'extraChannelError':type(error).__name__+': '+str(error)[:120]}))
   files.update(extra_only);extra_digest=next((n for n in extra_only if n.startswith('extra/indexes/')),None)
-  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n/lista/*\n  Cache-Control: public, max-age=31536000, immutable\n'
   files['robots.txt']=b'# ZZAnime: canal privado de la app. No se permite indexar, recopilar en masa ni entrenar IA.\nUser-agent: *\nContent-Signal: search=no, ai-train=no, ai-input=no\nDisallow: /\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
   for n,b in files.items():put(assets/n,b)
@@ -237,7 +247,7 @@ def main():
     import re
     for p in old.rglob('*.bin'):
      n=p.relative_to(old).as_posix()
-     if re.fullmatch(r'(?:voe/|extra/)?(series|indexes)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
+     if re.fullmatch(r'(?:voe/|extra/)?(series|indexes|lista)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
    # 9/11: owner-only editor view (dead links, help status) under /owner/, never in the public GitHub repo (owner_files.py, channel_gate.mjs).
    try:
     import owner_files

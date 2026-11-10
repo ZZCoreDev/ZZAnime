@@ -15,7 +15,12 @@ class CloudTests(unittest.TestCase):
   state={'listings':{parent:{'complete':True,'observedAt':now.isoformat(),'episodes':[url]}},'episodes':{url:{'complete':True,'observedAt':now.isoformat(),'providers':[{'name':name,'family':'mega','links':[link]}]}}}
   return now,parent,url,state,{hashlib.sha256((name+'\0'+link).encode()).hexdigest():True}
  def test_valid_observed_episode(self):
-  now,parent,url,s,a=self.fixture();index,files=build(s,a,now);self.assertEqual(len(index['series']),1);self.assertEqual(len(files),1)
+  now,parent,url,s,a=self.fixture();index,files=build(s,a,now);self.assertEqual(len(index['series']),1);self.assertEqual(len([n for n in files if n.startswith('series/')]),1)
+  # 10/11 (app 180): one free episode list per bucket, with families but never the links.
+  lists=[n for n in files if n.startswith('lista/')];self.assertEqual(len(lists),1);self.assertEqual(len(files),2)
+  import gzip;body=gzip.decompress(files[lists[0]]);listed=json.loads(body)['series'];key=hashlib.sha256(parent.encode()).hexdigest()
+  self.assertEqual(index['lists'][key[:2]]['path'],lists[0]);self.assertEqual(listed[key]['episodes'][0]['url'],url)
+  self.assertTrue(listed[key]['episodes'][0]['families']);self.assertNotIn(b'"options"',body);self.assertNotIn(b'mp4upload.com',body)
  def test_existing_homepage_chapter_is_not_lost_by_skip(self):
   now,parent,url,s,a=self.fixture();record_recent(s,[url],now);index,_=build(s,a,now)
   self.assertEqual(len(index['feed']['episodes']),1)
