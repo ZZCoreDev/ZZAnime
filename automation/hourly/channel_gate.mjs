@@ -44,6 +44,9 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(path==='/owner/quota.json'){if(!same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')&&!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
+ // 10/11 (app 177): the old workers.dev address only shows old apps the signed pointer (with the required update)
+ // and serves the cloud's own check; links go only through zzanime.uk, where Cloudflare's rate limit applies.
+ if(new URL(request.url).hostname.endsWith('.workers.dev'))return new Response(JSON.stringify({error:'update',message:'Actualiza ZZAnime para seguir viendo.'}),{status:410,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
  const {sub:user,fresh}=await sessionInfo(request,fetcher);
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
