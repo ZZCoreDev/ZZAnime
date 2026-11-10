@@ -71,11 +71,11 @@ def quota_bans(alarm,reports,now,memory):
     alarm('informe-tope',late,'No se puede leer el informe del tope diario',
         'Sin el informe no se avisa de los bloqueos.\n'+'\n'.join(late))
     if not good:return
-    # Account ids are cut to 8 characters: the issue is public. Enough to find the account in Supabase → Users.
+    # 11/11 (auditoría S-03): the issue is public: no account id at all; the owner sees it in /owner/quota.json.
     current=set()
     for source,report in good.items():
         tag=QUOTA_SOURCES[source][2]
-        current|={f'Cuenta {str(b.get("user",""))[:8]}…{tag}|{b.get("at","")}' for b in report.get('bans') or []}
+        current|={f'Cuenta{tag}|{b.get("at","")}' for b in report.get('bans') or []}  # 11/11 S-03: sin identificador (aviso público); la cuenta está en el panel del dueño
         current|={f'Aparato{tag}|{d.get("at","")}' for d in report.get('deviceBans') or []}
     seen=dict(memory.get('bans') or {})
     for key in current:seen.setdefault(key,now)
@@ -154,7 +154,7 @@ def check(folder,now,memory,quota=False,editor_quota=False,usage=None):
     probe=read(folder,'playback-probe.json',{}) or {}
     for family,row in sorted((probe.get('families') or {}).items()):
         alarm('reproduccion-'+family,row.get('failingDays',0)>=2,f'La reproducción de {family} falla 2 días seguidos',
-            f'Resultado del probador ({probe.get("checkedAt","?")}): {json.dumps(row,ensure_ascii=False)}')
+            f'Resultado del probador ({probe.get("checkedAt","?")}): '+json.dumps({k:v for k,v in row.items() if isinstance(v,(int,float,bool))},ensure_ascii=False))  # S-03: solo números, nunca enlaces
     return out,memory
 class GitHub:
     def __init__(self,repo,token):self.base='https://api.github.com/repos/'+repo;self.token=token

@@ -65,7 +65,7 @@ class HealthWatchTests(unittest.TestCase):
             self.assertFalse(r['bloqueos'][0]);self.assertFalse(r['informe-tope'][0])
             ban={'schema':1,'cap':300,'bans':[{'user':'0123456789abcdef-uuid','at':iso(NOW-60)}],'bannedDevices':1,'deviceBans':[{'at':iso(NOW-60)}]}
             r,m=h.check(d,NOW+HOUR,m,ban);self.assertTrue(r['bloqueos'][0]);body=r['bloqueos'][2]
-            self.assertIn('Cuenta 01234567…',body);self.assertNotIn('89abcdef',body,'public issue: id cut');self.assertIn('Aparato',body);self.assertIn('(2)',body)
+            self.assertIn('Cuenta (series)',body);self.assertNotIn('01234567',body,'public issue: no account id (S-03)');self.assertIn('Aparato',body);self.assertIn('(2)',body)
             # Same bans seen again are not new; listed for 24 h; the device ban stays in the report a year and never counts again.
             r,m=h.check(d,NOW+2*HOUR,m,ban);self.assertIn('(2)',r['bloqueos'][2])
             noacc={**ban,'bans':[]}
@@ -85,7 +85,7 @@ class HealthWatchTests(unittest.TestCase):
             empty={'schema':1,'cap':300,'bans':[],'bannedDevices':0,'deviceBans':[]}
             ed={**empty,'bans':[{'user':'abcdef0123-uuid','at':iso(NOW-30)}],'bannedDevices':1,'deviceBans':[{'at':iso(NOW-30)}]}
             r,m=h.check(d,NOW,{},empty,ed);body=r['bloqueos'][2]
-            self.assertTrue(r['bloqueos'][0]);self.assertIn('Cuenta abcdef01… (fichas del editor)',body);self.assertIn('Aparato (fichas del editor)',body)
+            self.assertTrue(r['bloqueos'][0]);self.assertIn('Cuenta (fichas del editor)',body);self.assertNotIn('abcdef01',body);self.assertIn('Aparato (fichas del editor)',body)
             self.assertIn('editor: 1 cuentas y 1 aparatos (tope 300 fichas',body);self.assertIn('canal: 0 cuentas',body)
             # Editor report unreadable for a while: its known bans are kept, so they are not new again when it comes back.
             r,m=h.check(d,NOW+8*86400,m,empty,None);self.assertTrue(r['informe-tope'][0]);self.assertIn('- editor:',r['informe-tope'][2]);self.assertNotIn('- canal:',r['informe-tope'][2])

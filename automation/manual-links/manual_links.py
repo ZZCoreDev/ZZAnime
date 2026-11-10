@@ -4,7 +4,7 @@ A link counts as dead only after two consecutive daily checks see it dead (HTTP 
 "deleted / not found" page). One GitHub issue lists the dead links per ficha; it is updated and closed when none are
 left. One request per link per day with a pause between requests; no CAPTCHA, video or ad requests; nothing is hidden
 or changed automatically."""
-import argparse,json,os,re,subprocess,sys,time,urllib.error,urllib.request
+import argparse,json,os,re,subprocess,sys,time,urllib.error,urllib.parse,urllib.request
 EDITOR='https://zzanime-editor.zzcoredev.workers.dev'
 # 9/11/2026: the editor needs a session for /api/titles; the cloud reads with its own key (X-ZZ-Cloud, GitHub secret
 # ZZ_EDITOR_CLOUD_KEY, never printed). Only editor_get sends it, never the provider requests. The editor allows
@@ -74,7 +74,8 @@ def report(items,dead):
     lines=[]
     for f in sorted(items,key=lambda x:x['title'].lower()):
         bad=[u for u in f['links'] if u in dead]
-        if bad:lines.append('- **'+f['title']+'** ('+str(len(bad))+' de '+str(len(f['links']))+'):\n'+'\n'.join('  - '+u for u in bad))
+        # 11/11 (auditoría S-03): el aviso es público: solo título y servidor, nunca el enlace (está en el editor).
+        if bad:lines.append('- **'+f['title']+'** ('+str(len(bad))+' de '+str(len(f['links']))+'): '+', '.join(sorted({urllib.parse.urlsplit(u).hostname or 'enlace' for u in bad})))
     return '\n'.join(lines)
 
 def gh(*args):return subprocess.run(['gh',*args],check=True,capture_output=True,text=True).stdout

@@ -14,6 +14,9 @@ class T(unittest.TestCase):
     def test_report(self):
         r=report([{'title':'B','links':['x','y']},{'title':'A','links':['z']}],{'x'})
         self.assertIn('**B** (1 de 2)',r);self.assertNotIn('**A**',r)
+        # S-03: the public issue names the server, never the link itself.
+        r=report([{'title':'C','links':['https://powvideo.net/e/abc123']}],{'https://powvideo.net/e/abc123'})
+        self.assertIn('powvideo.net',r);self.assertNotIn('abc123',r);self.assertNotIn('https://',r)
     def test_fichas_read_with_cloud_key_and_fail_visibly(self):
         import json,manual_links as m
         cat=json.dumps({'items':[{'id':'a'},{'id':'b'},{'id':'c'}]})
