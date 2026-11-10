@@ -16,7 +16,7 @@ class RemoteConfigTests(unittest.TestCase):
  def test_shipped_file_matches_the_published_apps(self):
   c=rc.load(NOW)
   self.assertEqual(c['deviceHelp'],{'enabled':True,'tvShare':0.35,'mobileShare':0.12,'tvPages':24,'mobilePages':8,'renewFraction':0.67})
-  self.assertEqual(c['deadReports'],{'enabled':True,'perDay':20});self.assertNotIn('notice',c);self.assertEqual(c['minVersion'],{'mobile':178,'tv':178})  # 10/11: required update to 178 (177 rejected editor fichas)
+  self.assertEqual(c['deadReports'],{'enabled':True,'perDay':20});self.assertNotIn('notice',c);self.assertEqual(c['minVersion'],{'mobile':179,'tv':179})  # 10/11: required update to 179 (falls back when zzanime.uk is blocked)
  def test_missing_file_publishes_no_config(self):
   self.assertIsNone(rc.load(NOW,Path('/nonexistent/remote-config.json')))
  def test_rejects_anything_outside_the_known_knobs(self):
