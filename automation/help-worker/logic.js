@@ -296,7 +296,7 @@ export async function handle(request,env,store,deps={}){
  const now=(deps.now||Date.now)(),fetcher=deps.fetch||fetch,url=new URL(request.url),day=Math.floor(now/DAY),expires=(day+2)*DAY;
  const sameAsnZones=Math.max(0,Number(env.SAME_ASN_ZONES||0));
  // 10/11 (app 177): the old workers.dev address is closed; ZZAnime 177+ uses ayuda.zzanime.uk (Cloudflare rate limit).
- if(url.hostname.endsWith('.workers.dev'))return json({error:'update',message:'Actualiza ZZAnime.'},410);
+ // 10/11 (179): old address open again for networks that block the new domain.
  if(request.method==='POST'&&['/v1/submit','/v1/dead','/v1/play','/v1/marks'].includes(url.pathname)){
   // submit: {"schema":1,"device":"<random id>","items":[{"episode":url,"options":[{"name","url"}]}]}; per-item answer:
   // stored | duplicate | enough (drop it, enough devices answered) | stop (not wanted any more) | unsupported.

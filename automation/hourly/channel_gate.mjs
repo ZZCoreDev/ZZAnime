@@ -46,7 +46,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
  // 10/11 (app 177): the old workers.dev address only shows old apps the signed pointer (with the required update)
  // and serves the cloud's own check; links go only through zzanime.uk, where Cloudflare's rate limit applies.
- if(new URL(request.url).hostname.endsWith('.workers.dev'))return new Response(JSON.stringify({error:'update',message:'Actualiza ZZAnime para seguir viendo.'}),{status:410,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
+ // 10/11 (179): the old address stays open: some networks block the brand-new zzanime.uk domain (app falls back here).
  const {sub:user,fresh}=await sessionInfo(request,fetcher);
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}

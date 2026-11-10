@@ -17,5 +17,4 @@ const r=await handle(new Request('https://ayuda.zzanime.uk/v1/dead',{method:'POS
 assert.equal(r.status,401);assert.equal((await r.json()).reason,'login');
 const off=await handle(new Request('https://ayuda.zzanime.uk/v1/dead',{method:'POST',body}),{REQUIRE_SESSION:'false',SALT:'s'},{},{fetch:fetcher});
 assert.notEqual(off.status,401,'not required yet: old behaviour');
-assert.equal((await handle(new Request('https://zzanime-ayuda.zzcoredev.workers.dev/v1/dead',{method:'POST',body}),{REQUIRE_SESSION:'false',SALT:'s'},{},{fetch:fetcher})).status,410,'old address closed');
 console.log('help session PASS');

@@ -38,6 +38,6 @@ console.log('channel gate PASS');
 // 10/11: old workers.dev host = pointer + cloud check only.
 {const old=(p,h={})=>handle(new Request('https://zzanime-respaldo.zzcoredev.workers.dev'+p,{headers:h}),{...on,REQUIRE_SESSION:'false'},fetcher);
  assert.equal((await old('/channel.json')).status,200);assert.equal((await old('/voe/channel.json')).status,200);
- assert.equal((await old('/series/x.bin')).status,410);assert.equal((await old('/series/x.bin',{'X-ZZ-Cloud':'cloud-secret-123'})).status,200);
+ assert.equal((await old('/series/x.bin')).status,200,'old address open again (179 fallback)');assert.equal((await old('/series/x.bin',{'X-ZZ-Cloud':'cloud-secret-123'})).status,200);
  assert.equal((await handle(new Request('https://respaldo.zzanime.uk/series/x.bin'),{...on,REQUIRE_SESSION:'false'},fetcher)).status,200,'new domain unchanged');
  console.log('old host PASS');}
