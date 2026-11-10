@@ -7,7 +7,9 @@ export const SUBMIT_HOSTS=Object.freeze({
  vidhide:Object.freeze(['filelions.top','vidhide.com','vidhidepro.com','vidhidevip.com','callistanise.com']),
  mixdrop:Object.freeze(['mixdrop.ps','mxdrop.click','mxdrop.to','mixdrop.top']),
  mp4upload:Object.freeze(['mp4upload.com']),
- streamtape:Object.freeze(['streamtape.com'])
+ streamtape:Object.freeze(['streamtape.com']),
+ // 10/11: Filemoon, as the checked-in Java has accepted since app 170 (4c550168).
+ filemoon:Object.freeze(['filemoon.sx','bysekoze.com'])
 });
 export function submitUrlAllowed(family,raw){
  if(typeof raw!=='string'||raw.length>500||/[\x00-\x20\x7f\\<>"{}|^`]/.test(raw)||/%(?![0-9a-f]{2})/i.test(raw))return false;

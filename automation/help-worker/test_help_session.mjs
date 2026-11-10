@@ -1,0 +1,20 @@
+// 10/11/2026 (REVISION-2 N5): with REQUIRE_SESSION "true" a report without a valid ZZAnime session is refused;
+// with "false" (until 176 is the minimum version) nothing changes.
+import assert from 'node:assert/strict';
+import {handle} from './logic.js';
+import {sessionUser,resetSessionKeys} from './session.js';
+const ISS='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1';
+const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']),jwk=await crypto.subtle.exportKey('jwk',pair.publicKey);
+const b64=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');
+const h=b64(JSON.stringify({alg:'ES256',kid:'h1'})),p=b64(JSON.stringify({iss:ISS,role:'authenticated',sub:'acct-1',exp:Math.floor(Date.now()/1000)+600}));
+const tok=h+'.'+p+'.'+b64(await crypto.subtle.sign({name:'ECDSA',hash:'SHA-256'},pair.privateKey,new TextEncoder().encode(h+'.'+p)));
+const fetcher=async()=>new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'h1'}]}));
+resetSessionKeys();
+assert.equal(await sessionUser(new Request('https://x',{headers:{Authorization:'Bearer '+tok}}),fetcher),'acct-1');
+assert.equal(await sessionUser(new Request('https://x'),fetcher),'');
+const body=JSON.stringify({schema:1,device:'d'.repeat(20),items:[{episode:'https://jkanime.net/a/1/',name:'Mega',url:'https://mega.nz/embed/x'}]});
+const r=await handle(new Request('https://zzanime-ayuda.zzcoredev.workers.dev/v1/dead',{method:'POST',body}),{REQUIRE_SESSION:'true',SALT:'s'},{},{fetch:fetcher});
+assert.equal(r.status,401);assert.equal((await r.json()).reason,'login');
+const off=await handle(new Request('https://zzanime-ayuda.zzcoredev.workers.dev/v1/dead',{method:'POST',body}),{REQUIRE_SESSION:'false',SALT:'s'},{},{fetch:fetcher});
+assert.notEqual(off.status,401,'not required yet: old behaviour');
+console.log('help session PASS');
