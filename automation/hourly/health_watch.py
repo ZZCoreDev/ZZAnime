@@ -16,8 +16,8 @@ LABEL='vigia'
 # 9/11/2026: the daily-cap reports (quota.mjs) of the channel (series; cloud key X-ZZ-Cloud = secret ZZ_CHANNEL_KEY)
 # and of the editor (fichas; its own cloud key = secret ZZ_EDITOR_CLOUD_KEY), keys never printed. A new ban of an
 # account or device keeps the «bloqueos» issue open for 24 h; each new one comments.
-QUOTA_URL='https://zzanime-respaldo.zzcoredev.workers.dev/owner/quota.json'
-EDITOR_QUOTA_URL='https://zzanime-editor.zzcoredev.workers.dev/api/cloud/quota.json'
+QUOTA_URL='https://respaldo.zzanime.uk/owner/quota.json'
+EDITOR_QUOTA_URL='https://editor.zzanime.uk/api/cloud/quota.json'
 # source: (memory key of the last good read, what it counts, label added to each ban)
 QUOTA_SOURCES={'canal':('quotaReadAt','series',' (series)'),'editor':('editorQuotaReadAt','fichas',' (fichas del editor)')}
 QUOTA_REPORT_HOURS=6;BAN_NOTICE=DAY;BAN_MEMORY=7*DAY
