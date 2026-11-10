@@ -66,6 +66,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   else{if(!await quotaAllows(env,{user,fresh,ip,device,ban}))return deny(429,'daily_limit');
    if(env.LINK_RULES==='count'&&user&&main)await linkAllows(env,{user,fresh,device,item:path});}
  }
- return env.ASSETS.fetch(request);
+ // 11/11 auditoría M-04: lo que necesita sesión nunca va a cachés compartidas.
+ {const r=await env.ASSETS.fetch(request),h=new Headers(r.headers);h.set('Cache-Control','private, no-store');return new Response(r.body,{status:r.status,headers:h});}
 }
 export default {fetch:(request,env)=>handle(request,env)};

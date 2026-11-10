@@ -125,7 +125,7 @@ export async function humanOk(env,token,ip,fetcher){
  try{const body=new URLSearchParams({secret:env.TURNSTILE_SECRET,response:token});if(ip)body.set('remoteip',ip);
   const r=await fetcher('https://challenges.cloudflare.com/turnstile/v0/siteverify',{method:'POST',body,signal:AbortSignal.timeout(10000)});
   if(r.status!==200)return false;const x=await r.json();
-  return x?.success===true&&(!x.hostname||x.hostname==='zzanime.uk'||x.hostname.endsWith('.zzanime.uk'));}catch{return false;}
+  return x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'; /* 11/11 auditoría M-05: origen y acción exactos */}catch{return false;}
 }
 /** LINK_RULES (off|count|enforce): rules on opening links of distinct series/films for one verified account.
  * Answers 'ok', 'human' (needs the check: 428) or 'limit' (429). "count" only records; any failure answers 'ok'.
