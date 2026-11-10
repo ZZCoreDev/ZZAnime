@@ -1,4 +1,5 @@
 {
+  "routes": [{"pattern": "ayuda.zzanime.uk", "custom_domain": true}],
   "name": "zzanime-ayuda",
   "main": "worker.js",
   "account_id": "3407d07c06229321d34863cf0fdac02d",
