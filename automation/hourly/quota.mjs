@@ -109,7 +109,7 @@ export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=fa
   if(x.banned){if(enforce)remember(key,now);return !enforce;}
   if(x.ban&&enforce&&ban){const r=await ban();
    await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind='+(r&&r.banned===false?'exempt':'ban'));
-   if(dev&&r?.banned!==false){await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');remember('d:'+dev,now);}
+   if(dev&&r?.banned===true){ /* 11/11 auditoría M-02: el aparato solo se bloquea si Supabase confirmó el baneo de la cuenta */ await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');remember('d:'+dev,now);}
    if(r?.banned!==false)remember(key,now);
    return r?.banned===false;}
   return !(x.over&&enforce);
