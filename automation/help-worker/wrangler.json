@@ -12,7 +12,7 @@
     "DAILY_CAP": "40000",
     "IP_LIMIT": "200",
     "ACCOUNT_LIMIT": "100",
-    "REQUIRE_SESSION": "false",
+    "REQUIRE_SESSION": "true",
     "SAME_ASN_ZONES": "0",
     "PLAY_CAP": "20000",
     "MARK_CAP": "10000"
