@@ -59,17 +59,28 @@ export async function banSelf(supabase,key,authorization,fetcher){
   return r.status===200?await r.json():null;}catch{return null;}
 }
 /** true when the request may go on. user: verified account id or ''; ip: CF-Connecting-IP; ban(): banSelf for that account. */
-export async function quotaAllows(env,{user='',ip='',ban=null,device=''}={}){
+// 10/11 (REVISION-2 N3): banned accounts/devices are remembered here for 10 minutes, so one that keeps hammering does
+// not spend the counter's free daily budget (when the counter fails, everything is let through).
+const remembered=new Map();
+const REMEMBER=600000;
+export function forgetBans(){remembered.clear();}
+function recall(k,now){const until=remembered.get(k);if(until&&until>now)return true;if(until)remembered.delete(k);return false;}
+function remember(k,now){if(remembered.size>5000)remembered.clear();remembered.set(k,now+REMEMBER);}
+/** fresh: account created in the last 7 days (claim zz_new, 031): smaller daily cap QUOTA_NEW_DAY (60) (REVISION-2 N2). */
+export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=false}={}){
  if(!env.QUOTA)return true;
  const key=user?'u:'+user:ip?'ip:'+ip:'',dev=DEVICE.test(device)?device:'';if(!KEY.test(key))return true;
+ const enforce=env.QUOTA_MODE==='enforce',now=Date.now();
+ if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return false;
  try{
-  const stub=quotaStub(env),enforce=env.QUOTA_MODE==='enforce',cap=user?Number(env.QUOTA_DAY)||300:Number(env.QUOTA_IP_DAY)||3000,banAt=user?Number(env.QUOTA_BAN)||2*cap:0;
+  const stub=quotaStub(env),normal=user?Number(env.QUOTA_DAY)||300:Number(env.QUOTA_IP_DAY)||3000,cap=user&&fresh?Number(env.QUOTA_NEW_DAY)||60:normal,banAt=user?Number(env.QUOTA_BAN)||2*normal:0;
   const x=await (await stub.fetch('https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:''))).json();
   if(x.exempt)return true;
-  if(x.banned)return !enforce;
+  if(x.banned){if(enforce)remember(key,now);return !enforce;}
   if(x.ban&&enforce&&ban){const r=await ban();
    await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind='+(r&&r.banned===false?'exempt':'ban'));
-   if(dev&&r?.banned!==false)await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');
+   if(dev&&r?.banned!==false){await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');remember('d:'+dev,now);}
+   if(r?.banned!==false)remember(key,now);
    return r?.banned===false;}
   return !(x.over&&enforce);
  }catch{return true;}

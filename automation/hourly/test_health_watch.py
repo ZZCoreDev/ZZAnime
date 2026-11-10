@@ -22,6 +22,15 @@ class HealthWatchTests(unittest.TestCase):
             healthy(d);self.assertEqual(self.failing(d)[0],[])
             later=datetime.datetime(2027,1,1,tzinfo=datetime.timezone.utc).timestamp()
             r,_=h.check(d,later,{});self.assertTrue(r['secreto-GH_DISPATCH_TOKEN'][0]);self.assertFalse(r['secreto-ZZ_CLOUDFLARE_TOKEN'][0])
+    def test_cloudflare_usage_alarm(self):
+        # 10/11: warn when today's Worker requests pass 50,000 of the 100,000 free ones.
+        with tempfile.TemporaryDirectory() as d:
+            healthy(d);now=self.now if hasattr(self,'now') else datetime.datetime.now(datetime.timezone.utc).timestamp()
+            r,_=h.check(d,now,{},usage={'zzanime-respaldo':40000,'zzanime-editor':20000});self.assertTrue(r['consumo'][0]);self.assertIn('60000',r['consumo'][2])
+            r,_=h.check(d,now,{},usage={'zzanime-respaldo':3000});self.assertFalse(r['consumo'][0])
+            r,_=h.check(d,now,{});self.assertNotIn('consumo',r)
+        data={'data':{'viewer':{'accounts':[{'workersInvocationsAdaptive':[{'sum':{'requests':5},'dimensions':{'scriptName':'a'}},{'sum':{'requests':7},'dimensions':{'scriptName':'a'}}]}]}}}
+        self.assertEqual(h.cloudflare_usage('t','2026-11-10',fetch=lambda q:data),{'a':12});self.assertIsNone(h.cloudflare_usage('t','2026-11-10',fetch=lambda q:{}))
     def test_each_alarm(self):
         with tempfile.TemporaryDirectory() as d:
             healthy(d);put(d,'publication.json',{'publishedAt':iso(NOW-4*3600)});self.assertIn('noticias',self.failing(d)[0])

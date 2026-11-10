@@ -89,13 +89,32 @@ def quota_bans(alarm,reports,now,memory):
         f'Bloqueos nuevos en las últimas 24 h ({len(recent)}):\n'+'\n'.join(lines)
         +'\n\nActivos ahora: '+'; '.join(f'{source}: {len(r.get("bans") or [])} cuentas y {r.get("bannedDevices",0)} aparatos (tope {r.get("cap","?")} {QUOTA_SOURCES[source][1]} al día)' for source,r in good.items())
         +'. Las cuentas quedan bloqueadas en Supabase; los aparatos, un año. El aviso se cierra solo 24 h después del último bloqueo.')
-def check(folder,now,memory,quota=False,editor_quota=False):
+# 10/11 (REVISION-2 N1): Workers Free gives 100,000 requests a day to all ZZAnime servers together (refused ones count
+# too); usually ~10,600. Over USAGE_WARN today means someone may be draining it: «consumo» issue so Robin knows.
+USAGE_WARN=50000
+CF_ACCOUNT='3407d07c06229321d34863cf0fdac02d'
+def cloudflare_usage(token,day,fetch=None):
+    """Today's Worker requests per server (dict) or None. Reads Cloudflare's analytics with the cloud's own token."""
+    q='{viewer{accounts(filter:{accountTag:"%s"}){workersInvocationsAdaptive(limit:50,filter:{date:"%s"}){sum{requests} dimensions{scriptName}}}}}'%(CF_ACCOUNT,day)
+    try:
+        if fetch:data=fetch(q)
+        else:
+            req=urllib.request.Request('https://api.cloudflare.com/client/v4/graphql',data=json.dumps({'query':q}).encode(),headers={'Authorization':'Bearer '+token,'Content-Type':'application/json','User-Agent':'ZZAnime-Vigia/1'})
+            with urllib.request.urlopen(req,timeout=30) as r:data=json.loads(r.read())
+        rows=data['data']['viewer']['accounts'][0]['workersInvocationsAdaptive'];out={}
+        for row in rows:out[row['dimensions']['scriptName']]=out.get(row['dimensions']['scriptName'],0)+int(row['sum']['requests'])
+        return out
+    except Exception:return None
+def check(folder,now,memory,quota=False,editor_quota=False,usage=None):
     """{kind: (failing, title, body)} and the updated memory. quota / editor_quota (channel / editor daily-cap reports):
     report dict, None if unreadable, False if not checked."""
     out={};memory=dict(memory or {})
     def alarm(kind,failing,title,body=''):out[kind]=(bool(failing),title,body)
     reports={s:r for s,r in (('canal',quota),('editor',editor_quota)) if r is not False}
     if reports:quota_bans(alarm,reports,now,memory)
+    if usage is not None:
+        total=sum(usage.values())
+        alarm('consumo',total>USAGE_WARN,'Consumo de Cloudflare muy alto hoy',f'Hoy van {total} peticiones de 100.000 gratuitas (lo normal son unas 11.000). Si se agotan, hasta las 00:00 UTC la app no recibe fichas ni enlaces nuevos. Por servidor: '+', '.join(f'{k}: {v}' for k,v in sorted(usage.items(),key=lambda x:-x[1]))+'.')
     publication=read(folder,'publication.json',{}) or {};payload,urls=published_urls(folder)
     if payload is None:
         alarm('datos',True,'No se puede leer el canal publicado de provider-data','Falta state/published-assets/channel.json o no es válido.');return out,memory
@@ -175,7 +194,8 @@ def main():
     memory=json.loads(memory_path.read_bytes()) if memory_path.exists() else {}
     key=os.environ.get('ZZ_CHANNEL_KEY','')
     editor_key=os.environ.get('ZZ_EDITOR_CLOUD_KEY','')
-    results,memory=check(args.data,now,memory,fetch_quota(key) if key else False,fetch_quota(editor_key,EDITOR_QUOTA_URL) if editor_key else False)
+    cf=os.environ.get('CLOUDFLARE_API_TOKEN','');usage=cloudflare_usage(cf,datetime.datetime.fromtimestamp(now,datetime.timezone.utc).strftime('%Y-%m-%d')) if cf else None
+    results,memory=check(args.data,now,memory,fetch_quota(key) if key else False,fetch_quota(editor_key,EDITOR_QUOTA_URL) if editor_key else False,usage)
     memory_path.parent.mkdir(parents=True,exist_ok=True);memory_path.write_text(json.dumps(memory,sort_keys=True),encoding='utf-8')
     failing=sorted(k for k,(f,_,_) in results.items() if f);print(json.dumps({'failing':failing,'checked':len(results),'aiCalls':0}))
     if not args.dry_run:print(json.dumps({'issues':sync(GitHub(os.environ['GITHUB_REPOSITORY'],os.environ['GH_TOKEN']),results,now)}))

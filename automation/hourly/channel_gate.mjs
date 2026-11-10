@@ -17,7 +17,10 @@ async function publicKey(kid,fetcher,now){
  if(!keys||now-keysAt>3600000){const r=await fetcher(JWKS);if(r.status!==200)throw Error('JWKS');const set=await r.json();keys=new Map();for(const k of set.keys||[])if(k.kty==='EC'&&k.crv==='P-256'&&k.alg==='ES256'&&k.kid)keys.set(k.kid,await crypto.subtle.importKey('jwk',{kty:'EC',crv:'P-256',x:k.x,y:k.y,ext:true},{name:'ECDSA',namedCurve:'P-256'},false,['verify']));keysAt=now;}
  return keys.get(kid)||null;
 }
-export async function sessionUser(request,fetcher=(...a)=>globalThis.fetch(...a),now=Date.now()){
+export async function sessionUser(request,fetcher=(...a)=>globalThis.fetch(...a),now=Date.now()){return (await sessionInfo(request,fetcher,now)).sub;}
+// 10/11: zz_new (claim added by the access-token hook, 031) marks accounts created in the last 7 days.
+export async function sessionInfo(request,fetcher=(...a)=>globalThis.fetch(...a),now=Date.now()){const sub=await verifiedSub(request,fetcher,now);return {sub:sub?sub.sub:'',fresh:!!sub&&sub.fresh};}
+async function verifiedSub(request,fetcher,now){
  const m=/^Bearer ([A-Za-z0-9_-]+)\.([A-Za-z0-9_-]+)\.([A-Za-z0-9_-]+)$/.exec(request.headers.get('Authorization')||'');if(!m)return '';
  try{
   const header=JSON.parse(new TextDecoder().decode(b64url(m[1]))),claims=JSON.parse(new TextDecoder().decode(b64url(m[2])));
@@ -25,7 +28,7 @@ export async function sessionUser(request,fetcher=(...a)=>globalThis.fetch(...a)
   const key=await publicKey(header.kid,fetcher,now);if(!key)return '';
   if(!await crypto.subtle.verify({name:'ECDSA',hash:'SHA-256'},key,b64url(m[3]),new TextEncoder().encode(m[1]+'.'+m[2])))return '';
   // 2 h grace: a phone back from sleep sends its last token before refreshing it.
-  return claims.iss===ISSUER&&claims.role==='authenticated'&&claims.is_anonymous!==true&&typeof claims.sub==='string'&&claims.exp*1000>now-2*3600000?claims.sub:'';
+  return claims.iss===ISSUER&&claims.role==='authenticated'&&claims.is_anonymous!==true&&typeof claims.sub==='string'&&claims.exp*1000>now-2*3600000?{sub:claims.sub,fresh:claims.zz_new===true}:'';
  }catch{return '';}
 }
 function same(a,b){if(!a||!b||a.length!==b.length)return false;let d=0;for(let i=0;i<a.length;i++)d|=a.charCodeAt(i)^b.charCodeAt(i);return d===0;}
@@ -41,11 +44,11 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(path==='/owner/quota.json'){if(!same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')&&!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
- const user=await sessionUser(request,fetcher);
+ const {sub:user,fresh}=await sessionInfo(request,fetcher);
  if(!user&&env.REQUIRE_SESSION==='true')return deny(401,'login');
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
- if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,{user,ip:request.headers.get('CF-Connecting-IP')||'',device:(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban:user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null}))return deny(429,'daily_limit');
+ if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)&&!await quotaAllows(env,{user,fresh,ip:request.headers.get('CF-Connecting-IP')||'',device:(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban:user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null}))return deny(429,'daily_limit');
  return env.ASSETS.fetch(request);
 }
 export default {fetch:(request,env)=>handle(request,env)};

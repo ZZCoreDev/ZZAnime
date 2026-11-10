@@ -2,7 +2,7 @@
 // counting failures let everything through.
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
-import {Quota,quotaAllows} from './quota.mjs';
+import {Quota,quotaAllows,forgetBans} from './quota.mjs';
 import {handle} from './channel_gate.mjs';
 function fakeState(){const db=new DatabaseSync(':memory:');return {storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const rows=s.all(...b);return {toArray:()=>rows};}s.run(...b);return {toArray:()=>[]};}}}};}
 function namespace(){const obj=new Quota(fakeState());return {idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})};}
@@ -52,6 +52,13 @@ assert.equal((await handle(new Request('https://x/series/a.bin',{headers:{'X-ZZ-
  assert.equal(await quotaAllows(e,{user:'x',device:'NOT-A-HASH'}),true,'malformed device ignored');
  const dr=await (await e.QUOTA.get().fetch('https://quota/report')).json();assert.equal(dr.bannedDevices,1);
  assert.equal(dr.deviceBans.length,1);assert.match(dr.deviceBans[0].at,/^\d{4}-\d\d-\d\dT/);assert.ok(!JSON.stringify(dr.deviceBans).includes(dev),'device hash not in the report');
- const ex={QUOTA:namespace(),QUOTA_DAY:'1',QUOTA_BAN:'2',QUOTA_MODE:'enforce'};for(let i=0;i<3;i++)await quotaAllows(ex,{user:'owner',device:dev,ban:async()=>({banned:false})});
+ forgetBans();const ex={QUOTA:namespace(),QUOTA_DAY:'1',QUOTA_BAN:'2',QUOTA_MODE:'enforce'};for(let i=0;i<3;i++)await quotaAllows(ex,{user:'owner',device:dev,ban:async()=>({banned:false})});
  assert.equal(await quotaAllows(ex,{user:'someone',device:dev}),true,'exempt owner: device not banned');}
+// 10/11: new accounts (zz_new) get a smaller daily cap; banned accounts are remembered without asking the counter again.
+forgetBans();{let hits=0;const ns=namespace(),e={QUOTA:{idFromName:()=>1,get:()=>({fetch:u=>{hits++;return ns.get().fetch(u);}})},QUOTA_DAY:'5',QUOTA_NEW_DAY:'2',QUOTA_BAN:'4',QUOTA_MODE:'enforce'};
+ assert.deepEqual([await quotaAllows(e,{user:'n1',fresh:true}),await quotaAllows(e,{user:'n1',fresh:true}),await quotaAllows(e,{user:'n1',fresh:true})],[true,true,false],'new account: cap 2');
+ assert.equal(await quotaAllows(e,{user:'old1'}),true);
+ for(let i=0;i<3;i++)await quotaAllows(e,{user:'n1',fresh:true,ban:async()=>({banned:true})});
+ const before=hits;for(let i=0;i<50;i++)assert.equal(await quotaAllows(e,{user:'n1',fresh:true,ban:async()=>({banned:true})}),false);
+ assert.equal(hits,before,'banned account: no more counter calls');}
 console.log('quota PASS');
