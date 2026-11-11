@@ -28,6 +28,18 @@ jobs:
               m=json.loads((d/man).read_text(encoding='utf-8'))
               if hashlib.sha256((d/apk).read_bytes()).hexdigest()!=m['sha256']:raise SystemExit('APK distinta del manifiesto: '+apk)
           PY
+      - name: Comprobar firma, paquete y versión de las APK (auditoría S-06)
+        run: |
+          cd out/descargas
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          for pair in "ZZAnimeMobile.apk tv.jkanime.mobile update-mobile.json" "ZZAnimeTV.apk tv.jkanime.web update.json"; do
+            set -- $pair
+            "$BT/apksigner" verify --print-certs "$1" | grep -q 'SHA-256 digest: 71eabff504d6da93e1ab47ff83b6cc38bb002cdad6bc8a0ab93bc6fbbe40fd72' || { echo "Firma no oficial: $1"; exit 1; }
+            badge=$("$BT/aapt2" dump badging "$1" | head -1)
+            echo "$badge" | grep -q "name='$2'" || { echo "Paquete inesperado: $1"; exit 1; }
+            want=$(python3 -c "import json;print(json.load(open('$3'))['versionCode'])")
+            echo "$badge" | grep -q "versionCode='$want'" || { echo "Versión distinta del manifiesto: $1"; exit 1; }
+          done
       - name: Subir a GitLab solo si cambió
         shell: bash
         env:
