@@ -199,7 +199,7 @@ def main():
    try:print(json.dumps({'megaCheck':mega_check.check(D,state)}))
    except Exception as error:print(json.dumps({'megaCheckError':type(error).__name__+': '+str(error)[:120]}))
   index,files=build(state,approved,now,plays=play_votes.load(D,now=now),marks=skip_marks.load(D,now=now),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
-  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate')
+  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate: '+json.dumps({'index':{k:v.get('episodes') for k,v in index['series'].items()},'collected':{u.split('/')[-3]+'/'+u.split('/')[-2]:sorted({str(p.get('name'))+('' if approved.get(sha((p['name']+chr(0)+l).encode())) else ':no') for p in e.get('providers',[]) for l in p.get('links',[])}) for u,e in state['episodes'].items()}},ensure_ascii=False))  # sin enlaces (registro público)
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')
   key=serialization.load_pem_private_key(private.encode(),None) if private else None
