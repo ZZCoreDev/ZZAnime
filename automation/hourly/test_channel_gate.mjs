@@ -8,7 +8,7 @@ async function token(c){const h=b64(JSON.stringify({alg:'ES256',kid:'k1'})),p=b6
 const fetcher=async()=>new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'k1'}]}));
 const assets={fetch:()=>new Response('file')},on={ASSETS:assets,REQUIRE_SESSION:'true',CLOUD_KEY:'cloud-secret-123'};
 const get=(path,headers={},env=on)=>handle(new Request('https://respaldo.zzanime.uk'+path,{headers}),env,fetcher);
-resetKeys();const t=await token({iss:ISS,role:'authenticated',sub:'u1',exp:Math.floor(Date.now()/1000)+600});
+resetKeys();const t=await token({iss:ISS,role:'authenticated',aud:'authenticated',sub:'u1',exp:Math.floor(Date.now()/1000)+600});
 assert.equal((await get('/channel.json')).status,200);assert.equal((await get('/voe/channel.json')).status,200);
 assert.equal((await get('/indexes/'+'a'.repeat(64)+'.bin')).status,401);
 assert.equal((await get('/series/'+'a'.repeat(64)+'.bin',{Authorization:'Bearer '+t})).status,200);
@@ -18,7 +18,7 @@ assert.equal((await get('/series/x.bin',{},{...on,REQUIRE_SESSION:'false'})).sta
 assert.equal((await get('/series/x.bin',{'X-ZZ-Cloud':''},{...on,CLOUD_KEY:''})).status,401);
 assert.equal((await get('/series/x.bin',{Authorization:'Bearer '+t},{...on,CHANNEL_LIMIT:{limit:async()=>({success:false})}})).status,429);
 // 9/11: anonymous sessions are not accounts; /owner/ only for the editor owner with authenticator.
-const anon=await token({iss:ISS,role:'authenticated',sub:'u2',is_anonymous:true,exp:Math.floor(Date.now()/1000)+600});
+const anon=await token({iss:ISS,role:'authenticated',aud:'authenticated',sub:'u2',is_anonymous:true,exp:Math.floor(Date.now()/1000)+600});
 assert.equal((await get('/series/x.bin',{Authorization:'Bearer '+anon})).status,401);
 const ownerToken='o'.repeat(40),plainToken='p'.repeat(40);
 const ownerFetch=async(url,init)=>String(url).endsWith('/rpc/zz_editor_access')?(init.headers.Authorization==='Bearer '+ownerToken?new Response('{"allowed":true,"aal2":true}'):init.headers.Authorization==='Bearer '+plainToken?new Response('{"allowed":true,"aal2":false}'):new Response('{}',{status:400})):fetcher(url,init);

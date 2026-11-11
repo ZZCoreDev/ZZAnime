@@ -6,7 +6,7 @@ import {sessionUser,resetSessionKeys} from './session.js';
 const ISS='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1';
 const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']),jwk=await crypto.subtle.exportKey('jwk',pair.publicKey);
 const b64=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');
-const h=b64(JSON.stringify({alg:'ES256',kid:'h1'})),p=b64(JSON.stringify({iss:ISS,role:'authenticated',sub:'acct-1',exp:Math.floor(Date.now()/1000)+600}));
+const h=b64(JSON.stringify({alg:'ES256',kid:'h1'})),p=b64(JSON.stringify({iss:ISS,role:'authenticated',aud:'authenticated',sub:'acct-1',exp:Math.floor(Date.now()/1000)+600}));
 const tok=h+'.'+p+'.'+b64(await crypto.subtle.sign({name:'ECDSA',hash:'SHA-256'},pair.privateKey,new TextEncoder().encode(h+'.'+p)));
 const fetcher=async()=>new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'h1'}]}));
 resetSessionKeys();

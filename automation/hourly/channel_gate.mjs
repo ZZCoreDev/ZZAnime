@@ -28,7 +28,7 @@ async function verifiedSub(request,fetcher,now){
   const key=await publicKey(header.kid,fetcher,now);if(!key)return '';
   if(!await crypto.subtle.verify({name:'ECDSA',hash:'SHA-256'},key,b64url(m[3]),new TextEncoder().encode(m[1]+'.'+m[2])))return '';
   // 2 h grace: a phone back from sleep sends its last token before refreshing it.
-  return claims.iss===ISSUER&&claims.role==='authenticated'&&claims.is_anonymous!==true&&typeof claims.sub==='string'&&claims.exp*1000>now-2*3600000?{sub:claims.sub,fresh:claims.zz_new===true}:'';
+  return claims.iss===ISSUER&&claims.role==='authenticated'&&claims.is_anonymous!==true&&typeof claims.sub==='string'&&claims.sub.length>0&&typeof claims.exp==='number'&&claims.exp*1000>now-60000&&(claims.nbf===undefined||typeof claims.nbf==='number'&&claims.nbf*1000<=now+60000)&&(claims.aud==='authenticated'||Array.isArray(claims.aud)&&claims.aud.includes('authenticated'))?/* 11/11 auditoría M-01: 1 min de tolerancia (la app 186+ renueva antes) */{sub:claims.sub,fresh:claims.zz_new===true}:'';
  }catch{return '';}
 }
 function same(a,b){if(!a||!b||a.length!==b.length)return false;let d=0;for(let i=0;i<a.length;i++)d|=a.charCodeAt(i)^b.charCodeAt(i);return d===0;}
