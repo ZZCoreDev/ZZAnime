@@ -279,7 +279,8 @@ export class Store{
    deadCandidates:this.rows('SELECT okey FROM dead GROUP BY okey HAVING COUNT(DISTINCT device)>=2').length};
  }
 }
-async function body(request,limit){const text=await request.text();if(text.length>limit)throw new Error('too large');return JSON.parse(text);}
+// 11/11 auditoría B-08: the body is counted in bytes while it arrives and cut past the limit (never read whole first).
+async function body(request,limit){if(Number(request.headers.get('content-length')||0)>limit)throw new Error('too large');const reader=request.body?.getReader();if(!reader)return JSON.parse(await request.text());let size=0;const parts=[];for(;;){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>limit){try{await reader.cancel();}catch{}throw new Error('too large');}parts.push(value);}const all=new Uint8Array(size);let at=0;for(const p of parts){all.set(p,at);at+=p.byteLength;}return JSON.parse(new TextDecoder().decode(all));}
 function same(a,b){if(typeof a!=='string'||typeof b!=='string'||a.length!==b.length)return false;let d=0;for(let i=0;i<a.length;i++)d|=a.charCodeAt(i)^b.charCodeAt(i);return d===0;}
 const LINK=/^https:\/\/[a-z0-9.-]+\.[a-z]{2,}\//i;
 async function options(list){
@@ -318,7 +319,7 @@ export async function handle(request,env,store,deps={}){
     if(!ok){if(it?.episode)result[String(it.episode).slice(0,300)+'|'+String(it?.kind).slice(0,10)]='unsupported';continue;}
     valid.push({episode:it.episode,kind:it.kind,device,start:s,stop:e,net,now});
    }
-   if(valid.length){const r=await store.mark(valid,[[ipKey,Number(env.IP_LIMIT||200),1],['markday:'+day,Number(env.MARK_CAP||10000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
+   if(valid.length){const r=await store.mark(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['markday:'+day,Number(env.MARK_CAP||10000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([k,status])=>({episode:k.split('|')[0],kind:k.split('|')[1],status}))});
   }
   if(url.pathname==='/v1/play'){
@@ -328,7 +329,7 @@ export async function handle(request,env,store,deps={}){
     if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
     valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,ok:it.ok,net,now});
    }
-   if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],['playday:'+day,Number(env.PLAY_CAP||20000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
+   if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['playday:'+day,Number(env.PLAY_CAP||20000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([u,status])=>({url:u,status}))});
   }
   if(url.pathname==='/v1/dead'){

@@ -58,15 +58,13 @@ def fetch(url,hops=1):
   # The file id only; the decryption key never leaves the stored link.
   req=urllib.request.Request(MEGA_API+'?id=0',data=json.dumps([{'a':'g','p':url.rsplit('=',1)[1]}]).encode(),headers={'Content-Type':'application/json','User-Agent':'ZZAnime-LinkCheck/1 (+https://github.com/ZZCoreDev/ZZAnime)'},method='POST')
   try:
-   with urllib.request.urlopen(req,timeout=20) as r:return r.status,r.read(20000).decode('utf-8','replace')
+   with urllib.request.build_opener(Manual).open(req,timeout=20) as r:return r.status,r.read(20000).decode('utf-8','replace')  # 11/11 auditoría S-05: sin redirecciones
   except urllib.error.HTTPError as e:return e.code,e.read(20000).decode('utf-8','replace')
  req=urllib.request.Request(url,headers={'User-Agent':'ZZAnime-LinkCheck/1 (+https://github.com/ZZCoreDev/ZZAnime)','Accept':'text/html'})
  try:
   with urllib.request.build_opener(Manual).open(req,timeout=20) as r:return r.status,r.read(300000).decode('utf-8','replace')
  except urllib.error.HTTPError as e:
-  where=e.headers.get('Location','')
-  # vidhidevip.com answers 301 to its current host with the same file id; follow exactly that, once.
-  if e.code in (301,302) and hops and where.startswith('https://') and where.rstrip('/').rsplit('/',1)[-1]==url.rstrip('/').rsplit('/',1)[-1]:return fetch(where,hops-1)
+  # 11/11 auditoría S-05: a redirect is never followed to another host; a 3xx stays unknown and the link is kept.
   return e.code,e.read(300000).decode('utf-8','replace')
 def classify(family,status,body):
  if family not in DEAD:return 'unknown'
