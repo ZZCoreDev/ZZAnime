@@ -145,7 +145,8 @@ def main():
     for url in due:recheck[url]=instant.timestamp()
     # 12/11: the proof always asks for chapter 1 of its two series too, so it does not depend on their latest chapter
     # being on the home pages that day (JK's home may be unreachable from the cloud and the backups list only some).
-    if proof:retry=PROOF_EPISODES
+    # The collector takes at most 2 chapters per call: the other chapters of the two series are skipped so exactly these two enter.
+    if proof:retry=PROOF_EPISODES;skip=[u.rsplit('/',2)[0]+'/'+str(n)+'/' for u in PROOF_EPISODES for n in range(2,200)]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with NO_REDIRECT.open(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
