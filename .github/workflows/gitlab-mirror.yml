@@ -34,7 +34,9 @@ jobs:
           BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
           for pair in "ZZAnimeMobile.apk tv.jkanime.mobile update-mobile.json" "ZZAnimeTV.apk tv.jkanime.web update.json"; do
             set -- $pair
-            "$BT/apksigner" verify --print-certs "$1" | grep -q 'SHA-256 digest: 71eabff504d6da93e1ab47ff83b6cc38bb002cdad6bc8a0ab93bc6fbbe40fd72' || { echo "Firma no oficial: $1"; exit 1; }
+            # Quinta revisión: exactly one signer and its own certificate line must be the official one (not any line).
+            certs=$("$BT/apksigner" verify --print-certs "$1" | grep -E '^Signer #[0-9]+ certificate SHA-256 digest: ')
+            [ "$certs" = "Signer #1 certificate SHA-256 digest: 71eabff504d6da93e1ab47ff83b6cc38bb002cdad6bc8a0ab93bc6fbbe40fd72" ] || { echo "Firma no oficial: $1"; exit 1; }
             badge=$("$BT/aapt2" dump badging "$1" | head -1)
             echo "$badge" | grep -q "name='$2'" || { echo "Paquete inesperado: $1"; exit 1; }
             want=$(python3 -c "import json;print(json.load(open('$3'))['versionCode'])")
