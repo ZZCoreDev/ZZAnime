@@ -116,6 +116,7 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
  return index,files
 def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
+ if proof and '--publish' in sys.argv:raise ValueError('La prueba no puede publicar en producción (auditoría S-01)')
  collected=0;recent_added=0;links_changed=0
  if '--collect' in sys.argv:
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.

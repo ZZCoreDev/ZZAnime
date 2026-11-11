@@ -53,11 +53,15 @@ def news_without_publication(folder,now,urls):
         # VOE-only chapters go to the /voe/ complement; confirmed-deleted links are withdrawn on purpose.
         if ep and any(hashlib.sha256((p['name']+'\0'+l).encode()).hexdigest() not in excluded for p in ep.get('providers',[]) if p.get('family')!='voe' for l in p.get('links',[])):late.append(url)
     return sorted(late)
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self,*a,**k):return None
+# 11/11 auditoría S-05: authenticated reads never follow a redirect.
+NO_REDIRECT=urllib.request.build_opener(_NoRedirect())
 def fetch_quota(key,url=QUOTA_URL):
     """A daily-cap report (channel by default), or None when it cannot be read."""
     req=urllib.request.Request(url,headers={'X-ZZ-Cloud':key,'User-Agent':'ZZAnime-Vigia/1','Cache-Control':'no-cache'})
     try:
-        with urllib.request.urlopen(req,timeout=30) as r:return json.loads(r.read())
+        with NO_REDIRECT.open(req,timeout=30) as r:return json.loads(r.read())
     except (urllib.error.URLError,OSError,ValueError):return None
 def quota_bans(alarm,reports,now,memory):
     """Alarms «informe-tope» (a report unreadable for 6 h) and «bloqueos» (an account or device banned in the last 24 h).
@@ -77,7 +81,9 @@ def quota_bans(alarm,reports,now,memory):
         tag=QUOTA_SOURCES[source][2]
         current|={f'Cuenta{tag}|{b.get("at","")}' for b in report.get('bans') or []}  # 11/11 S-03: sin identificador (aviso público); la cuenta está en el panel del dueño
         current|={f'Aparato{tag}|{d.get("at","")}' for d in report.get('deviceBans') or []}
-    seen=dict(memory.get('bans') or {})
+    # 11/11 auditoría S-03: old memory keys (with account id prefixes) are dropped.
+    labels={kind+c[2] for kind in ('Cuenta','Aparato') for c in QUOTA_SOURCES.values()}
+    seen={k:v for k,v in (memory.get('bans') or {}).items() if k.partition('|')[0] in labels}
     for key in current:seen.setdefault(key,now)
     # Forget only what left the report long ago (device bans stay in it for a year and must not count as new again).
     # A source unread this time keeps its known bans (they must not come back as new on the next good read).

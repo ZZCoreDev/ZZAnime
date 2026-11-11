@@ -109,7 +109,7 @@ def accept(data,state,asked,now,renew=frozenset(),held_urls=frozenset()):
   incoming['listings'][parent]={**listing,'episodes':[url]} if listing else {'observedAt':iso(at),'complete':False,'helpListing':True,'episodes':[url]}
   # Neither renewals nor held chapters (old OVAs and movies) are news.
   if url not in renew and url not in held_urls:seen[url]=row.get('firstSeenAt') or iso(at)
- renew_single(data,state,renew,now,incoming,held)
+ # 11/11 auditoría S-04: una lectura individual no sustituye el episodio ni su fecha (renew_single queda sin usar).
  return incoming,seen,held
 def renew_single(data,state,renew,now,incoming,held):
  """One device saw the JK page of a chapter the cloud asked to renew: keep, with the device's date, only the links the

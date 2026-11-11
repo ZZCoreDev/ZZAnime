@@ -94,17 +94,17 @@ class HealthWatchTests(unittest.TestCase):
             r,_=h.check(d,NOW,{},False,ed);self.assertTrue(r['bloqueos'][0]);self.assertNotIn('canal:',r['bloqueos'][2])
     def test_fetch_quota_sends_cloud_key_and_survives_errors(self):
         import io,urllib.error,urllib.request
-        seen=[];real=urllib.request.urlopen
+        seen=[];real=h.NO_REDIRECT;Opener=type('O',(),{})
         class Answer(io.BytesIO):
             def __enter__(self):return self
             def __exit__(self,*a):return False
         try:
-            urllib.request.urlopen=lambda req,timeout:(seen.append(req),Answer(b'{"schema":1,"bans":[]}'))[1]
+            o=Opener();o.open=lambda req,timeout:(seen.append(req),Answer(b'{"schema":1,"bans":[]}'))[1];h.NO_REDIRECT=o
             self.assertEqual(h.fetch_quota('k-123'),{'schema':1,'bans':[]})
             self.assertEqual(seen[0].get_header('X-zz-cloud'),'k-123');self.assertEqual(seen[0].full_url,h.QUOTA_URL)
             def fail(req,timeout):raise urllib.error.HTTPError(h.QUOTA_URL,403,'Forbidden',{},None)
-            urllib.request.urlopen=fail;self.assertIsNone(h.fetch_quota('k-123'))
-        finally:urllib.request.urlopen=real
+            o=Opener();o.open=fail;h.NO_REDIRECT=o;self.assertIsNone(h.fetch_quota('k-123'))
+        finally:h.NO_REDIRECT=real
     def test_one_issue_per_kind_updated_and_closed(self):
         class Fake:
             def __init__(self):self.issues=[];self.calls=[]

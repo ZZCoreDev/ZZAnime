@@ -45,7 +45,9 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  // 10/11: how many apps still reach the channel by the old address (decides when to close it).
  if(path==='/channel.json'&&!(request.headers.get('X-ZZ-Cloud'))){const h=new URL(request.url).hostname;if(h.endsWith('.workers.dev'))await quotaTally(env,'old');else if(h.endsWith('zzanime.uk'))await quotaTally(env,'new');}
- if(PUBLIC.test(path)||same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||''))return env.ASSETS.fetch(request);
+ if(PUBLIC.test(path))return env.ASSETS.fetch(request);
+ // 11/11 auditoría M-04: lo leído con la llave de la nube tampoco va a cachés compartidas.
+ if(same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')){const r=await env.ASSETS.fetch(request),h=new Headers(r.headers);h.set('Cache-Control','private, no-store');return new Response(r.body,{status:r.status,headers:h});}
  // 10/11 (app 177): the old workers.dev address only shows old apps the signed pointer (with the required update)
  // and serves the cloud's own check; links go only through zzanime.uk, where Cloudflare's rate limit applies.
  // 10/11 (179): the old address stays open: some networks block the brand-new zzanime.uk domain (app falls back here).

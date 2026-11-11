@@ -96,6 +96,16 @@ const REMEMBER=600000;
 export function forgetBans(){remembered.clear();}
 function recall(k,now){const until=remembered.get(k);if(until&&until>now)return true;if(until)remembered.delete(k);return false;}
 function remember(k,now){if(remembered.size>5000)remembered.clear();remembered.set(k,now+REMEMBER);}
+/** 11/11 (auditoría M-02, DB-03): only a well-formed answer of zz_quota_ban decides. banned===false (owner/exempt) lets
+ * through; banned===true bans the account and, then only, its device; anything else (error, null, odd shape) just limits
+ * this request: no permanent mark. A failed mark write never changes the decision. */
+async function settleBan(stub,key,dev,r,now){
+ const ok=r&&typeof r==='object'&&typeof r.banned==='boolean';
+ if(ok&&r.banned===false){try{await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind=exempt');}catch{}return true;}
+ if(ok&&r.banned===true){remember(key,now);try{await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind=ban');}catch{}
+  if(dev){remember('d:'+dev,now);try{await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');}catch{}}}
+ return false;
+}
 /** fresh: account created in the last 7 days (claim zz_new, 031): smaller daily cap QUOTA_NEW_DAY (60) (REVISION-2 N2). */
 export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=false}={}){
  if(!env.QUOTA)return true;
@@ -107,11 +117,7 @@ export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=fa
   const x=await (await stub.fetch('https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:''))).json();
   if(x.exempt)return true;
   if(x.banned){if(enforce)remember(key,now);return !enforce;}
-  if(x.ban&&enforce&&ban){const r=await ban();
-   await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind='+(r&&r.banned===false?'exempt':'ban'));
-   if(dev&&r?.banned===true){ /* 11/11 auditoría M-02: el aparato solo se bloquea si Supabase confirmó el baneo de la cuenta */ await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');remember('d:'+dev,now);}
-   if(r?.banned!==false)remember(key,now);
-   return r?.banned===false;}
+  if(x.ban&&enforce&&ban)return await settleBan(stub,key,dev,await ban(),now);
   return !(x.over&&enforce);
  }catch{return true;}
 }
@@ -142,11 +148,7 @@ export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=
   if(!enforce||x.ok)return 'ok';
   if(x.banned){remember(key,now);return 'limit';}
   if(x.human)return 'human';
-  if(x.ban&&ban){const r=await ban();
-   await stub.fetch('https://quota/mark?k='+encodeURIComponent(key)+'&kind='+(r&&r.banned===false?'exempt':'ban'));
-   if(r?.banned===false)return 'ok';
-   if(dev){await stub.fetch('https://quota/mark?k=d:'+dev+'&kind=ban');remember('d:'+dev,now);}
-   remember(key,now);}
+  if(x.ban&&ban)return await settleBan(stub,key,dev,await ban(),now)?'ok':'limit';
   return 'limit';
  }catch{return 'ok';}
 }

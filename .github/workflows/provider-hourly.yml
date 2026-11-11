@@ -93,16 +93,12 @@ jobs:
           ZZ_CHANNEL_KEY: ${{ secrets.ZZ_CHANNEL_KEY }}
           # Read-only list of this repo's runs for the editor's «Nube» card (owner_files.py).
           GH_TOKEN: ${{ github.token }}
-          ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
+          ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'true' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
           ZZ_LINK_RULES: ${{ vars.ZZ_LINK_RULES || 'off' }}
           ZZ_PUBLISH_PROOF: 'false'  # 11/11 auditoría S-01: la prueba nunca se publica en el Worker real
-        run: |
-          if [ "$ZZ_PUBLISH_PROOF" = "true" ]; then
-            python3 run.py --collect --publish
-          else
-            python3 run.py --collect
-          fi
+        # 11/11 auditoría S-01: la prueba nunca publica (sin --publish; run.py también lo rechaza).
+        run: python3 run.py --collect
       - name: Recoger, comprobar, firmar y publicar sin APK
         if: inputs.proof != true && vars.ZZ_HOURLY_ENABLED == 'true'
         working-directory: code/automation/hourly
@@ -117,7 +113,7 @@ jobs:
           ZZ_CHANNEL_KEY: ${{ secrets.ZZ_CHANNEL_KEY }}
           # Read-only list of this repo's runs for the editor's «Nube» card (owner_files.py).
           GH_TOKEN: ${{ github.token }}
-          ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'false' }}
+          ZZ_CHANNEL_REQUIRE: ${{ vars.ZZ_CHANNEL_REQUIRE || 'true' }}
           ZZ_QUOTA_MODE: ${{ vars.ZZ_QUOTA_MODE || 'count' }}
           ZZ_LINK_RULES: ${{ vars.ZZ_LINK_RULES || 'off' }}
         run: python3 run.py --collect --publish
