@@ -18,6 +18,7 @@ APP_INDEX_BYTES=2*1024*1024-262144
 VOE_RECHECK_SECONDS=3600
 VOE_RECHECK_LIMIT=4
 REVIEW_FAMILIES=('mega','mixdrop')
+PROOF_EPISODES=['https://jkanime.net/psyren/1/','https://jkanime.net/dark-summoner-to-dekiteiru/1/']
 def sha(b):return hashlib.sha256(b).hexdigest()
 def raw(x):return json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 def put(p,b):p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
@@ -142,6 +143,9 @@ def main():
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
     retry=(retry+[url for url in due if url not in retry and url not in skip])[:200]
     for url in due:recheck[url]=instant.timestamp()
+    # 12/11: the proof always asks for chapter 1 of its two series too, so it does not depend on their latest chapter
+    # being on the home pages that day (JK's home may be unreachable from the cloud and the backups list only some).
+    if proof:retry=PROOF_EPISODES
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     with NO_REDIRECT.open(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
@@ -200,7 +204,7 @@ def main():
    except Exception as error:print(json.dumps({'megaCheckError':type(error).__name__+': '+str(error)[:120]}))
   index,files=build(state,approved,now,plays=play_votes.load(D,now=now),marks=skip_marks.load(D,now=now),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
   _res=locals().get('result') or {}
-  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())!=2):raise ValueError('Two-series proof incomplete; do not activate: '+json.dumps({'index':{k:v.get('episodes') for k,v in index['series'].items()},'collected':{u.split('/')[-3]+'/'+u.split('/')[-2]:sorted({str(p.get('name'))+('' if approved.get(sha((p['name']+chr(0)+l).encode())) else ':no') for p in e.get('providers',[]) for l in p.get('links',[])}) for u,e in state['episodes'].items()},'source':{k:_res.get(k) for k in ('held','primary','requests','cacheHits')},'errors':{k:str(v)[:160] for k,v in (_res.get('errors') or {}).items() if 'psyren' in k or 'dark-summoner' in k},'diagnostics':{k:json.dumps(v)[:300] for k,v in (_res.get('diagnostics') or {}).items() if 'psyren' in k or 'dark-summoner' in k}},ensure_ascii=False))  # sin enlaces (registro público)
+  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())<2):raise ValueError('Two-series proof incomplete; do not activate: '+json.dumps({'index':{k:v.get('episodes') for k,v in index['series'].items()},'collected':{u.split('/')[-3]+'/'+u.split('/')[-2]:sorted({str(p.get('name'))+('' if approved.get(sha((p['name']+chr(0)+l).encode())) else ':no') for p in e.get('providers',[]) for l in p.get('links',[])}) for u,e in state['episodes'].items()},'source':{k:_res.get(k) for k in ('held','primary','requests','cacheHits')},'errors':{k:str(v)[:160] for k,v in (_res.get('errors') or {}).items() if 'psyren' in k or 'dark-summoner' in k},'diagnostics':{k:json.dumps(v)[:300] for k,v in (_res.get('diagnostics') or {}).items() if 'psyren' in k or 'dark-summoner' in k}},ensure_ascii=False))  # sin enlaces (registro público)
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')
   key=serialization.load_pem_private_key(private.encode(),None) if private else None
