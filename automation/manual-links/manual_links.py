@@ -32,7 +32,9 @@ def fetch(url,timeout=20):
     except Exception:return 0,''
 
 def editor_get(path,key,timeout=20):
-    req=urllib.request.Request(EDITOR+path,headers={'User-Agent':'ZZAnime-Enlaces/1','Accept':'application/json','X-ZZ-Cloud':key})
+    req=urllib.request.Request(EDITOR+path,headers={'User-Agent':'ZZAnime-Enlaces/1','Accept':'application/json'})
+    # 11/11 auditoría S-05: the cloud key never follows a redirect to another host (unredirected header).
+    req.add_unredirected_header('X-ZZ-Cloud',key)
     try:
         with urllib.request.urlopen(req,timeout=timeout) as r:return r.status,r.read(4*1024*1024).decode('utf-8','replace')
     except urllib.error.HTTPError as e:return e.code,e.read(2000).decode('utf-8','replace')
