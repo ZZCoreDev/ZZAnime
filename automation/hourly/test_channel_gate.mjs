@@ -63,3 +63,21 @@ async function rotationCheck(CHECK,RESET){
  RESET();
 }
 {const {sessionUser:SU}=await import('./channel_gate.mjs');await rotationCheck((tok,f,now)=>SU(new Request('https://x',{headers:{Authorization:'Bearer '+tok}}),f,now),resetKeys);console.log('rotación de llaves OK');}
+
+// 11/11 quinta revisión M-05: the 428 carries a challenge bound to the account and series; only a Siteverify answer with
+// that same cData opens it, once (afterwards a 30-minute window).
+{const {DatabaseSync}=await import('node:sqlite');const {Quota}=await import('./quota.mjs');const {handle:H,resetKeys:R}=await import('./channel_gate.mjs');
+ const db=new DatabaseSync(':memory:'),state={storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const rows=s.all(...b);return {toArray:()=>rows};}s.run(...b);return {toArray:()=>[]};}}}};
+ const obj=new Quota(state),QUOTA={idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})};
+ let cdata='',verifies=0;const net=async(url,init)=>{if(String(url).includes('siteverify')){verifies++;return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));}return fetcher(url,init);};
+ const env={ASSETS:assets,REQUIRE_SESSION:'true',LINK_RULES:'enforce',LINK_SOFT:'1',LINK_BURST:'100',LINK_DAY:'10',LINK_BAN:'50',TURNSTILE_SECRET:'s',QUOTA};
+ R();const tk=await token({iss:ISS,role:'authenticated',aud:'authenticated',sub:'hum-1',exp:Math.floor(Date.now()/1000)+600});
+ const open=(path,human)=>H(new Request('https://respaldo.zzanime.uk'+path,{headers:{Authorization:'Bearer '+tk,...(human?{'X-ZZ-Human':'tok-1234567890'}:{})}}),env,net);
+ assert.equal((await open('/series/a.bin')).status,200);
+ const first=await open('/series/b.bin');assert.equal(first.status,428);const {challenge}=await first.json();assert.match(challenge,/^[a-f0-9]{32}$/);
+ cdata='';assert.equal((await open('/series/b.bin',true)).status,428,'token without challenge (page of 188)');
+ cdata='0'.repeat(32);assert.equal((await open('/series/b.bin',true)).status,428,'invented challenge');
+ const latest=await (await open('/series/b.bin')).json();cdata=latest.challenge;
+ assert.equal((await open('/series/b.bin',true)).status,200,'own challenge opens it');
+ assert.equal((await open('/series/c.bin')).status,200,'30-minute window');
+ console.log('soy humano ligado a cuenta y serie OK');}

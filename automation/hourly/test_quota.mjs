@@ -33,7 +33,7 @@ assert.equal(await quotaAllows({},{user:'u'}),true);assert.equal(await quotaAllo
 // Gate: series files count (by account or by IP), pointers do not; the ban asks Supabase with the caller's own session.
 const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']),jwk=await crypto.subtle.exportKey('jwk',pair.publicKey);
 const b64=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');
-const h=b64(JSON.stringify({alg:'ES256',kid:'q1'})),p=b64(JSON.stringify({iss:'https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',role:'authenticated',sub:'u9',exp:Math.floor(Date.now()/1000)+600}));
+const h=b64(JSON.stringify({alg:'ES256',kid:'q1'})),p=b64(JSON.stringify({iss:'https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',role:'authenticated',aud:'authenticated',sub:'u9',exp:Math.floor(Date.now()/1000)+600}));
 const tok=h+'.'+p+'.'+b64(await crypto.subtle.sign({name:'ECDSA',hash:'SHA-256'},pair.privateKey,new TextEncoder().encode(h+'.'+p)));
 let banCalls=[];const net=async(url,init)=>{if(String(url).endsWith('/rpc/zz_quota_ban')){banCalls.push(init.headers.Authorization);return new Response('{"banned":true}');}return new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'q1'}]}));};
 const qenv={ASSETS:{fetch:()=>new Response('file')},REQUIRE_SESSION:'false',QUOTA_MODE:'enforce',QUOTA_DAY:'1',QUOTA_BAN:'2',QUOTA_IP_DAY:'1',QUOTA:namespace()};

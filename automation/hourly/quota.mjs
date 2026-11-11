@@ -10,6 +10,7 @@
 // Counts live in memory and are saved every 10 requests (Workers Free write budget); a restart can lose a few.
 // Any failure lets the request through: a counting problem must never leave the app without links.
 const ITEM=/^[A-Za-z0-9._:\/-]{1,200}$/;
+const NONCE=/^[a-f0-9]{32}$/,HUMAN_WINDOW=30*60000;
 const KEY=/^(?:u:[A-Za-z0-9-]{1,64}|ip:[0-9A-Fa-f:.]{2,45}|d:[a-f0-9]{32})$/,DEVICE=/^[a-f0-9]{32}$/;
 export class Quota{
  constructor(state){this.sql=state.storage.sql;
@@ -18,6 +19,11 @@ export class Quota{
   // 10/11 (LINK_RULES): distinct link files opened per account and day, and attempts at new ones.
   this.sql.exec('create table if not exists seen(day text not null,user text not null,item text not null,at integer not null,primary key(day,user,item))');
   this.sql.exec('create table if not exists tries(day text not null,user text not null,n integer not null,primary key(day,user))');
+  // 11/11 quinta revisión M-05: «soy humano» bound to the account and the series it was asked for. Each 428 carries a
+  // one-use challenge (cData of the Turnstile box); only that challenge, back from Siteverify, unlocks it, and it is
+  // consumed here (one Durable Object: atomic). A passed check then counts for HUMAN_WINDOW for that account.
+  this.sql.exec('create table if not exists challenges(nonce text primary key,user text not null,item text not null,until integer not null)');
+  this.sql.exec('create table if not exists humanok(user text primary key,until integer not null)');
   this.mem=new Map();this.day='';}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
  flush(){for(const [k,n] of this.mem){const i=k.indexOf('|');this.save(k.slice(0,i),k.slice(i+1),n);}}
@@ -25,7 +31,8 @@ export class Quota{
   const u=new URL(request.url),day=new Date().toISOString().slice(0,10),now=Date.now();
   if(day!==this.day){this.flush();this.mem.clear();this.day=day;
    this.sql.exec('delete from q where day<?',new Date(now-14*86400000).toISOString().slice(0,10));this.sql.exec('delete from marks where until<?',now);
-   this.sql.exec('delete from seen where day<?',new Date(now-2*86400000).toISOString().slice(0,10));this.sql.exec('delete from tries where day<?',new Date(now-14*86400000).toISOString().slice(0,10));}
+   this.sql.exec('delete from seen where day<?',new Date(now-2*86400000).toISOString().slice(0,10));this.sql.exec('delete from tries where day<?',new Date(now-14*86400000).toISOString().slice(0,10));
+   this.sql.exec('delete from challenges where until<?',now);this.sql.exec('delete from humanok where until<?',now);}
   const key=u.searchParams.get('k')||'';
   if(u.pathname==='/hit'){
    if(!KEY.test(key))return Response.json({n:0});
@@ -51,7 +58,16 @@ export class Quota{
    const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',150),soft=num('soft',50),burst=num('burst',4),ban=Number(u.searchParams.get('ban'))||0;
    const distinct=this.sql.exec('select count(*) c from seen where day=? and user=?',day,key).toArray()[0].c;
    const recent=this.sql.exec('select count(*) c from seen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
-   if(distinct<cap&&(distinct>=soft||recent>=burst)&&u.searchParams.get('h')!=='1')return Response.json({human:true,distinct});
+   let passed=u.searchParams.get('h')==='1'||this.sql.exec('select 1 from humanok where user=? and until>?',key,now).toArray().length>0;
+   const hc=u.searchParams.get('hc')||'';
+   if(!passed&&NONCE.test(hc)&&this.sql.exec('select 1 from challenges where nonce=? and user=? and item=? and until>?',hc,key,item,now).toArray().length){
+    this.sql.exec('delete from challenges where nonce=?',hc);
+    this.sql.exec('insert into humanok(user,until) values(?,?) on conflict(user) do update set until=excluded.until',key,now+HUMAN_WINDOW);passed=true;}
+   if(distinct<cap&&(distinct>=soft||recent>=burst)&&!passed){
+    this.sql.exec('delete from challenges where user=? and nonce not in (select nonce from challenges where user=? order by until desc limit 4)',key,key);
+    const nonce=[...crypto.getRandomValues(new Uint8Array(16))].map(b=>b.toString(16).padStart(2,'0')).join('');
+    this.sql.exec('insert into challenges(nonce,user,item,until) values(?,?,?,?)',nonce,key,item,now+600000);
+    return Response.json({human:true,distinct,challenge:nonce});}
    const row=this.sql.exec('select n from tries where day=? and user=?',day,key).toArray()[0],n=(row?row.n:0)+1;
    this.sql.exec('insert into tries(day,user,n) values(?,?,?) on conflict(day,user) do update set n=excluded.n',day,key,n);
    if(ban>0&&n>ban)return Response.json({ban:true,n,distinct});
@@ -126,28 +142,29 @@ export async function quotaTally(env,kind){if(!env.QUOTA)return;try{await quotaS
 export async function quotaReport(env){return quotaStub(env).fetch('https://quota/report?cap='+(Number(env.QUOTA_DAY)||300)+'&ipcap='+(Number(env.QUOTA_IP_DAY)||3000));}
 // 10/11: "soy humano" (Cloudflare Turnstile). The app sends the one-use token of zzanime.uk/humano in X-ZZ-Human;
 // siteverify checks it with the secret TURNSTILE_SECRET (never in the code). Any failure means "not checked".
+// 11/11 quinta revisión: answers the challenge (cData) the box was opened with, or '' (also when the token is not valid).
 export async function humanOk(env,token,ip,fetcher){
- if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return false;
+ if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';
  try{const body=new URLSearchParams({secret:env.TURNSTILE_SECRET,response:token});if(ip)body.set('remoteip',ip);
   const r=await fetcher('https://challenges.cloudflare.com/turnstile/v0/siteverify',{method:'POST',body,signal:AbortSignal.timeout(10000)});
-  if(r.status!==200)return false;const x=await r.json();
-  return x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'; /* 11/11 auditoría M-05: origen y acción exactos */}catch{return false;}
+  if(r.status!==200)return '';const x=await r.json();
+  return x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'&&typeof x.cdata==='string'&&NONCE.test(x.cdata)?x.cdata:''; /* M-05: origen, acción y reto exactos */}catch{return '';}
 }
 /** LINK_RULES (off|count|enforce): rules on opening links of distinct series/films for one verified account.
  * Answers 'ok', 'human' (needs the check: 428) or 'limit' (429). "count" only records; any failure answers 'ok'.
  * LINK_SOFT (50) distinct a day or LINK_BURST (4) in 10 min need the check; cap LINK_DAY (150), LINK_NEW_DAY (60) for
  * accounts of the last 7 days; past LINK_BAN (300) attempts the account and its device are banned as in quotaAllows. */
-export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=null,human=false}={}){
+export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=null,human='',out=null}={}){
  if(!env.QUOTA||!user)return 'ok';
  const key='u:'+user,dev=DEVICE.test(device)?device:'';if(!KEY.test(key)||!ITEM.test(item))return 'ok';
  const enforce=env.LINK_RULES==='enforce',now=Date.now();
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return 'limit';
  try{
-  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||60:Number(env.LINK_DAY)||150)+'&soft='+(Number(env.LINK_SOFT)||50)+'&burst='+(Number(env.LINK_BURST)||4)+'&ban='+(Number(env.LINK_BAN)||300)+(human?'&h=1':''):'&cap=100000&h=1';
+  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||60:Number(env.LINK_DAY)||150)+'&soft='+(Number(env.LINK_SOFT)||50)+'&burst='+(Number(env.LINK_BURST)||4)+'&ban='+(Number(env.LINK_BAN)||300)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
   const x=await (await stub.fetch('https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''))).json();
   if(!enforce||x.ok)return 'ok';
   if(x.banned){remember(key,now);return 'limit';}
-  if(x.human)return 'human';
+  if(x.human){if(out&&typeof x.challenge==='string'&&NONCE.test(x.challenge))out.challenge=x.challenge;return 'human';}
   if(x.ban&&ban)return await settleBan(stub,key,dev,await ban(),now)?'ok':'limit';
   return 'limit';
  }catch{return 'ok';}

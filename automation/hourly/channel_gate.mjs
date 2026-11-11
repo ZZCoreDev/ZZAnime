@@ -71,8 +71,8 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   const main=path.startsWith('/series/');
   // voe/ and extra/ hold the same series' extra servers: they keep the request cap (quotaAllows) so one tap is not counted 3 times.
   if(env.LINK_RULES==='enforce'&&user&&main){const token=request.headers.get('X-ZZ-Human')||'';
-   const r=await linkAllows(env,{user,fresh,device,ban,item:path,human:!!token&&await humanOk(env,token,ip,fetcher)});
-   if(r==='human')return deny(428,'human');if(r==='limit')return deny(429,'daily_limit');}
+   const out={},r=await linkAllows(env,{user,fresh,device,ban,item:path,out,human:token?await humanOk(env,token,ip,fetcher):''});
+   if(r==='human')return new Response(JSON.stringify({error:'human',...(out.challenge?{challenge:out.challenge}:{})}),{status:428,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});if(r==='limit')return deny(429,'daily_limit');}
   else{if(!await quotaAllows(env,{user,fresh,ip,device,ban}))return deny(429,'daily_limit');
    if(env.LINK_RULES==='count'&&user&&main)await linkAllows(env,{user,fresh,device,item:path});}
  }
