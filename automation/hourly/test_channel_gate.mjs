@@ -53,13 +53,19 @@ async function rotationCheck(CHECK,RESET){
  const t0=Date.now();RESET();
  assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0),'a');assert.equal(calls,1);
  published=[old.jwk,neu.jwk];const tn=await sign(neu,'b',t0);
- assert.deepEqual(await Promise.all([CHECK(tn,jwks,t0+1000),CHECK(tn,jwks,t0+1000),CHECK(tn,jwks,t0+1000)]),['b','b','b']);assert.equal(calls,2);
+ assert.equal(await CHECK(tn,jwks,t0+1000),'');assert.equal(calls,1,'sexta W6-01: one pause for every reload, also right after the first load');
+ assert.deepEqual(await Promise.all([CHECK(tn,jwks,t0+31000),CHECK(tn,jwks,t0+31000),CHECK(tn,jwks,t0+31000)]),['b','b','b']);assert.equal(calls,2);
  const tb=await sign(bogus,'c',t0);
- assert.equal(await CHECK(tb,jwks,t0+2000),'');assert.equal(calls,2);
- assert.equal(await CHECK(tb,jwks,t0+40000),'');assert.equal(calls,3);
- assert.equal(await CHECK(tb,jwks,t0+41000),'');assert.equal(calls,3);
- down=true;assert.equal(await CHECK(tb,jwks,t0+80000),'');assert.equal(calls,4);
- assert.equal(await CHECK(tn,jwks,t0+81000),'b');assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0+81000),'a');
+ assert.equal(await CHECK(tb,jwks,t0+32000),'');assert.equal(calls,2);
+ assert.equal(await CHECK(tb,jwks,t0+70000),'');assert.equal(calls,3);
+ assert.equal(await CHECK(tb,jwks,t0+71000),'');assert.equal(calls,3);
+ down=true;await assert.rejects(()=>CHECK(tb,jwks,t0+110000),/JWKS unavailable/,'unknown kid and keys unreadable: unavailable (503), not «no session»');assert.equal(calls,4);
+ assert.equal(await CHECK(tn,jwks,t0+111000),'b');assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0+111000),'a');
+ // Expired cache with the key set down: unavailable, at most one try every 30 s; back to normal once it answers.
+ const T=t0+3700000,tt=await sign(neu,'d',T);
+ await assert.rejects(()=>CHECK(tt,jwks,T),/JWKS unavailable/);await assert.rejects(()=>CHECK(tt,jwks,T+1000),/JWKS unavailable/);await assert.rejects(()=>CHECK(tt,jwks,T+2000),/JWKS unavailable/);assert.equal(calls,5);
+ down=false;await assert.rejects(()=>CHECK(tt,jwks,T+10000),/JWKS unavailable/,'still in the pause');assert.equal(calls,5);
+ assert.equal(await CHECK(tt,jwks,T+31000),'d');assert.equal(calls,6);
  RESET();
 }
 {const {sessionUser:SU}=await import('./channel_gate.mjs');await rotationCheck((tok,f,now)=>SU(new Request('https://x',{headers:{Authorization:'Bearer '+tok}}),f,now),resetKeys);console.log('rotación de llaves OK');}
@@ -81,3 +87,18 @@ async function rotationCheck(CHECK,RESET){
  assert.equal((await open('/series/b.bin',true)).status,200,'own challenge opens it');
  assert.equal((await open('/series/c.bin')).status,200,'30-minute window');
  console.log('soy humano ligado a cuenta y serie OK');}
+
+// 12/11 sexta revisión: W6-02 the editor owner with aal2 is not asked (editor relay); W6-01 key set down → 503, not 401.
+{const {DatabaseSync}=await import('node:sqlite');const {Quota}=await import('./quota.mjs');const {handle:H,resetKeys:R}=await import('./channel_gate.mjs');
+ const db=new DatabaseSync(':memory:'),state={storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const rows=s.all(...b);return {toArray:()=>rows};}s.run(...b);return {toArray:()=>[]};}}}};
+ const obj=new Quota(state),QUOTA={idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})};let isOwner=false,ownerCalls=0;
+ const net=async(url,init)=>{if(String(url).endsWith('/rpc/zz_editor_access')){ownerCalls++;return new Response(JSON.stringify({allowed:isOwner,aal2:isOwner}));}return fetcher(url,init);};
+ const env={ASSETS:assets,REQUIRE_SESSION:'true',LINK_RULES:'enforce',LINK_SOFT:'1',LINK_BURST:'100',LINK_DAY:'10',LINK_BAN:'50',TURNSTILE_SECRET:'s',QUOTA};
+ R();const tk=await token({iss:ISS,role:'authenticated',aud:'authenticated',sub:'owner-1',exp:Math.floor(Date.now()/1000)+600});
+ const open=p=>H(new Request('https://respaldo.zzanime.uk'+p,{headers:{Authorization:'Bearer '+tk}}),env,net);
+ assert.equal((await open('/series/a.bin')).status,200);assert.equal(ownerCalls,0,'Supabase only asked when the check would be asked');
+ assert.equal((await open('/series/b.bin')).status,428,'not owner: asked');assert.equal(ownerCalls,1);
+ isOwner=true;assert.equal((await open('/series/b.bin')).status,200,'editor owner with aal2: not asked');
+ R();const down=async()=>new Response('x',{status:503});const r=await H(new Request('https://respaldo.zzanime.uk/series/a.bin',{headers:{Authorization:'Bearer '+tk}}),env,down);
+ assert.equal(r.status,503);assert.equal(r.headers.get('Retry-After'),'30');R();
+ console.log('dueño sin casilla y llaves caídas 503 OK');}

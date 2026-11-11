@@ -10,19 +10,27 @@ const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
 const OWNER=/^\/owner\/(?:help-status|cloud-runs|link-health(?:-[0-9]{1,2})?)\.json$/;
 // Public project key of the app (also inside the APK): lets the owner check run as the caller.
 const SUPABASE_KEY='sb_publishable_33FCU_W4f4gR3a69SygtDQ_j3sG1A-m';
-let keys=null,keysAt=0,loading=null,kidRetryAt=0;
+let keys=null,keysAt=0,loading=null,kidRetryAt=0,refreshAfter=0,lastOk=false;
 const b64url=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')+'==='.slice((s.length+3)%4)),c=>c.charCodeAt(0));
-export function resetKeys(){keys=null;keysAt=0;loading=null;kidRetryAt=0;}
+export function resetKeys(){keys=null;keysAt=0;loading=null;kidRetryAt=0;refreshAfter=0;lastOk=false;}
 // 11/11 quinta revisión: a token signed with a key that is not in the cached set (Supabase rotated its keys) reloads
 // the set once (shared by concurrent requests, at most every 30 s), and the set is only replaced once fully imported.
 async function loadKeys(fetcher,now){
  if(!loading)loading=(async()=>{try{const r=await fetcher(JWKS,{signal:AbortSignal.timeout(8000)});if(r.status!==200)throw Error('JWKS');const set=await r.json();const next=new Map();for(const k of set.keys||[])if(k.kty==='EC'&&k.crv==='P-256'&&k.alg==='ES256'&&k.kid)next.set(k.kid,await crypto.subtle.importKey('jwk',{kty:'EC',crv:'P-256',x:k.x,y:k.y,ext:true},{name:'ECDSA',namedCurve:'P-256'},false,['verify']));keys=next;keysAt=now;}finally{loading=null;}})();
  return loading;
 }
+// 12/11 sexta revisión W6-01: every reload (expired cache or unknown kid) shares one 30 s pause, and a key set that
+// cannot be read is «unavailable» (JwksUnavailable → 503 Retry-After), never «no session» (which forced a new login).
+export class JwksUnavailable extends Error{constructor(){super('JWKS unavailable');this.code='upstream_503';}}
+async function refresh(fetcher,now){
+ if(loading){try{await loading;lastOk=true;}catch{lastOk=false;}return lastOk?'ok':'down';}
+ if(now<refreshAfter)return lastOk?'pause':'down';
+ refreshAfter=now+30000;try{await loadKeys(fetcher,now);lastOk=true;}catch{lastOk=false;}return lastOk?'ok':'down';
+}
 async function publicKey(kid,fetcher,now){
  let fresh=false;
- if(!keys||now-keysAt>3600000){await loadKeys(fetcher,now);fresh=true;}
- if(!keys.has(kid)&&!fresh&&(loading||now>=kidRetryAt)){if(!loading)kidRetryAt=now+30000;try{await loadKeys(fetcher,now);}catch{}}
+ if(!keys||now-keysAt>3600000){const r=await refresh(fetcher,now);if(r==='down'||!keys||now-keysAt>3600000)throw new JwksUnavailable();fresh=true;}
+ if(!keys.has(kid)&&!fresh){const r=await refresh(fetcher,now);if(r==='down')throw new JwksUnavailable();}
  return keys.get(kid)||null;
 }
 export async function sessionUser(request,fetcher=(...a)=>globalThis.fetch(...a),now=Date.now()){return (await sessionInfo(request,fetcher,now)).sub;}
@@ -37,7 +45,7 @@ async function verifiedSub(request,fetcher,now){
   if(!await crypto.subtle.verify({name:'ECDSA',hash:'SHA-256'},key,b64url(m[3]),new TextEncoder().encode(m[1]+'.'+m[2])))return '';
   // 2 h grace: a phone back from sleep sends its last token before refreshing it.
   return claims.iss===ISSUER&&claims.role==='authenticated'&&claims.is_anonymous!==true&&typeof claims.sub==='string'&&claims.sub.length>0&&typeof claims.exp==='number'&&claims.exp*1000>now-60000&&(claims.nbf===undefined||typeof claims.nbf==='number'&&claims.nbf*1000<=now+60000)&&(claims.aud==='authenticated'||Array.isArray(claims.aud)&&claims.aud.includes('authenticated'))?/* 11/11 auditoría M-01: 1 min de tolerancia (la app 186+ renueva antes) */{sub:claims.sub,fresh:claims.zz_new===true}:'';
- }catch{return '';}
+ }catch(e){if(e instanceof JwksUnavailable)throw e;return '';}
 }
 function same(a,b){if(!a||!b||a.length!==b.length)return false;let d=0;for(let i=0;i<a.length;i++)d|=a.charCodeAt(i)^b.charCodeAt(i);return d===0;}
 const deny=(status,error)=>new Response(JSON.stringify({error}),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
@@ -59,7 +67,8 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  // 10/11 (app 177): the old workers.dev address only shows old apps the signed pointer (with the required update)
  // and serves the cloud's own check; links go only through zzanime.uk, where Cloudflare's rate limit applies.
  // 10/11 (179): the old address stays open: some networks block the brand-new zzanime.uk domain (app falls back here).
- const {sub:user,fresh}=await sessionInfo(request,fetcher);
+ let info;try{info=await sessionInfo(request,fetcher);}catch(e){if(e instanceof JwksUnavailable)return new Response(JSON.stringify({error:'unavailable',retry:true}),{status:503,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store','Retry-After':'30'}});throw e;}
+ const {sub:user,fresh}=info;
  if(!user&&env.REQUIRE_SESSION!=='false')return deny(401,'login'); // 11/11 A-03: cerrado salvo «false» explícito
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
@@ -72,7 +81,9 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   // voe/ and extra/ hold the same series' extra servers: they keep the request cap (quotaAllows) so one tap is not counted 3 times.
   if(env.LINK_RULES==='enforce'&&user&&main){const token=request.headers.get('X-ZZ-Human')||'';
    const out={},r=await linkAllows(env,{user,fresh,device,ban,item:path,out,human:token?await humanOk(env,token,ip,fetcher):''});
-   if(r==='human')return new Response(JSON.stringify({error:'human',...(out.challenge?{challenge:out.challenge}:{})}),{status:428,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});if(r==='limit')return deny(429,'daily_limit');}
+   // 12/11 sexta revisión W6-02: the editor's web corrections read series through its relay and cannot show the box;
+   // the editor owner with authenticator (aal2, checked with Supabase only at this point) is not asked.
+   if(r==='human'&&!await owner(request,fetcher))return new Response(JSON.stringify({error:'human',...(out.challenge?{challenge:out.challenge}:{})}),{status:428,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});if(r==='limit')return deny(429,'daily_limit');}
   else{if(!await quotaAllows(env,{user,fresh,ip,device,ban}))return deny(429,'daily_limit');
    if(env.LINK_RULES==='count'&&user&&main)await linkAllows(env,{user,fresh,device,item:path});}
  }

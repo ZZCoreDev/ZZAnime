@@ -4,7 +4,7 @@
 // No IP, account or device identifier is stored in clear; everything expires after 8 days.
 import {SUBMIT_POLICY_VERSION,submitUrlAllowed} from './submit-policy.js';
 import {boundedText,InspectionPolicyError,MEGA_BYTES} from './bounded-fetch.js';
-import {sessionUser} from './session.js';
+import {sessionUser,JwksUnavailable} from './session.js';
 export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
 // S2: a device counts only after MIN_DEVICE_AGE; a network can introduce at most NEW_DEVICES_PER_NET devices a day.
 const MIN_DEVICE_AGE=24*3600000,NEW_DEVICES_PER_NET=5,SIGNAL_POLICY={evidencePolicy:'network-v2',basis:'independent-networks',minDeviceAgeHours:24};
@@ -305,7 +305,7 @@ export async function handle(request,env,store,deps={}){
   let x;try{x=await body(request,32768);}catch{return json({accepted:false,reason:'bad-request'},400);}
   if(x?.schema!==1||!/^[A-Za-z0-9_-]{16,64}$/.test(x.device||'')||!Array.isArray(x.items)||!x.items.length||x.items.length>MAX_ITEMS)return json({accepted:false,reason:'bad-request'},400);
   // 10/11 (REVISION-2 N5): the reporter's session (app 176+); required only when REQUIRE_SESSION is "true".
-  const user=await sessionUser(request,fetcher,now);if(!user&&env.REQUIRE_SESSION==='true')return json({accepted:false,reason:'login'},401);
+  let user;try{user=await sessionUser(request,fetcher,now);}catch(e){if(e instanceof JwksUnavailable)return new Response(JSON.stringify({accepted:false,reason:'unavailable'}),{status:503,headers:{'Content-Type':'application/json','Cache-Control':'no-store','Retry-After':'30'}});throw e;}if(!user&&env.REQUIRE_SESSION==='true')return json({accepted:false,reason:'login'},401);
   const asn=Number(request.cf?.asn)||0;if(!asn)return json({accepted:false,reason:'no-network'},400);
   const ip=request.headers.get('cf-connecting-ip')||'',device=await sha(env.SALT+'|device|'+x.device),net=await zone(ip,env.SALT);
   const ipKey='ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),result={},valid=[];

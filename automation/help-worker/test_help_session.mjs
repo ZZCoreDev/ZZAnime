@@ -30,13 +30,19 @@ async function rotationCheck(CHECK,RESET){
  const t0=Date.now();RESET();
  assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0),'a');assert.equal(calls,1);
  published=[old.jwk,neu.jwk];const tn=await sign(neu,'b',t0);
- assert.deepEqual(await Promise.all([CHECK(tn,jwks,t0+1000),CHECK(tn,jwks,t0+1000),CHECK(tn,jwks,t0+1000)]),['b','b','b']);assert.equal(calls,2);
+ assert.equal(await CHECK(tn,jwks,t0+1000),'');assert.equal(calls,1,'sexta W6-01: one pause for every reload, also right after the first load');
+ assert.deepEqual(await Promise.all([CHECK(tn,jwks,t0+31000),CHECK(tn,jwks,t0+31000),CHECK(tn,jwks,t0+31000)]),['b','b','b']);assert.equal(calls,2);
  const tb=await sign(bogus,'c',t0);
- assert.equal(await CHECK(tb,jwks,t0+2000),'');assert.equal(calls,2);
- assert.equal(await CHECK(tb,jwks,t0+40000),'');assert.equal(calls,3);
- assert.equal(await CHECK(tb,jwks,t0+41000),'');assert.equal(calls,3);
- down=true;assert.equal(await CHECK(tb,jwks,t0+80000),'');assert.equal(calls,4);
- assert.equal(await CHECK(tn,jwks,t0+81000),'b');assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0+81000),'a');
+ assert.equal(await CHECK(tb,jwks,t0+32000),'');assert.equal(calls,2);
+ assert.equal(await CHECK(tb,jwks,t0+70000),'');assert.equal(calls,3);
+ assert.equal(await CHECK(tb,jwks,t0+71000),'');assert.equal(calls,3);
+ down=true;await assert.rejects(()=>CHECK(tb,jwks,t0+110000),/JWKS unavailable/,'unknown kid and keys unreadable: unavailable (503), not «no session»');assert.equal(calls,4);
+ assert.equal(await CHECK(tn,jwks,t0+111000),'b');assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0+111000),'a');
+ // Expired cache with the key set down: unavailable, at most one try every 30 s; back to normal once it answers.
+ const T=t0+3700000,tt=await sign(neu,'d',T);
+ await assert.rejects(()=>CHECK(tt,jwks,T),/JWKS unavailable/);await assert.rejects(()=>CHECK(tt,jwks,T+1000),/JWKS unavailable/);await assert.rejects(()=>CHECK(tt,jwks,T+2000),/JWKS unavailable/);assert.equal(calls,5);
+ down=false;await assert.rejects(()=>CHECK(tt,jwks,T+10000),/JWKS unavailable/,'still in the pause');assert.equal(calls,5);
+ assert.equal(await CHECK(tt,jwks,T+31000),'d');assert.equal(calls,6);
  RESET();
 }
 await rotationCheck((tok,f,now)=>sessionUser(new Request('https://x',{headers:{Authorization:'Bearer '+tok}}),f,now),resetSessionKeys);console.log('rotación de llaves OK');

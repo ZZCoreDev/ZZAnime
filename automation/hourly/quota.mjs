@@ -24,6 +24,7 @@ export class Quota{
   // consumed here (one Durable Object: atomic). A passed check then counts for HUMAN_WINDOW for that account.
   this.sql.exec('create table if not exists challenges(nonce text primary key,user text not null,item text not null,until integer not null)');
   this.sql.exec('create table if not exists humanok(user text primary key,until integer not null)');
+  this.sql.exec('create index if not exists challenges_user_until on challenges(user,until desc)'); // sexta W6-03
   this.mem=new Map();this.day='';}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
  flush(){for(const [k,n] of this.mem){const i=k.indexOf('|');this.save(k.slice(0,i),k.slice(i+1),n);}}
