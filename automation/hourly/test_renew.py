@@ -78,7 +78,7 @@ class RenewalTests(unittest.TestCase):
         _,_,_,state=self.fixture()
         with self.temporary() as temp:
             folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
-            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',side_effect=[Response([]),Response([{'status':'pending'}])]) as call:continue_if_due(folder)
+            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.NO_REDIRECT.open',side_effect=[Response([]),Response([{'status':'pending'}])]) as call:continue_if_due(folder)
             self.assertEqual(call.call_count,2);self.assertTrue(all(r.args[0].get_method()=='GET' for r in call.call_args_list))
     def test_old_chapter_retry_is_not_pulled_forward(self):
         now,_,url,state=self.fixture(8);failed={url:{'retryAt':now.timestamp()+900}}
@@ -127,7 +127,7 @@ class RenewalTests(unittest.TestCase):
             def read(self,*args):return json.dumps({'passed':True,'state':incoming,'errors':{second:'Episode not found'}}).encode()
         with self.temporary() as temp:
             save(temp,state)
-            with patch.dict(os.environ,{'ZZ_DATA':str(temp),'ZZ_COLLECTOR_URL':'https://collector.invalid/','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['renew.py','--proof']),patch('renew.urllib.request.urlopen',return_value=Response()),patch('run.compile_java',return_value='test'),patch('run.command',return_value=json.dumps({'key':key,'approved':True})):
+            with patch.dict(os.environ,{'ZZ_DATA':str(temp),'ZZ_COLLECTOR_URL':'https://collector.invalid/','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['renew.py','--proof']),patch('renew.NO_REDIRECT.open',return_value=Response()),patch('run.compile_java',return_value='test'),patch('run.command',return_value=json.dumps({'key':key,'approved':True})):
                 with self.assertRaisesRegex(ValueError,'Two-series renewal proof failed'):renew.main()
             saved=load(temp);self.assertEqual(saved['episodes'][url]['observedAt'],incoming['episodes'][url]['observedAt']);self.assertEqual(saved['episodes'][second]['observedAt'],state['episodes'][second]['observedAt'])
             failures=json.loads((Path(temp)/'renewal-failures.json').read_bytes());self.assertEqual(set(failures),{second});self.assertEqual(failures[second]['reason'],'Episode not found')
@@ -143,7 +143,7 @@ class RenewalTests(unittest.TestCase):
             def read(self,*args):return json.dumps({'passed':True,'state':incoming,'errors':{}}).encode()
         with self.temporary() as temp:
             save(temp,state);Path(temp,'renewal-failures.json').write_text(json.dumps({second:{'attempts':3,'retryAt':0,'reason':'Source did not return a verified observation'}}))
-            with patch.dict(os.environ,{'ZZ_DATA':str(temp),'ZZ_COLLECTOR_URL':'https://collector.invalid/','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['renew.py','--proof']),patch('renew.urllib.request.urlopen',return_value=Response()),patch('run.compile_java',return_value='test'),patch('run.command',return_value=json.dumps({'key':key,'approved':True})):
+            with patch.dict(os.environ,{'ZZ_DATA':str(temp),'ZZ_COLLECTOR_URL':'https://collector.invalid/','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['renew.py','--proof']),patch('renew.NO_REDIRECT.open',return_value=Response()),patch('run.compile_java',return_value='test'),patch('run.command',return_value=json.dumps({'key':key,'approved':True})):
                 with self.assertRaisesRegex(ValueError,'Two-series renewal proof failed'):renew.main()
             self.assertEqual(json.loads((Path(temp)/'renewal-failures.json').read_bytes()),{})
             side=renew.complements(temp);self.assertIn(second,side)
@@ -159,7 +159,7 @@ class RenewalTests(unittest.TestCase):
         _,_,_,state=self.fixture()
         with self.temporary() as temp:
             folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
-            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',return_value=Response()) as call:
+            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.NO_REDIRECT.open',return_value=Response()) as call:
                 continue_if_due(folder)
             self.assertEqual(call.call_count,1)
             self.assertIn('provider-hourly.yml/runs',call.call_args.args[0].full_url)
@@ -216,7 +216,7 @@ class RenewalTests(unittest.TestCase):
             if len(calls)==2:raise urllib.error.HTTPError(req.full_url,409,'conflict',None,None)
             if len(calls)==3:return Response(b)
             payload=json.loads(req.data);self.assertEqual(payload['sha'],'new');self.assertIn('Cambio concurrente',base64.b64decode(payload['content']).decode());return Response({})
-        with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.urllib.request.urlopen',side_effect=request),patch('renew.time.sleep'):
+        with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.NO_REDIRECT.open',side_effect=request),patch('renew.time.sleep'):
             github_status({'state':'failed','failed':1,'expired':0})
         self.assertEqual(len(calls),4)
 

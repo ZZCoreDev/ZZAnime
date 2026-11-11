@@ -10,11 +10,19 @@ const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
 const OWNER=/^\/owner\/(?:help-status|cloud-runs|link-health(?:-[0-9]{1,2})?)\.json$/;
 // Public project key of the app (also inside the APK): lets the owner check run as the caller.
 const SUPABASE_KEY='sb_publishable_33FCU_W4f4gR3a69SygtDQ_j3sG1A-m';
-let keys=null,keysAt=0;
+let keys=null,keysAt=0,loading=null,kidRetryAt=0;
 const b64url=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')+'==='.slice((s.length+3)%4)),c=>c.charCodeAt(0));
-export function resetKeys(){keys=null;keysAt=0;}
+export function resetKeys(){keys=null;keysAt=0;loading=null;kidRetryAt=0;}
+// 11/11 quinta revisión: a token signed with a key that is not in the cached set (Supabase rotated its keys) reloads
+// the set once (shared by concurrent requests, at most every 30 s), and the set is only replaced once fully imported.
+async function loadKeys(fetcher,now){
+ if(!loading)loading=(async()=>{try{const r=await fetcher(JWKS,{signal:AbortSignal.timeout(8000)});if(r.status!==200)throw Error('JWKS');const set=await r.json();const next=new Map();for(const k of set.keys||[])if(k.kty==='EC'&&k.crv==='P-256'&&k.alg==='ES256'&&k.kid)next.set(k.kid,await crypto.subtle.importKey('jwk',{kty:'EC',crv:'P-256',x:k.x,y:k.y,ext:true},{name:'ECDSA',namedCurve:'P-256'},false,['verify']));keys=next;keysAt=now;}finally{loading=null;}})();
+ return loading;
+}
 async function publicKey(kid,fetcher,now){
- if(!keys||now-keysAt>3600000){const r=await fetcher(JWKS);if(r.status!==200)throw Error('JWKS');const set=await r.json();keys=new Map();for(const k of set.keys||[])if(k.kty==='EC'&&k.crv==='P-256'&&k.alg==='ES256'&&k.kid)keys.set(k.kid,await crypto.subtle.importKey('jwk',{kty:'EC',crv:'P-256',x:k.x,y:k.y,ext:true},{name:'ECDSA',namedCurve:'P-256'},false,['verify']));keysAt=now;}
+ let fresh=false;
+ if(!keys||now-keysAt>3600000){await loadKeys(fetcher,now);fresh=true;}
+ if(!keys.has(kid)&&!fresh&&(loading||now>=kidRetryAt)){if(!loading)kidRetryAt=now+30000;try{await loadKeys(fetcher,now);}catch{}}
  return keys.get(kid)||null;
 }
 export async function sessionUser(request,fetcher=(...a)=>globalThis.fetch(...a),now=Date.now()){return (await sessionInfo(request,fetcher,now)).sub;}

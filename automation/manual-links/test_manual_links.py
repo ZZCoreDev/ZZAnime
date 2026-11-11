@@ -41,11 +41,12 @@ class T(unittest.TestCase):
         self.assertIn('ZZ_EDITOR_CLOUD_KEY',str(e.exception.code))
     def test_cloud_key_only_goes_to_the_editor(self):
         import manual_links as m,urllib.request
-        seen=[];real=urllib.request.urlopen
+        seen=[]
         def fake(req,timeout):seen.append(req);raise OSError('offline')
+        # quinta revisión S-05: both the editor read and the provider check go through the no-redirect opener.
         try:
-            urllib.request.urlopen=fake;m.editor_get('/api/catalogue','k-1');m.fetch('https://provider.example/e/1')
-        finally:urllib.request.urlopen=real
+            m.NO_REDIRECT.open=fake;m.editor_get('/api/catalogue','k-1');m.fetch('https://provider.example/e/1')
+        finally:del m.NO_REDIRECT.open
         self.assertEqual(seen[0].get_header('X-zz-cloud'),'k-1');self.assertTrue(seen[0].full_url.startswith(m.EDITOR+'/'))
-        self.assertIsNone(seen[1].get_header('X-zz-cloud'))
+        self.assertIsNone(seen[1].get_header('X-zz-cloud'));self.assertEqual(len(seen),2)
 if __name__=='__main__':unittest.main()

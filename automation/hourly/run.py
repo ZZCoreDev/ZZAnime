@@ -4,6 +4,7 @@ import os,sys,json,gzip,hashlib,datetime,subprocess,tempfile,shutil,re,time
 from cryptography.hazmat.primitives import serialization,hashes
 from cryptography.hazmat.primitives.asymmetric import padding,rsa
 from archive_state import load as load_observations,save as save_observations,merge as merge_observations
+from no_redirect import NO_REDIRECT
 W=Path(__file__).resolve().parent
 D=Path(os.environ.get('ZZ_DATA',W/'state')).resolve()
 BASE='https://zzanime-respaldo.zzcoredev.workers.dev'
@@ -142,7 +143,7 @@ def main():
     retry=(retry+[url for url in due if url not in retry and url not in skip])[:200]
     for url in due:recheck[url]=instant.timestamp()
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
-    with urllib.request.urlopen(req,timeout=60) as response:result=json.loads(response.read(2097153))
+    with NO_REDIRECT.open(req,timeout=60) as response:result=json.loads(response.read(2097153))
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
     if not proof:state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result.get('unknownSeries',[]),json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))

@@ -6,6 +6,7 @@ for the editor owner (Supabase zz_editor_access with authenticator). Only what t
 links (episode, provider, url, date, excluded) and the summary of the last check. Parts stay under 1.5 MB."""
 import json,os,urllib.request
 from pathlib import Path
+from no_redirect import NO_REDIRECT
 
 PART = 1_500_000
 KEEP = ('episode', 'family', 'name', 'url', 'checkedAt', 'excluded', 'state')
@@ -25,7 +26,7 @@ def cloud_runs(token, fetch=None):
             data = fetch(url)
         else:
             req = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'User-Agent': 'ZZAnime-Nube/1'})
-            with urllib.request.urlopen(req, timeout=20) as r:
+            with NO_REDIRECT.open(req, timeout=20) as r:
                 data = json.loads(r.read())
         keep = ('name', 'status', 'conclusion', 'updated_at', 'workflow_id', 'html_url')
         return {'workflow_runs': [{k: run.get(k) for k in keep} for run in data.get('workflow_runs', [])]}

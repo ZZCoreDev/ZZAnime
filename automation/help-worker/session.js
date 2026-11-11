@@ -2,11 +2,19 @@
 // public ES256 keys (no secret). REQUIRE_SESSION "true" (only once 176 is the minimum version) refuses reports without
 // one; until then a session only adds a per-account daily limit.
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
-let keys=null,keysAt=0;
+let keys=null,keysAt=0,loading=null,kidRetryAt=0;
 const b64url=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')+'==='.slice((s.length+3)%4)),c=>c.charCodeAt(0));
-export function resetSessionKeys(){keys=null;keysAt=0;}
+export function resetSessionKeys(){keys=null;keysAt=0;loading=null;kidRetryAt=0;}
+// 11/11 quinta revisión: a token signed with a key that is not in the cached set (Supabase rotated its keys) reloads
+// the set once (shared by concurrent requests, at most every 30 s), and the set is only replaced once fully imported.
+async function loadKeys(fetcher,now){
+ if(!loading)loading=(async()=>{try{const r=await fetcher(JWKS,{signal:AbortSignal.timeout(8000)});if(r.status!==200)throw Error('JWKS');const set=await r.json();const next=new Map();for(const k of set.keys||[])if(k.kty==='EC'&&k.crv==='P-256'&&k.alg==='ES256'&&k.kid)next.set(k.kid,await crypto.subtle.importKey('jwk',{kty:'EC',crv:'P-256',x:k.x,y:k.y,ext:true},{name:'ECDSA',namedCurve:'P-256'},false,['verify']));keys=next;keysAt=now;}finally{loading=null;}})();
+ return loading;
+}
 async function publicKey(kid,fetcher,now){
- if(!keys||now-keysAt>3600000){const r=await fetcher(JWKS);if(r.status!==200)throw Error('JWKS');const set=await r.json();keys=new Map();for(const k of set.keys||[])if(k.kty==='EC'&&k.crv==='P-256'&&k.alg==='ES256'&&k.kid)keys.set(k.kid,await crypto.subtle.importKey('jwk',{kty:'EC',crv:'P-256',x:k.x,y:k.y,ext:true},{name:'ECDSA',namedCurve:'P-256'},false,['verify']));keysAt=now;}
+ let fresh=false;
+ if(!keys||now-keysAt>3600000){await loadKeys(fetcher,now);fresh=true;}
+ if(!keys.has(kid)&&!fresh&&(loading||now>=kidRetryAt)){if(!loading)kidRetryAt=now+30000;try{await loadKeys(fetcher,now);}catch{}}
  return keys.get(kid)||null;
 }
 /** The account id of a valid ZZAnime session, or ''. */

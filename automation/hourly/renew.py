@@ -6,6 +6,7 @@ from archive_state import load,save,merge,stamp
 from incident_diagnostics import fair_retries,report as diagnostic_report
 from news_watchdog import check as check_news
 import new_series
+from no_redirect import NO_REDIRECT
 
 DAY=86400
 LEAD_AGE=DAY
@@ -162,12 +163,12 @@ def github_status(status):
     endpoint='https://api.github.com/repos/'+repo+'/contents/ESTADO.md'
     headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1','Content-Type':'application/json'}
     for attempt in range(4):
-        with urllib.request.urlopen(urllib.request.Request(endpoint+'?ref=main',headers=headers),timeout=20) as response:old=json.load(response)
+        with NO_REDIRECT.open(urllib.request.Request(endpoint+'?ref=main',headers=headers),timeout=20) as response:old=json.load(response)
         current=base64.b64decode(old['content']).decode('utf-8');updated=status_text(current,status)
         if updated==current:return
         data=json.dumps({'message':'Registrar estado de renovacion sin sobrescribir cambios concurrentes','branch':'main','sha':old['sha'],'content':base64.b64encode(updated.encode()).decode()}).encode()
         try:
-            with urllib.request.urlopen(urllib.request.Request(endpoint,data=data,headers=headers,method='PUT'),timeout=20) as response:json.load(response)
+            with NO_REDIRECT.open(urllib.request.Request(endpoint,data=data,headers=headers,method='PUT'),timeout=20) as response:json.load(response)
             return
         except urllib.error.HTTPError as error:
             if error.code not in (409,422) or attempt==3:raise
@@ -192,22 +193,22 @@ def continue_if_due(folder):
     headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'}
     if failed:
         # A failed batch must not end the chain (and news with it); space retries so a repeating fault stays at the news cadence.
-        with urllib.request.urlopen(urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/runs/'+os.environ['GITHUB_RUN_ID'],headers=headers),timeout=20) as response:started=stamp(json.loads(response.read())['run_started_at'])
+        with NO_REDIRECT.open(urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/runs/'+os.environ['GITHUB_RUN_ID'],headers=headers),timeout=20) as response:started=stamp(json.loads(response.read())['run_started_at'])
         wait=CHAIN_SPACING-(time.time()-started)
         if wait>0:print('Failed batch: next renewal in %d s.'%wait,flush=True);time.sleep(wait)
     now=time.time()
     # GitHub keeps only one pending job per concurrency group. Never replace waiting news.
     pending=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/runs?per_page=20',headers=headers)
-    with urllib.request.urlopen(pending,timeout=20) as response:runs=json.loads(response.read())['workflow_runs']
+    with NO_REDIRECT.open(pending,timeout=20) as response:runs=json.loads(response.read())['workflow_runs']
     if any(live(row,('queued','pending','waiting','in_progress','requested'),now) for row in runs):
         print('Recent episode delivery has priority; renewal resumes after it completes.');return
     pending_renew=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/runs?per_page=20',headers=headers)
-    with urllib.request.urlopen(pending_renew,timeout=20) as response:waiting=json.loads(response.read())['workflow_runs']
+    with NO_REDIRECT.open(pending_renew,timeout=20) as response:waiting=json.loads(response.read())['workflow_runs']
     if any(live(row,('queued','pending','waiting','requested'),now) for row in waiting):
         print('A renewal or sample is already waiting; keep its place in the queue.');return
     data=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
     req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/dispatches',data=data,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
-    with urllib.request.urlopen(req,timeout=20) as response:
+    with NO_REDIRECT.open(req,timeout=20) as response:
         if response.status!=204:raise ValueError('Continuation was not accepted')
     print('Pending observed chapters: next independent renewal batch dispatched.')
 
@@ -253,7 +254,7 @@ def main():
             try:
                 body=json.dumps({'mode':'renew','retry':pair,'skip':[],'proof':args.proof,**({} if args.proof else {'newSeries':new_series.rows(folder)})}).encode()
                 req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=body,headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
-                with urllib.request.urlopen(req,timeout=90) as response:
+                with NO_REDIRECT.open(req,timeout=90) as response:
                     raw=response.read(2097153)
                     if len(raw)>2097152:raise ValueError('Response limit')
                     result=json.loads(raw)

@@ -2,6 +2,7 @@
 from pathlib import Path
 import copy,datetime,gzip,hashlib,json,os,re,subprocess,time,urllib.request
 from archive_state import load,save,merge,stamp
+from no_redirect import NO_REDIRECT
 
 PROOF=['https://jkanime.net/sasaki-to-pii-chan-season-2/4/','https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/4/']
 LEAD_AGE=5*86400
@@ -118,7 +119,7 @@ def proof(publish=False):
     if reuse:result={'passed':True,'state':{'episodes':{u:saved['episodes'][u] for u in PROOF},'listings':saved['listings']}}
     else:
         req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=p.raw({'mode':'renew','retry':PROOF,'skip':[],'voeProof':True}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
-        with urllib.request.urlopen(req,timeout=90) as response:result=json.loads(response.read(2097153))
+        with NO_REDIRECT.open(req,timeout=90) as response:result=json.loads(response.read(2097153))
     if not result.get('passed') or set(result['state']['episodes'])!=set(PROOF):raise ValueError('Two-series VOE collection failed')
     legacy,count=split(folder,result['state']);after=load(folder)
     if any(json.dumps(after['episodes'][u],sort_keys=True)!=e for u,e in original.items()):raise ValueError('Legacy changed during VOE proof')

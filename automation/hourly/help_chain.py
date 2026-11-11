@@ -137,9 +137,13 @@ def renew_single(data,state,renew,now,incoming,held):
   incoming['episodes'][url]={**old,'observedAt':iso(at),'complete':True,'providers':providers,'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain-single-renewal','renewed':True}};stats['renewed']+=1
   parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
   if listing:incoming['listings'][parent]={**listing,'episodes':[url]}
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+ def redirect_request(self,*a,**k):return None
+# 11/11 quinta revisión S-05: the help worker key is never sent after a redirect (a 3xx is an error here).
+NO_REDIRECT=urllib.request.build_opener(_NoRedirect())
 def get(base,key,path,limit=4194305):
- req=urllib.request.Request(base.rstrip('/')+path,headers={'Authorization':'Bearer '+key,'User-Agent':'ZZAnime-Data/1'})
- with urllib.request.urlopen(req,timeout=60) as response:return json.loads(response.read(limit))
+ req=urllib.request.Request(base.rstrip('/')+path,headers={'User-Agent':'ZZAnime-Data/1'});req.add_unredirected_header('Authorization','Bearer '+key)
+ with NO_REDIRECT.open(req,timeout=60) as response:return json.loads(response.read(limit))
 def observe(folder,base,key,now,fetch=None):
  # Worker summary and device dead-link reports, each best effort; neither blocks the import.
  out={}

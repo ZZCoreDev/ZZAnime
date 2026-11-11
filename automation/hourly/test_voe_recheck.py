@@ -17,7 +17,7 @@ class VoeRecheckTests(unittest.TestCase):
    def __exit__(self,*args):pass
    def read(self,*args):return json.dumps(result).encode()
   def urlopen(request,timeout=None):requests.append(json.loads(request.data));return Response()
-  with patch.object(run,'D',Path(folder)),patch.object(run,'load_observations',return_value=state),patch.object(run,'save_observations'),patch.object(run,'compile_java') as build,patch('urllib.request.urlopen',side_effect=urlopen),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']):run.main()
+  with patch.object(run,'D',Path(folder)),patch.object(run,'load_observations',return_value=state),patch.object(run,'save_observations'),patch.object(run,'compile_java') as build,patch('run.NO_REDIRECT.open',side_effect=urlopen),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']):run.main()
   build.assert_not_called()
   return requests
  def voe_recent(self,folder,urls):

@@ -23,7 +23,7 @@ class ChainContinuityTests(unittest.TestCase):
         folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':state_name}));return folder
     def call(self,folder,responses,outcome='success'):
         env={'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only','GITHUB_RUN_ID':'7','ZZ_RENEW_OUTCOME':outcome}
-        with patch.dict(os.environ,env),patch('renew.urllib.request.urlopen',side_effect=responses) as call,patch('renew.time.sleep') as sleep:continue_if_due(folder)
+        with patch.dict(os.environ,env),patch('renew.NO_REDIRECT.open',side_effect=responses) as call,patch('renew.time.sleep') as sleep:continue_if_due(folder)
         return call,sleep
     def test_failed_batch_still_continues_after_spacing(self):
         for parent in self.SERIES:

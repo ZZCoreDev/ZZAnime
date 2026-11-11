@@ -172,7 +172,7 @@ class RunIntegrationTests(unittest.TestCase):
    def read(self,*args):return json.dumps(result).encode()
   class Built(Exception):pass
   pull=patch.object(h,'pull',side_effect=error) if error else patch.object(h,'pull',return_value={'imported':imported})
-  with tempfile.TemporaryDirectory() as d,pull as puller,patch.object(run,'D',Path(d)),patch.object(run,'load_observations',return_value={'episodes':{},'listings':{},'newsSeen':{},'pending':[]}),patch.object(run,'save_observations'),patch.object(run,'compile_java',side_effect=Built),patch('urllib.request.urlopen',return_value=Response()),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only','ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']),patch('link_health.check',return_value={'excluded':0}):
+  with tempfile.TemporaryDirectory() as d,pull as puller,patch.object(run,'D',Path(d)),patch.object(run,'load_observations',return_value={'episodes':{},'listings':{},'newsSeen':{},'pending':[]}),patch.object(run,'save_observations'),patch.object(run,'compile_java',side_effect=Built),patch('run.NO_REDIRECT.open',return_value=Response()),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only','ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']),patch('link_health.check',return_value={'excluded':0}):
    try:run.main();built=False
    except Built:built=True
    puller.assert_called_once()

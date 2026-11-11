@@ -105,8 +105,9 @@ def cloudflare_usage(token,day,fetch=None):
     try:
         if fetch:data=fetch(q)
         else:
-            req=urllib.request.Request('https://api.cloudflare.com/client/v4/graphql',data=json.dumps({'query':q}).encode(),headers={'Authorization':'Bearer '+token,'Content-Type':'application/json','User-Agent':'ZZAnime-Vigia/1'})
-            with urllib.request.urlopen(req,timeout=30) as r:data=json.loads(r.read())
+            req=urllib.request.Request('https://api.cloudflare.com/client/v4/graphql',data=json.dumps({'query':q}).encode(),headers={'Content-Type':'application/json','User-Agent':'ZZAnime-Vigia/1'})
+            req.add_unredirected_header('Authorization','Bearer '+token)  # quinta revisión S-05
+            with NO_REDIRECT.open(req,timeout=30) as r:data=json.loads(r.read())
         rows=data['data']['viewer']['accounts'][0]['workersInvocationsAdaptive'];out={}
         for row in rows:out[row['dimensions']['scriptName']]=out.get(row['dimensions']['scriptName'],0)+int(row['sum']['requests'])
         return out
@@ -166,8 +167,9 @@ class GitHub:
     def __init__(self,repo,token):self.base='https://api.github.com/repos/'+repo;self.token=token
     def call(self,method,path,body=None):
         req=urllib.request.Request(self.base+path,data=json.dumps(body).encode() if body is not None else None,method=method,
-            headers={'Authorization':'Bearer '+self.token,'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Vigia/1','Content-Type':'application/json'})
-        with urllib.request.urlopen(req,timeout=30) as r:return json.loads(r.read() or b'null')
+            headers={'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Vigia/1','Content-Type':'application/json'})
+        req.add_unredirected_header('Authorization','Bearer '+self.token)  # quinta revisión S-05: never after a redirect
+        with NO_REDIRECT.open(req,timeout=30) as r:return json.loads(r.read() or b'null')
 def marker(kind):return f'<!-- vigia:{kind} -->'
 def sync(github,results,now):
     """One open issue per failing kind; update on change; close when it passes again."""

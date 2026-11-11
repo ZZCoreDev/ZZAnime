@@ -41,3 +41,25 @@ console.log('channel gate PASS');
  assert.equal((await old('/series/x.bin')).status,200,'old address open again (179 fallback)');assert.equal((await old('/series/x.bin',{'X-ZZ-Cloud':'cloud-secret-123'})).status,200);
  assert.equal((await handle(new Request('https://respaldo.zzanime.uk/series/x.bin'),{...on,REQUIRE_SESSION:'false'},fetcher)).status,200,'new domain unchanged');
  console.log('old host PASS');}
+
+// 11/11 quinta revisión (M-01 JWKS): Supabase rota sus llaves. Un kid nuevo recarga el juego una vez (compartida entre
+// peticiones simultáneas), un kid inventado no recarga más de una vez cada 30 s y una recarga fallida conserva las llaves.
+async function rotationCheck(CHECK,RESET){
+ const b=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');
+ const mk=async kid=>{const pr=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']);return {kid,pr,jwk:{...await crypto.subtle.exportKey('jwk',pr.publicKey),alg:'ES256',kid}};};
+ const sign=async(k,sub,now)=>{const h=b(JSON.stringify({alg:'ES256',kid:k.kid})),p=b(JSON.stringify({iss:'https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',role:'authenticated',aud:'authenticated',sub,exp:Math.floor(now/1000)+600}));return h+'.'+p+'.'+b(await crypto.subtle.sign({name:'ECDSA',hash:'SHA-256'},k.pr.privateKey,new TextEncoder().encode(h+'.'+p)));};
+ const old=await mk('old'),neu=await mk('new'),bogus=await mk('bogus');let published=[old.jwk],calls=0,down=false;
+ const jwks=async()=>{calls++;await new Promise(r=>setTimeout(r,5));return down?new Response('x',{status:503}):new Response(JSON.stringify({keys:published}));};
+ const t0=Date.now();RESET();
+ assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0),'a');assert.equal(calls,1);
+ published=[old.jwk,neu.jwk];const tn=await sign(neu,'b',t0);
+ assert.deepEqual(await Promise.all([CHECK(tn,jwks,t0+1000),CHECK(tn,jwks,t0+1000),CHECK(tn,jwks,t0+1000)]),['b','b','b']);assert.equal(calls,2);
+ const tb=await sign(bogus,'c',t0);
+ assert.equal(await CHECK(tb,jwks,t0+2000),'');assert.equal(calls,2);
+ assert.equal(await CHECK(tb,jwks,t0+40000),'');assert.equal(calls,3);
+ assert.equal(await CHECK(tb,jwks,t0+41000),'');assert.equal(calls,3);
+ down=true;assert.equal(await CHECK(tb,jwks,t0+80000),'');assert.equal(calls,4);
+ assert.equal(await CHECK(tn,jwks,t0+81000),'b');assert.equal(await CHECK(await sign(old,'a',t0),jwks,t0+81000),'a');
+ RESET();
+}
+{const {sessionUser:SU}=await import('./channel_gate.mjs');await rotationCheck((tok,f,now)=>SU(new Request('https://x',{headers:{Authorization:'Bearer '+tok}}),f,now),resetKeys);console.log('rotación de llaves OK');}

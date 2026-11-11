@@ -14,7 +14,7 @@ class EmptyNewsTests(unittest.TestCase):
      def __enter__(self):return self
      def __exit__(self,*args):pass
      def read(self,*args):return json.dumps(result).encode()
-    with patch.object(run,'D',Path(d)),patch.object(run,'load_observations',return_value=state),patch.object(run,'save_observations'),patch.object(run,'compile_java') as build,patch('urllib.request.urlopen',return_value=Response()),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']):run.main()
+    with patch.object(run,'D',Path(d)),patch.object(run,'load_observations',return_value=state),patch.object(run,'save_observations'),patch.object(run,'compile_java') as build,patch('run.NO_REDIRECT.open',return_value=Response()),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']):run.main()
     build.assert_not_called();self.assertEqual(state['episodes'],original['episodes']);self.assertEqual(state['newsSeen'],original['newsSeen']);self.assertEqual(json.loads(Path(d,'collection-status.json').read_bytes())['coverage'],'partial');self.assertTrue(Path(d,'news-incidents.json').exists())
 
 if __name__=='__main__':unittest.main()

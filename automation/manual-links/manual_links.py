@@ -27,7 +27,8 @@ def classify(status,body):
 def fetch(url,timeout=20):
     req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html,*/*'})
     try:
-        with urllib.request.urlopen(req,timeout=timeout) as r:return r.status,r.read(200000).decode('utf-8','replace')
+        # quinta revisión S-05: provider pages are not followed to other hosts; a 3xx stays «unknown» (never dead).
+        with NO_REDIRECT.open(req,timeout=timeout) as r:return r.status,r.read(200000).decode('utf-8','replace')
     except urllib.error.HTTPError as e:return e.code,''
     except Exception:return 0,''
 
