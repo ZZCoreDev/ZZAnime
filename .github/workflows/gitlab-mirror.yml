@@ -37,7 +37,7 @@ jobs:
             # Quinta revisión: one signer, and EVERY certificate digest apksigner prints must be the official one
             # (a DN that contains the official text adds a second, different value and is refused).
             out=$("$BT/apksigner" verify --print-certs "$1" 2>&1) || { echo "apksigner no verifica $1:"; echo "$out" | tail -5; exit 1; }
-            certs=$(echo "$out" | grep -E 'certificate SHA-256 digest: ' | sed -E 's/^.*certificate SHA-256 digest: //' | tr -d '' | sort -u || true)
+            certs=$(echo "$out" | grep -E 'certificate SHA-256 digest: ' | sed -E 's/^.*certificate SHA-256 digest: //' | tr -d '\r' | sort -u || true)
             signers=$(echo "$out" | grep -cE '^Signer.* certificate DN: ' || true)
             if [ "$certs" != "71eabff504d6da93e1ab47ff83b6cc38bb002cdad6bc8a0ab93bc6fbbe40fd72" ] || [ "$signers" != "1" ]; then
               echo "Firma no oficial: $1"; echo "$out" | grep -E 'Signer|signers|Verif' | grep -v 'key'; exit 1
