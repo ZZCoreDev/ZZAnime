@@ -11,7 +11,7 @@ const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},tru
 const b64=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');
 async function token(c){const h=b64(JSON.stringify({alg:'ES256',kid:'k1'})),p=b64(JSON.stringify(c));return h+'.'+p+'.'+b64(await crypto.subtle.sign({name:'ECDSA',hash:'SHA-256'},pair.privateKey,new TextEncoder().encode(h+'.'+p)));}
 const db=new DatabaseSync(':memory:'),obj=new Quota({storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const rows=s.all(...b);return {toArray:()=>rows};}s.run(...b);return {toArray:()=>[]};}}}});
-let cdata='';const net=async url=>{const u=String(url);if(u.includes('siteverify'))return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));
+let cdata='';const net=async url=>{const u=String(url);if(u.includes('siteverify')){await obj.fetch(new Request('https://quota/hmark?n='+cdata));return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));}
  if(u.includes('zz_editor_access'))return new Response('{"allowed":false,"aal2":false}');return new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'k1'}]}));};
 const pub=publication(),env={ASSETS:pub,REQUIRE_SESSION:'true',LINK_RULES:'enforce',QUOTA_MODE:'enforce',TURNSTILE_SECRET:'s',QUOTA:{idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})}};
 resetKeys();forgetBans();resetSeriesMaps();

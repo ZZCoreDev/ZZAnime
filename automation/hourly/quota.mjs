@@ -14,6 +14,13 @@ const NONCE=/^[a-f0-9]{32}$/,HUMAN_WINDOW=30*60000,HCAPTCHA_WINDOW=10*60000;
 // 12/11 (Robin, más estricta): a series opened in the last SEEN_DAYS days reopens free and is not counted again (its
 // links were already given to that account); before, only the same day.
 const SEEN_DAYS=30;
+const NETKEY=/^(?:[0-9]{1,3}(?:[.][0-9]{1,3}){3}|[0-9a-f]{1,4}(?::[0-9a-f]{1,4}){3}::)$/;
+/** 13/11: one connection: an IPv4 address, or the /64 network of an IPv6 address (a home or phone gets a whole /64, so
+ * changing the address inside it does not help). '' when it cannot be read. */
+export function netOf(ip){ip=String(ip||'').trim().toLowerCase();if(/^[0-9]{1,3}(?:[.][0-9]{1,3}){3}$/.test(ip))return ip;
+ if(!/^[0-9a-f:]{2,39}$/.test(ip)||ip.split('::').length>2)return '';const [head,tail]=ip.split('::'),a=head?head.split(':'):[],b=tail!==undefined&&tail?tail.split(':'):[];
+ const groups=tail===undefined?a:[...a,...Array(8-a.length-b.length).fill('0'),...b];if(groups.length!==8||groups.some(g=>!/^[0-9a-f]{1,4}$/.test(g)))return '';
+ return groups.slice(0,4).map(g=>g.replace(/^0+(?=.)/,'')).join(':')+'::';}
 const KEY=/^(?:u:[A-Za-z0-9-]{1,64}|ip:[0-9A-Fa-f:.]{2,45}|d:[a-f0-9]{32})$/,DEVICE=/^[a-f0-9]{32}$/;
 export class Quota{
  constructor(state){this.sql=state.storage.sql;
@@ -66,6 +73,11 @@ export class Quota{
    const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
    if(mark)return Response.json(mark.kind==='ban'?{banned:true}:{exempt:true,ok:true});
    if(this.sql.exec('select 1 from seen where user=? and item=? and day>=?',key,item,new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10)).toArray().length)return Response.json({ok:true,seen:true});
+   // 13/11 (Robin): new series per connection and day, every account added up (several accounts, paid captcha solvers or an
+   // invented device id still stop here). A series already opened from this connection today does not count again.
+   const net=u.searchParams.get('ip')||'',netCap=Number(u.searchParams.get('ipcap'))||0,netKey='n:'+net;
+   const netNew=NETKEY.test(net)&&netCap>0&&!this.sql.exec('select 1 from seen where day=? and user=? and item=?',day,netKey,item).toArray().length;
+   if(netNew&&this.sql.exec('select count(*) c from seen where day=? and user=?',day,netKey).toArray()[0].c>=netCap)return Response.json({over:true,net:true});
    const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',30),soft=num('soft',3),burst=num('burst',3),grant=num('grant',1),ban=Number(u.searchParams.get('ban'))||0;
    const distinct=this.sql.exec('select count(*) c from seen where day=? and user=?',day,key).toArray()[0].c;
    const recent=this.sql.exec('select count(*) c from seen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
@@ -88,6 +100,7 @@ export class Quota{
    if(ban>0&&n>ban)return Response.json({ban:true,n,distinct});
    if(distinct>=cap)return Response.json({over:true,n,distinct});
    this.sql.exec('insert into seen(day,user,item,at) values(?,?,?,?)',day,key,item,now);
+   if(netNew)this.sql.exec('insert into seen(day,user,item,at) values(?,?,?,?) on conflict do nothing',day,netKey,item,now);
    if(needs&&!counting)this.sql.exec('update humanok set left=coalesce(left,?)-1 where user=?',grant,key);
    return Response.json({ok:true,n,distinct:distinct+1});
   }
@@ -184,7 +197,7 @@ export const quizTarget=nonce=>parseInt(nonce.slice(-2),16)%6;
 // challenge to respaldo /humano/h; api.hcaptcha.com confirms it (secret HCAPTCHA_SECRET, only in zzanime-respaldo) and the
 // challenge is marked for 10 minutes. humanOk then also needs that mark. HCAPTCHA_REQUIRED switches from «optional» (while
 // the page without hCaptcha may still be cached) to «always»; HCAPTCHA_RULES=required forces it (tests).
-const HCAPTCHA_REQUIRED=false;
+const HCAPTCHA_REQUIRED=true; // 13/11 paso 2: página con hCaptcha publicada y probada por Robin
 export const HCAPTCHA_SITEKEY='3374dfc8-6f08-4830-88f6-32b271d45404';
 export async function hcaptchaVerify(env,token,ip,fetcher){
  if(!env.HCAPTCHA_SECRET||!/^[A-Za-z0-9._-]{10,8192}$/.test(token||''))return false;
@@ -214,7 +227,7 @@ export async function humanOk(env,token,ip,fetcher){
  * Answers 'ok', 'human' (needs the check: 428) or 'limit' (429). "count" only records; any failure answers 'ok'.
  * LINK_SOFT (50) distinct a day or LINK_BURST (4) in 10 min need the check; cap LINK_DAY (150), LINK_NEW_DAY (60) for
  * accounts of the last 7 days; past LINK_BAN (300) attempts the account and its device are banned as in quotaAllows. */
-export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=null,human='',out=null}={}){
+export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=null,human='',out=null,ip=''}={}){
  const enforce=env.LINK_RULES==='enforce',now=Date.now();
  if(!env.QUOTA){if(enforce)throw new QuotaUnavailable();return 'ok';}
  if(!user)return enforce?'limit':'ok';
@@ -222,7 +235,7 @@ export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return 'limit';
  const probe=enforce?gate(env,now):false;
  try{
-  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||1)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
+  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||1)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:'')+(netOf(ip)?'&ip='+encodeURIComponent(netOf(ip))+'&ipcap='+(Number(env.LINK_IP_DAY)||90):''):'&cap=100000&h=1';
   const x=await counterJson(env,stub,'https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''));
   if(!enforce||x.ok===true)return 'ok';
   if(x.banned===true){remember(key,now);return 'limit';}

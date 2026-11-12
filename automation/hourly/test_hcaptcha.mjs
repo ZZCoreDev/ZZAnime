@@ -51,4 +51,10 @@ assert.equal((await handle(new Request('https://respaldo.zzanime.uk/humano/h',{m
 await mark(cdata,'P1_token-para-editor');
 const editorEnv={ARCHIVE:{fetch:req=>handle(req,env,net)}};assert.equal(await hcaptchaPassed(editorEnv,cdata),true,'editor sees the mark');
 assert.equal(await hcaptchaPassed(editorEnv,'1'.repeat(32)),false);
+// 13/11 repaso: anonymous GET/POST limited per connection; the editor's binding call (no IP) is not
+{let n=0;const limited={...env,CHANNEL_LIMIT:{limit:async({key})=>({success:key!=='h:198.51.100.7'||++n<=3})}};
+ const ask=()=>handle(new Request('https://respaldo.zzanime.uk/humano/h?n='+cdata,{headers:{'CF-Connecting-IP':'198.51.100.7'}}),limited,net);
+ for(let i=0;i<3;i++)assert.equal((await ask()).status,200);assert.equal((await ask()).status,429,'4th from the same connection');
+ assert.equal((await handle(new Request('https://respaldo.zzanime.uk/humano/h?n='+cdata),limited,net)).status,200,'binding call without IP');
+ assert.equal((await handle(new Request('https://respaldo.zzanime.uk/humano/h',{method:'PUT'}),limited,net)).status,405);}
 console.log('hCaptcha: casilla + hCaptcha + dibujo; marca solo con hCaptcha confirmado, por reto; editor la consulta OK');

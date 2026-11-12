@@ -76,10 +76,12 @@ const PAGE_ORIGIN='https://zzanime.uk';
 async function humanRoute(request,env,fetcher){
  const cors={'Access-Control-Allow-Origin':PAGE_ORIGIN,'Vary':'Origin','Cache-Control':'no-store','Content-Type':'application/json'},answer=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:cors});
  if(request.method==='OPTIONS')return new Response(null,{status:204,headers:{...cors,'Access-Control-Allow-Methods':'POST','Access-Control-Allow-Headers':'Content-Type','Access-Control-Max-Age':'600'}});
- if(request.method==='GET')return answer({ok:await hcaptchaPassed({QUOTA:env.QUOTA},new URL(request.url).searchParams.get('n')||'')});
- if(request.method!=='POST')return answer({ok:false},405);
+ if(request.method!=='GET'&&request.method!=='POST')return answer({ok:false},405);
+ // 13/11 repaso: GET and POST from the internet are limited per connection (Cloudflare always sets CF-Connecting-IP there), so
+ // nobody can spend the counter's daily budget with anonymous requests; the editor's binding call carries no IP.
  const ip=request.headers.get('CF-Connecting-IP')||'';
  if(env.CHANNEL_LIMIT&&ip){const {success}=await env.CHANNEL_LIMIT.limit({key:'h:'+ip});if(!success)return answer({ok:false,error:'slow_down'},429);}
+ if(request.method==='GET')return answer({ok:await hcaptchaPassed({QUOTA:env.QUOTA},new URL(request.url).searchParams.get('n')||'')});
  let form;try{const text=await request.text();if(text.length>10000)return answer({ok:false},413);form=new URLSearchParams(text);}catch{return answer({ok:false},400);}
  const nonce=form.get('n')||'',token=form.get('t')||'';if(!/^[a-f0-9]{32}$/.test(nonce))return answer({ok:false},400);
  if(!await hcaptchaVerify(env,token,ip,fetcher))return answer({ok:false});
@@ -117,7 +119,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   if(env.LINK_RULES==='enforce'&&user){const series=await seriesOf(env,prefix,path.slice(1+prefix.length));
    if(!series)return deny(404,'not_found'); // not in the current publication: never served uncounted
    const linkItem='s:'+series,token=request.headers.get('X-ZZ-Human')||'';
-   const out={},r=await linkAllows(env,{user,fresh,device,ban,item:linkItem,out,human:token?await humanOk(env,token,ip,fetcher):''});
+   const out={},r=await linkAllows(env,{user,fresh,device,ban,item:linkItem,out,ip,human:token?await humanOk(env,token,ip,fetcher):''});
    // 12/11 sexta revisión W6-02: the editor's web corrections read series through its relay and cannot show the box;
    // the editor owner with authenticator (aal2, checked with Supabase only at this point) is not asked.
    if(r==='human'&&!await owner(request,fetcher))return new Response(JSON.stringify({error:'human',...(out.challenge?{challenge:out.challenge}:{})}),{status:428,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});if(r==='limit')return deny(429,'daily_limit');}

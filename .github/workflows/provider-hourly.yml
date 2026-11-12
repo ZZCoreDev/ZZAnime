@@ -80,6 +80,7 @@ jobs:
           node --no-warnings test_humano_estricto.mjs
           node --no-warnings test_identidad_serie.mjs
           node --no-warnings test_hcaptcha.mjs
+          node --no-warnings test_tope_conexion.mjs
           python3 test_new_series.py
           node --no-warnings ../help-worker/test_help_worker.mjs
           node --no-warnings ../help-worker/test_signal_security.mjs

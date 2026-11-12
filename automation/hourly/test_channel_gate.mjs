@@ -81,7 +81,7 @@ async function rotationCheck(CHECK,RESET){
 {const {DatabaseSync}=await import('node:sqlite');const {Quota,quizTarget}=await import('./quota.mjs');const {handle:H,resetKeys:R}=await import('./channel_gate.mjs');
  const db=new DatabaseSync(':memory:'),state={storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const rows=s.all(...b);return {toArray:()=>rows};}s.run(...b);return {toArray:()=>[]};}}}};
  const obj=new Quota(state),QUOTA={idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})};
- let cdata='',verifies=0;const net=async(url,init)=>{if(String(url).includes('siteverify')){verifies++;return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));}return fetcher(url,init);};
+ let cdata='',verifies=0;const net=async(url,init)=>{if(String(url).includes('siteverify')){verifies++;await obj.fetch(new Request('https://quota/hmark?n='+cdata));return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));}return fetcher(url,init);};
  const pub=(await import('./test_publicacion.mjs')).publication(),reg=p=>{const m=/^\/((?:voe|extra)\/)?(series\/([^/]+)\.bin)$/.exec(p);if(m)pub.add(m[1]||'',m[2],pub.key(m[3]));return p;};
  const env={ASSETS:pub,REQUIRE_SESSION:'true',LINK_RULES:'enforce',LINK_SOFT:'1',LINK_BURST:'100',LINK_DAY:'10',LINK_BAN:'50',TURNSTILE_SECRET:'s',QUOTA};
  R();const tk=await token({iss:ISS,role:'authenticated',aud:'authenticated',sub:'hum-1',exp:Math.floor(Date.now()/1000)+600});
