@@ -116,6 +116,27 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
   if len(index['series'])<=1:break
   oldest=min(rows,key=lambda p:recency[p]);entry=index['series'].pop(sha(oldest.encode()));files.pop(entry['path'],None);rows.pop(oldest)
  return index,files
+# R6-07 (sexta revisión): the proof failure goes to the PUBLIC Actions log. Never copy collector messages there (an
+# exception or JSON.parse message can carry an address): only an allow-list of fields with checked values.
+_CAUSES={'address-not-found','redirect','rate-limit','access-denied','source-http','identity-mismatch','unlisted-episode','no-approved-provider','options-missing','budget-limit','parser-or-network','observed-options','extra-only','voe-only'}
+def _chapter(u):
+  m=re.search(r'/([a-z0-9-]{1,120})/([1-9][0-9]{0,4})/?$',str(u))
+  return m.group(1)+'/'+m.group(2) if m else 'unrecognised'
+def public_diagnostics(errors,diagnostics,keep):
+  out={}
+  for u in sorted(set(errors or {})|set(diagnostics or {})):
+    if not keep(u):continue
+    entry={'failed':u in (errors or {})};trace=(diagnostics or {}).get(u)
+    for src,v in (trace.items() if isinstance(trace,dict) else []):
+      if src not in ('identity','jk','tio','flv') or not isinstance(v,dict):continue
+      stage=v.get('stage');status=v.get('status');retry=v.get('retryAt')
+      entry[src]={'stage':stage if isinstance(stage,str) and re.fullmatch(r'[a-z-]{1,30}',stage) else 'other',
+                  'status':status if type(status) is int and 100<=status<=599 else None,
+                  'cause':v.get('cause') if v.get('cause') in _CAUSES else 'other',
+                  **({'cachedFailure':True} if v.get('cachedFailure') is True else {}),
+                  **({'retryAt':retry} if type(retry) in (int,float) or (isinstance(retry,str) and re.fullmatch(r'[0-9TZ:.+-]{10,35}',retry)) else {})}
+    out[_chapter(u)]=entry
+  return out
 def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
  if proof and '--publish' in sys.argv:raise ValueError('La prueba no puede publicar en producción (auditoría S-01)')
@@ -205,7 +226,7 @@ def main():
    except Exception as error:print(json.dumps({'megaCheckError':type(error).__name__+': '+str(error)[:120]}))
   index,files=build(state,approved,now,plays=play_votes.load(D,now=now),marks=skip_marks.load(D,now=now),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
   _res=locals().get('result') or {}
-  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())<2):raise ValueError('Two-series proof incomplete; do not activate: '+json.dumps({'index':{k:v.get('episodes') for k,v in index['series'].items()},'collected':{u.split('/')[-3]+'/'+u.split('/')[-2]:sorted({str(p.get('name'))+('' if approved.get(sha((p['name']+chr(0)+l).encode())) else ':no') for p in e.get('providers',[]) for l in p.get('links',[])}) for u,e in state['episodes'].items()},'source':{k:_res.get(k) for k in ('held','primary','requests','cacheHits')},'errors':{k:str(v)[:160] for k,v in (_res.get('errors') or {}).items() if 'psyren' in k or 'dark-summoner' in k},'diagnostics':{k:json.dumps(v)[:300] for k,v in (_res.get('diagnostics') or {}).items() if 'psyren' in k or 'dark-summoner' in k}},ensure_ascii=False))  # sin enlaces (registro público)
+  if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())<2):raise ValueError('Two-series proof incomplete; do not activate: '+json.dumps({'index':{k:v.get('episodes') for k,v in index['series'].items()},'collected':{u.split('/')[-3]+'/'+u.split('/')[-2]:sorted({str(p.get('name'))+('' if approved.get(sha((p['name']+chr(0)+l).encode())) else ':no') for p in e.get('providers',[]) for l in p.get('links',[])}) for u,e in state['episodes'].items()},'source':{k:_res.get(k) for k in ('held','primary','requests','cacheHits')},'sources':public_diagnostics(_res.get('errors'),_res.get('diagnostics'),lambda k:'psyren' in k or 'dark-summoner' in k)},ensure_ascii=False))  # sin enlaces (registro público)
   public=(W/'public-key.der').read_bytes()
   private=os.environ.get('ZZ_SIGNING_KEY','')
   key=serialization.load_pem_private_key(private.encode(),None) if private else None
