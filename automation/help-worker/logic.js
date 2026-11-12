@@ -124,16 +124,23 @@ export class Store{
   const out=new Map();
   for(const r of this.rows('SELECT device,asn,zone,created,options,voter FROM seen WHERE episode=?',episode))for(const o of JSON.parse(r.options)){
    if(!optionAllowed(o))continue;
-   let t=out.get(o.okey);if(!t){t={...o,devices:new Set(),asns:new Set(),zones:new Set(),voters:new Set(),first:r.created};out.set(o.okey,t);}
+   let t=out.get(o.okey);if(!t){t={...o,devices:new Set(),asns:new Set(),zones:new Set(),voters:new Set(),byVoter:new Map(),first:r.created};out.set(o.okey,t);}
    // 12/11 auditoría M-07: the account behind each answer (server-side hash of the session sub); rows stored before keep
    // counting as their device (historical), so one account with several devices or networks is ONE voter.
-   t.voters.add(r.voter||'d:'+r.device);t.devices.add(r.device);t.asns.add(r.asn);if(r.zone)t.zones.add(r.zone);t.first=Math.min(t.first,r.created);
+   const v=r.voter||'d:'+r.device;t.voters.add(v);t.devices.add(r.device);t.asns.add(r.asn);if(r.zone)t.zones.add(r.zone);
+   // 12/11 novena revisión (opcional M-07): which networks/zones each voter reported, to pair one network per voter.
+   let b=t.byVoter.get(v);if(!b){b={asns:new Set(),zones:new Set()};t.byVoter.set(v,b);}b.asns.add(r.asn);if(r.zone)b.zones.add(r.zone);t.first=Math.min(t.first,r.created);
   }
   return out;
  }
  // Two devices on two networks (ASN). With sameAsnZones>0, the same network also counts when that many
  // devices come from as many different zones; that path is accepted only on a matching file name.
- static quorum(t,sameAsnZones){return t.devices.size>=2&&(t.voters?t.voters.size>=2:true)&&(t.asns.size>=2||(sameAsnZones>0&&t.devices.size>=sameAsnZones&&t.zones.size>=sameAsnZones));}
+ // 12/11: networks (or zones) that can be given to DIFFERENT voters, one each (maximum bipartite matching): three accounts
+ // with three networks seen only through one of them count as one network, not three.
+ static paired(t,field){if(!t.byVoter)return t[field].size;const owner=new Map();const voters=[...t.byVoter.values()];
+  const assign=(i,seen)=>{for(const x of voters[i][field]){if(seen.has(x))continue;seen.add(x);if(!owner.has(x)||assign(owner.get(x),seen)){owner.set(x,i);return true;}}return false;};
+  let n=0;for(let i=0;i<voters.length;i++)if(assign(i,new Set()))n++;return n;}
+ static quorum(t,sameAsnZones){return t.devices.size>=2&&(t.voters?t.voters.size>=2:true)&&(Store.paired(t,'asns')>=2||(sameAsnZones>0&&t.devices.size>=sameAsnZones&&Store.paired(t,'zones')>=sameAsnZones));}
  // Stores each new answer and returns the options that just reached quorum and still need their file
  // name checked. A chapter with enough accepted options answers 'enough'.
  submit(items,limits,expires,now,sameAsnZones=0){
@@ -150,7 +157,7 @@ export class Store{
    status[it.episode]=known&&!it.renew?'duplicate':'stored';
    for(const t of this.tally(it.episode).values()){
     if(!Store.quorum(t,sameAsnZones))continue;
-    const previous=decided.get(t.okey),d=previous&&currentDecision(previous)?previous:null,c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:Math.min(t.devices.size,t.voters.size),asns:Math.min(t.asns.size,t.voters.size),zones:Math.min(t.zones.size,t.voters.size),first:t.first};
+    const previous=decided.get(t.okey),d=previous&&currentDecision(previous)?previous:null,c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:Math.min(t.devices.size,t.voters.size),asns:Store.paired(t,'asns'),zones:Store.paired(t,'zones'),first:t.first};
     if(d&&d.verdict!=='unknown')continue;
     if(d&&t.family!=='mega'&&c.asns>=3){this.decide([{...c,verdict:'unknown',policy:SUBMIT_POLICY_VERSION}],now);continue;}
     if(d&&now-d.checked<RECHECK)continue;

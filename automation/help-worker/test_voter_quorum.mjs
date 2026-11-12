@@ -14,4 +14,12 @@ const now=Date.now(),limits=[['x',1e9,1]];
 {const s=new Store(sqlite());// rows without voter (stored before M-07) keep counting as devices
  s.submit([item('old1',1,undefined)],limits,now+1e9,now);s.submit([item('old2',2,undefined)],limits,now+1e9,now);
  assert.equal(Store.quorum([...s.tally(ep).values()][0],0),true,'historical rows unchanged');}
-console.log('M-07 voter quorum PASS');
+// 12/11 (novena revisión, opcional): one network per voter. A on ASN 1,2,3 and B, C only on ASN 1 = 2 paired networks, not 3.
+{const s=new Store(sqlite());
+ for(const [d,a] of [['a1',1],['a2',2],['a3',3]])s.submit([item(d,a,'v:A')],limits,now+1e9,now);
+ s.submit([item('b1',1,'v:B')],limits,now+1e9,now);const r=s.submit([item('c1',1,'v:C')],limits,now+1e9,now);
+ const t=[...s.tally(ep).values()][0];assert.equal(t.voters.size,3);assert.equal(t.asns.size,3);assert.equal(Store.paired(t,'asns'),2,'only two accounts can each bring a different network');
+ assert.ok(r.inspect.every(c=>c.asns<=2),'decision records 2 networks, so quorum3 (3 networks) is not reached');}
+{const s=new Store(sqlite());for(const [d,a,v] of [['x1',1,'v:X'],['y1',2,'v:Y'],['z1',3,'v:Z']])s.submit([item(d,a,v)],limits,now+1e9,now);
+ assert.equal(Store.paired([...s.tally(ep).values()][0],'asns'),3,'three accounts on three networks: 3');}
+console.log('M-07 voter quorum PASS (con emparejamiento cuenta-red)');
