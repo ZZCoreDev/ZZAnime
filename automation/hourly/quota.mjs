@@ -11,6 +11,9 @@
 // Any failure lets the request through: a counting problem must never leave the app without links.
 const ITEM=/^[A-Za-z0-9._:\/-]{1,200}$/;
 const NONCE=/^[a-f0-9]{32}$/,HUMAN_WINDOW=30*60000;
+// 12/11 (Robin, más estricta): a series opened in the last SEEN_DAYS days reopens free and is not counted again (its
+// links were already given to that account); before, only the same day.
+const SEEN_DAYS=30;
 const KEY=/^(?:u:[A-Za-z0-9-]{1,64}|ip:[0-9A-Fa-f:.]{2,45}|d:[a-f0-9]{32})$/,DEVICE=/^[a-f0-9]{32}$/;
 export class Quota{
  constructor(state){this.sql=state.storage.sql;
@@ -26,6 +29,7 @@ export class Quota{
   this.sql.exec('create table if not exists humanok(user text primary key,until integer not null)');
   try{this.sql.exec('alter table humanok add column left integer');}catch{} // 12/11: series a check still unlocks
   this.sql.exec('create index if not exists challenges_user_until on challenges(user,until desc)'); // sexta W6-03
+  this.sql.exec('create index if not exists seen_user_item on seen(user,item,day)'); // 12/11: reopening within 30 days
   this.mem=new Map();this.day='';}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
  flush(){for(const [k,n] of this.mem){const i=k.indexOf('|');this.save(k.slice(0,i),k.slice(i+1),n);}}
@@ -33,7 +37,7 @@ export class Quota{
   const u=new URL(request.url),day=new Date().toISOString().slice(0,10),now=Date.now();
   if(day!==this.day){this.flush();this.mem.clear();this.day=day;
    this.sql.exec('delete from q where day<?',new Date(now-14*86400000).toISOString().slice(0,10));this.sql.exec('delete from marks where until<?',now);
-   this.sql.exec('delete from seen where day<?',new Date(now-2*86400000).toISOString().slice(0,10));this.sql.exec('delete from tries where day<?',new Date(now-14*86400000).toISOString().slice(0,10));
+   this.sql.exec('delete from seen where day<?',new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10));this.sql.exec('delete from tries where day<?',new Date(now-14*86400000).toISOString().slice(0,10));
    this.sql.exec('delete from challenges where until<?',now);this.sql.exec('delete from humanok where until<?',now);}
   const key=u.searchParams.get('k')||'';
   if(u.pathname==='/hit'){
@@ -56,11 +60,12 @@ export class Quota{
    if(DEVICE.test(device)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'d:'+device,now).toArray().length)return Response.json({banned:true});
    const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
    if(mark)return Response.json(mark.kind==='ban'?{banned:true}:{exempt:true,ok:true});
-   if(this.sql.exec('select 1 from seen where day=? and user=? and item=?',day,key,item).toArray().length)return Response.json({ok:true,seen:true});
-   const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',30),soft=num('soft',3),burst=num('burst',3),grant=num('grant',3),ban=Number(u.searchParams.get('ban'))||0;
+   if(this.sql.exec('select 1 from seen where user=? and item=? and day>=?',key,item,new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10)).toArray().length)return Response.json({ok:true,seen:true});
+   const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',30),soft=num('soft',3),burst=num('burst',3),grant=num('grant',1),ban=Number(u.searchParams.get('ban'))||0;
    const distinct=this.sql.exec('select count(*) c from seen where day=? and user=?',day,key).toArray()[0].c;
    const recent=this.sql.exec('select count(*) c from seen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
-   // 12/11 (Robin): a check no longer opens everything for 30 min: it unlocks «grant» new series (3) within that window.
+   // 12/11 (Robin): a check no longer opens everything for 30 min: it unlocks «grant» new series within that window.
+   // 12/11 (Robin, más estricta): grant is 1: the check only opens the series it was asked for; the next new one asks again.
    const counting=u.searchParams.get('h')==='1',ok=this.sql.exec('select left from humanok where user=? and until>?',key,now).toArray()[0];
    let passed=counting||!!ok&&(ok.left===null||ok.left>0);
    const hc=u.searchParams.get('hc')||'';
@@ -191,7 +196,7 @@ export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return 'limit';
  const probe=enforce?gate(env,now):false;
  try{
-  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||3)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
+  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||1)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
   const x=await counterJson(env,stub,'https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''));
   if(!enforce||x.ok===true)return 'ok';
   if(x.banned===true){remember(key,now);return 'limit';}

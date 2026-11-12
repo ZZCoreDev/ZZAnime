@@ -1,5 +1,5 @@
 // 12/11 (Robin): nobody copies more than 3 series with all their links without being stopped. Real channel + real Quota
-// (SQLite in memory), LINK_RULES enforce with the DEFAULT limits: 3 new series a day free, then each check unlocks 3 more,
+// (SQLite in memory), LINK_RULES enforce with the DEFAULT limits: 3 new series a day free, then EVERY new series asks (12/11),
 // voe/extra count as the same series, reopening is free, daily cap 30 (9 for new accounts).
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
@@ -28,15 +28,19 @@ assert.equal((await open(tk,'/voe/series/'+s('a')+'.bin')).status,200);assert.eq
 let r=await open(tk,'/extra/series/'+s('d')+'.bin');assert.equal(r.status,428,'4th series via extra/ asks');
 r=await open(tk,'/series/'+s('d')+'.bin');assert.equal(r.status,428);const {challenge}=await r.json();
 cdata=challenge;assert.equal((await open(tk,'/series/'+s('d')+'.bin',true)).status,200,'ticked: d opens');
-// the tick unlocks only 3 new series (d, e, f); the 7th asks again
-assert.equal((await open(tk,'/series/'+s('e')+'.bin')).status,200);assert.equal((await open(tk,'/voe/series/'+s('f')+'.bin')).status,200);
-assert.equal((await open(tk,'/series/'+s('g')+'.bin')).status,428,'after 3 more, the box again');
+// 12/11 (más estricta): the tick unlocks only d; its voe/extra are free, the next new series (e) asks again
+assert.equal((await open(tk,'/voe/series/'+s('d')+'.bin')).status,200,'voe of d: same series');
+r=await open(tk,'/series/'+s('e')+'.bin');assert.equal(r.status,428,'e asks again');cdata=(await r.json()).challenge;
+assert.equal((await open(tk,'/series/'+s('e')+'.bin',true)).status,200,'ticked: e opens');
+assert.equal((await open(tk,'/voe/series/'+s('f')+'.bin')).status,428,'f asks again (also via voe/)');
+// a challenge is bound to its own series: e's used challenge does not open f
+assert.equal((await open(tk,'/series/'+s('f')+'.bin',true)).status,428,'old challenge does not open another series');
 // reopening any opened series stays free
-for(const c of 'abcdef')assert.equal((await open(tk,'/series/'+s(c)+'.bin')).status,200,'reopen '+c);
+for(const c of 'abcde')assert.equal((await open(tk,'/series/'+s(c)+'.bin')).status,200,'reopen '+c);
 // a whole catalogue in one go is impossible: 30 a day at most even ticking every time
 {const t2=await user('copier');let opened=0,boxes=0;for(let i=0;i<60;i++){const name=(i.toString(16)+'z').repeat(64).slice(0,64);let x=await open(t2,'/series/'+name+'.bin');
   if(x.status===428){boxes++;cdata=(await x.json()).challenge;x=await open(t2,'/series/'+name+'.bin',true);}if(x.status===200)opened++;else break;}
- assert.equal(opened,30,'daily cap 30');assert.ok(boxes>=9,'a box every 3 series: '+boxes);}
+ assert.equal(opened,30,'daily cap 30');assert.equal(boxes,27,'a box for every new series after the 3rd: '+boxes);}
 // new accounts: 9 a day
 {const t3=await user('nueva',true);let opened=0;for(let i=0;i<20;i++){const name=('n'+i.toString(16)).repeat(64).slice(0,64);let x=await open(t3,'/series/'+name+'.bin');
   if(x.status===428){cdata=(await x.json()).challenge;x=await open(t3,'/series/'+name+'.bin',true);}if(x.status===200)opened++;else break;}
@@ -47,4 +51,4 @@ for(const c of 'abcdef')assert.equal((await open(tk,'/series/'+s(c)+'.bin')).sta
   return handle(new Request('https://respaldo.zzanime.uk'+reg('/series/'+name+'.bin'),{headers:{Authorization:'Bearer '+t4,'X-ZZ-Human':'tok-1234567890:q'+ans(cdata)}}),env,net);};
  assert.equal((await ask('w'.repeat(64),c=>(quizTarget(c)+1)%6)).status,428,'wrong picture: still asks');
  assert.equal((await ask('x'.repeat(64),c=>quizTarget(c))).status,200,'right picture: opens');}
-console.log('soy humano estricto: 3 libres, 3 por casilla, voe/extra = misma serie, 30/día (9 nuevas) OK');
+console.log('soy humano estricto: 3 libres, luego casilla en CADA serie nueva, voe/extra = misma serie, 30/día (9 nuevas) OK');

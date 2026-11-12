@@ -20,9 +20,10 @@ for(const mode of ['off','count'])for(let i=0;i<20;i++)assert.equal(await linkAl
  const again={};assert.equal(await linkAllows(e,{user:'u1',item:'s4',human:out.challenge,out:again}),'human','challenge of another series does nothing');
  assert.equal(await linkAllows(e,{user:'u1',item:'s3',human:out.challenge}),'ok','its own challenge passes');
  assert.equal(await linkAllows(e,{user:'u2',item:'t3',human:other.challenge}),'ok');
- assert.equal(await linkAllows(e,{user:'u2',item:'t4',human:other.challenge}),'ok','window: no new check for 30 min');
+ assert.equal(await linkAllows(e,{user:'u2',item:'t4',human:other.challenge}),'human','12/11 más estricta: a check opens only its own series');
  assert.equal(await linkAllows(e,{user:'u1',item:'s3'}),'ok','already opened: no new check');
- assert.equal(await linkAllows(e,{user:'u1',item:'s4'}),'ok','human window');
+ const s4={};assert.equal(await linkAllows(e,{user:'u1',item:'s4',out:s4}),'human','12/11 más estricta: the next new series asks again');
+ assert.equal(await linkAllows(e,{user:'u1',item:'s4',human:s4.challenge}),'ok','its own check opens it');
  assert.equal(await linkAllows(e,{user:'u1',item:'s5'}),'limit','cap 5');
  assert.equal(await linkAllows(e,{user:'u1',item:'s1'}),'ok','opened ones still work after the cap');
  assert.equal(await linkAllows(e,{user:'u3',item:'s5'}),'ok','other accounts unaffected');}

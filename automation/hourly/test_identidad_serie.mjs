@@ -27,13 +27,18 @@ let r=await get('extra/',file('D','e'));assert.equal(r.status,428,'4th series as
 // the challenge of any of its files is valid for the whole series: extra's challenge opens main, then voe/extra are free
 cdata=(await r.json()).challenge;assert.equal((await get('',file('D','m'),true)).status,200);
 assert.deepEqual(await all('D'),[200,200,200]);
-// one check = 3 new series (D, E, F); G asks again
-assert.deepEqual(await all('E'),[200,200,200]);assert.deepEqual(await all('F'),[200,200,200]);
-assert.equal((await get('',file('G','m'))).status,428,'G asks again');
+// 12/11 (más estricta): one check = that series only; E asks again
+assert.equal((await get('voe/',file('E','v'))).status,428,'E asks again');
+// a series opened on an earlier day (within 30 days) reopens free and is not counted again
+const ago=d=>new Date(Date.now()-d*86400000).toISOString().slice(0,10);
+db.prepare('insert into seen(day,user,item,at) values(?,?,?,?)').run(ago(20),'u:identidad','s:'+pub.key('G'),Date.now()-20*86400000);
+assert.deepEqual(await all('G'),[200,200,200],'opened 20 days ago: free');
+db.prepare('insert into seen(day,user,item,at) values(?,?,?,?)').run(ago(40),'u:identidad','s:'+pub.key('F'),Date.now()-40*86400000);
+assert.equal((await get('',file('F','m'))).status,428,'opened 40 days ago: counts as new');
 // a new publication of A (new file names) is the same series: free
 for(const [prefix,kind] of [['','m'],['voe/','v'],['extra/','e']])pub.remove(prefix,file('A',kind));publish('A','2');
 assert.equal((await get('',file('A','m','2'))).status,200,'revision of a series already opened: free');
 assert.equal((await get('',file('A','m'))).status,404,'old file not in the current index: 404, never served uncounted');
 // a file that is not in any index is 404 and is not counted
 assert.equal((await get('',file('Z','m'))).status,404);
-console.log('identidad de serie (R10-01): main/voe/extra con nombres distintos y revisiones cuentan 1; fuera del índice 404 OK');
+console.log('identidad de serie (R10-01): main/voe/extra con nombres distintos y revisiones cuentan 1; fuera del índice 404; reabrir en 30 días gratis OK');
