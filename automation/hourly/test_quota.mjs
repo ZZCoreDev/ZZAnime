@@ -78,3 +78,19 @@ forgetBans();{let hits=0;const ns=namespace(),e={QUOTA:{idFromName:()=>1,get:()=
  assert.equal(hits,before,'banned account: no more counter calls');}
 {const ns=namespace(),e={QUOTA:ns};const {quotaTally}=await import('./quota.mjs');await quotaTally(e,'old');await quotaTally(e,'new');await quotaTally(e,'new');const r=await (await ns.get().fetch('https://quota/report')).json();const d=Object.values(r.days)[0];assert.deepEqual(d.hosts,{old:1,new:2});assert.equal(d.accounts,0,'host tallies are not accounts');}
 console.log('quota PASS');
+// 12/11 R9-01: 10 s counted from the failure (even a slow one) and a single probe when they are over.
+{const real=Date.now;let t=1e12;Date.now=()=>t;try{
+ let calls=0,mode='slow';const q={idFromName:()=>1,get:()=>({fetch:async()=>{calls++;if(mode==='slow'){t+=15000;throw Error('slow failure');}if(mode==='hang')return new Promise(()=>{});return new Response('{"n":1,"over":false,"ban":false}');}})},e={QUOTA:q,QUOTA_MODE:'enforce'};
+ await assert.rejects(()=>quotaAllows(e,{user:'s1'}),/Quota counter unavailable/);assert.equal(calls,1);
+ t+=9000;await assert.rejects(()=>quotaAllows(e,{user:'s2'}),/Quota counter unavailable/);assert.equal(calls,1,'still inside the 10 s after a slow failure');
+ t+=2000;mode='hang';const probe=quotaAllows(e,{user:'p0'});
+ for(let i=1;i<5;i++)await assert.rejects(()=>quotaAllows(e,{user:'p'+i}),/Quota counter unavailable/);
+ assert.equal(calls,2,'one probe only while it is in flight');
+ mode='ok';probe.catch(()=>{});
+}finally{Date.now=real;}}
+{const real=Date.now;let t=2e12;Date.now=()=>t;try{
+ let calls=0,ok=false;const q={idFromName:()=>1,get:()=>({fetch:async()=>{calls++;if(!ok)throw Error('down');return new Response('{"n":1,"over":false,"ban":false}');}})},e={QUOTA:q,QUOTA_MODE:'enforce'};
+ await assert.rejects(()=>quotaAllows(e,{user:'r1'}),/Quota counter unavailable/);t+=10001;ok=true;
+ assert.equal(await quotaAllows(e,{user:'r2'}),true,'probe succeeds and closes the circuit');assert.equal(await quotaAllows(e,{user:'r3'}),true);assert.equal(calls,3,'each admitted request is counted');
+}finally{Date.now=real;}}
+console.log('R9-01 circuito OK');

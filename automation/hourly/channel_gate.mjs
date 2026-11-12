@@ -62,7 +62,8 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  // 10/11: how many apps still reach the channel by the old address (decides when to close it).
  // 12/11 octava revisión R8-01: this public, unauthenticated pointer only counts 1 request in TALLY_EVERY per instance, so
- // anonymous traffic cannot spend the counter that the series files need (the report keeps the old/new ratio).
+ // anonymous traffic cannot spend the counter that the series files need. The old/new figures are a rough estimate only
+ // (novena revisión: deterministic sampling does not keep the exact ratio); do not close the old address on them alone.
  if(path==='/channel.json'&&!(request.headers.get('X-ZZ-Cloud'))&&++tallyTick%TALLY_EVERY===0){const h=new URL(request.url).hostname;if(h.endsWith('.workers.dev'))await quotaTally(env,'old');else if(h.endsWith('zzanime.uk'))await quotaTally(env,'new');}
  if(PUBLIC.test(path))return env.ASSETS.fetch(request);
  // 11/11 auditoría M-04: lo leído con la llave de la nube tampoco va a cachés compartidas.
