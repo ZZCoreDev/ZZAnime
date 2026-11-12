@@ -79,6 +79,7 @@ jobs:
           node test_channel_gate.mjs
           node --no-warnings test_humano_estricto.mjs
           node --no-warnings test_identidad_serie.mjs
+          node --no-warnings test_hcaptcha.mjs
           python3 test_new_series.py
           node --no-warnings ../help-worker/test_help_worker.mjs
           node --no-warnings ../help-worker/test_signal_security.mjs

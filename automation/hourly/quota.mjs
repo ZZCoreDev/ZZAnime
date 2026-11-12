@@ -10,7 +10,7 @@
 // Counts live in memory and are saved every 10 requests (Workers Free write budget); a restart can lose a few.
 // Any failure lets the request through: a counting problem must never leave the app without links.
 const ITEM=/^[A-Za-z0-9._:\/-]{1,200}$/;
-const NONCE=/^[a-f0-9]{32}$/,HUMAN_WINDOW=30*60000;
+const NONCE=/^[a-f0-9]{32}$/,HUMAN_WINDOW=30*60000,HCAPTCHA_WINDOW=10*60000;
 // 12/11 (Robin, más estricta): a series opened in the last SEEN_DAYS days reopens free and is not counted again (its
 // links were already given to that account); before, only the same day.
 const SEEN_DAYS=30;
@@ -30,6 +30,8 @@ export class Quota{
   try{this.sql.exec('alter table humanok add column left integer');}catch{} // 12/11: series a check still unlocks
   this.sql.exec('create index if not exists challenges_user_until on challenges(user,until desc)'); // sexta W6-03
   this.sql.exec('create index if not exists seen_user_item on seen(user,item,day)'); // 12/11: reopening within 30 days
+  // 13/11 (Robin): challenges whose hCaptcha was solved (respaldo /humano/h); valid 10 minutes, checked with the box.
+  this.sql.exec('create table if not exists hpass(nonce text primary key,until integer not null)');
   this.mem=new Map();this.day='';}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
  flush(){for(const [k,n] of this.mem){const i=k.indexOf('|');this.save(k.slice(0,i),k.slice(i+1),n);}}
@@ -38,8 +40,11 @@ export class Quota{
   if(day!==this.day){this.flush();this.mem.clear();this.day=day;
    this.sql.exec('delete from q where day<?',new Date(now-14*86400000).toISOString().slice(0,10));this.sql.exec('delete from marks where until<?',now);
    this.sql.exec('delete from seen where day<?',new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10));this.sql.exec('delete from tries where day<?',new Date(now-14*86400000).toISOString().slice(0,10));
-   this.sql.exec('delete from challenges where until<?',now);this.sql.exec('delete from humanok where until<?',now);}
+   this.sql.exec('delete from challenges where until<?',now);this.sql.exec('delete from humanok where until<?',now);this.sql.exec('delete from hpass where until<?',now);}
   const key=u.searchParams.get('k')||'';
+  // 13/11: hCaptcha solved for a challenge (written only after api.hcaptcha.com confirmed it) and its check.
+  if(u.pathname==='/hmark'){const n=u.searchParams.get('n')||'';if(!NONCE.test(n))return new Response('{}',{status:400});this.sql.exec('insert into hpass(nonce,until) values(?,?) on conflict(nonce) do update set until=excluded.until',n,now+HCAPTCHA_WINDOW);return Response.json({ok:true});}
+  if(u.pathname==='/hcheck'){const n=u.searchParams.get('n')||'';return Response.json({ok:NONCE.test(n)&&this.sql.exec('select 1 from hpass where nonce=? and until>?',n,now).toArray().length>0});}
   if(u.pathname==='/hit'){
    if(!KEY.test(key))return Response.json({n:0});
    const device=u.searchParams.get('d')||'';
@@ -175,6 +180,25 @@ export async function quotaReport(env){return quotaStub(env).fetch('https://quot
 // switches from «checked when present» (transition, while the old page is still served) to «always required».
 const QUIZ_REQUIRED=true; // 12/11 paso 3: the page with the question is live (web afd1d612)
 export const quizTarget=nonce=>parseInt(nonce.slice(-2),16)%6;
+// 13/11 (Robin): hCaptcha is solved at the same time as the Cloudflare box. The page sends its one-use token with the
+// challenge to respaldo /humano/h; api.hcaptcha.com confirms it (secret HCAPTCHA_SECRET, only in zzanime-respaldo) and the
+// challenge is marked for 10 minutes. humanOk then also needs that mark. HCAPTCHA_REQUIRED switches from «optional» (while
+// the page without hCaptcha may still be cached) to «always»; HCAPTCHA_RULES=required forces it (tests).
+const HCAPTCHA_REQUIRED=false;
+export const HCAPTCHA_SITEKEY='3374dfc8-6f08-4830-88f6-32b271d45404';
+export async function hcaptchaVerify(env,token,ip,fetcher){
+ if(!env.HCAPTCHA_SECRET||!/^[A-Za-z0-9._-]{10,8192}$/.test(token||''))return false;
+ try{const body=new URLSearchParams({secret:env.HCAPTCHA_SECRET,response:token,sitekey:HCAPTCHA_SITEKEY});if(ip)body.set('remoteip',ip);
+  const r=await fetcher('https://api.hcaptcha.com/siteverify',{method:'POST',body,signal:AbortSignal.timeout(10000)});if(r.status!==200)return false;
+  const x=await r.json();return x?.success===true&&x.hostname==='zzanime.uk';}catch{return false;}
+}
+export async function hcaptchaMark(env,nonce){if(!NONCE.test(nonce||'')||!env.QUOTA)return false;try{const r=await quotaStub(env).fetch('https://quota/hmark?n='+nonce);return r.status===200;}catch{return false;}}
+/** The mark lives in zzanime-respaldo's counter; the editor asks it through its ARCHIVE binding. */
+export async function hcaptchaPassed(env,nonce){
+ if(!NONCE.test(nonce||''))return false;
+ try{const r=env.ARCHIVE?await env.ARCHIVE.fetch(new Request('https://respaldo.zzanime.uk/humano/h?n='+nonce)):await quotaStub(env).fetch('https://quota/hcheck?n='+nonce);
+  if(r.status!==200)return false;const x=await r.json();return x?.ok===true;}catch{return false;}
+}
 export async function humanOk(env,token,ip,fetcher){
  if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';
  const quiz=/^(.+):q([0-5])$/.exec(token);if(quiz)token=quiz[1];else if(QUIZ_REQUIRED)return '';
@@ -182,7 +206,9 @@ export async function humanOk(env,token,ip,fetcher){
   const r=await fetcher('https://challenges.cloudflare.com/turnstile/v0/siteverify',{method:'POST',body,signal:AbortSignal.timeout(10000)});
   if(r.status!==200)return '';const x=await r.json();
   const ok=x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'&&typeof x.cdata==='string'&&NONCE.test(x.cdata); /* M-05: origen, acción y reto exactos */
-  return ok&&(!quiz||Number(quiz[2])===quizTarget(x.cdata))?x.cdata:'';}catch{return '';}
+  if(!(ok&&(!quiz||Number(quiz[2])===quizTarget(x.cdata))))return '';
+  if((HCAPTCHA_REQUIRED||env.HCAPTCHA_RULES==='required')&&!await hcaptchaPassed(env,x.cdata))return '';
+  return x.cdata;}catch{return '';}
 }
 /** LINK_RULES (off|count|enforce): rules on opening links of distinct series/films for one verified account.
  * Answers 'ok', 'human' (needs the check: 428) or 'limit' (429). "count" only records; any failure answers 'ok'.

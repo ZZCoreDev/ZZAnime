@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
@@ -69,8 +69,25 @@ async function owner(request,fetcher){
  try{const r=await fetcher(ISSUER.replace('/auth/v1','/rest/v1/rpc/zz_editor_access'),{method:'POST',headers:{apikey:SUPABASE_KEY,Authorization:auth,'Content-Type':'application/json'},body:'{}',redirect:'manual',signal:AbortSignal.timeout(10000)});
   if(r.status!==200)return false;const x=await r.json();return x?.allowed===true&&x?.aal2===true;}catch{return false;}
 }
+// 13/11 (Robin): hCaptcha of the "soy humano" page (zzanime.uk/humano). POST n=<challenge>&t=<hCaptcha token> marks the
+// challenge once api.hcaptcha.com confirms it; GET ?n=<challenge> answers whether it was marked (the editor asks it). No
+// session needed (the page has none); a solved hCaptcha only adds to a box that still has to be passed for that challenge.
+const PAGE_ORIGIN='https://zzanime.uk';
+async function humanRoute(request,env,fetcher){
+ const cors={'Access-Control-Allow-Origin':PAGE_ORIGIN,'Vary':'Origin','Cache-Control':'no-store','Content-Type':'application/json'},answer=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:cors});
+ if(request.method==='OPTIONS')return new Response(null,{status:204,headers:{...cors,'Access-Control-Allow-Methods':'POST','Access-Control-Allow-Headers':'Content-Type','Access-Control-Max-Age':'600'}});
+ if(request.method==='GET')return answer({ok:await hcaptchaPassed({QUOTA:env.QUOTA},new URL(request.url).searchParams.get('n')||'')});
+ if(request.method!=='POST')return answer({ok:false},405);
+ const ip=request.headers.get('CF-Connecting-IP')||'';
+ if(env.CHANNEL_LIMIT&&ip){const {success}=await env.CHANNEL_LIMIT.limit({key:'h:'+ip});if(!success)return answer({ok:false,error:'slow_down'},429);}
+ let form;try{const text=await request.text();if(text.length>10000)return answer({ok:false},413);form=new URLSearchParams(text);}catch{return answer({ok:false},400);}
+ const nonce=form.get('n')||'',token=form.get('t')||'';if(!/^[a-f0-9]{32}$/.test(nonce))return answer({ok:false},400);
+ if(!await hcaptchaVerify(env,token,ip,fetcher))return answer({ok:false});
+ return answer({ok:await hcaptchaMark(env,nonce)});
+}
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
  const path=new URL(request.url).pathname;
+ if(path==='/humano/h')return humanRoute(request,env,fetcher);
  // The daily-cap report also answers the cloud's own key (health_watch.py warns of new bans); never the other /owner/ files.
  if(path==='/owner/quota.json'){if(!same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')&&!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
