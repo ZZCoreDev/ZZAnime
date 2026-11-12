@@ -33,7 +33,18 @@ const down={idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down')}})},b
 await assert.rejects(()=>quotaAllows({QUOTA:down,QUOTA_MODE:'enforce'},{user:'u'}),{name:'Error',message:'Quota counter unavailable'});
 await assert.rejects(()=>quotaAllows({QUOTA:bad,QUOTA_MODE:'enforce'},{user:'u'}),/Quota counter unavailable/);
 assert.equal(await quotaAllows({QUOTA:down,QUOTA_MODE:'count'},{user:'u'}),true);
-assert.equal(await quotaAllows({},{user:'u'}),true);assert.equal(await quotaAllows({QUOTA:namespace(),QUOTA_MODE:'enforce'},{}),true);
+assert.equal(await quotaAllows({},{user:'u'}),true);assert.equal(await quotaAllows({QUOTA:namespace()},{}),true,'counting only: unchanged');
+// 12/11 R8-02: enforced = no binding throws, no identity is refused, answers that are not a real counter shape close.
+await assert.rejects(()=>quotaAllows({QUOTA_MODE:'enforce'},{user:'u'}),/Quota counter unavailable/);
+assert.equal(await quotaAllows({QUOTA:namespace(),QUOTA_MODE:'enforce'},{}),false);
+const answer=(status,body)=>({idFromName:()=>1,get:()=>({fetch:async()=>new Response(body,{status})})});
+for(const [st,b] of [[503,'{"error":"unavailable"}'],[200,'{}'],[200,'[]'],[200,'false'],[503,'{"n":1,"over":false,"ban":false}'],[200,'{"n":"1","over":false,"ban":false}']])
+ await assert.rejects(()=>quotaAllows({QUOTA:answer(st,b),QUOTA_MODE:'enforce'},{user:'u'+st+b.length}),/Quota counter unavailable/,st+' '+b);
+assert.equal(await quotaAllows({QUOTA:answer(200,'{"n":1,"over":false,"ban":false}'),QUOTA_MODE:'enforce'},{user:'fine'}),true);
+assert.equal(await quotaAllows({QUOTA:answer(200,'{"n":0,"exempt":true}'),QUOTA_MODE:'enforce'},{user:'owner'}),true,'exempt owner still passes');
+// 12/11 R8-01: after a failure, 10 s of 503 without calling the counter again.
+{let calls=0;const flaky={idFromName:()=>1,get:()=>({fetch:async()=>{calls++;throw Error('down');}})},e={QUOTA:flaky,QUOTA_MODE:'enforce'};
+ for(let i=0;i<5;i++)await assert.rejects(()=>quotaAllows(e,{user:'c'+i}),/Quota counter unavailable/);assert.equal(calls,1,'circuit: one call, then 503 without the counter');}
 // Gate: series files count (by account or by IP), pointers do not; the ban asks Supabase with the caller's own session.
 const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']),jwk=await crypto.subtle.exportKey('jwk',pair.publicKey);
 const b64=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');

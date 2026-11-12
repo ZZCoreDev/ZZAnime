@@ -108,3 +108,10 @@ async function rotationCheck(CHECK,RESET){
  R();const down=async()=>new Response('x',{status:503});const r=await H(new Request('https://respaldo.zzanime.uk/series/a.bin',{headers:{Authorization:'Bearer '+tk}}),env,down);
  assert.equal(r.status,503);assert.equal(r.headers.get('Retry-After'),'30');R();
  console.log('dueño sin casilla y llaves caídas 503 OK');}
+{// 12/11 R8-01: anonymous pointer reads spend the counter at most once every 50 (per instance), never once per read.
+ let calls=0;const counting={idFromName:()=>1,get:()=>({fetch:async()=>{calls++;return new Response('{}');}})};
+ for(let i=0;i<24;i++)assert.equal((await handle(new Request('https://respaldo.zzanime.uk/channel.json'),{...on,QUOTA:counting},fetcher)).status,200);
+ assert.ok(calls<=1,'pointer telemetry sampled: '+calls);
+ calls=0;for(let i=0;i<3;i++)assert.equal((await handle(new Request('https://respaldo.zzanime.uk/series/'+'c'.repeat(64)+'.bin'),{...on,QUOTA:counting,QUOTA_MODE:'enforce'},fetcher)).status,401);
+ assert.equal(calls,0,'no session: 401 before the counter');
+ console.log('R8-01 puntero y anónimos sin gastar el contador OK');}

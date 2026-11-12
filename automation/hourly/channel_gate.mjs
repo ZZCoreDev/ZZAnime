@@ -21,6 +21,7 @@ async function loadKeys(fetcher,now){
 }
 // 12/11 sexta revisión W6-01: every reload (expired cache or unknown kid) shares one 30 s pause, and a key set that
 // cannot be read is «unavailable» (JwksUnavailable → 503 Retry-After), never «no session» (which forced a new login).
+let tallyTick=0;const TALLY_EVERY=50;
 export class JwksUnavailable extends Error{constructor(){super('JWKS unavailable');this.code='upstream_503';}}
 async function refresh(fetcher,now){
  if(loading){try{await loading;lastOk=true;}catch{lastOk=false;}return lastOk?'ok':'down';}
@@ -60,7 +61,9 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(path==='/owner/quota.json'){if(!same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')&&!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  // 10/11: how many apps still reach the channel by the old address (decides when to close it).
- if(path==='/channel.json'&&!(request.headers.get('X-ZZ-Cloud'))){const h=new URL(request.url).hostname;if(h.endsWith('.workers.dev'))await quotaTally(env,'old');else if(h.endsWith('zzanime.uk'))await quotaTally(env,'new');}
+ // 12/11 octava revisión R8-01: this public, unauthenticated pointer only counts 1 request in TALLY_EVERY per instance, so
+ // anonymous traffic cannot spend the counter that the series files need (the report keeps the old/new ratio).
+ if(path==='/channel.json'&&!(request.headers.get('X-ZZ-Cloud'))&&++tallyTick%TALLY_EVERY===0){const h=new URL(request.url).hostname;if(h.endsWith('.workers.dev'))await quotaTally(env,'old');else if(h.endsWith('zzanime.uk'))await quotaTally(env,'new');}
  if(PUBLIC.test(path))return env.ASSETS.fetch(request);
  // 11/11 auditoría M-04: lo leído con la llave de la nube tampoco va a cachés compartidas.
  if(same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')){const r=await env.ASSETS.fetch(request),h=new Headers(r.headers);h.set('Cache-Control','private, no-store');return new Response(r.body,{status:r.status,headers:h});}

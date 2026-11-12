@@ -41,7 +41,15 @@ forgetBans();{const e=E();for(let i=0;i<12;i++)await opened(e,{user:'owner',item
 // 12/11 M-03: enforced and the counter fails -> closed (QuotaUnavailable); only counting -> unchanged.
 await assert.rejects(()=>linkAllows({LINK_RULES:'enforce',QUOTA:{idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down');}})}},{user:'x',item:'y'}),/Quota counter unavailable/);
 assert.equal(await linkAllows({LINK_RULES:'count',QUOTA:{idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down');}})}},{user:'x',item:'y'}),'ok');
-assert.equal(await linkAllows({LINK_RULES:'enforce'},{user:'x',item:'y'}),'ok');
+// 12/11 R8-02: enforced = no binding throws, no account or bad item is refused, non-counter answers close.
+await assert.rejects(()=>linkAllows({LINK_RULES:'enforce'},{user:'x',item:'y'}),/Quota counter unavailable/);
+assert.equal(await linkAllows({LINK_RULES:'enforce',QUOTA:namespace()},{item:'y'}),'limit');
+assert.equal(await linkAllows({LINK_RULES:'enforce',QUOTA:namespace()},{user:'x',item:'bad item!'}),'limit');
+assert.equal(await linkAllows({LINK_RULES:'count'},{user:'x',item:'y'}),'ok');
+const answer=(status,body)=>({idFromName:()=>1,get:()=>({fetch:async()=>new Response(body,{status})})});
+for(const [st,b] of [[503,'{"ok":true}'],[200,'{}'],[200,'[]'],[200,'{"ok":"yes"}']])
+ await assert.rejects(()=>linkAllows({LINK_RULES:'enforce',QUOTA:answer(st,b)},{user:'x'+st+b.length,item:'y'}),/Quota counter unavailable/,st+' '+b);
+assert.equal(await linkAllows({LINK_RULES:'enforce',QUOTA:answer(200,'{"over":true,"n":5,"distinct":5}')},{user:'z',item:'y'}),'limit');
 // report shows distinct link openings
 {const ns=namespace(),e={QUOTA:ns,LINK_RULES:'count'};for(let i=0;i<3;i++)await linkAllows(e,{user:'r',item:'i'+i});const rep=await (await ns.get().fetch('https://quota/report')).json();assert.deepEqual(Object.values(rep.links)[0],{accounts:1,top:3,over50:0});}
 // Turnstile siteverify

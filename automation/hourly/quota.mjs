@@ -127,19 +127,28 @@ async function settleBan(stub,key,dev,r,now){
 // 12/11/2026 auditoría M-03: if the counter cannot answer while the limit is enforced, nothing is let through (before, a
 // failing or exhausted counter lifted every limit for the rest of the day). The caller answers 503 Retry-After.
 export class QuotaUnavailable extends Error{constructor(){super('Quota counter unavailable');this.code='upstream_503';}}
+// 12/11/2026 octava revisión R8-02: with the limit enforced, a missing binding, an identity the counter cannot hold or an
+// answer that is not one of the counter's real shapes never means «allowed». R8-01: after a counter failure the next 10 s
+// answer 503 without calling it again (one probe after that), so a failing counter is not hammered.
+const CIRCUIT_MS=10000,circuit=new WeakMap();
+function circuitOpen(env,now){return (circuit.get(env.QUOTA)||0)>now;}
+function trip(env,now){if(env.QUOTA&&typeof env.QUOTA==='object')circuit.set(env.QUOTA,now+CIRCUIT_MS);}
+async function counterJson(stub,url){const r=await stub.fetch(url);if(r.status!==200)throw Error('counter status');const x=await r.json();if(!x||typeof x!=='object'||Array.isArray(x))throw Error('counter shape');return x;}
 export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=false}={}){
- if(!env.QUOTA)return true;
- const key=user?'u:'+user:ip?'ip:'+ip:'',dev=DEVICE.test(device)?device:'';if(!KEY.test(key))return true;
  const enforce=env.QUOTA_MODE==='enforce',now=Date.now();
+ if(!env.QUOTA){if(enforce)throw new QuotaUnavailable();return true;}
+ const key=user?'u:'+user:ip?'ip:'+ip:'',dev=DEVICE.test(device)?device:'';if(!KEY.test(key))return !enforce;
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return false;
+ if(enforce&&circuitOpen(env,now))throw new QuotaUnavailable();
  try{
   const stub=quotaStub(env),normal=user?Number(env.QUOTA_DAY)||300:Number(env.QUOTA_IP_DAY)||3000,cap=user&&fresh?Number(env.QUOTA_NEW_DAY)||60:normal,banAt=user?Number(env.QUOTA_BAN)||2*normal:0;
-  const x=await (await stub.fetch('https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:''))).json();
-  if(x.exempt)return true;
-  if(x.banned){if(enforce)remember(key,now);return !enforce;}
+  const x=await counterJson(stub,'https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:''));
+  if(x.exempt===true)return true;
+  if(x.banned===true){if(enforce)remember(key,now);return !enforce;}
+  if(!(Number.isSafeInteger(x.n)&&x.n>=1&&typeof x.over==='boolean'&&typeof x.ban==='boolean'))throw Error('counter shape');
   if(x.ban&&enforce&&ban)return await settleBan(stub,key,dev,await ban(),now);
   return !(x.over&&enforce);
- }catch{if(enforce)throw new QuotaUnavailable();return true;}
+ }catch{if(enforce){trip(env,now);throw new QuotaUnavailable();}return true;}
 }
 /** Counts one signed-pointer request by address kind ('old' | 'new'); failures are ignored. */
 export async function quotaTally(env,kind){if(!env.QUOTA)return;try{await quotaStub(env).fetch('https://quota/tally?k=h:'+kind);}catch{}}
@@ -159,17 +168,20 @@ export async function humanOk(env,token,ip,fetcher){
  * LINK_SOFT (50) distinct a day or LINK_BURST (4) in 10 min need the check; cap LINK_DAY (150), LINK_NEW_DAY (60) for
  * accounts of the last 7 days; past LINK_BAN (300) attempts the account and its device are banned as in quotaAllows. */
 export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=null,human='',out=null}={}){
- if(!env.QUOTA||!user)return 'ok';
- const key='u:'+user,dev=DEVICE.test(device)?device:'';if(!KEY.test(key)||!ITEM.test(item))return 'ok';
  const enforce=env.LINK_RULES==='enforce',now=Date.now();
+ if(!env.QUOTA){if(enforce)throw new QuotaUnavailable();return 'ok';}
+ if(!user)return enforce?'limit':'ok';
+ const key='u:'+user,dev=DEVICE.test(device)?device:'';if(!KEY.test(key)||!ITEM.test(item))return enforce?'limit':'ok';
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return 'limit';
+ if(enforce&&circuitOpen(env,now))throw new QuotaUnavailable();
  try{
   const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||60:Number(env.LINK_DAY)||150)+'&soft='+(Number(env.LINK_SOFT)||50)+'&burst='+(Number(env.LINK_BURST)||4)+'&ban='+(Number(env.LINK_BAN)||300)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
-  const x=await (await stub.fetch('https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''))).json();
-  if(!enforce||x.ok)return 'ok';
-  if(x.banned){remember(key,now);return 'limit';}
-  if(x.human){if(out&&typeof x.challenge==='string'&&NONCE.test(x.challenge))out.challenge=x.challenge;return 'human';}
-  if(x.ban&&ban)return await settleBan(stub,key,dev,await ban(),now)?'ok':'limit';
-  return 'limit';
- }catch{if(enforce)throw new QuotaUnavailable();return 'ok';}
+  const x=await counterJson(stub,'https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''));
+  if(!enforce||x.ok===true)return 'ok';
+  if(x.banned===true){remember(key,now);return 'limit';}
+  if(x.human===true){if(out&&typeof x.challenge==='string'&&NONCE.test(x.challenge))out.challenge=x.challenge;return 'human';}
+  if(x.ban===true&&ban)return await settleBan(stub,key,dev,await ban(),now)?'ok':'limit';
+  if(x.ban===true||x.over===true)return 'limit';
+  throw Error('counter shape');
+ }catch{if(enforce){trip(env,now);throw new QuotaUnavailable();}return 'ok';}
 }
