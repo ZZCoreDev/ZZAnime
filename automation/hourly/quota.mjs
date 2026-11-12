@@ -24,6 +24,7 @@ export class Quota{
   // consumed here (one Durable Object: atomic). A passed check then counts for HUMAN_WINDOW for that account.
   this.sql.exec('create table if not exists challenges(nonce text primary key,user text not null,item text not null,until integer not null)');
   this.sql.exec('create table if not exists humanok(user text primary key,until integer not null)');
+  try{this.sql.exec('alter table humanok add column left integer');}catch{} // 12/11: series a check still unlocks
   this.sql.exec('create index if not exists challenges_user_until on challenges(user,until desc)'); // sexta W6-03
   this.mem=new Map();this.day='';}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
@@ -56,15 +57,18 @@ export class Quota{
    const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
    if(mark)return Response.json(mark.kind==='ban'?{banned:true}:{exempt:true,ok:true});
    if(this.sql.exec('select 1 from seen where day=? and user=? and item=?',day,key,item).toArray().length)return Response.json({ok:true,seen:true});
-   const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',150),soft=num('soft',50),burst=num('burst',4),ban=Number(u.searchParams.get('ban'))||0;
+   const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',30),soft=num('soft',3),burst=num('burst',3),grant=num('grant',3),ban=Number(u.searchParams.get('ban'))||0;
    const distinct=this.sql.exec('select count(*) c from seen where day=? and user=?',day,key).toArray()[0].c;
    const recent=this.sql.exec('select count(*) c from seen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
-   let passed=u.searchParams.get('h')==='1'||this.sql.exec('select 1 from humanok where user=? and until>?',key,now).toArray().length>0;
+   // 12/11 (Robin): a check no longer opens everything for 30 min: it unlocks «grant» new series (3) within that window.
+   const counting=u.searchParams.get('h')==='1',ok=this.sql.exec('select left from humanok where user=? and until>?',key,now).toArray()[0];
+   let passed=counting||!!ok&&(ok.left===null||ok.left>0);
    const hc=u.searchParams.get('hc')||'';
    if(!passed&&NONCE.test(hc)&&this.sql.exec('select 1 from challenges where nonce=? and user=? and item=? and until>?',hc,key,item,now).toArray().length){
     this.sql.exec('delete from challenges where nonce=?',hc);
-    this.sql.exec('insert into humanok(user,until) values(?,?) on conflict(user) do update set until=excluded.until',key,now+HUMAN_WINDOW);passed=true;}
-   if(distinct<cap&&(distinct>=soft||recent>=burst)&&!passed){
+    this.sql.exec('insert into humanok(user,until,left) values(?,?,?) on conflict(user) do update set until=excluded.until,left=excluded.left',key,now+HUMAN_WINDOW,grant);passed=true;}
+   const needs=distinct>=soft||recent>=burst;
+   if(distinct<cap&&needs&&!passed){
     this.sql.exec('delete from challenges where user=? and nonce not in (select nonce from challenges where user=? order by until desc limit 4)',key,key);
     const nonce=[...crypto.getRandomValues(new Uint8Array(16))].map(b=>b.toString(16).padStart(2,'0')).join('');
     this.sql.exec('insert into challenges(nonce,user,item,until) values(?,?,?,?)',nonce,key,item,now+600000);
@@ -74,6 +78,7 @@ export class Quota{
    if(ban>0&&n>ban)return Response.json({ban:true,n,distinct});
    if(distinct>=cap)return Response.json({over:true,n,distinct});
    this.sql.exec('insert into seen(day,user,item,at) values(?,?,?,?)',day,key,item,now);
+   if(needs&&!counting)this.sql.exec('update humanok set left=coalesce(left,?)-1 where user=?',grant,key);
    return Response.json({ok:true,n,distinct:distinct+1});
   }
   // 10/11: which address apps use (old workers.dev vs zzanime.uk), counted on the signed pointer only.
@@ -179,7 +184,7 @@ export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return 'limit';
  const probe=enforce?gate(env,now):false;
  try{
-  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||60:Number(env.LINK_DAY)||150)+'&soft='+(Number(env.LINK_SOFT)||50)+'&burst='+(Number(env.LINK_BURST)||4)+'&ban='+(Number(env.LINK_BAN)||300)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
+  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||3)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:''):'&cap=100000&h=1';
   const x=await counterJson(env,stub,'https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''));
   if(!enforce||x.ok===true)return 'ok';
   if(x.banned===true){remember(key,now);return 'limit';}

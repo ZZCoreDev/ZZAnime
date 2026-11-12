@@ -81,10 +81,10 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   // 10/11 (app 180): LINK_RULES "enforce" counts distinct series/films opened (reopening is free), asks "soy humano" (428)
   // from 50 a day or 5 in 10 minutes, caps at 150 (60 new accounts), bans at 300 attempts. Episode lists (/lista/) stay free.
   // Off until 180 is the required version: old apps download these files when opening a ficha.
-  const main=path.startsWith('/series/');
+  const main=path.startsWith('/series/'),linkItem=path.replace(/^\/(?:voe|extra)\//,'/'); // 12/11: voe/extra = the same series
   // voe/ and extra/ hold the same series' extra servers: they keep the request cap (quotaAllows) so one tap is not counted 3 times.
-  if(env.LINK_RULES==='enforce'&&user&&main){const token=request.headers.get('X-ZZ-Human')||'';
-   const out={},r=await linkAllows(env,{user,fresh,device,ban,item:path,out,human:token?await humanOk(env,token,ip,fetcher):''});
+  if(env.LINK_RULES==='enforce'&&user){const token=request.headers.get('X-ZZ-Human')||'';
+   const out={},r=await linkAllows(env,{user,fresh,device,ban,item:linkItem,out,human:token?await humanOk(env,token,ip,fetcher):''});
    // 12/11 sexta revisión W6-02: the editor's web corrections read series through its relay and cannot show the box;
    // the editor owner with authenticator (aal2, checked with Supabase only at this point) is not asked.
    if(r==='human'&&!await owner(request,fetcher))return new Response(JSON.stringify({error:'human',...(out.challenge?{challenge:out.challenge}:{})}),{status:428,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});if(r==='limit')return deny(429,'daily_limit');}
