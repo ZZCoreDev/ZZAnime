@@ -1,7 +1,7 @@
 // 10/11 (app 180): rules on opening links of distinct series/films; episode lists free; "soy humano" with Turnstile.
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
-import {Quota,linkAllows,humanOk,forgetBans} from './quota.mjs';
+import {Quota,linkAllows,humanOk,forgetBans,quizTarget} from './quota.mjs';
 function fakeState(){const db=new DatabaseSync(':memory:');return {storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const rows=s.all(...b);return {toArray:()=>rows};}s.run(...b);return {toArray:()=>[]};}}}};}
 function namespace(){const obj=new Quota(fakeState());return {idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})};}
 // 11/11 quinta revisión: passing the check = opening with the challenge the 428 gave (as Siteverify returns it in cData).
@@ -54,7 +54,7 @@ assert.equal(await linkAllows({LINK_RULES:'enforce',QUOTA:answer(200,'{"over":tr
 {const ns=namespace(),e={QUOTA:ns,LINK_RULES:'count'};for(let i=0;i<3;i++)await linkAllows(e,{user:'r',item:'i'+i});const rep=await (await ns.get().fetch('https://quota/report')).json();assert.deepEqual(Object.values(rep.links)[0],{accounts:1,top:3,over50:0});}
 // Turnstile siteverify
 {const C='0123456789abcdef0123456789abcdef';let sent=null;const f=async(u,init)=>{sent={u,body:String(init.body)};return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata:C}));};
- assert.equal(await humanOk({TURNSTILE_SECRET:'sec'},'tok-1234567890','1.2.3.4',f),C,'answers the challenge');assert.match(sent.u,/siteverify$/);assert.match(sent.body,/secret=sec/);assert.match(sent.body,/remoteip=1.2.3.4/);
+ assert.equal(await humanOk({TURNSTILE_SECRET:'sec'},'tok-1234567890:q'+quizTarget(C),'1.2.3.4',f),C,'answers the challenge');assert.equal(await humanOk({TURNSTILE_SECRET:'sec'},'tok-1234567890','1.2.3.4',f),'','12/11: without the picture answer it does not count');assert.equal(await humanOk({TURNSTILE_SECRET:'sec'},'tok-1234567890:q'+((quizTarget(C)+1)%6),'1.2.3.4',f),'','wrong picture');assert.match(sent.u,/siteverify$/);assert.match(sent.body,/secret=sec/);assert.match(sent.body,/remoteip=1.2.3.4/);
  assert.equal(await humanOk({},'tok-1234567890','',f),'','no secret');assert.equal(await humanOk({TURNSTILE_SECRET:'s'},'bad token!','',f),'');
  assert.equal(await humanOk({TURNSTILE_SECRET:'s'},'tok-1234567890','',async()=>new Response('{"success":true,"hostname":"evil.example","action":"enlaces","cdata":"'+C+'"}')),'','other site');
  assert.equal(await humanOk({TURNSTILE_SECRET:'s'},'tok-1234567890','',async()=>new Response('{"success":false}')),'');

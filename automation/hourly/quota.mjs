@@ -168,7 +168,7 @@ export async function quotaReport(env){return quotaStub(env).fetch('https://quot
 // 12/11 (Robin): after the box, the page asks a small picture question («toca el zorro») that has to be answered by hand.
 // The page sends «<turnstile token>:q<answer>»; the right answer comes from the challenge (quizTarget). QUIZ_REQUIRED
 // switches from «checked when present» (transition, while the old page is still served) to «always required».
-const QUIZ_REQUIRED=false;
+const QUIZ_REQUIRED=true; // 12/11 paso 3: the page with the question is live (web afd1d612)
 export const quizTarget=nonce=>parseInt(nonce.slice(-2),16)%6;
 export async function humanOk(env,token,ip,fetcher){
  if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';

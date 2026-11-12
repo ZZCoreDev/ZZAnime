@@ -13,11 +13,12 @@ function quota(){const db=new DatabaseSync(':memory:'),state={storage:{sql:{exec
  const obj=new Quota(state);return {idFromName:n=>n,get:()=>({fetch:u=>obj.fetch(new Request(u))})};}
 let cdata='';const net=async(url,init)=>{const u=String(url);if(u.includes('siteverify'))return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));
  if(u.includes('zz_editor_access'))return new Response('{"allowed":false,"aal2":false}');return new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'k1'}]}));};
-const env={ASSETS:{fetch:()=>new Response('file')},REQUIRE_SESSION:'true',LINK_RULES:'enforce',QUOTA_MODE:'enforce',TURNSTILE_SECRET:'s',QUOTA:quota()};
+const pub=(await import('./test_publicacion.mjs')).publication(),reg=p=>{const m=/^\/((?:voe|extra)\/)?(series\/([^/]+)\.bin)$/.exec(p);if(m)pub.add(m[1]||'',m[2],pub.key(m[3]));return p;};
+const env={ASSETS:pub,REQUIRE_SESSION:'true',LINK_RULES:'enforce',QUOTA_MODE:'enforce',TURNSTILE_SECRET:'s',QUOTA:quota()};
 resetKeys();forgetBans();
 const user=async(sub,fresh=false)=>token({iss:ISS,role:'authenticated',aud:'authenticated',sub,exp:Math.floor(Date.now()/1000)+600,...(fresh?{zz_new:true}:{})});
 const s=c=>c.repeat(64).slice(0,64);
-const open=async(tk,path,human)=>handle(new Request('https://respaldo.zzanime.uk'+path,{headers:{Authorization:'Bearer '+tk,...(human?{'X-ZZ-Human':'tok-1234567890'}:{})}}),env,net);
+const open=async(tk,path,human)=>handle(new Request('https://respaldo.zzanime.uk'+reg(path),{headers:{Authorization:'Bearer '+tk,...(human?{'X-ZZ-Human':'tok-1234567890:q'+(/^[a-f0-9]{32}$/.test(cdata)?quizTarget(cdata):0)}:{})}}),env,net);
 const tk=await user('robin-test');
 // 3 new series free
 for(const c of 'abc')assert.equal((await open(tk,'/series/'+s(c)+'.bin')).status,200,'free '+c);
@@ -43,7 +44,7 @@ for(const c of 'abcdef')assert.equal((await open(tk,'/series/'+s(c)+'.bin')).sta
 // 12/11: the picture question after the box: right answer opens, wrong answer does not.
 {const t4=await user('quiz');for(const c of '123')await open(t4,'/series/'+('q'+c).repeat(32)+'.bin');
  const ask=async(name,ans)=>{const r=await open(t4,'/series/'+name+'.bin');assert.equal(r.status,428);cdata=(await r.json()).challenge;
-  return handle(new Request('https://respaldo.zzanime.uk/series/'+name+'.bin',{headers:{Authorization:'Bearer '+t4,'X-ZZ-Human':'tok-1234567890:q'+ans(cdata)}}),env,net);};
+  return handle(new Request('https://respaldo.zzanime.uk'+reg('/series/'+name+'.bin'),{headers:{Authorization:'Bearer '+t4,'X-ZZ-Human':'tok-1234567890:q'+ans(cdata)}}),env,net);};
  assert.equal((await ask('w'.repeat(64),c=>(quizTarget(c)+1)%6)).status,428,'wrong picture: still asks');
  assert.equal((await ask('x'.repeat(64),c=>quizTarget(c))).status,200,'right picture: opens');}
 console.log('soy humano estricto: 3 libres, 3 por casilla, voe/extra = misma serie, 30/día (9 nuevas) OK');

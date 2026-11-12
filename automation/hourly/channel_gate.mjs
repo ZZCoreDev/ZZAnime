@@ -22,6 +22,20 @@ async function loadKeys(fetcher,now){
 // 12/11 sexta revisión W6-01: every reload (expired cache or unknown kid) shares one 30 s pause, and a key set that
 // cannot be read is «unavailable» (JwksUnavailable → 503 Retry-After), never «no session» (which forced a new login).
 let tallyTick=0;const TALLY_EVERY=50;
+// 12/11 décima revisión R10-01: which series each published file belongs to, read from our own signed channel and index
+// (main, voe/ and extra/ each have their own). Cached per index version; a file that is not in the current index is 404.
+const seriesMaps=new Map();
+async function seriesOf(env,prefix,file){try{return await seriesOfIndex(env,prefix,file);}catch(e){if(e instanceof QuotaUnavailable)throw e;throw new QuotaUnavailable();}}
+async function seriesOfIndex(env,prefix,file){
+ const ch=await env.ASSETS.fetch(new Request('https://assets.local/'+prefix+'channel.json'));if(ch.status!==200)throw new QuotaUnavailable();
+ const payload=JSON.parse((await ch.json()).payload),indexPath=String(payload.indexPath||'');if(!/^indexes\/[a-f0-9]{64}\.bin$/.test(indexPath))throw new QuotaUnavailable();
+ let cached=seriesMaps.get(prefix);
+ if(!cached||cached.index!==indexPath){const r=await env.ASSETS.fetch(new Request('https://assets.local/'+prefix+indexPath));if(r.status!==200)throw new QuotaUnavailable();
+  const index=await r.json(),map=new Map();for(const [key,entry] of Object.entries(index?.series||{}))if(/^[a-f0-9]{64}$/.test(key)&&typeof entry?.path==='string')map.set(entry.path,key);
+  cached={index:indexPath,map};seriesMaps.set(prefix,cached);}
+ return cached.map.get(file)||'';
+}
+export function resetSeriesMaps(){seriesMaps.clear();}
 export class JwksUnavailable extends Error{constructor(){super('JWKS unavailable');this.code='upstream_503';}}
 async function refresh(fetcher,now){
  if(loading){try{await loading;lastOk=true;}catch{lastOk=false;}return lastOk?'ok':'down';}
@@ -81,9 +95,11 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   // 10/11 (app 180): LINK_RULES "enforce" counts distinct series/films opened (reopening is free), asks "soy humano" (428)
   // from 50 a day or 5 in 10 minutes, caps at 150 (60 new accounts), bans at 300 attempts. Episode lists (/lista/) stay free.
   // Off until 180 is the required version: old apps download these files when opening a ficha.
-  const main=path.startsWith('/series/'),linkItem=path.replace(/^\/(?:voe|extra)\//,'/'); // 12/11: voe/extra = the same series
+  const main=path.startsWith('/series/'),prefix=(/^\/((?:voe|extra)\/)/.exec(path)||[])[1]||'';
   // voe/ and extra/ hold the same series' extra servers: they keep the request cap (quotaAllows) so one tap is not counted 3 times.
-  if(env.LINK_RULES==='enforce'&&user){const token=request.headers.get('X-ZZ-Human')||'';
+  if(env.LINK_RULES==='enforce'&&user){const series=await seriesOf(env,prefix,path.slice(1+prefix.length));
+   if(!series)return deny(404,'not_found'); // not in the current publication: never served uncounted
+   const linkItem='s:'+series,token=request.headers.get('X-ZZ-Human')||'';
    const out={},r=await linkAllows(env,{user,fresh,device,ban,item:linkItem,out,human:token?await humanOk(env,token,ip,fetcher):''});
    // 12/11 sexta revisión W6-02: the editor's web corrections read series through its relay and cannot show the box;
    // the editor owner with authenticator (aal2, checked with Supabase only at this point) is not asked.
