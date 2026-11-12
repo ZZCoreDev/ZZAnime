@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
@@ -72,7 +72,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(!user&&env.REQUIRE_SESSION!=='false')return deny(401,'login'); // 11/11 A-03: cerrado salvo «false» explícito
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
- if(/^\/(?:(?:voe|extra)\/)?series\//.test(path)){
+ if(/^\/(?:(?:voe|extra)\/)?series\//.test(path))try{
   const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban=user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null;
   // 10/11 (app 180): LINK_RULES "enforce" counts distinct series/films opened (reopening is free), asks "soy humano" (428)
   // from 50 a day or 5 in 10 minutes, caps at 150 (60 new accounts), bans at 300 attempts. Episode lists (/lista/) stay free.
@@ -86,7 +86,7 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
    if(r==='human'&&!await owner(request,fetcher))return new Response(JSON.stringify({error:'human',...(out.challenge?{challenge:out.challenge}:{})}),{status:428,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});if(r==='limit')return deny(429,'daily_limit');}
   else{if(!await quotaAllows(env,{user,fresh,ip,device,ban}))return deny(429,'daily_limit');
    if(env.LINK_RULES==='count'&&user&&main)await linkAllows(env,{user,fresh,device,item:path});}
- }
+ }catch(e){if(e instanceof QuotaUnavailable)return new Response(JSON.stringify({error:'unavailable',retry:true}),{status:503,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store','Retry-After':'120'}});throw e;}
  // 11/11 auditoría M-04: lo que necesita sesión nunca va a cachés compartidas.
  {const r=await env.ASSETS.fetch(request),h=new Headers(r.headers);h.set('Cache-Control','private, no-store');return new Response(r.body,{status:r.status,headers:h});}
 }

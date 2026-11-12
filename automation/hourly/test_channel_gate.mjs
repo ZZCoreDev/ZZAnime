@@ -10,6 +10,12 @@ const assets={fetch:()=>new Response('file')},on={ASSETS:assets,REQUIRE_SESSION:
 const get=(path,headers={},env=on)=>handle(new Request('https://respaldo.zzanime.uk'+path,{headers}),env,fetcher);
 resetKeys();const t=await token({iss:ISS,role:'authenticated',aud:'authenticated',sub:'u1',exp:Math.floor(Date.now()/1000)+600});
 assert.equal((await get('/channel.json')).status,200);assert.equal((await get('/voe/channel.json')).status,200);
+{// 12/11 M-03: series files while the daily counter is down -> 503 Retry-After 120, never served without a limit.
+ const down={idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down')}})},hdr={Authorization:'Bearer '+t};
+ for(const p of ['/series/x.bin','/voe/series/x.bin','/extra/series/x.bin']){const r=await get(p,hdr,{...on,QUOTA:down,QUOTA_MODE:'enforce'});assert.equal(r.status,503,p);assert.equal(r.headers.get('Retry-After'),'120');assert.equal(r.headers.get('Cache-Control'),'private, no-store');}
+ assert.equal((await get('/series/x.bin',hdr,{...on,QUOTA:down,QUOTA_MODE:'enforce',LINK_RULES:'enforce'})).status,503,'link rules enforced: also closed');
+ assert.equal((await get('/series/x.bin',hdr,{...on,QUOTA:down,QUOTA_MODE:'count'})).status,200,'counting only: unchanged');
+ assert.equal((await get('/channel.json',hdr,{...on,QUOTA:down,QUOTA_MODE:'enforce'})).status,200,'channel pointer does not need the counter');}
 assert.equal((await get('/indexes/'+'a'.repeat(64)+'.bin')).status,401);
 assert.equal((await get('/series/'+'a'.repeat(64)+'.bin',{Authorization:'Bearer '+t})).status,200);
 assert.equal((await get('/series/x.bin',{'X-ZZ-Cloud':'cloud-secret-123'})).status,200);

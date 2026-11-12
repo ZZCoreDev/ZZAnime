@@ -38,7 +38,9 @@ forgetBans();{const e=E();let bans=0;const ban=async()=>{bans++;return {banned:t
 forgetBans();{const e=E();for(let i=0;i<12;i++)await opened(e,{user:'owner',item:'o'+i,ban:async()=>({banned:false})});
  assert.equal(await linkAllows(e,{user:'owner',item:'o99'}),'ok','exempt owner');}
 // failures let through
-assert.equal(await linkAllows({LINK_RULES:'enforce',QUOTA:{idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down');}})}},{user:'x',item:'y'}),'ok');
+// 12/11 M-03: enforced and the counter fails -> closed (QuotaUnavailable); only counting -> unchanged.
+await assert.rejects(()=>linkAllows({LINK_RULES:'enforce',QUOTA:{idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down');}})}},{user:'x',item:'y'}),/Quota counter unavailable/);
+assert.equal(await linkAllows({LINK_RULES:'count',QUOTA:{idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down');}})}},{user:'x',item:'y'}),'ok');
 assert.equal(await linkAllows({LINK_RULES:'enforce'},{user:'x',item:'y'}),'ok');
 // report shows distinct link openings
 {const ns=namespace(),e={QUOTA:ns,LINK_RULES:'count'};for(let i=0;i<3;i++)await linkAllows(e,{user:'r',item:'i'+i});const rep=await (await ns.get().fetch('https://quota/report')).json();assert.deepEqual(Object.values(rep.links)[0],{accounts:1,top:3,over50:0});}

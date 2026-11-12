@@ -27,8 +27,12 @@ assert.equal(await quotaAllows(env,{user:'user-3',ban:async()=>null}),false);
 env={QUOTA:namespace(),QUOTA_IP_DAY:'2',QUOTA_MODE:'enforce'};
 assert.deepEqual([await quotaAllows(env,{ip:'203.0.113.9'}),await quotaAllows(env,{ip:'203.0.113.9'}),await quotaAllows(env,{ip:'203.0.113.9'})],[true,true,false]);
 assert.equal(await quotaAllows(env,{ip:'203.0.113.10'}),true);
-// failures and missing pieces let through
-assert.equal(await quotaAllows({QUOTA:{idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down')}})},QUOTA_MODE:'enforce'},{user:'u'}),true);
+// 12/11 M-03: a failing counter closes while the limit is enforced (QuotaUnavailable -> 503); counting-only mode and
+// missing pieces still let through.
+const down={idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down')}})},bad={idFromName:()=>1,get:()=>({fetch:async()=>new Response('not json')})};
+await assert.rejects(()=>quotaAllows({QUOTA:down,QUOTA_MODE:'enforce'},{user:'u'}),{name:'Error',message:'Quota counter unavailable'});
+await assert.rejects(()=>quotaAllows({QUOTA:bad,QUOTA_MODE:'enforce'},{user:'u'}),/Quota counter unavailable/);
+assert.equal(await quotaAllows({QUOTA:down,QUOTA_MODE:'count'},{user:'u'}),true);
 assert.equal(await quotaAllows({},{user:'u'}),true);assert.equal(await quotaAllows({QUOTA:namespace(),QUOTA_MODE:'enforce'},{}),true);
 // Gate: series files count (by account or by IP), pointers do not; the ban asks Supabase with the caller's own session.
 const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']),jwk=await crypto.subtle.exportKey('jwk',pair.publicKey);

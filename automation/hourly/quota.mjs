@@ -124,6 +124,9 @@ async function settleBan(stub,key,dev,r,now){
  return false;
 }
 /** fresh: account created in the last 7 days (claim zz_new, 031): smaller daily cap QUOTA_NEW_DAY (60) (REVISION-2 N2). */
+// 12/11/2026 auditoría M-03: if the counter cannot answer while the limit is enforced, nothing is let through (before, a
+// failing or exhausted counter lifted every limit for the rest of the day). The caller answers 503 Retry-After.
+export class QuotaUnavailable extends Error{constructor(){super('Quota counter unavailable');this.code='upstream_503';}}
 export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=false}={}){
  if(!env.QUOTA)return true;
  const key=user?'u:'+user:ip?'ip:'+ip:'',dev=DEVICE.test(device)?device:'';if(!KEY.test(key))return true;
@@ -136,7 +139,7 @@ export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=fa
   if(x.banned){if(enforce)remember(key,now);return !enforce;}
   if(x.ban&&enforce&&ban)return await settleBan(stub,key,dev,await ban(),now);
   return !(x.over&&enforce);
- }catch{return true;}
+ }catch{if(enforce)throw new QuotaUnavailable();return true;}
 }
 /** Counts one signed-pointer request by address kind ('old' | 'new'); failures are ignored. */
 export async function quotaTally(env,kind){if(!env.QUOTA)return;try{await quotaStub(env).fetch('https://quota/tally?k=h:'+kind);}catch{}}
@@ -168,5 +171,5 @@ export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=
   if(x.human){if(out&&typeof x.challenge==='string'&&NONCE.test(x.challenge))out.challenge=x.challenge;return 'human';}
   if(x.ban&&ban)return await settleBan(stub,key,dev,await ban(),now)?'ok':'limit';
   return 'limit';
- }catch{return 'ok';}
+ }catch{if(enforce)throw new QuotaUnavailable();return 'ok';}
 }
