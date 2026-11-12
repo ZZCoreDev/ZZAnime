@@ -165,12 +165,19 @@ export async function quotaReport(env){return quotaStub(env).fetch('https://quot
 // 10/11: "soy humano" (Cloudflare Turnstile). The app sends the one-use token of zzanime.uk/humano in X-ZZ-Human;
 // siteverify checks it with the secret TURNSTILE_SECRET (never in the code). Any failure means "not checked".
 // 11/11 quinta revisión: answers the challenge (cData) the box was opened with, or '' (also when the token is not valid).
+// 12/11 (Robin): after the box, the page asks a small picture question («toca el zorro») that has to be answered by hand.
+// The page sends «<turnstile token>:q<answer>»; the right answer comes from the challenge (quizTarget). QUIZ_REQUIRED
+// switches from «checked when present» (transition, while the old page is still served) to «always required».
+const QUIZ_REQUIRED=false;
+export const quizTarget=nonce=>parseInt(nonce.slice(-2),16)%6;
 export async function humanOk(env,token,ip,fetcher){
  if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';
+ const quiz=/^(.+):q([0-5])$/.exec(token);if(quiz)token=quiz[1];else if(QUIZ_REQUIRED)return '';
  try{const body=new URLSearchParams({secret:env.TURNSTILE_SECRET,response:token});if(ip)body.set('remoteip',ip);
   const r=await fetcher('https://challenges.cloudflare.com/turnstile/v0/siteverify',{method:'POST',body,signal:AbortSignal.timeout(10000)});
   if(r.status!==200)return '';const x=await r.json();
-  return x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'&&typeof x.cdata==='string'&&NONCE.test(x.cdata)?x.cdata:''; /* M-05: origen, acción y reto exactos */}catch{return '';}
+  const ok=x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'&&typeof x.cdata==='string'&&NONCE.test(x.cdata); /* M-05: origen, acción y reto exactos */
+  return ok&&(!quiz||Number(quiz[2])===quizTarget(x.cdata))?x.cdata:'';}catch{return '';}
 }
 /** LINK_RULES (off|count|enforce): rules on opening links of distinct series/films for one verified account.
  * Answers 'ok', 'human' (needs the check: 428) or 'limit' (429). "count" only records; any failure answers 'ok'.

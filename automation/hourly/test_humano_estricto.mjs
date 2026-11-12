@@ -4,7 +4,7 @@
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {handle,resetKeys} from './channel_gate.mjs';
-import {Quota,forgetBans} from './quota.mjs';
+import {Quota,forgetBans,quizTarget} from './quota.mjs';
 const ISS='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1';
 const pair=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']),jwk=await crypto.subtle.exportKey('jwk',pair.publicKey);
 const b64=x=>Buffer.from(typeof x==='string'?x:new Uint8Array(x)).toString('base64url');
@@ -40,4 +40,10 @@ for(const c of 'abcdef')assert.equal((await open(tk,'/series/'+s(c)+'.bin')).sta
 {const t3=await user('nueva',true);let opened=0;for(let i=0;i<20;i++){const name=('n'+i.toString(16)).repeat(64).slice(0,64);let x=await open(t3,'/series/'+name+'.bin');
   if(x.status===428){cdata=(await x.json()).challenge;x=await open(t3,'/series/'+name+'.bin',true);}if(x.status===200)opened++;else break;}
  assert.equal(opened,9,'new account cap 9');}
+// 12/11: the picture question after the box: right answer opens, wrong answer does not.
+{const t4=await user('quiz');for(const c of '123')await open(t4,'/series/'+('q'+c).repeat(32)+'.bin');
+ const ask=async(name,ans)=>{const r=await open(t4,'/series/'+name+'.bin');assert.equal(r.status,428);cdata=(await r.json()).challenge;
+  return handle(new Request('https://respaldo.zzanime.uk/series/'+name+'.bin',{headers:{Authorization:'Bearer '+t4,'X-ZZ-Human':'tok-1234567890:q'+ans(cdata)}}),env,net);};
+ assert.equal((await ask('w'.repeat(64),c=>(quizTarget(c)+1)%6)).status,428,'wrong picture: still asks');
+ assert.equal((await ask('x'.repeat(64),c=>quizTarget(c))).status,200,'right picture: opens');}
 console.log('soy humano estricto: 3 libres, 3 por casilla, voe/extra = misma serie, 30/día (9 nuevas) OK');
