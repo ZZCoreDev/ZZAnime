@@ -108,7 +108,7 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS marks(episode TEXT,kind TEXT,device TEXT,day INTEGER,start INTEGER,stop INTEGER,PRIMARY KEY(episode,kind,device))');
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
-  for(const q of ['ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}
+  for(const q of ['ALTER TABLE seen ADD COLUMN voter TEXT','ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}
   sql.exec('CREATE TABLE IF NOT EXISTS devices(device TEXT PRIMARY KEY,net TEXT,first INTEGER)');for(const q of ['ALTER TABLE plays ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN net TEXT'])try{sql.exec(q);}catch{}}
  rows(q,...p){return this.sql.exec(q,...p).toArray();}
  take(limits,expires){
@@ -122,16 +122,18 @@ export class Store{
  }
  tally(episode){
   const out=new Map();
-  for(const r of this.rows('SELECT device,asn,zone,created,options FROM seen WHERE episode=?',episode))for(const o of JSON.parse(r.options)){
+  for(const r of this.rows('SELECT device,asn,zone,created,options,voter FROM seen WHERE episode=?',episode))for(const o of JSON.parse(r.options)){
    if(!optionAllowed(o))continue;
-   let t=out.get(o.okey);if(!t){t={...o,devices:new Set(),asns:new Set(),zones:new Set(),first:r.created};out.set(o.okey,t);}
-   t.devices.add(r.device);t.asns.add(r.asn);if(r.zone)t.zones.add(r.zone);t.first=Math.min(t.first,r.created);
+   let t=out.get(o.okey);if(!t){t={...o,devices:new Set(),asns:new Set(),zones:new Set(),voters:new Set(),first:r.created};out.set(o.okey,t);}
+   // 12/11 auditoría M-07: the account behind each answer (server-side hash of the session sub); rows stored before keep
+   // counting as their device (historical), so one account with several devices or networks is ONE voter.
+   t.voters.add(r.voter||'d:'+r.device);t.devices.add(r.device);t.asns.add(r.asn);if(r.zone)t.zones.add(r.zone);t.first=Math.min(t.first,r.created);
   }
   return out;
  }
  // Two devices on two networks (ASN). With sameAsnZones>0, the same network also counts when that many
  // devices come from as many different zones; that path is accepted only on a matching file name.
- static quorum(t,sameAsnZones){return t.devices.size>=2&&(t.asns.size>=2||(sameAsnZones>0&&t.devices.size>=sameAsnZones&&t.zones.size>=sameAsnZones));}
+ static quorum(t,sameAsnZones){return t.devices.size>=2&&(t.voters?t.voters.size>=2:true)&&(t.asns.size>=2||(sameAsnZones>0&&t.devices.size>=sameAsnZones&&t.zones.size>=sameAsnZones));}
  // Stores each new answer and returns the options that just reached quorum and still need their file
  // name checked. A chapter with enough accepted options answers 'enough'.
  submit(items,limits,expires,now,sameAsnZones=0){
@@ -140,15 +142,15 @@ export class Store{
   for(const it of items){
    // A renewal reading is the evidence /v1/renewals reports: keep this device's latest reading of the page (date and
    // options), even when the chapter already has enough options or the device had read it before.
-   if(it.renew)this.sql.exec('INSERT INTO seen(episode,device,asn,created,options,zone) VALUES(?,?,?,?,?,?) ON CONFLICT(episode,device) DO UPDATE SET created=excluded.created,options=excluded.options,asn=excluded.asn,zone=excluded.zone',it.episode,it.device,it.asn,now,JSON.stringify(it.options.filter(optionAllowed)),it.zone||'');
+   if(it.renew)this.sql.exec('INSERT INTO seen(episode,device,asn,created,options,zone,voter) VALUES(?,?,?,?,?,?,?) ON CONFLICT(episode,device) DO UPDATE SET created=excluded.created,options=excluded.options,asn=excluded.asn,zone=excluded.zone,voter=excluded.voter',it.episode,it.device,it.asn,now,JSON.stringify(it.options.filter(optionAllowed)),it.zone||'',it.voter||null);
    const decided=new Map(this.rows('SELECT okey,verdict,checked,name,family,url,policy FROM decided WHERE episode=?',it.episode).map(r=>[r.okey,r]));
    if([...decided.values()].filter(r=>currentDecision(r)&&ACCEPTED.has(r.verdict)).length>=ENOUGH_OPTIONS){status[it.episode]='enough';continue;}
    const known=this.rows('SELECT 1 AS x FROM seen WHERE episode=? AND device=?',it.episode,it.device).length>0;
-   if(!known)this.sql.exec('INSERT INTO seen(episode,device,asn,created,options,zone) VALUES(?,?,?,?,?,?)',it.episode,it.device,it.asn,now,JSON.stringify(it.options.filter(optionAllowed)),it.zone||'');
+   if(!known)this.sql.exec('INSERT INTO seen(episode,device,asn,created,options,zone,voter) VALUES(?,?,?,?,?,?,?)',it.episode,it.device,it.asn,now,JSON.stringify(it.options.filter(optionAllowed)),it.zone||'',it.voter||null);
    status[it.episode]=known&&!it.renew?'duplicate':'stored';
    for(const t of this.tally(it.episode).values()){
     if(!Store.quorum(t,sameAsnZones))continue;
-    const previous=decided.get(t.okey),d=previous&&currentDecision(previous)?previous:null,c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:t.devices.size,asns:t.asns.size,zones:t.zones.size,first:t.first};
+    const previous=decided.get(t.okey),d=previous&&currentDecision(previous)?previous:null,c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:Math.min(t.devices.size,t.voters.size),asns:Math.min(t.asns.size,t.voters.size),zones:Math.min(t.zones.size,t.voters.size),first:t.first};
     if(d&&d.verdict!=='unknown')continue;
     if(d&&t.family!=='mega'&&c.asns>=3){this.decide([{...c,verdict:'unknown',policy:SUBMIT_POLICY_VERSION}],now);continue;}
     if(d&&now-d.checked<RECHECK)continue;
@@ -309,7 +311,7 @@ export async function handle(request,env,store,deps={}){
   const asn=Number(request.cf?.asn)||0;if(!asn)return json({accepted:false,reason:'no-network'},400);
   const ip=request.headers.get('cf-connecting-ip')||'',device=await sha(env.SALT+'|device|'+x.device),net=await zone(ip,env.SALT);
   const ipKey='ip:'+await sha(env.SALT+'|ip|'+day+'|'+ip),result={},valid=[];
-  const acctKey=user?'acct:'+await sha(env.SALT+'|acct|'+day+'|'+user):'';
+  const acctKey=user?'acct:'+await sha(env.SALT+'|acct|'+day+'|'+user):'',voter=user?'v:'+await sha(env.SALT+'|voter|'+user):'';
   const limits=n=>[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),[(url.pathname==='/v1/dead'?'deadday:':'day:')+day,Number(env.DAILY_CAP||40000),n]];
   if(url.pathname==='/v1/marks'){
    // {"schema":1,"device","items":[{"episode","kind":"intro"|"outro","start":s,"end":s}]}: whole seconds, intro within
@@ -346,7 +348,7 @@ export async function handle(request,env,store,deps={}){
    if(!EPISODE.test(it?.episode||'')||result[it.episode])continue;
    if(!wanted.has(it.episode)){result[it.episode]='stop';counts.stop++;continue;}
    const opts=await options(it.options);if(!opts.length){result[it.episode]='unsupported';counts.unsupported++;continue;}
-   valid.push({episode:it.episode,device,asn,zone:zoneHash,options:opts,...(wanted.get(it.episode).renew?{renew:true}:{})});
+   valid.push({episode:it.episode,device,asn,zone:zoneHash,voter,options:opts,...(wanted.get(it.episode).renew?{renew:true}:{})});
   }
   if(valid.length){
    const r=await store.submit(valid,limits(valid.length),expires,now,sameAsnZones);

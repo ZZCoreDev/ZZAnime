@@ -27,6 +27,7 @@ jobs:
           node --no-warnings ../help-worker/test_submit_security.mjs
           node --no-warnings ../help-worker/test_signal_security.mjs
           node --no-warnings ../help-worker/test_help_session.mjs
+          node --no-warnings ../help-worker/test_voter_quorum.mjs
       - name: Consumidores de votos y marcas (S2) sin red
         working-directory: automation/hourly
         run: |
