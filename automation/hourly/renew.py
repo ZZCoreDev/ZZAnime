@@ -175,6 +175,7 @@ def github_status(status):
             time.sleep(attempt+1)
 
 CHAIN_SPACING=300
+NEWS_EVERY=900
 STALE_WAIT=1800
 
 def live(row,statuses,now):
@@ -206,6 +207,15 @@ def continue_if_due(folder):
     with NO_REDIRECT.open(pending_renew,timeout=20) as response:waiting=json.loads(response.read())['workflow_runs']
     if any(live(row,('queued','pending','waiting','requested'),now) for row in waiting):
         print('A renewal or sample is already waiting; keep its place in the queue.');return
+    # 14/11/2026 (Robin): GitHub drops most of the «every 5 minutes» news schedules (hours between runs). When news has not
+    # started for 15 minutes the chain dispatches news instead; its completion starts the next renewal (workflow_run).
+    latest=max([stamp(row.get('created_at')) for row in runs]+[-1])
+    if latest<0 or now-latest>=NEWS_EVERY:
+        news=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
+        req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/dispatches',data=news,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
+        with NO_REDIRECT.open(req,timeout=20) as response:
+            if response.status!=204:raise ValueError('News dispatch was not accepted')
+        print('News had not run for 15 minutes: news dispatched first; renewal follows when it completes.');return
     data=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
     req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/dispatches',data=data,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
     with NO_REDIRECT.open(req,timeout=20) as response:

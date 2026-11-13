@@ -47,6 +47,14 @@ class ChainContinuityTests(unittest.TestCase):
             folder=self.folder(temp,self.SERIES[0],'complete')
             call,_=self.call(folder,[runs({'status':'queued','created_at':ago(120)})])
             self.assertEqual(call.call_count,1);self.assertEqual(call.call_args.args[0].get_method(),'GET')
+    def test_news_first_when_it_has_not_run_for_15_minutes(self):
+        # 14/11: GitHub drops schedules; the chain dispatches news when it is 15 minutes old, renewal otherwise
+        with test_renew.RenewalTests().temporary() as temp:
+            folder=self.folder(temp,self.SERIES[0],'complete')
+            call,_=self.call(folder,[runs({'status':'completed','created_at':ago(20*60)}),runs(),Response(status=204)])
+            self.assertIn('provider-hourly.yml/dispatches',call.call_args.args[0].full_url)
+            call,_=self.call(folder,[runs({'status':'completed','created_at':ago(5*60)}),runs(),Response(status=204)])
+            self.assertIn('provider-renew.yml/dispatches',call.call_args.args[0].full_url)
     def test_workflow_continues_unless_cancelled(self):
         here=Path(__file__).resolve().parent
         path=next(p for p in [here.parents[1]/'.github/workflows/provider-renew.yml',here/'renew.yml'] if p.exists())
