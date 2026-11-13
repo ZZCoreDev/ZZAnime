@@ -1,0 +1,54 @@
+name: Publicar app desde el editor
+# 14/11/2026 (Robin): la APK que el dueño sube en el editor (Sistema → Publicar app). Solo la lanza el recopilador tras
+# comprobar al dueño con autenticador y un código reciente. Aquí se comprueba la APK (firma oficial, paquete, versión
+# mayor, misma huella que al subirla) y se publica en v1.0 con el mismo método que desde el PC; después, copia a GitLab.
+run-name: "Publicar app ${{ inputs.kind }}"
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: 'mobile o tv'
+        type: choice
+        options: [mobile, tv]
+        required: true
+      upload:
+        description: 'Identificador de la subida en el editor'
+        type: string
+        required: true
+      sha256:
+        description: 'Huella de la APK subida'
+        type: string
+        required: true
+      notes:
+        description: 'Notas de la versión'
+        type: string
+        required: true
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: publish-app
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          sparse-checkout: automation/app_release
+          persist-credentials: false
+      - name: Pruebas del publicador
+        run: python3 automation/app_release/test_publish_app.py
+      - name: Comprobar y publicar la APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KIND: ${{ inputs.kind }}
+          UPLOAD: ${{ inputs.upload }}
+          SHA256: ${{ inputs.sha256 }}
+          NOTES: ${{ inputs.notes }}
+        run: python3 automation/app_release/publish_app.py
+      - name: Copiar a GitLab
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run gitlab-mirror.yml --repo "$GITHUB_REPOSITORY" --ref main
