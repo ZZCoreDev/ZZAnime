@@ -43,6 +43,12 @@ cdata='0123456789abcdef0123456789abcdef';
 assert.equal(await humanOk(env,'tok-1234567890:q'+quizTarget(cdata),'',net),'','hCaptcha required');
 await admin(tok(60),{action:'set',name:'hcaptcha',value:0});assert.equal(await humanOk(env,'tok-1234567890:q'+quizTarget(cdata),'',net),cdata,'switched off in an emergency');
 await admin(tok(60),{action:'set',name:'hcaptcha',value:''});assert.equal(await humanOk(env,'tok-1234567890:q'+quizTarget(cdata),'',net),'','back on');
+// 14/11: one account's activity (counts only) with GET ?user=; any other query refused
+const getq=(q,t=tok(null))=>handle(new Request('https://respaldo.zzanime.uk/owner/admin'+q,{headers:{Authorization:'Bearer '+t}}),env,net);
+const act='22222222-3333-4444-8555-666666666666';await linkAllows(env,{user:act,item:'p1'});await linkAllows(env,{user:act,item:'p2'});
+let ua=await (await getq('?user='+act)).json();assert.equal(ua.today.series,2);assert.ok(Array.isArray(ua.days));assert.ok(!JSON.stringify(ua).includes('p1'),'never which series');
+assert.equal((await getq('?user=../x')).status,400);assert.equal((await getq('?user='+act+'&x=1')).status,400);
+isOwner=false;assert.equal((await getq('?user='+act)).status,403);isOwner=true;
 // body limits
 assert.equal((await admin(tok(60),{action:'set',name:'cap',value:5,pad:'x'.repeat(3000)})).status,413);
 console.log('controles del dueño: solo dueño, código reciente, topes, baneo de cuenta y red, interruptor hCaptcha OK');

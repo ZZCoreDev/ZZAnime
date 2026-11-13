@@ -115,6 +115,13 @@ export class Quota{
   // ban/unban = an account (u:) or a network (n:) right away (accounts 6 h like the automatic ban, Supabase keeps it for good;
   // networks for the given hours, at most 30 days).
   if(u.pathname==='/admin/state'){const bans=this.sql.exec("select key,until,at from marks where kind='ban' and key like 'n:%' and until>? order by at desc limit 200",now).toArray().map(r=>({net:r.key.slice(2),until:new Date(r.until).toISOString(),at:new Date(r.at).toISOString()}));return Response.json({schema:1,settings:this.settings(),netBans:bans});}
+  // 14/11 (Robin): one account's activity for the owner's Ficha: series opened per day (only how many, never which),
+  // new-series attempts today, «soy humano» boxes waiting, check passed until, and its ban/exempt mark.
+  if(u.pathname==='/admin/user'){const id=u.searchParams.get('u')||'';if(!/^[0-9a-f-]{36}$/.test(id))return new Response('{}',{status:400});const key='u:'+id;this.flush();
+   const days=this.sql.exec('select day,count(*) c from seen where user=? group by day order by day desc limit 7',key).toArray().map(r=>({day:r.day,series:r.c}));
+   const tries=this.sql.exec('select n from tries where day=? and user=?',day,key).toArray()[0]?.n||0,boxes=this.sql.exec('select count(*) c from challenges where user=? and until>?',key,now).toArray()[0].c;
+   const human=this.sql.exec('select until from humanok where user=? and until>?',key,now).toArray()[0],mark=this.sql.exec('select kind,until from marks where key=? and until>?',key,now).toArray()[0];
+   return Response.json({schema:1,today:{series:days.find(d=>d.day===day)?.series||0,tries,boxes},days,humanUntil:human?new Date(human.until).toISOString():null,mark:mark?{kind:mark.kind,until:new Date(mark.until).toISOString()}:null});}
   if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1]};
    if(!limits[name])return new Response('{}',{status:400});if(raw===''||raw==null){this.sql.exec('delete from settings where name=?',name);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
    const v=Number(raw);if(!Number.isInteger(v)||v<limits[name][0]||v>limits[name][1])return new Response('{}',{status:400});
@@ -235,7 +242,7 @@ export function resetOwnerConf(){ownerConfCache={at:0,v:null};}
 export async function ownerConf(env){const now=Date.now();if(ownerConfCache.v&&now-ownerConfCache.at<60000)return ownerConfCache.v;
  let v={};try{const r=await quotaStub(env).fetch('https://quota/admin/state');if(r.status===200){const x=await r.json();if(x&&typeof x.settings==='object')v=x.settings;}}catch{}ownerConfCache={at:now,v};return v;}
 /** Owner admin path of the counter (only /admin/...), used by the Workers' owner routes. */
-export async function ownerCounter(env,path){if(!/^\/admin\/(?:state|set|ban|unban)(?:\?[A-Za-z0-9=&%:._-]{0,300})?$/.test(path))throw Error('admin path');const r=await quotaStub(env).fetch('https://quota'+path);return {status:r.status,body:await r.json().catch(()=>({}))};}
+export async function ownerCounter(env,path){if(!/^\/admin\/(?:state|set|ban|unban|user)(?:\?[A-Za-z0-9=&%:._-]{0,300})?$/.test(path))throw Error('admin path');const r=await quotaStub(env).fetch('https://quota'+path);return {status:r.status,body:await r.json().catch(()=>({}))};}
 export async function humanOk(env,token,ip,fetcher){
  if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';
  const quiz=/^(.+):q([0-5])$/.exec(token);if(quiz)token=quiz[1];else if(QUIZ_REQUIRED)return '';

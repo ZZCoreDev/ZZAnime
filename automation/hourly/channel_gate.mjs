@@ -107,7 +107,10 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  // changing anything also needs the authenticator code of the last 10 minutes (amr of that same verified token).
  if(path==='/owner/admin'){if(!['GET','POST'].includes(request.method))return deny(405,'method');if(!await owner(request,fetcher))return deny(403,'owner');
   const answer=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store'}});
-  try{if(request.method==='GET'){const r=await ownerCounter(env,'/admin/state');return answer(r.body,r.status);}
+  try{if(request.method==='GET'){
+    // 14/11 (Robin): ?user=<id> → that account's activity (counts only); without it, the limits and network bans.
+    const q=new URL(request.url).search,m=q.match(/^\?user=([0-9a-f-]{36})$/);if(q&&!m)return deny(400,'query');
+    const r=await ownerCounter(env,m?'/admin/user?u='+m[1]:'/admin/state');return answer(r.body,r.status);}
    if(!recentTotp(request))return deny(401,'reauth');
    const text=await request.text();if(text.length>2048)return deny(413,'too_large');let a;try{a=JSON.parse(text);}catch{return deny(400,'json');}
    const plan=adminPath(a);if(!plan)return deny(400,'action');const r=await ownerCounter(env,plan);if(a.action==='set')resetOwnerConf();
