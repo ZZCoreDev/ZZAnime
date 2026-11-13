@@ -1,0 +1,74 @@
+name: Copia semanal de Supabase
+# 14/11/2026 (Robin, idea 39): copia de la base de datos (cuentas, bibliotecas, fichas, correcciones, ajustes, seguridad)
+# cada semana, cifrada con la contraseña de Robin (AES-256, PBKDF2 600.000) y guardada en el repositorio PRIVADO
+# ZZAnime-datos, rama copias-supabase (se conservan las 4 últimas). En el registro público de esta tarea solo salen
+# tamaños y fechas: nunca datos, ni la dirección de la base, ni la contraseña (además GitHub oculta los secretos).
+# Llaves: SUPABASE_DB_URL y ZZ_BACKUP_PASSWORD (las pone Robin con Poner-llave-copia-supabase.cmd).
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: supabase-backup
+  cancel-in-progress: false
+jobs:
+  backup:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - name: Instalar pg_dump 17 (misma versión que Supabase)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq postgresql-common > /dev/null
+          sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh -y > /dev/null
+          sudo apt-get install -y -qq postgresql-client-17 > /dev/null
+          /usr/lib/postgresql/17/bin/pg_dump --version
+      - name: Copiar, cifrar y comprobar
+        env:
+          DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          PASS: ${{ secrets.ZZ_BACKUP_PASSWORD }}
+        run: |
+          set -euo pipefail
+          umask 077
+          [ -n "$DB_URL" ] && [ -n "$PASS" ] || { echo 'Faltan las llaves de la copia (Poner-llave-copia-supabase.cmd).'; exit 1; }
+          [ ${#PASS} -ge 12 ] || { echo 'La contraseña de la copia es demasiado corta.'; exit 1; }
+          BIN=/usr/lib/postgresql/17/bin; NAME="supabase-$(date -u +%Y%m%d-%H%M).dump"; WORK=$(mktemp -d); mkdir -p out
+          # Esquemas propios y las cuentas (auth); si las cuentas no se pudieran leer, la copia sigue sin ellas y lo dice.
+          if "$BIN/pg_dump" "$DB_URL" -Fc --no-owner --no-privileges -n public -n zz_editor -n zz_security -n auth -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=completa
+          elif "$BIN/pg_dump" "$DB_URL" -Fc --no-owner --no-privileges -n public -n zz_editor -n zz_security -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=sin-cuentas
+          else echo 'pg_dump no pudo leer la base (revisa SUPABASE_DB_URL).'; exit 1; fi
+          "$BIN/pg_restore" --list "$WORK/$NAME" > "$WORK/list"
+          openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -salt -in "$WORK/$NAME" -out "out/$NAME.enc" -pass env:PASS
+          # comprobar que se descifra con la misma contraseña y que es idéntica
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -in "out/$NAME.enc" -out "$WORK/check" -pass env:PASS
+          cmp -s "$WORK/check" "$WORK/$NAME" || { echo 'La copia cifrada no coincide.'; exit 1; }
+          echo "$SCOPE" > out/scope
+          echo "Copia $SCOPE: $(stat -c %s "out/$NAME.enc") bytes cifrados, $(grep -c 'TABLE DATA' "$WORK/list") tablas con datos."
+          rm -rf "$WORK"
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: datos
+          fetch-depth: 1
+      - name: Guardar en el repositorio privado (4 últimas)
+        run: |
+          set -euo pipefail
+          cd datos
+          git config user.name 'ZZAnime copia'; git config user.email 'noreply@users.noreply.github.com'
+          mkdir -p ../keep
+          if git fetch -q --depth 1 origin copias-supabase:refs/remotes/origin/copias-supabase 2>/dev/null; then
+            for f in $(git ls-tree --name-only origin/copias-supabase | grep -E '^supabase-[0-9]{8}-[0-9]{4}\.dump\.enc$' | sort -r | head -3); do git show "origin/copias-supabase:$f" > "../keep/$f"; done
+          fi
+          git checkout -q --orphan copias-supabase-nueva
+          git rm -rq --cached . > /dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp ../keep/*.enc . 2>/dev/null || true
+          cp ../out/*.enc .
+          printf '%s\n' 'Copias semanales de Supabase CIFRADAS (AES-256-CBC, PBKDF2 600000, SHA-256).' 'Descifrar: openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -in ARCHIVO.enc -out copia.dump' 'Restaurar: pg_restore (ver RECUPERAR.md del pendrive).' "Última: $(ls -1 supabase-*.enc | sort | tail -1) ($(cat ../out/scope))" > LEEME.txt
+          git add -A
+          git commit -qm "Copia semanal de Supabase $(date -u +%Y-%m-%d)"
+          git push -q --force origin HEAD:copias-supabase
+          echo "Guardadas: $(ls -1 supabase-*.enc | wc -l) copias."
