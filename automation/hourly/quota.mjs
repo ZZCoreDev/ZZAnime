@@ -39,7 +39,10 @@ export class Quota{
   this.sql.exec('create index if not exists seen_user_item on seen(user,item,day)'); // 12/11: reopening within 30 days
   // 13/11 (Robin): challenges whose hCaptcha was solved (respaldo /humano/h); valid 10 minutes, checked with the box.
   this.sql.exec('create table if not exists hpass(nonce text primary key,until integer not null)');
-  this.mem=new Map();this.day='';}
+  // 13/11 (Robin): limits and switches set by the owner from the editor; a missing row = the deployed default.
+  this.sql.exec('create table if not exists settings(name text primary key,value integer not null,at integer not null)');
+  this.mem=new Map();this.day='';this.conf=null;}
+ settings(){if(!this.conf){this.conf={};for(const r of this.sql.exec('select name,value from settings').toArray())this.conf[r.name]=r.value;}return this.conf;}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
  flush(){for(const [k,n] of this.mem){const i=k.indexOf('|');this.save(k.slice(0,i),k.slice(i+1),n);}}
  async fetch(request){
@@ -72,13 +75,15 @@ export class Quota{
    if(DEVICE.test(device)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'d:'+device,now).toArray().length)return Response.json({banned:true});
    const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
    if(mark)return Response.json(mark.kind==='ban'?{banned:true}:{exempt:true,ok:true});
+   {const n=u.searchParams.get('ip')||'';if(NETKEY.test(n)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'n:'+n,now).toArray().length)return Response.json({banned:true,net:true});}
    if(this.sql.exec('select 1 from seen where user=? and item=? and day>=?',key,item,new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10)).toArray().length)return Response.json({ok:true,seen:true});
    // 13/11 (Robin): new series per connection and day, every account added up (several accounts, paid captcha solvers or an
    // invented device id still stop here). A series already opened from this connection today does not count again.
-   const net=u.searchParams.get('ip')||'',netCap=Number(u.searchParams.get('ipcap'))||0,netKey='n:'+net;
+   const S=this.settings(),fresh=u.searchParams.get('new')==='1';
+   const net=u.searchParams.get('ip')||'',netCap=S.ipcap??(Number(u.searchParams.get('ipcap'))||0),netKey='n:'+net;
    const netNew=NETKEY.test(net)&&netCap>0&&!this.sql.exec('select 1 from seen where day=? and user=? and item=?',day,netKey,item).toArray().length;
    if(netNew&&this.sql.exec('select count(*) c from seen where day=? and user=?',day,netKey).toArray()[0].c>=netCap)return Response.json({over:true,net:true});
-   const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=num('cap',30),soft=num('soft',3),burst=num('burst',3),grant=num('grant',1),ban=Number(u.searchParams.get('ban'))||0;
+   const num=(n,d)=>Number(u.searchParams.get(n))||d,cap=(fresh?S.newcap:S.cap)??num('cap',30),soft=S.soft??num('soft',3),burst=S.burst??num('burst',3),grant=S.grant??num('grant',1),ban=Number(u.searchParams.get('ban'))||0;
    const distinct=this.sql.exec('select count(*) c from seen where day=? and user=?',day,key).toArray()[0].c;
    const recent=this.sql.exec('select count(*) c from seen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
    // 12/11 (Robin): a check no longer opens everything for 30 min: it unlocks «grant» new series within that window.
@@ -106,6 +111,18 @@ export class Quota{
   }
   // 10/11: which address apps use (old workers.dev vs zzanime.uk), counted on the signed pointer only.
   if(u.pathname==='/tally'){if(!/^h:(old|new)$/.test(key))return new Response('{}',{status:400});const k=day+'|'+key;let n=this.mem.get(k);if(n===undefined){const row=this.sql.exec('select n from q where day=? and user=?',day,key).toArray()[0];n=row?row.n:0;}n++;this.mem.set(k,n);if(n%10===0)this.save(day,key,n);return Response.json({n});}
+  // 13/11 (Robin): owner controls. state = settings + network bans; set = one limit or switch (whitelisted, bounded);
+  // ban/unban = an account (u:) or a network (n:) right away (accounts 6 h like the automatic ban, Supabase keeps it for good;
+  // networks for the given hours, at most 30 days).
+  if(u.pathname==='/admin/state'){const bans=this.sql.exec("select key,until,at from marks where kind='ban' and key like 'n:%' and until>? order by at desc limit 200",now).toArray().map(r=>({net:r.key.slice(2),until:new Date(r.until).toISOString(),at:new Date(r.at).toISOString()}));return Response.json({schema:1,settings:this.settings(),netBans:bans});}
+  if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1]};
+   if(!limits[name])return new Response('{}',{status:400});if(raw===''||raw==null){this.sql.exec('delete from settings where name=?',name);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
+   const v=Number(raw);if(!Number.isInteger(v)||v<limits[name][0]||v>limits[name][1])return new Response('{}',{status:400});
+   this.sql.exec('insert into settings(name,value,at) values(?,?,?) on conflict(name) do update set value=excluded.value,at=excluded.at',name,v,now);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
+  if(u.pathname==='/admin/ban'||u.pathname==='/admin/unban'){const k=u.searchParams.get('k')||'';if(!(/^u:[A-Za-z0-9-]{1,64}$/.test(k)||k.startsWith('n:')&&NETKEY.test(k.slice(2))))return new Response('{}',{status:400});
+   if(u.pathname==='/admin/unban'){this.sql.exec("delete from marks where key=? and kind='ban'",k);return Response.json({ok:true});}
+   const hours=Math.min(Math.max(Number(u.searchParams.get('hours'))||6,1),720);
+   this.sql.exec("insert into marks(key,kind,until,at) values(?,'ban',?,?) on conflict(key) do update set kind='ban',until=excluded.until,at=excluded.at",k,now+hours*3600000,now);return Response.json({ok:true});}
   if(u.pathname==='/mark'){
    const kind=u.searchParams.get('kind');if(!KEY.test(key)||!['ban','exempt'].includes(kind))return new Response('{}',{status:400});
    const until=now+(key.startsWith('d:')?365*86400000:kind==='ban'?6*3600000:30*86400000);
@@ -212,6 +229,13 @@ export async function hcaptchaPassed(env,nonce){
  try{const r=env.ARCHIVE?await env.ARCHIVE.fetch(new Request('https://respaldo.zzanime.uk/humano/h?n='+nonce)):await quotaStub(env).fetch('https://quota/hcheck?n='+nonce);
   if(r.status!==200)return false;const x=await r.json();return x?.ok===true;}catch{return false;}
 }
+// 13/11 (Robin): owner settings (limits, hCaptcha switch) as the Worker sees them; cached 60 s per instance.
+let ownerConfCache={at:0,v:null};
+export function resetOwnerConf(){ownerConfCache={at:0,v:null};}
+export async function ownerConf(env){const now=Date.now();if(ownerConfCache.v&&now-ownerConfCache.at<60000)return ownerConfCache.v;
+ let v={};try{const r=await quotaStub(env).fetch('https://quota/admin/state');if(r.status===200){const x=await r.json();if(x&&typeof x.settings==='object')v=x.settings;}}catch{}ownerConfCache={at:now,v};return v;}
+/** Owner admin path of the counter (only /admin/...), used by the Workers' owner routes. */
+export async function ownerCounter(env,path){if(!/^\/admin\/(?:state|set|ban|unban)(?:\?[A-Za-z0-9=&%:._-]{0,300})?$/.test(path))throw Error('admin path');const r=await quotaStub(env).fetch('https://quota'+path);return {status:r.status,body:await r.json().catch(()=>({}))};}
 export async function humanOk(env,token,ip,fetcher){
  if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';
  const quiz=/^(.+):q([0-5])$/.exec(token);if(quiz)token=quiz[1];else if(QUIZ_REQUIRED)return '';
@@ -220,7 +244,8 @@ export async function humanOk(env,token,ip,fetcher){
   if(r.status!==200)return '';const x=await r.json();
   const ok=x?.success===true&&x.hostname==='zzanime.uk'&&x.action==='enlaces'&&typeof x.cdata==='string'&&NONCE.test(x.cdata); /* M-05: origen, acción y reto exactos */
   if(!(ok&&(!quiz||Number(quiz[2])===quizTarget(x.cdata))))return '';
-  if((HCAPTCHA_REQUIRED||env.HCAPTCHA_RULES==='required')&&!await hcaptchaPassed(env,x.cdata))return '';
+  // 13/11: the owner can switch hCaptcha off from the editor if it ever fails (emergency); the box and the picture stay.
+  if((HCAPTCHA_REQUIRED||env.HCAPTCHA_RULES==='required')&&(await ownerConf(env)).hcaptcha!==0&&!await hcaptchaPassed(env,x.cdata))return '';
   return x.cdata;}catch{return '';}
 }
 /** LINK_RULES (off|count|enforce): rules on opening links of distinct series/films for one verified account.
@@ -235,10 +260,10 @@ export async function linkAllows(env,{user='',item='',fresh=false,device='',ban=
  if(enforce&&(recall(key,now)||dev&&recall('d:'+dev,now)))return 'limit';
  const probe=enforce?gate(env,now):false;
  try{
-  const stub=quotaStub(env),q=enforce?'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||1)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:'')+(netOf(ip)?'&ip='+encodeURIComponent(netOf(ip))+'&ipcap='+(Number(env.LINK_IP_DAY)||90):''):'&cap=100000&h=1';
+  const stub=quotaStub(env),q=enforce?(fresh?'&new=1':'')+'&cap='+(fresh?Number(env.LINK_NEW_DAY)||9:Number(env.LINK_DAY)||30)+'&soft='+(Number(env.LINK_SOFT)||3)+'&burst='+(Number(env.LINK_BURST)||3)+'&grant='+(Number(env.LINK_GRANT)||1)+'&ban='+(Number(env.LINK_BAN)||100)+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:'')+(netOf(ip)?'&ip='+encodeURIComponent(netOf(ip))+'&ipcap='+(Number(env.LINK_IP_DAY)||90):''):'&cap=100000&h=1';
   const x=await counterJson(env,stub,'https://quota/link?k='+encodeURIComponent(key)+'&i='+encodeURIComponent(item)+q+(dev?'&d='+dev:''));
   if(!enforce||x.ok===true)return 'ok';
-  if(x.banned===true){remember(key,now);return 'limit';}
+  if(x.banned===true){if(!x.net)remember(key,now);return 'limit';} // a banned NETWORK does not mark the account
   if(x.human===true){if(out&&typeof x.challenge==='string'&&NONCE.test(x.challenge))out.challenge=x.challenge;return 'human';}
   if(x.ban===true&&ban)return await settleBan(stub,key,dev,await ban(),now)?'ok':'limit';
   if(x.ban===true||x.over===true)return 'limit';

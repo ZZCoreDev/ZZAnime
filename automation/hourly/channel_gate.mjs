@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed,ownerCounter,netOf,resetOwnerConf} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
@@ -87,11 +87,31 @@ async function humanRoute(request,env,fetcher){
  if(!await hcaptchaVerify(env,token,ip,fetcher))return answer({ok:false});
  return answer({ok:await hcaptchaMark(env,nonce)});
 }
+/** The verified token (owner() asked Supabase) carries when its authenticator code was entered (amr). */
+function recentTotp(request){try{const p=JSON.parse(new TextDecoder().decode(b64url((request.headers.get('Authorization')||'').split('.')[1]||'')));
+ return Array.isArray(p.amr)&&p.amr.some(x=>x&&x.method==='totp'&&Number(x.timestamp)*1000>Date.now()-600000);}catch{return false;}}
+/** Owner action → counter admin path (whitelisted, validated); null when not allowed. */
+export function adminPath(a){if(!a||typeof a!=='object')return null;const user=String(a.user||''),hours=Math.min(Math.max(parseInt(a.hours,10)||24,1),720);
+ if(a.action==='ban-user'&&/^[0-9a-f-]{36}$/.test(user))return '/admin/ban?k=u:'+user+'&hours=6';
+ if(a.action==='unban-user'&&/^[0-9a-f-]{36}$/.test(user))return '/admin/unban?k=u:'+user;
+ if(a.action==='ban-net'){const n=netOf(a.ip);return n?'/admin/ban?k=n:'+encodeURIComponent(n)+'&hours='+hours:null;}
+ if(a.action==='unban-net'){const n=netOf(String(a.net||'').replace(/::$/,'::1'))||(/^[0-9.]{7,15}$/.test(String(a.net||''))?netOf(a.net):'');return n?'/admin/unban?k=n:'+encodeURIComponent(n):null;}
+ if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
+ return null;}
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
  const path=new URL(request.url).pathname;
  if(path==='/humano/h')return humanRoute(request,env,fetcher);
  // The daily-cap report also answers the cloud's own key (health_watch.py warns of new bans); never the other /owner/ files.
  if(path==='/owner/quota.json'){if(!same(request.headers.get('X-ZZ-Cloud')||'',env.CLOUD_KEY||'')&&!await owner(request,fetcher))return deny(403,'owner');try{const r=await quotaReport(env);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}catch{return deny(503,'quota');}}
+ // 13/11 (Robin, grupo 2): owner controls from the editor. Owner with authenticator (zz_editor_access, checked by Supabase);
+ // changing anything also needs the authenticator code of the last 10 minutes (amr of that same verified token).
+ if(path==='/owner/admin'){if(!['GET','POST'].includes(request.method))return deny(405,'method');if(!await owner(request,fetcher))return deny(403,'owner');
+  const answer=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store'}});
+  try{if(request.method==='GET'){const r=await ownerCounter(env,'/admin/state');return answer(r.body,r.status);}
+   if(!recentTotp(request))return deny(401,'reauth');
+   const text=await request.text();if(text.length>2048)return deny(413,'too_large');let a;try{a=JSON.parse(text);}catch{return deny(400,'json');}
+   const plan=adminPath(a);if(!plan)return deny(400,'action');const r=await ownerCounter(env,plan);if(a.action==='set')resetOwnerConf();
+   return answer({...r.body,apply:r.status===200?plan:null},r.status);}catch{return deny(503,'quota');}}
  if(path.startsWith('/owner/')){if(!OWNER.test(path))return deny(404,'not_found');if(!await owner(request,fetcher))return deny(403,'owner');const r=await env.ASSETS.fetch(request);return new Response(r.body,{status:r.status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});}
  // 10/11: how many apps still reach the channel by the old address (decides when to close it).
  // 12/11 octava revisión R8-01: this public, unauthenticated pointer only counts 1 request in TALLY_EVERY per instance, so
