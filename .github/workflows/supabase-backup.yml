@@ -38,7 +38,9 @@ jobs:
           # Esquemas propios y las cuentas (auth); si las cuentas no se pudieran leer, la copia sigue sin ellas y lo dice.
           if "$BIN/pg_dump" "$DB_URL" -Fc --no-owner --no-privileges -n public -n zz_editor -n zz_security -n auth -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=completa
           elif "$BIN/pg_dump" "$DB_URL" -Fc --no-owner --no-privileges -n public -n zz_editor -n zz_security -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=sin-cuentas
-          else echo 'pg_dump no pudo leer la base (revisa SUPABASE_DB_URL).'; exit 1; fi
+          else echo 'pg_dump no pudo leer la base (revisa SUPABASE_DB_URL). Tipo de error (sin datos privados):'
+            grep -oiE 'password authentication failed|Tenant or user not found|could not translate host name|Network is unreachable|Connection refused|timeout expired|server version mismatch|aborting because of server version mismatch|permission denied for [a-z]+ [a-z_]+|SSL [a-z ]+|invalid URI query parameter|missing "=" after|invalid integer value|too many connections|circuit breaker[a-z ]*' "$WORK/err" | sort -u | head -5 || true
+            exit 1; fi
           "$BIN/pg_restore" --list "$WORK/$NAME" > "$WORK/list"
           openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -salt -in "$WORK/$NAME" -out "out/$NAME.enc" -pass env:PASS
           # comprobar que se descifra con la misma contraseña y que es idéntica
