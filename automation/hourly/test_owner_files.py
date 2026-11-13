@@ -15,7 +15,19 @@ class OwnerFiles(unittest.TestCase):
             self.assertEqual(len(merged),10000);self.assertTrue(all(v['state']=='dead' and 'archive' not in v and 'deadChecks' not in v for v in merged.values()))
             self.assertIn('owner/help-status.json',out)
     def test_absent(self):
-        with tempfile.TemporaryDirectory() as d:self.assertEqual(owner_files.build(d),{})
+        with tempfile.TemporaryDirectory() as d:self.assertEqual(list(owner_files.build(d)),['owner/semaforo.json'])
+    def test_semaforo(self):
+        # 14/11: per family, only links checked in the 48 h before the last check; the JK copy status; no URLs
+        with tempfile.TemporaryDirectory() as d:
+            d=Path(d);now=1_800_000_000
+            links={'a':{'family':'voe','state':'alive','checkedAt':now-10,'url':'https://x/1'},'b':{'family':'voe','state':'dead','checkedAt':now-3600,'url':'https://x/2'},
+                   'c':{'family':'mega','state':'unknown','checkedAt':now-100},'old':{'family':'mega','state':'dead','checkedAt':now-50*3600}}
+            (d/'link-health.json').write_text(json.dumps({'schema':1,'links':links,'last':{'checkedAt':now}}))
+            (d/'pc-import-status.json').write_text(json.dumps({'checkedAt':'2026-11-13T12:51:40+00:00','state':'imported','imported':61,'series':5,'batchSha256':'x'}))
+            raw=owner_files.build(d)['owner/semaforo.json'];x=json.loads(raw)
+            self.assertEqual(x['servers'],{'voe':{'alive':1,'dead':1,'unknown':0},'mega':{'alive':0,'dead':0,'unknown':1}})
+            self.assertEqual(x['jk'],{'checkedAt':'2026-11-13T12:51:40+00:00','state':'imported','imported':61,'series':5})
+            self.assertNotIn(b'https://',raw)
     def test_cloud_runs_with_the_cloud_token_only(self):
         import tempfile
         data={'workflow_runs':[{'name':'Capítulos nuevos cada 5 minutos','status':'completed','conclusion':'success','updated_at':'2026-11-10T08:00:00Z','workflow_id':7,'html_url':'https://github.com/x','actor':{'login':'secret-ish'}}]}

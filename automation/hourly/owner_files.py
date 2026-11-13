@@ -34,6 +34,31 @@ def cloud_runs(token, fetch=None):
         return None
 
 
+def semaforo(folder, health, now):
+    """14/11/2026 (Robin): traffic light of the editor's Sistema. Servers: per family, the links checked in the 48 hours
+    before the last check (alive / dead / unknown). JK copy: the last batch the PC sent and the cloud imported. Only
+    counts and dates; no link leaves here."""
+    out = {'schema': 1, 'builtAt': now, 'servers': {}, 'jk': None}
+    last = (health or {}).get('last') or {}
+    edge = float(last.get('checkedAt') or 0) - 48 * 3600
+    for v in ((health or {}).get('links') or {}).values():
+        if float(v.get('checkedAt') or 0) < edge:
+            continue
+        fam = str(v.get('family') or '?')[:20]
+        row = out['servers'].setdefault(fam, {'alive': 0, 'dead': 0, 'unknown': 0})
+        state = v.get('state')
+        row[state if state in ('alive', 'dead') else 'unknown'] += 1
+    out['serversCheckedAt'] = last.get('checkedAt')
+    pc = Path(folder) / 'pc-import-status.json'
+    if pc.exists():
+        try:
+            x = json.loads(pc.read_bytes())
+            out['jk'] = {k: x.get(k) for k in ('checkedAt', 'state', 'imported', 'series')}
+        except ValueError:
+            pass
+    return out
+
+
 def build(folder, token=None, fetch=None):
     """{published name: bytes} for the owner; empty when the state files are absent."""
     folder = Path(folder)
@@ -42,6 +67,9 @@ def build(folder, token=None, fetch=None):
     runs = cloud_runs(token, fetch) if token else None
     if runs is not None:
         out['owner/cloud-runs.json'] = raw(runs)
+    import time
+    health_file = folder / 'link-health.json'
+    out['owner/semaforo.json'] = raw(semaforo(folder, json.loads(health_file.read_bytes()) if health_file.exists() else None, time.time()))
     help_status = folder / 'help-status.json'
     if help_status.exists():
         out['owner/help-status.json'] = raw(json.loads(help_status.read_bytes()))
