@@ -59,6 +59,24 @@ def semaforo(folder, health, now):
     return out
 
 
+def popular(folder):
+    """14/11/2026 (Robin): «Lo más visto» of the editor's Resumen: series and how many different devices / networks
+    watched them (play-stats.json, devices older than 24 h). Only JK series addresses and counts; nothing personal."""
+    path = Path(folder) / 'play-stats.json'
+    if not path.exists():
+        return None
+    try:
+        x = json.loads(path.read_bytes())
+    except ValueError:
+        return None
+    rows = []
+    for r in x.get('popular') or []:
+        s = r.get('series')
+        if isinstance(s, str) and s.startswith('https://jkanime.net/') and len(s) < 200:
+            rows.append({'series': s, 'devices': int(r.get('devices') or 0), 'networks': int(r.get('independentNetworks') or 0)})
+    return {'schema': 1, 'checkedAt': x.get('checkedAt'), 'minDeviceAgeHours': x.get('minDeviceAgeHours'), 'popular': rows[:50]}
+
+
 def build(folder, token=None, fetch=None):
     """{published name: bytes} for the owner; empty when the state files are absent."""
     folder = Path(folder)
@@ -70,6 +88,9 @@ def build(folder, token=None, fetch=None):
     import time
     health_file = folder / 'link-health.json'
     out['owner/semaforo.json'] = raw(semaforo(folder, json.loads(health_file.read_bytes()) if health_file.exists() else None, time.time()))
+    seen = popular(folder)
+    if seen is not None:
+        out['owner/popular.json'] = raw(seen)
     help_status = folder / 'help-status.json'
     if help_status.exists():
         out['owner/help-status.json'] = raw(json.loads(help_status.read_bytes()))

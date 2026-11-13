@@ -7,7 +7,7 @@ export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
 // 9/11: the editor's link-health view (owner_files.py), only for the editor owner with authenticator (zz_editor_access).
-const OWNER=/^\/owner\/(?:help-status|cloud-runs|semaforo|link-health(?:-[0-9]{1,2})?)\.json$/;
+const OWNER=/^\/owner\/(?:help-status|cloud-runs|semaforo|popular|link-health(?:-[0-9]{1,2})?)\.json$/;
 // Public project key of the app (also inside the APK): lets the owner check run as the caller.
 const SUPABASE_KEY='sb_publishable_33FCU_W4f4gR3a69SygtDQ_j3sG1A-m';
 let keys=null,keysAt=0,loading=null,kidRetryAt=0,refreshAfter=0,lastOk=false;

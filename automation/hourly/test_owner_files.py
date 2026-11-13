@@ -28,6 +28,15 @@ class OwnerFiles(unittest.TestCase):
             self.assertEqual(x['servers'],{'voe':{'alive':1,'dead':1,'unknown':0},'mega':{'alive':0,'dead':0,'unknown':1}})
             self.assertEqual(x['jk'],{'checkedAt':'2026-11-13T12:51:40+00:00','state':'imported','imported':61,'series':5})
             self.assertNotIn(b'https://',raw)
+    def test_popular(self):
+        # 14/11: most watched for the owner: JK series and counts only, top 50
+        with tempfile.TemporaryDirectory() as d:
+            d=Path(d);rows=[{'series':'https://jkanime.net/frieren/','devices':5,'independentNetworks':4,'extra':'x'},{'series':'https://evil.example/','devices':9}]+[{'series':f'https://jkanime.net/s{i}/','devices':1,'independentNetworks':1} for i in range(80)]
+            (d/'play-stats.json').write_text(json.dumps({'checkedAt':'2026-11-13T13:11:39Z','minDeviceAgeHours':24,'popular':rows,'options':[{'url':'secret'}]}))
+            x=json.loads(owner_files.build(d)['owner/popular.json'])
+            self.assertEqual(x['popular'][0],{'series':'https://jkanime.net/frieren/','devices':5,'networks':4});self.assertEqual(len(x['popular']),50)
+            self.assertNotIn('evil',json.dumps(x));self.assertNotIn('options',x)
+        with tempfile.TemporaryDirectory() as d:self.assertNotIn('owner/popular.json',owner_files.build(d))
     def test_cloud_runs_with_the_cloud_token_only(self):
         import tempfile
         data={'workflow_runs':[{'name':'Capítulos nuevos cada 5 minutos','status':'completed','conclusion':'success','updated_at':'2026-11-10T08:00:00Z','workflow_id':7,'html_url':'https://github.com/x','actor':{'login':'secret-ish'}}]}
