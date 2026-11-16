@@ -223,7 +223,11 @@ def continue_if_due(folder):
     print('Pending observed chapters: next independent renewal batch dispatched.')
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import','pc-import','voe-proof'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import','pc-import','voe-proof','latino-import'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    if args.sample_group=='latino-import':
+        # 16/11/2026: the PC's latino copy of animeav1 (branch latino-import) into the separate /latino/ channel.
+        from latino_channel import main as import_latino
+        import_latino(args.publish);return
     if args.sample_group=='voe-proof':
         from voe_channel import proof
         proof(args.publish);return

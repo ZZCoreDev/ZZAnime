@@ -5,7 +5,7 @@
 import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed,ownerCounter,netOf,resetOwnerConf} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
-const PUBLIC=/^\/(?:(?:voe|extra)\/)?channel\.json$/;
+const PUBLIC=/^\/(?:(?:voe|extra|latino)\/)?channel\.json$/;
 // 9/11: the editor's link-health view (owner_files.py), only for the editor owner with authenticator (zz_editor_access).
 const OWNER=/^\/owner\/(?:help-status|cloud-runs|semaforo|popular|link-health(?:-[0-9]{1,2})?)\.json$/;
 // Public project key of the app (also inside the APK): lets the owner check run as the caller.
@@ -132,12 +132,12 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  if(!user&&env.REQUIRE_SESSION!=='false')return deny(401,'login'); // 11/11 A-03: cerrado salvo «false» explícito
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
- if(/^\/(?:(?:voe|extra)\/)?series\//.test(path))try{
+ if(/^\/(?:(?:voe|extra|latino)\/)?series\//.test(path))try{
   const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban=user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null;
   // 10/11 (app 180): LINK_RULES "enforce" counts distinct series/films opened (reopening is free), asks "soy humano" (428)
   // from 50 a day or 5 in 10 minutes, caps at 150 (60 new accounts), bans at 300 attempts. Episode lists (/lista/) stay free.
   // Off until 180 is the required version: old apps download these files when opening a ficha.
-  const main=path.startsWith('/series/'),prefix=(/^\/((?:voe|extra)\/)/.exec(path)||[])[1]||'';
+  const main=path.startsWith('/series/'),prefix=(/^\/((?:voe|extra|latino)\/)/.exec(path)||[])[1]||'';
   // voe/ and extra/ hold the same series' extra servers: they keep the request cap (quotaAllows) so one tap is not counted 3 times.
   if(env.LINK_RULES==='enforce'&&user){const series=await seriesOf(env,prefix,path.slice(1+prefix.length));
    if(!series)return deny(404,'not_found'); // not in the current publication: never served uncounted

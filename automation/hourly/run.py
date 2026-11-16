@@ -258,14 +258,19 @@ def main():
   try:extra_only={} if proof else extra_channel.render(D,now,key,excluded_keys(D))
   except Exception as error:extra_only={};print(json.dumps({'extraChannelError':type(error).__name__+': '+str(error)[:120]}))
   files.update(extra_only);extra_digest=next((n for n in extra_only if n.startswith('extra/indexes/')),None)
-  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n/lista/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+  # /latino/ (16/11/2026): dubbed es-LA links of JK series from the PC's animeav1 copy, read by app 204+ only.
+  import latino_channel
+  try:latino_only={} if proof else latino_channel.render(D,now,key)
+  except Exception as error:latino_only={};print(json.dumps({'latinoChannelError':type(error).__name__+': '+str(error)[:120]}))
+  files.update(latino_only);latino_digest=next((n for n in latino_only if n.startswith('latino/indexes/')),None)
+  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/latino/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n/lista/*\n  Cache-Control: public, max-age=31536000, immutable\n'
   files['robots.txt']=b'# ZZAnime: canal privado de la app. No se permite indexar, recopilar en masa ni entrenar IA.\nUser-agent: *\nContent-Signal: search=no, ai-train=no, ai-input=no\nDisallow: /\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
   for n,b in files.items():put(assets/n,b)
   put(tmp/'key.der',public)
   proof_result=json.loads(command(['java','-cp',cp,'tv.jkanime.web.CloudVerify',str(assets),str(tmp/'key.der'),str(tmp/'cache')]))
   voe_proof=json.loads(command(['java','-cp',voe_cp,'tv.jkanime.web.CloudVerify',str(assets/'voe'),str(tmp/'key.der'),str(tmp/'voe-cache')])) if voe_cp else None
-  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'extra':extra_digest} if extra_digest else {}),**({'wanted':[w['url'] for w in wanted]} if wanted else {}),**({'config':config} if config else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
+  content=sha(raw({'series':index['series'],'feed':index['feed'],'voe':voe_digest,**({'extra':extra_digest} if extra_digest else {}),**({'latino':latino_digest} if latino_digest else {}),**({'wanted':[w['url'] for w in wanted]} if wanted else {}),**({'config':config} if config else {})}));prior=json.loads((D/'publication.json').read_bytes()) if (D/'publication.json').exists() else {}
   changed=prior.get('contentSha256')!=content or (now-datetime.datetime.fromisoformat(prior.get('publishedAt','2000-01-01T00:00:00+00:00'))).total_seconds()>86400
   report={**proof_result,'checkedAt':now.isoformat(),'proof':proof,'published':False,'changed':changed,'contentSha256':content,'aiCalls':0,'pcRequired':False,'voe':voe_proof}
   if '--publish' in sys.argv and changed:
@@ -276,7 +281,7 @@ def main():
     import re
     for p in old.rglob('*.bin'):
      n=p.relative_to(old).as_posix()
-     if re.fullmatch(r'(?:voe/|extra/)?(series|indexes|lista)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
+     if re.fullmatch(r'(?:voe/|extra/|latino/)?(series|indexes|lista)/[a-f0-9]{64}\.bin',n) and n not in files:put(assets/n,p.read_bytes())
    # 9/11: owner-only editor view (dead links, help status) under /owner/, never in the public GitHub repo (owner_files.py, channel_gate.mjs).
    try:
     import owner_files

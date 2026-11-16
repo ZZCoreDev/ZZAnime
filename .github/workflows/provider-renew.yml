@@ -12,7 +12,7 @@ on:
       sample_group:
         description: 'Muestra fija de identidad; nunca acepta URLs arbitrarias'
         type: choice
-        options: [baseline, verified-year, observed-token, recovered-import, pc-import, voe-proof]
+        options: [baseline, verified-year, observed-token, recovered-import, pc-import, voe-proof, latino-import]
         default: baseline
       proof:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
@@ -116,6 +116,12 @@ jobs:
             git -C "$GITHUB_WORKSPACE/data" fetch -q --depth 1 origin pc-import
             git -C "$GITHUB_WORKSPACE/data" show FETCH_HEAD:batch.json.gz > "$RUNNER_TEMP/pc-batch.json.gz"
             export ZZ_PC_BATCH="$RUNNER_TEMP/pc-batch.json.gz"
+          fi
+          # 16/11/2026 latino-import: the PC's latino copy of animeav1, one batch in branch latino-import (replaced on each send).
+          if [ "$ZZ_RENEW_SAMPLE_GROUP" = "latino-import" ]; then
+            git -C "$GITHUB_WORKSPACE/data" fetch -q --depth 1 origin latino-import
+            git -C "$GITHUB_WORKSPACE/data" show FETCH_HEAD:batch.json.gz > "$RUNNER_TEMP/latino-batch.json.gz"
+            export ZZ_LATINO_BATCH="$RUNNER_TEMP/latino-batch.json.gz"
           fi
           if [ "$ZZ_RENEW_PROOF" = "true" ]; then
             python3 renew.py --proof --sample-group "${ZZ_RENEW_SAMPLE_GROUP:-baseline}" --publish
