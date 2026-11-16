@@ -31,6 +31,12 @@ class Web:
   return 500,''
 class LinkHealthTests(unittest.TestCase):
 
+ def test_suspect_links_go_last_without_leaving(self):
+  """16/11/2026 (Robin): a link read as deleted stays in its chapter, after the others."""
+  a={'name':'Mp4upload','url':'https://www.mp4upload.com/embed-aaaaaaaa.html'};b={'name':'Streamwish','url':'https://hgcloud.to/e/bbbbbbbb'};c={'name':'Vidhide','url':'https://vidhidepro.com/v/cccccccc'}
+  k=run.sha((a['name']+'\0'+a['url']).encode())
+  self.assertEqual(run.last_suspects([a,b,c],{k}),[b,c,a]);self.assertEqual(run.last_suspects([a,b,c],set()),[a,b,c])
+
  def test_live_policy_withdraws_nothing(self):
   """16/11/2026 (Robin): automatic withdrawal is off; excluded links stay in the channel (the app moves to the next)."""
   self.assertIs(link_health.policy().get('withdraw'),False)

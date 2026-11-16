@@ -245,6 +245,11 @@ def excluded_keys(folder):
  # 16/11/2026 (Robin): withdrawal is switched off with "withdraw": false; checks go on for the traffic light only.
  if rules.get('withdraw') is False:return set()
  return {k for k,e in json.loads(path.read_bytes())['links'].items() if e.get('excluded') and (rules.get('enabled') or e.get('episode') in rules['proof'])}
+def suspect_keys(folder):
+ """16/11/2026: keys the checker reads as deleted (pending or confirmed); used only to put them last, never to remove."""
+ path=Path(folder)/'link-health.json'
+ if not path.exists():return set()
+ return {k for k,e in json.loads(path.read_bytes())['links'].items() if e.get('excluded') or e.get('state')=='dead'}
 def exclude(folder,approved):
  """Withdraw confirmed deleted files from the signed channel; other options and records stay intact."""
  path=Path(folder)/'link-health.json'

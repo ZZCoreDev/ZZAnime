@@ -42,7 +42,10 @@ def compile_java(runtime,modern=False):
  cp=os.pathsep.join(str(p) for p in (W/'lib').glob('*.jar'))
  command(['javac','-encoding','UTF-8','-cp',cp,'-d',str(runtime),*[str(p) for p in (W/('voe-java' if modern else 'java')).glob('*.java')],str(W/'CloudVerify.java'),*([str(W/'VoeOverlayAudit.java')] if modern else [])])
  return str(runtime)+os.pathsep+cp
-def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,mega_alive=None):
+def last_suspects(options,suspect):
+ """16/11/2026 (Robin): options read as deleted go last, the rest keep their order; nothing is removed."""
+ return sorted(options,key=lambda o:sha((o['name']+'\0'+o['url']).encode()) in suspect)
+def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,mega_alive=None,suspect=None):
  rows={}
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/'
@@ -64,6 +67,9 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
     if provider.get('family')=='mega' and (provider.get('review') or ep.get('sourceSeries','').startswith('https://tioanime.com/')) and k not in (mega_alive or ()):continue
     if not approved.get(k) or k in seen:continue
     seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
+  # 16/11/2026 (Robin): links the checker reads as deleted are no longer withdrawn; they go last in their chapter
+  # (stable order otherwise), so the app tries the working ones first.
+  if suspect:options=last_suspects(options,suspect)
   downloads=[x for x in ep.get('downloads',[]) if x.get('name')=='Mega' and x.get('family')=='mega' and re.fullmatch(r'https://(?:www\.)?mega\.nz/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43})',x.get('url','')) and sha((x['name']+'\0'+x['url']).encode()) not in (dead or ())][:8]
   # Extra families for móvil 92+/TV 116+, only next to at least one regular option (older apps drop empty options).
   import extra_options
@@ -219,12 +225,12 @@ def main():
   exclude(D,approved)
   import plays as play_votes
   import skip_marks
-  from link_health import excluded_keys
+  from link_health import excluded_keys,suspect_keys
   import mega_check
   if '--publish' in sys.argv and not proof:
    try:print(json.dumps({'megaCheck':mega_check.check(D,state)}))
    except Exception as error:print(json.dumps({'megaCheckError':type(error).__name__+': '+str(error)[:120]}))
-  index,files=build(state,approved,now,plays=play_votes.load(D,now=now),marks=skip_marks.load(D,now=now),dead=excluded_keys(D),mega_alive=mega_check.alive(D))
+  index,files=build(state,approved,now,plays=play_votes.load(D,now=now),marks=skip_marks.load(D,now=now),dead=excluded_keys(D),mega_alive=mega_check.alive(D),suspect=suspect_keys(D))
   _res=locals().get('result') or {}
   if proof and (len(index['series'])!=2 or sum(x['episodes'] for x in index['series'].values())<2):raise ValueError('Two-series proof incomplete; do not activate: '+json.dumps({'index':{k:v.get('episodes') for k,v in index['series'].items()},'collected':{u.split('/')[-3]+'/'+u.split('/')[-2]:sorted({str(p.get('name'))+('' if approved.get(sha((p['name']+chr(0)+l).encode())) else ':no') for p in e.get('providers',[]) for l in p.get('links',[])}) for u,e in state['episodes'].items()},'source':{k:_res.get(k) for k in ('held','primary','requests','cacheHits')},'sources':public_diagnostics(_res.get('errors'),_res.get('diagnostics'),lambda k:'psyren' in k or 'dark-summoner' in k)},ensure_ascii=False))  # sin enlaces (registro público)
   public=(W/'public-key.der').read_bytes()
