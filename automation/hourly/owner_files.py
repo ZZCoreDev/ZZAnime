@@ -34,11 +34,36 @@ def cloud_runs(token, fetch=None):
         return None
 
 
-def semaforo(folder, health, now):
+BACKUP_RUNS = 'https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/supabase-backup.yml/runs?per_page=10'
+
+
+def backup_runs(token, fetch=None):
+    """16/11/2026 (Robin, mejora A): the weekly Supabase copy never showed in the semáforo (the 60 latest runs cover a
+    few hours). Asked apart: state of the latest run and date of the latest good one. Only states and dates; None when
+    GitHub cannot be read."""
+    try:
+        if fetch:
+            data = fetch(BACKUP_RUNS)
+        else:
+            req = urllib.request.Request(BACKUP_RUNS, headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'User-Agent': 'ZZAnime-Nube/1'})
+            with NO_REDIRECT.open(req, timeout=20) as r:
+                data = json.loads(r.read())
+        runs = [r for r in data.get('workflow_runs') or [] if isinstance(r, dict)]
+        latest = runs[0] if runs else None
+        ok = next((r for r in runs if r.get('status') == 'completed' and r.get('conclusion') == 'success'), None)
+        return {'latest': {k: latest.get(k) for k in ('status', 'conclusion', 'updated_at', 'event')} if latest else None,
+                'lastOkAt': ok.get('updated_at') if ok else None}
+    except Exception:
+        return None
+
+
+def semaforo(folder, health, now, backup=None):
     """14/11/2026 (Robin): traffic light of the editor's Sistema. Servers: per family, the links checked in the 48 hours
     before the last check (alive / dead / unknown). JK copy: the last batch the PC sent and the cloud imported. Only
     counts and dates; no link leaves here."""
     out = {'schema': 1, 'builtAt': now, 'servers': {}, 'jk': None}
+    if backup is not None:
+        out['backup'] = backup
     last = (health or {}).get('last') or {}
     edge = float(last.get('checkedAt') or 0) - 48 * 3600
     for v in ((health or {}).get('links') or {}).values():
@@ -87,7 +112,8 @@ def build(folder, token=None, fetch=None):
         out['owner/cloud-runs.json'] = raw(runs)
     import time
     health_file = folder / 'link-health.json'
-    out['owner/semaforo.json'] = raw(semaforo(folder, json.loads(health_file.read_bytes()) if health_file.exists() else None, time.time()))
+    backup = backup_runs(token, fetch) if token else None
+    out['owner/semaforo.json'] = raw(semaforo(folder, json.loads(health_file.read_bytes()) if health_file.exists() else None, time.time(), backup))
     seen = popular(folder)
     if seen is not None:
         out['owner/popular.json'] = raw(seen)

@@ -46,4 +46,16 @@ class OwnerFiles(unittest.TestCase):
             self.assertNotIn('owner/cloud-runs.json',owner_files.build(d,token=''))
             def boom(url):raise OSError('offline')
             self.assertNotIn('owner/cloud-runs.json',owner_files.build(d,token='t',fetch=boom))
+    def test_backup_in_semaforo(self):
+        # 16/11 (mejora A): latest Supabase copy run and latest good one, states and dates only
+        data={'workflow_runs':[{'status':'completed','conclusion':'failure','updated_at':'2026-11-16T03:20:00Z','event':'schedule','html_url':'x','actor':{'login':'y'}},
+                               {'status':'completed','conclusion':'success','updated_at':'2026-11-13T19:41:00Z','event':'workflow_dispatch'}]}
+        with tempfile.TemporaryDirectory() as d:
+            x=json.loads(owner_files.build(d,token='t',fetch=lambda url:data)['owner/semaforo.json'])
+            self.assertEqual(x['backup'],{'latest':{'status':'completed','conclusion':'failure','updated_at':'2026-11-16T03:20:00Z','event':'schedule'},'lastOkAt':'2026-11-13T19:41:00Z'})
+            self.assertNotIn('backup',json.loads(owner_files.build(d,token='')['owner/semaforo.json']))
+            def boom(url):raise OSError('offline')
+            self.assertNotIn('backup',json.loads(owner_files.build(d,token='t',fetch=boom)['owner/semaforo.json']))
+            x=json.loads(owner_files.build(d,token='t',fetch=lambda url:{'workflow_runs':[]})['owner/semaforo.json'])
+            self.assertEqual(x['backup'],{'latest':None,'lastOkAt':None})
 if __name__=='__main__':unittest.main()

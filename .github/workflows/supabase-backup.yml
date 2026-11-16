@@ -4,9 +4,17 @@ name: Copia semanal de Supabase
 # ZZAnime-datos, rama copias-supabase (se conservan las 4 últimas). En el registro público de esta tarea solo salen
 # tamaños y fechas: nunca datos, ni la dirección de la base, ni la contraseña (además GitHub oculta los secretos).
 # Llaves: SUPABASE_DB_URL y ZZ_BACKUP_PASSWORD (las pone Robin con Poner-llave-copia-supabase.cmd).
+# 16/11/2026 (mejora B): el lunes 16/11 GitHub no lanzó la vuelta de las 03:17. Ahora hay más vueltas el lunes y el
+# martes (36 h en total); cada una mira la fecha de la última copia guardada y no copia si es de hace menos de 40 h
+# (así no se repite dentro de la misma tanda, y una copia a mano del viernes no salta la del lunes). A mano copia siempre.
 on:
   schedule:
     - cron: '17 3 * * 1'
+    - cron: '47 8 * * 1'
+    - cron: '17 14 * * 1'
+    - cron: '47 19 * * 1'
+    - cron: '17 6 * * 2'
+    - cron: '47 15 * * 2'
   workflow_dispatch:
 permissions:
   contents: read
@@ -18,7 +26,32 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          repository: ZZCoreDev/ZZAnime-datos
+          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
+          path: datos
+          fetch-depth: 1
+      - name: ¿Hace falta copia? (solo en las vueltas programadas)
+        id: due
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" != schedule ]; then echo 'Lanzada a mano: se copia siempre.'; echo run=1 >> "$GITHUB_OUTPUT"; exit 0; fi
+          cd datos
+          LAST=''
+          if git fetch -q --depth 1 origin copias-supabase:refs/remotes/origin/copias-supabase 2>/dev/null; then
+            LAST=$(git ls-tree --name-only origin/copias-supabase | grep -oE '^supabase-[0-9]{8}-[0-9]{4}\.dump\.enc$' | sort | tail -1 | sed -E 's/^supabase-([0-9]{8})-([0-9]{2})([0-9]{2}).*/\1 \2:\3/' || true)
+          fi
+          if [ -n "$LAST" ]; then
+            AGE=$(( $(date -u +%s) - $(date -u -d "$LAST UTC" +%s) ))
+            if [ "$AGE" -lt 144000 ]; then echo "Ya hay copia de $LAST UTC (menos de 40 h): esta vuelta no copia."; echo run=0 >> "$GITHUB_OUTPUT"; exit 0; fi
+            echo "Última copia: $LAST UTC; toca copiar."
+          else echo 'No se encontró ninguna copia: toca copiar.'; fi
+          echo run=1 >> "$GITHUB_OUTPUT"
       - name: Instalar pg_dump 17 (misma versión que Supabase)
+        if: steps.due.outputs.run == '1'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq postgresql-common > /dev/null
@@ -26,6 +59,7 @@ jobs:
           sudo apt-get install -y -qq postgresql-client-17 > /dev/null
           /usr/lib/postgresql/17/bin/pg_dump --version
       - name: Copiar, cifrar y comprobar
+        if: steps.due.outputs.run == '1'
         env:
           DB_URL: ${{ secrets.SUPABASE_DB_URL }}
           PASS: ${{ secrets.ZZ_BACKUP_PASSWORD }}
@@ -49,13 +83,8 @@ jobs:
           echo "$SCOPE" > out/scope
           echo "Copia $SCOPE: $(stat -c %s "out/$NAME.enc") bytes cifrados, $(grep -c 'TABLE DATA' "$WORK/list") tablas con datos."
           rm -rf "$WORK"
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
-        with:
-          repository: ZZCoreDev/ZZAnime-datos
-          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
-          path: datos
-          fetch-depth: 1
       - name: Guardar en el repositorio privado (4 últimas)
+        if: steps.due.outputs.run == '1'
         run: |
           set -euo pipefail
           cd datos
