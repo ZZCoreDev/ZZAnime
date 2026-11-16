@@ -36,12 +36,13 @@ def candidates(batch,now,known=None):
    if not 0<=now.timestamp()-stamp(when)<=FRESH:held[url]='Stale or future observation';continue
    providers={}
    for o in ep.get('options') or []:
-    if not isinstance(o,dict) or o.get('lang')!='es-LA':continue
+    # 16/11 (Robin): Spanish from Spain (es-ES, castellano) travels the same way; each link keeps its own language.
+    if not isinstance(o,dict) or o.get('lang') not in ('es-LA','es-ES'):continue
     name,link=o.get('name'),o.get('url')
     rule=ALLOWED.get(name)
     if not rule or not isinstance(link,str) or not re.fullmatch(rule[1],link):continue
     p=providers.setdefault(name,{'name':name,'family':rule[0],'links':[]})
-    if link not in p['links'] and len(p['links'])<4:p['links'].append(link)
+    if link not in p['links'] and len(p['links'])<4:p['links'].append(link);p.setdefault('langs',{})[link]=o['lang']
    if not providers:held[url]='No allowed latino link';continue
    episodes[url]={'episode':url,'observedAt':when,'complete':True,'lang':'es-LA','providers':list(providers.values())}
    listing=listings.setdefault(parent,{'observedAt':when,'complete':True,'title':known[parent]['title'],'episodes':[]})
@@ -83,7 +84,7 @@ def build(state,now,sha,raw):
  for url,ep in state['episodes'].items():
   parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
   if not listing or url not in listing.get('episodes',[]) or not ep.get('complete') or now.timestamp()-stamp(ep.get('observedAt'))<0:continue
-  options=[{'family':pr['family'],'name':pr['name'],'url':u,'lang':'es-LA'} for pr in ep.get('providers',[]) if pr.get('name') in ALLOWED for u in pr.get('links',[]) if re.fullmatch(ALLOWED[pr['name']][1],u)]
+  options=[{'family':pr['family'],'name':pr['name'],'url':u,'lang':(pr.get('langs') or {}).get(u,'es-LA')} for pr in ep.get('providers',[]) if pr.get('name') in ALLOWED for u in pr.get('links',[]) if re.fullmatch(ALLOWED[pr['name']][1],u)]
   if options:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'lang':'es-LA','options':options})
  index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'lang':'es-LA','series':{},'feed':{'schema':1,'episodes':[]}};files={}
  for parent,eps in sorted(rows.items()):

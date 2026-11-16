@@ -23,6 +23,13 @@ class Latino(unittest.TestCase):
         eps,_,held=lc.candidates(old,NOW,KNOWN);self.assertFalse(eps);self.assertIn('Stale',list(held.values())[0])
         self.assertRaises(ValueError,lc.candidates,{'schema':2},NOW,KNOWN)
         _,_,held=lc.candidates({'schema':1,'series':{'https://jkanime.net/no-existe/':{'episodes':{}}}},NOW,KNOWN);self.assertIn('https://jkanime.net/no-existe/',held)
+    def test_castellano_keeps_its_language(self):
+        """16/11/2026 (Robin): castellano (es-ES) links travel with latino ones and keep their own language."""
+        b=batch();ep=b['series']['https://jkanime.net/sousou-no-frieren/']['episodes']['https://jkanime.net/sousou-no-frieren/28/']
+        ep['options']=[{'name':'Mp4upload','url':'https://www.mp4upload.com/embed-castell0001.html','lang':'es-ES'},{'name':'VOE','url':'https://voe.sx/e/awqohxxe9wjk','lang':'es-LA'},{'name':'VOE','url':'https://voe.sx/e/otroidioma','lang':'fr'}]
+        eps,_,_=lc.candidates(b,NOW,KNOWN);got=eps['https://jkanime.net/sousou-no-frieren/28/']
+        langs={u:l for p in got['providers'] for u,l in p.get('langs',{}).items()}
+        self.assertEqual(langs,{'https://www.mp4upload.com/embed-castell0001.html':'es-ES','https://voe.sx/e/awqohxxe9wjk':'es-LA'})
     def test_approve_and_signed_channel(self):
         eps,listings,_=lc.candidates(batch(),NOW,KNOWN)
         ok,held=lc.approve(eps,lambda q:{k:v['name']!='Filemoon' for k,v in q.items()})
