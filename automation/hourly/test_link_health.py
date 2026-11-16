@@ -30,6 +30,14 @@ class Web:
    if host in url:return page(family,'dead' if link_health.FAKE in url or url in (DEAD_MP4,DEAD_VOE) else 'alive')
   return 500,''
 class LinkHealthTests(unittest.TestCase):
+
+ def test_live_policy_withdraws_nothing(self):
+  """16/11/2026 (Robin): automatic withdrawal is off; excluded links stay in the channel (the app moves to the next)."""
+  self.assertIs(link_health.policy().get('withdraw'),False)
+  with tempfile.TemporaryDirectory() as d:
+   Path(d,'link-health.json').write_text(json.dumps({'links':{'k':{'excluded':True,'episode':'https://jkanime.net/x/1/'}}}))
+   approved={'k':True}
+   self.assertEqual(link_health.exclude(d,approved),0);self.assertEqual(approved,{'k':True});self.assertEqual(link_health.excluded_keys(d),set())
  def test_real_pages_classify_by_positive_markers_only(self):
   for f in FIX:self.assertEqual(link_health.classify(f['family'],f['status'],f['body']),f['expect'],f['url'])
   self.assertEqual(link_health.classify('mp4upload',503,'File was deleted'),'unknown')
@@ -67,6 +75,8 @@ class LinkHealthTests(unittest.TestCase):
    web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
    s=link_health.check(d,now=now,limit=1,fetcher=web,sleep=lambda s:None)
    self.assertEqual(sum(u in web.urls for u in reported),link_health.REPORTED_LIMIT);self.assertEqual(s['checked'],link_health.REPORTED_LIMIT+1)
+ # The withdrawal mechanism, tested with the switch ON (the live policy has it OFF since 16/11/2026).
+ @patch.object(link_health,'policy',lambda:{**json.loads((Path(link_health.__file__).parent/'link-health-policy.json').read_bytes()),'withdraw':True})
  def test_mega_downloads_are_checked_and_confirmed_deletions_leave_the_index(self):
   mega='https://mega.nz/file/AbCd1234#'+'K'*43;now=datetime.datetime.now(datetime.timezone.utc)
   with tempfile.TemporaryDirectory() as d:
@@ -81,6 +91,8 @@ class LinkHealthTests(unittest.TestCase):
   def downloads(dead):
    _,files=run.build(state,approved,now,dead=dead);return json.loads(gzip.decompress(next(b for n,b in files.items() if n.startswith('series/'))))['episodes'][0].get('downloads')
   self.assertEqual(downloads(set())[0]['url'],mega);self.assertIsNone(downloads({k}))
+ # The withdrawal mechanism, tested with the switch ON (the live policy has it OFF since 16/11/2026).
+ @patch.object(link_health,'policy',lambda:{**json.loads((Path(link_health.__file__).parent/'link-health-policy.json').read_bytes()),'withdraw':True})
  def test_deletion_needs_two_checks_thirty_minutes_apart_then_leaves_both_channels(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);web=Web();now=datetime.datetime.now(datetime.timezone.utc).timestamp()
@@ -116,6 +128,8 @@ class LinkHealthTests(unittest.TestCase):
    with self.assertRaises(StopIteration):run.main()
    with self.assertRaises(StopIteration):voe_channel.render(folder,datetime.datetime.now(datetime.timezone.utc),None,folder)
   return seen
+ # The withdrawal mechanism, tested with the switch ON (the live policy has it OFF since 16/11/2026).
+ @patch.object(link_health,'policy',lambda:{**json.loads((Path(link_health.__file__).parent/'link-health-policy.json').read_bytes()),'withdraw':True})
  def test_signed_channels_withdraw_confirmed_deletions(self):
   with tempfile.TemporaryDirectory() as d:
    world(d);now=datetime.datetime.now(datetime.timezone.utc).timestamp()

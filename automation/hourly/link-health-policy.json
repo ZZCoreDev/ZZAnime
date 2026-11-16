@@ -1,4 +1,6 @@
 {
+  "withdraw": false,
+  "withdrawNote": "16/11/2026 (Robin): la nube NO retira enlaces (aunque los compruebe para el semáforo). Si uno falla, la app pasa al siguiente. Los ya retirados vuelven en la siguiente publicación. Para reactivar la retirada: withdraw true.",
   "enabled": true,
   "proof": [
     "https://jkanime.net/tetsuryou-meet-with-tetsudou-musume/4/",
