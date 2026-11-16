@@ -4,7 +4,7 @@ These files used to be read from the public provider-data branch. The links now 
 ZZAnime-datos, so the editor gets them from zzanime-respaldo under /owner/, which channel_gate.mjs answers only
 for the editor owner (Supabase zz_editor_access with authenticator). Only what the editor shows is kept: dead
 links (episode, provider, url, date, excluded) and the summary of the last check. Parts stay under 1.5 MB."""
-import json,os,urllib.request
+import json,os,re,urllib.request
 from pathlib import Path
 from no_redirect import NO_REDIRECT
 
@@ -102,6 +102,38 @@ def popular(folder):
     return {'schema': 1, 'checkedAt': x.get('checkedAt'), 'minDeviceAgeHours': x.get('minDeviceAgeHours'), 'popular': rows[:50]}
 
 
+# 17/11 (Robin): «Avisos de la gente» in the editor. People's «no funciona» reports (2+ devices, from help_chain) for the
+# owner to judge by hand: nothing is withdrawn automatically. The reports come from the public, so every field is
+# rechecked here (JK chapter address, short server name, plain https link without user, port, quotes or spaces).
+EPISODE = re.compile(r'https://jkanime\.net/[A-Za-z0-9_-][A-Za-z0-9_.-]{0,120}/[1-9][0-9]{0,4}/')
+LINK = re.compile(r'''https://[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)*\.[a-z]{2,24}/[^\s"'<>\@]{0,450}''', re.I)
+NAME = re.compile(r'[A-Za-z0-9][A-Za-z0-9 ._+-]{0,39}')
+
+
+def reports(folder):
+    path = Path(folder) / 'dead-reports.json'
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_bytes())
+    except ValueError:
+        return None
+    out, seen = [], set()
+    for x in (data.get('links') or [])[:300]:
+        if not isinstance(x, dict):
+            continue
+        episode, url, name, family = x.get('episode'), x.get('url'), x.get('name'), x.get('family')
+        devices, asns, first = x.get('devices'), x.get('asns'), x.get('first')
+        if not (isinstance(episode, str) and EPISODE.fullmatch(episode) and isinstance(url, str) and LINK.fullmatch(url)
+                and isinstance(name, str) and NAME.fullmatch(name) and isinstance(family, str) and NAME.fullmatch(family)
+                and type(devices) is int and 2 <= devices <= 100000 and type(asns) is int and 0 <= asns <= 100000
+                and type(first) in (int, float) and 0 < first < 4102444800000) or (episode, url) in seen:
+            continue
+        seen.add((episode, url))
+        out.append({'episode': episode, 'url': url, 'name': name, 'family': family.lower(), 'devices': devices, 'asns': asns, 'first': int(first)})
+    return {'schema': 1, 'checkedAt': data.get('checkedAt') if isinstance(data.get('checkedAt'), str) else None, 'links': out}
+
+
 def build(folder, token=None, fetch=None):
     """{published name: bytes} for the owner; empty when the state files are absent."""
     folder = Path(folder)
@@ -120,6 +152,9 @@ def build(folder, token=None, fetch=None):
     help_status = folder / 'help-status.json'
     if help_status.exists():
         out['owner/help-status.json'] = raw(json.loads(help_status.read_bytes()))
+    said = reports(folder)
+    if said is not None:
+        out['owner/dead-reports.json'] = raw(said)
     health_path = folder / 'link-health.json'
     if not health_path.exists():
         return out

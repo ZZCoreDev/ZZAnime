@@ -14,6 +14,16 @@ class OwnerFiles(unittest.TestCase):
                 b=out[f'owner/link-health-{n}.json'];self.assertLess(len(b),2097152);merged.update(json.loads(b)['links'])
             self.assertEqual(len(merged),10000);self.assertTrue(all(v['state']=='dead' and 'archive' not in v and 'deadChecks' not in v for v in merged.values()))
             self.assertIn('owner/help-status.json',out)
+    def test_dead_reports_checked(self):
+        """17/11 (Robin): people's reports reach the owner's editor only with clean fields; bad ones are dropped."""
+        ok={'episode':'https://jkanime.net/sousou-no-frieren/3/','name':'VOE','family':'VOE','url':'https://voe.sx/e/abcdefgh','devices':3,'asns':2,'first':1763300000000}
+        bad=[dict(ok,url='javascript:alert(1)'),dict(ok,url='https://evil.example/a"><script>'),dict(ok,url='https://u@voe.sx/e/x'),dict(ok,episode='https://evil.example/a/1/'),
+             dict(ok,name='<img src=x>'),dict(ok,devices=1),dict(ok,devices='9'),dict(ok,first='hoy'),'texto',dict(ok)]
+        with tempfile.TemporaryDirectory() as d:
+            d=Path(d);(d/'dead-reports.json').write_text(json.dumps({'checkedAt':'2026-11-17T00:00:00Z','links':[ok]+bad}))
+            got=json.loads(owner_files.build(d)['owner/dead-reports.json'])
+            self.assertEqual(got['links'],[dict(ok,family='voe')]);self.assertEqual(got['checkedAt'],'2026-11-17T00:00:00Z')
+            (d/'dead-reports.json').write_text('{roto');self.assertNotIn('owner/dead-reports.json',owner_files.build(d))
     def test_absent(self):
         with tempfile.TemporaryDirectory() as d:self.assertEqual(list(owner_files.build(d)),['owner/semaforo.json'])
     def test_semaforo(self):

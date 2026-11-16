@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: '7,37 * * * *'
   workflow_dispatch:
+  # 17/11 (Robin): also right after a publication from the editor, so GitLab never falls behind (it was 4 versions
+  # behind when the scheduled runs were skipped). Same checks as always: the APKs are verified below before any upload.
+  workflow_run:
+    workflows: ['Publicar app desde el editor']
+    types: [completed]
 permissions:
   contents: read
 concurrency:
@@ -12,6 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   mirror:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
