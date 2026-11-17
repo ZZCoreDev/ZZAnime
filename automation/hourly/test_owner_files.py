@@ -37,6 +37,12 @@ class OwnerFiles(unittest.TestCase):
             self.assertEqual([w['url'] for w in got['worst']],['https://jkanime.net/tribe-cool-crew/','https://jkanime.net/a/']);self.assertEqual(got['worst'][1]['title'],'')
             self.assertEqual(got['round']['done'],5004);self.assertEqual(got['redirect'],{'recovered':518,'held':174})
             (d/'jk-copy-summary.json').write_text('{"schema":2}');self.assertNotIn('owner/jk-copy.json',owner_files.build(d))
+            es=dict(good,spanish={'monoschinos':{'fullDoneAt':'2026-11-17T01:05:24.815Z','lastRunAt':'mal','series':191,'castellano':48,'latino':143,'chapters':4827,'withLinks':3094,
+                'failed':[{'slug':'algo-latino','reason':'fetch failed','at':'2026-11-17T01:00:00.000Z'},{'slug':'<x>','reason':'r'}],
+                'apart':[{'slug':'beyblade-latino','title':'Beyblade Latino','jkTitle':'Bakuten Shoot Beyblade','jk':'https://jkanime.net/beyblade/'},{'slug':'x-latino','title':'X','jk':'javascript:1'},{'slug':'Mal Slug'}]},'otra':{'series':1}})
+            (d/'jk-copy-summary.json').write_text(json.dumps(es));got=json.loads(owner_files.build(d)['owner/jk-copy.json'])['spanish']
+            self.assertEqual(list(got),['monoschinos']);m=got['monoschinos'];self.assertEqual((m['series'],m['castellano'],m['lastRunAt']),(191,48,None))
+            self.assertEqual([f['slug'] for f in m['failed']],['algo-latino']);self.assertEqual([a['slug'] for a in m['apart']],['beyblade-latino','x-latino']);self.assertNotIn('jk',m['apart'][1])
     def test_absent(self):
         with tempfile.TemporaryDirectory() as d:self.assertEqual(list(owner_files.build(d)),['owner/semaforo.json'])
     def test_semaforo(self):

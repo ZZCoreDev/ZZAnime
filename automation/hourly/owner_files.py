@@ -168,6 +168,28 @@ def jk_copy(folder):
         title = w.get('title') if isinstance(w.get('title'), str) else ''
         title = '' if len(title) > 180 or re.search(r'[\x00-\x1f\x7f]', title) else title
         out['worst'].append({'url': w['url'], 'title': title, 'count': count(w.get('count')), 'reason': w['reason']})
+    # 17/11 (Robin): the two Spanish copies (animeav1 latino, monoschinos latino/castellano).
+    text = lambda v, n: v if isinstance(v, str) and len(v) <= n and not re.search(r'[\x00-\x1f\x7f]', v) else ''
+    slug = lambda v: v if isinstance(v, str) and re.fullmatch(r'[a-z0-9][a-z0-9-]{0,129}', v) else ''
+    spanish = x.get('spanish') if isinstance(x.get('spanish'), dict) else {}
+    out['spanish'] = {}
+    for name in ('animeav1', 'monoschinos'):
+        s = spanish.get(name)
+        if not isinstance(s, dict):
+            continue
+        row = {'fullDoneAt': stamp(s.get('fullDoneAt')), 'lastRunAt': stamp(s.get('lastRunAt'))}
+        row.update({k: count(s.get(k)) for k in ('series', 'castellano', 'latino', 'chapters', 'withLinks')})
+        row['failed'] = [{'slug': slug(f.get('slug')), 'reason': text(f.get('reason'), 120), 'at': stamp(f.get('at'))}
+                         for f in (s.get('failed') if isinstance(s.get('failed'), list) else [])[:20] if isinstance(f, dict) and slug(f.get('slug'))]
+        row['apart'] = []
+        for a in (s.get('apart') if isinstance(s.get('apart'), list) else [])[:50]:
+            if not isinstance(a, dict) or not slug(a.get('slug')):
+                continue
+            item = {'slug': a['slug'], 'title': text(a.get('title'), 180), 'jkTitle': text(a.get('jkTitle'), 180)}
+            if isinstance(a.get('jk'), str) and JK_SERIES.fullmatch(a['jk']):
+                item['jk'] = a['jk']
+            row['apart'].append(item)
+        out['spanish'][name] = row
     return out
 
 
