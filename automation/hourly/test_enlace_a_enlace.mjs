@@ -26,6 +26,7 @@ const assets={fetch(r){const p=new URL(r.url).pathname.slice(1),m=/^(latino\/)?(
  if(files.has(p))return new Response(files.get(p));return new Response('nf',{status:404});}};
 let cdata='';const ownerTk='o'.repeat(40);
 const net=async(url,init)=>{const u=String(url);
+ if(u.includes('library_session_valid'))return new Response(globalThis.revoked?.has((init?.headers?.Authorization||'').slice(7))?'false':'true');
  if(u.includes('siteverify')){await env.QUOTA.get('global').fetch('https://quota/hmark?n='+cdata);return new Response(JSON.stringify({success:true,hostname:'zzanime.uk',action:'enlaces',cdata}));}
  if(u.includes('zz_editor_access'))return new Response(init?.headers?.Authorization==='Bearer '+ownerTk?'{"allowed":true,"aal2":true}':'{"allowed":false,"aal2":false}');
  return new Response(JSON.stringify({keys:[{...jwk,alg:'ES256',kid:'k1'}]}));};
@@ -123,4 +124,6 @@ assert.equal((await handle(new Request('https://respaldo.zzanime.uk/series/x.bin
  r=await web('/enlace'+e1,{tk:tw});assert.equal(r.status,200,'one link, counted like the app');
  r=await web('/series/'+'a'.repeat(64)+'.bin',{tk:tw});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null);
  r=await web('/%65nlace'+e1,{method:'OPTIONS'});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null);}
+// R11-09 (18/11): a closed session or deleted account gets no link with its old (still signed) token
+{const closed=await user('sesion-cerrada');globalThis.revoked=new Set([closed]);const r=await one(closed,2,1,0);assert.equal(r.status,401);assert.ok(!(await r.text()).includes('voe.sx'));globalThis.revoked=new Set();}
 console.log('enlace a enlace OK');

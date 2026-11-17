@@ -170,11 +170,19 @@ export class Quota{
    const days=this.sql.exec('select day,count(*) c from seen where user=? group by day order by day desc limit 7',key).toArray().map(r=>({day:r.day,series:r.c}));
    const tries=this.sql.exec('select n from tries where day=? and user=?',day,key).toArray()[0]?.n||0,boxes=this.sql.exec('select count(*) c from challenges where user=? and until>?',key,now).toArray()[0].c;
    const human=this.sql.exec('select until from humanok where user=? and until>?',key,now).toArray()[0],mark=this.sql.exec('select kind,until from marks where key=? and until>?',key,now).toArray()[0];
-   return Response.json({schema:1,today:{series:days.find(d=>d.day===day)?.series||0,tries,boxes},days,humanUntil:human?new Date(human.until).toISOString():null,mark:mark?{kind:mark.kind,until:new Date(mark.until).toISOString()}:null});}
+   // R11-06 (18/11): what the new door («enlace a enlace») counts: links and series per day, new-link attempts today
+   const ldays=this.sql.exec('select day,count(*) links,count(distinct series) series from lseen where user=? group by day order by day desc limit 7',key).toArray().map(r=>({day:r.day,links:r.links,series:r.series}));
+   const ltries=this.sql.exec('select n from ltries where day=? and user=?',day,key).toArray()[0]?.n||0;
+   return Response.json({schema:1,today:{series:days.find(d=>d.day===day)?.series||0,tries,boxes},days,links:{today:{links:ldays.find(d=>d.day===day)?.links||0,series:ldays.find(d=>d.day===day)?.series||0,tries:ltries},days:ldays},humanUntil:human?new Date(human.until).toISOString():null,mark:mark?{kind:mark.kind,until:new Date(mark.until).toISOString()}:null});}
   if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1],lsoft:[0,1000],lburst:[1,1000],lcover:[10,100],lmin:[1,200],lfull:[1,100],lcap:[1,5000],lnewcap:[1,5000],lipcap:[1,50000],lipsoft:[1,50000]};
    if(!limits[name])return new Response('{}',{status:400});if(raw===''||raw==null){this.sql.exec('delete from settings where name=?',name);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
    const v=Number(raw);if(!Number.isInteger(v)||v<limits[name][0]||v>limits[name][1])return new Response('{}',{status:400});
    this.sql.exec('insert into settings(name,value,at) values(?,?,?) on conflict(name) do update set value=excluded.value,at=excluded.at',name,v,now);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
+  // R11-06 (18/11): the owner's «sin límites» / «con límites otra vez» reach the counter at once.
+  if(u.pathname==='/admin/exempt'||u.pathname==='/admin/unexempt'){const k=u.searchParams.get('k')||'';if(!/^u:[0-9a-f-]{36}$/.test(k))return new Response('{}',{status:400});
+   if(u.pathname==='/admin/unexempt')this.sql.exec("delete from marks where key=? and kind='exempt'",k);
+   else this.sql.exec("insert into marks(key,kind,until,at) values(?,'exempt',?,?) on conflict(key) do update set kind='exempt',until=excluded.until,at=excluded.at",k,now+30*86400000,now);
+   return Response.json({ok:true});}
   if(u.pathname==='/admin/ban'||u.pathname==='/admin/unban'){const k=u.searchParams.get('k')||'';if(!(/^u:[A-Za-z0-9-]{1,64}$/.test(k)||k.startsWith('n:')&&NETKEY.test(k.slice(2))))return new Response('{}',{status:400});
    if(u.pathname==='/admin/unban'){this.sql.exec("delete from marks where key=? and kind='ban'",k);return Response.json({ok:true});}
    const hours=Math.min(Math.max(Number(u.searchParams.get('hours'))||6,1),720);
@@ -195,7 +203,8 @@ export class Quota{
    const bans=this.sql.exec("select key,until,at from marks where kind='ban' and key like 'u:%' and until>? order by at desc limit 50",now).toArray().map(b=>({user:b.key.replace(/^u:/,''),at:new Date(b.at).toISOString()}));
    const deviceBans=this.sql.exec("select at from marks where kind='ban' and key like 'd:%' and until>? order by at desc",now).toArray().map(b=>({at:new Date(b.at).toISOString()}));
    const links={};for(const r of this.sql.exec('select day,count(*) c from seen group by day,user').toArray()){const d=links[r.day]||={accounts:0,top:0,over50:0};d.accounts++;d.top=Math.max(d.top,r.c);if(r.c>=50)d.over50++;}
-   return Response.json({schema:1,cap,ipCap,days,links,bans,bannedDevices:deviceBans.length,deviceBans:deviceBans.slice(0,50)});
+   const oneLinks={};for(const r of this.sql.exec('select day,count(*) c,count(distinct series) s from lseen group by day,user').toArray()){const d=oneLinks[r.day]||={accounts:0,top:0,topSeries:0,over100:0};d.accounts++;d.top=Math.max(d.top,r.c);d.topSeries=Math.max(d.topSeries,r.s);if(r.c>=100)d.over100++;}
+   return Response.json({schema:1,cap,ipCap,days,links,oneLinks,bans,bannedDevices:deviceBans.length,deviceBans:deviceBans.slice(0,50)});
   }
   return new Response('{}',{status:404});
  }

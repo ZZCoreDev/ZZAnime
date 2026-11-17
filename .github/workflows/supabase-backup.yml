@@ -70,8 +70,8 @@ jobs:
           [ ${#PASS} -ge 12 ] || { echo 'La contraseña de la copia es demasiado corta.'; exit 1; }
           BIN=/usr/lib/postgresql/17/bin; NAME="supabase-$(date -u +%Y%m%d-%H%M).dump"; WORK=$(mktemp -d); mkdir -p out
           # Esquemas propios y las cuentas (auth); si las cuentas no se pudieran leer, la copia sigue sin ellas y lo dice.
-          if "$BIN/pg_dump" "$DB_URL" -Fc --no-owner --no-privileges -n public -n zz_editor -n zz_security -n auth -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=completa
-          elif "$BIN/pg_dump" "$DB_URL" -Fc --no-owner --no-privileges -n public -n zz_editor -n zz_security -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=sin-cuentas
+          if "$BIN/pg_dump" "$DB_URL" -Fc --no-owner -n public -n zz_editor -n zz_security -n auth -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=completa
+          elif "$BIN/pg_dump" "$DB_URL" -Fc --no-owner -n public -n zz_editor -n zz_security -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=sin-cuentas; mv "$WORK/$NAME" "$WORK/${NAME%.dump}-parcial.dump"; NAME="${NAME%.dump}-parcial.dump"
           else echo 'pg_dump no pudo leer la base (revisa SUPABASE_DB_URL). Tipo de error (sin datos privados):'
             grep -oiE 'password authentication failed|Tenant or user not found|could not translate host name|Network is unreachable|Connection refused|timeout expired|server version mismatch|aborting because of server version mismatch|permission denied for [a-z]+ [a-z_]+|SSL [a-z ]+|invalid URI query parameter|missing "=" after|invalid integer value|too many connections|circuit breaker[a-z ]*' "$WORK/err" | sort -u | head -5 || true
             exit 1; fi
@@ -91,7 +91,8 @@ jobs:
           git config user.name 'ZZAnime copia'; git config user.email 'noreply@users.noreply.github.com'
           mkdir -p ../keep
           if git fetch -q --depth 1 origin copias-supabase:refs/remotes/origin/copias-supabase 2>/dev/null; then
-            for f in $(git ls-tree --name-only origin/copias-supabase | grep -E '^supabase-[0-9]{8}-[0-9]{4}\.dump\.enc$' | sort -r | head -3); do git show "origin/copias-supabase:$f" > "../keep/$f"; done
+            ALL=$(git ls-tree --name-only origin/copias-supabase | grep -E '^supabase-[0-9]{8}-[0-9]{4}(-parcial)?\.dump\.enc$' | sort -r || true)
+            for f in $( (echo "$ALL" | head -3; echo "$ALL" | grep -v -- -parcial | head -1) | sort -u); do git show "origin/copias-supabase:$f" > "../keep/$f"; done
           fi
           git checkout -q --orphan copias-supabase-nueva
           git rm -rq --cached . > /dev/null 2>&1 || true

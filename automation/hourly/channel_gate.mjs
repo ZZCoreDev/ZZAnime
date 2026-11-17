@@ -10,6 +10,13 @@ const PUBLIC=/^\/(?:(?:voe|extra|latino)\/)?channel\.json$/;
 const OWNER=/^\/owner\/(?:help-status|dead-reports|jk-copy|cloud-runs|semaforo|popular|link-health(?:-[0-9]{1,2})?)\.json$/;
 // Public project key of the app (also inside the APK): lets the owner check run as the caller.
 const SUPABASE_KEY='sb_publishable_33FCU_W4f4gR3a69SygtDQ_j3sG1A-m';
+// R11-09 (18/11): a valid signature is not enough for a link: the session must still exist in Supabase (closed sessions and
+// deleted accounts stop getting links within 60 s). «Could not check» is not «closed»: no link, retry later.
+const aliveCache=new Map();
+export async function sessionAlive(bearer,fetcher,now=Date.now()){if(!bearer)return false;const c=aliveCache.get(bearer);if(c&&now-c.at<60000)return c.ok;
+ let ok;try{const r=await fetcher(ISSUER.replace('/auth/v1','')+'/rest/v1/rpc/library_session_valid',{method:'POST',headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+bearer,'Content-Type':'application/json'},body:'{}',redirect:'manual',signal:AbortSignal.timeout(6000)});
+  if(r.status===401||r.status===403)ok=false;else if(r.status!==200)return null;else ok=(await r.text()).trim()==='true';}catch{return null;}
+ if(aliveCache.size>5000)aliveCache.clear();aliveCache.set(bearer,{at:now,ok});return ok;}
 let keys=null,keysAt=0,loading=null,kidRetryAt=0,refreshAfter=0,lastOk=false;
 const b64url=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')+'==='.slice((s.length+3)%4)),c=>c.charCodeAt(0));
 export function resetKeys(){keys=null;keysAt=0;loading=null;kidRetryAt=0;refreshAfter=0;lastOk=false;}
@@ -117,6 +124,7 @@ function recentTotp(request){try{const p=JSON.parse(new TextDecoder().decode(b64
 export function adminPath(a){if(!a||typeof a!=='object')return null;const user=String(a.user||''),hours=Math.min(Math.max(parseInt(a.hours,10)||24,1),720);
  if(a.action==='ban-user'&&/^[0-9a-f-]{36}$/.test(user))return '/admin/ban?k=u:'+user+'&hours=6';
  if(a.action==='unban-user'&&/^[0-9a-f-]{36}$/.test(user))return '/admin/unban?k=u:'+user;
+ if((a.action==='exempt-user'||a.action==='unexempt-user')&&/^[0-9a-f-]{36}$/.test(user))return '/admin/'+a.action.replace('-user','')+'?k=u:'+user;
  if(a.action==='ban-net'){const n=netOf(a.ip);return n?'/admin/ban?k=n:'+encodeURIComponent(n)+'&hours='+hours:null;}
  if(a.action==='unban-net'){const n=netOf(String(a.net||'').replace(/::$/,'::1'))||(/^[0-9.]{7,15}$/.test(String(a.net||''))?netOf(a.net):'');return n?'/admin/unban?k=n:'+encodeURIComponent(n):null;}
  if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha|lsoft|lburst|lcover|lmin|lfull|lcap|lnewcap|lipcap|lipsoft)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
@@ -188,6 +196,7 @@ async function inner(request,env,fetcher){
    if(!list||!list.length)return deny(404,'not_found');
    if(path==='/opciones')return json({schema:1,options:list.map(({url,...o})=>({...o,p}))});
    const opt=list.find(o=>o.key===k);if(!opt)return deny(404,'not_found'); // unknown links are never counted nor served
+   const alive=await sessionAlive((request.headers.get('Authorization')||'').replace(/^Bearer\s+/i,''),fetcher);if(alive===false)return deny(401,'login');if(alive===null)return new Response(JSON.stringify({error:'unavailable',retry:true}),{status:503,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store','Retry-After':'30'}});
    const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),token=request.headers.get('X-ZZ-Human')||'',out={};
    const r=await oneLinkAllows(env,{user,series:sk,key:k,total:found.total,fresh,device,ip,out,human:token?await humanOk(env,token,ip,fetcher):''});
    if(r==='human'&&!await owner(request,fetcher))return json({error:'human',...(out.challenge?{challenge:out.challenge}:{})},428);

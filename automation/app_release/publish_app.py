@@ -92,15 +92,39 @@ def main():
     for name in names:run('gh','release','download',TAG,'--repo',REPO,'--dir',checked,'--clobber','--pattern',name+'.pending')
     for name in names:
         if by_name[name+'.pending']['size']!=(out/name).stat().st_size or sha(checked/(name+'.pending'))!=sha(out/name):fail('copia de prueba distinta: '+name)
-    for name in names:
-        if name in old:run('gh','api','--method','DELETE','repos/'+REPO+'/releases/assets/'+str(old[name]['id']))
-        body=work/'rename.json';body.write_text(json.dumps({'name':name}),encoding='utf-8')
-        run('gh','api','--method','PATCH','repos/'+REPO+'/releases/assets/'+str(by_name[name+'.pending']['id']),'--input',body)
+    # R11-07 (18/11): resumable promotion (APKs first, manifest last); if it cannot finish, the previous version is put back.
+    try:promote(names,by_name,work)
+    except Exception:
+        restore(names,before)
+        fail('no se pudo completar el cambio de archivos; se ha vuelto a dejar la versión anterior')
     verify=work/'published';verify.mkdir()
     for name in names:run('gh','release','download',TAG,'--repo',REPO,'--dir',verify,'--clobber','--pattern',name)
     for name in names:
         if sha(verify/name)!=sha(out/name):fail('lo publicado no coincide: '+name)
     print(json.dumps({'published':names,'kind':kind,'versionCode':code,'previous':previous_code_text(before,k),'sha256':digest}))
     summary(f"### Publicada {k['label']} {code}\n\n{notes}\n\nLa anterior queda guardada en la publicación «{BACKUP}».")
+def promote(names,by_name,work):
+    """Each name: remove the published copy (unless it already is the new one) and rename its .pending copy. Every step
+    first reads the current state, so a lost answer or a retry never removes the new copy."""
+    import time
+    for name in names:
+        new_id=by_name[name+'.pending']['id']
+        for attempt in range(3):
+            try:
+                cur={x['name']:x for x in api('repos/'+REPO+'/releases/tags/'+TAG)['assets']}
+                if name in cur and cur[name]['id']==new_id:break
+                if name in cur:run('gh','api','--method','DELETE','repos/'+REPO+'/releases/assets/'+str(cur[name]['id']))
+                body=work/'rename.json';body.write_text(json.dumps({'name':name}),encoding='utf-8')
+                run('gh','api','--method','PATCH','repos/'+REPO+'/releases/assets/'+str(new_id),'--input',body)
+                break
+            except Exception:
+                if attempt==2:raise
+                time.sleep(5*(attempt+1))
+def restore(names,before):
+    """Puts back every file of the previous version (same names), so APK and manifest agree again."""
+    for attempt in range(3):
+        try:run('gh','release','upload',TAG,'--repo',REPO,'--clobber',*[before/n for n in names]);return
+        except Exception:
+            import time;time.sleep(5*(attempt+1))
 def previous_code_text(before,k):return json.loads((before/k['manifest']).read_text(encoding='utf-8'))['versionCode']
 if __name__=='__main__':main()
