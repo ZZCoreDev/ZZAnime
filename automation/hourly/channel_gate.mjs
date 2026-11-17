@@ -154,6 +154,9 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  const {sub:user,fresh}=info;
  if(!user&&env.REQUIRE_SESSION!=='false')return deny(401,'login'); // 11/11 A-03: cerrado salvo «false» explícito
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
+ // 17/11 revisión de seguridad: with a session ONLY these exact shapes are served. Anything else (an encoded letter such as
+ // /%73eries/, a double slash, other files) is 404, so no series file can be reached without going through the counter.
+ if(!/^\/(?:opciones|enlace)$/.test(path)&&!/^\/(?:(?:voe|extra|latino)\/)?(?:indexes|lista|series)\/[a-z0-9]{1,64}\.bin$/.test(path))return deny(404,'not_found');
  // 17/11 (Robin, «enlace a enlace»): /opciones = the servers of one chapter WITHOUT addresses (no quota); /enlace = ONE
  // address, after the per-link counter (oneLinkAllows) and, when it asks, «soy humano» for that very link. Off by default.
  if(path==='/opciones'||path==='/enlace'){

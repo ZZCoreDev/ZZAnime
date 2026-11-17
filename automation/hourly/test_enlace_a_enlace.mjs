@@ -107,4 +107,7 @@ assert.equal((await call(tk,'/series/'+'b'.repeat(64)+'.bin',{env:{...env,LEGACY
 assert.equal((await handle(new Request('https://respaldo.zzanime.uk/series/x.bin',{headers:{'X-ZZ-Cloud':'cloud-secret-123'}}),{...env,LEGACY_SERIES:'closed'},net)).status,404,'cloud key passes the door (file itself unknown here)');
 // 12) counter down: closed, never served without counting
 {const down={idFromName:()=>1,get:()=>({fetch:async()=>{throw Error('down')}})};assert.equal((await one(tk,3,1,0,{env:{...env,QUOTA:down}})).status,503);}
+// 13) with a session, only the exact file shapes: encoded letters, double slashes or other files never reach a series file uncounted
+{const sneaky=['/%73eries/'+'a'.repeat(64)+'.bin','//series/'+'a'.repeat(64)+'.bin','/series//'+'a'.repeat(64)+'.bin','/Series/'+'a'.repeat(64)+'.bin','/series/'+'a'.repeat(64)+'.bin%00','/voe/%73eries/x.bin','/robots.txt','/index.html','/series/'+'a'.repeat(64)+'.json'];
+ for(const p of sneaky){const r=await handle(new Request('https://respaldo.zzanime.uk'+p,{headers:{Authorization:'Bearer '+tk}}),env,net);assert.equal(r.status,404,p);}}
 console.log('enlace a enlace OK');
