@@ -119,7 +119,7 @@ export function adminPath(a){if(!a||typeof a!=='object')return null;const user=S
  if(a.action==='unban-user'&&/^[0-9a-f-]{36}$/.test(user))return '/admin/unban?k=u:'+user;
  if(a.action==='ban-net'){const n=netOf(a.ip);return n?'/admin/ban?k=n:'+encodeURIComponent(n)+'&hours='+hours:null;}
  if(a.action==='unban-net'){const n=netOf(String(a.net||'').replace(/::$/,'::1'))||(/^[0-9.]{7,15}$/.test(String(a.net||''))?netOf(a.net):'');return n?'/admin/unban?k=n:'+encodeURIComponent(n):null;}
- if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha|lsoft|lburst|lcover|lmin|lfull|lcap|lnewcap|lipcap)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
+ if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha|lsoft|lburst|lcover|lmin|lfull|lcap|lnewcap|lipcap|lipsoft)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
  return null;}
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
  const path=new URL(request.url).pathname;

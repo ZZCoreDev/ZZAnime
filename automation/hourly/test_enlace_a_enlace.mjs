@@ -91,6 +91,12 @@ env.QUOTA=quota();
  let blocked=false;for(let a=0;a<6&&!blocked;a++){const t=await user('granja-'+a);for(const c of [1,2,3,4]){const x=await one(t,8,c,a%3,{ip:'192.0.2.50'});if(x.status===429){blocked=true;break;}}
   for(const c of [1,2,3,4]){const x=await one(t,7,c,a%3,{ip:'192.0.2.50'});if(x.status===429){blocked=true;break;}}}
  assert.ok(blocked,'network cap across accounts');}
+// 8b) many accounts behind one connection, each under its own limits: past lipsoft links from that network, EVERY new
+// link asks the check, for every account there (17/11 revisión)
+{env.QUOTA=quota();await setting({lipsoft:12,lipcap:1000});let first428=-1,i=0;
+ for(let a=0;a<6;a++){const t=await user('red-'+a);for(const c of [1,2,3,4]){const x=await one(t,1+a,c,a%3,{ip:'192.0.2.77'});if(x.status===428&&first428<0)first428=i;i++;}}
+ assert.ok(first428>=12&&first428<=13,'asks right after 12 links from the same connection: '+first428);
+ const other=await user('otra-red');assert.equal((await one(other,1,1,0,{ip:'198.51.100.200'})).status,200,'another connection is not affected');}
 // 9) hard daily cap per account
 {env.QUOTA=quota();await setting({lcap:5,lsoft:0,lfull:100,lburst:1000});const t=await user('tope');let codes=[];
  for(const c of [1,2,3,4])for(const v of [0,1])codes.push((await one(t,1,c,v)).status);assert.deepEqual(codes,[200,200,200,200,200,429,429,429],'cap');}

@@ -91,17 +91,20 @@ export class Quota{
    if(hasNet&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",netKey,now).toArray().length)return Response.json({banned:true,net:true});
    if(this.sql.exec('select 1 from lseen where user=? and item=? and day>=?',key,item,new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10)).toArray().length)return Response.json({ok:true,seen:true});
    const S=this.settings(),fresh=u.searchParams.get('new')==='1',val=(name,d)=>S[name]??d;
-   const lsoft=val('lsoft',40),lburst=val('lburst',15),lcover=val('lcover',75),lmin=val('lmin',8),lfull=val('lfull',4),lcap=fresh?val('lnewcap',150):val('lcap',400),lipcap=val('lipcap',1500);
+   const lsoft=val('lsoft',40),lburst=val('lburst',15),lcover=val('lcover',75),lmin=val('lmin',8),lfull=val('lfull',4),lcap=fresh?val('lnewcap',150):val('lcap',400),lipcap=val('lipcap',1500),lipsoft=val('lipsoft',300);
    const tries=(this.sql.exec('select n from ltries where day=? and user=?',day,key).toArray()[0]?.n||0)+1;
    this.sql.exec('insert into ltries(day,user,n) values(?,?,?) on conflict(day,user) do update set n=excluded.n',day,key,tries);
    if(tries>lcap*5)return Response.json({over:true,tries}); // hammering past the cap: refused without more work
    const netNew=hasNet&&!this.sql.exec('select 1 from lseen where day=? and user=? and item=?',day,netKey,item).toArray().length;
-   if(netNew&&this.sql.exec('select count(*) c from lseen where day=? and user=?',day,netKey).toArray()[0].c>=lipcap)return Response.json({over:true,net:true});
+   // 17/11 revisión: many accounts behind ONE connection add up: past lipsoft links today from that network, every new link
+   // asks the check for all of them (not only the hard cap lipcap).
+   const netDistinct=hasNet?this.sql.exec('select count(*) c from lseen where day=? and user=?',day,netKey).toArray()[0].c:0;
+   if(netNew&&netDistinct>=lipcap)return Response.json({over:true,net:true});
    const distinct=this.sql.exec('select count(*) c from lseen where day=? and user=?',day,key).toArray()[0].c;
    if(distinct>=lcap)return Response.json({over:true,distinct});
    const recent=this.sql.exec('select count(*) c from lseen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
    const full=this.sql.exec('select count(*) c from lfull where day=? and user=?',day,key).toArray()[0].c;
-   const needs=lsoft>0&&distinct>=lsoft||recent>=lburst||full>=lfull;
+   const needs=lsoft>0&&distinct>=lsoft||recent>=lburst||full>=lfull||netNew&&netDistinct>=lipsoft;
    let passed=false;const hc=u.searchParams.get('hc')||'';
    if(needs&&NONCE.test(hc)&&this.sql.exec('select 1 from challenges where nonce=? and user=? and item=? and until>?',hc,key,item,now).toArray().length){this.sql.exec('delete from challenges where nonce=?',hc);passed=true;}
    if(needs&&!passed){
@@ -168,7 +171,7 @@ export class Quota{
    const tries=this.sql.exec('select n from tries where day=? and user=?',day,key).toArray()[0]?.n||0,boxes=this.sql.exec('select count(*) c from challenges where user=? and until>?',key,now).toArray()[0].c;
    const human=this.sql.exec('select until from humanok where user=? and until>?',key,now).toArray()[0],mark=this.sql.exec('select kind,until from marks where key=? and until>?',key,now).toArray()[0];
    return Response.json({schema:1,today:{series:days.find(d=>d.day===day)?.series||0,tries,boxes},days,humanUntil:human?new Date(human.until).toISOString():null,mark:mark?{kind:mark.kind,until:new Date(mark.until).toISOString()}:null});}
-  if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1],lsoft:[0,1000],lburst:[1,1000],lcover:[10,100],lmin:[1,200],lfull:[1,100],lcap:[1,5000],lnewcap:[1,5000],lipcap:[1,50000]};
+  if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1],lsoft:[0,1000],lburst:[1,1000],lcover:[10,100],lmin:[1,200],lfull:[1,100],lcap:[1,5000],lnewcap:[1,5000],lipcap:[1,50000],lipsoft:[1,50000]};
    if(!limits[name])return new Response('{}',{status:400});if(raw===''||raw==null){this.sql.exec('delete from settings where name=?',name);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
    const v=Number(raw);if(!Number.isInteger(v)||v<limits[name][0]||v>limits[name][1])return new Response('{}',{status:400});
    this.sql.exec('insert into settings(name,value,at) values(?,?,?) on conflict(name) do update set value=excluded.value,at=excluded.at',name,v,now);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
