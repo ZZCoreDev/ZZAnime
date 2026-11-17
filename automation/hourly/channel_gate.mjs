@@ -121,7 +121,22 @@ export function adminPath(a){if(!a||typeof a!=='object')return null;const user=S
  if(a.action==='unban-net'){const n=netOf(String(a.net||'').replace(/::$/,'::1'))||(/^[0-9.]{7,15}$/.test(String(a.net||''))?netOf(a.net):'');return n?'/admin/unban?k=n:'+encodeURIComponent(n):null;}
  if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha|lsoft|lburst|lcover|lmin|lfull|lcap|lnewcap|lipcap|lipsoft)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
  return null;}
+// 17/11 (Robin, web zzanime.uk/ver fase 1): the web player of zzanime.uk asks the same doors as the app, from the
+// visitor's own browser (so the counter still sees the real connection). Only that origin, only these exact paths, only
+// GET with the session headers; everything else keeps answering without CORS (browsers of other sites cannot read it).
+const WEB_PATHS=/^\/(?:opciones|enlace|(?:(?:voe|extra|latino)\/)?(?:channel\.json|(?:indexes|lista)\/[a-z0-9]{1,64}\.bin))$/;
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
+ const path=new URL(request.url).pathname;
+ if(request.headers.get('Origin')===PAGE_ORIGIN&&WEB_PATHS.test(path)){
+  const cors={'Access-Control-Allow-Origin':PAGE_ORIGIN,'Vary':'Origin'};
+  if(request.method==='OPTIONS')return new Response(null,{status:204,headers:{...cors,'Access-Control-Allow-Methods':'GET','Access-Control-Allow-Headers':'Authorization, X-ZZ-Human, X-ZZ-Device','Access-Control-Max-Age':'600'}});
+  if(request.method!=='GET')return deny(405,'method');
+  const r=await inner(request,env,fetcher),h=new Headers(r.headers);for(const [k,v] of Object.entries(cors))h.set(k,v);
+  return new Response(r.body,{status:r.status,headers:h});
+ }
+ return inner(request,env,fetcher);
+}
+async function inner(request,env,fetcher){
  const path=new URL(request.url).pathname;
  if(path==='/humano/h')return humanRoute(request,env,fetcher);
  // The daily-cap report also answers the cloud's own key (health_watch.py warns of new bans); never the other /owner/ files.

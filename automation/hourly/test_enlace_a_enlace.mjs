@@ -110,4 +110,17 @@ assert.equal((await handle(new Request('https://respaldo.zzanime.uk/series/x.bin
 // 13) with a session, only the exact file shapes: encoded letters, double slashes or other files never reach a series file uncounted
 {const sneaky=['/%73eries/'+'a'.repeat(64)+'.bin','//series/'+'a'.repeat(64)+'.bin','/series//'+'a'.repeat(64)+'.bin','/Series/'+'a'.repeat(64)+'.bin','/series/'+'a'.repeat(64)+'.bin%00','/voe/%73eries/x.bin','/robots.txt','/index.html','/series/'+'a'.repeat(64)+'.json'];
  for(const p of sneaky){const r=await handle(new Request('https://respaldo.zzanime.uk'+p,{headers:{Authorization:'Bearer '+tk}}),env,net);assert.equal(r.status,404,p);}}
+// 14) 17/11 web zzanime.uk/ver: only that origin gets CORS, only the doors and link-free lists, only GET; no session = nothing
+{const web=(path,{method='GET',origin='https://zzanime.uk',tk:t,extra={}}={})=>handle(new Request('https://respaldo.zzanime.uk'+path,{method,headers:{Origin:origin,...(t?{Authorization:'Bearer '+t}:{}),'CF-Connecting-IP':'203.0.113.99',...extra}}),env,net);
+ const e1=q({p:'',s:sha(series(4)),e:series(4)+'1/',k:key(4,1,0)});
+ let r=await web('/enlace'+e1,{method:'OPTIONS'});assert.equal(r.status,204);assert.equal(r.headers.get('Access-Control-Allow-Origin'),'https://zzanime.uk');assert.match(r.headers.get('Access-Control-Allow-Headers'),/Authorization/);
+ r=await web('/enlace'+e1,{method:'OPTIONS',origin:'https://evil.example'});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null,'other sites get no CORS');
+ r=await web('/series/'+'a'.repeat(64)+'.bin',{method:'OPTIONS'});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null,'whole series files are never opened to the web');
+ r=await web('/owner/quota.json',{method:'OPTIONS'});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null);
+ r=await web('/enlace'+e1);assert.equal(r.status,401,'no session, nothing');assert.equal((await r.text()).includes('https://voe'),false);
+ r=await web('/enlace'+e1,{method:'POST',tk});assert.equal(r.status,405);
+ const tw=await user('web-lector');r=await web('/opciones'+q({s:sha(series(4)),e:series(4)+'1/'}),{tk:tw});assert.equal(r.status,200);assert.equal(r.headers.get('Access-Control-Allow-Origin'),'https://zzanime.uk');assert.equal((await r.text()).includes('https://'),false,'lists without addresses');
+ r=await web('/enlace'+e1,{tk:tw});assert.equal(r.status,200,'one link, counted like the app');
+ r=await web('/series/'+'a'.repeat(64)+'.bin',{tk:tw});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null);
+ r=await web('/%65nlace'+e1,{method:'OPTIONS'});assert.equal(r.headers.get('Access-Control-Allow-Origin'),null);}
 console.log('enlace a enlace OK');
