@@ -2,7 +2,7 @@
 // help worker and old apps read them. The files with the links (indexes/, series/) need, once REQUIRE_SESSION is
 // "true", a ZZAnime session (checked with the project's public ES256 keys, no secret) or the cloud's own key
 // (X-ZZ-Cloud, for the publication check in run.py). CHANNEL_LIMIT slows down bulk copying per account.
-import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed,ownerCounter,netOf,resetOwnerConf} from './quota.mjs';
+import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,oneLinkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed,ownerCounter,netOf,resetOwnerConf} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
 const PUBLIC=/^\/(?:(?:voe|extra|latino)\/)?channel\.json$/;
@@ -31,10 +31,33 @@ async function seriesOfIndex(env,prefix,file){
  const payload=JSON.parse((await ch.json()).payload),indexPath=String(payload.indexPath||'');if(!/^indexes\/[a-f0-9]{64}\.bin$/.test(indexPath))throw new QuotaUnavailable();
  let cached=seriesMaps.get(prefix);
  if(!cached||cached.index!==indexPath){const r=await env.ASSETS.fetch(new Request('https://assets.local/'+prefix+indexPath));if(r.status!==200)throw new QuotaUnavailable();
-  const index=await r.json(),map=new Map();for(const [key,entry] of Object.entries(index?.series||{}))if(/^[a-f0-9]{64}$/.test(key)&&typeof entry?.path==='string')map.set(entry.path,key);
-  cached={index:indexPath,map};seriesMaps.set(prefix,cached);}
- return cached.map.get(file)||'';
+  const index=await r.json(),map=new Map(),byKey=new Map();for(const [key,entry] of Object.entries(index?.series||{}))if(/^[a-f0-9]{64}$/.test(key)&&typeof entry?.path==='string'){map.set(entry.path,key);byKey.set(key,entry.path);}
+  cached={index:indexPath,map,byKey};seriesMaps.set(prefix,cached);}
+ return file===null?cached:cached.map.get(file)||'';
 }
+// 17/11 (Robin, «enlace a enlace»): the servers of one chapter, read from the CURRENT publication's series file (never from
+// the request). Each server's key is sha256(family + NUL + address), the id corrections already use to switch one off.
+const EPISODE=/^https:\/\/jkanime\.net\/[A-Za-z0-9_-][A-Za-z0-9_.-]{0,150}\/[0-9]{1,5}\/$/,HEX=/^[a-f0-9]{64}$/,DOOR_PREFIX=['','voe','extra','latino'];
+const parsedSeries=new Map();
+const hexOf=async t=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t)))].map(b=>b.toString(16).padStart(2,'0')).join('');
+async function seriesLinks(env,prefix,seriesKey){
+ let cached;try{cached=await seriesOfIndex(env,prefix,null);}catch{throw new QuotaUnavailable();}
+ const file=cached.byKey.get(seriesKey);if(!file||!/^series\/[a-f0-9]{64}\.bin$/.test(file))return null;
+ const id=prefix+file;if(parsedSeries.has(id))return parsedSeries.get(id);
+ const r=await env.ASSETS.fetch(new Request('https://assets.local/'+prefix+file));if(r.status!==200)throw new QuotaUnavailable();
+ const raw=new Uint8Array(await r.arrayBuffer());if(raw.length>4194304)return null;
+ let text;try{text=await new Response(new Blob([raw]).stream().pipeThrough(new DecompressionStream('gzip'))).text();}catch{return null;}
+ if(text.length>16777216)return null;const row=JSON.parse(text);if(!row||!Array.isArray(row.episodes))return null;
+ const episodes=new Map();let total=0;
+ for(const e of row.episodes){if(!e||typeof e.url!=='string'||!EPISODE.test(e.url))continue;const list=[];
+  for(const [kind,group] of [['option',e.options],['extra',e.extraOptions],['download',e.downloads]])for(const o of Array.isArray(group)?group:[]){
+   if(!o||typeof o.url!=='string'||!/^https:\/\/[^\s"'<>\\]{4,2000}$/.test(o.url)||typeof o.family!=='string'||typeof o.name!=='string')continue;
+   const key=await hexOf(o.family+'\0'+o.url);if(list.some(x=>x.key===key))continue;
+   list.push({key,kind,name:o.name.slice(0,60),family:o.family.slice(0,30),url:o.url,...(typeof o.lang==='string'&&/^(?:es-ES|es-LA)$/.test(o.lang)?{lang:o.lang}:{})});}
+  total+=list.length;episodes.set(e.url,list);}
+ const value={episodes,total:Math.max(1,total)};if(parsedSeries.size>=48)parsedSeries.delete(parsedSeries.keys().next().value);parsedSeries.set(id,value);return value;
+}
+export function resetDoor(){parsedSeries.clear();seriesMaps.clear();}
 export function resetSeriesMaps(){seriesMaps.clear();}
 export class JwksUnavailable extends Error{constructor(){super('JWKS unavailable');this.code='upstream_503';}}
 async function refresh(fetcher,now){
@@ -96,7 +119,7 @@ export function adminPath(a){if(!a||typeof a!=='object')return null;const user=S
  if(a.action==='unban-user'&&/^[0-9a-f-]{36}$/.test(user))return '/admin/unban?k=u:'+user;
  if(a.action==='ban-net'){const n=netOf(a.ip);return n?'/admin/ban?k=n:'+encodeURIComponent(n)+'&hours='+hours:null;}
  if(a.action==='unban-net'){const n=netOf(String(a.net||'').replace(/::$/,'::1'))||(/^[0-9.]{7,15}$/.test(String(a.net||''))?netOf(a.net):'');return n?'/admin/unban?k=n:'+encodeURIComponent(n):null;}
- if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
+ if(a.action==='set'&&/^(?:cap|newcap|soft|burst|grant|ipcap|hcaptcha|lsoft|lburst|lcover|lmin|lfull|lcap|lnewcap|lipcap)$/.test(String(a.name||''))){const v=a.value===''||a.value==null?'':String(parseInt(a.value,10));if(v!==''&&!/^-?[0-9]{1,5}$/.test(v))return null;return '/admin/set?name='+a.name+'&value='+v;}
  return null;}
 export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a)){
  const path=new URL(request.url).pathname;
@@ -131,7 +154,30 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
  const {sub:user,fresh}=info;
  if(!user&&env.REQUIRE_SESSION!=='false')return deny(401,'login'); // 11/11 A-03: cerrado salvo «false» explícito
  if(user&&env.CHANNEL_LIMIT){const {success}=await env.CHANNEL_LIMIT.limit({key:user});if(!success)return deny(429,'slow_down');}
+ // 17/11 (Robin, «enlace a enlace»): /opciones = the servers of one chapter WITHOUT addresses (no quota); /enlace = ONE
+ // address, after the per-link counter (oneLinkAllows) and, when it asks, «soy humano» for that very link. Off by default.
+ if(path==='/opciones'||path==='/enlace'){
+  if(env.LINK_DOOR!=='on')return deny(404,'not_found');
+  if(!user)return deny(401,'login');
+  const q=new URL(request.url).searchParams,p=q.get('p')||'',sk=q.get('s')||'',ep=q.get('e')||'',k=q.get('k')||'';
+  if([...q.keys()].some(x=>!['p','s','e','k'].includes(x))||!DOOR_PREFIX.includes(p)||!HEX.test(sk)||!EPISODE.test(ep)||(path==='/enlace')!==HEX.test(k)||path==='/opciones'&&k)return deny(400,'query');
+  const json=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store'}});
+  try{
+   const prefix=p?p+'/':'',found=await seriesLinks(env,prefix,sk),list=found?.episodes.get(ep);
+   if(!list||!list.length)return deny(404,'not_found');
+   if(path==='/opciones')return json({schema:1,options:list.map(({url,...o})=>o)});
+   const opt=list.find(o=>o.key===k);if(!opt)return deny(404,'not_found'); // unknown links are never counted nor served
+   const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),token=request.headers.get('X-ZZ-Human')||'',out={};
+   const r=await oneLinkAllows(env,{user,series:sk,key:k,total:found.total,fresh,device,ip,out,human:token?await humanOk(env,token,ip,fetcher):''});
+   if(r==='human'&&!await owner(request,fetcher))return json({error:'human',...(out.challenge?{challenge:out.challenge}:{})},428);
+   if(r==='limit')return deny(429,'daily_limit');
+   return json({schema:1,key:opt.key,kind:opt.kind,name:opt.name,family:opt.family,url:opt.url,...(opt.lang?{lang:opt.lang}:{})});
+  }catch(e){if(e instanceof QuotaUnavailable)return new Response(JSON.stringify({error:'unavailable',retry:true}),{status:503,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store','Retry-After':'60'}});throw e;}
+ }
  // 9/11: daily cap per account (and per IP without session) on the series files; abusive accounts are banned (quota.mjs, 028).
+ // 17/11: once every app reads one link at a time, LEGACY_SERIES=closed stops serving whole series files to apps (the cloud
+ // with its key was served above; the editor owner still reads them for corrections).
+ if(env.LEGACY_SERIES==='closed'&&/^\/(?:(?:voe|extra|latino)\/)?series\//.test(path)&&!await owner(request,fetcher))return deny(410,'update_app');
  if(/^\/(?:(?:voe|extra|latino)\/)?series\//.test(path))try{
   const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),ban=user?()=>banSelf(ISSUER.replace('/auth/v1',''),SUPABASE_KEY,request.headers.get('Authorization'),fetcher):null;
   // 10/11 (app 180): LINK_RULES "enforce" counts distinct series/films opened (reopening is free), asks "soy humano" (428)

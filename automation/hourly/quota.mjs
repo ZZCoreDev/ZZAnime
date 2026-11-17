@@ -41,6 +41,13 @@ export class Quota{
   this.sql.exec('create table if not exists hpass(nonce text primary key,until integer not null)');
   // 13/11 (Robin): limits and switches set by the owner from the editor; a missing row = the deployed default.
   this.sql.exec('create table if not exists settings(name text primary key,value integer not null,at integer not null)');
+  // 17/11 (Robin, «enlace a enlace»): every single link opened (item l:<series>:<key>), per account and per network, and the
+  // series whose links one account has nearly all opened today. One-link challenges reuse «challenges» (item = the link).
+  this.sql.exec('create table if not exists lseen(day text not null,user text not null,item text not null,series text not null,at integer not null,primary key(day,user,item))');
+  this.sql.exec('create index if not exists lseen_user_item on lseen(user,item,day)');
+  this.sql.exec('create index if not exists lseen_user_series on lseen(day,user,series)');
+  this.sql.exec('create table if not exists lfull(day text not null,user text not null,series text not null,primary key(day,user,series))');
+  this.sql.exec('create table if not exists ltries(day text not null,user text not null,n integer not null,primary key(day,user))');
   this.mem=new Map();this.day='';this.conf=null;}
  settings(){if(!this.conf){this.conf={};for(const r of this.sql.exec('select name,value from settings').toArray())this.conf[r.name]=r.value;}return this.conf;}
  save(day,key,n){this.sql.exec('insert into q(day,user,n) values(?,?,?) on conflict(day,user) do update set n=max(n,excluded.n)',day,key,n);}
@@ -50,7 +57,8 @@ export class Quota{
   if(day!==this.day){this.flush();this.mem.clear();this.day=day;
    this.sql.exec('delete from q where day<?',new Date(now-14*86400000).toISOString().slice(0,10));this.sql.exec('delete from marks where until<?',now);
    this.sql.exec('delete from seen where day<?',new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10));this.sql.exec('delete from tries where day<?',new Date(now-14*86400000).toISOString().slice(0,10));
-   this.sql.exec('delete from challenges where until<?',now);this.sql.exec('delete from humanok where until<?',now);this.sql.exec('delete from hpass where until<?',now);}
+   this.sql.exec('delete from challenges where until<?',now);this.sql.exec('delete from humanok where until<?',now);this.sql.exec('delete from hpass where until<?',now);
+   this.sql.exec('delete from lseen where day<?',new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10));this.sql.exec('delete from lfull where day<?',day);this.sql.exec('delete from ltries where day<?',day);}
   const key=u.searchParams.get('k')||'';
   // 13/11: hCaptcha solved for a challenge (written only after api.hcaptcha.com confirmed it) and its check.
   if(u.pathname==='/hmark'){const n=u.searchParams.get('n')||'';if(!NONCE.test(n))return new Response('{}',{status:400});this.sql.exec('insert into hpass(nonce,until) values(?,?) on conflict(nonce) do update set until=excluded.until',n,now+HCAPTCHA_WINDOW);return Response.json({ok:true});}
@@ -69,6 +77,44 @@ export class Quota{
   // 10/11 (LINK_RULES): one opening of a link file. Reopening one already opened today is free. A new one is refused
   // past cap distinct (over), needs the "soy humano" check (human) from soft distinct a day or burst in 10 minutes,
   // and an account that keeps trying past ban attempts is banned (ban). Attempts only count new items not sent to the check.
+  // 17/11 (Robin): one link at a time. Answers ok | human (+challenge) | over | banned. A link this account already opened
+  // in the last 30 days is free. Every NEW link asks the check once the account opened lsoft links today, lburst in 10 min,
+  // or nearly all (lcover %, at least lmin) of the links of lfull series. A passed check opens only that one link.
+  if(u.pathname==='/onelink'){
+   const item=u.searchParams.get('i')||'',series=u.searchParams.get('s')||'',total=Number(u.searchParams.get('t'))||0;
+   if(!KEY.test(key)||!/^l:[a-f0-9]{64}:[a-f0-9]{64}$/.test(item)||!/^[a-f0-9]{64}$/.test(series)||item.slice(2,66)!==series||!Number.isSafeInteger(total)||total<1||total>100000)return new Response('{}',{status:400});
+   const device=u.searchParams.get('d')||'';
+   if(DEVICE.test(device)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'d:'+device,now).toArray().length)return Response.json({banned:true});
+   const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
+   if(mark)return Response.json(mark.kind==='ban'?{banned:true}:{exempt:true,ok:true});
+   const net=u.searchParams.get('ip')||'',netKey='n:'+net,hasNet=NETKEY.test(net);
+   if(hasNet&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",netKey,now).toArray().length)return Response.json({banned:true,net:true});
+   if(this.sql.exec('select 1 from lseen where user=? and item=? and day>=?',key,item,new Date(now-SEEN_DAYS*86400000).toISOString().slice(0,10)).toArray().length)return Response.json({ok:true,seen:true});
+   const S=this.settings(),fresh=u.searchParams.get('new')==='1',val=(name,d)=>S[name]??d;
+   const lsoft=val('lsoft',40),lburst=val('lburst',15),lcover=val('lcover',75),lmin=val('lmin',8),lfull=val('lfull',4),lcap=fresh?val('lnewcap',150):val('lcap',400),lipcap=val('lipcap',1500);
+   const tries=(this.sql.exec('select n from ltries where day=? and user=?',day,key).toArray()[0]?.n||0)+1;
+   this.sql.exec('insert into ltries(day,user,n) values(?,?,?) on conflict(day,user) do update set n=excluded.n',day,key,tries);
+   if(tries>lcap*5)return Response.json({over:true,tries}); // hammering past the cap: refused without more work
+   const netNew=hasNet&&!this.sql.exec('select 1 from lseen where day=? and user=? and item=?',day,netKey,item).toArray().length;
+   if(netNew&&this.sql.exec('select count(*) c from lseen where day=? and user=?',day,netKey).toArray()[0].c>=lipcap)return Response.json({over:true,net:true});
+   const distinct=this.sql.exec('select count(*) c from lseen where day=? and user=?',day,key).toArray()[0].c;
+   if(distinct>=lcap)return Response.json({over:true,distinct});
+   const recent=this.sql.exec('select count(*) c from lseen where day=? and user=? and at>?',day,key,now-600000).toArray()[0].c;
+   const full=this.sql.exec('select count(*) c from lfull where day=? and user=?',day,key).toArray()[0].c;
+   const needs=lsoft>0&&distinct>=lsoft||recent>=lburst||full>=lfull;
+   let passed=false;const hc=u.searchParams.get('hc')||'';
+   if(needs&&NONCE.test(hc)&&this.sql.exec('select 1 from challenges where nonce=? and user=? and item=? and until>?',hc,key,item,now).toArray().length){this.sql.exec('delete from challenges where nonce=?',hc);passed=true;}
+   if(needs&&!passed){
+    this.sql.exec('delete from challenges where user=? and nonce not in (select nonce from challenges where user=? order by until desc limit 4)',key,key);
+    const nonce=[...crypto.getRandomValues(new Uint8Array(16))].map(b=>b.toString(16).padStart(2,'0')).join('');
+    this.sql.exec('insert into challenges(nonce,user,item,until) values(?,?,?,?)',nonce,key,item,now+600000);
+    return Response.json({human:true,distinct,full,challenge:nonce});}
+   this.sql.exec('insert into lseen(day,user,item,series,at) values(?,?,?,?,?)',day,key,item,series,now);
+   if(netNew)this.sql.exec('insert into lseen(day,user,item,series,at) values(?,?,?,?,?) on conflict do nothing',day,netKey,item,series,now);
+   const opened=this.sql.exec('select count(*) c from lseen where day=? and user=? and series=?',day,key,series).toArray()[0].c;
+   if(opened>=lmin&&opened*100>=total*lcover)this.sql.exec('insert into lfull(day,user,series) values(?,?,?) on conflict do nothing',day,key,series);
+   return Response.json({ok:true,distinct:distinct+1});
+  }
   if(u.pathname==='/link'){
    const item=u.searchParams.get('i')||'';if(!KEY.test(key)||!ITEM.test(item))return Response.json({ok:true});
    const device=u.searchParams.get('d')||'';
@@ -122,7 +168,7 @@ export class Quota{
    const tries=this.sql.exec('select n from tries where day=? and user=?',day,key).toArray()[0]?.n||0,boxes=this.sql.exec('select count(*) c from challenges where user=? and until>?',key,now).toArray()[0].c;
    const human=this.sql.exec('select until from humanok where user=? and until>?',key,now).toArray()[0],mark=this.sql.exec('select kind,until from marks where key=? and until>?',key,now).toArray()[0];
    return Response.json({schema:1,today:{series:days.find(d=>d.day===day)?.series||0,tries,boxes},days,humanUntil:human?new Date(human.until).toISOString():null,mark:mark?{kind:mark.kind,until:new Date(mark.until).toISOString()}:null});}
-  if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1]};
+  if(u.pathname==='/admin/set'){const name=u.searchParams.get('name')||'',raw=u.searchParams.get('value'),limits={cap:[1,500],newcap:[1,500],soft:[0,100],burst:[1,100],grant:[1,50],ipcap:[1,5000],hcaptcha:[0,1],lsoft:[0,1000],lburst:[1,1000],lcover:[10,100],lmin:[1,200],lfull:[1,100],lcap:[1,5000],lnewcap:[1,5000],lipcap:[1,50000]};
    if(!limits[name])return new Response('{}',{status:400});if(raw===''||raw==null){this.sql.exec('delete from settings where name=?',name);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
    const v=Number(raw);if(!Number.isInteger(v)||v<limits[name][0]||v>limits[name][1])return new Response('{}',{status:400});
    this.sql.exec('insert into settings(name,value,at) values(?,?,?) on conflict(name) do update set value=excluded.value,at=excluded.at',name,v,now);this.conf=null;return Response.json({ok:true,settings:this.settings()});}
@@ -254,6 +300,23 @@ export async function humanOk(env,token,ip,fetcher){
   // 13/11: the owner can switch hCaptcha off from the editor if it ever fails (emergency); the box and the picture stay.
   if((HCAPTCHA_REQUIRED||env.HCAPTCHA_RULES==='required')&&(await ownerConf(env)).hcaptcha!==0&&!await hcaptchaPassed(env,x.cdata))return '';
   return x.cdata;}catch{return '';}
+}
+/** 17/11 (Robin): one link (item l:<series>:<key>) for one verified account; 'ok' | 'human' | 'limit'. Counter down = closed. */
+export async function oneLinkAllows(env,{user='',series='',key='',total=0,fresh=false,device='',human='',out=null,ip=''}={}){
+ if(!env.QUOTA)throw new QuotaUnavailable();
+ if(!user||!/^[a-f0-9]{64}$/.test(series)||!/^[a-f0-9]{64}$/.test(key))return 'limit';
+ const k='u:'+user,dev=DEVICE.test(device)?device:'',now=Date.now();if(!KEY.test(k))return 'limit';
+ if(recall(k,now)||dev&&recall('d:'+dev,now))return 'limit';
+ const probe=gate(env,now);
+ try{
+  const q='https://quota/onelink?k='+encodeURIComponent(k)+'&i=l:'+series+':'+key+'&s='+series+'&t='+total+(fresh?'&new=1':'')+(dev?'&d='+dev:'')+(netOf(ip)?'&ip='+encodeURIComponent(netOf(ip)):'')+(typeof human==='string'&&NONCE.test(human)?'&hc='+human:'');
+  const x=await counterJson(env,quotaStub(env),q);
+  if(x.ok===true)return 'ok';
+  if(x.banned===true){if(!x.net)remember(k,now);return 'limit';}
+  if(x.human===true){if(out&&typeof x.challenge==='string'&&NONCE.test(x.challenge))out.challenge=x.challenge;return 'human';}
+  if(x.over===true)return 'limit';
+  throw Error('counter shape');
+ }catch{trip(env);throw new QuotaUnavailable();}finally{if(probe)probing.delete(env.QUOTA);}
 }
 /** LINK_RULES (off|count|enforce): rules on opening links of distinct series/films for one verified account.
  * Answers 'ok', 'human' (needs the check: 428) or 'limit' (429). "count" only records; any failure answers 'ok'.
