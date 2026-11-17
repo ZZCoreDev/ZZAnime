@@ -24,6 +24,19 @@ class OwnerFiles(unittest.TestCase):
             got=json.loads(owner_files.build(d)['owner/dead-reports.json'])
             self.assertEqual(got['links'],[dict(ok,family='voe')]);self.assertEqual(got['checkedAt'],'2026-11-17T00:00:00Z')
             (d/'dead-reports.json').write_text('{roto');self.assertNotIn('owner/dead-reports.json',owner_files.build(d))
+    def test_jk_copy_checked(self):
+        """17/11 (Robin): the PC copy summary reaches the owner's editor only with clean fields."""
+        good={'schema':1,'builtAt':'2026-11-17T09:00:00.000Z','round':{'startedAt':'2026-11-17T07:55:12.418Z','updatedAt':'2026-11-17T08:32:44.825Z','finished':True,'done':5004,'total':5051,'refreshedEpisodes':48},
+              'reasons':{'noProviders':752,'redirect':173,'oddList':47,'network':3,'other':0,'raro':9},'redirect':{'recovered':518,'held':174},
+              'worst':[{'url':'https://jkanime.net/tribe-cool-crew/','title':'Tribe Cool Crew','count':50,'reason':'noProviders'},{'url':'javascript:alert(1)','title':'x','count':1,'reason':'other'},
+                       {'url':'https://jkanime.net/a/','title':'<b>\nx','count':1,'reason':'redirect'},{'url':'https://jkanime.net/b/','title':'B','count':'5','reason':'mal'}]}
+        with tempfile.TemporaryDirectory() as d:
+            d=Path(d);(d/'jk-copy-summary.json').write_text(json.dumps(good))
+            got=json.loads(owner_files.build(d)['owner/jk-copy.json'])
+            self.assertEqual(got['reasons'],{'noProviders':752,'redirect':173,'oddList':47,'network':3,'other':0})
+            self.assertEqual([w['url'] for w in got['worst']],['https://jkanime.net/tribe-cool-crew/','https://jkanime.net/a/']);self.assertEqual(got['worst'][1]['title'],'')
+            self.assertEqual(got['round']['done'],5004);self.assertEqual(got['redirect'],{'recovered':518,'held':174})
+            (d/'jk-copy-summary.json').write_text('{"schema":2}');self.assertNotIn('owner/jk-copy.json',owner_files.build(d))
     def test_absent(self):
         with tempfile.TemporaryDirectory() as d:self.assertEqual(list(owner_files.build(d)),['owner/semaforo.json'])
     def test_semaforo(self):

@@ -104,6 +104,14 @@ jobs:
           ZZ_PUBLISH_PROOF: 'false'  # 11/11 auditoría S-01: la prueba nunca se publica en el Worker real
         # 11/11 auditoría S-01: la prueba nunca publica (sin --publish; run.py también lo rechaza).
         run: python3 run.py --collect
+      - name: Resumen de la copia JK del PC (rama privada pc-summary, si existe)
+        if: inputs.proof != true && vars.ZZ_HOURLY_ENABLED == 'true'
+        working-directory: data
+        # 17/11/2026 (Robin): only a small JSON for the owner's editor; owner_files.jk_copy checks every field again.
+        run: |
+          if git fetch -q --depth 1 origin pc-summary 2>/dev/null && git show FETCH_HEAD:jk-copy-summary.json > "$RUNNER_TEMP/jk.json" 2>/dev/null; then
+            if [ "$(wc -c < "$RUNNER_TEMP/jk.json")" -le 200000 ]; then cp "$RUNNER_TEMP/jk.json" state/jk-copy-summary.json; fi
+          fi
       - name: Recoger, comprobar, firmar y publicar sin APK
         if: inputs.proof != true && vars.ZZ_HOURLY_ENABLED == 'true'
         working-directory: code/automation/hourly

@@ -134,6 +134,43 @@ def reports(folder):
     return {'schema': 1, 'checkedAt': data.get('checkedAt') if isinstance(data.get('checkedAt'), str) else None, 'links': out}
 
 
+# 17/11 (Robin): «Copia de JK» in the editor's Sistema: summary of the PC copy's last round (work/jk-copia/vuelta.cjs),
+# pushed by the PC to the private branch pc-summary and copied here by provider-hourly. Every field is checked again.
+JK_SERIES = re.compile(r'https://jkanime\.net/[A-Za-z0-9_-][A-Za-z0-9_.-]{0,120}/')
+JK_REASONS = ('noProviders', 'redirect', 'oddList', 'network', 'other')
+STAMP = re.compile(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,6})?Z')
+
+
+def jk_copy(folder):
+    path = Path(folder) / 'jk-copy-summary.json'
+    if not path.exists() or path.stat().st_size > 200000:
+        return None
+    try:
+        x = json.loads(path.read_bytes())
+    except ValueError:
+        return None
+    if not isinstance(x, dict) or x.get('schema') != 1:
+        return None
+    count = lambda v: v if type(v) is int and 0 <= v <= 10_000_000 else 0
+    stamp = lambda v: v if isinstance(v, str) and STAMP.fullmatch(v) else None
+    r = x.get('round') if isinstance(x.get('round'), dict) else {}
+    reasons = x.get('reasons') if isinstance(x.get('reasons'), dict) else {}
+    out = {'schema': 1, 'builtAt': stamp(x.get('builtAt')),
+           'round': {'startedAt': stamp(r.get('startedAt')), 'updatedAt': stamp(r.get('updatedAt')), 'finished': r.get('finished') is True,
+                     'done': count(r.get('done')), 'total': count(r.get('total')), 'refreshedEpisodes': count(r.get('refreshedEpisodes'))},
+           'reasons': {k: count(reasons.get(k)) for k in JK_REASONS}, 'worst': []}
+    red = x.get('redirect')
+    if isinstance(red, dict):
+        out['redirect'] = {'recovered': count(red.get('recovered')), 'held': count(red.get('held'))}
+    for w in (x.get('worst') or [])[:20] if isinstance(x.get('worst'), list) else []:
+        if not isinstance(w, dict) or not isinstance(w.get('url'), str) or not JK_SERIES.fullmatch(w['url']) or w.get('reason') not in JK_REASONS:
+            continue
+        title = w.get('title') if isinstance(w.get('title'), str) else ''
+        title = '' if len(title) > 180 or re.search(r'[\x00-\x1f\x7f]', title) else title
+        out['worst'].append({'url': w['url'], 'title': title, 'count': count(w.get('count')), 'reason': w['reason']})
+    return out
+
+
 def build(folder, token=None, fetch=None):
     """{published name: bytes} for the owner; empty when the state files are absent."""
     folder = Path(folder)
@@ -152,6 +189,9 @@ def build(folder, token=None, fetch=None):
     help_status = folder / 'help-status.json'
     if help_status.exists():
         out['owner/help-status.json'] = raw(json.loads(help_status.read_bytes()))
+    copy = jk_copy(folder)
+    if copy is not None:
+        out['owner/jk-copy.json'] = raw(copy)
     said = reports(folder)
     if said is not None:
         out['owner/dead-reports.json'] = raw(said)
