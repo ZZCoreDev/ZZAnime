@@ -10,6 +10,10 @@ EDITOR='https://zzanime-editor.zzcoredev.workers.dev'
 # ZZ_EDITOR_CLOUD_KEY, never printed). Only editor_get sends it, never the provider requests. The editor allows
 # 30 fichas a minute per account: one every 2.5 s, and a minute's wait if it still says «slow_down».
 TITLE_PAUSE=2.5;SLOW_DOWN_WAIT=61;SLOW_DOWN_TRIES=3
+# 17/11/2026 (Robin): with the 917 films the fichas are ~1100: reading them all took longer than the 30-minute job and
+# went past the cloud's daily cap (300), so the check was cancelled from 12/11. Now each day reads the next BUDGET fichas
+# of the full list (/api/catalogue-all) and the next day goes on from there: every ficha is checked every few days.
+BUDGET=250;LINK_BUDGET=600  # at ~2 s per link, 600 links stay well inside the job's time
 UA='Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Mobile Safari/537.36'
 MARKERS=('file was deleted','file not found','video not found','file is no longer available','no longer available',
          'has been deleted','video was deleted','file does not exist','the file you were looking for','archivo no encontrado')
@@ -44,17 +48,22 @@ def editor_get(path,key,timeout=20):
     except urllib.error.HTTPError as e:return e.code,e.read(2000).decode('utf-8','replace')
     except Exception:return 0,''
 
-def fichas(get=None,key=None,sleep=time.sleep):
-    """Every published ficha with its links. Stops (SystemExit) when any ficha cannot be read: a partial list would
+def fichas(get=None,key=None,sleep=time.sleep,start=0,budget=BUDGET,max_links=LINK_BUDGET):
+    """Today's share of the published fichas (from position start, at most budget) with their links; returns
+    (fichas, next start, total). Every published ficha with its links. Stops (SystemExit) when any ficha cannot be read: a partial list would
     silently drop links from the memory, and an empty one would report «all fine»."""
     key=os.environ.get('ZZ_EDITOR_CLOUD_KEY','') if key is None else key
     if get is None:
         if not key:raise SystemExit('Falta el secreto ZZ_EDITOR_CLOUD_KEY: sin él el editor no entrega las fichas.')
         get=lambda path:editor_get(path,key)
-    status,body=get('/api/catalogue')
+    status,body=get('/api/catalogue-all')
     if status!=200:raise SystemExit('Catálogo del editor no disponible: '+str(status))
-    out=[];unread=[]
-    for n,item in enumerate(json.loads(body).get('items',[])):
+    items=sorted(json.loads(body).get('items',[]),key=lambda i:str(i.get('id','')));total=len(items);start=start%total if total else 0
+    chosen=[items[(start+i)%total] for i in range(min(budget,total))]
+    out=[];unread=[];used=0
+    for n,item in enumerate(chosen):
+        if sum(len(f['links']) for f in out)>=max_links:break
+        used=n+1
         if n:sleep(TITLE_PAUSE)
         for _ in range(SLOW_DOWN_TRIES):
             status,text=get('/api/titles/'+item['id'])
@@ -66,11 +75,12 @@ def fichas(get=None,key=None,sleep=time.sleep):
         links=[o['url'] for ep in b.get('episodes',[]) for o in ep.get('options',[]) if isinstance(o.get('url'),str)]
         out.append({'id':item['id'],'title':b.get('title',''),'links':links})
     if unread:raise SystemExit(f'No se pudieron leer {len(unread)} de {len(out)+len(unread)} fichas del editor (la memoria no se toca):\n'+'\n'.join(unread[:10]))
-    return out
+    return out,(start+used)%total if total else 0,total
 
 def update(memory,results):
     """memory {url: consecutive dead days}; returns confirmed dead urls (>=2 days)."""
-    nxt={}
+    # links not checked today keep their count (17/11: each ficha is checked every few days, not every day)
+    nxt={u:n for u,n in memory.items() if u not in results}
     for url,state in results.items():
         if state=='dead':nxt[url]=memory.get(url,0)+1
         elif state=='unknown' and url in memory:nxt[url]=memory[url]  # keep the count, do not reset on a timeout
@@ -81,7 +91,7 @@ def report(items,dead):
     for f in sorted(items,key=lambda x:x['title'].lower()):
         bad=[u for u in f['links'] if u in dead]
         # 11/11 (auditoría S-03): el aviso es público: solo título y servidor, nunca el enlace (está en el editor).
-        if bad:lines.append('- **'+f['title']+'** ('+str(len(bad))+' de '+str(len(f['links']))+'): '+', '.join(sorted({urllib.parse.urlsplit(u).hostname or 'enlace' for u in bad})))
+        if bad:lines.append('- **'+f['title']+'** ('+str(len(bad))+' caídos): '+', '.join(sorted({urllib.parse.urlsplit(u).hostname or 'enlace' for u in bad})))
     return '\n'.join(lines)
 
 def gh(*args):return subprocess.run(['gh',*args],check=True,capture_output=True,text=True).stdout
@@ -90,14 +100,26 @@ def main():
     a=argparse.ArgumentParser();a.add_argument('--memory',required=True);a.add_argument('--pause',type=float,default=2.0);o=a.parse_args()
     try:memory=json.load(open(o.memory,encoding='utf-8'))
     except Exception:memory={}
-    items=fichas();results={}
+    if not isinstance(memory,dict):memory={}
+    cursor=memory.pop('__cursor',0);where=memory.pop('__where',{})
+    cursor=cursor if isinstance(cursor,int) else 0;where=where if isinstance(where,dict) else {}
+    items,cursor,total=fichas(start=cursor);results={}
     for f in items:
         for url in f['links']:
             if url in results:continue
             status,body=fetch(url);results[url]=classify(status,body);time.sleep(o.pause)
     memory,dead=update(memory,results)
-    json.dump(memory,open(o.memory,'w',encoding='utf-8'),indent=0,sort_keys=True)
-    body=report(items,dead)
+    for f in items:
+        # a link Robin removed from this ficha is forgotten (it was remembered with this ficha's title)
+        for u,t in list(where.items()):
+            if t==f['title'] and u not in f['links']:memory.pop(u,None)
+        for url in f['links']:where[url]=f['title']
+    dead={u for u in dead if u in memory}
+    where={u:t for u,t in where.items() if u in memory}  # only the links with a problem are remembered
+    json.dump({**memory,'__cursor':cursor,'__where':where},open(o.memory,'w',encoding='utf-8'),indent=0,sort_keys=True)
+    groups={}
+    for u in dead:groups.setdefault(where.get(u,'Ficha'),[]).append(u)
+    body=report([{'title':t,'links':us} for t,us in groups.items()],dead)
     found=json.loads(gh('issue','list','--state','open','--search',TITLE+' in:title','--json','number,title'))
     number=next((i['number'] for i in found if i['title']==TITLE),None)
     if body:
@@ -105,6 +127,6 @@ def main():
         if number:gh('issue','edit',str(number),'--body',text)
         else:gh('issue','create','--title',TITLE,'--body',text)
     elif number:gh('issue','close',str(number),'--comment','Todos los enlaces de tus fichas responden de nuevo.')
-    print(json.dumps({'fichas':len(items),'links':len(results),'dead':len(dead),'unknown':sum(v=='unknown' for v in results.values())}))
+    print(json.dumps({'fichas':len(items),'of':total,'next':cursor,'links':len(results),'dead':len(dead),'unknown':sum(v=='unknown' for v in results.values())}))
 
 if __name__=='__main__':main()

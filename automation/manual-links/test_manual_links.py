@@ -11,9 +11,11 @@ class T(unittest.TestCase):
         m,d=update(m,{'a':'unknown'});self.assertEqual(d,set());self.assertEqual(m,{'a':1})
         m,d=update(m,{'a':'dead'});self.assertEqual(d,{'a'})
         m,d=update(m,{'a':'ok'});self.assertEqual(d,set());self.assertEqual(m,{})
+        # 17/11: links not checked today (another day's share of fichas) keep their count
+        m,d=update({'a':1,'z':2},{'a':'dead'});self.assertEqual(m,{'a':2,'z':2});self.assertEqual(d,{'a','z'})
     def test_report(self):
         r=report([{'title':'B','links':['x','y']},{'title':'A','links':['z']}],{'x'})
-        self.assertIn('**B** (1 de 2)',r);self.assertNotIn('**A**',r)
+        self.assertIn('**B** (1 caídos)',r);self.assertNotIn('**A**',r)
         # S-03: the public issue names the server, never the link itself.
         r=report([{'title':'C','links':['https://powvideo.net/e/abc123']}],{'https://powvideo.net/e/abc123'})
         self.assertIn('powvideo.net',r);self.assertNotIn('abc123',r);self.assertNotIn('https://',r)
@@ -26,16 +28,19 @@ class T(unittest.TestCase):
             def get(path):calls.append(path);a=left[path];return a.pop(0) if len(a)>1 else a[0]
             return get,calls
         waits=[]
-        get,calls=editor({'/api/catalogue':[(200,cat)],'/api/titles/a':[(429,'{"error":"slow_down","retry":true}'),(200,ficha('A','https://x/1'))],
+        get,calls=editor({'/api/catalogue-all':[(200,cat)],'/api/titles/a':[(429,'{"error":"slow_down","retry":true}'),(200,ficha('A','https://x/1'))],
                           '/api/titles/b':[(200,ficha('B','https://x/2'))],'/api/titles/c':[(404,'{"error":"not_found"}')]})
-        out=m.fichas(get,'k',waits.append)
-        self.assertEqual([(f['title'],f['links']) for f in out],[('A',['https://x/1']),('B',['https://x/2'])])
+        out,nxt,total=m.fichas(get,'k',waits.append)
+        self.assertEqual([(f['title'],f['links']) for f in out],[('A',['https://x/1']),('B',['https://x/2'])]);self.assertEqual((nxt,total),(0,3))
         self.assertEqual(calls.count('/api/titles/a'),2);self.assertIn(m.SLOW_DOWN_WAIT,waits);self.assertEqual(waits.count(m.TITLE_PAUSE),2)
+        # 17/11: one share per day, the next day goes on where it stopped (and wraps around)
+        get,calls=editor({'/api/catalogue-all':[(200,cat)],'/api/titles/a':[(200,ficha('A','u1'))],'/api/titles/b':[(200,ficha('B','u2'))],'/api/titles/c':[(200,ficha('C','u3'))]})
+        out,nxt,_=m.fichas(get,'k',lambda s:None,start=2,budget=2);self.assertEqual([f['title'] for f in out],['C','A']);self.assertEqual(nxt,1)
         # Session refused (the 9/11 failure: «0 fichas, all fine»): now it stops, and the memory is not touched.
-        get,_=editor({'/api/catalogue':[(200,cat)],'/api/titles/a':[(401,'{"error":"login"}')],'/api/titles/b':[(401,'{"error":"login"}')],'/api/titles/c':[(200,ficha('C','u'))]})
+        get,_=editor({'/api/catalogue-all':[(200,cat)],'/api/titles/a':[(401,'{"error":"login"}')],'/api/titles/b':[(401,'{"error":"login"}')],'/api/titles/c':[(200,ficha('C','u'))]})
         with self.assertRaises(SystemExit) as e:m.fichas(get,'k',lambda s:None)
         self.assertIn('2 de 3',str(e.exception.code))
-        get,_=editor({'/api/catalogue':[(200,cat)],'/api/titles/a':[(429,'{"error":"daily_limit"}')],'/api/titles/b':[(200,ficha('B','u'))],'/api/titles/c':[(200,ficha('C','u'))]})
+        get,_=editor({'/api/catalogue-all':[(200,cat)],'/api/titles/a':[(429,'{"error":"daily_limit"}')],'/api/titles/b':[(200,ficha('B','u'))],'/api/titles/c':[(200,ficha('C','u'))]})
         with self.assertRaises(SystemExit):m.fichas(get,'k',lambda s:None)
         with self.assertRaises(SystemExit) as e:m.fichas(None,'')
         self.assertIn('ZZ_EDITOR_CLOUD_KEY',str(e.exception.code))
