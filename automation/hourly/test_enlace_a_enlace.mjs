@@ -50,6 +50,8 @@ assert.equal((await call(tk,'/opciones'+q({p:'',s:sha(series(1)),e:series(1)+'1/
 // 2) /opciones lists servers WITHOUT addresses
 {const r=await call(tk,'/opciones'+q({p:'',s:sha(series(1)),e:series(1)+'1/'}));assert.equal(r.status,200);const text=await r.text();
  assert.ok(!text.includes('voe.sx')&&!text.includes('"url"'),'no address in the list');assert.equal(JSON.parse(text).options.length,3);assert.equal(JSON.parse(text).options[0].key,key(1,1,0));}
+{const r=await call(tk,'/opciones'+q({s:sha(series(9)),e:series(9)+'1/'}));assert.equal(r.status,200);const x=await r.json();assert.ok(x.options.every(o=>o.p==='latino'&&!('url' in o)),'merged list, latino only for serie 9');
+ assert.equal((await call(tk,'/enlace'+q({s:sha(series(1)),e:series(1)+'1/',k:key(1,1,0)}))).status,400,'enlace needs p');}
 // 3) unknown series / chapter / server: 404 and NOT counted
 assert.equal((await call(tk,'/enlace'+q({p:'',s:sha('https://jkanime.net/no/'),e:'https://jkanime.net/no/1/',k:key(1,1,0)}))).status,404);
 assert.equal((await call(tk,'/enlace'+q({p:'',s:sha(series(1)),e:series(1)+'9/',k:key(1,1,0)}))).status,404);

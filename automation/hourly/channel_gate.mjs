@@ -160,12 +160,15 @@ export async function handle(request,env,fetcher=(...a)=>globalThis.fetch(...a))
   if(env.LINK_DOOR!=='on')return deny(404,'not_found');
   if(!user)return deny(401,'login');
   const q=new URL(request.url).searchParams,p=q.get('p')||'',sk=q.get('s')||'',ep=q.get('e')||'',k=q.get('k')||'';
-  if([...q.keys()].some(x=>!['p','s','e','k'].includes(x))||!DOOR_PREFIX.includes(p)||!HEX.test(sk)||!EPISODE.test(ep)||(path==='/enlace')!==HEX.test(k)||path==='/opciones'&&k)return deny(400,'query');
+  if([...q.keys()].some(x=>!['p','s','e','k'].includes(x))||!DOOR_PREFIX.includes(p)||!HEX.test(sk)||!EPISODE.test(ep)||(path==='/enlace')!==HEX.test(k)||path==='/opciones'&&q.has('k')||path==='/enlace'&&!q.has('p'))return deny(400,'query');
   const json=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:{'Content-Type':'application/json','Cache-Control':'private, no-store'}});
   try{
+   // /opciones without p: every channel of the chapter at once (main, voe, extra, latino), each server says its p.
+   if(path==='/opciones'&&!q.has('p')){const all=[],seen=new Set();for(const one of DOOR_PREFIX){let f=null;try{f=await seriesLinks(env,one?one+'/':'',sk);}catch{continue;} /* a channel not published (yet) is skipped */for(const o of f?.episodes.get(ep)||[])if(!seen.has(o.key)){seen.add(o.key);const {url,...rest}=o;all.push({...rest,p:one});}}
+    return all.length?json({schema:1,options:all}):deny(404,'not_found');}
    const prefix=p?p+'/':'',found=await seriesLinks(env,prefix,sk),list=found?.episodes.get(ep);
    if(!list||!list.length)return deny(404,'not_found');
-   if(path==='/opciones')return json({schema:1,options:list.map(({url,...o})=>o)});
+   if(path==='/opciones')return json({schema:1,options:list.map(({url,...o})=>({...o,p}))});
    const opt=list.find(o=>o.key===k);if(!opt)return deny(404,'not_found'); // unknown links are never counted nor served
    const ip=request.headers.get('CF-Connecting-IP')||'',device=(request.headers.get('X-ZZ-Device')||'').toLowerCase(),token=request.headers.get('X-ZZ-Human')||'',out={};
    const r=await oneLinkAllows(env,{user,series:sk,key:k,total:found.total,fresh,device,ip,out,human:token?await humanOk(env,token,ip,fetcher):''});
