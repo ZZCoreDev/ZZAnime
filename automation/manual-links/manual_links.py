@@ -40,12 +40,22 @@ class _NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self,*a,**k):return None
 NO_REDIRECT=urllib.request.build_opener(_NoRedirect())  # 11/11 auditoría S-05
 def editor_get(path,key,timeout=20):
+    # 18/11: only a timeout or dropped connection (-1) or a 5xx is retried twice; redirects and the rest are not.
+    import time
+    for attempt in range(3):
+        status,body=_editor_get(path,key,timeout)
+        if status!=-1 and status<500:return status,body
+        if attempt<2:time.sleep(3*(attempt+1))
+    return (0 if status==-1 else status),body
+def _editor_get(path,key,timeout=20):
     req=urllib.request.Request(EDITOR+path,headers={'User-Agent':'ZZAnime-Enlaces/1','Accept':'application/json'})
     # 11/11 auditoría S-05: the cloud key never follows a redirect to another host (unredirected header).
     req.add_unredirected_header('X-ZZ-Cloud',key)
     try:
         with NO_REDIRECT.open(req,timeout=timeout) as r:return r.status,r.read(4*1024*1024).decode('utf-8','replace')
     except urllib.error.HTTPError as e:return e.code,e.read(2000).decode('utf-8','replace')
+    except (TimeoutError,ConnectionError):return -1,''
+    except urllib.error.URLError as e:return (-1 if isinstance(e.reason,(TimeoutError,ConnectionError)) else 0),''
     except Exception:return 0,''
 
 def fichas(get=None,key=None,sleep=time.sleep,start=0,budget=BUDGET,max_links=LINK_BUDGET):
