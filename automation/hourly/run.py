@@ -146,11 +146,11 @@ def public_diagnostics(errors,diagnostics,keep):
 def main():
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
  if proof and '--publish' in sys.argv:raise ValueError('La prueba no puede publicar en producción (auditoría S-01)')
- collected=0;recent_added=0;links_changed=0
+ collected=0;recent_added=0;links_changed=0;collection_interrupted=False
  if '--collect' in sys.argv:
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.
   if os.environ.get('ZZ_COLLECTOR_URL'):
-   import urllib.request,new_series
+   import urllib.request,urllib.error,new_series
    state=load_observations(D)
    incidents_path=D/'news-incidents.json';incidents=json.loads(incidents_path.read_bytes()) if incidents_path.exists() else {};primary='not-checked'
    instant=datetime.datetime.now(datetime.timezone.utc)
@@ -168,6 +168,10 @@ def main():
     due=[url for url in voe_news if instant.timestamp()-recheck.get(url,0)>=VOE_RECHECK_SECONDS][:VOE_RECHECK_LIMIT]
     skip=skip[:2000]+[url for url in voe_fresh if url not in due]
     deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
+    # A rejected VOE option must also retry when another provider made its chapter skippable.
+    scope_due={url for url in state.get('voeScopePending',[]) if instant.timestamp()-deferred.get(url,0)>=RETRY_SECONDS}
+    skip=[url for url in skip if url not in scope_due]
+    retry=sorted(scope_due)+[url for url in retry if url not in scope_due];retry=retry[:200]
     retry=(retry+[url for url in due if url not in retry and url not in skip])[:200]
     for url in due:recheck[url]=instant.timestamp()
     # 12/11: the proof always asks for chapter 1 of its two series too, so it does not depend on their latest chapter
@@ -175,22 +179,33 @@ def main():
     # The collector takes at most 2 chapters per call: the other chapters of the two series are skipped so exactly these two enter.
     if proof:retry=PROOF_EPISODES;skip=[u.rsplit('/',2)[0]+'/'+str(n)+'/' for u in PROOF_EPISODES for n in range(2,200)]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
-    # 18/11: the collector sometimes needs more than 60 s (slow source): 120 s; a slow SECOND batch keeps the first one.
+    # A source timeout is deferred, not a successful empty response. Proofs and HTTP/security errors still fail.
     try:
      with NO_REDIRECT.open(req,timeout=120) as response:result=json.loads(response.read(2097153))
-    except (TimeoutError,OSError) as slow:
-     if attempt>0:print('Second collection batch skipped (slow source):',type(slow).__name__);break
-     raise
+    except (TimeoutError,urllib.error.URLError) as slow:
+     if proof or isinstance(slow,urllib.error.HTTPError) or not (isinstance(slow,TimeoutError) or isinstance(slow.reason,TimeoutError)):raise
+     collection_interrupted=True
+     put(D/'collection-status.json',raw({'state':'deferred','coverage':'partial','reason':'source-timeout','checkedAt':instant.isoformat().replace('+00:00','Z'),'batch':attempt+1,'completedBatches':attempt,'pending':len(state.get('pending',[])),'collected':collected,'retryMinutes':RETRY_SECONDS//60}))
+     print('::warning::Collection source timed out; valid data retained, unfinished batch deferred.')
+     break
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
     if not proof:state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result.get('unknownSeries',[]),json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))
-    received=set(result['state']['episodes']);extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in);voe_captured+=extra_captured;collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    received=set(result['state']['episodes']);extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in,isolate_invalid=not proof)
+    scope_rejected=set(incoming.pop('voeScopeRejected',[]));received-=scope_rejected
+    if scope_rejected or state.get('voeScopePending'):
+     state['voeScopePending']=sorted((set(state.get('voeScopePending',[]))|scope_rejected)-received)
+     incoming['pending']=sorted(set(incoming.get('pending',[]))|scope_rejected)
+    voe_captured+=extra_captured;collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
     if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
     for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
     for url in received:incidents.pop(url,None)
+    for url in scope_rejected:incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':'VOE provider scope','retryMinutes':RETRY_SECONDS//60}
+    if scope_rejected:print('::warning::VOE options outside the accepted scope quarantined privately; valid options retained. Chapters:',len(scope_rejected))
     put(incidents_path,raw(incidents))
     for url in newly_deferred:deferred[url]=instant.timestamp()
-    for url,ep in result['state']['episodes'].items():state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
+    for url,ep in result['state']['episodes'].items():
+     if url not in scope_rejected or url in incoming['episodes']:state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
     merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
     if not incoming['episodes'] and not newly_deferred:break
    if os.environ.get('ZZ_HELP_URL') and not proof:
@@ -206,7 +221,7 @@ def main():
     except Exception as error:print(json.dumps({'linkHealthError':type(error).__name__+': '+str(error)[:120]}))
   else:subprocess.run(['node',str(W/'collect.cjs')],env=dict(os.environ,ZZ_DATA=str(D)),check=False,timeout=420)
   # Historical changes remain for renewal's final publish; an empty news check must not redeploy them.
-  if '--news-only' in sys.argv and os.environ.get('ZZ_COLLECTOR_URL') and not proof and collected==0 and recent_added==0 and not links_changed:
+  if ('--news-only' in sys.argv or collection_interrupted) and os.environ.get('ZZ_COLLECTOR_URL') and not proof and collected==0 and recent_added==0 and not links_changed:
    print(json.dumps({'newsUnchanged':True,'historicalPublicationDeferred':True,'aiCalls':0}));return
  state=load_observations(D);now=datetime.datetime.now(datetime.timezone.utc)
  # Undo the obsolete homepage baseline only; preserve collected options and true news observations.

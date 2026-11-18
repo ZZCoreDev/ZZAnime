@@ -19,8 +19,9 @@ def load_parents(folder,parents):
         merge(state,{'episodes':row['episodes'],'listings':{parent:row['listing']}})
     return state
 
-def split(folder,incoming):
-    legacy=copy.deepcopy(incoming);extra={'episodes':{},'listings':{}};now=time.time()
+def split(folder,incoming,*,isolate_invalid=False):
+    # Only normal news collection opts in. Proofs and renewal retain strict failure semantics.
+    legacy=copy.deepcopy(incoming);extra={'episodes':{},'listings':{}};now=time.time();quarantined=[]
     for url,ep in incoming.get('episodes',{}).items():
         observed=[p for p in ep.get('providers',[]) if p.get('family')=='voe']
         if not observed:continue
@@ -35,9 +36,21 @@ def split(folder,incoming):
         listing=incoming.get('listings',{}).get(parent)
         if not listing or not listing.get('complete') or url not in listing.get('episodes',[]) or not re.fullmatch(r'https://jkanime\.net/[a-zA-Z0-9_-]+/[1-9][0-9]*/',url):raise ValueError('VOE observation identity')
         if not ep.get('complete') or not 0<=now-stamp(ep.get('observedAt'))<=7*86400:raise ValueError('VOE observation date')
-        for p in providers:
-            if p.get('name','').strip().lower()!='voe' or not p.get('links') or any(not re.fullmatch(r'https://voe\.sx/e/[a-zA-Z0-9_-]+',u) for u in p['links']):raise ValueError('VOE provider scope')
+        rejected=[p for p in providers if p.get('name','').strip().lower()!='voe' or any(not isinstance(u,str) or not re.fullmatch(r'https://voe\.sx/e/[a-zA-Z0-9_-]+',u) for u in p['links'])]
+        if rejected:
+            if not isolate_invalid:raise ValueError('VOE provider scope')
+            # Private evidence only, never rendered or logged. Stable keys avoid a new file on every retry.
+            fingerprint=json.dumps({'url':url,'providers':rejected},sort_keys=True,separators=(',',':')).encode()
+            quarantined.append((hashlib.sha256(fingerprint).hexdigest(),{'schema':1,'reason':'voe-provider-scope','episode':{**ep,'providers':rejected},'listing':listing}))
+            legacy.setdefault('voeScopeRejected',[]).append(url)
+            providers=[p for p in providers if p not in rejected]
+        if not providers:continue
         extra['episodes'][url]={**ep,'providers':providers};extra['listings'][parent]=listing
+    for digest,evidence in quarantined:
+        path=Path(folder)/'quarantine'/'news-voe'/(digest+'.json')
+        if not path.exists():
+            path.parent.mkdir(parents=True,exist_ok=True)
+            path.write_text(json.dumps(evidence,ensure_ascii=False,sort_keys=True,separators=(',',':')),encoding='utf-8')
     count=0
     if extra['episodes']:
         side=load_parents(Path(folder)/'voe-state',extra['listings'])
