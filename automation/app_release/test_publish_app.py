@@ -34,8 +34,27 @@ work=Path(_tf.mkdtemp())
 try:p.promote(['a.apk','m.json'],{'a.apk.pending':{'id':2},'m.json.pending':{'id':4}},work);raise AssertionError('debía fallar')
 except RuntimeError:pass
 assert 'a.apk' not in state  # the failure the review reproduced
-p.restore(['a.apk','m.json'],work)
-assert 'a.apk' in state and 'm.json' in state
+# R12-01: restore re-uploads, downloads into a new folder and compares; it raises when it cannot (never a silent «done»)
+before=work/'before';before.mkdir();(before/'a.apk').write_bytes(b'old-apk');(before/'m.json').write_bytes(b'old-json')
+content={};mode={'upload':'ok'}
+def fake_run2(*a):
+    if 'upload' in a:
+        if mode['upload']=='down':raise RuntimeError('red caída')
+        files=[Path(x) for x in a if str(x).endswith(('.apk','.json'))]
+        if mode['upload']=='partial':files=files[:1]
+        for f in files:state[f.name]=9;content[f.name]=f.read_bytes()
+    elif 'download' in a:
+        d=Path(a[a.index('--dir')+1]);n=a[a.index('--pattern')+1]
+        if n in content:(d/n).write_bytes(content[n])
+    else:fake_run(*a)
+p.run=fake_run2
+p.restore(['a.apk','m.json'],before,work)
+assert 'a.apk' in state and 'm.json' in state and content['m.json']==b'old-json'
+for m in ['down','partial']:
+    content.clear();mode['upload']=m
+    try:p.restore(['a.apk','m.json'],before,work);raise AssertionError('debía avisar: '+m)
+    except RuntimeError as e:assert 'no se pudo restaurar' in str(e),e
+p.run=fake_run
 # a lost answer: the new copy already has the final name, nothing is removed again
 state.clear();state.update({'a.apk':2});calls.clear();p.promote(['a.apk'],{'a.apk.pending':{'id':2}},work);assert not calls
 print('publicar app: cambio recuperable OK')

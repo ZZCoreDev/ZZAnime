@@ -300,7 +300,7 @@ export function resetOwnerConf(){ownerConfCache={at:0,v:null};}
 export async function ownerConf(env){const now=Date.now();if(ownerConfCache.v&&now-ownerConfCache.at<60000)return ownerConfCache.v;
  let v={};try{const r=await quotaStub(env).fetch('https://quota/admin/state');if(r.status===200){const x=await r.json();if(x&&typeof x.settings==='object')v=x.settings;}}catch{}ownerConfCache={at:now,v};return v;}
 /** Owner admin path of the counter (only /admin/...), used by the Workers' owner routes. */
-export async function ownerCounter(env,path){if(!/^\/admin\/(?:state|set|ban|unban|user)(?:\?[A-Za-z0-9=&%:._-]{0,300})?$/.test(path))throw Error('admin path');const r=await quotaStub(env).fetch('https://quota'+path);return {status:r.status,body:await r.json().catch(()=>({}))};}
+export async function ownerCounter(env,path){if(!/^\/admin\/(?:state|set|ban|unban|user|exempt|unexempt)(?:\?[A-Za-z0-9=&%:._-]{0,300})?$/.test(path))throw Error('admin path');const r=await quotaStub(env).fetch('https://quota'+path);return {status:r.status,body:await r.json().catch(()=>({}))};}
 export async function humanOk(env,token,ip,fetcher){
  if(!env.TURNSTILE_SECRET||!/^[A-Za-z0-9._:-]{10,2048}$/.test(token||''))return '';
  const quiz=/^(.+):q([0-5])$/.exec(token);if(quiz)token=quiz[1];else if(QUIZ_REQUIRED)return '';

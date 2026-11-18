@@ -93,14 +93,15 @@ def main():
     for name in names:
         if by_name[name+'.pending']['size']!=(out/name).stat().st_size or sha(checked/(name+'.pending'))!=sha(out/name):fail('copia de prueba distinta: '+name)
     # R11-07 (18/11): resumable promotion (APKs first, manifest last); if it cannot finish, the previous version is put back.
-    try:promote(names,by_name,work)
-    except Exception:
-        restore(names,before)
-        fail('no se pudo completar el cambio de archivos; se ha vuelto a dejar la versión anterior')
-    verify=work/'published';verify.mkdir()
-    for name in names:run('gh','release','download',TAG,'--repo',REPO,'--dir',verify,'--clobber','--pattern',name)
-    for name in names:
-        if sha(verify/name)!=sha(out/name):fail('lo publicado no coincide: '+name)
+    # R12-01 (18/11): promotion AND the final check are inside the recovery; the previous version is only announced as back
+    # after downloading it again and comparing it with the saved copy. Not atomic: APKs first, manifest last.
+    try:
+        promote(names,by_name,work)
+        if not same_as(names,out,work/'published'):raise RuntimeError('lo publicado no coincide')
+    except Exception as e:
+        try:restore(names,before,work)
+        except Exception as r:fail(f'publicación fallida ({e}); RECUPERACIÓN INCOMPLETA, hay que revisarla a mano ({r}). La versión anterior está en «{BACKUP}».')
+        fail(f'publicación fallida ({e}); versión anterior puesta otra vez y comprobada')
     print(json.dumps({'published':names,'kind':kind,'versionCode':code,'previous':previous_code_text(before,k),'sha256':digest}))
     summary(f"### Publicada {k['label']} {code}\n\n{notes}\n\nLa anterior queda guardada en la publicación «{BACKUP}».")
 def promote(names,by_name,work):
@@ -120,11 +121,22 @@ def promote(names,by_name,work):
             except Exception:
                 if attempt==2:raise
                 time.sleep(5*(attempt+1))
-def restore(names,before):
-    """Puts back every file of the previous version (same names), so APK and manifest agree again."""
+def same_as(names,ref,into):
+    """Downloads the published names into a NEW empty folder and compares them with the copies in «ref»."""
+    if into.exists():shutil.rmtree(into)
+    into.mkdir()
+    for name in names:run('gh','release','download',TAG,'--repo',REPO,'--dir',into,'--clobber','--pattern',name)
+    return all((into/n).exists() and sha(into/n)==sha(ref/n) for n in names)
+def restore(names,before,work):
+    """Puts back every file of the previous version (same names) and checks it; raises if it could not (R12-01)."""
+    import time;last=None
     for attempt in range(3):
-        try:run('gh','release','upload',TAG,'--repo',REPO,'--clobber',*[before/n for n in names]);return
-        except Exception:
-            import time;time.sleep(5*(attempt+1))
+        try:
+            run('gh','release','upload',TAG,'--repo',REPO,'--clobber',*[before/n for n in names])
+            if same_as(names,before,work/f'restored-{attempt}'):return
+            last=RuntimeError('lo restaurado no coincide')
+        except Exception as e:last=e
+        if attempt<2:time.sleep(5*(attempt+1))
+    raise RuntimeError(f'no se pudo restaurar: {last}')
 def previous_code_text(before,k):return json.loads((before/k['manifest']).read_text(encoding='utf-8'))['versionCode']
 if __name__=='__main__':main()

@@ -31,6 +31,13 @@ await admin(tok(60),{action:'set',name:'cap',value:''});assert.equal(await linkA
 const uid='11111111-2222-4333-8444-555555555555';
 await admin(tok(60),{action:'ban-user',user:uid});assert.equal(await linkAllows(env,{user:uid,item:'s1'}),'limit','banned at once');
 forgetBans();await admin(tok(60),{action:'unban-user',user:uid});assert.equal(await linkAllows(env,{user:uid,item:'s1'}),'ok','unbanned');
+// R12-04: «sin límites» / «con límites otra vez» reach the counter (the list used to reject them: 503)
+await admin(tok(60),{action:'set',name:'cap',value:1});const ex='99999999-2222-4333-8444-555555555555';
+r=await admin(tok(60),{action:'exempt-user',user:ex});assert.equal(r.status,200,'exempt accepted');
+for(const i of ['e1','e2','e3'])assert.equal(await linkAllows(env,{user:ex,item:i}),'ok','exempt: no cap');
+r=await admin(tok(60),{action:'unexempt-user',user:ex});assert.equal(r.status,200,'unexempt accepted');
+forgetBans();await linkAllows(env,{user:ex,item:'e4'});assert.equal(await linkAllows(env,{user:ex,item:'e5'}),'limit','limits again at once');
+await admin(tok(60),{action:'set',name:'cap',value:''});
 // network ban: every account on that network, also reopening
 await linkAllows(env,{user:'b',item:'x1',ip:'203.0.113.9'});
 await admin(tok(60),{action:'ban-net',ip:'203.0.113.9',hours:2});
