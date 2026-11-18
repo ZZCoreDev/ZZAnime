@@ -47,7 +47,7 @@ class NewsResilienceTests(unittest.TestCase):
    self.assertEqual([p['family'] for p in legacy['episodes'][url]['providers']],['mp4upload'])
    self.assertEqual(set(load(Path(folder)/'voe-state')['episodes']),{other_url})
    evidence=list(Path(folder,'quarantine/news-voe').glob('*.json'));self.assertEqual(len(evidence),1)
-   before=evidence[0].read_bytes();source['episodes'][url]['observedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+   before=evidence[0].read_bytes();source['episodes'][url]['observedAt']=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(milliseconds=500)).isoformat()
    split(folder,source,isolate_invalid=True)
    self.assertEqual(len(list(evidence[0].parent.glob('*.json'))),1);self.assertEqual(evidence[0].read_bytes(),before)
  def test_bad_hosts_paths_queries_credentials_and_labels_are_not_accepted(self):
@@ -108,5 +108,15 @@ class NewsResilienceTests(unittest.TestCase):
    source,url=self.fixture(voe=True);source['episodes'][url]['providers'][0]['name']='VOE 2'
    with self.assertRaisesRegex(ValueError,'VOE provider scope'):self.execute(folder,[self.response(source)],proof=True)
    self.assertFalse(Path(folder,'quarantine').exists());self.assertEqual(load(folder)['episodes'],{})
+ def test_news_watchdog_respects_deferred_source_and_reports_it_truthfully(self):
+  import news_watchdog as watchdog
+  with tempfile.TemporaryDirectory() as folder:
+   status=Path(folder,'collection-status.json');status.write_text(json.dumps({'state':'checking'}))
+   def collect(*args,**kwargs):status.write_text(json.dumps({'state':'deferred','checkedAt':'1970-01-01T00:16:40Z'}))
+   with patch.dict(os.environ,{'ZZ_NEWS_WATCHDOG_ENABLED':'true'}),patch.object(watchdog.time,'time',return_value=1000),patch.object(watchdog.subprocess,'run',side_effect=collect) as called:
+    self.assertTrue(watchdog.check(folder));self.assertFalse(watchdog.check(folder));self.assertEqual(called.call_count,1)
+   report=json.loads(Path(folder,'news-watchdog.json').read_bytes());self.assertEqual(report['state'],'deferred');self.assertEqual(report['retryAt'],1900)
+   Path(folder,'news-watchdog.json').unlink()
+   self.assertFalse(watchdog.due(folder,1899));self.assertTrue(watchdog.due(folder,1900));self.assertTrue(watchdog.due(folder,999))
 
 if __name__=='__main__':unittest.main()
