@@ -175,7 +175,12 @@ def main():
     # The collector takes at most 2 chapters per call: the other chapters of the two series are skipped so exactly these two enter.
     if proof:retry=PROOF_EPISODES;skip=[u.rsplit('/',2)[0]+'/'+str(n)+'/' for u in PROOF_EPISODES for n in range(2,200)]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
-    with NO_REDIRECT.open(req,timeout=60) as response:result=json.loads(response.read(2097153))
+    # 18/11: the collector sometimes needs more than 60 s (slow source): 120 s; a slow SECOND batch keeps the first one.
+    try:
+     with NO_REDIRECT.open(req,timeout=120) as response:result=json.loads(response.read(2097153))
+    except (TimeoutError,OSError) as slow:
+     if attempt>0:print('Second collection batch skipped (slow source):',type(slow).__name__);break
+     raise
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
     if not proof:state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result.get('unknownSeries',[]),json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))
