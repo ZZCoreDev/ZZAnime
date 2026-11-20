@@ -154,6 +154,7 @@ def status_text(current,status):
     return updated
 
 def status_document(path,status):
+    if '..' in str(path):raise Exception('Invalid file path')
     current=path.read_text(encoding='utf-8') if path.exists() else '# ZZAnime\n';updated=status_text(current,status)
     if updated!=current:path.write_text(updated,encoding='utf-8')
 

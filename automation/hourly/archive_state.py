@@ -45,6 +45,7 @@ def save(folder,state,parents=None):
     metadata={k:v for k,v in state.items() if k not in ('episodes','listings')}
     metadata.update(schema=1,episodes={},listings={})
     path=folder/'observations.json';temporary=folder/'observations.tmp'
+    if '..' in str(temporary):raise Exception('Invalid file path')
     temporary.write_text(json.dumps(metadata,sort_keys=True,separators=(',',':')),encoding='utf-8');temporary.replace(path)
 
 def import_archive(folder,assets):
