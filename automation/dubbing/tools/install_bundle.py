@@ -1,11 +1,15 @@
 """Explicit public code bundle only. Does not enable cron, create credentials or deploy GPU."""
 from pathlib import Path
-import base64,hashlib,json,re,subprocess,sys
+import base64,hashlib,json,os,re,stat,subprocess,sys
 HERE=Path(__file__).resolve().parents[1];R=HERE.parents[1];OUT=R/'work/dubbing-validation';sys.path.insert(0,str(R/'work/backup-delivery'))
 def local_bundle_file(root: Path, candidate: Path) -> Path:
  resolved_root = root.resolve(strict=True)
+ absolute = Path(os.path.abspath(candidate))
+ if candidate.is_symlink() or not absolute.is_relative_to(resolved_root):
+  raise ValueError('Bundle file must be a regular file within the source tree')
  resolved = candidate.resolve(strict=True)
- if candidate.is_symlink() or not resolved.is_relative_to(resolved_root) or not resolved.is_file():
+ # Resolution must be the identity: no symlink may appear in the file or any parent component.
+ if resolved != absolute or not resolved.is_relative_to(resolved_root) or not stat.S_ISREG(os.lstat(resolved).st_mode):
   raise ValueError('Bundle file must be a regular file within the source tree')
  return resolved
 
@@ -17,7 +21,9 @@ def main()->None:
  if repository['private']:raise ValueError('This bundle is restricted to the existing public/free Actions repository')
  files={}
  for path in sorted(HERE.rglob('*')):
-  if not path.is_file() or '__pycache__' in path.parts:continue
+  if '__pycache__' in path.parts:continue
+  if path.is_symlink():raise ValueError('Symbolic links are forbidden in the public bundle: '+str(path.relative_to(HERE)))
+  if not path.is_file():continue
   rel=path.relative_to(HERE)
   if path.suffix not in {'.py','.yml','.yaml','.txt','.md'} and path.name not in {'Dockerfile','.gitignore','.dockerignore'} and str(rel).replace('\\','/') not in {'state/processed.json','tools/lifecycle.json'}:continue
   raw=local_bundle_file(HERE,path).read_bytes()
