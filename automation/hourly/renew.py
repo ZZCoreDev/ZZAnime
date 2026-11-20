@@ -175,56 +175,18 @@ def github_status(status):
             if error.code not in (409,422) or attempt==3:raise
             time.sleep(attempt+1)
 
-CHAIN_SPACING=300
-NEWS_EVERY=900
-STALE_WAIT=1800
-
-def live(row,statuses,now):
-    # A run still "queued" long after any job could hold the lock is a GitHub phantom, not waiting news.
-    if row.get('status') not in statuses:return False
-    created=stamp(row.get('created_at'))
-    return created<0 or now-created<STALE_WAIT
-
-def continue_if_due(folder):
-    status=json.loads((folder/'renewal-status.json').read_bytes())
-    failed=os.environ.get('ZZ_RENEW_OUTCOME','success')!='success'
-    if status.get('state') not in ('complete','complete-with-failures') and not failed:return
-    state=load(folder);failed_path=folder/'renewal-failures.json';failures=json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
-    if not select(state,failures,time.time(),1,include_missing=True,side=complements(folder)):return
-    if os.environ.get('GITHUB_REPOSITORY')!='ZZCoreDev/ZZAnime':raise ValueError('Continuation repository not allowed')
-    headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'ZZAnime-Renewal/1'}
-    if failed:
-        # A failed batch must not end the chain (and news with it); space retries so a repeating fault stays at the news cadence.
-        with NO_REDIRECT.open(urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/runs/'+os.environ['GITHUB_RUN_ID'],headers=headers),timeout=20) as response:started=stamp(json.loads(response.read())['run_started_at'])
-        wait=CHAIN_SPACING-(time.time()-started)
-        if wait>0:print('Failed batch: next renewal in %d s.'%wait,flush=True);time.sleep(wait)
-    now=time.time()
-    # GitHub keeps only one pending job per concurrency group. Never replace waiting news.
-    pending=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/runs?per_page=20',headers=headers)
-    with NO_REDIRECT.open(pending,timeout=20) as response:runs=json.loads(response.read())['workflow_runs']
-    if any(live(row,('queued','pending','waiting','in_progress','requested'),now) for row in runs):
-        print('Recent episode delivery has priority; renewal resumes after it completes.');return
-    pending_renew=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/runs?per_page=20',headers=headers)
-    with NO_REDIRECT.open(pending_renew,timeout=20) as response:waiting=json.loads(response.read())['workflow_runs']
-    if any(live(row,('queued','pending','waiting','requested'),now) for row in waiting):
-        print('A renewal or sample is already waiting; keep its place in the queue.');return
-    # 14/11/2026 (Robin): GitHub drops most of the «every 5 minutes» news schedules (hours between runs). When news has not
-    # started for 15 minutes the chain dispatches news instead; its completion starts the next renewal (workflow_run).
-    latest=max([stamp(row.get('created_at')) for row in runs]+[-1])
-    if latest<0 or now-latest>=NEWS_EVERY:
-        news=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
-        req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-hourly.yml/dispatches',data=news,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
-        with NO_REDIRECT.open(req,timeout=20) as response:
-            if response.status!=204:raise ValueError('News dispatch was not accepted')
-        print('News had not run for 15 minutes: news dispatched first; renewal follows when it completes.');return
-    data=json.dumps({'ref':'main','inputs':{'proof':False}}).encode()
-    req=urllib.request.Request('https://api.github.com/repos/ZZCoreDev/ZZAnime/actions/workflows/provider-renew.yml/dispatches',data=data,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json','User-Agent':'ZZAnime-Renewal/1'},method='POST')
-    with NO_REDIRECT.open(req,timeout=20) as response:
-        if response.status!=204:raise ValueError('Continuation was not accepted')
-    print('Pending observed chapters: next independent renewal batch dispatched.')
+def continuation_due(folder, failed):
+    report = folder/'renewal-status.json'
+    if not report.is_file():return False
+    status = json.loads(report.read_bytes())
+    if status.get('state') not in ('complete','complete-with-failures') and not failed:return False
+    state = load(folder)
+    failed_path = folder/'renewal-failures.json'
+    failures = json.loads(failed_path.read_bytes()) if failed_path.exists() else {}
+    return bool(select(state,failures,time.time(),1,include_missing=True,side=complements(folder)))
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import','pc-import','voe-proof','latino-import'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--continue-if-due',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--proof',action='store_true');parser.add_argument('--sample-group',choices=['baseline','verified-year','observed-token','recovered-import','pc-import','voe-proof','latino-import'],default='baseline');parser.add_argument('--publish',action='store_true');parser.add_argument('--write-status');parser.add_argument('--check-continuation',action='store_true');args=parser.parse_args()
     if args.sample_group=='latino-import':
         # 16/11/2026: the PC's latino copy of animeav1 (branch latino-import) into the separate /latino/ channel.
         from latino_channel import main as import_latino
@@ -236,7 +198,12 @@ def main():
         from import_recovered import main as import_batch
         import_batch(args.publish and not args.proof,pc=args.sample_group=='pc-import');return
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True);report=folder/'renewal-status.json'
-    if args.continue_if_due:continue_if_due(folder);return
+    if args.check_continuation:
+        failed = os.environ.get('ZZ_RENEW_OUTCOME','success') != 'success'
+        if continuation_due(folder, failed):
+            with Path(os.environ['GITHUB_OUTPUT']).open('a', encoding='utf-8') as output:
+                output.write('due=true\n')
+        return
     if args.write_status:
         status=json.loads(report.read_bytes())
         if args.write_status=='github':github_status(status)
