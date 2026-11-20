@@ -13,13 +13,40 @@ def local_bundle_file(root: Path, candidate: Path) -> Path:
   raise ValueError('Bundle file must be a regular file within the source tree')
  return resolved
 
+def verify_windows_path(fd: int, path: Path) -> None:
+ import ctypes
+ import msvcrt
+ from ctypes import wintypes
+
+ get_path = ctypes.WinDLL('kernel32', use_last_error=True).GetFinalPathNameByHandleW
+ get_path.argtypes = (wintypes.HANDLE, wintypes.LPWSTR, wintypes.DWORD, wintypes.DWORD)
+ get_path.restype = wintypes.DWORD
+ handle = msvcrt.get_osfhandle(fd)
+ size = get_path(handle, None, 0, 0)
+ if not size:
+  raise ctypes.WinError(ctypes.get_last_error())
+ buffer = ctypes.create_unicode_buffer(size)
+ written = get_path(handle, buffer, size, 0)
+ if not written:
+  raise ctypes.WinError(ctypes.get_last_error())
+
+ prefix = '\\\\?\\'
+ expected = str(path)
+ if not expected.startswith(prefix):
+  expected = prefix + ('UNC\\' + expected[2:] if expected.startswith('\\\\') else expected)
+ # Compare the path of the open handle, before reading any of its contents.
+ if written >= size or buffer.value != expected:
+  raise ValueError('Opened bundle file does not match the validated path')
+
 def read_bundle_bytes(root: Path, candidate: Path) -> bytes:
  resolved = local_bundle_file(root, candidate)
- # O_NOFOLLOW closes the check-to-read window: a link swapped in after validation is refused, not dereferenced.
+ # Reject final-component symlinks at open on systems that support O_NOFOLLOW.
  fd = os.open(resolved, os.O_RDONLY | getattr(os, 'O_NOFOLLOW', 0) | getattr(os, 'O_BINARY', 0))
  with os.fdopen(fd, 'rb') as handle:
   if not stat.S_ISREG(os.fstat(handle.fileno()).st_mode):
    raise ValueError('Bundle file must be a regular file within the source tree')
+  if os.name == 'nt':
+   verify_windows_path(handle.fileno(), resolved)
   return handle.read()
 
 def main()->None:
@@ -38,7 +65,7 @@ def main()->None:
   raw=read_bundle_bytes(HERE,path)
   if len(raw)>200000 or re.search(rb'(?m)^-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----\s*$',raw) or path.name.startswith('.env'):raise ValueError('Private/large file forbidden')
   files['automation/dubbing/'+rel.as_posix()]=raw
- workflow='.github/workflows/pipeline.yml';body=(R/workflow).read_bytes()
+ workflow='.github/workflows/pipeline.yml';body=read_bundle_bytes(R,R/workflow)
  try:existing=base64.b64decode(api('contents/'+workflow+'?ref=main')['content'])
  except RuntimeError as error:
   if '404' not in str(error):raise
