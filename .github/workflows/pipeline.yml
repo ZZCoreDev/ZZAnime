@@ -27,13 +27,13 @@ jobs:
           path: code
       - name: Dependencias del director CPU
         working-directory: code/automation/dubbing
-        run: 'python3 -m pip install --only-binary=:all: -r requirements.txt'
+        run: 'python3.12 -m pip --isolated install --index-url https://pypi.org/simple --only-binary=:all: --require-hashes -r requirements-ci.lock.txt'
       - name: Pruebas de cada módulo y controles de coste
         working-directory: code/automation/dubbing
-        run: python3 -m unittest discover -s tests -v
+        run: python3.12 -m unittest discover -s tests -v
       - name: Configuración sin revelar secretos
         working-directory: code/automation/dubbing
-        run: python3 -m dubpipe.cli doctor
+        run: python3.12 -m dubpipe.cli doctor
       - name: Preparar rama de checkpoints
         if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
         env:
@@ -70,6 +70,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python3 -m dubpipe.cli doctor --require-live
-          python3 -m modal deploy modal_app.py
-          python3 -m dubpipe.cli run --state "$GITHUB_WORKSPACE/data/state/processed.json" --state-git-dir "$GITHUB_WORKSPACE/data"
+          python3.12 -m dubpipe.cli doctor --require-live
+          python3.12 -m modal deploy modal_app.py
+          python3.12 -m dubpipe.cli run --state "$GITHUB_WORKSPACE/data/state/processed.json" --state-git-dir "$GITHUB_WORKSPACE/data"
