@@ -1,6 +1,49 @@
 """Sharded observed state, shared by news and renewal; never invent observation dates."""
-from pathlib import Path
-import datetime,gzip,hashlib,json
+from pathlib import Path, PureWindowsPath
+import datetime,gzip,hashlib,io,json,tempfile
+
+MAX_SHARD_BYTES = 32 * 1024 * 1024
+
+
+def read_shard(source):
+    with gzip.GzipFile(fileobj=source,mode='rb') as stream:
+        body = stream.read(MAX_SHARD_BYTES + 1)
+    if len(body) > MAX_SHARD_BYTES:
+        raise ValueError('State shard exceeds its decoded size limit')
+    return json.loads(body)
+
+
+def require_series(series,episodes):
+    if not isinstance(series,str) or not all(
+        isinstance(url,str) and url.rsplit('/',2)[0]+'/' == series for url in episodes
+    ):
+        raise ValueError('Observation belongs to another series')
+
+
+def state_path(folder, name):
+    if not isinstance(name, str) or not name:
+        raise ValueError('State path must be relative')
+    relative = Path(name)
+    windows = PureWindowsPath(name)
+    if relative.anchor or windows.anchor or '..' in windows.parts or ':' in name:
+        raise ValueError('Invalid state path')
+    root = Path(folder).resolve()
+    candidate = (root / relative).resolve()
+    if candidate == root or not candidate.is_relative_to(root):
+        raise ValueError('State path is outside its directory')
+    return candidate
+
+
+def write_state(path, body):
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, prefix='.state-', delete=False) as output:
+            temporary = Path(output.name)
+            output.write(body)
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 def stamp(value):
     try:return datetime.datetime.fromisoformat(value.replace('Z','+00:00')).timestamp()
@@ -19,42 +62,49 @@ def merge(target,source):
     return target
 
 def load(folder):
-    path=Path(folder)/'observations.json'
+    path=state_path(folder,'observations.json')
     state=json.loads(path.read_bytes()) if path.exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
-    for path in sorted((Path(folder)/'series-state').glob('*.json.gz')):
-        row=json.loads(gzip.decompress(path.read_bytes()))
+    target=state_path(folder,'series-state')
+    for path in sorted(target.glob('*.json.gz')):
+        with state_path(target,path.name).open('rb') as source:
+            row=read_shard(source)
         if hashlib.sha256(row['series'].encode()).hexdigest()!=path.name[:-8]:raise ValueError('State identity mismatch')
+        require_series(row['series'],row['episodes'])
+        require_series(row['series'],row['listing']['episodes'])
         merge(state,{'episodes':row['episodes'],'listings':{row['series']:row['listing']}})
     return state
 
 def save(folder,state,parents=None):
-    if '..' in str(folder):raise Exception('Invalid file path')
     folder=Path(folder);rows={}
-    legacy=folder/'observations.json'
-    if not (folder/'series-state').exists() or (legacy.exists() and json.loads(legacy.read_bytes()).get('episodes')):parents=None
+    legacy=state_path(folder,'observations.json')
+    target=state_path(folder,'series-state')
+    if not target.exists() or (legacy.exists() and json.loads(legacy.read_bytes()).get('episodes')):parents=None
     for url,ep in state['episodes'].items():
         parent=url.rsplit('/',2)[0]+'/'
         if parents is None or parent in parents:rows.setdefault(parent,{})[url]=ep
-    target=folder/'series-state';target.mkdir(parents=True,exist_ok=True)
+    target.mkdir(parents=True,exist_ok=True)
     for parent,episodes in sorted(rows.items()):
         if parent not in state['listings']:raise ValueError('Missing observed listing')
+        require_series(parent,state['listings'][parent]['episodes'])
         row={'schema':1,'series':parent,'listing':state['listings'][parent],'episodes':episodes}
         body=gzip.compress(json.dumps(row,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode(),mtime=0)
-        path=target/(hashlib.sha256(parent.encode()).hexdigest()+'.json.gz')
+        path=state_path(target,hashlib.sha256(parent.encode()).hexdigest()+'.json.gz')
         if not path.exists() or path.read_bytes()!=body:
-            temporary=path.with_suffix('.tmp');temporary.write_bytes(body);temporary.replace(path)
+            write_state(path,body)
     metadata={k:v for k,v in state.items() if k not in ('episodes','listings')}
     metadata.update(schema=1,episodes={},listings={})
-    path=folder/'observations.json';temporary=folder/'observations.tmp'
-    if '..' in str(temporary):raise Exception('Invalid file path')
-    temporary.write_text(json.dumps(metadata,sort_keys=True,separators=(',',':')),encoding='utf-8');temporary.replace(path)
+    write_state(legacy,json.dumps(metadata,sort_keys=True,separators=(',',':')).encode())
 
 def import_archive(folder,assets):
-    state=load(folder);assets=Path(assets);index=json.loads((assets/'index.bin').read_bytes());incoming={'episodes':{},'listings':{}}
+    state=load(folder);index=json.loads(state_path(assets,'index.bin').read_bytes());incoming={'episodes':{},'listings':{}}
     for item in index['series'].values():
-        packed=(assets/item['path']).read_bytes()
-        if len(packed)!=item['bytes'] or hashlib.sha256(packed).hexdigest()!=item['sha256']:raise ValueError('Archive hash mismatch')
-        row=json.loads(gzip.decompress(packed));parent=row['series'];listing={'complete':True,'observedAt':row['listedAt'],'episodes':row['listedEpisodes']}
+        asset=state_path(assets,item['path'])
+        with asset.open('rb') as source:
+            packed=source.read(MAX_SHARD_BYTES + 1)
+        if len(packed)>MAX_SHARD_BYTES or len(packed)!=item['bytes'] or hashlib.sha256(packed).hexdigest()!=item['sha256']:raise ValueError('Archive size or hash mismatch')
+        row=read_shard(io.BytesIO(packed));parent=row['series'];listing={'complete':True,'observedAt':row['listedAt'],'episodes':row['listedEpisodes']}
+        require_series(parent,listing['episodes'])
+        require_series(parent,(ep['url'] for ep in row['episodes']))
         incoming['listings'][parent]=listing
         for ep in row['episodes']:
             providers={}

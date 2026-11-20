@@ -6,6 +6,34 @@ from renew import select,validate,status_document,github_status,continue_if_due,
 from incident_diagnostics import fair_retries,report as diagnostic_report
 
 class RenewalTests(unittest.TestCase):
+    def test_state_paths_allow_normal_roots_and_require_containment(self):
+        from archive_state import state_path,write_state
+        with self.temporary() as directory:
+            root=Path(directory)/'state..backup'
+            root.mkdir()
+            target=state_path(root,'observations.json')
+            write_state(target,b'{"episodes":{},"listings":{}}')
+            self.assertEqual(load(root)['episodes'],{})
+            self.assertEqual([file.name for file in root.iterdir()],['observations.json'])
+            for name in (str(root),str(root.parent/'other.json'),'../other.json'):
+                with self.subTest(name=name), self.assertRaises(ValueError):
+                    state_path(root,name)
+
+    def test_decoded_archive_shard_is_bounded(self):
+        from archive_state import read_shard
+        from io import BytesIO
+        with patch('archive_state.MAX_SHARD_BYTES',16):
+            self.assertEqual(read_shard(BytesIO(gzip.compress(b'{"items": []}'))),{'items':[]})
+            with self.assertRaisesRegex(ValueError,'decoded size'):
+                read_shard(BytesIO(gzip.compress(b' '*17)))
+
+    def test_state_shard_cannot_mix_series(self):
+        from archive_state import require_series
+        first='https://jkanime.net/test-a/'
+        require_series(first,[first+'1/',first+'2/'])
+        with self.assertRaisesRegex(ValueError,'another series'):
+            require_series(first,['https://jkanime.net/test-b/1/'])
+
     def test_missing_recovery_keeps_healthy_budget_and_reuses_no_saved_chapter(self):
         now,parent,url,state=self.fixture();state['episodes']={parent+str(i)+'/':dict(next(iter(state['episodes'].values()))) for i in range(1,501)};state['listings'][parent]['episodes']=list(state['episodes'])
         missing=['https://jkanime.net/missing-'+str(i)+'/1/' for i in range(100)]
