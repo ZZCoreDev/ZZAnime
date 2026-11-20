@@ -4,16 +4,38 @@ export const FAMILIES=['streamwish','vidhide','mp4upload','yourupload','mega','v
 // Up to 4 candidate chapters per family; the probe opens one per family first and only retries families
 // that did not play, never more than 12 embeds a day in total.
 export const PER_FAMILY=4,MAX_EMBEDS=12;
-const isPathInside=(baseDir,targetPath)=>{const rel=path.relative(path.resolve(baseDir),path.resolve(targetPath));return !(rel==='..'||rel.startsWith(`..${path.sep}`)||path.isAbsolute(rel))};
-const read=(dir,name)=>{try{const target=path.join(dir,name);if(!isPathInside(dir,target))return null;return JSON.parse(fs.readFileSync(target))}catch{return null}};
+const CHANNELS=new Set(['','voe/','extra/','latino/']);
+const INDEX_PATH=/^indexes\/[a-f0-9]{64}\.bin$/;
+const SERIES_PATH=/^series\/[a-f0-9]{64}\.bin$/;
+function inDirectory(root,target){
+ const relative=path.relative(root,target);
+ if(!relative||relative==='..'||relative.startsWith('..'+path.sep)||path.isAbsolute(relative)){
+  throw new Error('Path outside the channel directory');
+ }
+ return target;
+}
+function read(dir,name,unpack = bytes => bytes){
+ const file=inDirectory(dir,fs.realpathSync(path.join(dir,name)));
+ return JSON.parse(unpack(fs.readFileSync(file)));
+}
 // Episodes of one signed channel (root, voe/ or extra/), straight from the published files the apps read.
 export function channelEpisodes(assets,prefix=''){
- const channel=read(assets,prefix+'channel.json');if(!channel)return [];
- const index=read(assets,prefix+JSON.parse(channel.payload).indexPath);const out=[];
- for(const row of Object.values(index?.series||{})){
-  try{const file=path.join(assets,prefix+row.path);if(!isPathInside(assets,file))continue;out.push(...JSON.parse(zlib.gunzipSync(fs.readFileSync(file)).toString()).episodes)}catch{}
+ if(!CHANNELS.has(prefix))return [];
+ try{
+  const root=fs.realpathSync(assets);
+  const directory=prefix?inDirectory(root,fs.realpathSync(path.join(root,prefix))):root;
+  const {indexPath}=JSON.parse(read(directory,'channel.json').payload);
+  if(typeof indexPath!=='string'||!INDEX_PATH.test(indexPath))return [];
+  const index=read(directory,indexPath);
+  const out=[];
+  for(const row of Object.values(index?.series||{})){
+   if(typeof row?.path!=='string'||!SERIES_PATH.test(row.path))continue;
+   try{out.push(...read(directory,row.path,zlib.gunzipSync).episodes)}catch{}
+  }
+  return out;
+ }catch{
+  return [];
  }
- return out;
 }
 // The URL the app opens for an option (StreamWish through its player mirror, MEGA as embed).
 export function embed(option){

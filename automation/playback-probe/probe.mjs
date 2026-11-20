@@ -13,7 +13,15 @@ export async function probeOne(browser,origin,target){
  const context=await browser.newContext({viewport:{width:1280,height:720}});const page=await context.newPage();
  context.on('page',p=>{if(p!==page)p.close().catch(()=>{});});            // ad pop-ups: closed, never followed
  let status=null,blocked=false;
- page.on('response',async r=>{if(r.url()===target.embed||r.request().frame()?.parentFrame()===page.mainFrame()&&r.request().isNavigationRequest()){status=status??r.status();if([403,429,503].includes(r.status())){try{blocked=blocked||BLOCK.test(await r.text())||r.status()===403}catch{blocked=true}}}});
+ page.on('response',async r=>{
+  try{
+   if(r.url()!==target.embed&&(!r.request().isNavigationRequest()||r.request().frame()?.parentFrame()!==page.mainFrame()))return;
+   status=status??r.status();
+   if([403,429,503].includes(r.status())){
+    try{blocked=blocked||BLOCK.test(await r.text())||r.status()===403}catch{blocked=true}
+   }
+  }catch{} // A response may precede creation of its frame or belong to a worker.
+ });
  const result={episode:target.episode,observedAt:target.observedAt,name:target.name,url:target.url,embed:target.embed};
  try{
   await page.goto(origin+'/probe.html?src='+encodeURIComponent(target.embed),{waitUntil:'domcontentloaded',timeout:30000});

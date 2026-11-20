@@ -39,21 +39,43 @@ jobs:
           ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
           path: branch-playback-probe
           persist-credentials: false
-      - name: Copiar playback-probe.json de la rama playback-probe
+      - name: Aislar los activos del canal y el resultado anterior
+        env:
+          PROBE_INPUT: ${{ github.workspace }}
         run: |
-          mkdir -p "$(dirname "$RUNNER_TEMP/probe/previous.json")"
-          if [ -f "$GITHUB_WORKSPACE/branch-playback-probe/playback-probe.json" ]; then cp "$GITHUB_WORKSPACE/branch-playback-probe/playback-probe.json" "$RUNNER_TEMP/probe/previous.json"; fi
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          import shutil
+
+          workspace = Path(os.environ['PROBE_INPUT']).resolve()
+          data, previous = workspace/'data', workspace/'branch-playback-probe'
+          assets = data/'state'/'published-assets'
+          target = Path(os.environ['RUNNER_TEMP'])/'probe'
+          target.mkdir(exist_ok=True)
+          if assets.resolve() != assets or any(p.is_symlink() for p in assets.rglob('*')):
+              raise SystemExit('Unexpected symbolic link in channel assets')
+          shutil.copytree(assets, target/'assets')
+          report = previous/'playback-probe.json'
+          if report.resolve() == report and report.is_file():
+              shutil.copyfile(report, target/'previous.json')
+          for checkout in (data, previous):
+              if checkout.exists():
+                  if checkout.resolve() != checkout:
+                      raise SystemExit('Unexpected symbolic link at checkout')
+                  shutil.rmtree(checkout)
+          PY
       - name: Chromium headless y pruebas locales
         working-directory: code/automation/playback-probe
         run: |
           npm ci --ignore-scripts --no-audit --no-fund
           npx playwright install --with-deps chromium
-          node test_probe.mjs
+          node --test test_probe.mjs test_select_paths.mjs
       - name: Abrir como mucho 12 embeds como la app (pausas de 20 s)
         working-directory: code/automation/playback-probe
         env:
           PROBE_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
-        run: node probe.mjs "$GITHUB_WORKSPACE/data/state/published-assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
+        run: node probe.mjs "$RUNNER_TEMP/probe/assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
       - name: Llave del repositorio privado (solo para guardar)
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
