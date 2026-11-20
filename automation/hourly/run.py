@@ -282,7 +282,10 @@ def main():
   # /extra/: chapters whose only servers are new families, read by móvil 93+/TV 117+ only.
   import extra_channel
   try:extra_only={} if proof else extra_channel.render(D,now,key,excluded_keys(D))
-  except Exception as error:extra_only={};print(json.dumps({'extraChannelError':type(error).__name__+': '+str(error)[:120]}))
+  except Exception as error:
+   if (D/extra_channel.JK_NEWS_FOLDER).exists():
+    raise ValueError('Extra publication stopped; the current release was retained') from error
+   extra_only={};print(json.dumps({'extraChannelError':type(error).__name__+': '+str(error)[:120]}))
   files.update(extra_only);extra_digest=next((n for n in extra_only if n.startswith('extra/indexes/')),None)
   # /latino/ (16/11/2026): dubbed es-LA links of JK series from the PC's animeav1 copy, read by app 204+ only.
   import latino_channel

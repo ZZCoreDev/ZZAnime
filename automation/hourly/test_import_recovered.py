@@ -1,5 +1,9 @@
-import copy,datetime,tempfile,unittest
+import contextlib,copy,datetime,gzip,io,json,os,tempfile,unittest
 from pathlib import Path
+from unittest.mock import patch
+from archive_state import load,save
+import extra_channel
+import import_recovered
 from import_recovered import prepare
 import run
 
@@ -35,4 +39,53 @@ class ImportTests(unittest.TestCase):
   incoming,held,reused=prepare(batch,state,a,now,replace=True);self.assertIn(url,incoming['episodes']);self.assertEqual(reused,0)
   state['episodes'][url]={'observedAt':(now+datetime.timedelta(minutes=1)).isoformat(),'newer':True}
   incoming,held,reused=prepare(batch,state,a,now,replace=True);self.assertFalse(incoming['episodes']);self.assertEqual(reused,1)
+ def test_news_requires_the_confirmed_table_marker(self):
+  _,url,batch,state,approved=self.fixture()
+  batch['state']['episodes'][url]['pcNews']=True
+  with self.assertRaisesRegex(ValueError,'verified server table'):
+   import_recovered.split_pc_news(batch,state,approved)
+
+ def test_pc_news_supplement_preserves_primary_and_real_dates(self):
+  now=datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(minutes=2)
+  parent='https://jkanime.net/tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru/'
+  url=parent+'21/'
+  title='Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru'
+  main_link='https://mega.nz/embed/testmega#different'
+  links=[
+   ('Mega','mega','https://mega.nz/embed/testmega#other'),
+   ('Streamwish','streamwish','https://streamwish.com/e/streamwish21'),
+   ('Streamtape','streamtape','https://streamtape.com/e/streamtape21'),
+   ('Filemoon','filemoon','https://filemoon.sx/e/filemoon21'),
+   ('Mixdrop','mixdrop','https://mxdrop.click/e/testmixdrop21'),
+  ]
+  listing={'series':parent,'title':title,'complete':True,'observedAt':now.isoformat(),'episodes':[url]}
+  observed={'episode':url,'observedAt':now.isoformat(),'complete':True,'pcNews':True,'extraction':'embedded-server-table',
+            'providers':[{'name':n,'family':f,'links':[link]} for n,f,link in links]}
+  root_ep={'episode':url,'complete':True,'observedAt':(now-datetime.timedelta(hours=1)).isoformat(),
+           'providers':[{'name':'Mega','family':'mega','links':[main_link]}],
+           'extraProviders':[{'name':'YourUpload','family':'yourupload','links':['https://www.yourupload.com/embed/test21']}]}
+  batch={'schema':1,'proof':{'allTwoPlayed':True},'state':{'episodes':{url:observed},'listings':{parent:listing}}}
+  with tempfile.TemporaryDirectory() as tmp:
+   folder=Path(tmp)/'state';path=Path(tmp)/'batch.json.gz'
+   save(folder,{'episodes':{url:root_ep},'listings':{parent:listing}})
+   path.write_bytes(gzip.compress(run.raw(batch)))
+   with patch.dict(os.environ,{'ZZ_DATA':str(folder),'ZZ_PC_BATCH':str(path)}),contextlib.redirect_stdout(io.StringIO()):
+    import_recovered.main(pc=True)
+    self.assertEqual(load(folder)['episodes'][url],root_ep)
+    supplement=load(folder/extra_channel.JK_NEWS_FOLDER)
+    self.assertEqual(supplement['episodes'][url]['observedAt'],observed['observedAt'])
+    self.assertEqual([(p['name'],p['links'][0]) for p in supplement['episodes'][url]['providers']],[(n,l) for n,_,l in links])
+    self.assertEqual(json.loads((folder/'pc-import-status.json').read_bytes())['supplemented'],1)
+    import_recovered.main(pc=True)
+    self.assertEqual(json.loads((folder/'pc-import-status.json').read_bytes())['supplemented'],0)
+   # Render the real shard structure through the existing signed channel path.
+   from cryptography.hazmat.primitives.asymmetric import rsa
+   key=rsa.generate_private_key(public_exponent=65537,key_size=2048)
+   files=extra_channel.render(folder,datetime.datetime.now(datetime.timezone.utc),key,set())
+   shard=json.loads(gzip.decompress(next(v for n,v in files.items() if n.startswith('extra/series/'))))
+   self.assertEqual([o['name'] for o in shard['episodes'][0]['extraOptions']],[n for n,_,_ in links])
+   self.assertEqual(shard['episodes'][0]['options'],[])
+   self.assertEqual(shard['episodes'][0]['observedAt'],observed['observedAt'])
+   self.assertTrue(all(o['url']!=main_link for o in shard['episodes'][0]['extraOptions']))
+
 if __name__=='__main__':unittest.main()

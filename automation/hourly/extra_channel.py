@@ -3,12 +3,13 @@
 Chapters observed with no regular provider but with extraProviders (YourUpload, MixDrop on new hosts)
 are kept in extra-state, never in the root state, so root records and their dates are never replaced.
 /extra/channel.json mirrors the root channel (same key, index, immutable shards); each chapter carries
-`options: []` and `extraOptions`. Installed apps never read it."""
+`options: []` and `extraOptions`. Also carries independently validated recent JK observations."""
 from pathlib import Path
 import copy,gzip,json,time
 from archive_state import load,save,merge,stamp
 import extra_options
 FOLDER='extra-state'
+JK_NEWS_FOLDER='jk-news-state'
 def split(folder,incoming):
  # Moves extra-only chapters out of `incoming`; extraProviders on chapters with regular providers stay put.
  rest=copy.deepcopy(incoming);extra={'episodes':{},'listings':{}};now=time.time()
@@ -27,19 +28,35 @@ def split(folder,incoming):
   if old and stamp(old.get('observedAt'))>=stamp(ep.get('observedAt')):extra['episodes'].pop(url)
  if extra['episodes']:merge(side,extra);save(Path(folder)/FOLDER,side,set(extra['listings']))
  return rest,len(extra['episodes'])
-def build(state,now,dead,sha,raw,titles=None):
- rows={}
- for url,ep in state['episodes'].items():
-  parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
-  if not listing or url not in listing.get('episodes',[]) or not ep.get('complete') or now.timestamp()-stamp(ep.get('observedAt'))<0:continue
-  extra=extra_options.build(ep,dead,set(),sha)
-  if extra:rows.setdefault(parent,[]).append({'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':[],'extraOptions':extra})
+def build(state,now,dead,sha,raw,titles=None,news=None):
+ rows={};listings={}
+ for source in (state,news):
+  if not source:continue
+  merge({'episodes':{},'listings':listings},{'listings':source['listings']})
+  for url,ep in source['episodes'].items():
+   parent=url.rsplit('/',2)[0]+'/';listing=source['listings'].get(parent)
+   observed=stamp(ep.get('observedAt'))
+   if not listing or url not in listing.get('episodes',[]) or not ep.get('complete') or not 0<observed<=now.timestamp():continue
+   if source is state:
+    options=extra_options.build(ep,dead,set(),sha)
+   else:
+    options=[{'family':p['family'],'name':p['name'],'url':link}
+      for p in ep['providers'] for link in p['links'] if sha((p['name']+'\0'+link).encode()) not in dead]
+   if not options:continue
+   episodes=rows.setdefault(parent,{})
+   chapter=episodes.setdefault(url,{'url':url,'observedAt':ep['observedAt'],'playbackVerified':False,'options':[],'extraOptions':[]})
+   if stamp(ep['observedAt'])<stamp(chapter['observedAt']):chapter['observedAt']=ep['observedAt']
+   deduplicated={(o['family'],o['url']):o for o in chapter['extraOptions']}
+   for o in options:deduplicated.setdefault((o['family'],o['url']),o)
+   chapter['extraOptions']=list(deduplicated.values())[:extra_options.MAX]
  index={'schema':1,'createdAt':now.isoformat().replace('+00:00','Z'),'playbackVerified':False,'series':{},'feed':{'schema':1,'episodes':[]}};files={}
  for parent,eps in sorted(rows.items()):
-  listing=state['listings'][parent]
-  body=raw({'schema':1,'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':sorted(eps,key=lambda e:e['url']),'playbackVerified':False})
+  listing=listings[parent]
+  body=raw({'schema':1,'series':parent,'listedAt':listing['observedAt'],'listedEpisodes':listing['episodes'],'episodes':[eps[url] for url in sorted(eps)],'playbackVerified':False})
   packed=gzip.compress(body,mtime=0);h=sha(packed);name='series/'+h+'.bin'
-  if max(len(body),len(packed))>2097152:continue
+  if max(len(body),len(packed))>2097152:
+   if news and parent in news['listings']:raise ValueError('Combined Extra shard exceeds the size limit')
+   continue
   files[name]=packed;index['series'][sha(parent.encode())]={'path':name,'sha256':h,'bytes':len(packed),'expandedBytes':len(body),'episodes':len(eps)}
  return index,files
 def render(folder,now,key,dead):
@@ -48,7 +65,8 @@ def render(folder,now,key,dead):
  from cryptography.hazmat.primitives import hashes
  from cryptography.hazmat.primitives.asymmetric import padding
  state=load(Path(folder)/FOLDER)
- if not state['episodes']:return {}
+ news=load(Path(folder)/JK_NEWS_FOLDER)
+ if not state['episodes'] and not news['episodes']:return {}
  # Drop stored extra links that are no longer valid (mixdroop.bz, a parked look-alike) (a chapter left with none is simply not published).
  changed=set()
  for url,ep in list(state['episodes'].items()):
@@ -57,7 +75,7 @@ def render(folder,now,key,dead):
   changed.add(url.rsplit('/',2)[0]+'/')
   state['episodes'][url]=kept
  if changed:save(Path(folder)/FOLDER,state,changed)
- index,files=build(state,now,dead,p.sha,p.raw)
+ index,files=build(state,now,dead,p.sha,p.raw,news=news)
  if not index['series']:return {}
  body=p.raw(index);digest=p.sha(body);name='indexes/'+digest+'.bin';files[name]=body
  payload=p.raw({'schema':1,'sequence':int(now.timestamp()*1000),'createdAt':now.isoformat().replace('+00:00','Z'),'indexSha256':digest,'indexPath':name,'indexBytes':len(body),'mode':'daily-new'})
