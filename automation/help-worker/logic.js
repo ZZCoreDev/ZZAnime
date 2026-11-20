@@ -8,6 +8,7 @@ import {sessionUser,JwksUnavailable} from './session.js';
 export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
 // S2: a device counts only after MIN_DEVICE_AGE; a network can introduce at most NEW_DEVICES_PER_NET devices a day.
 const MIN_DEVICE_AGE=24*3600000,NEW_DEVICES_PER_NET=5,SIGNAL_POLICY={evidencePolicy:'network-v2',basis:'independent-networks',minDeviceAgeHours:24};
+const MAX_DAILY_PLAYS=20000;
 const DAY=86400000,KEEP=8*DAY,RECHECK=6*3600000,MAX_ITEMS=20,MAX_OPTIONS=8,MAX_INSPECT=30,MAX_WANTED=400,WANTED_TTL=120000,ENOUGH_OPTIONS=2;
 const ACCEPTED=new Set(['name-match','quorum3']);
 const STOP=new Set(['the','and','season','temporada','part','movie','hen']);
@@ -225,15 +226,42 @@ export class Store{
  // Option and family success counts (one verdict per network, 14 days) and series popularity (distinct networks, 7 days).
  // Only devices older than MIN_DEVICE_AGE count; rows without a network (stored before S2) never count.
  playStats(now){
-  const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM plays WHERE day<?',day-13);const mature=now-MIN_DEVICE_AGE,LIMIT=200000;
-  const votes=this.rows("SELECT p.okey AS okey,p.family AS family,p.net AS net,MAX(p.ok) AS ok FROM plays p JOIN devices d ON d.device=p.device WHERE p.net IS NOT NULL AND p.net<>'' AND d.first<=? GROUP BY p.okey,p.net LIMIT ?",mature,LIMIT+1);
-  const seen=this.rows("SELECT DISTINCT p.episode AS episode,p.net AS net FROM plays p JOIN devices d ON d.device=p.device WHERE p.day>=? AND p.net IS NOT NULL AND p.net<>'' AND d.first<=? LIMIT ?",day-6,mature,LIMIT+1);
-  const byOption=new Map(),families={};
-  for(const v of votes.slice(0,LIMIT)){let o=byOption.get(v.okey);if(!o)byOption.set(v.okey,o={key:v.okey,family:v.family,ok:0,fail:0});if(v.ok)o.ok++;else o.fail++;const fam=families[v.family]||(families[v.family]=[0,0]);fam[v.ok?0:1]++;}
-  const options=[...byOption.values()].map(o=>({...o,independentNetworks:o.ok+o.fail})).filter(o=>o.independentNetworks>=3).sort((a,b)=>b.independentNetworks-a.independentNetworks||(a.key<b.key?-1:1)).slice(0,3000);
-  const viewers=new Map();for(const r of seen.slice(0,LIMIT)){const series=r.episode.replace(/[0-9]+\/$/,'');let set=viewers.get(series);if(!set)viewers.set(series,set=new Set());set.add(r.net);}
-  const popular=[...viewers].map(([series,set])=>({series,devices:set.size,independentNetworks:set.size})).filter(x=>x.independentNetworks>=2).sort((a,b)=>b.independentNetworks-a.independentNetworks||(a.series<b.series?-1:1)).slice(0,100);
-  return {...SIGNAL_POLICY,complete:votes.length<=LIMIT&&seen.length<=LIMIT,options,families,popular};
+  const day=Math.floor(now/DAY),mature=now-MIN_DEVICE_AGE;
+  this.sql.exec('DELETE FROM plays WHERE day<?',day-13);
+  // Aggregate the whole bounded window in SQLite. Only the final rankings cross into JS.
+  const totals=this.rows(`
+   SELECT * FROM (
+    WITH network_votes AS MATERIALIZED (
+     SELECT p.okey,p.family,p.net,MAX(p.ok) AS played
+     FROM plays p JOIN devices d ON d.device=p.device
+     WHERE p.day BETWEEN ? AND ? AND p.net IS NOT NULL AND p.net<>'' AND d.first<=?
+     GROUP BY p.okey,p.net
+    ), top_options AS (
+     SELECT okey,family,SUM(played) AS played,COUNT(*) AS networks
+     FROM network_votes
+     GROUP BY okey,family HAVING COUNT(*)>=3
+     ORDER BY networks DESC,okey LIMIT 3000
+    )
+    SELECT 'option' AS kind,okey AS key,family,played,networks FROM top_options
+    UNION ALL
+    SELECT 'family',NULL,family,SUM(played),COUNT(*) FROM network_votes GROUP BY family
+   )`,day-13,day,mature);
+  const options=[],families={};
+  for(const {kind,key,family,played,networks} of totals){
+   if(kind==='family')families[family]=[played,networks-played];
+   else options.push({key,family,ok:played,fail:networks-played,independentNetworks:networks});
+  }
+  options.sort((a,b)=>b.independentNetworks-a.independentNetworks||(a.key<b.key?-1:1));
+  const popular=this.rows(`
+   SELECT series,COUNT(DISTINCT net) AS devices,COUNT(DISTINCT net) AS independentNetworks
+   FROM (
+    SELECT rtrim(rtrim(p.episode,'/'),'0123456789') AS series,p.net
+    FROM plays p JOIN devices d ON d.device=p.device
+    WHERE p.day BETWEEN ? AND ? AND p.net IS NOT NULL AND p.net<>'' AND d.first<=?
+   )
+   GROUP BY series HAVING COUNT(DISTINCT net)>=2
+   ORDER BY independentNetworks DESC,series LIMIT 100`,day-6,day,mature);
+  return {...SIGNAL_POLICY,complete:true,options,families,popular};
  }
  mark(items,limits,expires,day){
   if(!this.take(limits,expires))return {limited:true};
@@ -338,7 +366,7 @@ export async function handle(request,env,store,deps={}){
     if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
     valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,ok:it.ok,net,now});
    }
-   if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['playday:'+day,Number(env.PLAY_CAP||20000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
+   if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['playday:'+day,Math.min(Number(env.PLAY_CAP)||MAX_DAILY_PLAYS,MAX_DAILY_PLAYS),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([u,status])=>({url:u,status}))});
   }
   if(url.pathname==='/v1/dead'){

@@ -87,6 +87,27 @@ await check('requests without a usable network address count nothing',async()=>{
 await check('summaries carry the evidence policy the cloud requires',async()=>{
  const t=setup();const a=(await get(t,'/v1/play-stats')).body,b=(await get(t,'/v1/marks-stats')).body;
  for(const x of [a,b]){assert.equal(x.evidencePolicy,'network-v2');assert.equal(x.basis,'independent-networks');assert.equal(x.minDeviceAgeHours,24);assert.equal(x.complete,true);assert.ok(x.generatedAt);}});
+await check('play summaries include the whole window past 200000 distinct votes',async()=>{
+ const t=setup(),day=Math.floor(t.now/86400000),sql=t.store.sql;
+ for(const net of ['one','two','three'])sql.exec('INSERT INTO devices VALUES(?,?,?)',net,net,t.now-MATURE);
+ sql.exec(`
+  WITH RECURSIVE seq(n) AS (VALUES(1) UNION ALL SELECT n+1 FROM seq WHERE n<200001)
+  INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net)
+  SELECT printf('%064x',n),'one',?-n%14,?,'Mp4upload','mp4upload','',1,0,'one' FROM seq
+ `,day,TR);
+ const option='f'.repeat(64);
+ for(const [net,ok] of [['one',1],['two',0],['three',1]]){
+  sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?,?)',option,net,day,TR,'Mp4upload','mp4upload','',ok,1-ok,net);
+ }
+ // A later success and multiple episodes on one network each count as one network.
+ sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?,?)',option,'two',day-1,TR.replace('/5/','/6/'),'Mp4upload','mp4upload','',1,0,'two');
+ const {status,body}=await get(t,'/v1/play-stats');
+ assert.equal(status,200);
+ assert.equal(body.complete,true);
+ assert.deepEqual(body.options,[{key:option,family:'mp4upload',ok:3,fail:0,independentNetworks:3}]);
+ assert.deepEqual(body.families,{mp4upload:[200004,0]});
+ assert.deepEqual(body.popular,[{series:TR.replace(/5\/$/,''),devices:3,independentNetworks:3}]);
+});
 await check('every store method the handler calls is exposed by the Durable Object wrapper',async()=>{
  const fs=await import('node:fs');const logic=fs.readFileSync(new URL('./logic.js',import.meta.url),'utf8'),worker=fs.readFileSync(new URL('./worker.js',import.meta.url),'utf8');
  const handler=logic.slice(logic.indexOf('export async function handle('));const used=[...new Set([...handler.matchAll(/store\.([a-zA-Z]+)\(/g)].map(m=>m[1]))];
