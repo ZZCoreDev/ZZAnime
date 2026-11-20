@@ -34,6 +34,7 @@ def episodes(tio):
 
 def verify(folder,slugs,catalogue,now=None,fetcher=fetch,sleep=time.sleep):
     """Returns the chapter URLs of newly accepted series (TioAnime's episode list), for the collector's retry queue."""
+    if '..' in str(folder):raise Exception('Invalid file path')
     now=now or time.time();folder=Path(folder);data=load(folder);known={r['url'] for r in catalogue};taken={norm(r['title']) for r in catalogue}
     if '..' in str(folder):raise Exception('Invalid file path')
     checked=0;chapters=[]
