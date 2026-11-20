@@ -12,10 +12,11 @@ on:
         description: 'Publicar solo las dos muestras con firma real, sin activar el lote'
         type: boolean
         default: false
-permissions:
-  contents: write
+permissions: {}
 jobs:
   collect:
+    permissions:
+      contents: read
     concurrency:
       group: zzanime-hourly-provider-data
       cancel-in-progress: false

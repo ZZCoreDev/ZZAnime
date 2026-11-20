@@ -18,11 +18,11 @@ on:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
         type: boolean
         default: true
-permissions:
-  contents: write
-  actions: write
+permissions: {}
 jobs:
   renew:
+    permissions:
+      contents: read
     concurrency:
       group: zzanime-hourly-provider-data
       cancel-in-progress: false
