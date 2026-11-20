@@ -28,6 +28,7 @@ def load(folder):
     return state
 
 def save(folder,state,parents=None):
+    if '..' in str(folder):raise Exception('Invalid file path')
     folder=Path(folder);rows={}
     legacy=folder/'observations.json'
     if not (folder/'series-state').exists() or (legacy.exists() and json.loads(legacy.read_bytes()).get('episodes')):parents=None
@@ -45,6 +46,7 @@ def save(folder,state,parents=None):
     metadata={k:v for k,v in state.items() if k not in ('episodes','listings')}
     metadata.update(schema=1,episodes={},listings={})
     path=folder/'observations.json';temporary=folder/'observations.tmp'
+    if '..' in str(temporary):raise Exception('Invalid file path')
     temporary.write_text(json.dumps(metadata,sort_keys=True,separators=(',',':')),encoding='utf-8');temporary.replace(path)
 
 def import_archive(folder,assets):

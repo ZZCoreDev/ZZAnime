@@ -10,12 +10,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   probe:
-    if: github.repository == 'ZZCoreDev/ZZAnime'
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
           path: code
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
@@ -44,7 +46,7 @@ jobs:
       - name: Chromium headless y pruebas locales
         working-directory: code/automation/playback-probe
         run: |
-          npm ci --no-audit --no-fund
+          npm ci --ignore-scripts --no-audit --no-fund
           npx playwright install --with-deps chromium
           node test_probe.mjs
       - name: Abrir como mucho 12 embeds como la app (pausas de 20 s)

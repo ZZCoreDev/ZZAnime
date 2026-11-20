@@ -14,7 +14,7 @@ class Episode:
  archive_member:str=''
  local_file:str=''
  def validate(self)->None:
-  if not re.fullmatch(r'[a-zA-Z0-9_.-]{1,120}',self.id) or not re.fullmatch(r'[a-zA-Z0-9_.-]{1,100}',self.series):raise ValueError('Invalid episode/series identity')
+  if not isinstance(self.id,str) or self.id in {'.','..'} or not re.fullmatch(r'[a-zA-Z0-9_.-]{1,120}',self.id) or not re.fullmatch(r'[a-zA-Z0-9_.-]{1,100}',self.series):raise ValueError('Invalid episode/series identity')
   if self.language not in {'ja','en','es'}:raise ValueError('Unsupported source language')
   if not self.provenance.get('authorized') or not self.provenance.get('creator') or not self.provenance.get('source_url'):raise ValueError('Source provenance requires review')
   if not self.title.strip():raise ValueError('Title missing')
@@ -26,6 +26,7 @@ def digest(path:Path)->str:
  return h.hexdigest()
 def canonical_hash(value:Any)->str:return hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
 def save(path:Path,data:Any)->None:
+ if '..' in str(path):raise Exception('Invalid file path')
  path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8');tmp.replace(path)
 def read(path:Path)->Any:return json.loads(path.read_text(encoding='utf-8'))
 def ffmpeg()->str:

@@ -16,7 +16,25 @@ final class AnimeFlvSource {
     static final class Result {int source=3;String page="";boolean next;final ArrayList<Mirror> mirrors=new ArrayList<>();final ArrayList<Match> choices=new ArrayList<>();}
     private final Map<String,Match> confirmed=new HashMap<>();
     static String normal(String value){return Normalizer.normalize(value.replaceFirst("(?i)^\\s*Ver\\s+", "").replaceFirst("(?i)\\s+Sub\\s+espa[nñ]ol(?:\\s+latino)?\\s+Online\\s*$", ""),Normalizer.Form.NFD).replaceAll("\\p{M}","").toLowerCase(Locale.ROOT).replaceAll("\\(tv\\)","").replaceAll("[^a-z0-9]","");}
-    static boolean allowedPage(String url){try{URI u=new URI(url);String h=u.getHost();return "https".equals(u.getScheme())&&u.getUserInfo()==null&&(h!=null&&(h.equals("animeflv.one")||h.endsWith(".animeflv.one")))&&(u.getPort()==-1||u.getPort()==443);}catch(Exception e){return false;}}
+    static URI checkedPage(String url) throws IOException {
+        URI page;
+        try {
+            page = new URI(url);
+        } catch (URISyntaxException | NullPointerException invalid) {
+            throw new IOException("Invalid source URL");
+        }
+        String host = page.getHost();
+        if (!"https".equals(page.getScheme()) || page.getRawUserInfo() != null ||
+            (page.getPort() != -1 && page.getPort() != 443) ||
+            !("vww.animeflv.one".equals(host) || "animeflv.one".equals(host))) {
+            throw new IOException("Invalid source URL");
+        }
+        return page;
+    }
+
+    static boolean allowedPage(String url) {
+        try { checkedPage(url); return true; } catch (IOException invalid) { return false; }
+    }
     static boolean allowedEmbed(String url){try{URI u=new URI(url);if(MediafireVideo.page(url))return true;if(!"https".equals(u.getScheme())||u.getUserInfo()!=null||(u.getPort()!=-1&&u.getPort()!=443))return false;String h=u.getHost();if(h==null)return false;for(String root:EMBED_HOSTS)if(h.equals(root)||h.endsWith("."+root))return true;}catch(Exception ignored){}return false;}
     static final String[] EMBED_HOSTS={"ok.ru","odnoklassniki.ru","yourupload.com","embedsb.com","embedsito.com","hqq.tv","mp4upload.com","streamtape.com","filemoon.sx","bysekoze.com","vidhide.com","vidhidepro.com","hglink.to","streamwish.com","voe.sx","dooodster.com","playmogo.com","luluvdo.com","lulustream.com","streamwish.to","bysesukior.com","filelions.top","uqload.is","uqload.vc","mixdrop.ps","mxdrop.click","mega.nz","my.mail.ru","v.tioanime.com","vgfplay.com","doodstream.com","dood.watch","dsvplay.com","uqload.io","uqload.cx","obeywish.com","luluvid.com","mxdrop.to","mediafire.com","hgcloud.to","hanerix.com","audinifer.com","vidhidevip.com","callistanise.com","mixdrop.top"};
     private static final String[][] SCOPED_FAMILIES={{"dooodster.com","playmogo.com","doodstream.com","dood.watch","dsvplay.com"},{"luluvdo.com","lulustream.com","luluvid.com"},{"streamwish.to","streamwish.com","obeywish.com","hglink.to","hgcloud.to","hanerix.com","audinifer.com"},{"bysesukior.com"},{"filelions.top","vidhide.com","vidhidepro.com","vidhidevip.com","callistanise.com"},{"uqload.is","uqload.vc","uqload.io","uqload.cx"},{"mixdrop.ps","mxdrop.click","mxdrop.to","mixdrop.top"},{"mega.nz","static.mega.co.nz"},{"filemoon.sx","bysekoze.com"},{"my.mail.ru"},{"yourupload.com"},{"v.tioanime.com"},{"vgfplay.com"},{"mp4upload.com"},{"streamtape.com"}};
@@ -27,9 +45,15 @@ final class AnimeFlvSource {
     static void order(List<Mirror> mirrors){Collections.sort(mirrors,(a,b)->Integer.compare(priority(a),priority(b)));}
     private Document get(String url)throws Exception{
         for(int redirects=0;redirects<4;redirects++){
-            if(Thread.currentThread().isInterrupted())throw new IOException("Cancelled");if(!allowedPage(url))throw new IOException("Invalid source URL");
-            Connection.Response response=Jsoup.connect(url).userAgent("Mozilla/5.0").timeout(8000).maxBodySize(2*1024*1024).followRedirects(false).ignoreHttpErrors(true).execute();
-            if(response.statusCode()>=300&&response.statusCode()<400){url=new URI(url).resolve(response.header("Location")).toString();continue;}
+            if(Thread.currentThread().isInterrupted())throw new IOException("Cancelled");
+            URI page=checkedPage(url);
+            Connection.Response response=Jsoup.connect(page.toASCIIString()).userAgent("Mozilla/5.0").timeout(8000).maxBodySize(2*1024*1024).followRedirects(false).ignoreHttpErrors(true).execute();
+            if(response.statusCode()>=300&&response.statusCode()<400){
+                String location=response.header("Location");
+                if(location==null||location.isEmpty())throw new IOException("Missing source redirect");
+                url=page.resolve(new URI(location)).toString();
+                continue;
+            }
             if(response.statusCode()!=200)throw new IOException("Source HTTP "+response.statusCode());Document doc=response.parse();if(doc.title().contains("Just a moment")||doc.select("[id*=challenge]").size()>0)throw new IOException("Source verification required");return doc;
         }throw new IOException("Redirect limit");
     }

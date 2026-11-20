@@ -52,9 +52,32 @@ final class RemoteProviderCache implements ProviderBackupStore.Assets {
         cached.setLastModified(System.currentTimeMillis());trim();return new ByteArrayInputStream(bytes);
     }
     private void trim(){File[] files=folder.listFiles((d,n)->n.matches("[a-f0-9]{64}[.](bin|index)"));if(files==null)return;Arrays.sort(files,Comparator.comparingLong(File::lastModified));long total=0;int count=0;for(File f:files){total+=f.length();count++;}for(File f:files){if(total<=48L*1024*1024&&count<=122)break;if(f.getName().equals(revision+".index")||f.getName().equals(previousRevision+".index"))continue;long size=f.length();if(f.delete()){total-=size;count--;}}}
+    static URL remoteUrl(String base, String relative) throws IOException {
+        if (relative == null || !relative.matches("channel[.]json|(?:indexes|series)/[a-f0-9]{64}[.]bin")) {
+            throw new IOException("Remote request path");
+        }
+        URI origin;
+        try {
+            origin = new URI(base);
+        } catch (URISyntaxException | NullPointerException invalid) {
+            throw new IOException("Remote origin");
+        }
+        String host = origin.getHost();
+        if (!"https".equals(origin.getScheme()) || origin.getRawUserInfo() != null || origin.getPort() != -1 ||
+            origin.getRawQuery() != null || origin.getRawFragment() != null ||
+            !("respaldo.zzanime.uk".equals(host) || "zzanime-respaldo.zzcoredev.workers.dev".equals(host))) {
+            throw new IOException("Remote origin");
+        }
+        String path = origin.getRawPath();
+        if (!path.matches("(?:/(?:voe|extra|latino))?/?")) {
+            throw new IOException("Remote channel path");
+        }
+        String prefix = path.endsWith("/") ? path.substring(0, path.length() - 1) : path;
+        return new URL("https", host, prefix + "/" + relative);
+    }
+
     static Fetch https(String base){return (relative,limit)->{
-        if(!relative.matches("channel[.]json|(?:indexes|series)/[a-f0-9]{64}[.]bin"))throw new IOException("Remote request path");
-        URL url=new URL(base+"/"+relative);if(!url.getProtocol().equals("https")||url.getUserInfo()!=null||url.getPort()!=-1)throw new IOException("Remote origin");
+        URL url=remoteUrl(base,relative);
         HttpURLConnection c=(HttpURLConnection)url.openConnection();c.setInstanceFollowRedirects(false);c.setConnectTimeout(2500);c.setReadTimeout(3500);c.setUseCaches(false);c.setRequestProperty("Cache-Control","no-cache");String cloudKey=System.getenv("ZZ_CHANNEL_KEY");if(cloudKey!=null&&!cloudKey.isEmpty())c.setRequestProperty("X-ZZ-Cloud",cloudKey);c.setRequestProperty("User-Agent","ZZAnime-Data/1");
         try{if(c.getResponseCode()!=200||c.getContentLength()>limit)throw new IOException("Remote response");return ProviderBackupStore.read(c.getInputStream(),limit);}finally{c.disconnect();}
     };}

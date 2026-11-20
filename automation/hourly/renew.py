@@ -154,6 +154,7 @@ def status_text(current,status):
     return updated
 
 def status_document(path,status):
+    if '..' in str(path):raise Exception('Invalid file path')
     current=path.read_text(encoding='utf-8') if path.exists() else '# ZZAnime\n';updated=status_text(current,status)
     if updated!=current:path.write_text(updated,encoding='utf-8')
 
@@ -227,13 +228,13 @@ def main():
     if args.sample_group=='latino-import':
         # 16/11/2026: the PC's latino copy of animeav1 (branch latino-import) into the separate /latino/ channel.
         from latino_channel import main as import_latino
-        import_latino(args.publish);return
+        import_latino(args.publish and not args.proof);return
     if args.sample_group=='voe-proof':
         from voe_channel import proof
         proof(args.publish);return
     if args.sample_group in ('recovered-import','pc-import'):
         from import_recovered import main as import_batch
-        import_batch(args.publish,pc=args.sample_group=='pc-import');return
+        import_batch(args.publish and not args.proof,pc=args.sample_group=='pc-import');return
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True);report=folder/'renewal-status.json'
     if args.continue_if_due:continue_if_due(folder);return
     if args.write_status:

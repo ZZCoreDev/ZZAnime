@@ -12,11 +12,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   check:
-    if: github.repository == 'ZZCoreDev/ZZAnime'
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
       - name: Memoria (rama manual-links del repositorio privado)
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         continue-on-error: true
@@ -29,7 +32,7 @@ jobs:
       - name: Copiar state.json de la rama manual-links
         run: |
           mkdir -p "$(dirname "$RUNNER_TEMP/memory/state.json")"
-          if [ -f "$GITHUB_WORKSPACE/branch-manual-links/state.json" ]; then cp "$GITHUB_WORKSPACE/branch-manual-links/state.json" "$RUNNER_TEMP/memory/state.json"; fi
+          if [ -f "$GITHUB_WORKSPACE/branch-manual-links/state.json" ] && [ ! -L "$GITHUB_WORKSPACE/branch-manual-links/state.json" ]; then cp "$GITHUB_WORKSPACE/branch-manual-links/state.json" "$RUNNER_TEMP/memory/state.json"; fi
       - name: Pruebas sin red
         working-directory: automation/manual-links
         run: python3 test_manual_links.py

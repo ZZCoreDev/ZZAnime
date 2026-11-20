@@ -12,12 +12,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   watch:
-    if: github.repository == 'ZZCoreDev/ZZAnime'
-    runs-on: ubuntu-24.04
-    timeout-minutes: 10
     permissions:
       contents: write
       issues: write
+    if: github.repository == 'ZZCoreDev/ZZAnime'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:

@@ -4,3 +4,4 @@ boto3==1.43.120
 google-api-python-client==2.201.0
 google-auth-oauthlib==1.5.0
 imageio-ffmpeg==0.7.0
+cbor2==6.3.0

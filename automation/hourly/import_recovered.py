@@ -68,7 +68,7 @@ def main(publish=False,pc=False):
                 side_incoming,side_held,side_reused=prepare(news,side,approved,now,replace=True)
         incoming,held,reused=prepare(batch,current,approved,now,replace=pc)
     merge(current,incoming)
-    assert all(current['episodes'][url]['observedAt']==date or (url in incoming['episodes'] and stamp(current['episodes'][url]['observedAt'])>stamp(date)) for url,date in before.items())
+    if not all(current['episodes'][url]['observedAt']==date or (url in incoming['episodes'] and stamp(current['episodes'][url]['observedAt'])>stamp(date)) for url,date in before.items()): raise AssertionError()
     if incoming['episodes']:save(folder,current,set(incoming['listings']))
     if side_incoming['episodes']:
         merge(side,side_incoming)
