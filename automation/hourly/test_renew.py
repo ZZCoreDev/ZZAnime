@@ -2,7 +2,7 @@ import base64,copy,datetime,gzip,json,os,tempfile,unittest,urllib.error
 from unittest.mock import patch
 from pathlib import Path
 from archive_state import load,save,merge,stamp
-from renew import select,validate,status_document,github_status,continue_if_due,record_failure,repair_verified_identities,health_report,DAY
+from renew import select,validate,status_document,github_status,continuation_due,record_failure,repair_verified_identities,health_report,DAY
 from incident_diagnostics import fair_retries,report as diagnostic_report
 
 class RenewalTests(unittest.TestCase):
@@ -97,17 +97,14 @@ class RenewalTests(unittest.TestCase):
             if not entry.get('approved'):continue
             self.assertEqual((rows[parent]['title'].casefold(),rows[parent]['year']),(entry['title'].casefold(),entry['year']),parent)
             self.assertTrue(entry['sources']);self.assertTrue(all(set(v)=={'slug','title'} for v in entry['sources'].values()),parent)
-    def test_queued_sample_is_not_replaced_by_a_continuation(self):
-        class Response:
-            def __init__(self,rows):self.rows=rows
-            def __enter__(self):return self
-            def __exit__(self,*args):pass
-            def read(self):return json.dumps({'workflow_runs':self.rows}).encode()
+    def test_only_complete_or_failed_runs_with_work_can_continue(self):
         _,_,_,state=self.fixture()
         with self.temporary() as temp:
-            folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
-            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.NO_REDIRECT.open',side_effect=[Response([]),Response([{'status':'pending'}])]) as call:continue_if_due(folder)
-            self.assertEqual(call.call_count,2);self.assertTrue(all(r.args[0].get_method()=='GET' for r in call.call_args_list))
+            folder=Path(temp);save(folder,state)
+            self.assertFalse(continuation_due(folder,True))
+            (folder/'renewal-status.json').write_text(json.dumps({'state':'running'}))
+            self.assertFalse(continuation_due(folder,False))
+            self.assertTrue(continuation_due(folder,True))
     def test_old_chapter_retry_is_not_pulled_forward(self):
         now,_,url,state=self.fixture(8);failed={url:{'retryAt':now.timestamp()+900}}
         self.assertEqual(select(state,failed,now.timestamp()+899,2),[]);self.assertEqual(select(state,failed,now.timestamp()+901,2),[url])
@@ -179,18 +176,6 @@ class RenewalTests(unittest.TestCase):
             alone={'episodes':{},'listings':{sp:state['listings'][sp]}}
             with patch('archive_coverage.baseline',return_value={}):
                 self.assertEqual(missing_targets(alone,{},now.timestamp(),side),[]);self.assertEqual(missing_targets(alone,{},now.timestamp()+86401,side),[second]);self.assertEqual(missing_targets(alone,{},now.timestamp()),[second])
-    def test_pending_news_is_never_replaced_by_renewal_continuation(self):
-        class Response:
-            def __enter__(self):return self
-            def __exit__(self,*args):pass
-            def read(self):return json.dumps({'workflow_runs':[{'status':'pending'}]}).encode()
-        _,_,_,state=self.fixture()
-        with self.temporary() as temp:
-            folder=Path(temp);save(folder,state);(folder/'renewal-status.json').write_text(json.dumps({'state':'complete'}))
-            with patch.dict(os.environ,{'GITHUB_REPOSITORY':'ZZCoreDev/ZZAnime','GH_TOKEN':'test-only'}),patch('renew.NO_REDIRECT.open',return_value=Response()) as call:
-                continue_if_due(folder)
-            self.assertEqual(call.call_count,1)
-            self.assertIn('provider-hourly.yml/runs',call.call_args.args[0].full_url)
     def fixture(self,age=2):
         now=datetime.datetime.now(datetime.timezone.utc);parent='https://jkanime.net/psyren/';url=parent+'4/';observed=(now-datetime.timedelta(days=age)).isoformat()
         return now,parent,url,{'schema':1,'episodes':{url:{'complete':True,'observedAt':observed,'providers':[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-test.html']}]}},'listings':{parent:{'complete':True,'observedAt':observed,'episodes':[parent+str(n)+'/' for n in range(1,5)]}},'pending':[]}
