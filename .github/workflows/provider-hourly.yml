@@ -13,7 +13,8 @@ on:
         type: boolean
         default: false
 permissions:
-  contents: write
+  contents: read
+  actions: read
 jobs:
   collect:
     concurrency:
