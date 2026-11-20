@@ -14,7 +14,7 @@ class Episode:
  archive_member:str=''
  local_file:str=''
  def validate(self)->None:
-  if not re.fullmatch(r'[a-zA-Z0-9_.-]{1,120}',self.id) or not re.fullmatch(r'[a-zA-Z0-9_.-]{1,100}',self.series):raise ValueError('Invalid episode/series identity')
+  if not isinstance(self.id,str) or self.id in {'.','..'} or not re.fullmatch(r'[a-zA-Z0-9_.-]{1,120}',self.id) or not re.fullmatch(r'[a-zA-Z0-9_.-]{1,100}',self.series):raise ValueError('Invalid episode/series identity')
   if self.language not in {'ja','en','es'}:raise ValueError('Unsupported source language')
   if not self.provenance.get('authorized') or not self.provenance.get('creator') or not self.provenance.get('source_url'):raise ValueError('Source provenance requires review')
   if not self.title.strip():raise ValueError('Title missing')

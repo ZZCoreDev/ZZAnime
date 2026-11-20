@@ -20,6 +20,10 @@ class Tests(unittest.TestCase):
  def test_episode_identity_cannot_escape(self):
   row=sample();object.__setattr__(row,'id','../other')
   with self.assertRaises(ValueError):row.validate()
+ def test_episode_identity_rejects_dot_segments(self):
+  for value in ('.','..'):
+   row=sample();object.__setattr__(row,'id',value)
+   with self.assertRaises(ValueError):row.validate()
  def test_cache_hits_and_verifies_hashes(self):
   calls=[];cache=Cache(self.root)
   def action(out):calls.append(1);(out/'a.txt').write_text('original');return {'file':'a.txt'}
