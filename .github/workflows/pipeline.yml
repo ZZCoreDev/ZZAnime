@@ -24,7 +24,7 @@ jobs:
           path: code
       - name: Dependencias del director CPU
         working-directory: code/automation/dubbing
-        run: python3 -m pip install -r requirements.txt
+        run: 'python3 -m pip install --only-binary=:all: -r requirements.txt'
       - name: Pruebas de cada módulo y controles de coste
         working-directory: code/automation/dubbing
         run: python3 -m unittest discover -s tests -v
