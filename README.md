@@ -6,7 +6,6 @@
 <p align="center"><b>Discord oficial: <a href="https://discord.gg/m3Zkstsrc">ZZAnime</a></b></p>
 <p align="center"><a href="https://github.com/ZZCoreDev/ZZAnime/releases/latest/download/ZZAnimeTV.apk">📺 Descargar para TV</a> · <a href="https://github.com/ZZCoreDev/ZZAnime/releases/latest/download/ZZAnimeMobile.apk">📱 Descargar para móvil</a></p>
 
-<p align="center"><a ## Tu biblioteca, en ambas pantallas </a>
 
 | Descubre | Continúa |
 |---|---|
