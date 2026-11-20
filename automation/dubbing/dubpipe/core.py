@@ -26,6 +26,7 @@ def digest(path:Path)->str:
  return h.hexdigest()
 def canonical_hash(value:Any)->str:return hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
 def save(path:Path,data:Any)->None:
+ if '..' in str(path):raise Exception('Invalid file path')
  path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8');tmp.replace(path)
 def read(path:Path)->Any:return json.loads(path.read_text(encoding='utf-8'))
 def ffmpeg()->str:

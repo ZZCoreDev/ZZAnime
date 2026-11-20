@@ -28,6 +28,7 @@ def load(folder):
     return state
 
 def save(folder,state,parents=None):
+    if '..' in str(folder):raise Exception('Invalid file path')
     folder=Path(folder);rows={}
     legacy=folder/'observations.json'
     if not (folder/'series-state').exists() or (legacy.exists() and json.loads(legacy.read_bytes()).get('episodes')):parents=None
