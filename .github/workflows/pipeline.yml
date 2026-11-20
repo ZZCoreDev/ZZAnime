@@ -8,13 +8,14 @@ on:
         description: Solo pruebas y configuración, sin GPU ni publicación
         type: boolean
         default: true
-permissions:
-  contents: write
+permissions: {}
 concurrency:
   group: zzdub-paid-pipeline
   cancel-in-progress: false
 jobs:
   pipeline:
+    permissions:
+      contents: write
     if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main' && github.event.repository.private == false && (inputs.dry_run == true || vars.ZZ_DUBBING_ENABLED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 50

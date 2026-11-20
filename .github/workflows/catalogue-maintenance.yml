@@ -8,13 +8,14 @@ on:
         description: Dos identidades antes de activar el resto
         type: boolean
         default: true
-permissions:
-  contents: write
+permissions: {}
 concurrency:
   group: zzanime-catalogue-evidence
   cancel-in-progress: false
 jobs:
   refresh:
+    permissions:
+      contents: write
     if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_CATALOGUE_ENABLED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 10

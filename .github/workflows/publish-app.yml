@@ -23,14 +23,15 @@ on:
         description: 'Notas de la versión'
         type: string
         required: true
-permissions:
-  contents: write
-  actions: write
+permissions: {}
 concurrency:
   group: publish-app
   cancel-in-progress: false
 jobs:
   publish:
+    permissions:
+      contents: write
+      actions: write
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:

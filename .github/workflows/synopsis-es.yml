@@ -7,13 +7,14 @@ on:
       limit:
         description: 'Series por vuelta (prueba: 2)'
         default: '2'
-permissions:
-  contents: write
+permissions: {}
 concurrency:
   group: zzanime-synopsis-es
   cancel-in-progress: false
 jobs:
   translate:
+    permissions:
+      contents: write
     if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 30

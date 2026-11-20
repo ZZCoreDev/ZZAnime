@@ -6,14 +6,15 @@ on:
     branches: [main]
     paths: ['automation/hourly/health_watch.py', '.github/workflows/health-watch.yml']
   workflow_dispatch:
-permissions:
-  contents: write
-  issues: write
+permissions: {}
 concurrency:
   group: zzanime-health-watch
   cancel-in-progress: false
 jobs:
   watch:
+    permissions:
+      contents: write
+      issues: write
     if: github.repository == 'ZZCoreDev/ZZAnime'
     runs-on: ubuntu-24.04
     timeout-minutes: 10
