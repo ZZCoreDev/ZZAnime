@@ -13,18 +13,21 @@ on:
         type: boolean
         default: false
 permissions:
-  contents: write
+  contents: read
+  actions: read
 jobs:
   collect:
     concurrency:
       group: zzanime-hourly-provider-data
       cancel-in-progress: false
-    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_HOURLY_ENABLED == 'true')
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_HOURLY_ENABLED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
           path: code
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:

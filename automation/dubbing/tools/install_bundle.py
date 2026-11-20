@@ -2,8 +2,15 @@
 from pathlib import Path
 import base64,hashlib,json,re,subprocess,sys
 HERE=Path(__file__).resolve().parents[1];R=HERE.parents[1];OUT=R/'work/dubbing-validation';sys.path.insert(0,str(R/'work/backup-delivery'))
-from install_cloud import api,tree_commit
+def local_bundle_file(root: Path, candidate: Path) -> Path:
+ resolved_root = root.resolve(strict=True)
+ resolved = candidate.resolve(strict=True)
+ if candidate.is_symlink() or not resolved.is_relative_to(resolved_root) or not resolved.is_file():
+  raise ValueError('Bundle file must be a regular file within the source tree')
+ return resolved
+
 def main()->None:
+ from install_cloud import api,tree_commit
  proof=json.loads((OUT/'verification.json').read_text(encoding='utf-8'));qa=json.loads((OUT/'proof.json').read_text(encoding='utf-8'))
  if not proof['passed'] or not qa['qa_passed'] or not qa['source_transcription_complete']:raise ValueError('Real local proof required before installation')
  repository=json.loads(subprocess.check_output(['gh','api','repos/ZZCoreDev/ZZAnime'],text=True,encoding='utf-8'))
@@ -13,7 +20,7 @@ def main()->None:
   if not path.is_file() or '__pycache__' in path.parts:continue
   rel=path.relative_to(HERE)
   if path.suffix not in {'.py','.yml','.yaml','.txt','.md'} and path.name not in {'Dockerfile','.gitignore','.dockerignore'} and str(rel).replace('\\','/') not in {'state/processed.json','tools/lifecycle.json'}:continue
-  raw=path.read_bytes()
+  raw=local_bundle_file(HERE,path).read_bytes()
   if len(raw)>200000 or re.search(rb'(?m)^-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----\s*$',raw) or path.name.startswith('.env'):raise ValueError('Private/large file forbidden')
   files['automation/dubbing/'+rel.as_posix()]=raw
  workflow='.github/workflows/pipeline.yml';body=(R/workflow).read_bytes()
