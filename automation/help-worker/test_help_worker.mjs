@@ -6,6 +6,7 @@ import {createCipheriv,generateKeyPairSync,randomBytes,sign} from 'node:crypto';
 let DatabaseSync;
 try{({DatabaseSync}=await import('node:sqlite'));}catch{console.error('help Worker controls FAILED: node:sqlite needs Node >= 22.5 (found '+process.version+')');process.exit(1);}
 import {handle,Store,family,nameVerdict,megaName,resetWanted,sha} from './logic.js';
+import {markAuthorization,markFetcher} from './test-mark-session.mjs';
 
 const TR='https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/',SBR='https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/',OLD='https://jkanime.net/ao-ashi/3/';
 const WANTED=[{url:TR,number:5,title:'Tokyo Revengers: Santen Sensou-hen'},{url:SBR,number:7,title:'Steel Ball Run: JoJo no Kimyou na Bouken'},{url:OLD,number:3,title:'Ao Ashi',renew:true}];
@@ -186,7 +187,8 @@ async function mark(t,items,{device,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/marks',{method:'POST',body:JSON.stringify({schema:1,device,items})});
  Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
- const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});return {status:r.status,body:await r.json()};
+ req.headers.set('authorization',await markAuthorization(device,t.now));
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:markFetcher(t.fetcher)});return {status:r.status,body:await r.json()};
 }
 await check('intro marks: two devices within 3 s agree, outliers and bad marks ignored',async()=>{
  const t=setup(),m=(start,end,kind='intro',episode=TR)=>({episode,kind,start,end});

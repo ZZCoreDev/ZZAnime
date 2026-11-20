@@ -110,7 +110,7 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
   for(const q of ['ALTER TABLE seen ADD COLUMN voter TEXT','ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}
-  sql.exec('CREATE TABLE IF NOT EXISTS devices(device TEXT PRIMARY KEY,net TEXT,first INTEGER)');for(const q of ['ALTER TABLE plays ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN net TEXT'])try{sql.exec(q);}catch{}}
+  sql.exec('CREATE TABLE IF NOT EXISTS devices(device TEXT PRIMARY KEY,net TEXT,first INTEGER)');for(const q of ['ALTER TABLE plays ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN voter TEXT','ALTER TABLE marks ADD COLUMN observed INTEGER'])try{sql.exec(q);}catch{}}
  rows(q,...p){return this.sql.exec(q,...p).toArray();}
  take(limits,expires){
   for(const [k,limit,w] of limits){const r=this.rows('SELECT n FROM counters WHERE k=?',k)[0];if((r?r.n:0)+w>limit)return false;}
@@ -268,20 +268,25 @@ export class Store{
   const status={};
   for(const it of items){
    if(!this.admitDevice(it.device,it.net,it.now)){status[it.episode+'|'+it.kind]='new-device-limit';continue;}
-   const r=this.rows('SELECT start,stop FROM marks WHERE episode=? AND kind=? AND device=?',it.episode,it.kind,it.device)[0];
-   if(!r)this.sql.exec('INSERT INTO marks(episode,kind,device,day,start,stop,net) VALUES(?,?,?,?,?,?,?)',it.episode,it.kind,it.device,day,it.start,it.stop,it.net);
-   else if(r.start!==it.start||r.stop!==it.stop)this.sql.exec('UPDATE marks SET start=?,stop=?,day=?,net=? WHERE episode=? AND kind=? AND device=?',it.start,it.stop,day,it.net,it.episode,it.kind,it.device);
+   const r=this.rows('SELECT start,stop,net,voter FROM marks WHERE episode=? AND kind=? AND device=?',it.episode,it.kind,it.device)[0];
+   if(!r)this.sql.exec('INSERT INTO marks(episode,kind,device,day,start,stop,net,voter,observed) VALUES(?,?,?,?,?,?,?,?,?)',it.episode,it.kind,it.device,day,it.start,it.stop,it.net,it.voter,it.now);
+   else if(r.start!==it.start||r.stop!==it.stop||r.net!==it.net||r.voter!==it.voter)this.sql.exec('UPDATE marks SET start=?,stop=?,day=?,net=?,voter=?,observed=? WHERE episode=? AND kind=? AND device=?',it.start,it.stop,day,it.net,it.voter,it.now,it.episode,it.kind,it.device);
    status[it.episode+'|'+it.kind]=r?'updated':'stored';
   }
   return {status};
  }
- // Median start/end per chapter and kind; accepted when two or more networks fall within 3 s of both.
- // Each network gives one mark (its most recent); only devices older than MIN_DEVICE_AGE count (S2).
+ // Only verified accounts on mature devices can agree a mark. Each account and each
+ // network contributes at most once per chapter and kind, choosing newer reports first.
  markStats(now){
   const day=Math.floor(now/DAY);this.sql.exec('DELETE FROM marks WHERE day<?',day-59);const LIMIT=200000;
-  const groups=new Map(),out=[],taken=new Set();
-  const rows=this.rows("SELECT m.episode AS episode,m.kind AS kind,m.start AS start,m.stop AS stop,m.net AS net FROM marks m JOIN devices d ON d.device=m.device WHERE m.net IS NOT NULL AND m.net<>'' AND d.first<=? ORDER BY m.episode,m.kind,m.day DESC LIMIT ?",now-MIN_DEVICE_AGE,LIMIT+1);
-  for(const r of rows.slice(0,LIMIT)){const k=r.episode+'|'+r.kind;if(taken.has(k+'|'+r.net))continue;taken.add(k+'|'+r.net);let g=groups.get(k);if(!g)groups.set(k,g=[]);g.push(r);}
+  const groups=new Map(),out=[],netVotes=new Set(),accountVotes=new Set();
+  const rows=this.rows("SELECT m.episode,m.kind,m.start,m.stop,m.net,m.voter FROM marks m JOIN devices d ON d.device=m.device WHERE m.net<>'' AND m.voter<>'' AND d.first<=? ORDER BY m.episode,m.kind,m.day DESC,m.observed DESC,m.device LIMIT ?",now-MIN_DEVICE_AGE,LIMIT+1);
+  for(const r of rows.slice(0,LIMIT)){
+   const k=r.episode+'|'+r.kind,netKey=k+'|'+r.net,accountKey=k+'|'+r.voter;
+   if(netVotes.has(netKey)||accountVotes.has(accountKey))continue;
+   netVotes.add(netKey);accountVotes.add(accountKey);
+   let g=groups.get(k);if(!g)groups.set(k,g=[]);g.push(r);
+  }
   const median=a=>{const b=[...a].sort((x,y)=>x-y);return b[Math.floor((b.length-1)/2)];};
   for(const [k,g] of groups){
    if(g.length<2)continue;
@@ -349,12 +354,13 @@ export async function handle(request,env,store,deps={}){
   const acctKey=user?'acct:'+await sha(env.SALT+'|acct|'+day+'|'+user):'',voter=user?'v:'+await sha(env.SALT+'|voter|'+user):'';
   const limits=n=>[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),[(url.pathname==='/v1/dead'?'deadday:':'day:')+day,Number(env.DAILY_CAP||40000),n]];
   if(url.pathname==='/v1/marks'){
+   if(!voter)return json({accepted:false,reason:'login'},401);
    // {"schema":1,"device","items":[{"episode","kind":"intro"|"outro","start":s,"end":s}]}: whole seconds, intro within
    // the first 30 min, each mark at most 4 min long.
    for(const it of x.items){
     const s=it?.start,e=it?.end,ok=EPISODE.test(it?.episode||'')&&['intro','outro'].includes(it?.kind)&&Number.isInteger(s)&&Number.isInteger(e)&&s>=0&&e>s&&e-s<=240&&e<=21600&&(it.kind!=='intro'||s<=1800);
     if(!ok){if(it?.episode)result[String(it.episode).slice(0,300)+'|'+String(it?.kind).slice(0,10)]='unsupported';continue;}
-    valid.push({episode:it.episode,kind:it.kind,device,start:s,stop:e,net,now});
+    valid.push({episode:it.episode,kind:it.kind,device,voter,start:s,stop:e,net,now});
    }
    if(valid.length){const r=await store.mark(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['markday:'+day,Number(env.MARK_CAP||10000),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([k,status])=>({episode:k.split('|')[0],kind:k.split('|')[1],status}))});

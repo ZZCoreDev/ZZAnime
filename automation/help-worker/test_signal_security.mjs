@@ -6,6 +6,7 @@ import {createCipheriv,generateKeyPairSync,randomBytes,sign} from 'node:crypto';
 let DatabaseSync;
 try{({DatabaseSync}=await import('node:sqlite'));}catch{console.log('help Worker controls SKIPPED: node:sqlite needs Node >= 22.5 (found '+process.version+')');process.exit(0);}
 import {handle,Store,family,nameVerdict,megaName,resetWanted,sha} from './logic.js';
+import {markAuthorization,markFetcher} from './test-mark-session.mjs';
 
 const TR='https://jkanime.net/tokyo-revengers-santen-sensou-hen/5/',SBR='https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/7/',OLD='https://jkanime.net/ao-ashi/3/';
 const WANTED=[{url:TR,number:5,title:'Tokyo Revengers: Santen Sensou-hen'},{url:SBR,number:7,title:'Steel Ball Run: JoJo no Kimyou na Bouken'},{url:OLD,number:3,title:'Ao Ashi',renew:true}];
@@ -52,11 +53,12 @@ async function play(t,items,{device,asn=3352,ip}={}){
  Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
  const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
 }
-async function mark(t,items,{device,asn=3352,ip}={}){
+async function mark(t,items,{device,account,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/marks',{method:'POST',body:JSON.stringify({schema:1,device,items})});
  Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
- const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});return {status:r.status,body:await r.json()};
+ if(account!==null)req.headers.set('authorization',await markAuthorization(account||device,t.now));
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:markFetcher(t.fetcher)});return {status:r.status,body:await r.json()};
 }
 const p=(u,ok=true,e=TR)=>({episode:e,name:'Mp4upload',url:u,ok});
 const m=(start,end)=>({episode:TR,kind:'intro',start,end});
@@ -71,6 +73,36 @@ await check('two invented ids on one network cannot agree an intro mark; two net
  t.now+=MATURE;assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[]);
  await mark(t,[m(500,740)],{device:'device-mark-real-003',ip:'90.1.1.1'});t.now+=MATURE;
  assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks.map(x=>x.independentNetworks),[2]);});
+await check('marks count a verified account only once across devices and networks',async()=>{
+ const t=setup(),account='mark-test-account-a';
+ t.env.REQUIRE_SESSION='true';
+ const options={account,device:'device-mark-account-1',ip:'81.2.3.4'};
+ assert.equal((await mark(t,[m(92,182)],options)).body.items[0].status,'stored');
+ t.now+=1000;
+ assert.equal((await mark(t,[m(91,181)],{account,device:'device-mark-account-2',ip:'82.2.3.4'})).body.items[0].status,'stored');
+ t.now+=MATURE;
+ assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[]);
+ await mark(t,[m(90,180)],{account:'mark-test-account-b',device:'device-mark-account-3',ip:'83.2.3.4'});
+ t.now+=MATURE;
+ const summary=(await get(t,'/v1/marks-stats')).body;
+ assert.deepEqual(summary.marks,[{episode:TR,kind:'intro',start:91,stop:181,devices:2,independentNetworks:2}]);
+ assert.ok(!JSON.stringify(t.store.rows('SELECT voter FROM marks')).includes(account));
+ assert.ok(summary.marks.every(mark=>!('voter' in mark)));
+});
+await check('legacy unverified marks stay stored and can be confirmed by the same device',async()=>{
+ const t=setup(),device='device-mark-legacy-1',ip='84.2.3.4',day=Math.floor(t.now/86400000);
+ const hash=await sha(t.env.SALT+'|device|'+device);
+ const net='legacy-network';
+ t.store.sql.exec('INSERT INTO devices(device,net,first) VALUES(?,?,?)',hash,net,t.now-MATURE);
+ t.store.sql.exec('INSERT INTO marks(episode,kind,device,day,start,stop,net) VALUES(?,?,?,?,?,?,?)',TR,'intro',hash,day,90,180,net);
+ assert.equal((await mark(t,[m(90,180)],{device,ip,account:null})).status,401);
+ await mark(t,[m(91,180)],{device:'device-mark-legacy-2',ip:'85.2.3.4'});
+ t.now+=MATURE;
+ assert.deepEqual((await get(t,'/v1/marks-stats')).body.marks,[]);
+ assert.equal(t.store.rows('SELECT voter FROM marks WHERE device=?',hash)[0].voter,null);
+ assert.equal((await mark(t,[m(90,180)],{device,ip})).body.items[0].status,'updated');
+ assert.equal((await get(t,'/v1/marks-stats')).body.marks[0].independentNetworks,2);
+});
 await check('devices younger than 24 h do not count yet',async()=>{
  const t=setup(),u='https://www.mp4upload.com/embed-young123.html';
  for(const ip of ['82.1.1.1','82.2.1.1','82.3.1.1'])await play(t,[p(u)],{ip});
