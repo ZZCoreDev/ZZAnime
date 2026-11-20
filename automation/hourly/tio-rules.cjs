@@ -2,7 +2,11 @@
 const p=require('./lib/fast-rules.cjs'),r=require('./lib/backup-rules.cjs');
 function array(html,name){const m=new RegExp('(?:var|let|const)\\s+'+name+'\\s*=\\s*').exec(html);if(!m)throw Error('Missing observed '+name);const x=p.jsonValue(html,m.index+m[0].length);if(!Array.isArray(x))throw Error('Expected array');return x;}
 function heading(html){const m=/<h1\b[^>]*>([\s\S]*?)<\/h1>/i.exec(html);if(!m)throw Error('Missing source heading');return m[1].replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&#39;|&apos;/g,"'").replace(/&quot;/g,'"').trim();}
-function downloads(html){const seen=new Set(),out=[];for(const m of html.matchAll(/href=["'](https:\/\/(?:www\.)?mega\.nz\/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file\/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43}))["']/g)){if(!seen.has(m[1])){seen.add(m[1]);out.push({name:'Mega',family:'mega',url:m[1]});}}return out.slice(0,8);}
+// Identity (file id + key) of a Mega link in any of its public syntaxes, or '' when it is not one.
+function megaIdentity(raw){const m=/^https:\/\/(?:www\.)?mega\.nz\/(?:(?:file|embed)\/([A-Za-z0-9_-]{8})#([A-Za-z0-9_-]{43})|(?:embed)?#!([A-Za-z0-9_-]{8})!([A-Za-z0-9_-]{43}))$/.exec(typeof raw==='string'?raw:'');return m?(m[1]||m[3])+':'+(m[2]||m[4]):'';}
+// A page link is a download only when it names the very Mega file already offered as this episode's approved Mega
+// playback option; any other Mega object found in the page is untrusted metadata and is never published.
+function downloads(html,providers=[]){const bound=new Set();for(const x of providers)if(x&&x.family==='mega')for(const l of x.links||[]){const id=megaIdentity(l);if(id)bound.add(id);}if(!bound.size)return [];const seen=new Set(),out=[];for(const m of html.matchAll(/href=["'](https:\/\/(?:www\.)?mega\.nz\/(?:#![A-Za-z0-9_-]{8}![A-Za-z0-9_-]{43}|file\/[A-Za-z0-9_-]{8}#[A-Za-z0-9_-]{43}))["']/g)){if(!seen.has(m[1])&&bound.has(megaIdentity(m[1]))){seen.add(m[1]);out.push({name:'Mega',family:'mega',url:m[1]});}}return out.slice(0,8);}
 function record(detail,episode,row,number,policy,proof=false){
  const identity=require('./source-identities.cjs').resolve(row,'tio',proof);
  const info=array(detail,'anime_info'),numbers=array(detail,'episodes'),title=info[2],slug=info[1];
@@ -17,6 +21,6 @@ function record(detail,episode,row,number,policy,proof=false){
  }
  if(!providers.length)throw Error('No existing app-approved provider family');
  const observedAt=new Date().toISOString(),sourceSeries='https://tioanime.com/anime/'+slug,sourceEpisode='https://tioanime.com/ver/'+slug+'-'+number;
- return {parent:row.url,listing:{series:row.url,title:row.title,episodes:numbers.map(n=>row.url+n+'/'),complete:true,observedAt,sourceSeries,identityEvidence:identity.alias?'verified-title-year-mapping+canonical-id+series-and-chapter-headings+observed-number':'unique-catalogue-title+identical-slug+source-series-and-chapter-headings+observed-number'},episode:{archiveVersion:3,episode:row.url+number+'/',observedAt,complete:true,providers,...(extraProviders.length?{extraProviders:extraProviders.slice(0,24)}:{}),downloads:downloads(episode),sourceEpisode,sourceSeries,excludedOptions:held.length,playbackVerified:false}};
+ return {parent:row.url,listing:{series:row.url,title:row.title,episodes:numbers.map(n=>row.url+n+'/'),complete:true,observedAt,sourceSeries,identityEvidence:identity.alias?'verified-title-year-mapping+canonical-id+series-and-chapter-headings+observed-number':'unique-catalogue-title+identical-slug+source-series-and-chapter-headings+observed-number'},episode:{archiveVersion:3,episode:row.url+number+'/',observedAt,complete:true,providers,...(extraProviders.length?{extraProviders:extraProviders.slice(0,24)}:{}),downloads:downloads(episode,providers),sourceEpisode,sourceSeries,excludedOptions:held.length,playbackVerified:false}};
 }
 module.exports={array,heading,record,downloads};
