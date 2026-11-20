@@ -4,13 +4,14 @@ export const FAMILIES=['streamwish','vidhide','mp4upload','yourupload','mega','v
 // Up to 4 candidate chapters per family; the probe opens one per family first and only retries families
 // that did not play, never more than 12 embeds a day in total.
 export const PER_FAMILY=4,MAX_EMBEDS=12;
-const read=(dir,name)=>{try{return JSON.parse(fs.readFileSync(path.join(dir,name)))}catch{return null}};
+const isPathInside=(baseDir,targetPath)=>{const rel=path.relative(path.resolve(baseDir),path.resolve(targetPath));return !(rel==='..'||rel.startsWith(`..${path.sep}`)||path.isAbsolute(rel))};
+const read=(dir,name)=>{try{const target=path.join(dir,name);if(!isPathInside(dir,target))return null;return JSON.parse(fs.readFileSync(target))}catch{return null}};
 // Episodes of one signed channel (root, voe/ or extra/), straight from the published files the apps read.
 export function channelEpisodes(assets,prefix=''){
  const channel=read(assets,prefix+'channel.json');if(!channel)return [];
  const index=read(assets,prefix+JSON.parse(channel.payload).indexPath);const out=[];
  for(const row of Object.values(index?.series||{})){
-  try{out.push(...JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(assets,prefix+row.path))).toString()).episodes)}catch{}
+  try{const file=path.join(assets,prefix+row.path);if(!isPathInside(assets,file))continue;out.push(...JSON.parse(zlib.gunzipSync(fs.readFileSync(file)).toString()).episodes)}catch{}
  }
  return out;
 }
