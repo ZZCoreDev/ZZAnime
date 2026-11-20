@@ -1,5 +1,4 @@
 <p align="center"><img src="assets/zz-wordmark.png" width="680" alt="ZZAnime"></p>
-<p align="center"><img src="assets/zz-mascot.png" width="190" alt="Nuestra mascota ZZAnime"></p>
 
 <h1 align="center">ZZAnime · Android TV y Móvil</h1>
 <p align="center">Tu anime, a tu ritmo. En la tele y en el bolsillo.</p>
