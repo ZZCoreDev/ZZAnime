@@ -47,11 +47,12 @@ async function get(t,path,key='secret'){const r=await handle(new Request('https:
 // S2: each test device sits on its own /24 network unless the test says otherwise.
 const nets=new Map(),netFor=d=>{if(!nets.has(d))nets.set(d,'10.'+(nets.size+1)+'.0.1');return nets.get(d);};
 const MATURE=25*3600000;
-async function play(t,items,{device,asn=3352,ip}={}){
+async function play(t,items,{device,account,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/play',{method:'POST',body:JSON.stringify({schema:1,device,items})});
  Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
- const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
+ if(account!==null)req.headers.set('authorization',await markAuthorization(account||device,t.now));
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:markFetcher(t.fetcher)});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
 }
 async function mark(t,items,{device,account,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
@@ -116,6 +117,27 @@ await check('a network can introduce at most five new devices a day; known devic
 await check('requests without a usable network address count nothing',async()=>{
  const t=setup(),u='https://www.mp4upload.com/embed-noaddr12.html';
  assert.equal((await play(t,[p(u)],{ip:'not-an-ip'})).of(u),'new-device-limit');});
+await check('play scores and popularity require distinct verified accounts as well as networks',async()=>{
+ const t=setup(),url='https://www.mp4upload.com/embed-testvote123.html',account='play-test-account-a';
+ for(const ip of ['91.1.1.1','92.1.1.1','93.1.1.1'])assert.equal((await play(t,[p(url)],{account,ip})).of(url),'stored');
+ t.now+=MATURE;
+ const only=(await get(t,'/v1/play-stats')).body;
+ assert.deepEqual(only.options,[]);
+ assert.deepEqual(only.popular,[]);
+ assert.deepEqual(only.families.mp4upload,[1,0]);
+ const stored=t.store.rows('SELECT device FROM plays')[0].device;
+ const day=Math.floor(t.now/86400000);
+ t.store.sql.exec('INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net) VALUES(?,?,?,?,?,?,?,?,?,?)','e'.repeat(64),stored,day,TR,'Mp4upload','mp4upload','',1,0,'old-network');
+ assert.equal((await play(t,[p(url)],{account:null})).status,401);
+ await play(t,[p(url)],{account:'play-test-account-b',ip:'94.1.1.1'});
+ await play(t,[p(url,false)],{account:'play-test-account-c',ip:'95.1.1.1'});
+ t.now+=MATURE;
+ const confirmed=(await get(t,'/v1/play-stats')).body;
+ assert.deepEqual(confirmed.options.map(({ok,fail,independentNetworks})=>[ok,fail,independentNetworks]),[[2,1,3]]);
+ assert.deepEqual(confirmed.popular.map(({independentNetworks})=>independentNetworks),[3]);
+ assert.deepEqual(confirmed.families.mp4upload,[2,1]);
+ assert.ok(!JSON.stringify(t.store.rows('SELECT voter FROM plays')).includes(account));
+});
 await check('summaries carry the evidence policy the cloud requires',async()=>{
  const t=setup();const a=(await get(t,'/v1/play-stats')).body,b=(await get(t,'/v1/marks-stats')).body;
  for(const x of [a,b]){assert.equal(x.evidencePolicy,'network-v2');assert.equal(x.basis,'independent-networks');assert.equal(x.minDeviceAgeHours,24);assert.equal(x.complete,true);assert.ok(x.generatedAt);}});
@@ -124,15 +146,15 @@ await check('play summaries include the whole window past 200000 distinct votes'
  for(const net of ['one','two','three'])sql.exec('INSERT INTO devices VALUES(?,?,?)',net,net,t.now-MATURE);
  sql.exec(`
   WITH RECURSIVE seq(n) AS (VALUES(1) UNION ALL SELECT n+1 FROM seq WHERE n<200001)
-  INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net)
-  SELECT printf('%064x',n),'one',?-n%14,?,'Mp4upload','mp4upload','',1,0,'one' FROM seq
+  INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net,voter)
+  SELECT printf('%064x',n),'one',?-n%14,?,'Mp4upload','mp4upload','',1,0,'one','account-one' FROM seq
  `,day,TR);
  const option='f'.repeat(64);
  for(const [net,ok] of [['one',1],['two',0],['three',1]]){
-  sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?,?)',option,net,day,TR,'Mp4upload','mp4upload','',ok,1-ok,net);
+  sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?,?,?)',option,net,day,TR,'Mp4upload','mp4upload','',ok,1-ok,net,'account-'+net);
  }
  // A later success and multiple episodes on one network each count as one network.
- sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?,?)',option,'two',day-1,TR.replace('/5/','/6/'),'Mp4upload','mp4upload','',1,0,'two');
+ sql.exec('INSERT INTO plays VALUES(?,?,?,?,?,?,?,?,?,?,?)',option,'two',day-1,TR.replace('/5/','/6/'),'Mp4upload','mp4upload','',1,0,'two','account-two');
  const {status,body}=await get(t,'/v1/play-stats');
  assert.equal(status,200);
  assert.equal(body.complete,true);

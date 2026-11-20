@@ -15,8 +15,11 @@ assert.equal(await sessionUser(new Request('https://x'),fetcher),'');
 const body=JSON.stringify({schema:1,device:'d'.repeat(20),items:[{episode:'https://jkanime.net/a/1/',name:'Mega',url:'https://mega.nz/embed/x'}]});
 const r=await handle(new Request('https://ayuda.zzanime.uk/v1/dead',{method:'POST',body}),{REQUIRE_SESSION:'true',SALT:'s'},{},{fetch:fetcher});
 assert.equal(r.status,401);assert.equal((await r.json()).reason,'login');
-const off=await handle(new Request('https://ayuda.zzanime.uk/v1/dead',{method:'POST',body}),{REQUIRE_SESSION:'false',SALT:'s'},{},{fetch:fetcher});
-assert.notEqual(off.status,401,'not required yet: old behaviour');
+const off=await handle(new Request('https://ayuda.zzanime.uk/v1/submit',{method:'POST',body}),{REQUIRE_SESSION:'false',SALT:'s'},{},{fetch:fetcher});
+assert.notEqual(off.status,401,'submit still uses the session setting');
+const report=new Request('https://ayuda.zzanime.uk/v1/dead',{method:'POST',body});
+Object.defineProperty(report,'cf',{value:{asn:3352}});
+assert.equal((await handle(report,{REQUIRE_SESSION:'false',SALT:'s'},{},{fetch:fetcher})).status,401);
 console.log('help session PASS');
 
 // 11/11 quinta revisión (M-01 JWKS): Supabase rota sus llaves. Un kid nuevo recarga el juego una vez (compartida entre

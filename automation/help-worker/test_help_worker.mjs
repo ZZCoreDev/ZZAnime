@@ -121,11 +121,12 @@ await check('chapter filled in the channel is forgotten and told to stop',async(
  assert.deepEqual((await accepted(after)).body.episodes,[]);assert.equal(t.store.rows('SELECT * FROM seen WHERE episode=?',TR).length,0);
  assert.equal((await submit(after,[item(TR,f.url)],{asn:3})).of(TR),'stop');});
 async function get(t,path,key='secret'){const r=await handle(new Request('https://help.test'+path,{headers:{authorization:'Bearer '+key}}),t.env,t.store,{now:()=>t.now+1000,fetch:t.fetcher});return {status:r.status,body:await r.json()};}
-async function dead(t,items,{device,asn=3352,ip}={}){
+async function dead(t,items,{device,account,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/dead',{method:'POST',body:JSON.stringify({schema:1,device,items})});
  Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||device);
- const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
+ req.headers.set('authorization',await markAuthorization(account||device,t.now));
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:markFetcher(t.fetcher)});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
 }
 await check('stats show devices, rejections and same-network quorum blocks',async()=>{
  const t=setup(),opt='https://www.mp4upload.com/embed-x.html';
@@ -147,12 +148,14 @@ await check('same-network switch: three zones plus matching MEGA name pass, neve
  const two=setup({mega:[good]});two.env.SAME_ASN_ZONES='3';
  for(const ip of ['81.0.1.1','81.0.1.2','81.0.1.3'])await submit(two,[item(TR,good.url)],{asn:3352,ip});
  assert.deepEqual((await accepted(two)).body.episodes,[]);});
-await check('dead-link reports need two devices and stay private to the cloud',async()=>{
+await check('dead-link reports need distinct accounts and networks and stay private',async()=>{
  const t=setup(),link='https://www.mp4upload.com/embed-abcdef12.html',report=[{episode:TR,name:'Mp4upload',url:link}];
  assert.equal((await dead(t,report,{device:'device-dead-device-1'})).of(link),'stored');
  assert.equal((await dead(t,report,{device:'device-dead-device-1'})).of(link),'duplicate');
+ assert.equal((await dead(t,report,{device:'device-dead-device-2',account:'device-dead-device-1',asn:12479})).of(link),'duplicate');
+ await dead(t,report,{device:'device-dead-device-3'});
  assert.deepEqual((await get(t,'/v1/dead-reports')).body.links,[]);
- await dead(t,report,{device:'device-dead-device-2'});
+ await dead(t,report,{device:'device-dead-device-4',asn:12479});
  const links=(await get(t,'/v1/dead-reports')).body.links;assert.deepEqual(links.map(l=>[l.url,l.family,l.devices,l.episode]),[[link,'mp4upload',2,TR]]);
  assert.equal((await dead(t,[{episode:TR,name:'Voe',url:'https://voe.sx/e/abcdefgh12'}])).of('https://voe.sx/e/abcdefgh12'),'stored');
  assert.equal((await dead(t,[{episode:TR,name:'Rarovideo',url:'https://raro.example/x'}])).of('https://raro.example/x'),'unsupported');
@@ -165,7 +168,8 @@ async function play(t,items,{device,asn=3352,ip}={}){
  device=device||'device-'+String(++n).padStart(12,'0');
  const req=new Request('https://help.test/v1/play',{method:'POST',body:JSON.stringify({schema:1,device,items})});
  Object.defineProperty(req,'cf',{value:{asn}});req.headers.set('cf-connecting-ip',ip||netFor(device));
- const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:t.fetcher});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
+ req.headers.set('authorization',await markAuthorization(device,t.now));
+ const r=await handle(req,t.env,t.store,{now:()=>t.now,fetch:markFetcher(t.fetcher)});const body=await r.json();return {status:r.status,body,of:u=>body.items?.find(i=>i.url===u)?.status};
 }
 await check('play votes: one per device and day, popularity by distinct devices, private to the cloud',async()=>{
  const t=setup(),good='https://www.mp4upload.com/embed-good1234.html',bad='https://streamwish.to/e/bad12345',voe='https://voe.sx/e/voe12345';

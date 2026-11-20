@@ -110,7 +110,7 @@ export class Store{
   sql.exec('CREATE TABLE IF NOT EXISTS dead(okey TEXT,episode TEXT,name TEXT,family TEXT,url TEXT,device TEXT,asn INTEGER,created INTEGER,PRIMARY KEY(okey,device))');
   // Columns added after the first deployment; an existing column just raises and is ignored.
   for(const q of ['ALTER TABLE seen ADD COLUMN voter TEXT','ALTER TABLE seen ADD COLUMN zone TEXT','ALTER TABLE decided ADD COLUMN zones INTEGER',"ALTER TABLE decided ADD COLUMN policy TEXT NOT NULL DEFAULT ''"])try{sql.exec(q);}catch{}
-  sql.exec('CREATE TABLE IF NOT EXISTS devices(device TEXT PRIMARY KEY,net TEXT,first INTEGER)');for(const q of ['ALTER TABLE plays ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN voter TEXT','ALTER TABLE marks ADD COLUMN observed INTEGER'])try{sql.exec(q);}catch{}}
+  sql.exec('CREATE TABLE IF NOT EXISTS devices(device TEXT PRIMARY KEY,net TEXT,first INTEGER)');for(const q of ['ALTER TABLE plays ADD COLUMN net TEXT','ALTER TABLE plays ADD COLUMN voter TEXT','ALTER TABLE marks ADD COLUMN net TEXT','ALTER TABLE marks ADD COLUMN voter TEXT','ALTER TABLE marks ADD COLUMN observed INTEGER'])try{sql.exec(q);}catch{}}
  rows(q,...p){return this.sql.exec(q,...p).toArray();}
  take(limits,expires){
   for(const [k,limit,w] of limits){const r=this.rows('SELECT n FROM counters WHERE k=?',k)[0];if((r?r.n:0)+w>limit)return false;}
@@ -198,8 +198,8 @@ export class Store{
   if(!this.take(limits,expires))return {limited:true};
   const status={};
   for(const it of items){
-   const known=this.rows('SELECT 1 AS x FROM dead WHERE okey=? AND device=?',it.okey,it.device).length>0;
-   if(!known)this.sql.exec('INSERT INTO dead VALUES(?,?,?,?,?,?,?,?)',it.okey,it.episode,it.name,it.family,it.url,it.device,it.asn,now);
+   const known=this.rows('SELECT 1 AS x FROM dead WHERE okey=? AND device=?',it.okey,it.voter).length>0;
+   if(!known)this.sql.exec('INSERT INTO dead VALUES(?,?,?,?,?,?,?,?)',it.okey,it.episode,it.name,it.family,it.url,it.voter,it.asn,now);
    status[it.url]=known?'duplicate':'stored';
   }
   return {status};
@@ -210,9 +210,10 @@ export class Store{
   const status={};
   for(const it of items){
    if(!this.admitDevice(it.device,it.net,it.now)){status[it.url]='new-device-limit';continue;}
-   const r=this.rows('SELECT ok,fail FROM plays WHERE okey=? AND device=? AND day=?',it.okey,it.device,day)[0],ok=it.ok?1:0,fail=it.ok?0:1;
-   if(!r)this.sql.exec('INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net) VALUES(?,?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail,it.net);
-   else if((ok&&!r.ok)||(fail&&!r.fail))this.sql.exec('UPDATE plays SET ok=MAX(ok,?),fail=MAX(fail,?),net=? WHERE okey=? AND device=? AND day=?',ok,fail,it.net,it.okey,it.device,day);
+   const r=this.rows('SELECT ok,fail,net,voter FROM plays WHERE okey=? AND device=? AND day=?',it.okey,it.device,day)[0],ok=it.ok?1:0,fail=it.ok?0:1;
+   if(!r)this.sql.exec('INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net,voter) VALUES(?,?,?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail,it.net,it.voter);
+   else if(r.voter!==it.voter)this.sql.exec('UPDATE plays SET episode=?,ok=?,fail=?,net=?,voter=? WHERE okey=? AND device=? AND day=?',it.episode,ok,fail,it.net,it.voter,it.okey,it.device,day);
+   else if((ok&&!r.ok)||(fail&&!r.fail))this.sql.exec('UPDATE plays SET ok=MAX(ok,?),fail=MAX(fail,?),net=? WHERE okey=? AND device=? AND day=?',ok,fail,ok?it.net:r.net,it.okey,it.device,day);
    status[it.url]=r?'duplicate':'stored';
   }
   return {status};
@@ -223,19 +224,22 @@ export class Store{
   const today=Math.floor(now/DAY)*DAY;if(this.rows('SELECT COUNT(*) AS n FROM devices WHERE net=? AND first>=?',net,today)[0].n>=NEW_DEVICES_PER_NET)return false;
   this.sql.exec('INSERT INTO devices(device,net,first) VALUES(?,?,?)',device,net,now);return true;
  }
- // Option and family success counts (one verdict per network, 14 days) and series popularity (distinct networks, 7 days).
- // Only devices older than MIN_DEVICE_AGE count; rows without a network (stored before S2) never count.
+ // Scores and popularity count at most one network per verified account, then one vote per network.
+ // Only mature devices count. Legacy reports without an account are excluded.
  playStats(now){
   const day=Math.floor(now/DAY),mature=now-MIN_DEVICE_AGE;
   this.sql.exec('DELETE FROM plays WHERE day<?',day-13);
   // Aggregate the whole bounded window in SQLite. Only the final rankings cross into JS.
   const totals=this.rows(`
    SELECT * FROM (
-    WITH network_votes AS MATERIALIZED (
-     SELECT p.okey,p.family,p.net,MAX(p.ok) AS played
+    WITH account_votes AS (
+     SELECT p.okey,p.family,p.net,p.ok AS played,
+      ROW_NUMBER() OVER(PARTITION BY p.okey,p.voter ORDER BY p.ok DESC,p.day DESC,p.net) AS preference
      FROM plays p JOIN devices d ON d.device=p.device
-     WHERE p.day BETWEEN ? AND ? AND p.net IS NOT NULL AND p.net<>'' AND d.first<=?
-     GROUP BY p.okey,p.net
+     WHERE p.day BETWEEN ? AND ? AND p.net<>'' AND p.voter<>'' AND d.first<=?
+    ), network_votes AS MATERIALIZED (
+     SELECT okey,family,net,MAX(played) AS played
+     FROM account_votes WHERE preference=1 GROUP BY okey,net
     ), top_options AS (
      SELECT okey,family,SUM(played) AS played,COUNT(*) AS networks
      FROM network_votes
@@ -255,9 +259,10 @@ export class Store{
   const popular=this.rows(`
    SELECT series,COUNT(DISTINCT net) AS devices,COUNT(DISTINCT net) AS independentNetworks
    FROM (
-    SELECT rtrim(rtrim(p.episode,'/'),'0123456789') AS series,p.net
+    SELECT rtrim(rtrim(p.episode,'/'),'0123456789') AS series,MIN(p.net) AS net
     FROM plays p JOIN devices d ON d.device=p.device
-    WHERE p.day BETWEEN ? AND ? AND p.net IS NOT NULL AND p.net<>'' AND d.first<=?
+    WHERE p.day BETWEEN ? AND ? AND p.net<>'' AND p.voter<>'' AND d.first<=?
+    GROUP BY series,p.voter
    )
    GROUP BY series HAVING COUNT(DISTINCT net)>=2
    ORDER BY independentNetworks DESC,series LIMIT 100`,day-6,day,mature);
@@ -296,11 +301,14 @@ export class Store{
   out.sort((a,b)=>b.devices-a.devices||(a.episode<b.episode?-1:1));
   return {...SIGNAL_POLICY,complete:rows.length<=LIMIT,marks:out.slice(0,5000)};
  }
- // Two devices are enough here: a report only moves the link to the front of the cloud link checker,
- // which decides on its own reading and controls.
+ // Verified accounts on two networks can prioritize a check. The checker still decides independently.
  deadReports(now){
   this.sql.exec('DELETE FROM dead WHERE created<?',now-KEEP);
-  return this.rows('SELECT episode,name,family,url,COUNT(DISTINCT device) AS devices,COUNT(DISTINCT asn) AS asns,MIN(created) AS first FROM dead GROUP BY okey HAVING devices>=2 ORDER BY devices DESC,first LIMIT 300');
+  return this.rows(`
+   SELECT episode,name,family,url,COUNT(DISTINCT asn) AS devices,COUNT(DISTINCT asn) AS asns,MIN(created) AS first
+   FROM dead WHERE device GLOB 'v:*'
+   GROUP BY okey,episode HAVING asns>=2 ORDER BY devices DESC,first LIMIT 300
+  `);
  }
  stats(now,sameAsnZones=0){
   const day=Math.floor(now/DAY),start=day*DAY,one=(q,...p)=>this.rows(q,...p)[0]||{};
@@ -318,7 +326,7 @@ export class Store{
     deadReports:one('SELECT COUNT(*) AS n FROM dead WHERE created>=?',start).n||0,
     plays:one('SELECT COUNT(*) AS n FROM plays WHERE day=?',day).n||0,marks:one('SELECT COUNT(*) AS n FROM marks WHERE day=?',day).n||0},
    pendingEpisodes:episodes,quorum,verdicts,sameAsnZones,
-   deadCandidates:this.rows('SELECT okey FROM dead GROUP BY okey HAVING COUNT(DISTINCT device)>=2').length};
+   deadCandidates:this.deadReports(now).length};
  }
 }
 // 11/11 auditoría B-08: the body is counted in bytes while it arrives and cut past the limit (never read whole first).
@@ -366,20 +374,22 @@ export async function handle(request,env,store,deps={}){
    return json({accepted:true,items:Object.entries(result).map(([k,status])=>({episode:k.split('|')[0],kind:k.split('|')[1],status}))});
   }
   if(url.pathname==='/v1/play'){
+   if(!voter)return json({accepted:false,reason:'login'},401);
    // {"schema":1,"device","items":[{"episode","name","url","ok":true|false}]}: played for real or failed for real.
    for(const it of x.items){
     const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
     if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
-    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,ok:it.ok,net,now});
+    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,voter,ok:it.ok,net,now});
    }
    if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['playday:'+day,Math.min(Number(env.PLAY_CAP)||MAX_DAILY_PLAYS,MAX_DAILY_PLAYS),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([u,status])=>({url:u,status}))});
   }
   if(url.pathname==='/v1/dead'){
+   if(!voter)return json({accepted:false,reason:'login'},401);
    for(const it of x.items){
     const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
     if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500){if(link)result[link.slice(0,500)]='unsupported';continue;}
-    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,asn});
+    valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,asn,voter});
    }
    if(valid.length){const r=await store.dead(valid,limits(valid.length),expires,now);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
    return json({accepted:true,items:Object.entries(result).map(([u,status])=>({url:u,status}))});

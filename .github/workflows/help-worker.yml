@@ -56,7 +56,8 @@ jobs:
               curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/accepted" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1;print('\naccepted',len(d['episodes']))" &&
               curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/stats" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1 and 'quorum' in d;print('stats ok')" &&
               curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/play-stats" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1 and d['complete'] is True and isinstance(d['options'],list) and isinstance(d['popular'],list) and isinstance(d['families'],dict);print('play stats ok')" &&
-              curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/marks-stats" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1 and d['complete'] is True and all(m['devices']==m['independentNetworks']>=2 and 'voter' not in m for m in d['marks']);print('marks stats ok',len(d['marks']))"; then
+              curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/marks-stats" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1 and d['complete'] is True and all(m['devices']==m['independentNetworks']>=2 and 'voter' not in m for m in d['marks']);print('marks stats ok',len(d['marks']))" &&
+              curl -fsS -H "Authorization: Bearer $KEY" "$URL/v1/dead-reports" | python3 -c "import json,sys;d=json.load(sys.stdin);assert d['schema']==1 and all(m['devices']==m['asns']>=2 and 'voter' not in m for m in d['links']);print('dead reports ok',len(d['links']))"; then
               exit 0
             fi
             sleep 15
