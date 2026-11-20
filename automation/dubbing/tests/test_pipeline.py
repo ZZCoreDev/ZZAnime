@@ -1,8 +1,9 @@
 from __future__ import annotations
-import copy,datetime,json,os,tempfile,unittest
+import copy,datetime,hashlib,json,os,tempfile,unittest
 from pathlib import Path
-from unittest.mock import patch
-from dubpipe import ingest,fit,mix,qa,publish,tts,notify
+from types import SimpleNamespace
+from unittest.mock import Mock,patch
+from dubpipe import ingest,fit,mix,qa,publish,tts,notify,translate
 from dubpipe.core import Cache,Episode,read,save
 from dubpipe.state import State
 from dubpipe.cli import doctor,process,worst_case_gpu_usd
@@ -24,6 +25,29 @@ class Tests(unittest.TestCase):
   for value in ('.','..'):
    row=sample();object.__setattr__(row,'id',value)
    with self.assertRaises(ValueError):row.validate()
+ def test_translation_rejects_mutable_or_unreviewed_revisions(self):
+  for revision in (None,'main','0'*40):
+   with self.subTest(revision=revision), self.assertRaisesRegex(ValueError,'verified snapshot'):
+    translate.generate([],{'backend':'local_llm','model':'Qwen/Qwen2.5-3B-Instruct','revision':revision},{})
+ def test_translation_verifies_downloaded_and_cached_weights(self):
+  data=b'locked model weights'
+  (self.root/'weights.safetensors').write_bytes(data)
+  model,revision,metadata,_=translate.MODEL_SNAPSHOTS['local_llm']
+  weights={'weights.safetensors':hashlib.sha256(data).hexdigest()}
+  config={'backend':'local_llm','model':model,'revision':revision}
+  download=Mock(return_value=self.root)
+  with patch.dict(translate.MODEL_SNAPSHOTS,{'local_llm':(model,revision,metadata,weights)}), \
+       patch.dict('sys.modules',{'huggingface_hub':SimpleNamespace(snapshot_download=download)}):
+   self.assertEqual(translate.verified_snapshot(config),self.root)
+   download.assert_called_once_with(model,revision=revision,token=False,endpoint='https://huggingface.co',
+    allow_patterns=[*metadata,*weights])
+   (self.root/'weights.safetensors').write_bytes(b'changed')
+   with self.assertRaisesRegex(ValueError,'failed verification'):
+    translate.verified_snapshot(config)
+   (self.root/'weights.safetensors').write_bytes(data)
+   (self.root/'unreviewed.safetensors').write_bytes(data)
+   with self.assertRaisesRegex(ValueError,'Unexpected safetensors'):
+    translate.verified_snapshot(config)
  def test_cache_hits_and_verifies_hashes(self):
   calls=[];cache=Cache(self.root)
   def action(out):calls.append(1);(out/'a.txt').write_text('original');return {'file':'a.txt'}

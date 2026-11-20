@@ -13,7 +13,7 @@ ingest:
   allow_local_inputs: false
 separate: {model: htdemucs, device: cuda, timeout: 600, cpu_threads: 2}
 transcribe: {backend: whisperx, model: large-v3, device: cuda, compute_type: float16, batch_size: 4, diarize: false, timeout: 600}
-translate: {backend: local_llm, model: Qwen/Qwen2.5-3B-Instruct, revision: main, device: cuda, block_segments: 8, timeout: 600}
+translate: {backend: local_llm, model: Qwen/Qwen2.5-3B-Instruct, revision: aa8e72537993ba99e69dfaafa59ed015b17504d1, device: cuda, block_segments: 8, timeout: 600}
 tts:
   model_cache: /tmp/dub-models
   length_scale: 1.0
