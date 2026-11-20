@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/zz-wordmark.png" width="680" alt="ZZAnime"></p>
 
-<h1 align="center">ZZAnime · Android TV y Móvil</h1>
+<h1 align="center"> Android TV y Móvil</h1>
 <p align="center">Tu anime, a tu ritmo. En la tele y en el bolsillo.</p>
 <p align="center"><b>Web oficial: <a href="https://zzanime.uk">zzanime.uk</a></b></p>
 <p align="center"><b>Discord oficial: <a href="https://discord.gg/m3Zkstsrc">ZZAnime</a></b></p>
