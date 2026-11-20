@@ -10,7 +10,8 @@ from dubpipe.qa import wer
 HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1];WORK=ROOT/'work/dubbing-demo'
 def main()->None:
  WORK.mkdir(parents=True,exist_ok=True);config=yaml.safe_load((HERE/'config.yml').read_text(encoding='utf-8'));config.update(profile='local_cpu',enabled=True,max_gpu_usd_per_day=0)
- config['ingest'].update(allow_local_inputs=True,max_episode_seconds=90,max_download_mb=250);config['separate'].update(device='cpu',timeout=600);config['transcribe'].update(backend='faster_whisper',model='tiny.en',device='cpu',compute_type='int8',timeout=601);config['translate'].update(backend='marian_cpu',model='Helsinki-NLP/opus-mt-en-es',device='cpu');config['qa_asr'].update(model='base',device='cpu',compute_type='int8');config['tts']['model_cache']=str(WORK/'models');config['glossary']=yaml.safe_load((HERE/'glossary/big-buck-bunny.yml').read_text(encoding='utf-8'))
+ config['ingest'].update(allow_local_inputs=True,max_episode_seconds=90,max_download_mb=250);config['separate'].update(device='cpu',timeout=600);config['transcribe'].update(backend='faster_whisper',model='tiny.en',device='cpu',compute_type='int8',timeout=601);config['qa_asr'].update(model='base',device='cpu',compute_type='int8');config['tts']['model_cache']=str(WORK/'models');config['glossary']=yaml.safe_load((HERE/'glossary/big-buck-bunny.yml').read_text(encoding='utf-8'))
+ config['translate'].update(backend='marian_cpu',model='Helsinki-NLP/opus-mt-en-es',revision='5bc4493d463cf000c1f0b50f8d56886a392ed4ab',device='cpu')
  os.environ['HF_HOME']=str(WORK/'models/huggingface');os.environ['TORCH_HOME']=str(WORK/'models/torch');os.environ['HF_HUB_DISABLE_XET']='1'
  narration='Hello. This is a test of automatic dubbing. We keep the original music.';signature=canonical_hash({'fixture':1,'narration':narration,'seconds':24,'source':'Big Buck Bunny CC-BY-3.0'});source=WORK/('input-'+signature[:16]+'.mp4');start=time.monotonic()
  if not source.exists():
