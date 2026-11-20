@@ -6,4 +6,6 @@ RUN pip install --no-cache-dir -r requirements-gpu.txt
 COPY dubpipe ./dubpipe
 COPY config.yml sources.yml ./
 COPY glossary ./glossary
+RUN useradd -U -u 1000 appuser && chown -R 1000:1000 /opt/zzdub
+USER 1000
 CMD ["python", "-m", "dubpipe.cli", "doctor"]
