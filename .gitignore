@@ -1,2 +1,3 @@
 # Import batches contain provider links and must stay in the private data repository.
-/automation/hourly/recovered-batch.json
+recovered-batch.json
+recovered-batch.json.gz
