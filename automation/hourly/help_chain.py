@@ -1,9 +1,7 @@
 """Help chain (task 10): the cloud asks for what it lacks; devices answer only that.
 
-The signed channel carries a short "wanted" list: new chapters without options and, in open mode,
-the stored chapters with the oldest observation ("renew"). The help Worker accepts submissions only
-for wanted chapters, requires two devices on two different networks plus a content check, and this
-module imports only what the cloud itself asked for in its last published channel."""
+The signed channel lists missing chapters and chapters due for renewal. Client reports can queue a
+missing chapter for the cloud collector. Only the collector's own observation supplies its links."""
 from pathlib import Path
 import datetime,gzip,hashlib,hmac,json,os,re,urllib.request
 from archive_state import save as save_observations,stamp
@@ -77,40 +75,32 @@ def wanted(state,files,now,rules,catalogue=None,held_urls=None):
 def record_published(folder,wanted_rows,now):
  rows=wanted_rows or []
  (folder/'help-wanted.json').write_bytes(json.dumps({'publishedAt':iso(now),'urls':[w['url'] for w in rows],'renew':[w['url'] for w in rows if w.get('renew')]},sort_keys=True).encode())
-def accept(data,state,asked,now,renew=frozenset(),held_urls=frozenset()):
- # Only chapters this cloud published as wanted. A stored record is replaced only when the cloud asked
- # to renew it and the devices' observation is newer; otherwise records and dates are never touched.
+def retry_candidates(data,state,asked,now):
+ # A quorum and matching provider title justify a retry, but do not establish episode identity.
  if data.get('schema')!=1 or not isinstance(data.get('episodes'),list):raise ValueError('Help answer schema')
- incoming={'episodes':{},'listings':{}};seen={};held={}
+ candidates=set();held={}
  for row in data['episodes'][:MAX_IMPORT]:
   url=row.get('url') if isinstance(row,dict) else None
   if not isinstance(url,str) or not EPISODE.fullmatch(url) or url not in asked:held[str(url)[:200]]='Not asked by the cloud';continue
   try:at=datetime.datetime.fromisoformat(row['acceptedAt'].replace('Z','+00:00'))
   except (KeyError,TypeError,ValueError,AttributeError):held[url]='Invalid acceptance date';continue
-  if not 0<=(now-at).total_seconds()<=7*86400:held[url]='Stale or future acceptance';continue
-  old=state['episodes'].get(url)
-  if old is not None and old.get('providers'):
-   if url not in renew:held[url]='Already stored';continue
-   if stamp(old.get('observedAt'))>=at.timestamp():held[url]='Stored observation is newer';continue
-  providers={}
-  for o in row.get('options',[])[:12]:
+  if at.tzinfo is None or not 0<=(now-at).total_seconds()<=7*86400:held[url]='Stale or future acceptance';continue
+  old=state['episodes'].get(url,{})
+  if old.get('providers') or old.get('reviewProviders'):held[url]='Already stored; normal renewal applies';continue
+  options=row.get('options')
+  if not isinstance(options,list):held[url]='No option passed the help checks';continue
+  for o in options[:12]:
    if not isinstance(o,dict):continue
    name,family,link=o.get('name'),o.get('family'),o.get('url')
-   if family not in FAMILIES or not isinstance(name,str) or not 0<len(name)<=70 or not isinstance(link,str) or not link.startswith('https://') or len(link)>500:continue
-   devices,asns,zones,check=int(o.get('devices',0)),int(o.get('asns',0)),int(o.get('zones',0)),o.get('check')
+   if not isinstance(family,str) or family not in FAMILIES or not isinstance(name,str) or not 0<len(name)<=70 or not isinstance(link,str) or not link.startswith('https://') or len(link)>500:continue
+   devices,asns,zones,check=o.get('devices'),o.get('asns'),o.get('zones',0),o.get('check')
+   if any(type(count) is not int for count in (devices,asns,zones)) or not isinstance(check,str):continue
    networks=asns>=2 or (check=='name-match' and devices>=ZONES_MIN and zones>=ZONES_MIN)
    if not (devices>=2 and networks and check in CHECKS and (check!='quorum3' or asns>=3)):continue
-   p=providers.setdefault(name,{'name':name,'family':family,'links':[]})
-   if p['family']==family and link not in p['links']:p['links'].append(link)
-  if not providers:held[url]='No option passed the help checks';continue
-  parent=url.rsplit('/',2)[0]+'/';listing=state['listings'].get(parent)
-  incoming['episodes'][url]={'archiveVersion':3,'episode':url,'observedAt':iso(at),'complete':True,'providers':list(providers.values()),'helpEvidence':{'acceptedAt':iso(at),'source':'help-chain','renewed':url in renew,**({'provenance':HELD_PROVENANCE} if url in held_urls else {})}}
-  # Keep the observed listing and its date; only a chapter without any listing gets a minimal one.
-  incoming['listings'][parent]={**listing,'episodes':[url]} if listing else {'observedAt':iso(at),'complete':False,'helpListing':True,'episodes':[url]}
-  # Neither renewals nor held chapters (old OVAs and movies) are news.
-  if url not in renew and url not in held_urls:seen[url]=row.get('firstSeenAt') or iso(at)
- # 11/11 auditoría S-04: una lectura individual no sustituye el episodio ni su fecha (renew_single queda sin usar).
- return incoming,seen,held
+   candidates.add(url)
+   break
+  else:held[url]='No option passed the help checks'
+ return candidates,held
 def renew_single(data,state,renew,now,incoming,held):
  """One device saw the JK page of a chapter the cloud asked to renew: keep, with the device's date, only the links the
  archive already approved that the page still lists. Nothing new is ever added this way (new links need the quorum)."""
@@ -165,26 +155,17 @@ def pull(folder,state,now,fetch=None,observe_fetch=None):
  if not base or not key:return {'state':'disabled','imported':0}
  worker,reports=observe(folder,base,key,now,observe_fetch)
  path=folder/'help-wanted.json';published=json.loads(path.read_bytes()) if path.exists() else {}
- asked=set(published.get('urls',[]));renew=frozenset(published.get('renew',[]))&asked
+ asked=set(published.get('urls',[]))
  if not asked:
   report={'state':'nothing-asked','checkedAt':iso(now),'imported':0,'worker':worker,'deadReports':reports}
   (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report
  data=fetch() if fetch else get(base,key,'/v1/accepted')
- if not fetch and isinstance(data,dict) and 'renewals' not in data:
-  # Single-device renewal evidence comes from its own endpoint; if it fails, the normal import goes on without it.
-  try:
-   extra=get(base,key,'/v1/renewals')
-   if isinstance(extra,dict) and isinstance(extra.get('renewals'),list):data['renewals']=extra['renewals']
-  except Exception as error:print(json.dumps({'renewalEvidenceError':type(error).__name__}),flush=True)
- incoming,seen,held=accept(data,state,asked,now,renew,frozenset(held_chapters())&asked)
- for url,ep in incoming['episodes'].items():
-  parent=url.rsplit('/',2)[0]+'/';old=state['listings'].get(parent)
-  state['episodes'][url]=ep
-  state['listings'][parent]={**old,'episodes':sorted(set(old['episodes'])|{url})} if old else incoming['listings'][parent]
-  # Renewed chapters are not news; only new chapters enter the "Últimos episodios" feed.
-  if url in seen:state.setdefault('newsSeen',{}).setdefault(url,seen[url])
- state['pending']=sorted(set(state.get('pending',[]))-set(incoming['episodes']))
- if incoming['episodes']:save_observations(folder,state,set(incoming['listings']))
- renewed=sum(1 for url in incoming['episodes'] if url in renew)
- report={'state':'imported' if incoming['episodes'] else 'unchanged','checkedAt':iso(now),'imported':len(incoming['episodes']),'renewed':renewed,'held':held,'asked':len(asked),'askedRenew':len(renew),'worker':worker,'deadReports':reports,'singleRenewal':incoming.get('singleRenewal',{})}
+ candidates,held=retry_candidates(data,state,asked,now)
+ pending=state.get('pending',[])
+ queued=sorted(candidates.difference(pending))
+ if queued:
+  # Only chapter IDs enter the existing retry queue. The collector supplies the links and observation dates.
+  state['pending']=[*pending,*queued]
+  save_observations(folder,state,set())
+ report={'state':'queued' if queued else 'unchanged','checkedAt':iso(now),'imported':0,'renewed':0,'queued':len(queued),'held':held,'asked':len(asked),'worker':worker,'deadReports':reports}
  (folder/'help-status.json').write_bytes(json.dumps(report,sort_keys=True).encode());return report
