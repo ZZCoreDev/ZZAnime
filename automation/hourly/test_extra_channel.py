@@ -6,13 +6,14 @@ from cryptography.hazmat.primitives.asymmetric import rsa,padding
 from archive_state import load
 import extra_channel,renew,run
 
-ONLY='https://jkanime.net/serie-x/2/';BOTH='https://jkanime.net/serie-x/3/';VOE='https://jkanime.net/serie-x/4/'
+SERIES='https://jkanime.net/serie-x/'
+ONLY=SERIES+'2/';BOTH=SERIES+'3/';VOE=SERIES+'4/'
 YU='https://www.yourupload.com/embed/abc123';MP4='https://www.mp4upload.com/embed-abcdefgh.html'
 def iso(t):return t.isoformat().replace('+00:00','Z')
 def incoming(now):
  x=[{'name':'YourUpload','family':'yourupload','links':[YU]}];ep=lambda url,providers:{'episode':url,'complete':True,'observedAt':iso(now),'providers':providers,'extraProviders':copy.deepcopy(x)}
  return {'episodes':{ONLY:ep(ONLY,[]),BOTH:ep(BOTH,[{'name':'Mp4upload','family':'mp4upload','links':[MP4]}]),VOE:ep(VOE,[{'name':'Voe','family':'voe','links':['https://voe.sx/e/abcdefgh']}])},
-  'listings':{'https://jkanime.net/serie-x/':{'complete':True,'observedAt':iso(now),'episodes':[ONLY,BOTH,VOE]}}}
+  'listings':{SERIES:{'series':SERIES,'complete':True,'observedAt':iso(now),'episodes':[ONLY,BOTH,VOE]}}}
 
 class ExtraChannelTests(unittest.TestCase):
  def setUp(self):self.now=datetime.datetime.now(datetime.timezone.utc)
