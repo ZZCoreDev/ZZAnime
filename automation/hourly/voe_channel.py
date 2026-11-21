@@ -125,7 +125,10 @@ def render(folder,now,key,runtime):
 def proof(publish=False):
     import run as p
     folder=Path(os.environ['ZZ_DATA']);folder.mkdir(parents=True,exist_ok=True)
-    baseline_path=next((c for c in (folder.parent/'recovered-batch.json',p.W/'recovered-batch.json') if c.exists()),p.W/'recovered-batch.json');baseline=json.loads(baseline_path.read_bytes()).get('state',{}) if baseline_path.exists() else {}
+    # Keep the optional recovery baseline inside the private data checkout.
+    baseline_path=folder.parent/'recovered-batch.json'
+    if baseline_path.is_symlink():raise ValueError('Recovery baseline must be a regular private data file')
+    baseline=json.loads(baseline_path.read_bytes()).get('state',{}) if baseline_path.is_file() else {}
     repaired=repair_legacy(folder,baseline)
     before=load(folder);original={u:json.dumps(e,sort_keys=True) for u,e in before['episodes'].items()}
     saved=load(folder/'voe-state');reuse=all(u in saved['episodes'] and 0<=time.time()-stamp(saved['episodes'][u].get('observedAt'))<3600 for u in PROOF)
