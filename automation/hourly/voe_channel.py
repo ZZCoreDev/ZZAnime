@@ -136,6 +136,8 @@ def proof(publish=False):
     else:
         req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=p.raw({'mode':'renew','retry':PROOF,'skip':[],'voeProof':True}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
         with NO_REDIRECT.open(req,timeout=90) as response:result=json.loads(response.read(2097153))
+        from archive_state import validate_collected_series
+        validate_collected_series(result.get('state'))
     if not result.get('passed') or set(result['state']['episodes'])!=set(PROOF):raise ValueError('Two-series VOE collection failed')
     legacy,count=split(folder,result['state']);after=load(folder)
     if any(json.dumps(after['episodes'][u],sort_keys=True)!=e for u,e in original.items()):raise ValueError('Legacy changed during VOE proof')

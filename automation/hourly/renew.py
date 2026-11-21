@@ -2,7 +2,7 @@
 from pathlib import Path
 from collections import deque
 import argparse,base64,datetime,json,os,subprocess,sys,time,urllib.request,urllib.error,tempfile,hashlib
-from archive_state import load,save,merge,stamp
+from archive_state import load,save,merge,stamp,validate_collected_series
 from incident_diagnostics import fair_retries,report as diagnostic_report
 from news_watchdog import check as check_news
 import new_series
@@ -126,8 +126,9 @@ def health_report(folder,state,failures,status,now):
     (folder/'renewal-health.json').write_text(json.dumps(report,indent=2),encoding='utf-8');return report
 
 def validate(incoming,targets,before,after):
-    if not isinstance(incoming,dict):raise ValueError('Missing observations')
+    validate_collected_series(incoming)
     if set(incoming.get('episodes',{}))-set(targets):raise ValueError('Unrequested episode returned')
+    if set(incoming.get('listings',{}))-{url.rsplit('/',2)[0]+'/' for url in targets}:raise ValueError('Unrequested series returned')
     for url,ep in incoming.get('episodes',{}).items():
         parent=url.rsplit('/',2)[0]+'/';listing=incoming.get('listings',{}).get(parent)
         if not listing or not listing.get('complete') or url not in listing.get('episodes',[]):raise ValueError('Observed listing mismatch')

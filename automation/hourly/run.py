@@ -4,6 +4,7 @@ import os,sys,json,gzip,hashlib,datetime,subprocess,tempfile,shutil,re,time
 from cryptography.hazmat.primitives import serialization,hashes
 from cryptography.hazmat.primitives.asymmetric import padding,rsa
 from archive_state import load as load_observations,save as save_observations,merge as merge_observations
+from archive_state import validate_collected_series
 from no_redirect import NO_REDIRECT
 W=Path(__file__).resolve().parent
 D=Path(os.environ.get('ZZ_DATA',W/'state')).resolve()
@@ -189,6 +190,7 @@ def main():
      print('::warning::Collection source timed out; valid data retained, unfinished batch deferred.')
      break
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
+    validate_collected_series(result['state'])
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
     if not proof:state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result.get('unknownSeries',[]),json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))
     received=set(result['state']['episodes']);extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in,isolate_invalid=not proof)

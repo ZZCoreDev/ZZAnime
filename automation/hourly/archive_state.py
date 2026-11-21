@@ -20,6 +20,24 @@ def require_series(series,episodes):
         raise ValueError('Observation belongs to another series')
 
 
+def validate_collected_series(state):
+    if not isinstance(state,dict):
+        raise ValueError('Missing collector state')
+    episodes,listings=state.get('episodes',{}),state.get('listings',{})
+    if not isinstance(episodes,dict) or not isinstance(listings,dict):
+        raise ValueError('Invalid collector state')
+    for series,listing in listings.items():
+        if not isinstance(listing,dict) or listing.get('series',series)!=series or not isinstance(listing.get('episodes'),list):
+            raise ValueError('Invalid collector listing')
+        require_series(series,listing['episodes'])
+    for url,episode in episodes.items():
+        if not isinstance(url,str) or not isinstance(episode,dict) or episode.get('episode',url)!=url:
+            raise ValueError('Invalid collector episode identity')
+        parent=url.rsplit('/',2)[0]+'/'
+        if parent not in listings or url not in listings[parent]['episodes']:
+            raise ValueError('Collector episode is absent from its own listing')
+
+
 def state_path(folder, name):
     if not isinstance(name, str) or not name:
         raise ValueError('State path must be relative')
