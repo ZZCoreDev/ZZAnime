@@ -24,7 +24,7 @@ class NewsResilienceTests(unittest.TestCase):
  def execute(self,folder,responses,*,proof=False,expect_build=False,request=None):
   with contextlib.ExitStack() as stack:
    stack.enter_context(patch.object(run,'D',Path(folder)))
-   build=stack.enter_context(patch.object(run,'compile_java',side_effect=ReachedBuild))
+   build=stack.enter_context(patch.object(run,'build',side_effect=ReachedBuild))
    opener=stack.enter_context(patch('run.NO_REDIRECT.open',side_effect=request or responses))
    stack.enter_context(patch('link_health.check',return_value={'excluded':0}))
    stack.enter_context(patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'synthetic-only','ZZ_HELP_URL':'','ZZ_PROOF':str(proof).lower()}))
@@ -41,8 +41,10 @@ class NewsResilienceTests(unittest.TestCase):
   source['episodes'][url]['providers'].append(self.fixture()[0]['episodes'][url]['providers'][0])
   original=copy.deepcopy(source)
   with tempfile.TemporaryDirectory() as folder:
-   legacy,count=split(folder,source,isolate_invalid=True)
+   confirmed=set()
+   legacy,count=split(folder,source,isolate_invalid=True,confirmed=confirmed)
    self.assertEqual(source,original);self.assertEqual(count,1)
+   self.assertEqual(confirmed,{other_url})
    self.assertEqual(legacy['voeScopeRejected'],[url])
    self.assertEqual([p['family'] for p in legacy['episodes'][url]['providers']],['mp4upload'])
    self.assertEqual(set(load(Path(folder)/'voe-state')['episodes']),{other_url})
@@ -77,14 +79,19 @@ class NewsResilienceTests(unittest.TestCase):
    self.assertIn('::warning::',output);self.assertNotIn('voe.sx',output)
    self.assertEqual(json.loads(Path(folder,'collection-status.json').read_bytes())['coverage'],'partial')
  def test_mixed_chapter_scope_retry_overrides_root_skip_then_clears(self):
-  with tempfile.TemporaryDirectory() as folder:
-   state,url=self.fixture();state.update(pending=[url],voeScopePending=[url],deferred={url:0});save(folder,state)
-   good,_=self.fixture(voe=True);good['episodes'][url]['providers']+=state['episodes'][url]['providers']
-   opener,_=self.execute(folder,[self.response(good),self.response({'episodes':{},'listings':{}})],expect_build=True)
-   sent=json.loads(opener.call_args_list[0].args[0].data)
-   self.assertIn(url,sent['retry']);self.assertNotIn(url,sent['skip'])
-   saved=load(folder);self.assertEqual(saved['pending'],[]);self.assertEqual(saved['voeScopePending'],[])
-   self.assertIn(url,load(Path(folder)/'voe-state')['episodes'])
+  for valid in (True,False):
+   with self.subTest(regular_option_valid=valid),tempfile.TemporaryDirectory() as folder:
+    state,url=self.fixture();state.update(pending=[url],voeScopePending=[url],deferred={url:0});save(folder,state)
+    good,_=self.fixture(voe=True);regular=copy.deepcopy(state['episodes'][url]['providers'][0])
+    if not valid:regular['links']=['https://provider.invalid/embed-demo.html']
+    good['episodes'][url]['providers'].append(regular)
+    opener,_=self.execute(folder,[self.response(good),self.response({'episodes':{},'listings':{}})],expect_build=True)
+    sent=json.loads(opener.call_args_list[0].args[0].data)
+    self.assertIn(url,sent['retry']);self.assertNotIn(url,sent['skip'])
+    saved=load(folder);self.assertEqual(saved['pending'],[]);self.assertEqual(saved['voeScopePending'],[])
+    self.assertIn(url,load(Path(folder)/'voe-state')['episodes'])
+    self.assertEqual(saved['episodes'][url]['providers'],state['episodes'][url]['providers'])
+    if not valid:self.assertEqual(saved['episodes'][url],state['episodes'][url])
  def test_first_timeout_retains_prior_state_and_does_not_publish(self):
   for error in [TimeoutError('private source address'),urllib.error.URLError(TimeoutError('private source address'))]:
    with self.subTest(error=type(error).__name__),tempfile.TemporaryDirectory() as folder:

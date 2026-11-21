@@ -42,6 +42,14 @@ class ExtraChannelTests(unittest.TestCase):
    row=json.loads(gzip.decompress(files['extra/'+next(iter(index['series'].values()))['path']]))
    self.assertEqual([(e['url'],e['options'],[o['url'] for o in e['extraOptions']]) for e in row['episodes']],[(ONLY,[],[YU]),(VOE,[],[YU])])
    self.assertEqual(extra_channel.render(d,self.now,key,{run.sha(('YourUpload\0'+YU).encode())}),{})  # all dead: nothing to publish
+ def test_confirmation_lists_only_chapters_with_usable_extra_options(self):
+  inc=incoming(self.now)
+  inc['episodes'][ONLY]['extraProviders'][0]['links']=['https://www.yourupload.com/']
+  with tempfile.TemporaryDirectory() as d:
+   confirmed=set()
+   _,count=extra_channel.split(d,inc,confirmed=confirmed)
+   self.assertEqual(count,1);self.assertEqual(confirmed,{VOE})
+   self.assertEqual(set(load(Path(d)/extra_channel.FOLDER)['episodes']),{VOE})
  def test_render_removes_stored_mixdroop_links(self):
   import datetime,extra_channel,tempfile
   from pathlib import Path

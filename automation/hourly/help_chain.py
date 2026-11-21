@@ -75,6 +75,8 @@ def wanted(state,files,now,rules,catalogue=None,held_urls=None):
 def record_published(folder,wanted_rows,now):
  rows=wanted_rows or []
  (folder/'help-wanted.json').write_bytes(json.dumps({'publishedAt':iso(now),'urls':[w['url'] for w in rows],'renew':[w['url'] for w in rows if w.get('renew')]},sort_keys=True).encode())
+def has_stored_options(episode):
+ return episode.get('complete') is True and any(p.get('links') for p in episode.get('providers',[])+episode.get('reviewProviders',[]))
 def retry_candidates(data,state,asked,now):
  # A quorum and matching provider title justify a retry, but do not establish episode identity.
  if data.get('schema')!=1 or not isinstance(data.get('episodes'),list):raise ValueError('Help answer schema')
@@ -86,7 +88,7 @@ def retry_candidates(data,state,asked,now):
   except (KeyError,TypeError,ValueError,AttributeError):held[url]='Invalid acceptance date';continue
   if at.tzinfo is None or not 0<=(now-at).total_seconds()<=7*86400:held[url]='Stale or future acceptance';continue
   old=state['episodes'].get(url,{})
-  if old.get('providers') or old.get('reviewProviders'):held[url]='Already stored; normal renewal applies';continue
+  if has_stored_options(old):held[url]='Already stored; normal renewal applies';continue
   options=row.get('options')
   if not isinstance(options,list):held[url]='No option passed the help checks';continue
   for o in options[:12]:

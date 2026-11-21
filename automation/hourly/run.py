@@ -4,7 +4,7 @@ import os,sys,json,gzip,hashlib,datetime,subprocess,tempfile,shutil,re,time
 from cryptography.hazmat.primitives import serialization,hashes
 from cryptography.hazmat.primitives.asymmetric import padding,rsa
 from archive_state import load as load_observations,save as save_observations,merge as merge_observations
-from archive_state import validate_collected_series
+from archive_state import stamp,validate_collected_series
 from no_redirect import NO_REDIRECT
 W=Path(__file__).resolve().parent
 D=Path(os.environ.get('ZZ_DATA',W/'state')).resolve()
@@ -46,6 +46,32 @@ def compile_java(runtime,modern=False):
 def last_suspects(options,suspect):
  """16/11/2026 (Robin): options read as deleted go last, the rest keep their order; nothing is removed."""
  return sorted(options,key=lambda o:sha((o['name']+'\0'+o['url']).encode()) in suspect)
+def root_options(ep,approved,allow_voe=False,mega_alive=None):
+ options=[];seen=set()
+ # AnimeFLV lists MEGA and MixDrop under reviewProviders; both count once the real validator approves them
+ # (MEGA also needs MEGA's API to read it alive). MixDrop from FLV approved by Robin 31/10/2026.
+ review=[dict(p,review=True) for p in ep.get('reviewProviders',[]) if p.get('family') in REVIEW_FAMILIES]
+ for provider in ep['providers']+review:
+  if provider.get('family')=='voe' and not allow_voe:continue
+  if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega','mixdrop','filemoon',*(['voe'] if allow_voe else [])]:continue
+  for link in provider.get('links',[]):
+   k=sha((provider['name']+'\0'+link).encode())
+   # MEGA from TioAnime or from AnimeFLV's review list counts only once MEGA's API read it alive.
+   if provider.get('family')=='mega' and (provider.get('review') or ep.get('sourceSeries','').startswith('https://tioanime.com/')) and k not in (mega_alive or ()):continue
+   if not approved.get(k) or k in seen:continue
+   seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
+ return options,seen
+def audit_options(cp,episodes):
+ queries={}
+ for ep in episodes:
+  for p in ep.get('providers',[])+[q for q in ep.get('reviewProviders',[]) if q.get('family') in REVIEW_FAMILIES]:
+   for url in p.get('links',[]):queries[sha((p['name']+'\0'+url).encode())]={'name':p['name'],'url':url}
+ if not queries:return {}
+ output=command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
+ approved={r['key']:r['approved'] for r in map(json.loads,output.splitlines())}
+ if set(approved)!=set(queries):raise ValueError('Incomplete real app option validation')
+ return approved
+
 def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,mega_alive=None,suspect=None):
  rows={}
  for url,ep in state['episodes'].items():
@@ -55,19 +81,7 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
   # Chapters never expire: they stay published with their real observation date; only links the
   # link checker confirms dead are excluded. Renewal keeps refreshing them, oldest first.
   if not listing or url not in listing['episodes'] or not ep.get('complete') or age<0:continue
-  options=[];seen=set()
-  # AnimeFLV lists MEGA and MixDrop under reviewProviders; both count once the real validator approves them
-  # (MEGA also needs MEGA's API to read it alive). MixDrop from FLV approved by Robin 31/10/2026.
-  review=[dict(p,review=True) for p in ep.get('reviewProviders',[]) if p.get('family') in REVIEW_FAMILIES]
-  for provider in ep['providers']+review:
-   if provider.get('family')=='voe' and not allow_voe:continue
-   if ep.get('sourceSeries','').startswith('https://vww.animeflv.one/') and provider.get('family') not in ['mp4upload','streamwish','vidhide','mega','mixdrop','filemoon',*(['voe'] if allow_voe else [])]:continue
-   for link in provider.get('links',[]):
-    k=sha((provider['name']+'\0'+link).encode())
-    # MEGA from TioAnime or from AnimeFLV's review list counts only once MEGA's API read it alive.
-    if provider.get('family')=='mega' and (provider.get('review') or ep.get('sourceSeries','').startswith('https://tioanime.com/')) and k not in (mega_alive or ()):continue
-    if not approved.get(k) or k in seen:continue
-    seen.add(k);options.append({'family':provider['family'],'name':provider['name'],'url':link})
+  options,seen=root_options(ep,approved,allow_voe,mega_alive)
   # 16/11/2026 (Robin): links the checker reads as deleted are no longer withdrawn; they go last in their chapter
   # (stable order otherwise), so the app tries the working ones first.
   if suspect:options=last_suspects(options,suspect)
@@ -151,6 +165,11 @@ def public_diagnostics(errors,diagnostics,keep):
     out[_chapter(u)]=entry
   return out
 def main():
+ with tempfile.TemporaryDirectory() as work:
+  run_collection(Path(work))
+
+def run_collection(work):
+ cp=None
  D.mkdir(parents=True,exist_ok=True);proof=os.environ.get('ZZ_PROOF')=='true'
  if proof and '--publish' in sys.argv:raise ValueError('La prueba no puede publicar en producción (auditoría S-01)')
  collected=0;recent_added=0;links_changed=0;collection_interrupted=False
@@ -164,8 +183,10 @@ def main():
    instant=datetime.datetime.now(datetime.timezone.utc)
    put(D/'collection-status.json',raw({'state':'checking','lastAttempt':instant.isoformat().replace('+00:00','Z'),'retryMinutes':RETRY_SECONDS//60}))
    for attempt in range(1 if proof else COLLECTION_BATCHES):
+    pending=set(state.get('pending',[]))
+    deferred=state.setdefault('deferred',{})
     recent=sorted(state['episodes'].items(),key=lambda row:state.get('newsSeen',{}).get(row[0],''),reverse=True)
-    skip=[url for url,ep in recent if (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
+    skip=[url for url,ep in recent if (url not in pending or url not in deferred and help_chain.has_stored_options(ep)) and (instant-datetime.datetime.fromisoformat(ep['observedAt'].replace('Z','+00:00'))).total_seconds()<6*86400 and not (ep.get('sourceSeries','').startswith('https://tioanime.com/') and all(p.get('family')=='mega' for p in ep.get('providers',[])))][:2500]
     from voe_channel import fresh_urls,split
     from extra_channel import split as split_extra
     # News seen in the last 7 days without a root-channel record (VOE-only) are rechecked through the
@@ -175,7 +196,7 @@ def main():
      if url not in voe_news:recheck.pop(url)
     due=[url for url in voe_news if instant.timestamp()-recheck.get(url,0)>=VOE_RECHECK_SECONDS][:VOE_RECHECK_LIMIT]
     skip=skip[:2000]+[url for url in voe_fresh if url not in due]
-    deferred=state.setdefault('deferred',{});skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
+    skip+=list(url for url,stamp in deferred.items() if instant.timestamp()-stamp<RETRY_SECONDS and url not in skip);retry=[url for url in state.get('pending',[]) if url not in skip][:200]
     # A rejected VOE option must also retry when another provider made its chapter skippable.
     scope_due={url for url in state.get('voeScopePending',[]) if instant.timestamp()-deferred.get(url,0)>=RETRY_SECONDS}
     skip=[url for url in skip if url not in scope_due]
@@ -189,6 +210,7 @@ def main():
     sent_skip=skip[-2500:]
     req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':sent_skip,'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     # A source timeout is deferred, not a successful empty response. Proofs and HTTP/security errors still fail.
+    requested_at=time.time()
     try:
      with NO_REDIRECT.open(req,timeout=120) as response:result=json.loads(response.read(2097153))
     except (TimeoutError,urllib.error.URLError) as slow:
@@ -203,22 +225,59 @@ def main():
     if not received.isdisjoint(sent_skip):raise ValueError('Collector returned an excluded episode; previous data retained')
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
     if not proof:state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result.get('unknownSeries',[]),json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))
-    extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in,isolate_invalid=not proof)
-    scope_rejected=set(incoming.pop('voeScopeRejected',[]));received-=scope_rejected
+    observed=result['state']
+    pending_observed=received & pending
+    confirmed=set()
+    if pending_observed:
+     # A bare or stale observation does not acknowledge a pending chapter or replace its saved options.
+     checked_at=time.time()
+     for url in pending_observed:
+      ep=observed['episodes'][url];parent=url.rsplit('/',2)[0]+'/'
+      listing=observed['listings'][parent]
+      if ep.get('complete') is not True or listing.get('complete') is not True or not requested_at-60<=stamp(ep.get('observedAt'))<=checked_at or not 0<stamp(listing.get('observedAt'))<=checked_at:
+       observed['episodes'].pop(url)
+    extra_in,extra_captured=split_extra(D,observed,confirmed=confirmed)
+    incoming,voe_captured=split(D,extra_in,isolate_invalid=not proof,confirmed=confirmed)
+    scope_rejected=set(incoming.pop('voeScopeRejected',[]))
+    regular_retries=pending_observed & incoming['episodes'].keys()
+    available_retries=set()
+    if regular_retries:
+     import mega_check
+     if cp is None:cp=compile_java(work/'classes')
+     approved=audit_options(cp,(incoming['episodes'][u] for u in regular_retries))
+     mega_alive=mega_check.alive(D)
+     for url in regular_retries:
+      ep=incoming['episodes'][url]
+      if root_options(ep,approved,mega_alive=mega_alive)[0]:available_retries.add(url);continue
+      if ep.get('extraProviders'):
+       # Extras remain usable independently when the regular options fail the app checks.
+       _,captured=split_extra(D,{'episodes':{url:{**ep,'providers':[]}},'listings':incoming['listings']},confirmed=confirmed)
+       extra_captured+=captured
+      # Keep a new, app-approved MEGA candidate for the normal availability check, but leave its retry open.
+      if url in confirmed or help_chain.has_stored_options(state['episodes'].get(url,{})) or not root_options(ep,approved,mega_alive=approved)[0]:
+       incoming['episodes'].pop(url)
+    rejected_parents={u.rsplit('/',2)[0]+'/' for u in pending_observed-incoming['episodes'].keys()-confirmed}
+    incoming_parents={u.rsplit('/',2)[0]+'/' for u in incoming['episodes']}
+    for parent in rejected_parents-incoming_parents:incoming['listings'].pop(parent,None)
+    merge_observations(state,incoming)
+    confirmed.update(url for url in available_retries if state['episodes'][url]==incoming['episodes'][url])
+    unconfirmed=(pending_observed-confirmed)|scope_rejected
+    received-=unconfirmed
     if scope_rejected or state.get('voeScopePending'):
      state['voeScopePending']=sorted((set(state.get('voeScopePending',[]))|scope_rejected)-received)
-     incoming['pending']=sorted(set(incoming.get('pending',[]))|scope_rejected)
-    voe_captured+=extra_captured;collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming.get('pending',[]) if url not in skip]
+    incoming['pending']=sorted(set(incoming.get('pending',[]))|unconfirmed)
+    voe_captured+=extra_captured;collected+=len(incoming['episodes'])+voe_captured;newly_deferred=[url for url in incoming['pending'] if url not in skip]
     if result.get('primary')!='not-checked':primary=result.get('primary','unknown')
     for url,error in result.get('errors',{}).items():incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':error,'sources':result.get('diagnostics',{}).get(url,{}),'retryMinutes':RETRY_SECONDS//60}
     for url in received:incidents.pop(url,None)
+    for url in received:deferred.pop(url,None)
     for url in scope_rejected:incidents[url]={'lastAttempt':instant.isoformat().replace('+00:00','Z'),'error':'VOE provider scope','retryMinutes':RETRY_SECONDS//60}
     if scope_rejected:print('::warning::VOE options outside the accepted scope quarantined privately; valid options retained. Chapters:',len(scope_rejected))
     put(incidents_path,raw(incidents))
     for url in newly_deferred:deferred[url]=instant.timestamp()
     for url,ep in result['state']['episodes'].items():
-     if url not in held_chapters and (url not in scope_rejected or url in incoming['episodes']):state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
-    merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
+     if url not in held_chapters and (url in received or url in incoming['episodes'] and url not in pending_observed-confirmed):state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
+    before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
     if not incoming['episodes'] and not newly_deferred:break
    if os.environ.get('ZZ_HELP_URL') and not proof:
     # Device help can suggest retries for missing chapters. The collector verifies them on a later run.
@@ -246,13 +305,9 @@ def main():
     if state.get('newsSeen',{}).get(url)==observed:state['newsSeen'].pop(url)
    state['recentSeedHash']='removed';save_observations(D,state,set())
  with tempfile.TemporaryDirectory() as tmp:
-  tmp=Path(tmp);cp=compile_java(tmp/'classes');queries={}
-  for ep in state['episodes'].values():
-   for p in ep.get('providers',[])+[q for q in ep.get('reviewProviders',[]) if q.get('family') in REVIEW_FAMILIES]:
-    for url in p.get('links',[]):queries[sha((p['name']+'\0'+url).encode())]={'name':p['name'],'url':url}
-  output=command(['java','-cp',cp,'tv.jkanime.web.RuntimeOptionAudit'],input='\n'.join(json.dumps(v) for v in queries.values()))
-  approved={r['key']:r['approved'] for r in map(json.loads,output.splitlines())}
-  if set(approved)!=set(queries):raise ValueError('Incomplete real app option validation')
+  tmp=Path(tmp)
+  if cp is None:cp=compile_java(work/'classes')
+  approved=audit_options(cp,state['episodes'].values())
   from link_health import exclude
   exclude(D,approved)
   import plays as play_votes
