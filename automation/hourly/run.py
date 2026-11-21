@@ -185,7 +185,8 @@ def main():
     # being on the home pages that day (JK's home may be unreachable from the cloud and the backups list only some).
     # The collector takes at most 2 chapters per call: the other chapters of the two series are skipped so exactly these two enter.
     if proof:retry=PROOF_EPISODES;skip=[u.rsplit('/',2)[0]+'/'+str(n)+'/' for u in PROOF_EPISODES for n in range(2,200)]
-    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':skip[-2500:],'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
+    sent_skip=skip[-2500:]
+    req=urllib.request.Request(os.environ['ZZ_COLLECTOR_URL'],data=raw({'skip':sent_skip,'retry':retry,'proof':proof,'checkPrimary':attempt==0,**({} if proof else {'newSeries':new_series.rows(D)})}),headers={'Authorization':'Bearer '+os.environ['ZZ_COLLECTOR_KEY'],'Content-Type':'application/json','User-Agent':'ZZAnime-Data/1'},method='POST')
     # A source timeout is deferred, not a successful empty response. Proofs and HTTP/security errors still fail.
     try:
      with NO_REDIRECT.open(req,timeout=120) as response:result=json.loads(response.read(2097153))
@@ -197,9 +198,11 @@ def main():
      break
     if not result.get('passed'):raise ValueError('Cloud source unavailable; previous data retained')
     validate_collected_series(result['state'])
+    received=set(result['state']['episodes'])
+    if not received.isdisjoint(sent_skip):raise ValueError('Collector returned an excluded episode; previous data retained')
     # Series the collector could not place: verified on TioAnime/AnimeFLV and sent with the next request.
     if not proof:state['pending']=sorted(set(state.get('pending',[]))|set(new_series.verify(D,result.get('unknownSeries',[]),json.loads((Path(__file__).with_name('catalogue.json')).read_bytes()))))
-    received=set(result['state']['episodes']);extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in,isolate_invalid=not proof)
+    extra_in,extra_captured=split_extra(D,result['state']);incoming,voe_captured=split(D,extra_in,isolate_invalid=not proof)
     scope_rejected=set(incoming.pop('voeScopeRejected',[]));received-=scope_rejected
     if scope_rejected or state.get('voeScopePending'):
      state['voeScopePending']=sorted((set(state.get('voeScopePending',[]))|scope_rejected)-received)
