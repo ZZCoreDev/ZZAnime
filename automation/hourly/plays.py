@@ -34,12 +34,14 @@ def ranking(stats,published,titles):
  if not valid(stats):return None
  items=[{'series':r['series'],'title':titles.get(r['series'],''),'devices':r['independentNetworks']} for r in stats['popular'] if r['series'] in published and r['independentNetworks']>=2]
  return {'schema':1,'days':7,'basis':policy.BASIS,'items':items[:MAX_RANKING]}
-def scores(stats):
+def scores(stats,published_options=None):
  if not valid(stats):return None
  def pair(v):return [max(0,int(v[0])),max(0,int(v[1]))]
  options={}
- for r in stats['options'][:MAX_OPTIONS]:
+ for r in stats['options']:
   key=str(r.get('key',''))
+  if published_options is not None and key not in published_options:continue
   if len(key)==64 and all(c in '0123456789abcdef' for c in key):options[key[:16]]=pair([r.get('ok',0),r.get('fail',0)])
+  if len(options)>=MAX_OPTIONS:break
  families={f:pair(v) for f,v in (stats.get('families') or {}).items() if isinstance(f,str) and isinstance(v,list) and len(v)==2}
  return {'schema':1,'days':14,'keyPrefix':16,'families':families,'options':options}
