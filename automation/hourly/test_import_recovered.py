@@ -68,8 +68,9 @@ class ImportTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp:
    folder=Path(tmp)/'state';path=Path(tmp)/'batch.json.gz'
    save(folder,{'episodes':{url:root_ep},'listings':{parent:listing}})
-   path.write_bytes(gzip.compress(run.raw(batch)))
-   with patch.dict(os.environ,{'ZZ_DATA':str(folder),'ZZ_PC_BATCH':str(path)}),contextlib.redirect_stdout(io.StringIO()):
+   raw_batch=gzip.compress(run.raw(batch))
+   path.write_bytes(raw_batch)
+   with patch.dict(os.environ,{'ZZ_DATA':str(folder),'ZZ_PC_BATCH':str(path),'ZZ_IMPORT_SHA256':run.sha(raw_batch)}),contextlib.redirect_stdout(io.StringIO()):
     import_recovered.main(pc=True)
     self.assertEqual(load(folder)['episodes'][url],root_ep)
     supplement=load(folder/extra_channel.JK_NEWS_FOLDER)

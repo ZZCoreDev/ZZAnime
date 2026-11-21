@@ -1,6 +1,6 @@
 """Validated incremental import through the existing signed channel; never re-collects."""
 from pathlib import Path
-import datetime,gzip,json,os,re,subprocess,sys,tempfile
+import datetime,gzip,hmac,json,os,re,subprocess,sys,tempfile
 from archive_state import load,save,merge,stamp
 import run as pipeline
 from extra_channel import JK_NEWS_FOLDER
@@ -8,7 +8,7 @@ from extra_channel import JK_NEWS_FOLDER
 JK_FAMILIES={'mega','streamwish','vidhide','mixdrop','mp4upload','streamtape','filemoon'}
 
 def check_batch(batch):
-    if batch.get('schema')!=1 or not batch.get('proof',{}).get('allTwoPlayed'):raise ValueError('Two playback proofs required')
+    if batch.get('schema')!=1 or batch.get('proof',{}).get('allTwoPlayed') is not True:raise ValueError('Two playback proofs required')
     if len(batch['state'].get('episodes',{}))>5000:raise ValueError('Bounded import exceeded')
 
 def prepare(batch,current,approved,now,replace=False):
@@ -51,9 +51,19 @@ def split_pc_news(batch,current,approved):
     return tuple({**batch,'state':{**batch['state'],'episodes':part}} for part in (normal,news))
 
 def main(publish=False,pc=False):
-    # pc: the PC's continuous JK copy (outputs/catalog-lab/provider-refresh), fetched by the workflow from branch pc-import.
-    folder=Path(os.environ['ZZ_DATA']);path=Path(os.environ['ZZ_PC_BATCH']) if pc else next((c for c in (folder.parent/'recovered-batch.json',Path(__file__).with_name('recovered-batch.json')) if c.exists()),Path(__file__).with_name('recovered-batch.json'));raw_batch=path.read_bytes();batch=json.loads(gzip.decompress(raw_batch) if pc else raw_batch);current=load(folder)
+    # The dispatch authorizes exact bytes independently of the writable data branch.
+    expected=os.environ.get('ZZ_IMPORT_SHA256','')
+    if not re.fullmatch(r'[0-9a-fA-F]{64}',expected):
+        raise ValueError('Import requires the SHA-256 supplied by the authorized sender')
+    folder=Path(os.environ['ZZ_DATA'])
+    path=Path(os.environ['ZZ_PC_BATCH']) if pc else folder.parent/'recovered-batch.json'
+    raw_batch=path.read_bytes()
+    digest=pipeline.sha(raw_batch)
+    if not hmac.compare_digest(digest,expected.lower()):
+        raise ValueError('Import batch differs from the authorized SHA-256')
+    batch=json.loads(gzip.decompress(raw_batch) if pc else raw_batch)
     check_batch(batch)
+    current=load(folder)
     before={url:ep['observedAt'] for url,ep in current['episodes'].items()};now=datetime.datetime.now(datetime.timezone.utc)
     side_folder=folder/JK_NEWS_FOLDER
     side=load(side_folder) if pc else None
@@ -77,7 +87,7 @@ def main(publish=False,pc=False):
         held.update(side_held)
         reused+=side_reused
     imported=incoming['episodes'].keys()|side_incoming['episodes'].keys()
-    digest=pipeline.sha(raw_batch);status=folder/('pc-import-status.json' if pc else 'recovered-import-status.json')
+    status=folder/('pc-import-status.json' if pc else 'recovered-import-status.json')
     previous=json.loads(status.read_bytes()) if pc and status.exists() else {}
     acknowledged=previous.get('batchSha256')==digest and previous.get('published') is True
     report={'batchSha256':digest,'checkedAt':now.isoformat(),'state':'imported' if imported else 'unchanged','imported':len(imported),'supplemented':len(side_incoming['episodes']),'series':len(incoming['listings'].keys()|side_incoming['listings'].keys()),'reused':reused,'held':held,'originalDatesPreserved':True,'sourceRequests':0,'published':acknowledged}
