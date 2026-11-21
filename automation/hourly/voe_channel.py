@@ -24,7 +24,7 @@ def load_parents(folder,parents):
         merge(state,{'episodes':row['episodes'],'listings':{parent:row['listing']}})
     return state
 
-def split(folder,incoming,*,isolate_invalid=False):
+def split(folder,incoming,*,isolate_invalid=False,confirmed=None):
     # Only normal news collection opts in. Proofs and renewal retain strict failure semantics.
     legacy=copy.deepcopy(incoming);extra={'episodes':{},'listings':{}};now=time.time();quarantined=[]
     for url,ep in incoming.get('episodes',{}).items():
@@ -59,6 +59,7 @@ def split(folder,incoming,*,isolate_invalid=False):
     count=0
     if extra['episodes']:
         side=load_parents(Path(folder)/'voe-state',extra['listings'])
+        observed=set(extra['episodes'])
         for url,ep in list(extra['episodes'].items()):
             old=side['episodes'].get(url)
             links=lambda item:{(p.get('family'),u) for p in item.get('providers',[]) for u in p.get('links',[])}
@@ -69,6 +70,8 @@ def split(folder,incoming,*,isolate_invalid=False):
             for url,ep in extra['episodes'].items():recent[url]=ep['observedAt']
             side['recent']=dict(sorted(recent.items(),key=lambda r:stamp(r[1]),reverse=True)[:500])
             save(Path(folder)/'voe-state',side,set(extra['listings']))
+        if confirmed is not None:
+            confirmed.update(url for url in observed if any(p.get('links') for p in side['episodes'][url]['providers']))
     return legacy,count
 
 def fresh_urls(folder,now):

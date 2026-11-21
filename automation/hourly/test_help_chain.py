@@ -171,15 +171,18 @@ class RunIntegrationTests(unittest.TestCase):
   parents={u:u.rsplit('/',2)[0]+'/' for u in trusted}
   episode=lambda u,v:{'episode':u,'complete':True,'observedAt':iso(now),'providers':[{'name':'Mp4upload','family':'mp4upload','links':[v]}]}
   listings={parent:{'series':parent,'complete':True,'observedAt':iso(now),'episodes':[u]} for u,parent in parents.items()}
+  state['episodes'][b]={**episode(b,trusted[b]),'observedAt':iso(now-datetime.timedelta(seconds=1)),'complete':False,'providers':[]}
+  state['listings'][parents[b]]=listings[parents[b]]
   empty={'episodes':{},'listings':{},'pending':[]}
   confirmed={'episodes':{u:episode(u,v) for u,v in trusted.items()},'listings':listings,'pending':[]}
+  partial={'episodes':{b:{**episode(b,trusted[b]),'complete':False},c:episode(c,'https://provider.invalid/embed-c.html')},'listings':listings,'pending':[]}
   data={'schema':1,'episodes':answer(now,b)['episodes']+answer(now,c)['episodes']}
-  next_collection=False
   requests=[]
   def collect(req,**kwargs):
    request=json.loads(req.data);requests.append(request)
    result={'passed':True,'primary':'unavailable','errors':{},'recent':[],'state':empty}
-   if next_collection and set(request['retry'])==set(trusted):result={**result,'state':confirmed}
+   if len(requests)==2:result['state']=partial
+   if len(requests)==4:result['state']=confirmed
    from io import BytesIO
    return BytesIO(json.dumps(result).encode())
   def help_inbox(base,key,path):
@@ -197,15 +200,19 @@ class RunIntegrationTests(unittest.TestCase):
     run.main()
     self.assertFalse((folder/'verification.json').exists())
     self.assertEqual(set(load(folder)['pending']),set(trusted))
-    self.assertEqual(set(load(folder)['episodes']),{a})
+    self.assertEqual(load(folder)['episodes'],state['episodes'])
     run.main()
     self.assertFalse((folder/'verification.json').exists())
     self.assertEqual(set(load(folder)['pending']),set(trusted))
-    next_collection=True
+    self.assertEqual(load(folder)['episodes'],state['episodes'])
+    run.main()
+    self.assertEqual(requests[2]['retry'],[])
+    self.assertTrue(set(trusted).issubset(requests[2]['skip']))
+    saved=load(folder);saved['deferred']={u:0 for u in trusted};save(folder,saved)
     run.main()
    self.assertEqual(requests[0]['retry'],[])
    self.assertEqual(set(requests[1]['retry']),set(trusted))
-   self.assertEqual(set(requests[2]['retry']),set(trusted))
+   self.assertEqual(set(requests[3]['retry']),set(trusted))
    saved=load(folder)
    self.assertEqual(saved['episodes'][a],state['episodes'][a])
    self.assertEqual(saved['pending'],[])

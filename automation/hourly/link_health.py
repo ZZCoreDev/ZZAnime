@@ -75,7 +75,10 @@ def candidates(folder,now,rules):
  meta=Path(folder)/'observations.json';seen=json.loads(meta.read_bytes()).get('newsSeen',{}) if meta.exists() else {}
  news=[u for u,at in sorted(seen.items(),key=lambda r:str(r[1]),reverse=True) if 0<=now-stamp(at)<=7*86400]
  if not rules.get('enabled'):news=[u for u in news if u in rules['proof']]
- parents={u.rsplit('/',2)[0]+'/' for u in news};state=load_parents(folder,parents);side=load_parents(Path(folder)/'voe-state',parents)
+ # The repository's held list determines priority, regardless of how an option was collected.
+ import help_chain
+ held=help_chain.held_chapters() if rules.get('enabled') else []
+ parents={u.rsplit('/',2)[0]+'/' for u in news+held};state=load_parents(folder,parents);side=load_parents(Path(folder)/'voe-state',parents)
  out={}
  for url in news:
   for ep in (state['episodes'].get(url),side['episodes'].get(url)):
@@ -86,26 +89,23 @@ def candidates(folder,now,rules):
    for x in (ep or {}).get('downloads',[]):
     link,name=x.get('url',''),x.get('name','Mega')
     if x.get('family')=='mega' and target('mega',link,rules):out[sha((name+'\0'+link).encode())]={'family':'mega','name':name,'url':link,'episode':url,'download':True}
- # Chapters imported from devices through the held redirect (old OVAs and movies, many Streamtape/VOE/MEGA
- # already deleted) are checked first, like news, at any age.
- if rules.get('enabled'):
-  import help_chain
-  held=[u for u in help_chain.held_chapters()];rows=load_parents(folder,{u.rsplit('/',2)[0]+'/' for u in held})
-  for url in held:
-   ep=rows['episodes'].get(url)
-   if (ep or {}).get('helpEvidence',{}).get('provenance')==help_chain.HELD_PROVENANCE:
-    for k,v in links_of(ep,url,rules).items():out.setdefault(k,v)['held']=True
+ for url in held:
+  for ep in (state['episodes'].get(url),side['episodes'].get(url)):
+   for k,v in links_of(ep,url,rules).items():out.setdefault(k,v)['held']=True
  # extra-state holds few series (new families only) and their servers are the only ones those chapters have:
  # check all of them, any age, not just this week's news.
  extra_root=Path(folder)/'extra-state'
  if (extra_root/'observations.json').exists():
   from archive_state import load as load_all
   extra=load_all(extra_root)
+  held_ids=set(held)
   for url,ep in extra['episodes'].items():
    if not rules.get('enabled') and url not in rules['proof']:continue
    for p in ep.get('extraProviders',[]):
     for link in p.get('links',[]):
-     if target(p.get('family'),link,rules):out.setdefault(sha((p['name']+'\0'+link).encode()),{'family':p['family'],'name':p['name'],'url':link,'episode':url})
+     if target(p.get('family'),link,rules):
+      record=out.setdefault(sha((p['name']+'\0'+link).encode()),{'family':p['family'],'name':p['name'],'url':link,'episode':url})
+      if url in held_ids:record['held']=True
  # Links that two devices reported as not playing (help Worker), any age: checked first, judged as usual.
  reports=Path(folder)/'dead-reports.json'
  if rules.get('enabled') and reports.exists():

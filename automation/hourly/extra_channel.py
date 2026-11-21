@@ -10,7 +10,7 @@ from archive_state import load,save,merge,stamp
 import extra_options
 FOLDER='extra-state'
 JK_NEWS_FOLDER='jk-news-state'
-def split(folder,incoming):
+def split(folder,incoming,*,confirmed=None):
  # Moves extra-only chapters out of `incoming`; extraProviders on chapters with regular providers stay put.
  rest=copy.deepcopy(incoming);extra={'episodes':{},'listings':{}};now=time.time()
  for url,ep in incoming.get('episodes',{}).items():
@@ -18,15 +18,20 @@ def split(folder,incoming):
   if regular or not ep.get('extraProviders'):continue
   parent=url.rsplit('/',2)[0]+'/';listing=incoming.get('listings',{}).get(parent)
   if listing and listing.get('complete') and url in listing.get('episodes',[]) and ep.get('complete') and 0<=now-stamp(ep.get('observedAt'))<=7*86400:
-   extra['episodes'][url]={**ep,'providers':[]};extra['listings'][parent]=listing
+   candidate=extra_options.prune(ep)
+   if candidate['extraProviders']:
+    extra['episodes'][url]={**candidate,'providers':[]};extra['listings'][parent]=listing
   rest['episodes'][url].pop('extraProviders',None)
   if not ep.get('providers'):rest['episodes'].pop(url)
  if not extra['episodes']:return rest,0
  side=load(Path(folder)/FOLDER)
+ observed=set(extra['episodes'])
  for url,ep in list(extra['episodes'].items()):
   old=side['episodes'].get(url)
   if old and stamp(old.get('observedAt'))>=stamp(ep.get('observedAt')):extra['episodes'].pop(url)
  if extra['episodes']:merge(side,extra);save(Path(folder)/FOLDER,side,set(extra['listings']))
+ if confirmed is not None:
+  confirmed.update(url for url in observed if extra_options.prune(side['episodes'][url]).get('extraProviders'))
  return rest,len(extra['episodes'])
 def build(state,now,dead,sha,raw,titles=None,news=None):
  rows={};listings={}
