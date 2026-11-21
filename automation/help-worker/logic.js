@@ -2,7 +2,7 @@
 // devices answer only those, in batches. An option is offered to the cloud only after two devices on
 // two different networks (Cloudflare ASN) sent it and its real file name matches the chapter.
 // No IP, account or device identifier is stored in clear; everything expires after 8 days.
-import {SUBMIT_POLICY_VERSION,submitUrlAllowed} from './submit-policy.js';
+import {SUBMIT_POLICY_VERSION,signalUrlAllowed,submitUrlAllowed} from './submit-policy.js';
 import {boundedText,InspectionPolicyError,MEGA_BYTES} from './bounded-fetch.js';
 import {sessionUser,JwksUnavailable} from './session.js';
 export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
@@ -378,7 +378,7 @@ export async function handle(request,env,store,deps={}){
    // {"schema":1,"device","items":[{"episode","name","url","ok":true|false}]}: played for real or failed for real.
    for(const it of x.items){
     const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
-    if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
+    if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||!signalUrlAllowed(f,link)||typeof it.ok!=='boolean'){if(link)result[link.slice(0,500)]='unsupported';continue;}
     valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,device,voter,ok:it.ok,net,now});
    }
    if(valid.length){const r=await store.play(valid,[[ipKey,Number(env.IP_LIMIT||200),1],...(acctKey?[[acctKey,Number(env.ACCOUNT_LIMIT||100),1]]:[]),['playday:'+day,Math.min(Number(env.PLAY_CAP)||MAX_DAILY_PLAYS,MAX_DAILY_PLAYS),valid.length]],expires,day);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
@@ -388,7 +388,7 @@ export async function handle(request,env,store,deps={}){
    if(!voter)return json({accepted:false,reason:'login'},401);
    for(const it of x.items){
     const name=String(it?.name||''),link=String(it?.url||''),f=family(name)||(/^voe\b/i.test(name.trim())?'voe':'');
-    if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||link.length>500){if(link)result[link.slice(0,500)]='unsupported';continue;}
+    if(!EPISODE.test(it?.episode||'')||!f||name.length>70||!LINK.test(link)||!signalUrlAllowed(f,link)){if(link)result[link.slice(0,500)]='unsupported';continue;}
     valid.push({okey:await sha(name+'\0'+link),episode:it.episode,name,family:f,url:link,asn,voter});
    }
    if(valid.length){const r=await store.dead(valid,limits(valid.length),expires,now);if(r.limited)return json({accepted:false,reason:'limit'},429);Object.assign(result,r.status);}
