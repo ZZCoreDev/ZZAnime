@@ -79,21 +79,31 @@ jobs:
         env:
           PROBE_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: node probe.mjs "$RUNNER_TEMP/probe/assets" "$RUNNER_TEMP/probe/previous.json" "$RUNNER_TEMP/probe/playback-probe.json"
-      - name: Llave del repositorio privado (solo para guardar)
-        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
-        with:
-          repository: ZZCoreDev/ZZAnime-datos
-          ref: provider-data
-          ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
-          path: data-key
-          sparse-checkout: /state/pc-import-status.json
-          sparse-checkout-cone-mode: false
       - name: Guardar el resultado en el repositorio privado (un único commit, se reemplaza)
+        env:
+          ZZ_DATA_DEPLOY_KEY: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
         run: |
-          [ -f "$RUNNER_TEMP/probe/playback-probe.json" ] || exit 0
-          mkdir -p "$RUNNER_TEMP/out" && cp "$RUNNER_TEMP/probe/playback-probe.json" "$RUNNER_TEMP/out/" && cd "$RUNNER_TEMP/out"
-          git init -q && git checkout -q -b playback-probe
-          git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
-          git add playback-probe.json && git commit -q -m 'Resultado del probador de reproducción'
-          ssh=$(git -C "$GITHUB_WORKSPACE/data-key" config --get core.sshCommand)
-          git -c core.sshCommand="$ssh" push -q -f git@github.com:ZZCoreDev/ZZAnime-datos.git HEAD:playback-probe
+          set -euo pipefail
+          report="$RUNNER_TEMP/probe/playback-probe.json"
+          [[ ! -L "$report" ]] || exit 1
+          [[ -f "$report" ]] || exit 0
+          : "${ZZ_DATA_DEPLOY_KEY:?Missing private repository deploy key}"
+
+          umask 077
+          publish_dir=$(mktemp -d "$RUNNER_TEMP/playback-publish.XXXXXX")
+          trap 'rm -rf -- "$publish_dir"' EXIT
+          printf '%s\n' "$ZZ_DATA_DEPLOY_KEY" > "$publish_dir/deploy_key"
+          unset ZZ_DATA_DEPLOY_KEY
+          # GitHub's official SSH host key. Reject other keys instead of accepting them on first use.
+          printf '%s\n' 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' > "$publish_dir/known_hosts"
+
+          mkdir "$publish_dir/repo"
+          cd "$publish_dir/repo"
+          cp -- "$report" playback-probe.json
+          git init -q
+          git config user.name 'ZZAnime automation'
+          git config user.email 'automation@users.noreply.github.com'
+          git add -- playback-probe.json
+          git commit -q -m 'Resultado del probador de reproducción'
+          GIT_SSH_COMMAND='ssh -F /dev/null -o BatchMode=yes -o IdentitiesOnly=yes -o IdentityAgent=none -o StrictHostKeyChecking=yes -o HostKeyAlgorithms=ssh-ed25519 -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=../known_hosts -i ../deploy_key' \
+            git push -q --force git@github.com:ZZCoreDev/ZZAnime-datos.git HEAD:refs/heads/playback-probe
