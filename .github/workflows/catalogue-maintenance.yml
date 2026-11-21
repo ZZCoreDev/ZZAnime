@@ -16,17 +16,20 @@ jobs:
   refresh:
     permissions:
       contents: write
-    if: github.repository == 'ZZCoreDev/ZZAnime' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_CATALOGUE_ENABLED == 'true')
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main' && github.event.repository.private == false && (inputs.proof == true || vars.ZZ_CATALOGUE_ENABLED == 'true')
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
+          ref: ${{ github.sha }}
           path: code
+          persist-credentials: false
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
           ref: catalogue-data
           path: data
+          persist-credentials: false
       - name: Pruebas deterministas
         working-directory: code/automation/catalogue
         run: python3 test_collect.py
@@ -40,6 +43,8 @@ jobs:
       - name: Conservar datos, fallos y siguiente reintento
         if: always()
         working-directory: data
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'ZZAnime automation'
           git config user.email 'automation@users.noreply.github.com'
@@ -48,5 +53,6 @@ jobs:
           done
           if ! git diff --cached --quiet; then
             git commit -m 'Guardar evidencias y reintentos del catálogo sin IA'
-            git push origin HEAD:catalogue-data
+            auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+            ZZ_GIT_AUTH="AUTHORIZATION: basic $auth" git --config-env=http.https://github.com/.extraheader=ZZ_GIT_AUTH push origin HEAD:catalogue-data
           fi
