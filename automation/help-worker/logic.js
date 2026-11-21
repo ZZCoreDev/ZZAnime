@@ -208,9 +208,16 @@ export class Store{
   const dailyKey='playday:'+day, daily=limits.find(([key])=>key===dailyKey);
   const account=limits.find(([key])=>key.startsWith('acct:'));
   if(!this.take(limits.filter(([key])=>key!==dailyKey),expires))return {limited:true};
-  const rowLimits=[daily,account&&['playrows:'+account[0],account[1]]].filter(Boolean);
-  const available=Math.min(...rowLimits.map(([key,limit])=>
-   limit-(this.rows('SELECT n FROM counters WHERE k=?',key)[0]?.n||0)));
+  const globalRowsKey='playrows:day:'+day;
+  const rowLimits=[daily&&[globalRowsKey,daily[1]],account&&['playrows:'+account[0],account[1]]].filter(Boolean);
+  const available=Math.min(...rowLimits.map(([key,limit])=>{
+   const counter=this.rows('SELECT n FROM counters WHERE k=?',key)[0];
+   if(counter||key!==globalRowsKey)return limit-(counter?.n||0);
+   // The pre-rollout playday counter included requests that wrote no row.
+   const {n}=this.rows('SELECT COUNT(*) AS n FROM plays WHERE day=?',day)[0];
+   this.sql.exec('INSERT INTO counters(k,n,expires) VALUES(?,?,?)',key,n,expires);
+   return limit-n;
+  }));
   const status={};let added=0;
   for(const it of items){
    const r=this.rows('SELECT ok,fail,net,voter FROM plays WHERE okey=? AND device=? AND day=?',it.okey,it.device,day)[0],ok=it.ok?1:0,fail=it.ok?0:1;
