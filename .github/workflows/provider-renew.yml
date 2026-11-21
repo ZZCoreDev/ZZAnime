@@ -18,6 +18,9 @@ on:
         description: 'Renovar únicamente las dos muestras antes de ampliar'
         type: boolean
         default: true
+      import_sha256:
+        description: 'SHA-256 del lote autorizado en origen (pc-import o recovered-import)'
+        type: string
 permissions: {}
 jobs:
   renew:
@@ -116,6 +119,7 @@ jobs:
           ZZ_LEGACY_SERIES: ${{ vars.ZZ_LEGACY_SERIES || 'closed' }}
           ZZ_RENEW_PROOF: ${{ inputs.proof }}
           ZZ_RENEW_SAMPLE_GROUP: ${{ inputs.sample_group }}
+          ZZ_IMPORT_SHA256: ${{ inputs.import_sha256 }}
           ZZ_NEWS_WATCHDOG_ENABLED: 'true'
         run: |
           # pc-import: the PC's continuous JK copy, one batch in branch pc-import of the private data repo (replaced on each send, no history).
