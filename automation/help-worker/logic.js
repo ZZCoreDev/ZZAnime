@@ -10,7 +10,7 @@ export const EPISODE=/^https:\/\/jkanime\.net\/[a-zA-Z0-9_-]+\/[1-9][0-9]*\/$/;
 const MIN_DEVICE_AGE=24*3600000,NEW_DEVICES_PER_NET=5,SIGNAL_POLICY={evidencePolicy:'network-v2',basis:'independent-networks',minDeviceAgeHours:24};
 const MAX_DAILY_PLAYS=20000;
 const DAY=86400000,KEEP=8*DAY,RECHECK=6*3600000,MAX_ITEMS=20,MAX_OPTIONS=8,MAX_INSPECT=30,MAX_WANTED=400,WANTED_TTL=120000,ENOUGH_OPTIONS=2;
-const ACCEPTED=new Set(['name-match','quorum3']);
+const ACCEPTED=new Set(['name-match','quorum3']); // Keep existing decisions readable until they expire.
 const STOP=new Set(['the','and','season','temporada','part','movie','hen']);
 const enc=new TextEncoder();
 export const iso=t=>new Date(t).toISOString();
@@ -160,7 +160,6 @@ export class Store{
     if(!Store.quorum(t,sameAsnZones))continue;
     const previous=decided.get(t.okey),d=previous&&currentDecision(previous)?previous:null,c={episode:it.episode,okey:t.okey,name:t.name,family:t.family,url:t.url,devices:Math.min(t.devices.size,t.voters.size),asns:Store.paired(t,'asns'),zones:Store.paired(t,'zones'),first:t.first};
     if(d&&d.verdict!=='unknown')continue;
-    if(d&&t.family!=='mega'&&c.asns>=3){this.decide([{...c,verdict:'unknown',policy:SUBMIT_POLICY_VERSION}],now);continue;}
     if(d&&now-d.checked<RECHECK)continue;
     inspect.push(c);
    }
@@ -170,7 +169,7 @@ export class Store{
  decide(results,now){
   for(const r of results){
    const safe=optionAllowed(r)&&r.policy===SUBMIT_POLICY_VERSION;
-   const verdict=!safe?'policy-rejected':r.verdict==='match'?'name-match':r.verdict==='unknown'&&r.family!=='mega'&&r.asns>=3?'quorum3':r.verdict;
+   const verdict=!safe?'policy-rejected':r.verdict==='match'?'name-match':r.verdict;
    this.sql.exec('INSERT OR REPLACE INTO decided(episode,okey,name,family,url,devices,asns,first,verdict,checked,zones,policy) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',r.episode,r.okey,r.name,r.family,r.url,r.devices,r.asns,r.first,verdict,now,r.zones||0,safe?SUBMIT_POLICY_VERSION:'');
   }
   return results.length;
@@ -417,7 +416,7 @@ export async function handle(request,env,store,deps={}){
    if(r.limited){await store.note(day,{limited:1},expires);return json({accepted:false,reason:'limit'},429);}
    Object.assign(result,r.status);const done=[];
    for(const c of r.inspect.slice(0,MAX_INSPECT)){
-    // A same-network quorum (asns<2) can only pass on a matching file name: decide() needs 3 networks for quorum3.
+    // Independent reports trigger inspection. Only matching metadata can authorize a new option.
     done.push({...c,...await inspect(c,wanted.get(c.episode),fetcher)});
    }
    if(done.length)await store.decide(done,now);
