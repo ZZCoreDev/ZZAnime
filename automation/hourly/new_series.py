@@ -4,10 +4,13 @@ exist under that same slug with the same exact title, and no catalogue series ha
 7 days. The collector then reads its chapters from TioAnime/AnimeFLV as for any catalogue series."""
 from pathlib import Path
 import html,json,re,time,urllib.request,urllib.error
+from no_redirect import NO_REDIRECT
 FILE='new-series.json'
 LIMIT=3
 WAIT=7*86400
 UA='ZZAnime-Data/1'
+SOURCE_URL=re.compile(r'https://(?:tioanime\.com|vww\.animeflv\.one)/anime/[a-z0-9-]{2,120}')
+SERIES_URL=re.compile(r'https://jkanime\.net/([a-z0-9-]{2,120})/')
 
 def load(folder):
     path=Path(folder)/FILE
@@ -17,9 +20,10 @@ def rows(folder):
     return [{'url':url,'title':r['title'],'year':None} for url,r in sorted(load(folder)['accepted'].items())]
 
 def fetch(url):
+    if not isinstance(url,str) or not SOURCE_URL.fullmatch(url):return 400,url,''
     req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html'})
     try:
-        with urllib.request.urlopen(req,timeout=25) as r:return r.status,r.geturl(),r.read(600000).decode('utf-8','replace')
+        with NO_REDIRECT.open(req,timeout=25) as r:return r.status,r.geturl(),r.read(600000).decode('utf-8','replace')
     except urllib.error.HTTPError as e:return e.code,url,''
 
 def norm(text):return re.sub(r'\s+',' ',html.unescape(text or '')).strip().casefold()
@@ -41,8 +45,12 @@ def verify(folder,slugs,catalogue,now=None,fetcher=fetch,sleep=time.sleep):
     # Accepted before chapters were queued (9/11/2026): read TioAnime's episode list once.
     for url,r in data['accepted'].items():
         if 'episodes' in r or checked>=LIMIT:continue
-        checked+=1;status,final,tio=fetcher(r['tio']);sleep(3)
-        if status==200 and final==r['tio']:numbers=episodes(tio);r['episodes']=len(numbers);chapters+=[url+str(n)+'/' for n in numbers]
+        match=SERIES_URL.fullmatch(url)
+        if not match:continue
+        tio_url='https://tioanime.com/anime/'+match[1]
+        if r.get('tio')!=tio_url:continue
+        checked+=1;status,final,tio=fetcher(tio_url);sleep(3)
+        if status==200 and final==tio_url:numbers=episodes(tio);r['episodes']=len(numbers);chapters+=[url+str(n)+'/' for n in numbers]
     for slug in slugs:
         url='https://jkanime.net/'+slug+'/'
         if checked>=LIMIT or not re.fullmatch(r'[a-z0-9-]{2,120}',slug) or url in known or url in data['accepted'] or data['rejected'].get(url,{}).get('retryAt',0)>now:continue
