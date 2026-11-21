@@ -13,14 +13,20 @@ const MAX_FRAMES=16;
 export async function probeOne(browser,origin,target){
  const context=await browser.newContext({viewport:{width:1280,height:720}});const page=await context.newPage();
  context.on('page',p=>{if(p!==page)p.close().catch(()=>{});});            // ad pop-ups: closed, never followed
- let status=null,blocked=false;
+ let status=null,blocked=false,initialEmbedLoaded=false,embedChanged=false;
+ page.on('framenavigated',frame=>{
+  if(frame.parentFrame()!==page.mainFrame())return;
+  if(initialEmbedLoaded)embedChanged=true;
+  else if(frame.url()!=='about:blank')initialEmbedLoaded=true;
+ });
  page.on('response',r=>{
   try{
    const request=r.request();
    if(!request.isNavigationRequest()||r.url()!==target.embed&&request.frame()?.parentFrame()!==page.mainFrame())return;
    const code=r.status();
    if(code>=300&&code<400)return;
-   status=code;
+   if(status!==null)embedChanged=true;
+   status??=code;
    if(code===403||code===429||r.headers()['cf-mitigated']==='challenge')blocked=true;
   }catch{} // A response may precede creation of its frame or belong to a worker.
  });
@@ -37,8 +43,9 @@ export async function probeOne(browser,origin,target){
     for(const frame of frames)for(const sel of PLAY){if(!hit&&Date.now()<deadline&&await frame.click(sel,{timeout:500}).then(()=>true).catch(()=>false))hit=true;}
     if(!hit&&box)await page.mouse.click(box.x+box.width/2,box.y+box.height/2).catch(()=>{});clicks++;
    }
-   // Only the embed's own frame: nested ad frames often say «Not found» and must not mark a file deleted.
+   // Only the initial embed document can confirm deletion.
    for(const frame of frames.filter(f=>f.parentFrame()===page.mainFrame())){
+    if(embedChanged)break;
     const evidence=await frame.evaluate(({gonePattern,blockPattern})=>{
      let text=document.title.slice(0,512);
      if(document.body){
@@ -53,8 +60,10 @@ export async function probeOne(browser,origin,target){
      }
      return {gone:new RegExp(gonePattern,'i').test(text),blocked:new RegExp(blockPattern,'i').test(text)};
     },{gonePattern:GONE.source,blockPattern:BLOCK.source}).catch(()=>null);
-    gone=gone||evidence?.gone===true;
-    blocked=blocked||status===503&&evidence?.blocked===true;
+    if(!embedChanged){
+     gone=gone||evidence?.gone===true;
+     blocked=blocked||status===503&&evidence?.blocked===true;
+    }
    }
    for(const frame of frames){
     const t=await frame.evaluate(()=>{
