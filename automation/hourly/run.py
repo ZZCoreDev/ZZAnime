@@ -109,7 +109,13 @@ def build(state,approved,now,allow_voe=False,plays=None,marks=None,dead=None,meg
  import signal_policy
  if plays and signal_policy.fresh(plays,now):
   import plays as play_votes
-  ranking,scores=play_votes.ranking(plays,set(rows),titles),play_votes.scores(plays)
+  published_options={
+   sha((option['name']+'\0'+option['url']).encode())
+   for episodes in rows.values() for episode in episodes
+   for group in ('options','extraOptions') for option in episode.get(group,[])
+  }
+  ranking=play_votes.ranking(plays,set(rows),titles)
+  scores=play_votes.scores(plays,published_options)
   if ranking is not None:index['ranking']=ranking
   if scores is not None:index['playScores']=scores
  if marks and signal_policy.fresh(marks,now):
