@@ -161,7 +161,7 @@ class RenewalTests(unittest.TestCase):
         now,parent,url,state=self.fixture();second='https://jkanime.net/dark-summoner-to-dekiteiru/4/';sp=second.rsplit('/',2)[0]+'/'
         state['episodes'][second]=copy.deepcopy(state['episodes'][url]);state['listings'][sp]={'complete':True,'observedAt':state['episodes'][url]['observedAt'],'episodes':[second]}
         incoming=copy.deepcopy(self.fixture(0)[3]);fresh=incoming['episodes'][url]['observedAt'];link=incoming['episodes'][url]['providers'][0]['links'][0];key=run.sha(('Mp4upload\0'+link).encode())
-        incoming['episodes'][second]={'complete':True,'observedAt':fresh,'providers':[],'extraProviders':[{'family':'yourupload','name':'YourUpload','links':['https://www.yourupload.com/embed/abc123']}]};incoming['listings'][sp]={'complete':True,'observedAt':fresh,'episodes':[second]}
+        incoming['episodes'][second]={'episode':second,'complete':True,'observedAt':fresh,'providers':[],'extraProviders':[{'family':'yourupload','name':'YourUpload','links':['https://www.yourupload.com/embed/abc123']}]};incoming['listings'][sp]={'series':sp,'complete':True,'observedAt':fresh,'episodes':[second]}
         class Response:
             def __enter__(self):return self
             def __exit__(self,*args):pass
@@ -178,7 +178,7 @@ class RenewalTests(unittest.TestCase):
                 self.assertEqual(missing_targets(alone,{},now.timestamp(),side),[]);self.assertEqual(missing_targets(alone,{},now.timestamp()+86401,side),[second]);self.assertEqual(missing_targets(alone,{},now.timestamp()),[second])
     def fixture(self,age=2):
         now=datetime.datetime.now(datetime.timezone.utc);parent='https://jkanime.net/psyren/';url=parent+'4/';observed=(now-datetime.timedelta(days=age)).isoformat()
-        return now,parent,url,{'schema':1,'episodes':{url:{'complete':True,'observedAt':observed,'providers':[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-test.html']}]}},'listings':{parent:{'complete':True,'observedAt':observed,'episodes':[parent+str(n)+'/' for n in range(1,5)]}},'pending':[]}
+        return now,parent,url,{'schema':1,'episodes':{url:{'episode':url,'complete':True,'observedAt':observed,'providers':[{'family':'mp4upload','name':'Mp4upload','links':['https://www.mp4upload.com/embed-test.html']}]}},'listings':{parent:{'series':parent,'complete':True,'observedAt':observed,'episodes':[parent+str(n)+'/' for n in range(1,5)]}},'pending':[]}
     def temporary(self):
         path=Path(__file__).parent/'test-runtime';path.mkdir(exist_ok=True)
         return tempfile.TemporaryDirectory(dir=path)

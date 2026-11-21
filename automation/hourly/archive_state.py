@@ -1,8 +1,10 @@
 """Sharded observed state, shared by news and renewal; never invent observation dates."""
 from pathlib import Path, PureWindowsPath
-import datetime,gzip,hashlib,io,json,tempfile
+import datetime,gzip,hashlib,io,json,re,tempfile
 
 MAX_SHARD_BYTES = 32 * 1024 * 1024
+JK_SERIES = re.compile(r'https://jkanime\.net/[A-Za-z0-9_-]+/')
+JK_EPISODE = re.compile(JK_SERIES.pattern+r'([1-9][0-9]{0,15})/')
 
 
 def read_shard(source):
@@ -20,6 +22,14 @@ def require_series(series,episodes):
         raise ValueError('Observation belongs to another series')
 
 
+def canonical_episode(url):
+    if not isinstance(url,str):
+        return False
+    match=JK_EPISODE.fullmatch(url)
+    # The collector represents chapter numbers as JavaScript integers.
+    return match is not None and int(match[1])<=2**53-1
+
+
 def validate_collected_series(state):
     if not isinstance(state,dict):
         raise ValueError('Missing collector state')
@@ -27,15 +37,21 @@ def validate_collected_series(state):
     if not isinstance(episodes,dict) or not isinstance(listings,dict):
         raise ValueError('Invalid collector state')
     for series,listing in listings.items():
-        if not isinstance(listing,dict) or listing.get('series',series)!=series or not isinstance(listing.get('episodes'),list):
+        if not isinstance(series,str) or not JK_SERIES.fullmatch(series) or not isinstance(listing,dict) or listing.get('series')!=series:
             raise ValueError('Invalid collector listing')
-        require_series(series,listing['episodes'])
+        chapters=listing.get('episodes')
+        if not isinstance(chapters,list) or not all(canonical_episode(url) for url in chapters):
+            raise ValueError('Invalid chapter in collector listing')
+        require_series(series,chapters)
     for url,episode in episodes.items():
-        if not isinstance(url,str) or not isinstance(episode,dict) or episode.get('episode',url)!=url:
+        if not canonical_episode(url) or not isinstance(episode,dict) or episode.get('episode')!=url:
             raise ValueError('Invalid collector episode identity')
         parent=url.rsplit('/',2)[0]+'/'
         if parent not in listings or url not in listings[parent]['episodes']:
             raise ValueError('Collector episode is absent from its own listing')
+    pending=state.get('pending',[])
+    if not isinstance(pending,list) or not all(canonical_episode(url) for url in pending):
+        raise ValueError('Invalid pending collector chapter')
 
 
 def state_path(folder, name):
