@@ -9,42 +9,83 @@ const PAUSE=Number(process.env.PROBE_PAUSE_MS||20000),WAIT=Number(process.env.PR
 const GONE=/File not found|File was deleted|no longer available|has been deleted|We can.t find the video|Video not found|404 - Not found|Content Invalid|File does not exist/i;
 const PLAY=['.jw-icon-display','.jw-display-icon-container','.vjs-big-play-button','.plyr__control--overlaid','button[aria-label*="Play" i]','.play-button','#play'];
 const BLOCK=/cf-chl|Just a moment|Attention Required|Access denied|you have been blocked|captcha/i;
+const MAX_FRAMES=16;
 export async function probeOne(browser,origin,target){
  const context=await browser.newContext({viewport:{width:1280,height:720}});const page=await context.newPage();
  context.on('page',p=>{if(p!==page)p.close().catch(()=>{});});            // ad pop-ups: closed, never followed
  let status=null,blocked=false;
- page.on('response',async r=>{
+ page.on('response',r=>{
   try{
-   if(r.url()!==target.embed&&(!r.request().isNavigationRequest()||r.request().frame()?.parentFrame()!==page.mainFrame()))return;
-   status=status??r.status();
-   if([403,429,503].includes(r.status())){
-    try{blocked=blocked||BLOCK.test(await r.text())||r.status()===403}catch{blocked=true}
-   }
+   const request=r.request();
+   if(!request.isNavigationRequest()||r.url()!==target.embed&&request.frame()?.parentFrame()!==page.mainFrame())return;
+   const code=r.status();
+   if(code>=300&&code<400)return;
+   status=code;
+   if(code===403||code===429||r.headers()['cf-mitigated']==='challenge')blocked=true;
   }catch{} // A response may precede creation of its frame or belong to a worker.
  });
  const result={episode:target.episode,observedAt:target.observedAt,name:target.name,url:target.url,embed:target.embed};
- try{
+ const inspect=async()=>{
   await page.goto(origin+'/probe.html?src='+encodeURIComponent(target.embed),{waitUntil:'domcontentloaded',timeout:30000});
-  const box=await (await page.$('iframe')).boundingBox();await page.waitForTimeout(8000);
+  const box=await page.locator('iframe').boundingBox({timeout:5000});await page.waitForTimeout(8000);
   let start=null,best=0,gone=[404,410].includes(status);const deadline=Date.now()+WAIT;let clicks=0;
-  while(Date.now()<deadline&&!gone){
+  while(Date.now()<deadline&&!gone&&!blocked){
+   const frames=page.frames().slice(1,1+MAX_FRAMES);
    if(clicks<5&&best===0){
     // Players such as jwplayer only start from their own overlay; ad layers swallow the first clicks.
     let hit=false;
-    for(const frame of page.frames().slice(1))for(const sel of PLAY){if(!hit&&await frame.click(sel,{timeout:500}).then(()=>true).catch(()=>false))hit=true;}
-    if(!hit)await page.mouse.click(box.x+box.width/2,box.y+box.height/2).catch(()=>{});clicks++;
+    for(const frame of frames)for(const sel of PLAY){if(!hit&&Date.now()<deadline&&await frame.click(sel,{timeout:500}).then(()=>true).catch(()=>false))hit=true;}
+    if(!hit&&box)await page.mouse.click(box.x+box.width/2,box.y+box.height/2).catch(()=>{});clicks++;
    }
    // Only the embed's own frame: nested ad frames often say «Not found» and must not mark a file deleted.
-   for(const frame of page.frames().filter(f=>f.parentFrame()===page.mainFrame())){if(await frame.evaluate(re=>new RegExp(re,'i').test((document.title||'')+' '+(document.body?.innerText||'').slice(0,4000)),GONE.source).catch(()=>false)){gone=true;}}
-   for(const frame of page.frames()){
-    const t=await frame.evaluate(()=>{const v=[...document.querySelectorAll('video')].sort((a,b)=>b.currentTime-a.currentTime)[0];if(!v)return null;if(v.paused&&v.readyState>=2){v.muted=true;v.play().catch(()=>{});}return v.currentTime;}).catch(()=>null);
+   for(const frame of frames.filter(f=>f.parentFrame()===page.mainFrame())){
+    const evidence=await frame.evaluate(({gonePattern,blockPattern})=>{
+     let text=document.title.slice(0,512);
+     if(document.body){
+      const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+      for(let i=0;i<64&&text.length<4096;i++){
+       const node=walker.nextNode();
+       if(!node)break;
+       const parent=node.parentElement;
+       if(!parent||['SCRIPT','STYLE','NOSCRIPT'].includes(parent.tagName)||parent.checkVisibility?.({checkVisibilityCSS:true})===false)continue;
+       text+=' '+node.substringData(0,Math.max(0,4095-text.length));
+      }
+     }
+     return {gone:new RegExp(gonePattern,'i').test(text),blocked:new RegExp(blockPattern,'i').test(text)};
+    },{gonePattern:GONE.source,blockPattern:BLOCK.source}).catch(()=>null);
+    gone=gone||evidence?.gone===true;
+    blocked=blocked||status===503&&evidence?.blocked===true;
+   }
+   for(const frame of frames){
+    const t=await frame.evaluate(()=>{
+     const videos=document.getElementsByTagName('video');
+     let selected=null;
+     for(let i=0;i<16;i++){
+      const video=videos.item(i);
+      if(!video)break;
+      if(!selected||video.currentTime>selected.currentTime)selected=video;
+     }
+     if(!selected)return null;
+     if(selected.paused&&selected.readyState>=2){selected.muted=true;selected.play().catch(()=>{});}
+     return selected.currentTime;
+    }).catch(()=>null);
     if(typeof t==='number'){if(start===null)start=t;best=Math.max(best,t-start);}
    }
    if(best>ADVANCE)break;await page.waitForTimeout(2000);
   }
-  Object.assign(result,{status,advanced:Math.round(best*10)/10,state:best>ADVANCE?'played':blocked?'blocked-from-github':gone||[404,410].includes(status)?'gone':start===null?'no-video':'not-advancing'});
- }catch(error){Object.assign(result,{status,state:blocked?'blocked-from-github':'error',reason:String(error.message||error).slice(0,160)});}
- await context.close();return result;
+  return {status,advanced:Math.round(best*10)/10,state:best>ADVANCE?'played':blocked?'blocked-from-github':gone||[404,410].includes(status)?'gone':start===null?'no-video':'not-advancing'};
+ };
+ let timer;
+ try{
+  const timeout=new Promise((_,reject)=>{timer=setTimeout(()=>reject(new Error('Playback probe timed out')),WAIT+45000);});
+  Object.assign(result,await Promise.race([inspect(),timeout]));
+ }catch(error){
+  Object.assign(result,{status,state:blocked?'blocked-from-github':'error',reason:String(error.message||error).slice(0,160)});
+ }finally{
+  clearTimeout(timer);
+  await context.close();
+ }
+ return result;
 }
 export function serve(){
  return new Promise(resolve=>{const s=http.createServer((req,res)=>{const u=new URL(req.url,'http://x');
