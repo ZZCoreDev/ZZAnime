@@ -1,21 +1,27 @@
 """Capability-isolated signed additions. Legacy observations are never replaced by VOE."""
 from pathlib import Path
-import copy,datetime,gzip,hashlib,json,os,re,subprocess,time,urllib.request
-from archive_state import load,save,merge,stamp
+import copy,datetime,hashlib,json,os,re,subprocess,time,urllib.request
+from archive_state import MAX_SHARD_BYTES,load,merge,read_shard,require_series,save,stamp,state_path
 from no_redirect import NO_REDIRECT
 
 PROOF=['https://jkanime.net/sasaki-to-pii-chan-season-2/4/','https://jkanime.net/sekai-saikyou-no-majo-hajimemashita/4/']
 LEAD_AGE=5*86400
 
 def load_parents(folder,parents):
-    folder=Path(folder);meta=folder/'observations.json'
+    folder=Path(folder);meta=state_path(folder,'observations.json')
     state=json.loads(meta.read_bytes()) if meta.exists() else {'schema':1,'episodes':{},'listings':{},'pending':[]}
     if state.get('episodes'):return load(folder)
+    shards=state_path(folder,'series-state')
     for parent in parents:
-        path=folder/'series-state'/(hashlib.sha256(parent.encode()).hexdigest()+'.json.gz')
+        path=state_path(shards,hashlib.sha256(parent.encode()).hexdigest()+'.json.gz')
         if not path.exists():continue
-        row=json.loads(gzip.decompress(path.read_bytes()))
+        if not path.is_file():raise ValueError('VOE state must be a regular file')
+        with path.open('rb') as source:
+            if os.fstat(source.fileno()).st_size>MAX_SHARD_BYTES:raise ValueError('VOE state exceeds its compressed size limit')
+            row=read_shard(source)
         if row['series']!=parent:raise ValueError('VOE state identity mismatch')
+        require_series(parent,row['episodes'])
+        require_series(parent,row['listing']['episodes'])
         merge(state,{'episodes':row['episodes'],'listings':{parent:row['listing']}})
     return state
 
