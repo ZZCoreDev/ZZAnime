@@ -16,17 +16,26 @@ on:
     - cron: '17 6 * * 2'
     - cron: '47 15 * * 2'
   workflow_dispatch:
+    inputs:
+      verify_only:
+        description: 'Comprobar el volcado cifrado sin guardar una copia'
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
-  group: supabase-backup
+  group: ${{ (github.ref != 'refs/heads/main' || inputs.verify_only == true) && 'supabase-backup-proof' || 'supabase-backup' }}
   cancel-in-progress: false
 jobs:
   backup:
+    if: github.repository == 'ZZCoreDev/ZZAnime' && (github.ref == 'refs/heads/main' || (github.event_name == 'workflow_dispatch' && github.ref_type == 'branch' && github.actor == 'ZZCoreDev' && github.triggering_actor == 'ZZCoreDev'))
     runs-on: ubuntu-24.04
     timeout-minutes: 40
+    env:
+      VERIFY_ONLY: ${{ github.ref != 'refs/heads/main' || inputs.verify_only == true }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        if: env.VERIFY_ONLY != 'true'
         with:
           repository: ZZCoreDev/ZZAnime-datos
           ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
@@ -38,6 +47,7 @@ jobs:
           EVENT: ${{ github.event_name }}
         run: |
           set -euo pipefail
+          if [ "$VERIFY_ONLY" = true ]; then echo 'Prueba de copia sin guardar el resultado.'; echo run=1 >> "$GITHUB_OUTPUT"; exit 0; fi
           if [ "$EVENT" != schedule ]; then echo 'Lanzada a mano: se copia siempre.'; echo run=1 >> "$GITHUB_OUTPUT"; exit 0; fi
           cd datos
           LAST=''
@@ -68,7 +78,27 @@ jobs:
           umask 077
           [ -n "$DB_URL" ] && [ -n "$PASS" ] || { echo 'Faltan las llaves de la copia (Poner-llave-copia-supabase.cmd).'; exit 1; }
           [ ${#PASS} -ge 12 ] || { echo 'La contraseña de la copia es demasiado corta.'; exit 1; }
-          BIN=/usr/lib/postgresql/17/bin; NAME="supabase-$(date -u +%Y%m%d-%H%M).dump"; WORK=$(mktemp -d); mkdir -p out
+          # Los parámetros de la URI tienen prioridad sobre los valores de entorno de libpq.
+          DB_URL=$(python3 - <<'PY'
+          import os
+          from urllib.parse import parse_qsl, urlencode, urlsplit
+
+          tls = {'sslmode': 'verify-full', 'sslrootcert': 'system', 'gssencmode': 'disable'}
+          try:
+              uri = urlsplit(os.environ['DB_URL'])
+              if uri.scheme not in ('postgres', 'postgresql') or not uri.hostname:
+                  raise ValueError
+              params = [(key, value) for key, value in parse_qsl(uri.query, keep_blank_values=True) if key not in tls]
+              print(uri._replace(query=urlencode(params + list(tls.items()))).geturl())
+          except ValueError:
+              raise SystemExit('Formato no válido para la URI de la copia.') from None
+          PY
+          )
+          BIN=/usr/lib/postgresql/17/bin; NAME="supabase-$(date -u +%Y%m%d-%H%M).dump"; WORK=$(mktemp -d)
+          trap 'rm -rf -- "$WORK"' EXIT
+          OUT=out
+          if [ "$VERIFY_ONLY" = true ]; then OUT="$WORK/out"; fi
+          mkdir -p "$OUT"
           # Esquemas propios y las cuentas (auth); si las cuentas no se pudieran leer, la copia sigue sin ellas y lo dice.
           if "$BIN/pg_dump" "$DB_URL" -Fc --no-owner -n public -n zz_editor -n zz_security -n auth -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=completa
           elif "$BIN/pg_dump" "$DB_URL" -Fc --no-owner -n public -n zz_editor -n zz_security -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=sin-cuentas; mv "$WORK/$NAME" "$WORK/${NAME%.dump}-parcial.dump"; NAME="${NAME%.dump}-parcial.dump"
@@ -76,15 +106,14 @@ jobs:
             grep -oiE 'password authentication failed|Tenant or user not found|could not translate host name|Network is unreachable|Connection refused|timeout expired|server version mismatch|aborting because of server version mismatch|permission denied for [a-z]+ [a-z_]+|SSL [a-z ]+|invalid URI query parameter|missing "=" after|invalid integer value|too many connections|circuit breaker[a-z ]*' "$WORK/err" | sort -u | head -5 || true
             exit 1; fi
           "$BIN/pg_restore" --list "$WORK/$NAME" > "$WORK/list"
-          openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -salt -in "$WORK/$NAME" -out "out/$NAME.enc" -pass env:PASS
+          openssl enc -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -salt -in "$WORK/$NAME" -out "$OUT/$NAME.enc" -pass env:PASS
           # comprobar que se descifra con la misma contraseña y que es idéntica
-          openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -in "out/$NAME.enc" -out "$WORK/check" -pass env:PASS
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -md sha256 -in "$OUT/$NAME.enc" -out "$WORK/check" -pass env:PASS
           cmp -s "$WORK/check" "$WORK/$NAME" || { echo 'La copia cifrada no coincide.'; exit 1; }
-          echo "$SCOPE" > out/scope
-          echo "Copia $SCOPE: $(stat -c %s "out/$NAME.enc") bytes cifrados, $(grep -c 'TABLE DATA' "$WORK/list") tablas con datos."
-          rm -rf "$WORK"
+          echo "$SCOPE" > "$OUT/scope"
+          echo "Copia $SCOPE con TLS verificado: $(stat -c %s "$OUT/$NAME.enc") bytes cifrados, $(grep -c 'TABLE DATA' "$WORK/list") tablas con datos."
       - name: Guardar en el repositorio privado (4 últimas)
-        if: steps.due.outputs.run == '1'
+        if: steps.due.outputs.run == '1' && env.VERIFY_ONLY != 'true'
         run: |
           set -euo pipefail
           cd datos
