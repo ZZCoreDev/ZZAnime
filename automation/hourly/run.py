@@ -157,8 +157,9 @@ def main():
  if '--collect' in sys.argv:
   # Collection failure keeps already observed valid data; retry on the next hourly invocation.
   if os.environ.get('ZZ_COLLECTOR_URL'):
-   import urllib.request,urllib.error,new_series
+   import urllib.request,urllib.error,new_series,help_chain
    state=load_observations(D)
+   held_chapters=set(help_chain.held_chapters())
    incidents_path=D/'news-incidents.json';incidents=json.loads(incidents_path.read_bytes()) if incidents_path.exists() else {};primary='not-checked'
    instant=datetime.datetime.now(datetime.timezone.utc)
    put(D/'collection-status.json',raw({'state':'checking','lastAttempt':instant.isoformat().replace('+00:00','Z'),'retryMinutes':RETRY_SECONDS//60}))
@@ -216,13 +217,13 @@ def main():
     put(incidents_path,raw(incidents))
     for url in newly_deferred:deferred[url]=instant.timestamp()
     for url,ep in result['state']['episodes'].items():
-     if url not in scope_rejected or url in incoming['episodes']:state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
+     if url not in held_chapters and (url not in scope_rejected or url in incoming['episodes']):state.setdefault('newsSeen',{}).setdefault(url,ep['observedAt'])
     merge_observations(state,incoming);before_seen=len(state.get('newsSeen',{}));record_recent(state,result.get('recent',[]),instant);recent_added+=len(state.get('newsSeen',{}))-before_seen;state['pending']=sorted((set(state.get('pending',[]))|set(incoming.get('pending',[])))-received);save_observations(D,state,set(incoming['listings']));put(D/'collection-status.json',raw({'state':'complete','coverage':'partial' if incidents else 'collected-candidates','checkedAt':instant.isoformat().replace('+00:00','Z'),'primary':primary,'held':result.get('held',0),'pending':len(state['pending']),'incidents':len(incidents),'collected':collected,'batch':attempt+1,'retryMinutes':RETRY_SECONDS//60,'voeOnly':len(voe_only_news(state,instant)),'voeRecheckPending':len(state.get('voeRecheck',{}))}))
     if not incoming['episodes'] and not newly_deferred:break
    if os.environ.get('ZZ_HELP_URL') and not proof:
-    # Device help only fills chapters the cloud asked for; a failing help service never blocks collection.
+    # Device help can suggest retries for missing chapters. The collector verifies them on a later run.
     try:
-     import help_chain;collected+=help_chain.pull(D,state,instant)['imported']
+     help_chain.pull(D,state,instant)
     except Exception as error:print(json.dumps({'helpChainError':type(error).__name__+': '+str(error)[:120]}))
    if '--publish' in sys.argv and not proof:
     # A few provider pages per run; a failing check never blocks the channel and never claims playback.

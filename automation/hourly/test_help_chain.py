@@ -1,5 +1,5 @@
 """Help chain (task 10): synthetic fixtures only; no provider, Worker or source requests."""
-import copy,datetime,json,tempfile,unittest
+import copy,datetime,gzip,json,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
 from cryptography.hazmat.primitives import hashes,serialization
@@ -87,56 +87,51 @@ class WantedTests(unittest.TestCase):
   self.assertEqual(len(urls),466);self.assertEqual(len(set(urls)),466)
   self.assertTrue(all(u.endswith('/1/') and u.rsplit('/',2)[0]+'/' in cat for u in urls))
 
-class AcceptTests(unittest.TestCase):
+class RetryTests(unittest.TestCase):
  def setUp(self):
   self.now=datetime.datetime.now(datetime.timezone.utc);self.state,_,self.urls=fixture(self.now)
  def test_only_asked_chapters(self):
-  a,b,c,d=self.urls;incoming,_,held=h.accept(answer(self.now,c),self.state,{b},self.now)
-  self.assertEqual(incoming['episodes'],{});self.assertIn(c,held)
- def test_held_import_has_provenance_and_is_not_news(self):
-  url='https://jkanime.net/ova-1/1/'
-  incoming,seen,held=h.accept(answer(self.now,url),self.state,{url},self.now,frozenset(),frozenset({url}))
-  ev=incoming['episodes'][url]['helpEvidence'];self.assertEqual(ev['provenance'],'redirect-same-series');self.assertEqual(ev['acceptedAt'],h.iso(self.now))
-  self.assertEqual(seen,{});self.assertTrue(incoming['listings']['https://jkanime.net/ova-1/']['helpListing'])
-  weak=answer(self.now,url,asns=1,devices=1);self.assertEqual(h.accept(weak,self.state,{url},self.now,frozenset(),frozenset({url}))[2],{url:'No option passed the help checks'})
- def test_never_replaces_a_stored_record(self):
-  a,b,c,d=self.urls;incoming,_,held=h.accept(answer(self.now,a),self.state,{a},self.now)
-  self.assertEqual(held[a],'Already stored')
+  _,b,c,_=self.urls
+  candidates,held=h.retry_candidates(answer(self.now,c),self.state,{b},self.now)
+  self.assertEqual(candidates,set());self.assertIn(c,held)
  def test_quorum_and_check_rules(self):
   b=self.urls[1]
-  for bad in [{'devices':1},{'asns':1},{'check':'none'},{'check':'quorum3','asns':2},{'family':'unknown'},{'url':'http://mega.nz/x'}]:
-   with self.subTest(bad=bad):self.assertEqual(h.accept(answer(self.now,b,**bad),self.state,{b},self.now)[0]['episodes'],{})
-  self.assertIn(b,h.accept(answer(self.now,b,check='quorum3',asns=3),self.state,{b},self.now)[0]['episodes'])
- def test_renew_replaces_only_asked_and_older_records(self):
-  a=self.urls[0];before=copy.deepcopy(self.state)
-  self.assertEqual(h.accept(answer(self.now,a),self.state,{a},self.now)[2][a],'Already stored')
-  older=self.now-datetime.timedelta(days=1);self.assertEqual(h.accept(answer(older,a),self.state,{a},self.now,frozenset({a}))[2][a],'Stored observation is newer')
+  for bad in [{'devices':1},{'asns':1},{'check':'none'},{'check':'quorum3','asns':2},{'url':'http://mega.nz/x'},{'devices':'2'}]:
+   with self.subTest(bad=bad):self.assertEqual(h.retry_candidates(answer(self.now,b,**bad),self.state,{b},self.now)[0],set())
+  self.assertEqual(h.retry_candidates(answer(self.now,b,check='quorum3',asns=3),self.state,{b},self.now)[0],{b})
+ def test_renewal_suggestion_preserves_the_old_record(self):
+  a=self.urls[0]
   self.state['episodes'][a]['observedAt']=h.iso(self.now-datetime.timedelta(days=9))
-  incoming,seen,held=h.accept(answer(self.now,a),self.state,{a},self.now,frozenset({a}))
-  self.assertEqual(incoming['episodes'][a]['providers'][0]['name'],'Mega');self.assertTrue(incoming['episodes'][a]['helpEvidence']['renewed']);self.assertEqual(seen,{})
+  before=copy.deepcopy(self.state)
   with tempfile.TemporaryDirectory() as folder:
    folder=Path(folder);h.record_published(folder,[{'url':a,'renew':True}],self.now)
-   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):r=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a),observe_fetch=worker)
-  self.assertEqual((r['imported'],r['renewed']),(1,1));self.assertEqual(self.state['newsSeen'][a],before['newsSeen'][a]);self.assertEqual(self.state['episodes'][a]['observedAt'],h.iso(self.now))
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations') as save:
+    report=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a),observe_fetch=worker)
+   save.assert_not_called()
+  self.assertEqual((report['imported'],report['queued']),(0,0))
+  self.assertEqual(self.state,before)
  def test_stale_or_future_acceptance_is_held(self):
   b=self.urls[1]
   for t in [self.now-datetime.timedelta(days=8),self.now+datetime.timedelta(hours=1)]:
-   self.assertEqual(h.accept(answer(t,b),self.state,{b},self.now)[0]['episodes'],{})
- def test_pull_keeps_listing_date_and_builds_minimal_listing(self):
-  a,b,c,d=self.urls;before=copy.deepcopy(self.state)
+   self.assertEqual(h.retry_candidates(answer(t,b),self.state,{b},self.now)[0],set())
+ def test_pull_saves_only_missing_chapter_ids_and_does_not_duplicate_them(self):
+  from archive_state import load,save
+  a,b,c,d=self.urls
+  self.state['pending']=[d]
+  data={'schema':1,'episodes':sum((answer(self.now,u)['episodes'] for u in (a,b,c,b)),[])}
+  before=copy.deepcopy(self.state)
   with tempfile.TemporaryDirectory() as folder:
-   folder=Path(folder);h.record_published(folder,[{'url':b},{'url':c}],self.now);data={'schema':1,'episodes':answer(self.now,b)['episodes']+answer(self.now,c)['episodes']}
-   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations') as save:
+   folder=Path(folder);save(folder,self.state)
+   h.record_published(folder,[{'url':a,'renew':True},{'url':b},{'url':c,'held':True}],self.now)
+   original={p.name:p.read_bytes() for p in (folder/'series-state').glob('*.json.gz')}
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}):
     report=h.pull(folder,self.state,self.now,fetch=lambda:data,observe_fetch=worker)
-   self.assertEqual(report['imported'],2);save.assert_called_once()
-   self.assertTrue(json.loads(Path(folder,'help-status.json').read_bytes())['imported']==2)
-  parent_b='https://jkanime.net/tokyo-revengers-santen-sensou-hen/';parent_c='https://jkanime.net/steel-ball-run-jojo-no-kimyou-na-bouken/'
-  self.assertEqual(self.state['listings'][parent_b]['observedAt'],before['listings'][parent_b]['observedAt'])
-  self.assertTrue(self.state['listings'][parent_c]['helpListing']);self.assertEqual(self.state['listings'][parent_c]['episodes'],[c])
-  self.assertEqual(self.state['newsSeen'][b],before['newsSeen'][b]);self.assertEqual(self.state['episodes'][a],before['episodes'][a])
-  # Imported options pass through the normal build once the app validator approves them.
-  link=self.state['episodes'][b]['providers'][0]['links'][0];approved={run.sha(('Mega\0'+link).encode()):True,**fixture(self.now)[1]}
-  index,_=run.build(self.state,approved,self.now);self.assertEqual(sum(x['episodes'] for x in index['series'].values()),3)
+    self.assertEqual((report['state'],report['imported'],report['queued']),('queued',0,2))
+    second=h.pull(folder,self.state,self.now,fetch=lambda:data,observe_fetch=worker)
+    self.assertEqual((second['state'],second['queued']),('unchanged',0))
+   self.assertEqual(load(folder)['pending'],[d,*sorted([b,c])])
+   self.assertEqual({p.name:p.read_bytes() for p in (folder/'series-state').glob('*.json.gz')},original)
+  self.assertEqual(self.state,{**before,'pending':[d,*sorted([b,c])]})
  def test_key_derives_from_collector_secret(self):
   import hmac,hashlib
   self.assertEqual(h.derived('help-key','s'),hmac.new(b's',b'zzanime-ayuda/help-key',hashlib.sha256).hexdigest());self.assertEqual(h.derived('help-key',''),'')
@@ -148,39 +143,89 @@ class AcceptTests(unittest.TestCase):
    with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}):r=h.pull(Path(folder),self.state,self.now,fetch=fail,observe_fetch=worker)
    self.assertEqual((r['state'],r['worker']['today']['devices'],r['deadReports']),('nothing-asked',3,1))
    self.assertEqual(json.loads(Path(folder,'dead-reports.json').read_bytes())['links'][0]['family'],'mega')
- def test_worker_summary_and_reports_never_block_the_import(self):
-  a=self.urls[0];self.state['episodes'][a]['observedAt']=h.iso(self.now-datetime.timedelta(days=9))
+ def test_worker_summary_and_reports_never_block_queuing(self):
+  b=self.urls[1]
   with tempfile.TemporaryDirectory() as folder:
-   folder=Path(folder);h.record_published(folder,[{'url':a,'renew':True}],self.now)
+   folder=Path(folder);h.record_published(folder,[{'url':b}],self.now)
    def down(path):raise OSError('worker down')
-   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):r=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,a),observe_fetch=down)
-   self.assertEqual(r['imported'],1);self.assertIn('worker down',r['worker']['error']);self.assertIsNone(r['deadReports']);self.assertFalse(Path(folder,'dead-reports.json').exists())
+   with patch.dict('os.environ',{'ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch.object(h,'save_observations'):
+    report=h.pull(folder,self.state,self.now,fetch=lambda:answer(self.now,b),observe_fetch=down)
+   self.assertEqual(report['queued'],1);self.assertIn('worker down',report['worker']['error'])
+   self.assertIsNone(report['deadReports']);self.assertFalse(Path(folder,'dead-reports.json').exists())
  def test_same_network_answers_need_three_zones_and_the_file_name(self):
   b=self.urls[1]
   for bad in [{'asns':1,'zones':2,'devices':3},{'asns':1,'zones':3,'devices':2},{'asns':1,'zones':3,'devices':3,'check':'quorum3'}]:
-   with self.subTest(bad=bad):self.assertEqual(h.accept(answer(self.now,b,**bad),self.state,{b},self.now)[0]['episodes'],{})
-  self.assertIn(b,h.accept(answer(self.now,b,asns=1,zones=3,devices=3),self.state,{b},self.now)[0]['episodes'])
+   with self.subTest(bad=bad):self.assertEqual(h.retry_candidates(answer(self.now,b,**bad),self.state,{b},self.now)[0],set())
+  self.assertEqual(h.retry_candidates(answer(self.now,b,asns=1,zones=3,devices=3),self.state,{b},self.now)[0],{b})
 
 class RunIntegrationTests(unittest.TestCase):
- def run_news_only(self,imported,error=None):
-  # Empty collector answer; only the help chain may bring something new.
-  import os
-  result={'passed':True,'primary':'unavailable','errors':{},'diagnostics':{},'recent':[],'state':{'episodes':{},'listings':{},'pending':[]}}
-  class Response:
-   def __enter__(self):return self
-   def __exit__(self,*args):pass
-   def read(self,*args):return json.dumps(result).encode()
-  class Built(Exception):pass
-  pull=patch.object(h,'pull',side_effect=error) if error else patch.object(h,'pull',return_value={'imported':imported})
-  with tempfile.TemporaryDirectory() as d,pull as puller,patch.object(run,'D',Path(d)),patch.object(run,'load_observations',return_value={'episodes':{},'listings':{},'newsSeen':{},'pending':[]}),patch.object(run,'save_observations'),patch.object(run,'compile_java',side_effect=Built),patch('run.NO_REDIRECT.open',return_value=Response()),patch.dict(os.environ,{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only','ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k'}),patch('sys.argv',['run.py','--news-only','--collect','--publish']),patch('link_health.check',return_value={'excluded':0}):
-   try:run.main();built=False
-   except Built:built=True
-   puller.assert_called_once()
-  return built
- def test_help_import_triggers_publication(self):
-  self.assertFalse(self.run_news_only(0));self.assertTrue(self.run_news_only(1))
- def test_failing_help_service_never_blocks(self):
-  self.assertFalse(self.run_news_only(0,error=OSError('help down')))
+ def test_two_confirmed_series_reach_the_signed_channel_with_their_own_options(self):
+  from archive_state import load,save
+  now=datetime.datetime.now(datetime.timezone.utc);state,_,(a,b,c,_)=fixture(now)
+  state['newsSeen'].pop(b)
+  state['newsSeen'].pop(c)
+  state['episodes'][a]['observedAt']=iso(now-datetime.timedelta(days=9))
+  existing_links=state['episodes'][a]['providers'][0]['links']
+  existing_links.append('https://www.mp4upload.com/embed-a-backup.html')
+  trusted={b:'https://www.mp4upload.com/embed-b.html',c:'https://www.mp4upload.com/embed-c.html'}
+  parents={u:u.rsplit('/',2)[0]+'/' for u in trusted}
+  episode=lambda u,v:{'episode':u,'complete':True,'observedAt':iso(now),'providers':[{'name':'Mp4upload','family':'mp4upload','links':[v]}]}
+  listings={parent:{'series':parent,'complete':True,'observedAt':iso(now),'episodes':[u]} for u,parent in parents.items()}
+  empty={'episodes':{},'listings':{},'pending':[]}
+  confirmed={'episodes':{u:episode(u,v) for u,v in trusted.items()},'listings':listings,'pending':[]}
+  data={'schema':1,'episodes':answer(now,b)['episodes']+answer(now,c)['episodes']}
+  next_collection=False
+  requests=[]
+  def collect(req,**kwargs):
+   request=json.loads(req.data);requests.append(request)
+   result={'passed':True,'primary':'unavailable','errors':{},'recent':[],'state':empty}
+   if next_collection and set(request['retry'])==set(trusted):result={**result,'state':confirmed}
+   from io import BytesIO
+   return BytesIO(json.dumps(result).encode())
+  def help_inbox(base,key,path):
+   return data if path=='/v1/accepted' else worker(path)
+  written={}
+  put=run.put
+  def keep_assets(path,body):
+   if path.parent.name=='series':written[path.name]=body
+   return put(path,body)
+  with tempfile.TemporaryDirectory() as d:
+   folder=Path(d);save(folder,state)
+   h.record_published(folder,[{'url':u} for u in trusted],now)
+   env={'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only','ZZ_HELP_URL':'https://help.invalid','ZZ_HELP_KEY':'k','ZZ_PROOF':'false','ZZ_SIGNING_KEY':''}
+   with patch.object(run,'D',folder),patch.object(run,'COLLECTION_BATCHES',1),patch('run.NO_REDIRECT.open',side_effect=collect),patch.object(h,'get',side_effect=help_inbox),patch.object(h,'held_chapters',return_value=[c]),patch.dict('os.environ',env,clear=False),patch('sys.argv',['run.py','--news-only','--collect']),patch.object(run,'put',side_effect=keep_assets):
+    run.main()
+    self.assertFalse((folder/'verification.json').exists())
+    self.assertEqual(set(load(folder)['pending']),set(trusted))
+    self.assertEqual(set(load(folder)['episodes']),{a})
+    run.main()
+    self.assertFalse((folder/'verification.json').exists())
+    self.assertEqual(set(load(folder)['pending']),set(trusted))
+    next_collection=True
+    run.main()
+   self.assertEqual(requests[0]['retry'],[])
+   self.assertEqual(set(requests[1]['retry']),set(trusted))
+   self.assertEqual(set(requests[2]['retry']),set(trusted))
+   saved=load(folder)
+   self.assertEqual(saved['episodes'][a],state['episodes'][a])
+   self.assertEqual(saved['pending'],[])
+   self.assertIn(b,saved['newsSeen'])
+   self.assertNotIn(c,saved['newsSeen'])
+   published={row['url']:row for body in written.values() for row in json.loads(gzip.decompress(body))['episodes']}
+   self.assertEqual(set(published),{a,b,c})
+   self.assertEqual([option['url'] for option in published[a]['options']],existing_links)
+   for u,v in trusted.items():
+    self.assertEqual(saved['episodes'][u],confirmed['episodes'][u])
+    self.assertIn(v,json.dumps(published[u]))
+    self.assertNotIn(data['episodes'][0]['options'][0]['url'],json.dumps(published[u]))
+   self.assertFalse(json.loads((folder/'verification.json').read_bytes())['published'])
+
+ def test_failing_help_service_never_blocks_a_news_check(self):
+  from io import BytesIO
+  empty={'passed':True,'primary':'unavailable','errors':{},'recent':[],'state':{'episodes':{},'listings':{},'pending':[]}}
+  with tempfile.TemporaryDirectory() as d,patch.object(h,'pull',side_effect=OSError('help down')) as puller,patch.object(run,'D',Path(d)),patch('run.NO_REDIRECT.open',return_value=BytesIO(json.dumps(empty).encode())),patch.dict('os.environ',{'ZZ_COLLECTOR_URL':'https://collector.invalid','ZZ_COLLECTOR_KEY':'test-only','ZZ_HELP_URL':'https://help.invalid'}),patch('sys.argv',['run.py','--news-only','--collect']):
+   run.main();puller.assert_called_once()
+   self.assertFalse((Path(d)/'verification.json').exists())
 
 class LegacyReaderTests(unittest.TestCase):
  def test_installed_readers_accept_signed_channel_with_wanted(self):
