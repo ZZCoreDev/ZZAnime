@@ -1,10 +1,36 @@
 'use strict';
 // Bounded public-document collection. Never visits a provider or downloads video.
 const fs=require('fs'),path=require('path');
+const {randomUUID}=require('node:crypto');
 const r=require('./lib/backup-rules.cjs'),p=require('./lib/fast-rules.cjs'),{Http}=require('./lib/fast-http.cjs');
 const HOME=__dirname,DATA=path.resolve(process.env.ZZ_DATA||path.join(HOME,'state'));
 const read=(file,fallback)=>fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):fallback;
 function save(file,value){fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file+'.tmp',JSON.stringify(value));fs.renameSync(file+'.tmp',file);}
+function readCooldown(file){
+ let fd;
+ try{
+  const entry=fs.lstatSync(file);
+  if(!entry.isFile())return 0;
+  const flags=fs.constants.O_RDONLY|(process.platform==='win32'?0:fs.constants.O_NOFOLLOW|fs.constants.O_NONBLOCK);
+  fd=fs.openSync(file,flags);
+  const opened=fs.fstatSync(fd);
+  if(!opened.isFile()||opened.dev!==entry.dev||opened.ino!==entry.ino||opened.size>1024)return 0;
+  const buffer=Buffer.alloc(opened.size);
+  const count=fs.readSync(fd,buffer,0,buffer.length,null);
+  const {notBefore}=JSON.parse(buffer.toString('utf8',0,count));
+  return Number.isFinite(notBefore)?notBefore:0;
+ }catch{return 0;}
+ finally{if(fd!==undefined)fs.closeSync(fd);}
+}
+function writeCooldown(file,notBefore){
+ const temp=file+'.'+randomUUID()+'.tmp';
+ const fd=fs.openSync(temp,'wx',0o600);
+ try{
+  try{fs.writeFileSync(fd,JSON.stringify({notBefore,reason:'source-rate-limit',ipRotation:false}));}
+  finally{fs.closeSync(fd);}
+  fs.renameSync(temp,file);
+ }finally{fs.rmSync(temp,{force:true});}
+}
 async function run(){
  fs.mkdirSync(DATA,{recursive:true});const now=Date.now(),known=new Map(read(path.join(HOME,'catalogue.json'),[]).map(x=>[x.url,x]));
  const state=read(path.join(DATA,'observations.json'),{schema:1,episodes:{},listings:{},pending:[]});
@@ -26,7 +52,8 @@ async function run(){
    return {status:response.status(),headers:new Headers(response.headers()),body:[body]};
   };
  }
- const http=new Http(500,{cooldownFile:path.join(DATA,'cooldown.json'),...transport});let budget=0;
+ const cooldown=path.join(fs.realpathSync(DATA),'cooldown.json');
+ const http=new Http(500,{...transport,notBefore:readCooldown(cooldown),persistCooldown:until=>writeCooldown(cooldown,until)});let budget=0;
  const get=http.get.bind(http);http.get=async(...args)=>{if(++budget>240)throw Object.assign(Error('Hourly request budget reached'),{stop:true});return get(...args);};
  const pending=new Set(state.pending),stats={schema:1,checkedAt:new Date(now).toISOString(),source:'jkanime.net',newEpisodes:0,reused:0,issues:0,unknownSeries:0,aiCalls:0,mediaDownloaded:false};
  try{

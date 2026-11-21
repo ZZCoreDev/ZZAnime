@@ -1,10 +1,10 @@
 'use strict';
 // Only public JK documents/API; no providers, JS execution, images or video requests.
-const MAX=4*1024*1024,fs=require('fs'),{rateBlocked,retryDelay}=require('./rate-rules.cjs');
+const MAX=4*1024*1024,{rateBlocked,retryDelay}=require('./rate-rules.cjs');
 class Http {
- constructor(gap=500,config={}){this.gap=gap;this.next=Promise.resolve();this.cookies=new Map();this.requests=0;this.bytes=0;this.lastStart=0;this.pauseUntil=0;this.config=config;this.now=config.now||Date.now;this.sleep=config.sleep||(ms=>new Promise(r=>setTimeout(r,ms)));this.fetch=config.fetch||fetch;if(config.cooldownFile){try{this.pauseUntil=JSON.parse(fs.readFileSync(config.cooldownFile)).notBefore||0;}catch{}}}
+ constructor(gap=500,config={}){this.gap=gap;this.next=Promise.resolve();this.cookies=new Map();this.requests=0;this.bytes=0;this.lastStart=0;this.pauseUntil=config.notBefore||0;this.config=config;this.now=config.now||Date.now;this.sleep=config.sleep||(ms=>new Promise(r=>setTimeout(r,ms)));this.fetch=config.fetch||fetch;}
  async turn(){let release;const previous=this.next;this.next=new Promise(r=>release=r);await previous;try{for(;;){while(this.pauseUntil>this.now()){if(this.config.onThrottle)this.config.onThrottle(this.pauseUntil);await this.sleep(Math.min(60000,this.pauseUntil-this.now()));}if(this.pauseUntil){this.pauseUntil=0;if(this.config.onResume)this.config.onResume();}const wait=this.lastStart?this.lastStart+this.gap-this.now():0;if(wait>0){await this.sleep(wait);continue;}this.lastStart=this.now();break;}}finally{release();}}
- pause(response,text){const until=this.now()+retryDelay(response.headers.get('retry-after'),text,this.now());this.pauseUntil=Math.max(this.pauseUntil,until);if(this.config.cooldownFile){const file=this.config.cooldownFile;fs.writeFileSync(file+'.tmp',JSON.stringify({notBefore:this.pauseUntil,reason:'source-rate-limit',ipRotation:false}));fs.renameSync(file+'.tmp',file);}if(this.config.onThrottle)this.config.onThrottle(this.pauseUntil);}
+ pause(response,text){const until=this.now()+retryDelay(response.headers.get('retry-after'),text,this.now());this.pauseUntil=Math.max(this.pauseUntil,until);this.config.persistCooldown?.(this.pauseUntil);if(this.config.onThrottle)this.config.onThrottle(this.pauseUntil);}
  async get(url,options={}){const u=new URL(url);if(u.protocol!=='https:'||!['jkanime.net','www.jkanime.net'].includes(u.hostname)||u.username||u.password||u.port||(!/^\/[a-zA-Z0-9_-]+\/(?:[1-9][0-9]*\/)?$/.test(u.pathname)&&!/^\/ajax\/episodes\/[0-9]+\/[0-9]+$/.test(u.pathname)&&u.pathname!=='/'))throw Error('HTTP target not approved');
  let current=url,hops=0;
  for(let attempt=0;attempt<4;attempt++){
