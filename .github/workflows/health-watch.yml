@@ -15,13 +15,15 @@ jobs:
     permissions:
       contents: write
       issues: write
-    if: github.repository == 'ZZCoreDev/ZZAnime'
+    if: github.repository == 'ZZCoreDev/ZZAnime' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
+          ref: ${{ github.sha }}
           path: code
+          persist-credentials: false
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         with:
           repository: ZZCoreDev/ZZAnime-datos
@@ -31,9 +33,14 @@ jobs:
           persist-credentials: false
       - name: Memoria del vigía (rama health-watch)
         working-directory: code
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p "$RUNNER_TEMP/memory"
-          if git fetch -q --depth 1 origin health-watch; then git show FETCH_HEAD:state.json > "$RUNNER_TEMP/memory/state.json" || true; fi
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          if ZZ_GIT_AUTH="AUTHORIZATION: basic $auth" git --config-env=http.https://github.com/.extraheader=ZZ_GIT_AUTH fetch -q --depth 1 origin health-watch; then
+            git show FETCH_HEAD:state.json > "$RUNNER_TEMP/memory/state.json" || true
+          fi
       - name: Resultado del probador de reproducción (rama playback-probe del repositorio privado)
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         continue-on-error: true
@@ -72,4 +79,4 @@ jobs:
           git config user.name 'ZZAnime automation' && git config user.email 'automation@users.noreply.github.com'
           git add state.json && git commit -q -m 'Memoria del vigía de salud'
           auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
-          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:health-watch
+          ZZ_GIT_AUTH="AUTHORIZATION: basic $auth" git --config-env=http.https://github.com/.extraheader=ZZ_GIT_AUTH push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" HEAD:health-watch
