@@ -204,18 +204,29 @@ export class Store{
   }
   return {status};
  }
- // Writes only when the device's vote for that option and day is new or changes, so repeats cost nothing.
+ // Request limits still cover replays. The row budget only counts new observations.
  play(items,limits,expires,day){
-  if(!this.take(limits,expires))return {limited:true};
-  const status={};
+  const dailyKey='playday:'+day, daily=limits.find(([key])=>key===dailyKey);
+  const account=limits.find(([key])=>key.startsWith('acct:'));
+  if(!this.take(limits.filter(([key])=>key!==dailyKey),expires))return {limited:true};
+  const rowLimits=[daily,account&&['playrows:'+account[0],account[1]]].filter(Boolean);
+  const available=Math.min(...rowLimits.map(([key,limit])=>
+   limit-(this.rows('SELECT n FROM counters WHERE k=?',key)[0]?.n||0)));
+  const status={};let added=0;
   for(const it of items){
-   if(!this.admitDevice(it.device,it.net,it.now)){status[it.url]='new-device-limit';continue;}
    const r=this.rows('SELECT ok,fail,net,voter FROM plays WHERE okey=? AND device=? AND day=?',it.okey,it.device,day)[0],ok=it.ok?1:0,fail=it.ok?0:1;
-   if(!r)this.sql.exec('INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net,voter) VALUES(?,?,?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail,it.net,it.voter);
+   if(!r&&added>=available){status[it.url]='limit';continue;}
+   if(!this.admitDevice(it.device,it.net,it.now)){status[it.url]='new-device-limit';continue;}
+   if(!r){
+    this.sql.exec('INSERT INTO plays(okey,device,day,episode,name,family,url,ok,fail,net,voter) VALUES(?,?,?,?,?,?,?,?,?,?,?)',it.okey,it.device,day,it.episode,it.name,it.family,it.url,ok,fail,it.net,it.voter);
+    added++;
+   }
    else if(r.voter!==it.voter)this.sql.exec('UPDATE plays SET episode=?,ok=?,fail=?,net=?,voter=? WHERE okey=? AND device=? AND day=?',it.episode,ok,fail,it.net,it.voter,it.okey,it.device,day);
    else if((ok&&!r.ok)||(fail&&!r.fail))this.sql.exec('UPDATE plays SET ok=MAX(ok,?),fail=MAX(fail,?),net=? WHERE okey=? AND device=? AND day=?',ok,fail,ok?it.net:r.net,it.okey,it.device,day);
    status[it.url]=r?'duplicate':'stored';
   }
+  if(added)this.take(rowLimits.map(([key,limit])=>[key,limit,added]),expires);
+  if(Object.values(status).every(value=>value==='limit'))return {limited:true};
   return {status};
  }
  // S2: a device can join a network's signals once known; new devices need a network and stay under that network's daily limit.
