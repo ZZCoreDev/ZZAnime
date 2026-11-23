@@ -1,7 +1,6 @@
 name: Probador de reproducción (diario)
 on:
-  schedule:
-    - cron: '23 5 * * *'
+  # 23/11/2026 (Robin): apagado; marcaba caídos servidores que funcionan. Se puede lanzar a mano.
   workflow_dispatch:
 permissions:
   contents: read

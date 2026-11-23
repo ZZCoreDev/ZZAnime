@@ -466,3 +466,13 @@ export async function handle(request,env,store,deps={}){
  if(request.method==='GET'&&url.pathname==='/')return new Response('ZZAnime ayuda entre dispositivos.',{headers:{'content-type':'text/plain; charset=utf-8'}});
  return json({error:'not-found'},404);
 }
+// 23/11/2026 (Robin): «Marcar como caído» desde la web. Only https://zzanime.uk and only /v1/dead may be called from a
+// browser; the session (Authorization) is still required by handle() exactly as for the app.
+const WEB_ORIGIN='https://zzanime.uk';
+export function webCors(request){return new URL(request.url).pathname==='/v1/dead'&&request.headers.get('origin')===WEB_ORIGIN;}
+export async function withWebCors(request,run){
+ const cors=webCors(request),allow=h=>{h.set('Access-Control-Allow-Origin',WEB_ORIGIN);h.set('Vary','Origin');return h;};
+ if(cors&&request.method==='OPTIONS')return new Response(null,{status:204,headers:allow(new Headers({'Access-Control-Allow-Methods':'POST','Access-Control-Allow-Headers':'authorization, content-type','Access-Control-Max-Age':'600'}))});
+ const r=await run();if(!cors)return r;
+ return new Response(r.body,{status:r.status,headers:allow(new Headers(r.headers))});
+}

@@ -1,4 +1,6 @@
 {
+  "checks": false,
+  "checksNote": "23/11/2026 (Robin): sin comprobación automática de enlaces (marcaba caídos enlaces que funcionan y los mandaba al final). Los enlaces caídos los avisa la gente con «Marcar como caído» y se revisan en el editor. Para volver a comprobar: checks true.",
   "withdraw": false,
   "withdrawNote": "16/11/2026 (Robin): la nube NO retira enlaces (aunque los compruebe para el semáforo). Si uno falla, la app pasa al siguiente. Los ya retirados vuelven en la siguiente publicación. Para reactivar la retirada: withdraw true.",
   "enabled": true,
