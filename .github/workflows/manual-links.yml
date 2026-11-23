@@ -51,6 +51,7 @@ jobs:
           ref: provider-data
           ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
           path: data-key
+          persist-credentials: false
           sparse-checkout: state/pc-import-status.json
           sparse-checkout-cone-mode: false
       - name: Guardar la memoria en el repositorio privado (un único commit, se reemplaza)

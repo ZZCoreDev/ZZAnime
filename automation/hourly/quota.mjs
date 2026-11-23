@@ -69,6 +69,8 @@ export class Quota{
    if(DEVICE.test(device)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'d:'+device,now).toArray().length)return Response.json({n:0,banned:true});
    const mark=this.sql.exec('select kind from marks where key=? and until>?',key,now).toArray()[0];
    if(mark)return Response.json({n:0,[mark.kind==='ban'?'banned':'exempt']:true});
+   // 23/11 (Aikido): the legacy series path also respects the owner's network bans, like /link and /onelink.
+   {const n=u.searchParams.get('ip')||'';if(NETKEY.test(n)&&this.sql.exec("select 1 from marks where key=? and kind='ban' and until>?",'n:'+n,now).toArray().length)return Response.json({n:0,banned:true,net:true});}
    const cap=Number(u.searchParams.get('cap'))||300,ban=Number(u.searchParams.get('ban'))||0,k=day+'|'+key;
    let n=this.mem.get(k);if(n===undefined){const row=this.sql.exec('select n from q where day=? and user=?',day,key).toArray()[0];n=row?row.n:0;}
    n++;this.mem.set(k,n);if(n%10===0||n===cap+1||n===ban+1)this.save(day,key,n);
@@ -256,7 +258,7 @@ export async function quotaAllows(env,{user='',ip='',ban=null,device='',fresh=fa
  const probe=enforce?gate(env,now):false;
  try{
   const stub=quotaStub(env),normal=user?Number(env.QUOTA_DAY)||300:Number(env.QUOTA_IP_DAY)||3000,cap=user&&fresh?Number(env.QUOTA_NEW_DAY)||60:normal,banAt=user?Number(env.QUOTA_BAN)||2*normal:0;
-  const x=await counterJson(env,stub,'https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:''));
+  const x=await counterJson(env,stub,'https://quota/hit?k='+encodeURIComponent(key)+'&cap='+cap+'&ban='+banAt+(dev?'&d='+dev:'')+(netOf(ip)?'&ip='+encodeURIComponent(netOf(ip)):''));
   if(x.exempt===true)return true;
   if(x.banned===true){if(enforce)remember(key,now);return !enforce;}
   if(!(Number.isSafeInteger(x.n)&&x.n>=1&&typeof x.over==='boolean'&&typeof x.ban==='boolean'))throw Error('counter shape');

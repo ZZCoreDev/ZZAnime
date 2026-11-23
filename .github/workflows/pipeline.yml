@@ -48,6 +48,8 @@ jobs:
         with:
           ref: dubbing-state
           path: data
+          # dubpipe guarda el estado con git push: necesita la credencial.
+          persist-credentials: true
       - name: Checkpoint inicial versionado
         if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
         run: |

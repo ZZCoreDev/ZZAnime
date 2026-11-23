@@ -3,7 +3,7 @@
 import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {handle,resetKeys,adminPath} from './channel_gate.mjs';
-import {Quota,linkAllows,forgetBans,humanOk,quizTarget,resetOwnerConf} from './quota.mjs';
+import {Quota,linkAllows,quotaAllows,forgetBans,humanOk,quizTarget,resetOwnerConf} from './quota.mjs';
 const b64=x=>Buffer.from(JSON.stringify(x)).toString('base64url');
 const tok=(amrAgo)=>b64({alg:'ES256'})+'.'+b64({sub:'owner',amr:amrAgo==null?[{method:'password',timestamp:Math.floor(Date.now()/1000)}]:[{method:'totp',timestamp:Math.floor(Date.now()/1000)-amrAgo}]})+'.firma';
 const db=new DatabaseSync(':memory:'),obj=new Quota({storage:{sql:{exec(q,...b){const s=db.prepare(q);if(/^\s*select/i.test(q)){const r=s.all(...b);return {toArray:()=>r};}s.run(...b);return {toArray:()=>[]};}}}});
@@ -43,6 +43,9 @@ await linkAllows(env,{user:'b',item:'x1',ip:'203.0.113.9'});
 await admin(tok(60),{action:'ban-net',ip:'203.0.113.9',hours:2});
 assert.equal(await linkAllows(env,{user:'b',item:'x1',ip:'203.0.113.9'}),'limit','even an opened series');assert.equal(await linkAllows(env,{user:'c',item:'x2',ip:'203.0.113.9'}),'limit');
 assert.equal(await linkAllows(env,{user:'c',item:'x2',ip:'198.51.100.1'}),'ok','other network fine');
+// 23/11 (Aikido): the legacy series path (quotaAllows) respects the same network ban
+forgetBans();assert.equal(await quotaAllows({...env,QUOTA_MODE:'enforce'},{user:'d',ip:'203.0.113.9'}),false,'legacy path: network ban');
+forgetBans();assert.equal(await quotaAllows({...env,QUOTA_MODE:'enforce'},{user:'d',ip:'198.51.100.1'}),true,'legacy path: other network fine');
 assert.equal((await (await admin(tok(null))).json()).netBans[0].net,'203.0.113.9');
 await admin(tok(60),{action:'unban-net',net:'203.0.113.9'});assert.equal(await linkAllows(env,{user:'c',item:'x3',ip:'203.0.113.9'}),'ok');
 // hCaptcha emergency switch: off → box + picture enough; on again → hCaptcha needed

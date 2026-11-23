@@ -36,6 +36,8 @@ jobs:
           ref: provider-data
           ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
           path: data
+          # Se guarda el estado con git push en esta rama: necesita la llave.
+          persist-credentials: true
       - name: Resultado del probador de reproducción (rama playback-probe del repositorio privado)
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
         continue-on-error: true

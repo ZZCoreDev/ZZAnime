@@ -32,6 +32,8 @@ jobs:
           ssh-key: ${{ secrets.ZZ_DATA_DEPLOY_KEY }}
           path: datos
           fetch-depth: 1
+          # La copia se guarda con git push: necesita la llave.
+          persist-credentials: true
       - name: ¿Hace falta copia? (solo en las vueltas programadas)
         id: due
         env:
