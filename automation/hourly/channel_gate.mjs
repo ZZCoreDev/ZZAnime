@@ -5,7 +5,7 @@
 import {quotaAllows,quotaReport,banSelf,quotaTally,linkAllows,oneLinkAllows,humanOk,QuotaUnavailable,hcaptchaVerify,hcaptchaMark,hcaptchaPassed,ownerCounter,netOf,resetOwnerConf} from './quota.mjs';
 export {Quota} from './quota.mjs';
 const ISSUER='https://zavtyglqhcfriqnnukqw.supabase.co/auth/v1',JWKS=ISSUER+'/.well-known/jwks.json';
-const PUBLIC=/^\/(?:(?:voe|extra|latino)\/)?channel\.json$/;
+const PUBLIC=/^\/(?:(?:voe|extra|latino)\/)?channel(?:-v2)?\.json$/; // 23/11: channel-v2.json = same payload, new key
 // 9/11: the editor's link-health view (owner_files.py), only for the editor owner with authenticator (zz_editor_access).
 const OWNER=/^\/owner\/(?:help-status|dead-reports|jk-copy|cloud-runs|semaforo|popular|link-health(?:-[0-9]{1,2})?)\.json$/;
 // Public project key of the app (also inside the APK): lets the owner check run as the caller.

@@ -359,7 +359,13 @@ def run_collection(work):
   try:latino_only={} if proof else latino_channel.render(D,now,key)
   except Exception as error:latino_only={};print(json.dumps({'latinoChannelError':type(error).__name__+': '+str(error)[:120]}))
   files.update(latino_only);latino_digest=next((n for n in latino_only if n.startswith('latino/indexes/')),None)
-  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/latino/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n/lista/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+  # 23/11/2026: every channel.json also gets channel-v2.json, signed with the new key (channel_v2.py).
+  import channel_v2
+  v2_added=channel_v2.add(files,public,os.environ.get('ZZ_SIGNING_KEY_V2',''),(W/'public-key-v2.der').read_bytes(),raw)
+  if v2_added:print(json.dumps({'channelV2':v2_added}))
+  # App 230+ only trusts channel-v2.json: a publication without it would leave those apps without new links.
+  if '--publish' in sys.argv and not v2_added:raise ValueError('V2 signing secret missing')
+  files['_headers']=b'/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/latino/channel.json\n  Cache-Control: public, max-age=300, must-revalidate\n/channel-v2.json\n  Cache-Control: public, max-age=300, must-revalidate\n/voe/channel-v2.json\n  Cache-Control: public, max-age=300, must-revalidate\n/extra/channel-v2.json\n  Cache-Control: public, max-age=300, must-revalidate\n/latino/channel-v2.json\n  Cache-Control: public, max-age=300, must-revalidate\n/indexes/*\n  Cache-Control: public, max-age=31536000, immutable\n/series/*\n  Cache-Control: public, max-age=31536000, immutable\n/lista/*\n  Cache-Control: public, max-age=31536000, immutable\n'
   files['robots.txt']=b'# ZZAnime: canal privado de la app. No se permite indexar, recopilar en masa ni entrenar IA.\nUser-agent: *\nContent-Signal: search=no, ai-train=no, ai-input=no\nDisallow: /\n'
   files['index.html']=b'<!doctype html><meta charset="utf-8"><title>ZZAnime</title><p>Canal de datos de ZZAnime.</p>'
   for n,b in files.items():put(assets/n,b)

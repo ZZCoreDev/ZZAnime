@@ -110,6 +110,7 @@ jobs:
           ZZ_HELP_URL: 'https://zzanime-ayuda.zzcoredev.workers.dev'
           ZZ_HELP_KEY: ${{ secrets.ZZ_HELP_KEY }}
           ZZ_SIGNING_KEY: ${{ secrets.ZZ_DATA_SIGNING_KEY }}
+          ZZ_SIGNING_KEY_V2: ${{ secrets.ZZ_DATA_SIGNING_KEY_V2 }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.ZZ_CLOUDFLARE_TOKEN }}
           ZZ_CHANNEL_KEY: ${{ secrets.ZZ_CHANNEL_KEY }}
           # Read-only list of this repo's runs for the editor's «Nube» card (owner_files.py).
