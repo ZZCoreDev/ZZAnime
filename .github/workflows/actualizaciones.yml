@@ -40,6 +40,7 @@ jobs:
         working-directory: automation/playback-probe
         run: |
           npm ci --ignore-scripts --no-audit --no-fund
+          npx playwright install --with-deps chromium   # el probador abre un Chromium sin ventana, como en playback-probe.yml
           node --test test_probe.mjs test_select_paths.mjs
       - name: Doblaje (dependencias con huella y pruebas)
         working-directory: automation/dubbing
