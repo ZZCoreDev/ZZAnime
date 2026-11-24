@@ -1,0 +1,65 @@
+# 24/11/2026 (Robin): zona «Actualizaciones» del editor.
+# Cada 30 minutos: informe de las actualizaciones de la nube (PR de Dependabot y sus pruebas) → Supabase; si en el editor
+# se pulsó «Actualizar todo lo seguro», integra SOLO lo seguro (ver automation/updates/informe.mjs); y borra la ayuda
+# cerrada de más de 6 meses. A mano (gh workflow run, desde el PC de Robin): guarda el informe del PC.
+# Escribe en la base con SUPABASE_DB_URL (el mismo secreto de la copia semanal); el editor no tiene llaves de GitHub.
+name: Informe de actualizaciones
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      informe_pc:
+        description: 'Informe del PC (JSON en base64). Vacío = solo revisar GitHub.'
+        required: false
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: informe-actualizaciones
+  cancel-in-progress: false
+jobs:
+  informe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+      checks: read
+    env:
+      DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      GH_TOKEN: ${{ github.token }}
+      INFORME_PC: ${{ inputs.informe_pc }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0 (node24)
+        with:
+          node-version: '22'
+      - name: Informe del PC (si lo ha mandado)
+        if: env.INFORME_PC != ''
+        run: |
+          node automation/updates/informe.mjs pc "$RUNNER_TEMP/pc.json"
+          psql "$DB_URL" -q -v ON_ERROR_STOP=1 -v r="$(cat "$RUNNER_TEMP/pc.json")" <<'SQL'
+          insert into zz_security.update_status(source,report,checked_at) values('pc',:'r'::jsonb,now())
+          on conflict (source) do update set report=excluded.report, checked_at=now();
+          SQL
+      - name: Orden «Actualizar todo lo seguro» del editor
+        run: |
+          ID=$(psql "$DB_URL" -Atq -v ON_ERROR_STOP=1 -c "select id from zz_security.update_requests where status='pending' order by id limit 1")
+          if [ -z "$ID" ]; then echo "Sin órdenes."; exit 0; fi
+          ESTADO=done
+          node automation/updates/informe.mjs merge - "$RUNNER_TEMP/merge.json" || ESTADO=failed
+          [ -s "$RUNNER_TEMP/merge.json" ] || echo '{"error":"no se pudo completar"}' > "$RUNNER_TEMP/merge.json"
+          psql "$DB_URL" -q -v ON_ERROR_STOP=1 -v id="$ID" -v st="$ESTADO" -v r="$(cat "$RUNNER_TEMP/merge.json")" <<'SQL'
+          update zz_security.update_requests set status=:'st', result=:'r'::jsonb, done_at=now() where id=:'id'::bigint and status='pending';
+          SQL
+      - name: Informe de GitHub y limpieza de la ayuda cerrada
+        run: |
+          node automation/updates/informe.mjs github "$RUNNER_TEMP/github.json"
+          psql "$DB_URL" -q -v ON_ERROR_STOP=1 -v r="$(cat "$RUNNER_TEMP/github.json")" <<'SQL'
+          insert into zz_security.update_status(source,report,checked_at) values('github',:'r'::jsonb,now())
+          on conflict (source) do update set report=excluded.report, checked_at=now();
+          select zz_security.help_cleanup();
+          SQL
