@@ -21,7 +21,10 @@ updates:
     directory: /automation/dubbing
     schedule: {interval: weekly, day: monday, time: "06:00", timezone: Europe/Madrid}
     groups:
-      python-pequenas: {patterns: ["*"], update-types: [minor, patch]}
+      # 24/11: torch y compañía van SIEMPRE juntos y aparte (versiones que deben casar entre sí; en el PC es la
+      # versión «+cpu»): nunca dentro de «pequeñas» y nunca se integran solos.
+      voz-doblaje: {patterns: ["torch", "torchaudio", "torchvision", "torchcodec", "transformers", "huggingface-hub", "huggingface_hub"]}
+      python-pequenas: {patterns: ["*"], exclude-patterns: ["torch*", "transformers", "huggingface*"], update-types: [minor, patch]}
     open-pull-requests-limit: 5
     commit-message: {prefix: "actualizacion"}
   - package-ecosystem: docker
