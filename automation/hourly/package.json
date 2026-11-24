@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "playwright": "1.56.1",
-    "wrangler": "4.152.0"
+    "wrangler": "4.168.0"
   }
 }
