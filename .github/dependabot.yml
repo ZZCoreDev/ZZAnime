@@ -1,0 +1,31 @@
+# 24/11/2026 (Robin): GitHub vigila las piezas de la nube y prepara sus actualizaciones cada lunes (muchos avisos de
+# Aikido venían de piezas viejas). Las pruebas están en .github/workflows/actualizaciones.yml: las pequeñas que pasan
+# las pruebas se integran solas; las grandes y las de Python (voz y doblaje, torch) esperan a que Robin las apruebe.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: {interval: weekly, day: monday, time: "06:00", timezone: Europe/Madrid}
+    groups:
+      acciones: {patterns: ["*"], update-types: [minor, patch]}
+    open-pull-requests-limit: 3
+    commit-message: {prefix: "actualizacion"}
+  - package-ecosystem: npm
+    directories: [/automation/hourly, /automation/playback-probe]
+    schedule: {interval: weekly, day: monday, time: "06:00", timezone: Europe/Madrid}
+    groups:
+      nube-pequenas: {patterns: ["*"], update-types: [minor, patch]}
+    open-pull-requests-limit: 5
+    commit-message: {prefix: "actualizacion"}
+  - package-ecosystem: pip
+    directory: /automation/dubbing
+    schedule: {interval: weekly, day: monday, time: "06:00", timezone: Europe/Madrid}
+    groups:
+      python-pequenas: {patterns: ["*"], update-types: [minor, patch]}
+    open-pull-requests-limit: 5
+    commit-message: {prefix: "actualizacion"}
+  - package-ecosystem: docker
+    directory: /automation/dubbing
+    schedule: {interval: weekly, day: monday, time: "06:00", timezone: Europe/Madrid}
+    open-pull-requests-limit: 2
+    commit-message: {prefix: "actualizacion"}

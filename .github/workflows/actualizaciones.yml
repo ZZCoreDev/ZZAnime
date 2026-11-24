@@ -1,0 +1,66 @@
+# 24/11/2026 (Robin): pruebas de las actualizaciones que prepara GitHub (Dependabot, ver .github/dependabot.yml).
+# - Pasa las mismas pruebas sin red que usan las tareas de la nube (Worker, capítulos, doblaje).
+# - Solo si TODAS pasan y la actualización es pequeña (minor/patch) de acciones o de npm, se integra sola en main.
+# - Lo grande (major), lo de Python (voz/doblaje con torch) y Docker NUNCA se integra solo: queda la PR para Robin.
+# - No usa secretos ni despliega nada; el permiso de escritura solo existe en el paso final de integrar.
+name: Pruebas de actualizaciones
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: actualizaciones-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  pruebas:
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0 (node24)
+        with:
+          node-version: '22'
+      - name: Capítulos nuevos (sin red)
+        working-directory: automation/hourly
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          python3 -m pip install cryptography==46.0.3
+          for t in test_cloud.py test_news_empty.py test_news_resilience.py test_voe_channel.py test_voe_consumer.py test_old_chapter_verify.py test_link_health.py test_flv_mega_build.py test_help_chain.py; do python3 "$t"; done
+          for t in test_identities.cjs test_flv_tokens.cjs test_source_diagnostics.cjs test_source_failure_cache.cjs test_title_entities.cjs; do node "$t"; done
+      - name: Worker de ayuda (sin red)
+        working-directory: automation/hourly
+        run: |
+          for t in test_help_worker test_submit_security test_signal_security test_help_session test_voter_quorum test_cors; do node --no-warnings "../help-worker/$t.mjs"; done
+          python3 -m unittest test_signal_security test_plays test_skip_marks test_single_renewal
+      - name: Probador de reproducción (sin red)
+        working-directory: automation/playback-probe
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          node --test test_probe.mjs test_select_paths.mjs
+      - name: Doblaje (dependencias con huella y pruebas)
+        working-directory: automation/dubbing
+        run: |
+          python3.12 -m pip --isolated install --index-url https://pypi.org/simple --only-binary=:all: --require-hashes -r requirements-ci.lock.txt
+          python3.12 -m unittest discover -s tests -v
+  integrar:
+    needs: pruebas
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - id: meta
+        uses: dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98 # v3.1.0 (node24)
+      - name: Integrar solo lo pequeño de acciones y npm
+        if: >-
+          steps.meta.outputs.update-type != 'version-update:semver-major' &&
+          (steps.meta.outputs.package-ecosystem == 'github_actions' || steps.meta.outputs.package-ecosystem == 'npm_and_yarn')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.html_url }}
+        run: gh pr merge "$PR" --squash --delete-branch
