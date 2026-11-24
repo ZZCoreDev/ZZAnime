@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 50
     steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v5.1.0 (node24)
         with:
           ref: ${{ github.sha }}
           persist-credentials: false
@@ -43,7 +43,7 @@ jobs:
           if ! gh api repos/ZZCoreDev/ZZAnime/git/ref/heads/dubbing-state >/dev/null 2>&1; then
             gh api --method POST repos/ZZCoreDev/ZZAnime/git/refs -f ref=refs/heads/dubbing-state -f sha="$(git rev-parse HEAD)"
           fi
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v5.1.0 (node24)
         if: inputs.dry_run != true && vars.ZZ_DUBBING_ENABLED == 'true'
         with:
           ref: dubbing-state

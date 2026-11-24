@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v5.1.0 (node24)
         with:
           repository: ZZCoreDev/ZZAnime-datos
           ref: provider-data
@@ -23,7 +23,7 @@ jobs:
           sparse-checkout: /state/published-assets/
           sparse-checkout-cone-mode: false
       - name: Resultado anterior (rama playback-probe del repositorio privado)
-        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v5.1.0 (node24)
         continue-on-error: true
         with:
           repository: ZZCoreDev/ZZAnime-datos
@@ -59,7 +59,7 @@ jobs:
                       raise SystemExit('Unexpected symbolic link at checkout')
                   shutil.rmtree(checkout)
           PY
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0 (node24)
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v5.1.0 (node24)
         with:
           ref: ${{ github.sha }}
           persist-credentials: false
