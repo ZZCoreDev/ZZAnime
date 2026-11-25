@@ -20,7 +20,7 @@ ctranslate2==4.9.0
 demucs==4.1.0
 einops==0.8.2
 faster-whisper==1.2.1
-filelock==4.2.12
+filelock==4.3.0
 flatbuffers==25.12.19
 frozenlist==1.8.0
 fsspec==2026.9.0
