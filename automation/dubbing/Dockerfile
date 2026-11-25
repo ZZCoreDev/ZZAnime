@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bookworm
+FROM python:3.15.2-slim-bookworm
 RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg rubberband-cli espeak-ng libgomp1 && rm -rf /var/lib/apt/lists/*
 WORKDIR /opt/zzdub
 COPY requirements*.txt ./
