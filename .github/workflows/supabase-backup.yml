@@ -34,6 +34,12 @@ jobs:
           fetch-depth: 1
           # La copia se guarda con git push: necesita la llave.
           persist-credentials: true
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v5.1.0 (node24)
+        with:
+          # solo para el certificado de Supabase (automation/supabase); sin llaves
+          path: codigo
+          sparse-checkout: automation/supabase
+          persist-credentials: false
       - name: ¿Hace falta copia? (solo en las vueltas programadas)
         id: due
         env:
@@ -70,6 +76,25 @@ jobs:
           umask 077
           [ -n "$DB_URL" ] && [ -n "$PASS" ] || { echo 'Faltan las llaves de la copia (Poner-llave-copia-supabase.cmd).'; exit 1; }
           [ ${#PASS} -ge 12 ] || { echo 'La contraseña de la copia es demasiado corta.'; exit 1; }
+          # 25/11/2026 (Robin): conexión con TLS VERIFICADO contra la autoridad propia de Supabase (Supabase Root 2021 CA, la
+          # misma que publica Supabase y que sirve su servidor; huella comprobada). Así nadie en medio puede hacerse pasar por la
+          # base y llevarse la contraseña o los datos. La URI de la llave manda sobre las variables PG*, por eso se reescribe.
+          CA="$GITHUB_WORKSPACE/codigo/automation/supabase/supabase-root-2021-ca.crt"
+          [ "$(openssl x509 -in "$CA" -noout -fingerprint -sha256 | cut -d= -f2)" = '80:70:25:AD:50:D4:ED:21:9D:2C:9C:7D:29:9C:00:4F:82:4E:B0:0C:F7:F6:5A:FE:F6:07:D0:7B:72:E6:CA:FA' ] || { echo 'El certificado de Supabase no es el esperado.'; exit 1; }
+          DB_URL=$(CA="$CA" python3 - <<'PY'
+          import os
+          from urllib.parse import parse_qsl, urlencode, urlsplit
+          tls = {'sslmode': 'verify-full', 'sslrootcert': os.environ['CA']}
+          try:
+              uri = urlsplit(os.environ['DB_URL'])
+              if uri.scheme not in ('postgres', 'postgresql') or not uri.hostname:
+                  raise ValueError
+              params = [(k, v) for k, v in parse_qsl(uri.query, keep_blank_values=True) if k not in tls]
+              print(uri._replace(query=urlencode(params + list(tls.items()))).geturl())
+          except ValueError:
+              raise SystemExit('Formato no válido para la dirección de la copia.') from None
+          PY
+          )
           BIN=/usr/lib/postgresql/17/bin; NAME="supabase-$(date -u +%Y%m%d-%H%M).dump"; WORK=$(mktemp -d); mkdir -p out
           # Esquemas propios y las cuentas (auth); si las cuentas no se pudieran leer, la copia sigue sin ellas y lo dice.
           if "$BIN/pg_dump" "$DB_URL" -Fc --no-owner -n public -n zz_editor -n zz_security -n auth -f "$WORK/$NAME" 2> "$WORK/err"; then SCOPE=completa
@@ -87,7 +112,7 @@ jobs:
           split -b 90m -d -a 2 "out/$NAME.enc" "out/$NAME.enc.part"
           cat "out/$NAME.enc.part"* | cmp -s - "out/$NAME.enc" || { echo 'Los trozos no coinciden con la copia.'; exit 1; }
           rm "out/$NAME.enc"
-          echo "Copia $SCOPE: $(cat "out/$NAME.enc.part"* | wc -c) bytes cifrados en $(ls -1 "out/$NAME.enc.part"* | wc -l) trozos, $(grep -c 'TABLE DATA' "$WORK/list") tablas con datos."
+          echo "Copia $SCOPE con TLS verificado: $(cat "out/$NAME.enc.part"* | wc -c) bytes cifrados en $(ls -1 "out/$NAME.enc.part"* | wc -l) trozos, $(grep -c 'TABLE DATA' "$WORK/list") tablas con datos."
           rm -rf "$WORK"
       - name: Guardar en el repositorio privado (4 últimas)
         if: steps.due.outputs.run == '1'
